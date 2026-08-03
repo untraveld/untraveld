@@ -257,7 +257,7 @@
 
   /* ---------- Hoja inferior deslizable ---------- */
   .sheet{
-    --peek: 252px;
+    --peek: 150px;
     position:absolute; left:0; right:0; margin:0 auto; max-width:480px;
     bottom: calc(68px + env(safe-area-inset-bottom));
     height: 72vh; z-index:700;
@@ -270,45 +270,59 @@
   .sheet.half{ transform: translateY(36vh); }
   .sheet.full{ transform: translateY(0); }
   .sheet.dragging{ transition:none; }
-  .sheet-grip{ padding:9px 0 4px; display:flex; justify-content:center; flex-shrink:0; cursor:grab; touch-action:none; }
+  .sheet-grip{ padding:11px 0 8px; display:flex; justify-content:center; flex-shrink:0; cursor:grab; touch-action:none; }
+  .sheet-grip:active i{ background: var(--text-low); }
   .sheet-grip i{ width:42px; height:4px; border-radius:4px; background: var(--line); display:block; }
-  .sheet-head{ padding: 2px 16px 8px; flex-shrink:0; }
+  .sheet-head{ padding: 0 16px 6px; flex-shrink:0; }
+  .sheet-filters{ display:none; }
+  .sheet.half .sheet-filters, .sheet.full .sheet-filters{ display:block; }
   .sheet-body{ flex:1; overflow-y:auto; padding: 0 16px 18px; -webkit-overflow-scrolling:touch; }
-  .sheet-progress{ display:flex; align-items:center; gap:12px; margin-bottom:4px; }
+  .sheet-progress{ display:flex; align-items:center; gap:11px; margin-bottom:2px; }
+  /* Versión reducida del progreso: en el mapa manda el mapa, no el marcador */
+  .sheet-progress .ring{ width:40px; height:40px; }
+  .sheet-progress .ring svg{ width:40px; height:40px; }
+  .sheet-progress .ring-label{ font-size:12px; }
+  .sheet-progress .progress-meta .t{ font-size:14px; margin-bottom:1px; }
+  .sheet-progress .progress-meta .s{ font-size:11.5px; line-height:1.35; }
   .poi-search{
-    width:100%; padding:12px 14px; border-radius:14px; border:1px solid var(--line);
-    background: var(--bg-panel-2); color:var(--text-hi); font-size:15px;
-    font-family:var(--body); margin:10px 0 10px;
+    width:100%; padding:10px 13px; border-radius:13px; border:1px solid var(--line);
+    background: var(--bg-panel-2); color:var(--text-hi); font-size:14.5px;
+    font-family:var(--body); margin:8px 0 8px;
   }
   .poi-search::placeholder{ color:var(--text-low); }
-  .chips{ display:flex; gap:8px; overflow-x:auto; padding-bottom:8px; }
+  .chips{ display:flex; gap:7px; overflow-x:auto; padding-bottom:6px; }
   .chip{
-    flex-shrink:0; padding:8px 13px; border-radius:100px; border:1px solid var(--line);
+    flex-shrink:0; padding:6px 11px; border-radius:100px; border:1px solid var(--line);
     background: var(--bg-panel-2); color: var(--text-mid); font-size:13px;
-    font-family:var(--body); cursor:pointer; white-space:nowrap;
+    font-family:var(--body); font-size:12.5px; cursor:pointer; white-space:nowrap;
   }
   .chip.on{
     background: linear-gradient(135deg, rgba(217,164,65,0.24), var(--bg-panel-2));
     border-color: var(--gold); color: var(--text-hi); font-weight:600;
   }
   .list-label{
-    font-size:11.5px; letter-spacing:1.6px; text-transform:uppercase;
-    color:var(--text-low); margin: 6px 2px 9px;
+    font-size:10.5px; letter-spacing:1.5px; text-transform:uppercase;
+    color:var(--text-low); margin: 2px 2px 7px;
   }
+  .sheet .poi-grid{ gap:8px; }
+  .sheet .poi-card{ padding:9px 12px; gap:11px; border-radius:14px; }
+  .sheet .poi-icon{ width:38px; height:38px; border-radius:11px; font-size:18px; }
+  .sheet .poi-name{ font-size:14px; }
+  .sheet .poi-tag{ font-size:11px; }
   .poi-dist{ font-family:var(--display); font-weight:700; font-size:13px; color:var(--violet); flex-shrink:0; }
   .poi-card.near{ border-color: var(--ok); background: linear-gradient(135deg, rgba(63,143,99,0.18), var(--bg-panel)); }
   .poi-card.near .poi-dist{ color: var(--ok); }
   .poi-empty{ text-align:center; color:var(--text-low); font-size:13.5px; padding:26px 10px; }
   .checkin-alert{
-    display:none; align-items:center; gap:12px; margin: 2px 0 8px;
+    display:none; align-items:center; gap:10px; margin: 4px 0 6px;
     background: linear-gradient(135deg, var(--gold-soft), var(--gold));
-    color: var(--text-hi); border-radius:16px; padding:11px 14px; cursor:pointer;
+    color: var(--text-hi); border-radius:14px; padding:9px 12px; cursor:pointer;
     box-shadow: 0 4px 16px rgba(217,164,65,0.4);
   }
   .checkin-alert.on{ display:flex; }
-  .checkin-alert .ci-ic{ font-size:23px; flex-shrink:0; }
-  .checkin-alert .ci-t{ font-family:var(--display); font-weight:700; font-size:14px; }
-  .checkin-alert .ci-s{ font-size:12px; opacity:0.75; }
+  .checkin-alert .ci-ic{ font-size:20px; flex-shrink:0; }
+  .checkin-alert .ci-t{ font-family:var(--display); font-weight:700; font-size:13px; }
+  .checkin-alert .ci-s{ font-size:11px; opacity:0.75; }
   /* La hoja tapa la esquina inferior: subimos la atribución de OSM para que siga visible */
   #tab-map.map-full .leaflet-control-attribution{
     position:absolute; bottom:auto; right:auto;
@@ -323,6 +337,19 @@
     padding:6px 12px; border-radius:100px; display:none; white-space:nowrap;
   }
   .map-radius-hint.on{ display:block; }
+  .map-toast{
+    position:absolute; left:50%; transform:translateX(-50%);
+    bottom: calc(78px + env(safe-area-inset-bottom)); z-index:900;
+    background: rgba(58,36,28,0.92); color:#fff; font-size:13px;
+    padding:10px 16px; border-radius:100px; max-width:88%; text-align:center;
+    opacity:0; pointer-events:none; transition: opacity .2s ease;
+  }
+  .map-toast.on{ opacity:1; }
+
+  /* Toques fiables: sin retardo de 300 ms ni zoom por doble toque en los controles */
+  button, .chip, .poi-card, .checkin-alert, .navbtn{ touch-action: manipulation; }
+  .chip:active{ transform: scale(0.96); }
+  .checkin-alert:active{ transform: scale(0.99); }
 
   /* ---------- Modal ---------- */
   .modal-backdrop{
@@ -578,6 +605,7 @@
       </div>
       <div class="map-brand">un<b>traveld</b></div>
       <div class="map-radius-hint" id="radiusHint">Acércate a menos de 20 m para hacer check-in</div>
+      <div class="map-toast" id="mapToast"></div>
 
       <div class="sheet" id="poiSheet">
         <div class="sheet-grip" id="sheetGrip"><i></i></div>
@@ -605,12 +633,14 @@
               <div class="s" id="greetSub">Explora la Región y desbloquea insignias reales</div>
             </div>
           </div>
+          <div class="sheet-filters">
           <input id="poiSearch" class="poi-search" placeholder="Buscar un punto…" autocomplete="off">
           <div class="chips" id="catChips">
             <button class="chip" data-cat="monuments">🏛️ Monumentos</button>
             <button class="chip" data-cat="food">🍽️ Comida</button>
             <button class="chip" data-cat="nature">🌿 Naturaleza</button>
             <button class="chip" data-cat="ocio">🎉 Ocio</button>
+          </div>
           </div>
         </div>
         <div class="sheet-body">
@@ -1250,29 +1280,22 @@
         </div>
         <div class="poi-dist">${d == null ? '' : formatDistance(d)}</div>
       `;
-      card.addEventListener('click', ()=>{
+      // Abrimos en pointerup y solo si el dedo apenas se ha movido: así un scroll de la
+      // lista no acaba abriendo la ficha de un punto por accidente.
+      let px = 0, py = 0;
+      card.addEventListener('pointerdown', (e)=>{ px = e.clientX; py = e.clientY; marcarInteraccion(); });
+      card.addEventListener('pointerup', (e)=>{
+        if(Math.hypot(e.clientX - px, e.clientY - py) > 12) return;
         centrarEnPunto(p);
         openModal(p, 'map');
       });
+      card.dataset.poiId = p.id;
       box.appendChild(card);
     });
 
     document.getElementById('listLabel').textContent = myPosition ? 'Cerca de ti' : 'Todos los puntos';
 
-    // Aviso de check-in disponible, siempre visible aunque la hoja esté plegada
-    const alcance = poiAlAlcance();
-    const alerta = document.getElementById('checkinAlert');
-    alerta.classList.toggle('on', !!alcance);
-    if(alcance){
-      document.getElementById('checkinAlertTitle').textContent = `Estás en ${alcance.poi.name}`;
-      alerta.onclick = ()=> openModal(alcance.poi, 'map');
-    }
-    // El aviso del radio solo aparece cuando ya estás rondando un punto: si no, estorba
-    const masCercano = list.find(x => x.d != null && !mine.includes(x.poi.id));
-    const rondando = !alcance && masCercano && masCercano.d < 150;
-    const hint = document.getElementById('radiusHint');
-    hint.classList.toggle('on', !!rondando);
-    if(rondando) hint.textContent = `${masCercano.poi.name} a ${formatDistance(masCercano.d)} — check-in a menos de ${CHECKIN_RADIUS_M} m`;
+    actualizarAvisos();
 
     // Progreso del grupo
     const count = mine.length;
@@ -1283,6 +1306,69 @@
     document.getElementById('greetSub').textContent = `Tu grupo "${groupState.name}" ha desbloqueado ${count} de ${pois().length}`;
     document.getElementById('groupLabel').textContent = `Tu grupo: ${groupState.name}`;
     document.getElementById('cityChip').innerHTML = `${groupState.name} <span class="chev">▾</span>`;
+  }
+
+  // Mientras el dedo está en la lista no reordenamos nada: si las tarjetas se mueven
+  // bajo el dedo, el toque acaba cayendo en otro punto o se pierde.
+  let ultimaInteraccion = 0;
+  function marcarInteraccion(){ ultimaInteraccion = Date.now(); }
+  function interactuando(){ return Date.now() - ultimaInteraccion < 1800; }
+
+  // Actualiza distancias y estados de las tarjetas ya pintadas, sin recrearlas.
+  function refrescarDistancias(){
+    const mine = myCheckins();
+    const box = document.getElementById('poiList');
+    const tarjetas = Array.from(box.children).filter(el => el.dataset.poiId);
+    if(!tarjetas.length) return;
+
+    tarjetas.forEach(card=>{
+      const p = poiById(card.dataset.poiId);
+      if(!p) return;
+      const d = distanceTo(p);
+      const unlocked = mine.includes(p.id);
+      const cerca = !unlocked && d != null && d <= CHECKIN_RADIUS_M;
+      card.classList.toggle('near', cerca);
+      card.querySelector('.poi-dist').textContent = d == null ? '' : formatDistance(d);
+      card.querySelector('.poi-tag').textContent = unlocked
+        ? 'Insignia conseguida'
+        : (cerca ? '¡Estás aquí! Toca para hacer check-in' : CAT_LABEL[p.cat]);
+    });
+
+    // Reordenamos moviendo los nodos existentes (conservan sus listeners), nunca recreándolos
+    if(!interactuando()){
+      const orden = poisOrdenados().map(x => x.poi.id);
+      const porId = new Map(tarjetas.map(c => [c.dataset.poiId, c]));
+      orden.forEach(id => { const c = porId.get(id); if(c) box.appendChild(c); });
+    }
+
+    actualizarAvisos();
+  }
+
+  // Aviso dorado de check-in disponible + pista del radio, compartidos por ambos repintados
+  function actualizarAvisos(){
+    const alcance = poiAlAlcance();
+    const alerta = document.getElementById('checkinAlert');
+    alerta.classList.toggle('on', !!alcance);
+    if(alcance){
+      document.getElementById('checkinAlertTitle').textContent = `Estás en ${alcance.poi.name}`;
+      alerta.onclick = ()=> openModal(alcance.poi, 'map');
+    }
+    const mine = myCheckins();
+    const masCercano = poisOrdenados().find(x => x.d != null && !mine.includes(x.poi.id));
+    const rondando = !alcance && masCercano && masCercano.d < 150;
+    const hint = document.getElementById('radiusHint');
+    hint.classList.toggle('on', !!rondando);
+    if(rondando) hint.textContent = `${masCercano.poi.name} a ${formatDistance(masCercano.d)} — check-in a menos de ${CHECKIN_RADIUS_M} m`;
+  }
+
+  let toastTimer = null;
+  function mostrarAviso(texto){
+    const t = document.getElementById('mapToast');
+    if(!t) return;
+    t.textContent = texto;
+    t.classList.add('on');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(()=> t.classList.remove('on'), 3200);
   }
 
   // ---------- Hoja inferior: estados, arrastre, filtros ----------
@@ -1353,7 +1439,14 @@
       renderGrid();
     });
     document.getElementById('poiSearch').addEventListener('focus', ()=> setSheet('full'));
-    document.getElementById('catChips').addEventListener('click', (e)=>{
+    document.querySelector('.sheet-body').addEventListener('pointerdown', marcarInteraccion);
+    document.querySelector('.sheet-body').addEventListener('scroll', marcarInteraccion, { passive:true });
+    const chips = document.getElementById('catChips');
+    let chipX = 0, chipY = 0;
+    chips.addEventListener('pointerdown', (e)=>{ chipX = e.clientX; chipY = e.clientY; });
+    chips.addEventListener('pointerup', (e)=>{
+      // Si se ha arrastrado la fila de chips para desplazarla, no cambiamos el filtro
+      if(Math.hypot(e.clientX - chipX, e.clientY - chipY) > 12) return;
       const chip = e.target.closest('.chip');
       if(!chip) return;
       const cat = chip.dataset.cat;
@@ -1663,6 +1756,7 @@
 
   let leafletMap = null;
   let leafletMarkersLayer = null;
+  let leafletYouLayer = null;   // tu posición vive en su propia capa: así se refresca sin tocar los pines
   let mapEncuadrado = false;   // solo encuadramos automáticamente la primera vez
   let watchId = null;          // seguimiento continuo de la posición mientras el mapa está abierto
 
@@ -1674,6 +1768,7 @@
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     }).addTo(leafletMap);
     leafletMarkersLayer = L.layerGroup().addTo(leafletMap);
+    leafletYouLayer = L.layerGroup().addTo(leafletMap);
   }
 
   function pinDivIcon(p, unlocked){
@@ -1727,14 +1822,8 @@
       boundsPoints.push([p.lat, p.lng]);
     });
 
-    if(myPosition){
-      L.marker([myPosition.lat, myPosition.lng], { icon: youDivIcon(), zIndexOffset: 1000 }).addTo(leafletMarkersLayer);
-      // Anillo del radio real de check-in: así se ve cuándo estás "dentro" de un punto
-      L.circle([myPosition.lat, myPosition.lng], {
-        radius: CHECKIN_RADIUS_M, color:'#7A66B8', weight:1, opacity:0.7, fillColor:'#7A66B8', fillOpacity:0.12
-      }).addTo(leafletMarkersLayer);
-      boundsPoints.push([myPosition.lat, myPosition.lng]);
-    }
+    if(myPosition) boundsPoints.push([myPosition.lat, myPosition.lng]);
+    dibujarMiPosicion();
 
     const encuadrar = () => {
       if(mapEncuadrado || !boundsPoints.length) return;
@@ -1747,14 +1836,35 @@
     setTimeout(()=>{ if(!leafletMap) return; leafletMap.invalidateSize(); encuadrar(); }, 120);
   }
 
-  // Seguimiento continuo: las distancias de la lista se actualizan solas mientras andas
+  // Solo se redibuja tu marca y el anillo de 20 m; los pines de los puntos se quedan quietos
+  function dibujarMiPosicion(){
+    if(!leafletYouLayer) return;
+    leafletYouLayer.clearLayers();
+    if(!myPosition) return;
+    L.marker([myPosition.lat, myPosition.lng], { icon: youDivIcon(), zIndexOffset: 1000 }).addTo(leafletYouLayer);
+    // Anillo del radio real de check-in: así se ve cuándo estás "dentro" de un punto
+    L.circle([myPosition.lat, myPosition.lng], {
+      radius: CHECKIN_RADIUS_M, color:'#7A66B8', weight:1, opacity:0.7, fillColor:'#7A66B8', fillOpacity:0.12
+    }).addTo(leafletYouLayer);
+  }
+
+  // Seguimiento continuo: las distancias de la lista se actualizan solas mientras andas.
+  // Repintar la lista entera en cada lectura del GPS hacía que los toques se perdieran,
+  // así que aquí solo movemos tu marca y refrescamos los textos ya pintados.
+  let ultimoRefresco = 0;
   function startWatchPosition(){
     if(watchId != null || !navigator.geolocation) return;
     watchId = navigator.geolocation.watchPosition(
       pos => {
-        myPosition = { lat: pos.coords.latitude, lng: pos.coords.longitude };
-        renderGrid();
-        renderMap();
+        const nueva = { lat: pos.coords.latitude, lng: pos.coords.longitude };
+        const movido = !myPosition || haversineMeters(myPosition.lat, myPosition.lng, nueva.lat, nueva.lng) > 3;
+        myPosition = nueva;
+        dibujarMiPosicion();
+        if(!movido) return;
+        const ahora = Date.now();
+        if(ahora - ultimoRefresco < 1500) return;
+        ultimoRefresco = ahora;
+        refrescarDistancias();
       },
       () => {},
       { enableHighAccuracy:true, maximumAge:5000, timeout:20000 }
@@ -1766,14 +1876,22 @@
     watchId = null;
   }
 
+  let buscandoPosicion = false;
   async function refreshMyPosition(){
+    if(buscandoPosicion) return;   // evita que dos toques seguidos lancen dos búsquedas
+    buscandoPosicion = true;
     const btn = document.getElementById('fabLocate');
     if(btn) btn.classList.add('busy');
     try{
       const coords = await getPosition();
       myPosition = { lat: coords.latitude, lng: coords.longitude };
       if(leafletMap) leafletMap.setView([myPosition.lat, myPosition.lng], 16, { animate:true });
-    }catch(e){ /* sin permiso o sin señal: se mantiene sin marca de ubicación */ }
+    }catch(err){
+      // Sin respuesta visible el botón parecía roto: ahora siempre decimos qué ha pasado
+      if(err && err.code === 1) mostrarAviso('Necesitamos permiso de ubicación para situarte en el mapa');
+      else mostrarAviso('No se pudo obtener tu ubicación. Inténtalo de nuevo.');
+    }
+    buscandoPosicion = false;
     if(btn) btn.classList.remove('busy');
     renderMap();
     renderGrid();
