@@ -215,11 +215,6 @@
     position:absolute; inset:6px; border-radius:50%; background: var(--map-you); box-shadow:0 0 0 2px #fff, 0 2px 6px rgba(0,0,0,0.4);
   }
   @keyframes mapYouPulse{ 0%{transform:scale(0.6); opacity:0.6;} 100%{transform:scale(2.4); opacity:0;} }
-  .map-legend{
-    display:flex; flex-wrap:wrap; gap:12px; font-size:11.5px; color:var(--text-mid);
-    align-items:center; padding: 2px 4px 8px;
-  }
-  .map-legend span{display:flex; align-items:center; gap:6px;}
   .dot-legend{width:10px; height:10px; border-radius:50%; display:inline-block;}
   .dot-legend.monuments{background: linear-gradient(135deg, #D2705E, var(--map-red));}
   .dot-legend.food{background: linear-gradient(135deg, #6FA0BC, var(--map-blue));}
@@ -227,7 +222,107 @@
   .dot-legend.ocio{background: linear-gradient(135deg, #C97AA8, var(--map-ocio));}
   .dot-legend.locked{background: rgba(138,58,31,0.15); border:1.5px dashed rgba(138,58,31,0.4);}
   .dot-legend.you{background: var(--map-you);}
-  #locateBtn{margin-bottom:12px;}
+
+
+  /* ---------- Mapa a pantalla completa (patrón Waze) ---------- */
+  #app.map-mode .topbar{ display:none; }
+  #tab-map.map-full{
+    position:fixed; inset:0; padding:0; margin:0; z-index:5; display:flex;
+  }
+  #tab-map.map-full .map-wrap{
+    position:absolute; inset:0; width:auto; height:auto; aspect-ratio:auto;
+    border:none; border-radius:0; box-shadow:none; margin:0;
+  }
+  .map-fab-col{
+    position:absolute; top:calc(env(safe-area-inset-top) + 14px); left:14px; z-index:600;
+    display:flex; flex-direction:column; gap:10px;
+  }
+  .map-fab{
+    width:46px; height:46px; border-radius:15px; border:1px solid var(--line);
+    background: var(--bg-panel); color:var(--text-hi); font-size:19px;
+    display:flex; align-items:center; justify-content:center; cursor:pointer;
+    box-shadow: 0 4px 14px rgba(58,36,28,0.22); transition: transform .1s ease;
+  }
+  .map-fab:active{ transform: scale(0.93); }
+  .map-fab.busy{ opacity:0.55; }
+  .map-brand{
+    position:absolute; top:calc(env(safe-area-inset-top) + 14px); right:14px; z-index:600;
+    display:flex; align-items:center; gap:7px; background: var(--bg-panel);
+    border:1px solid var(--line); border-radius:100px; padding:6px 13px 6px 7px;
+    box-shadow: 0 4px 14px rgba(58,36,28,0.18);
+    font-family:var(--display); font-weight:700; font-size:13px; letter-spacing:0.3px;
+  }
+  .map-brand img{ width:21px; height:21px; object-fit:contain; border-radius:7px; }
+  .map-brand b{ color: var(--gold); }
+
+  /* ---------- Hoja inferior deslizable ---------- */
+  .sheet{
+    --peek: 252px;
+    position:absolute; left:0; right:0; margin:0 auto; max-width:480px;
+    bottom: calc(68px + env(safe-area-inset-bottom));
+    height: 72vh; z-index:700;
+    background: var(--bg-panel); border:1px solid var(--line); border-bottom:none;
+    border-radius:22px 22px 0 0; box-shadow: 0 -10px 30px rgba(58,36,28,0.20);
+    display:flex; flex-direction:column; overflow:hidden;
+    transform: translateY(calc(72vh - var(--peek)));
+    transition: transform .26s cubic-bezier(.22,.9,.3,1);
+  }
+  .sheet.half{ transform: translateY(36vh); }
+  .sheet.full{ transform: translateY(0); }
+  .sheet.dragging{ transition:none; }
+  .sheet-grip{ padding:9px 0 4px; display:flex; justify-content:center; flex-shrink:0; cursor:grab; touch-action:none; }
+  .sheet-grip i{ width:42px; height:4px; border-radius:4px; background: var(--line); display:block; }
+  .sheet-head{ padding: 2px 16px 8px; flex-shrink:0; }
+  .sheet-body{ flex:1; overflow-y:auto; padding: 0 16px 18px; -webkit-overflow-scrolling:touch; }
+  .sheet-progress{ display:flex; align-items:center; gap:12px; margin-bottom:4px; }
+  .poi-search{
+    width:100%; padding:12px 14px; border-radius:14px; border:1px solid var(--line);
+    background: var(--bg-panel-2); color:var(--text-hi); font-size:15px;
+    font-family:var(--body); margin:10px 0 10px;
+  }
+  .poi-search::placeholder{ color:var(--text-low); }
+  .chips{ display:flex; gap:8px; overflow-x:auto; padding-bottom:8px; }
+  .chip{
+    flex-shrink:0; padding:8px 13px; border-radius:100px; border:1px solid var(--line);
+    background: var(--bg-panel-2); color: var(--text-mid); font-size:13px;
+    font-family:var(--body); cursor:pointer; white-space:nowrap;
+  }
+  .chip.on{
+    background: linear-gradient(135deg, rgba(217,164,65,0.24), var(--bg-panel-2));
+    border-color: var(--gold); color: var(--text-hi); font-weight:600;
+  }
+  .list-label{
+    font-size:11.5px; letter-spacing:1.6px; text-transform:uppercase;
+    color:var(--text-low); margin: 6px 2px 9px;
+  }
+  .poi-dist{ font-family:var(--display); font-weight:700; font-size:13px; color:var(--violet); flex-shrink:0; }
+  .poi-card.near{ border-color: var(--ok); background: linear-gradient(135deg, rgba(63,143,99,0.18), var(--bg-panel)); }
+  .poi-card.near .poi-dist{ color: var(--ok); }
+  .poi-empty{ text-align:center; color:var(--text-low); font-size:13.5px; padding:26px 10px; }
+  .checkin-alert{
+    display:none; align-items:center; gap:12px; margin: 2px 0 8px;
+    background: linear-gradient(135deg, var(--gold-soft), var(--gold));
+    color: var(--text-hi); border-radius:16px; padding:11px 14px; cursor:pointer;
+    box-shadow: 0 4px 16px rgba(217,164,65,0.4);
+  }
+  .checkin-alert.on{ display:flex; }
+  .checkin-alert .ci-ic{ font-size:23px; flex-shrink:0; }
+  .checkin-alert .ci-t{ font-family:var(--display); font-weight:700; font-size:14px; }
+  .checkin-alert .ci-s{ font-size:12px; opacity:0.75; }
+  /* La hoja tapa la esquina inferior: subimos la atribución de OSM para que siga visible */
+  #tab-map.map-full .leaflet-control-attribution{
+    position:absolute; bottom:auto; right:auto;
+    top: calc(env(safe-area-inset-top) + 118px); left:14px;
+    background: rgba(251,246,237,0.85); border-radius:8px; padding:2px 7px;
+  }
+  #tab-map.map-full .leaflet-bottom{ bottom:auto; }
+  .map-radius-hint{
+    position:absolute; left:50%; transform:translateX(-50%);
+    top:calc(env(safe-area-inset-top) + 74px); z-index:590;
+    background: rgba(58,36,28,0.82); color:#fff; font-size:11.5px;
+    padding:6px 12px; border-radius:100px; display:none; white-space:nowrap;
+  }
+  .map-radius-hint.on{ display:block; }
 
   /* ---------- Modal ---------- */
   .modal-backdrop{
@@ -473,50 +568,55 @@
       <button class="city-chip" id="cityChip">Grupo <span class="chev">▾</span></button>
     </div>
 
-    <!-- HOME TAB -->
-    <div id="tab-home" class="tabpanel">
-      <div class="progress-card">
-        <div class="ring">
-          <svg width="64" height="64" viewBox="0 0 64 64">
-            <circle cx="32" cy="32" r="27" fill="none" stroke="#E4D9C5" stroke-width="7"/>
-            <circle id="ringFill" cx="32" cy="32" r="27" fill="none" stroke="url(#gradRing)" stroke-width="7" stroke-linecap="round" stroke-dasharray="169.6" stroke-dashoffset="169.6"/>
-            <defs><linearGradient id="gradRing" x1="0" y1="0" x2="1" y2="1">
-              <stop offset="0%" stop-color="#C9622F"/><stop offset="100%" stop-color="#D9A441"/>
-            </linearGradient></defs>
-          </svg>
-          <span class="ring-label" id="ringLabel">0/10</span>
-        </div>
-        <div class="progress-meta">
-          <div class="t" id="greetLine">Hola 👋</div>
-          <div class="s" id="greetSub">Explora la ciudad y desbloquea insignias reales</div>
-        </div>
-      </div>
-
-      <div class="section-label" id="labelMonuments">Monumentos</div>
-      <div class="poi-grid" id="grid-monuments"></div>
-
-      <div class="section-label" id="labelFood">Comida &amp; Souvenirs</div>
-      <div class="poi-grid" id="grid-food"></div>
-
-      <div class="section-label" id="labelNature">Naturaleza</div>
-      <div class="poi-grid" id="grid-nature"></div>
-
-      <div class="section-label" id="labelOcio">Ocio</div>
-      <div class="poi-grid" id="grid-ocio"></div>
-    </div>
-
-    <!-- MAP TAB -->
+    <!-- MAP TAB (mapa + hoja de puntos cercanos) -->
     <div id="tab-map" class="tabpanel" style="display:none;">
-      <div class="section-label">Mapa de exploración</div>
-      <button class="btn btn-ghost" id="locateBtn">📍 Actualizar mi ubicación</button>
       <div class="map-wrap" id="leafletMap"></div>
-      <div class="map-legend">
-        <span><i class="dot-legend monuments"></i> Monumentos y plazas</span>
-        <span><i class="dot-legend food"></i> Restauración</span>
-        <span><i class="dot-legend nature"></i> Naturaleza</span>
-        <span><i class="dot-legend ocio"></i> Ocio</span>
-        <span><i class="dot-legend locked"></i> Sin descubrir</span>
-        <span><i class="dot-legend you"></i> Tu ubicación</span>
+
+      <div class="map-fab-col">
+        <button class="map-fab" id="fabFilters" title="Filtros">☰</button>
+        <button class="map-fab" id="fabLocate" title="Centrar en mí">➤</button>
+      </div>
+      <div class="map-brand">un<b>traveld</b></div>
+      <div class="map-radius-hint" id="radiusHint">Acércate a menos de 20 m para hacer check-in</div>
+
+      <div class="sheet" id="poiSheet">
+        <div class="sheet-grip" id="sheetGrip"><i></i></div>
+        <div class="sheet-head">
+          <div class="checkin-alert" id="checkinAlert">
+            <span class="ci-ic">📍</span>
+            <div>
+              <div class="ci-t" id="checkinAlertTitle">Estás en un punto</div>
+              <div class="ci-s">Toca para hacer check-in</div>
+            </div>
+          </div>
+          <div class="sheet-progress">
+            <div class="ring">
+              <svg width="64" height="64" viewBox="0 0 64 64">
+                <circle cx="32" cy="32" r="27" fill="none" stroke="#E4D9C5" stroke-width="7"/>
+                <circle id="ringFill" cx="32" cy="32" r="27" fill="none" stroke="url(#gradRing)" stroke-width="7" stroke-linecap="round" stroke-dasharray="169.6" stroke-dashoffset="169.6"/>
+                <defs><linearGradient id="gradRing" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#C9622F"/><stop offset="100%" stop-color="#D9A441"/>
+                </linearGradient></defs>
+              </svg>
+              <span class="ring-label" id="ringLabel">0/10</span>
+            </div>
+            <div class="progress-meta">
+              <div class="t" id="greetLine">Hola 👋</div>
+              <div class="s" id="greetSub">Explora la Región y desbloquea insignias reales</div>
+            </div>
+          </div>
+          <input id="poiSearch" class="poi-search" placeholder="Buscar un punto…" autocomplete="off">
+          <div class="chips" id="catChips">
+            <button class="chip" data-cat="monuments">🏛️ Monumentos</button>
+            <button class="chip" data-cat="food">🍽️ Comida</button>
+            <button class="chip" data-cat="nature">🌿 Naturaleza</button>
+            <button class="chip" data-cat="ocio">🎉 Ocio</button>
+          </div>
+        </div>
+        <div class="sheet-body">
+          <div class="list-label" id="listLabel">Cerca de ti</div>
+          <div class="poi-grid" id="poiList"></div>
+        </div>
       </div>
     </div>
 
@@ -588,8 +688,7 @@
     </div>
 
     <div class="bottomnav">
-      <button class="navbtn active" data-tab="home"><span class="ic">🧭</span>Explorar</button>
-      <button class="navbtn" data-tab="map"><span class="ic">🗺️</span>Mapa</button>
+      <button class="navbtn active" data-tab="map"><span class="ic">🗺️</span>Mapa</button>
       <button class="navbtn" data-tab="group"><span class="ic">🏆</span>Grupo</button>
       <button class="navbtn" data-tab="chat"><span class="ic">💬</span>Chat</button>
       <button class="navbtn" data-tab="itinerary"><span class="ic">🗓️</span>Itin.</button>
@@ -1086,51 +1185,187 @@
     return (groupState && groupState.contributions) ? Object.keys(groupState.contributions) : [];
   }
 
-  const CATEGORY_SECTIONS = [
-    { cat:'monuments', labelId:'labelMonuments', gridId:'grid-monuments' },
-    { cat:'food',       labelId:'labelFood',      gridId:'grid-food' },
-    { cat:'nature',     labelId:'labelNature',    gridId:'grid-nature' },
-    { cat:'ocio',       labelId:'labelOcio',      gridId:'grid-ocio' },
-  ];
+  const CAT_LABEL = {
+    monuments: 'Monumentos y plazas',
+    food:      'Restauración',
+    nature:    'Naturaleza',
+    ocio:      'Ocio'
+  };
+
+  // Filtros activos de la hoja inferior (vacío = todas las categorías)
+  const activeCats = new Set();
+
+  // Distancia a cada punto desde la última posición conocida (null si aún no hay ubicación)
+  function distanceTo(p){
+    if(!myPosition) return null;
+    return haversineMeters(myPosition.lat, myPosition.lng, p.lat, p.lng);
+  }
+
+  // El punto sin desbloquear más cercano dentro del radio de check-in, si lo hay
+  function poiAlAlcance(){
+    if(!myPosition) return null;
+    const mine = myCheckins();
+    let best = null;
+    pois().forEach(p=>{
+      if(mine.includes(p.id)) return;
+      const d = distanceTo(p);
+      if(d <= CHECKIN_RADIUS_M && (!best || d < best.d)) best = { poi:p, d };
+    });
+    return best;
+  }
+
+  // Lista ordenada por cercanía, aplicando búsqueda y filtros de categoría
+  function poisOrdenados(){
+    const q = (document.getElementById('poiSearch').value || '').trim().toLowerCase();
+    let list = pois().map(p => ({ poi:p, d: distanceTo(p) }));
+    if(activeCats.size) list = list.filter(x => activeCats.has(x.poi.cat));
+    if(q) list = list.filter(x => (x.poi.name + ' ' + x.poi.desc).toLowerCase().includes(q));
+    list.sort((a,b)=>{
+      if(a.d == null || b.d == null) return a.poi.name.localeCompare(b.poi.name);
+      return a.d - b.d;
+    });
+    return list;
+  }
 
   function renderGrid(){
     const mine = myCheckins();
-    const mkCard = (p) => {
+    const list = poisOrdenados();
+    const box = document.getElementById('poiList');
+    box.innerHTML = '';
+
+    if(!list.length){
+      box.innerHTML = '<div class="poi-empty">Ningún punto coincide con la búsqueda.</div>';
+    }
+    list.forEach(({poi:p, d})=>{
       const unlocked = mine.includes(p.id);
+      const cerca = !unlocked && d != null && d <= CHECKIN_RADIUS_M;
       const card = document.createElement('div');
-      card.className = 'poi-card' + (unlocked ? ' unlocked' : '');
-      let tag = unlocked ? 'Insignia conseguida' : 'Sin explorar';
-      if(!unlocked && myPosition){
-        tag += ` · ${formatDistance(haversineMeters(myPosition.lat, myPosition.lng, p.lat, p.lng))}`;
-      }
+      card.className = 'poi-card' + (unlocked ? ' unlocked' : '') + (cerca ? ' near' : '');
+      const tag = unlocked ? 'Insignia conseguida' : (cerca ? '¡Estás aquí! Toca para hacer check-in' : CAT_LABEL[p.cat]);
       card.innerHTML = `
         <div class="poi-icon">${p.icon}</div>
         <div class="poi-info">
-          <div class="poi-name">${p.name}</div>
+          <div class="poi-name">${escapeHtml(p.name)}</div>
           <div class="poi-tag">${tag}</div>
         </div>
-        <div class="poi-status">${unlocked ? '✓' : '🔒'}</div>
+        <div class="poi-dist">${d == null ? '' : formatDistance(d)}</div>
       `;
-      card.addEventListener('click', ()=> openModal(p));
-      return card;
-    };
-    CATEGORY_SECTIONS.forEach(({cat, labelId, gridId})=>{
-      const items = pois().filter(p=> p.cat === cat);
-      const grid = document.getElementById(gridId);
-      grid.innerHTML = '';
-      items.forEach(p=> grid.appendChild(mkCard(p)));
-      document.getElementById(labelId).style.display = items.length ? 'flex' : 'none';
+      card.addEventListener('click', ()=>{
+        centrarEnPunto(p);
+        openModal(p, 'map');
+      });
+      box.appendChild(card);
     });
 
+    document.getElementById('listLabel').textContent = myPosition ? 'Cerca de ti' : 'Todos los puntos';
+
+    // Aviso de check-in disponible, siempre visible aunque la hoja esté plegada
+    const alcance = poiAlAlcance();
+    const alerta = document.getElementById('checkinAlert');
+    alerta.classList.toggle('on', !!alcance);
+    if(alcance){
+      document.getElementById('checkinAlertTitle').textContent = `Estás en ${alcance.poi.name}`;
+      alerta.onclick = ()=> openModal(alcance.poi, 'map');
+    }
+    // El aviso del radio solo aparece cuando ya estás rondando un punto: si no, estorba
+    const masCercano = list.find(x => x.d != null && !mine.includes(x.poi.id));
+    const rondando = !alcance && masCercano && masCercano.d < 150;
+    const hint = document.getElementById('radiusHint');
+    hint.classList.toggle('on', !!rondando);
+    if(rondando) hint.textContent = `${masCercano.poi.name} a ${formatDistance(masCercano.d)} — check-in a menos de ${CHECKIN_RADIUS_M} m`;
+
+    // Progreso del grupo
     const count = mine.length;
     document.getElementById('ringLabel').textContent = `${count}/${pois().length}`;
     const circumference = 169.6;
-    const offset = circumference - (count/pois().length)*circumference;
-    document.getElementById('ringFill').style.strokeDashoffset = offset;
+    document.getElementById('ringFill').style.strokeDashoffset = circumference - (count/pois().length)*circumference;
     document.getElementById('greetLine').textContent = `Hola, ${myName} 👋`;
     document.getElementById('greetSub').textContent = `Tu grupo "${groupState.name}" ha desbloqueado ${count} de ${pois().length}`;
     document.getElementById('groupLabel').textContent = `Tu grupo: ${groupState.name}`;
     document.getElementById('cityChip').innerHTML = `${groupState.name} <span class="chev">▾</span>`;
+  }
+
+  // ---------- Hoja inferior: estados, arrastre, filtros ----------
+  function setSheet(state){
+    const s = document.getElementById('poiSheet');
+    s.classList.remove('half','full');
+    if(state === 'half' || state === 'full') s.classList.add(state);
+  }
+
+  function initSheet(){
+    const sheet = document.getElementById('poiSheet');
+    const grip = document.getElementById('sheetGrip');
+
+    const estadoActual = ()=> sheet.classList.contains('full') ? 'full'
+                            : sheet.classList.contains('half') ? 'half' : 'peek';
+    const peekPx = ()=> parseFloat(getComputedStyle(sheet).getPropertyValue('--peek')) || 252;
+    const posDe = (estado)=>{
+      const alto = sheet.offsetHeight;
+      if(estado === 'full') return 0;
+      if(estado === 'half') return window.innerHeight * 0.36;
+      return alto - peekPx();
+    };
+    const posActual = ()=>{
+      const m = getComputedStyle(sheet).transform;
+      if(!m || m === 'none') return 0;
+      const partes = m.match(/matrix\(([^)]+)\)/);
+      return partes ? parseFloat(partes[1].split(',')[5]) : 0;
+    };
+
+    let inicioY = null, base = 0, tope = 0;
+
+    grip.addEventListener('pointerdown', (e)=>{
+      inicioY = e.clientY;
+      base = posActual();
+      tope = posDe('peek');
+      sheet.classList.add('dragging');
+      grip.setPointerCapture(e.pointerId);
+    });
+    grip.addEventListener('pointermove', (e)=>{
+      if(inicioY == null) return;
+      const y = Math.min(Math.max(base + (e.clientY - inicioY), 0), tope);
+      sheet.style.transform = `translateY(${y}px)`;
+    });
+    const soltar = (e)=>{
+      if(inicioY == null) return;
+      const dy = e.clientY - inicioY;
+      const y = posActual();
+      inicioY = null;
+      sheet.classList.remove('dragging');
+      sheet.style.transform = '';
+
+      // Un toque corto sobre el asa alterna entre plegada y media
+      if(Math.abs(dy) < 6){
+        setSheet(estadoActual() === 'peek' ? 'half' : 'peek');
+        return;
+      }
+      // Arrastre: nos quedamos con la posición más cercana
+      const opciones = ['peek','half','full']
+        .map(estado => ({ estado, dist: Math.abs(posDe(estado) - y) }))
+        .sort((a,b)=> a.dist - b.dist);
+      setSheet(opciones[0].estado);
+    };
+    grip.addEventListener('pointerup', soltar);
+    grip.addEventListener('pointercancel', soltar);
+
+    document.getElementById('poiSearch').addEventListener('input', ()=>{
+      setSheet('full');
+      renderGrid();
+    });
+    document.getElementById('poiSearch').addEventListener('focus', ()=> setSheet('full'));
+    document.getElementById('catChips').addEventListener('click', (e)=>{
+      const chip = e.target.closest('.chip');
+      if(!chip) return;
+      const cat = chip.dataset.cat;
+      if(activeCats.has(cat)) activeCats.delete(cat); else activeCats.add(cat);
+      chip.classList.toggle('on', activeCats.has(cat));
+      renderGrid();
+      renderMap();
+    });
+    document.getElementById('fabFilters').addEventListener('click', ()=>{
+      setSheet(estadoActual() === 'peek' ? 'half' : 'peek');
+    });
+    document.getElementById('fabLocate').addEventListener('click', refreshMyPosition);
   }
 
   async function renderGroup(){
@@ -1428,10 +1663,12 @@
 
   let leafletMap = null;
   let leafletMarkersLayer = null;
+  let mapEncuadrado = false;   // solo encuadramos automáticamente la primera vez
+  let watchId = null;          // seguimiento continuo de la posición mientras el mapa está abierto
 
   function ensureLeafletMap(){
     if(leafletMap) return;
-    leafletMap = L.map('leafletMap', { attributionControl: true });
+    leafletMap = L.map('leafletMap', { attributionControl: true, zoomControl: false });
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 19,
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
@@ -1456,20 +1693,35 @@
     });
   }
 
+  function centrarEnPunto(p){
+    if(!leafletMap) return;
+    leafletMap.setView([p.lat, p.lng], 17, { animate:true });
+    setSheet('peek');
+  }
+
   function renderMap(){
     ensureLeafletMap();
     leafletMarkersLayer.clearLayers();
-    const list = pois();
     const mine = myCheckins();
+    const visibles = pois().filter(p => !activeCats.size || activeCats.has(p.cat));
     const boundsPoints = [];
 
-    list.forEach(p=>{
+    // Etiquetamos con la distancia solo los puntos realmente cercanos: si no, el mapa se llena de globos
+    const cercanos = new Set(
+      visibles
+        .map(p => ({ id:p.id, d: distanceTo(p) }))
+        .filter(x => x.d != null && x.d < 3000)
+        .sort((a,b)=> a.d - b.d)
+        .slice(0, 6)
+        .map(x => x.id)
+    );
+
+    visibles.forEach(p=>{
       const unlocked = mine.includes(p.id);
       const marker = L.marker([p.lat, p.lng], { icon: pinDivIcon(p, unlocked) });
       marker.on('click', ()=> openModal(p, 'map'));
-      if(myPosition && !unlocked){
-        const d = haversineMeters(myPosition.lat, myPosition.lng, p.lat, p.lng);
-        marker.bindTooltip(formatDistance(d), { permanent: true, direction: 'top', offset: [0, -14], className: 'map-dist-tooltip' });
+      if(!unlocked && cercanos.has(p.id)){
+        marker.bindTooltip(formatDistance(distanceTo(p)), { permanent:true, direction:'top', offset:[0,-14], className:'map-dist-tooltip' });
       }
       marker.addTo(leafletMarkersLayer);
       boundsPoints.push([p.lat, p.lng]);
@@ -1477,23 +1729,52 @@
 
     if(myPosition){
       L.marker([myPosition.lat, myPosition.lng], { icon: youDivIcon(), zIndexOffset: 1000 }).addTo(leafletMarkersLayer);
+      // Anillo del radio real de check-in: así se ve cuándo estás "dentro" de un punto
+      L.circle([myPosition.lat, myPosition.lng], {
+        radius: CHECKIN_RADIUS_M, color:'#7A66B8', weight:1, opacity:0.7, fillColor:'#7A66B8', fillOpacity:0.12
+      }).addTo(leafletMarkersLayer);
       boundsPoints.push([myPosition.lat, myPosition.lng]);
     }
 
-    const fit = () => { if(boundsPoints.length) leafletMap.fitBounds(boundsPoints, { padding: [28, 28], maxZoom: 17 }); };
-    fit();
+    const encuadrar = () => {
+      if(mapEncuadrado || !boundsPoints.length) return;
+      if(myPosition) leafletMap.setView([myPosition.lat, myPosition.lng], 15);
+      else leafletMap.fitBounds(boundsPoints, { padding:[40,40], maxZoom:15 });
+      mapEncuadrado = true;
+    };
+    encuadrar();
     // red de seguridad: si el contenedor estaba oculto al iniciar Leaflet, recalculamos tamaño y encuadre
-    setTimeout(()=>{ if(!leafletMap) return; leafletMap.invalidateSize(); fit(); }, 120);
+    setTimeout(()=>{ if(!leafletMap) return; leafletMap.invalidateSize(); encuadrar(); }, 120);
+  }
+
+  // Seguimiento continuo: las distancias de la lista se actualizan solas mientras andas
+  function startWatchPosition(){
+    if(watchId != null || !navigator.geolocation) return;
+    watchId = navigator.geolocation.watchPosition(
+      pos => {
+        myPosition = { lat: pos.coords.latitude, lng: pos.coords.longitude };
+        renderGrid();
+        renderMap();
+      },
+      () => {},
+      { enableHighAccuracy:true, maximumAge:5000, timeout:20000 }
+    );
+  }
+  function stopWatchPosition(){
+    if(watchId == null) return;
+    navigator.geolocation.clearWatch(watchId);
+    watchId = null;
   }
 
   async function refreshMyPosition(){
-    const btn = document.getElementById('locateBtn');
-    if(btn){ btn.disabled = true; btn.textContent = '📍 Buscando…'; }
+    const btn = document.getElementById('fabLocate');
+    if(btn) btn.classList.add('busy');
     try{
       const coords = await getPosition();
       myPosition = { lat: coords.latitude, lng: coords.longitude };
+      if(leafletMap) leafletMap.setView([myPosition.lat, myPosition.lng], 16, { animate:true });
     }catch(e){ /* sin permiso o sin señal: se mantiene sin marca de ubicación */ }
-    if(btn){ btn.disabled = false; btn.textContent = '📍 Actualizar mi ubicación'; }
+    if(btn) btn.classList.remove('busy');
     renderMap();
     renderGrid();
   }
@@ -1777,8 +2058,10 @@
 
   // ---------- Tabs ----------
   function showTab(tab){
-    document.getElementById('tab-home').style.display = tab==='home' ? 'flex' : 'none';
-    document.getElementById('tab-map').style.display = tab==='map' ? 'flex' : 'none';
+    const mapa = document.getElementById('tab-map');
+    mapa.style.display = tab==='map' ? 'flex' : 'none';
+    mapa.classList.toggle('map-full', tab==='map');
+    document.getElementById('app').classList.toggle('map-mode', tab==='map');
     document.getElementById('tab-group').style.display = tab==='group' ? 'flex' : 'none';
     document.getElementById('tab-chat').style.display = tab==='chat' ? 'flex' : 'none';
     document.getElementById('tab-itinerary').style.display = tab==='itinerary' ? 'flex' : 'none';
@@ -1787,7 +2070,14 @@
     if(tab==='group') renderGroup();
     if(tab==='itinerary'){ renderItinerary(); showItinerarySubtab('checkins'); }
     if(tab==='souvenirs') renderSouvenirs();
-    if(tab==='map'){ myPosition ? renderMap() : refreshMyPosition(); }
+    if(tab==='map'){
+      renderGrid();
+      myPosition ? renderMap() : refreshMyPosition();
+      setTimeout(()=>{ if(leafletMap) leafletMap.invalidateSize(); }, 80);
+      startWatchPosition();
+    } else {
+      stopWatchPosition();
+    }
     if(tab==='chat'){ startChatListener(); } else { stopChatListener(); }
   }
 
@@ -1847,7 +2137,6 @@
     document.getElementById('checkinBtn').addEventListener('click', doCheckin);
     document.querySelectorAll('.navbtn').forEach(b=> b.addEventListener('click', ()=> showTab(b.dataset.tab)));
     document.getElementById('cityChip').addEventListener('click', ()=> showTab('group'));
-    document.getElementById('locateBtn').addEventListener('click', refreshMyPosition);
     document.getElementById('addPhotoBtn').addEventListener('click', ()=> document.getElementById('photoInput').click());
     document.getElementById('photoInput').addEventListener('change', onPhotoFileSelected);
     document.getElementById('starPicker').addEventListener('click', (e)=>{
@@ -1921,7 +2210,8 @@
     document.getElementById('onboarding').classList.remove('active');
     document.getElementById('main').classList.add('active');
     renderGrid();
-    showTab('home');
+    initSheet();
+    showTab('map');
   }
 
   init();
