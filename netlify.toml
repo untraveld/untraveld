@@ -1,0 +1,10 @@
+# Configuración de Netlify para untraveld con IA.
+# Publica los archivos estáticos (index.html) y expone la función en
+# /.netlify/functions/ai-itinerary
+
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
