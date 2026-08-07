@@ -66,7 +66,7 @@ exports.handler = async (event) => {
   };
 
   try {
-    const resp = await fetch('https://api.openrouteservice.org/v2/directions/foot-walking/geojson', {
+    const resp = await fetch('https://api.heigit.org/openrouteservice/v2/directions/foot-walking/geojson', {
       method: 'POST',
       headers: {
         'Authorization': key,
