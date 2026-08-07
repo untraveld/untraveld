@@ -1163,11 +1163,11 @@
   .ai-chat-send{ flex:0 0 auto; width:44px; height:44px; border:none; border-radius:50%; background:linear-gradient(135deg,var(--violet),var(--violet-deep)); color:#fff; font-size:20px; cursor:pointer; }
   .ai-chat-send:disabled{ opacity:.5; cursor:not-allowed; }
   .section-label{ display:none; }
-  .comidas-filters{ display:flex; gap:8px; align-items:center; margin:2px 2px 14px; flex-wrap:wrap; }
-  .comida-sel{ flex:1; min-width:150px; padding:9px 12px; border:1px solid var(--line); border-radius:12px; background:var(--bg-panel); color:var(--text-hi); font-family:var(--display); font-weight:600; font-size:13px; }
-  .comida-price{ display:flex; gap:3px; background:var(--bg-panel); border:1px solid var(--line); border-radius:12px; padding:3px; }
-  .comida-price button{ border:none; background:transparent; color:var(--text-mid); font-family:var(--display); font-weight:700; font-size:13px; padding:6px 11px; border-radius:9px; cursor:pointer; }
-  .comida-price button.on{ background:linear-gradient(135deg,var(--violet),var(--violet-deep)); color:#fff; }
+  .comidas-filters{ display:flex; gap:6px; align-items:center; margin:2px 2px 14px; flex-wrap:nowrap; }
+  .comida-sel{ flex:1; min-width:0; padding:7px 10px; border:1px solid var(--line); border-radius:10px; background:var(--bg-panel); color:var(--text-hi); font-family:var(--display); font-weight:600; font-size:12px; }
+  .comida-price-seg{ display:flex; gap:2px; background:var(--bg-panel); border:1px solid var(--line); border-radius:10px; padding:2px; flex-shrink:0; }
+  .comida-price-seg button{ border:none; background:transparent; color:var(--text-mid); font-family:var(--display); font-weight:700; font-size:12px; padding:5px 8px; border-radius:8px; cursor:pointer; white-space:nowrap; }
+  .comida-price-seg button.on{ background:linear-gradient(135deg,var(--violet),var(--violet-deep)); color:#fff; }
   .comida-card{ cursor:pointer; width:100%; text-align:left; }
   .comida-card:active{ transform:scale(0.99); }
   .comidas-head{ font-size:13px; color:var(--text-mid); margin:2px 2px 14px; line-height:1.45; }
@@ -1182,11 +1182,12 @@
   .comida-sep{ color:var(--text-low); }
   .comida-hours{ font-size:12.5px; color:var(--text-mid); margin-top:9px; padding-top:9px; border-top:1px solid var(--line); }
   .comida-hours b{ color:var(--text-hi); font-weight:700; }
-  .reviews-toggle{ width:100%; display:flex; align-items:center; gap:10px; background:var(--bg-panel); border:1px solid var(--line); border-radius:12px; padding:11px 14px; cursor:pointer; text-align:left; }
-  .reviews-toggle-badge{ display:none; align-items:center; font-family:var(--display); font-weight:700; font-size:13px; color:var(--gold); background:rgba(217,164,65,.16); padding:3px 9px; border-radius:100px; }
+  #reviewsSection{ margin-top:14px; text-align:center; }
+  .reviews-toggle{ width:auto; max-width:100%; display:inline-flex; align-items:center; gap:8px; background:var(--bg-panel); border:1px solid var(--line); border-radius:100px; padding:7px 14px; cursor:pointer; text-align:left; }
+  .reviews-toggle-badge{ display:none; align-items:center; font-family:var(--display); font-weight:700; font-size:12px; color:var(--gold); background:rgba(217,164,65,.16); padding:2px 8px; border-radius:100px; }
   .reviews-toggle-badge::before{ content:'★'; margin-right:4px; }
-  .reviews-toggle-label{ flex:1; font-family:var(--display); font-weight:700; font-size:14px; color:var(--text-hi); }
-  .reviews-toggle-chev{ font-size:20px; color:var(--text-low); transition:transform .18s ease; }
+  .reviews-toggle-label{ font-family:var(--display); font-weight:700; font-size:13px; color:var(--text-hi); }
+  .reviews-toggle-chev{ font-size:17px; color:var(--text-low); transition:transform .18s ease; }
   .reviews-toggle-chev.open{ transform:rotate(90deg); }
   #reviewsBody{ margin-top:12px; }
   .rate-label{ font-size:12px; font-weight:700; color:var(--text-mid); text-align:center; margin-bottom:9px; }
@@ -1884,7 +1885,7 @@
     <div id="tab-comidas" class="tabpanel" style="display:none;">
       <div class="comidas-filters">
         <select id="comidaCuisine" class="comida-sel"><option value="" data-tr="Todas las cocinas">Todas las cocinas</option></select>
-        <div class="comida-price" id="comidaPrice">
+        <div class="comida-price-seg" id="comidaPrice">
           <button type="button" data-price="" class="on" data-tr="Todos">Todos</button>
           <button type="button" data-price="1">€</button>
           <button type="button" data-price="2">€€</button>
