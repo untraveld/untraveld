@@ -1,0 +1,2 @@
+/untraveld-app   /app/   301
+/untraveld-app/* /app/:splat 301
