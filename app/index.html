@@ -8,7 +8,7 @@
 <meta name="apple-mobile-web-app-title" content="untraveld">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="theme-color" content="#C9622F">
-<link rel="manifest" href="/app/manifest.webmanifest">
+<link rel="manifest" href="manifest.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -3877,6 +3877,29 @@
   };
   firebase.initializeApp(firebaseConfig);
   const db = firebase.database();
+
+  // ---------- Sesión anónima de Firebase (necesaria para las reglas de seguridad) ----------
+  // Las reglas exigen auth != null. El login de la app es local y no toca Firebase Auth,
+  // así que cada dispositivo abre una sesión anónima al arrancar. Si el usuario ya entró
+  // con email (cuenta en la nube), se respeta esa sesión y no se hace nada.
+  // Al cerrar sesión de email, vuelve a abrirse una anónima para que la app siga funcionando.
+  window.utdAuthReady = (function(){
+    try{
+      var _a = firebase.auth();
+      return new Promise(function(resolve){
+        var settled = false;
+        var finish = function(u){ if(!settled){ settled = true; resolve(u || null); } };
+        _a.onAuthStateChanged(function(user){
+          if(user){ finish(user); return; }
+          _a.signInAnonymously().catch(function(err){
+            console.warn('[utd] no se pudo abrir sesión anónima:', err && err.code);
+            finish(null);
+          });
+        });
+        setTimeout(function(){ finish(null); }, 8000);
+      });
+    }catch(e){ return Promise.resolve(null); }
+  })();
 
   // ---------- State ----------
   let myName = null;
@@ -8611,6 +8634,6 @@
 })();
 </script>
 
-<script>if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/app/sw.js",{scope:"/app/"}).catch(function(){});});}</script>
+<script>if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("sw.js").catch(function(){});});}</script>
 </body>
 </html>
