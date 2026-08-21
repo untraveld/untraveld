@@ -4593,12 +4593,11 @@
     box.style.display='block';
     var html='<div class="sg-head" data-tr="Tus grupos">Tus grupos</div>';
     html+=groups.map(function(g){
-      var dest=(g.regions||[]).map(function(r){ return NAME_BY_REGION[r]||r; }).join(' \u00b7 ');
       var ini=(g.name||g.code).trim().slice(0,2).toUpperCase();
       return '<div class="saved-group" data-code="'+escapeHtml(g.code)+'">'
         + '<div class="sg-badge">'+escapeHtml(ini)+'</div>'
         + '<div class="sg-main"><div class="sg-name">'+escapeHtml(g.name||g.code)+'</div>'
-        + '<div class="sg-dest">'+escapeHtml(dest)+' \u00b7 '+escapeHtml(g.code)+'</div></div>'
+        + '<div class="sg-dest">'+escapeHtml(g.code)+'</div></div>'
         + '<span class="sg-del" data-del="'+escapeHtml(g.code)+'" title="quitar">\u00d7</span>'
         + '<span class="sg-go">\u2192</span>'
         + '</div>';
