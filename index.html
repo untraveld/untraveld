@@ -4,215 +4,554 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>untraveld — Viaja, descubre, desbloquea</title>
-<meta name="description" content="untraveld convierte cada viaje en un territorio por descubrir: mapa de puntos cercanos, plan a medida, check-in al llegar y recuerdos compartidos con tu grupo.">
+<meta name="description" content="untraveld convierte cada viaje en un territorio por descubrir: mapa de lo que tienes al lado, plan del día a tu medida, check-in al llegar y recuerdos compartidos con tu grupo. 14 destinos, 692 puntos curados.">
 <meta name="theme-color" content="#C9622F">
 <link rel="icon" href="/favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="canonical" href="https://untraveld.com/">
 
-<meta property="og:title" content="untraveld — Viaja, descubre, desbloquea">
-<meta property="og:description" content="Mapa de puntos cercanos, plan a medida, check-in al llegar y recuerdos compartidos con tu grupo.">
+<meta property="og:site_name" content="untraveld">
+<meta property="og:title" content="untraveld — Cada ciudad es un territorio por desbloquear">
+<meta property="og:description" content="Mapa de lo que tienes al lado, plan del día a tu medida, check-in al llegar y recuerdos compartidos con tu grupo.">
 <meta property="og:type" content="website">
+<meta property="og:url" content="https://untraveld.com/">
+<meta property="og:image" content="https://untraveld.com/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"SoftwareApplication","name":"untraveld",
+"applicationCategory":"TravelApplication","operatingSystem":"Web, iOS, Android",
+"url":"https://untraveld.com/","description":"App de viajes que muestra qué merece la pena a tu alrededor, arma el plan del día y guarda cada sitio al que llegas.",
+"offers":{"@type":"Offer","price":"0","priceCurrency":"EUR"}}
+</script>
+
 <style>
   :root{
     --orange:#C9622F;
     --orange-dark:#A54D22;
-    --ink:#1A1613;
+    --orange-soft:#F3E2D8;
+    --ink:#191512;
+    --ink-2:#241C16;
     --ink-soft:#4A423B;
-    --muted:#7A6E64;
-    --paper:#FAF7F4;
+    --muted:#7C7067;
+    --paper:#FBF8F5;
     --line:#E7DFD8;
-    --sand:#F2ECE6;
-    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
-    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+    --line-2:#D8CDC3;
+    --sand:#F3EDE7;
+    --c-mon:#C9622F;
+    --c-nat:#2F7D5B;
+    --c-food:#B03A48;
+    --c-fun:#55639E;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+    --r:14px;
   }
   *{box-sizing:border-box;margin:0;padding:0}
-  html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
-  body{font-family:var(--sans);background:var(--paper);color:var(--ink);line-height:1.6;
-       -webkit-font-smoothing:antialiased;overflow-x:hidden}
-  .wrap{width:100%;max-width:1120px;margin:0 auto;padding:0 24px}
+  html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;scroll-padding-top:88px;overflow-x:clip}
+  body{font-family:var(--sans);background:var(--paper);color:var(--ink);line-height:1.62;
+       -webkit-font-smoothing:antialiased;overflow-x:hidden;font-size:16px}
+  img,svg{display:block;max-width:100%}
   a{color:inherit;text-decoration:none}
-
-  .label{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  ::selection{background:var(--orange);color:#fff}
+  .wrap{width:100%;max-width:1180px;margin:0 auto;
+        padding-left:max(24px,env(safe-area-inset-left));padding-right:max(24px,env(safe-area-inset-right))}
+  .label{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);font-weight:600}
 
   /* ---------- header ---------- */
-  header{position:fixed;top:0;left:0;right:0;z-index:60;transition:background .25s,border-color .25s,backdrop-filter .25s;
+  header{position:fixed;top:0;left:0;right:0;z-index:80;padding-top:env(safe-area-inset-top);transition:background .3s,border-color .3s,backdrop-filter .3s;
          border-bottom:1px solid transparent}
-  header.solid{background:rgba(250,247,244,.92);backdrop-filter:blur(12px);border-bottom-color:var(--line)}
-  .nav{display:flex;align-items:center;justify-content:space-between;height:66px}
-  .brand{display:flex;align-items:center;gap:9px;font-weight:600;font-size:19px;letter-spacing:-.02em;color:#fff;transition:color .25s}
+  header.solid{background:rgba(251,248,245,.9);backdrop-filter:saturate(180%) blur(14px);border-bottom-color:var(--line)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:70px;gap:18px}
+  .brand{display:flex;align-items:center;gap:10px;font-weight:600;font-size:19px;letter-spacing:-.02em;color:#fff;transition:color .3s}
   header.solid .brand{color:var(--ink)}
-  .pin{width:15px;height:15px;border-radius:50% 50% 50% 2px;transform:rotate(-45deg);background:var(--orange);flex:none}
-  .nav-links{display:flex;align-items:center;gap:26px}
-  .nav-links a{font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-weight:600;color:rgba(255,255,255,.85);transition:color .25s}
+  .pin{width:15px;height:15px;border-radius:50% 50% 50% 3px;transform:rotate(-45deg);background:var(--orange);flex:none}
+  .nav-links{display:flex;align-items:center;gap:28px}
+  .nav-links a{font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-weight:600;color:rgba(255,255,255,.82);transition:color .25s}
   header.solid .nav-links a{color:var(--ink-soft)}
   .nav-links a:hover{color:var(--orange)}
-  .lang{display:flex;gap:2px;align-items:center;font-size:11px;font-weight:700;letter-spacing:.1em}
-  .lang button{background:none;border:0;cursor:pointer;font:inherit;padding:4px 5px;color:rgba(255,255,255,.55);transition:color .25s}
+  .lang{display:flex;gap:1px;align-items:center;font-size:11px;font-weight:700;letter-spacing:.08em}
+  .lang button{background:none;border:0;cursor:pointer;font:inherit;padding:5px 5px;color:rgba(255,255,255,.5);transition:color .25s}
   header.solid .lang button{color:var(--muted)}
   .lang button.on{color:var(--orange)}
-  .lang span{color:rgba(255,255,255,.35)}
-  header.solid .lang span{color:var(--line)}
-  @media(max-width:720px){.nav-links a:not(.nav-cta){display:none}}
+  .lang i{font-style:normal;color:rgba(255,255,255,.3)}
+  header.solid .lang i{color:var(--line-2)}
 
-  .btn{display:inline-block;padding:15px 30px;border-radius:2px;font-size:12px;letter-spacing:.14em;
-       text-transform:uppercase;font-weight:700;transition:transform .15s,background .2s,color .2s;cursor:pointer;border:0;font-family:inherit}
+
+  /* ---------- menú móvil ---------- */
+  .burger{display:none;width:42px;height:42px;margin-left:-10px;border:0;background:none;cursor:pointer;
+          flex-direction:column;justify-content:center;gap:5px;padding:0 10px;flex:none}
+  .burger i{display:block;width:20px;height:1.8px;border-radius:2px;background:#fff;transition:background .3s}
+  header.solid .burger i{background:var(--ink)}
+  .mnav{position:fixed;inset:0;z-index:100;visibility:hidden;pointer-events:none}
+  .mnav-bg{position:absolute;inset:0;background:rgba(20,14,10,.5);opacity:0;transition:opacity .3s}
+  .mnav-panel{position:absolute;top:0;left:0;bottom:0;width:min(320px,86vw);background:var(--paper);
+              transform:translateX(-100%);transition:transform .32s cubic-bezier(.16,1,.3,1);
+              display:flex;flex-direction:column;padding:calc(20px + env(safe-area-inset-top)) 0 calc(20px + env(safe-area-inset-bottom));
+              box-shadow:8px 0 40px rgba(0,0,0,.2)}
+  .mnav.open{visibility:visible;pointer-events:auto}
+  .mnav.open .mnav-bg{opacity:1}
+  .mnav.open .mnav-panel{transform:none}
+  .mnav-head{display:flex;align-items:center;justify-content:space-between;padding:0 20px 20px;
+             border-bottom:1px solid var(--line)}
+  .mnav-head .brand{color:var(--ink);font-size:18px}
+  .mnav-close{width:44px;height:44px;margin-right:-12px;border:0;background:none;cursor:pointer;
+              position:relative;flex:none}
+  .mnav-close::before,.mnav-close::after{content:"";position:absolute;left:13px;top:21px;width:18px;height:1.8px;
+              background:var(--ink);border-radius:2px}
+  .mnav-close::before{transform:rotate(45deg)}
+  .mnav-close::after{transform:rotate(-45deg)}
+  .mnav-links{display:flex;flex-direction:column;padding:8px 0;overflow-y:auto;flex:1}
+  .mnav-links a{padding:17px 20px;font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;
+                color:var(--ink);border-bottom:1px solid var(--line)}
+  .mnav-links a:active{background:var(--sand)}
+  .mnav-foot{padding:20px 20px 0;display:flex;flex-direction:column;gap:16px}
+  .mnav-foot .btn{justify-content:center}
+  .mnav-lang{display:flex;gap:8px;align-items:center}
+  .mnav-lang button{flex:1;min-height:44px;border:1px solid var(--line-2);background:none;border-radius:3px;
+                    font:inherit;font-size:12px;font-weight:700;letter-spacing:.14em;color:var(--muted);cursor:pointer}
+  .mnav-lang button.on{border-color:var(--orange);color:var(--orange);background:var(--orange-soft)}
+  .mnav-mail{font-size:13px;color:var(--muted);text-align:center;padding-bottom:4px}
+
+  .btn{display:inline-flex;align-items:center;gap:9px;padding:15px 28px;border-radius:3px;font-size:12px;letter-spacing:.13em;
+       text-transform:uppercase;font-weight:700;transition:transform .15s,background .2s,color .2s,border-color .2s;cursor:pointer;border:0;font-family:inherit}
   .btn:active{transform:translateY(1px)}
-  .btn-primary{background:var(--orange);color:#fff}
+  .btn svg{width:14px;height:14px;flex:none}
+  .btn-primary{background:var(--orange);color:#fff;box-shadow:0 6px 22px rgba(201,98,47,.28)}
   .btn-primary:hover{background:var(--orange-dark)}
-  .btn-ghost{border:1px solid rgba(255,255,255,.45);color:#fff;background:none}
-  .btn-ghost:hover{border-color:#fff;background:rgba(255,255,255,.08)}
-  .nav-cta{padding:11px 20px;font-size:11px}
+  .btn-ghost{border:1px solid rgba(255,255,255,.4);color:#fff;background:none}
+  .btn-ghost:hover{border-color:#fff;background:rgba(255,255,255,.09)}
+  .btn-line{border:1px solid var(--line-2);color:var(--ink);background:none}
+  .btn-line:hover{border-color:var(--orange);color:var(--orange)}
+  .nav-cta{padding:11px 20px;font-size:11px;box-shadow:none}
 
   /* ---------- hero ---------- */
-  .hero{position:relative;min-height:100svh;display:flex;align-items:center;
-        background:#20160F;overflow:hidden;padding:110px 0 70px}
+  .hero{position:relative;min-height:100svh;display:flex;align-items:center;background:#1A120C;overflow:hidden;padding:118px 0 60px}
   .hero-bg{position:absolute;inset:0;
     background:
-      radial-gradient(circle at 22% 28%,rgba(201,98,47,.42),transparent 46%),
-      radial-gradient(circle at 82% 72%,rgba(201,98,47,.22),transparent 52%),
-      linear-gradient(160deg,#2B1E14 0%,#1A120C 55%,#241811 100%);}
-  .grid-lines{position:absolute;inset:0;opacity:.16;
-    background-image:linear-gradient(rgba(255,255,255,.14) 1px,transparent 1px),
-                     linear-gradient(90deg,rgba(255,255,255,.14) 1px,transparent 1px);
-    background-size:74px 74px;
-    -webkit-mask-image:radial-gradient(ellipse at 50% 45%,#000 35%,transparent 78%);
-            mask-image:radial-gradient(ellipse at 50% 45%,#000 35%,transparent 78%)}
+      radial-gradient(ellipse 60% 50% at 18% 24%,rgba(201,98,47,.40),transparent 60%),
+      radial-gradient(ellipse 50% 45% at 88% 78%,rgba(201,98,47,.20),transparent 60%),
+      linear-gradient(158deg,#2C1F15 0%,#191109 55%,#241811 100%)}
+  .grid-lines{position:absolute;inset:0;opacity:.15;
+    background-image:linear-gradient(rgba(255,255,255,.13) 1px,transparent 1px),
+                     linear-gradient(90deg,rgba(255,255,255,.13) 1px,transparent 1px);
+    background-size:78px 78px;
+    -webkit-mask-image:radial-gradient(ellipse at 40% 45%,#000 30%,transparent 76%);
+            mask-image:radial-gradient(ellipse at 40% 45%,#000 30%,transparent 76%)}
   .dots{position:absolute;inset:0}
-  .dot{position:absolute;width:9px;height:9px;border-radius:50%;background:var(--orange);
-       box-shadow:0 0 0 5px rgba(201,98,47,.18)}
-  .dot.dim{background:rgba(255,255,255,.28);box-shadow:none;width:7px;height:7px}
-  .dot.pulse::after{content:"";position:absolute;inset:-5px;border-radius:50%;border:1px solid rgba(201,98,47,.55);
-       animation:pulse 3.2s ease-out infinite}
-  @keyframes pulse{0%{transform:scale(.7);opacity:.9}100%{transform:scale(2.6);opacity:0}}
-  .hero-inner{position:relative;z-index:2;max-width:760px}
-  .hero .label{color:rgba(255,255,255,.62);margin-bottom:22px;display:block}
-  .hero h1{font-family:var(--serif);color:#fff;font-size:clamp(42px,7.2vw,80px);line-height:1.04;
-           letter-spacing:-.025em;font-weight:400;margin-bottom:26px}
+  .dot{position:absolute;width:9px;height:9px;border-radius:50%;background:var(--orange);box-shadow:0 0 0 5px rgba(201,98,47,.16)}
+  .dot.dim{background:rgba(255,255,255,.26);box-shadow:none;width:7px;height:7px}
+  .dot.pulse::after{content:"";position:absolute;inset:-5px;border-radius:50%;border:1px solid rgba(201,98,47,.5);
+       animation:pulse 3.4s ease-out infinite}
+  @keyframes pulse{0%{transform:scale(.7);opacity:.9}100%{transform:scale(2.7);opacity:0}}
+  .hero .wrap{position:relative;z-index:2}
+  .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:52px;align-items:center}
+  .hero-inner{max-width:600px}
+  .badge{display:inline-flex;align-items:center;gap:9px;border:1px solid rgba(255,255,255,.2);border-radius:100px;
+         padding:7px 15px 7px 11px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;
+         color:rgba(255,255,255,.78);margin-bottom:26px;background:rgba(255,255,255,.04)}
+  .badge b{width:7px;height:7px;border-radius:50%;background:#5DBB7C;box-shadow:0 0 0 3px rgba(93,187,124,.2)}
+  .hero h1{font-family:var(--serif);color:#fff;font-size:clamp(40px,5.6vw,72px);line-height:1.03;
+           letter-spacing:-.025em;font-weight:400;margin-bottom:24px}
   .hero h1 em{font-style:normal;color:var(--orange)}
-  .hero p.sub{color:rgba(255,255,255,.78);font-size:clamp(16px,2vw,20px);max-width:560px;margin-bottom:40px}
-  .hero-actions{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
-  .scroll-hint{position:absolute;bottom:34px;left:0;right:0;text-align:center;z-index:2}
-  .scroll-hint span{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.4)}
+  .hero p.sub{color:rgba(255,255,255,.74);font-size:clamp(16px,1.4vw,19px);max-width:520px;margin-bottom:36px}
+  .hero-actions{display:flex;gap:13px;flex-wrap:wrap;align-items:center}
+  .hero-meta{display:flex;gap:26px;flex-wrap:wrap;margin-top:38px;padding-top:26px;border-top:1px solid rgba(255,255,255,.11)}
+  .hero-meta div b{display:block;font-family:var(--serif);font-size:24px;font-weight:400;color:#fff;line-height:1.1}
+  .hero-meta div span{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.45);font-weight:600}
+  .scroll-hint{position:absolute;bottom:26px;left:0;right:0;text-align:center;z-index:2}
+  .scroll-hint span{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.34)}
+  @media(max-width:980px){.hero-grid{grid-template-columns:1fr;gap:40px}.hero{padding-bottom:80px}
+    .hero-stage{justify-self:center}.scroll-hint{display:none}}
 
-  /* ---------- stats ---------- */
-  .stats{background:var(--ink);color:#fff;padding:0}
-  .stats-grid{display:grid;grid-template-columns:repeat(4,1fr)}
-  .stat{padding:38px 20px;text-align:center;border-right:1px solid rgba(255,255,255,.09)}
+  /* ---------- device mockup ---------- */
+  .hero-stage{position:relative;display:flex;justify-content:center}
+  .hero-stage::before{content:"";position:absolute;width:118%;height:80%;top:12%;left:-9%;
+    background:radial-gradient(ellipse at center,rgba(201,98,47,.30),transparent 66%);filter:blur(18px)}
+  .device{position:relative;width:300px;flex:none;border-radius:42px;padding:9px;
+          background:linear-gradient(160deg,#3B3029,#181310 60%);
+          box-shadow:0 34px 70px rgba(0,0,0,.5),0 0 0 1px rgba(255,255,255,.08) inset}
+  .device.sm{width:250px;border-radius:36px;padding:8px}
+  .screen{position:relative;border-radius:34px;overflow:hidden;background:#EFEAE3;aspect-ratio:300/620}
+  .device.sm .screen{border-radius:29px}
+  .notch{position:absolute;top:8px;left:50%;transform:translateX(-50%);width:88px;height:22px;border-radius:100px;background:#131010;z-index:9}
+  .st-bar{position:absolute;top:0;left:0;right:0;height:38px;z-index:8;display:flex;align-items:center;
+          justify-content:space-between;padding:0 18px;font-size:11px;font-weight:700;color:#2A231E}
+  .st-bar.on-dark{color:#fff}
+  .st-ic{display:flex;gap:4px;align-items:center}
+  .st-ic i{display:block;width:15px;height:8px;border:1px solid currentColor;border-radius:2px;opacity:.75}
+
+  /* map screen */
+  .map-screen{position:absolute;inset:0;background:#EDE7DF}
+  .map-top{position:absolute;top:44px;left:12px;right:12px;z-index:6;display:flex;justify-content:space-between;align-items:center;gap:8px}
+  .map-btn{width:36px;height:36px;border-radius:11px;background:#fff;box-shadow:0 3px 10px rgba(0,0,0,.14);
+           display:flex;align-items:center;justify-content:center;gap:3px;flex-direction:column}
+  .map-btn i{display:block;width:15px;height:1.6px;background:#3A312B;border-radius:2px}
+  .map-pill{background:#fff;box-shadow:0 3px 10px rgba(0,0,0,.14);border-radius:100px;padding:8px 14px;
+            font-size:12px;font-weight:600;display:flex;align-items:center;gap:7px;color:#2A231E}
+  .legend{position:absolute;right:12px;top:92px;z-index:6;background:rgba(255,255,255,.94);border-radius:10px;
+          padding:9px 10px;box-shadow:0 3px 10px rgba(0,0,0,.12);display:grid;gap:6px}
+  .legend div{display:flex;align-items:center;gap:6px;font-size:9px;font-weight:600;letter-spacing:.06em;color:#4A423B;text-transform:uppercase}
+  .legend b{width:7px;height:7px;border-radius:50%;display:block}
+  .sheet{position:absolute;left:0;right:0;bottom:0;background:#fff;border-radius:20px 20px 0 0;z-index:7;
+         box-shadow:0 -8px 26px rgba(0,0,0,.16);padding:9px 0 14px}
+  .sheet-h{width:38px;height:4px;border-radius:100px;background:#DDD5CD;margin:0 auto 12px}
+  .sheet-t{font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:#8C8078;font-weight:700;padding:0 16px 9px}
+  .poi{display:flex;align-items:center;gap:10px;padding:9px 16px;border-top:1px solid #F1ECE7}
+  .poi b{width:8px;height:8px;border-radius:50%;flex:none}
+  .poi span{font-size:11.5px;font-weight:600;letter-spacing:.05em;color:#241C16;flex:1;
+            white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-transform:uppercase}
+  .poi em{font-style:normal;font-size:10.5px;color:#9A8E85;font-weight:600;flex:none}
+  .fab{position:absolute;right:12px;bottom:0;z-index:8;width:44px;height:44px;border-radius:50%;
+       background:var(--orange);box-shadow:0 6px 18px rgba(201,98,47,.45);display:flex;align-items:center;
+       justify-content:center;color:#fff;font-size:9px;font-weight:800;letter-spacing:.04em}
+
+  /* generic app screen (light) */
+  .app-screen{position:absolute;inset:0;background:#FBF8F5;padding:46px 14px 14px;overflow:hidden}
+  .as-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}
+  .as-title{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8C8078;font-weight:700}
+  .card{background:#fff;border:1px solid #EDE6DF;border-radius:12px;padding:12px;margin-bottom:9px}
+  .card-h{display:flex;align-items:center;justify-content:space-between;margin-bottom:9px}
+  .card-h b{min-width:0;font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#241C16}
+  .tag{white-space:nowrap;font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:3px 7px;border-radius:100px;
+       background:var(--orange-soft);color:var(--orange-dark)}
+  .slot{display:flex;gap:9px;align-items:flex-start;padding:7px 0;border-top:1px solid #F4EFEA}
+  .slot:first-of-type{border-top:0}
+  .slot u{text-decoration:none;font-size:8.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+          color:#A0938A;width:44px;flex:none;padding-top:2px}
+  .slot div{flex:1;min-width:0}
+  .slot p{font-size:11px;font-weight:600;color:#241C16;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;line-height:1.35}
+  .slot small{font-size:9.5px;color:#9A8E85}
+  .slot i{width:7px;height:7px;border-radius:50%;flex:none;margin-top:5px}
+  .ring{display:flex;align-items:center;gap:12px}
+  .ring svg{width:56px;height:56px;flex:none}
+  .ring p{font-size:10.5px;color:#6E635B;line-height:1.4}
+  .ring p b{display:block;font-family:var(--serif);font-size:20px;color:#241C16;font-weight:400}
+  .bar{height:5px;border-radius:100px;background:#EFE8E1;overflow:hidden;margin-top:6px}
+  .bar i{display:block;height:100%;background:var(--orange);border-radius:100px}
+  .mem{display:grid;grid-template-columns:repeat(3,1fr);gap:5px}
+  .mem span{aspect-ratio:1;border-radius:7px;display:block}
+  .chatline{display:flex;gap:7px;margin-bottom:8px;align-items:flex-start}
+  .chatline p{font-size:10.5px;line-height:1.45;padding:8px 10px;border-radius:11px;max-width:82%}
+  .chatline.me{justify-content:flex-end}
+  .chatline.me p{background:var(--orange);color:#fff;border-bottom-right-radius:3px}
+  .chatline.ai p{background:#fff;border:1px solid #EDE6DF;color:#3A322C;border-bottom-left-radius:3px}
+  .chatline b{width:20px;height:20px;border-radius:50%;background:var(--orange);flex:none;
+              display:flex;align-items:center;justify-content:center;color:#fff;font-size:7.5px;font-weight:800}
+  .member{display:flex;align-items:center;gap:8px;padding:7px 0;border-top:1px solid #F4EFEA}
+  .member:first-of-type{border-top:0}
+  .member b{width:24px;height:24px;border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center;
+            font-size:9px;font-weight:700;color:#fff}
+  .member span{flex:1;font-size:11px;font-weight:600;color:#241C16}
+  .member em{font-style:normal;font-size:10px;font-weight:700}
+  .pos{color:#2F7D5B}.neg{color:#B03A48}
+
+  /* ---------- strip ---------- */
+  .strip{background:var(--ink);color:#fff}
+  .strip-grid{display:grid;grid-template-columns:repeat(4,1fr)}
+  .stat{padding:36px 20px;text-align:center;border-right:1px solid rgba(255,255,255,.08)}
   .stat:last-child{border-right:0}
-  .stat b{display:block;font-family:var(--serif);font-size:clamp(28px,4vw,42px);font-weight:400;line-height:1;margin-bottom:9px;color:var(--orange)}
-  .stat span{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.55);font-weight:600}
-  @media(max-width:680px){.stats-grid{grid-template-columns:repeat(2,1fr)}
-    .stat{border-bottom:1px solid rgba(255,255,255,.09)}
-    .stat:nth-child(2n){border-right:0}
-    .stat:nth-child(n+3){border-bottom:0}}
+  .stat b{display:block;font-family:var(--serif);font-size:clamp(26px,3.6vw,40px);font-weight:400;line-height:1;margin-bottom:9px;color:var(--orange)}
+  .stat span{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.5);font-weight:600}
+  @media(max-width:680px){.strip-grid{grid-template-columns:repeat(2,1fr)}
+    .stat{border-bottom:1px solid rgba(255,255,255,.08)}
+    .stat:nth-child(2n){border-right:0}.stat:nth-child(n+3){border-bottom:0}}
 
   /* ---------- sections ---------- */
-  section{padding:104px 0}
-  .sec-head{max-width:640px;margin-bottom:56px}
-  .sec-head .label{display:block;margin-bottom:16px;color:var(--orange)}
-  .sec-head h2{font-family:var(--serif);font-weight:400;font-size:clamp(30px,4.4vw,46px);
-               line-height:1.14;letter-spacing:-.02em;margin-bottom:16px}
+  section{padding:100px 0}
+  .sec-head{max-width:660px;margin-bottom:56px}
+  .sec-head.mid{margin-left:auto;margin-right:auto;text-align:center}
+  .sec-head .label{display:block;margin-bottom:15px;color:var(--orange)}
+  .sec-head h2{font-family:var(--serif);font-weight:400;font-size:clamp(30px,4vw,46px);
+               line-height:1.13;letter-spacing:-.022em;margin-bottom:16px}
   .sec-head p{color:var(--ink-soft);font-size:17px}
 
   /* steps */
-  .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
-  .step{background:var(--paper);padding:34px 26px}
-  .step-n{font-family:var(--serif);font-size:34px;color:var(--orange);line-height:1;margin-bottom:18px;display:block}
-  .step h3{font-size:12px;letter-spacing:.14em;text-transform:uppercase;margin-bottom:11px;font-weight:700}
+  .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+  .step{background:var(--paper);padding:32px 26px;position:relative}
+  .step-n{font-family:var(--serif);font-size:15px;color:var(--orange);line-height:1;margin-bottom:18px;display:block;font-weight:500;letter-spacing:.1em}
+  .step h3{font-size:12px;letter-spacing:.13em;text-transform:uppercase;margin-bottom:10px;font-weight:700}
   .step p{font-size:14.5px;color:var(--ink-soft)}
   @media(max-width:860px){.steps{grid-template-columns:repeat(2,1fr)}}
   @media(max-width:520px){.steps{grid-template-columns:1fr}}
 
+  /* product blocks */
+  .blocks{display:grid;gap:104px}
+  .block{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+  .block.flip .block-txt{order:2}
+  .block-stage{display:flex;justify-content:center;position:relative}
+  .block-stage::before{content:"";position:absolute;width:86%;height:86%;top:7%;left:7%;border-radius:50%;
+    background:radial-gradient(ellipse at center,rgba(201,98,47,.14),transparent 68%);filter:blur(6px)}
+  .block-txt .label{display:block;color:var(--orange);margin-bottom:15px}
+  .block-txt h3{font-family:var(--serif);font-weight:400;font-size:clamp(26px,3.2vw,38px);line-height:1.15;
+                letter-spacing:-.02em;margin-bottom:16px}
+  .block-txt p.lead{color:var(--ink-soft);font-size:17px;margin-bottom:24px}
+  .ticks{display:grid;gap:11px;margin-bottom:26px}
+  .ticks li{list-style:none;display:flex;gap:11px;align-items:flex-start;font-size:15px;color:var(--ink-soft)}
+  .ticks svg{width:17px;height:17px;flex:none;color:var(--orange);margin-top:4px}
+  @media(max-width:900px){.blocks{gap:72px}.block{grid-template-columns:1fr;gap:38px}
+    .block.flip .block-txt{order:0}.block-stage{order:1}}
+
   /* features */
   .feat-sec{background:var(--sand)}
-  .feats{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
-  .feat{background:var(--paper);border:1px solid var(--line);padding:32px 28px;border-radius:3px;
-        transition:transform .18s,box-shadow .18s}
-  .feat:hover{transform:translateY(-3px);box-shadow:0 12px 30px rgba(26,22,19,.08)}
-  .feat .ic{width:34px;height:34px;margin-bottom:20px;color:var(--orange)}
-  .feat h3{font-size:12px;letter-spacing:.14em;text-transform:uppercase;margin-bottom:11px;font-weight:700}
+  .feats{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .feat{background:var(--paper);border:1px solid var(--line);padding:28px 26px;border-radius:var(--r);
+        transition:transform .2s,box-shadow .2s,border-color .2s}
+  .feat:hover{transform:translateY(-3px);box-shadow:0 14px 34px rgba(26,22,19,.07);border-color:var(--line-2)}
+  .feat .ic{width:30px;height:30px;margin-bottom:18px;color:var(--orange)}
+  .feat h3{font-size:12px;letter-spacing:.13em;text-transform:uppercase;margin-bottom:10px;font-weight:700}
   .feat p{font-size:14.5px;color:var(--ink-soft)}
   @media(max-width:900px){.feats{grid-template-columns:repeat(2,1fr)}}
   @media(max-width:560px){.feats{grid-template-columns:1fr}}
 
   /* destinos */
-  .country{border-top:1px solid var(--line);padding:30px 0;display:grid;grid-template-columns:190px 1fr;gap:28px;align-items:start}
-  .country:last-of-type{border-bottom:1px solid var(--line)}
-  .country h3{font-size:13px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;padding-top:5px}
-  .country h3 small{display:block;font-size:10px;letter-spacing:.14em;color:var(--muted);margin-top:6px;font-weight:600}
-  .chips{display:flex;flex-wrap:wrap;gap:9px}
-  .chip{border:1px solid var(--line);background:var(--paper);padding:9px 16px;border-radius:100px;
+  .dest{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+  .country{border:1px solid var(--line);border-radius:var(--r);padding:24px;background:#fff;
+           transition:border-color .2s,box-shadow .2s}
+  .country:hover{border-color:var(--line-2);box-shadow:0 10px 26px rgba(26,22,19,.05)}
+  .country-h{display:flex;align-items:baseline;justify-content:space-between;gap:14px;margin-bottom:16px}
+  .country-h h3{font-size:13px;letter-spacing:.16em;text-transform:uppercase;font-weight:700}
+  .country-h small{font-size:10px;letter-spacing:.14em;color:var(--muted);font-weight:700;text-transform:uppercase;flex:none}
+  .chips{display:flex;flex-wrap:wrap;gap:8px}
+  .chip{border:1px solid var(--line);background:var(--paper);padding:8px 15px;border-radius:100px;
         font-size:13.5px;color:var(--ink-soft);transition:border-color .18s,color .18s}
   .chip:hover{border-color:var(--orange);color:var(--orange)}
-  .chip.soon{color:var(--muted);border-style:dashed;opacity:.75}
-  @media(max-width:640px){.country{grid-template-columns:1fr;gap:14px}}
+  .country.soon{background:var(--sand);border-style:dashed}
+  .country.soon .chip{border-style:dashed;color:var(--muted);opacity:.85}
+  @media(max-width:760px){.dest{grid-template-columns:1fr}}
+
+  /* install */
+  .install-sec{background:var(--ink);color:#fff;position:relative;overflow:hidden}
+  .install-sec::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse 50% 60% at 78% 20%,rgba(201,98,47,.22),transparent 62%)}
+  .install-sec .wrap{position:relative;z-index:2}
+  .install-sec .sec-head h2{color:#fff}
+  .install-sec .sec-head p{color:rgba(255,255,255,.66)}
+  .inst{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(255,255,255,.12);
+        border:1px solid rgba(255,255,255,.12);border-radius:var(--r);overflow:hidden}
+  .inst div{background:var(--ink);padding:30px 26px}
+  .inst b{display:block;font-family:var(--serif);font-size:15px;color:var(--orange);margin-bottom:14px;font-weight:500;letter-spacing:.1em}
+  .inst h3{font-size:12px;letter-spacing:.13em;text-transform:uppercase;margin-bottom:10px;font-weight:700;color:#fff}
+  .inst p{font-size:14.5px;color:rgba(255,255,255,.62)}
+  @media(max-width:760px){.inst{grid-template-columns:1fr}}
+
+  /* faq */
+  .faq{max-width:820px;border-top:1px solid var(--line)}
+  .faq details{border-bottom:1px solid var(--line)}
+  .faq summary{list-style:none;cursor:pointer;padding:24px 44px 24px 0;position:relative;
+               font-size:17px;font-weight:600;letter-spacing:-.01em}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary::after{content:"";position:absolute;right:8px;top:32px;width:11px;height:11px;
+    border-right:1.6px solid var(--orange);border-bottom:1.6px solid var(--orange);
+    transform:rotate(45deg);transition:transform .22s}
+  .faq details[open] summary::after{transform:rotate(-135deg);top:36px}
+  .faq .ans{padding:0 40px 24px 0;color:var(--ink-soft);font-size:15.5px}
 
   /* cta */
   .cta{background:var(--ink);color:#fff;text-align:center;position:relative;overflow:hidden}
-  .cta::before{content:"";position:absolute;inset:0;
-    background:radial-gradient(circle at 50% 120%,rgba(201,98,47,.4),transparent 60%)}
+  .cta::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse 60% 70% at 50% 118%,rgba(201,98,47,.42),transparent 62%)}
   .cta .wrap{position:relative;z-index:2}
-  .cta h2{font-family:var(--serif);font-weight:400;font-size:clamp(30px,4.6vw,48px);line-height:1.12;
-          letter-spacing:-.02em;margin-bottom:18px}
-  .cta p{color:rgba(255,255,255,.7);max-width:460px;margin:0 auto 38px;font-size:17px}
-  .note{margin-top:22px;font-size:12px;color:rgba(255,255,255,.42)}
+  .cta h2{font-family:var(--serif);font-weight:400;font-size:clamp(30px,4.4vw,50px);line-height:1.1;
+          letter-spacing:-.022em;margin-bottom:18px}
+  .cta p{color:rgba(255,255,255,.68);max-width:480px;margin:0 auto 36px;font-size:17px}
+  .note{margin-top:22px;font-size:12px;color:rgba(255,255,255,.4)}
 
-  footer{background:var(--ink);border-top:1px solid rgba(255,255,255,.1);color:rgba(255,255,255,.5);padding:34px 0}
-  .foot{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap;font-size:12.5px}
-  .foot .brand{color:rgba(255,255,255,.85);font-size:16px}
+  footer{background:var(--ink-2);border-top:1px solid rgba(255,255,255,.09);color:rgba(255,255,255,.5);padding:40px 0}
+  .foot{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;font-size:13px}
+  .foot .brand{color:rgba(255,255,255,.88);font-size:16px}
+  .foot-links{display:flex;gap:22px;flex-wrap:wrap}
   .foot a:hover{color:var(--orange)}
 
-  .reveal{opacity:0;transform:translateY(22px);transition:opacity .7s cubic-bezier(.16,1,.3,1),transform .7s cubic-bezier(.16,1,.3,1)}
+  .reveal{opacity:0;transform:translateY(24px);transition:opacity .8s cubic-bezier(.16,1,.3,1),transform .8s cubic-bezier(.16,1,.3,1)}
   .reveal.in{opacity:1;transform:none}
-  @media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}.dot.pulse::after{animation:none}}
+  @media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}
+    .dot.pulse::after{animation:none}html{scroll-behavior:auto}}
+  @media(max-width:620px){
+    .hero{min-height:auto;padding:100px 0 64px}
+    .hero h1{font-size:clamp(33px,8.6vw,44px)}
+    .hero p.sub{font-size:16px;margin-bottom:28px}
+    .badge{margin-bottom:20px}
+    .hero-meta{display:none}
+    .hero-grid{gap:34px}
+    .hero-actions{flex-direction:column;align-items:stretch}
+    .hero-actions .btn{justify-content:center;padding:15px 18px}
+    .device{width:258px}
+    section{padding:72px 0}
+    .sec-head{margin-bottom:38px}
+    .blocks{gap:60px}
+    .faq summary{font-size:16px;padding:20px 40px 20px 0}
+    .faq summary::after{top:28px}
+    .faq details[open] summary::after{top:32px}
+    .foot{flex-direction:column;align-items:flex-start;gap:14px;text-align:left}
+    .foot-links{flex-direction:column;gap:0;width:100%}
+    .foot-links a{padding:11px 0;border-bottom:1px solid rgba(255,255,255,.08)}
+    .foot .brand{padding:4px 0}
+    .install-sec .inst div{padding:26px 24px}
+  }
+
+  @media(max-width:840px){
+    .nav-links a:not(.nav-cta){display:none}
+    .nav-links .lang{display:none}
+    .burger{display:flex}
+    .nav{gap:10px}
+    .brand{font-size:18px;gap:8px}
+  }
+  @media(max-width:380px){
+    .brand{font-size:16px}
+    .brand .pin{width:13px;height:13px}
+    .nav-cta{padding:11px 15px;letter-spacing:.1em}
+  }
+
+  :focus-visible{outline:2px solid var(--orange);outline-offset:3px;border-radius:2px}
 </style>
 </head>
 <body>
 
 <header id="hdr">
   <div class="wrap nav">
+    <button class="burger" id="burger" aria-label="Menú" aria-expanded="false" aria-controls="mnav" onclick="openNav()"><i></i><i></i><i></i></button>
     <a class="brand" href="#top"><span class="pin"></span>untraveld</a>
     <nav class="nav-links">
       <a href="#como" data-t="nav1">Cómo funciona</a>
-      <a href="#destinos" data-t="nav2">Destinos</a>
-      <a href="#app" data-t="nav3">La app</a>
+      <a href="#app" data-t="nav2">La app</a>
+      <a href="#destinos" data-t="nav3">Destinos</a>
+      <a href="#faq" data-t="nav4">Preguntas</a>
       <a class="btn btn-primary nav-cta" href="/app/" data-t="enter">Entrar</a>
       <span class="lang">
-        <button id="es" class="on" onclick="setLang('es')">ES</button><span>/</span><button id="en" onclick="setLang('en')">EN</button>
+        <button id="es" class="on" onclick="setLang('es')" aria-label="Español">ES</button><i>/</i><button id="en" onclick="setLang('en')" aria-label="English">EN</button>
       </span>
     </nav>
   </div>
 </header>
+
+<!-- MENU MOVIL -->
+<div class="mnav" id="mnav" role="dialog" aria-modal="true" aria-label="Menú">
+  <div class="mnav-bg" onclick="closeNav()"></div>
+  <div class="mnav-panel">
+    <div class="mnav-head">
+      <span class="brand"><span class="pin"></span>untraveld</span>
+      <button class="mnav-close" aria-label="Cerrar" onclick="closeNav()"></button>
+    </div>
+    <nav class="mnav-links">
+      <a href="#como" data-t="nav1">Cómo funciona</a>
+      <a href="#app" data-t="nav2">La app</a>
+      <a href="#destinos" data-t="nav3">Destinos</a>
+      <a href="#faq" data-t="nav4">Preguntas</a>
+    </nav>
+    <div class="mnav-foot">
+      <a class="btn btn-primary" href="/app/" data-t="enter2">Entrar en la app</a>
+      <div class="mnav-lang">
+        <button id="mes" class="on" onclick="setLang('es')">ES</button>
+        <button id="men" onclick="setLang('en')">EN</button>
+      </div>
+      <a class="mnav-mail" href="mailto:hola@untraveld.com">hola@untraveld.com</a>
+    </div>
+  </div>
+</div>
 
 <!-- HERO -->
 <div class="hero" id="top">
   <div class="hero-bg"></div>
   <div class="grid-lines"></div>
   <div class="dots">
-    <div class="dot pulse" style="top:26%;left:12%"></div>
-    <div class="dot dim" style="top:38%;left:31%"></div>
-    <div class="dot" style="top:63%;left:22%"></div>
-    <div class="dot dim" style="top:19%;left:63%"></div>
-    <div class="dot pulse" style="top:57%;left:78%"></div>
-    <div class="dot dim" style="top:76%;left:57%"></div>
-    <div class="dot dim" style="top:44%;left:88%"></div>
-    <div class="dot" style="top:83%;left:83%"></div>
+    <div class="dot pulse" style="top:22%;left:8%"></div>
+    <div class="dot dim" style="top:38%;left:26%"></div>
+    <div class="dot" style="top:68%;left:15%"></div>
+    <div class="dot dim" style="top:14%;left:47%"></div>
+    <div class="dot dim" style="top:82%;left:44%"></div>
+    <div class="dot dim" style="top:52%;left:95%"></div>
   </div>
-  <div class="wrap hero-inner">
-    <span class="label" data-t="kicker">Viajar como quien descubre</span>
-    <h1><span data-t="h1a">Cada ciudad es un</span> <em data-t="h1b">territorio</em> <span data-t="h1c">por desbloquear</span></h1>
-    <p class="sub" data-t="sub">untraveld te enseña qué merece la pena a tu alrededor ahora mismo, te arma el plan del día y guarda cada sitio al que llegas. Solo o con tu grupo.</p>
-    <div class="hero-actions">
-      <a class="btn btn-primary" href="/app/" data-t="cta1">Entrar en la app</a>
-      <a class="btn btn-ghost" href="#destinos" data-t="cta2">Ver destinos</a>
+  <div class="wrap">
+   <div class="hero-grid">
+    <div class="hero-inner">
+      <span class="badge"><b></b><span data-t="badge">Beta abierta · 5 países</span></span>
+      <h1><span data-t="h1a">Cada ciudad es un</span> <em data-t="h1b">territorio</em> <span data-t="h1c">por desbloquear</span></h1>
+      <p class="sub" data-t="sub">untraveld te enseña qué merece la pena a tu alrededor ahora mismo, te arma el plan del día y guarda cada sitio al que llegas. Solo o con tu grupo.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="/app/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg><span data-t="cta1">Entrar en la app</span></a>
+        <a class="btn btn-ghost" href="#destinos" data-t="cta2">Ver destinos</a>
+      </div>
+      <div class="hero-meta">
+        <div><b>14</b><span data-t="hm1">Destinos</span></div>
+        <div><b>692</b><span data-t="hm2">Puntos curados</span></div>
+        <div><b data-t="hm3b">Gratis</b><span data-t="hm3">Sin tienda de apps</span></div>
+      </div>
     </div>
+
+    <div class="hero-stage">
+      <div class="device">
+        <div class="screen">
+          <div class="map-screen">
+            <svg viewBox="0 0 300 620" preserveAspectRatio="xMidYMid slice" style="width:100%;height:100%">
+              <rect width="300" height="620" fill="#EDE7DF"/>
+              <path d="M188 0 L300 0 L300 168 Q244 190 214 138 Q196 100 188 0Z" fill="#CFE1E6"/>
+              <path d="M0 396 Q56 366 108 400 Q150 430 132 486 Q108 546 40 528 Q-8 512 0 396Z" fill="#D9E5D2"/>
+              <path d="M18 552 Q92 596 168 560 Q244 524 300 560" stroke="#CFE1E6" stroke-width="26" fill="none" opacity=".8"/>
+              <g stroke="#FBF9F6" fill="none" stroke-linecap="round">
+                <path d="M-10 130 L310 96" stroke-width="13"/>
+                <path d="M-10 318 L310 296" stroke-width="15"/>
+                <path d="M64 -10 L92 640" stroke-width="13"/>
+                <path d="M214 -10 L196 640" stroke-width="11"/>
+                <path d="M-10 218 L310 236" stroke-width="7"/>
+                <path d="M-10 456 L310 424" stroke-width="7"/>
+                <path d="M140 -10 L152 640" stroke-width="6"/>
+                <path d="M262 -10 L272 640" stroke-width="6"/>
+                <path d="M20 96 L140 300 L300 268" stroke-width="8"/>
+              </g>
+              <g fill="#E4DCD2">
+                <rect x="100" y="118" width="30" height="26" rx="3"/><rect x="160" y="128" width="26" height="22" rx="3"/>
+                <rect x="106" y="248" width="26" height="30" rx="3"/><rect x="228" y="332" width="30" height="24" rx="3"/>
+                <rect x="30" y="248" width="22" height="28" rx="3"/><rect x="222" y="212" width="28" height="22" rx="3"/>
+              </g>
+              <path d="M150 336 L152 312 L140 300 L146 250 L172 246" stroke="#C9622F" stroke-width="4"
+                    fill="none" stroke-linecap="round" stroke-dasharray="9 7" opacity=".92"/>
+              <g>
+                <circle cx="172" cy="246" r="13" fill="#C9622F" opacity=".18"/>
+                <circle cx="172" cy="246" r="8" fill="#C9622F" stroke="#fff" stroke-width="2.6"/>
+                <circle cx="86" cy="150" r="7" fill="#2F7D5B" stroke="#fff" stroke-width="2.4" opacity=".92"/>
+                <circle cx="238" cy="150" r="7" fill="#B03A48" stroke="#fff" stroke-width="2.4" opacity=".45"/>
+                <circle cx="58" cy="360" r="7" fill="#2F7D5B" stroke="#fff" stroke-width="2.4" opacity=".92"/>
+                <circle cx="240" cy="300" r="7" fill="#55639E" stroke="#fff" stroke-width="2.4" opacity=".45"/>
+                <circle cx="118" cy="222" r="7" fill="#C9622F" stroke="#fff" stroke-width="2.4" opacity=".45"/>
+                <circle cx="216" cy="300" r="7" fill="#B03A48" stroke="#fff" stroke-width="2.4" opacity=".92"/>
+                <circle cx="268" cy="238" r="7" fill="#2F7D5B" stroke="#fff" stroke-width="2.4" opacity=".45"/>
+                <circle cx="150" cy="336" r="15" fill="#3F7FE0" opacity=".18"/>
+                <circle cx="150" cy="336" r="6.5" fill="#3F7FE0" stroke="#fff" stroke-width="2.6"/>
+              </g>
+            </svg>
+          </div>
+          <div class="st-bar"><span>9:41</span><span class="st-ic"><i></i></span></div>
+          <div class="map-top">
+            <div class="map-btn" aria-hidden="true"><i></i><i></i><i></i></div>
+            <div class="map-pill"><span class="pin" style="width:11px;height:11px"></span>Toronto</div>
+          </div>
+          <div class="legend" aria-hidden="true">
+            <div><b style="background:#C9622F"></b><span data-t="lg1">Monum.</span></div>
+            <div><b style="background:#2F7D5B"></b><span data-t="lg2">Natur.</span></div>
+            <div><b style="background:#B03A48"></b><span data-t="lg3">Comida</span></div>
+            <div><b style="background:#55639E"></b><span data-t="lg4">Ocio</span></div>
+          </div>
+          <div class="fab" style="bottom:238px">AI</div>
+          <div class="sheet">
+            <div class="sheet-h"></div>
+            <div class="sheet-t" data-t="near">Cerca de ti</div>
+            <div class="poi"><b style="background:#C9622F"></b><span>Distillery District</span><em>180 m</em></div>
+            <div class="poi"><b style="background:#B03A48"></b><span>St. Lawrence Market</span><em>340 m</em></div>
+            <div class="poi"><b style="background:#2F7D5B"></b><span>Berczy Park</span><em>410 m</em></div>
+            <div class="poi"><b style="background:#55639E"></b><span>Meridian Hall</span><em>620 m</em></div>
+            <div class="poi"><b style="background:#C9622F"></b><span>Hockey Hall of Fame</span><em>850 m</em></div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
   </div>
   <div class="scroll-hint"><span data-t="scroll">Sigue bajando</span></div>
 </div>
 
-<!-- STATS -->
-<div class="stats">
-  <div class="stats-grid">
+<!-- STRIP -->
+<div class="strip">
+  <div class="strip-grid">
     <div class="stat"><b>5</b><span data-t="s1">Países</span></div>
     <div class="stat"><b>14</b><span data-t="s2">Destinos</span></div>
     <div class="stat"><b>692</b><span data-t="s3">Puntos curados</span></div>
@@ -237,38 +576,168 @@
   </div>
 </section>
 
-<!-- FEATURES -->
-<section class="feat-sec" id="app">
+<!-- BLOQUES DE PRODUCTO -->
+<section id="app" style="padding-bottom:40px">
   <div class="wrap">
     <div class="sec-head reveal">
       <span class="label" data-t="l2">La app</span>
-      <h2 data-t="t2">Lo que hace por ti mientras viajas</h2>
+      <h2 data-t="t2">Tres cosas que hace mejor que tu carpeta de capturas</h2>
       <p data-t="p2">Pensada para usarse de pie, en la calle y con una mano.</p>
+    </div>
+
+    <div class="blocks">
+
+      <!-- 1. PLAN -->
+      <div class="block reveal">
+        <div class="block-txt">
+          <span class="label" data-t="b1l">Plan del día</span>
+          <h3 data-t="b1h">Dinos cómo viajas y te montamos el día entero</h3>
+          <p class="lead" data-t="b1p">Fechas, ritmo, con quién vas, dónde duermes y qué te apasiona. La app arma una agenda por franjas anclada a tu alojamiento, con ruta ordenada y kilómetros reales.</p>
+          <ul class="ticks">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 12.5l5 5L20 6.5"/></svg><span data-t="b1t1">Mañana, comida, tarde y noche, cada día del viaje</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 12.5l5 5L20 6.5"/></svg><span data-t="b1t2">Ruta por cercanía desde donde te alojas, no una lista suelta</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 12.5l5 5L20 6.5"/></svg><span data-t="b1t3">Cambia o añade paradas cuando quieras: se recalcula solo</span></li>
+          </ul>
+          <a class="btn btn-line" href="/app/" data-t="b1c">Probarlo ahora</a>
+        </div>
+        <div class="block-stage">
+          <div class="device sm"><div class="screen">
+            <div class="app-screen">
+              <div class="as-top"><span class="as-title" data-t="m1t">Agenda</span><span class="tag" data-t="m1d">4 días</span></div>
+              <div class="card">
+                <div class="card-h"><b data-t="m1c1">Día 2 · Old Town</b><span class="tag">18,4 km</span></div>
+                <div class="slot"><u data-t="mmor">Mañana</u><i style="background:#C9622F"></i><div><p>Distillery District</p><small data-t="m1s1">Monumento · 1,2 km</small></div></div>
+                <div class="slot"><u data-t="mcom">Comer</u><i style="background:#B03A48"></i><div><p>St. Lawrence Market</p><small data-t="m1s2">Comida · 0,9 km</small></div></div>
+                <div class="slot"><u data-t="mtar">Tarde</u><i style="background:#2F7D5B"></i><div><p>Toronto Islands</p><small data-t="m1s3">Naturaleza · 3,4 km</small></div></div>
+                <div class="slot"><u data-t="mnoc">Noche</u><i style="background:#55639E"></i><div><p>Meridian Hall</p><small data-t="m1s4">Ocio · 2,1 km</small></div></div>
+              </div>
+              <div class="card">
+                <div class="card-h"><b data-t="m1c2">Día 3 · Harbourfront</b><span class="tag">11,0 km</span></div>
+                <div class="slot"><u data-t="mmor2">Mañana</u><i style="background:#C9622F"></i><div><p>CN Tower</p><small data-t="m1s5">Monumento · 0,6 km</small></div></div>
+                <div class="slot"><u data-t="mcom2">Comer</u><i style="background:#B03A48"></i><div><p>Amsterdam BrewHouse</p><small data-t="m1s6">Comida · 1,4 km</small></div></div>
+              </div>
+            </div>
+            <div class="st-bar"><span>9:41</span><span class="st-ic"><i></i></span></div>
+          </div></div>
+        </div>
+      </div>
+
+      <!-- 2. MAPA / GO -->
+      <div class="block flip reveal">
+        <div class="block-txt">
+          <span class="label" data-t="b2l">Mapa y navegación</span>
+          <h3 data-t="b2h">Lo primero que ves es qué tienes al lado</h3>
+          <p class="lead" data-t="b2p">Mapa a pantalla completa, hoja inferior con los puntos ordenados por distancia y un color por categoría. Pulsas Go y la ruta andando aparece dibujada, con maniobras y tiempo estimado.</p>
+          <ul class="ticks">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 12.5l5 5L20 6.5"/></svg><span data-t="b2t1">Check-in automático al entrar en el radio del punto</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 12.5l5 5L20 6.5"/></svg><span data-t="b2t2">Ficha con foto, descripción, horario recomendado y reseñas</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 12.5l5 5L20 6.5"/></svg><span data-t="b2t3">Asistente de viaje en cualquier pantalla, por escrito</span></li>
+          </ul>
+          <a class="btn btn-line" href="/app/" data-t="b2c">Abrir el mapa</a>
+        </div>
+        <div class="block-stage">
+          <div class="device sm"><div class="screen">
+            <div class="app-screen" style="background:#F6F2ED">
+              <div class="as-top"><span class="as-title" data-t="m2t">Asistente</span></div>
+              <div class="chatline me"><p data-t="m2q">Tengo 3 horas libres cerca de Kensington, ¿qué hago?</p></div>
+              <div class="chatline ai"><b>ut</b><p data-t="m2a">Empieza por Kensington Market (8 min andando). Come en Seven Lives, tacos, unos 15 €. Sigue a la Art Gallery of Ontario, 12 min. Vuelves con tiempo de sobra.</p></div>
+              <div class="chatline me"><p data-t="m2q2">Mejor algo al aire libre</p></div>
+              <div class="chatline ai"><b>ut</b><p data-t="m2a2">Entonces Trinity Bellwoods Park y luego Graffiti Alley. Los dos están a menos de 1,5 km y se ven bien en dos horas.</p></div>
+              <div class="card" style="margin-top:4px;display:flex;align-items:center;gap:8px;padding:9px 12px">
+                <span style="flex:1;font-size:10.5px;color:#A0938A" data-t="m2ph">Escribe lo que necesites</span>
+                <span style="width:22px;height:22px;border-radius:50%;background:#C9622F;display:block"></span>
+              </div>
+            </div>
+            <div class="st-bar"><span>9:41</span><span class="st-ic"><i></i></span></div>
+          </div></div>
+        </div>
+      </div>
+
+      <!-- 3. GRUPOS -->
+      <div class="block reveal">
+        <div class="block-txt">
+          <span class="label" data-t="b3l">Grupos</span>
+          <h3 data-t="b3h">Un código de seis letras y estáis todos dentro</h3>
+          <p class="lead" data-t="b3p">El viaje deja de vivir en cuatro chats distintos. Progreso común, itinerario que edita cualquiera, gastos con quién debe a quién, tareas, tablón de anuncios y las fotos de todos en un sitio.</p>
+          <ul class="ticks">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 12.5l5 5L20 6.5"/></svg><span data-t="b3t1">Check-ins y progreso compartidos, en tiempo real</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 12.5l5 5L20 6.5"/></svg><span data-t="b3t2">Gastos en euros con el saldo de cada uno y cómo saldarlo</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 12.5l5 5L20 6.5"/></svg><span data-t="b3t3">Varios destinos en un mismo grupo, con alojamiento por día</span></li>
+          </ul>
+          <a class="btn btn-line" href="/app/" data-t="b3c">Crear un grupo</a>
+        </div>
+        <div class="block-stage">
+          <div class="device sm"><div class="screen">
+            <div class="app-screen">
+              <div class="as-top"><span class="as-title" data-t="m3t">Grupo</span><span class="tag">K7M2QA</span></div>
+              <div class="card">
+                <div class="ring">
+                  <svg viewBox="0 0 44 44" aria-hidden="true">
+                    <circle cx="22" cy="22" r="18" fill="none" stroke="#EFE8E1" stroke-width="6"/>
+                    <circle cx="22" cy="22" r="18" fill="none" stroke="#C9622F" stroke-width="6"
+                            stroke-linecap="round" stroke-dasharray="113" stroke-dashoffset="45" transform="rotate(-90 22 22)"/>
+                  </svg>
+                  <p><b>61%</b><span data-t="m3p">68 de 112 puntos desbloqueados</span></p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-h"><b data-t="m3g">Gastos</b><span class="tag" data-t="m3e">412 €</span></div>
+                <div class="member"><b style="background:#C9622F">A</b><span>Alfonso</span><em class="pos">+46 €</em></div>
+                <div class="member"><b style="background:#2F7D5B">M</b><span>María</span><em class="neg">−18 €</em></div>
+                <div class="member"><b style="background:#55639E">J</b><span>Javi</span><em class="neg">−28 €</em></div>
+              </div>
+              <div class="card">
+                <div class="card-h"><b data-t="m3r">Recuerdos</b><span class="tag" data-t="m3n">34 fotos</span></div>
+                <div class="mem">
+                  <span style="background:linear-gradient(140deg,#D8C4B0,#B98F6C)"></span>
+                  <span style="background:linear-gradient(140deg,#BFD3C4,#7FA98C)"></span>
+                  <span style="background:linear-gradient(140deg,#E0CBBE,#C08A6A)"></span>
+                  <span style="background:linear-gradient(140deg,#C6D2E2,#8AA0C4)"></span>
+                  <span style="background:linear-gradient(140deg,#E6D6C2,#C7A277)"></span>
+                  <span style="background:linear-gradient(140deg,#CFC3D6,#9A86AC)"></span>
+                </div>
+              </div>
+            </div>
+            <div class="st-bar"><span>9:41</span><span class="st-ic"><i></i></span></div>
+          </div></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="feat-sec">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="label" data-t="l4">Y además</span>
+      <h2 data-t="t4">Lo que va apareciendo cuando ya estás allí</h2>
     </div>
     <div class="feats reveal">
       <div class="feat">
-        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 21s7-6.4 7-11.5A7 7 0 0 0 5 9.5C5 14.6 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
-        <h3 data-t="f1h">Mapa de cercanía</h3><p data-t="f1p">Pantalla completa, hoja inferior desplegable y color por categoría. Lo primero que ves es qué tienes al lado.</p>
-      </div>
-      <div class="feat">
-        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="4.5" width="18" height="16" rx="2"/><path d="M8 2.5v4M16 2.5v4M3 10h18"/></svg>
-        <h3 data-t="f2h">Plan a tu medida</h3><p data-t="f2p">Dices ritmo, fechas, con quién vas y qué te apasiona. Sale una agenda por franjas, con ruta y kilómetros.</p>
-      </div>
-      <div class="feat">
-        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="9" cy="8" r="3.2"/><path d="M2.5 20c0-3.6 2.9-6 6.5-6s6.5 2.4 6.5 6"/><path d="M17 5.5a3 3 0 0 1 0 5.6M18.5 20c0-2.2-.9-4-2.3-5.1"/></svg>
-        <h3 data-t="f3h">Grupos de verdad</h3><p data-t="f3p">Un código de seis letras y ya estáis dentro: progreso común, itinerario que edita cualquiera, gastos, tareas y chat.</p>
-      </div>
-      <div class="feat">
-        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 12h4l2.5-6 4 13 2.5-7h5"/></svg>
-        <h3 data-t="f4h">Navegación a pie</h3><p data-t="f4p">Botón Go y la ruta andando aparece en el mapa, con maniobras y tiempo estimado hasta el punto.</p>
-      </div>
-      <div class="feat">
         <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1.1 5.9-5.3-2.9-5.3 2.9 1.1-5.9L3.5 9.7l5.9-.8z"/></svg>
-        <h3 data-t="f5h">Reseñas de quien estuvo</h3><p data-t="f5p">Nota media de 0 a 10 por punto. Leer, cualquiera; escribir, solo quien ha hecho check-in allí.</p>
+        <h3 data-t="f1h">Reseñas de quien estuvo</h3><p data-t="f1p">Nota media de 0 a 10 por punto. Leer, cualquiera; escribir, solo quien ha hecho check-in allí.</p>
+      </div>
+      <div class="feat">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M6 3v8a3 3 0 0 0 6 0V3M9 11v10M18 3c-1.6 1.4-2.4 3.4-2.4 6 0 1.6.8 2.6 2.4 2.6V21"/></svg>
+        <h3 data-t="f2h">Comidas, ordenadas por distancia</h3><p data-t="f2p">Tipo de cocina, precio por persona y horario real de cocina. Filtras por cocina y por rango de precio.</p>
+      </div>
+      <div class="feat">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M4 8h16l-1.3 12H5.3z"/><path d="M8.5 8V6a3.5 3.5 0 0 1 7 0v2"/></svg>
+        <h3 data-t="f3h">Souvenirs de verdad</h3><p data-t="f3p">Qué se compra en cada ciudad y dónde: productos y tiendas reales, con precio orientativo en euros.</p>
+      </div>
+      <div class="feat">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="12" r="9"/><path d="M12 3a14 14 0 0 0 0 18M12 3a14 14 0 0 1 0 18M3.4 9h17.2M3.4 15h17.2"/></svg>
+        <h3 data-t="f4h">Territorio y progreso</h3><p data-t="f4p">Cuánto llevas desbloqueado de la ciudad y qué te queda por descubrir, punto a punto.</p>
       </div>
       <div class="feat">
         <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="6" width="18" height="14" rx="2"/><circle cx="12" cy="13" r="3.4"/><path d="M8.5 6l1.4-2.4h4.2L15.5 6"/></svg>
-        <h3 data-t="f6h">Recuerdos del viaje</h3><p data-t="f6p">Todas las fotos del grupo, agrupadas por día, con quien las subió. Descargables cuando volvéis a casa.</p>
+        <h3 data-t="f5h">Recuerdos del viaje</h3><p data-t="f5p">Todas las fotos del grupo agrupadas por día, con quién las subió. Descargables cuando volvéis a casa.</p>
+      </div>
+      <div class="feat">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 6h11M8.5 4v2M11 6c0 4.4-3 8-8 10M6 11c1.4 2.4 3.4 4 6.5 5"/><path d="M13 20l4.2-10 4.2 10M14.6 16.4h5.2"/></svg>
+        <h3 data-t="f6h">Todo en español y en inglés</h3><p data-t="f6p">Los 692 puntos, las zonas, el clima y los consejos están escritos en los dos idiomas. Eliges uno y no vuelves a pensarlo.</p>
       </div>
     </div>
   </div>
@@ -282,19 +751,61 @@
       <h2 data-t="t3">Catorce destinos, uno a uno a mano</h2>
       <p data-t="p3">Nada de puntos sacados de un volcado automático: cada sitio está elegido, ordenado por lo que de verdad se visita y descrito en español y en inglés.</p>
     </div>
-    <div class="reveal">
-      <div class="country"><h3>España <small data-t="d1">2 destinos</small></h3>
-        <div class="chips"><span class="chip">Región de Murcia</span><span class="chip">Comunidad de Madrid</span></div></div>
-      <div class="country"><h3>Canadá <small data-t="d2">3 destinos</small></h3>
-        <div class="chips"><span class="chip">Toronto</span><span class="chip">Cataratas del Niágara</span><span class="chip">Lago Bautista</span></div></div>
-      <div class="country"><h3>Argentina <small data-t="d3">7 destinos</small></h3>
-        <div class="chips"><span class="chip">Buenos Aires</span><span class="chip">Mendoza</span><span class="chip">Bariloche</span><span class="chip">El Calafate</span><span class="chip">Iguazú</span><span class="chip">Catamarca</span><span class="chip">Tucumán</span></div></div>
-      <div class="country"><h3>Italia <small data-t="d4">1 destino</small></h3>
-        <div class="chips"><span class="chip">Roma</span></div></div>
-      <div class="country"><h3>Estados Unidos <small data-t="d5">1 destino</small></h3>
-        <div class="chips"><span class="chip">Miami</span></div></div>
-      <div class="country"><h3 data-t="d6h">Próximamente</h3>
-        <div class="chips"><span class="chip soon" data-t="soon">Más ciudades en camino</span></div></div>
+    <div class="dest reveal">
+      <div class="country">
+        <div class="country-h"><h3>Argentina</h3><small data-t="d3">7 destinos · 187 puntos</small></div>
+        <div class="chips"><span class="chip">Buenos Aires</span><span class="chip">Mendoza</span><span class="chip">Bariloche</span><span class="chip">El Calafate</span><span class="chip">Iguazú</span><span class="chip">Catamarca</span><span class="chip">Tucumán</span></div>
+      </div>
+      <div class="country">
+        <div class="country-h"><h3>Canadá</h3><small data-t="d2">3 destinos · 160 puntos</small></div>
+        <div class="chips"><span class="chip">Toronto</span><span class="chip">Cataratas del Niágara</span><span class="chip">Lago Bautista</span></div>
+      </div>
+      <div class="country">
+        <div class="country-h"><h3>España</h3><small data-t="d1">2 destinos · 200 puntos</small></div>
+        <div class="chips"><span class="chip">Región de Murcia</span><span class="chip">Comunidad de Madrid</span></div>
+      </div>
+      <div class="country">
+        <div class="country-h"><h3 data-t="dot">Italia y Estados Unidos</h3><small data-t="d4">2 destinos · 145 puntos</small></div>
+        <div class="chips"><span class="chip">Roma</span><span class="chip">Miami</span></div>
+      </div>
+      <div class="country soon" style="grid-column:1/-1">
+        <div class="country-h"><h3 data-t="d6h">Próximamente</h3><small data-t="d6s">En preparación</small></div>
+        <div class="chips"><span class="chip" data-t="so1">Más ciudades de España</span><span class="chip" data-t="so2">Más ciudades de Italia</span><span class="chip" data-t="so3">Nuevos países</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INSTALAR -->
+<section class="install-sec">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="label" data-t="l5">Instalación</span>
+      <h2 data-t="t5">No hay que descargar nada</h2>
+      <p data-t="p5">untraveld se abre en el navegador y se queda en la pantalla de inicio como una app más. Sin App Store, sin Google Play, sin esperas.</p>
+    </div>
+    <div class="inst reveal">
+      <div><b>01</b><h3 data-t="i1h">Abre untraveld.com/app</h3><p data-t="i1p">Desde el móvil, con Safari en iPhone o Chrome en Android.</p></div>
+      <div><b>02</b><h3 data-t="i2h">Compartir → Añadir a inicio</h3><p data-t="i2p">En Android, el menú de tres puntos y "Instalar aplicación".</p></div>
+      <div><b>03</b><h3 data-t="i3h">Listo</h3><p data-t="i3p">Se abre a pantalla completa, con su icono, como cualquier otra app del móvil.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="label" data-t="l6">Preguntas</span>
+      <h2 data-t="t6">Lo que suelen preguntar</h2>
+    </div>
+    <div class="faq reveal">
+      <details open><summary data-t="q1">¿Cuánto cuesta?</summary><div class="ans" data-t="a1">Nada. untraveld está en beta abierta y se usa gratis mientras dure esta fase.</div></details>
+      <details><summary data-t="q2">¿Necesito internet todo el rato?</summary><div class="ans" data-t="a2">Sí para cargar el mapa, las fotos y lo compartido del grupo. El GPS del check-in funciona igual, pero el mapa necesita conexión para dibujarse.</div></details>
+      <details><summary data-t="q3">¿Cómo sabe la app que he llegado de verdad?</summary><div class="ans" data-t="a3">Por GPS. El punto se desbloquea cuando estás dentro de un radio de 150 metros, así que no se puede completar el territorio desde el sofá.</div></details>
+      <details><summary data-t="q4">¿Qué pasa con mis fotos y mis datos?</summary><div class="ans" data-t="a4">Las fotos de check-in y de recuerdos se guardan para tu grupo y las puedes borrar tú desde la propia app. No se venden datos ni hay publicidad.</div></details>
+      <details><summary data-t="q5">¿Funciona para un viaje en grupo grande?</summary><div class="ans" data-t="a5">Sí. Se crea un grupo, se pasa el código de seis letras y cada uno entra desde su móvil. El itinerario, el progreso, los gastos y las fotos son de todos.</div></details>
+      <details><summary data-t="q6">Mi ciudad no está. ¿La vais a añadir?</summary><div class="ans" data-t="a6">Los destinos se preparan a mano, uno a uno, así que van saliendo poco a poco. Escríbenos a hola@untraveld.com y dinos cuál te falta.</div></details>
     </div>
   </div>
 </section>
@@ -303,17 +814,22 @@
 <section class="cta">
   <div class="wrap">
     <h2 data-t="ct">¿Adónde vas ahora?</h2>
-    <p data-t="ctp">Se abre en el navegador y se instala en la pantalla de inicio. No hace falta pasar por ninguna tienda de aplicaciones.</p>
-    <a class="btn btn-primary" href="/app/" data-t="cta1b">Entrar en la app</a>
-    <p class="note" data-t="beta">Versión beta en pruebas</p>
+    <p data-t="ctp">Elige tu destino, abre el mapa y empieza a desbloquear la ciudad. Se tarda menos en entrar que en leer esto.</p>
+    <a class="btn btn-primary" href="/app/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg><span data-t="cta1b">Entrar en la app</span></a>
+    <p class="note" data-t="beta">Versión beta en pruebas · Gratis · Sin tienda de aplicaciones</p>
   </div>
 </section>
 
 <footer>
   <div class="wrap foot">
     <a class="brand" href="#top"><span class="pin"></span>untraveld</a>
+    <div class="foot-links">
+      <a href="#como" data-t="fl1">Cómo funciona</a>
+      <a href="#destinos" data-t="fl2">Destinos</a>
+      <a href="#faq" data-t="fl3">Preguntas</a>
+      <a href="mailto:hola@untraveld.com">hola@untraveld.com</a>
+    </div>
     <span>&copy; <span id="yr"></span> untraveld</span>
-    <a href="mailto:hola@untraveld.com">hola@untraveld.com</a>
   </div>
 </footer>
 
@@ -324,38 +840,102 @@
   function onScroll(){ hdr.classList.toggle('solid', window.scrollY > 60); }
   window.addEventListener('scroll', onScroll, {passive:true}); onScroll();
 
+  var mnav = document.getElementById('mnav'), burger = document.getElementById('burger');
+  function openNav(){ mnav.classList.add('open'); document.body.style.overflow='hidden'; burger.setAttribute('aria-expanded','true'); }
+  function closeNav(){ mnav.classList.remove('open'); document.body.style.overflow=''; burger.setAttribute('aria-expanded','false'); }
+  mnav.querySelectorAll('.mnav-links a').forEach(function(a){ a.addEventListener('click', closeNav); });
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape') closeNav(); });
+  window.addEventListener('resize', function(){ if(window.innerWidth > 840) closeNav(); });
+
   var io = new IntersectionObserver(function(es){
     es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
-  },{threshold:.12});
+  },{threshold:.08});
   document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
 
   var EN = {
-    nav1:"How it works", nav2:"Destinations", nav3:"The app", enter:"Enter",
-    kicker:"Travel like someone discovering",
+    nav1:"How it works", nav2:"The app", nav3:"Destinations", nav4:"FAQ", enter:"Enter", enter2:"Open the app",
+    badge:"Open beta · 5 countries",
     h1a:"Every city is a", h1b:"territory", h1c:"waiting to be unlocked",
     sub:"untraveld shows you what's worth your time right where you are, builds your day and keeps every place you reach. On your own or with your group.",
-    cta1:"Open the app", cta1b:"Open the app", cta2:"See destinations", scroll:"Keep scrolling",
+    cta1:"Open the app", cta2:"See destinations", scroll:"Keep scrolling",
+    hm1:"Destinations", hm2:"Curated spots", hm3b:"Free", hm3:"No app store",
+    lg1:"Landm.", lg2:"Nature", lg3:"Food", lg4:"Nightlife", near:"Near you",
     s1:"Countries", s2:"Destinations", s3:"Curated spots", s4:"Bilingual",
+
     l1:"How it works", t1:"Open the map and go outside. That's about it.",
     p1:"No endless lists, no tabs leading nowhere. This app is about what's next to you and about leaving a trace of where you've been.",
     st1h:"Pick a destination", st1p:"Country and city. Each one brings its own spots, areas, weather and local tips.",
     st2h:"See what's nearby", st2p:"The full-screen map leads: landmarks, nature, food and nightlife, sorted by how close they are.",
     st3h:"Arrive and check in", st3p:"Step inside the spot's radius to unlock it, add a photo and rate it from 0 to 10.",
     st4h:"Your route stays", st4p:"Each day draws itself: the places you visited, in order, with their photos and your territory progress.",
-    l2:"The app", t2:"What it does for you while you travel", p2:"Built to be used standing up, outdoors, with one hand.",
-    f1h:"Proximity map", f1p:"Full screen, a pull-up sheet and a colour per category. The first thing you see is what's right next to you.",
-    f2h:"A plan that fits you", f2p:"Tell it your pace, dates, who you're with and what you love. Out comes a day-by-day agenda with route and distance.",
-    f3h:"Groups that work", f3p:"A six-letter code and you're all in: shared progress, an itinerary anyone can edit, expenses, tasks and chat.",
-    f4h:"Walking navigation", f4p:"Hit Go and the walking route appears on the map, with turns and time to the spot.",
-    f5h:"Reviews from people who went", f5p:"An average score from 0 to 10 per spot. Anyone can read; only those who checked in can write.",
-    f6h:"Trip memories", f6p:"Every photo from the group, grouped by day, with who posted it. Downloadable once you're home.",
+
+    l2:"The app", t2:"Three things it does better than your screenshots folder",
+    p2:"Built to be used standing up, outdoors, with one hand.",
+
+    b1l:"Day plan", b1h:"Tell us how you travel and we'll build the whole day",
+    b1p:"Dates, pace, who you're with, where you sleep and what you love. The app builds an agenda by time of day anchored to your accommodation, with an ordered route and real distances.",
+    b1t1:"Morning, lunch, afternoon and evening, every day of the trip",
+    b1t2:"A route by proximity from where you're staying, not a loose list",
+    b1t3:"Swap or add stops whenever you want: it recalculates itself",
+    b1c:"Try it now",
+    m1t:"Agenda", m1d:"4 days", m1c1:"Day 2 · Old Town", m1c2:"Day 3 · Harbourfront",
+    mmor:"Morning", mcom:"Lunch", mtar:"Afternoon", mnoc:"Evening", mmor2:"Morning", mcom2:"Lunch",
+    m1s1:"Landmark · 1.2 km", m1s2:"Food · 0.9 km", m1s3:"Nature · 3.4 km", m1s4:"Nightlife · 2.1 km",
+    m1s5:"Landmark · 0.6 km", m1s6:"Food · 1.4 km",
+
+    b2l:"Map and navigation", b2h:"The first thing you see is what's right next to you",
+    b2p:"A full-screen map, a pull-up sheet with spots sorted by distance and a colour per category. Hit Go and the walking route is drawn for you, with turns and time to arrival.",
+    b2t1:"Automatic check-in once you step inside the spot's radius",
+    b2t2:"A card with photo, description, best time to go and reviews",
+    b2t3:"A travel assistant on every screen, just type your question",
+    b2c:"Open the map",
+    m2t:"Assistant",
+    m2q:"I have 3 free hours near Kensington. What should I do?",
+    m2a:"Start at Kensington Market, 8 minutes on foot. Eat at Seven Lives, tacos, around €15. Then the Art Gallery of Ontario, 12 minutes away. You'll be back with time to spare.",
+    m2q2:"Something outdoors, rather", m2ph:"Type whatever you need",
+    m2a2:"Then Trinity Bellwoods Park and Graffiti Alley. Both under 1.5 km and easily done in two hours.",
+
+    b3l:"Groups", b3h:"A six-letter code and you're all in",
+    b3p:"The trip stops living across four different chats. Shared progress, an itinerary anyone can edit, expenses with who owes whom, tasks, an announcements board and everyone's photos in one place.",
+    b3t1:"Check-ins and progress shared, in real time",
+    b3t2:"Expenses in euros with each person's balance and how to settle up",
+    b3t3:"Several destinations in one group, with accommodation per day",
+    b3c:"Create a group",
+    m3t:"Group", m3p:"68 of 112 spots unlocked", m3g:"Expenses", m3e:"€412", m3r:"Memories", m3n:"34 photos",
+
+    l4:"And also", t4:"What shows up once you're already there",
+    f1h:"Reviews from people who went", f1p:"An average score from 0 to 10 per spot. Anyone can read; only those who checked in can write.",
+    f2h:"Food, sorted by distance", f2p:"Type of cuisine, price per person and actual kitchen hours. Filter by cuisine and price range.",
+    f3h:"Souvenirs that are real", f3p:"What to buy in each city and where: real products and shops, with a guide price in euros.",
+    f4h:"Territory and progress", f4p:"How much of the city you've unlocked and what's left to discover, spot by spot.",
+    f5h:"Trip memories", f5p:"Every photo from the group, grouped by day, with who posted it. Downloadable once you're home.",
+    f6h:"All in Spanish and English", f6p:"All 692 spots, the areas, the weather and the tips are written in both languages. Pick one and forget about it.",
+
     l3:"Destinations", t3:"Fourteen destinations, each one done by hand",
     p3:"No spots scraped from a bulk dump: every place is chosen, ordered by what people actually visit and written in both Spanish and English.",
-    d1:"2 destinations", d2:"3 destinations", d3:"7 destinations", d4:"1 destination", d5:"1 destination",
-    d6h:"Coming soon", soon:"More cities on the way",
+    d1:"2 destinations · 200 spots", d2:"3 destinations · 160 spots", d3:"7 destinations · 187 spots",
+    dot:"Italy and United States", d4:"2 destinations · 145 spots",
+    d6h:"Coming soon", d6s:"In the works",
+    so1:"More cities in Spain", so2:"More cities in Italy", so3:"New countries",
+
+    l5:"Install", t5:"Nothing to download",
+    p5:"untraveld opens in your browser and stays on your home screen like any other app. No App Store, no Google Play, no waiting.",
+    i1h:"Open untraveld.com/app", i1p:"From your phone, with Safari on iPhone or Chrome on Android.",
+    i2h:"Share → Add to Home Screen", i2p:"On Android, the three-dot menu and “Install app”.",
+    i3h:"Done", i3p:"It opens full screen, with its own icon, like any other app on your phone.",
+
+    l6:"FAQ", t6:"What people usually ask",
+    q1:"How much does it cost?", a1:"Nothing. untraveld is in open beta and it's free while this phase lasts.",
+    q2:"Do I need internet the whole time?", a2:"Yes, to load the map, the photos and anything shared with your group. Check-in GPS works the same, but the map needs a connection to draw itself.",
+    q3:"How does the app know I actually got there?", a3:"By GPS. A spot unlocks when you're within 150 metres of it, so you can't complete the territory from your sofa.",
+    q4:"What happens to my photos and my data?", a4:"Check-in and memory photos are kept for your group and you can delete them yourself from the app. No data is sold and there are no ads.",
+    q5:"Does it work for a big group trip?", a5:"Yes. Create a group, pass around the six-letter code and everyone joins from their own phone. The itinerary, the progress, the expenses and the photos belong to all of you.",
+    q6:"My city isn't there. Will you add it?", a6:"Destinations are prepared by hand, one at a time, so they arrive slowly. Write to hola@untraveld.com and tell us which one you're missing.",
+
     ct:"So where are you headed?",
-    ctp:"It opens in your browser and installs on your home screen. No app store needed.",
-    beta:"Beta version, still in testing"
+    ctp:"Pick your destination, open the map and start unlocking the city. Getting in takes less time than reading this.",
+    cta1b:"Open the app", beta:"Beta version, still in testing · Free · No app store",
+    fl1:"How it works", fl2:"Destinations", fl3:"FAQ"
   };
   var ES = {};
   document.querySelectorAll('[data-t]').forEach(function(el){ ES[el.getAttribute('data-t')] = el.innerHTML; });
@@ -367,11 +947,15 @@
       if (dict[k]) el.innerHTML = dict[k];
     });
     document.documentElement.lang = l;
-    document.getElementById('es').classList.toggle('on', l === 'es');
-    document.getElementById('en').classList.toggle('on', l === 'en');
+    ['es','mes'].forEach(function(id){ document.getElementById(id).classList.toggle('on', l === 'es'); });
+    ['en','men'].forEach(function(id){ document.getElementById(id).classList.toggle('on', l === 'en'); });
     try { localStorage.setItem('utd-landing-lang', l); } catch(e){}
   }
-  try { var saved = localStorage.getItem('utd-landing-lang'); if (saved === 'en') setLang('en'); } catch(e){}
+  try {
+    var saved = localStorage.getItem('utd-landing-lang');
+    if (saved === 'en') setLang('en');
+    else if (!saved && (navigator.language || '').slice(0,2) !== 'es') setLang('en');
+  } catch(e){}
 </script>
 </body>
 </html>
