@@ -8459,10 +8459,33 @@
     }
   }
 
+  // Liga el "espacio individual" (donde viven los Recuerdos en modo solo) a la
+  // cuenta de email del usuario, para que no se pierdan al cerrar sesión, reinstalar
+  // o cambiar de móvil. La primera vez reclama el id local actual (conservando las
+  // fotos existentes); después restaura SIEMPRE ese mismo id desde la cuenta.
+  async function reconcileSoloMemories(){
+    if(inGroupMode()) return;                       // grupo compartido: código estable, no se toca
+    var user=null; try{ user=firebase.auth().currentUser; }catch(e){}
+    if(!user || !user.uid) return;                  // solo cuentas de email (con uid estable)
+    var uid=user.uid;
+    try{
+      var snap=await db.ref('users/'+uid+'/soloGroupId').once('value');
+      var accId=snap.val();
+      if(accId){
+        if(myGroupId!==accId){ myGroupId=accId; saveMyGroupId(accId); window.UTD_CURRENT_GROUP=accId; }
+      } else {
+        var cur=myGroupId || loadMyGroupId() || randomGroupId();
+        await db.ref('users/'+uid+'/soloGroupId').set(cur);
+        myGroupId=cur; saveMyGroupId(cur); window.UTD_CURRENT_GROUP=cur;
+      }
+    }catch(e){ console.error('reconcileSoloMemories', e); }
+  }
+
   async function enterApp(){
     // La moderación necesita saber quién soy en TODAS las vías de entrada
     // (login, volver a abrir la app, entrar en una sala de grupo).
     try{ if(window.UTDMod) window.UTDMod.setUser(myName); }catch(e){}
+    try{ await reconcileSoloMemories(); }catch(e){}
     window.UTD_CURRENT_GROUP = myGroupId || '';
     try{ utdSyncMode(); }catch(e){}
     document.getElementById('onboarding').classList.remove('active');
