@@ -1257,6 +1257,36 @@
   .nav-maps .nm-ic{ font-size:13px; }
   .nav-checkin{ position:absolute; left:12px; right:12px; bottom:calc(84px + env(safe-area-inset-bottom)); pointer-events:auto; }
 </style>
+
+<style id="legalCss">
+#legalOverlay{position:fixed;inset:0;z-index:100000;background:#faf8f6;color:#1c1a18;display:none;flex-direction:column;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;}
+#legalOverlay.open{display:flex;}
+#legalOverlay .legal-bar{flex:none;display:flex;align-items:center;justify-content:space-between;gap:12px;
+  padding:calc(env(safe-area-inset-top,0px) + 10px) 14px 10px;background:#faf8f6;border-bottom:1px solid #e6e0d9;}
+#legalOverlay .legal-close{border:none;background:#efe7de;color:#1c1a18;width:38px;height:38px;border-radius:50%;font-size:17px;line-height:1;cursor:pointer;}
+#legalOverlay .legal-langs button{border:1px solid #e6e0d9;background:#fff;color:#6b645e;padding:6px 13px;border-radius:999px;font:inherit;font-size:13px;cursor:pointer;margin-left:6px;}
+#legalOverlay .legal-langs button.on{background:#C9622F;border-color:#C9622F;color:#fff;font-weight:600;}
+#legalOverlay .legal-scroll{flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;}
+#legalOverlay .legal-wrap{max-width:760px;margin:0 auto;padding:22px 20px calc(env(safe-area-inset-bottom,0px) + 60px);line-height:1.6;}
+#legalOverlay .legal-head{border-bottom:3px solid #C9622F;padding-bottom:14px;margin-bottom:20px;}
+#legalOverlay .legal-brand{font-size:13px;letter-spacing:.22em;text-transform:uppercase;color:#C9622F;font-weight:700;}
+#legalOverlay .legal-wrap h1{font-size:24px;margin:6px 0 0;letter-spacing:-.02em;}
+#legalOverlay .legal-upd{font-size:13px;color:#6b645e;margin-top:6px;}
+#legalOverlay h2{font-size:17px;margin:26px 0 8px;letter-spacing:-.01em;}
+#legalOverlay p,#legalOverlay li{font-size:15px;}
+#legalOverlay ul{padding-left:20px;}#legalOverlay li{margin-bottom:6px;}
+#legalOverlay table{width:100%;border-collapse:collapse;font-size:14px;margin:12px 0;background:#fff;border:1px solid #e6e0d9;border-radius:10px;overflow:hidden;}
+#legalOverlay th,#legalOverlay td{text-align:left;padding:10px;border-bottom:1px solid #e6e0d9;vertical-align:top;}
+#legalOverlay th{font-size:11.5px;letter-spacing:.09em;text-transform:uppercase;color:#6b645e;background:#fff;}
+#legalOverlay tr:last-child td{border-bottom:none;}
+#legalOverlay .ph{background:#fff4dd;padding:1px 6px;border-radius:4px;font-weight:600;}
+#legalOverlay .keybox{background:#fff;border:1px solid #e6e0d9;border-left:4px solid #b3402f;border-radius:0 12px 12px 0;padding:14px 18px;margin:16px 0;}
+#legalOverlay .keybox h3{margin:0 0 6px;font-size:15px;color:#b3402f;}
+#legalOverlay .keybox p{margin:0;font-size:14.5px;}
+#legalOverlay a{color:#A34D22;}
+#legalOverlay [hidden]{display:none;}
+</style>
 </head>
 <body>
 <script>
@@ -1872,7 +1902,7 @@
       </div>
 
       <label class="utd-terms" id="utdTermsRow"><input type="checkbox" id="utdTerms">
-        <span data-tr="Acepto los Términos de uso y la Política de privacidad, y entiendo que untraveld no tolera el contenido ofensivo ni el comportamiento abusivo.">Acepto los <a href="/terminos" target="_blank" rel="noopener">Términos de uso</a> y la <a href="/privacidad" target="_blank" rel="noopener">Política de privacidad</a>, y entiendo que untraveld no tolera el contenido ofensivo ni el comportamiento abusivo.</span></label>
+        <span data-tr="Acepto los Términos de uso y la Política de privacidad, y entiendo que untraveld no tolera el contenido ofensivo ni el comportamiento abusivo.">Acepto los <a href="#" onclick="return window.utdOpenLegal('terminos')">Términos de uso</a> y la <a href="#" onclick="return window.utdOpenLegal('privacidad')">Política de privacidad</a>, y entiendo que untraveld no tolera el contenido ofensivo ni el comportamiento abusivo.</span></label>
       <p class="utd-error" id="utdAuthError"></p>
       <button class="utd-btn utd-btn-primary" id="utdAuthSubmit">Crear cuenta</button>
       <div class="utd-or"><span data-tr="o">o</span></div>
@@ -1906,7 +1936,7 @@
         <input class="utd-input" id="utdEmPass" type="password" placeholder="••••••••" maxlength="60" autocomplete="current-password">
       </div>
       <label class="utd-terms" id="utdEmTermsRow"><input type="checkbox" id="utdEmTerms">
-        <span data-tr="Acepto los Términos de uso y la Política de privacidad, y entiendo que untraveld no tolera el contenido ofensivo ni el comportamiento abusivo.">Acepto los <a href="/terminos" target="_blank" rel="noopener">Términos de uso</a> y la <a href="/privacidad" target="_blank" rel="noopener">Política de privacidad</a>, y entiendo que untraveld no tolera el contenido ofensivo ni el comportamiento abusivo.</span></label>
+        <span data-tr="Acepto los Términos de uso y la Política de privacidad, y entiendo que untraveld no tolera el contenido ofensivo ni el comportamiento abusivo.">Acepto los <a href="#" onclick="return window.utdOpenLegal('terminos')">Términos de uso</a> y la <a href="#" onclick="return window.utdOpenLegal('privacidad')">Política de privacidad</a>, y entiendo que untraveld no tolera el contenido ofensivo ni el comportamiento abusivo.</span></label>
       <p class="utd-error" id="utdEmError"></p>
       <p class="utd-ok" id="utdEmOk"></p>
       <button class="utd-btn utd-btn-primary" id="utdEmSubmit" data-tr="Crear cuenta">Crear cuenta</button>
@@ -2437,9 +2467,9 @@
         <a href="mailto:soporte@untraveld.com">soporte@untraveld.com</a>
       </p>
       <p class="sub" style="font-size:12px; margin:0 0 10px; text-align:left;">
-        <a href="/terminos" target="_blank" rel="noopener" data-tr="Términos de uso">Términos de uso</a>
+        <a href="#" onclick="return window.utdOpenLegal('terminos')" data-tr="Términos de uso">Términos de uso</a>
         &nbsp;·&nbsp;
-        <a href="/privacidad" target="_blank" rel="noopener" data-tr="Política de privacidad">Política de privacidad</a>
+        <a href="#" onclick="return window.utdOpenLegal('privacidad')" data-tr="Política de privacidad">Política de privacidad</a>
       </p>
 
       <div class="mod-h" data-tr="Tu cuenta">Tu cuenta</div>
@@ -9204,5 +9234,290 @@
 </script>
 
 <script>if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/app/sw.js",{scope:"/app/"}).catch(function(){});});}</script>
+<div id="legalOverlay" aria-hidden="true"><div class="legal-bar"><button class="legal-close" id="legalClose" aria-label="Cerrar">✕</button><div class="legal-langs"><button id="legalEs" class="on">ES</button><button id="legalEn">EN</button></div></div><div class="legal-scroll"><div class="legal-wrap"><div class="legal-doc" data-doc="terminos" hidden><div class="legal-lang" data-l="es"><div class="legal-head"><div class="legal-brand">untraveld</div><h1>Términos de Uso y Licencia</h1><div class="legal-upd">Última actualización: 20 de agosto de 2026</div></div><p>Estos términos regulan el uso de la aplicación <b>untraveld</b> (la «App») y constituyen el contrato de licencia de usuario final entre tú y <span class="ph">[NOMBRE Y APELLIDOS O RAZÓN SOCIAL]</span> (en adelante, «nosotros»). Al descargar, instalar o usar la App aceptas estos términos. Si no estás de acuerdo, no la uses.</p>
+
+<h2>1. Qué es untraveld</h2>
+<p>untraveld es una aplicación de viajes que permite descubrir puntos de interés, registrar visitas mediante check-in con verificación de ubicación, generar itinerarios, escribir reseñas y compartir la experiencia con un grupo de viaje. Es un servicio de ocio e información, no una agencia de viajes ni un servicio de emergencias.</p>
+
+<h2>2. Cuenta de usuario</h2>
+<ul>
+  <li>Debes tener al menos 14 años para crear una cuenta.</li>
+  <li>Los datos que facilites deben ser veraces, y eres responsable de mantener tu contraseña a salvo y de toda la actividad realizada desde tu cuenta.</li>
+  <li>Puedes eliminar tu cuenta en cualquier momento desde la propia App, en la pantalla de cuenta.</li>
+</ul>
+
+<h2>3. Licencia de uso</h2>
+<p>Te concedemos una licencia personal, limitada, revocable, no exclusiva e intransferible para usar la App en dispositivos Apple de tu propiedad o bajo tu control, conforme a las Normas de Uso de la App Store de Apple. Esta licencia no te transfiere ninguna propiedad sobre la App. No puedes copiar, modificar, descompilar, aplicar ingeniería inversa, alquilar, revender ni distribuir la App, salvo en la medida permitida por la ley imperativa.</p>
+
+<div class="keybox">
+  <h3>4. Contenido de usuario: tolerancia cero</h3>
+  <p><b>No toleramos ningún contenido objetable ni ningún comportamiento abusivo hacia otros usuarios.</b> Está prohibido publicar contenido ilegal, violento, sexual, odioso, discriminatorio, acosador, difamatorio, engañoso, spam o que vulnere derechos de terceros, tanto en el tablón, las tareas, las encuestas, las reseñas, los comentarios del itinerario como en las fotografías. Retiraremos ese contenido y expulsaremos de forma permanente al usuario responsable.</p>
+</div>
+
+<h2>5. Cómo reportar y bloquear</h2>
+<ul>
+  <li>Todo contenido publicado por otro usuario incluye una opción para <b>reportarlo</b>. También puedes <b>bloquear</b> a un usuario desde su nombre para dejar de ver su contenido.</li>
+  <li>Revisamos los reportes y actuamos sobre el contenido señalado en un plazo máximo de <b>24 horas</b>, retirando el contenido y, cuando proceda, suspendiendo la cuenta.</li>
+  <li>También puedes escribirnos a <span class="ph">soporte@untraveld.com</span>.</li>
+</ul>
+
+<h2>6. Tu contenido sigue siendo tuyo</h2>
+<p>Conservas todos los derechos sobre las fotos, reseñas y textos que publicas. Nos concedes una licencia gratuita, mundial y no exclusiva para alojarlos, mostrarlos y distribuirlos dentro de la App con el único fin de prestar el servicio (por ejemplo, mostrar tu reseña a otros usuarios o tu foto a tu grupo). Esta licencia termina cuando borras el contenido o tu cuenta, salvo copias técnicas o lo necesario para atender un reporte en curso.</p>
+
+<h2>7. Check-ins, logros y juego limpio</h2>
+<p>Los logros e insignias solo tienen valor si son reales. Queda prohibido falsear la ubicación del dispositivo, usar simuladores de GPS, automatizar check-ins o cualquier otra manipulación destinada a conseguir logros sin haber estado físicamente en el lugar. Podemos anular check-ins, logros y progreso obtenidos de forma fraudulenta y cerrar la cuenta.</p>
+
+<h2>8. Información, itinerarios y asistente de IA</h2>
+<p>Los datos de los puntos de interés (horarios, precios, descripciones), las temperaturas y las sugerencias de itinerario, incluidas las generadas por el asistente de inteligencia artificial, son orientativos y pueden contener errores o estar desactualizados. Verifica siempre la información crítica —horarios, aforos, reservas, condiciones de acceso— en la fuente oficial antes de desplazarte.</p>
+
+<h2>9. Seguridad durante el viaje</h2>
+<p>Las rutas a pie y las indicaciones de navegación son una ayuda, no una garantía de seguridad. Presta atención al entorno, respeta las normas de circulación y no consultes el móvil mientras cruzas o conduces. Usas la App bajo tu propia responsabilidad, y eres tú quien decide si un lugar o una ruta son adecuados para ti.</p>
+
+<h2>10. Gastos compartidos</h2>
+<p>La función de gastos es una calculadora informativa entre los integrantes de un grupo. No procesamos pagos, no intervenimos en las deudas ni garantizamos la exactitud de los importes introducidos por los usuarios.</p>
+
+<h2>11. Propiedad intelectual</h2>
+<p>La marca untraveld, el diseño, el código, los textos curados de los puntos de interés y las bases de datos de la App nos pertenecen o los usamos con licencia. Los mapas proceden de OpenStreetMap y sus colaboradores; algunas fotografías proceden de Wikimedia Commons y se muestran con su atribución correspondiente.</p>
+
+<h2>12. Suspensión y terminación</h2>
+<p>Podemos suspender o cerrar tu cuenta si incumples estos términos, especialmente el apartado 4. Podemos también modificar, suspender o discontinuar la App o cualquiera de sus funciones, avisando con antelación razonable cuando sea posible.</p>
+
+<h2>13. Garantías y responsabilidad</h2>
+<p>La App se ofrece «tal cual», sin garantía de disponibilidad ininterrumpida ni de ausencia de errores. En la máxima medida permitida por la ley, no respondemos de daños indirectos ni de la pérdida de datos, beneficios u oportunidades. Nada de lo aquí dicho limita los derechos que la normativa de consumo te reconoce de forma imperativa, ni nuestra responsabilidad por dolo o negligencia grave.</p>
+
+<h2>14. Condiciones exigidas por Apple</h2>
+<ul>
+  <li>Este contrato se celebra entre tú y nosotros, <b>no con Apple</b>. Apple no es responsable de la App ni de su contenido.</li>
+  <li>Apple no tiene ninguna obligación de prestar servicios de mantenimiento o soporte sobre la App.</li>
+  <li>Si la App no cumple una garantía aplicable, puedes notificárselo a Apple y Apple te reembolsará el precio de compra; más allá de eso, Apple no tiene ninguna otra obligación de garantía.</li>
+  <li>Somos nosotros, y no Apple, los responsables de atender cualquier reclamación tuya o de un tercero relacionada con la App, incluidas las reclamaciones por responsabilidad de producto, por incumplimiento normativo o derivadas de la legislación de protección al consumidor o de datos.</li>
+  <li>Somos nosotros, y no Apple, los responsables de investigar y resolver cualquier reclamación por infracción de propiedad intelectual relacionada con la App.</li>
+  <li>Declaras que no te encuentras en un país sujeto a embargo del Gobierno de EE. UU. ni designado como país «que apoya el terrorismo», y que no figuras en ninguna lista estadounidense de partes prohibidas o restringidas.</li>
+  <li>Apple y sus filiales son <b>terceros beneficiarios</b> de este contrato y podrán exigir su cumplimiento frente a ti.</li>
+  <li>Para cualquier consulta, queja o soporte sobre la App, escribe a <span class="ph">soporte@untraveld.com</span>.</li>
+</ul>
+
+<h2>15. Ley aplicable</h2>
+<p>Estos términos se rigen por la ley española. Si actúas como consumidor, conservas el derecho a acudir a los tribunales de tu domicilio y a la plataforma europea de resolución de litigios en línea.</p>
+
+<h2>16. Cambios</h2>
+<p>Publicaremos cualquier modificación en esta dirección y actualizaremos la fecha. Si el cambio es sustancial, te lo indicaremos dentro de la App y te pediremos que lo aceptes de nuevo.</p></div><div class="legal-lang" data-l="en" hidden><div class="legal-head"><div class="legal-brand">untraveld</div><h1>Terms of Use and Licence</h1><div class="legal-upd">Last updated: 20 August 2026</div></div><p>These terms govern the use of the <b>untraveld</b> application (the "App") and constitute the end-user licence agreement between you and <span class="ph">[FULL NAME OR COMPANY NAME]</span> ("we", "us"). By downloading, installing or using the App you accept these terms. If you do not agree, do not use it.</p>
+
+<h2>1. What untraveld is</h2>
+<p>untraveld is a travel app for discovering points of interest, recording visits through location-verified check-ins, generating itineraries, writing reviews and sharing the experience with a travel group. It is a leisure and information service, not a travel agency or an emergency service.</p>
+
+<h2>2. User account</h2>
+<ul>
+  <li>You must be at least 14 years old to create an account.</li>
+  <li>The details you provide must be accurate, and you are responsible for keeping your password safe and for all activity carried out from your account.</li>
+  <li>You may delete your account at any time from within the App, on the account screen.</li>
+</ul>
+
+<h2>3. Licence</h2>
+<p>We grant you a personal, limited, revocable, non-exclusive and non-transferable licence to use the App on Apple devices you own or control, in accordance with the App Store Usage Rules. This licence transfers no ownership in the App. You may not copy, modify, decompile, reverse-engineer, rent, resell or distribute the App, except to the extent permitted by mandatory law.</p>
+
+<div class="keybox">
+  <h3>4. User content: zero tolerance</h3>
+  <p><b>There is no tolerance for objectionable content or abusive behaviour towards other users.</b> It is forbidden to post illegal, violent, sexual, hateful, discriminatory, harassing, defamatory, misleading or spam content, or content infringing third-party rights — on the board, in tasks, polls, reviews, itinerary notes or photographs. Such content will be removed and the responsible user permanently ejected.</p>
+</div>
+
+<h2>5. Reporting and blocking</h2>
+<ul>
+  <li>All content posted by another user includes an option to <b>report</b> it. You can also <b>block</b> a user from their name to stop seeing their content.</li>
+  <li>We review reports and act on flagged content within a maximum of <b>24 hours</b>, removing the content and, where appropriate, suspending the account.</li>
+  <li>You can also write to us at <span class="ph">soporte@untraveld.com</span>.</li>
+</ul>
+
+<h2>6. Your content stays yours</h2>
+<p>You keep all rights over the photos, reviews and text you post. You grant us a free, worldwide, non-exclusive licence to host, display and distribute them within the App for the sole purpose of providing the service (for example, showing your review to other users or your photo to your group). This licence ends when you delete the content or your account, except for technical copies or what is needed to handle an ongoing report.</p>
+
+<h2>7. Check-ins, achievements and fair play</h2>
+<p>Achievements and badges only mean something if they are real. Spoofing the device location, using GPS simulators, automating check-ins or any other manipulation aimed at earning achievements without physically being at the place is forbidden. We may void fraudulently obtained check-ins, achievements and progress, and close the account.</p>
+
+<h2>8. Information, itineraries and the AI assistant</h2>
+<p>Point-of-interest data (opening hours, prices, descriptions), temperatures and itinerary suggestions, including those generated by the AI assistant, are indicative and may be inaccurate or out of date. Always verify critical information — hours, capacity, bookings, access conditions — with the official source before travelling.</p>
+
+<h2>9. Safety while travelling</h2>
+<p>Walking routes and navigation prompts are an aid, not a safety guarantee. Pay attention to your surroundings, obey traffic rules, and do not look at your phone while crossing or driving. You use the App at your own risk and you decide whether a place or route is suitable for you.</p>
+
+<h2>10. Shared expenses</h2>
+<p>The expenses feature is an informational calculator between group members. We do not process payments, do not intervene in debts and do not guarantee the accuracy of amounts entered by users.</p>
+
+<h2>11. Intellectual property</h2>
+<p>The untraveld brand, design, code, curated point-of-interest content and databases belong to us or are used under licence. Maps come from OpenStreetMap and its contributors; some photographs come from Wikimedia Commons and are shown with the corresponding attribution.</p>
+
+<h2>12. Suspension and termination</h2>
+<p>We may suspend or close your account if you breach these terms, particularly section 4. We may also modify, suspend or discontinue the App or any of its features, giving reasonable notice where possible.</p>
+
+<h2>13. Warranties and liability</h2>
+<p>The App is provided "as is", with no guarantee of uninterrupted availability or freedom from errors. To the fullest extent permitted by law, we are not liable for indirect damages or for loss of data, profits or opportunities. Nothing here limits the rights mandatorily granted to you by consumer law, or our liability for wilful misconduct or gross negligence.</p>
+
+<h2>14. Terms required by Apple</h2>
+<ul>
+  <li>This agreement is between you and us, <b>not with Apple</b>. Apple is not responsible for the App or its content.</li>
+  <li>Apple has no obligation whatsoever to furnish any maintenance or support services for the App.</li>
+  <li>If the App fails to conform to any applicable warranty, you may notify Apple and Apple will refund the purchase price; to the maximum extent permitted by law, Apple has no other warranty obligation.</li>
+  <li>We, not Apple, are responsible for addressing any claims by you or a third party relating to the App, including product liability claims, regulatory non-compliance claims and claims arising under consumer protection or data protection law.</li>
+  <li>We, not Apple, are responsible for the investigation and resolution of any third-party intellectual property infringement claim relating to the App.</li>
+  <li>You represent that you are not located in a country subject to a U.S. Government embargo or designated as a "terrorist supporting" country, and that you are not listed on any U.S. Government list of prohibited or restricted parties.</li>
+  <li>Apple and its subsidiaries are <b>third-party beneficiaries</b> of this agreement and may enforce it against you.</li>
+  <li>For any question, complaint or support request about the App, write to <span class="ph">soporte@untraveld.com</span>.</li>
+</ul>
+
+<h2>15. Governing law</h2>
+<p>These terms are governed by Spanish law. If you act as a consumer, you keep the right to bring proceedings before the courts of your place of residence and to use the European online dispute resolution platform.</p>
+
+<h2>16. Changes</h2>
+<p>We will publish any change at this address and update the date. If the change is significant, we will tell you inside the App and ask you to accept it again.</p></div></div><div class="legal-doc" data-doc="privacidad" hidden><div class="legal-lang" data-l="es"><div class="legal-head"><div class="legal-brand">untraveld</div><h1>Política de Privacidad</h1><div class="legal-upd">Última actualización: 20 de agosto de 2026</div></div><p>Esta política explica qué datos personales trata la aplicación <b>untraveld</b> (en adelante, «la App»), con qué finalidad y qué derechos tienes sobre ellos. Al usar la App aceptas lo aquí descrito.</p>
+
+<h2>1. Responsable del tratamiento</h2>
+<ul>
+  <li>Responsable: <span class="ph">[NOMBRE Y APELLIDOS O RAZÓN SOCIAL]</span></li>
+  <li>NIF/CIF: <span class="ph">[NIF]</span></li>
+  <li>Dirección: <span class="ph">[DIRECCIÓN POSTAL O APARTADO DE CORREOS]</span></li>
+  <li>Correo de contacto: <span class="ph">privacidad@untraveld.com</span></li>
+</ul>
+
+<h2>2. Qué datos tratamos</h2>
+<table>
+  <tr><th>Categoría</th><th>Datos</th><th>Cuándo</th></tr>
+  <tr><td>Cuenta</td><td>Nombre o nombre de usuario, dirección de correo electrónico y contraseña (cifrada; nunca la vemos en claro).</td><td>Al registrarte.</td></tr>
+  <tr><td>Ubicación precisa</td><td>Coordenadas GPS del dispositivo.</td><td>Solo mientras la App está abierta, para validar un check-in en un punto de interés, ordenar los sitios por cercanía y trazar rutas a pie. No guardamos un histórico de tus movimientos: se guarda el hecho de haber visitado un punto concreto, no el recorrido.</td></tr>
+  <tr><td>Fotografías</td><td>Imágenes que subes al hacer un check-in o a la sección de recuerdos.</td><td>Solo cuando tú eliges subirlas.</td></tr>
+  <tr><td>Contenido que publicas</td><td>Reseñas y puntuaciones, anuncios del tablón, tareas, encuestas, gastos compartidos y comentarios del itinerario.</td><td>Al usar las funciones de grupo o de reseñas.</td></tr>
+  <tr><td>Actividad en la App</td><td>Check-ins realizados, progreso, itinerarios generados y preferencias (idioma, destino).</td><td>Durante el uso normal.</td></tr>
+  <tr><td>Datos técnicos</td><td>Identificador de sesión, tipo de dispositivo y datos básicos de conexión.</td><td>Automáticamente, para que la App funcione y sea segura.</td></tr>
+</table>
+<p>No tratamos categorías especiales de datos y no elaboramos perfiles con efectos jurídicos sobre ti.</p>
+
+<h2>3. Para qué usamos los datos y con qué base legal</h2>
+<ul>
+  <li><b>Prestar el servicio</b> (cuenta, check-ins, itinerarios, grupos): ejecución del contrato de uso de la App.</li>
+  <li><b>Ubicación</b>: tu consentimiento, otorgado en el permiso del sistema iOS. Puedes retirarlo en los ajustes del dispositivo; en ese caso el check-in automático y la navegación dejan de funcionar.</li>
+  <li><b>Cámara y fotos</b>: tu consentimiento, otorgado en el permiso del sistema.</li>
+  <li><b>Seguridad y moderación</b> (evitar abusos, atender reportes de contenido): interés legítimo y cumplimiento de las obligaciones que nos impone la ley y las normas de la App Store.</li>
+  <li><b>Comunicaciones sobre el servicio</b> (verificación de correo, recuperación de contraseña): ejecución del contrato.</li>
+</ul>
+
+<h2>4. Quién puede ver tu información</h2>
+<ul>
+  <li><b>Otros usuarios de tu grupo</b>: tu nombre, tus check-ins, tus fotos de check-in y de recuerdos, tus anuncios, tareas, encuestas y gastos son visibles para los integrantes del grupo al que te unes.</li>
+  <li><b>Todos los usuarios</b>: las reseñas y puntuaciones de los puntos de interés son <b>públicas</b> y aparecen con tu nombre de usuario.</li>
+  <li>El resto de tu actividad individual no se comparte con nadie.</li>
+</ul>
+
+<h2>5. Proveedores que tratan datos por nuestra cuenta</h2>
+<table>
+  <tr><th>Proveedor</th><th>Para qué</th><th>Dónde</th></tr>
+  <tr><td>Google (Firebase Authentication, Realtime Database, Storage)</td><td>Cuentas, almacenamiento de contenido de grupo y fotos</td><td>Base de datos alojada en la UE (europe-west1)</td></tr>
+  <tr><td>Netlify</td><td>Alojamiento web y funciones de servidor</td><td>EE. UU. / red global</td></tr>
+  <tr><td>Anthropic (Claude)</td><td>Asistente de itinerarios: procesa el texto que escribes en el chat de la IA</td><td>EE. UU.</td></tr>
+  <tr><td>HeiGIT / openrouteservice</td><td>Cálculo de rutas a pie (recibe coordenadas de origen y destino)</td><td>Alemania</td></tr>
+  <tr><td>CartoDB / OpenStreetMap, Wikimedia</td><td>Mapas e imágenes de los puntos de interés</td><td>UE / EE. UU.</td></tr>
+</table>
+<p>Cuando hay transferencias fuera del Espacio Económico Europeo se amparan en las Cláusulas Contractuales Tipo aprobadas por la Comisión Europea. No vendemos tus datos ni los cedemos con fines publicitarios.</p>
+
+<h2>6. Cuánto tiempo conservamos los datos</h2>
+<p>Mientras tu cuenta esté activa. Si la borras, eliminamos tu perfil, tus fotos, tus check-ins y tu contenido en un plazo máximo de 30 días, salvo lo que debamos conservar por obligación legal o para atender un reporte de abuso en curso. El contenido publicado en un grupo puede permanecer de forma anónima si es necesario para que el resto del grupo conserve su historial.</p>
+
+<h2>7. Tus derechos</h2>
+<p>Puedes ejercer los derechos de acceso, rectificación, supresión, oposición, limitación y portabilidad escribiendo a <span class="ph">privacidad@untraveld.com</span>. También puedes <b>borrar tu cuenta directamente desde la App</b>, en la pantalla de cuenta. Si consideras que no hemos atendido bien tu solicitud, puedes reclamar ante la Agencia Española de Protección de Datos (<a href="https://www.aepd.es">aepd.es</a>).</p>
+
+<h2>8. Menores</h2>
+<p>La App no está dirigida a menores de 14 años y no recogemos datos de forma consciente de personas de esa edad. Si detectamos una cuenta de un menor de 14 años, la eliminaremos.</p>
+
+<h2>9. Seguridad</h2>
+<p>Las comunicaciones van cifradas con HTTPS, las contraseñas se almacenan con funciones de derivación seguras y el acceso a la base de datos está restringido por reglas de autorización. Ningún sistema es infalible: si se produjera una brecha que afecte a tus datos, te lo comunicaremos y lo notificaremos a la autoridad de control conforme a la ley.</p>
+
+<h2>10. Cambios en esta política</h2>
+<p>Si modificamos esta política, publicaremos la nueva versión en esta misma dirección y actualizaremos la fecha. Si el cambio es sustancial, te avisaremos dentro de la App.</p></div><div class="legal-lang" data-l="en" hidden><div class="legal-head"><div class="legal-brand">untraveld</div><h1>Privacy Policy</h1><div class="legal-upd">Last updated: 20 August 2026</div></div><p>This policy explains what personal data the <b>untraveld</b> application (the "App") processes, why, and what rights you have. By using the App you accept what is described here.</p>
+
+<h2>1. Data controller</h2>
+<ul>
+  <li>Controller: <span class="ph">[FULL NAME OR COMPANY NAME]</span></li>
+  <li>Tax ID: <span class="ph">[TAX ID]</span></li>
+  <li>Address: <span class="ph">[POSTAL ADDRESS OR P.O. BOX]</span></li>
+  <li>Contact email: <span class="ph">privacidad@untraveld.com</span></li>
+</ul>
+
+<h2>2. What data we process</h2>
+<table>
+  <tr><th>Category</th><th>Data</th><th>When</th></tr>
+  <tr><td>Account</td><td>Name or username, email address and password (hashed; never visible to us).</td><td>When you sign up.</td></tr>
+  <tr><td>Precise location</td><td>Device GPS coordinates.</td><td>Only while the App is open, to validate a check-in at a point of interest, sort places by proximity and draw walking routes. We do not keep a history of your movements: we store the fact that you visited a specific point, not your path.</td></tr>
+  <tr><td>Photos</td><td>Images you upload at check-in or to the memories section.</td><td>Only when you choose to upload them.</td></tr>
+  <tr><td>Content you post</td><td>Reviews and ratings, board announcements, tasks, polls, shared expenses and itinerary notes.</td><td>When you use group or review features.</td></tr>
+  <tr><td>App activity</td><td>Check-ins, progress, generated itineraries and preferences (language, destination).</td><td>During normal use.</td></tr>
+  <tr><td>Technical data</td><td>Session identifier, device type and basic connection data.</td><td>Automatically, to keep the App working and secure.</td></tr>
+</table>
+<p>We do not process special categories of data and we do not carry out profiling with legal effects on you.</p>
+
+<h2>3. Why we use the data, and on what legal basis</h2>
+<ul>
+  <li><b>Providing the service</b> (account, check-ins, itineraries, groups): performance of the contract.</li>
+  <li><b>Location</b>: your consent, given through the iOS system permission. You can withdraw it in device settings; automatic check-in and navigation will then stop working.</li>
+  <li><b>Camera and photos</b>: your consent, given through the system permission.</li>
+  <li><b>Safety and moderation</b> (preventing abuse, handling content reports): legitimate interest and compliance with legal and App Store obligations.</li>
+  <li><b>Service communications</b> (email verification, password reset): performance of the contract.</li>
+</ul>
+
+<h2>4. Who can see your information</h2>
+<ul>
+  <li><b>Other members of your group</b>: your name, check-ins, check-in and memory photos, announcements, tasks, polls and expenses are visible to the group you join.</li>
+  <li><b>All users</b>: reviews and ratings of points of interest are <b>public</b> and shown with your username.</li>
+  <li>The rest of your individual activity is not shared with anyone.</li>
+</ul>
+
+<h2>5. Providers processing data on our behalf</h2>
+<table>
+  <tr><th>Provider</th><th>Purpose</th><th>Location</th></tr>
+  <tr><td>Google (Firebase Authentication, Realtime Database, Storage)</td><td>Accounts, group content and photo storage</td><td>Database hosted in the EU (europe-west1)</td></tr>
+  <tr><td>Netlify</td><td>Web hosting and serverless functions</td><td>US / global network</td></tr>
+  <tr><td>Anthropic (Claude)</td><td>Itinerary assistant: processes the text you type into the AI chat</td><td>US</td></tr>
+  <tr><td>HeiGIT / openrouteservice</td><td>Walking route calculation (receives origin and destination coordinates)</td><td>Germany</td></tr>
+  <tr><td>CartoDB / OpenStreetMap, Wikimedia</td><td>Maps and point-of-interest images</td><td>EU / US</td></tr>
+</table>
+<p>Transfers outside the European Economic Area rely on the Standard Contractual Clauses approved by the European Commission. We do not sell your data or share it for advertising purposes.</p>
+
+<h2>6. How long we keep data</h2>
+<p>For as long as your account is active. If you delete it, we remove your profile, photos, check-ins and content within 30 days at most, except for what we must keep by law or to handle an ongoing abuse report. Content posted in a group may remain in anonymised form where necessary for the rest of the group to keep its history.</p>
+
+<h2>7. Your rights</h2>
+<p>You may exercise your rights of access, rectification, erasure, objection, restriction and portability by writing to <span class="ph">privacidad@untraveld.com</span>. You can also <b>delete your account directly in the App</b>, from the account screen. If you believe your request was not handled properly, you may complain to the Spanish Data Protection Agency (<a href="https://www.aepd.es">aepd.es</a>).</p>
+
+<h2>8. Minors</h2>
+<p>The App is not intended for children under 14 and we do not knowingly collect their data. If we identify an account belonging to a child under 14, we will delete it.</p>
+
+<h2>9. Security</h2>
+<p>Traffic is encrypted with HTTPS, passwords are stored using secure derivation functions, and database access is restricted by authorisation rules. No system is infallible: should a breach affecting your data occur, we will inform you and notify the supervisory authority as required by law.</p>
+
+<h2>10. Changes to this policy</h2>
+<p>If we change this policy we will publish the new version at this same address and update the date. If the change is significant, we will notify you inside the App.</p></div></div></div></div></div>
+<script>
+(function(){
+  function ov(){ return document.getElementById('legalOverlay'); }
+  function setLegalLang(l){
+    var o=ov(); if(!o) return;
+    var els=o.querySelectorAll('.legal-lang');
+    for(var i=0;i<els.length;i++){ els[i].hidden=(els[i].getAttribute('data-l')!==l); }
+    var be=document.getElementById('legalEs'), bn=document.getElementById('legalEn');
+    if(be) be.classList.toggle('on', l==='es'); if(bn) bn.classList.toggle('on', l==='en');
+  }
+  function closeLegal(){ var o=ov(); if(o){ o.classList.remove('open'); o.setAttribute('aria-hidden','true'); } }
+  window.utdOpenLegal=function(which){
+    var o=ov(); if(!o) return false;
+    var docs=o.querySelectorAll('.legal-doc');
+    for(var i=0;i<docs.length;i++){ docs[i].hidden=(docs[i].getAttribute('data-doc')!==which); }
+    setLegalLang((window.UTD_LANG==='en')?'en':'es');
+    o.classList.add('open'); o.setAttribute('aria-hidden','false');
+    var sc=o.querySelector('.legal-scroll'); if(sc) sc.scrollTop=0;
+    return false;
+  };
+  var c=document.getElementById('legalClose'); if(c) c.addEventListener('click', closeLegal);
+  var be=document.getElementById('legalEs'); if(be) be.addEventListener('click', function(){ setLegalLang('es'); });
+  var bn=document.getElementById('legalEn'); if(bn) bn.addEventListener('click', function(){ setLegalLang('en'); });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeLegal(); });
+})();
+</script>
 </body>
 </html>
