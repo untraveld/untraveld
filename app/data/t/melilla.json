@@ -1,0 +1,411 @@
+{
+ "id": "melilla",
+ "name": "Melilla",
+ "country": "ES",
+ "center": [
+  35.2935,
+  -2.9383
+ ],
+ "pois": [
+  {
+   "id": "mel_melilla_la_vieja",
+   "cat": "monuments",
+   "name": "Melilla la Vieja (Ciudadela)",
+   "icon": "🏰",
+   "lat": 35.29403,
+   "lng": -2.93359,
+   "desc": "Recinto fortificado del siglo XV sobre el mar, corazon historico de la ciudad."
+  },
+  {
+   "id": "mel_puerta_santiago",
+   "cat": "monuments",
+   "name": "Puerta de Santiago",
+   "icon": "🚪",
+   "lat": 35.29358,
+   "lng": -2.93432,
+   "desc": "Puerta renacentista de acceso al primer recinto de la Ciudadela."
+  },
+  {
+   "id": "mel_aljibes_penuelas",
+   "cat": "monuments",
+   "name": "Aljibes de las Peñuelas",
+   "icon": "💧",
+   "lat": 35.29371,
+   "lng": -2.93411,
+   "desc": "Antiguos depositos de agua abovedados del siglo XVII bajo la Ciudadela."
+  },
+  {
+   "id": "mel_cuevas_conventico",
+   "cat": "monuments",
+   "name": "Cuevas del Conventico",
+   "icon": "🕳️",
+   "lat": 35.29455,
+   "lng": -2.9338,
+   "desc": "Red de cuevas-refugio excavadas en la roca bajo la ciudad vieja."
+  },
+  {
+   "id": "mel_plaza_espana",
+   "cat": "monuments",
+   "name": "Plaza de España",
+   "icon": "⛲",
+   "lat": 35.292,
+   "lng": -2.9379,
+   "desc": "Plaza circular monumental que enlaza la ciudad vieja con el ensanche modernista."
+  },
+  {
+   "id": "mel_palacio_asamblea",
+   "cat": "monuments",
+   "name": "Palacio de la Asamblea",
+   "icon": "🏛️",
+   "lat": 35.29215,
+   "lng": -2.9383,
+   "desc": "Ayuntamiento modernista de Enrique Nieto con torre-mirador."
+  },
+  {
+   "id": "mel_casino_militar",
+   "cat": "monuments",
+   "name": "Casino Militar",
+   "icon": "🎭",
+   "lat": 35.29245,
+   "lng": -2.9376,
+   "desc": "Edificio social del ensanche con rica ornamentacion modernista."
+  },
+  {
+   "id": "mel_sinagoga_or_zaruah",
+   "cat": "monuments",
+   "name": "Sinagoga Or Zaruah",
+   "icon": "🕎",
+   "lat": 35.2929,
+   "lng": -2.937,
+   "desc": "Sinagoga modernista de Enrique Nieto, joya de la Melilla sefardi."
+  },
+  {
+   "id": "mel_mezquita_central",
+   "cat": "monuments",
+   "name": "Mezquita Central",
+   "icon": "🕌",
+   "lat": 35.29579,
+   "lng": -2.94509,
+   "desc": "Primera mezquita construida en Melilla, tambien firmada por Nieto."
+  },
+  {
+   "id": "mel_parque_hernandez",
+   "cat": "nature",
+   "name": "Parque Hernández",
+   "icon": "🌳",
+   "lat": 35.2931,
+   "lng": -2.941,
+   "desc": "Gran pulmon verde del centro con vegetacion subtropical."
+  },
+  {
+   "id": "mel_faro_melilla",
+   "cat": "nature",
+   "name": "Faro de Melilla",
+   "icon": "🗼",
+   "lat": 35.2943,
+   "lng": -2.9323,
+   "desc": "Faro historico sobre el puerto con vistas al Mediterraneo."
+  },
+  {
+   "id": "mel_playa_ensenada_cabos",
+   "cat": "nature",
+   "name": "Playa de los Cárabos",
+   "icon": "🏖️",
+   "lat": 35.28286,
+   "lng": -2.93755,
+   "desc": "Playa urbana de arena junto al casco antiguo."
+  },
+  {
+   "id": "mel_puerto_noray",
+   "cat": "ocio",
+   "name": "Puerto Noray y paseo maritimo",
+   "icon": "⛵",
+   "lat": 35.2906,
+   "lng": -2.9305,
+   "desc": "Puerto deportivo con terrazas, ocio nocturno y vistas."
+  },
+  {
+   "id": "mel_mercado_central",
+   "cat": "ocio",
+   "name": "Mercado Central",
+   "icon": "🛒",
+   "lat": 35.2945,
+   "lng": -2.9386,
+   "desc": "Mercado de abastos donde se cruzan las cocinas de las cuatro culturas."
+  },
+  {
+   "id": "mel_gastro_multicultural",
+   "cat": "food",
+   "name": "Cocina multicultural melillense",
+   "icon": "🍽️",
+   "lat": 35.2916,
+   "lng": -2.937,
+   "desc": "Fusion de sabores españoles, bereberes, sefardies e hindues."
+  },
+  {
+   "id": "mel_pescaito_puerto",
+   "cat": "food",
+   "name": "Pescaito frito del puerto",
+   "icon": "🐟",
+   "lat": 35.2902,
+   "lng": -2.9315,
+   "desc": "Pescado y marisco fresco del Mediterraneo en las terrazas portuarias."
+  }
+ ],
+ "extra": {
+  "mel_melilla_la_vieja": {
+   "id": "mel_melilla_la_vieja",
+   "d": "Conocida como el Pueblo, es una ciudadela amurallada de cuatro recintos levantada por los españoles tras 1497. Callejuelas empedradas, murallas, baluartes y vistas al Mediterraneo forman un conjunto militar de los mejor conservados del pais.",
+   "d_en": "Known as the Pueblo, it is a walled citadel of four enclosures built by the Spanish after 1497. Cobbled lanes, walls, bastions and Mediterranean views make it one of the best-preserved military complexes in the country.",
+   "h": "Acceso libre todo el dia; recintos museisticos mar-dom 10:00-14:00 y 16:00-19:00",
+   "h_en": "Free access all day; museum enclosures Tue-Sun 10:00-14:00 and 16:00-19:00",
+   "i": "Ideal si te gusta la historia militar, las murallas y perderte por callejones con vistas al mar.",
+   "i_en": "Ideal if you like military history, ramparts and wandering alleys with sea views."
+  },
+  "mel_puerta_santiago": {
+   "id": "mel_puerta_santiago",
+   "d": "Unica puerta de estilo renacentista de la ciudad, coronada por el escudo imperial de Carlos V. Salvaba el foso mediante un puente levadizo y conserva la capilla de Santiago, dando paso al primer recinto amurallado.",
+   "d_en": "The city's only Renaissance-style gate, crowned by the imperial coat of arms of Charles V. It crossed the moat via a drawbridge and preserves the chapel of Santiago, leading into the first walled enclosure.",
+   "h": "Acceso libre en horario de la Ciudadela",
+   "h_en": "Free access during Citadel hours",
+   "i": "Ideal si te gusta la arquitectura defensiva y los detalles heraldicos.",
+   "i_en": "Ideal if you like defensive architecture and heraldic details."
+  },
+  "mel_aljibes_penuelas": {
+   "id": "mel_aljibes_penuelas",
+   "d": "Sistema de aljibes excavados para abastecer de agua a la plaza fuerte durante los asedios. Sus galerias abovedadas de piedra recogian el agua de lluvia y hoy se visitan como parte del recorrido subterraneo de Melilla la Vieja.",
+   "d_en": "System of cisterns dug to supply water to the stronghold during sieges. Its vaulted stone galleries collected rainwater and today form part of the underground tour of Melilla la Vieja.",
+   "h": "Mar-dom 10:00-14:00 y 16:00-19:00",
+   "h_en": "Tue-Sun 10:00-14:00 and 16:00-19:00",
+   "i": "Ideal si te gusta la ingenieria historica y los espacios subterraneos.",
+   "i_en": "Ideal if you like historic engineering and underground spaces."
+  },
+  "mel_cuevas_conventico": {
+   "id": "mel_cuevas_conventico",
+   "d": "Cavidades naturales y ampliadas por el hombre que sirvieron de refugio a la poblacion civil durante los asedios de los siglos XVIII y XIX. El recorrido baja hasta una playa oculta al pie de las murallas, con paneles que explican la vida bajo tierra.",
+   "d_en": "Natural cavities enlarged by hand that sheltered the civilian population during the sieges of the 18th and 19th centuries. The route descends to a hidden beach at the foot of the walls, with panels explaining underground life.",
+   "h": "Mar-dom con visita guiada; consultar turnos en oficina de turismo",
+   "h_en": "Tue-Sun with guided tour; check times at the tourist office",
+   "i": "Ideal si te gusta la historia oculta y las visitas guiadas atmosfericas.",
+   "i_en": "Ideal if you like hidden history and atmospheric guided tours."
+  },
+  "mel_plaza_espana": {
+   "id": "mel_plaza_espana",
+   "d": "Corazon neuralgico de Melilla, presidida por el Palacio de la Asamblea de Enrique Nieto y rodeada de palmeras y edificios señoriales. Punto de partida del Triangulo de Oro modernista y escenario de la vida social de la ciudad.",
+   "d_en": "The neuralgic heart of Melilla, presided over by Enrique Nieto's Palacio de la Asamblea and ringed by palm trees and stately buildings. Starting point of the modernist Golden Triangle and stage of the city's social life.",
+   "h": "Abierta todo el dia",
+   "h_en": "Open all day",
+   "i": "Ideal si te gusta pasear entre palmeras y empaparte del ambiente urbano.",
+   "i_en": "Ideal if you like strolling among palms and soaking up the urban atmosphere."
+  },
+  "mel_palacio_asamblea": {
+   "id": "mel_palacio_asamblea",
+   "d": "Sede del gobierno de la ciudad autonoma, obra maestra de Enrique Nieto inaugurada en 1948. Combina modernismo y art deco con una fachada curva sobre la Plaza de España y una torre coronada por reloj desde la que se domina el centro.",
+   "d_en": "Seat of the autonomous city government, a masterpiece by Enrique Nieto opened in 1948. It blends Modernism and Art Deco with a curved facade over Plaza de España and a clock tower overlooking the centre.",
+   "h": "Exterior siempre; interior en visitas concertadas laborables",
+   "h_en": "Exterior anytime; interior by arranged visits on weekdays",
+   "i": "Ideal si te gusta la arquitectura modernista y las fachadas fotogenicas.",
+   "i_en": "Ideal if you like modernist architecture and photogenic facades."
+  },
+  "mel_casino_militar": {
+   "id": "mel_casino_militar",
+   "d": "Uno de los inmuebles emblematicos del Triangulo de Oro, con miradores, esgrafiados y decoracion floral caracteristica del modernismo melillense. Historico club social militar que refleja el esplendor de la ciudad de principios del siglo XX.",
+   "d_en": "One of the emblematic buildings of the Golden Triangle, with bay windows, sgraffito and floral decoration typical of Melillan Modernism. A historic military social club reflecting the city's early-20th-century splendour.",
+   "h": "Exterior visible todo el dia",
+   "h_en": "Exterior visible all day",
+   "i": "Ideal si te gusta cazar detalles ornamentales y fachadas de epoca.",
+   "i_en": "Ideal if you like hunting ornamental details and period facades."
+  },
+  "mel_sinagoga_or_zaruah": {
+   "id": "mel_sinagoga_or_zaruah",
+   "d": "Tambien llamada Yamin Benarroch, fue inaugurada en 1924 y diseñada por Enrique Nieto. Su interior combina el modernismo con la simbologia hebrea en columnas, vidrieras y una galeria superior, testimonio de la importante comunidad judia de la ciudad.",
+   "d_en": "Also called Yamin Benarroch, it opened in 1924 and was designed by Enrique Nieto. Its interior blends Modernism with Hebrew symbolism in columns, stained glass and an upper gallery, testimony to the city's important Jewish community.",
+   "h": "Visitas guiadas concertadas; consultar oficina de turismo",
+   "h_en": "Guided visits by arrangement; check the tourist office",
+   "i": "Ideal si te gusta el patrimonio sefardi y los interiores modernistas.",
+   "i_en": "Ideal if you like Sephardic heritage and modernist interiors."
+  },
+  "mel_mezquita_central": {
+   "id": "mel_mezquita_central",
+   "d": "Levantada en la calle Garcia Cabrelles, fue la primera mezquita del ensanche y una muestra mas de la versatilidad de Enrique Nieto, capaz de proyectar templos de las distintas comunidades. Su minarete es un hito del barrio musulman.",
+   "d_en": "Built on Garcia Cabrelles street, it was the first mosque of the extension and further proof of Enrique Nieto's versatility, able to design temples for the different communities. Its minaret is a landmark of the Muslim quarter.",
+   "h": "Exterior visible; interior solo fieles",
+   "h_en": "Exterior visible; interior worshippers only",
+   "i": "Ideal si te gusta la arquitectura religiosa y la Melilla de las cuatro culturas.",
+   "i_en": "Ideal if you like religious architecture and Melilla of the four cultures."
+  },
+  "mel_parque_hernandez": {
+   "id": "mel_parque_hernandez",
+   "d": "Principal parque urbano de Melilla, con paseos arbolados, palmeras, jardines, un templete y un quiosco modernista. Punto de encuentro ciudadano que separa el ensanche del puerto y ofrece sombra en los dias de calor.",
+   "d_en": "Melilla's main urban park, with tree-lined promenades, palms, gardens, a bandstand and a modernist kiosk. A civic meeting point that separates the extension from the port and offers shade on hot days.",
+   "h": "Abierto todo el dia",
+   "h_en": "Open all day",
+   "i": "Ideal si te gusta pasear tranquilo entre arboles y buscar sombra.",
+   "i_en": "Ideal if you like quiet strolls among trees and finding shade."
+  },
+  "mel_faro_melilla": {
+   "id": "mel_faro_melilla",
+   "d": "Faro de la primera mitad del siglo XX que corona la zona portuaria, guia de la navegacion entre la peninsula y el norte de Africa. Sus alrededores ofrecen uno de los mejores miradores del mar y de la silueta de Melilla la Vieja.",
+   "d_en": "Lighthouse from the first half of the 20th century crowning the port area, a navigation guide between the peninsula and North Africa. Its surroundings offer one of the best viewpoints of the sea and the skyline of Melilla la Vieja.",
+   "h": "Exterior accesible; interior no visitable",
+   "h_en": "Exterior accessible; interior not open",
+   "i": "Ideal si te gusta el mar, los faros y las panoramicas al atardecer.",
+   "i_en": "Ideal if you like the sea, lighthouses and sunset panoramas."
+  },
+  "mel_playa_ensenada_cabos": {
+   "id": "mel_playa_ensenada_cabos",
+   "d": "Extensa playa de arena dorada en la ensenada de los Galapagos, a los pies de Melilla la Vieja. Aguas tranquilas, paseo maritimo y servicios de temporada la convierten en la playa mas concurrida y accesible de la ciudad.",
+   "d_en": "Broad golden-sand beach in the Galapagos cove, at the foot of Melilla la Vieja. Calm waters, a seafront promenade and seasonal services make it the busiest and most accessible beach in the city.",
+   "h": "Acceso libre; vigilancia en temporada de baño",
+   "h_en": "Free access; lifeguards in bathing season",
+   "i": "Ideal si te gusta bañarte con las murallas historicas de fondo.",
+   "i_en": "Ideal if you like swimming with the historic walls as a backdrop."
+  },
+  "mel_puerto_noray": {
+   "id": "mel_puerto_noray",
+   "d": "Dique y darsena deportiva reconvertidos en zona de ocio, con restaurantes, bares de copas y amarres frente a la muralla de la Ciudadela. Es el punto de encuentro para el tapeo al aire libre y las noches junto al mar.",
+   "d_en": "A breakwater and marina converted into a leisure area, with restaurants, cocktail bars and moorings facing the Citadel wall. It is the meeting point for open-air tapas and nights by the sea.",
+   "h": "Locales tipicamente 12:00-01:00",
+   "h_en": "Venues typically 12:00-01:00",
+   "i": "Ideal si te gusta el ambiente de puerto, las terrazas y salir de noche.",
+   "i_en": "Ideal if you like harbour atmosphere, terraces and going out at night."
+  },
+  "mel_mercado_central": {
+   "id": "mel_mercado_central",
+   "d": "Mercado historico de la ciudad, con puestos de pescado fresco del Mediterraneo, especias, frutas, dulces sefardies y productos halal. Un mosaico sensorial que resume el mestizaje gastronomico melillense.",
+   "d_en": "The city's historic market, with stalls of fresh Mediterranean fish, spices, fruit, Sephardic sweets and halal products. A sensory mosaic that sums up Melilla's gastronomic blend.",
+   "h": "Lun-sab 08:00-14:00 aprox.",
+   "h_en": "Mon-Sat approx. 08:00-14:00",
+   "i": "Ideal si te gusta comprar productos locales y probar sabores de mercado.",
+   "i_en": "Ideal if you like buying local products and tasting market flavours."
+  },
+  "mel_gastro_multicultural": {
+   "id": "mel_gastro_multicultural",
+   "d": "En el centro se concentran restaurantes y casas de comidas donde conviven la pastela, el cuscus, el pescado fresco del Mediterraneo, la reposteria judia y los currys hindues. Una mesa que resume las cuatro culturas de la ciudad.",
+   "d_en": "The centre is packed with restaurants and eateries where pastela, couscous, fresh Mediterranean fish, Jewish pastries and Hindu curries coexist. A table that sums up the city's four cultures.",
+   "h": "13:30-16:00 y 20:30-23:30",
+   "h_en": "13:30-16:00 and 20:30-23:30",
+   "i": "Ideal si te gusta la fusion cultural y probar platos de varias tradiciones.",
+   "i_en": "Ideal if you like cultural fusion and trying dishes from several traditions."
+  },
+  "mel_pescaito_puerto": {
+   "id": "mel_pescaito_puerto",
+   "d": "En Noray y el entorno del puerto se sirve el pescado de la lonja: boquerones, gambas, sepia y el popular pescaito frito, acompañado de vino frio frente al mar. La opcion mas marinera de la gastronomia local.",
+   "d_en": "At Noray and around the port they serve fish from the market: anchovies, prawns, cuttlefish and the popular fried fish, with cold wine facing the sea. The most seafaring option of the local cuisine.",
+   "h": "13:00-16:00 y 20:00-23:30",
+   "h_en": "13:00-16:00 and 20:00-23:30",
+   "i": "Ideal si te gusta el pescado fresco y comer con vistas al mar.",
+   "i_en": "Ideal if you like fresh fish and eating with sea views."
+  }
+ },
+ "food": {
+  "mel_gastro_multicultural": {
+   "cuisine": "Mediterranea, magrebi, sefardi e hindu",
+   "price": "12–30 €",
+   "hours": "13:30-16:00 y 20:30-23:30"
+  },
+  "mel_pescaito_puerto": {
+   "cuisine": "Pescado y marisco mediterraneo",
+   "price": "15–35 €",
+   "hours": "13:00-16:00 y 20:00-23:30"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Melilla",
+   "items": [
+    {
+     "name": "Pastela melillense",
+     "price": "8–15 €",
+     "desc": "Empanada dulce-salada de pollo o carne con almendras, canela y azucar, herencia sefardi-magrebi."
+    },
+    {
+     "name": "Te moruno y tetera",
+     "price": "10–30 €",
+     "desc": "Te verde con hierbabuena y juego de vasos y tetera de metal repujado del zoco."
+    },
+    {
+     "name": "Cerámica y azulejo modernista",
+     "price": "12–40 €",
+     "desc": "Reproducciones de motivos florales de la obra de Enrique Nieto."
+    },
+    {
+     "name": "Dulces sefardies",
+     "price": "6–18 €",
+     "desc": "Bollos, hojaldres y pastas de la reposteria judia local."
+    }
+   ],
+   "shops": [
+    "Mercado Central (Pescaderia)",
+    "Calle de la Ciudadela y bajada de la Alcazaba",
+    "Comercios del Triangulo de Oro",
+    "Zoco de la Cañada de Hidum"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Melilla es ciudad autonoma española en la costa norte de Africa; se llega en ferri desde Malaga o Almeria o en avion.",
+   "Recorre el Triangulo de Oro a pie para ver la mayor concentracion de arquitectura modernista de Enrique Nieto.",
+   "Lleva efectivo en euros; muchos puestos del mercado y zoco no aceptan tarjeta.",
+   "Respeta las cuatro culturas (cristiana, musulmana, judia y hindu): consulta horarios religiosos antes de visitar templos.",
+   "El sol pega fuerte en verano; agua, gorra y sombra son imprescindibles junto al mar."
+  ],
+  "en": [
+   "Melilla is a Spanish autonomous city on the north coast of Africa; reach it by ferry from Malaga or Almeria, or by plane.",
+   "Walk the Golden Triangle to see the largest concentration of Enrique Nieto's modernist architecture.",
+   "Carry euros in cash; many market and souk stalls do not take cards.",
+   "Respect the four cultures (Christian, Muslim, Jewish and Hindu): check religious schedules before visiting temples.",
+   "The summer sun is strong; water, a hat and shade are essential by the sea."
+  ]
+ },
+ "climate": {
+  "hi": [
+   17,
+   18,
+   19,
+   21,
+   24,
+   27,
+   30,
+   31,
+   28,
+   25,
+   21,
+   18
+  ],
+  "lo": [
+   9,
+   9,
+   11,
+   12,
+   15,
+   18,
+   21,
+   22,
+   20,
+   16,
+   13,
+   10
+  ]
+ },
+ "tr": {
+  "Recinto fortificado del siglo XV sobre el mar, corazon historico de la ciudad.": "15th-century fortified enclosure over the sea, the historic heart of the city.",
+  "Puerta renacentista de acceso al primer recinto de la Ciudadela.": "Renaissance gateway to the first enclosure of the Citadel.",
+  "Antiguos depositos de agua abovedados del siglo XVII bajo la Ciudadela.": "Old 17th-century vaulted water cisterns beneath the Citadel.",
+  "Red de cuevas-refugio excavadas en la roca bajo la ciudad vieja.": "Network of shelter-caves carved into the rock beneath the old city.",
+  "Plaza circular monumental que enlaza la ciudad vieja con el ensanche modernista.": "Monumental circular square linking the old city with the modernist extension.",
+  "Ayuntamiento modernista de Enrique Nieto con torre-mirador.": "Modernist city hall by Enrique Nieto with a viewpoint tower.",
+  "Edificio social del ensanche con rica ornamentacion modernista.": "Social building of the extension with rich modernist ornamentation.",
+  "Sinagoga modernista de Enrique Nieto, joya de la Melilla sefardi.": "Modernist synagogue by Enrique Nieto, jewel of Sephardic Melilla.",
+  "Primera mezquita construida en Melilla, tambien firmada por Nieto.": "The first mosque built in Melilla, also signed by Nieto.",
+  "Gran pulmon verde del centro con vegetacion subtropical.": "Large green lung of the centre with subtropical vegetation.",
+  "Faro historico sobre el puerto con vistas al Mediterraneo.": "Historic lighthouse above the port with Mediterranean views.",
+  "Playa urbana de arena junto al casco antiguo.": "Urban sandy beach next to the old town.",
+  "Puerto deportivo con terrazas, ocio nocturno y vistas.": "Marina with terraces, nightlife and views.",
+  "Mercado de abastos donde se cruzan las cocinas de las cuatro culturas.": "Food market where the cuisines of the four cultures meet.",
+  "Fusion de sabores españoles, bereberes, sefardies e hindues.": "Fusion of Spanish, Berber, Sephardic and Hindu flavours.",
+  "Pescado y marisco fresco del Mediterraneo en las terrazas portuarias.": "Fresh Mediterranean fish and seafood on the harbour terraces.",
+  "Melilla": "Melilla"
+ }
+}

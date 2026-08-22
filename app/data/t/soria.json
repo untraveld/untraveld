@@ -1,0 +1,553 @@
+{
+ "id": "soria",
+ "name": "Soria",
+ "country": "ES",
+ "center": [
+  41.76472,
+  -2.46528
+ ],
+ "pois": [
+  {
+   "id": "sor_san_juan_duero",
+   "cat": "monuments",
+   "name": "Monasterio de San Juan de Duero",
+   "icon": "⛪",
+   "lat": 41.76852,
+   "lng": -2.45421,
+   "desc": "Claustro románico único con arcos entrelazados de aire oriental junto al Duero."
+  },
+  {
+   "id": "sor_san_saturio",
+   "cat": "monuments",
+   "name": "Ermita de San Saturio",
+   "icon": "🏔️",
+   "lat": 41.7525,
+   "lng": -2.45806,
+   "desc": "Ermita barroca encaramada sobre una cueva en un acantilado del río Duero."
+  },
+  {
+   "id": "sor_concatedral",
+   "cat": "monuments",
+   "name": "Concatedral de San Pedro",
+   "icon": "⛪",
+   "lat": 41.76637,
+   "lng": -2.45902,
+   "desc": "Templo con fachada renacentista y un excepcional claustro románico."
+  },
+  {
+   "id": "sor_murallas",
+   "cat": "monuments",
+   "name": "Murallas de Soria",
+   "icon": "🧱",
+   "lat": 41.76167,
+   "lng": -2.46083,
+   "desc": "Lienzos medievales que rodeaban la ciudad, visibles junto al parque del Castillo."
+  },
+  {
+   "id": "sor_numancia",
+   "cat": "monuments",
+   "name": "Yacimiento de Numancia",
+   "icon": "🏛️",
+   "lat": 41.80944,
+   "lng": -2.44528,
+   "desc": "Ciudad celtíbera símbolo de resistencia frente a Roma, sobre el cerro de Garray."
+  },
+  {
+   "id": "sor_medinaceli",
+   "cat": "monuments",
+   "name": "Arco Romano de Medinaceli",
+   "icon": "🏛️",
+   "lat": 41.17074,
+   "lng": -2.43247,
+   "desc": "Único arco romano de triple vano de la Península, sobre un cerro escénico."
+  },
+  {
+   "id": "sor_calatanazor",
+   "cat": "monuments",
+   "name": "Calatañazor",
+   "icon": "🏰",
+   "lat": 41.69889,
+   "lng": -2.81806,
+   "desc": "Pueblo medieval de casas de adobe, calles empedradas y castillo en ruinas."
+  },
+  {
+   "id": "sor_berlanga_duero",
+   "cat": "monuments",
+   "name": "Berlanga de Duero",
+   "icon": "🏰",
+   "lat": 41.46556,
+   "lng": -2.86861,
+   "desc": "Villa con imponente castillo, colegiata renacentista y rollo jurisdiccional."
+  },
+  {
+   "id": "sor_burgo_osma",
+   "cat": "monuments",
+   "name": "El Burgo de Osma",
+   "icon": "⛪",
+   "lat": 41.58694,
+   "lng": -3.06556,
+   "desc": "Villa episcopal con catedral gótica, calles porticadas y muralla."
+  },
+  {
+   "id": "sor_yanguas",
+   "cat": "monuments",
+   "name": "Yanguas",
+   "icon": "🏰",
+   "lat": 42.08222,
+   "lng": -2.35389,
+   "desc": "Villa serrana junto al río Cidacos con castillo, torre y varias iglesias."
+  },
+  {
+   "id": "sor_laguna_negra",
+   "cat": "nature",
+   "name": "Laguna Negra",
+   "icon": "🏞️",
+   "lat": 41.99889,
+   "lng": -2.85611,
+   "desc": "Lago glaciar de aguas oscuras al pie de un anfiteatro de roca y pinares."
+  },
+  {
+   "id": "sor_picos_urbion",
+   "cat": "nature",
+   "name": "Picos de Urbión",
+   "icon": "⛰️",
+   "lat": 42.01722,
+   "lng": -2.89806,
+   "desc": "Macizo montañoso de 2.228 m donde nace el río Duero."
+  },
+  {
+   "id": "sor_canon_rio_lobos",
+   "cat": "nature",
+   "name": "Cañón del Río Lobos",
+   "icon": "🦅",
+   "lat": 41.71917,
+   "lng": -3.06417,
+   "desc": "Desfiladero calizo con buitres, cuevas y la ermita templaria de San Bartolomé."
+  },
+  {
+   "id": "sor_la_fuentona",
+   "cat": "nature",
+   "name": "Monumento Natural de La Fuentona",
+   "icon": "💧",
+   "lat": 41.725,
+   "lng": -2.87389,
+   "desc": "Surgencia de aguas turquesas rodeada del sabinar en Muriel de la Fuente."
+  },
+  {
+   "id": "sor_cuerda_pozo",
+   "cat": "nature",
+   "name": "Embalse de la Cuerda del Pozo",
+   "icon": "🏖️",
+   "lat": 41.86667,
+   "lng": -2.725,
+   "desc": "Gran pantano con playa interior (Playa Pita) rodeado de pinares."
+  },
+  {
+   "id": "sor_valonsadero",
+   "cat": "nature",
+   "name": "Monte Valonsadero",
+   "icon": "🌳",
+   "lat": 41.8,
+   "lng": -2.53139,
+   "desc": "Dehesa de robles con pinturas rupestres esquemáticas junto a Soria capital."
+  },
+  {
+   "id": "sor_arbol_vida",
+   "cat": "ocio",
+   "name": "Árbol de la Vida",
+   "icon": "🌳",
+   "lat": 41.75694,
+   "lng": -2.45861,
+   "desc": "Escultura-mirador sobre el Duero en el paseo hacia San Saturio."
+  },
+  {
+   "id": "sor_alameda_cervantes",
+   "cat": "ocio",
+   "name": "Alameda de Cervantes (La Dehesa)",
+   "icon": "🌳",
+   "lat": 41.76639,
+   "lng": -2.46833,
+   "desc": "El gran parque histórico de Soria, con árboles centenarios y templete."
+  },
+  {
+   "id": "sor_vinuesa",
+   "cat": "ocio",
+   "name": "Vinuesa",
+   "icon": "🌲",
+   "lat": 41.91139,
+   "lng": -2.76389,
+   "desc": "Pueblo pinariego, puerta de entrada a la Laguna Negra y los Urbión."
+  },
+  {
+   "id": "sor_baluarte",
+   "cat": "food",
+   "name": "Restaurante Baluarte",
+   "icon": "🍽️",
+   "lat": 41.76255,
+   "lng": -2.46561,
+   "desc": "Cocina de autor con estrella Michelin centrada en el producto soriano y las setas."
+  },
+  {
+   "id": "sor_meson_castellano",
+   "cat": "food",
+   "name": "Mesón Castellano",
+   "icon": "🥩",
+   "lat": 41.76417,
+   "lng": -2.46528,
+   "desc": "Asador tradicional en la Plaza Mayor, referencia de torreznos y asados."
+  },
+  {
+   "id": "sor_fogon_salvador",
+   "cat": "food",
+   "name": "Fogón del Salvador",
+   "icon": "🔥",
+   "lat": 41.76472,
+   "lng": -2.46874,
+   "desc": "Asador de brasa junto a la iglesia del Salvador, famoso por sus carnes."
+  },
+  {
+   "id": "sor_mantequilla_soria",
+   "cat": "food",
+   "name": "Mantequilla de Soria (Confitería Salinas)",
+   "icon": "🧈",
+   "lat": 41.76472,
+   "lng": -2.46611,
+   "desc": "Obrador histórico donde probar la famosa mantequilla dulce con IGP."
+  }
+ ],
+ "extra": {
+  "sor_san_juan_duero": {
+   "id": "sor_san_juan_duero",
+   "d": "Antiguo monasterio de los Hospitalarios de San Juan, célebre por su claustro del siglo XIII donde conviven cuatro tipos de arquerías, algunas de clara influencia mudéjar y bizantina. La iglesia alberga dos templetes y un pequeño museo del Numantino.",
+   "d_en": "Former monastery of the Hospitallers of St John, famous for its 13th-century cloister where four types of arcades coexist, some with clear Mudejar and Byzantine influence. The church houses two canopied altars and a small branch of the Numantine museum.",
+   "h": "Mar–Dom, mañanas y tardes; cerrado lunes",
+   "h_en": "Tue–Sun, mornings and afternoons; closed Mondays",
+   "i": "Ideal si te gusta el arte románico y los rincones con misterio histórico.",
+   "i_en": "Ideal if you like Romanesque art and corners full of historical mystery."
+  },
+  "sor_san_saturio": {
+   "id": "sor_san_saturio",
+   "d": "Dedicada al patrón de la ciudad, se levanta sobre la gruta donde según la tradición vivió como eremita San Saturio. Se accede por un romántico paseo arbolado junto al río y su interior guarda frescos que narran la vida del santo.",
+   "d_en": "Dedicated to the city's patron saint, it rises over the grotto where, according to tradition, Saint Saturio lived as a hermit. It is reached by a romantic tree-lined riverside walk and its interior holds frescoes narrating the saint's life.",
+   "h": "Diario; horario reducido en invierno",
+   "h_en": "Daily; reduced hours in winter",
+   "i": "Ideal si te gusta pasear junto al río y los rincones con leyenda.",
+   "i_en": "Ideal if you like riverside walks and places wrapped in legend."
+  },
+  "sor_concatedral": {
+   "id": "sor_concatedral",
+   "d": "La antigua colegiata combina una iglesia gótico-renacentista de tres naves con uno de los claustros románicos más bellos de Castilla, de finales del siglo XII. Un remanso de piedra y capiteles historiados en pleno centro histórico.",
+   "d_en": "The former collegiate church combines a Gothic-Renaissance three-nave church with one of the finest Romanesque cloisters in Castile, from the late 12th century. A haven of stone and carved capitals right in the historic centre.",
+   "h": "Mar–Dom, según horario de culto y visitas",
+   "h_en": "Tue–Sun, per worship and visiting hours",
+   "i": "Ideal si te gusta la arquitectura religiosa y los claustros tranquilos.",
+   "i_en": "Ideal if you like religious architecture and quiet cloisters."
+  },
+  "sor_murallas": {
+   "id": "sor_murallas",
+   "d": "De la extensa muralla medieval que protegía Soria se conservan tramos y torreones que ascienden hacia el cerro del Castillo. El paseo permite entender la traza de la ciudad fronteriza y ofrece buenas vistas del valle del Duero.",
+   "d_en": "From the extensive medieval wall that protected Soria, sections and towers survive, climbing towards the Castle hill. The walk reveals the layout of this frontier city and offers fine views over the Duero valley.",
+   "h": "Acceso libre todo el día",
+   "h_en": "Free access all day",
+   "i": "Ideal si te gusta la historia medieval y los miradores urbanos.",
+   "i_en": "Ideal if you like medieval history and urban viewpoints."
+  },
+  "sor_numancia": {
+   "id": "sor_numancia",
+   "d": "En este cerro cayó Numancia tras el largo asedio de Escipión en el 133 a.C. El yacimiento muestra calles, casas reconstruidas y restos celtibéricos y romanos, con paneles que explican la mítica lucha por la libertad de sus habitantes.",
+   "d_en": "On this hilltop Numantia fell after Scipio's long siege in 133 BC. The site shows streets, reconstructed houses and Celtiberian and Roman remains, with panels explaining the mythical struggle for its inhabitants' freedom.",
+   "h": "Mar–Dom, mañanas y tardes; cerrado lunes",
+   "h_en": "Tue–Sun, mornings and afternoons; closed Mondays",
+   "i": "Ideal si te gusta la arqueología y las grandes historias de la Antigüedad.",
+   "i_en": "Ideal if you like archaeology and great tales from Antiquity."
+  },
+  "sor_medinaceli": {
+   "id": "sor_medinaceli",
+   "d": "Del siglo I-II d.C., este arco de triunfo con tres vanos preside la villa medieval de Medinaceli, encaramada sobre el valle del Jalón. El casco histórico conserva plaza mayor porticada, colegiata y palacios de piedra dorada.",
+   "d_en": "From the 1st-2nd century AD, this triumphal arch with three openings presides over the medieval town of Medinaceli, perched above the Jalón valley. The old town preserves an arcaded main square, a collegiate church and golden-stone palaces.",
+   "h": "Acceso libre; oficina de turismo con horario propio",
+   "h_en": "Free access; tourist office has its own hours",
+   "i": "Ideal si te gusta la herencia romana y los pueblos con vistas.",
+   "i_en": "Ideal if you like Roman heritage and towns with sweeping views."
+  },
+  "sor_calatanazor": {
+   "id": "sor_calatanazor",
+   "d": "Detenido en el tiempo, Calatañazor conserva su trazado medieval con chimeneas cónicas, la iglesia de Santa María y un castillo desde el que se domina el valle de la Sangre, donde la tradición sitúa la derrota de Almanzor en el año 1002.",
+   "d_en": "Frozen in time, Calatañazor keeps its medieval layout with conical chimneys, the church of Santa María and a castle overlooking the Valle de la Sangre, where tradition places Almanzor's defeat in the year 1002.",
+   "h": "Acceso libre al pueblo todo el día",
+   "h_en": "Free access to the village all day",
+   "i": "Ideal si te gusta perderte por pueblos con encanto y ambiente medieval.",
+   "i_en": "Ideal if you like wandering charming villages with a medieval atmosphere."
+  },
+  "sor_berlanga_duero": {
+   "id": "sor_berlanga_duero",
+   "d": "Presidida por un castillo roquero de doble recinto, Berlanga conserva soportales, la colegiata de Santa María del Mercado del siglo XVI y un famoso rollo. Muy cerca se halla la ermita mozárabe de San Baudelio, con singulares pinturas.",
+   "d_en": "Dominated by a double-walled rock castle, Berlanga preserves arcades, the 16th-century collegiate church of Santa María del Mercado and a famous pillory. Nearby stands the Mozarabic hermitage of San Baudelio, with remarkable murals.",
+   "h": "Villa de acceso libre; monumentos con horario propio",
+   "h_en": "Town freely accessible; monuments have their own hours",
+   "i": "Ideal si te gusta la arquitectura señorial y los castillos.",
+   "i_en": "Ideal if you like noble architecture and castles."
+  },
+  "sor_burgo_osma": {
+   "id": "sor_burgo_osma",
+   "d": "Su catedral gótica, iniciada en el siglo XIII y coronada por una esbelta torre barroca, guarda un valioso archivo y el sepulcro de San Pedro de Osma. El conjunto histórico suma calles soportaladas, el Hospital de San Agustín y restos de muralla.",
+   "d_en": "Its Gothic cathedral, begun in the 13th century and crowned by a slender Baroque tower, holds a valuable archive and the tomb of Saint Peter of Osma. The historic centre adds arcaded streets, the San Agustín hospital and remains of the wall.",
+   "h": "Catedral: Mar–Dom con visitas; villa de acceso libre",
+   "h_en": "Cathedral: Tue–Sun with visits; town freely accessible",
+   "i": "Ideal si te gusta la arquitectura gótica y las villas con solera.",
+   "i_en": "Ideal if you like Gothic architecture and towns steeped in history."
+  },
+  "sor_yanguas": {
+   "id": "sor_yanguas",
+   "d": "En el norte serrano de la provincia, Yanguas conserva la Torre del Homenaje, restos de castillo, la iglesia de Santa María del Río y un ambiente medieval junto al Cidacos. Punto de partida hacia la vía verde y los cañones del norte.",
+   "d_en": "In the province's mountainous north, Yanguas keeps its keep tower, castle remains, the church of Santa María del Río and a medieval feel beside the Cidacos. A starting point for the greenway and the northern canyons.",
+   "h": "Acceso libre a la villa todo el día",
+   "h_en": "Free access to the town all day",
+   "i": "Ideal si te gusta la montaña y los pueblos con patrimonio escondido.",
+   "i_en": "Ideal if you like the mountains and towns with hidden heritage."
+  },
+  "sor_laguna_negra": {
+   "id": "sor_laguna_negra",
+   "d": "Formada por el hielo glaciar, la Laguna Negra descansa bajo paredes verticales de roca en la Sierra de Urbión. Inmortalizada por Antonio Machado en 'La tierra de Alvargonzález', se rodea de un sendero y una cascada que la alimenta.",
+   "d_en": "Formed by glacial ice, the Laguna Negra lies beneath vertical rock walls in the Sierra de Urbión. Immortalised by Antonio Machado in 'La tierra de Alvargonzález', it is ringed by a footpath and fed by a waterfall.",
+   "h": "Acceso libre; bus lanzadera en temporada alta",
+   "h_en": "Free access; shuttle bus in high season",
+   "i": "Ideal si te gusta la naturaleza salvaje y los paisajes de montaña.",
+   "i_en": "Ideal if you like wild nature and mountain landscapes."
+  },
+  "sor_picos_urbion": {
+   "id": "sor_picos_urbion",
+   "d": "Techo de la provincia, el Pico Urbión corona una sierra de lagunas glaciares, brezales y pinares de gran valor. Desde la Laguna Negra parten rutas de ascensión que llevan hasta las nieblas donde brota el mítico Duero.",
+   "d_en": "The province's roof, Pico Urbión crowns a range of glacial lakes, heathland and valuable pine forests. From the Laguna Negra, climbing routes lead up to the mists where the mythical Duero springs.",
+   "h": "Acceso libre; rutas exigentes, consultar meteorología",
+   "h_en": "Free access; demanding routes, check the weather",
+   "i": "Ideal si te gusta el senderismo de montaña y las cumbres.",
+   "i_en": "Ideal if you like mountain hiking and summits."
+  },
+  "sor_canon_rio_lobos": {
+   "id": "sor_canon_rio_lobos",
+   "d": "Parque Natural donde el río Lobos ha excavado un cañón de paredes verticales habitado por una gran colonia de buitres leonados. En su interior se esconde la enigmática ermita románica de San Bartolomé, ligada a los Templarios.",
+   "d_en": "A Natural Park where the Lobos river has carved a canyon of vertical walls home to a large colony of griffon vultures. Within it hides the enigmatic Romanesque hermitage of San Bartolomé, linked to the Templars.",
+   "h": "Acceso libre; casa del parque con horario propio",
+   "h_en": "Free access; park visitor centre has its own hours",
+   "i": "Ideal si te gusta la naturaleza, la observación de aves y el senderismo.",
+   "i_en": "Ideal if you like nature, birdwatching and hiking."
+  },
+  "sor_la_fuentona": {
+   "id": "sor_la_fuentona",
+   "d": "La Fuentona es el nacimiento del río Abión, un ojo de aguas de tono esmeralda que brota de una gruta inundada. Una cómoda senda entre sabinas centenarias lleva hasta este paraje protegido, inspirador del cuento 'El monte de las ánimas'.",
+   "d_en": "La Fuentona is the source of the Abión river, an emerald-toned pool welling up from a flooded cave. An easy path among centuries-old junipers leads to this protected spot that inspired the tale 'El monte de las ánimas'.",
+   "h": "Acceso libre; senda señalizada",
+   "h_en": "Free access; waymarked trail",
+   "i": "Ideal si te gusta el agua cristalina y los paseos fáciles en la naturaleza.",
+   "i_en": "Ideal if you like crystal-clear water and easy nature walks."
+  },
+  "sor_cuerda_pozo": {
+   "id": "sor_cuerda_pozo",
+   "d": "También llamado pantano de la Muedra, este embalse sobre el Duero es un destino de verano con Playa Pita, zonas de baño, vela y piragüismo. En sus orillas se asoman los pinares de Vinuesa y la torre de una iglesia sumergida.",
+   "d_en": "Also called the Muedra reservoir, this dam on the Duero is a summer destination with Playa Pita, swimming areas, sailing and kayaking. Its shores are framed by the pine forests of Vinuesa and the tower of a submerged church.",
+   "h": "Acceso libre; servicios de playa en verano",
+   "h_en": "Free access; beach services in summer",
+   "i": "Ideal si te gusta el agua, los deportes acuáticos y los días de playa interior.",
+   "i_en": "Ideal if you like water, water sports and inland beach days."
+  },
+  "sor_valonsadero": {
+   "id": "sor_valonsadero",
+   "d": "Extenso monte de melojos y roquedos a las afueras de la ciudad, muy usado para el ocio y las fiestas de San Juan. Conserva más de treinta abrigos con pinturas rupestres esquemáticas de la prehistoria y numerosas rutas señalizadas.",
+   "d_en": "An extensive oak-and-rock woodland on the city's edge, popular for recreation and the San Juan festivities. It preserves over thirty shelters with prehistoric schematic rock paintings and numerous waymarked trails.",
+   "h": "Acceso libre todo el día",
+   "h_en": "Free access all day",
+   "i": "Ideal si te gusta la naturaleza cercana y el arte rupestre.",
+   "i_en": "Ideal if you like nature close to the city and prehistoric rock art."
+  },
+  "sor_arbol_vida": {
+   "id": "sor_arbol_vida",
+   "d": "Obra escultórica que se asoma al meandro del Duero en el arbolado camino que une la ciudad con la ermita de San Saturio. Un lugar tranquilo para contemplar el río, los chopos y las paredes de roca en un paseo muy soriano.",
+   "d_en": "A sculptural work overlooking the Duero's meander on the leafy path that links the city with the hermitage of San Saturio. A quiet spot to admire the river, poplars and rock walls on a very Sorian stroll.",
+   "h": "Acceso libre todo el día",
+   "h_en": "Free access all day",
+   "i": "Ideal si te gusta pasear con calma y disfrutar de miradores tranquilos.",
+   "i_en": "Ideal if you like relaxed walks and peaceful viewpoints."
+  },
+  "sor_alameda_cervantes": {
+   "id": "sor_alameda_cervantes",
+   "d": "Conocida como La Dehesa, es el pulmón verde de la ciudad, con paseos arbolados, un templete de música, el estanque, la ermita de la Soledad y el árbol de la música. Punto de encuentro y de fiestas para los sorianos.",
+   "d_en": "Known as La Dehesa, it is the city's green lung, with tree-lined avenues, a music bandstand, a pond, the Soledad chapel and the famous 'music tree'. A meeting point and festival hub for locals.",
+   "h": "Acceso libre todo el día",
+   "h_en": "Free access all day",
+   "i": "Ideal si te gusta relajarte en parques y ver la vida local.",
+   "i_en": "Ideal if you like relaxing in parks and watching local life."
+  },
+  "sor_vinuesa": {
+   "id": "sor_vinuesa",
+   "d": "Capital de la comarca pinariega, Vinuesa conserva casonas blasonadas de indianos y ganaderos, y es la base ideal para excursiones a la Laguna Negra, el Embalse de la Cuerda del Pozo y los pinares. Célebre por su fiesta de La Pinochada.",
+   "d_en": "Capital of the pine-forest region, Vinuesa preserves emblazoned mansions of returning emigrants and cattle owners, and is the ideal base for trips to the Laguna Negra, the Cuerda del Pozo reservoir and the pine woods. Famous for its Pinochada festival.",
+   "h": "Acceso libre a la villa todo el día",
+   "h_en": "Free access to the town all day",
+   "i": "Ideal si te gusta la montaña, los pinares y el turismo tranquilo.",
+   "i_en": "Ideal if you like mountains, pine forests and relaxed tourism."
+  },
+  "sor_baluarte": {
+   "id": "sor_baluarte",
+   "d": "El restaurante del chef Óscar García ofrece una cocina creativa y de temporada que ensalza los productos de la tierra, en especial los boletus y setas de los pinares. Menús degustación en un local sobrio del centro histórico.",
+   "d_en": "Chef Óscar García's restaurant offers creative, seasonal cuisine that celebrates local produce, especially the boletus and mushrooms of the pine forests. Tasting menus in a sober venue in the historic centre.",
+   "h": "Mar–Sáb comidas y cenas; cerrado Dom noche y Lun",
+   "h_en": "Tue–Sat lunch and dinner; closed Sun evening and Mon",
+   "i": "Ideal si te gusta la alta cocina y los sabores del bosque.",
+   "i_en": "Ideal if you like fine dining and the flavours of the forest."
+  },
+  "sor_meson_castellano": {
+   "id": "sor_meson_castellano",
+   "d": "En pleno corazón de Soria, este mesón sirve la cocina castellana más clásica: torreznos crujientes, migas de pastor, cordero y lechazo asados en horno de leña y postres caseros, en un ambiente de piedra y madera.",
+   "d_en": "In the very heart of Soria, this inn serves the most classic Castilian cooking: crispy torreznos, shepherd's migas, wood-oven roast lamb and homemade desserts, in a setting of stone and wood.",
+   "h": "Diario comidas y cenas",
+   "h_en": "Daily lunch and dinner",
+   "i": "Ideal si te gusta la cocina castellana contundente y el asado de leña.",
+   "i_en": "Ideal if you like hearty Castilian cooking and wood-fired roasts."
+  },
+  "sor_fogon_salvador": {
+   "id": "sor_fogon_salvador",
+   "d": "Clásico soriano especializado en carnes a la brasa de encina, chuletones, cordero y los inevitables torreznos de Soria. Cuenta con bodega propia y un ambiente acogedor para disfrutar de la gastronomía de la tierra.",
+   "d_en": "A Sorian classic specialising in holm-oak charcoal-grilled meats, large steaks, lamb and the inevitable torreznos de Soria. It has its own wine cellar and a cosy setting to enjoy the region's gastronomy.",
+   "h": "Mar–Dom comidas y cenas; cerrado lunes",
+   "h_en": "Tue–Sun lunch and dinner; closed Mondays",
+   "i": "Ideal si te gusta la carne a la brasa y el buen vino de Ribera.",
+   "i_en": "Ideal if you like charcoal-grilled meat and good Ribera wine."
+  },
+  "sor_mantequilla_soria": {
+   "id": "sor_mantequilla_soria",
+   "d": "La mantequilla de Soria, con Indicación Geográfica Protegida, se presenta dulce, salada o teñida de rosa y se degusta sobre pan o en repostería. En obradores y confiterías del centro, como Salinas, se elabora de forma artesanal desde hace generaciones.",
+   "d_en": "Soria's butter, with Protected Geographical Indication, comes sweet, salted or tinged pink and is enjoyed on bread or in pastries. In the centre's workshops and confectioners, such as Salinas, it has been made by hand for generations.",
+   "h": "Lun–Sáb mañanas y tardes; Dom cerrado",
+   "h_en": "Mon–Sat mornings and afternoons; closed Sundays",
+   "i": "Ideal si te gusta el dulce artesano y llevarte productos típicos.",
+   "i_en": "Ideal if you like artisan sweets and taking home local products."
+  }
+ },
+ "food": {
+  "sor_baluarte": {
+   "cuisine": "Cocina de autor / micológica",
+   "price": "60–95 €",
+   "hours": "Mar–Sáb 13:30–15:30 y 21:00–23:00; Dom mediodía"
+  },
+  "sor_meson_castellano": {
+   "cuisine": "Asador castellano tradicional",
+   "price": "25–45 €",
+   "hours": "Diario 13:30–16:00 y 21:00–23:00"
+  },
+  "sor_fogon_salvador": {
+   "cuisine": "Asador a la brasa / carnes",
+   "price": "30–50 €",
+   "hours": "Mar–Dom 13:30–16:00 y 21:00–23:30"
+  },
+  "sor_mantequilla_soria": {
+   "cuisine": "Repostería y productos IGP",
+   "price": "6–20 €",
+   "hours": "Lun–Sáb 9:30–14:00 y 17:00–20:30"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Soria",
+   "items": [
+    {
+     "name": "Mantequilla de Soria (IGP)",
+     "price": "6–15 €",
+     "desc": "Mantequilla dulce o salada, untuosa y aromática, protegida por Indicación Geográfica."
+    },
+    {
+     "name": "Torreznos de Soria (IGP)",
+     "price": "5–12 €",
+     "desc": "Panceta adobada y frita, crujiente por fuera y tierna por dentro, con IGP propia."
+    },
+    {
+     "name": "Setas y boletus secos",
+     "price": "10–30 €",
+     "desc": "Boletus edulis y níscalos de los pinares sorianos, deshidratados para llevar."
+    },
+    {
+     "name": "Miel de la sierra",
+     "price": "6–14 €",
+     "desc": "Miel de brezo y bosque recogida en las sierras del norte de la provincia."
+    }
+   ],
+   "shops": [
+    "Mercado Municipal de Soria",
+    "Confitería Salinas",
+    "Comercios de la calle El Collado"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "La mejor época para la Laguna Negra y los Picos de Urbión es de primavera a otoño; en invierno puede haber nieve y accesos cerrados.",
+   "En verano y puentes se accede a la Laguna Negra con bus lanzadera desde el aparcamiento de Santa Inés; consulta horarios antes de ir.",
+   "No te vayas sin probar los torreznos y la mantequilla de Soria, ambos con Indicación Geográfica Protegida.",
+   "El otoño es plena temporada micológica (boletus, níscalos); en muchos montes acotados necesitas permiso de recolección.",
+   "Lleva calzado cómodo y agua para las sendas del Cañón del Río Lobos, Numancia y la Fuentona; hay poca sombra en verano."
+  ],
+  "en": [
+   "The best season for the Laguna Negra and the Picos de Urbión is spring to autumn; in winter there may be snow and closed access roads.",
+   "In summer and long weekends the Laguna Negra is reached by shuttle bus from the Santa Inés car park; check the timetable before going.",
+   "Don't leave without trying Soria's torreznos and butter, both with their own Protected Geographical Indication.",
+   "Autumn is peak mushroom season (boletus, saffron milk caps); many managed woodlands require a foraging permit.",
+   "Wear comfortable shoes and bring water for the trails of the Río Lobos Canyon, Numancia and La Fuentona; there is little shade in summer."
+  ]
+ },
+ "climate": {
+  "hi": [
+   8,
+   10,
+   13,
+   15,
+   19,
+   25,
+   29,
+   29,
+   23,
+   17,
+   11,
+   8
+  ],
+  "lo": [
+   0,
+   1,
+   2,
+   4,
+   8,
+   11,
+   14,
+   14,
+   11,
+   7,
+   3,
+   1
+  ]
+ },
+ "tr": {
+  "Claustro románico único con arcos entrelazados de aire oriental junto al Duero.": "Unique Romanesque cloister with interlacing Eastern-style arches beside the Duero.",
+  "Ermita barroca encaramada sobre una cueva en un acantilado del río Duero.": "Baroque hermitage perched over a cave on a cliff above the Duero river.",
+  "Templo con fachada renacentista y un excepcional claustro románico.": "Church with a Renaissance façade and an exceptional Romanesque cloister.",
+  "Lienzos medievales que rodeaban la ciudad, visibles junto al parque del Castillo.": "Medieval walls that once encircled the city, visible by the Castle park.",
+  "Ciudad celtíbera símbolo de resistencia frente a Roma, sobre el cerro de Garray.": "Celtiberian city, a symbol of resistance against Rome, on the Garray hill.",
+  "Único arco romano de triple vano de la Península, sobre un cerro escénico.": "The only triple-arched Roman arch in the peninsula, on a scenic hilltop.",
+  "Pueblo medieval de casas de adobe, calles empedradas y castillo en ruinas.": "Medieval village of adobe houses, cobbled streets and a ruined castle.",
+  "Villa con imponente castillo, colegiata renacentista y rollo jurisdiccional.": "Town with an imposing castle, Renaissance collegiate church and stone pillory.",
+  "Villa episcopal con catedral gótica, calles porticadas y muralla.": "Episcopal town with a Gothic cathedral, arcaded streets and city wall.",
+  "Villa serrana junto al río Cidacos con castillo, torre y varias iglesias.": "Mountain town by the Cidacos river with a castle, tower and several churches.",
+  "Lago glaciar de aguas oscuras al pie de un anfiteatro de roca y pinares.": "Dark-watered glacial lake beneath a rocky amphitheatre and pine forests.",
+  "Macizo montañoso de 2.228 m donde nace el río Duero.": "Mountain massif of 2,228 m where the Duero river is born.",
+  "Desfiladero calizo con buitres, cuevas y la ermita templaria de San Bartolomé.": "Limestone gorge with vultures, caves and the Templar hermitage of San Bartolomé.",
+  "Surgencia de aguas turquesas rodeada del sabinar en Muriel de la Fuente.": "Turquoise-water spring surrounded by juniper woodland at Muriel de la Fuente.",
+  "Gran pantano con playa interior (Playa Pita) rodeado de pinares.": "Large reservoir with an inland beach (Playa Pita) ringed by pine forests.",
+  "Dehesa de robles con pinturas rupestres esquemáticas junto a Soria capital.": "Oak parkland with schematic rock paintings just outside Soria city.",
+  "Escultura-mirador sobre el Duero en el paseo hacia San Saturio.": "Sculpture-viewpoint over the Duero on the walk towards San Saturio.",
+  "El gran parque histórico de Soria, con árboles centenarios y templete.": "Soria's great historic park, with centuries-old trees and a bandstand.",
+  "Pueblo pinariego, puerta de entrada a la Laguna Negra y los Urbión.": "Pine-country village, gateway to the Laguna Negra and the Urbión range.",
+  "Cocina de autor con estrella Michelin centrada en el producto soriano y las setas.": "Michelin-starred author cuisine focused on Sorian produce and wild mushrooms.",
+  "Asador tradicional en la Plaza Mayor, referencia de torreznos y asados.": "Traditional grill house on the Plaza Mayor, a byword for torreznos and roasts.",
+  "Asador de brasa junto a la iglesia del Salvador, famoso por sus carnes.": "Charcoal grill by the Salvador church, renowned for its meats.",
+  "Obrador histórico donde probar la famosa mantequilla dulce con IGP.": "Historic pastry shop to taste the famous sweet butter with PGI.",
+  "Soria": "Soria"
+ }
+}

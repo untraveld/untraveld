@@ -1,0 +1,596 @@
+{
+ "id": "badajoz",
+ "name": "Badajoz",
+ "country": "ES",
+ "center": [
+  38.87891,
+  -6.97065
+ ],
+ "pois": [
+  {
+   "id": "bad_teatro_merida",
+   "cat": "monuments",
+   "name": "Teatro Romano de Mérida",
+   "icon": "🏛️",
+   "lat": 38.91528,
+   "lng": -6.33847,
+   "desc": "El teatro romano mejor conservado de Hispania, aún en uso."
+  },
+  {
+   "id": "bad_anfiteatro_merida",
+   "cat": "monuments",
+   "name": "Anfiteatro Romano de Mérida",
+   "icon": "🏟️",
+   "lat": 38.91583,
+   "lng": -6.33694,
+   "desc": "Arena de gladiadores del siglo I a. C. junto al teatro."
+  },
+  {
+   "id": "bad_templo_diana",
+   "cat": "monuments",
+   "name": "Templo de Diana",
+   "icon": "🏛️",
+   "lat": 38.9166,
+   "lng": -6.3444,
+   "desc": "Templo romano de culto imperial en pleno centro de Mérida."
+  },
+  {
+   "id": "bad_acueducto_milagros",
+   "cat": "monuments",
+   "name": "Acueducto de los Milagros",
+   "icon": "🌉",
+   "lat": 38.92444,
+   "lng": -6.34667,
+   "desc": "Impresionante acueducto romano de arcos y sillería."
+  },
+  {
+   "id": "bad_puente_romano_merida",
+   "cat": "monuments",
+   "name": "Puente Romano de Mérida",
+   "icon": "🌉",
+   "lat": 38.913,
+   "lng": -6.3476,
+   "desc": "Uno de los puentes romanos más largos conservados."
+  },
+  {
+   "id": "bad_mnar",
+   "cat": "monuments",
+   "name": "Museo Nacional de Arte Romano",
+   "icon": "🏺",
+   "lat": 38.91639,
+   "lng": -6.33889,
+   "desc": "Gran museo del arte romano en un edificio de Rafael Moneo."
+  },
+  {
+   "id": "bad_alcazaba_merida",
+   "cat": "monuments",
+   "name": "Alcazaba de Mérida",
+   "icon": "🏰",
+   "lat": 38.9141,
+   "lng": -6.345,
+   "desc": "Fortaleza árabe del siglo IX junto al puente romano."
+  },
+  {
+   "id": "bad_alcazaba_badajoz",
+   "cat": "monuments",
+   "name": "Alcazaba de Badajoz",
+   "icon": "🏰",
+   "lat": 38.882,
+   "lng": -6.9688,
+   "desc": "Una de las mayores alcazabas de Europa, almohade."
+  },
+  {
+   "id": "bad_puerta_palmas",
+   "cat": "monuments",
+   "name": "Puerta de Palmas",
+   "icon": "🚪",
+   "lat": 38.8825,
+   "lng": -6.97056,
+   "desc": "Puerta monumental del siglo XVI, símbolo de Badajoz."
+  },
+  {
+   "id": "bad_catedral_badajoz",
+   "cat": "monuments",
+   "name": "Catedral de San Juan Bautista",
+   "icon": "⛪",
+   "lat": 38.87722,
+   "lng": -6.97139,
+   "desc": "Catedral-fortaleza gótica en la Plaza de España."
+  },
+  {
+   "id": "bad_alcazar_zafra",
+   "cat": "monuments",
+   "name": "Alcázar de Zafra (Parador)",
+   "icon": "🏰",
+   "lat": 38.42383,
+   "lng": -6.41764,
+   "desc": "Castillo ducal del siglo XV, hoy Parador de Turismo."
+  },
+  {
+   "id": "bad_termas_alange",
+   "cat": "monuments",
+   "name": "Termas Romanas de Alange",
+   "icon": "🏛️",
+   "lat": 38.78389,
+   "lng": -6.24944,
+   "desc": "Baños romanos del siglo III aún alimentados por manantial."
+  },
+  {
+   "id": "bad_cornalvo",
+   "cat": "nature",
+   "name": "Parque Natural de Cornalvo",
+   "icon": "🌳",
+   "lat": 39.078,
+   "lng": -6.202,
+   "desc": "Dehesa, bosque mediterráneo y embalse cerca de Mérida."
+  },
+  {
+   "id": "bad_presa_cornalvo",
+   "cat": "nature",
+   "name": "Presa Romana de Cornalvo",
+   "icon": "💧",
+   "lat": 39.08167,
+   "lng": -6.20111,
+   "desc": "Presa romana en uso desde hace casi dos mil años."
+  },
+  {
+   "id": "bad_orellana",
+   "cat": "nature",
+   "name": "Embalse de Orellana",
+   "icon": "🏖️",
+   "lat": 39.017,
+   "lng": -5.533,
+   "desc": "Gran embalse con playa interior y bandera azul."
+  },
+  {
+   "id": "bad_balneario_alange",
+   "cat": "nature",
+   "name": "Balneario de Alange",
+   "icon": "♨️",
+   "lat": 38.7844,
+   "lng": -6.2487,
+   "desc": "Manantial termal histórico al pie de las termas romanas."
+  },
+  {
+   "id": "bad_plaza_alta_badajoz",
+   "cat": "ocio",
+   "name": "Plaza Alta de Badajoz",
+   "icon": "🎨",
+   "lat": 38.87944,
+   "lng": -6.97056,
+   "desc": "Vistosa plaza porticada de casas pintadas junto a la alcazaba."
+  },
+  {
+   "id": "bad_plaza_grande_zafra",
+   "cat": "ocio",
+   "name": "Plaza Grande y Plaza Chica de Zafra",
+   "icon": "🍷",
+   "lat": 38.425,
+   "lng": -6.41694,
+   "desc": "Dos plazas porticadas comunicadas, alma de Zafra."
+  },
+  {
+   "id": "bad_plaza_mayor_llerena",
+   "cat": "ocio",
+   "name": "Plaza Mayor de Llerena",
+   "icon": "⛲",
+   "lat": 38.23694,
+   "lng": -6.02278,
+   "desc": "Plaza monumental barroca, orgullo de Llerena."
+  },
+  {
+   "id": "bad_olivenza_casco",
+   "cat": "ocio",
+   "name": "Casco Histórico de Olivenza",
+   "icon": "🏘️",
+   "lat": 38.68556,
+   "lng": -7.10056,
+   "desc": "Pueblo de aire portugués con arte manuelino único."
+  },
+  {
+   "id": "bad_jerez_caballeros",
+   "cat": "ocio",
+   "name": "Jerez de los Caballeros",
+   "icon": "🗼",
+   "lat": 38.32222,
+   "lng": -6.77694,
+   "desc": "Villa templaria de torres barrocas y calles blancas."
+  },
+  {
+   "id": "bad_parador_merida",
+   "cat": "food",
+   "name": "Parador de Mérida",
+   "icon": "🍽️",
+   "lat": 38.9169,
+   "lng": -6.3404,
+   "desc": "Restaurante en un convento del siglo XVIII con cocina extremeña."
+  },
+  {
+   "id": "bad_rex_numitor_merida",
+   "cat": "food",
+   "name": "Rex Numitor (Mérida)",
+   "icon": "🍤",
+   "lat": 38.9165,
+   "lng": -6.3435,
+   "desc": "Tapas creativas junto al Templo de Diana."
+  },
+  {
+   "id": "bad_mercado_central_badajoz",
+   "cat": "food",
+   "name": "Mercado Central de Badajoz",
+   "icon": "🧺",
+   "lat": 38.87889,
+   "lng": -6.97222,
+   "desc": "Mercado de abastos para probar el producto local."
+  },
+  {
+   "id": "bad_rebotica_zafra",
+   "cat": "food",
+   "name": "La Rebotica (Zafra)",
+   "icon": "🥘",
+   "lat": 38.4254,
+   "lng": -6.4168,
+   "desc": "Cocina extremeña de mercado en el casco viejo de Zafra."
+  }
+ ],
+ "extra": {
+  "bad_teatro_merida": {
+   "id": "bad_teatro_merida",
+   "d": "Inaugurado hacia el 15 a. C. por Agripa, deslumbra por su monumental frente escénico de dos pisos con columnas de mármol y estatuas. Cada verano acoge el Festival Internacional de Teatro Clásico. Es el emblema del conjunto arqueológico Patrimonio de la Humanidad.",
+   "d_en": "Inaugurated around 15 BC by Agrippa, it dazzles with its monumental two-storey stage front of marble columns and statues. Each summer it hosts the International Classical Theatre Festival. It is the emblem of the UNESCO World Heritage archaeological site.",
+   "h": "Verano 9:00–21:00; invierno 9:00–18:30",
+   "h_en": "Summer 9am–9pm; winter 9am–6:30pm",
+   "i": "Ideal si te gusta la arqueología clásica y el teatro al aire libre.",
+   "i_en": "Ideal if you like classical archaeology and open-air theatre."
+  },
+  "bad_anfiteatro_merida": {
+   "id": "bad_anfiteatro_merida",
+   "d": "Inaugurado en el 8 a. C., podía acoger a unos 15.000 espectadores en las luchas de gladiadores y fieras. Se conservan la arena central, la fosa y buena parte de las gradas, lo que permite imaginar el bullicio de la antigua Emerita Augusta.",
+   "d_en": "Opened in 8 BC, it could hold some 15,000 spectators for gladiator and beast fights. The central arena, the pit and much of the tiers survive, letting you picture the roar of ancient Emerita Augusta.",
+   "h": "Verano 9:00–21:00; invierno 9:00–18:30",
+   "h_en": "Summer 9am–9pm; winter 9am–6:30pm",
+   "i": "Ideal si te gusta imaginar la vida y los espectáculos de Roma.",
+   "i_en": "Ideal if you like imagining Roman life and spectacles."
+  },
+  "bad_templo_diana": {
+   "id": "bad_templo_diana",
+   "d": "Único templo romano de Mérida conservado casi íntegro, con sus columnas corintias en pie. Pese a su nombre popular estuvo dedicado al culto imperial. En el siglo XVI se encajó en su interior el palacio renacentista de los Corbos, un contraste histórico fascinante.",
+   "d_en": "Mérida's only Roman temple preserved almost intact, its Corinthian columns still standing. Despite its popular name it was dedicated to the imperial cult. In the 16th century the Renaissance Corbos palace was built inside it, a fascinating historical contrast.",
+   "h": "Acceso libre exterior; recinto según horario municipal",
+   "h_en": "Exterior freely accessible; enclosure per municipal hours",
+   "i": "Ideal si te gusta la arquitectura antigua entre calles vivas.",
+   "i_en": "Ideal if you like ancient architecture amid living streets."
+  },
+  "bad_acueducto_milagros": {
+   "id": "bad_acueducto_milagros",
+   "d": "Llevaba agua desde el embalse de Proserpina hasta la ciudad. Sus altísimos pilares alternan granito y ladrillo rojo en franjas, con arcos que se elevan hasta 25 metros. El nombre popular alude al asombro que causaba su factura, casi milagrosa, entre los vecinos.",
+   "d_en": "It carried water from the Proserpina reservoir into the city. Its towering piers alternate bands of granite and red brick, with arches rising to 25 metres. Its popular name reflects the near-miraculous wonder its construction inspired.",
+   "h": "Acceso libre",
+   "h_en": "Freely accessible",
+   "i": "Ideal si te gusta la ingeniería romana y las fotos al atardecer.",
+   "i_en": "Ideal if you like Roman engineering and sunset photos."
+  },
+  "bad_puente_romano_merida": {
+   "id": "bad_puente_romano_merida",
+   "d": "Con unos 790 metros y más de 60 arcos, cruzaba el Guadiana para dar entrada a la colonia. Hoy es peatonal y regala una de las mejores vistas de la Alcazaba y del río. Ha sido reparado durante siglos, pero conserva su trazado romano original.",
+   "d_en": "About 790 metres long with over 60 arches, it crossed the Guadiana to give access to the colony. Now pedestrian, it offers one of the best views of the Alcazaba and the river. Repaired over centuries, it keeps its original Roman layout.",
+   "h": "Acceso libre",
+   "h_en": "Freely accessible",
+   "i": "Ideal si te gusta pasear junto al río y las vistas amplias.",
+   "i_en": "Ideal if you like riverside walks and open views."
+  },
+  "bad_mnar": {
+   "id": "bad_mnar",
+   "d": "Alberga una colección excepcional de mosaicos, esculturas, monedas y objetos de Emerita Augusta. El edificio de Moneo (1986), con sus grandes arcos de ladrillo, es una obra maestra de la arquitectura contemporánea que dialoga con las ruinas del subsuelo.",
+   "d_en": "It holds an exceptional collection of mosaics, sculptures, coins and objects from Emerita Augusta. Moneo's building (1986), with its great brick arches, is a masterpiece of contemporary architecture in dialogue with the ruins below.",
+   "h": "Mar–sáb 9:30–20:00; dom 10:00–15:00; lun cerrado",
+   "h_en": "Tue–Sat 9:30am–8pm; Sun 10am–3pm; Mon closed",
+   "i": "Ideal si te gusta el arte antiguo y la buena arquitectura.",
+   "i_en": "Ideal if you like ancient art and fine architecture."
+  },
+  "bad_alcazaba_merida": {
+   "id": "bad_alcazaba_merida",
+   "d": "Construida en el 835 por orden del emir Abderramán II, es una de las alcazabas musulmanas más antiguas de la península. Reaprovechó sillares romanos y visigodos, y conserva un aljibe con escalera doble alimentado por el Guadiana. Domina la entrada de la ciudad.",
+   "d_en": "Built in 835 by order of Emir Abd al-Rahman II, it is one of the oldest Muslim fortresses in the peninsula. It reused Roman and Visigothic ashlars and keeps a cistern with a double staircase fed by the Guadiana. It commands the city entrance.",
+   "h": "Verano 9:00–21:00; invierno 9:00–18:30",
+   "h_en": "Summer 9am–9pm; winter 9am–6:30pm",
+   "i": "Ideal si te gusta la historia andalusí y las murallas.",
+   "i_en": "Ideal if you like Andalusi history and city walls."
+  },
+  "bad_alcazaba_badajoz": {
+   "id": "bad_alcazaba_badajoz",
+   "d": "Fundada en el siglo IX y ampliada por los almohades, corona el cerro de la Muela sobre el Guadiana. Sus murallas y torres albarranas, como la Torre de Espantaperros, encierran hoy jardines y el Museo Arqueológico Provincial. Es el corazón histórico de la capital.",
+   "d_en": "Founded in the 9th century and enlarged by the Almohads, it crowns the Muela hill above the Guadiana. Its walls and albarrana towers, such as the Espantaperros Tower, now enclose gardens and the Provincial Archaeological Museum. It is the historic heart of the capital.",
+   "h": "Recinto acceso libre; museo mar–dom horario variable",
+   "h_en": "Enclosure freely accessible; museum Tue–Sun, varying hours",
+   "i": "Ideal si te gusta la arquitectura militar y las vistas.",
+   "i_en": "Ideal if you like military architecture and views."
+  },
+  "bad_puerta_palmas": {
+   "id": "bad_puerta_palmas",
+   "d": "Levantada en 1551 como entrada norte de la ciudad amurallada, junto al puente de Palmas sobre el Guadiana. Sus dos torres almenadas y su fachada renacentista con hornacinas la convierten en la imagen más reconocible de la capital pacense.",
+   "d_en": "Built in 1551 as the north entrance to the walled city, beside the Palmas bridge over the Guadiana. Its two crenellated towers and Renaissance façade with niches make it the most recognisable image of the Badajoz capital.",
+   "h": "Acceso libre exterior",
+   "h_en": "Exterior freely accessible",
+   "i": "Ideal si te gusta la historia urbana y los monumentos icónicos.",
+   "i_en": "Ideal if you like urban history and iconic landmarks."
+  },
+  "bad_catedral_badajoz": {
+   "id": "bad_catedral_badajoz",
+   "d": "Iniciada en el siglo XIII tras la conquista cristiana, su aspecto recio y su robusta torre le dan aire de fortaleza. En el interior destacan el coro, los retablos y obras de Luis de Morales, 'El Divino', pintor pacense del Renacimiento.",
+   "d_en": "Begun in the 13th century after the Christian conquest, its sturdy look and robust tower give it a fortress air. Inside, the choir, altarpieces and works by Luis de Morales, 'El Divino', the Renaissance painter from Badajoz, stand out.",
+   "h": "Lun–sáb 10:00–14:00 y 17:00–19:00; consultar cultos",
+   "h_en": "Mon–Sat 10am–2pm & 5pm–7pm; check services",
+   "i": "Ideal si te gusta el arte sacro y la pintura renacentista.",
+   "i_en": "Ideal if you like sacred art and Renaissance painting."
+  },
+  "bad_alcazar_zafra": {
+   "id": "bad_alcazar_zafra",
+   "d": "Mandado construir por los Duques de Feria, combina torres macizas con un elegante patio renacentista de mármol atribuido a Juan de Herrera. Convertido en Parador, permite alojarse entre sus muros históricos. Dicen que Hernán Cortés se hospedó aquí antes de embarcar a América.",
+   "d_en": "Built for the Dukes of Feria, it blends massive towers with an elegant Renaissance marble courtyard attributed to Juan de Herrera. Now a Parador, you can stay within its historic walls. Legend says Hernán Cortés lodged here before sailing to America.",
+   "h": "Patio visitable; interior para huéspedes",
+   "h_en": "Courtyard visitable; interior for guests",
+   "i": "Ideal si te gusta dormir en la historia y los patios nobles.",
+   "i_en": "Ideal if you like sleeping in history and noble courtyards."
+  },
+  "bad_termas_alange": {
+   "id": "bad_termas_alange",
+   "d": "Declaradas Patrimonio de la Humanidad como parte del conjunto de Mérida, conservan dos salas circulares abovedadas con piscinas de aguas termales. Dedicadas a la diosa Juno, se usaron sin interrupción durante siglos y hoy siguen ligadas al balneario del pueblo.",
+   "d_en": "Listed as World Heritage within the Mérida ensemble, they preserve two circular vaulted rooms with thermal pools. Dedicated to the goddess Juno, they were used continuously for centuries and remain linked to the village spa today.",
+   "h": "Consultar horario del balneario y visitas",
+   "h_en": "Check spa and visit hours",
+   "i": "Ideal si te gusta la arqueología termal y el bienestar.",
+   "i_en": "Ideal if you like thermal archaeology and wellness."
+  },
+  "bad_cornalvo": {
+   "id": "bad_cornalvo",
+   "d": "Espacio protegido de más de 10.000 hectáreas de encinas, alcornoques y matorral, refugio de ciervos, jabalíes y numerosas aves rapaces. Ofrece rutas de senderismo señalizadas y un centro de interpretación, con la presa romana como joya del recorrido.",
+   "d_en": "A protected area of over 10,000 hectares of holm oaks, cork oaks and scrub, home to deer, wild boar and many birds of prey. It offers marked hiking trails and a visitor centre, with the Roman dam as the highlight of the route.",
+   "h": "Acceso libre; centro de visitantes horario variable",
+   "h_en": "Freely accessible; visitor centre hours vary",
+   "i": "Ideal si te gusta el senderismo y la fauna de la dehesa.",
+   "i_en": "Ideal if you like hiking and dehesa wildlife."
+  },
+  "bad_presa_cornalvo": {
+   "id": "bad_presa_cornalvo",
+   "d": "Construida en época de Trajano para abastecer de agua a Mérida, es una de las presas romanas mejor conservadas del mundo y aún retiene agua. Su torre-registro de sillería se alza sobre el embalse rodeado de dehesa, un lugar tranquilo para el paseo y las aves.",
+   "d_en": "Built under Trajan to supply water to Mérida, it is one of the best-preserved Roman dams in the world and still holds water. Its ashlar intake tower rises over the reservoir amid dehesa, a peaceful spot for walking and birdwatching.",
+   "h": "Acceso libre",
+   "h_en": "Freely accessible",
+   "i": "Ideal si te gusta unir naturaleza y patrimonio antiguo.",
+   "i_en": "Ideal if you like combining nature and ancient heritage."
+  },
+  "bad_orellana": {
+   "id": "bad_orellana",
+   "d": "Uno de los mayores embalses de Extremadura, con la única playa de interior de España en obtener bandera azul. Sus aguas invitan al baño, la vela y el piragüismo en verano, mientras que su entorno es zona de especial protección para aves como grullas y garzas.",
+   "d_en": "One of Extremadura's largest reservoirs, with the only inland beach in Spain to earn a blue flag. Its waters invite swimming, sailing and kayaking in summer, while its surroundings are a special protection area for birds such as cranes and herons.",
+   "h": "Acceso libre; servicios de playa en verano",
+   "h_en": "Freely accessible; beach services in summer",
+   "i": "Ideal si te gusta el baño de agua dulce y los deportes náuticos.",
+   "i_en": "Ideal if you like freshwater swimming and water sports."
+  },
+  "bad_balneario_alange": {
+   "id": "bad_balneario_alange",
+   "d": "Sus aguas mineromedicinales, conocidas desde época romana, brotan a temperatura constante y se emplean en tratamientos de relajación y reumatismo. El balneario, junto al embalse de Alange, es un plan perfecto para combinar bienestar, historia y paisaje.",
+   "d_en": "Its mineral-medicinal waters, known since Roman times, rise at a constant temperature and are used for relaxation and rheumatism treatments. The spa, beside the Alange reservoir, is a perfect plan to combine wellness, history and scenery.",
+   "h": "Según temporada; reserva recomendada",
+   "h_en": "Seasonal; booking recommended",
+   "i": "Ideal si te gusta el termalismo y desconectar del ritmo.",
+   "i_en": "Ideal if you like thermal spas and slowing down."
+  },
+  "bad_plaza_alta_badajoz": {
+   "id": "bad_plaza_alta_badajoz",
+   "d": "Antiguo corazón cívico de la ciudad, con soportales y fachadas decoradas con vivos esgrafiados rojos y ocres. Rehabilitada, es hoy escenario de fiestas, mercados y terrazas, y punto de partida ideal para subir a la Alcazaba. Una de las plazas más bellas de Extremadura.",
+   "d_en": "The city's old civic heart, with arcades and façades decorated in vivid red and ochre sgraffito. Now restored, it hosts festivals, markets and terraces, and is the perfect starting point to climb to the Alcazaba. One of Extremadura's most beautiful squares.",
+   "h": "Acceso libre",
+   "h_en": "Freely accessible",
+   "i": "Ideal si te gusta el ambiente de plaza y la fotografía urbana.",
+   "i_en": "Ideal if you like square ambience and urban photography."
+  },
+  "bad_plaza_grande_zafra": {
+   "id": "bad_plaza_grande_zafra",
+   "d": "La Plaza Chica, medieval y antiguo mercado, se une por un arquillo a la Plaza Grande, más amplia y renacentista. Sus soportales acogen bares, tabernas y comercios donde probar el jamón y los vinos de la zona. Zafra es conocida como la 'Sevilla la Chica' por su encanto.",
+   "d_en": "The medieval Plaza Chica, a former market, connects by a small arch to the larger Renaissance Plaza Grande. Its arcades house bars, taverns and shops for tasting the local ham and wines. Zafra is known as 'Little Seville' for its charm.",
+   "h": "Acceso libre",
+   "h_en": "Freely accessible",
+   "i": "Ideal si te gusta el tapeo y los cascos históricos con encanto.",
+   "i_en": "Ideal if you like tapas and charming old towns."
+  },
+  "bad_plaza_mayor_llerena": {
+   "id": "bad_plaza_mayor_llerena",
+   "d": "Presidida por la iglesia de Nuestra Señora de la Granada, con su fachada de dobles galerías porticadas de estilo mudéjar y barroco. Fue sede de la Inquisición y villa próspera del Renacimiento. Sus soportales y su ambiente pausado invitan a un paseo sin prisas.",
+   "d_en": "Presided over by the church of Nuestra Señora de la Granada, with its façade of double arcaded galleries in Mudéjar and Baroque style. It was an Inquisition seat and a prosperous Renaissance town. Its arcades and relaxed atmosphere invite an unhurried stroll.",
+   "h": "Acceso libre",
+   "h_en": "Freely accessible",
+   "i": "Ideal si te gusta la arquitectura barroca y los pueblos con historia.",
+   "i_en": "Ideal if you like Baroque architecture and historic towns."
+  },
+  "bad_olivenza_casco": {
+   "id": "bad_olivenza_casco",
+   "d": "Perteneció a Portugal durante siglos y conserva ese sello en sus calles empedradas, azulejos y la espectacular iglesia de Santa María Magdalena, joya del gótico manuelino con columnas retorcidas. Su castillo, murallas y dulces como la Técula Mécula completan la visita.",
+   "d_en": "It belonged to Portugal for centuries and keeps that stamp in its cobbled streets, tiles and the spectacular church of Santa María Magdalena, a Manueline Gothic gem with twisted columns. Its castle, walls and sweets like the Técula Mécula round off the visit.",
+   "h": "Acceso libre; iglesias horario variable",
+   "h_en": "Freely accessible; churches vary",
+   "i": "Ideal si te gusta la frontera hispano-lusa y el arte manuelino.",
+   "i_en": "Ideal if you like the Spanish-Portuguese border and Manueline art."
+  },
+  "bad_jerez_caballeros": {
+   "id": "bad_jerez_caballeros",
+   "d": "Antiguo bastión de la Orden del Temple, dominado por su fortaleza y la 'Torre Sangrienta'. Sus cuatro torres barrocas de iglesias, revestidas de azulejos, marcan el perfil de la ciudad, cuna del explorador Vasco Núñez de Balboa. Es también capital del jamón ibérico.",
+   "d_en": "A former Templar stronghold dominated by its castle and the 'Bloody Tower'. Its four Baroque church towers, clad in tiles, mark the town's skyline; it is the birthplace of explorer Vasco Núñez de Balboa and a capital of Iberian ham.",
+   "h": "Acceso libre; monumentos horario variable",
+   "h_en": "Freely accessible; monuments vary",
+   "i": "Ideal si te gusta la historia templaria y el jamón ibérico.",
+   "i_en": "Ideal if you like Templar history and Iberian ham."
+  },
+  "bad_parador_merida": {
+   "id": "bad_parador_merida",
+   "d": "Instalado en un antiguo convento de frailes, sirve platos tradicionales de la región en un comedor de gran nobleza y en un jardín con restos arqueológicos. Un lugar para probar la caldereta, el bacalao monacal y los quesos y vinos locales con calma.",
+   "d_en": "Set in a former friars' convent, it serves traditional regional dishes in a stately dining room and a garden with archaeological remains. A place to try caldereta, monastic-style cod and local cheeses and wines at leisure.",
+   "h": "13:30–16:00 y 20:30–23:00",
+   "h_en": "1:30–4pm & 8:30–11pm",
+   "i": "Ideal si te gusta la cocina regional en marcos históricos.",
+   "i_en": "Ideal if you like regional cuisine in historic settings."
+  },
+  "bad_rex_numitor_merida": {
+   "id": "bad_rex_numitor_merida",
+   "d": "Bar gastronómico muy valorado en el centro de Mérida, con una carta de tapas y raciones que reinterpretan el producto extremeño con toques modernos. Su terraza a pocos metros del Templo de Diana lo hace perfecto para una pausa entre monumentos.",
+   "d_en": "A highly rated gastro-bar in central Mérida, with a menu of tapas and sharing plates that reinterpret Extremadura produce with modern touches. Its terrace steps from the Temple of Diana makes it perfect for a break between monuments.",
+   "h": "13:00–16:00 y 20:00–23:30; cierra lun",
+   "h_en": "1–4pm & 8–11:30pm; closed Mon",
+   "i": "Ideal si te gusta el tapeo moderno y las terrazas céntricas.",
+   "i_en": "Ideal if you like modern tapas and central terraces."
+  },
+  "bad_mercado_central_badajoz": {
+   "id": "bad_mercado_central_badajoz",
+   "d": "Punto de referencia para comprar jamón ibérico, quesos de la Serena, embutidos, pescado fresco y verduras de la huerta pacense. Algunos puestos ofrecen degustación y tapeo, un plan auténtico para sentir el pulso gastronómico de la ciudad.",
+   "d_en": "A go-to spot to buy Iberian ham, La Serena cheeses, cured meats, fresh fish and local garden vegetables. Some stalls offer tastings and tapas, an authentic plan to feel the city's culinary pulse.",
+   "h": "Lun–sáb 9:00–14:00 aprox.",
+   "h_en": "Mon–Sat approx. 9am–2pm",
+   "i": "Ideal si te gusta comprar producto fresco y el ambiente de mercado.",
+   "i_en": "Ideal if you like buying fresh produce and market bustle."
+  },
+  "bad_rebotica_zafra": {
+   "id": "bad_rebotica_zafra",
+   "d": "Restaurante clásico y acogedor a pocos pasos de la Plaza Grande, conocido por su tratamiento cuidado de los productos de la tierra: carnes ibéricas, setas de temporada, quesos y guisos tradicionales. Un buen sitio para una comida sin prisas tras recorrer Zafra.",
+   "d_en": "A classic, cosy restaurant steps from the Plaza Grande, known for its careful handling of local produce: Iberian meats, seasonal mushrooms, cheeses and traditional stews. A good place for an unhurried meal after exploring Zafra.",
+   "h": "13:30–16:00 y 21:00–23:00; cierra dom noche",
+   "h_en": "1:30–4pm & 9–11pm; closed Sun evening",
+   "i": "Ideal si te gusta la cocina de producto en ambiente tradicional.",
+   "i_en": "Ideal if you like produce-led cooking in a traditional setting."
+  }
+ },
+ "food": {
+  "bad_parador_merida": {
+   "cuisine": "Extremeña tradicional",
+   "price": "30–50 €",
+   "hours": "13:30–16:00 y 20:30–23:00"
+  },
+  "bad_rex_numitor_merida": {
+   "cuisine": "Tapas creativas",
+   "price": "15–30 €",
+   "hours": "13:00–16:00 y 20:00–23:30"
+  },
+  "bad_mercado_central_badajoz": {
+   "cuisine": "Producto local / mercado",
+   "price": "5–25 €",
+   "hours": "Lun–sáb 9:00–14:00"
+  },
+  "bad_rebotica_zafra": {
+   "cuisine": "Extremeña de mercado",
+   "price": "25–45 €",
+   "hours": "13:30–16:00 y 21:00–23:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Badajoz",
+   "items": [
+    {
+     "name": "Jamón ibérico de bellota (DO Dehesa de Extremadura)",
+     "price": "40–120 €",
+     "desc": "Jamón curado de cerdo ibérico criado en dehesa; una de las joyas gastronómicas de la provincia."
+    },
+    {
+     "name": "Queso Torta de la Serena (DO)",
+     "price": "18–35 €",
+     "desc": "Queso cremoso de leche cruda de oveja merina, cuajado con cardo; se come con cuchara."
+    },
+    {
+     "name": "Vino Ribera del Guadiana (DO)",
+     "price": "5–20 €",
+     "desc": "Tintos y blancos de las bodegas del Guadiana, con buena relación calidad-precio."
+    },
+    {
+     "name": "Técula Mécula",
+     "price": "8–15 €",
+     "desc": "Tarta de almendra y yema típica de Olivenza, con raíz repostera portuguesa."
+    },
+    {
+     "name": "Pimentón de la Vera / migas extremeñas (kit)",
+     "price": "4–10 €",
+     "desc": "Pimentón ahumado y productos para preparar las clásicas migas del pastor."
+    }
+   ],
+   "shops": [
+    "Mercado Central de Badajoz (Calle Meléndez Valdés)",
+    "Tiendas gourmet del Casco Antiguo y la Plaza Alta",
+    "Confiterías de Olivenza para la Técula Mécula"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Compra la entrada conjunta del Consorcio de Mérida: cubre Teatro, Anfiteatro, Alcazaba, Casa del Mitreo y más, y sale mucho más barato que las entradas sueltas.",
+   "Visita los monumentos romanos de Mérida a primera hora o al atardecer: en verano el calor supera con facilidad los 38 ºC al mediodía.",
+   "Alange y su balneario son perfectos para un descanso termal; reserva con antelación los circuitos de aguas en temporada alta.",
+   "Recorre a pie los cascos históricos de Zafra, Olivenza, Llerena y Jerez de los Caballeros: sus plazas e iglesias se disfrutan mejor sin coche.",
+   "En el Parque Natural de Cornalvo lleva agua, calzado cómodo y prismáticos; hay rutas señalizadas y aves acuáticas junto a la presa romana."
+  ],
+  "en": [
+   "Buy the Mérida Consortium combined ticket: it covers the Theatre, Amphitheatre, Alcazaba, Casa del Mitreo and more, and is far cheaper than separate entries.",
+   "Visit Mérida's Roman monuments early morning or at sunset: in summer midday heat easily tops 38 ºC.",
+   "Alange and its spa are ideal for a thermal break; book the water circuits ahead in high season.",
+   "Explore the old towns of Zafra, Olivenza, Llerena and Jerez de los Caballeros on foot: their squares and churches are best enjoyed without a car.",
+   "In Cornalvo Natural Park bring water, comfortable shoes and binoculars; there are marked trails and waterbirds by the Roman dam."
+  ]
+ },
+ "climate": {
+  "hi": [
+   15,
+   17,
+   21,
+   23,
+   28,
+   33,
+   36,
+   36,
+   31,
+   24,
+   18,
+   15
+  ],
+  "lo": [
+   4,
+   5,
+   7,
+   9,
+   12,
+   16,
+   18,
+   18,
+   16,
+   12,
+   8,
+   5
+  ]
+ },
+ "tr": {
+  "El teatro romano mejor conservado de Hispania, aún en uso.": "The best-preserved Roman theatre in Hispania, still in use.",
+  "Arena de gladiadores del siglo I a. C. junto al teatro.": "1st-century-BC gladiator arena next to the theatre.",
+  "Templo romano de culto imperial en pleno centro de Mérida.": "Roman imperial-cult temple in the heart of Mérida.",
+  "Impresionante acueducto romano de arcos y sillería.": "Striking Roman aqueduct of arches and ashlar.",
+  "Uno de los puentes romanos más largos conservados.": "One of the longest surviving Roman bridges.",
+  "Gran museo del arte romano en un edificio de Rafael Moneo.": "Great Roman art museum in a Rafael Moneo building.",
+  "Fortaleza árabe del siglo IX junto al puente romano.": "9th-century Arab fortress by the Roman bridge.",
+  "Una de las mayores alcazabas de Europa, almohade.": "One of Europe's largest fortresses, Almohad-built.",
+  "Puerta monumental del siglo XVI, símbolo de Badajoz.": "Monumental 16th-century gate, symbol of Badajoz.",
+  "Catedral-fortaleza gótica en la Plaza de España.": "Gothic fortress-cathedral on the Plaza de España.",
+  "Castillo ducal del siglo XV, hoy Parador de Turismo.": "15th-century ducal castle, now a Parador hotel.",
+  "Baños romanos del siglo III aún alimentados por manantial.": "3rd-century Roman baths still fed by a spring.",
+  "Dehesa, bosque mediterráneo y embalse cerca de Mérida.": "Dehesa, Mediterranean forest and reservoir near Mérida.",
+  "Presa romana en uso desde hace casi dos mil años.": "Roman dam in use for nearly two thousand years.",
+  "Gran embalse con playa interior y bandera azul.": "Large reservoir with an inland beach and blue flag.",
+  "Manantial termal histórico al pie de las termas romanas.": "Historic thermal spring below the Roman baths.",
+  "Vistosa plaza porticada de casas pintadas junto a la alcazaba.": "Colourful arcaded square of painted houses by the fortress.",
+  "Dos plazas porticadas comunicadas, alma de Zafra.": "Two connected arcaded squares, the soul of Zafra.",
+  "Plaza monumental barroca, orgullo de Llerena.": "Monumental Baroque square, the pride of Llerena.",
+  "Pueblo de aire portugués con arte manuelino único.": "Town with a Portuguese air and unique Manueline art.",
+  "Villa templaria de torres barrocas y calles blancas.": "Templar town of Baroque towers and white streets.",
+  "Restaurante en un convento del siglo XVIII con cocina extremeña.": "Restaurant in an 18th-century convent with Extremadura cuisine.",
+  "Tapas creativas junto al Templo de Diana.": "Creative tapas beside the Temple of Diana.",
+  "Mercado de abastos para probar el producto local.": "Food market to sample local produce.",
+  "Cocina extremeña de mercado en el casco viejo de Zafra.": "Market-driven Extremadura cuisine in Zafra's old town.",
+  "Badajoz": "Badajoz"
+ }
+}

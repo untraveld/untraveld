@@ -1,0 +1,401 @@
+{
+ "id": "ceuta",
+ "name": "Ceuta",
+ "country": "ES",
+ "center": [
+  35.88933,
+  -5.31976
+ ],
+ "pois": [
+  {
+   "id": "ceu_murallas_reales",
+   "cat": "monuments",
+   "name": "Murallas Reales y Foso de San Felipe",
+   "icon": "🏰",
+   "lat": 35.8884,
+   "lng": -5.3188,
+   "desc": "Fortificación real con foso navegable."
+  },
+  {
+   "id": "ceu_parque_maritimo",
+   "cat": "ocio",
+   "name": "Parque Marítimo del Mediterráneo",
+   "icon": "🌊",
+   "lat": 35.89,
+   "lng": -5.3094,
+   "desc": "Complejo de lagos y piscinas de César Manrique."
+  },
+  {
+   "id": "ceu_monte_hacho",
+   "cat": "nature",
+   "name": "Monte Hacho",
+   "icon": "⛰️",
+   "lat": 35.8969,
+   "lng": -5.2867,
+   "desc": "Promontorio con fortaleza y vistas al Estrecho."
+  },
+  {
+   "id": "ceu_ermita_san_antonio",
+   "cat": "monuments",
+   "name": "Ermita y Convento de San Antonio",
+   "icon": "⛪",
+   "lat": 35.8996,
+   "lng": -5.2938,
+   "desc": "Convento en la ladera del Monte Hacho."
+  },
+  {
+   "id": "ceu_catedral",
+   "cat": "monuments",
+   "name": "Catedral de Santa María de la Asunción",
+   "icon": "⛪",
+   "lat": 35.8878,
+   "lng": -5.3166,
+   "desc": "Catedral barroca junto a la Plaza de África."
+  },
+  {
+   "id": "ceu_santuario_africa",
+   "cat": "monuments",
+   "name": "Santuario de Nuestra Señora de África",
+   "icon": "⛪",
+   "lat": 35.8888,
+   "lng": -5.3166,
+   "desc": "Templo de la patrona de Ceuta."
+  },
+  {
+   "id": "ceu_plaza_reyes",
+   "cat": "ocio",
+   "name": "Plaza de los Reyes",
+   "icon": "🏛️",
+   "lat": 35.8886,
+   "lng": -5.3158,
+   "desc": "Plaza monumental con el Ayuntamiento."
+  },
+  {
+   "id": "ceu_puerta_califal",
+   "cat": "monuments",
+   "name": "Puerta Califal",
+   "icon": "🕌",
+   "lat": 35.8895,
+   "lng": -5.318,
+   "desc": "Puerta medieval andalusí musealizada."
+  },
+  {
+   "id": "ceu_banos_arabes",
+   "cat": "monuments",
+   "name": "Baños Árabes (Baños Califales)",
+   "icon": "🕌",
+   "lat": 35.8893,
+   "lng": -5.3177,
+   "desc": "Termas andalusíes del centro histórico."
+  },
+  {
+   "id": "ceu_playa_ribera",
+   "cat": "nature",
+   "name": "Playa de la Ribera y El Chorrillo",
+   "icon": "🏖️",
+   "lat": 35.8868,
+   "lng": -5.3152,
+   "desc": "Playas urbanas junto al centro."
+  },
+  {
+   "id": "ceu_mirador_san_antonio",
+   "cat": "nature",
+   "name": "Mirador de San Antonio",
+   "icon": "🌅",
+   "lat": 35.8995,
+   "lng": -5.294,
+   "desc": "Balcón panorámico sobre la ciudad."
+  },
+  {
+   "id": "ceu_poblado_marinero",
+   "cat": "food",
+   "name": "Poblado Marinero",
+   "icon": "🦐",
+   "lat": 35.8895,
+   "lng": -5.3125,
+   "desc": "Marina con restaurantes de pescado."
+  },
+  {
+   "id": "ceu_cocina_fronteriza",
+   "cat": "food",
+   "name": "Cocina fronteriza de la Calle Real",
+   "icon": "🍽️",
+   "lat": 35.889,
+   "lng": -5.316,
+   "desc": "Fusión de cuatro culturas en el centro."
+  },
+  {
+   "id": "ceu_mercado_central",
+   "cat": "food",
+   "name": "Mercado Central de Ceuta",
+   "icon": "🐟",
+   "lat": 35.8894,
+   "lng": -5.3166,
+   "desc": "Mercado de abastos con producto local."
+  },
+  {
+   "id": "ceu_teteria_dulces",
+   "cat": "food",
+   "name": "Teterías y repostería árabe",
+   "icon": "🍵",
+   "lat": 35.8892,
+   "lng": -5.3159,
+   "desc": "Té moruno y dulces de miel."
+  }
+ ],
+ "extra": {
+  "ceu_murallas_reales": {
+   "id": "ceu_murallas_reales",
+   "d": "Conjunto amurallado renacentista y abaluartado que protegía el istmo de Ceuta. Su Foso de San Felipe es el único foso navegable de España, cruzado por puentes levadizos y hoy escenario cultural.",
+   "d_en": "A Renaissance bastioned walled complex that guarded the Ceuta isthmus. Its Foso de San Felipe is Spain's only navigable moat, crossed by drawbridges and now a cultural venue.",
+   "h": "Mañana",
+   "h_en": "Morning",
+   "i": "Ideal si te gusta la arquitectura militar y la historia de fortalezas.",
+   "i_en": "Ideal if you like military architecture and fortress history."
+  },
+  "ceu_parque_maritimo": {
+   "id": "ceu_parque_maritimo",
+   "d": "Última gran obra de César Manrique, con lagos de agua salada, piscinas, cascadas, jardines y esculturas frente al mar. Un oasis lúdico con casino, restaurantes y solárium.",
+   "d_en": "César Manrique's last major work, with saltwater lakes, pools, waterfalls, gardens and sculptures by the sea. A leisure oasis with a casino, restaurants and sun terraces.",
+   "h": "Todo el día en verano",
+   "h_en": "All day in summer",
+   "i": "Ideal si te gusta relajarte junto al agua y el diseño paisajístico.",
+   "i_en": "Ideal if you like relaxing by the water and landscape design."
+  },
+  "ceu_monte_hacho": {
+   "id": "ceu_monte_hacho",
+   "d": "Monte que corona la península de Ceuta, candidato a una de las columnas de Hércules. Su fortaleza militar, la carretera de circunvalación y los miradores ofrecen panorámicas de África y Europa.",
+   "d_en": "The hill crowning the Ceuta peninsula, a candidate for one of the Pillars of Hercules. Its military fortress, ring road and viewpoints offer panoramas of Africa and Europe.",
+   "h": "Atardecer",
+   "h_en": "Sunset",
+   "i": "Ideal si te gustan las vistas panorámicas y los paisajes de dos continentes.",
+   "i_en": "Ideal if you like panoramic views and two-continent landscapes."
+  },
+  "ceu_ermita_san_antonio": {
+   "id": "ceu_ermita_san_antonio",
+   "d": "Recinto religioso encalado en la falda del Hacho, muy vinculado a las fiestas patronales de la ciudad. Su explanada y escalinata son punto de encuentro y ofrecen amplias vistas de la bahía.",
+   "d_en": "A whitewashed religious enclosure on the slope of Monte Hacho, closely tied to the city's patron festivities. Its esplanade and stairway are a meeting point with wide bay views.",
+   "h": "Media mañana",
+   "h_en": "Late morning",
+   "i": "Ideal si te gusta la arquitectura religiosa y los rincones tranquilos.",
+   "i_en": "Ideal if you like religious architecture and quiet corners."
+  },
+  "ceu_catedral": {
+   "id": "ceu_catedral",
+   "d": "Levantada sobre una antigua mezquita y templo medieval, combina líneas barrocas y neoclásicas. Alberga el Museo Catedralicio y preside la histórica Plaza de África.",
+   "d_en": "Built over a former mosque and medieval church, it blends Baroque and Neoclassical lines. It houses the Cathedral Museum and presides over the historic Plaza de África.",
+   "h": "Mañana",
+   "h_en": "Morning",
+   "i": "Ideal si te gusta la arquitectura religiosa y los cascos históricos.",
+   "i_en": "Ideal if you like religious architecture and historic centres."
+  },
+  "ceu_santuario_africa": {
+   "id": "ceu_santuario_africa",
+   "d": "Iglesia barroca que custodia la imagen de la Virgen de África, patrona y alcaldesa perpetua de la ciudad. Su camarín y su plaza son corazón de la devoción y de las fiestas locales.",
+   "d_en": "A Baroque church guarding the image of the Virgin of Africa, patron and perpetual mayoress of the city. Its shrine chamber and square are the heart of local devotion and festivities.",
+   "h": "Mañana",
+   "h_en": "Morning",
+   "i": "Ideal si te gustan las tradiciones religiosas y el arte barroco.",
+   "i_en": "Ideal if you like religious traditions and Baroque art."
+  },
+  "ceu_plaza_reyes": {
+   "id": "ceu_plaza_reyes",
+   "d": "Corazón cívico de Ceuta, presidido por el Palacio de la Asamblea de fachada modernista. Rodeada de terrazas y edificios señoriales, es el mejor lugar para tomar el pulso a la ciudad.",
+   "d_en": "The civic heart of Ceuta, presided over by the Modernist-fronted Assembly Palace. Ringed by cafe terraces and grand buildings, it is the best place to feel the city's pulse.",
+   "h": "Tarde",
+   "h_en": "Afternoon",
+   "i": "Ideal si te gusta el ambiente urbano y la arquitectura modernista.",
+   "i_en": "Ideal if you like urban atmosphere and Modernist architecture."
+  },
+  "ceu_puerta_califal": {
+   "id": "ceu_puerta_califal",
+   "d": "Vestigio del sistema defensivo de la Ceuta islámica del siglo X, integrado en un moderno espacio museográfico. Un recorrido bajo el nivel de la calle muestra murallas, torres y fosos califales.",
+   "d_en": "A remnant of 10th-century Islamic Ceuta's defences, set within a modern museum space. A route below street level reveals caliphal walls, towers and moats.",
+   "h": "Mañana",
+   "h_en": "Morning",
+   "i": "Ideal si te gusta la herencia andalusí y la arqueología urbana.",
+   "i_en": "Ideal if you like Andalusi heritage and urban archaeology."
+  },
+  "ceu_banos_arabes": {
+   "id": "ceu_banos_arabes",
+   "d": "Restos de un hammam medieval con sus salas fría, templada y caliente, muestra de la vida cotidiana de la Ceuta islámica. Se integran en el recorrido patrimonial junto a la Puerta Califal.",
+   "d_en": "Remains of a medieval hammam with its cold, warm and hot rooms, a window onto daily life in Islamic Ceuta. They form part of the heritage route beside the Caliphal Gate.",
+   "h": "Mañana",
+   "h_en": "Morning",
+   "i": "Ideal si te gusta la historia medieval y la cultura del baño árabe.",
+   "i_en": "Ideal if you like medieval history and Arab bath culture."
+  },
+  "ceu_playa_ribera": {
+   "id": "ceu_playa_ribera",
+   "d": "Arenales céntricos y protegidos que miran al Mediterráneo, unidos por un paseo animado con chiringuitos. Aguas tranquilas ideales para un baño a pocos pasos de los monumentos.",
+   "d_en": "Central, sheltered sands facing the Mediterranean, linked by a lively promenade with beach bars. Calm waters perfect for a swim just steps from the monuments.",
+   "h": "Todo el día en verano",
+   "h_en": "All day in summer",
+   "i": "Ideal si te gustan las playas urbanas y el baño cómodo.",
+   "i_en": "Ideal if you like urban beaches and easy swimming."
+  },
+  "ceu_mirador_san_antonio": {
+   "id": "ceu_mirador_san_antonio",
+   "d": "Mirador junto al convento de San Antonio con una de las mejores vistas de Ceuta: el istmo, el puerto, las Murallas Reales y, al fondo, el Estrecho y las costas de dos continentes.",
+   "d_en": "A viewpoint by the San Antonio convent with one of Ceuta's finest vistas: the isthmus, the port, the Royal Walls and, beyond, the Strait and two continents' coasts.",
+   "h": "Atardecer",
+   "h_en": "Sunset",
+   "i": "Ideal si te gustan los miradores y la fotografía de paisaje.",
+   "i_en": "Ideal if you like viewpoints and landscape photography."
+  },
+  "ceu_poblado_marinero": {
+   "id": "ceu_poblado_marinero",
+   "d": "Conjunto de casas blancas y azules diseñado por César Manrique junto al Parque Marítimo, hoy zona de ocio con terrazas de pescado fresco, arroces y marisco frente a los barcos.",
+   "d_en": "A cluster of blue-and-white houses designed by César Manrique beside the Marine Park, now a leisure zone with terraces serving fresh fish, rice dishes and shellfish by the boats.",
+   "h": "Almuerzo o cena junto al mar",
+   "h_en": "Seaside lunch or dinner",
+   "i": "Ideal si te gusta el marisco fresco y el ambiente de puerto.",
+   "i_en": "Ideal if you like fresh shellfish and a harbour vibe."
+  },
+  "ceu_cocina_fronteriza": {
+   "id": "ceu_cocina_fronteriza",
+   "d": "En las tabernas y restaurantes de la Calle Real conviven los sabores español, marroquí, hebreo e hindú: pinchitos morunos, tajines, cocina sefardí y currys en una misma ciudad.",
+   "d_en": "In the taverns and restaurants of Calle Real, Spanish, Moroccan, Hebrew and Indian flavours meet: moorish skewers, tagines, Sephardic dishes and curries in a single city.",
+   "h": "Almuerzo o cena",
+   "h_en": "Lunch or dinner",
+   "i": "Ideal si te gusta la cocina de fusión y los sabores cruzados.",
+   "i_en": "Ideal if you like fusion cooking and crossed flavours."
+  },
+  "ceu_mercado_central": {
+   "id": "ceu_mercado_central",
+   "d": "Mercado modernista donde se surten los ceutíes de pescado del Estrecho, especias, fruta y encurtidos. Un buen sitio para descubrir productos y tomar un tentempié a media mañana.",
+   "d_en": "A Modernist market where locals stock up on Strait fish, spices, fruit and pickles. A great spot to discover produce and grab a mid-morning bite.",
+   "h": "Media mañana",
+   "h_en": "Late morning",
+   "i": "Ideal si te gusta el producto fresco y el ambiente de mercado.",
+   "i_en": "Ideal if you like fresh produce and market atmosphere."
+  },
+  "ceu_teteria_dulces": {
+   "id": "ceu_teteria_dulces",
+   "d": "Las teterías del centro sirven té verde con hierbabuena y bandejas de repostería árabe: cuernos de gacela, chebakia y dulces de almendra y miel, herencia dulce de la frontera.",
+   "d_en": "The city's tea houses serve mint green tea and trays of Arab pastries: gazelle horns, chebakia and almond-and-honey sweets, a sweet legacy of the frontier.",
+   "h": "Media tarde",
+   "h_en": "Mid-afternoon",
+   "i": "Ideal si te gustan los dulces, el té y las sobremesas pausadas.",
+   "i_en": "Ideal if you like sweets, tea and lingering afternoons."
+  }
+ },
+ "food": {
+  "ceu_poblado_marinero": {
+   "cuisine": "Pescado, mariscos y arroces mediterráneos",
+   "price": "20–40 €",
+   "hours": "13:00–16:30, 20:30–23:30"
+  },
+  "ceu_cocina_fronteriza": {
+   "cuisine": "Fusión española, marroquí, hebrea e hindú",
+   "price": "12–30 €",
+   "hours": "13:00–16:00, 20:00–23:30"
+  },
+  "ceu_mercado_central": {
+   "cuisine": "Producto fresco, pescado y especias",
+   "price": "5–15 €",
+   "hours": "08:00–14:30"
+  },
+  "ceu_teteria_dulces": {
+   "cuisine": "Té moruno y repostería árabe",
+   "price": "4–12 €",
+   "hours": "10:00–14:00, 17:00–22:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Ceuta",
+   "items": [
+    {
+     "name": "Té moruno y especias",
+     "price": "3–12 €",
+     "desc": "Té verde con hierbabuena y mezclas de especias del zoco, herencia de la cultura marroquí."
+    },
+    {
+     "name": "Repostería árabe y dulces ceutíes",
+     "price": "5–15 €",
+     "desc": "Pastelería con miel, almendra y hojaldre que refleja la fusión de culturas de la ciudad."
+    },
+    {
+     "name": "Artesanía marroquí",
+     "price": "8–40 €",
+     "desc": "Babuchas de cuero, cerámica esmaltada y objetos de latón traídos del país vecino."
+    },
+    {
+     "name": "Perfumes y electrónica libres de IVA",
+     "price": "10–60 €",
+     "desc": "Ceuta es zona de IPSI sin IVA; perfumería y tecnología a precios ventajosos en el centro."
+    }
+   ],
+   "shops": [
+    "Calle Real y centro comercial de Ceuta",
+    "Mercado Central de Ceuta",
+    "Bazares y perfumerías del centro"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Ceuta es zona de IPSI (sin IVA); aprovecha para comprar perfumes, electrónica y tabaco a buen precio en el centro.",
+   "Sube al Monte Hacho al atardecer para contemplar el Estrecho, la costa de África y la de la Península.",
+   "Prueba la cocina fronteriza: una fusión única de sabores españoles, marroquíes, hebreos e hindúes.",
+   "Muévete a pie por el centro; casi todos los monumentos están junto a las Murallas Reales.",
+   "Si piensas cruzar la frontera del Tarajal, lleva la documentación en regla y consulta antes su estado de apertura."
+  ],
+  "en": [
+   "Ceuta is an IPSI (VAT-free) zone; take advantage to buy perfumes, electronics and tobacco cheaply downtown.",
+   "Climb Monte Hacho at sunset to take in the Strait, the African coast and the Spanish mainland.",
+   "Try the frontier cuisine: a unique fusion of Spanish, Moroccan, Hebrew and Indian flavours.",
+   "Get around the centre on foot; almost all the monuments sit beside the Royal Walls.",
+   "If you plan to cross the Tarajal border, carry valid documents and check its opening status beforehand."
+  ]
+ },
+ "climate": {
+  "hi": [
+   16,
+   17,
+   18,
+   20,
+   22,
+   25,
+   28,
+   29,
+   26,
+   23,
+   19,
+   17
+  ],
+  "lo": [
+   11,
+   11,
+   12,
+   13,
+   16,
+   19,
+   21,
+   22,
+   20,
+   17,
+   14,
+   12
+  ]
+ },
+ "tr": {
+  "Fortificación real con foso navegable.": "Royal fortress with a navigable moat.",
+  "Complejo de lagos y piscinas de César Manrique.": "Lakes-and-pools complex by César Manrique.",
+  "Promontorio con fortaleza y vistas al Estrecho.": "Headland with a fortress and Strait views.",
+  "Convento en la ladera del Monte Hacho.": "Convent on the slope of Monte Hacho.",
+  "Catedral barroca junto a la Plaza de África.": "Baroque cathedral by the Plaza de África.",
+  "Templo de la patrona de Ceuta.": "Shrine of Ceuta's patron saint.",
+  "Plaza monumental con el Ayuntamiento.": "Monumental square with the City Hall.",
+  "Puerta medieval andalusí musealizada.": "Museumised medieval Andalusi gate.",
+  "Termas andalusíes del centro histórico.": "Andalusi baths in the old centre.",
+  "Playas urbanas junto al centro.": "Urban beaches next to the centre.",
+  "Balcón panorámico sobre la ciudad.": "Panoramic balcony over the city.",
+  "Marina con restaurantes de pescado.": "Marina with seafood restaurants.",
+  "Fusión de cuatro culturas en el centro.": "Four-culture fusion in the centre.",
+  "Mercado de abastos con producto local.": "Food market with local produce.",
+  "Té moruno y dulces de miel.": "Moorish tea and honey pastries.",
+  "Ceuta": "Ceuta"
+ }
+}

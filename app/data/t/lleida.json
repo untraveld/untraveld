@@ -1,0 +1,310 @@
+{
+ "id": "lleida",
+ "name": "Lleida",
+ "country": "ES",
+ "center": [
+  41.6176,
+  0.62
+ ],
+ "pois": [
+  {
+   "id": "ctl_aiguestortes",
+   "cat": "nature",
+   "name": "Parc Nacional d'Aigüestortes i Estany de Sant Maurici",
+   "icon": "🏔️",
+   "lat": 42.58213,
+   "lng": 0.99973,
+   "desc": "El único parque nacional de Cataluña, con lagos de alta montaña."
+  },
+  {
+   "id": "ctl_seu_vella",
+   "cat": "monuments",
+   "name": "La Seu Vella de Lleida",
+   "icon": "🏰",
+   "lat": 41.61834,
+   "lng": 0.62654,
+   "desc": "Catedral antigua y castillo sobre la colina que domina Lleida."
+  },
+  {
+   "id": "ctl_taull",
+   "cat": "monuments",
+   "name": "Sant Climent de Taüll",
+   "icon": "⛪",
+   "lat": 42.5175,
+   "lng": 0.84861,
+   "desc": "Joya del románico de la Vall de Boí, Patrimonio de la Humanidad."
+  },
+  {
+   "id": "ctl_val_aran",
+   "cat": "nature",
+   "name": "Val d'Aran (Vielha)",
+   "icon": "⛰️",
+   "lat": 42.70194,
+   "lng": 0.7956,
+   "desc": "Valle pirenaico de vertiente atlántica, con pueblos de piedra."
+  },
+  {
+   "id": "ctl_baqueira",
+   "cat": "ocio",
+   "name": "Baqueira Beret",
+   "icon": "⛷️",
+   "lat": 42.69927,
+   "lng": 0.93164,
+   "desc": "La estación de esquí más prestigiosa de España, en la Val d'Aran."
+  },
+  {
+   "id": "ctl_montrebei",
+   "cat": "nature",
+   "name": "Congost de Mont-rebei",
+   "icon": "🏞️",
+   "lat": 42.07977,
+   "lng": 0.6821,
+   "desc": "Espectacular desfiladero con senderos tallados en la roca."
+  },
+  {
+   "id": "ctl_miravet",
+   "cat": "monuments",
+   "name": "Castell de Miravet",
+   "icon": "🏰",
+   "lat": 41.03556,
+   "lng": 0.59389,
+   "desc": "Castillo templario sobre el Ebro, dominando un pueblo blanco."
+  },
+  {
+   "id": "ctl_montsec",
+   "cat": "nature",
+   "name": "Parc Astronòmic del Montsec",
+   "icon": "🔭",
+   "lat": 42.02464,
+   "lng": 0.73694,
+   "desc": "Reserva Starlight con uno de los cielos más limpios de Europa."
+  },
+  {
+   "id": "ctl_ports",
+   "cat": "nature",
+   "name": "Parc Natural dels Ports",
+   "icon": "🌲",
+   "lat": 40.80311,
+   "lng": 0.34309,
+   "desc": "Macizo agreste de barrancos y cabras montesas, coronado por Mont Caro."
+  },
+  {
+   "id": "ctl_oli_garrigues",
+   "cat": "food",
+   "name": "Oli de les Garrigues (Les Borges Blanques)",
+   "icon": "🫒",
+   "lat": 41.51667,
+   "lng": 0.86667,
+   "desc": "Aceite de oliva virgen extra DOP, oro líquido de Lleida."
+  },
+  {
+   "id": "ctl_cuina_aran",
+   "cat": "food",
+   "name": "Cuina de muntanya aranesa (Arties)",
+   "icon": "🍲",
+   "lat": 42.70005,
+   "lng": 0.87207,
+   "desc": "Cocina pirenaica de la Val d'Aran: olla aranesa y caza."
+  }
+ ],
+ "extra": {
+  "ctl_aiguestortes": {
+   "id": "ctl_aiguestortes",
+   "d": "Aigüestortes i Estany de Sant Maurici es el único parque nacional de Cataluña, un paraíso pirenaico de casi 200 lagos glaciares, picos de granito y bosques de abetos. El estany de Sant Maurici, con los Encantats al fondo, es una de las postales más icónicas del Pirineo.",
+   "d_en": "Aigüestortes i Estany de Sant Maurici is Catalonia's only national park, a Pyrenean paradise of nearly 200 glacial lakes, granite peaks and fir forests. Sant Maurici lake, framed by the Encantats peaks, is one of the Pyrenees' most iconic views.",
+   "h": "De junio a octubre para el senderismo; taxis 4x4 en Espot",
+   "h_en": "June to October for hiking; 4x4 taxis from Espot",
+   "i": "el senderismo, los lagos y la alta montaña",
+   "i_en": "hiking, mountain lakes and high peaks"
+  },
+  "ctl_seu_vella": {
+   "id": "ctl_seu_vella",
+   "d": "La Seu Vella corona el Turó de la Seu, un conjunto monumental que reúne la antigua catedral románico-gótica, su esbelto campanario y el castell de la Suda. Sus vistas sobre Lleida y la llanura del Segre, junto a su claustro único, la convierten en el símbolo de la ciudad.",
+   "d_en": "La Seu Vella crowns the Turó de la Seu hill, a monumental complex with the old Romanesque-Gothic cathedral, its slender bell tower and the Suda castle. Its views over Lleida and the Segre plain, plus a unique cloister, make it the city's emblem.",
+   "h": "Mañana o media tarde; cerrado algunos lunes",
+   "h_en": "Morning or mid-afternoon; closed some Mondays",
+   "i": "la historia medieval y las vistas panorámicas",
+   "i_en": "medieval history and panoramic views"
+  },
+  "ctl_taull": {
+   "id": "ctl_taull",
+   "d": "La iglesia de Sant Climent de Taüll es la obra maestra del románico catalán y forma parte del conjunto de iglesias de la Vall de Boí, Patrimonio de la Humanidad. Su esbelto campanario y su famoso Pantocrátor (hoy reproducido con videomapping) la hacen inolvidable.",
+   "d_en": "The church of Sant Climent de Taüll is the masterpiece of Catalan Romanesque art and part of the Vall de Boí churches, a World Heritage Site. Its slender bell tower and famous Pantocrator (now recreated with video mapping) make it unforgettable.",
+   "h": "Todo el año; combínala con las demás iglesias del valle",
+   "h_en": "All year; combine it with the valley's other churches",
+   "i": "el arte románico y los pueblos de montaña",
+   "i_en": "Romanesque art and mountain villages"
+  },
+  "ctl_val_aran": {
+   "id": "ctl_val_aran",
+   "d": "La Val d'Aran es un valle único en el Pirineo, orientado al Atlántico y con lengua e identidad propias. Vielha, su capital, es la puerta a paisajes de bosques, ríos y prados alpinos, con encantadores pueblos de piedra y pizarra y actividades en todas las estaciones.",
+   "d_en": "The Val d'Aran is a unique Pyrenean valley, facing the Atlantic and with its own language and identity. Its capital Vielha is the gateway to forests, rivers and alpine meadows, with charming stone-and-slate villages and activities in every season.",
+   "h": "Verano para senderismo, invierno para esquí",
+   "h_en": "Summer for hiking, winter for skiing",
+   "i": "la montaña, los pueblos con encanto y la cultura aranesa",
+   "i_en": "mountains, charming villages and Aranese culture"
+  },
+  "ctl_baqueira": {
+   "id": "ctl_baqueira",
+   "d": "Baqueira Beret es la mayor y más prestigiosa estación de esquí de España, con más de 160 km de pistas entre la Val d'Aran y el Pallars. Ofrece nieve de calidad, freeride y una gastronomía de altura, siendo el destino invernal favorito de esquiadores exigentes.",
+   "d_en": "Baqueira Beret is Spain's largest and most prestigious ski resort, with over 160 km of pistes between the Val d'Aran and Pallars. It offers quality snow, freeride terrain and superb dining, making it the winter favourite of demanding skiers.",
+   "h": "Temporada de esquí, de diciembre a abril",
+   "h_en": "Ski season, December to April",
+   "i": "el esquí, la nieve y el après-ski",
+   "i_en": "skiing, snow and après-ski"
+  },
+  "ctl_montrebei": {
+   "id": "ctl_montrebei",
+   "d": "El congost de Mont-rebei es uno de los desfiladeros más impresionantes de Cataluña, donde el río Noguera Ribagorçana ha excavado paredes verticales de cientos de metros. Su sendero colgado de la roca y las pasarelas de Montfalcó ofrecen una aventura inolvidable entre Lleida y Aragón.",
+   "d_en": "The Mont-rebei gorge is one of the most spectacular canyons in Catalonia, where the Noguera Ribagorçana river has carved vertical walls hundreds of metres high. Its cliff-hugging path and the Montfalcó walkways offer an unforgettable adventure between Lleida and Aragon.",
+   "h": "Primavera y otoño; reserva de aparcamiento obligatoria",
+   "h_en": "Spring and autumn; parking reservation required",
+   "i": "el senderismo, los cañones y la aventura",
+   "i_en": "hiking, canyons and adventure"
+  },
+  "ctl_miravet": {
+   "id": "ctl_miravet",
+   "d": "El castillo de Miravet es una de las fortalezas templarias mejor conservadas de Occidente, encaramada sobre un meandro del río Ebro. De origen andalusí y reconvertido por los templarios, ofrece vistas espectaculares del río y del casco antiguo que desciende hasta el agua.",
+   "d_en": "Miravet Castle is one of the best-preserved Templar fortresses in the West, perched above a bend of the Ebro river. Of Andalusi origin and later rebuilt by the Templars, it offers spectacular views of the river and the old town cascading down to the water.",
+   "h": "Mañana o atardecer; cierra algunos lunes",
+   "h_en": "Morning or sunset; closed some Mondays",
+   "i": "los castillos, los templarios y los pueblos con vistas",
+   "i_en": "castles, the Templars and villages with views"
+  },
+  "ctl_montsec": {
+   "id": "ctl_montsec",
+   "d": "El Montsec ofrece uno de los cielos nocturnos más oscuros y limpios de Europa, reconocido como Reserva y Destino Turístico Starlight. En su Parc Astronòmic (Centre d'Observació de l'Univers), en Àger, se puede observar el firmamento con telescopios y planetario en un entorno de montaña.",
+   "d_en": "The Montsec has one of the darkest, cleanest night skies in Europe, recognised as a Starlight Reserve and Tourism Destination. At its Astronomical Park (Centre d'Observació de l'Univers) in Àger you can watch the sky with telescopes and a planetarium in a mountain setting.",
+   "h": "Sesiones nocturnas; noches despejadas sin luna",
+   "h_en": "Night sessions; clear, moonless nights",
+   "i": "la astronomía, los cielos estrellados y la naturaleza",
+   "i_en": "astronomy, starry skies and nature"
+  },
+  "ctl_ports": {
+   "id": "ctl_ports",
+   "d": "El Parc Natural dels Ports es un macizo agreste y salvaje en el sur de Cataluña, con profundos barrancos, bosques y la cima del Mont Caro (1.442 m) como techo. Refugio de la cabra montesa, ofrece rutas de senderismo, escalada y barranquismo lejos de las multitudes.",
+   "d_en": "The Ports Natural Park is a rugged, wild massif in southern Catalonia, with deep ravines, forests and the summit of Mont Caro (1,442 m) as its roof. A refuge for the Iberian ibex, it offers hiking, climbing and canyoning routes far from the crowds.",
+   "h": "Primavera y otoño para el senderismo",
+   "h_en": "Spring and autumn for hiking",
+   "i": "la montaña salvaje, el senderismo y la fauna",
+   "i_en": "wild mountains, hiking and wildlife"
+  },
+  "ctl_oli_garrigues": {
+   "id": "ctl_oli_garrigues",
+   "d": "Les Borges Blanques, capital de les Garrigues, es el corazón del célebre aceite de oliva virgen extra con Denominación de Origen Protegida. Elaborado con la variedad arbequina, es un aceite afrutado y suave que se puede degustar y comprar en cooperativas y molinos de la comarca.",
+   "d_en": "Les Borges Blanques, capital of Les Garrigues, is the heart of the famous extra virgin olive oil with Protected Designation of Origin. Made from the Arbequina variety, it is a fruity, smooth oil you can taste and buy at the region's cooperatives and mills.",
+   "h": "Otoño e invierno, época de la molienda",
+   "h_en": "Autumn and winter, olive-pressing season",
+   "i": "el aceite de oliva, los productos de la tierra y el enoturismo",
+   "i_en": "olive oil, local produce and food tourism"
+  },
+  "ctl_cuina_aran": {
+   "id": "ctl_cuina_aran",
+   "d": "La cocina de montaña de la Val d'Aran es contundente y sabrosa, con platos como la olla aranesa, la caza, los embutidos y los quesos del Pirineo. El pueblo de Arties, cerca de Baqueira, concentra algunos de los mejores restaurantes para disfrutar de esta gastronomía de altura.",
+   "d_en": "The mountain cuisine of the Val d'Aran is hearty and flavourful, with dishes like olla aranesa stew, game, cured meats and Pyrenean cheeses. The village of Arties, near Baqueira, has some of the best restaurants to enjoy this high-mountain gastronomy.",
+   "h": "Cenas de invierno tras el esquí; todo el año",
+   "h_en": "Winter dinners after skiing; open all year",
+   "i": "la cocina de montaña, los guisos y los productos del Pirineo",
+   "i_en": "mountain cuisine, hearty stews and Pyrenean produce"
+  }
+ },
+ "food": {
+  "ctl_oli_garrigues": {
+   "cuisine": "Aceite de oliva virgen extra DOP Les Garrigues",
+   "price": "10-20 € por botella / cata",
+   "hours": "Horario de cooperativas y molinos"
+  },
+  "ctl_cuina_aran": {
+   "cuisine": "Cocina pirenaica y aranesa de montaña",
+   "price": "30-50 € por persona",
+   "hours": "13:30-15:30 y 20:30-22:30"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Tarragona / Lleida",
+   "items": [
+    {
+     "name": "Vermut de Reus",
+     "price": "6–15 €",
+     "desc": "El vermut con tradición e historia de la Costa Daurada."
+    },
+    {
+     "name": "Aceite de oliva de les Garrigues (DOP)",
+     "price": "8–20 €",
+     "desc": "Aceite de gran calidad del interior de Lleida."
+    },
+    {
+     "name": "Avellana de Reus y turrón",
+     "price": "6–14 €",
+     "desc": "Fruto seco con Denominación de Origen de la zona."
+    }
+   ],
+   "shops": [
+    "Mercat Central de Tarragona",
+    "Ruta modernista de Reus",
+    "Mercats de Lleida"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Barcelona se mueve muy bien en metro y a pie; compra online y con antelación las entradas de la Sagrada Família, la Casa Batlló y el Park Güell para evitar colas y agotados.",
+   "Ojo con los carteristas en La Rambla, el metro y las zonas turísticas: lleva lo justo y vigila bolsos y móviles.",
+   "Cataluña es bilingüe (catalán y español); verás muchos carteles y menús en catalán, pero te entenderán en español sin problema.",
+   "La región combina ciudad, playa (Costa Brava y Costa Daurada) y Pirineo (Val d'Aran, Aigüestortes): para el interior y la montaña el coche es casi imprescindible.",
+   "En invierno el norte tiene esquí (Baqueira) y en verano la costa se llena: reserva alojamiento con antelación en temporada alta y festivos."
+  ],
+  "en": [
+   "Barcelona is easy to get around by metro and on foot; buy tickets for the Sagrada Família, Casa Batlló and Park Güell online and in advance to avoid queues and sell-outs.",
+   "Watch out for pickpockets on La Rambla, the metro and tourist areas: carry only what you need and keep an eye on bags and phones.",
+   "Catalonia is bilingual (Catalan and Spanish); you'll see many signs and menus in Catalan, but you'll be understood in Spanish everywhere.",
+   "The region combines city, beaches (Costa Brava and Costa Daurada) and the Pyrenees (Val d'Aran, Aigüestortes): a car is almost essential for the inland and mountain areas.",
+   "In winter the north has skiing (Baqueira) and in summer the coast fills up: book accommodation ahead in high season and on holidays."
+  ]
+ },
+ "climate": {
+  "hi": [
+   9,
+   12,
+   16,
+   19,
+   24,
+   29,
+   32,
+   31,
+   27,
+   20,
+   13,
+   9
+  ],
+  "lo": [
+   0,
+   1,
+   4,
+   7,
+   11,
+   15,
+   18,
+   17,
+   14,
+   9,
+   4,
+   1
+  ]
+ },
+ "tr": {
+  "El único parque nacional de Cataluña, con lagos de alta montaña.": "The only national park in Catalonia, with high-mountain lakes.",
+  "Catedral antigua y castillo sobre la colina que domina Lleida.": "An old cathedral and castle on the hill overlooking Lleida.",
+  "Joya del románico de la Vall de Boí, Patrimonio de la Humanidad.": "A Romanesque gem of the Vall de Boí, a World Heritage Site.",
+  "Valle pirenaico de vertiente atlántica, con pueblos de piedra.": "A Pyrenean valley on the Atlantic side, with stone villages.",
+  "La estación de esquí más prestigiosa de España, en la Val d'Aran.": "Spain's most prestigious ski resort, in the Val d'Aran.",
+  "Espectacular desfiladero con senderos tallados en la roca.": "A spectacular gorge with paths carved into the rock.",
+  "Castillo templario sobre el Ebro, dominando un pueblo blanco.": "A Templar castle above the Ebro, overlooking a whitewashed village.",
+  "Reserva Starlight con uno de los cielos más limpios de Europa.": "A Starlight Reserve with one of the clearest skies in Europe.",
+  "Macizo agreste de barrancos y cabras montesas, coronado por Mont Caro.": "A rugged massif of ravines and wild goats, crowned by Mont Caro.",
+  "Aceite de oliva virgen extra DOP, oro líquido de Lleida.": "PDO extra virgin olive oil, the liquid gold of Lleida.",
+  "Cocina pirenaica de la Val d'Aran: olla aranesa y caza.": "Pyrenean cuisine of the Val d'Aran: olla aranesa and game.",
+  "Tarragona / Lleida": "Tarragona / Lleida"
+ }
+}

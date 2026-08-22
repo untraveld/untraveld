@@ -1,0 +1,572 @@
+{
+ "id": "castellon",
+ "name": "Castellón",
+ "country": "ES",
+ "center": [
+  39.9864,
+  -0.0513
+ ],
+ "pois": [
+  {
+   "id": "cvc_penyiscola_castillo",
+   "cat": "monuments",
+   "name": "Castillo del Papa Luna (Peñíscola)",
+   "icon": "🏰",
+   "lat": 40.3588,
+   "lng": 0.4078,
+   "desc": "Fortaleza templaria sobre el mar donde residió el Papa Luna."
+  },
+  {
+   "id": "cvc_morella_castillo",
+   "cat": "monuments",
+   "name": "Castillo y murallas de Morella",
+   "icon": "🏰",
+   "lat": 40.6161,
+   "lng": -0.1021,
+   "desc": "Imponente castillo roquero coronando una de las villas más bellas de España."
+  },
+  {
+   "id": "cvc_morella_basilica",
+   "cat": "monuments",
+   "name": "Basílica de Santa María la Mayor (Morella)",
+   "icon": "⛪",
+   "lat": 40.6174,
+   "lng": -0.1008,
+   "desc": "Joya del gótico valenciano con una espectacular escalera del coro."
+  },
+  {
+   "id": "cvc_fadri",
+   "cat": "monuments",
+   "name": "Concatedral de Santa María y El Fadrí (Castellón)",
+   "icon": "🔔",
+   "lat": 39.9862,
+   "lng": -0.037,
+   "desc": "El campanario octogonal exento símbolo de la capital."
+  },
+  {
+   "id": "cvc_sant_mateu",
+   "cat": "monuments",
+   "name": "Conjunto histórico de Sant Mateu",
+   "icon": "🏛️",
+   "lat": 40.4572,
+   "lng": 0.1787,
+   "desc": "Antigua capital del Maestrazgo, señorial y templaria."
+  },
+  {
+   "id": "cvc_culla",
+   "cat": "monuments",
+   "name": "Culla",
+   "icon": "🏘️",
+   "lat": 40.3007,
+   "lng": -0.0335,
+   "desc": "Uno de los pueblos más bonitos de España, colgado en la sierra."
+  },
+  {
+   "id": "cvc_vilafranca",
+   "cat": "monuments",
+   "name": "Vilafranca (Els Ports)",
+   "icon": "🏘️",
+   "lat": 40.4373,
+   "lng": -0.2563,
+   "desc": "Villa de piedra en la sierra de Els Ports, tierra de arquitectura de piedra en seco."
+  },
+  {
+   "id": "cvc_alcala_xivert",
+   "cat": "monuments",
+   "name": "Alcalà de Xivert",
+   "icon": "⛪",
+   "lat": 40.3014,
+   "lng": 0.2125,
+   "desc": "Su iglesia barroca luce el campanario más alto de la Comunidad Valenciana."
+  },
+  {
+   "id": "cvc_grutas_sanjose",
+   "cat": "nature",
+   "name": "Grutas de San José (La Vall d'Uixó)",
+   "icon": "🛶",
+   "lat": 39.8268,
+   "lng": -0.2481,
+   "desc": "El río subterráneo navegable más largo de Europa."
+  },
+  {
+   "id": "cvc_montanejos",
+   "cat": "nature",
+   "name": "Fuente de los Baños (Montanejos)",
+   "icon": "♨️",
+   "lat": 40.0723,
+   "lng": -0.5233,
+   "desc": "Aguas termales a 25°C todo el año en un cañón fluvial."
+  },
+  {
+   "id": "cvc_columbretes",
+   "cat": "nature",
+   "name": "Islas Columbretes",
+   "icon": "🌋",
+   "lat": 39.8983,
+   "lng": 0.6847,
+   "desc": "Archipiélago volcánico y reserva marina en alta mar."
+  },
+  {
+   "id": "cvc_desierto_palmas",
+   "cat": "nature",
+   "name": "Desierto de las Palmas (Benicàssim)",
+   "icon": "⛰️",
+   "lat": 40.0794,
+   "lng": 0.0353,
+   "desc": "Paraje natural con monasterio carmelita y miradores al mar."
+  },
+  {
+   "id": "cvc_penyiscola_playa",
+   "cat": "nature",
+   "name": "Playa Norte de Peñíscola",
+   "icon": "🏖️",
+   "lat": 40.364,
+   "lng": 0.402,
+   "desc": "Larga playa de arena fina junto al casco antiguo amurallado."
+  },
+  {
+   "id": "cvc_benicassim_playas",
+   "cat": "nature",
+   "name": "Playas de Benicàssim",
+   "icon": "🏖️",
+   "lat": 40.0573,
+   "lng": 0.076,
+   "desc": "Playas doradas con banderas azules y el paseo de las Villas."
+  },
+  {
+   "id": "cvc_penyiscola_casco",
+   "cat": "ocio",
+   "name": "Casco antiguo de Peñíscola",
+   "icon": "🧭",
+   "lat": 40.3597,
+   "lng": 0.4074,
+   "desc": "Laberinto de callejuelas blancas dentro de las murallas."
+  },
+  {
+   "id": "cvc_marina_dor",
+   "cat": "ocio",
+   "name": "Marina d'Or (Oropesa del Mar)",
+   "icon": "🎡",
+   "lat": 40.0977,
+   "lng": 0.1447,
+   "desc": "Complejo turístico con balneario, parques y playas."
+  },
+  {
+   "id": "cvc_planetario",
+   "cat": "ocio",
+   "name": "Planetario del Grao de Castellón",
+   "icon": "🪐",
+   "lat": 39.9709,
+   "lng": -0.0152,
+   "desc": "Cúpula de proyecciones astronómicas en el paseo del Grao."
+  },
+  {
+   "id": "cvc_fib",
+   "cat": "ocio",
+   "name": "Festival Internacional de Benicàssim (FIB)",
+   "icon": "🎶",
+   "lat": 40.05,
+   "lng": 0.073,
+   "desc": "Uno de los festivales de música más veteranos de España."
+  },
+  {
+   "id": "cvc_vinaros_puerto",
+   "cat": "ocio",
+   "name": "Puerto de Vinaròs",
+   "icon": "⚓",
+   "lat": 40.466,
+   "lng": 0.4785,
+   "desc": "Puerto pesquero famoso por su lonja de langostinos."
+  },
+  {
+   "id": "cvc_langostino_oro",
+   "cat": "food",
+   "name": "El Langostino de Oro (Vinaròs)",
+   "icon": "🦐",
+   "lat": 40.4701,
+   "lng": 0.4736,
+   "desc": "Templo del langostino de Vinaròs y el pescado de lonja."
+  },
+  {
+   "id": "cvc_casa_jaime",
+   "cat": "food",
+   "name": "Restaurante Casa Jaime (Peñíscola)",
+   "icon": "🥘",
+   "lat": 40.3608,
+   "lng": 0.4072,
+   "desc": "Arroces y guisos marineros frente al Mediterráneo."
+  },
+  {
+   "id": "cvc_daluan",
+   "cat": "food",
+   "name": "Daluan (Morella)",
+   "icon": "🍽️",
+   "lat": 40.6168,
+   "lng": -0.1013,
+   "desc": "Cocina creativa de Els Ports con productos de montaña."
+  },
+  {
+   "id": "cvc_tasca_puerto",
+   "cat": "food",
+   "name": "Tasca del Puerto (Grao de Castellón)",
+   "icon": "🦞",
+   "lat": 39.9763,
+   "lng": -0.0209,
+   "desc": "Arroces y marisco de la lonja en el puerto de Castellón."
+  },
+  {
+   "id": "cvc_torreon_benicassim",
+   "cat": "food",
+   "name": "Restaurante Torreón (Benicàssim)",
+   "icon": "🍚",
+   "lat": 40.058,
+   "lng": 0.086,
+   "desc": "Arroces y pescado a pie de playa en Benicàssim."
+  }
+ ],
+ "extra": {
+  "cvc_penyiscola_castillo": {
+   "id": "cvc_penyiscola_castillo",
+   "d": "Castillo templario del siglo XIII alzado sobre un peñón rodeado por el Mediterráneo, célebre por ser la residencia y sede del papa Benedicto XIII, el Papa Luna. Sus salas, patios y vistas al mar lo convierten en el gran icono de la Costa del Azahar.",
+   "d_en": "A 13th-century Templar fortress rising on a rocky headland surrounded by the Mediterranean, famous as the residence and seat of Pope Benedict XIII, the 'Papa Luna'. Its halls, courtyards and sea views make it the great icon of the Costa del Azahar.",
+   "h": "Media mañana, para evitar el calor y la multitud.",
+   "h_en": "Mid-morning, to avoid the heat and crowds.",
+   "i": "la historia medieval y las vistas de castillo al mar.",
+   "i_en": "medieval history and clifftop castle views over the sea."
+  },
+  "cvc_morella_castillo": {
+   "id": "cvc_morella_castillo",
+   "d": "Fortaleza inexpugnable encaramada sobre un cerro y ceñida por más de dos kilómetros de murallas medievales que abrazan todo el casco histórico de Morella. Desde lo alto se dominan los paisajes de Els Ports en una panorámica inolvidable.",
+   "d_en": "An impregnable fortress perched on a hilltop and encircled by more than two kilometres of medieval walls that wrap the entire old town of Morella. From the summit you command sweeping views over the Els Ports landscapes.",
+   "h": "Al atardecer, cuando la piedra dorada resplandece.",
+   "h_en": "At sunset, when the golden stone glows.",
+   "i": "los pueblos medievales amurallados y las vistas de montaña.",
+   "i_en": "walled medieval towns and mountain panoramas."
+  },
+  "cvc_morella_basilica": {
+   "id": "cvc_morella_basilica",
+   "d": "Templo gótico de los siglos XIII-XIV considerado una de las cumbres del arte religioso valenciano, con dos portadas esculpidas y un coro elevado al que se sube por una singular escalera de caracol tallada en piedra. Su interior atesora un órgano barroco y retablos dorados.",
+   "d_en": "A 13th-14th century Gothic church regarded as one of the peaks of Valencian religious art, with two sculpted portals and a raised choir reached by a remarkable carved stone spiral staircase. Inside it holds a Baroque organ and gilded altarpieces.",
+   "h": "Por la mañana, aprovechando la luz de las vidrieras.",
+   "h_en": "In the morning, to enjoy the light through the stained glass.",
+   "i": "el arte gótico y la arquitectura religiosa.",
+   "i_en": "Gothic art and religious architecture."
+  },
+  "cvc_fadri": {
+   "id": "cvc_fadri",
+   "d": "En plena Plaza Mayor de Castellón se alza El Fadrí, una torre campanario octogonal y exenta del siglo XVI que es el emblema de la ciudad, junto a la concatedral de Santa María. Sus 58 metros pueden ascenderse para contemplar el centro histórico.",
+   "d_en": "On Castellón's Plaza Mayor stands El Fadrí, a freestanding octagonal 16th-century bell tower that is the city's emblem, beside the co-cathedral of Santa María. Its 58 metres can be climbed for views over the historic centre.",
+   "h": "Cualquier momento del día; el mercado de mañana anima la plaza.",
+   "h_en": "Any time of day; the morning market brings the square to life.",
+   "i": "los centros históricos y la arquitectura de las ciudades.",
+   "i_en": "historic city centres and urban architecture."
+  },
+  "cvc_sant_mateu": {
+   "id": "cvc_sant_mateu",
+   "d": "Capital histórica del Maestrazgo, Sant Mateu conserva un elegante conjunto de palacios góticos, soportales y una imponente iglesia arciprestal en torno a su plaza porticada. Fue importante enclave de la Orden del Temple y de Montesa.",
+   "d_en": "The historic capital of the Maestrazgo, Sant Mateu preserves an elegant ensemble of Gothic palaces, arcades and a commanding archpriest's church around its porticoed square. It was an important stronghold of the Templar and Montesa orders.",
+   "h": "A media tarde para pasear por sus calles señoriales.",
+   "h_en": "Mid-afternoon for a stroll through its stately streets.",
+   "i": "los pueblos con encanto y el patrimonio medieval.",
+   "i_en": "charming towns and medieval heritage."
+  },
+  "cvc_culla": {
+   "id": "cvc_culla",
+   "d": "Villa medieval encaramada en un cerro del Alt Maestrat, incluida entre los pueblos más bonitos de España, con calles empinadas, restos de castillo y unas vistas privilegiadas sobre la comarca. Su silueta recortada sobre la montaña es inolvidable.",
+   "d_en": "A medieval village perched on a hilltop in the Alt Maestrat, listed among the most beautiful villages in Spain, with steep streets, castle remains and privileged views over the region. Its silhouette against the mountains is unforgettable.",
+   "h": "Al final de la tarde, para la mejor luz sobre el valle.",
+   "h_en": "Late afternoon, for the best light over the valley.",
+   "i": "los pueblos con encanto y el turismo rural de interior.",
+   "i_en": "charming villages and inland rural tourism."
+  },
+  "cvc_vilafranca": {
+   "id": "cvc_vilafranca",
+   "d": "Pueblo de alta montaña en la comarca de Els Ports, conocido por su arquitectura tradicional de piedra en seco, sus barracas y su casco histórico de calles empedradas. Rodeado de paisajes agrestes, es puerta de entrada a rutas de naturaleza.",
+   "d_en": "A high-mountain town in the Els Ports region, known for its traditional dry-stone architecture, its stone huts and its historic centre of cobbled streets. Surrounded by rugged landscapes, it is a gateway to nature routes.",
+   "h": "Primavera u otoño, para disfrutar del clima de montaña.",
+   "h_en": "Spring or autumn, to enjoy the mountain climate.",
+   "i": "la montaña, la piedra en seco y los pueblos auténticos.",
+   "i_en": "the mountains, dry-stone craft and authentic villages."
+  },
+  "cvc_alcala_xivert": {
+   "id": "cvc_alcala_xivert",
+   "d": "Villa presidida por la monumental iglesia de San Juan Bautista, cuyo campanario barroco de casi 68 metros es el más alto de la Comunidad Valenciana. En las montañas cercanas se conservan las ruinas del castillo templario de Xivert.",
+   "d_en": "A town crowned by the monumental church of San Juan Bautista, whose Baroque bell tower of almost 68 metres is the tallest in the Valencian Community. In the nearby mountains lie the ruins of the Templar castle of Xivert.",
+   "h": "Por la mañana, antes de subir al castillo de Xivert.",
+   "h_en": "In the morning, before climbing up to Xivert castle.",
+   "i": "la arquitectura barroca y los castillos templarios.",
+   "i_en": "Baroque architecture and Templar castles."
+  },
+  "cvc_grutas_sanjose": {
+   "id": "cvc_grutas_sanjose",
+   "d": "Cuevas kársticas por las que discurre el río subterráneo navegable más largo de Europa, recorrido en barca entre estalactitas, galerías y lagos en penumbra. Una experiencia refrescante y espectacular apta para toda la familia.",
+   "d_en": "Karst caves through which flows the longest navigable underground river in Europe, explored by boat among stalactites, galleries and dim lakes. A refreshing and spectacular experience suitable for the whole family.",
+   "h": "En verano por la mañana; la temperatura interior es fresca.",
+   "h_en": "Summer mornings; the temperature inside stays cool.",
+   "i": "las cuevas, los ríos subterráneos y las aventuras suaves.",
+   "i_en": "caves, underground rivers and gentle adventures."
+  },
+  "cvc_montanejos": {
+   "id": "cvc_montanejos",
+   "d": "Manantial de aguas termales que brotan a 25 grados durante todo el año, formando pozas naturales de aguas turquesa junto al río Mijares y el cañón de la Maimona. Un enclave de baño y senderismo rodeado de paredes rocosas.",
+   "d_en": "A thermal spring gushing at 25 degrees all year round, forming natural turquoise pools beside the Mijares river and the Maimona gorge. A bathing and hiking spot framed by towering rock walls.",
+   "h": "Primavera o verano, para el baño en las pozas.",
+   "h_en": "Spring or summer, for bathing in the pools.",
+   "i": "las aguas termales, el baño natural y el senderismo.",
+   "i_en": "thermal waters, wild swimming and hiking."
+  },
+  "cvc_columbretes": {
+   "id": "cvc_columbretes",
+   "d": "Pequeño archipiélago de origen volcánico situado a unos 50 km de la costa, declarado reserva natural y marina, con fondos de extraordinaria riqueza para el buceo y el snorkel. La Illa Grossa, con su faro, forma un cráter abierto al mar.",
+   "d_en": "A small volcanic archipelago about 50 km offshore, declared a natural and marine reserve, with seabeds of extraordinary richness for diving and snorkelling. The Illa Grossa, with its lighthouse, forms a crater open to the sea.",
+   "h": "En verano, con excursión en barco desde Oropesa o Castellón.",
+   "h_en": "In summer, on a boat trip from Oropesa or Castellón.",
+   "i": "la naturaleza virgen, el buceo y las reservas marinas.",
+   "i_en": "pristine nature, diving and marine reserves."
+  },
+  "cvc_desierto_palmas": {
+   "id": "cvc_desierto_palmas",
+   "d": "Paraje natural de sierra sobre Benicàssim, salpicado de pinares, ruinas de conventos y un monasterio de carmelitas descalzos que da nombre al lugar. Sus miradores y cimas, como el Bartolo, ofrecen vistas que alcanzan el Mediterráneo y las Columbretes.",
+   "d_en": "A mountain nature park above Benicàssim, dotted with pine woods, convent ruins and a Carmelite monastery that gives the place its name. Its viewpoints and peaks, such as El Bartolo, offer views reaching the Mediterranean and the Columbretes.",
+   "h": "Mañana o atardecer, ideal para senderismo.",
+   "h_en": "Morning or sunset, ideal for hiking.",
+   "i": "el senderismo, los miradores y la naturaleza de montaña.",
+   "i_en": "hiking, viewpoints and mountain nature."
+  },
+  "cvc_penyiscola_playa": {
+   "id": "cvc_penyiscola_playa",
+   "d": "Extensa playa de arena dorada y aguas tranquilas que se extiende a los pies del casco antiguo y del castillo, con bandera azul y un animado paseo marítimo. Ofrece la estampa más icónica de Peñíscola.",
+   "d_en": "A long beach of golden sand and calm waters stretching at the foot of the old town and castle, with Blue Flag status and a lively seafront promenade. It offers the most iconic view of Peñíscola.",
+   "h": "Mañanas de verano para disfrutar del mar en calma.",
+   "h_en": "Summer mornings to enjoy the calm sea.",
+   "i": "las playas urbanas con encanto y el ambiente costero.",
+   "i_en": "charming town beaches and a seaside atmosphere."
+  },
+  "cvc_benicassim_playas": {
+   "id": "cvc_benicassim_playas",
+   "d": "Sucesión de playas de arena fina y aguas someras (Voramar, Almadraba, Els Terrers, Heliópolis) galardonadas con bandera azul y unidas por un agradable paseo marítimo. El entorno de las Villas les da un aire señorial de principios del siglo XX.",
+   "d_en": "A string of fine-sand, shallow-water beaches (Voramar, Almadraba, Els Terrers, Heliópolis) awarded Blue Flags and linked by a pleasant seafront promenade. The Villas district gives them an elegant early-20th-century air.",
+   "h": "Todo el verano; primavera para pasear con tranquilidad.",
+   "h_en": "All summer; spring for a quieter stroll.",
+   "i": "las playas familiares y los paseos marítimos.",
+   "i_en": "family beaches and seafront promenades."
+  },
+  "cvc_penyiscola_casco": {
+   "id": "cvc_penyiscola_casco",
+   "d": "Entramado de callejuelas empedradas, casas encaladas y arcos que trepan desde el mar hasta el castillo, dentro del recinto amurallado. Sus rincones, tiendas y miradores han sido escenario de películas y series como Juego de Tronos.",
+   "d_en": "A maze of cobbled lanes, whitewashed houses and archways climbing from the sea up to the castle, within the walled enclosure. Its corners, shops and viewpoints have been the setting for films and series such as Game of Thrones.",
+   "h": "Al atardecer, cuando se encienden las luces del casco.",
+   "h_en": "At dusk, when the old town lights come on.",
+   "i": "pasear por cascos históricos y descubrir rincones con encanto.",
+   "i_en": "wandering historic quarters and finding hidden corners."
+  },
+  "cvc_marina_dor": {
+   "id": "cvc_marina_dor",
+   "d": "Gran complejo de ocio junto al mar en Oropesa, con balneario de agua marina, jardines temáticos, espectáculos, restaurantes y amplias playas. Un destino pensado para el turismo familiar y de vacaciones.",
+   "d_en": "A large seaside leisure resort in Oropesa, with a seawater spa, themed gardens, shows, restaurants and broad beaches. A destination designed for family and holiday tourism.",
+   "h": "Verano, para aprovechar playas y actividades.",
+   "h_en": "Summer, to make the most of the beaches and activities.",
+   "i": "los planes en familia y los complejos de ocio junto al mar.",
+   "i_en": "family plans and seaside leisure resorts."
+  },
+  "cvc_planetario": {
+   "id": "cvc_planetario",
+   "d": "Centro de divulgación astronómica situado en el paseo marítimo del Grao de Castellón, con una cúpula de proyecciones que acerca el cosmos a grandes y pequeños. Perfecto para combinar con un paseo por el puerto pesquero.",
+   "d_en": "An astronomy centre on the seafront promenade of the Grao de Castellón, with a projection dome that brings the cosmos closer to young and old alike. Perfect to combine with a walk around the fishing port.",
+   "h": "Consultar sesiones; ideal como plan de tarde o para niños.",
+   "h_en": "Check show times; ideal as an afternoon or family plan.",
+   "i": "la astronomía y los planes culturales para toda la familia.",
+   "i_en": "astronomy and cultural plans for all the family."
+  },
+  "cvc_fib": {
+   "id": "cvc_fib",
+   "d": "Festival de música pop, rock e indie celebrado cada verano en un gran recinto junto a la playa de Benicàssim, con grandes cabezas de cartel internacionales. Combina conciertos, camping y ambiente mediterráneo en una cita ya legendaria.",
+   "d_en": "A pop, rock and indie music festival held each summer at a large ground beside Benicàssim beach, with major international headliners. It blends concerts, camping and a Mediterranean vibe in a now-legendary event.",
+   "h": "En verano, durante las fechas del festival.",
+   "h_en": "In summer, during the festival dates.",
+   "i": "la música en vivo y los festivales al aire libre.",
+   "i_en": "live music and open-air festivals."
+  },
+  "cvc_vinaros_puerto": {
+   "id": "cvc_vinaros_puerto",
+   "d": "Animado puerto pesquero donde cada tarde llega el preciado langostino de Vinaròs, con lonja, subasta y un paseo marítimo lleno de vida. Es el corazón marinero de la ciudad y punto de partida de sus mejores mariscos.",
+   "d_en": "A lively fishing port where the prized Vinaròs prawn arrives each afternoon, with its fish market, auction and a bustling seafront promenade. It is the city's maritime heart and the source of its finest seafood.",
+   "h": "A última hora de la tarde, para ver la llegada de la pesca.",
+   "h_en": "Late afternoon, to watch the catch come in.",
+   "i": "los puertos pesqueros y la cultura marinera.",
+   "i_en": "fishing ports and seafaring culture."
+  },
+  "cvc_langostino_oro": {
+   "id": "cvc_langostino_oro",
+   "d": "Clásico restaurante de Vinaròs especializado en el famoso langostino local y en pescados y mariscos frescos de la lonja. Una parada obligada para saborear el producto estrella de la costa del Baix Maestrat.",
+   "d_en": "A classic Vinaròs restaurant specialising in the famous local prawn and in fresh fish and shellfish from the market. A must-stop to savour the star product of the Baix Maestrat coast.",
+   "h": "Recomendable para comer o cenar; conviene reservar.",
+   "h_en": "Recommended for lunch or dinner; booking advised.",
+   "i": "el marisco fresco y el langostino de Vinaròs.",
+   "i_en": "fresh shellfish and the Vinaròs prawn."
+  },
+  "cvc_casa_jaime": {
+   "id": "cvc_casa_jaime",
+   "d": "Restaurante familiar de Peñíscola situado en la avenida Papa Luna, reconocido por sus arroces mediterráneos, guisos de pescadores y pescado fresco de la lonja local. Cocina de mar y tradición con vistas al mar.",
+   "d_en": "A family-run restaurant in Peñíscola on Avenida Papa Luna, renowned for its Mediterranean rice dishes, fishermen's stews and fresh fish from the local market. Sea-and-tradition cooking with sea views.",
+   "h": "Ideal a mediodía para disfrutar del arroz junto al mar.",
+   "h_en": "Best at midday to enjoy the rice by the sea.",
+   "i": "los arroces mediterráneos y la cocina marinera.",
+   "i_en": "Mediterranean rice dishes and seafood cuisine."
+  },
+  "cvc_daluan": {
+   "id": "cvc_daluan",
+   "d": "Restaurante de referencia en Morella, recomendado por la Guía Michelin, que reinterpreta con creatividad los productos de Els Ports: setas, trufa, cordero y platos de temporada. Una experiencia gastronómica en pleno casco medieval.",
+   "d_en": "A benchmark restaurant in Morella, recommended by the Michelin Guide, creatively reinterpreting the products of Els Ports: mushrooms, truffle, lamb and seasonal dishes. A fine-dining experience in the heart of the medieval town.",
+   "h": "Mejor a mediodía; conviene reservar con antelación.",
+   "h_en": "Best at midday; advance booking recommended.",
+   "i": "la alta cocina de producto y los sabores de montaña.",
+   "i_en": "product-driven fine dining and mountain flavours."
+  },
+  "cvc_tasca_puerto": {
+   "id": "cvc_tasca_puerto",
+   "d": "Marisquería y arrocería clásica del Grao de Castellón, muy apreciada por sus arroces melosos, su suquet y el marisco fresco del Mediterráneo. Cocina marinera de tradición a pocos metros del puerto pesquero.",
+   "d_en": "A classic seafood and rice restaurant in the Grao de Castellón, prized for its creamy rice dishes, its suquet and fresh Mediterranean shellfish. Traditional seafaring cuisine just steps from the fishing port.",
+   "h": "A mediodía, para disfrutar del arroz recién hecho.",
+   "h_en": "At midday, to enjoy the rice freshly made.",
+   "i": "los arroces melosos y el marisco del Mediterráneo.",
+   "i_en": "creamy rice dishes and Mediterranean shellfish."
+  },
+  "cvc_torreon_benicassim": {
+   "id": "cvc_torreon_benicassim",
+   "d": "Restaurante junto al mar en Benicàssim, punto de encuentro clásico por sus arroces, fideuà y pescado fresco servidos en una amplia terraza frente a la playa. Cocina mediterránea con el mar como telón de fondo.",
+   "d_en": "A seaside restaurant in Benicàssim, a classic meeting point for its rice dishes, fideuà and fresh fish served on a large terrace facing the beach. Mediterranean cooking with the sea as a backdrop.",
+   "h": "A mediodía, para comer con vistas a la playa.",
+   "h_en": "At midday, to dine with beach views.",
+   "i": "los arroces frente al mar y las terrazas de playa.",
+   "i_en": "seaside rice dishes and beach terraces."
+  }
+ },
+ "food": {
+  "cvc_langostino_oro": {
+   "cuisine": "Marisco y pescado de lonja",
+   "price": "40–65 €",
+   "hours": "13:00–16:00 y 20:30–23:00"
+  },
+  "cvc_casa_jaime": {
+   "cuisine": "Arroces y cocina marinera",
+   "price": "30–50 €",
+   "hours": "13:00–16:00 y 20:00–23:00"
+  },
+  "cvc_daluan": {
+   "cuisine": "Cocina creativa de mercado",
+   "price": "40–60 €",
+   "hours": "13:30–15:30 y 20:30–22:30"
+  },
+  "cvc_tasca_puerto": {
+   "cuisine": "Arroces y marisco",
+   "price": "45–70 €",
+   "hours": "13:30–16:00 y 21:00–23:00"
+  },
+  "cvc_torreon_benicassim": {
+   "cuisine": "Arroces y cocina mediterránea",
+   "price": "30–50 €",
+   "hours": "13:00–16:00 y 20:00–23:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Castellón",
+   "items": [
+    {
+     "name": "Langostinos de Vinaròs (conserva)",
+     "price": "12–30 €",
+     "desc": "El producto estrella del Maestrat, muy apreciado."
+    },
+    {
+     "name": "Aceite y miel del Maestrazgo",
+     "price": "6–18 €",
+     "desc": "Productos de montaña de Morella y su comarca."
+    },
+    {
+     "name": "Flaó y pastissets de Morella",
+     "price": "5–12 €",
+     "desc": "Dulces tradicionales de almendra y requesón."
+    }
+   ],
+   "shops": [
+    "Mercado Central de Castelló",
+    "Comercios del casco de Morella",
+    "Puerto de Vinaròs"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Valencia capital se recorre muy bien a pie y en bici por el antiguo cauce del Turia; para la playa y la Ciudad de las Artes usa el tranvía o el metro.",
+   "El clima es mediterráneo y suave casi todo el año; en verano protégete del sol y del calor húmedo en la costa, y madruga para las visitas.",
+   "Reserva mesa en las arrocerías buenas: la paella y el arroz se sirven sobre todo a mediodía, no de noche.",
+   "Si viajas en marzo, las Fallas de Valencia lo llenan todo (pólvora, fuego y multitudes): planifica alojamiento con mucha antelación.",
+   "La provincia es grande y variada: combina costa (Benidorm, Calpe, Peñíscola) con interior de castillos y montaña (Morella, Guadalest, Xàtiva). El coche ayuda para los pueblos."
+  ],
+  "en": [
+   "Valencia city is best explored on foot and by bike along the former Turia riverbed; take the tram or metro for the beach and the City of Arts and Sciences.",
+   "The climate is mild and Mediterranean most of the year; in summer protect yourself from the sun and humid coastal heat, and start sightseeing early.",
+   "Book a table at the good rice restaurants: paella and rice dishes are served mainly at lunchtime, not for dinner.",
+   "If you travel in March, Valencia's Fallas take over the city (fireworks, fire and crowds): book accommodation well in advance.",
+   "The region is large and varied: combine the coast (Benidorm, Calpe, Peñíscola) with inland castles and mountains (Morella, Guadalest, Xàtiva). A car helps for the villages."
+  ]
+ },
+ "climate": {
+  "hi": [
+   16,
+   17,
+   19,
+   21,
+   24,
+   28,
+   30,
+   31,
+   28,
+   24,
+   19,
+   16
+  ],
+  "lo": [
+   7,
+   8,
+   9,
+   11,
+   14,
+   18,
+   21,
+   21,
+   19,
+   15,
+   11,
+   8
+  ]
+ },
+ "tr": {
+  "Fortaleza templaria sobre el mar donde residió el Papa Luna.": "Templar fortress over the sea where Pope Luna resided.",
+  "Imponente castillo roquero coronando una de las villas más bellas de España.": "Imposing rock castle crowning one of Spain's most beautiful towns.",
+  "Joya del gótico valenciano con una espectacular escalera del coro.": "A gem of Valencian Gothic with a spectacular choir staircase.",
+  "El campanario octogonal exento símbolo de la capital.": "The freestanding octagonal bell tower that is the symbol of the capital.",
+  "Antigua capital del Maestrazgo, señorial y templaria.": "Former capital of the Maestrazgo, stately and Templar.",
+  "Uno de los pueblos más bonitos de España, colgado en la sierra.": "One of Spain's most beautiful villages, perched in the mountains.",
+  "Villa de piedra en la sierra de Els Ports, tierra de arquitectura de piedra en seco.": "Stone town in the Els Ports range, a land of dry-stone architecture.",
+  "Su iglesia barroca luce el campanario más alto de la Comunidad Valenciana.": "Its Baroque church boasts the tallest bell tower in the Valencian Community.",
+  "El río subterráneo navegable más largo de Europa.": "Europe's longest navigable underground river.",
+  "Aguas termales a 25°C todo el año en un cañón fluvial.": "Thermal waters at 25°C all year round in a river canyon.",
+  "Archipiélago volcánico y reserva marina en alta mar.": "Volcanic archipelago and marine reserve out on the open sea.",
+  "Paraje natural con monasterio carmelita y miradores al mar.": "Natural area with a Carmelite monastery and viewpoints over the sea.",
+  "Larga playa de arena fina junto al casco antiguo amurallado.": "Long beach of fine sand beside the walled old town.",
+  "Playas doradas con banderas azules y el paseo de las Villas.": "Golden Blue Flag beaches and the promenade of the Villas.",
+  "Laberinto de callejuelas blancas dentro de las murallas.": "A maze of white alleyways within the walls.",
+  "Complejo turístico con balneario, parques y playas.": "Holiday resort with a spa, parks and beaches.",
+  "Cúpula de proyecciones astronómicas en el paseo del Grao.": "Astronomical projection dome on the Grao promenade.",
+  "Uno de los festivales de música más veteranos de España.": "One of Spain's longest-running music festivals.",
+  "Puerto pesquero famoso por su lonja de langostinos.": "Fishing port famous for its prawn auction market.",
+  "Templo del langostino de Vinaròs y el pescado de lonja.": "A temple of Vinaròs prawns and freshly auctioned fish.",
+  "Arroces y guisos marineros frente al Mediterráneo.": "Rice dishes and seafood stews facing the Mediterranean.",
+  "Cocina creativa de Els Ports con productos de montaña.": "Creative Els Ports cuisine made with mountain produce.",
+  "Arroces y marisco de la lonja en el puerto de Castellón.": "Rice dishes and market-fresh seafood in the port of Castellón.",
+  "Arroces y pescado a pie de playa en Benicàssim.": "Rice dishes and fish right on the beach in Benicàssim.",
+  "Castellón": "Castellón"
+ }
+}

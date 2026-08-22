@@ -1,0 +1,596 @@
+{
+ "id": "teruel",
+ "name": "Teruel",
+ "country": "ES",
+ "center": [
+  40.34386,
+  -1.10726
+ ],
+ "pois": [
+  {
+   "id": "tel_catedral_teruel",
+   "cat": "monuments",
+   "name": "Catedral de Santa María de Mediavilla",
+   "icon": "⛪",
+   "lat": 40.34386,
+   "lng": -1.10726,
+   "desc": "Catedral mudéjar Patrimonio de la Humanidad con una techumbre pintada única."
+  },
+  {
+   "id": "tel_torre_salvador",
+   "cat": "monuments",
+   "name": "Torre de El Salvador",
+   "icon": "🗼",
+   "lat": 40.34472,
+   "lng": -1.10778,
+   "desc": "La torre mudéjar más espectacular de Teruel, visitable por dentro."
+  },
+  {
+   "id": "tel_torre_san_martin",
+   "cat": "monuments",
+   "name": "Torre de San Martín",
+   "icon": "🕌",
+   "lat": 40.34611,
+   "lng": -1.10861,
+   "desc": "Torre mudéjar gemela de El Salvador, Patrimonio de la Humanidad."
+  },
+  {
+   "id": "tel_mausoleo_amantes",
+   "cat": "monuments",
+   "name": "Mausoleo de los Amantes",
+   "icon": "💔",
+   "lat": 40.34417,
+   "lng": -1.10556,
+   "desc": "Tumba de los legendarios Amantes de Teruel junto a la iglesia de San Pedro."
+  },
+  {
+   "id": "tel_albarracin",
+   "cat": "monuments",
+   "name": "Albarracín",
+   "icon": "🏘️",
+   "lat": 40.40694,
+   "lng": -1.44417,
+   "desc": "Uno de los pueblos más bonitos de España, de color rojizo sobre un meandro."
+  },
+  {
+   "id": "tel_castillo_valderrobres",
+   "cat": "monuments",
+   "name": "Castillo de Valderrobres",
+   "icon": "🏰",
+   "lat": 40.82,
+   "lng": 0.14639,
+   "desc": "Castillo-palacio gótico que corona el pueblo más emblemático del Matarraña."
+  },
+  {
+   "id": "tel_calaceite",
+   "cat": "monuments",
+   "name": "Calaceite",
+   "icon": "🏘️",
+   "lat": 41.0174,
+   "lng": 0.18832,
+   "desc": "Villa señorial del Matarraña con casonas de piedra y plazas porticadas."
+  },
+  {
+   "id": "tel_mora_rubielos",
+   "cat": "monuments",
+   "name": "Castillo de Mora de Rubielos",
+   "icon": "🏰",
+   "lat": 40.25139,
+   "lng": -0.75028,
+   "desc": "Imponente castillo-palacio gótico de planta cuadrada en Gúdar-Javalambre."
+  },
+  {
+   "id": "tel_cantavieja",
+   "cat": "monuments",
+   "name": "Cantavieja",
+   "icon": "🏘️",
+   "lat": 40.52235,
+   "lng": -0.35791,
+   "desc": "Villa del Maestrazgo colgada sobre un cortado, con plaza porticada gótica."
+  },
+  {
+   "id": "tel_mirambel",
+   "cat": "monuments",
+   "name": "Mirambel",
+   "icon": "🧱",
+   "lat": 40.5871,
+   "lng": -0.34238,
+   "desc": "Pueblo amurallado del Maestrazgo, premio Europa Nostra por su conservación."
+  },
+  {
+   "id": "tel_pinares_rodeno",
+   "cat": "nature",
+   "name": "Pinares de Rodeno",
+   "icon": "🌲",
+   "lat": 40.3897,
+   "lng": -1.4083,
+   "desc": "Paisaje protegido de roca roja y pinos con arte rupestre de la UNESCO."
+  },
+  {
+   "id": "tel_nacimiento_tajo",
+   "cat": "nature",
+   "name": "Nacimiento del río Tajo",
+   "icon": "💧",
+   "lat": 40.32072,
+   "lng": -1.69719,
+   "desc": "Fuente donde nace el río más largo de la Península, en plena Sierra de Albarracín."
+  },
+  {
+   "id": "tel_organos_montoro",
+   "cat": "nature",
+   "name": "Órganos de Montoro",
+   "icon": "⛰️",
+   "lat": 40.6555,
+   "lng": -0.525,
+   "desc": "Espectaculares agujas de roca vertical sobre el río Guadalope."
+  },
+  {
+   "id": "tel_grutas_cristal",
+   "cat": "nature",
+   "name": "Grutas de Cristal de Molinos",
+   "icon": "🦇",
+   "lat": 40.7994,
+   "lng": -0.4675,
+   "desc": "Cueva de formaciones de aragonito con aspecto de cristales."
+  },
+  {
+   "id": "tel_parrizal_beceite",
+   "cat": "nature",
+   "name": "El Parrizal de Beceite",
+   "icon": "🏞️",
+   "lat": 40.7967,
+   "lng": 0.1969,
+   "desc": "Cañón del Matarraña con pasarelas, pozas turquesa y estrechos de roca."
+  },
+  {
+   "id": "tel_dinopolis",
+   "cat": "ocio",
+   "name": "Dinópolis",
+   "icon": "🦕",
+   "lat": 40.33344,
+   "lng": -1.0809,
+   "desc": "Gran parque temático y paleontológico dedicado a los dinosaurios."
+  },
+  {
+   "id": "tel_escalinata",
+   "cat": "ocio",
+   "name": "Escalinata neomudéjar",
+   "icon": "🪜",
+   "lat": 40.3425,
+   "lng": -1.10917,
+   "desc": "Monumental escalera neomudéjar que une la estación con el centro."
+  },
+  {
+   "id": "tel_plaza_torico",
+   "cat": "ocio",
+   "name": "Plaza del Torico",
+   "icon": "🐂",
+   "lat": 40.34528,
+   "lng": -1.10639,
+   "desc": "Corazón animado de Teruel, con su diminuto toro sobre una columna."
+  },
+  {
+   "id": "tel_valdelinares",
+   "cat": "ocio",
+   "name": "Valdelinares",
+   "icon": "🎿",
+   "lat": 40.3917,
+   "lng": -0.60639,
+   "desc": "El pueblo más alto de España y estación de esquí de Gúdar."
+  },
+  {
+   "id": "tel_javalambre",
+   "cat": "ocio",
+   "name": "Sierra de Javalambre",
+   "icon": "🔭",
+   "lat": 40.085,
+   "lng": -1.016,
+   "desc": "Techo de Teruel, con estación de esquí y observatorio astrofísico."
+  },
+  {
+   "id": "tel_jamon_teruel",
+   "cat": "food",
+   "name": "Jamón de Teruel D.O.P.",
+   "icon": "🍖",
+   "lat": 40.345,
+   "lng": -1.1065,
+   "desc": "Cata del jamón con Denominación de Origen en el centro de Teruel."
+  },
+  {
+   "id": "tel_trufa_sarrion",
+   "cat": "food",
+   "name": "Trufa negra de Sarrión",
+   "icon": "🍄",
+   "lat": 40.1419,
+   "lng": -0.81519,
+   "desc": "Capital de la trufa negra, con feria FITRUF y menús trufados."
+  },
+  {
+   "id": "tel_ternasco_mora",
+   "cat": "food",
+   "name": "Ternasco y quesos de Mora de Rubielos",
+   "icon": "🍽️",
+   "lat": 40.25028,
+   "lng": -0.75111,
+   "desc": "Cocina de montaña con ternasco de Aragón y productos de Gúdar."
+  },
+  {
+   "id": "tel_gastro_albarracin",
+   "cat": "food",
+   "name": "Gastronomía de Albarracín",
+   "icon": "🥘",
+   "lat": 40.4075,
+   "lng": -1.445,
+   "desc": "Restaurantes con encanto y platos serranos en el casco de Albarracín."
+  },
+  {
+   "id": "tel_melocoton_calanda",
+   "cat": "food",
+   "name": "Melocotón de Calanda D.O.P.",
+   "icon": "🍑",
+   "lat": 40.94028,
+   "lng": -0.23083,
+   "desc": "El famoso melocotón embolsado del Bajo Aragón, dulce y jugoso."
+  }
+ ],
+ "extra": {
+  "tel_catedral_teruel": {
+   "id": "tel_catedral_teruel",
+   "d": "Templo del siglo XIII cuya torre, cimborrio y ábside son ejemplos cumbre del mudéjar aragonés declarado Patrimonio de la Humanidad. Su joya es la techumbre policromada de la nave, la 'Capilla Sixtina del arte mudéjar', con escenas de la vida medieval.",
+   "d_en": "A 13th-century church whose tower, lantern and apse are peak examples of Aragonese Mudéjar, listed as World Heritage. Its jewel is the polychrome nave ceiling, the 'Sistine Chapel of Mudéjar art', with scenes of medieval life.",
+   "h": "Todos los días, con horario reducido a mediodía",
+   "h_en": "Daily, with a reduced midday schedule",
+   "i": "Ideal si te gusta el arte medieval y la arquitectura mudéjar.",
+   "i_en": "Ideal if you like medieval art and Mudéjar architecture."
+  },
+  "tel_torre_salvador": {
+   "id": "tel_torre_salvador",
+   "d": "Torre-puerta del siglo XIV revestida de ladrillo y cerámica vidriada verde y blanca formando lazos geométricos. Se sube por su interior, donde una exposición explica el mudéjar, hasta un mirador con vistas sobre los tejados de la ciudad.",
+   "d_en": "A 14th-century gateway tower clad in brick and green-and-white glazed ceramics forming geometric patterns. You climb through its interior, where an exhibition explains Mudéjar art, up to a viewpoint over the city's rooftops.",
+   "h": "Todos los días 10:00–14:00 y 16:00–19:00",
+   "h_en": "Daily 10:00–14:00 and 16:00–19:00",
+   "i": "Ideal si te gusta subir a miradores y ver artesanía en ladrillo.",
+   "i_en": "Ideal if you like climbing viewpoints and seeing brick craftsmanship."
+  },
+  "tel_torre_san_martin": {
+   "id": "tel_torre_san_martin",
+   "d": "Levantada en el siglo XIV sobre un arco que salva la calle, combina ladrillo y azulejos vidriados en verde, morado y blanco. Es una de las cuatro torres mudéjares turolenses inscritas en la lista de la UNESCO y símbolo del barrio alto de la ciudad.",
+   "d_en": "Built in the 14th century over an arch spanning the street, it combines brick and glazed tiles in green, purple and white. It is one of Teruel's four Mudéjar towers inscribed on the UNESCO list and a landmark of the upper town.",
+   "h": "Visita exterior libre todo el día",
+   "h_en": "Free exterior viewing all day",
+   "i": "Ideal si te gusta la fotografía de arquitectura y los detalles cerámicos.",
+   "i_en": "Ideal if you like architectural photography and ceramic detail."
+  },
+  "tel_mausoleo_amantes": {
+   "id": "tel_mausoleo_amantes",
+   "d": "Conjunto que reúne el mausoleo con las esculturas yacentes de Isabel de Segura y Diego de Marcilla, cuyas manos casi se rozan, y la iglesia y torre mudéjar de San Pedro. Recrea la trágica leyenda medieval de amor imposible más famosa de España.",
+   "d_en": "A complex bringing together the mausoleum with the reclining sculptures of Isabel de Segura and Diego de Marcilla, whose hands almost touch, and the Mudéjar church and tower of San Pedro. It recreates Spain's most famous tragic medieval love legend.",
+   "h": "Todos los días 10:00–14:00 y 16:00–20:00",
+   "h_en": "Daily 10:00–14:00 and 16:00–20:00",
+   "i": "Ideal si te gustan las leyendas románticas y la escultura.",
+   "i_en": "Ideal if you like romantic legends and sculpture."
+  },
+  "tel_albarracin": {
+   "id": "tel_albarracin",
+   "d": "Villa medieval encaramada sobre un meandro del río Guadalaviar, con casas de yeso rosado, calles imposibles, murallas que trepan por el cerro y una catedral. Su conjunto histórico está declarado Monumento Nacional y aspira a Patrimonio de la Humanidad.",
+   "d_en": "A medieval town perched on a bend of the Guadalaviar river, with pink-plastered houses, impossible lanes, walls climbing the hillside and a cathedral. Its historic centre is a National Monument and a candidate for World Heritage status.",
+   "h": "Acceso libre; oficina de turismo por la mañana y tarde",
+   "h_en": "Free access; tourist office open morning and afternoon",
+   "i": "Ideal si te gustan los pueblos con encanto y perderte por callejones.",
+   "i_en": "Ideal if you like charming villages and wandering through alleys."
+  },
+  "tel_castillo_valderrobres": {
+   "id": "tel_castillo_valderrobres",
+   "d": "Fortaleza gótica de los siglos XIV-XV que fue residencia de los arzobispos de Zaragoza, dominando el casco de Valderrobres, el río Matarraña y su puente de piedra. Se visita junto a la vecina iglesia de Santa María la Mayor.",
+   "d_en": "A 14th–15th-century Gothic fortress that served as residence of the archbishops of Zaragoza, dominating Valderrobres, the Matarraña river and its stone bridge. It can be visited together with the neighbouring church of Santa María la Mayor.",
+   "h": "Todos los días con horario ampliado en verano",
+   "h_en": "Daily, with extended hours in summer",
+   "i": "Ideal si te gustan los castillos y los pueblos junto al río.",
+   "i_en": "Ideal if you like castles and riverside villages."
+  },
+  "tel_calaceite": {
+   "id": "tel_calaceite",
+   "d": "Uno de los pueblos más bellos del Matarraña, con un casco declarado Conjunto Histórico-Artístico, calles porticadas, portales de arco y casas blasonadas. En sus alrededores está el poblado ibérico de San Antonio.",
+   "d_en": "One of the most beautiful towns of the Matarraña, its centre a listed Historic-Artistic Site with arcaded streets, arched gateways and crested houses. Nearby lies the Iberian settlement of San Antonio.",
+   "h": "Acceso libre",
+   "h_en": "Free access",
+   "i": "Ideal si te gusta la arquitectura popular y el ambiente de pueblo.",
+   "i_en": "Ideal if you like vernacular architecture and village atmosphere."
+  },
+  "tel_mora_rubielos": {
+   "id": "tel_mora_rubielos",
+   "d": "Gran castillo-palacio de los siglos XII-XV, más residencia señorial que fortaleza militar, con patio de armas y cripta. Corona la villa medieval de Mora de Rubielos, que conserva murallas, la colegiata gótica y calles porticadas.",
+   "d_en": "A large 12th–15th-century castle-palace, more a lordly residence than a military fortress, with a parade courtyard and crypt. It crowns the medieval town of Mora de Rubielos, which preserves walls, a Gothic collegiate church and arcaded streets.",
+   "h": "Todos los días 11:00–14:00 y 16:00–19:00",
+   "h_en": "Daily 11:00–14:00 and 16:00–19:00",
+   "i": "Ideal si te gustan los castillos monumentales y los cascos históricos.",
+   "i_en": "Ideal if you like monumental castles and historic centres."
+  },
+  "tel_cantavieja": {
+   "id": "tel_cantavieja",
+   "d": "Uno de los pueblos más altos y espectaculares del Maestrazgo, asomado a un precipicio. Su Plaza Mayor porticada de estilo gótico-aragonés, el ayuntamiento y la iglesia forman uno de los conjuntos más armónicos de la provincia.",
+   "d_en": "One of the highest and most spectacular towns of the Maestrazgo, poised over a cliff. Its arcaded Gothic-Aragonese main square, town hall and church make up one of the most harmonious ensembles in the province.",
+   "h": "Acceso libre",
+   "h_en": "Free access",
+   "i": "Ideal si te gustan los pueblos de montaña y las vistas de vértigo.",
+   "i_en": "Ideal if you like mountain villages and vertiginous views."
+  },
+  "tel_mirambel": {
+   "id": "tel_mirambel",
+   "d": "Villa medieval intacta rodeada de murallas y portales, con calles de piedra, casonas solariegas y las célebres celosías de yeso del convento de las Agustinas. Su restauración recibió el premio Europa Nostra y ha servido de escenario de cine.",
+   "d_en": "An intact medieval town ringed by walls and gateways, with stone streets, manor houses and the famous plaster lattices of the Augustinian convent. Its restoration won the Europa Nostra award and it has been used as a film set.",
+   "h": "Acceso libre",
+   "h_en": "Free access",
+   "i": "Ideal si te gustan los pueblos detenidos en el tiempo.",
+   "i_en": "Ideal if you like villages frozen in time."
+  },
+  "tel_pinares_rodeno": {
+   "id": "tel_pinares_rodeno",
+   "d": "Paisaje protegido junto a Albarracín donde el pino rodeno crece entre formaciones de arenisca roja esculpidas por la erosión. Alberga abrigos con pinturas rupestres levantinas declaradas Patrimonio de la Humanidad y rutas de senderismo y escalada.",
+   "d_en": "A protected landscape near Albarracín where maritime pines grow among red sandstone formations sculpted by erosion. It shelters rock-shelters with Levantine cave paintings listed as World Heritage, plus hiking and climbing routes.",
+   "h": "Acceso libre; centro de interpretación de Dornaque en temporada",
+   "h_en": "Free access; Dornaque interpretation centre open in season",
+   "i": "Ideal si te gusta el senderismo, la escalada y el arte prehistórico.",
+   "i_en": "Ideal if you like hiking, climbing and prehistoric art."
+  },
+  "tel_nacimiento_tajo": {
+   "id": "tel_nacimiento_tajo",
+   "d": "En la Muela de San Juan, a 1.593 m, brota el manantial que da origen al Tajo, marcado por un monumento de bronce con las figuras del río y las provincias que atraviesa. Punto de partida de sencillas rutas por pinares y praderas de alta montaña.",
+   "d_en": "On the Muela de San Juan, at 1,593 m, rises the spring that gives birth to the Tagus, marked by a bronze monument depicting the river and the provinces it crosses. It is the starting point for easy walks through pine forests and high mountain meadows.",
+   "h": "Acceso libre todo el año",
+   "h_en": "Free access all year",
+   "i": "Ideal si te gusta la naturaleza y los rincones con simbolismo geográfico.",
+   "i_en": "Ideal if you like nature and spots with geographic symbolism."
+  },
+  "tel_organos_montoro": {
+   "id": "tel_organos_montoro",
+   "d": "Monumento natural formado por enormes láminas de roca dispuestas en vertical, como los tubos de un órgano, que se elevan sobre el cañón del Guadalope junto a la aldea de Montoro de Mezquita, en la Ruta del Silencio del Maestrazgo.",
+   "d_en": "A natural monument formed by huge vertical rock slabs, like the pipes of an organ, rising above the Guadalope canyon beside the hamlet of Montoro de Mezquita, on the Maestrazgo's Silent Route.",
+   "h": "Mirador de acceso libre todo el día",
+   "h_en": "Free-access viewpoint all day",
+   "i": "Ideal si te gustan los paisajes geológicos y las carreteras de montaña.",
+   "i_en": "Ideal if you like geological landscapes and mountain roads."
+  },
+  "tel_grutas_cristal": {
+   "id": "tel_grutas_cristal",
+   "d": "Conocida como Cueva de las Graderas, es una gruta visitable llena de estalactitas excéntricas y cristales de aragonito que brillan como el hielo. Se recorre con visita guiada por pasarelas junto al pueblo medieval de Molinos.",
+   "d_en": "Known as the Cueva de las Graderas, it is a show cave full of eccentric stalactites and aragonite crystals that glitter like ice. It is toured on a guided walkway route beside the medieval village of Molinos.",
+   "h": "Visitas guiadas; consultar horarios por temporada",
+   "h_en": "Guided tours; check seasonal timetable",
+   "i": "Ideal si te gustan las cuevas y las curiosidades geológicas.",
+   "i_en": "Ideal if you like caves and geological curiosities."
+  },
+  "tel_parrizal_beceite": {
+   "id": "tel_parrizal_beceite",
+   "d": "Uno de los parajes naturales más famosos de Teruel: un desfiladero por el que discurre el nacimiento del río Matarraña, con aguas turquesa, pasarelas de madera y los espectaculares Estrechos, donde las paredes casi se tocan. Acceso regulado en verano.",
+   "d_en": "One of Teruel's most famous natural spots: a gorge carved by the headwaters of the Matarraña river, with turquoise water, wooden walkways and the dramatic Estrechos where the walls almost meet. Access is regulated in summer.",
+   "h": "Acceso con reserva y aparcamiento regulado en temporada alta",
+   "h_en": "Access by booking with regulated parking in high season",
+   "i": "Ideal si te gusta el senderismo acuático y los paisajes de cañón.",
+   "i_en": "Ideal if you like river hiking and canyon scenery."
+  },
+  "tel_dinopolis": {
+   "id": "tel_dinopolis",
+   "d": "Parque que combina museo paleontológico y atracciones sobre la historia de la vida y los dinosaurios, con esqueletos reales, recreaciones a tamaño natural y espectáculos. Es la sede central de una red de centros repartidos por la provincia.",
+   "d_en": "A park combining a palaeontology museum with rides about the history of life and dinosaurs, featuring real skeletons, life-size recreations and shows. It is the hub of a network of centres across the province.",
+   "h": "Consultar calendario; abierto sobre todo en temporada y fines de semana",
+   "h_en": "Check calendar; open mainly in season and at weekends",
+   "i": "Ideal si viajas con niños o te fascina la paleontología.",
+   "i_en": "Ideal if you travel with children or love palaeontology."
+  },
+  "tel_escalinata": {
+   "id": "tel_escalinata",
+   "d": "Escalinata de principios del siglo XX en ladrillo, cerámica y azulejo que salva el desnivel entre la estación de tren y el Paseo del Óvalo. Está decorada con un relieve dedicado a los Amantes de Teruel y es una de las postales de la ciudad.",
+   "d_en": "An early 20th-century staircase of brick, ceramics and tile that bridges the drop between the train station and the Paseo del Óvalo. It is decorated with a relief dedicated to the Lovers of Teruel and is one of the city's signature views.",
+   "h": "Acceso libre todo el día",
+   "h_en": "Free access all day",
+   "i": "Ideal si te gusta pasear y capturar rincones fotogénicos.",
+   "i_en": "Ideal if you like strolling and capturing photogenic corners."
+  },
+  "tel_plaza_torico": {
+   "id": "tel_plaza_torico",
+   "d": "Plaza triangular porticada, centro de la vida turolense, presidida por la fuente del Torico, una pequeña escultura de toro sobre una alta columna. Está rodeada de edificios modernistas y de bares donde tapear y tomar el vermú.",
+   "d_en": "A triangular arcaded square, the heart of Teruel's social life, presided over by the Torico fountain, a small bull sculpture on a tall column. It is ringed by Art Nouveau buildings and bars for tapas and vermouth.",
+   "h": "Acceso libre; bares abiertos al mediodía y por la noche",
+   "h_en": "Free access; bars open at midday and in the evening",
+   "i": "Ideal si te gusta el ambiente de calle y las terrazas.",
+   "i_en": "Ideal if you like street life and terraces."
+  },
+  "tel_valdelinares": {
+   "id": "tel_valdelinares",
+   "d": "A casi 1.700 m, Valdelinares es el municipio más alto de España, un pueblo de montaña de piedra rodeado de pinares. A pocos kilómetros, la estación de esquí Aramón Valdelinares ofrece pistas en invierno y senderismo en verano.",
+   "d_en": "At almost 1,700 m, Valdelinares is the highest municipality in Spain, a stone mountain village surrounded by pine forests. A few kilometres away, the Aramón Valdelinares ski resort offers slopes in winter and hiking in summer.",
+   "h": "Pueblo de acceso libre; estación abierta en temporada de nieve",
+   "h_en": "Village freely accessible; resort open in the snow season",
+   "i": "Ideal si te gusta la montaña, el esquí y el aire puro.",
+   "i_en": "Ideal if you like the mountains, skiing and fresh air."
+  },
+  "tel_javalambre": {
+   "id": "tel_javalambre",
+   "d": "El Pico Javalambre, de 2.020 m, es la cima de la provincia y alberga la estación Aramón Javalambre y el Observatorio Astrofísico, en una de las zonas con cielos más limpios de Europa, reconocida como reserva Starlight para la observación de estrellas.",
+   "d_en": "The 2,020 m Pico Javalambre is the province's summit, home to the Aramón Javalambre resort and an astrophysical observatory, in one of Europe's clearest-sky areas, recognised as a Starlight reserve for stargazing.",
+   "h": "Estación abierta en invierno; cielos ideales para observar de noche",
+   "h_en": "Resort open in winter; skies ideal for night observation",
+   "i": "Ideal si te gusta el esquí, la astronomía y los cielos estrellados.",
+   "i_en": "Ideal if you like skiing, astronomy and starry skies."
+  },
+  "tel_jamon_teruel": {
+   "id": "tel_jamon_teruel",
+   "d": "El Jamón de Teruel fue el primer jamón español con Denominación de Origen, curado lentamente en el clima frío y seco de la provincia. En las tiendas y bares del centro se degusta cortado a cuchillo, acompañado de pan y aceite de la tierra.",
+   "d_en": "Jamón de Teruel was Spain's first ham with a Denomination of Origin, slowly cured in the province's cold, dry climate. In the shops and bars of the centre it is enjoyed knife-cut, served with local bread and oil.",
+   "h": "Mejor a la hora del aperitivo o del almuerzo",
+   "h_en": "Best at aperitif or lunchtime",
+   "i": "Ideal si te gusta la gastronomía y los productos con origen protegido.",
+   "i_en": "Ideal if you like gastronomy and protected-origin products."
+  },
+  "tel_trufa_sarrion": {
+   "id": "tel_trufa_sarrion",
+   "d": "Sarrión es el epicentro de la trufa negra (Tuber melanosporum) de Teruel, la mayor zona productora de Europa. En invierno celebra la feria FITRUF y sus restaurantes preparan menús trufados con huevos, carnes y quesos de la comarca.",
+   "d_en": "Sarrión is the epicentre of Teruel's black truffle (Tuber melanosporum), Europe's largest producing area. In winter it hosts the FITRUF fair and its restaurants prepare truffle menus with eggs, meats and local cheeses.",
+   "h": "Temporada de trufa de diciembre a marzo",
+   "h_en": "Truffle season from December to March",
+   "i": "Ideal si te gusta la alta gastronomía y los sabores intensos.",
+   "i_en": "Ideal if you like fine dining and intense flavours."
+  },
+  "tel_ternasco_mora": {
+   "id": "tel_ternasco_mora",
+   "d": "Los restaurantes de Mora de Rubielos y su comarca son buen lugar para probar el ternasco de Aragón asado, las migas, los guisos de caza y los quesos de la Sierra de Gúdar, acompañados de vinos aragoneses.",
+   "d_en": "The restaurants of Mora de Rubielos and its region are a good place to try roast Aragón lamb, migas, game stews and cheeses from the Sierra de Gúdar, paired with Aragonese wines.",
+   "h": "Mejor en almuerzo, especialmente en otoño e invierno",
+   "h_en": "Best at lunch, especially in autumn and winter",
+   "i": "Ideal si te gustan los asados y la cocina tradicional contundente.",
+   "i_en": "Ideal if you like roasts and hearty traditional cooking."
+  },
+  "tel_gastro_albarracin": {
+   "id": "tel_gastro_albarracin",
+   "d": "Albarracín reúne mesones y restaurantes en casas de piedra donde probar migas de pastor, jamón, cordero, gachas y postres con miel de la sierra. La cena en su casco iluminado es una de las experiencias del viaje.",
+   "d_en": "Albarracín gathers taverns and restaurants in stone houses serving shepherd's migas, cured ham, lamb, gachas and honey desserts from the mountains. Dining in its floodlit old town is one of the trip's highlights.",
+   "h": "Reserva recomendada en temporada alta",
+   "h_en": "Booking recommended in high season",
+   "i": "Ideal si te gusta cenar con ambiente medieval y cocina de la tierra.",
+   "i_en": "Ideal if you like dining in a medieval setting with local cuisine."
+  },
+  "tel_melocoton_calanda": {
+   "id": "tel_melocoton_calanda",
+   "d": "En Calanda madura el melocotón amarillo con Denominación de Origen, cultivado con la técnica del embolsado que le da tamaño y dulzor. Se disfruta fresco a final de verano y en mermeladas, licores y repostería local.",
+   "d_en": "In Calanda ripens the yellow peach with Denomination of Origin, grown with the bagging technique that gives it size and sweetness. It is enjoyed fresh in late summer and in jams, liqueurs and local pastries.",
+   "h": "Temporada de melocotón de agosto a octubre",
+   "h_en": "Peach season from August to October",
+   "i": "Ideal si te gustan los productos de la tierra y la fruta de temporada.",
+   "i_en": "Ideal if you like local produce and seasonal fruit."
+  }
+ },
+ "food": {
+  "tel_jamon_teruel": {
+   "cuisine": "Jamón curado y embutidos",
+   "price": "12–30 €",
+   "hours": "Bares y tiendas 10:00–14:00 y 17:00–21:00"
+  },
+  "tel_trufa_sarrion": {
+   "cuisine": "Cocina de la trufa negra",
+   "price": "25–60 €",
+   "hours": "Restaurantes 13:30–15:30 y 20:30–22:30"
+  },
+  "tel_ternasco_mora": {
+   "cuisine": "Cocina aragonesa de montaña",
+   "price": "20–40 €",
+   "hours": "Comidas 13:30–15:30 y cenas 20:30–22:30"
+  },
+  "tel_gastro_albarracin": {
+   "cuisine": "Cocina serrana turolense",
+   "price": "18–38 €",
+   "hours": "Comidas 13:30–15:30 y cenas 20:30–22:30"
+  },
+  "tel_melocoton_calanda": {
+   "cuisine": "Fruta y repostería del Bajo Aragón",
+   "price": "3–12 €",
+   "hours": "Fruterías y tiendas 9:00–14:00 y 17:00–20:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Teruel",
+   "items": [
+    {
+     "name": "Jamón de Teruel D.O.P.",
+     "price": "18–45 €",
+     "desc": "Jamón curado en secaderos de montaña, el primer jamón con Denominación de Origen de España, con estrella de ocho puntas grabada."
+    },
+    {
+     "name": "Cerámica mudéjar de Teruel",
+     "price": "8–35 €",
+     "desc": "Azulejos, platos y jarras en verde y morado sobre fondo blanco, reproduciendo motivos de las torres mudéjares."
+    },
+    {
+     "name": "Trufa negra de Sarrión",
+     "price": "10–90 €",
+     "desc": "Tuber melanosporum fresca en temporada o conservada en aceites, patés y sales; Teruel es la mayor productora de Europa."
+    },
+    {
+     "name": "Dulces de los Amantes",
+     "price": "5–15 €",
+     "desc": "Bombones y suspiros inspirados en la leyenda de Isabel y Diego, típicos de las pastelerías del centro histórico."
+    }
+   ],
+   "shops": [
+    "Tiendas de productos típicos del Óvalo y Plaza del Torico",
+    "Mercado Central de Teruel",
+    "Feria del Jamón (septiembre)"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Teruel capital se recorre a pie: las torres mudéjares, la catedral y el Mausoleo de los Amantes están a menos de 10 minutos entre sí.",
+   "Reserva plaza para entrar al casco de Albarracín en temporada alta y calza calzado cómodo: sus calles son empinadas y empedradas.",
+   "Lleva ropa de abrigo incluso en verano; Teruel está a más de 900 m y las noches son frías todo el año.",
+   "Para el Matarraña (Valderrobres, Calaceite) y el Maestrazgo necesitas coche: el transporte público es muy limitado.",
+   "Si viajas en invierno, combina cultura con esquí en Valdelinares o Javalambre, las estaciones más meridionales de España."
+  ],
+  "en": [
+   "The city of Teruel is best explored on foot: the Mudéjar towers, the cathedral and the Lovers' Mausoleum are all within a 10-minute walk.",
+   "Book a slot to enter Albarracín's old town in high season and wear comfortable shoes: its streets are steep and cobbled.",
+   "Bring warm clothing even in summer; Teruel sits above 900 m and nights are cold year-round.",
+   "You need a car for the Matarraña (Valderrobres, Calaceite) and the Maestrazgo: public transport is very limited.",
+   "If you travel in winter, pair culture with skiing at Valdelinares or Javalambre, Spain's southernmost ski resorts."
+  ]
+ },
+ "climate": {
+  "hi": [
+   9,
+   11,
+   15,
+   17,
+   22,
+   27,
+   31,
+   30,
+   25,
+   18,
+   13,
+   9
+  ],
+  "lo": [
+   -3,
+   -2,
+   0,
+   3,
+   6,
+   10,
+   13,
+   13,
+   9,
+   5,
+   0,
+   -2
+  ]
+ },
+ "tr": {
+  "Catedral mudéjar Patrimonio de la Humanidad con una techumbre pintada única.": "Mudéjar cathedral, a World Heritage Site with a unique painted ceiling.",
+  "La torre mudéjar más espectacular de Teruel, visitable por dentro.": "Teruel's most spectacular Mudéjar tower, open to visit inside.",
+  "Torre mudéjar gemela de El Salvador, Patrimonio de la Humanidad.": "Mudéjar tower, twin of El Salvador and a World Heritage Site.",
+  "Tumba de los legendarios Amantes de Teruel junto a la iglesia de San Pedro.": "Tomb of the legendary Lovers of Teruel beside the church of San Pedro.",
+  "Uno de los pueblos más bonitos de España, de color rojizo sobre un meandro.": "One of Spain's most beautiful villages, reddish-hued above a river bend.",
+  "Castillo-palacio gótico que corona el pueblo más emblemático del Matarraña.": "Gothic castle-palace crowning the most emblematic town of the Matarraña.",
+  "Villa señorial del Matarraña con casonas de piedra y plazas porticadas.": "Stately Matarraña town with stone mansions and arcaded squares.",
+  "Imponente castillo-palacio gótico de planta cuadrada en Gúdar-Javalambre.": "Imposing square Gothic castle-palace in the Gúdar-Javalambre region.",
+  "Villa del Maestrazgo colgada sobre un cortado, con plaza porticada gótica.": "Maestrazgo town perched on a cliff, with a Gothic arcaded square.",
+  "Pueblo amurallado del Maestrazgo, premio Europa Nostra por su conservación.": "Walled Maestrazgo village, awarded Europa Nostra for its preservation.",
+  "Paisaje protegido de roca roja y pinos con arte rupestre de la UNESCO.": "Protected landscape of red rock and pines with UNESCO rock art.",
+  "Fuente donde nace el río más largo de la Península, en plena Sierra de Albarracín.": "Spring where Iberia's longest river is born, deep in the Sierra de Albarracín.",
+  "Espectaculares agujas de roca vertical sobre el río Guadalope.": "Spectacular vertical rock needles above the Guadalope river.",
+  "Cueva de formaciones de aragonito con aspecto de cristales.": "Cave of aragonite formations that look like crystals.",
+  "Cañón del Matarraña con pasarelas, pozas turquesa y estrechos de roca.": "Matarraña canyon with walkways, turquoise pools and rock narrows.",
+  "Gran parque temático y paleontológico dedicado a los dinosaurios.": "Large theme and palaeontology park devoted to dinosaurs.",
+  "Monumental escalera neomudéjar que une la estación con el centro.": "Monumental Neo-Mudéjar staircase linking the station and the centre.",
+  "Corazón animado de Teruel, con su diminuto toro sobre una columna.": "Teruel's lively heart, with its tiny bull atop a column.",
+  "El pueblo más alto de España y estación de esquí de Gúdar.": "Spain's highest village and a ski resort in the Gúdar range.",
+  "Techo de Teruel, con estación de esquí y observatorio astrofísico.": "Teruel's rooftop, with a ski resort and astrophysical observatory.",
+  "Cata del jamón con Denominación de Origen en el centro de Teruel.": "Tasting of D.O. cured ham in the centre of Teruel.",
+  "Capital de la trufa negra, con feria FITRUF y menús trufados.": "Capital of black truffle, with the FITRUF fair and truffle menus.",
+  "Cocina de montaña con ternasco de Aragón y productos de Gúdar.": "Mountain cuisine with Aragón lamb and Gúdar-region produce.",
+  "Restaurantes con encanto y platos serranos en el casco de Albarracín.": "Charming restaurants and highland dishes in Albarracín's old town.",
+  "El famoso melocotón embolsado del Bajo Aragón, dulce y jugoso.": "The famous bagged peach of Bajo Aragón, sweet and juicy.",
+  "Teruel": "Teruel"
+ }
+}

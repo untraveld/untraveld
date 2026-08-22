@@ -1,0 +1,660 @@
+{
+ "id": "granada",
+ "name": "Granada",
+ "country": "ES",
+ "center": [
+  37.17734,
+  -3.59856
+ ],
+ "pois": [
+  {
+   "id": "gra_alhambra",
+   "cat": "monuments",
+   "name": "La Alhambra",
+   "icon": "🏰",
+   "lat": 37.1761,
+   "lng": -3.5881,
+   "desc": "El palacio-fortaleza nazarí más famoso del mundo."
+  },
+  {
+   "id": "gra_generalife",
+   "cat": "monuments",
+   "name": "Generalife",
+   "icon": "🌿",
+   "lat": 37.1786,
+   "lng": -3.5843,
+   "desc": "Los jardines y palacio de recreo de los sultanes."
+  },
+  {
+   "id": "gra_albaicin",
+   "cat": "monuments",
+   "name": "Barrio del Albaicín",
+   "icon": "🕌",
+   "lat": 37.1823,
+   "lng": -3.5934,
+   "desc": "El casco árabe medieval de callejuelas blancas."
+  },
+  {
+   "id": "gra_mirador_san_nicolas",
+   "cat": "monuments",
+   "name": "Mirador de San Nicolás",
+   "icon": "🌅",
+   "lat": 37.1809,
+   "lng": -3.592,
+   "desc": "La mejor vista de la Alhambra al atardecer."
+  },
+  {
+   "id": "gra_catedral",
+   "cat": "monuments",
+   "name": "Catedral de Granada",
+   "icon": "⛪",
+   "lat": 37.1766,
+   "lng": -3.5989,
+   "desc": "Gran catedral renacentista de fachada monumental."
+  },
+  {
+   "id": "gra_capilla_real",
+   "cat": "monuments",
+   "name": "Capilla Real",
+   "icon": "👑",
+   "lat": 37.1765,
+   "lng": -3.5984,
+   "desc": "Mausoleo gótico de los Reyes Católicos."
+  },
+  {
+   "id": "gra_cartuja",
+   "cat": "monuments",
+   "name": "Monasterio de la Cartuja",
+   "icon": "⛪",
+   "lat": 37.1929,
+   "lng": -3.6064,
+   "desc": "Un derroche de barroco andaluz en yeso y mármol."
+  },
+  {
+   "id": "gra_corral_carbon",
+   "cat": "monuments",
+   "name": "Corral del Carbón",
+   "icon": "🏛️",
+   "lat": 37.1745,
+   "lng": -3.5976,
+   "desc": "La única alhóndiga nazarí conservada en España."
+  },
+  {
+   "id": "gra_san_jeronimo",
+   "cat": "monuments",
+   "name": "Monasterio de San Jerónimo",
+   "icon": "⛪",
+   "lat": 37.1813,
+   "lng": -3.6029,
+   "desc": "Joya renacentista con dos claustros tranquilos."
+  },
+  {
+   "id": "gra_guadix_cuevas",
+   "cat": "monuments",
+   "name": "Casas Cueva de Guadix",
+   "icon": "🏜️",
+   "lat": 37.2958,
+   "lng": -3.141,
+   "desc": "Barrio troglodita de chimeneas blancas en la roca."
+  },
+  {
+   "id": "gra_salobrena_castillo",
+   "cat": "monuments",
+   "name": "Castillo de Salobreña",
+   "icon": "🏰",
+   "lat": 36.7443,
+   "lng": -3.5873,
+   "desc": "Fortaleza árabe sobre un pueblo blanco junto al mar."
+  },
+  {
+   "id": "gra_sierra_nevada",
+   "cat": "nature",
+   "name": "Sierra Nevada",
+   "icon": "🏔️",
+   "lat": 37.0958,
+   "lng": -3.3986,
+   "desc": "La estación de esquí más al sur de Europa."
+  },
+  {
+   "id": "gra_mulhacen",
+   "cat": "nature",
+   "name": "Pico Mulhacén",
+   "icon": "⛰️",
+   "lat": 37.0531,
+   "lng": -3.3117,
+   "desc": "El techo de la península ibérica, 3.479 m."
+  },
+  {
+   "id": "gra_alpujarra",
+   "cat": "nature",
+   "name": "La Alpujarra (Barranco de Poqueira)",
+   "icon": "🏘️",
+   "lat": 36.9429,
+   "lng": -3.3556,
+   "desc": "Pueblos blancos colgados en la ladera de la sierra."
+  },
+  {
+   "id": "gra_trevelez",
+   "cat": "nature",
+   "name": "Trevélez",
+   "icon": "🍖",
+   "lat": 36.9948,
+   "lng": -3.2676,
+   "desc": "Pueblo de alta montaña famoso por su jamón."
+  },
+  {
+   "id": "gra_los_cahorros",
+   "cat": "nature",
+   "name": "Los Cahorros de Monachil",
+   "icon": "🌉",
+   "lat": 37.129,
+   "lng": -3.516,
+   "desc": "Desfiladero con puentes colgantes junto a Granada."
+  },
+  {
+   "id": "gra_penon_santo",
+   "cat": "nature",
+   "name": "Peñón del Santo (Almuñécar)",
+   "icon": "🌊",
+   "lat": 36.7287,
+   "lng": -3.6913,
+   "desc": "Peñón mirador entre las playas de Almuñécar."
+  },
+  {
+   "id": "gra_sacromonte",
+   "cat": "ocio",
+   "name": "Sacromonte",
+   "icon": "💃",
+   "lat": 37.1812,
+   "lng": -3.585,
+   "desc": "El barrio gitano de las cuevas y el flamenco zambra."
+  },
+  {
+   "id": "gra_realejo",
+   "cat": "ocio",
+   "name": "Barrio del Realejo",
+   "icon": "🎨",
+   "lat": 37.1717,
+   "lng": -3.5945,
+   "desc": "La antigua judería, hoy de tapas y arte urbano."
+  },
+  {
+   "id": "gra_carrera_darro",
+   "cat": "ocio",
+   "name": "Carrera del Darro y Paseo de los Tristes",
+   "icon": "🌉",
+   "lat": 37.1784,
+   "lng": -3.5908,
+   "desc": "El paseo más romántico junto al río, bajo la Alhambra."
+  },
+  {
+   "id": "gra_hammam",
+   "cat": "ocio",
+   "name": "Baños Árabes (Hammam Al Ándalus)",
+   "icon": "♨️",
+   "lat": 37.1768,
+   "lng": -3.5923,
+   "desc": "Baño termal andalusí de agua caliente y vapor."
+  },
+  {
+   "id": "gra_parque_ciencias",
+   "cat": "ocio",
+   "name": "Parque de las Ciencias",
+   "icon": "🔬",
+   "lat": 37.1602,
+   "lng": -3.6093,
+   "desc": "Gran museo interactivo con planetario y mariposario."
+  },
+  {
+   "id": "gra_playa_almunecar",
+   "cat": "ocio",
+   "name": "Playas de Almuñécar",
+   "icon": "🏖️",
+   "lat": 36.729,
+   "lng": -3.697,
+   "desc": "Calas y playas de la Costa Tropical granadina."
+  },
+  {
+   "id": "gra_tapeo_navas",
+   "cat": "food",
+   "name": "Ruta de tapas (Calle Navas)",
+   "icon": "🍤",
+   "lat": 37.1757,
+   "lng": -3.5977,
+   "desc": "La calle de las tapas gratis por excelencia."
+  },
+  {
+   "id": "gra_bodegas_castaneda",
+   "cat": "food",
+   "name": "Bodegas Castañeda",
+   "icon": "🍷",
+   "lat": 37.1764,
+   "lng": -3.5965,
+   "desc": "Taberna histórica de tapas y vinos a granel."
+  },
+  {
+   "id": "gra_mirador_morayma",
+   "cat": "food",
+   "name": "Mirador de Morayma",
+   "icon": "🍽️",
+   "lat": 37.1799,
+   "lng": -3.5905,
+   "desc": "Cocina granadina en un carmen con vistas a la Alhambra."
+  },
+  {
+   "id": "gra_chikito",
+   "cat": "food",
+   "name": "Restaurante Chikito",
+   "icon": "🥘",
+   "lat": 37.1737,
+   "lng": -3.5996,
+   "desc": "Clásico de la ciudad, antiguo café de Lorca."
+  },
+  {
+   "id": "gra_meson_alpujarra",
+   "cat": "food",
+   "name": "Mesón alpujarreño (Pampaneira)",
+   "icon": "🍲",
+   "lat": 36.9428,
+   "lng": -3.3555,
+   "desc": "El contundente plato alpujarreño de montaña."
+  }
+ ],
+ "extra": {
+  "gra_alhambra": {
+   "id": "gra_alhambra",
+   "d": "Ciudad palatina del siglo XIII-XIV declarada Patrimonio de la Humanidad. Sus Palacios Nazaríes, la Alcazaba militar y el Palacio de Carlos V componen la joya de la arquitectura andalusí, con patios, arrayanes, yeserías y fuentes.",
+   "d_en": "A 13th-14th century palace-city and UNESCO World Heritage Site. Its Nasrid Palaces, the military Alcazaba and the Palace of Charles V form the jewel of Andalusi architecture, with courtyards, myrtles, stucco work and fountains.",
+   "h": "Media jornada; entrada a Palacios Nazaríes a hora fija",
+   "h_en": "Half a day; timed entry to the Nasrid Palaces",
+   "i": "Ideal si te gusta la historia, la arquitectura islámica y los jardines.",
+   "i_en": "Ideal if you like history, Islamic architecture and gardens."
+  },
+  "gra_generalife": {
+   "id": "gra_generalife",
+   "d": "Residencia de descanso de los reyes nazaríes junto a la Alhambra, con escalonados jardines, albercas, surtidores y el célebre Patio de la Acequia. Un oasis de agua y vegetación con vistas al conjunto monumental.",
+   "d_en": "The Nasrid kings' leisure retreat next to the Alhambra, with terraced gardens, pools, water jets and the famous Patio de la Acequia. A green, watery oasis overlooking the whole monument.",
+   "h": "1-2 horas, combinado con la Alhambra",
+   "h_en": "1-2 hours, combined with the Alhambra",
+   "i": "Ideal si te gustan los jardines y los rincones tranquilos.",
+   "i_en": "Ideal if you like gardens and peaceful corners."
+  },
+  "gra_albaicin": {
+   "id": "gra_albaicin",
+   "d": "Antiguo barrio andalusí en la colina frente a la Alhambra, Patrimonio de la Humanidad. Un laberinto de cármenes, aljibes, plazuelas y casas encaladas que conserva el trazado y el ambiente de la Granada nazarí.",
+   "d_en": "The old Andalusi quarter on the hill facing the Alhambra, a UNESCO site. A maze of walled villas, cisterns, tiny squares and whitewashed houses that keeps the layout and mood of Nasrid Granada.",
+   "h": "2-3 horas paseando",
+   "h_en": "2-3 hours strolling",
+   "i": "Ideal si te gusta perderte por barrios con encanto.",
+   "i_en": "Ideal if you like wandering charming old quarters."
+  },
+  "gra_mirador_san_nicolas": {
+   "id": "gra_mirador_san_nicolas",
+   "d": "Plaza en lo alto del Albaicín, junto a la iglesia de San Nicolás, célebre por su panorámica de la Alhambra con Sierra Nevada nevada al fondo. Punto de encuentro de músicos y viajeros al caer el sol.",
+   "d_en": "A square high in the Albaicín beside San Nicolás church, famous for its view of the Alhambra with snowy Sierra Nevada behind. A gathering spot for musicians and travellers at sunset.",
+   "h": "30-45 min, mejor al atardecer",
+   "h_en": "30-45 min, best at sunset",
+   "i": "Ideal si te gustan los miradores y las fotos memorables.",
+   "i_en": "Ideal if you like viewpoints and memorable photos."
+  },
+  "gra_catedral": {
+   "id": "gra_catedral",
+   "d": "Templo iniciado en el siglo XVI sobre la antigua mezquita mayor, obra maestra del Renacimiento español con la impresionante Capilla Mayor circular de Diego de Siloé y luminosas naves blancas y doradas.",
+   "d_en": "A 16th-century cathedral begun over the former great mosque, a masterpiece of the Spanish Renaissance with Diego de Siloé's striking circular main chapel and bright white-and-gold naves.",
+   "h": "45 min-1 hora",
+   "h_en": "45 min-1 hour",
+   "i": "Ideal si te gusta el arte religioso y la arquitectura.",
+   "i_en": "Ideal if you like religious art and architecture."
+  },
+  "gra_capilla_real": {
+   "id": "gra_capilla_real",
+   "d": "Capilla funeraria de estilo gótico isabelino que alberga las tumbas de Isabel y Fernando junto a las de Juana y Felipe. Guarda una sacristía-museo con pinturas flamencas y la corona y el cetro de la reina.",
+   "d_en": "An Isabelline Gothic funerary chapel holding the tombs of Isabella and Ferdinand alongside those of Joanna and Philip. Its sacristy-museum keeps Flemish paintings and the queen's crown and sceptre.",
+   "h": "45 min-1 hora",
+   "h_en": "45 min-1 hour",
+   "i": "Ideal si te gusta la historia de España y el arte gótico.",
+   "i_en": "Ideal if you like Spanish history and Gothic art."
+  },
+  "gra_cartuja": {
+   "id": "gra_cartuja",
+   "d": "Monasterio cartujo del siglo XVI-XVIII célebre por su exuberante sagrario, su sacristía de mármoles polícromos y estucos, considerada una de las cumbres del barroco español.",
+   "d_en": "A 16th-18th century Carthusian monastery famed for its lavish tabernacle and its sacristy of polychrome marble and stucco, one of the peaks of Spanish Baroque.",
+   "h": "45 min-1 hora",
+   "h_en": "45 min-1 hour",
+   "i": "Ideal si te gusta el arte barroco menos masificado.",
+   "i_en": "Ideal if you like Baroque art away from the crowds."
+  },
+  "gra_corral_carbon": {
+   "id": "gra_corral_carbon",
+   "d": "Antigua posada y almacén de mercaderes del siglo XIV, con una monumental portada de arco de herradura y un patio interior. Único ejemplar de alhóndiga andalusí que se conserva en la península.",
+   "d_en": "A 14th-century merchants' inn and warehouse with a monumental horseshoe-arch doorway and an inner courtyard. The only Andalusi caravanserai still standing in the Iberian peninsula.",
+   "h": "20-30 min",
+   "h_en": "20-30 min",
+   "i": "Ideal si te gustan los rincones históricos escondidos.",
+   "i_en": "Ideal if you like hidden historic corners."
+  },
+  "gra_san_jeronimo": {
+   "id": "gra_san_jeronimo",
+   "d": "Monasterio jerónimo del siglo XVI, primer templo cristiano de Granada tras la conquista, con una iglesia ricamente decorada, retablo mayor monumental y patios con naranjos que invitan al silencio.",
+   "d_en": "A 16th-century Hieronymite monastery, the first Christian church of Granada after the conquest, with a richly decorated church, a monumental altarpiece and orange-tree courtyards that invite silence.",
+   "h": "45 min",
+   "h_en": "45 min",
+   "i": "Ideal si te gustan los monasterios y los patios con encanto.",
+   "i_en": "Ideal if you like monasteries and charming courtyards."
+  },
+  "gra_guadix_cuevas": {
+   "id": "gra_guadix_cuevas",
+   "d": "El mayor barrio de casas cueva habitadas de Europa, excavadas en la arcilla de las badlands de Guadix. Un paisaje surrealista de chimeneas encaladas, con centro de interpretación y viviendas visitables de temperatura constante.",
+   "d_en": "Europe's largest inhabited cave-house district, dug into the clay badlands of Guadix. A surreal landscape of whitewashed chimneys, with a visitor centre and cave homes you can tour that stay cool year-round.",
+   "h": "1-2 horas; a 1 h de Granada",
+   "h_en": "1-2 hours; 1 h from Granada",
+   "i": "Ideal si te gusta lo insólito y los paisajes de otro planeta.",
+   "i_en": "Ideal if you like the unusual and otherworldly landscapes."
+  },
+  "gra_salobrena_castillo": {
+   "id": "gra_salobrena_castillo",
+   "d": "Alcazaba nazarí que corona el casco antiguo encalado de Salobreña, en la Costa Tropical. Desde sus murallas se domina el mar Mediterráneo, la vega de caña de azúcar y las montañas al fondo.",
+   "d_en": "A Nasrid fortress crowning the whitewashed old town of Salobreña on the Tropical Coast. Its ramparts overlook the Mediterranean, the sugar-cane plain and the mountains behind.",
+   "h": "1-1,5 horas con el pueblo",
+   "h_en": "1-1.5 hours with the town",
+   "i": "Ideal si te gustan los castillos y los pueblos blancos.",
+   "i_en": "Ideal if you like castles and white villages."
+  },
+  "gra_sierra_nevada": {
+   "id": "gra_sierra_nevada",
+   "d": "Parque Nacional y estación de esquí de Pradollano, con las cumbres más altas de la península. En invierno se esquía sobre el Mediterráneo; en verano ofrece senderismo de alta montaña y aire fresco a media hora de Granada.",
+   "d_en": "A National Park and the Pradollano ski resort, home to mainland Spain's highest peaks. In winter you ski above the Mediterranean; in summer it offers high-mountain hiking and cool air half an hour from Granada.",
+   "h": "Media jornada o día completo",
+   "h_en": "Half or full day",
+   "i": "Ideal si te gusta el esquí o la montaña.",
+   "i_en": "Ideal if you like skiing or the mountains."
+  },
+  "gra_mulhacen": {
+   "id": "gra_mulhacen",
+   "d": "La cumbre más alta de la España peninsular, en pleno Parque Nacional de Sierra Nevada. Su ascensión recompensa con vistas que en días claros alcanzan el norte de África, entre lagunas glaciares y borreguiles.",
+   "d_en": "The highest summit in mainland Spain, deep in Sierra Nevada National Park. The climb rewards you with views that on clear days reach North Africa, among glacial lakes and alpine meadows.",
+   "h": "Ruta de día completo, verano",
+   "h_en": "Full-day hike, summer only",
+   "i": "Ideal si te gusta el senderismo exigente y las cumbres.",
+   "i_en": "Ideal if you like demanding hikes and high peaks."
+  },
+  "gra_alpujarra": {
+   "id": "gra_alpujarra",
+   "d": "Comarca de aldeas moriscas como Pampaneira, Bubión y Capileira, con casas encaladas de tejados planos, calles con tinaos, telares de jarapas y fuentes de agua de montaña, en el barranco del río Poqueira.",
+   "d_en": "A region of Moorish villages such as Pampaneira, Bubión and Capileira, with flat-roofed whitewashed houses, covered passages, rag-rug weavers and mountain springs, set in the Poqueira river gorge.",
+   "h": "Medio día o día completo",
+   "h_en": "Half or full day",
+   "i": "Ideal si te gustan los pueblos con encanto y la naturaleza.",
+   "i_en": "Ideal if you like charming villages and nature."
+  },
+  "gra_trevelez": {
+   "id": "gra_trevelez",
+   "d": "Uno de los municipios más altos de España, en la Alpujarra granadina, célebre por su jamón curado al aire frío de la sierra. Punto de partida de rutas hacia el Mulhacén y mirador natural del valle.",
+   "d_en": "One of Spain's highest villages, in the Granada Alpujarra, famous for ham cured in the cold mountain air. A gateway for treks toward Mulhacén and a natural balcony over the valley.",
+   "h": "1-2 horas",
+   "h_en": "1-2 hours",
+   "i": "Ideal si te gusta la gastronomía de montaña y los pueblos altos.",
+   "i_en": "Ideal if you like mountain food and high villages."
+  },
+  "gra_los_cahorros": {
+   "id": "gra_los_cahorros",
+   "d": "Espectacular garganta del río Monachil con estrechos pasos entre rocas, cascadas y puentes colgantes, incluido uno de casi 60 metros. Ruta circular accesible a pocos minutos de la capital.",
+   "d_en": "A spectacular gorge on the Monachil river with narrow rock passages, waterfalls and suspension bridges, including one nearly 60 metres long. An accessible loop trail minutes from the city.",
+   "h": "2-3 horas de ruta",
+   "h_en": "2-3 hour trail",
+   "i": "Ideal si te gusta el senderismo aventurero y el agua.",
+   "i_en": "Ideal if you like adventurous hiking and water."
+  },
+  "gra_penon_santo": {
+   "id": "gra_penon_santo",
+   "d": "Monumento natural que separa las playas de San Cristóbal y Puerta del Mar, coronado por una cruz y un mirador con vistas de toda la Costa Tropical y el casco antiguo de Almuñécar.",
+   "d_en": "A natural landmark dividing San Cristóbal and Puerta del Mar beaches, topped by a cross and a viewpoint over the whole Tropical Coast and Almuñécar's old town.",
+   "h": "30-45 min",
+   "h_en": "30-45 min",
+   "i": "Ideal si te gustan las vistas del mar y las playas.",
+   "i_en": "Ideal if you like sea views and beaches."
+  },
+  "gra_sacromonte": {
+   "id": "gra_sacromonte",
+   "d": "Barrio de cuevas excavadas en la ladera frente a la Alhambra, cuna de la zambra gitana. De día se visita el Museo Cuevas del Sacromonte; de noche las cuevas se convierten en tablaos de flamenco.",
+   "d_en": "A quarter of caves dug into the hillside facing the Alhambra, cradle of the Roma zambra. By day you visit the Sacromonte Caves Museum; by night the caves turn into flamenco tablaos.",
+   "h": "1-2 horas; espectáculo nocturno",
+   "h_en": "1-2 hours; evening show",
+   "i": "Ideal si te gusta el flamenco y la cultura gitana.",
+   "i_en": "Ideal if you like flamenco and Roma culture."
+  },
+  "gra_realejo": {
+   "id": "gra_realejo",
+   "d": "Antiguo barrio judío en la ladera de la Alhambra, hoy uno de los más animados para tapear. Sus muros lucen los grafitis del artista El Niño de las Pinturas y esconde cármenes y plazas como el Campo del Príncipe.",
+   "d_en": "The former Jewish quarter on the Alhambra's slope, today one of the liveliest for tapas. Its walls display murals by street artist El Niño de las Pinturas, amid walled villas and squares like Campo del Príncipe.",
+   "h": "2-3 horas, mejor por la tarde-noche",
+   "h_en": "2-3 hours, best evening",
+   "i": "Ideal si te gustan las tapas y el ambiente local.",
+   "i_en": "Ideal if you like tapas and local atmosphere."
+  },
+  "gra_carrera_darro": {
+   "id": "gra_carrera_darro",
+   "d": "Calle empedrada que bordea el río Darro entre puentes medievales, casas señoriales y los Baños del Bañuelo, hasta el Paseo de los Tristes, con vistas directas a la Alhambra iluminada.",
+   "d_en": "A cobbled street following the Darro river past medieval bridges, noble houses and the Bañuelo Arab baths, up to the Paseo de los Tristes with direct views of the floodlit Alhambra.",
+   "h": "45 min-1 hora paseando",
+   "h_en": "45 min-1 hour strolling",
+   "i": "Ideal si te gustan los paseos románticos y las postales.",
+   "i_en": "Ideal if you like romantic walks and postcard views."
+  },
+  "gra_hammam": {
+   "id": "gra_hammam",
+   "d": "Recreación de los baños árabes medievales en pleno centro, con salas de agua caliente, templada y fría bajo bóvedas de estrellas, aromas de té y opción de masaje. Un ritual relajante muy granadino.",
+   "d_en": "A recreation of medieval Arab baths in the heart of the city, with hot, warm and cold pools under star-pierced vaults, scents of tea and optional massage. A relaxing, very Granadan ritual.",
+   "h": "1,5-2 horas, con reserva",
+   "h_en": "1.5-2 hours, book ahead",
+   "i": "Ideal si te gusta relajarte y los rituales de bienestar.",
+   "i_en": "Ideal if you like relaxing and wellness rituals."
+  },
+  "gra_parque_ciencias": {
+   "id": "gra_parque_ciencias",
+   "d": "Museo de ciencia de última generación con salas interactivas, planetario, torre mirador, mariposario tropical y exposiciones sobre el cuerpo humano y la naturaleza. El museo más visitado de Andalucía.",
+   "d_en": "A cutting-edge science museum with interactive halls, a planetarium, an observation tower, a tropical butterfly house and exhibits on the human body and nature. Andalusia's most visited museum.",
+   "h": "Media jornada",
+   "h_en": "Half a day",
+   "i": "Ideal si viajas en familia o te gusta la ciencia.",
+   "i_en": "Ideal if you travel with family or like science."
+  },
+  "gra_playa_almunecar": {
+   "id": "gra_playa_almunecar",
+   "d": "Litoral de aguas templadas y microclima subtropical con playas como San Cristóbal, Puerta del Mar o la cercana cala de La Herradura, ideales para el baño, el buceo y los chiringuitos frente al Mediterráneo.",
+   "d_en": "A stretch of warm water and subtropical microclimate with beaches like San Cristóbal, Puerta del Mar and nearby La Herradura cove, great for swimming, diving and seafront beach bars.",
+   "h": "Media jornada o día de playa",
+   "h_en": "Half a day or full beach day",
+   "i": "Ideal si te gusta el mar, el buceo y el sol.",
+   "i_en": "Ideal if you like the sea, diving and sun."
+  },
+  "gra_tapeo_navas": {
+   "id": "gra_tapeo_navas",
+   "d": "Calle peatonal repleta de bares donde cada bebida llega acompañada de una tapa gratuita: pescaíto frito, embutidos, guisos o montaditos. El mejor sitio para vivir la tradición del tapeo granadino.",
+   "d_en": "A pedestrian street lined with bars where every drink comes with a free tapa: fried fish, cured meats, stews or little rolls. The best place to live the Granada tapas tradition.",
+   "h": "Mediodía o noche, 1-2 horas",
+   "h_en": "Lunch or evening, 1-2 hours",
+   "i": "Ideal si te gusta comer picando y el ambiente de bar.",
+   "i_en": "Ideal if you like grazing and lively bar scenes."
+  },
+  "gra_bodegas_castaneda": {
+   "id": "gra_bodegas_castaneda",
+   "d": "Bodega centenaria cerca de la catedral, famosa por sus embutidos, quesos, la 'calicasas' (bebida de vermut) y sus tapas contundentes en un ambiente clásico de barricas y jamones colgados.",
+   "d_en": "A century-old bodega near the cathedral, famous for its cured meats, cheeses, the 'calicasas' vermouth drink and hearty tapas in a classic setting of barrels and hanging hams.",
+   "h": "Comida o cena, 1 hora",
+   "h_en": "Lunch or dinner, 1 hour",
+   "i": "Ideal si te gustan las tabernas tradicionales y el vino.",
+   "i_en": "Ideal if you like traditional taverns and wine."
+  },
+  "gra_mirador_morayma": {
+   "id": "gra_mirador_morayma",
+   "d": "Restaurante en un carmen típico del Albaicín, con terraza ajardinada y vistas a la Alhambra. Ofrece platos tradicionales granadinos como remojón, habas con jamón o cordero, con producto de temporada.",
+   "d_en": "A restaurant in a typical Albaicín carmen, with a garden terrace and Alhambra views. It serves traditional Granada dishes like remojón salad, broad beans with ham or lamb, using seasonal produce.",
+   "h": "Comida o cena, reserva recomendada",
+   "h_en": "Lunch or dinner, booking advised",
+   "i": "Ideal si buscas cocina local con vistas de postal.",
+   "i_en": "Ideal if you want local cuisine with postcard views."
+  },
+  "gra_chikito": {
+   "id": "gra_chikito",
+   "d": "Institución de la gastronomía granadina en la Plaza del Campillo, en el local del antiguo Café Alameda que frecuentaba García Lorca. Cocina andaluza de temporada, con rabo de toro, habas y pescados.",
+   "d_en": "A landmark of Granada dining on Plaza del Campillo, in the former Café Alameda frequented by poet García Lorca. Seasonal Andalusian cooking with oxtail, broad beans and fish.",
+   "h": "Comida o cena, 1,5 horas",
+   "h_en": "Lunch or dinner, 1.5 hours",
+   "i": "Ideal si buscas cocina tradicional con historia.",
+   "i_en": "Ideal if you want traditional cuisine with history."
+  },
+  "gra_meson_alpujarra": {
+   "id": "gra_meson_alpujarra",
+   "d": "Mesones de los pueblos del Poqueira donde probar el 'plato alpujarreño': patatas a lo pobre, huevo frito, morcilla, longaniza y lomo, además de jamón de Trevélez y vino de la costa, junto a la lumbre.",
+   "d_en": "Village inns of the Poqueira valley serving the 'plato alpujarreño': poor-man's potatoes, fried egg, black pudding, sausage and pork loin, plus Trevélez ham and coastal wine, by the fireside.",
+   "h": "Comida, 1-1,5 horas",
+   "h_en": "Lunch, 1-1.5 hours",
+   "i": "Ideal si te gusta la comida casera de montaña.",
+   "i_en": "Ideal if you like hearty mountain home cooking."
+  }
+ },
+ "food": {
+  "gra_tapeo_navas": {
+   "cuisine": "Tapas andaluzas",
+   "price": "10–20 €",
+   "hours": "12:00-16:00 y 20:00-00:00"
+  },
+  "gra_bodegas_castaneda": {
+   "cuisine": "Tapas y vinos",
+   "price": "12–25 €",
+   "hours": "11:30-16:30 y 19:30-00:00"
+  },
+  "gra_mirador_morayma": {
+   "cuisine": "Cocina granadina tradicional",
+   "price": "30–45 €",
+   "hours": "13:30-15:30 y 20:30-23:00 (cerrado dom)"
+  },
+  "gra_chikito": {
+   "cuisine": "Cocina andaluza",
+   "price": "30–50 €",
+   "hours": "12:00-16:30 y 19:30-23:30"
+  },
+  "gra_meson_alpujarra": {
+   "cuisine": "Cocina alpujarreña",
+   "price": "15–30 €",
+   "hours": "13:00-16:30 y 20:00-22:30"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Granada",
+   "items": [
+    {
+     "name": "Taracea granadina",
+     "price": "15–90 €",
+     "desc": "Marquetería de madera con incrustaciones de nácar y hueso, oficio nazarí que se conserva en el Albaicín."
+    },
+    {
+     "name": "Cerámica de Fajalauza",
+     "price": "8–45 €",
+     "desc": "Loza tradicional en azul y verde con motivos de granadas y aves, típica del Albaicín desde el siglo XVI."
+    },
+    {
+     "name": "Piononos de Santa Fe",
+     "price": "6–14 €",
+     "desc": "Dulce pequeño de bizcocho emborrachado y crema tostada, originario de la localidad de Santa Fe."
+    },
+    {
+     "name": "Jamón de Trevélez IGP",
+     "price": "18–40 €",
+     "desc": "Jamón curado en la alta montaña de La Alpujarra, con Indicación Geográfica Protegida."
+    },
+    {
+     "name": "Té y especias moriscas",
+     "price": "4–20 €",
+     "desc": "Tés, infusiones y especias de las teterías de la Calderería, herencia del barrio árabe."
+    }
+   ],
+   "shops": [
+    "Alcaicería (antiguo zoco de la seda)",
+    "Cuesta de Gomérez (taracea y guitarras)",
+    "Calle Calderería Nueva (teterías y bazares)",
+    "Mercado de San Agustín",
+    "Talleres del Albaicín"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Reserva la entrada a la Alhambra con semanas de antelación en la web oficial; las entradas a los Palacios Nazaríes tienen hora fija y se agotan enseguida.",
+   "En muchos bares de Granada la tapa es gratis con cada consumición: pide varias rondas y prácticamente cenas gratis.",
+   "Sube al Mirador de San Nicolás al atardecer para ver la Alhambra iluminada con Sierra Nevada al fondo.",
+   "Lleva calzado cómodo: el Albaicín y el Sacromonte son de cuestas empinadas y calles empedradas.",
+   "En invierno puedes esquiar en Sierra Nevada y bajar a la costa tropical el mismo día; lleva ropa para ambos climas."
+  ],
+  "en": [
+   "Book your Alhambra ticket weeks ahead on the official site; the Nasrid Palaces have timed entry and sell out fast.",
+   "In many Granada bars a free tapa comes with every drink: order a few rounds and you practically dine for free.",
+   "Go up to the Mirador de San Nicolás at sunset to see the floodlit Alhambra with Sierra Nevada behind it.",
+   "Wear comfortable shoes: the Albaicín and Sacromonte are steep, cobbled hillside neighbourhoods.",
+   "In winter you can ski in Sierra Nevada and drive down to the tropical coast the same day; pack for both climates."
+  ]
+ },
+ "climate": {
+  "hi": [
+   13,
+   15,
+   18,
+   20,
+   24,
+   30,
+   34,
+   34,
+   29,
+   22,
+   16,
+   13
+  ],
+  "lo": [
+   1,
+   3,
+   5,
+   7,
+   10,
+   14,
+   17,
+   17,
+   13,
+   9,
+   5,
+   2
+  ]
+ },
+ "tr": {
+  "El palacio-fortaleza nazarí más famoso del mundo.": "The world's most famous Nasrid palace-fortress.",
+  "Los jardines y palacio de recreo de los sultanes.": "The sultans' gardens and summer palace.",
+  "El casco árabe medieval de callejuelas blancas.": "The medieval Moorish quarter of white lanes.",
+  "La mejor vista de la Alhambra al atardecer.": "The best sunset view of the Alhambra.",
+  "Gran catedral renacentista de fachada monumental.": "A grand Renaissance cathedral with a monumental façade.",
+  "Mausoleo gótico de los Reyes Católicos.": "The Gothic mausoleum of the Catholic Monarchs.",
+  "Un derroche de barroco andaluz en yeso y mármol.": "An explosion of Andalusian Baroque in plaster and marble.",
+  "La única alhóndiga nazarí conservada en España.": "Spain's only surviving Nasrid caravanserai.",
+  "Joya renacentista con dos claustros tranquilos.": "A Renaissance gem with two serene cloisters.",
+  "Barrio troglodita de chimeneas blancas en la roca.": "A cave-house district of white chimneys in the rock.",
+  "Fortaleza árabe sobre un pueblo blanco junto al mar.": "A Moorish fortress above a white town by the sea.",
+  "La estación de esquí más al sur de Europa.": "Europe's southernmost ski resort.",
+  "El techo de la península ibérica, 3.479 m.": "The roof of mainland Spain, 3,479 m.",
+  "Pueblos blancos colgados en la ladera de la sierra.": "White villages clinging to the mountainside.",
+  "Pueblo de alta montaña famoso por su jamón.": "A high mountain village famed for its cured ham.",
+  "Desfiladero con puentes colgantes junto a Granada.": "A gorge with suspension bridges near Granada.",
+  "Peñón mirador entre las playas de Almuñécar.": "A rocky viewpoint between Almuñécar's beaches.",
+  "El barrio gitano de las cuevas y el flamenco zambra.": "The Roma cave quarter of zambra flamenco.",
+  "La antigua judería, hoy de tapas y arte urbano.": "The old Jewish quarter, now tapas and street art.",
+  "El paseo más romántico junto al río, bajo la Alhambra.": "The most romantic riverside walk below the Alhambra.",
+  "Baño termal andalusí de agua caliente y vapor.": "An Andalusi thermal bath of hot water and steam.",
+  "Gran museo interactivo con planetario y mariposario.": "A large interactive museum with planetarium and butterfly house.",
+  "Calas y playas de la Costa Tropical granadina.": "Coves and beaches on Granada's Tropical Coast.",
+  "La calle de las tapas gratis por excelencia.": "The quintessential free-tapas street.",
+  "Taberna histórica de tapas y vinos a granel.": "A historic tavern of tapas and barrel wine.",
+  "Cocina granadina en un carmen con vistas a la Alhambra.": "Granada cuisine in a carmen with Alhambra views.",
+  "Clásico de la ciudad, antiguo café de Lorca.": "A city classic, once the café of poet Lorca.",
+  "El contundente plato alpujarreño de montaña.": "The hearty Alpujarra mountain platter.",
+  "Granada": "Granada"
+ }
+}

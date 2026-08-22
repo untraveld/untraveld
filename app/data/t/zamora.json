@@ -1,0 +1,583 @@
+{
+ "id": "zamora",
+ "name": "Zamora",
+ "country": "ES",
+ "center": [
+  41.50363,
+  -5.74661
+ ],
+ "pois": [
+  {
+   "id": "zam_catedral",
+   "cat": "monuments",
+   "name": "Catedral de Zamora y su cimborrio",
+   "icon": "⛪",
+   "lat": 41.49912,
+   "lng": -5.75455,
+   "desc": "Catedral románica del siglo XII coronada por un singular cimborrio de escamas."
+  },
+  {
+   "id": "zam_castillo",
+   "cat": "monuments",
+   "name": "Castillo de Zamora",
+   "icon": "🏰",
+   "lat": 41.49998,
+   "lng": -5.75609,
+   "desc": "Fortaleza medieval junto a la catedral, con jardines y miradores sobre el Duero."
+  },
+  {
+   "id": "zam_puente_piedra",
+   "cat": "monuments",
+   "name": "Puente de Piedra",
+   "icon": "🌉",
+   "lat": 41.499562,
+   "lng": -5.748149,
+   "desc": "Puente románico-gótico de dieciséis arcos sobre el río Duero."
+  },
+  {
+   "id": "zam_acenas_olivares",
+   "cat": "monuments",
+   "name": "Aceñas de Olivares",
+   "icon": "🌾",
+   "lat": 41.497589,
+   "lng": -5.754324,
+   "desc": "Antiguos molinos hidráulicos medievales a orillas del Duero."
+  },
+  {
+   "id": "zam_santa_maria_nueva",
+   "cat": "monuments",
+   "name": "Iglesia de Santa María la Nueva",
+   "icon": "⛪",
+   "lat": 41.503231,
+   "lng": -5.749201,
+   "desc": "Templo románico ligado al Motín de la Trucha y a la Semana Santa."
+  },
+  {
+   "id": "zam_san_juan",
+   "cat": "monuments",
+   "name": "Iglesia de San Juan de Puerta Nueva",
+   "icon": "⛪",
+   "lat": 41.50341,
+   "lng": -5.746979,
+   "desc": "Joya románica en plena Plaza Mayor con célebre rosetón."
+  },
+  {
+   "id": "zam_santiago_burgo",
+   "cat": "monuments",
+   "name": "Iglesia de Santiago del Burgo",
+   "icon": "⛪",
+   "lat": 41.505144,
+   "lng": -5.744163,
+   "desc": "Una de las iglesias románicas mejor conservadas de la ciudad."
+  },
+  {
+   "id": "zam_museo_semana_santa",
+   "cat": "monuments",
+   "name": "Museo de Semana Santa de Zamora",
+   "icon": "🎭",
+   "lat": 41.503302,
+   "lng": -5.749084,
+   "desc": "Museo con los pasos procesionales de la afamada Semana Santa."
+  },
+  {
+   "id": "zam_colegiata_toro",
+   "cat": "monuments",
+   "name": "Colegiata de Santa María la Mayor de Toro",
+   "icon": "⛪",
+   "lat": 41.51788,
+   "lng": -5.39566,
+   "desc": "Colegiata románico-gótica famosa por su Pórtico de la Majestad."
+  },
+  {
+   "id": "zam_castillo_sanabria",
+   "cat": "monuments",
+   "name": "Castillo de Puebla de Sanabria",
+   "icon": "🏰",
+   "lat": 42.05561,
+   "lng": -6.63083,
+   "desc": "Castillo del siglo XV que domina uno de los pueblos más bonitos de España."
+  },
+  {
+   "id": "zam_torre_caracol",
+   "cat": "monuments",
+   "name": "Torre del Caracol de Benavente",
+   "icon": "🏰",
+   "lat": 42.00386,
+   "lng": -5.68168,
+   "desc": "Torre renacentista, único resto del palacio de los Condes de Benavente."
+  },
+  {
+   "id": "zam_lago_sanabria",
+   "cat": "nature",
+   "name": "Lago de Sanabria",
+   "icon": "🏞️",
+   "lat": 42.11833,
+   "lng": -6.72,
+   "desc": "El mayor lago de origen glaciar de España, en un parque natural."
+  },
+  {
+   "id": "zam_arribes_duero",
+   "cat": "nature",
+   "name": "Parque Natural de los Arribes del Duero",
+   "icon": "🦅",
+   "lat": 41.3148,
+   "lng": -6.402,
+   "desc": "Espectaculares cañones fluviales fronterizos entre España y Portugal."
+  },
+  {
+   "id": "zam_sierra_culebra",
+   "cat": "nature",
+   "name": "Sierra de la Culebra",
+   "icon": "⛰️",
+   "lat": 41.83,
+   "lng": -6.35,
+   "desc": "Reserva de caza y uno de los mejores lugares de Europa para ver lobos."
+  },
+  {
+   "id": "zam_mirador_barrancas",
+   "cat": "nature",
+   "name": "Mirador de Las Barrancas (Fermoselle)",
+   "icon": "🌄",
+   "lat": 41.2982,
+   "lng": -6.4235,
+   "desc": "Balcón vertiginoso sobre los meandros del Duero en los Arribes."
+  },
+  {
+   "id": "zam_laguna_peces",
+   "cat": "nature",
+   "name": "Laguna de los Peces",
+   "icon": "🏞️",
+   "lat": 42.1452,
+   "lng": -6.762,
+   "desc": "Laguna glaciar de alta montaña en la meseta del parque de Sanabria."
+  },
+  {
+   "id": "zam_crucero_arribes",
+   "cat": "ocio",
+   "name": "Crucero ambiental por los Arribes del Duero",
+   "icon": "⛵",
+   "lat": 41.3033,
+   "lng": -6.4489,
+   "desc": "Paseo en barco por el cañón del Duero entre paredes de roca."
+  },
+  {
+   "id": "zam_ruta_vino_toro",
+   "cat": "ocio",
+   "name": "Ruta del Vino de Toro",
+   "icon": "🍷",
+   "lat": 41.5198,
+   "lng": -5.3942,
+   "desc": "Visitas y catas en las bodegas de la Denominación de Origen Toro."
+  },
+  {
+   "id": "zam_lobos_culebra",
+   "cat": "ocio",
+   "name": "Observación de lobos en la Sierra de la Culebra",
+   "icon": "🐺",
+   "lat": 41.85,
+   "lng": -6.36,
+   "desc": "Safari fotográfico guiado para avistar al lobo ibérico en libertad."
+  },
+  {
+   "id": "zam_rincon_antonio",
+   "cat": "food",
+   "name": "El Rincón de Antonio",
+   "icon": "🍽️",
+   "lat": 41.502145,
+   "lng": -5.748729,
+   "desc": "Cocina zamorana de autor en el casco histórico de Zamora."
+  },
+  {
+   "id": "zam_casa_mariano",
+   "cat": "food",
+   "name": "Lechazo asado en Benavente",
+   "icon": "🥩",
+   "lat": 42.0023,
+   "lng": -5.6798,
+   "desc": "Cordero lechal asado en horno de leña, seña de identidad benaventana."
+  },
+  {
+   "id": "zam_pulpo_sanabres",
+   "cat": "food",
+   "name": "Pulpo y setas en Puebla de Sanabria",
+   "icon": "🐙",
+   "lat": 42.0561,
+   "lng": -6.6325,
+   "desc": "Pulpo a la sanabresa y setas de temporada en la comarca de Sanabria."
+  },
+  {
+   "id": "zam_bacalao_tranca",
+   "cat": "food",
+   "name": "Bacalao a la tranca y tapas en Zamora",
+   "icon": "🍤",
+   "lat": 41.5032,
+   "lng": -5.7479,
+   "desc": "Tapa emblemática de bacalao rebozado y vinos por el casco antiguo."
+  },
+  {
+   "id": "zam_mesa_toro",
+   "cat": "food",
+   "name": "Carnes a la brasa y vino en Toro",
+   "icon": "🍷",
+   "lat": 41.5193,
+   "lng": -5.3948,
+   "desc": "Chuletón y embutidos maridados con los tintos de la DO Toro."
+  }
+ ],
+ "extra": {
+  "zam_catedral": {
+   "id": "zam_catedral",
+   "d": "Consagrada en 1174, es la más pequeña de las catedrales castellanas pero la más original: su cimborrio bizantino de gallones y escamas de piedra es emblema de la ciudad. Guarda el célebre tapiz flamenco y la Puerta del Obispo.",
+   "d_en": "Consecrated in 1174, it is the smallest of the Castilian cathedrals but the most original: its Byzantine-inspired ribbed, scale-tiled dome is the city's emblem. It holds famous Flemish tapestries and the Bishop's Door.",
+   "h": "Martes a domingo 10:00–20:00 (invierno hasta 18:00)",
+   "h_en": "Tuesday to Sunday 10:00–20:00 (winter until 18:00)",
+   "i": "Ideal si te gusta el arte románico y la arquitectura singular.",
+   "i_en": "Ideal if you like Romanesque art and unique architecture."
+  },
+  "zam_castillo": {
+   "id": "zam_castillo",
+   "d": "Levantado entre los siglos XI y XII, defendía el flanco oeste de la ciudad. Hoy conserva torre del homenaje, foso y adarves, y sus jardines ofrecen una de las mejores vistas del cañón del Duero.",
+   "d_en": "Built between the 11th and 12th centuries to defend the city's western flank. It preserves its keep, moat and wall-walks, and its gardens offer one of the best views of the Duero gorge.",
+   "h": "Martes a domingo 10:00–14:00 y 17:00–20:00",
+   "h_en": "Tuesday to Sunday 10:00–14:00 and 17:00–20:00",
+   "i": "Ideal si te gustan las fortalezas y las vistas panorámicas.",
+   "i_en": "Ideal if you like fortresses and panoramic views."
+  },
+  "zam_puente_piedra": {
+   "id": "zam_puente_piedra",
+   "d": "Construido en los siglos XII–XIII, fue la entrada principal a la ciudad desde el sur. Sus tajamares y pretiles almenados lo convierten en uno de los rincones más fotografiados de Zamora, sobre todo al atardecer.",
+   "d_en": "Built in the 12th–13th centuries, it was the city's main entrance from the south. Its cutwaters and battlemented parapets make it one of Zamora's most photographed spots, especially at sunset.",
+   "h": "Acceso libre todo el día",
+   "h_en": "Free access all day",
+   "i": "Ideal si te gustan los paseos junto al río y la fotografía.",
+   "i_en": "Ideal if you like riverside walks and photography."
+  },
+  "zam_acenas_olivares": {
+   "id": "zam_acenas_olivares",
+   "d": "Documentadas desde el siglo X, estas aceñas molían grano aprovechando la corriente del Duero. Restauradas como centro de interpretación, muestran la maquinaria original y forman un conjunto pintoresco junto a las presas del río.",
+   "d_en": "Documented since the 10th century, these mills ground grain using the Duero's current. Restored as an interpretation centre, they display the original machinery within a picturesque riverside setting.",
+   "h": "Martes a domingo 10:30–14:00 y 17:00–19:30",
+   "h_en": "Tuesday to Sunday 10:30–14:00 and 17:00–19:30",
+   "i": "Ideal si te gusta el patrimonio industrial y los paisajes fluviales.",
+   "i_en": "Ideal if you like industrial heritage and river landscapes."
+  },
+  "zam_santa_maria_nueva": {
+   "id": "zam_santa_maria_nueva",
+   "d": "De origen románico y reconstruida en el siglo XII tras el legendario Motín de la Trucha, alberga la hermandad más antigua de la Semana Santa zamorana. Junto a ella está el Museo de Semana Santa.",
+   "d_en": "Of Romanesque origin and rebuilt in the 12th century after the legendary Trout Riot, it houses the oldest brotherhood of Zamora's Holy Week. The Holy Week Museum stands beside it.",
+   "h": "Martes a domingo 10:00–14:00 y 17:00–20:00",
+   "h_en": "Tuesday to Sunday 10:00–14:00 and 17:00–20:00",
+   "i": "Ideal si te gustan la historia local y las tradiciones religiosas.",
+   "i_en": "Ideal if you like local history and religious traditions."
+  },
+  "zam_san_juan": {
+   "id": "zam_san_juan",
+   "d": "Situada en el corazón de la Plaza Mayor, destaca por su rosetón calado de tracería radial y por los relieves de sus portadas, entre ellos el enigmático juglar. Es una de las once iglesias románicas del casco antiguo.",
+   "d_en": "Set in the heart of the Plaza Mayor, it stands out for its openwork radial rose window and the reliefs of its doorways, including the enigmatic minstrel. It is one of the old town's eleven Romanesque churches.",
+   "h": "Horario de culto y visitas 11:00–13:30 y 18:00–20:00",
+   "h_en": "Worship and visiting hours 11:00–13:30 and 18:00–20:00",
+   "i": "Ideal si te gustan los detalles escultóricos románicos.",
+   "i_en": "Ideal if you like Romanesque sculptural detail."
+  },
+  "zam_santiago_burgo": {
+   "id": "zam_santiago_burgo",
+   "d": "Templo del siglo XII de tres naves y ábsides semicirculares, considerado un modelo del románico zamorano por su equilibrio y sus tres portadas ricamente decoradas. Declarado Monumento Nacional.",
+   "d_en": "A 12th-century church with three naves and semicircular apses, considered a model of Zamoran Romanesque for its balance and three richly decorated doorways. Declared a National Monument.",
+   "h": "Martes a domingo 10:00–14:00 y 17:00–19:30",
+   "h_en": "Tuesday to Sunday 10:00–14:00 and 17:00–19:30",
+   "i": "Ideal si te gusta el románico puro y la arquitectura sacra.",
+   "i_en": "Ideal if you like pure Romanesque and sacred architecture."
+  },
+  "zam_museo_semana_santa": {
+   "id": "zam_museo_semana_santa",
+   "d": "Reúne los pasos y tallas que recorren las calles durante la Semana Santa de Zamora, declarada de Interés Turístico Internacional. Obras de imagineros como Ramón Álvarez explican una tradición sobria y multitudinaria.",
+   "d_en": "It gathers the floats and carvings paraded during Zamora's Holy Week, of International Tourist Interest. Works by sculptors such as Ramón Álvarez explain a sober, massively followed tradition.",
+   "h": "Martes a domingo 10:00–14:00 y 17:00–20:00",
+   "h_en": "Tuesday to Sunday 10:00–14:00 and 17:00–20:00",
+   "i": "Ideal si te gustan la imaginería y las tradiciones populares.",
+   "i_en": "Ideal if you like religious imagery and popular traditions."
+  },
+  "zam_colegiata_toro": {
+   "id": "zam_colegiata_toro",
+   "d": "Iniciada en el siglo XII, corona la villa de Toro sobre el Duero. Su Pórtico de la Majestad conserva la policromía medieval original y en su interior cuelga la célebre tabla 'La Virgen de la Mosca'.",
+   "d_en": "Begun in the 12th century, it crowns the town of Toro above the Duero. Its Portico of Majesty retains its original medieval polychromy, and inside hangs the famous panel 'The Virgin of the Fly'.",
+   "h": "Martes a domingo 10:00–14:00 y 16:30–19:00",
+   "h_en": "Tuesday to Sunday 10:00–14:00 and 16:30–19:00",
+   "i": "Ideal si te gustan el arte medieval y las vistas al Duero.",
+   "i_en": "Ideal if you like medieval art and Duero views."
+  },
+  "zam_castillo_sanabria": {
+   "id": "zam_castillo_sanabria",
+   "d": "Construido por los Condes de Benavente, con su imponente torre del Macho, preside el casco medieval de Puebla de Sanabria, de callejuelas empedradas y casas de piedra y pizarra. Alberga exposiciones y miradores.",
+   "d_en": "Built by the Counts of Benavente, with its imposing 'Macho' tower, it presides over the medieval old town of Puebla de Sanabria, with its cobbled lanes and stone-and-slate houses. It hosts exhibitions and viewpoints.",
+   "h": "Todos los días 10:30–14:00 y 16:00–19:00",
+   "h_en": "Daily 10:30–14:00 and 16:00–19:00",
+   "i": "Ideal si te gustan los pueblos con encanto y los castillos.",
+   "i_en": "Ideal if you like charming villages and castles."
+  },
+  "zam_torre_caracol": {
+   "id": "zam_torre_caracol",
+   "d": "Del antiguo castillo-palacio del siglo XVI solo pervive esta torre pentagonal, hoy integrada en el Parador de Benavente. Conserva un magnífico artesonado mudéjar y domina la vega del Esla.",
+   "d_en": "Only this pentagonal tower survives from the 16th-century castle-palace, now part of the Parador de Benavente. It preserves a magnificent Mudéjar coffered ceiling and overlooks the Esla plain.",
+   "h": "Consultar en el Parador; entorno de acceso libre",
+   "h_en": "Check at the Parador; grounds freely accessible",
+   "i": "Ideal si te gustan la arquitectura mudéjar y la historia nobiliaria.",
+   "i_en": "Ideal if you like Mudéjar architecture and noble history."
+  },
+  "zam_lago_sanabria": {
+   "id": "zam_lago_sanabria",
+   "d": "Formado por un glaciar hace más de 100.000 años, alcanza 51 metros de profundidad. Sus playas, rutas de senderismo y aguas cristalinas lo hacen ideal para el baño, el kayak y la observación de flora y fauna de montaña.",
+   "d_en": "Formed by a glacier over 100,000 years ago, it reaches 51 metres deep. Its beaches, hiking trails and crystalline waters make it perfect for swimming, kayaking and watching mountain flora and fauna.",
+   "h": "Acceso libre; casa del parque 10:00–14:00 y 16:00–18:00",
+   "h_en": "Free access; park house 10:00–14:00 and 16:00–18:00",
+   "i": "Ideal si te gustan los baños en la naturaleza y el senderismo.",
+   "i_en": "Ideal if you like wild swimming and hiking."
+  },
+  "zam_arribes_duero": {
+   "id": "zam_arribes_duero",
+   "d": "El Duero excava aquí gargantas de hasta 200 metros que crean un microclima mediterráneo con olivos, almendros y viñedos. Refugio de buitres leonados, alimoches y águilas, es paraíso de miradores y rutas.",
+   "d_en": "Here the Duero carves gorges up to 200 metres deep, creating a Mediterranean microclimate of olive, almond and vine. A refuge for griffon vultures, Egyptian vultures and eagles, it is a paradise of viewpoints and trails.",
+   "h": "Acceso libre todo el año",
+   "h_en": "Free access all year",
+   "i": "Ideal si te gustan los paisajes escarpados y la observación de aves.",
+   "i_en": "Ideal if you like rugged landscapes and birdwatching."
+  },
+  "zam_sierra_culebra": {
+   "id": "zam_sierra_culebra",
+   "d": "Extensa sierra de montes de pizarra, brezales y bosques de roble y pino que alberga la mayor población de lobo ibérico de Europa Occidental, junto a ciervos y corzos. Sus amaneceres son cita obligada para naturalistas.",
+   "d_en": "A vast range of slate hills, heathland and oak-and-pine woods, home to the largest Iberian wolf population in Western Europe, alongside red and roe deer. Its dawns are a must for naturalists.",
+   "h": "Acceso libre; mejor al amanecer y atardecer",
+   "h_en": "Free access; best at dawn and dusk",
+   "i": "Ideal si te gusta la fauna salvaje y los grandes espacios.",
+   "i_en": "Ideal if you like wildlife and wide-open spaces."
+  },
+  "zam_mirador_barrancas": {
+   "id": "zam_mirador_barrancas",
+   "d": "A las afueras de Fermoselle, este mirador se asoma al encajonamiento del Duero donde el río hace frontera con Portugal. Vistas de bancales de vid centenaria, buitres en vuelo y aguas embalsadas cientos de metros abajo.",
+   "d_en": "On the edge of Fermoselle, this viewpoint overlooks the Duero's deep gorge where the river borders Portugal. Views of century-old vine terraces, soaring vultures and dammed waters hundreds of metres below.",
+   "h": "Acceso libre todo el día",
+   "h_en": "Free access all day",
+   "i": "Ideal si te gustan los miradores y la fotografía de paisaje.",
+   "i_en": "Ideal if you like viewpoints and landscape photography."
+  },
+  "zam_laguna_peces": {
+   "id": "zam_laguna_peces",
+   "d": "Situada a más de 1.700 metros, es una de las lagunas glaciares que salpican la meseta sobre el Lago de Sanabria. Punto de partida de rutas de montaña entre praderas, turberas y ganado de la sierra Segundera.",
+   "d_en": "Sitting above 1,700 metres, it is one of the glacial tarns dotting the plateau above Lake Sanabria. A starting point for mountain trails among meadows, peat bogs and the grazing herds of the Segundera range.",
+   "h": "Acceso libre; carretera cerrada con nieve en invierno",
+   "h_en": "Free access; road closed by snow in winter",
+   "i": "Ideal si te gustan la alta montaña y las rutas solitarias.",
+   "i_en": "Ideal if you like high mountains and solitary trails."
+  },
+  "zam_crucero_arribes": {
+   "id": "zam_crucero_arribes",
+   "d": "Embarcaciones ambientales navegan el tramo embalsado del Duero mostrando de cerca las paredes graníticas, las colonias de buitres y la vegetación mediterránea de los Arribes. Una forma tranquila de sentir la escala del cañón.",
+   "d_en": "Eco-boats cruise the dammed stretch of the Duero, offering close-up views of the granite walls, vulture colonies and Mediterranean vegetation of the Arribes. A calm way to feel the canyon's scale.",
+   "h": "Salidas diarias en temporada; reserva recomendada",
+   "h_en": "Daily departures in season; booking recommended",
+   "i": "Ideal si te gustan los paseos en barco y la naturaleza.",
+   "i_en": "Ideal if you like boat trips and nature."
+  },
+  "zam_ruta_vino_toro": {
+   "id": "zam_ruta_vino_toro",
+   "d": "La villa de Toro y sus alrededores concentran bodegas históricas y modernas donde catar los intensos tintos de Tinta de Toro. La ruta combina viñedos centenarios, bodegas subterráneas y gastronomía local.",
+   "d_en": "The town of Toro and its surroundings gather historic and modern wineries to taste the intense Tinta de Toro reds. The route combines century-old vineyards, underground cellars and local cuisine.",
+   "h": "Según bodega; muchas requieren reserva previa",
+   "h_en": "Varies by winery; many require advance booking",
+   "i": "Ideal si te gusta el enoturismo y la buena mesa.",
+   "i_en": "Ideal if you like wine tourism and good food."
+  },
+  "zam_lobos_culebra": {
+   "id": "zam_lobos_culebra",
+   "d": "Guías locales conducen a los visitantes a puntos estratégicos al amanecer para observar, con prismáticos y telescopios, manadas de lobo ibérico, ciervos y aves rapaces. Una experiencia de turismo de naturaleza única en Europa.",
+   "d_en": "Local guides take visitors to strategic points at dawn to watch, with binoculars and telescopes, packs of Iberian wolves, deer and birds of prey. A nature-tourism experience unique in Europe.",
+   "h": "Salidas al amanecer y atardecer; imprescindible reservar",
+   "h_en": "Dawn and dusk outings; booking essential",
+   "i": "Ideal si te gustan la fauna salvaje y la fotografía de naturaleza.",
+   "i_en": "Ideal if you like wildlife and nature photography."
+  },
+  "zam_rincon_antonio": {
+   "id": "zam_rincon_antonio",
+   "d": "Referente gastronómico de la ciudad, revisita el recetario tradicional con productos de la tierra: garbanzos de Fuentesaúco, setas, bacalao y vinos de Toro. Menús degustación y ambiente elegante junto a la calle Santa Clara.",
+   "d_en": "A gastronomic landmark of the city, it reworks the traditional recipe book with local products: Fuentesaúco chickpeas, wild mushrooms, cod and Toro wines. Tasting menus and an elegant setting near Santa Clara street.",
+   "h": "Martes a sábado 13:30–15:30 y 21:00–23:00",
+   "h_en": "Tuesday to Saturday 13:30–15:30 and 21:00–23:00",
+   "i": "Ideal si te gusta la alta cocina de producto local.",
+   "i_en": "Ideal if you like fine dining based on local produce."
+  },
+  "zam_casa_mariano": {
+   "id": "zam_casa_mariano",
+   "d": "El lechazo de raza churra asado en horno de barro, jugoso y de piel crujiente, es el gran clásico de los asadores de Benavente. Se acompaña de ensalada y de un tinto de la tierra en mesones de larga tradición.",
+   "d_en": "Churra-breed milk-fed lamb roasted in a clay oven, juicy with crisp skin, is the great classic of Benavente's roast houses. Served with salad and a local red in long-established taverns.",
+   "h": "Todos los días 13:30–16:00; cena con reserva",
+   "h_en": "Daily 13:30–16:00; dinner by reservation",
+   "i": "Ideal si te gustan los asados y la cocina castellana contundente.",
+   "i_en": "Ideal if you like roasts and hearty Castilian cooking."
+  },
+  "zam_pulpo_sanabres": {
+   "id": "zam_pulpo_sanabres",
+   "d": "Los mesones del casco medieval sirven pulpo cocido con pimentón y aceite, setas y níscalos de los bosques cercanos, truchas del río y habones de Sanabria. Cocina de montaña honesta con vistas al castillo.",
+   "d_en": "The taverns of the medieval old town serve boiled octopus with paprika and oil, mushrooms from nearby woods, river trout and Sanabria beans. Honest mountain cooking with castle views.",
+   "h": "Todos los días 13:00–16:00 y 20:30–22:30",
+   "h_en": "Daily 13:00–16:00 and 20:30–22:30",
+   "i": "Ideal si te gustan el pulpo, las setas y la cocina de interior.",
+   "i_en": "Ideal if you like octopus, mushrooms and inland cooking."
+  },
+  "zam_bacalao_tranca": {
+   "id": "zam_bacalao_tranca",
+   "d": "El bacalao a la tranca, tacos de bacalao rebozados y fritos, es la tapa más popular de los bares de Zamora, a menudo junto a la 'presa' de matanza. Un tapeo animado por las calles de Los Herreros y la Plaza Mayor.",
+   "d_en": "Bacalao a la tranca, chunks of battered fried cod, is the most popular tapa in Zamora's bars, often alongside cured 'presa'. A lively tapas crawl through Los Herreros street and the Plaza Mayor.",
+   "h": "Todos los días 12:00–15:30 y 19:30–23:30",
+   "h_en": "Daily 12:00–15:30 and 19:30–23:30",
+   "i": "Ideal si te gusta el tapeo y el ambiente de barra.",
+   "i_en": "Ideal if you like tapas and a lively bar scene."
+  },
+  "zam_mesa_toro": {
+   "id": "zam_mesa_toro",
+   "d": "En los mesones de Toro la carne roja a la brasa y los embutidos de la matanza se acompañan de los intensos tintos locales. Muchos restaurantes cuentan con bodega propia y terrazas asomadas al valle del Duero.",
+   "d_en": "In Toro's taverns, chargrilled red meat and cured pork are served with the intense local reds. Many restaurants have their own cellar and terraces overlooking the Duero valley.",
+   "h": "Todos los días 13:30–16:00 y 21:00–23:00",
+   "h_en": "Daily 13:30–16:00 and 21:00–23:00",
+   "i": "Ideal si te gustan la carne a la brasa y el buen vino.",
+   "i_en": "Ideal if you like chargrilled meat and good wine."
+  }
+ },
+ "food": {
+  "zam_rincon_antonio": {
+   "cuisine": "Cocina zamorana de autor",
+   "price": "35–60 €",
+   "hours": "Martes a sábado 13:30–15:30 y 21:00–23:00; domingo mediodía"
+  },
+  "zam_casa_mariano": {
+   "cuisine": "Asador castellano",
+   "price": "30–45 €",
+   "hours": "Todos los días 13:30–16:00; cena con reserva"
+  },
+  "zam_pulpo_sanabres": {
+   "cuisine": "Cocina de montaña sanabresa",
+   "price": "20–35 €",
+   "hours": "Todos los días 13:00–16:00 y 20:30–22:30"
+  },
+  "zam_bacalao_tranca": {
+   "cuisine": "Tapas tradicionales zamoranas",
+   "price": "10–20 €",
+   "hours": "Todos los días 12:00–15:30 y 19:30–23:30"
+  },
+  "zam_mesa_toro": {
+   "cuisine": "Asador y enogastronomía",
+   "price": "25–45 €",
+   "hours": "Todos los días 13:30–16:00 y 21:00–23:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Zamora",
+   "items": [
+    {
+     "name": "Queso Zamorano DOP",
+     "price": "10–25 €",
+     "desc": "Queso curado de oveja churra y castellana, amparado por Denominación de Origen."
+    },
+    {
+     "name": "Vino de Toro DO",
+     "price": "6–30 €",
+     "desc": "Tintos potentes de uva Tinta de Toro (Tempranillo), criados en las bodegas de Toro."
+    },
+    {
+     "name": "Cerámica de Pereruela",
+     "price": "12–45 €",
+     "desc": "Cazuelas y pucheros de barro refractario que resiste el fuego directo, artesanía milenaria."
+    },
+    {
+     "name": "Garbanzos de Fuentesaúco IGP",
+     "price": "4–10 €",
+     "desc": "Legumbre de grano fino y mantecoso, protegida por Indicación Geográfica."
+    },
+    {
+     "name": "Dulces conventuales",
+     "price": "5–15 €",
+     "desc": "Rebojos, mantecados y aceitadas elaborados según recetas tradicionales zamoranas."
+    }
+   ],
+   "shops": [
+    "Mercado de Abastos de Zamora",
+    "Tiendas gourmet del casco antiguo (calle Santa Clara)",
+    "Bodegas y vinotecas de Toro",
+    "Alfarerías de Pereruela y Moveros"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "La Semana Santa de Zamora es de Interés Turístico Internacional; reserva alojamiento con varios meses de antelación.",
+   "Zamora reúne el mayor conjunto de románico urbano de Europa: recorre a pie la 'Ruta del Románico' por el casco histórico.",
+   "En verano llega temprano al Lago de Sanabria: el aparcamiento de las playas se satura y hay control de acceso.",
+   "Combina la visita a Toro con una cata de vino DO Toro; muchas bodegas exigen reserva previa.",
+   "En los Arribes del Duero madruga para ver buitres y contempla el cañón desde los miradores de Fermoselle."
+  ],
+  "en": [
+   "Zamora's Holy Week is of International Tourist Interest; book accommodation several months ahead.",
+   "Zamora has Europe's largest concentration of urban Romanesque art: walk the 'Romanesque Route' through the old town.",
+   "In summer arrive early at Lake Sanabria: the beach car parks fill up and access is controlled.",
+   "Pair your Toro visit with a DO Toro wine tasting; many wineries require advance booking.",
+   "In the Arribes del Duero get up early to spot vultures and admire the canyon from Fermoselle's viewpoints."
+  ]
+ },
+ "climate": {
+  "hi": [
+   9,
+   12,
+   16,
+   17,
+   22,
+   28,
+   31,
+   30,
+   26,
+   19,
+   13,
+   9
+  ],
+  "lo": [
+   1,
+   2,
+   4,
+   6,
+   9,
+   13,
+   15,
+   15,
+   12,
+   8,
+   4,
+   2
+  ]
+ },
+ "tr": {
+  "Catedral románica del siglo XII coronada por un singular cimborrio de escamas.": "12th-century Romanesque cathedral crowned by a unique scale-tiled dome.",
+  "Fortaleza medieval junto a la catedral, con jardines y miradores sobre el Duero.": "Medieval fortress next to the cathedral, with gardens and Duero viewpoints.",
+  "Puente románico-gótico de dieciséis arcos sobre el río Duero.": "Romanesque-Gothic bridge of sixteen arches over the river Duero.",
+  "Antiguos molinos hidráulicos medievales a orillas del Duero.": "Old medieval water mills on the banks of the Duero.",
+  "Templo románico ligado al Motín de la Trucha y a la Semana Santa.": "Romanesque church linked to the Trout Riot and Holy Week.",
+  "Joya románica en plena Plaza Mayor con célebre rosetón.": "Romanesque gem on the Plaza Mayor with a famous rose window.",
+  "Una de las iglesias románicas mejor conservadas de la ciudad.": "One of the best-preserved Romanesque churches in the city.",
+  "Museo con los pasos procesionales de la afamada Semana Santa.": "Museum housing the processional floats of the famous Holy Week.",
+  "Colegiata románico-gótica famosa por su Pórtico de la Majestad.": "Romanesque-Gothic collegiate famed for its Portico of Majesty.",
+  "Castillo del siglo XV que domina uno de los pueblos más bonitos de España.": "15th-century castle overlooking one of Spain's prettiest villages.",
+  "Torre renacentista, único resto del palacio de los Condes de Benavente.": "Renaissance tower, the only remnant of the Counts of Benavente's palace.",
+  "El mayor lago de origen glaciar de España, en un parque natural.": "The largest glacial lake in Spain, within a natural park.",
+  "Espectaculares cañones fluviales fronterizos entre España y Portugal.": "Spectacular river canyons on the Spain-Portugal border.",
+  "Reserva de caza y uno de los mejores lugares de Europa para ver lobos.": "Game reserve and one of the best places in Europe to see wolves.",
+  "Balcón vertiginoso sobre los meandros del Duero en los Arribes.": "Dizzying balcony over the Duero's meanders in the Arribes.",
+  "Laguna glaciar de alta montaña en la meseta del parque de Sanabria.": "High-mountain glacial lagoon on the Sanabria park plateau.",
+  "Paseo en barco por el cañón del Duero entre paredes de roca.": "Boat trip through the Duero canyon between rock walls.",
+  "Visitas y catas en las bodegas de la Denominación de Origen Toro.": "Visits and tastings at wineries of the Toro Denomination of Origin.",
+  "Safari fotográfico guiado para avistar al lobo ibérico en libertad.": "Guided photo safari to spot the Iberian wolf in the wild.",
+  "Cocina zamorana de autor en el casco histórico de Zamora.": "Author's Zamoran cuisine in Zamora's old town.",
+  "Cordero lechal asado en horno de leña, seña de identidad benaventana.": "Milk-fed lamb roasted in a wood-fired oven, a Benavente signature.",
+  "Pulpo a la sanabresa y setas de temporada en la comarca de Sanabria.": "Sanabria-style octopus and seasonal mushrooms in the Sanabria region.",
+  "Tapa emblemática de bacalao rebozado y vinos por el casco antiguo.": "Emblematic battered cod tapa and wines around the old town.",
+  "Chuletón y embutidos maridados con los tintos de la DO Toro.": "Rib steak and cured meats paired with DO Toro reds.",
+  "Zamora": "Zamora"
+ }
+}

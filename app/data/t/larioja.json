@@ -1,0 +1,583 @@
+{
+ "id": "larioja",
+ "name": "La Rioja",
+ "country": "ES",
+ "center": [
+  42.4627,
+  -2.4449
+ ],
+ "pois": [
+  {
+   "id": "rio_concatedral_redonda",
+   "cat": "monuments",
+   "name": "Concatedral de Santa María de la Redonda",
+   "icon": "⛪",
+   "lat": 42.46648,
+   "lng": -2.44835,
+   "desc": "Concatedral barroca de Logroño con sus dos torres gemelas 'Las Gemelas'."
+  },
+  {
+   "id": "rio_puente_piedra",
+   "cat": "monuments",
+   "name": "Puente de Piedra de Logroño",
+   "icon": "🌉",
+   "lat": 42.46795,
+   "lng": -2.44583,
+   "desc": "Puente histórico sobre el Ebro, paso del Camino de Santiago."
+  },
+  {
+   "id": "rio_muralla_revellin",
+   "cat": "monuments",
+   "name": "Muralla del Revellín",
+   "icon": "🏰",
+   "lat": 42.4668,
+   "lng": -2.45115,
+   "desc": "Resto de la muralla renacentista de Logroño y su puerta monumental."
+  },
+  {
+   "id": "rio_catedral_santo_domingo",
+   "cat": "monuments",
+   "name": "Catedral de Santo Domingo de la Calzada",
+   "icon": "🐔",
+   "lat": 42.4405,
+   "lng": -2.9536,
+   "desc": "Catedral románico-gótica famosa por el gallinero con gallo y gallina vivos."
+  },
+  {
+   "id": "rio_yuso",
+   "cat": "monuments",
+   "name": "Monasterio de San Millán de Yuso",
+   "icon": "📜",
+   "lat": 42.32603,
+   "lng": -2.86603,
+   "desc": "Gran monasterio 'de abajo', Patrimonio de la Humanidad y cuna del castellano."
+  },
+  {
+   "id": "rio_suso",
+   "cat": "monuments",
+   "name": "Monasterio de San Millán de Suso",
+   "icon": "⛪",
+   "lat": 42.3268,
+   "lng": -2.8723,
+   "desc": "Monasterio 'de arriba' visigótico-mozárabe, origen del cenobio."
+  },
+  {
+   "id": "rio_santa_maria_najera",
+   "cat": "monuments",
+   "name": "Monasterio de Santa María la Real de Nájera",
+   "icon": "👑",
+   "lat": 42.4168,
+   "lng": -2.7331,
+   "desc": "Panteón real de los reyes de Navarra bajo un acantilado rojizo."
+  },
+  {
+   "id": "rio_catedral_calahorra",
+   "cat": "monuments",
+   "name": "Catedral de Santa María de Calahorra",
+   "icon": "⛪",
+   "lat": 42.3026,
+   "lng": -1.967,
+   "desc": "Catedral gótica junto al río Cidacos en la vieja Calagurris romana."
+  },
+  {
+   "id": "rio_castillo_clavijo",
+   "cat": "monuments",
+   "name": "Castillo de Clavijo",
+   "icon": "🏰",
+   "lat": 42.3482,
+   "lng": -2.4118,
+   "desc": "Ruinas de un castillo roquero ligado a la leyenda de Santiago Matamoros."
+  },
+  {
+   "id": "rio_valvanera",
+   "cat": "monuments",
+   "name": "Monasterio de Nuestra Señora de Valvanera",
+   "icon": "⛪",
+   "lat": 42.2323,
+   "lng": -2.8556,
+   "desc": "Monasterio benedictino en plena Sierra de la Demanda, patrona de La Rioja."
+  },
+  {
+   "id": "rio_sierra_cebollera",
+   "cat": "nature",
+   "name": "Parque Natural Sierra de Cebollera",
+   "icon": "🌲",
+   "lat": 42.065,
+   "lng": -2.66,
+   "desc": "Único parque natural de La Rioja, bosques, cascadas y hayedos."
+  },
+  {
+   "id": "rio_icnitas_enciso",
+   "cat": "nature",
+   "name": "Yacimientos de Icnitas de Enciso",
+   "icon": "🦕",
+   "lat": 42.141,
+   "lng": -2.266,
+   "desc": "Huellas fósiles de dinosaurios de hace 120 millones de años."
+  },
+  {
+   "id": "rio_arnedillo",
+   "cat": "nature",
+   "name": "Pozas termales de Arnedillo",
+   "icon": "♨️",
+   "lat": 42.2209,
+   "lng": -2.2376,
+   "desc": "Piscinas naturales de agua termal gratuita junto al río Cidacos."
+  },
+  {
+   "id": "rio_ezcaray",
+   "cat": "nature",
+   "name": "Ezcaray",
+   "icon": "🏔️",
+   "lat": 42.3278,
+   "lng": -3.006,
+   "desc": "Pueblo serrano de casas con soportales, puerta de la Sierra de la Demanda."
+  },
+  {
+   "id": "rio_grajera",
+   "cat": "nature",
+   "name": "Parque de La Grajera",
+   "icon": "🦆",
+   "lat": 42.446,
+   "lng": -2.501,
+   "desc": "Embalse y parque periurbano de Logroño para pasear y ver aves."
+  },
+  {
+   "id": "rio_barranco_perdido",
+   "cat": "ocio",
+   "name": "Parque de Paleoaventura El Barranco Perdido",
+   "icon": "🦖",
+   "lat": 42.1518,
+   "lng": -2.2703,
+   "desc": "Parque temático de dinosaurios y playa fósil en Enciso."
+  },
+  {
+   "id": "rio_valdezcaray",
+   "cat": "ocio",
+   "name": "Estación de esquí de Valdezcaray",
+   "icon": "⛷️",
+   "lat": 42.238,
+   "lng": -3.013,
+   "desc": "La estación de esquí de La Rioja, en la Sierra de la Demanda."
+  },
+  {
+   "id": "rio_vivanco",
+   "cat": "ocio",
+   "name": "Museo Vivanco de la Cultura del Vino",
+   "icon": "🍇",
+   "lat": 42.5388,
+   "lng": -2.7762,
+   "desc": "Uno de los mejores museos del vino del mundo, en Briones."
+  },
+  {
+   "id": "rio_espolon",
+   "cat": "ocio",
+   "name": "Paseo del Espolón",
+   "icon": "🌳",
+   "lat": 42.4642,
+   "lng": -2.4472,
+   "desc": "Plaza-jardín central de Logroño, corazón social de la ciudad."
+  },
+  {
+   "id": "rio_calle_laurel",
+   "cat": "food",
+   "name": "Calle Laurel",
+   "icon": "🍢",
+   "lat": 42.4656,
+   "lng": -2.447,
+   "desc": "La 'senda de los elefantes', epicentro del tapeo de pinchos de Logroño."
+  },
+  {
+   "id": "rio_barrio_estacion_haro",
+   "cat": "food",
+   "name": "Barrio de la Estación de Haro",
+   "icon": "🍷",
+   "lat": 42.5823,
+   "lng": -2.8476,
+   "desc": "La mayor concentración de bodegas centenarias del mundo."
+  },
+  {
+   "id": "rio_lopez_heredia",
+   "cat": "food",
+   "name": "Bodegas R. López de Heredia Viña Tondonia",
+   "icon": "🍾",
+   "lat": 42.5818,
+   "lng": -2.849,
+   "desc": "Bodega histórica de Haro con pabellón futurista de Zaha Hadid."
+  },
+  {
+   "id": "rio_marques_riscal",
+   "cat": "food",
+   "name": "Bodegas Marqués de Riscal (Elciego)",
+   "icon": "🏛️",
+   "lat": 42.5147,
+   "lng": -2.6223,
+   "desc": "Bodega riojana coronada por el icónico hotel de Frank Gehry."
+  },
+  {
+   "id": "rio_ysios",
+   "cat": "food",
+   "name": "Bodegas Ysios (Laguardia)",
+   "icon": "🍇",
+   "lat": 42.5623,
+   "lng": -2.5938,
+   "desc": "Bodega de vino de Rioja con onda arquitectura de Santiago Calatrava."
+  }
+ ],
+ "extra": {
+  "rio_concatedral_redonda": {
+   "id": "rio_concatedral_redonda",
+   "d": "Templo del siglo XV-XVIII en pleno casco antiguo, con fachada barroca, retablos dorados y un pequeño cuadro atribuido a Miguel Ángel. Sus torres gemelas dominan el skyline de la ciudad.",
+   "d_en": "A 15th–18th-century church in the old town, with a Baroque facade, gilded altarpieces and a small painting attributed to Michelangelo. Its twin towers dominate the city skyline.",
+   "h": "Lun–Sáb 8:00–13:00 y 18:30–20:45; Dom mañanas",
+   "h_en": "Mon–Sat 8:00–13:00 & 18:30–20:45; Sun mornings",
+   "i": "Ideal si te gusta el arte sacro y el casco histórico.",
+   "i_en": "Ideal if you like sacred art and historic old towns."
+  },
+  "rio_puente_piedra": {
+   "id": "rio_puente_piedra",
+   "d": "También llamado Puente de San Juan de Ortega, cruza el río Ebro y ha sido durante siglos la entrada de peregrinos a Logroño. El actual es del siglo XIX sobre un trazado medieval.",
+   "d_en": "Also called the Bridge of San Juan de Ortega, it crosses the Ebro and has for centuries been the pilgrims' entrance into Logroño. The current one is 19th-century over a medieval route.",
+   "h": "Acceso libre 24 h",
+   "h_en": "Open access 24 h",
+   "i": "Ideal si te gusta pasear junto al río y el Camino.",
+   "i_en": "Ideal if you like riverside walks and the pilgrim route."
+  },
+  "rio_muralla_revellin": {
+   "id": "rio_muralla_revellin",
+   "d": "Único lienzo conservado de las murallas del siglo XVI que defendieron la ciudad frente a las tropas francesas en 1521. Conserva la Puerta del Camino y un tramo del foso.",
+   "d_en": "The only preserved stretch of the 16th-century walls that defended the city against French troops in 1521. It keeps the Puerta del Camino gate and part of the moat.",
+   "h": "Exterior libre; visitas guiadas según programación",
+   "h_en": "Exterior free; guided visits per schedule",
+   "i": "Ideal si te gusta la historia militar y las fortificaciones.",
+   "i_en": "Ideal if you like military history and fortifications."
+  },
+  "rio_catedral_santo_domingo": {
+   "id": "rio_catedral_santo_domingo",
+   "d": "Erigida sobre la tumba de Santo Domingo, patrón de los ingenieros. Alberga un mausoleo, un notable retablo de Damián Forment y el célebre gallinero gótico que recuerda el milagro del ahorcado.",
+   "d_en": "Built over the tomb of Santo Domingo, patron of engineers. It holds a mausoleum, a fine altarpiece by Damián Forment and the famous Gothic henhouse recalling the miracle of the hanged pilgrim.",
+   "h": "Lun–Sáb 10:00–19:00; Dom horario reducido",
+   "h_en": "Mon–Sat 10:00–19:00; Sun reduced hours",
+   "i": "Ideal si te gusta el Camino de Santiago y las leyendas.",
+   "i_en": "Ideal if you like the Camino and its legends."
+  },
+  "rio_yuso": {
+   "id": "rio_yuso",
+   "d": "Conocido como 'El Escorial de La Rioja', conserva marfiles románicos, una rica biblioteca y códices. En sus manuscritos aparecen las Glosas Emilianenses, primeras anotaciones en romance castellano y euskera.",
+   "d_en": "Known as 'the Escorial of La Rioja', it holds Romanesque ivories, a rich library and codices. Its manuscripts contain the Glosas Emilianenses, the earliest notes in Castilian and Basque.",
+   "h": "Mar–Dom 10:00–13:30 y 16:00–18:30",
+   "h_en": "Tue–Sun 10:00–13:30 & 16:00–18:30",
+   "i": "Ideal si te gusta la historia de la lengua y los códices.",
+   "i_en": "Ideal if you like the history of language and codices."
+  },
+  "rio_suso": {
+   "id": "rio_suso",
+   "d": "Excavado en la ladera, mezcla arquitectura visigoda, mozárabe y románica en torno a la cueva del eremita San Millán. Se accede en bus lanzadera desde Yuso con reserva previa.",
+   "d_en": "Carved into the hillside, it blends Visigothic, Mozarabic and Romanesque styles around the cave of the hermit San Millán. Access is by shuttle bus from Yuso with prior booking.",
+   "h": "Mar–Dom con reserva; cerrado lunes",
+   "h_en": "Tue–Sun by reservation; closed Mondays",
+   "i": "Ideal si te gusta la arqueología y los orígenes medievales.",
+   "i_en": "Ideal if you like archaeology and medieval origins."
+  },
+  "rio_santa_maria_najera": {
+   "id": "rio_santa_maria_najera",
+   "d": "Fundado en 1052, alberga el claustro de los Caballeros de estilo gótico flamígero, el sepulcro de Doña Blanca de Navarra y la cueva donde apareció la imagen de la Virgen.",
+   "d_en": "Founded in 1052, it houses the Flamboyant Gothic Knights' Cloister, the tomb of Doña Blanca of Navarre and the cave where the image of the Virgin appeared.",
+   "h": "Mar–Sáb 10:00–13:30 y 16:00–19:00; Dom mañanas",
+   "h_en": "Tue–Sat 10:00–13:30 & 16:00–19:00; Sun mornings",
+   "i": "Ideal si te gusta la historia medieval y los claustros.",
+   "i_en": "Ideal if you like medieval history and cloisters."
+  },
+  "rio_catedral_calahorra": {
+   "id": "rio_catedral_calahorra",
+   "d": "Levantada donde fueron martirizados los santos Emeterio y Celedonio. Combina estilos gótico, renacentista y barroco, con una portada plateresca y un rico museo diocesano.",
+   "d_en": "Built where saints Emeterio and Celedonio were martyred. It blends Gothic, Renaissance and Baroque, with a Plateresque doorway and a rich diocesan museum.",
+   "h": "Lun–Sáb 10:00–13:00 y 17:00–19:00",
+   "h_en": "Mon–Sat 10:00–13:00 & 17:00–19:00",
+   "i": "Ideal si te gusta la arquitectura religiosa y la historia romana.",
+   "i_en": "Ideal if you like religious architecture and Roman history."
+  },
+  "rio_castillo_clavijo": {
+   "id": "rio_castillo_clavijo",
+   "d": "Fortaleza medieval sobre un cerro que domina el valle del Leza, escenario legendario de la batalla de Clavijo (844). Ofrece amplias vistas y restos de murallas y aljibe.",
+   "d_en": "A medieval fortress on a hill overlooking the Leza valley, legendary setting of the Battle of Clavijo (844). It offers wide views and remains of walls and a cistern.",
+   "h": "Acceso libre exterior en horario diurno",
+   "h_en": "Free exterior access during daylight",
+   "i": "Ideal si te gusta el senderismo con vistas y las leyendas.",
+   "i_en": "Ideal if you like hiking with views and legends."
+  },
+  "rio_valvanera": {
+   "id": "rio_valvanera",
+   "d": "Enclavado en un valle boscoso a más de 1.000 m, custodia la talla románica de la Virgen de Valvanera, patrona de la región. Es lugar de peregrinación y de elaboración del licor de Valvanera.",
+   "d_en": "Set in a wooded valley above 1,000 m, it guards the Romanesque carving of the Virgin of Valvanera, patron of the region. It is a pilgrimage site and home of Valvanera liqueur.",
+   "h": "Iglesia abierta a diario; hospedería con reserva",
+   "h_en": "Church open daily; guesthouse by reservation",
+   "i": "Ideal si te gusta la naturaleza tranquila y el turismo espiritual.",
+   "i_en": "Ideal if you like quiet nature and spiritual tourism."
+  },
+  "rio_sierra_cebollera": {
+   "id": "rio_sierra_cebollera",
+   "d": "Espacio protegido en el nacimiento del Iregua, con pinares, hayedos y acebedas, cascadas glaciares y rutas señalizadas desde Villoslada de Cameros. Espectacular en otoño.",
+   "d_en": "Protected area at the source of the Iregua, with pine, beech and holly woods, glacial waterfalls and marked trails from Villoslada de Cameros. Spectacular in autumn.",
+   "h": "Acceso libre; centro de interpretación con horario propio",
+   "h_en": "Free access; visitor centre with its own hours",
+   "i": "Ideal si te gusta el senderismo y los paisajes de montaña.",
+   "i_en": "Ideal if you like hiking and mountain landscapes."
+  },
+  "rio_icnitas_enciso": {
+   "id": "rio_icnitas_enciso",
+   "d": "Los yacimientos de Valdecevillo, La Virgen del Campo y otros conservan cientos de icnitas de dinosaurios carnívoros y herbívoros al aire libre, con réplicas a tamaño real repartidas por el entorno.",
+   "d_en": "The Valdecevillo, La Virgen del Campo and other sites preserve hundreds of open-air dinosaur tracks from carnivores and herbivores, with life-size replicas dotting the area.",
+   "h": "Acceso libre a los yacimientos al aire libre",
+   "h_en": "Free access to the open-air sites",
+   "i": "Ideal si te gusta la paleontología y viajar con niños.",
+   "i_en": "Ideal if you like palaeontology and travelling with kids."
+  },
+  "rio_arnedillo": {
+   "id": "rio_arnedillo",
+   "d": "A las afueras de este pueblo de casas colgadas brotan aguas termales que forman pozas al aire libre, gratuitas y abiertas todo el año. La zona es además refugio de buitres leonados.",
+   "d_en": "On the edge of this village of hanging houses, hot springs form open-air pools, free and open all year. The area is also a refuge for griffon vultures.",
+   "h": "Acceso libre 24 h",
+   "h_en": "Open access 24 h",
+   "i": "Ideal si te gusta relajarte en aguas termales al aire libre.",
+   "i_en": "Ideal if you like relaxing in open-air thermal waters."
+  },
+  "rio_ezcaray": {
+   "id": "rio_ezcaray",
+   "d": "Villa histórica junto al río Oja, con arquitectura tradicional, buena gastronomía y ambiente de montaña. Base para excursiones al hayedo, cascadas y la estación de Valdezcaray.",
+   "d_en": "A historic town beside the river Oja, with traditional architecture, fine food and a mountain atmosphere. A base for trips to beech woods, waterfalls and Valdezcaray ski resort.",
+   "h": "Pueblo abierto todo el año",
+   "h_en": "Village open year-round",
+   "i": "Ideal si te gusta el turismo rural y la naturaleza de montaña.",
+   "i_en": "Ideal if you like rural tourism and mountain nature."
+  },
+  "rio_grajera": {
+   "id": "rio_grajera",
+   "d": "Antiguo pantano rodeado de viñedos, con senderos, merenderos y un observatorio de aves. Lo cruza el Camino de Santiago y es zona favorita para caminar y montar en bici cerca de la ciudad.",
+   "d_en": "A former reservoir surrounded by vineyards, with paths, picnic areas and a bird hide. The Camino crosses it, and it's a favourite spot for walking and cycling near the city.",
+   "h": "Acceso libre en horario diurno",
+   "h_en": "Free access during daylight",
+   "i": "Ideal si te gusta pasear, la bici y la observación de aves.",
+   "i_en": "Ideal if you like walking, cycling and birdwatching."
+  },
+  "rio_barranco_perdido": {
+   "id": "rio_barranco_perdido",
+   "d": "Parque de paleoaventura donde los visitantes hacen de paleontólogos: excavaciones simuladas, tirolinas, cine 4D y una playa cretácica con juegos de agua. Muy popular en familia en verano.",
+   "d_en": "A palaeo-adventure park where visitors play at being palaeontologists: mock digs, ziplines, a 4D cinema and a Cretaceous beach with water games. Very popular with families in summer.",
+   "h": "Verano y fines de semana de temporada; consultar web",
+   "h_en": "Summer and seasonal weekends; check website",
+   "i": "Ideal si te gusta viajar en familia y la aventura temática.",
+   "i_en": "Ideal if you like family trips and themed adventure."
+  },
+  "rio_valdezcaray": {
+   "id": "rio_valdezcaray",
+   "d": "Situada en las faldas del San Lorenzo (2.271 m), ofrece pistas para todos los niveles en invierno y rutas de senderismo y BTT el resto del año, con amplias vistas del valle del Oja.",
+   "d_en": "Set on the slopes of San Lorenzo (2,271 m), it offers runs for all levels in winter and hiking and mountain-biking routes the rest of the year, with wide views of the Oja valley.",
+   "h": "Temporada de esquí dic–mar según nieve",
+   "h_en": "Ski season Dec–Mar depending on snow",
+   "i": "Ideal si te gusta el esquí y los deportes de montaña.",
+   "i_en": "Ideal if you like skiing and mountain sports."
+  },
+  "rio_vivanco": {
+   "id": "rio_vivanco",
+   "d": "Museo interactivo que recorre 8.000 años de historia del vino con salas temáticas, colección de sacacorchos y un jardín de variedades de vid. Incluye bodega con catas y visitas guiadas.",
+   "d_en": "An interactive museum covering 8,000 years of wine history with themed rooms, a corkscrew collection and a garden of grape varieties. It includes a winery with tastings and guided tours.",
+   "h": "Mar–Dom 10:00–18:00 (ampliado en verano)",
+   "h_en": "Tue–Sun 10:00–18:00 (extended in summer)",
+   "i": "Ideal si te gusta la cultura del vino y los museos temáticos.",
+   "i_en": "Ideal if you like wine culture and themed museums."
+  },
+  "rio_espolon": {
+   "id": "rio_espolon",
+   "d": "Bulevar arbolado con quiosco de música, estatua del general Espartero y terrazas. Es el lugar de encuentro de los logroñeses y punto de partida para descubrir el centro y la Calle Laurel.",
+   "d_en": "A tree-lined boulevard with a bandstand, a statue of General Espartero and terraces. It's the locals' meeting point and a starting spot for exploring the centre and Calle Laurel.",
+   "h": "Acceso libre 24 h",
+   "h_en": "Open access 24 h",
+   "i": "Ideal si te gusta el ambiente urbano y la vida local.",
+   "i_en": "Ideal if you like urban atmosphere and local life."
+  },
+  "rio_calle_laurel": {
+   "id": "rio_calle_laurel",
+   "d": "Callejuela y aledaños con más de 50 bares, cada uno especializado en un pincho: champiñón a la plancha en Soriano, patatas bravas, brocheta de gambas... Todo regado con vino de Rioja.",
+   "d_en": "A lane and its surroundings packed with over 50 bars, each specialising in one pincho: grilled mushroom at Soriano, patatas bravas, prawn skewers... all washed down with Rioja wine.",
+   "h": "Mar–Dom 12:00–16:00 y 20:00–24:00",
+   "h_en": "Tue–Sun 12:00–16:00 & 20:00–24:00",
+   "i": "Ideal si te gusta la comida en la calle y el ambiente animado.",
+   "i_en": "Ideal if you like street food and a lively atmosphere."
+  },
+  "rio_barrio_estacion_haro": {
+   "id": "rio_barrio_estacion_haro",
+   "d": "Junto a la antigua estación de tren de Haro se agrupan bodegas históricas como CVNE, Muga, La Rioja Alta o Roda, visitables a pie. Cada junio celebra la fiesta de la Cata del Barrio de la Estación.",
+   "d_en": "Beside Haro's old railway station cluster historic wineries such as CVNE, Muga, La Rioja Alta and Roda, all walkable. Each June it hosts the Barrio de la Estación wine-tasting festival.",
+   "h": "Visitas con reserva; muchas cerradas lunes",
+   "h_en": "Visits by reservation; many closed Mondays",
+   "i": "Ideal si te gusta el enoturismo y la historia del vino.",
+   "i_en": "Ideal if you like wine tourism and wine history."
+  },
+  "rio_lopez_heredia": {
+   "id": "rio_lopez_heredia",
+   "d": "Fundada en 1877, es la bodega más antigua de Haro y una de las más tradicionales de Rioja, con crianzas muy largas. Su tienda 'El Decantador', diseñada por Zaha Hadid, contrasta con las viejas naves.",
+   "d_en": "Founded in 1877, it's the oldest winery in Haro and one of Rioja's most traditional, with very long ageing. Its shop 'El Decantador', designed by Zaha Hadid, contrasts with the old cellars.",
+   "h": "Visitas con reserva; consultar disponibilidad",
+   "h_en": "Guided visits by prior booking",
+   "i": "Ideal si te gusta el vino clásico y la arquitectura contemporánea.",
+   "i_en": "Ideal if you like classic wine and contemporary architecture."
+  },
+  "rio_marques_riscal": {
+   "id": "rio_marques_riscal",
+   "d": "En Elciego (Rioja Alavesa), esta bodega histórica de 1858 luce la espectacular 'Ciudad del Vino' con cubierta ondulada de titanio rosa, oro y plata de Frank Gehry. Ofrece visitas, catas y alta gastronomía.",
+   "d_en": "In Elciego (Rioja Alavesa), this historic 1858 winery boasts the striking 'City of Wine' with Frank Gehry's rippling titanium roof in pink, gold and silver. It offers tours, tastings and fine dining.",
+   "h": "Visitas con reserva; restaurante con horario propio",
+   "h_en": "Tours daily by reservation; restaurant with its own hours",
+   "i": "Ideal si te gusta la arquitectura de autor y el enoturismo de lujo.",
+   "i_en": "Ideal if you like signature architecture and luxury wine tourism."
+  },
+  "rio_ysios": {
+   "id": "rio_ysios",
+   "d": "A los pies de la Sierra de Cantabria, en Laguardia, esta bodega de 2001 diseñada por Calatrava dibuja una cubierta ondulada de aluminio y madera que imita las montañas. Elabora vinos de Rioja y ofrece visitas.",
+   "d_en": "At the foot of the Sierra de Cantabria in Laguardia, this 2001 winery by Calatrava draws an undulating aluminium-and-wood roof echoing the mountains. It makes Rioja wines and offers tours.",
+   "h": "Visitas con reserva; consultar horarios",
+   "h_en": "Guided visits by prior booking",
+   "i": "Ideal si te gusta la arquitectura moderna y el vino.",
+   "i_en": "Ideal if you like modern architecture and wine."
+  }
+ },
+ "food": {
+  "rio_calle_laurel": {
+   "cuisine": "Pinchos y tapas riojanas",
+   "price": "2–4 € por pincho+vino",
+   "hours": "Mar–Dom 12:00–16:00 y 20:00–24:00"
+  },
+  "rio_barrio_estacion_haro": {
+   "cuisine": "Bodegas y catas de vino de Rioja",
+   "price": "15–40 € visita con cata",
+   "hours": "Visitas con reserva, según bodega"
+  },
+  "rio_lopez_heredia": {
+   "cuisine": "Visita de bodega y cata",
+   "price": "20–35 € visita con cata",
+   "hours": "Visitas guiadas con reserva previa"
+  },
+  "rio_marques_riscal": {
+   "cuisine": "Bodega, cata y gastronomía riojana",
+   "price": "25–60 € visita/menú",
+   "hours": "Visitas guiadas diarias con reserva"
+  },
+  "rio_ysios": {
+   "cuisine": "Bodega y cata de vino de Rioja",
+   "price": "20–40 € visita con cata",
+   "hours": "Visitas guiadas con reserva previa"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "La Rioja",
+   "items": [
+    {
+     "name": "Vino de Rioja (crianza/reserva)",
+     "price": "8–40 €",
+     "desc": "Tinto de tempranillo con Denominación de Origen Calificada, el gran embajador de la región."
+    },
+    {
+     "name": "Fardelejos de Arnedo",
+     "price": "6–12 €",
+     "desc": "Dulce tradicional de hojaldre relleno de almendra, típico de la Semana Santa riojana."
+    },
+    {
+     "name": "Chorizo riojano IGP",
+     "price": "7–15 €",
+     "desc": "Embutido curado con pimentón, sabroso y ligeramente picante."
+    },
+    {
+     "name": "Verduras de Calahorra",
+     "price": "4–12 €",
+     "desc": "Conservas de alcachofa, pimiento del piquillo y espárrago de la huerta del Ebro."
+    },
+    {
+     "name": "Pacharán",
+     "price": "10–18 €",
+     "desc": "Licor de endrinas para digestivo, muy arraigado en la zona."
+    }
+   ],
+   "shops": [
+    "Mercado de Abastos de Logroño",
+    "Tiendas de las bodegas de Haro (Barrio de la Estación)",
+    "Comercios del Casco Antiguo de Logroño",
+    "Obradores de Arnedo"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Recorre la Calle Laurel de Logroño 'pincho a pincho': cada bar tiene una especialidad, pide una sola tapa y bebida en cada uno.",
+   "Reserva con antelación las visitas a bodegas de Haro, Briones o Elciego; muchas cierran los domingos por la tarde y lunes.",
+   "El Camino de Santiago Francés cruza la región (Logroño, Nájera, Santo Domingo): madruga para evitar el calor del mediodía en verano.",
+   "En invierno lleva ropa de abrigo para la sierra (Ezcaray, Valdezcaray, Cebollera); las temperaturas caen mucho respecto al valle del Ebro.",
+   "Alquila coche para llegar a los yacimientos de dinosaurios de Enciso y a los monasterios de San Millán: el transporte público es escaso."
+  ],
+  "en": [
+   "Walk Logroño's Calle Laurel 'pincho by pincho': each bar has a specialty, so order just one tapa and a drink at each.",
+   "Book winery visits in Haro, Briones or Elciego in advance; many close Sunday afternoons and Mondays.",
+   "The French Way of St James crosses the region (Logroño, Nájera, Santo Domingo): start early to avoid midday summer heat.",
+   "In winter pack warm clothing for the mountains (Ezcaray, Valdezcaray, Cebollera); temperatures drop sharply below the Ebro valley.",
+   "Rent a car to reach the Enciso dinosaur sites and the San Millán monasteries: public transport is limited."
+  ]
+ },
+ "climate": {
+  "hi": [
+   9,
+   12,
+   16,
+   18,
+   22,
+   27,
+   30,
+   30,
+   25,
+   19,
+   12,
+   9
+  ],
+  "lo": [
+   2,
+   3,
+   5,
+   7,
+   11,
+   14,
+   17,
+   17,
+   14,
+   10,
+   5,
+   3
+  ]
+ },
+ "tr": {
+  "Concatedral barroca de Logroño con sus dos torres gemelas 'Las Gemelas'.": "Baroque co-cathedral of Logroño with its two twin towers, 'Las Gemelas'.",
+  "Puente histórico sobre el Ebro, paso del Camino de Santiago.": "Historic bridge over the Ebro, part of the Way of St James.",
+  "Resto de la muralla renacentista de Logroño y su puerta monumental.": "Surviving stretch of Logroño's Renaissance wall and its monumental gate.",
+  "Catedral románico-gótica famosa por el gallinero con gallo y gallina vivos.": "Romanesque-Gothic cathedral famous for its coop with a live rooster and hen.",
+  "Gran monasterio 'de abajo', Patrimonio de la Humanidad y cuna del castellano.": "The grand 'lower' monastery, a World Heritage Site and cradle of Spanish.",
+  "Monasterio 'de arriba' visigótico-mozárabe, origen del cenobio.": "The 'upper' Visigothic-Mozarabic monastery, origin of the community.",
+  "Panteón real de los reyes de Navarra bajo un acantilado rojizo.": "Royal pantheon of the kings of Navarre beneath a reddish cliff.",
+  "Catedral gótica junto al río Cidacos en la vieja Calagurris romana.": "Gothic cathedral by the river Cidacos in the old Roman Calagurris.",
+  "Ruinas de un castillo roquero ligado a la leyenda de Santiago Matamoros.": "Ruins of a rock castle tied to the legend of Santiago Matamoros.",
+  "Monasterio benedictino en plena Sierra de la Demanda, patrona de La Rioja.": "Benedictine monastery in the Sierra de la Demanda, home of La Rioja's patron.",
+  "Único parque natural de La Rioja, bosques, cascadas y hayedos.": "La Rioja's only natural park, with forests, waterfalls and beech woods.",
+  "Huellas fósiles de dinosaurios de hace 120 millones de años.": "Fossil dinosaur footprints from 120 million years ago.",
+  "Piscinas naturales de agua termal gratuita junto al río Cidacos.": "Free natural thermal pools beside the river Cidacos.",
+  "Pueblo serrano de casas con soportales, puerta de la Sierra de la Demanda.": "Mountain village of arcaded houses, gateway to the Sierra de la Demanda.",
+  "Embalse y parque periurbano de Logroño para pasear y ver aves.": "Reservoir and peri-urban park of Logroño for walks and birdwatching.",
+  "Parque temático de dinosaurios y playa fósil en Enciso.": "Dinosaur theme park with a fossil beach in Enciso.",
+  "La estación de esquí de La Rioja, en la Sierra de la Demanda.": "La Rioja's ski resort, in the Sierra de la Demanda.",
+  "Uno de los mejores museos del vino del mundo, en Briones.": "One of the world's finest wine museums, in Briones.",
+  "Plaza-jardín central de Logroño, corazón social de la ciudad.": "Central garden-square of Logroño, the city's social heart.",
+  "La 'senda de los elefantes', epicentro del tapeo de pinchos de Logroño.": "The 'path of the elephants', epicentre of Logroño's pincho tapas scene.",
+  "La mayor concentración de bodegas centenarias del mundo.": "The world's densest cluster of century-old wineries.",
+  "Bodega histórica de Haro con pabellón futurista de Zaha Hadid.": "Historic Haro winery with a futuristic Zaha Hadid pavilion.",
+  "Bodega riojana coronada por el icónico hotel de Frank Gehry.": "Rioja winery crowned by Frank Gehry's iconic titanium hotel.",
+  "Bodega de vino de Rioja con onda arquitectura de Santiago Calatrava.": "Rioja winery with Santiago Calatrava's wave-like architecture.",
+  "La Rioja": "La Rioja"
+ }
+}

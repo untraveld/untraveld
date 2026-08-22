@@ -1,0 +1,958 @@
+{
+ "id": "barcelona",
+ "name": "Barcelona",
+ "country": "ES",
+ "center": [
+  41.3874,
+  2.1686
+ ],
+ "pois": [
+  {
+   "id": "cbcn_sagrada_familia",
+   "cat": "monuments",
+   "name": "Basílica de la Sagrada Família",
+   "icon": "⛪",
+   "lat": 41.4036,
+   "lng": 2.1744,
+   "desc": "La basílica inacabada de Gaudí, icono absoluto de Barcelona."
+  },
+  {
+   "id": "cbcn_park_guell",
+   "cat": "monuments",
+   "name": "Park Güell",
+   "icon": "🦎",
+   "lat": 41.4145,
+   "lng": 2.1527,
+   "desc": "Parque mágico de Gaudí con mosaicos y vistas de la ciudad."
+  },
+  {
+   "id": "cbcn_boqueria",
+   "cat": "food",
+   "name": "Mercat de la Boqueria",
+   "icon": "🍓",
+   "lat": 41.3817,
+   "lng": 2.1717,
+   "desc": "El mercado más famoso de Barcelona, junto a Las Ramblas."
+  },
+  {
+   "id": "cbcn_casa_batllo",
+   "cat": "monuments",
+   "name": "Casa Batlló",
+   "icon": "🐉",
+   "lat": 41.39165,
+   "lng": 2.1649,
+   "desc": "La casa-dragón de Gaudí en el Passeig de Gràcia."
+  },
+  {
+   "id": "cbcn_la_pedrera",
+   "cat": "monuments",
+   "name": "La Pedrera (Casa Milà)",
+   "icon": "🌊",
+   "lat": 41.39538,
+   "lng": 2.16193,
+   "desc": "Edificio ondulado de Gaudí con azotea de guerreros."
+  },
+  {
+   "id": "cbcn_las_ramblas",
+   "cat": "monuments",
+   "name": "La Rambla",
+   "icon": "🌳",
+   "lat": 41.38143,
+   "lng": 2.17282,
+   "desc": "El bulevar más famoso, del centro al mar."
+  },
+  {
+   "id": "cbcn_barri_gotic",
+   "cat": "monuments",
+   "name": "Barri Gòtic",
+   "icon": "🏛️",
+   "lat": 41.38295,
+   "lng": 2.1766,
+   "desc": "El casco medieval de callejuelas y plazas escondidas."
+  },
+  {
+   "id": "cbcn_camp_nou",
+   "cat": "ocio",
+   "name": "Spotify Camp Nou",
+   "icon": "⚽",
+   "lat": 41.38089,
+   "lng": 2.12282,
+   "desc": "El mítico estadio del FC Barcelona."
+  },
+  {
+   "id": "cbcn_catedral",
+   "cat": "monuments",
+   "name": "Catedral de Barcelona",
+   "icon": "⛪",
+   "lat": 41.38394,
+   "lng": 2.1761,
+   "desc": "Gótica catedral con claustro y ocas."
+  },
+  {
+   "id": "cbcn_ciutadella",
+   "cat": "nature",
+   "name": "Parc de la Ciutadella",
+   "icon": "🌳",
+   "lat": 41.38855,
+   "lng": 2.18697,
+   "desc": "El gran parque verde del centro con lago y cascada."
+  },
+  {
+   "id": "cbcn_barceloneta",
+   "cat": "nature",
+   "name": "Platja de la Barceloneta",
+   "icon": "🏖️",
+   "lat": 41.3787,
+   "lng": 2.1923,
+   "desc": "La playa urbana más animada de la ciudad."
+  },
+  {
+   "id": "cbcn_font_magica",
+   "cat": "ocio",
+   "name": "Font Màgica de Montjuïc",
+   "icon": "⛲",
+   "lat": 41.37118,
+   "lng": 2.15169,
+   "desc": "Espectáculo de agua, luz y música al pie de Montjuïc."
+  },
+  {
+   "id": "cbcn_palau_musica",
+   "cat": "monuments",
+   "name": "Palau de la Música Catalana",
+   "icon": "🎼",
+   "lat": 41.38763,
+   "lng": 2.17532,
+   "desc": "Joya modernista de Domènech i Montaner, Patrimonio Mundial."
+  },
+  {
+   "id": "cbcn_santa_maria_mar",
+   "cat": "monuments",
+   "name": "Basílica de Santa Maria del Mar",
+   "icon": "⛪",
+   "lat": 41.38357,
+   "lng": 2.18195,
+   "desc": "La catedral del mar, gótico catalán puro."
+  },
+  {
+   "id": "cbcn_casa_vicens",
+   "cat": "monuments",
+   "name": "Casa Vicens",
+   "icon": "🏠",
+   "lat": 41.40355,
+   "lng": 2.1479,
+   "desc": "La primera casa de Gaudí, colorida y orientalista."
+  },
+  {
+   "id": "cbcn_sant_pau",
+   "cat": "monuments",
+   "name": "Recinte Modernista de Sant Pau",
+   "icon": "🏥",
+   "lat": 41.41368,
+   "lng": 2.17434,
+   "desc": "El mayor conjunto modernista del mundo."
+  },
+  {
+   "id": "cbcn_mnac",
+   "cat": "monuments",
+   "name": "Museu Nacional d'Art de Catalunya (MNAC)",
+   "icon": "🖼️",
+   "lat": 41.36838,
+   "lng": 2.15349,
+   "desc": "Gran museo de arte catalán en el Palau Nacional."
+  },
+  {
+   "id": "cbcn_montjuic",
+   "cat": "nature",
+   "name": "Castell de Montjuïc",
+   "icon": "🏰",
+   "lat": 41.3634,
+   "lng": 2.1659,
+   "desc": "Fortaleza sobre la montaña con vistas al puerto."
+  },
+  {
+   "id": "cbcn_bunkers_carmel",
+   "cat": "nature",
+   "name": "Búnkers del Carmel (Turó de la Rovira)",
+   "icon": "🌇",
+   "lat": 41.41945,
+   "lng": 2.16215,
+   "desc": "El mirador 360° más famoso de Barcelona."
+  },
+  {
+   "id": "cbcn_tibidabo",
+   "cat": "nature",
+   "name": "Tibidabo (Temple del Sagrat Cor)",
+   "icon": "⛰️",
+   "lat": 41.42225,
+   "lng": 2.11875,
+   "desc": "La montaña que corona Barcelona con templo y atracciones."
+  },
+  {
+   "id": "cbcn_torre_glories",
+   "cat": "monuments",
+   "name": "Torre Glòries",
+   "icon": "🗼",
+   "lat": 41.40348,
+   "lng": 2.18927,
+   "desc": "El rascacielos-bala de colores de Jean Nouvel."
+  },
+  {
+   "id": "cbcn_arc_triomf",
+   "cat": "monuments",
+   "name": "Arc de Triomf",
+   "icon": "🏛️",
+   "lat": 41.39104,
+   "lng": 2.18066,
+   "desc": "Arco de ladrillo rojo de la Exposición de 1888."
+  },
+  {
+   "id": "cbcn_poble_espanyol",
+   "cat": "ocio",
+   "name": "Poble Espanyol",
+   "icon": "🏘️",
+   "lat": 41.36855,
+   "lng": 2.14707,
+   "desc": "Pueblo-museo con arquitectura de toda España."
+  },
+  {
+   "id": "cbcn_aquarium",
+   "cat": "ocio",
+   "name": "L'Aquàrium de Barcelona",
+   "icon": "🐠",
+   "lat": 41.3768,
+   "lng": 2.1841,
+   "desc": "Gran acuario mediterráneo con túnel de tiburones."
+  },
+  {
+   "id": "cbcn_port_vell",
+   "cat": "ocio",
+   "name": "Port Vell",
+   "icon": "⛵",
+   "lat": 41.3768,
+   "lng": 2.1819,
+   "desc": "El puerto viejo remodelado, paseos y marina."
+  },
+  {
+   "id": "cbcn_el_born",
+   "cat": "ocio",
+   "name": "El Born (La Ribera)",
+   "icon": "🍷",
+   "lat": 41.3847,
+   "lng": 2.1815,
+   "desc": "Barrio bohemio de bares, boutiques y museos."
+  },
+  {
+   "id": "cbcn_gracia",
+   "cat": "ocio",
+   "name": "Vila de Gràcia",
+   "icon": "🎉",
+   "lat": 41.4013,
+   "lng": 2.1566,
+   "desc": "Barrio de plazas animadas y ambiente de pueblo."
+  },
+  {
+   "id": "cbcn_quimet",
+   "cat": "food",
+   "name": "Quimet & Quimet",
+   "icon": "🥫",
+   "lat": 41.37395,
+   "lng": 2.16556,
+   "desc": "Mítica bodega de montaditos y conservas en Poble-sec."
+  },
+  {
+   "id": "cbcn_cerveceria_catalana",
+   "cat": "food",
+   "name": "Cervecería Catalana",
+   "icon": "🍤",
+   "lat": 41.39355,
+   "lng": 2.1613,
+   "desc": "Tapas y montaditos muy populares en l'Eixample."
+  },
+  {
+   "id": "cbcn_xampanyet",
+   "cat": "food",
+   "name": "El Xampanyet",
+   "icon": "🥂",
+   "lat": 41.3847,
+   "lng": 2.1816,
+   "desc": "Taberna centenaria de cava y anchoas en El Born."
+  },
+  {
+   "id": "cbcn_quatre_gats",
+   "cat": "food",
+   "name": "Els Quatre Gats",
+   "icon": "🐈",
+   "lat": 41.3862,
+   "lng": 2.1737,
+   "desc": "Café modernista histórico, cuna de Picasso."
+  },
+  {
+   "id": "cbcn_can_paixano",
+   "cat": "food",
+   "name": "Can Paixano (La Xampanyeria)",
+   "icon": "🍾",
+   "lat": 41.3829,
+   "lng": 2.1847,
+   "desc": "Bulliciosa xampanyeria de cava barato y bocadillos."
+  },
+  {
+   "id": "cbcn_bar_del_pla",
+   "cat": "food",
+   "name": "Bar del Pla",
+   "icon": "🍽️",
+   "lat": 41.3856,
+   "lng": 2.1813,
+   "desc": "Tapas creativas de mercado en El Born."
+  },
+  {
+   "id": "cbcn_cova_fumada",
+   "cat": "food",
+   "name": "La Cova Fumada",
+   "icon": "🥔",
+   "lat": 41.3796,
+   "lng": 2.1893,
+   "desc": "Taberna marinera cuna de la bomba, en la Barceloneta."
+  },
+  {
+   "id": "cgi_montserrat",
+   "cat": "nature",
+   "name": "Montserrat (montaña y monasterio)",
+   "icon": "⛰️",
+   "lat": 41.5934,
+   "lng": 1.8378,
+   "desc": "Montaña de agujas de roca con el monasterio benedictino y la Moreneta."
+  },
+  {
+   "id": "cgi_colonia_guell",
+   "cat": "monuments",
+   "name": "Cripta Gaudí de la Colònia Güell",
+   "icon": "🏛️",
+   "lat": 41.36358,
+   "lng": 2.02792,
+   "desc": "Laboratorio de Gaudí para la Sagrada Família, Patrimonio de la Humanidad."
+  },
+  {
+   "id": "cgi_sitges",
+   "cat": "ocio",
+   "name": "Sitges (paseo e iglesia de Sant Bartomeu)",
+   "icon": "🏖️",
+   "lat": 41.2347,
+   "lng": 1.8129,
+   "desc": "Villa costera cosmopolita con su iglesia sobre el mar y largo paseo marítimo."
+  },
+  {
+   "id": "cgi_cardona_castell",
+   "cat": "monuments",
+   "name": "Castell de Cardona",
+   "icon": "🏰",
+   "lat": 41.9087,
+   "lng": 1.6847,
+   "desc": "Fortaleza medieval sobre una colina, hoy Parador, con la Torre de la Minyona."
+  },
+  {
+   "id": "cgi_mnactec",
+   "cat": "monuments",
+   "name": "mNACTEC — Vapor Aymerich (Terrassa)",
+   "icon": "🏭",
+   "lat": 41.56194,
+   "lng": 2.01167,
+   "desc": "Joya del modernismo industrial que hoy es el museo de la ciencia y la técnica."
+  },
+  {
+   "id": "cgi_vic_catedral",
+   "cat": "monuments",
+   "name": "Catedral de Vic y Plaça Major",
+   "icon": "⛪",
+   "lat": 41.92889,
+   "lng": 2.25472,
+   "desc": "Catedral con pinturas de Josep Maria Sert y una de las mayores plazas porticadas."
+  },
+  {
+   "id": "cgi_garraf",
+   "cat": "nature",
+   "name": "Costa del Garraf",
+   "icon": "🌊",
+   "lat": 41.2539,
+   "lng": 1.9019,
+   "desc": "Tramo de costa entre acantilados calizos, calas y el macizo del Garraf."
+  },
+  {
+   "id": "cgi_cardona_sal",
+   "cat": "nature",
+   "name": "Montaña de Sal de Cardona",
+   "icon": "🧂",
+   "lat": 41.9081,
+   "lng": 1.6767,
+   "desc": "Diapiro de sal a cielo abierto, con galerías subterráneas visitables."
+  },
+  {
+   "id": "cgi_fragata_sitges",
+   "cat": "food",
+   "name": "Restaurant Fragata (Sitges)",
+   "icon": "🐟",
+   "lat": 41.2347,
+   "lng": 1.8125,
+   "desc": "Cocina marinera y arroces frente al mar, junto a la iglesia de Sitges."
+  }
+ ],
+ "extra": {
+  "cbcn_sagrada_familia": {
+   "id": "cbcn_sagrada_familia",
+   "d": "Obra maestra de Antoni Gaudí y templo más visitado de España, en construcción desde 1882. Sus torres, fachadas simbólicas e interior de bosque de columnas y luz de colores dejan sin aliento.",
+   "d_en": "Antoni Gaudí's masterpiece and Spain's most visited temple, under construction since 1882. Its towers, symbolic facades and forest-like interior flooded with coloured light are breathtaking.",
+   "h": "Primera hora de la mañana para evitar colas; luz espectacular al atardecer",
+   "h_en": "Early morning to avoid queues; spectacular light at sunset",
+   "i": "el modernismo de Gaudí y la arquitectura sacra",
+   "i_en": "Gaudí's modernism and sacred architecture"
+  },
+  "cbcn_park_guell": {
+   "id": "cbcn_park_guell",
+   "d": "Jardín público diseñado por Gaudí y declarado Patrimonio de la Humanidad. La terraza del banco ondulado de trencadís, el dragón de mosaico y la sala hipóstila ofrecen color y panorámicas inolvidables.",
+   "d_en": "A public garden designed by Gaudí and a UNESCO World Heritage Site. The wavy trencadís bench terrace, mosaic dragon and hypostyle hall deliver colour and unforgettable panoramas.",
+   "h": "Reserva entrada anticipada; mañana temprano o media tarde",
+   "h_en": "Book tickets in advance; early morning or mid-afternoon",
+   "i": "el color, los mosaicos y las vistas",
+   "i_en": "colour, mosaics and views"
+  },
+  "cbcn_boqueria": {
+   "id": "cbcn_boqueria",
+   "d": "Mercado modernista rebosante de puestos de fruta, jamones, pescado y bares de tapas. Un festival de colores y aromas donde picar zumos, ostras o platos del día en la barra.",
+   "d_en": "A modernist market bursting with fruit stalls, hams, seafood and tapas bars. A feast of colour and aroma where you can grab juices, oysters or the dish of the day at the counter.",
+   "h": "Mañana para producto fresco; cierra domingos",
+   "h_en": "Morning for fresh produce; closed Sundays",
+   "i": "los mercados, el producto local y el ambiente",
+   "i_en": "markets, local produce and buzz"
+  },
+  "cbcn_casa_batllo": {
+   "id": "cbcn_casa_batllo",
+   "d": "Fachada onírica de escamas, balcones-máscara y colores irisados que evocan la leyenda de Sant Jordi y el dragón. Interior orgánico sin líneas rectas, Patrimonio de la Humanidad.",
+   "d_en": "A dreamlike facade of scales, mask-like balconies and iridescent colour evoking the legend of Saint George and the dragon. An organic interior without straight lines, a World Heritage Site.",
+   "h": "Reserva online; especialmente bella al anochecer",
+   "h_en": "Book online; especially beautiful at dusk",
+   "i": "el modernismo y el diseño imaginativo",
+   "i_en": "modernism and imaginative design"
+  },
+  "cbcn_la_pedrera": {
+   "id": "cbcn_la_pedrera",
+   "d": "Última obra civil de Gaudí, con fachada de piedra ondulante y balcones de hierro forjado. Su azotea de chimeneas escultóricas y las vistas al Passeig de Gràcia son inolvidables.",
+   "d_en": "Gaudí's last civil work, with an undulating stone facade and wrought-iron balconies. Its rooftop of sculptural chimneys and views over Passeig de Gràcia are unforgettable.",
+   "h": "Visita de día y regresa para el show nocturno en la azotea",
+   "h_en": "Visit by day and return for the evening rooftop show",
+   "i": "la arquitectura escultórica de Gaudí",
+   "i_en": "Gaudí's sculptural architecture"
+  },
+  "cbcn_las_ramblas": {
+   "id": "cbcn_las_ramblas",
+   "d": "Paseo arbolado de 1,2 km que une Plaça Catalunya con el puerto, jalonado de quioscos, mosaicos de Miró y edificios históricos. Bulle de vida a cualquier hora del día.",
+   "d_en": "A 1.2 km tree-lined promenade linking Plaça Catalunya with the harbour, dotted with kiosks, a Miró pavement mosaic and historic buildings. It teems with life at any hour.",
+   "h": "Temprano para pasear tranquilo; cuidado con los carteristas",
+   "h_en": "Early for a calm stroll; watch for pickpockets",
+   "i": "el ambiente callejero y el paseo urbano",
+   "i_en": "street atmosphere and city strolling"
+  },
+  "cbcn_barri_gotic": {
+   "id": "cbcn_barri_gotic",
+   "d": "Corazón antiguo de Barcelona, con restos romanos, callejuelas empedradas y plazas como Sant Felip Neri o Plaça del Rei. Cada esquina esconde siglos de historia.",
+   "d_en": "Barcelona's ancient heart, with Roman remains, cobbled alleys and squares like Sant Felip Neri or Plaça del Rei. Every corner hides centuries of history.",
+   "h": "Al atardecer o de noche, cuando las calles se vacían",
+   "h_en": "At dusk or night, when the streets empty out",
+   "i": "la historia medieval y perderte por callejuelas",
+   "i_en": "medieval history and getting lost in alleys"
+  },
+  "cbcn_camp_nou": {
+   "id": "cbcn_camp_nou",
+   "d": "El mayor estadio de Europa y templo del FC Barcelona. El tour y el museo repasan la historia del club con trofeos, la Champions y el césped que pisaron Cruyff y Messi.",
+   "d_en": "Europe's largest stadium and the home of FC Barcelona. The tour and museum trace the club's history with trophies, the Champions League and the pitch trodden by Cruyff and Messi.",
+   "h": "Reserva el tour; evita días de partido si solo quieres el museo",
+   "h_en": "Book the tour; avoid match days if you only want the museum",
+   "i": "el fútbol y la historia del Barça",
+   "i_en": "football and the history of Barça"
+  },
+  "cbcn_catedral": {
+   "id": "cbcn_catedral",
+   "d": "Catedral de la Santa Creu i Santa Eulàlia, gótica de los siglos XIII-XV, con su imponente fachada, coro tallado y un claustro donde viven trece ocas blancas. La azotea regala vistas del casco antiguo.",
+   "d_en": "The Gothic Cathedral of Santa Creu i Santa Eulàlia, from the 13th-15th centuries, with its imposing facade, carved choir and a cloister home to thirteen white geese. The rooftop offers views over the old town.",
+   "h": "Media mañana; sube a la azotea si abre",
+   "h_en": "Mid-morning; go up to the rooftop if open",
+   "i": "el arte gótico y los claustros",
+   "i_en": "Gothic art and cloisters"
+  },
+  "cbcn_ciutadella": {
+   "id": "cbcn_ciutadella",
+   "d": "Pulmón verde de la ciudad, con una monumental cascada en la que colaboró el joven Gaudí, un lago de barcas y el Parlament de Catalunya. Ideal para pasear, remar o hacer picnic.",
+   "d_en": "The city's green lung, with a monumental waterfall the young Gaudí helped design, a rowing-boat lake and the Catalan Parliament. Perfect for strolling, rowing or a picnic.",
+   "h": "Mañanas soleadas o al atardecer",
+   "h_en": "Sunny mornings or at sunset",
+   "i": "los parques, el picnic y remar",
+   "i_en": "parks, picnics and rowing"
+  },
+  "cbcn_barceloneta": {
+   "id": "cbcn_barceloneta",
+   "d": "La playa más popular de Barcelona, con paseo marítimo, chiringuitos y deportes acuáticos junto al barrio marinero de la Barceloneta. Ambiente festivo a pie de mar.",
+   "d_en": "Barcelona's most popular beach, with a seafront promenade, beach bars and water sports beside the old fishing quarter of Barceloneta. A festive vibe right by the sea.",
+   "h": "Mañana para nadar tranquilo; atardecer para el ambiente",
+   "h_en": "Morning for a calm swim; sunset for the atmosphere",
+   "i": "la playa, el mar y el ambiente",
+   "i_en": "the beach, the sea and the buzz"
+  },
+  "cbcn_font_magica": {
+   "id": "cbcn_font_magica",
+   "d": "Gran fuente de 1929 a los pies del MNAC que ofrece coreografías de agua iluminada y música. Un espectáculo gratuito que congrega a multitudes al caer la noche.",
+   "d_en": "A grand 1929 fountain at the foot of the MNAC offering choreographies of illuminated water and music. A free show that draws crowds after dark.",
+   "h": "Consulta horarios de shows, normalmente viernes y sábado noche",
+   "h_en": "Check show times, usually Friday and Saturday nights",
+   "i": "los espectáculos de luz y agua",
+   "i_en": "light and water shows"
+  },
+  "cbcn_palau_musica": {
+   "id": "cbcn_palau_musica",
+   "d": "Auditorio modernista de 1908 obra de Domènech i Montaner, con una deslumbrante claraboya invertida de vidrio y mosaicos florales. Declarado Patrimonio de la Humanidad.",
+   "d_en": "A 1908 modernist concert hall by Domènech i Montaner, with a dazzling inverted stained-glass skylight and floral mosaics. A UNESCO World Heritage Site.",
+   "h": "Visita guiada de día o asiste a un concierto",
+   "h_en": "Guided daytime tour or attend a concert",
+   "i": "el modernismo, la música y las vidrieras",
+   "i_en": "modernism, music and stained glass"
+  },
+  "cbcn_santa_maria_mar": {
+   "id": "cbcn_santa_maria_mar",
+   "d": "Iglesia del siglo XIV en el barrio del Born, cumbre del gótico catalán con una nave luminosa y esbelta de proporciones perfectas. Inmortalizada en la novela 'La catedral del mar'.",
+   "d_en": "A 14th-century church in the Born quarter, the pinnacle of Catalan Gothic with a luminous, slender nave of perfect proportions. Made famous by the novel 'Cathedral of the Sea'.",
+   "h": "Media mañana; sube a las terrazas en visita guiada",
+   "h_en": "Mid-morning; climb the rooftops on a guided tour",
+   "i": "el gótico catalán y la arquitectura sobria",
+   "i_en": "Catalan Gothic and sober architecture"
+  },
+  "cbcn_casa_vicens": {
+   "id": "cbcn_casa_vicens",
+   "d": "Primera obra importante de Gaudí (1885) en el barrio de Gràcia, con azulejos de flores amarillas, motivos orientalistas y hierro forjado. Patrimonio de la Humanidad menos concurrido.",
+   "d_en": "Gaudí's first major work (1885) in Gràcia, with yellow-flower tiles, orientalist motifs and wrought iron. A less crowded World Heritage Site.",
+   "h": "Cualquier momento; suele tener menos colas",
+   "h_en": "Any time; usually shorter queues",
+   "i": "los orígenes de Gaudí y el color",
+   "i_en": "Gaudí's beginnings and colour"
+  },
+  "cbcn_sant_pau": {
+   "id": "cbcn_sant_pau",
+   "d": "Antiguo hospital de Domènech i Montaner, un conjunto de pabellones modernistas unidos por túneles y rodeados de jardines. Patrimonio de la Humanidad de belleza sorprendente.",
+   "d_en": "A former hospital by Domènech i Montaner, a set of modernist pavilions linked by tunnels and surrounded by gardens. A surprisingly beautiful World Heritage Site.",
+   "h": "Mañana; combina con la vista hacia la Sagrada Família",
+   "h_en": "Morning; pair it with the view towards the Sagrada Família",
+   "i": "el modernismo y los espacios tranquilos",
+   "i_en": "modernism and peaceful spaces"
+  },
+  "cbcn_mnac": {
+   "id": "cbcn_mnac",
+   "d": "En el imponente Palau Nacional de Montjuïc, alberga la mayor colección de arte románico del mundo, además de gótico, renacimiento y modernismo. Su terraza brinda vistas soberbias.",
+   "d_en": "Housed in the imposing Palau Nacional on Montjuïc, it holds the world's finest Romanesque art collection plus Gothic, Renaissance and modernist works. Its terrace offers superb views.",
+   "h": "Tarde; disfruta las vistas al atardecer",
+   "h_en": "Afternoon; enjoy the views at sunset",
+   "i": "el arte, los museos y las vistas panorámicas",
+   "i_en": "art, museums and panoramic views"
+  },
+  "cbcn_montjuic": {
+   "id": "cbcn_montjuic",
+   "d": "Castillo militar del siglo XVII en la cima de Montjuïc, con murallas, fosos y las mejores panorámicas del puerto y la ciudad. Se llega en teleférico o paseando por los jardines.",
+   "d_en": "A 17th-century military castle atop Montjuïc, with ramparts, moats and the best panoramas of the harbour and city. Reached by cable car or by walking through the gardens.",
+   "h": "Media tarde; sube en teleférico para las vistas",
+   "h_en": "Mid-afternoon; ride the cable car for the views",
+   "i": "las fortalezas, las vistas y la historia",
+   "i_en": "fortresses, views and history"
+  },
+  "cbcn_bunkers_carmel": {
+   "id": "cbcn_bunkers_carmel",
+   "d": "Antiguas baterías antiaéreas de la Guerra Civil convertidas en el mejor mirador de la ciudad. Desde lo alto del Turó de la Rovira se abarca toda Barcelona hasta el mar.",
+   "d_en": "Former Civil War anti-aircraft batteries turned into the city's best viewpoint. From the top of Turó de la Rovira you take in all of Barcelona out to the sea.",
+   "h": "Atardecer para el mejor cielo; lleva algo de abrigo",
+   "h_en": "Sunset for the best sky; bring a layer",
+   "i": "las vistas panorámicas y los atardeceres",
+   "i_en": "panoramic views and sunsets"
+  },
+  "cbcn_tibidabo": {
+   "id": "cbcn_tibidabo",
+   "d": "En la cima de la sierra de Collserola, el neogótico Temple del Sagrat Cor y el histórico parque de atracciones ofrecen las vistas más altas de Barcelona. Aire fresco y horizonte infinito.",
+   "d_en": "Atop the Collserola hills, the neo-Gothic Sagrat Cor temple and the historic amusement park offer Barcelona's highest views. Fresh air and an endless horizon.",
+   "h": "Día despejado; sube en el Tramvia Blau y funicular",
+   "h_en": "A clear day; go up on the Tramvia Blau and funicular",
+   "i": "las vistas, la montaña y las atracciones clásicas",
+   "i_en": "views, the mountain and classic rides"
+  },
+  "cbcn_torre_glories": {
+   "id": "cbcn_torre_glories",
+   "d": "Torre de 144 m diseñada por Jean Nouvel, con una piel de aluminio y vidrio que cambia de color al anochecer. Símbolo del Barcelona contemporáneo con mirador panorámico.",
+   "d_en": "A 144 m tower designed by Jean Nouvel, its aluminium-and-glass skin shifting colour at dusk. A symbol of contemporary Barcelona with a panoramic viewpoint.",
+   "h": "Al anochecer, cuando se ilumina de colores",
+   "h_en": "At dusk, when it lights up in colour",
+   "i": "la arquitectura contemporánea y las vistas",
+   "i_en": "contemporary architecture and views"
+  },
+  "cbcn_arc_triomf": {
+   "id": "cbcn_arc_triomf",
+   "d": "Arco de triunfo de estilo neomudéjar en ladrillo rojo, erigido como entrada a la Exposición Universal de 1888. Preside un elegante paseo arbolado hacia el Parc de la Ciutadella.",
+   "d_en": "A neo-Mudéjar red-brick triumphal arch built as the gateway to the 1888 Universal Exposition. It presides over an elegant tree-lined promenade towards Parc de la Ciutadella.",
+   "h": "Cualquier momento; bonito al atardecer",
+   "h_en": "Any time; lovely at sunset",
+   "i": "la arquitectura y los paseos urbanos",
+   "i_en": "architecture and urban promenades"
+  },
+  "cbcn_poble_espanyol": {
+   "id": "cbcn_poble_espanyol",
+   "d": "Museo al aire libre de 1929 que reproduce calles y plazas típicas de las regiones españolas, con talleres de artesanía, galerías y restaurantes. Un paseo por la arquitectura de todo el país.",
+   "d_en": "A 1929 open-air museum reproducing typical streets and squares from Spain's regions, with craft workshops, galleries and restaurants. A stroll through the whole country's architecture.",
+   "h": "Mañana o tarde; ideal en familia",
+   "h_en": "Morning or afternoon; great for families",
+   "i": "la artesanía, la arquitectura y los planes en familia",
+   "i_en": "crafts, architecture and family outings"
+  },
+  "cbcn_aquarium": {
+   "id": "cbcn_aquarium",
+   "d": "Uno de los mayores acuarios de Europa dedicado al Mediterráneo, con un túnel de 80 m rodeado de tiburones y rayas. Una experiencia perfecta para todos los públicos junto al Port Vell.",
+   "d_en": "One of Europe's largest aquariums, focused on the Mediterranean, with an 80 m tunnel surrounded by sharks and rays. A perfect experience for all ages by Port Vell.",
+   "h": "Entre semana para menos afluencia",
+   "h_en": "Weekdays for smaller crowds",
+   "i": "la vida marina y los planes en familia",
+   "i_en": "marine life and family outings"
+  },
+  "cbcn_port_vell": {
+   "id": "cbcn_port_vell",
+   "d": "Antiguo puerto reconvertido en zona de ocio con la pasarela de madera Rambla de Mar, yates de lujo, el Maremagnum y vistas a la ciudad desde el agua. Punto de partida de golondrinas.",
+   "d_en": "The old harbour reborn as a leisure area with the wooden Rambla de Mar footbridge, luxury yachts, the Maremagnum mall and city views from the water. Departure point for harbour boats.",
+   "h": "Atardecer para pasear junto al agua",
+   "h_en": "Sunset for a waterside stroll",
+   "i": "el mar, los paseos y el ambiente portuario",
+   "i_en": "the sea, strolls and harbour vibes"
+  },
+  "cbcn_el_born": {
+   "id": "cbcn_el_born",
+   "d": "Barrio medieval hoy lleno de bares de tapas, tiendas de diseño, el Museu Picasso y el antiguo mercado del Born convertido en centro cultural. La mejor zona para salir de noche con encanto.",
+   "d_en": "A medieval quarter now packed with tapas bars, design shops, the Picasso Museum and the old Born market turned cultural centre. The best area for a charming night out.",
+   "h": "Tarde-noche para tapear y salir",
+   "h_en": "Evening for tapas and going out",
+   "i": "las tapas, las boutiques y el ambiente bohemio",
+   "i_en": "tapas, boutiques and a bohemian vibe"
+  },
+  "cbcn_gracia": {
+   "id": "cbcn_gracia",
+   "d": "Antiguo pueblo independiente con calles estrechas, plazas repletas de terrazas y una vida vecinal muy auténtica. Su ambiente alternativo estalla cada agosto en la Festa Major de Gràcia.",
+   "d_en": "A former independent town of narrow streets, terrace-filled squares and a genuine neighbourhood life. Its alternative buzz peaks each August during the Festa Major de Gràcia.",
+   "h": "Tarde-noche para las terrazas de las plazas",
+   "h_en": "Evening for the square terraces",
+   "i": "el ambiente local, las plazas y lo alternativo",
+   "i_en": "local vibe, squares and the alternative scene"
+  },
+  "cbcn_quimet": {
+   "id": "cbcn_quimet",
+   "d": "Diminuta bodega familiar de pie, célebre por sus montaditos creativos y sus conservas gourmet regadas con vermut y vinos. Un clásico imprescindible del tapeo barcelonés.",
+   "d_en": "A tiny standing-room family bodega famous for its creative montaditos and gourmet tinned delicacies washed down with vermouth and wine. A must of Barcelona's tapas scene.",
+   "h": "Llega temprano; es diminuto y sin mesas",
+   "h_en": "Arrive early; it's tiny with no tables",
+   "i": "las conservas, el vermut y el tapeo auténtico",
+   "i_en": "tinned delicacies, vermouth and authentic tapas"
+  },
+  "cbcn_cerveceria_catalana": {
+   "id": "cbcn_cerveceria_catalana",
+   "d": "Una de las cervecerías más famosas de la ciudad, con una barra rebosante de montaditos, tapas calientes y raciones de marisco. Siempre llena, un imprescindible del tapeo.",
+   "d_en": "One of the city's most famous beer halls, with a counter brimming with montaditos, hot tapas and seafood plates. Always packed, a tapas essential.",
+   "h": "Fuera de horas punta; no reservan y hay cola",
+   "h_en": "Off-peak hours; no reservations and expect a queue",
+   "i": "los montaditos, el marisco y el ambiente",
+   "i_en": "montaditos, seafood and buzz"
+  },
+  "cbcn_xampanyet": {
+   "id": "cbcn_xampanyet",
+   "d": "Bodega de 1929 junto al Museu Picasso, famosa por su cava de la casa, sus anchoas y sus conservas servidas entre azulejos antiguos. Ambiente bullicioso y auténtico.",
+   "d_en": "A 1929 tavern next to the Picasso Museum, famous for its house cava, anchovies and tinned delicacies served amid antique tiles. A lively, authentic atmosphere.",
+   "h": "Media mañana o al abrir por la tarde; cierra domingos noche y lunes",
+   "h_en": "Mid-morning or when it reopens in the evening; closed Sunday night and Monday",
+   "i": "el cava, las anchoas y las tabernas de siempre",
+   "i_en": "cava, anchovies and old-school taverns"
+  },
+  "cbcn_quatre_gats": {
+   "id": "cbcn_quatre_gats",
+   "d": "Legendario café de 1897 en un edificio de Puig i Cadafalch, punto de encuentro de artistas y escenario de la primera exposición de Picasso. Cocina catalana en un ambiente bohemio y modernista.",
+   "d_en": "A legendary 1897 café in a Puig i Cadafalch building, an artists' meeting point and the venue of Picasso's first exhibition. Catalan cuisine in a bohemian, modernist setting.",
+   "h": "Comida o cena; reserva recomendada",
+   "h_en": "Lunch or dinner; reservation recommended",
+   "i": "la historia, el arte y el modernismo",
+   "i_en": "history, art and modernism"
+  },
+  "cbcn_can_paixano": {
+   "id": "cbcn_can_paixano",
+   "d": "Famosa bodega junto a la Barceloneta donde el cava rosado corre a raudales acompañado de bocadillos y embutidos a precios populares. De pie, a rebosar y siempre en fiesta.",
+   "d_en": "A famous bodega near Barceloneta where rosé cava flows freely alongside sandwiches and cured meats at bargain prices. Standing-room, packed and always a party.",
+   "h": "Media tarde para evitar la aglomeración; cierra domingos",
+   "h_en": "Mid-afternoon to dodge the crush; closed Sundays",
+   "i": "el cava, los bocadillos y el bullicio",
+   "i_en": "cava, sandwiches and lively chaos"
+  },
+  "cbcn_bar_del_pla": {
+   "id": "cbcn_bar_del_pla",
+   "d": "Bar de tapas de referencia junto al Museu Picasso, donde la cocina tradicional catalana se reinventa con producto de mercado y toques modernos. Buenos vinos y ambiente animado.",
+   "d_en": "A go-to tapas bar next to the Picasso Museum, where traditional Catalan cooking is reinvented with market produce and modern touches. Good wines and a lively vibe.",
+   "h": "Comida o cena; conviene reservar",
+   "h_en": "Lunch or dinner; booking advised",
+   "i": "las tapas de autor y el buen vino",
+   "i_en": "creative tapas and good wine"
+  },
+  "cbcn_cova_fumada": {
+   "id": "cbcn_cova_fumada",
+   "d": "Bodega familiar sin rótulo en la Barceloneta, célebre por ser la cuna de la 'bomba' (croqueta de patata picante) y por su pescadito fresco cocinado al momento. Auténtica y sin pretensiones.",
+   "d_en": "An unmarked family bodega in Barceloneta, famed as the birthplace of the 'bomba' (spicy potato croquette) and for its fresh little fish cooked to order. Authentic and unpretentious.",
+   "h": "Al mediodía; solo abre en horario de comidas y cierra pronto",
+   "h_en": "At midday; open lunch hours only and closes early",
+   "i": "la cocina marinera y las tabernas de barrio",
+   "i_en": "seafood cooking and neighbourhood taverns"
+  },
+  "cgi_montserrat": {
+   "id": "cgi_montserrat",
+   "d": "Montserrat es una espectacular montaña de conglomerado con formas redondeadas que alberga el monasterio benedictino de Santa Maria, hogar de la Virgen de Montserrat (la Moreneta) y de la célebre Escolania. Funiculares y senderos permiten subir a los miradores y a las ermitas entre paredes de roca.",
+   "d_en": "Montserrat is a striking conglomerate mountain of rounded rock pinnacles that shelters the Benedictine monastery of Santa Maria, home to the Virgin of Montserrat (La Moreneta) and its famous boys' choir. Funiculars and trails climb to viewpoints and hermitages among the crags.",
+   "h": "Media mañana entre semana para evitar colas y escuchar a la Escolania",
+   "h_en": "Mid-morning on a weekday to avoid queues and hear the boys' choir",
+   "i": "las montañas sagradas, el senderismo y la espiritualidad",
+   "i_en": "sacred mountains, hiking and spirituality"
+  },
+  "cgi_colonia_guell": {
+   "id": "cgi_colonia_guell",
+   "d": "En la antigua colonia industrial de Santa Coloma de Cervelló, Gaudí construyó esta cripta donde ensayó las soluciones estructurales de columnas inclinadas y bóvedas que luego aplicó en la Sagrada Família. Es Patrimonio de la Humanidad y se rodea de un conjunto modernista de casas obreras.",
+   "d_en": "In the old industrial estate of Santa Coloma de Cervelló, Gaudí built this crypt as a laboratory for the leaning columns and vaults he later used at the Sagrada Família. A UNESCO World Heritage Site, it sits within a Modernista village of workers' houses.",
+   "h": "Entre semana por la mañana, con visita guiada",
+   "h_en": "A weekday morning, with a guided tour",
+   "i": "Gaudí, el modernismo y la ingeniería con belleza",
+   "i_en": "Gaudí, Modernisme and engineering as beauty"
+  },
+  "cgi_sitges": {
+   "id": "cgi_sitges",
+   "d": "Sitges combina un elegante paseo marítimo modernista, playas doradas y un ambiente cosmopolita y festivo. Su imagen icónica es la iglesia de Sant Bartomeu i Santa Tecla, alzada sobre una roca frente al Mediterráneo, junto al casco antiguo de callejuelas blancas.",
+   "d_en": "Sitges blends an elegant Modernista seafront promenade, golden beaches and a cosmopolitan, festive vibe. Its icon is the church of Sant Bartomeu i Santa Tecla, raised on a rock above the Mediterranean beside the whitewashed old town.",
+   "h": "Al atardecer para pasear el frente marítimo",
+   "h_en": "At sunset, for a stroll along the seafront",
+   "i": "las playas, el ambiente y la vida cosmopolita",
+   "i_en": "beaches, atmosphere and cosmopolitan life"
+  },
+  "cgi_cardona_castell": {
+   "id": "cgi_cardona_castell",
+   "d": "El castillo de Cardona, de los siglos IX-XI, fue una de las fortalezas más importantes de Cataluña y hoy alberga un Parador de Turismo. Domina el valle del Cardener y conserva la colegiata románica de Sant Vicenç y la legendaria Torre de la Minyona.",
+   "d_en": "Cardona Castle, dating from the 9th-11th centuries, was one of Catalonia's mightiest fortresses and now houses a Parador hotel. It commands the Cardener valley and preserves the Romanesque collegiate church of Sant Vicenç and the legendary Minyona Tower.",
+   "h": "Al final del día, con vistas al valle y la sal",
+   "h_en": "Late in the day, with views over the valley",
+   "i": "los castillos, la historia medieval y las vistas",
+   "i_en": "castles, medieval history and panoramic views"
+  },
+  "cgi_mnactec": {
+   "id": "cgi_mnactec",
+   "d": "El Vapor Aymerich, Amat i Jover, gran fábrica textil modernista de Lluís Muncunill, acoge el Museu Nacional de la Ciència i la Tècnica de Catalunya (mNACTEC). Su espectacular nave de dientes de sierra y su chimenea son símbolo del pasado industrial de Terrassa.",
+   "d_en": "The Vapor Aymerich, Amat i Jover, a grand Modernista textile mill by Lluís Muncunill, houses the National Museum of Science and Technology of Catalonia (mNACTEC). Its spectacular sawtooth-roofed hall and chimney are emblems of Terrassa's industrial past.",
+   "h": "Entre semana por la mañana, con calma",
+   "h_en": "A weekday morning, at a relaxed pace",
+   "i": "el modernismo, la industria y la historia de la técnica",
+   "i_en": "Modernisme, industry and the history of technology"
+  },
+  "cgi_vic_catedral": {
+   "id": "cgi_vic_catedral",
+   "d": "La Catedral de Sant Pere de Vic reúne estilos románico, gótico y neoclásico, y destaca por los imponentes murales del pintor Josep Maria Sert. A pocos pasos, la gran Plaça Major porticada acoge un célebre mercado y concentra el ambiente de esta ciudad histórica de la comarca de Osona.",
+   "d_en": "Vic's Cathedral of Sant Pere blends Romanesque, Gothic and Neoclassical styles and is renowned for the powerful murals by painter Josep Maria Sert. A few steps away, the great arcaded Plaça Major hosts a famous market and gathers the life of this historic capital of the Osona region.",
+   "h": "Sábado por la mañana, con el mercado en la plaza",
+   "h_en": "Saturday morning, with the market in the square",
+   "i": "las catedrales, las plazas con encanto y los mercados",
+   "i_en": "cathedrals, charming squares and markets"
+  },
+  "cgi_garraf": {
+   "id": "cgi_garraf",
+   "d": "La Costa del Garraf despliega acantilados de piedra caliza que caen al Mediterráneo entre Barcelona y Sitges, con calas escondidas como la playa del Garraf, de casetas de pescadores rayadas. Tras ella se alza el Parque del Garraf, un macizo kárstico de vegetación mediterránea.",
+   "d_en": "The Garraf coast unfolds limestone cliffs plunging into the Mediterranean between Barcelona and Sitges, with hidden coves such as Garraf beach and its striped fishermen's huts. Behind rises the Garraf Park, a karstic massif of Mediterranean scrub.",
+   "h": "En un día despejado, para la carretera de costa",
+   "h_en": "On a clear day, for the coastal drive",
+   "i": "las carreteras panorámicas, las calas y los acantilados",
+   "i_en": "scenic roads, coves and cliffs"
+  },
+  "cgi_cardona_sal": {
+   "id": "cgi_cardona_sal",
+   "d": "La Muntanya de Sal de Cardona es un espectacular afloramiento salino, un diapiro que emerge del valle del Cardener y que la erosión esculpe en formas cambiantes. Su Parque Cultural permite adentrarse en galerías subterráneas entre paredes brillantes de sal de colores.",
+   "d_en": "The Salt Mountain of Cardona is a spectacular saline outcrop, a diapir rising from the Cardener valley and endlessly reshaped by erosion. Its cultural park lets visitors descend into underground galleries between glittering walls of coloured salt.",
+   "h": "Con visita guiada a la mina, cualquier época",
+   "h_en": "On a guided mine tour, any time of year",
+   "i": "la geología, las cuevas y los paisajes insólitos",
+   "i_en": "geology, caves and unusual landscapes"
+  },
+  "cgi_fragata_sitges": {
+   "id": "cgi_fragata_sitges",
+   "d": "Fragata es un clásico de Sitges situado en el Passeig de la Ribera, a los pies de la iglesia y frente al Mediterráneo. Ofrece cocina marinera catalana actualizada, con pescados frescos, mariscos y arroces, en un ambiente elegante y luminoso junto al paseo.",
+   "d_en": "Fragata is a Sitges classic on the Passeig de la Ribera, at the foot of the church and facing the Mediterranean. It serves updated Catalan seafood cooking with fresh fish, shellfish and rice dishes in an elegant, bright setting by the promenade.",
+   "h": "Para comer un arroz frente al mar al mediodía",
+   "h_en": "For a lunchtime rice dish facing the sea",
+   "i": "el pescado fresco, los arroces y comer junto al mar",
+   "i_en": "fresh fish, rice dishes and dining by the sea"
+  }
+ },
+ "food": {
+  "cbcn_boqueria": {
+   "cuisine": "Mercado y tapas catalanas",
+   "price": "10–25 €",
+   "hours": "Lun–Sáb 8:00–20:30"
+  },
+  "cbcn_quimet": {
+   "cuisine": "Tapas y conservas gourmet",
+   "price": "15–30 €",
+   "hours": "Lun–Sáb 12:00–16:00 y 19:00–22:30"
+  },
+  "cbcn_cerveceria_catalana": {
+   "cuisine": "Tapas catalanas",
+   "price": "20–35 €",
+   "hours": "Todos los días 9:00–1:30"
+  },
+  "cbcn_xampanyet": {
+   "cuisine": "Tapas tradicionales y cava",
+   "price": "15–30 €",
+   "hours": "Mar–Sáb 12:00–15:30 y 19:00–23:00"
+  },
+  "cbcn_quatre_gats": {
+   "cuisine": "Cocina catalana",
+   "price": "25–45 €",
+   "hours": "Todos los días 10:00–24:00"
+  },
+  "cbcn_can_paixano": {
+   "cuisine": "Bocadillos y cava",
+   "price": "10–20 €",
+   "hours": "Lun–Sáb 9:00–22:30"
+  },
+  "cbcn_bar_del_pla": {
+   "cuisine": "Tapas catalanas de mercado",
+   "price": "25–40 €",
+   "hours": "Mar–Sáb 12:00–23:00"
+  },
+  "cbcn_cova_fumada": {
+   "cuisine": "Cocina marinera catalana",
+   "price": "15–25 €",
+   "hours": "Lun–Sáb 9:00–15:20 (más J-V tarde)"
+  },
+  "cgi_fragata_sitges": {
+   "cuisine": "Marinera catalana, pescados y arroces",
+   "price": "40-60 € por persona",
+   "hours": "Todos los días, comidas y cenas"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Barcelona",
+   "items": [
+    {
+     "name": "Cerámica y mosaico estilo Gaudí (trencadís)",
+     "price": "8–40 €",
+     "desc": "Baldosas, salamandras y piezas inspiradas en el modernismo del Park Güell."
+    },
+    {
+     "name": "Productos del Barça",
+     "price": "15–90 €",
+     "desc": "Camisetas y recuerdos oficiales del FC Barcelona."
+    },
+    {
+     "name": "Turrón, cava y chocolate catalán",
+     "price": "8–25 €",
+     "desc": "Dulces y espumosos del Penedès para llevar a casa."
+    },
+    {
+     "name": "Espardenyes (alpargatas catalanas)",
+     "price": "20–45 €",
+     "desc": "Calzado artesano tradicional, aún hecho a mano en el Raval."
+    }
+   ],
+   "shops": [
+    "La Rambla y Barri Gòtic",
+    "Mercat de la Boqueria",
+    "La Manual Alpargatera"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Barcelona se mueve muy bien en metro y a pie; compra online y con antelación las entradas de la Sagrada Família, la Casa Batlló y el Park Güell para evitar colas y agotados.",
+   "Ojo con los carteristas en La Rambla, el metro y las zonas turísticas: lleva lo justo y vigila bolsos y móviles.",
+   "Cataluña es bilingüe (catalán y español); verás muchos carteles y menús en catalán, pero te entenderán en español sin problema.",
+   "La región combina ciudad, playa (Costa Brava y Costa Daurada) y Pirineo (Val d'Aran, Aigüestortes): para el interior y la montaña el coche es casi imprescindible.",
+   "En invierno el norte tiene esquí (Baqueira) y en verano la costa se llena: reserva alojamiento con antelación en temporada alta y festivos."
+  ],
+  "en": [
+   "Barcelona is easy to get around by metro and on foot; buy tickets for the Sagrada Família, Casa Batlló and Park Güell online and in advance to avoid queues and sell-outs.",
+   "Watch out for pickpockets on La Rambla, the metro and tourist areas: carry only what you need and keep an eye on bags and phones.",
+   "Catalonia is bilingual (Catalan and Spanish); you'll see many signs and menus in Catalan, but you'll be understood in Spanish everywhere.",
+   "The region combines city, beaches (Costa Brava and Costa Daurada) and the Pyrenees (Val d'Aran, Aigüestortes): a car is almost essential for the inland and mountain areas.",
+   "In winter the north has skiing (Baqueira) and in summer the coast fills up: book accommodation ahead in high season and on holidays."
+  ]
+ },
+ "climate": {
+  "hi": [
+   13,
+   14,
+   16,
+   18,
+   21,
+   25,
+   28,
+   29,
+   25,
+   21,
+   16,
+   13
+  ],
+  "lo": [
+   5,
+   6,
+   8,
+   10,
+   13,
+   17,
+   20,
+   20,
+   17,
+   13,
+   9,
+   6
+  ]
+ },
+ "tr": {
+  "La basílica inacabada de Gaudí, icono absoluto de Barcelona.": "Gaudí's unfinished basilica, the absolute icon of Barcelona.",
+  "Parque mágico de Gaudí con mosaicos y vistas de la ciudad.": "Gaudí's magical park with mosaics and city views.",
+  "El mercado más famoso de Barcelona, junto a Las Ramblas.": "Barcelona's most famous market, right off Las Ramblas.",
+  "La casa-dragón de Gaudí en el Passeig de Gràcia.": "Gaudí's dragon house on Passeig de Gràcia.",
+  "Edificio ondulado de Gaudí con azotea de guerreros.": "Gaudí's wavy building with its rooftop of warriors.",
+  "El bulevar más famoso, del centro al mar.": "The most famous boulevard, running from downtown to the sea.",
+  "El casco medieval de callejuelas y plazas escondidas.": "The medieval old town of narrow lanes and hidden squares.",
+  "El mítico estadio del FC Barcelona.": "FC Barcelona's legendary stadium.",
+  "Gótica catedral con claustro y ocas.": "Gothic cathedral with a cloister and its resident geese.",
+  "El gran parque verde del centro con lago y cascada.": "The city center's great green park, with a lake and waterfall.",
+  "La playa urbana más animada de la ciudad.": "The city's liveliest urban beach.",
+  "Espectáculo de agua, luz y música al pie de Montjuïc.": "A show of water, light and music at the foot of Montjuïc.",
+  "Joya modernista de Domènech i Montaner, Patrimonio Mundial.": "A Modernista gem by Domènech i Montaner, a World Heritage Site.",
+  "La catedral del mar, gótico catalán puro.": "The cathedral of the sea, pure Catalan Gothic.",
+  "La primera casa de Gaudí, colorida y orientalista.": "Gaudí's first house, colorful and Orientalist.",
+  "El mayor conjunto modernista del mundo.": "The largest Modernista complex in the world.",
+  "Gran museo de arte catalán en el Palau Nacional.": "A grand museum of Catalan art in the Palau Nacional.",
+  "Fortaleza sobre la montaña con vistas al puerto.": "A hilltop fortress with views over the harbor.",
+  "El mirador 360° más famoso de Barcelona.": "Barcelona's most famous 360° viewpoint.",
+  "La montaña que corona Barcelona con templo y atracciones.": "The mountain crowning Barcelona, with a temple and an amusement park.",
+  "El rascacielos-bala de colores de Jean Nouvel.": "Jean Nouvel's colorful bullet-shaped skyscraper.",
+  "Arco de ladrillo rojo de la Exposición de 1888.": "A red-brick arch from the 1888 Exposition.",
+  "Pueblo-museo con arquitectura de toda España.": "An open-air village museum with architecture from all over Spain.",
+  "Gran acuario mediterráneo con túnel de tiburones.": "A large Mediterranean aquarium with a shark tunnel.",
+  "El puerto viejo remodelado, paseos y marina.": "The revamped old port, with promenades and a marina.",
+  "Barrio bohemio de bares, boutiques y museos.": "A bohemian neighborhood of bars, boutiques and museums.",
+  "Barrio de plazas animadas y ambiente de pueblo.": "A neighborhood of lively squares with a village feel.",
+  "Mítica bodega de montaditos y conservas en Poble-sec.": "A legendary tavern for montaditos and tinned seafood in Poble-sec.",
+  "Tapas y montaditos muy populares en l'Eixample.": "Hugely popular tapas and montaditos in l'Eixample.",
+  "Taberna centenaria de cava y anchoas en El Born.": "A century-old tavern for cava and anchovies in El Born.",
+  "Café modernista histórico, cuna de Picasso.": "A historic Modernista café, cradle of Picasso.",
+  "Bulliciosa xampanyeria de cava barato y bocadillos.": "A bustling xampanyeria for cheap cava and sandwiches.",
+  "Tapas creativas de mercado en El Born.": "Creative market-fresh tapas in El Born.",
+  "Taberna marinera cuna de la bomba, en la Barceloneta.": "A seafood tavern, birthplace of the bomba, in Barceloneta.",
+  "Montaña de agujas de roca con el monasterio benedictino y la Moreneta.": "A mountain of rocky spires, home to the Benedictine monastery and the Moreneta.",
+  "Laboratorio de Gaudí para la Sagrada Família, Patrimonio de la Humanidad.": "Gaudí's testing ground for the Sagrada Família, a World Heritage Site.",
+  "Villa costera cosmopolita con su iglesia sobre el mar y largo paseo marítimo.": "A cosmopolitan seaside town with its church above the water and a long seafront promenade.",
+  "Fortaleza medieval sobre una colina, hoy Parador, con la Torre de la Minyona.": "A hilltop medieval fortress, now a Parador, with the Torre de la Minyona.",
+  "Joya del modernismo industrial que hoy es el museo de la ciencia y la técnica.": "A gem of industrial Modernisme that is now the museum of science and technology.",
+  "Catedral con pinturas de Josep Maria Sert y una de las mayores plazas porticadas.": "A cathedral with paintings by Josep Maria Sert and one of the largest arcaded squares.",
+  "Tramo de costa entre acantilados calizos, calas y el macizo del Garraf.": "A stretch of coast between limestone cliffs, coves and the Garraf massif.",
+  "Diapiro de sal a cielo abierto, con galerías subterráneas visitables.": "An open-air salt diapir, with underground galleries open to visitors.",
+  "Cocina marinera y arroces frente al mar, junto a la iglesia de Sitges.": "Seafood and rice dishes facing the sea, next to the church of Sitges.",
+  "Barcelona": "Barcelona"
+ }
+}

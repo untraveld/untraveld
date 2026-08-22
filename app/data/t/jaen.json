@@ -1,0 +1,573 @@
+{
+ "id": "jaen",
+ "name": "Jaén",
+ "country": "ES",
+ "center": [
+  37.76877,
+  -3.79028
+ ],
+ "pois": [
+  {
+   "id": "jae_catedral_jaen",
+   "cat": "monuments",
+   "name": "Catedral de la Asunción de Jaén",
+   "icon": "⛪",
+   "lat": 37.76563,
+   "lng": -3.79068,
+   "desc": "Obra maestra del Renacimiento español de Andrés de Vandelvira."
+  },
+  {
+   "id": "jae_castillo_santa_catalina",
+   "cat": "monuments",
+   "name": "Castillo de Santa Catalina",
+   "icon": "🏰",
+   "lat": 37.7672,
+   "lng": -3.7994,
+   "desc": "Fortaleza sobre el cerro que domina toda la capital."
+  },
+  {
+   "id": "jae_banos_arabes",
+   "cat": "monuments",
+   "name": "Baños Árabes – Palacio de Villardompardo",
+   "icon": "🕌",
+   "lat": 37.76887,
+   "lng": -3.79241,
+   "desc": "Los baños árabes más grandes conservados de España."
+  },
+  {
+   "id": "jae_capilla_salvador",
+   "cat": "monuments",
+   "name": "Sacra Capilla del Salvador (Úbeda)",
+   "icon": "⛪",
+   "lat": 38.00849,
+   "lng": -3.36664,
+   "desc": "Joya del Renacimiento que preside la plaza de Úbeda."
+  },
+  {
+   "id": "jae_plaza_vazquez_molina",
+   "cat": "monuments",
+   "name": "Plaza Vázquez de Molina (Úbeda)",
+   "icon": "🏛️",
+   "lat": 38.00887,
+   "lng": -3.3679,
+   "desc": "La plaza renacentista más armónica de España."
+  },
+  {
+   "id": "jae_hospital_santiago",
+   "cat": "monuments",
+   "name": "Hospital de Santiago (Úbeda)",
+   "icon": "🏛️",
+   "lat": 38.013,
+   "lng": -3.3756,
+   "desc": "El 'Escorial andaluz' de Vandelvira."
+  },
+  {
+   "id": "jae_catedral_baeza",
+   "cat": "monuments",
+   "name": "Catedral de la Natividad (Baeza)",
+   "icon": "⛪",
+   "lat": 37.99075,
+   "lng": -3.4699,
+   "desc": "Catedral renacentista sobre una antigua mezquita."
+  },
+  {
+   "id": "jae_plaza_populo",
+   "cat": "monuments",
+   "name": "Plaza del Pópulo (Baeza)",
+   "icon": "⛲",
+   "lat": 37.99247,
+   "lng": -3.47186,
+   "desc": "Rincón renacentista con la fuente de los Leones."
+  },
+  {
+   "id": "jae_castillo_iruela",
+   "cat": "monuments",
+   "name": "Castillo de La Iruela",
+   "icon": "🏰",
+   "lat": 37.91916,
+   "lng": -2.9433,
+   "desc": "Castillo templario sobre un peñón vertiginoso."
+  },
+  {
+   "id": "jae_castillo_yedra",
+   "cat": "monuments",
+   "name": "Castillo de la Yedra (Cazorla)",
+   "icon": "🏰",
+   "lat": 37.9079,
+   "lng": -3.0008,
+   "desc": "Torreón medieval que vigila el pueblo de Cazorla."
+  },
+  {
+   "id": "jae_parque_cazorla",
+   "cat": "nature",
+   "name": "P.N. Sierras de Cazorla, Segura y Las Villas",
+   "icon": "🌲",
+   "lat": 38.0483,
+   "lng": -2.8695,
+   "desc": "El mayor espacio protegido de España."
+  },
+  {
+   "id": "jae_nacimiento_guadalquivir",
+   "cat": "nature",
+   "name": "Nacimiento del Guadalquivir",
+   "icon": "💧",
+   "lat": 37.8547,
+   "lng": -2.9883,
+   "desc": "Donde nace el gran río de Andalucía."
+  },
+  {
+   "id": "jae_cerrada_utrero",
+   "cat": "nature",
+   "name": "Cerrada del Utrero y Cascada de Linarejos",
+   "icon": "🏞️",
+   "lat": 37.8867,
+   "lng": -2.9345,
+   "desc": "Cañón y cascada en un sendero circular fácil."
+  },
+  {
+   "id": "jae_embalse_tranco",
+   "cat": "nature",
+   "name": "Embalse del Tranco de Beas",
+   "icon": "🚤",
+   "lat": 38.155,
+   "lng": -2.792,
+   "desc": "Gran lago azul en el corazón de la sierra."
+  },
+  {
+   "id": "jae_sierra_magina",
+   "cat": "nature",
+   "name": "P.N. Sierra Mágina – Pico Mágina",
+   "icon": "⛰️",
+   "lat": 37.7297,
+   "lng": -3.4483,
+   "desc": "El techo de la provincia de Jaén (2.167 m)."
+  },
+  {
+   "id": "jae_museo_ibero",
+   "cat": "ocio",
+   "name": "Museo Íbero de Jaén",
+   "icon": "🏺",
+   "lat": 37.7793,
+   "lng": -3.7876,
+   "desc": "La mayor colección de arte íbero del mundo."
+  },
+  {
+   "id": "jae_museo_olivo",
+   "cat": "ocio",
+   "name": "Museo de la Cultura del Olivo (Baeza)",
+   "icon": "🫒",
+   "lat": 37.943,
+   "lng": -3.538,
+   "desc": "Todo sobre el mundo del aceite de oliva."
+  },
+  {
+   "id": "jae_tiscar",
+   "cat": "ocio",
+   "name": "Santuario de Tíscar y Cueva del Agua (Quesada)",
+   "icon": "🕳️",
+   "lat": 37.798,
+   "lng": -3.054,
+   "desc": "Santuario roquedo con una cueva y cascada interior."
+  },
+  {
+   "id": "jae_via_verde_aceite",
+   "cat": "ocio",
+   "name": "Vía Verde del Aceite",
+   "icon": "🚴",
+   "lat": 37.738,
+   "lng": -3.8033,
+   "desc": "Ruta ciclista sobre un antiguo tren entre olivares."
+  },
+  {
+   "id": "jae_rio_borosa",
+   "cat": "ocio",
+   "name": "Sendero del Río Borosa",
+   "icon": "🥾",
+   "lat": 38.043,
+   "lng": -2.845,
+   "desc": "La ruta a pie más famosa de Cazorla."
+  },
+  {
+   "id": "jae_castillo_canena",
+   "cat": "food",
+   "name": "Castillo de Canena (Oleoturismo)",
+   "icon": "🫒",
+   "lat": 38.033,
+   "lng": -3.4785,
+   "desc": "Castillo renacentista y aceites premium."
+  },
+  {
+   "id": "jae_tapeo_jaen",
+   "cat": "food",
+   "name": "Tapeo en Jaén capital",
+   "icon": "🍢",
+   "lat": 37.7668,
+   "lng": -3.7903,
+   "desc": "Tapa gratis con cada bebida, tradición jiennense."
+  },
+  {
+   "id": "jae_gastronomia_ubeda",
+   "cat": "food",
+   "name": "Gastronomía de Úbeda",
+   "icon": "🍽️",
+   "lat": 38.0113,
+   "lng": -3.3697,
+   "desc": "Cocina renacentista y sabores del olivar."
+  },
+  {
+   "id": "jae_cocina_serrana_cazorla",
+   "cat": "food",
+   "name": "Cocina serrana de Cazorla",
+   "icon": "🍲",
+   "lat": 37.9105,
+   "lng": -3.003,
+   "desc": "Guisos de montaña y platos de caza."
+  }
+ ],
+ "extra": {
+  "jae_catedral_jaen": {
+   "id": "jae_catedral_jaen",
+   "d": "Imponente catedral renacentista que custodia la reliquia del Santo Rostro. Su fachada barroca y su interior de columnas monumentales sirvieron de modelo a muchas catedrales de América. Candidata a Patrimonio de la Humanidad.",
+   "d_en": "Grand Renaissance cathedral that guards the relic of the Holy Face. Its Baroque façade and monumental columned interior served as a model for many cathedrals in the Americas. A UNESCO candidate.",
+   "h": "1–2 h por la mañana",
+   "h_en": "1–2 h in the morning",
+   "i": "Ideal si te gusta la arquitectura renacentista y el arte sacro.",
+   "i_en": "Ideal if you like Renaissance architecture and sacred art."
+  },
+  "jae_castillo_santa_catalina": {
+   "id": "jae_castillo_santa_catalina",
+   "d": "Castillo de origen árabe reconquistado por Fernando III, coronado por la Cruz y un mirador espectacular. Junto a él, el Parador ofrece vistas del inmenso mar de olivos que rodea la ciudad.",
+   "d_en": "Moorish-origin castle reconquered by Ferdinand III, crowned by the Cross and a spectacular viewpoint. Beside it, the Parador overlooks the vast sea of olive trees around the city.",
+   "h": "1,5 h, mejor al atardecer",
+   "h_en": "1.5 h, best at sunset",
+   "i": "Ideal si te gustan los castillos y las vistas panorámicas.",
+   "i_en": "Ideal if you like castles and panoramic views."
+  },
+  "jae_banos_arabes": {
+   "id": "jae_banos_arabes",
+   "d": "Hammam del siglo XI con bóvedas y tragaluces en forma de estrella, integrado bajo el palacio renacentista de Villardompardo, que además alberga museos de arte naif y de costumbres populares.",
+   "d_en": "11th-century hammam with vaults and star-shaped skylights, set beneath the Renaissance Villardompardo Palace, which also houses museums of naïve art and folk traditions.",
+   "h": "1 h",
+   "h_en": "1 h",
+   "i": "Ideal si te gusta la herencia andalusí y la historia.",
+   "i_en": "Ideal if you like Andalusian heritage and history."
+  },
+  "jae_capilla_salvador": {
+   "id": "jae_capilla_salvador",
+   "d": "Capilla funeraria del siglo XVI diseñada por Diego de Siloé y Vandelvira, con una portada plateresca y un retablo monumental. Símbolo del esplendor renacentista de Úbeda, Patrimonio de la Humanidad.",
+   "d_en": "16th-century funerary chapel designed by Diego de Siloé and Vandelvira, with a Plateresque doorway and a monumental altarpiece. Symbol of Úbeda's Renaissance splendour, a UNESCO World Heritage Site.",
+   "h": "45 min",
+   "h_en": "45 min",
+   "i": "Ideal si te gusta el arte renacentista y los conjuntos monumentales.",
+   "i_en": "Ideal if you like Renaissance art and monumental ensembles."
+  },
+  "jae_plaza_vazquez_molina": {
+   "id": "jae_plaza_vazquez_molina",
+   "d": "Corazón monumental de Úbeda, rodeado por el Palacio de las Cadenas (ayuntamiento), la Basílica de Santa María y la Sacra Capilla. Escenario de cine y epicentro del casco Patrimonio de la Humanidad.",
+   "d_en": "Monumental heart of Úbeda, framed by the Palace of the Chains (town hall), the Basilica of Santa María and the Sacred Chapel. A film set and epicentre of the UNESCO old town.",
+   "h": "1 h paseando",
+   "h_en": "1 h strolling",
+   "i": "Ideal si te gusta pasear por conjuntos históricos.",
+   "i_en": "Ideal if you like wandering historic ensembles."
+  },
+  "jae_hospital_santiago": {
+   "id": "jae_hospital_santiago",
+   "d": "Antiguo hospital renacentista de líneas sobrias y patio de mármol, hoy centro cultural con auditorio y exposiciones. Una de las obras cumbre de Andrés de Vandelvira.",
+   "d_en": "Former Renaissance hospital of sober lines with a marble courtyard, now a cultural centre with an auditorium and exhibitions. One of Andrés de Vandelvira's crowning works.",
+   "h": "45 min",
+   "h_en": "45 min",
+   "i": "Ideal si te gusta la arquitectura monumental y la cultura.",
+   "i_en": "Ideal if you like monumental architecture and culture."
+  },
+  "jae_catedral_baeza": {
+   "id": "jae_catedral_baeza",
+   "d": "Templo levantado por Vandelvira que combina gótico y Renacimiento, con una custodia procesional de plata y una torre con vistas. Preside la monumental Plaza de Santa María de Baeza.",
+   "d_en": "Church raised by Vandelvira blending Gothic and Renaissance, with a silver processional monstrance and a tower with views. It presides over Baeza's monumental Plaza de Santa María.",
+   "h": "45 min",
+   "h_en": "45 min",
+   "i": "Ideal si te gusta el arte sacro y las catedrales.",
+   "i_en": "Ideal if you like sacred art and cathedrals."
+  },
+  "jae_plaza_populo": {
+   "id": "jae_plaza_populo",
+   "d": "También llamada Plaza de los Leones, reúne la Antigua Carnicería, la Casa del Pópulo y la fuente romana de Cástulo. Uno de los conjuntos más fotografiados de la Baeza Patrimonio de la Humanidad.",
+   "d_en": "Also called Plaza de los Leones, it gathers the Old Butchery, the Casa del Pópulo and the Roman Cástulo fountain. One of the most photographed spots in UNESCO-listed Baeza.",
+   "h": "30 min",
+   "h_en": "30 min",
+   "i": "Ideal si te gustan los rincones con encanto y la fotografía.",
+   "i_en": "Ideal if you like charming corners and photography."
+  },
+  "jae_castillo_iruela": {
+   "id": "jae_castillo_iruela",
+   "d": "Fortaleza de origen almohade y templario encaramada en una roca imposible a la entrada del Parque Natural de Cazorla. Su torre del homenaje ofrece vistas de vértigo sobre el valle y los pueblos serranos.",
+   "d_en": "Almohad and Templar fortress perched on an impossible rock at the gateway to the Cazorla Natural Park. Its keep offers dizzying views over the valley and the mountain villages.",
+   "h": "1 h",
+   "h_en": "1 h",
+   "i": "Ideal si te gustan los castillos con vistas de leyenda.",
+   "i_en": "Ideal if you like castles with legendary views."
+  },
+  "jae_castillo_yedra": {
+   "id": "jae_castillo_yedra",
+   "d": "Castillo de las Cuatro Esquinas que alberga el Museo de Artes y Costumbres Populares del Alto Guadalquivir. Domina el casco blanco de Cazorla y la entrada a la sierra.",
+   "d_en": "Castle of the Four Corners housing the Museum of Popular Arts and Customs of the Upper Guadalquivir. It dominates Cazorla's whitewashed old town and the entrance to the sierra.",
+   "h": "1 h",
+   "h_en": "1 h",
+   "i": "Ideal si te gustan los museos etnográficos y los castillos.",
+   "i_en": "Ideal if you like ethnographic museums and castles."
+  },
+  "jae_parque_cazorla": {
+   "id": "jae_parque_cazorla",
+   "d": "Reserva de la Biosfera de más de 200.000 hectáreas de bosques, ríos y roquedos, hogar de la cabra montés, el ciervo y buitres. El Centro de Interpretación Torre del Vinagre es la puerta de entrada ideal.",
+   "d_en": "Biosphere Reserve of over 200,000 hectares of forests, rivers and crags, home to ibex, deer and vultures. The Torre del Vinagre visitor centre is the ideal gateway.",
+   "h": "Medio día o más",
+   "h_en": "Half a day or more",
+   "i": "Ideal si te gusta la naturaleza salvaje y la fauna.",
+   "i_en": "Ideal if you like wild nature and wildlife."
+  },
+  "jae_nacimiento_guadalquivir": {
+   "id": "jae_nacimiento_guadalquivir",
+   "d": "En la Cañada de las Fuentes brota el Guadalquivir, que recorrerá 650 km hasta el Atlántico. Un paseo fácil entre pinares y tejos milenarios hasta el manantial y su monumento.",
+   "d_en": "At the Cañada de las Fuentes springs the Guadalquivir, which will run 650 km to the Atlantic. An easy walk among pines and ancient yews to the source and its monument.",
+   "h": "1,5–2 h con el paseo",
+   "h_en": "1.5–2 h with the walk",
+   "i": "Ideal si te gustan los paisajes fluviales y el senderismo suave.",
+   "i_en": "Ideal if you like river landscapes and gentle hiking."
+  },
+  "jae_cerrada_utrero": {
+   "id": "jae_cerrada_utrero",
+   "d": "Ruta corta y espectacular por un estrecho cañón esculpido por el Guadalquivir, con pasarelas, pozas turquesa y la cascada de Linarejos junto a la presa. De las más populares del parque.",
+   "d_en": "Short, spectacular loop through a narrow canyon carved by the Guadalquivir, with walkways, turquoise pools and the Linarejos waterfall by the dam. Among the park's most popular routes.",
+   "h": "1,5 h",
+   "h_en": "1.5 h",
+   "i": "Ideal si te gustan las rutas cortas con agua y paisaje.",
+   "i_en": "Ideal if you like short trails with water and scenery."
+  },
+  "jae_embalse_tranco": {
+   "id": "jae_embalse_tranco",
+   "d": "Enorme embalse rodeado de pinares donde se practican paseos en barco, kayak y pesca. En su entorno está la isla de Cabeza de la Viña y miradores para avistar ciervos al atardecer.",
+   "d_en": "Huge reservoir ringed by pine forests where you can take boat trips, kayak and fish. Nearby lie Cabeza de la Viña island and viewpoints to spot deer at dusk.",
+   "h": "2–3 h",
+   "h_en": "2–3 h",
+   "i": "Ideal si te gustan los lagos, el kayak y la fauna.",
+   "i_en": "Ideal if you like lakes, kayaking and wildlife."
+  },
+  "jae_sierra_magina": {
+   "id": "jae_sierra_magina",
+   "d": "Macizo calizo que se alza sobre un mar de olivos, con la cumbre más alta de la provincia. Refugio de la cabra montés y de flora endémica, ofrece rutas de montaña y cielos estrellados.",
+   "d_en": "Limestone massif rising over a sea of olive trees, holding the province's highest summit. A refuge for ibex and endemic flora, it offers mountain trails and starry skies.",
+   "h": "Medio día (ruta a la cumbre)",
+   "h_en": "Half a day (summit hike)",
+   "i": "Ideal si te gusta el montañismo y los paisajes de altura.",
+   "i_en": "Ideal if you like mountaineering and high-altitude scenery."
+  },
+  "jae_museo_ibero": {
+   "id": "jae_museo_ibero",
+   "d": "Museo moderno dedicado a la cultura íbera que floreció en estas tierras, con esculturas, exvotos y el conjunto monumental de Cerrillo Blanco. Una inmersión en la civilización anterior a Roma.",
+   "d_en": "Modern museum devoted to the Iberian culture that flourished here, with sculptures, votive offerings and the Cerrillo Blanco ensemble. A deep dive into the pre-Roman civilisation.",
+   "h": "1,5 h",
+   "h_en": "1.5 h",
+   "i": "Ideal si te gusta la arqueología y la historia antigua.",
+   "i_en": "Ideal if you like archaeology and ancient history."
+  },
+  "jae_museo_olivo": {
+   "id": "jae_museo_olivo",
+   "d": "En la Hacienda La Laguna, junto a Baeza, este museo recorre la historia, cultivo y elaboración del AOVE con antiguas prensas, un olivar didáctico y catas. La mejor introducción al oleoturismo.",
+   "d_en": "At the Hacienda La Laguna near Baeza, this museum traces the history, cultivation and making of olive oil with old presses, a teaching olive grove and tastings. The best introduction to oleotourism.",
+   "h": "1–1,5 h",
+   "h_en": "1–1.5 h",
+   "i": "Ideal si te gusta la gastronomía y las tradiciones rurales.",
+   "i_en": "Ideal if you like gastronomy and rural traditions."
+  },
+  "jae_tiscar": {
+   "id": "jae_tiscar",
+   "d": "Enclave espectacular entre riscos donde el santuario mariano se une a la Cueva del Agua, un cañón natural atravesado por una cascada. Paisaje de leyenda a las puertas de la Sierra de Cazorla.",
+   "d_en": "Spectacular spot among crags where the Marian sanctuary meets the Cueva del Agua, a natural gorge crossed by a waterfall. A legendary landscape at the gates of the Cazorla range.",
+   "h": "1 h",
+   "h_en": "1 h",
+   "i": "Ideal si te gustan los lugares insólitos y la naturaleza.",
+   "i_en": "Ideal if you like unusual places and nature."
+  },
+  "jae_via_verde_aceite": {
+   "id": "jae_via_verde_aceite",
+   "d": "Más de 120 km de trazado ferroviario reconvertido que cruza viaductos y estaciones históricas entre mares de olivos desde Jaén hacia Córdoba. Ideal en bici o a pie, apta para familias.",
+   "d_en": "Over 120 km of converted railway crossing viaducts and historic stations through seas of olive trees from Jaén towards Córdoba. Great by bike or on foot, family-friendly.",
+   "h": "Medio día",
+   "h_en": "Half a day",
+   "i": "Ideal si te gusta el cicloturismo y el aire libre.",
+   "i_en": "Ideal if you like bike touring and the outdoors."
+  },
+  "jae_rio_borosa": {
+   "id": "jae_rio_borosa",
+   "d": "Sendero que remonta el río Borosa por pasarelas de madera colgadas sobre la Cerrada de Elías, túneles y lagunas de aguas cristalinas hasta el Salto de los Órganos. Un clásico del parque natural.",
+   "d_en": "Trail following the Borosa river along wooden walkways clinging to the Cerrada de Elías, tunnels and crystal-clear lagoons up to the Salto de los Órganos. A natural-park classic.",
+   "h": "4–5 h (ida y vuelta)",
+   "h_en": "4–5 h (round trip)",
+   "i": "Ideal si te gusta el senderismo espectacular junto al agua.",
+   "i_en": "Ideal if you like spectacular hiking beside water."
+  },
+  "jae_castillo_canena": {
+   "id": "jae_castillo_canena",
+   "d": "Fortaleza del siglo XVI convertida en referente del oleoturismo de lujo, con visitas a olivares, catas de aceites premiados internacionalmente y maridajes en un entorno histórico único.",
+   "d_en": "16th-century fortress turned benchmark of luxury oleotourism, with olive-grove visits, tastings of internationally awarded oils and pairings in a unique historic setting.",
+   "h": "2 h (visita y cata)",
+   "h_en": "2 h (tour and tasting)",
+   "i": "Ideal si te gusta el gourmet y el oleoturismo.",
+   "i_en": "Ideal if you like gourmet food and oleotourism."
+  },
+  "jae_tapeo_jaen": {
+   "id": "jae_tapeo_jaen",
+   "d": "En el casco antiguo, cada consumición viene con una tapa generosa: pipirrana, flamenquín, lomo de orza o ochíos. La ruta de bares entre la Catedral y la calle Cerón es todo un ritual local.",
+   "d_en": "In the old town, each drink comes with a generous free tapa: pipirrana salad, flamenquín, lomo de orza or ochíos. The bar crawl between the Cathedral and Calle Cerón is a true local ritual.",
+   "h": "1,5–2 h",
+   "h_en": "1.5–2 h",
+   "i": "Ideal si te gusta la comida tradicional y el ambiente local.",
+   "i_en": "Ideal if you like traditional food and local buzz."
+  },
+  "jae_gastronomia_ubeda": {
+   "id": "jae_gastronomia_ubeda",
+   "d": "En torno a la Plaza de Andalucía se concentran restaurantes de cocina tradicional: andrajos, perdiz en escabeche, morcilla en caldera y dulces conventuales, todo regado con AOVE de Sierra Mágina.",
+   "d_en": "Around the Plaza de Andalucía cluster restaurants of traditional cuisine: andrajos, marinated partridge, blood sausage stew and convent sweets, all drizzled with Sierra Mágina olive oil.",
+   "h": "1,5–2 h",
+   "h_en": "1.5–2 h",
+   "i": "Ideal si te gusta la cocina regional con historia.",
+   "i_en": "Ideal if you like regional cuisine with history."
+  },
+  "jae_cocina_serrana_cazorla": {
+   "id": "jae_cocina_serrana_cazorla",
+   "d": "En el casco de Cazorla se saborea la cocina de la sierra: rin-ran, ajoharina, gachamiga, trucha del Guadalquivir y carnes de caza, contundente y perfecta tras una jornada de senderismo.",
+   "d_en": "In Cazorla's old town you can savour mountain cooking: rin-ran, ajoharina, gachamiga, Guadalquivir trout and game meats, hearty and perfect after a day of hiking.",
+   "h": "1,5 h",
+   "h_en": "1.5 h",
+   "i": "Ideal si te gusta la comida casera y contundente de montaña.",
+   "i_en": "Ideal if you like hearty homemade mountain food."
+  }
+ },
+ "food": {
+  "jae_castillo_canena": {
+   "cuisine": "Aceite de oliva virgen extra, catas y maridajes",
+   "price": "20–45 €",
+   "hours": "Visitas con reserva; mañanas y tardes"
+  },
+  "jae_tapeo_jaen": {
+   "cuisine": "Tapas andaluzas, pipirrana, flamenquín",
+   "price": "10–20 €",
+   "hours": "13:00–16:00 y 20:00–23:30"
+  },
+  "jae_gastronomia_ubeda": {
+   "cuisine": "Cocina tradicional jiennense, caza",
+   "price": "18–35 €",
+   "hours": "13:30–16:00 y 21:00–23:00"
+  },
+  "jae_cocina_serrana_cazorla": {
+   "cuisine": "Cocina serrana, caza, trucha",
+   "price": "15–30 €",
+   "hours": "13:30–16:00 y 20:30–23:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Jaén",
+   "items": [
+    {
+     "name": "Aceite de oliva virgen extra (AOVE)",
+     "price": "8–25 €",
+     "desc": "El oro líquido de Jaén, primera provincia productora del mundo; DOP Sierra de Cazorla, Sierra Mágina y Sierra de Segura."
+    },
+    {
+     "name": "Cerámica vidriada de Úbeda",
+     "price": "10–60 €",
+     "desc": "Alfarería tradicional de barro con vidriado verde, herencia morisca, hecha en los alfares del barrio de San Millán."
+    },
+    {
+     "name": "Artesanía de esparto",
+     "price": "6–40 €",
+     "desc": "Cestas, alpargatas y esteras trenzadas a mano, oficio ancestral de las sierras jiennenses."
+    },
+    {
+     "name": "Ochíos y dulces conventuales",
+     "price": "3–12 €",
+     "desc": "Panecillos con pimentón y aceite y repostería de las monjas de Úbeda y Baeza."
+    }
+   ],
+   "shops": [
+    "Mercado de San Francisco (Jaén)",
+    "Alfarería Tito (Úbeda)",
+    "Tiendas gourmet del centro histórico de Jaén",
+    "Oleotecas de Baeza y Úbeda"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Reserva el combo Úbeda + Baeza en un solo día: están a 9 km y ambas son Patrimonio de la Humanidad del Renacimiento.",
+   "En verano las sierras superan los 35 °C al mediodía; camina temprano y lleva agua abundante en Cazorla y Mágina.",
+   "Compra el AOVE directamente en almazaras con oleoturismo para probarlo antes; muchas ofrecen catas guiadas.",
+   "Sube al Castillo de Santa Catalina al atardecer para las mejores vistas de la capital y el mar de olivos.",
+   "Conduce con calma por las carreteras de montaña del Parque Natural: son estrechas, con curvas y fauna como la cabra montés."
+  ],
+  "en": [
+   "Combine Úbeda + Baeza in one day: they are 9 km apart and both are Renaissance UNESCO World Heritage Sites.",
+   "In summer the mountains top 35 °C at midday; hike early and carry plenty of water in Cazorla and Mágina.",
+   "Buy AOVE olive oil directly at mills with oleotourism so you can taste first; many offer guided tastings.",
+   "Climb to Santa Catalina Castle at sunset for the best views over the city and the sea of olive trees.",
+   "Drive slowly on the Natural Park's mountain roads: they are narrow and winding with wildlife such as the Spanish ibex."
+  ]
+ },
+ "climate": {
+  "hi": [
+   11.7,
+   13.4,
+   17.0,
+   19.4,
+   24.4,
+   30.6,
+   34.8,
+   34.4,
+   28.6,
+   21.3,
+   15.4,
+   12.2
+  ],
+  "lo": [
+   5.4,
+   6.2,
+   8.5,
+   10.8,
+   14.6,
+   19.6,
+   23.4,
+   23.3,
+   19.4,
+   14.4,
+   9.4,
+   6.4
+  ]
+ },
+ "tr": {
+  "Obra maestra del Renacimiento español de Andrés de Vandelvira.": "Spanish Renaissance masterpiece by Andrés de Vandelvira.",
+  "Fortaleza sobre el cerro que domina toda la capital.": "Fortress crowning the hill above the capital.",
+  "Los baños árabes más grandes conservados de España.": "The largest preserved Arab baths in Spain.",
+  "Joya del Renacimiento que preside la plaza de Úbeda.": "Renaissance jewel presiding over Úbeda's main square.",
+  "La plaza renacentista más armónica de España.": "Spain's most harmonious Renaissance square.",
+  "El 'Escorial andaluz' de Vandelvira.": "Vandelvira's 'Andalusian Escorial'.",
+  "Catedral renacentista sobre una antigua mezquita.": "Renaissance cathedral built over a former mosque.",
+  "Rincón renacentista con la fuente de los Leones.": "Renaissance corner with the Fountain of the Lions.",
+  "Castillo templario sobre un peñón vertiginoso.": "Templar castle atop a dizzying crag.",
+  "Torreón medieval que vigila el pueblo de Cazorla.": "Medieval keep watching over the town of Cazorla.",
+  "El mayor espacio protegido de España.": "Spain's largest protected natural area.",
+  "Donde nace el gran río de Andalucía.": "Where Andalusia's great river is born.",
+  "Cañón y cascada en un sendero circular fácil.": "Canyon and waterfall on an easy circular trail.",
+  "Gran lago azul en el corazón de la sierra.": "Great blue lake in the heart of the sierra.",
+  "El techo de la provincia de Jaén (2.167 m).": "The rooftop of Jaén province (2,167 m).",
+  "La mayor colección de arte íbero del mundo.": "The world's largest collection of Iberian art.",
+  "Todo sobre el mundo del aceite de oliva.": "Everything about the world of olive oil.",
+  "Santuario roquedo con una cueva y cascada interior.": "Cliffside sanctuary with a cave and inner waterfall.",
+  "Ruta ciclista sobre un antiguo tren entre olivares.": "Cycling route on an old railway through olive groves.",
+  "La ruta a pie más famosa de Cazorla.": "Cazorla's most famous walking trail.",
+  "Castillo renacentista y aceites premium.": "Renaissance castle and premium olive oils.",
+  "Tapa gratis con cada bebida, tradición jiennense.": "A free tapa with every drink, a Jaén tradition.",
+  "Cocina renacentista y sabores del olivar.": "Renaissance-town cuisine and olive-grove flavours.",
+  "Guisos de montaña y platos de caza.": "Mountain stews and game dishes.",
+  "Jaén": "Jaén"
+ }
+}

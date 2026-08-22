@@ -1,0 +1,663 @@
+{
+ "id": "salamanca",
+ "name": "Salamanca",
+ "country": "ES",
+ "center": [
+  40.965,
+  -5.66424
+ ],
+ "pois": [
+  {
+   "id": "sal_plaza_mayor",
+   "cat": "monuments",
+   "name": "Plaza Mayor de Salamanca",
+   "icon": "🏛️",
+   "lat": 40.96528,
+   "lng": -5.66434,
+   "desc": "Plaza barroca del siglo XVIII, corazón de la ciudad y una de las más bellas de España."
+  },
+  {
+   "id": "sal_universidad_rana",
+   "cat": "monuments",
+   "name": "Universidad de Salamanca y la rana",
+   "icon": "🐸",
+   "lat": 40.96139,
+   "lng": -5.66717,
+   "desc": "La universidad más antigua de España (1218) con su célebre fachada plateresca y la rana escondida."
+  },
+  {
+   "id": "sal_catedrales",
+   "cat": "monuments",
+   "name": "Catedral Vieja y Catedral Nueva",
+   "icon": "⛪",
+   "lat": 40.95972,
+   "lng": -5.666,
+   "desc": "Dos catedrales unidas: la románica del siglo XII y la gótico-barroca del XVI."
+  },
+  {
+   "id": "sal_casa_conchas",
+   "cat": "monuments",
+   "name": "Casa de las Conchas",
+   "icon": "🐚",
+   "lat": 40.96139,
+   "lng": -5.66528,
+   "desc": "Palacio gótico del siglo XV cubierto por más de 300 conchas de vieira."
+  },
+  {
+   "id": "sal_san_esteban",
+   "cat": "monuments",
+   "name": "Convento de San Esteban",
+   "icon": "⛪",
+   "lat": 40.95861,
+   "lng": -5.66286,
+   "desc": "Convento dominico con una espectacular fachada plateresca en forma de retablo."
+  },
+  {
+   "id": "sal_puente_romano",
+   "cat": "monuments",
+   "name": "Puente Romano",
+   "icon": "🌉",
+   "lat": 40.95556,
+   "lng": -5.66528,
+   "desc": "Puente sobre el río Tormes de origen romano, con la mejor vista del skyline catedralicio."
+  },
+  {
+   "id": "sal_cielo_salamanca",
+   "cat": "monuments",
+   "name": "El Cielo de Salamanca",
+   "icon": "🌌",
+   "lat": 40.96083,
+   "lng": -5.66694,
+   "desc": "Fresco renacentista de la bóveda celeste pintado por Fernando Gallego hacia 1480."
+  },
+  {
+   "id": "sal_clerecia_scala_coeli",
+   "cat": "monuments",
+   "name": "La Clerecía y Scala Coeli",
+   "icon": "🗼",
+   "lat": 40.96111,
+   "lng": -5.6675,
+   "desc": "Colegio jesuita barroco cuyas torres, Scala Coeli, se pueden subir para vistas de la ciudad."
+  },
+  {
+   "id": "sal_huerto_calixto_melibea",
+   "cat": "monuments",
+   "name": "Huerto de Calixto y Melibea",
+   "icon": "🌿",
+   "lat": 40.95833,
+   "lng": -5.66722,
+   "desc": "Jardín romántico junto a la muralla inspirado en 'La Celestina'."
+  },
+  {
+   "id": "sal_torre_clavero",
+   "cat": "monuments",
+   "name": "Torre del Clavero",
+   "icon": "🏰",
+   "lat": 40.96,
+   "lng": -5.66194,
+   "desc": "Torre medieval octogonal del siglo XV, último resto de un antiguo palacio."
+  },
+  {
+   "id": "sal_ciudad_rodrigo",
+   "cat": "monuments",
+   "name": "Ciudad Rodrigo amurallada",
+   "icon": "🏰",
+   "lat": 40.60111,
+   "lng": -6.53306,
+   "desc": "Ciudad fortificada con murallas del siglo XII, catedral y castillo de Enrique II."
+  },
+  {
+   "id": "sal_bejar_el_bosque",
+   "cat": "monuments",
+   "name": "El Bosque de Béjar",
+   "icon": "🏡",
+   "lat": 40.38806,
+   "lng": -5.74533,
+   "desc": "Villa de recreo renacentista del siglo XVI con jardines y estanque de los duques de Béjar."
+  },
+  {
+   "id": "sal_pena_francia",
+   "cat": "nature",
+   "name": "Peña de Francia",
+   "icon": "⛰️",
+   "lat": 40.51234,
+   "lng": -6.16873,
+   "desc": "Cima de 1.727 m con un santuario dominico y vistas de toda la sierra."
+  },
+  {
+   "id": "sal_las_batuecas",
+   "cat": "nature",
+   "name": "Valle de Las Batuecas",
+   "icon": "🏞️",
+   "lat": 40.45694,
+   "lng": -6.11056,
+   "desc": "Valle aislado y protegido con pinturas rupestres, cascadas y un monasterio carmelita."
+  },
+  {
+   "id": "sal_arribes_duero",
+   "cat": "nature",
+   "name": "Arribes del Duero (Mirador del Fraile)",
+   "icon": "🦅",
+   "lat": 41.20583,
+   "lng": -6.66694,
+   "desc": "Cañones fluviales del Duero en la frontera con Portugal, con presas y buitreras."
+  },
+  {
+   "id": "sal_sierra_candelario",
+   "cat": "nature",
+   "name": "Sierra de Béjar y La Covatilla",
+   "icon": "🏔️",
+   "lat": 40.345,
+   "lng": -5.73,
+   "desc": "Montañas de más de 2.000 m con estación de esquí y lagunas glaciares."
+  },
+  {
+   "id": "sal_dehesa_charra",
+   "cat": "nature",
+   "name": "Dehesas del Campo Charro y toro bravo",
+   "icon": "🐂",
+   "lat": 41.09167,
+   "lng": -5.99139,
+   "desc": "Paisaje de encinas y pastos donde se cría el toro de lidia y el cerdo ibérico."
+  },
+  {
+   "id": "sal_la_alberca",
+   "cat": "ocio",
+   "name": "La Alberca",
+   "icon": "🏘️",
+   "lat": 40.49278,
+   "lng": -6.19222,
+   "desc": "Pueblo serrano de casas de piedra y entramado de madera, primer conjunto rural protegido de España."
+  },
+  {
+   "id": "sal_candelario",
+   "cat": "ocio",
+   "name": "Candelario",
+   "icon": "🏔️",
+   "lat": 40.37139,
+   "lng": -5.74861,
+   "desc": "Pueblo de montaña con calles empinadas, batipuertas y arquitectura chacinera."
+  },
+  {
+   "id": "sal_miranda_castanar",
+   "cat": "ocio",
+   "name": "Miranda del Castañar",
+   "icon": "🌰",
+   "lat": 40.48333,
+   "lng": -6.13278,
+   "desc": "Villa medieval amurallada de la Sierra de Francia, con castillo y calles de balcones."
+  },
+  {
+   "id": "sal_barrio_oeste",
+   "cat": "ocio",
+   "name": "Barrio del Oeste (arte urbano)",
+   "icon": "🎨",
+   "lat": 40.96361,
+   "lng": -5.675,
+   "desc": "Galería urbana al aire libre con decenas de murales pintados en fachadas."
+  },
+  {
+   "id": "sal_mercado_central",
+   "cat": "ocio",
+   "name": "Mercado Central de Salamanca",
+   "icon": "🛒",
+   "lat": 40.96417,
+   "lng": -5.66306,
+   "desc": "Mercado modernista de abastos junto a la Plaza Mayor, ideal para producto local."
+  },
+  {
+   "id": "sal_hornazo",
+   "cat": "food",
+   "name": "Hornazo salmantino",
+   "icon": "🥧",
+   "lat": 40.96528,
+   "lng": -5.66389,
+   "desc": "Empanada rellena de lomo, chorizo y huevo, el plato típico del Lunes de Aguas."
+  },
+  {
+   "id": "sal_jamon_guijuelo",
+   "cat": "food",
+   "name": "Jamón ibérico de Guijuelo",
+   "icon": "🍖",
+   "lat": 40.55611,
+   "lng": -5.66694,
+   "desc": "Cuna del jamón ibérico de bellota con Denominación de Origen, curado en clima de sierra."
+  },
+  {
+   "id": "sal_patatas_revolconas",
+   "cat": "food",
+   "name": "Patatas revolconas con torreznos",
+   "icon": "🥔",
+   "lat": 40.96444,
+   "lng": -5.66472,
+   "desc": "Puré de patata con pimentón y torreznos crujientes, tapa charra por excelencia."
+  },
+  {
+   "id": "sal_farinato_ciudad_rodrigo",
+   "cat": "food",
+   "name": "Farinato de Ciudad Rodrigo",
+   "icon": "🌭",
+   "lat": 40.5975,
+   "lng": -6.53194,
+   "desc": "Embutido de pan, manteca y especias que se fríe con huevo, típico del oeste salmantino."
+  },
+  {
+   "id": "sal_cocina_serrana_alberca",
+   "cat": "food",
+   "name": "Cocina serrana de La Alberca",
+   "icon": "🍲",
+   "lat": 40.4925,
+   "lng": -6.19194,
+   "desc": "Guisos de la Sierra de Francia: limón serrano, calderillo y carnes a la brasa."
+  },
+  {
+   "id": "sal_chuleton_morucha",
+   "cat": "food",
+   "name": "Chuletón de morucha charra",
+   "icon": "🥩",
+   "lat": 40.96472,
+   "lng": -5.66528,
+   "desc": "Carne de vacuno autóctono de la raza morucha, a la brasa con IGP Carne de Salamanca."
+  }
+ ],
+ "extra": {
+  "sal_plaza_mayor": {
+   "id": "sal_plaza_mayor",
+   "d": "Obra de Alberto de Churriguera, esta plaza porticada de piedra de Villamayor reúne el Ayuntamiento, el Pabellón Real y medallones de reyes y personajes ilustres. Es punto de encuentro, terraza y escenario de fiestas.",
+   "d_en": "Designed by Alberto de Churriguera, this arcaded square of Villamayor sandstone holds the City Hall, the Royal Pavilion and medallions of kings and famous figures. It's the city's meeting point, terrace and festival stage.",
+   "h": "Abierta las 24 horas",
+   "h_en": "Open 24 hours",
+   "i": "Ideal si te gusta la arquitectura barroca y el ambiente de plaza al atardecer.",
+   "i_en": "Ideal if you like Baroque architecture and lively squares at dusk."
+  },
+  "sal_universidad_rana": {
+   "id": "sal_universidad_rana",
+   "d": "La fachada de las Escuelas Mayores es un tapiz de piedra labrado en detalle. Entre calaveras se esconde una pequeña rana; encontrarla, dice la tradición, trae suerte a los estudiantes. Dentro, el aula de Fray Luis de León y la biblioteca histórica.",
+   "d_en": "The Escuelas Mayores facade is a stone tapestry carved in astonishing detail. Among the skulls hides a tiny frog; finding it, tradition says, brings students luck. Inside are Fray Luis de León's lecture hall and the historic library.",
+   "h": "Lun–Sáb 10:00–19:00, Dom 10:00–14:00",
+   "h_en": "Mon–Sat 10:00–19:00, Sun 10:00–14:00",
+   "i": "Ideal si te gusta la historia, la leyenda y el arte plateresco.",
+   "i_en": "Ideal if you like history, legend and Plateresque art."
+  },
+  "sal_catedrales": {
+   "id": "sal_catedrales",
+   "d": "La Catedral Vieja conserva el retablo de la Virgen de la Vega y el cimborrio del Gallo. La Nueva impresiona por su altura y por el famoso astronauta esculpido en una portada durante una restauración. El ascenso a las torres (Ieronimus) regala vistas únicas.",
+   "d_en": "The Old Cathedral keeps the Virgin of the Vega altarpiece and the Gallo dome. The New one astonishes with its height and the famous astronaut carved on a doorway during a restoration. The tower climb (Ieronimus) offers unique views.",
+   "h": "Todos los días 10:00–20:00",
+   "h_en": "Daily 10:00–20:00",
+   "i": "Ideal si te gusta el arte sacro y las vistas panorámicas.",
+   "i_en": "Ideal if you like sacred art and panoramic views."
+  },
+  "sal_casa_conchas": {
+   "id": "sal_casa_conchas",
+   "d": "Símbolo de la orden de Santiago, sus conchas de piedra decoran una fachada única. Hoy alberga una biblioteca pública y un patio con arcos mixtilíneos; la leyenda dice que bajo una concha se escondió un tesoro.",
+   "d_en": "A symbol of the Order of Santiago, its stone shells adorn a one-of-a-kind facade. Today it houses a public library and a courtyard with mixtilinear arches; legend says a treasure was hidden under one shell.",
+   "h": "Lun–Vie 9:00–21:00, fines de semana horario reducido",
+   "h_en": "Mon–Fri 9:00–21:00, reduced hours on weekends",
+   "i": "Ideal si te gustan las fachadas singulares y los patios tranquilos.",
+   "i_en": "Ideal if you like unusual facades and quiet courtyards."
+  },
+  "sal_san_esteban": {
+   "id": "sal_san_esteban",
+   "d": "Aquí escucharon los dominicos a Cristóbal Colón antes de su viaje. Su fachada tallada, el claustro de los Reyes y el retablo dorado de Churriguera son de visita obligada.",
+   "d_en": "Here the Dominicans heard Christopher Columbus before his voyage. Its carved facade, the Kings' cloister and Churriguera's golden altarpiece are must-sees.",
+   "h": "Todos los días 10:00–14:00 y 16:00–20:00",
+   "h_en": "Daily 10:00–14:00 and 16:00–20:00",
+   "i": "Ideal si te gusta el arte plateresco y la historia de América.",
+   "i_en": "Ideal if you like Plateresque art and the history of the Americas."
+  },
+  "sal_puente_romano": {
+   "id": "sal_puente_romano",
+   "d": "Parte de la Vía de la Plata, conserva quince arcos romanos. Junto a él está el verraco ibérico de piedra, el 'toro' que aparece en el Lazarillo de Tormes. Desde la otra orilla se obtiene la postal clásica de la ciudad.",
+   "d_en": "Part of the Vía de la Plata, it keeps fifteen Roman arches. Beside it stands the Iberian stone boar, the 'bull' from Lazarillo de Tormes. The far bank gives the classic postcard of the city.",
+   "h": "Abierto las 24 horas",
+   "h_en": "Open 24 hours",
+   "i": "Ideal si te gustan las vistas al atardecer y la historia romana.",
+   "i_en": "Ideal if you like sunset views and Roman history."
+  },
+  "sal_cielo_salamanca": {
+   "id": "sal_cielo_salamanca",
+   "d": "En las Escuelas Menores se conserva parte de la antigua bóveda de la biblioteca universitaria, con constelaciones y signos del zodiaco pintados con gran precisión astronómica. Se visita en penumbra, como mirando el firmamento.",
+   "d_en": "In the Escuelas Menores survives part of the old university library vault, with constellations and zodiac signs painted with great astronomical precision. It's viewed in half-darkness, as if gazing at the firmament.",
+   "h": "Mar–Sáb 12:00–14:00 y 17:00–19:30, Dom 10:00–14:00",
+   "h_en": "Tue–Sat 12:00–14:00 and 17:00–19:30, Sun 10:00–14:00",
+   "i": "Ideal si te gusta la astronomía y la pintura renacentista.",
+   "i_en": "Ideal if you like astronomy and Renaissance painting."
+  },
+  "sal_clerecia_scala_coeli": {
+   "id": "sal_clerecia_scala_coeli",
+   "d": "Enorme conjunto barroco de la Compañía de Jesús con una iglesia monumental y un claustro. La subida a las torres de la Scala Coeli ofrece la vista más cercana a las catedrales y a los tejados del casco antiguo.",
+   "d_en": "A vast Baroque Jesuit complex with a monumental church and cloister. The climb up the Scala Coeli towers gives the closest view of the cathedrals and the old town's rooftops.",
+   "h": "Todos los días 10:00–20:00 (invierno hasta 19:15)",
+   "h_en": "Daily 10:00–20:00 (winter until 19:15)",
+   "i": "Ideal si te gustan las vistas en altura y el barroco jesuítico.",
+   "i_en": "Ideal if you like high viewpoints and Jesuit Baroque."
+  },
+  "sal_huerto_calixto_melibea": {
+   "id": "sal_huerto_calixto_melibea",
+   "d": "Pequeño jardín ajardinado sobre los restos de la muralla medieval, con parras, fuentes y un mirador al río Tormes y las catedrales. Evoca los amores de Calixto y Melibea de la obra de Fernando de Rojas.",
+   "d_en": "A small landscaped garden atop the medieval wall, with vines, fountains and a viewpoint over the Tormes and the cathedrals. It evokes the love story of Calixto and Melibea from Fernando de Rojas's work.",
+   "h": "Todos los días 8:00–21:00 (verano más amplio)",
+   "h_en": "Daily 8:00–21:00 (longer in summer)",
+   "i": "Ideal si te gustan los jardines tranquilos y la literatura clásica.",
+   "i_en": "Ideal if you like quiet gardens and classic literature."
+  },
+  "sal_torre_clavero": {
+   "id": "sal_torre_clavero",
+   "d": "Levantada hacia 1480, esta esbelta torre de base cuadrada y cuerpo octogonal está coronada por escaraguaitas. Es uno de los pocos vestigios de la Salamanca de torres nobiliarias medievales.",
+   "d_en": "Built around 1480, this slender tower with a square base and octagonal body is crowned with turrets. It's one of the few remnants of medieval Salamanca's noble tower-houses.",
+   "h": "Exterior visible las 24 horas",
+   "h_en": "Exterior visible 24 hours",
+   "i": "Ideal si te gusta la arquitectura militar y medieval.",
+   "i_en": "Ideal if you like military and medieval architecture."
+  },
+  "sal_ciudad_rodrigo": {
+   "id": "sal_ciudad_rodrigo",
+   "d": "Se puede pasear sobre la muralla que rodea todo el casco histórico. Destacan la catedral de Santa María, la Plaza Mayor porticada y el castillo, hoy Parador. En febrero celebra un famoso Carnaval del Toro.",
+   "d_en": "You can walk the full circuit of walls around the old town. Highlights are Santa María cathedral, the arcaded Plaza Mayor and the castle, now a Parador. In February it holds the famous Carnaval del Toro.",
+   "h": "Murallas abiertas las 24 horas; monumentos según horario",
+   "h_en": "Walls open 24 hours; monuments per schedule",
+   "i": "Ideal si te gustan las ciudades amuralladas y la historia fronteriza.",
+   "i_en": "Ideal if you like walled towns and frontier history."
+  },
+  "sal_bejar_el_bosque": {
+   "id": "sal_bejar_el_bosque",
+   "d": "Único jardín renacentista italiano conservado en España, con un gran estanque, paseos arbolados y un palacete. Un remanso verde a los pies de la Sierra de Béjar, junto a la villa textil.",
+   "d_en": "The only surviving Italian Renaissance garden in Spain, with a large pond, tree-lined walks and a small palace. A green oasis at the foot of the Sierra de Béjar, beside the textile town.",
+   "h": "Mar–Dom 10:00–14:00 y 16:00–19:00 (varía por temporada)",
+   "h_en": "Tue–Sun 10:00–14:00 and 16:00–19:00 (seasonal)",
+   "i": "Ideal si te gustan los jardines históricos y la naturaleza serena.",
+   "i_en": "Ideal if you like historic gardens and serene nature."
+  },
+  "sal_pena_francia": {
+   "id": "sal_pena_francia",
+   "d": "El punto más alto de la Sierra de Francia, coronado por un monasterio del siglo XV que guarda la Virgen Morena. En días claros se divisa medio oeste peninsular. La carretera de ascenso es panorámica y sinuosa.",
+   "d_en": "The highest point of the Sierra de Francia, crowned by a 15th-century monastery holding the Dark Virgin. On clear days you can see much of western Spain. The winding access road is scenic.",
+   "h": "Acceso libre; santuario según horario de culto",
+   "h_en": "Free access; sanctuary open per worship hours",
+   "i": "Ideal si te gustan las cimas, los miradores y los santuarios de montaña.",
+   "i_en": "Ideal if you like summits, viewpoints and mountain sanctuaries."
+  },
+  "sal_las_batuecas": {
+   "id": "sal_las_batuecas",
+   "d": "Parque Natural entre roquedos y bosque mediterráneo. Alberga abrigos con arte rupestre esquemático, el Desierto de San José de los Carmelitas y senderos hacia cascadas. Refugio de cabra montés y buitres.",
+   "d_en": "A Natural Park amid crags and Mediterranean forest. It holds shelters with schematic rock art, the Carmelite Desierto de San José, and trails to waterfalls. A refuge for ibex and vultures.",
+   "h": "Acceso libre en horas de luz",
+   "h_en": "Free access during daylight",
+   "i": "Ideal si te gusta el senderismo, la prehistoria y los valles escondidos.",
+   "i_en": "Ideal if you like hiking, prehistory and hidden valleys."
+  },
+  "sal_arribes_duero": {
+   "id": "sal_arribes_duero",
+   "d": "Parque Natural de profundos tajos donde el río Duero marca la frontera. El Mirador del Fraile domina la presa de Aldeadávila. Se hacen cruceros ambientales y hay viñedos y almendros en bancales.",
+   "d_en": "A Natural Park of deep gorges where the Douro forms the border. The Mirador del Fraile overlooks the Aldeadávila dam. Eco-cruises run on the river, with terraced vineyards and almond groves nearby.",
+   "h": "Mirador de acceso libre; cruceros con reserva",
+   "h_en": "Viewpoint free access; cruises by booking",
+   "i": "Ideal si te gustan los cañones, las aves rapaces y los paisajes fronterizos.",
+   "i_en": "Ideal if you like canyons, birds of prey and border landscapes."
+  },
+  "sal_sierra_candelario": {
+   "id": "sal_sierra_candelario",
+   "d": "Prolongación de la Sierra de Gredos, ofrece cumbres nevadas en invierno y rutas de alta montaña en verano. La estación de La Covatilla y la Plataforma de Candelario son los accesos habituales a lagunas y circos glaciares.",
+   "d_en": "An extension of the Sierra de Gredos, it offers snowy peaks in winter and high-mountain routes in summer. The La Covatilla resort and the Candelario platform are the usual access points to glacial lakes and cirques.",
+   "h": "Acceso libre; estación de esquí según temporada",
+   "h_en": "Free access; ski resort per season",
+   "i": "Ideal si te gusta la alta montaña, el esquí y el senderismo.",
+   "i_en": "Ideal if you like high mountains, skiing and hiking."
+  },
+  "sal_dehesa_charra": {
+   "id": "sal_dehesa_charra",
+   "d": "La dehesa charra, en torno a Ledesma y el Campo Charro, es un ecosistema de encinas centenarias y ganado en libertad. Algunas ganaderías de toro bravo ofrecen visitas para conocer la cría y el manejo tradicional.",
+   "d_en": "The Charro dehesa, around Ledesma and the Campo Charro, is an ecosystem of centuries-old holm oaks and free-ranging livestock. Some fighting-bull ranches offer visits to learn about breeding and traditional handling.",
+   "h": "Visitas a ganaderías con reserva previa",
+   "h_en": "Ranch visits by prior booking",
+   "i": "Ideal si te gusta la naturaleza rural y la cultura ganadera.",
+   "i_en": "Ideal if you like rural nature and livestock culture."
+  },
+  "sal_la_alberca": {
+   "id": "sal_la_alberca",
+   "d": "Sus calles empedradas, balcones floridos y la Plaza Mayor con crucero conservan el ambiente medieval. Aún se mantiene la tradición del 'marrano de San Antón', un cerdo que pasea libre por el pueblo hasta la rifa navideña.",
+   "d_en": "Its cobbled lanes, flowering balconies and the Plaza Mayor with its cross keep a medieval feel. The village still keeps the tradition of the 'marrano de San Antón', a pig that roams free until the Christmas raffle.",
+   "h": "Pueblo abierto; comercios según horario",
+   "h_en": "Village open; shops per schedule",
+   "i": "Ideal si te gustan los pueblos con encanto y las tradiciones vivas.",
+   "i_en": "Ideal if you like charming villages and living traditions."
+  },
+  "sal_candelario": {
+   "id": "sal_candelario",
+   "d": "Uno de los pueblos más bonitos de España, encaramado en la Sierra de Béjar. Sus casas de dos pisos, las 'regaderas' de agua por las calles y las batipuertas de las antiguas casas choriceras lo hacen único.",
+   "d_en": "One of Spain's prettiest villages, perched in the Sierra de Béjar. Its two-storey houses, water channels running down the streets and the half-doors of former sausage-makers' homes make it unique.",
+   "h": "Pueblo abierto todo el año",
+   "h_en": "Village open year-round",
+   "i": "Ideal si te gustan los pueblos de montaña y pasear sin prisa.",
+   "i_en": "Ideal if you like mountain villages and unhurried strolls."
+  },
+  "sal_miranda_castanar": {
+   "id": "sal_miranda_castanar",
+   "d": "Conjunto histórico sobre un espolón, rodeado de castañares. Conserva la muralla con cuatro puertas, un castillo, la plaza de toros más antigua de la zona y casas serranas de galerías de madera.",
+   "d_en": "A historic hilltop town surrounded by chestnut groves. It keeps its walls with four gates, a castle, the area's oldest bullring and mountain houses with wooden galleries.",
+   "h": "Villa abierta; castillo según horario",
+   "h_en": "Town open; castle per schedule",
+   "i": "Ideal si te gustan los pueblos amurallados y los paseos entre castaños.",
+   "i_en": "Ideal if you like walled towns and walks among chestnut trees."
+  },
+  "sal_barrio_oeste": {
+   "id": "sal_barrio_oeste",
+   "d": "El proyecto Zurbarán ha convertido este barrio en un museo de arte urbano con más de un centenar de obras firmadas por artistas de todo el mundo. Un contraste vibrante con la Salamanca monumental.",
+   "d_en": "The Zurbarán project has turned this district into a street-art museum with over a hundred works signed by artists from around the world. A vibrant contrast to monumental Salamanca.",
+   "h": "Calles abiertas las 24 horas",
+   "h_en": "Streets open 24 hours",
+   "i": "Ideal si te gusta el arte urbano y descubrir barrios con carácter.",
+   "i_en": "Ideal if you like street art and discovering neighbourhoods with character."
+  },
+  "sal_mercado_central": {
+   "id": "sal_mercado_central",
+   "d": "Inaugurado en 1909, este mercado de hierro y cristal reúne puestos de embutidos, quesos, setas de la sierra y productos charros. Perfecto para comprar jamón de Guijuelo o picar en sus bares.",
+   "d_en": "Opened in 1909, this iron-and-glass market gathers stalls of cured meats, cheeses, sierra mushrooms and local produce. Perfect to buy Guijuelo ham or snack at its bars.",
+   "h": "Lun–Sáb 8:00–15:00 (bares hasta más tarde)",
+   "h_en": "Mon–Sat 8:00–15:00 (bars later)",
+   "i": "Ideal si te gusta la gastronomía y el ambiente de mercado tradicional.",
+   "i_en": "Ideal if you like food and the buzz of a traditional market."
+  },
+  "sal_hornazo": {
+   "id": "sal_hornazo",
+   "d": "El hornazo es la joya de la panadería charra: masa dorada rellena de carnes adobadas. Se come en cualquier época, pero es rito el Lunes de Aguas, cuando los salmantinos merendan a orillas del Tormes. Se encuentra en mesones y confiterías de la Plaza Mayor.",
+   "d_en": "The hornazo is the star of Charro baking: golden dough stuffed with cured meats. Eaten any time, but a ritual on the Lunes de Aguas, when locals picnic by the Tormes. Found in mesones and bakeries around the Plaza Mayor.",
+   "h": "Según establecimiento, habitual 9:00–21:00",
+   "h_en": "By venue, usually 9:00–21:00",
+   "i": "Ideal si te gusta la repostería salada y las tradiciones gastronómicas.",
+   "i_en": "Ideal if you like savoury baking and food traditions."
+  },
+  "sal_jamon_guijuelo": {
+   "id": "sal_jamon_guijuelo",
+   "d": "Guijuelo debe su fama al jamón ibérico curado con el frío seco de la sierra. Sus secaderos y museos del jamón permiten catar y comprar piezas de bellota con sello D.O. Un imprescindible para amantes del buen embutido.",
+   "d_en": "Guijuelo owes its fame to Iberian ham cured in the dry mountain cold. Its curing houses and ham museums let you taste and buy D.O. acorn-fed pieces. A must for lovers of fine cured meats.",
+   "h": "Secaderos y tiendas: Lun–Sáb 10:00–20:00",
+   "h_en": "Curing houses and shops: Mon–Sat 10:00–20:00",
+   "i": "Ideal si te gusta el jamón ibérico y el turismo gastronómico.",
+   "i_en": "Ideal if you like Iberian ham and food tourism."
+  },
+  "sal_patatas_revolconas": {
+   "id": "sal_patatas_revolconas",
+   "d": "Plato humilde y contundente de la cocina salmantina: patata machacada con pimentón, ajo y grasa de torrezno, coronada con cortezas crujientes. Se sirve en tabernas y mesones del casco antiguo, a menudo de tapa.",
+   "d_en": "A humble, hearty staple of Salamanca cooking: mashed potato with paprika, garlic and pork fat, topped with crispy rinds. Served in old-town taverns and mesones, often as a tapa.",
+   "h": "Bares y mesones: 12:00–16:00 y 20:00–23:30",
+   "h_en": "Bars and mesones: 12:00–16:00 and 20:00–23:30",
+   "i": "Ideal si te gusta la cocina de cuchara y las tapas contundentes.",
+   "i_en": "Ideal if you like comfort food and hearty tapas."
+  },
+  "sal_farinato_ciudad_rodrigo": {
+   "id": "sal_farinato_ciudad_rodrigo",
+   "d": "El farinato es un embutido singular a base de pan, cebolla, manteca y pimentón. En Ciudad Rodrigo se sirve frito con huevo como plato contundente y sabroso. Se encuentra en los mesones de la ciudad amurallada.",
+   "d_en": "The farinato is an unusual sausage of bread, onion, lard and paprika. In Ciudad Rodrigo it's served fried with egg as a hearty, tasty dish. Found in the mesones of the walled town.",
+   "h": "Mesones: 13:00–16:00 y 20:30–23:00",
+   "h_en": "Mesones: 13:00–16:00 and 20:30–23:00",
+   "i": "Ideal si te gusta probar embutidos poco comunes y la cocina de frontera.",
+   "i_en": "Ideal if you like trying unusual sausages and frontier cuisine."
+  },
+  "sal_cocina_serrana_alberca": {
+   "id": "sal_cocina_serrana_alberca",
+   "d": "Los mesones de La Alberca sirven especialidades de montaña como el limón serrano (naranja con chorizo y huevo), el calderillo de ternera y setas y castañas de temporada. Cocina de leña con productos de la dehesa y el bosque.",
+   "d_en": "La Alberca's mesones serve mountain specialities such as limón serrano (orange with chorizo and egg), veal calderillo stew, and seasonal mushrooms and chestnuts. Wood-fired cooking with produce from the dehesa and forest.",
+   "h": "Mesones: 13:30–16:00 y 20:30–23:00",
+   "h_en": "Mesones: 13:30–16:00 and 20:30–23:00",
+   "i": "Ideal si te gusta la cocina de montaña y los guisos tradicionales.",
+   "i_en": "Ideal if you like mountain cooking and traditional stews."
+  },
+  "sal_chuleton_morucha": {
+   "id": "sal_chuleton_morucha",
+   "d": "La morucha es la raza bovina que pasta libre en las dehesas charras. Su carne, con Indicación Geográfica Protegida, se sirve como chuletón madurado a la brasa en asadores de la ciudad y la provincia. Sabor intenso de ganadería extensiva.",
+   "d_en": "The Morucha is the cattle breed that grazes freely on the Charro dehesas. Its beef, with Protected Geographical Indication, is served as a grilled matured chop in steakhouses across the city and province. Intense flavour from extensive farming.",
+   "h": "Asadores: 13:30–16:00 y 20:30–23:30",
+   "h_en": "Steakhouses: 13:30–16:00 and 20:30–23:30",
+   "i": "Ideal si te gusta la carne a la brasa y el producto de dehesa.",
+   "i_en": "Ideal if you like grilled beef and dehesa produce."
+  }
+ },
+ "food": {
+  "sal_hornazo": {
+   "cuisine": "Charra tradicional",
+   "price": "8–18 €",
+   "hours": "Lun–Dom 9:00–21:00"
+  },
+  "sal_jamon_guijuelo": {
+   "cuisine": "Ibérico y chacinería",
+   "price": "5–90 €",
+   "hours": "Lun–Sáb 10:00–20:00"
+  },
+  "sal_patatas_revolconas": {
+   "cuisine": "Tapas charras",
+   "price": "6–12 €",
+   "hours": "12:00–16:00 y 20:00–23:30"
+  },
+  "sal_farinato_ciudad_rodrigo": {
+   "cuisine": "Cocina mirobrigense",
+   "price": "7–14 €",
+   "hours": "13:00–16:00 y 20:30–23:00"
+  },
+  "sal_cocina_serrana_alberca": {
+   "cuisine": "Serrana de la Sierra de Francia",
+   "price": "15–30 €",
+   "hours": "13:30–16:00 y 20:30–23:00"
+  },
+  "sal_chuleton_morucha": {
+   "cuisine": "Asador charro",
+   "price": "20–40 €",
+   "hours": "13:30–16:00 y 20:30–23:30"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Salamanca",
+   "items": [
+    {
+     "name": "Rana de la Universidad",
+     "price": "5–20 €",
+     "desc": "Amuleto de la suerte: la famosa rana sobre la calavera de la fachada, en llaveros, imanes y figuritas de plata."
+    },
+    {
+     "name": "Hornazo",
+     "price": "8–18 €",
+     "desc": "Empanada rellena de lomo, chorizo y huevo, el bocado típico salmantino para llevar."
+    },
+    {
+     "name": "Jamón ibérico de Guijuelo",
+     "price": "25–90 €",
+     "desc": "Jamón de bellota con Denominación de Origen, curado en el frío de la sierra."
+    },
+    {
+     "name": "Botón charro de filigrana",
+     "price": "15–60 €",
+     "desc": "Joyería tradicional de plata en filigrana, símbolo del traje charro."
+    },
+    {
+     "name": "Obleas y almendras garrapiñadas",
+     "price": "4–10 €",
+     "desc": "Dulces conventuales y frutos secos caramelizados de las confiterías del centro."
+    }
+   ],
+   "shops": [
+    "Mercado Central de Salamanca",
+    "Tiendas de la Plaza Mayor y Rúa Mayor",
+    "Confitería y obradores del casco histórico"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Sube a las Torres de la Catedral (Ieronimus) al atardecer para ver la Plaza Mayor y los tejados dorados iluminados.",
+   "Busca la rana sobre una calavera en la fachada de la Universidad: la tradición dice que da suerte a quien la encuentra sin ayuda.",
+   "Reserva coche para la Sierra de Francia y los Arribes del Duero; el transporte público es escaso entre pueblos.",
+   "Prueba el hornazo y las patatas revolconas en un mesón, y compra jamón de Guijuelo con sello D.O.",
+   "En verano lleva agua y gorra: el interior es muy caluroso de día, pero las noches en la sierra refrescan mucho."
+  ],
+  "en": [
+   "Climb the Cathedral towers (Ieronimus) at sunset for views over the Plaza Mayor and the glowing golden rooftops.",
+   "Find the frog perched on a skull on the University facade: legend says spotting it unaided brings good luck.",
+   "Rent a car for the Sierra de Francia and the Arribes del Duero; public transport between villages is scarce.",
+   "Try hornazo and patatas revolconas at a traditional mesón, and buy Guijuelo ham with the D.O. seal.",
+   "In summer carry water and a hat: the plains bake by day, though mountain nights turn cool."
+  ]
+ },
+ "climate": {
+  "hi": [
+   9,
+   12,
+   16,
+   17,
+   22,
+   28,
+   31,
+   30,
+   26,
+   19,
+   13,
+   9
+  ],
+  "lo": [
+   0,
+   1,
+   3,
+   5,
+   8,
+   12,
+   14,
+   14,
+   11,
+   7,
+   3,
+   1
+  ]
+ },
+ "tr": {
+  "Plaza barroca del siglo XVIII, corazón de la ciudad y una de las más bellas de España.": "18th-century Baroque square, the city's heart and one of Spain's most beautiful.",
+  "La universidad más antigua de España (1218) con su célebre fachada plateresca y la rana escondida.": "Spain's oldest university (1218), with its famous Plateresque facade and the hidden frog.",
+  "Dos catedrales unidas: la románica del siglo XII y la gótico-barroca del XVI.": "Two joined cathedrals: the 12th-century Romanesque and the 16th-century Gothic-Baroque.",
+  "Palacio gótico del siglo XV cubierto por más de 300 conchas de vieira.": "15th-century Gothic palace clad in over 300 scallop shells.",
+  "Convento dominico con una espectacular fachada plateresca en forma de retablo.": "Dominican convent with a spectacular Plateresque retablo-shaped facade.",
+  "Puente sobre el río Tormes de origen romano, con la mejor vista del skyline catedralicio.": "Roman-origin bridge over the river Tormes, with the best view of the cathedral skyline.",
+  "Fresco renacentista de la bóveda celeste pintado por Fernando Gallego hacia 1480.": "Renaissance fresco of the starry sky painted by Fernando Gallego around 1480.",
+  "Colegio jesuita barroco cuyas torres, Scala Coeli, se pueden subir para vistas de la ciudad.": "Baroque Jesuit college whose towers, Scala Coeli, can be climbed for city views.",
+  "Jardín romántico junto a la muralla inspirado en 'La Celestina'.": "Romantic garden by the old wall inspired by 'La Celestina'.",
+  "Torre medieval octogonal del siglo XV, último resto de un antiguo palacio.": "15th-century octagonal medieval tower, the last remnant of a former palace.",
+  "Ciudad fortificada con murallas del siglo XII, catedral y castillo de Enrique II.": "Fortified town with 12th-century walls, cathedral and Henry II's castle.",
+  "Villa de recreo renacentista del siglo XVI con jardines y estanque de los duques de Béjar.": "16th-century Renaissance pleasure villa with gardens and pond of the Dukes of Béjar.",
+  "Cima de 1.727 m con un santuario dominico y vistas de toda la sierra.": "1,727 m summit with a Dominican sanctuary and views across the whole sierra.",
+  "Valle aislado y protegido con pinturas rupestres, cascadas y un monasterio carmelita.": "Secluded protected valley with rock paintings, waterfalls and a Carmelite monastery.",
+  "Cañones fluviales del Duero en la frontera con Portugal, con presas y buitreras.": "Douro river canyons on the Portuguese border, with dams and vulture colonies.",
+  "Montañas de más de 2.000 m con estación de esquí y lagunas glaciares.": "Mountains over 2,000 m with a ski resort and glacial lakes.",
+  "Paisaje de encinas y pastos donde se cría el toro de lidia y el cerdo ibérico.": "Landscape of holm oaks and pastures where fighting bulls and Iberian pigs are raised.",
+  "Pueblo serrano de casas de piedra y entramado de madera, primer conjunto rural protegido de España.": "Mountain village of stone and timber houses, Spain's first protected rural site.",
+  "Pueblo de montaña con calles empinadas, batipuertas y arquitectura chacinera.": "Mountain village with steep streets, half-doors and traditional pork-curing houses.",
+  "Villa medieval amurallada de la Sierra de Francia, con castillo y calles de balcones.": "Walled medieval town of the Sierra de Francia, with a castle and balcony-lined lanes.",
+  "Galería urbana al aire libre con decenas de murales pintados en fachadas.": "Open-air urban gallery with dozens of murals painted on facades.",
+  "Mercado modernista de abastos junto a la Plaza Mayor, ideal para producto local.": "Modernist food market next to the Plaza Mayor, ideal for local produce.",
+  "Empanada rellena de lomo, chorizo y huevo, el plato típico del Lunes de Aguas.": "Savoury pie filled with pork loin, chorizo and egg, the dish of the Lunes de Aguas.",
+  "Cuna del jamón ibérico de bellota con Denominación de Origen, curado en clima de sierra.": "Home of D.O. acorn-fed Iberian ham, cured in the mountain climate.",
+  "Puré de patata con pimentón y torreznos crujientes, tapa charra por excelencia.": "Paprika-spiced potato mash with crispy pork rinds, the quintessential Charro tapa.",
+  "Embutido de pan, manteca y especias que se fríe con huevo, típico del oeste salmantino.": "Sausage of bread, lard and spices fried with egg, typical of western Salamanca.",
+  "Guisos de la Sierra de Francia: limón serrano, calderillo y carnes a la brasa.": "Sierra de Francia dishes: limón serrano, calderillo stew and grilled meats.",
+  "Carne de vacuno autóctono de la raza morucha, a la brasa con IGP Carne de Salamanca.": "Beef from the native Morucha breed, grilled, under the Carne de Salamanca IGP.",
+  "Salamanca": "Salamanca"
+ }
+}

@@ -1,0 +1,353 @@
+{
+ "id": "tarragona",
+ "name": "Tarragona",
+ "country": "ES",
+ "center": [
+  41.1189,
+  1.2445
+ ],
+ "pois": [
+  {
+   "id": "ctl_portaventura",
+   "cat": "ocio",
+   "name": "PortAventura World",
+   "icon": "🎢",
+   "lat": 41.08417,
+   "lng": 1.15083,
+   "desc": "Uno de los mayores parques temáticos de Europa, en Salou."
+  },
+  {
+   "id": "ctl_delta_ebre",
+   "cat": "nature",
+   "name": "Parc Natural del Delta de l'Ebre",
+   "icon": "🦩",
+   "lat": 40.7194,
+   "lng": 0.7084,
+   "desc": "Humedal de arrozales, lagunas y flamencos en la desembocadura del Ebro."
+  },
+  {
+   "id": "ctl_amfiteatre",
+   "cat": "monuments",
+   "name": "Amfiteatre Romà de Tarragona",
+   "icon": "🏛️",
+   "lat": 41.11445,
+   "lng": 1.25882,
+   "desc": "Anfiteatro romano frente al mar, Patrimonio de la Humanidad."
+  },
+  {
+   "id": "ctl_poblet",
+   "cat": "monuments",
+   "name": "Reial Monestir de Santa Maria de Poblet",
+   "icon": "⛪",
+   "lat": 41.38083,
+   "lng": 1.0825,
+   "desc": "Gran monasterio cisterciense, panteón real y Patrimonio Mundial."
+  },
+  {
+   "id": "ctl_catedral_tgn",
+   "cat": "monuments",
+   "name": "Catedral de Tarragona",
+   "icon": "⛪",
+   "lat": 41.11927,
+   "lng": 1.25825,
+   "desc": "Catedral románico-gótica sobre el antiguo templo de Augusto."
+  },
+  {
+   "id": "ctl_salou",
+   "cat": "ocio",
+   "name": "Salou (Costa Daurada)",
+   "icon": "🏖️",
+   "lat": 41.0766,
+   "lng": 1.1416,
+   "desc": "Capital turística de la Costa Daurada, playas y paseo marítimo."
+  },
+  {
+   "id": "ctl_pont_diable",
+   "cat": "monuments",
+   "name": "Aqüeducte de les Ferreres (Pont del Diable)",
+   "icon": "🌉",
+   "lat": 41.1463,
+   "lng": 1.24365,
+   "desc": "Acueducto romano de dos pisos, Patrimonio de la Humanidad."
+  },
+  {
+   "id": "ctl_calcots",
+   "cat": "food",
+   "name": "Calçotada de Valls",
+   "icon": "🧅",
+   "lat": 41.28545,
+   "lng": 1.24946,
+   "desc": "La cuna del calçot: cebollas tiernas a la brasa con salsa romesco."
+  },
+  {
+   "id": "ctl_montblanc",
+   "cat": "monuments",
+   "name": "Muralles de Montblanc",
+   "icon": "🏯",
+   "lat": 41.37722,
+   "lng": 1.16389,
+   "desc": "Villa medieval amurallada ligada a la leyenda de Sant Jordi."
+  },
+  {
+   "id": "ctl_gaudi_centre",
+   "cat": "ocio",
+   "name": "Gaudí Centre Reus",
+   "icon": "🎨",
+   "lat": 41.15526,
+   "lng": 1.10831,
+   "desc": "Museo interactivo sobre Gaudí en su ciudad natal, Reus."
+  },
+  {
+   "id": "ctl_balco",
+   "cat": "ocio",
+   "name": "Balcó del Mediterrani",
+   "icon": "🌅",
+   "lat": 41.1097,
+   "lng": 1.2489,
+   "desc": "Mirador sobre el mar al final de la Rambla Nova de Tarragona."
+  },
+  {
+   "id": "ctl_marisc_cambrils",
+   "cat": "food",
+   "name": "Peix i marisc de Cambrils",
+   "icon": "🦐",
+   "lat": 41.06667,
+   "lng": 1.05833,
+   "desc": "Capital gastronómica de la Costa Daurada, pescado y arroces."
+  },
+  {
+   "id": "ctl_vermut_reus",
+   "cat": "food",
+   "name": "Vermut de Reus",
+   "icon": "🍷",
+   "lat": 41.1554,
+   "lng": 1.1069,
+   "desc": "La cuna del vermut catalán: 'fer el vermut' en el Mercadal."
+  }
+ ],
+ "extra": {
+  "ctl_portaventura": {
+   "id": "ctl_portaventura",
+   "d": "PortAventura World reúne un gran parque temático, el área de altas emociones Ferrari Land y un parque acuático en plena Costa Daurada. Montañas rusas de récord como Shambhala o Dragon Khan lo convierten en un destino imprescindible para familias y amantes de la adrenalina.",
+   "d_en": "PortAventura World combines a huge theme park, the high-thrill Ferrari Land and a water park on the Costa Daurada. Record-breaking coasters like Shambhala and Dragon Khan make it a must for families and adrenaline lovers.",
+   "h": "Todo el día; mejor entre semana para evitar colas",
+   "h_en": "A full day; weekdays are best to avoid queues",
+   "i": "las atracciones, la adrenalina y los planes en familia",
+   "i_en": "rides, adrenaline and family days out"
+  },
+  "ctl_delta_ebre": {
+   "id": "ctl_delta_ebre",
+   "d": "El Delta del Ebro es uno de los humedales más importantes del Mediterráneo occidental, con arrozales infinitos, lagunas, dunas y una fauna espectacular de flamencos y aves acuáticas. Ideal para recorrer en bicicleta, en barca o disfrutar de sus playas casi vírgenes.",
+   "d_en": "The Ebro Delta is one of the most important wetlands in the western Mediterranean, with endless rice fields, lagoons, dunes and spectacular flamingos and waterbirds. Perfect to explore by bike, by boat or on its near-untouched beaches.",
+   "h": "Amanecer o atardecer para ver aves; primavera y otoño",
+   "h_en": "Sunrise or sunset for birdwatching; spring and autumn",
+   "i": "la naturaleza, las aves y los paisajes de agua",
+   "i_en": "nature, birdlife and watery landscapes"
+  },
+  "ctl_amfiteatre": {
+   "id": "ctl_amfiteatre",
+   "d": "El anfiteatro romano de Tarragona se alza junto al Mediterráneo, donde antaño se celebraban luchas de gladiadores. Forma parte del conjunto arqueológico de Tárraco, declarado Patrimonio de la Humanidad por la Unesco, y aún conserva restos de una basílica visigótica en su interior.",
+   "d_en": "Tarragona's Roman amphitheatre rises beside the Mediterranean, where gladiator fights were once held. It belongs to the Tarraco archaeological ensemble, a UNESCO World Heritage Site, and still preserves the remains of a Visigothic basilica inside.",
+   "h": "Mañana temprano o atardecer con luz sobre el mar",
+   "h_en": "Early morning or sunset with light over the sea",
+   "i": "la historia romana y la arqueología",
+   "i_en": "Roman history and archaeology"
+  },
+  "ctl_poblet": {
+   "id": "ctl_poblet",
+   "d": "El monasterio de Poblet es una de las abadías cistercienses más grandes de Europa y Patrimonio de la Humanidad. Fue panteón de los reyes de la Corona de Aragón y sigue siendo un monasterio vivo, con un impresionante claustro, iglesia y salas capitulares en un entorno de viñedos.",
+   "d_en": "Poblet Monastery is one of the largest Cistercian abbeys in Europe and a World Heritage Site. It served as the pantheon of the kings of the Crown of Aragon and remains a living monastery, with a stunning cloister, church and chapter house amid vineyards.",
+   "h": "Visitas guiadas por la mañana; todo el año",
+   "h_en": "Guided tours in the morning; open all year",
+   "i": "el arte medieval y la espiritualidad",
+   "i_en": "medieval art and spirituality"
+  },
+  "ctl_catedral_tgn": {
+   "id": "ctl_catedral_tgn",
+   "d": "La catedral de Santa María de Tarragona se alza en lo más alto de la ciudad, sobre el solar del antiguo templo romano de Augusto. Mezcla de románico y gótico, sorprende por su gran fachada, su claustro y un interior que resume siglos de historia de Tárraco.",
+   "d_en": "Tarragona Cathedral stands at the highest point of the city, on the site of the ancient Roman temple of Augustus. A blend of Romanesque and Gothic, it impresses with its great facade, its cloister and an interior that sums up centuries of Tarraco's history.",
+   "h": "Mañanas entre semana; recorre después el casco antiguo",
+   "h_en": "Weekday mornings; then explore the old town",
+   "i": "la arquitectura religiosa y los cascos históricos",
+   "i_en": "religious architecture and historic quarters"
+  },
+  "ctl_salou": {
+   "id": "ctl_salou",
+   "d": "Salou es el corazón turístico de la Costa Daurada, con largas playas de arena dorada, calas escondidas y un animado paseo marítimo con la fuente cibernética. Su ambiente familiar y su cercanía a PortAventura la convierten en un destino de sol y playa muy popular.",
+   "d_en": "Salou is the tourist heart of the Costa Daurada, with long golden-sand beaches, hidden coves and a lively promenade with its cybernetic fountain. Its family-friendly vibe and proximity to PortAventura make it a hugely popular sun-and-beach destination.",
+   "h": "Primavera y verano; atardeceres en el paseo",
+   "h_en": "Spring and summer; sunsets along the promenade",
+   "i": "la playa, el ambiente y los planes en familia",
+   "i_en": "the beach, the atmosphere and family fun"
+  },
+  "ctl_pont_diable": {
+   "id": "ctl_pont_diable",
+   "d": "El acueducto de les Ferreres, conocido como Pont del Diable, es una de las obras de ingeniería romana mejor conservadas de Hispania. Con 217 metros de longitud y dos niveles de arcos, llevaba el agua hasta Tárraco y hoy se recorre a pie en un entorno natural.",
+   "d_en": "The Les Ferreres aqueduct, known as the Devil's Bridge, is one of the best-preserved works of Roman engineering in Hispania. At 217 metres long with two tiers of arches, it carried water to Tarraco and can now be walked across in a natural setting.",
+   "h": "Cualquier momento del día; a las afueras de Tarragona",
+   "h_en": "Any time of day; on the outskirts of Tarragona",
+   "i": "la ingeniería romana y los paseos entre historia y naturaleza",
+   "i_en": "Roman engineering and walks between history and nature"
+  },
+  "ctl_calcots": {
+   "id": "ctl_calcots",
+   "d": "Valls es la cuna de la calçotada, la fiesta gastronómica del invierno catalán. Los calçots, unas cebollas tiernas asadas a la brasa, se comen con las manos mojados en salsa romesco, seguidos de carne a la brasa y buen vino. Una experiencia festiva y muy local.",
+   "d_en": "Valls is the birthplace of the calçotada, the great gastronomic feast of Catalan winter. Calçots, tender young onions grilled over flames, are eaten by hand dipped in romesco sauce, followed by grilled meat and good wine. A festive, deeply local experience.",
+   "h": "De noviembre a abril, temporada del calçot",
+   "h_en": "November to April, calçot season",
+   "i": "la cocina tradicional y las experiencias gastronómicas locales",
+   "i_en": "traditional cooking and local food experiences"
+  },
+  "ctl_montblanc": {
+   "id": "ctl_montblanc",
+   "d": "Montblanc conserva uno de los recintos amurallados medievales más completos de Cataluña, con torres, portales e iglesias góticas. Capital de la Conca de Barberà, está ligada a la leyenda de Sant Jordi y el dragón, y su casco antiguo transporta al visitante a la Edad Media.",
+   "d_en": "Montblanc preserves one of the most complete medieval walled enclosures in Catalonia, with towers, gates and Gothic churches. Capital of the Conca de Barberà, it is tied to the legend of Saint George and the dragon, and its old town whisks visitors back to the Middle Ages.",
+   "h": "Todo el año; especial en la Setmana Medieval (abril)",
+   "h_en": "All year; special during Medieval Week (April)",
+   "i": "las villas medievales y las murallas históricas",
+   "i_en": "medieval towns and historic walls"
+  },
+  "ctl_gaudi_centre": {
+   "id": "ctl_gaudi_centre",
+   "d": "El Gaudí Centre de Reus es un museo interactivo dedicado a Antoni Gaudí, nacido en la ciudad. A través de maquetas, audiovisuales y objetos originales explica su genio y su método, y sirve de punto de partida para descubrir la espléndida ruta modernista de Reus.",
+   "d_en": "The Gaudí Centre in Reus is an interactive museum devoted to Antoni Gaudí, born in the city. Through models, audiovisuals and original objects it explains his genius and method, and serves as the starting point for discovering Reus's splendid Modernista route.",
+   "h": "Mañana o tarde; combínalo con la ruta modernista",
+   "h_en": "Morning or afternoon; combine with the Modernista route",
+   "i": "el modernismo, Gaudí y los museos interactivos",
+   "i_en": "Modernisme, Gaudí and interactive museums"
+  },
+  "ctl_balco": {
+   "id": "ctl_balco",
+   "d": "El Balcó del Mediterrani es el mirador más emblemático de Tarragona, al final de la Rambla Nova. Desde su barandilla de hierro se contempla el mar, el puerto y el anfiteatro romano, y es tradición 'tocar ferro' para asegurarse buena suerte. El mejor punto para un paseo al atardecer.",
+   "d_en": "The Balcó del Mediterrani is Tarragona's most emblematic viewpoint, at the end of the Rambla Nova. From its iron railing you can gaze over the sea, the port and the Roman amphitheatre, and it is tradition to 'touch iron' for good luck. The perfect spot for a sunset stroll.",
+   "h": "Al atardecer o en el paseo de la Rambla Nova",
+   "h_en": "At sunset or while strolling the Rambla Nova",
+   "i": "los miradores, los paseos marítimos y las puestas de sol",
+   "i_en": "viewpoints, seaside promenades and sunsets"
+  },
+  "ctl_marisc_cambrils": {
+   "id": "ctl_marisc_cambrils",
+   "d": "Cambrils es considerada la capital gastronómica de la Costa Daurada gracias a su puerto pesquero y su tradición marinera. Sus restaurantes ofrecen pescado y marisco fresco de la lonja, suquets, romesco y arroces mediterráneos que hacen las delicias de los amantes del mar.",
+   "d_en": "Cambrils is regarded as the gastronomic capital of the Costa Daurada thanks to its fishing port and seafaring tradition. Its restaurants serve fresh fish and shellfish from the market, suquet stews, romesco and Mediterranean rice dishes that delight seafood lovers.",
+   "h": "Almuerzos y cenas; mejor cerca del puerto",
+   "h_en": "Lunch and dinner; best near the harbour",
+   "i": "el marisco, los arroces y la cocina marinera",
+   "i_en": "seafood, rice dishes and seaside cuisine"
+  },
+  "ctl_vermut_reus": {
+   "id": "ctl_vermut_reus",
+   "d": "Reus fue uno de los grandes centros productores de vermut del mundo y mantiene viva la tradición de 'fer el vermut' antes de comer. En sus bodegas y terrazas del centro modernista se degusta este vino aromatizado con hierbas, acompañado de aceitunas, conservas y buen ambiente.",
+   "d_en": "Reus was one of the world's great vermouth-making centres and keeps alive the tradition of 'fer el vermut' before lunch. In its cellars and terraces around the Modernista centre you can taste this herb-infused wine with olives, tinned delicacies and a great atmosphere.",
+   "h": "Mediodía, antes de comer (el aperitivo)",
+   "h_en": "Midday, before lunch (the aperitif)",
+   "i": "el vermut, el aperitivo y la cultura de tapeo",
+   "i_en": "vermouth, the aperitif and tapas culture"
+  }
+ },
+ "food": {
+  "ctl_calcots": {
+   "cuisine": "Catalana a la brasa (calçots y carnes)",
+   "price": "25-35 € por persona",
+   "hours": "Comidas de fin de semana en temporada"
+  },
+  "ctl_marisc_cambrils": {
+   "cuisine": "Marisquería y cocina mediterránea de mar",
+   "price": "35-60 € por persona",
+   "hours": "13:00-16:00 y 20:00-23:00"
+  },
+  "ctl_vermut_reus": {
+   "cuisine": "Vermutería y aperitivo (tapas y conservas)",
+   "price": "8-15 € por persona",
+   "hours": "12:00-15:00 (vermut de mediodía)"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Tarragona / Lleida",
+   "items": [
+    {
+     "name": "Vermut de Reus",
+     "price": "6–15 €",
+     "desc": "El vermut con tradición e historia de la Costa Daurada."
+    },
+    {
+     "name": "Aceite de oliva de les Garrigues (DOP)",
+     "price": "8–20 €",
+     "desc": "Aceite de gran calidad del interior de Lleida."
+    },
+    {
+     "name": "Avellana de Reus y turrón",
+     "price": "6–14 €",
+     "desc": "Fruto seco con Denominación de Origen de la zona."
+    }
+   ],
+   "shops": [
+    "Mercat Central de Tarragona",
+    "Ruta modernista de Reus",
+    "Mercats de Lleida"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Barcelona se mueve muy bien en metro y a pie; compra online y con antelación las entradas de la Sagrada Família, la Casa Batlló y el Park Güell para evitar colas y agotados.",
+   "Ojo con los carteristas en La Rambla, el metro y las zonas turísticas: lleva lo justo y vigila bolsos y móviles.",
+   "Cataluña es bilingüe (catalán y español); verás muchos carteles y menús en catalán, pero te entenderán en español sin problema.",
+   "La región combina ciudad, playa (Costa Brava y Costa Daurada) y Pirineo (Val d'Aran, Aigüestortes): para el interior y la montaña el coche es casi imprescindible.",
+   "En invierno el norte tiene esquí (Baqueira) y en verano la costa se llena: reserva alojamiento con antelación en temporada alta y festivos."
+  ],
+  "en": [
+   "Barcelona is easy to get around by metro and on foot; buy tickets for the Sagrada Família, Casa Batlló and Park Güell online and in advance to avoid queues and sell-outs.",
+   "Watch out for pickpockets on La Rambla, the metro and tourist areas: carry only what you need and keep an eye on bags and phones.",
+   "Catalonia is bilingual (Catalan and Spanish); you'll see many signs and menus in Catalan, but you'll be understood in Spanish everywhere.",
+   "The region combines city, beaches (Costa Brava and Costa Daurada) and the Pyrenees (Val d'Aran, Aigüestortes): a car is almost essential for the inland and mountain areas.",
+   "In winter the north has skiing (Baqueira) and in summer the coast fills up: book accommodation ahead in high season and on holidays."
+  ]
+ },
+ "climate": {
+  "hi": [
+   13,
+   14,
+   16,
+   18,
+   21,
+   25,
+   28,
+   29,
+   25,
+   21,
+   16,
+   13
+  ],
+  "lo": [
+   5,
+   6,
+   8,
+   10,
+   13,
+   17,
+   20,
+   20,
+   17,
+   13,
+   9,
+   6
+  ]
+ },
+ "tr": {
+  "Uno de los mayores parques temáticos de Europa, en Salou.": "One of the largest theme parks in Europe, in Salou.",
+  "Humedal de arrozales, lagunas y flamencos en la desembocadura del Ebro.": "A wetland of rice paddies, lagoons and flamingos at the mouth of the Ebro.",
+  "Anfiteatro romano frente al mar, Patrimonio de la Humanidad.": "A Roman amphitheater facing the sea, a World Heritage Site.",
+  "Gran monasterio cisterciense, panteón real y Patrimonio Mundial.": "A great Cistercian monastery, royal pantheon and World Heritage Site.",
+  "Catedral románico-gótica sobre el antiguo templo de Augusto.": "A Romanesque-Gothic cathedral built over the ancient temple of Augustus.",
+  "Capital turística de la Costa Daurada, playas y paseo marítimo.": "The tourist capital of the Costa Daurada, with beaches and a seafront promenade.",
+  "Acueducto romano de dos pisos, Patrimonio de la Humanidad.": "A two-tiered Roman aqueduct, a World Heritage Site.",
+  "La cuna del calçot: cebollas tiernas a la brasa con salsa romesco.": "The home of the calçot: tender grilled onions with romesco sauce.",
+  "Villa medieval amurallada ligada a la leyenda de Sant Jordi.": "A walled medieval town tied to the legend of Sant Jordi.",
+  "Museo interactivo sobre Gaudí en su ciudad natal, Reus.": "An interactive museum about Gaudí in his hometown, Reus.",
+  "Mirador sobre el mar al final de la Rambla Nova de Tarragona.": "A sea-view lookout at the end of Tarragona's Rambla Nova.",
+  "Capital gastronómica de la Costa Daurada, pescado y arroces.": "The gastronomic capital of the Costa Daurada, fish and rice dishes.",
+  "La cuna del vermut catalán: 'fer el vermut' en el Mercadal.": "The home of Catalan vermouth: 'fer el vermut' in the Mercadal.",
+  "Tarragona / Lleida": "Tarragona / Lleida"
+ }
+}

@@ -1,0 +1,644 @@
+{
+ "id": "valladolid",
+ "name": "Valladolid",
+ "country": "ES",
+ "center": [
+  41.65518,
+  -4.72372
+ ],
+ "pois": [
+  {
+   "id": "vll_plaza_mayor",
+   "cat": "monuments",
+   "name": "Plaza Mayor de Valladolid",
+   "icon": "🏛️",
+   "lat": 41.65197,
+   "lng": -4.7283,
+   "desc": "Plaza porticada del s. XVI, modelo de plazas mayores españolas."
+  },
+  {
+   "id": "vll_catedral",
+   "cat": "monuments",
+   "name": "Catedral de Valladolid",
+   "icon": "⛪",
+   "lat": 41.65274,
+   "lng": -4.72334,
+   "desc": "Catedral inacabada proyectada por Juan de Herrera."
+  },
+  {
+   "id": "vll_san_gregorio",
+   "cat": "monuments",
+   "name": "Museo Nacional de Escultura (San Gregorio)",
+   "icon": "🗿",
+   "lat": 41.65719,
+   "lng": -4.72369,
+   "desc": "Escultura policromada española en el Colegio de San Gregorio."
+  },
+  {
+   "id": "vll_san_pablo",
+   "cat": "monuments",
+   "name": "Iglesia de San Pablo",
+   "icon": "⛪",
+   "lat": 41.65706,
+   "lng": -4.72446,
+   "desc": "Fachada gótico-isabelina de extraordinaria riqueza."
+  },
+  {
+   "id": "vll_casa_cervantes",
+   "cat": "monuments",
+   "name": "Casa de Cervantes",
+   "icon": "📜",
+   "lat": 41.64819,
+   "lng": -4.72711,
+   "desc": "Casa-museo donde vivió Miguel de Cervantes."
+  },
+  {
+   "id": "vll_academia_caballeria",
+   "cat": "monuments",
+   "name": "Academia de Caballería",
+   "icon": "🐎",
+   "lat": 41.6481,
+   "lng": -4.73185,
+   "desc": "Imponente sede militar de estilo neoplateresco."
+  },
+  {
+   "id": "vll_santa_maria_antigua",
+   "cat": "monuments",
+   "name": "Iglesia de Santa María la Antigua",
+   "icon": "⛪",
+   "lat": 41.65399,
+   "lng": -4.72289,
+   "desc": "Iglesia románico-gótica de esbelta torre."
+  },
+  {
+   "id": "vll_castillo_penafiel",
+   "cat": "monuments",
+   "name": "Castillo de Peñafiel (Museo del Vino)",
+   "icon": "🏰",
+   "lat": 41.5961,
+   "lng": -4.1179,
+   "desc": "Castillo alargado sobre un cerro, alberga el Museo del Vino."
+  },
+  {
+   "id": "vll_castillo_mota",
+   "cat": "monuments",
+   "name": "Castillo de la Mota",
+   "icon": "🏰",
+   "lat": 41.30932,
+   "lng": -4.90859,
+   "desc": "Castillo de ladrillo rojo en Medina del Campo."
+  },
+  {
+   "id": "vll_monasterio_santa_clara",
+   "cat": "monuments",
+   "name": "Real Monasterio de Santa Clara (Tordesillas)",
+   "icon": "🏰",
+   "lat": 41.50001,
+   "lng": -4.99726,
+   "desc": "Palacio mudéjar convertido en convento de clarisas."
+  },
+  {
+   "id": "vll_archivo_simancas",
+   "cat": "monuments",
+   "name": "Archivo General de Simancas",
+   "icon": "🏰",
+   "lat": 41.59177,
+   "lng": -4.82894,
+   "desc": "Castillo que guarda el gran archivo de la Corona de Castilla."
+  },
+  {
+   "id": "vll_santa_maria_rioseco",
+   "cat": "monuments",
+   "name": "Santa María de Mediavilla (Medina de Rioseco)",
+   "icon": "⛪",
+   "lat": 41.88321,
+   "lng": -5.04299,
+   "desc": "Iglesia gótica con la Capilla de los Benavente."
+  },
+  {
+   "id": "vll_campo_grande",
+   "cat": "nature",
+   "name": "Campo Grande",
+   "icon": "🌳",
+   "lat": 41.6456,
+   "lng": -4.7313,
+   "desc": "Gran parque romántico en el corazón de la ciudad."
+  },
+  {
+   "id": "vll_playa_moreras",
+   "cat": "nature",
+   "name": "Playa de las Moreras",
+   "icon": "🏖️",
+   "lat": 41.65654,
+   "lng": -4.73279,
+   "desc": "Playa fluvial urbana a orillas del Pisuerga."
+  },
+  {
+   "id": "vll_canal_castilla",
+   "cat": "nature",
+   "name": "Canal de Castilla (Medina de Rioseco)",
+   "icon": "🚤",
+   "lat": 41.88639,
+   "lng": -5.04667,
+   "desc": "Dársena histórica del canal con paseos en barco."
+  },
+  {
+   "id": "vll_vinedos_ribera",
+   "cat": "nature",
+   "name": "Viñedos de la Ribera del Duero",
+   "icon": "🍇",
+   "lat": 41.602,
+   "lng": -4.13,
+   "desc": "Paisaje de viñas y páramos junto al Duero."
+  },
+  {
+   "id": "vll_uruena",
+   "cat": "ocio",
+   "name": "Urueña, Villa del Libro",
+   "icon": "📚",
+   "lat": 41.72717,
+   "lng": -5.20356,
+   "desc": "Villa amurallada dedicada a las librerías."
+  },
+  {
+   "id": "vll_bodega_protos",
+   "cat": "ocio",
+   "name": "Bodega Protos (Peñafiel)",
+   "icon": "🍷",
+   "lat": 41.5989,
+   "lng": -4.11519,
+   "desc": "Histórica bodega de Ribera del Duero con galerías subterráneas."
+  },
+  {
+   "id": "vll_bodegas_rueda",
+   "cat": "ocio",
+   "name": "Ruta del Vino de Rueda",
+   "icon": "🍇",
+   "lat": 41.4123,
+   "lng": -4.9589,
+   "desc": "Bodegas de verdejo en torno a la villa de Rueda."
+  },
+  {
+   "id": "vll_museo_ciencia",
+   "cat": "ocio",
+   "name": "Museo de la Ciencia de Valladolid",
+   "icon": "🔬",
+   "lat": 41.63753,
+   "lng": -4.74531,
+   "desc": "Museo interactivo con planetario junto al Pisuerga."
+  },
+  {
+   "id": "vll_patio_herreriano",
+   "cat": "ocio",
+   "name": "Museo Patio Herreriano",
+   "icon": "🎨",
+   "lat": 41.65455,
+   "lng": -4.73031,
+   "desc": "Arte español contemporáneo en un claustro renacentista."
+  },
+  {
+   "id": "vll_los_zagales",
+   "cat": "food",
+   "name": "Los Zagales de la Abadía",
+   "icon": "🍢",
+   "lat": 41.65135,
+   "lng": -4.72987,
+   "desc": "Bar de pinchos premiados junto a la Plaza Mayor."
+  },
+  {
+   "id": "vll_jero",
+   "cat": "food",
+   "name": "Bar Jero",
+   "icon": "🍤",
+   "lat": 41.65298,
+   "lng": -4.72966,
+   "desc": "Clásico bar de pinchos en la calle Correos."
+  },
+  {
+   "id": "vll_parrilla_san_lorenzo",
+   "cat": "food",
+   "name": "La Parrilla de San Lorenzo",
+   "icon": "🐑",
+   "lat": 41.65136,
+   "lng": -4.73184,
+   "desc": "Cocina castellana y lechazo en un sótano histórico."
+  },
+  {
+   "id": "vll_vinotinto",
+   "cat": "food",
+   "name": "Vinotinto",
+   "icon": "🥩",
+   "lat": 41.65233,
+   "lng": -4.73018,
+   "desc": "Carnes a la brasa y tapas en pleno centro."
+  },
+  {
+   "id": "vll_molino_palacios",
+   "cat": "food",
+   "name": "El Molino de Palacios (Peñafiel)",
+   "icon": "🍽️",
+   "lat": 41.5988,
+   "lng": -4.11879,
+   "desc": "Lechazo y cocina tradicional en un antiguo molino."
+  },
+  {
+   "id": "vll_botica_matapozuelos",
+   "cat": "food",
+   "name": "La Botica de Matapozuelos",
+   "icon": "⭐",
+   "lat": 41.4187,
+   "lng": -4.8356,
+   "desc": "Alta cocina del pinar con estrella Michelin, zona de Rueda."
+  }
+ ],
+ "extra": {
+  "vll_plaza_mayor": {
+   "id": "vll_plaza_mayor",
+   "d": "Diseñada tras el incendio de 1561, fue la primera plaza mayor regular de España y sirvió de inspiración a las de Madrid y Salamanca. En su centro preside la estatua del conde Ansúrez y está rodeada de soportales, terrazas y el Ayuntamiento.",
+   "d_en": "Rebuilt after the 1561 fire, it was Spain's first regular main square and inspired those of Madrid and Salamanca. The statue of Count Ansúrez presides at its center, ringed by arcades, terraces and the City Hall.",
+   "h": "Abierto siempre",
+   "h_en": "Open 24h",
+   "i": "Ideal si te gusta el ambiente urbano y la arquitectura histórica.",
+   "i_en": "Ideal if you like city atmosphere and historic architecture."
+  },
+  "vll_catedral": {
+   "id": "vll_catedral",
+   "d": "Obra herreriana del s. XVI que nunca se completó según el ambicioso plano original. Alberga el Museo Diocesano y Catedralicio con retablos y esculturas, y su torre ofrece vistas de la ciudad.",
+   "d_en": "A 16th-century Herrerian work never finished to its ambitious original plan. It houses the Diocesan and Cathedral Museum with altarpieces and sculpture, and its tower offers city views.",
+   "h": "Mar-Dom 10:00-13:30 y 16:30-19:00",
+   "h_en": "Tue-Sun 10:00-13:30 and 16:30-19:00",
+   "i": "Ideal si te gusta el arte sacro y la arquitectura renacentista.",
+   "i_en": "Ideal if you like sacred art and Renaissance architecture."
+  },
+  "vll_san_gregorio": {
+   "id": "vll_san_gregorio",
+   "d": "El museo reúne la mejor colección de escultura policromada de los siglos XIII a XVIII, con obras de Berruguete, Juni y Gregorio Fernández. Su sede, el Colegio de San Gregorio, luce una espectacular fachada del gótico isabelino.",
+   "d_en": "The museum holds the finest collection of polychrome sculpture from the 13th to 18th centuries, with works by Berruguete, Juni and Gregorio Fernández. Its home, the San Gregorio college, boasts a spectacular Isabelline Gothic facade.",
+   "h": "Mar-Sáb 10:00-14:00 y 16:00-19:30, Dom 10:00-14:00",
+   "h_en": "Tue-Sat 10:00-14:00 and 16:00-19:30, Sun 10:00-14:00",
+   "i": "Ideal si te gusta la escultura y el arte del Siglo de Oro.",
+   "i_en": "Ideal if you like sculpture and Golden Age art."
+  },
+  "vll_san_pablo": {
+   "id": "vll_san_pablo",
+   "d": "Iglesia dominica famosa por su portada tallada como un retablo de piedra, uno de los mejores ejemplos del gótico flamígero e isabelino. Aquí fueron bautizados Felipe II y Felipe IV.",
+   "d_en": "A Dominican church famed for its facade carved like a stone altarpiece, one of the best examples of flamboyant and Isabelline Gothic. Philip II and Philip IV were baptized here.",
+   "h": "Lun-Dom 10:00-14:00 y 17:00-20:00",
+   "h_en": "Mon-Sun 10:00-14:00 and 17:00-20:00",
+   "i": "Ideal si te gusta la fotografía de fachadas y el gótico tardío.",
+   "i_en": "Ideal if you like facade photography and late Gothic."
+  },
+  "vll_casa_cervantes": {
+   "id": "vll_casa_cervantes",
+   "d": "Vivienda de principios del s. XVII donde residió el autor del Quijote durante su estancia en Valladolid. Recreada con mobiliario de época, ofrece una inmersión en la vida cotidiana del Siglo de Oro.",
+   "d_en": "An early 17th-century home where the author of Don Quixote lived during his time in Valladolid. Recreated with period furniture, it offers an immersion in Golden Age daily life.",
+   "h": "Mar-Sáb 09:30-15:00, Dom 10:00-15:00",
+   "h_en": "Tue-Sat 09:30-15:00, Sun 10:00-15:00",
+   "i": "Ideal si te gusta la literatura y la historia del Siglo de Oro.",
+   "i_en": "Ideal if you like literature and Golden Age history."
+  },
+  "vll_academia_caballeria": {
+   "id": "vll_academia_caballeria",
+   "d": "Edificio de 1921 que preside la Plaza de Zorrilla, sede de la formación de los oficiales de caballería del Ejército español. Su fachada monumental y el monumento al Regimiento de Alcántara son referentes de la ciudad.",
+   "d_en": "A 1921 building presiding over Plaza de Zorrilla, home to the training of the Spanish Army's cavalry officers. Its monumental facade and the Alcántara Regiment monument are city landmarks.",
+   "h": "Exterior visitable; museo con visitas concertadas",
+   "h_en": "Exterior open; museum by appointment",
+   "i": "Ideal si te gusta la historia militar y la arquitectura monumental.",
+   "i_en": "Ideal if you like military history and monumental architecture."
+  },
+  "vll_santa_maria_antigua": {
+   "id": "vll_santa_maria_antigua",
+   "d": "Uno de los templos más antiguos y fotogénicos de Valladolid, con una torre románica del s. XII coronada por chapitel y un cuerpo gótico posterior. Se alza junto a un agradable jardín en pleno centro.",
+   "d_en": "One of Valladolid's oldest and most photogenic churches, with a 12th-century Romanesque tower topped by a spire and a later Gothic body. It rises beside a pleasant garden in the very center.",
+   "h": "Horario de culto y visitas",
+   "h_en": "Worship and visiting hours",
+   "i": "Ideal si te gusta el románico y los rincones con encanto.",
+   "i_en": "Ideal if you like Romanesque style and charming corners."
+  },
+  "vll_castillo_penafiel": {
+   "id": "vll_castillo_penafiel",
+   "d": "Fortaleza medieval de silueta alargada que domina Peñafiel y el valle del Duratón. En su interior el Museo Provincial del Vino explica la cultura vinícola de la Ribera del Duero, con catas incluidas.",
+   "d_en": "A medieval fortress with an elongated silhouette dominating Peñafiel and the Duratón valley. Inside, the Provincial Wine Museum explains Ribera del Duero's wine culture, tastings included.",
+   "h": "Mar-Dom 10:30-14:00 y 16:00-20:00",
+   "h_en": "Tue-Sun 10:30-14:00 and 16:00-20:00",
+   "i": "Ideal si te gusta la historia medieval y el enoturismo.",
+   "i_en": "Ideal if you like medieval history and wine tourism."
+  },
+  "vll_castillo_mota": {
+   "id": "vll_castillo_mota",
+   "d": "Impresionante fortaleza de mudéjar militar construida en ladrillo, con foso y una torre del homenaje de gran altura. Fue prisión de estado y residencia real; su color rojizo la hace inconfundible.",
+   "d_en": "An impressive military Mudejar fortress built in brick, with a moat and a very tall keep. It served as a state prison and royal residence; its reddish color makes it unmistakable.",
+   "h": "Mar-Dom 10:00-14:00 y 16:00-19:00",
+   "h_en": "Tue-Sun 10:00-14:00 and 16:00-19:00",
+   "i": "Ideal si te gusta la arquitectura militar y el mudéjar.",
+   "i_en": "Ideal if you like military architecture and Mudejar style."
+  },
+  "vll_monasterio_santa_clara": {
+   "id": "vll_monasterio_santa_clara",
+   "d": "Antiguo palacio real de Alfonso XI transformado en monasterio, con patios, baños árabes y una capilla dorada mudéjar de gran belleza. En Tordesillas vivió recluida la reina Juana la Loca.",
+   "d_en": "A former royal palace of Alfonso XI turned into a monastery, with courtyards, Arab baths and a beautiful gilded Mudejar chapel. Queen Joanna the Mad lived confined in Tordesillas.",
+   "h": "Mar-Dom 10:00-14:00 y 16:00-18:30",
+   "h_en": "Tue-Sun 10:00-14:00 and 16:00-18:30",
+   "i": "Ideal si te gusta el arte mudéjar y la historia de las reinas.",
+   "i_en": "Ideal if you like Mudejar art and queens' history."
+  },
+  "vll_archivo_simancas": {
+   "id": "vll_archivo_simancas",
+   "d": "Fortaleza reconvertida por Felipe II en el primer archivo del Estado moderno, con millones de documentos de la monarquía hispánica. Combina la visita al castillo con la historia de la administración imperial.",
+   "d_en": "A fortress converted by Philip II into the first archive of the modern state, holding millions of documents of the Hispanic monarchy. It combines a castle visit with the history of imperial administration.",
+   "h": "Lun-Vie 09:00-14:30",
+   "h_en": "Mon-Fri 09:00-14:30",
+   "i": "Ideal si te gusta la historia documental y los castillos.",
+   "i_en": "Ideal if you like documentary history and castles."
+  },
+  "vll_santa_maria_rioseco": {
+   "id": "vll_santa_maria_rioseco",
+   "d": "Templo del s. XVI en la 'Ciudad de los Almirantes', célebre por su Capilla de los Benavente, joya del plateresco apodada la 'Capilla Sixtina' de Castilla por su exuberante decoración.",
+   "d_en": "A 16th-century church in the 'City of the Admirals', famed for its Benavente Chapel, a Plateresque jewel nicknamed the 'Sistine Chapel' of Castile for its exuberant decoration.",
+   "h": "Mar-Dom 11:00-14:00 y 16:30-19:00",
+   "h_en": "Tue-Sun 11:00-14:00 and 16:30-19:00",
+   "i": "Ideal si te gusta el arte plateresco y las iglesias monumentales.",
+   "i_en": "Ideal if you like Plateresque art and monumental churches."
+  },
+  "vll_campo_grande": {
+   "id": "vll_campo_grande",
+   "d": "El pulmón verde de Valladolid, con estanque, cascada, palomar y pavos reales sueltos entre árboles centenarios. Es el lugar preferido para pasear y descansar en pleno centro urbano.",
+   "d_en": "Valladolid's green lung, with a pond, waterfall, dovecote and peacocks roaming among century-old trees. It is the favorite spot for a stroll and a rest in the very center.",
+   "h": "Abierto todo el día",
+   "h_en": "Open all day",
+   "i": "Ideal si te gusta pasear al aire libre y la naturaleza urbana.",
+   "i_en": "Ideal if you like outdoor walks and urban nature."
+  },
+  "vll_playa_moreras": {
+   "id": "vll_playa_moreras",
+   "d": "Una insólita playa de arena junto al río Pisuerga, con paseo, zonas verdes y piscina cercana. Punto de encuentro para pasear, correr o disfrutar del atardecer sobre el agua.",
+   "d_en": "An unusual sandy beach beside the Pisuerga river, with a promenade, green areas and a nearby pool. A meeting point to walk, run or enjoy the sunset over the water.",
+   "h": "Acceso libre",
+   "h_en": "Free access",
+   "i": "Ideal si te gusta el paseo fluvial y los planes al aire libre.",
+   "i_en": "Ideal if you like riverside walks and outdoor plans."
+  },
+  "vll_canal_castilla": {
+   "id": "vll_canal_castilla",
+   "d": "Obra hidráulica del s. XVIII que unía Castilla para el transporte de grano. En la dársena de Medina de Rioseco se puede navegar en el barco turístico 'Antonio de Ulloa' y recorrer el camino de sirga.",
+   "d_en": "An 18th-century hydraulic work that linked Castile for grain transport. At the Medina de Rioseco basin you can sail on the 'Antonio de Ulloa' tour boat and walk the towpath.",
+   "h": "Barco: fines de semana y temporada alta",
+   "h_en": "Boat: weekends and high season",
+   "i": "Ideal si te gusta el turismo fluvial y la ingeniería histórica.",
+   "i_en": "Ideal if you like river tourism and historic engineering."
+  },
+  "vll_vinedos_ribera": {
+   "id": "vll_vinedos_ribera",
+   "d": "Los alrededores de Peñafiel despliegan un mosaico de viñedos, bodegas subterráneas y páramos que definen la Ribera del Duero. Ideal para rutas del vino, paseos y fotografía del atardecer entre cepas.",
+   "d_en": "The surroundings of Peñafiel unfold a mosaic of vineyards, underground wineries and moors that define Ribera del Duero. Ideal for wine routes, walks and sunset photography among the vines.",
+   "h": "Acceso libre",
+   "h_en": "Free access",
+   "i": "Ideal si te gusta el paisaje agrícola y el enoturismo.",
+   "i_en": "Ideal if you like farmland scenery and wine tourism."
+  },
+  "vll_uruena": {
+   "id": "vll_uruena",
+   "d": "Pequeña villa medieval rodeada de murallas y convertida en la primera 'Villa del Libro' de España, con librerías especializadas, museos y talleres artesanos. Un plan cultural con vistas a los Montes Torozos.",
+   "d_en": "A small medieval town encircled by walls and turned into Spain's first 'Book Town', with specialized bookshops, museums and craft workshops. A cultural outing with views over the Montes Torozos.",
+   "h": "Librerías Mar-Dom, según comercio",
+   "h_en": "Bookshops Tue-Sun, varies by shop",
+   "i": "Ideal si te gusta la lectura y los pueblos con encanto.",
+   "i_en": "Ideal if you like reading and charming villages."
+  },
+  "vll_bodega_protos": {
+   "id": "vll_bodega_protos",
+   "d": "Bodega pionera de la D.O. Ribera del Duero, con más de dos kilómetros de galerías excavadas bajo el castillo y una moderna nave diseñada por Richard Rogers. Ofrece visitas guiadas y catas.",
+   "d_en": "A pioneering winery of the Ribera del Duero appellation, with over two kilometers of galleries dug beneath the castle and a modern building designed by Richard Rogers. It offers guided visits and tastings.",
+   "h": "Visitas con reserva, Mar-Dom",
+   "h_en": "Visits by reservation, Tue-Sun",
+   "i": "Ideal si te gusta el vino y la arquitectura contemporánea.",
+   "i_en": "Ideal if you like wine and contemporary architecture."
+  },
+  "vll_bodegas_rueda": {
+   "id": "vll_bodegas_rueda",
+   "d": "El municipio de Rueda es el corazón de la D.O. del mismo nombre, cuna del verdejo. Numerosas bodegas familiares y cavas subterráneas ofrecen visitas y catas del blanco más famoso de Castilla.",
+   "d_en": "The town of Rueda is the heart of the appellation of the same name, home of verdejo. Numerous family wineries and underground cellars offer visits and tastings of Castile's most famous white.",
+   "h": "Bodegas con reserva, según horario",
+   "h_en": "Wineries by reservation, hours vary",
+   "i": "Ideal si te gusta el vino blanco y las catas.",
+   "i_en": "Ideal if you like white wine and tastings."
+  },
+  "vll_museo_ciencia": {
+   "id": "vll_museo_ciencia",
+   "d": "Espacio moderno a orillas del río con exposiciones interactivas, un planetario digital y actividades para todas las edades. Perfecto para una visita en familia o un día de lluvia.",
+   "d_en": "A modern riverside space with interactive exhibits, a digital planetarium and activities for all ages. Perfect for a family visit or a rainy day.",
+   "h": "Mar-Vie 10:00-18:00, Sáb-Dom 10:00-19:00",
+   "h_en": "Tue-Fri 10:00-18:00, Sat-Sun 10:00-19:00",
+   "i": "Ideal si te gusta la ciencia y los planes en familia.",
+   "i_en": "Ideal if you like science and family plans."
+  },
+  "vll_patio_herreriano": {
+   "id": "vll_patio_herreriano",
+   "d": "Museo de arte contemporáneo español instalado en el antiguo monasterio de San Benito, con una notable colección del s. XX y exposiciones temporales en torno a su elegante patio herreriano.",
+   "d_en": "A contemporary Spanish art museum set in the former monastery of San Benito, with a notable 20th-century collection and temporary shows around its elegant Herrerian courtyard.",
+   "h": "Mar-Vie 11:00-14:00 y 17:00-20:00, Sáb-Dom 11:00-15:00",
+   "h_en": "Tue-Fri 11:00-14:00 and 17:00-20:00, Sat-Sun 11:00-15:00",
+   "i": "Ideal si te gusta el arte contemporáneo y los espacios históricos.",
+   "i_en": "Ideal if you like contemporary art and historic spaces."
+  },
+  "vll_los_zagales": {
+   "id": "vll_los_zagales",
+   "d": "Uno de los templos del pincho vallisoletano, varias veces ganador del Concurso Nacional de Pinchos. Ambiente animado y creaciones en miniatura que combinan tradición e ingenio.",
+   "d_en": "One of Valladolid's shrines to the pincho, a repeat winner of the National Pincho Contest. Lively atmosphere and miniature creations blending tradition and inventiveness.",
+   "h": "Mar-Dom 12:00-16:00 y 20:00-24:00",
+   "h_en": "Tue-Sun 12:00-16:00 and 20:00-24:00",
+   "i": "Ideal si te gusta el tapeo y la cocina en miniatura.",
+   "i_en": "Ideal if you like tapas and miniature cuisine."
+  },
+  "vll_jero": {
+   "id": "vll_jero",
+   "d": "Un imprescindible del tapeo tradicional de Valladolid, con una barra repleta de pinchos calientes y fríos elaborados al momento. Local pequeño y siempre concurrido.",
+   "d_en": "A must for traditional Valladolid tapas, with a bar full of hot and cold pinchos made to order. A small, always-busy spot.",
+   "h": "Mar-Sáb 12:00-15:30 y 20:00-23:30",
+   "h_en": "Tue-Sat 12:00-15:30 and 20:00-23:30",
+   "i": "Ideal si te gusta el ambiente de barra y el pincho de siempre.",
+   "i_en": "Ideal if you like bar atmosphere and classic pinchos."
+  },
+  "vll_parrilla_san_lorenzo": {
+   "id": "vll_parrilla_san_lorenzo",
+   "d": "Restaurante de ambiente medieval instalado en las bodegas de un antiguo convento, especializado en lechazo asado en horno de leña y platos tradicionales castellanos.",
+   "d_en": "A medieval-styled restaurant set in the cellars of a former convent, specializing in wood-oven roast lamb and traditional Castilian dishes.",
+   "h": "Lun-Dom 13:30-16:00 y 21:00-23:30",
+   "h_en": "Mon-Sun 13:30-16:00 and 21:00-23:30",
+   "i": "Ideal si te gusta el asado castellano y los ambientes con historia.",
+   "i_en": "Ideal if you like Castilian roasts and historic settings."
+  },
+  "vll_vinotinto": {
+   "id": "vll_vinotinto",
+   "d": "Casa de brasa muy popular en Valladolid, conocida por sus chuletillas de lechazo y torreznos a la parrilla, además de una amplia carta de vinos de la tierra. Ambiente informal y castizo.",
+   "d_en": "A popular grill house in Valladolid, known for its lamb chops and grilled pork torreznos, plus a wide list of local wines. Informal, traditional atmosphere.",
+   "h": "Lun-Dom 12:30-16:00 y 20:00-24:00",
+   "h_en": "Mon-Sun 12:30-16:00 and 20:00-24:00",
+   "i": "Ideal si te gusta la carne a la brasa y el vino local.",
+   "i_en": "Ideal if you like grilled meat and local wine."
+  },
+  "vll_molino_palacios": {
+   "id": "vll_molino_palacios",
+   "d": "Restaurante instalado en un molino harinero sobre el río Duratón, a los pies del castillo de Peñafiel. Referencia del lechazo asado y de la cocina ribereña maridada con grandes tintos.",
+   "d_en": "A restaurant set in a flour mill over the Duratón river, at the foot of Peñafiel castle. A reference for roast lamb and Ribera cuisine paired with great reds.",
+   "h": "Mié-Dom 13:30-16:00; noches con reserva",
+   "h_en": "Wed-Sun 13:30-16:00; evenings by reservation",
+   "i": "Ideal si te gusta el asado y combinar comida con enoturismo.",
+   "i_en": "Ideal if you like roasts and pairing food with wine tourism."
+  },
+  "vll_botica_matapozuelos": {
+   "id": "vll_botica_matapozuelos",
+   "d": "Restaurante gastronómico de la familia De la Cruz, con estrella Michelin, que reinterpreta los productos del pinar y la despensa castellana en menús degustación creativos, cerca de las bodegas de Rueda.",
+   "d_en": "A Michelin-starred gastronomic restaurant of the De la Cruz family, reinterpreting pine-forest products and the Castilian larder in creative tasting menus, near the Rueda wineries.",
+   "h": "Jue-Dom 14:00-15:30; con reserva",
+   "h_en": "Thu-Sun 14:00-15:30; by reservation",
+   "i": "Ideal si te gusta la alta cocina y los sabores del entorno.",
+   "i_en": "Ideal if you like haute cuisine and local flavors."
+  }
+ },
+ "food": {
+  "vll_los_zagales": {
+   "cuisine": "Pinchos y tapas creativas",
+   "price": "10–20 €",
+   "hours": "Mar-Dom 12:00-16:00 y 20:00-24:00"
+  },
+  "vll_jero": {
+   "cuisine": "Pinchos tradicionales",
+   "price": "8–18 €",
+   "hours": "Mar-Sáb 12:00-15:30 y 20:00-23:30"
+  },
+  "vll_parrilla_san_lorenzo": {
+   "cuisine": "Cocina castellana, lechazo",
+   "price": "35–55 €",
+   "hours": "Lun-Dom 13:30-16:00 y 21:00-23:30"
+  },
+  "vll_vinotinto": {
+   "cuisine": "Carnes a la brasa, tapas",
+   "price": "20–35 €",
+   "hours": "Lun-Dom 12:30-16:00 y 20:00-24:00"
+  },
+  "vll_molino_palacios": {
+   "cuisine": "Cocina tradicional, lechazo",
+   "price": "30–50 €",
+   "hours": "Mié-Dom 13:30-16:00; noches con reserva"
+  },
+  "vll_botica_matapozuelos": {
+   "cuisine": "Cocina de autor, productos del pinar",
+   "price": "60–90 €",
+   "hours": "Jue-Dom 14:00-15:30; con reserva"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Valladolid",
+   "items": [
+    {
+     "name": "Vino Ribera del Duero",
+     "price": "8–40 €",
+     "desc": "Tinto con Denominación de Origen, uno de los más prestigiosos de España."
+    },
+    {
+     "name": "Verdejo de Rueda",
+     "price": "5–15 €",
+     "desc": "Blanco fresco y aromático de la D.O. Rueda."
+    },
+    {
+     "name": "Pan de Valladolid (lechuguino)",
+     "price": "2–4 €",
+     "desc": "Pan de miga prieta con corteza fina, típico de la ciudad."
+    },
+    {
+     "name": "Dulces de convento",
+     "price": "6–14 €",
+     "desc": "Pastas y almendrados artesanos de los monasterios de la provincia."
+    },
+    {
+     "name": "Queso castellano",
+     "price": "8–20 €",
+     "desc": "Queso de oveja curado, ideal para acompañar el vino."
+    }
+   ],
+   "shops": [
+    "Mercado del Val",
+    "Tiendas gourmet del centro",
+    "Bodegas de Ribera del Duero y Rueda"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Reserva con antelación las visitas y catas en las bodegas de Ribera del Duero y Rueda.",
+   "El centro histórico se recorre a pie: casi todo está a pocos minutos de la Plaza Mayor.",
+   "Sal de pinchos por la zona de la Antigua y la calle Pasión, sobre todo de jueves a domingo.",
+   "Combina Peñafiel, Urueña y Tordesillas en una ruta de un día en coche por la provincia.",
+   "En verano el calor aprieta: visita monumentos por la mañana y descansa al mediodía."
+  ],
+  "en": [
+   "Book winery visits and tastings in Ribera del Duero and Rueda well in advance.",
+   "The old town is walkable: almost everything sits minutes from the Plaza Mayor.",
+   "Go for tapas around the Antigua church and Calle Pasión, especially Thursday to Sunday.",
+   "Combine Peñafiel, Urueña and Tordesillas in a one-day driving route across the province.",
+   "Summers are hot: visit monuments in the morning and rest at midday."
+  ]
+ },
+ "climate": {
+  "hi": [
+   8,
+   11,
+   15,
+   17,
+   21,
+   27,
+   31,
+   30,
+   25,
+   18,
+   12,
+   8
+  ],
+  "lo": [
+   0,
+   1,
+   3,
+   5,
+   9,
+   13,
+   15,
+   15,
+   12,
+   8,
+   3,
+   1
+  ]
+ },
+ "tr": {
+  "Plaza porticada del s. XVI, modelo de plazas mayores españolas.": "16th-century arcaded square, the model for Spanish main squares.",
+  "Catedral inacabada proyectada por Juan de Herrera.": "Unfinished cathedral designed by Juan de Herrera.",
+  "Escultura policromada española en el Colegio de San Gregorio.": "Spanish polychrome sculpture in the San Gregorio college.",
+  "Fachada gótico-isabelina de extraordinaria riqueza.": "Extraordinarily rich Isabelline Gothic facade.",
+  "Casa-museo donde vivió Miguel de Cervantes.": "House-museum where Miguel de Cervantes lived.",
+  "Imponente sede militar de estilo neoplateresco.": "Imposing neo-Plateresque military academy.",
+  "Iglesia románico-gótica de esbelta torre.": "Romanesque-Gothic church with a slender tower.",
+  "Castillo alargado sobre un cerro, alberga el Museo del Vino.": "Long hilltop castle housing the Wine Museum.",
+  "Castillo de ladrillo rojo en Medina del Campo.": "Red-brick castle in Medina del Campo.",
+  "Palacio mudéjar convertido en convento de clarisas.": "Mudejar palace turned Poor Clares convent.",
+  "Castillo que guarda el gran archivo de la Corona de Castilla.": "Castle holding the great archive of the Crown of Castile.",
+  "Iglesia gótica con la Capilla de los Benavente.": "Gothic church with the Benavente Chapel.",
+  "Gran parque romántico en el corazón de la ciudad.": "Large romantic park in the heart of the city.",
+  "Playa fluvial urbana a orillas del Pisuerga.": "Urban river beach on the banks of the Pisuerga.",
+  "Dársena histórica del canal con paseos en barco.": "Historic canal basin with boat trips.",
+  "Paisaje de viñas y páramos junto al Duero.": "Landscape of vineyards and moors by the Duero.",
+  "Villa amurallada dedicada a las librerías.": "Walled town devoted to bookshops.",
+  "Histórica bodega de Ribera del Duero con galerías subterráneas.": "Historic Ribera del Duero winery with underground galleries.",
+  "Bodegas de verdejo en torno a la villa de Rueda.": "Verdejo wineries around the town of Rueda.",
+  "Museo interactivo con planetario junto al Pisuerga.": "Interactive museum with a planetarium by the Pisuerga.",
+  "Arte español contemporáneo en un claustro renacentista.": "Contemporary Spanish art in a Renaissance cloister.",
+  "Bar de pinchos premiados junto a la Plaza Mayor.": "Award-winning pinchos bar near the Plaza Mayor.",
+  "Clásico bar de pinchos en la calle Correos.": "Classic pinchos bar on Calle Correos.",
+  "Cocina castellana y lechazo en un sótano histórico.": "Castilian cuisine and roast lamb in a historic cellar.",
+  "Carnes a la brasa y tapas en pleno centro.": "Grilled meats and tapas in the center.",
+  "Lechazo y cocina tradicional en un antiguo molino.": "Roast lamb and traditional cuisine in an old mill.",
+  "Alta cocina del pinar con estrella Michelin, zona de Rueda.": "Michelin-starred pine-forest haute cuisine in the Rueda area.",
+  "Valladolid": "Valladolid"
+ }
+}

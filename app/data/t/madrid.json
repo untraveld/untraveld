@@ -1,0 +1,2246 @@
+{
+ "id": "madrid",
+ "name": "Comunidad de Madrid",
+ "country": "ES",
+ "center": [
+  40.4168,
+  -3.7038
+ ],
+ "pois": [
+  {
+   "id": "puerta_del_sol",
+   "cat": "monuments",
+   "name": "Puerta del Sol",
+   "icon": "🕰️",
+   "lat": 40.41694,
+   "lng": -3.70347,
+   "desc": "El kilómetro cero de España, corazón palpitante de Madrid y punto de encuentro de todos."
+  },
+  {
+   "id": "plaza_mayor",
+   "cat": "monuments",
+   "name": "Plaza Mayor",
+   "icon": "🏛️",
+   "lat": 40.41556,
+   "lng": -3.70739,
+   "desc": "Grandiosa plaza porticada del Madrid de los Austrias, testigo de fiestas y mercados desde 1620."
+  },
+  {
+   "id": "museo_del_prado",
+   "cat": "monuments",
+   "name": "Museo del Prado",
+   "icon": "🖼️",
+   "lat": 40.41381,
+   "lng": -3.69211,
+   "desc": "El mayor museo de pintura del mundo, con Velázquez y Goya bajo un mismo techo."
+  },
+  {
+   "id": "palacio_real_de_madrid",
+   "cat": "monuments",
+   "name": "Palacio Real de Madrid",
+   "icon": "👑",
+   "lat": 40.41794,
+   "lng": -3.71416,
+   "desc": "El palacio real más grande de Europa occidental, entre salones dorados y jardines."
+  },
+  {
+   "id": "parque_del_retiro",
+   "cat": "nature",
+   "name": "Parque del Retiro",
+   "icon": "🌳",
+   "lat": 40.4152,
+   "lng": -3.6844,
+   "desc": "El pulmón verde de Madrid, con su estanque, el Palacio de Cristal y paseos infinitos."
+  },
+  {
+   "id": "gran_via",
+   "cat": "monuments",
+   "name": "Gran Vía",
+   "icon": "🏙️",
+   "lat": 40.42017,
+   "lng": -3.70211,
+   "desc": "La avenida más vibrante de Madrid, con cines, teatros y arquitectura de principios del XX."
+  },
+  {
+   "id": "templo_de_debod",
+   "cat": "nature",
+   "name": "Templo de Debod",
+   "icon": "🏺",
+   "lat": 40.42403,
+   "lng": -3.71774,
+   "desc": "Un templo egipcio milenario que regala los atardeceres más bellos de Madrid."
+  },
+  {
+   "id": "mercado_de_san_miguel",
+   "cat": "food",
+   "name": "Mercado de San Miguel",
+   "icon": "🍽️",
+   "lat": 40.41535,
+   "lng": -3.70897,
+   "desc": "Mercado gastronómico de hierro y cristal donde picar tapas y probar lo mejor de España."
+  },
+  {
+   "id": "plaza_de_cibeles",
+   "cat": "monuments",
+   "name": "Plaza de Cibeles",
+   "icon": "⛲",
+   "lat": 40.41926,
+   "lng": -3.69323,
+   "desc": "La fuente más emblemática de Madrid, donde el Real celebra sus títulos."
+  },
+  {
+   "id": "puerta_de_alcala",
+   "cat": "monuments",
+   "name": "Puerta de Alcalá",
+   "icon": "🏛️",
+   "lat": 40.41996,
+   "lng": -3.68858,
+   "desc": "Majestuoso arco neoclásico que un día fue puerta de entrada a la ciudad."
+  },
+  {
+   "id": "museo_reina_sofia",
+   "cat": "monuments",
+   "name": "Museo Reina Sofía",
+   "icon": "🎨",
+   "lat": 40.40785,
+   "lng": -3.69456,
+   "desc": "Hogar del Guernica de Picasso y del mejor arte contemporáneo español."
+  },
+  {
+   "id": "catedral_de_la_almudena",
+   "cat": "monuments",
+   "name": "Catedral de la Almudena",
+   "icon": "⛪",
+   "lat": 40.41583,
+   "lng": -3.71446,
+   "desc": "La catedral de Madrid, frente al Palacio Real, con cripta neorrománica y cúpulas coloridas."
+  },
+  {
+   "id": "museo_thyssen_bornemisza",
+   "cat": "monuments",
+   "name": "Museo Thyssen-Bornemisza",
+   "icon": "🖼️",
+   "lat": 40.41608,
+   "lng": -3.69472,
+   "desc": "Ocho siglos de pintura europea, de los primitivos al pop, en el Paseo del Arte."
+  },
+  {
+   "id": "chocolateria_san_gines",
+   "cat": "food",
+   "name": "Chocolatería San Ginés",
+   "icon": "🍫",
+   "lat": 40.41681,
+   "lng": -3.70709,
+   "desc": "Templo del chocolate con churros desde 1894, abierto casi a cualquier hora."
+  },
+  {
+   "id": "estadio_santiago_bernabeu",
+   "cat": "ocio",
+   "name": "Estadio Santiago Bernabéu",
+   "icon": "⚽",
+   "lat": 40.45306,
+   "lng": -3.68835,
+   "desc": "El mítico coliseo del Real Madrid, renovado y espectacular a cualquier hora."
+  },
+  {
+   "id": "plaza_de_toros_de_las_ventas",
+   "cat": "ocio",
+   "name": "Plaza de Toros de Las Ventas",
+   "icon": "🐂",
+   "lat": 40.43214,
+   "lng": -3.66319,
+   "desc": "La catedral del toreo, joya neomudéjar y templo de la fiesta nacional."
+  },
+  {
+   "id": "sobrino_de_botin",
+   "cat": "food",
+   "name": "Sobrino de Botín",
+   "icon": "🍖",
+   "lat": 40.41417,
+   "lng": -3.70772,
+   "desc": "El restaurante más antiguo del mundo, famoso por su cochinillo asado desde 1725."
+  },
+  {
+   "id": "el_rastro",
+   "cat": "ocio",
+   "name": "El Rastro",
+   "icon": "🛍️",
+   "lat": 40.40758,
+   "lng": -3.70739,
+   "desc": "El mercadillo dominical más famoso de Madrid, un mar de puestos y antigüedades."
+  },
+  {
+   "id": "plaza_de_espana",
+   "cat": "monuments",
+   "name": "Plaza de España",
+   "icon": "🏙️",
+   "lat": 40.42342,
+   "lng": -3.7123,
+   "desc": "Amplia plaza renovada a los pies de rascacielos históricos y del monumento a Cervantes."
+  },
+  {
+   "id": "teatro_real",
+   "cat": "ocio",
+   "name": "Teatro Real",
+   "icon": "🎭",
+   "lat": 40.41813,
+   "lng": -3.71058,
+   "desc": "El gran teatro de ópera de Madrid, frente al Palacio, con una programación de primer nivel."
+  },
+  {
+   "id": "real_jardin_botanico",
+   "cat": "nature",
+   "name": "Real Jardín Botánico",
+   "icon": "🌿",
+   "lat": 40.41147,
+   "lng": -3.69056,
+   "desc": "Un remanso de paz junto al Prado, con miles de especies de todo el planeta."
+  },
+  {
+   "id": "jardines_de_sabatini",
+   "cat": "nature",
+   "name": "Jardines de Sabatini",
+   "icon": "🌳",
+   "lat": 40.42034,
+   "lng": -3.71377,
+   "desc": "Jardines de estilo neoclásico junto al Palacio Real, perfectos al atardecer."
+  },
+  {
+   "id": "azotea_del_circulo_de_bellas_artes",
+   "cat": "ocio",
+   "name": "Azotea del Círculo de Bellas Artes",
+   "icon": "🍸",
+   "lat": 40.41833,
+   "lng": -3.6966,
+   "desc": "La azotea con las mejores vistas del centro, cóctel en mano sobre los tejados de Madrid."
+  },
+  {
+   "id": "mercado_de_san_anton",
+   "cat": "food",
+   "name": "Mercado de San Antón",
+   "icon": "🍽️",
+   "lat": 40.4226,
+   "lng": -3.69745,
+   "desc": "Mercado moderno en pleno Chueca, con tapas, terraza en la azotea y ambiente animado."
+  },
+  {
+   "id": "basilica_de_san_francisco_el_grande",
+   "cat": "monuments",
+   "name": "Basílica de San Francisco el Grande",
+   "icon": "⛪",
+   "lat": 40.41069,
+   "lng": -3.71453,
+   "desc": "Basílica de cúpula colosal que atesora pinturas de Goya y Zurbarán."
+  },
+  {
+   "id": "madrid_rio",
+   "cat": "nature",
+   "name": "Madrid Río",
+   "icon": "🌉",
+   "lat": 40.4012,
+   "lng": -3.7162,
+   "desc": "Un largo parque a orillas del Manzanares para pasear, correr o cruzar puentes históricos."
+  },
+  {
+   "id": "barrio_de_las_letras",
+   "cat": "monuments",
+   "name": "Barrio de las Letras",
+   "icon": "📖",
+   "lat": 40.41407,
+   "lng": -3.6988,
+   "desc": "El barrio de Cervantes y Lope de Vega, de calles literarias y tabernas con solera."
+  },
+  {
+   "id": "casa_labra",
+   "cat": "food",
+   "name": "Casa Labra",
+   "icon": "🍺",
+   "lat": 40.4177,
+   "lng": -3.7033,
+   "desc": "Taberna histórica de 1860 famosa por sus croquetas y su bacalao rebozado."
+  },
+  {
+   "id": "lhardy",
+   "cat": "food",
+   "name": "Lhardy",
+   "icon": "🍲",
+   "lat": 40.41533,
+   "lng": -3.70047,
+   "desc": "Elegante casa de comidas desde 1839, célebre por su cocido y su consomé."
+  },
+  {
+   "id": "museo_sorolla",
+   "cat": "monuments",
+   "name": "Museo Sorolla",
+   "icon": "🎨",
+   "lat": 40.43502,
+   "lng": -3.6934,
+   "desc": "La casa-museo del pintor de la luz, con jardines andaluces y obras luminosas."
+  },
+  {
+   "id": "caixaforum_madrid",
+   "cat": "monuments",
+   "name": "CaixaForum Madrid",
+   "icon": "🌱",
+   "lat": 40.41127,
+   "lng": -3.69353,
+   "desc": "Centro cultural de exposiciones coronado por un espectacular jardín vertical."
+  },
+  {
+   "id": "corral_de_la_moreria",
+   "cat": "ocio",
+   "name": "Corral de la Morería",
+   "icon": "💃",
+   "lat": 40.4119,
+   "lng": -3.7136,
+   "desc": "El tablao flamenco más famoso del mundo, donde el arte jondo se vive en directo."
+  },
+  {
+   "id": "faro_de_moncloa",
+   "cat": "monuments",
+   "name": "Faro de Moncloa",
+   "icon": "🔭",
+   "lat": 40.43533,
+   "lng": -3.71932,
+   "desc": "Mirador a 92 metros con vistas panorámicas de todo Madrid y la sierra."
+  },
+  {
+   "id": "teleferico_de_madrid",
+   "cat": "ocio",
+   "name": "Teleférico de Madrid",
+   "icon": "🚡",
+   "lat": 40.4276,
+   "lng": -3.7242,
+   "desc": "Un vuelo sobre la ciudad desde el Parque del Oeste hasta la Casa de Campo."
+  },
+  {
+   "id": "cafe_gijon",
+   "cat": "food",
+   "name": "Café Gijón",
+   "icon": "☕",
+   "lat": 40.42155,
+   "lng": -3.69316,
+   "desc": "Café literario de 1888, testigo de tertulias de escritores y bohemios."
+  },
+  {
+   "id": "plaza_de_la_villa",
+   "cat": "monuments",
+   "name": "Plaza de la Villa",
+   "icon": "🏛️",
+   "lat": 40.41529,
+   "lng": -3.70992,
+   "desc": "Una de las plazas más antiguas y con encanto del viejo Madrid."
+  },
+  {
+   "id": "casa_lucio",
+   "cat": "food",
+   "name": "Casa Lucio",
+   "icon": "🍳",
+   "lat": 40.41113,
+   "lng": -3.70983,
+   "desc": "Mesón de la Cava Baja célebre por sus huevos estrellados y su ambiente castizo."
+  },
+  {
+   "id": "ermita_de_san_antonio_de_la_florida",
+   "cat": "monuments",
+   "name": "Ermita de San Antonio de la Florida",
+   "icon": "⛪",
+   "lat": 40.42443,
+   "lng": -3.72514,
+   "desc": "Pequeña ermita con la cúpula pintada al fresco por Goya, aquí enterrado."
+  },
+  {
+   "id": "barrio_de_malasana",
+   "cat": "ocio",
+   "name": "Barrio de Malasaña",
+   "icon": "🪩",
+   "lat": 40.42641,
+   "lng": -3.70397,
+   "desc": "Cuna de la Movida y epicentro del ocio nocturno, alternativo y bohemio."
+  },
+  {
+   "id": "estacion_de_atocha",
+   "cat": "monuments",
+   "name": "Estación de Atocha",
+   "icon": "🚂",
+   "lat": 40.4065,
+   "lng": -3.69069,
+   "desc": "Histórica estación con un exuberante jardín tropical bajo su antigua marquesina."
+  },
+  {
+   "id": "la_venencia",
+   "cat": "food",
+   "name": "La Venencia",
+   "icon": "🍷",
+   "lat": 40.41477,
+   "lng": -3.69958,
+   "desc": "Bar de vinos de Jerez detenido en el tiempo, sin fotos y con mucha historia."
+  },
+  {
+   "id": "parque_del_oeste",
+   "cat": "nature",
+   "name": "Parque del Oeste",
+   "icon": "🌹",
+   "lat": 40.4298,
+   "lng": -3.7192,
+   "desc": "Parque ondulado con una preciosa rosaleda y rincones para perderse."
+  },
+  {
+   "id": "edificio_metropolis",
+   "cat": "monuments",
+   "name": "Edificio Metrópolis",
+   "icon": "🏛️",
+   "lat": 40.41871,
+   "lng": -3.69836,
+   "desc": "Uno de los edificios más fotografiados de Madrid, coronado por su Victoria alada."
+  },
+  {
+   "id": "mercado_de_san_fernando",
+   "cat": "food",
+   "name": "Mercado de San Fernando",
+   "icon": "🍽️",
+   "lat": 40.40905,
+   "lng": -3.70075,
+   "desc": "Mercado con alma de barrio en Lavapiés, multicultural y lleno de propuestas."
+  },
+  {
+   "id": "casa_de_campo",
+   "cat": "nature",
+   "name": "Casa de Campo",
+   "icon": "🌲",
+   "lat": 40.419,
+   "lng": -3.747,
+   "desc": "El mayor parque de Madrid, con lago, teleférico y kilómetros de naturaleza."
+  },
+  {
+   "id": "taberna_la_bola",
+   "cat": "food",
+   "name": "Taberna La Bola",
+   "icon": "🍲",
+   "lat": 40.41848,
+   "lng": -3.71126,
+   "desc": "Taberna centenaria donde el cocido madrileño se cuece a fuego lento en puchero."
+  },
+  {
+   "id": "mercado_de_la_paz",
+   "cat": "food",
+   "name": "Mercado de la Paz",
+   "icon": "🥘",
+   "lat": 40.42579,
+   "lng": -3.68517,
+   "desc": "El mercado gourmet del barrio de Salamanca, famoso por su tortilla de patatas."
+  },
+  {
+   "id": "casa_mingo",
+   "cat": "food",
+   "name": "Casa Mingo",
+   "icon": "🍗",
+   "lat": 40.42392,
+   "lng": -3.72565,
+   "desc": "Sidrería asturiana centenaria de pollo asado y sidra junto al Manzanares."
+  },
+  {
+   "id": "bodega_de_la_ardosa",
+   "cat": "food",
+   "name": "Bodega de la Ardosa",
+   "icon": "🍷",
+   "lat": 40.4236,
+   "lng": -3.70177,
+   "desc": "Bodega de 1892 en Malasaña, célebre por su vermú, salmorejo y tortilla."
+  },
+  {
+   "id": "el_capricho",
+   "cat": "nature",
+   "name": "El Capricho",
+   "icon": "🌳",
+   "lat": 40.4481,
+   "lng": -3.6089,
+   "desc": "Un jardín romántico secreto y exquisito, el más bello y desconocido de Madrid."
+  },
+  {
+   "id": "palacio_de_cristal_del_retiro",
+   "cat": "monuments",
+   "name": "Palacio de Cristal del Retiro",
+   "icon": "🏛️",
+   "lat": 40.4137,
+   "lng": -3.6822,
+   "desc": "Un pabellón de cristal y hierro que flota junto a un estanque en el corazón del Retiro."
+  },
+  {
+   "id": "plaza_de_oriente",
+   "cat": "monuments",
+   "name": "Plaza de Oriente",
+   "icon": "👑",
+   "lat": 40.4181,
+   "lng": -3.7128,
+   "desc": "Jardines señoriales con estatuas de reyes entre el Palacio Real y el Teatro Real."
+  },
+  {
+   "id": "palacio_de_cibeles_y_su_mirador",
+   "cat": "monuments",
+   "name": "Palacio de Cibeles y su mirador",
+   "icon": "🔭",
+   "lat": 40.419,
+   "lng": -3.6923,
+   "desc": "Un palacio de cuento coronado por un mirador con las mejores vistas del centro."
+  },
+  {
+   "id": "museo_arqueologico_nacional",
+   "cat": "monuments",
+   "name": "Museo Arqueológico Nacional",
+   "icon": "🏺",
+   "lat": 40.4237,
+   "lng": -3.6889,
+   "desc": "Un viaje por Iberia desde la prehistoria hasta la Dama de Elche en pleno Salamanca."
+  },
+  {
+   "id": "plaza_de_santa_ana",
+   "cat": "monuments",
+   "name": "Plaza de Santa Ana",
+   "icon": "🍷",
+   "lat": 40.4146,
+   "lng": -3.7008,
+   "desc": "El corazón bullicioso del Barrio de las Letras, entre terrazas y tabernas centenarias."
+  },
+  {
+   "id": "cuesta_de_moyano",
+   "cat": "nature",
+   "name": "Cuesta de Moyano",
+   "icon": "📚",
+   "lat": 40.4104,
+   "lng": -3.6893,
+   "desc": "Casetas de libreros de viejo que descienden hacia el Retiro buscando su tesoro."
+  },
+  {
+   "id": "museo_chicote",
+   "cat": "food",
+   "name": "Museo Chicote",
+   "icon": "🍸",
+   "lat": 40.4203,
+   "lng": -3.6988,
+   "desc": "La coctelería más legendaria de la Gran Vía, refugio de artistas y estrellas de cine."
+  },
+  {
+   "id": "cerveceria_alemana",
+   "cat": "food",
+   "name": "Cervecería Alemana",
+   "icon": "🍺",
+   "lat": 40.4143,
+   "lng": -3.7003,
+   "desc": "Cañas bien tiradas en mármol y madera donde Hemingway tenía su mesa favorita."
+  },
+  {
+   "id": "pasteleria_la_mallorquina",
+   "cat": "food",
+   "name": "Pastelería La Mallorquina",
+   "icon": "🥐",
+   "lat": 40.41736,
+   "lng": -3.7031,
+   "desc": "Napolitanas calientes y aroma dulce junto a la Puerta del Sol desde 1894."
+  },
+  {
+   "id": "convento_de_las_descalzas_reales",
+   "cat": "monuments",
+   "name": "Convento de las Descalzas Reales",
+   "icon": "⛪",
+   "lat": 40.4184,
+   "lng": -3.7059,
+   "desc": "Un monasterio secreto lleno de tapices y tesoros a un paso de la Puerta del Sol."
+  },
+  {
+   "id": "real_academia_de_bellas_artes_de_san_f",
+   "cat": "monuments",
+   "name": "Real Academia de Bellas Artes de San Fernando",
+   "icon": "🖼️",
+   "lat": 40.4181,
+   "lng": -3.7006,
+   "desc": "Una pinacoteca íntima con Goyas, El Greco y Zurbarán casi para ti solo."
+  },
+  {
+   "id": "matadero_madrid",
+   "cat": "ocio",
+   "name": "Matadero Madrid",
+   "icon": "🎭",
+   "lat": 40.392,
+   "lng": -3.6975,
+   "desc": "Antiguo matadero de ladrillo hoy convertido en vibrante fábrica de creación cultural."
+  },
+  {
+   "id": "joy_eslava",
+   "cat": "ocio",
+   "name": "Joy Eslava",
+   "icon": "🪩",
+   "lat": 40.4168,
+   "lng": -3.7054,
+   "desc": "Un teatro decimonónico transformado en la discoteca más mítica del centro."
+  },
+  {
+   "id": "wizink_center",
+   "cat": "ocio",
+   "name": "WiZink Center",
+   "icon": "🏀",
+   "lat": 40.4237,
+   "lng": -3.6716,
+   "desc": "El gran templo de los conciertos y del baloncesto en el barrio de Goya."
+  },
+  {
+   "id": "la_casa_del_abuelo",
+   "cat": "food",
+   "name": "La Casa del Abuelo",
+   "icon": "🦐",
+   "lat": 40.4155,
+   "lng": -3.7018,
+   "desc": "Gambas al ajillo chisporroteando y vino dulce en una taberna de 1906."
+  },
+  {
+   "id": "museo_lazaro_galdiano",
+   "cat": "monuments",
+   "name": "Museo Lázaro Galdiano",
+   "icon": "💎",
+   "lat": 40.4337,
+   "lng": -3.6828,
+   "desc": "Un palacete rebosante de joyas, marfiles y pinturas de un coleccionista genial."
+  },
+  {
+   "id": "museo_cerralbo",
+   "cat": "monuments",
+   "name": "Museo Cerralbo",
+   "icon": "🕯️",
+   "lat": 40.4245,
+   "lng": -3.7156,
+   "desc": "Una casa-palacio del siglo XIX intacta, con salón de baile y luz de araña."
+  },
+  {
+   "id": "los_galayos",
+   "cat": "food",
+   "name": "Los Galayos",
+   "icon": "🍖",
+   "lat": 40.4152,
+   "lng": -3.7074,
+   "desc": "Cochinillo y terraza soñada bajo los soportales de la Plaza Mayor desde 1894."
+  },
+  {
+   "id": "mercado_de_la_cebada",
+   "cat": "food",
+   "name": "Mercado de la Cebada",
+   "icon": "🐟",
+   "lat": 40.4096,
+   "lng": -3.7095,
+   "desc": "Puestos de pescado y marisco fresco en el mercado más castizo de La Latina."
+  },
+  {
+   "id": "museo_del_romanticismo",
+   "cat": "monuments",
+   "name": "Museo del Romanticismo",
+   "icon": "🌹",
+   "lat": 40.4267,
+   "lng": -3.6987,
+   "desc": "Un palacete que recrea la vida romántica del XIX, con jardín y café de época."
+  },
+  {
+   "id": "teatro_de_la_zarzuela",
+   "cat": "ocio",
+   "name": "Teatro de la Zarzuela",
+   "icon": "🎼",
+   "lat": 40.4176,
+   "lng": -3.6969,
+   "desc": "El escenario que guarda el alma del género lírico más español, la zarzuela."
+  },
+  {
+   "id": "iglesia_de_san_jeronimo_el_real",
+   "cat": "monuments",
+   "name": "Iglesia de San Jerónimo el Real",
+   "icon": "⛪",
+   "lat": 40.4139,
+   "lng": -3.6923,
+   "desc": "Los Jerónimos, templo gótico de reyes coronados junto al Museo del Prado."
+  },
+  {
+   "id": "cines_dore_filmoteca_espanola",
+   "cat": "ocio",
+   "name": "Cines Doré - Filmoteca Española",
+   "icon": "🎬",
+   "lat": 40.4116,
+   "lng": -3.6987,
+   "desc": "Un cine modernista de 1912 donde el cine clásico sigue proyectándose cada noche."
+  },
+  {
+   "id": "puerta_de_toledo",
+   "cat": "monuments",
+   "name": "Puerta de Toledo",
+   "icon": "🏛️",
+   "lat": 40.4062,
+   "lng": -3.7096,
+   "desc": "El último gran arco triunfal de Madrid, guardián del viejo camino del sur."
+  },
+  {
+   "id": "mercado_de_anton_martin",
+   "cat": "food",
+   "name": "Mercado de Antón Martín",
+   "icon": "🥘",
+   "lat": 40.4121,
+   "lng": -3.6987,
+   "desc": "Mercado de barrio en Lavapiés que mezcla puestos de toda la vida y cocina joven."
+  },
+  {
+   "id": "museo_naval",
+   "cat": "monuments",
+   "name": "Museo Naval",
+   "icon": "⚓",
+   "lat": 40.4172,
+   "lng": -3.6928,
+   "desc": "Maquetas, mapas y el primer plano de América en el Paseo del Prado."
+  },
+  {
+   "id": "casa_julio",
+   "cat": "food",
+   "name": "Casa Julio",
+   "icon": "🍤",
+   "lat": 40.4249,
+   "lng": -3.7026,
+   "desc": "Las croquetas más famosas de Malasaña en un bar minúsculo de culto."
+  },
+  {
+   "id": "jardines_de_las_vistillas",
+   "cat": "nature",
+   "name": "Jardines de las Vistillas",
+   "icon": "🌇",
+   "lat": 40.4116,
+   "lng": -3.7143,
+   "desc": "Un balcón verde sobre la sierra donde Madrid se despide del sol cada tarde."
+  },
+  {
+   "id": "teatro_espanol",
+   "cat": "ocio",
+   "name": "Teatro Español",
+   "icon": "🎭",
+   "lat": 40.4146,
+   "lng": -3.6997,
+   "desc": "La escena viva más antigua de Madrid, presidiendo la Plaza de Santa Ana."
+  },
+  {
+   "id": "puente_de_toledo",
+   "cat": "monuments",
+   "name": "Puente de Toledo",
+   "icon": "🌉",
+   "lat": 40.3966,
+   "lng": -3.7176,
+   "desc": "Un puente barroco de nueve arcos que salta el Manzanares en Madrid Río."
+  },
+  {
+   "id": "taberna_de_angel_sierra",
+   "cat": "food",
+   "name": "Taberna de Ángel Sierra",
+   "icon": "🍹",
+   "lat": 40.4222,
+   "lng": -3.6971,
+   "desc": "Vermut de grifo y azulejos de 1917 asomados a la animada Plaza de Chueca."
+  },
+  {
+   "id": "real_basilica_de_nuestra_senora_de_ato",
+   "cat": "monuments",
+   "name": "Real Basílica de Nuestra Señora de Atocha",
+   "icon": "⛪",
+   "lat": 40.4064,
+   "lng": -3.6835,
+   "desc": "Santuario mariano muy querido por los madrileños junto al Panteón de Hombres Ilustres."
+  },
+  {
+   "id": "bar_cock",
+   "cat": "food",
+   "name": "Bar Cock",
+   "icon": "🥃",
+   "lat": 40.4202,
+   "lng": -3.698,
+   "desc": "Coctelería de penumbra y madera noble, refugio nocturno de la movida madrileña."
+  },
+  {
+   "id": "museo_de_historia_de_madrid",
+   "cat": "monuments",
+   "name": "Museo de Historia de Madrid",
+   "icon": "🏙️",
+   "lat": 40.426,
+   "lng": -3.7008,
+   "desc": "Tras una espectacular portada barroca, la historia de la villa siglo a siglo."
+  },
+  {
+   "id": "taberna_antonio_sanchez",
+   "cat": "food",
+   "name": "Taberna Antonio Sánchez",
+   "icon": "🐂",
+   "lat": 40.4096,
+   "lng": -3.7024,
+   "desc": "Una de las tabernas más antiguas de Madrid, con aire taurino y rabo de toro."
+  },
+  {
+   "id": "museo_nacional_de_ciencias_naturales",
+   "cat": "monuments",
+   "name": "Museo Nacional de Ciencias Naturales",
+   "icon": "🦕",
+   "lat": 40.4395,
+   "lng": -3.6906,
+   "desc": "Esqueletos de dinosaurios y fauna del planeta para asombrar a grandes y pequeños."
+  },
+  {
+   "id": "jardines_del_descubrimiento_plaza_de_c",
+   "cat": "nature",
+   "name": "Jardines del Descubrimiento (Plaza de Colón)",
+   "icon": "🌳",
+   "lat": 40.4245,
+   "lng": -3.6905,
+   "desc": "Un remanso verde bajo la gran bandera de España y los monumentos a Colón."
+  },
+  {
+   "id": "casa_gonzalez",
+   "cat": "food",
+   "name": "Casa González",
+   "icon": "🧀",
+   "lat": 40.4139,
+   "lng": -3.6979,
+   "desc": "Colmado y vinoteca de 1931 donde catar quesos y embutidos con una copa."
+  },
+  {
+   "id": "real_fabrica_de_tapices",
+   "cat": "monuments",
+   "name": "Real Fábrica de Tapices",
+   "icon": "🧵",
+   "lat": 40.4051,
+   "lng": -3.6806,
+   "desc": "Telares centenarios que aún tejen a mano los tapices soñados por Goya."
+  },
+  {
+   "id": "parque_de_la_quinta_de_los_molinos",
+   "cat": "nature",
+   "name": "Parque de la Quinta de los Molinos",
+   "icon": "🌸",
+   "lat": 40.4372,
+   "lng": -3.638,
+   "desc": "Un mar de almendros en flor que tiñe de rosa la ciudad cada febrero."
+  },
+  {
+   "id": "antigua_pasteleria_del_pozo",
+   "cat": "food",
+   "name": "Antigua Pastelería del Pozo",
+   "icon": "🍰",
+   "lat": 40.4159,
+   "lng": -3.702,
+   "desc": "La confitería más antigua de Madrid, dulce cápsula del tiempo desde 1830."
+  },
+  {
+   "id": "costello_club",
+   "cat": "ocio",
+   "name": "Costello Club",
+   "icon": "🎸",
+   "lat": 40.4192,
+   "lng": -3.6995,
+   "desc": "Conciertos íntimos y sesiones indie en un club de referencia junto a Gran Vía."
+  },
+  {
+   "id": "casa_toni",
+   "cat": "food",
+   "name": "Casa Toni",
+   "icon": "🍢",
+   "lat": 40.4149,
+   "lng": -3.702,
+   "desc": "Casquería castiza y oreja a la plancha en una barra bulliciosa del centro."
+  },
+  {
+   "id": "parque_de_berlin",
+   "cat": "nature",
+   "name": "Parque de Berlín",
+   "icon": "🧱",
+   "lat": 40.462,
+   "lng": -3.676,
+   "desc": "Fuentes, chorros y auténticos trozos del Muro de Berlín entre sus paseos."
+  },
+  {
+   "id": "malacatin",
+   "cat": "food",
+   "name": "Malacatín",
+   "icon": "🍲",
+   "lat": 40.4093,
+   "lng": -3.7079,
+   "desc": "El cocido madrileño de siempre en una taberna familiar de La Latina desde 1895."
+  },
+  {
+   "id": "sala_el_sol",
+   "cat": "ocio",
+   "name": "Sala El Sol",
+   "icon": "🎤",
+   "lat": 40.4188,
+   "lng": -3.7005,
+   "desc": "Cuna de la movida madrileña, sala de conciertos legendaria desde 1979."
+  },
+  {
+   "id": "mercado_de_vallehermoso",
+   "cat": "food",
+   "name": "Mercado de Vallehermoso",
+   "icon": "🍜",
+   "lat": 40.4364,
+   "lng": -3.7077,
+   "desc": "El mercado gastronómico favorito de Chamberí, entre puestos de cocina de autor."
+  },
+  {
+   "id": "parque_de_la_fuente_del_berro",
+   "cat": "nature",
+   "name": "Parque de la Fuente del Berro",
+   "icon": "🦚",
+   "lat": 40.4234,
+   "lng": -3.6687,
+   "desc": "Un jardín romántico de estanques, pavos reales y rincones escondidos."
+  },
+  {
+   "id": "jardines_de_cecilio_rodriguez",
+   "cat": "nature",
+   "name": "Jardines de Cecilio Rodríguez",
+   "icon": "🌿",
+   "lat": 40.4108,
+   "lng": -3.6808,
+   "desc": "Un rincón andaluz del Retiro con setos, fuentes y pavos reales paseando."
+  },
+  {
+   "id": "parque_de_atenas",
+   "cat": "nature",
+   "name": "Parque de Atenas",
+   "icon": "🌲",
+   "lat": 40.4147,
+   "lng": -3.7183,
+   "desc": "Un mirador verde a los pies del Palacio Real, entre estatuas y el Manzanares."
+  }
+ ],
+ "extra": {
+  "puerta_del_sol": {
+   "id": "puerta_del_sol",
+   "d": "El corazón geográfico y sentimental de Madrid, donde arranca el kilómetro cero de las carreteras del país. Bajo el reloj de la Casa de Correos late el pulso de la ciudad entre el oso y el madroño.",
+   "d_en": "The geographic and emotional heart of Madrid, where the country's road network begins at kilometre zero. Beneath the Casa de Correos clock, the city's pulse beats between the bear and the strawberry tree.",
+   "h": "Al anochecer, cuando las luces se encienden y el trasiego de gente lo llena de vida.",
+   "h_en": "At dusk, when the lights come on and the crowds fill it with life.",
+   "i": "el bullicio urbano y los puntos de encuentro emblemáticos",
+   "i_en": "urban bustle and iconic meeting points"
+  },
+  "plaza_mayor": {
+   "id": "plaza_mayor",
+   "d": "Una grandiosa plaza porticada del Madrid de los Austrias, cerrada por fachadas rojizas y balcones simétricos. Sus soportales han acogido mercados, proclamaciones y fiestas populares durante siglos, y hoy invitan a pasear sin prisa.",
+   "d_en": "A grand arcaded square from Habsburg Madrid, enclosed by reddish facades and symmetrical balconies. Its porticoes have hosted markets, proclamations and festivals for centuries, and today invite an unhurried stroll.",
+   "h": "A media mañana, para admirar sus fachadas con luz suave antes de la afluencia turística.",
+   "h_en": "Mid-morning, to admire its facades in soft light before the tourist crowds arrive.",
+   "i": "la arquitectura histórica y las plazas monumentales",
+   "i_en": "historic architecture and monumental squares"
+  },
+  "museo_del_prado": {
+   "id": "museo_del_prado",
+   "d": "Una de las grandes pinacotecas del mundo, hogar de obras maestras de Velázquez, Goya y El Greco. Recorrer sus salas es sumergirse en siglos de arte europeo bajo una misma bóveda luminosa.",
+   "d_en": "One of the world's great art galleries, home to masterpieces by Velázquez, Goya and El Greco. Wandering its rooms means immersing yourself in centuries of European art beneath one luminous vault.",
+   "h": "A primera hora del día, para disfrutar de las salas más tranquilas y con mejor luz.",
+   "h_en": "Early in the day, to enjoy the galleries at their quietest and best lit.",
+   "i": "la gran pintura clásica y los museos de arte",
+   "i_en": "great classical painting and art museums"
+  },
+  "palacio_real_de_madrid": {
+   "id": "palacio_real_de_madrid",
+   "d": "El palacio real más extenso de Europa occidental, un despliegue de salones dorados, frescos y tapices. Sus jardines y su explanada, frente a la catedral, componen una de las estampas más majestuosas de la ciudad.",
+   "d_en": "The largest royal palace in Western Europe, a display of gilded halls, frescoes and tapestries. Its gardens and forecourt, facing the cathedral, form one of the city's most majestic scenes.",
+   "h": "A media mañana entre semana, cuando el sol ilumina la fachada y hay menos afluencia.",
+   "h_en": "Mid-morning on a weekday, when the sun lights the facade and there are fewer visitors.",
+   "i": "los palacios reales y el fasto histórico",
+   "i_en": "royal palaces and historic grandeur"
+  },
+  "parque_del_retiro": {
+   "id": "parque_del_retiro",
+   "d": "El gran pulmón verde de Madrid, con su estanque para remar, avenidas arboladas y rincones ajardinados. Entre estatuas, rosaledas y pabellones, es el refugio perfecto para pasear, leer o simplemente respirar.",
+   "d_en": "Madrid's great green lung, with its rowing lake, tree-lined avenues and landscaped corners. Amid statues, rose gardens and pavilions, it is the perfect refuge to stroll, read or simply breathe.",
+   "h": "A primera hora de la mañana o al atardecer, cuando la luz dora los árboles.",
+   "h_en": "Early morning or at sunset, when the light turns the trees golden.",
+   "i": "los grandes parques urbanos y los paseos al aire libre",
+   "i_en": "large urban parks and open-air walks"
+  },
+  "gran_via": {
+   "id": "gran_via",
+   "d": "La avenida más vibrante de Madrid, jalonada de cines, teatros, comercios y arquitectura de principios del siglo XX. Sus edificios monumentales y sus luces la convierten en un escenario que nunca duerme.",
+   "d_en": "Madrid's most vibrant avenue, lined with cinemas, theatres, shops and early twentieth-century architecture. Its monumental buildings and lights make it a stage that never sleeps.",
+   "h": "Al caer la noche, cuando los rótulos luminosos encienden toda la avenida.",
+   "h_en": "After dark, when the neon signs light up the whole avenue.",
+   "i": "las grandes avenidas y el ambiente cosmopolita",
+   "i_en": "grand avenues and cosmopolitan atmosphere"
+  },
+  "templo_de_debod": {
+   "id": "templo_de_debod",
+   "d": "Un templo egipcio milenario trasladado piedra a piedra hasta un parque del centro de Madrid. Rodeado de estanques que reflejan sus muros, regala algunos de los atardeceres más admirados de la ciudad.",
+   "d_en": "A millennia-old Egyptian temple moved stone by stone to a park in central Madrid. Surrounded by pools that mirror its walls, it offers some of the city's most admired sunsets.",
+   "h": "Al atardecer, cuando el cielo se tiñe y el templo se refleja en el agua.",
+   "h_en": "At sunset, when the sky glows and the temple mirrors in the water.",
+   "i": "las puestas de sol y los rincones históricos con encanto",
+   "i_en": "sunsets and charming historic spots"
+  },
+  "mercado_de_san_miguel": {
+   "id": "mercado_de_san_miguel",
+   "d": "Un mercado gastronómico de hierro y cristal junto a la Plaza Mayor, ideal para picar de puesto en puesto. Tapas, quesos, ibéricos y vinos convierten cada visita en un recorrido por los sabores de España.",
+   "d_en": "A gourmet market of iron and glass beside the Plaza Mayor, perfect for grazing from stall to stall. Tapas, cheeses, cured meats and wines turn every visit into a tour of Spanish flavours.",
+   "h": "A media mañana o antes de comer, para disfrutarlo sin las aglomeraciones de la tarde.",
+   "h_en": "Mid-morning or before lunch, to enjoy it without the afternoon crowds.",
+   "i": "la gastronomía de tapeo y los mercados con encanto",
+   "i_en": "tapas culture and charming food markets"
+  },
+  "plaza_de_cibeles": {
+   "id": "plaza_de_cibeles",
+   "d": "Una de las plazas más emblemáticas de Madrid, presidida por la célebre fuente de la diosa Cibeles en su carro de leones. Rodeada de palacios señoriales, es escenario de las grandes celebraciones deportivas de la ciudad.",
+   "d_en": "One of Madrid's most iconic squares, presided over by the famous fountain of the goddess Cybele in her lion-drawn chariot. Ringed by stately palaces, it stages the city's great sporting celebrations.",
+   "h": "Al anochecer, cuando la fuente y los edificios se iluminan.",
+   "h_en": "At nightfall, when the fountain and buildings are lit up.",
+   "i": "los monumentos emblemáticos y las fuentes históricas",
+   "i_en": "iconic landmarks and historic fountains"
+  },
+  "puerta_de_alcala": {
+   "id": "puerta_de_alcala",
+   "d": "Un majestuoso arco neoclásico de piedra que un día marcó la entrada oriental a la ciudad. Alzado en medio de una glorieta, sigue siendo uno de los símbolos más reconocibles de Madrid.",
+   "d_en": "A majestic neoclassical stone arch that once marked the city's eastern entrance. Rising in the middle of a roundabout, it remains one of Madrid's most recognisable symbols.",
+   "h": "De noche, cuando la iluminación realza sus cinco arcos.",
+   "h_en": "At night, when the lighting brings out its five arches.",
+   "i": "los monumentos neoclásicos y los símbolos de la ciudad",
+   "i_en": "neoclassical monuments and city symbols"
+  },
+  "museo_reina_sofia": {
+   "id": "museo_reina_sofia",
+   "d": "El gran museo del arte contemporáneo español, hogar del célebre Guernica de Picasso. Sus salas reúnen a Dalí, Miró y las vanguardias del siglo XX en un antiguo hospital reconvertido.",
+   "d_en": "The great museum of contemporary Spanish art, home to Picasso's celebrated Guernica. Its galleries bring together Dalí, Miró and the twentieth-century avant-garde in a converted former hospital.",
+   "h": "Entre semana por la mañana, para recorrer las salas con calma.",
+   "h_en": "On a weekday morning, to explore the galleries at ease.",
+   "i": "el arte contemporáneo y las vanguardias del siglo XX",
+   "i_en": "contemporary art and twentieth-century avant-garde"
+  },
+  "catedral_de_la_almudena": {
+   "id": "catedral_de_la_almudena",
+   "d": "La catedral de Madrid se alza frente al Palacio Real, con una singular mezcla de estilos, cúpulas coloridas y una cripta neorrománica. Su interior sorprende por su luz y su decoración contemporánea.",
+   "d_en": "Madrid's cathedral rises opposite the Royal Palace, a singular blend of styles with colourful domes and a Neo-Romanesque crypt. Its interior surprises with its light and contemporary decoration.",
+   "h": "A media mañana, con la luz entrando por las vidrieras.",
+   "h_en": "Mid-morning, with light streaming through the stained glass.",
+   "i": "la arquitectura religiosa y las catedrales singulares",
+   "i_en": "religious architecture and singular cathedrals"
+  },
+  "museo_thyssen_bornemisza": {
+   "id": "museo_thyssen_bornemisza",
+   "d": "Ocho siglos de pintura europea en un solo recorrido, de los primitivos italianos al pop y las vanguardias. Completa el triángulo del Paseo del Arte con una colección de una variedad excepcional.",
+   "d_en": "Eight centuries of European painting in a single journey, from the Italian primitives to pop and the avant-garde. It completes the Paseo del Arte triangle with a collection of exceptional range.",
+   "h": "Por la mañana, para seguir su recorrido cronológico con tranquilidad.",
+   "h_en": "In the morning, to follow its chronological route in peace.",
+   "i": "la pintura europea y las grandes colecciones de arte",
+   "i_en": "European painting and great art collections"
+  },
+  "chocolateria_san_gines": {
+   "id": "chocolateria_san_gines",
+   "d": "Un templo del chocolate con churros que endulza las noches madrileñas desde finales del siglo XIX. Sus mármoles y su terraza en un rincón escondido lo han convertido en parada obligada a cualquier hora.",
+   "d_en": "A temple of churros and chocolate that has sweetened Madrid nights since the late nineteenth century. Its marble tables and terrace in a hidden corner have made it an obligatory stop at any hour.",
+   "h": "De madrugada o al final de la noche, para el clásico chocolate con churros.",
+   "h_en": "In the small hours or late at night, for the classic churros and chocolate.",
+   "i": "los dulces tradicionales y los locales con solera",
+   "i_en": "traditional sweets and time-honoured spots"
+  },
+  "estadio_santiago_bernabeu": {
+   "id": "estadio_santiago_bernabeu",
+   "d": "El mítico coliseo del Real Madrid, renovado con una espectacular fachada envolvente. Recorrer su césped, sus vestuarios y su museo de trofeos es una peregrinación para todo amante del fútbol.",
+   "d_en": "Real Madrid's legendary coliseum, renovated with a spectacular wraparound facade. Walking its pitch, dressing rooms and trophy museum is a pilgrimage for every football lover.",
+   "h": "En día de partido, para vivir el ambiente en todo su esplendor.",
+   "h_en": "On a match day, to experience the atmosphere at its fullest.",
+   "i": "el fútbol y los grandes templos del deporte",
+   "i_en": "football and great sporting temples"
+  },
+  "plaza_de_toros_de_las_ventas": {
+   "id": "plaza_de_toros_de_las_ventas",
+   "d": "La catedral del toreo, una joya de estilo neomudéjar de ladrillo y azulejos. Su imponente ruedo y su museo taurino la convierten en un referente de la cultura y la tradición españolas.",
+   "d_en": "The cathedral of bullfighting, a Neo-Mudéjar gem of brick and tilework. Its imposing ring and bullfighting museum make it a landmark of Spanish culture and tradition.",
+   "h": "A media tarde, cuando la luz cálida realza su fachada de ladrillo.",
+   "h_en": "In the late afternoon, when the warm light enhances its brick facade.",
+   "i": "la tradición española y la arquitectura neomudéjar",
+   "i_en": "Spanish tradition and Neo-Mudéjar architecture"
+  },
+  "sobrino_de_botin": {
+   "id": "sobrino_de_botin",
+   "d": "Reconocido como el restaurante más antiguo del mundo en funcionamiento, célebre por su cochinillo y su cordero asados en horno de leña. Sus comedores centenarios conservan intacto el sabor del viejo Madrid.",
+   "d_en": "Recognised as the oldest continuously operating restaurant in the world, famous for its suckling pig and lamb roasted in a wood-fired oven. Its centuries-old dining rooms preserve the flavour of old Madrid intact.",
+   "h": "A la hora de comer, para disfrutar del asado en su ambiente tradicional.",
+   "h_en": "At lunchtime, to savour the roast in its traditional setting.",
+   "i": "la cocina castellana tradicional y los restaurantes históricos",
+   "i_en": "traditional Castilian cuisine and historic restaurants"
+  },
+  "el_rastro": {
+   "id": "el_rastro",
+   "d": "El mercadillo dominical más famoso de Madrid, un laberinto de puestos con antigüedades, ropa, libros y objetos curiosos. Recorrer sus calles en cuesta por La Latina es una tradición muy madrileña.",
+   "d_en": "Madrid's most famous Sunday flea market, a maze of stalls with antiques, clothing, books and curiosities. Wandering its sloping streets through La Latina is a beloved Madrid tradition.",
+   "h": "El domingo por la mañana temprano, para rebuscar entre los puestos con calma.",
+   "h_en": "Early on Sunday morning, to rummage through the stalls at leisure.",
+   "i": "los mercadillos, las antigüedades y el ambiente castizo",
+   "i_en": "flea markets, antiques and local character"
+  },
+  "plaza_de_espana": {
+   "id": "plaza_de_espana",
+   "d": "Una amplia plaza renovada a los pies de rascacielos históricos y del monumento a Cervantes con Don Quijote y Sancho. Sus jardines conectan el centro con el Templo de Debod y los parques del oeste.",
+   "d_en": "A spacious renovated square at the foot of historic skyscrapers and the monument to Cervantes with Don Quixote and Sancho. Its gardens link the centre with the Temple of Debod and the western parks.",
+   "h": "Al atardecer, para pasear entre sus jardines con luz suave.",
+   "h_en": "At sunset, to stroll through its gardens in soft light.",
+   "i": "las plazas ajardinadas y los paseos por el centro",
+   "i_en": "landscaped squares and central strolls"
+  },
+  "teatro_real": {
+   "id": "teatro_real",
+   "d": "El gran teatro de ópera de Madrid, situado frente al Palacio Real, luce una programación lírica de primer nivel. Su sala y su maquinaria escénica están entre las más avanzadas de Europa.",
+   "d_en": "Madrid's grand opera house, facing the Royal Palace, boasts a top-tier lyric programme. Its auditorium and stage machinery are among the most advanced in Europe.",
+   "h": "Por la noche, para asistir a una función en todo su esplendor.",
+   "h_en": "In the evening, to attend a performance in all its splendour.",
+   "i": "la ópera y las grandes salas escénicas",
+   "i_en": "opera and grand performance venues"
+  },
+  "real_jardin_botanico": {
+   "id": "real_jardin_botanico",
+   "d": "Un remanso de paz junto al Prado que reúne miles de especies de todos los continentes. Sus terrazas ordenadas, su invernadero y sus paseos hacen de la botánica un placer para los sentidos.",
+   "d_en": "A haven of calm beside the Prado gathering thousands of species from every continent. Its ordered terraces, glasshouse and pathways make botany a pleasure for the senses.",
+   "h": "En primavera por la mañana, cuando florece la mayor parte del jardín.",
+   "h_en": "On a spring morning, when most of the garden is in bloom.",
+   "i": "la botánica y los jardines cuidados",
+   "i_en": "botany and manicured gardens"
+  },
+  "jardines_de_sabatini": {
+   "id": "jardines_de_sabatini",
+   "d": "Unos jardines de estilo neoclásico junto al Palacio Real, con setos geométricos, estatuas y un estanque central. Su trazado simétrico y su ubicación los hacen especialmente hermosos al caer la tarde.",
+   "d_en": "Neoclassical gardens beside the Royal Palace, with geometric hedges, statues and a central pond. Their symmetrical layout and setting make them especially beautiful at dusk.",
+   "h": "Al atardecer, cuando el sol ilumina la fachada del palacio.",
+   "h_en": "At dusk, when the sun lights the palace facade.",
+   "i": "los jardines geométricos y los rincones señoriales",
+   "i_en": "geometric gardens and stately corners"
+  },
+  "azotea_del_circulo_de_bellas_artes": {
+   "id": "azotea_del_circulo_de_bellas_artes",
+   "d": "Una azotea con las mejores vistas del centro de Madrid, perfecta para contemplar los tejados con una copa en la mano. Sus panorámicas de la Gran Vía y el Metrópolis quitan el aliento.",
+   "d_en": "A rooftop with the finest views of central Madrid, perfect for taking in the rooftops with a drink in hand. Its panoramas of the Gran Vía and the Metrópolis are breathtaking.",
+   "h": "Al atardecer, para ver caer el sol sobre los tejados de la ciudad.",
+   "h_en": "At sunset, to watch the sun drop over the city's rooftops.",
+   "i": "las azoteas con vistas y los atardeceres urbanos",
+   "i_en": "rooftops with views and urban sunsets"
+  },
+  "mercado_de_san_anton": {
+   "id": "mercado_de_san_anton",
+   "d": "Un mercado moderno en pleno Chueca que combina puestos frescos, barras de tapas y una animada terraza en la azotea. Su ambiente desenfadado lo hace ideal para picar y tomar algo a cualquier hora.",
+   "d_en": "A modern market in the heart of Chueca combining fresh stalls, tapas bars and a lively rooftop terrace. Its relaxed vibe makes it perfect for a bite and a drink at any time.",
+   "h": "Al final de la tarde, para tapear en su azotea con buen ambiente.",
+   "h_en": "In the early evening, for tapas on its rooftop with a good buzz.",
+   "i": "los mercados modernos y el ambiente animado",
+   "i_en": "modern markets and lively atmosphere"
+  },
+  "basilica_de_san_francisco_el_grande": {
+   "id": "basilica_de_san_francisco_el_grande",
+   "d": "Una basílica coronada por una cúpula colosal, una de las mayores de la cristiandad. En su interior atesora pinturas de Goya y Zurbarán bajo una decoración deslumbrante.",
+   "d_en": "A basilica crowned by a colossal dome, one of the largest in Christendom. Inside it treasures paintings by Goya and Zurbarán beneath a dazzling decoration.",
+   "h": "A media mañana, para apreciar la cúpula con luz natural.",
+   "h_en": "Mid-morning, to appreciate the dome in natural light.",
+   "i": "las grandes cúpulas y el arte sacro",
+   "i_en": "grand domes and sacred art"
+  },
+  "madrid_rio": {
+   "id": "madrid_rio",
+   "d": "Un extenso parque lineal a orillas del Manzanares, ideal para pasear, correr o montar en bici. Sus puentes, sus fuentes y sus zonas verdes han devuelto el río a los madrileños.",
+   "d_en": "A sprawling linear park along the banks of the Manzanares, ideal for strolling, running or cycling. Its bridges, fountains and green spaces have given the river back to Madrid.",
+   "h": "Al atardecer, cuando refresca y se iluminan los puentes.",
+   "h_en": "At dusk, when it cools down and the bridges light up.",
+   "i": "los paseos junto al río y el deporte al aire libre",
+   "i_en": "riverside walks and outdoor exercise"
+  },
+  "barrio_de_las_letras": {
+   "id": "barrio_de_las_letras",
+   "d": "El barrio de Cervantes y Lope de Vega, de calles empedradas con versos en el suelo y tabernas con solera. Su ambiente literario y bohemio invita a perderse entre librerías y terrazas.",
+   "d_en": "The neighbourhood of Cervantes and Lope de Vega, with cobbled streets bearing verses underfoot and time-honoured taverns. Its literary, bohemian air invites you to get lost among bookshops and terraces.",
+   "h": "Por la tarde, para pasear entre sus calles y tabernas con ambiente.",
+   "h_en": "In the afternoon, to wander its streets and lively taverns.",
+   "i": "la historia literaria y los barrios con encanto",
+   "i_en": "literary history and charming neighbourhoods"
+  },
+  "casa_labra": {
+   "id": "casa_labra",
+   "d": "Una taberna histórica del centro famosa por sus croquetas y sus tajadas de bacalao rebozado. Su barra de madera y azulejos conserva el sabor del Madrid de otra época.",
+   "d_en": "A historic tavern in the centre famous for its croquettes and battered cod fritters. Its wooden and tiled bar preserves the flavour of a bygone Madrid.",
+   "h": "A media tarde, para tomar el clásico bacalao con una caña.",
+   "h_en": "Mid-afternoon, for the classic cod fritter with a small beer.",
+   "i": "las tabernas centenarias y las tapas de siempre",
+   "i_en": "century-old taverns and classic tapas"
+  },
+  "lhardy": {
+   "id": "lhardy",
+   "d": "Una elegante casa de comidas de largo abolengo, célebre por su cocido madrileño y su consomé servido en el samovar de plata. Sus salones conservan un refinamiento decimonónico único.",
+   "d_en": "An elegant dining house of long pedigree, renowned for its Madrid stew and its consommé served from a silver samovar. Its dining rooms preserve a unique nineteenth-century refinement.",
+   "h": "A la hora de comer, para disfrutar del cocido en su ambiente señorial.",
+   "h_en": "At lunchtime, to enjoy the stew in its stately setting.",
+   "i": "la alta cocina tradicional y los locales de época",
+   "i_en": "refined traditional cuisine and period establishments"
+  },
+  "museo_sorolla": {
+   "id": "museo_sorolla",
+   "d": "La casa-museo del pintor de la luz, con sus jardines de inspiración andaluza y sus obras rebosantes de sol y mar. Pasear por su estudio es asomarse a la intimidad del artista.",
+   "d_en": "The house-museum of the painter of light, with its Andalusian-inspired gardens and works brimming with sun and sea. Walking through his studio is a glimpse into the artist's intimate world.",
+   "h": "A media mañana, cuando la luz realza sus jardines y lienzos.",
+   "h_en": "Mid-morning, when the light enhances its gardens and canvases.",
+   "i": "la pintura luminosa y las casas-museo con jardín",
+   "i_en": "luminous painting and house-museums with gardens"
+  },
+  "caixaforum_madrid": {
+   "id": "caixaforum_madrid",
+   "d": "Un dinámico centro cultural que acoge exposiciones de primer nivel, coronado por un espectacular jardín vertical. Su edificio de ladrillo suspendido es en sí mismo una obra de arquitectura contemporánea.",
+   "d_en": "A dynamic cultural centre hosting first-rate exhibitions, crowned by a spectacular vertical garden. Its suspended brick building is itself a work of contemporary architecture.",
+   "h": "Por la tarde, para combinar exposición y el jardín vertical de fachada.",
+   "h_en": "In the afternoon, to combine an exhibition with the vertical garden facade.",
+   "i": "la arquitectura contemporánea y las exposiciones temporales",
+   "i_en": "contemporary architecture and temporary exhibitions"
+  },
+  "corral_de_la_moreria": {
+   "id": "corral_de_la_moreria",
+   "d": "Uno de los tablaos flamencos más célebres del mundo, donde el arte jondo se vive en directo a pocos metros. El compás, el cante y el baile se funden en una experiencia intensa e inolvidable.",
+   "d_en": "One of the world's most celebrated flamenco venues, where deep song is experienced live just metres away. Rhythm, singing and dance merge into an intense, unforgettable experience.",
+   "h": "Por la noche, para vivir el espectáculo flamenco en su ambiente íntimo.",
+   "h_en": "In the evening, to experience the flamenco show in its intimate setting.",
+   "i": "el flamenco en directo y las noches con arte",
+   "i_en": "live flamenco and artful nights"
+  },
+  "faro_de_moncloa": {
+   "id": "faro_de_moncloa",
+   "d": "Un mirador que se eleva sobre la ciudad para ofrecer vistas panorámicas de todo Madrid y, en días claros, de la sierra. Su cápsula acristalada regala una perspectiva de 360 grados difícil de olvidar.",
+   "d_en": "A viewing tower rising above the city to offer panoramic views of all Madrid and, on clear days, the mountains. Its glass capsule provides an unforgettable 360-degree perspective.",
+   "h": "En una tarde despejada, cuando se distingue la sierra al fondo.",
+   "h_en": "On a clear afternoon, when the mountains are visible in the distance.",
+   "i": "los miradores panorámicos y las vistas de la ciudad",
+   "i_en": "panoramic viewpoints and city vistas"
+  },
+  "teleferico_de_madrid": {
+   "id": "teleferico_de_madrid",
+   "d": "Un plácido vuelo en cabina sobre la ciudad, desde el Parque del Oeste hasta la Casa de Campo. Sus vistas aéreas del skyline y del verde son una forma distinta de descubrir Madrid.",
+   "d_en": "A gentle cabin flight over the city, from the Parque del Oeste to the Casa de Campo. Its aerial views of the skyline and greenery are a different way to discover Madrid.",
+   "h": "En una tarde soleada, para disfrutar de las vistas desde el aire.",
+   "h_en": "On a sunny afternoon, to enjoy the views from above.",
+   "i": "las vistas aéreas y los planes originales al aire libre",
+   "i_en": "aerial views and original open-air outings"
+  },
+  "cafe_gijon": {
+   "id": "cafe_gijon",
+   "d": "Un histórico café literario que ha sido testigo de tertulias de escritores, artistas y bohemios durante más de un siglo. Sus mármoles y espejos conservan el aire de las grandes cafeterías de antaño.",
+   "d_en": "A historic literary café that has witnessed gatherings of writers, artists and bohemians for over a century. Its marble and mirrors preserve the air of the grand cafés of old.",
+   "h": "A media tarde, para tomar un café en su ambiente literario.",
+   "h_en": "Mid-afternoon, for a coffee in its literary atmosphere.",
+   "i": "los cafés literarios y la historia cultural de Madrid",
+   "i_en": "literary cafés and Madrid's cultural history"
+  },
+  "plaza_de_la_villa": {
+   "id": "plaza_de_la_villa",
+   "d": "Una de las plazas más antiguas y con más encanto del viejo Madrid, rodeada de edificios de distintas épocas. Su ambiente recogido evoca la villa medieval que un día fue.",
+   "d_en": "One of the oldest and most charming squares in old Madrid, ringed by buildings of different eras. Its intimate atmosphere evokes the medieval town it once was.",
+   "h": "A media mañana, para admirar sus fachadas con tranquilidad.",
+   "h_en": "Mid-morning, to admire its facades in peace.",
+   "i": "el Madrid medieval y las plazas con encanto",
+   "i_en": "medieval Madrid and charming squares"
+  },
+  "casa_lucio": {
+   "id": "casa_lucio",
+   "d": "Un mesón de la Cava Baja célebre por sus huevos estrellados y su ambiente castizo. Sus paredes, cubiertas de fotos y recuerdos, cuentan la historia de un clásico del Madrid de siempre.",
+   "d_en": "A tavern on the Cava Baja renowned for its broken eggs and traditional atmosphere. Its walls, covered in photos and mementos, tell the story of a classic of timeless Madrid.",
+   "h": "A la hora de cenar, para disfrutar del ambiente de la Cava Baja.",
+   "h_en": "At dinner time, to enjoy the atmosphere of the Cava Baja.",
+   "i": "la cocina castiza y los mesones tradicionales",
+   "i_en": "traditional Madrid cooking and classic taverns"
+  },
+  "ermita_de_san_antonio_de_la_florida": {
+   "id": "ermita_de_san_antonio_de_la_florida",
+   "d": "Una pequeña ermita cuya cúpula guarda uno de los grandes tesoros de Goya, que pintó al fresco sus escenas y descansa aquí enterrado. Un rincón íntimo donde el genio se muestra en todo su esplendor.",
+   "d_en": "A small chapel whose dome holds one of Goya's great treasures, its scenes painted in fresco by the artist, who lies buried here. An intimate spot where genius reveals itself in full.",
+   "h": "A media mañana, cuando la luz entra suave sobre los frescos.",
+   "h_en": "Mid-morning, when soft light falls on the frescoes.",
+   "i": "los frescos de Goya y los tesoros artísticos ocultos",
+   "i_en": "Goya's frescoes and hidden artistic treasures"
+  },
+  "barrio_de_malasana": {
+   "id": "barrio_de_malasana",
+   "d": "Cuna de la Movida y epicentro del ocio alternativo, con calles llenas de bares, tiendas vintage y locales de música. Su espíritu bohemio y desenfadado lo mantiene siempre en efervescencia.",
+   "d_en": "Birthplace of the Movida and epicentre of alternative nightlife, with streets full of bars, vintage shops and music venues. Its bohemian, laid-back spirit keeps it forever buzzing.",
+   "h": "Por la noche, cuando sus bares y locales cobran vida.",
+   "h_en": "At night, when its bars and venues come alive.",
+   "i": "la vida nocturna alternativa y el ambiente bohemio",
+   "i_en": "alternative nightlife and bohemian atmosphere"
+  },
+  "estacion_de_atocha": {
+   "id": "estacion_de_atocha",
+   "d": "Una histórica estación cuya antigua marquesina de hierro alberga un exuberante jardín tropical. Bajo su bóveda conviven viajeros, palmeras y un remanso verde inesperado en pleno bullicio.",
+   "d_en": "A historic station whose old iron canopy shelters a lush tropical garden. Beneath its vault, travellers, palm trees and an unexpected green oasis coexist amid the bustle.",
+   "h": "A cualquier hora del día, aprovechando un paso entre trenes.",
+   "h_en": "At any time of day, taking advantage of a stop between trains.",
+   "i": "la arquitectura del hierro y los rincones verdes inesperados",
+   "i_en": "iron architecture and unexpected green corners"
+  },
+  "la_venencia": {
+   "id": "la_venencia",
+   "d": "Un bar de vinos de Jerez detenido en el tiempo, con sus barricas, sus cuentas escritas a tiza y su prohibición de hacer fotos. Aquí se saborean los finos y olorosos como en la vieja España.",
+   "d_en": "A sherry bar frozen in time, with its barrels, chalk-written tabs and no-photos rule. Here you savour finos and olorosos as in old Spain.",
+   "h": "Al caer la tarde, para probar los vinos de Jerez con calma.",
+   "h_en": "In the early evening, to try the sherries at leisure.",
+   "i": "los vinos de Jerez y los bares con historia",
+   "i_en": "sherry wines and bars steeped in history"
+  },
+  "parque_del_oeste": {
+   "id": "parque_del_oeste",
+   "d": "Un parque ondulado de laderas verdes que esconde una preciosa rosaleda y rincones para perderse. Sus paseos arbolados y sus vistas lo convierten en un refugio tranquilo cerca del centro.",
+   "d_en": "An undulating park of green slopes hiding a lovely rose garden and corners to get lost in. Its tree-lined paths and views make it a quiet refuge near the centre.",
+   "h": "En primavera, cuando florece la rosaleda.",
+   "h_en": "In spring, when the rose garden is in bloom.",
+   "i": "las rosaledas y los parques tranquilos",
+   "i_en": "rose gardens and quiet parks"
+  },
+  "edificio_metropolis": {
+   "id": "edificio_metropolis",
+   "d": "Uno de los edificios más fotografiados de Madrid, coronado por una cúpula y una escultura de Victoria alada. Su fachada curva marca el inicio de la Gran Vía con elegancia beaux-arts.",
+   "d_en": "One of Madrid's most photographed buildings, crowned by a dome and a winged Victory sculpture. Its curved facade marks the start of the Gran Vía with beaux-arts elegance.",
+   "h": "Al anochecer, cuando la fachada se ilumina y brilla la cúpula.",
+   "h_en": "At dusk, when the facade lights up and the dome gleams.",
+   "i": "la arquitectura monumental y los iconos urbanos",
+   "i_en": "monumental architecture and urban icons"
+  },
+  "mercado_de_san_fernando": {
+   "id": "mercado_de_san_fernando",
+   "d": "Un mercado con alma de barrio en pleno Lavapiés, multicultural y lleno de propuestas variadas. Entre puestos tradicionales y modernos, refleja la diversidad de uno de los barrios más vivos de Madrid.",
+   "d_en": "A market with neighbourhood soul in the heart of Lavapiés, multicultural and full of varied offerings. Between traditional and modern stalls, it reflects the diversity of one of Madrid's liveliest districts.",
+   "h": "A media mañana o al mediodía, para captar su ambiente de barrio.",
+   "h_en": "Mid-morning or at noon, to catch its neighbourhood buzz.",
+   "i": "los mercados multiculturales y el ambiente de barrio",
+   "i_en": "multicultural markets and neighbourhood atmosphere"
+  },
+  "casa_de_campo": {
+   "id": "casa_de_campo",
+   "d": "El mayor parque de Madrid, un vasto espacio natural con un lago, senderos y kilómetros de arbolado. Ideal para pasear, remar o practicar deporte lejos del ajetreo de la ciudad.",
+   "d_en": "Madrid's largest park, a vast natural space with a lake, trails and miles of woodland. Perfect for strolling, rowing or exercising far from the city's hustle.",
+   "h": "Por la mañana, para disfrutar del lago y los senderos con frescor.",
+   "h_en": "In the morning, to enjoy the lake and trails in the cool.",
+   "i": "los grandes espacios naturales y el deporte al aire libre",
+   "i_en": "large natural spaces and outdoor sport"
+  },
+  "taberna_la_bola": {
+   "id": "taberna_la_bola",
+   "d": "Una taberna centenaria donde el cocido madrileño se cuece a fuego lento en puchero individual de barro. Su fachada roja y su comedor de época son un pedazo del Madrid más auténtico.",
+   "d_en": "A century-old tavern where the Madrid stew simmers slowly in individual earthenware pots. Its red facade and period dining room are a slice of the most authentic Madrid.",
+   "h": "A la hora de comer, para el cocido cocinado a fuego de carbón.",
+   "h_en": "At lunchtime, for the stew cooked over a charcoal fire.",
+   "i": "el cocido madrileño y las tabernas de toda la vida",
+   "i_en": "Madrid stew and lifelong taverns"
+  },
+  "mercado_de_la_paz": {
+   "id": "mercado_de_la_paz",
+   "d": "El mercado gourmet del barrio de Salamanca, con puestos selectos y una famosa tortilla de patatas jugosa. Un clásico donde comprar producto de calidad y tapear entre vecinos.",
+   "d_en": "The gourmet market of the Salamanca district, with select stalls and a famous juicy potato omelette. A classic for buying quality produce and grazing among locals.",
+   "h": "A media mañana, para comprar producto fresco y probar la tortilla.",
+   "h_en": "Mid-morning, to buy fresh produce and try the omelette.",
+   "i": "los mercados gourmet y el producto de calidad",
+   "i_en": "gourmet markets and quality produce"
+  },
+  "casa_mingo": {
+   "id": "casa_mingo",
+   "d": "Una sidrería asturiana centenaria junto al Manzanares, famosa por su pollo asado y su sidra escanciada. Su ambiente bullicioso y sus mesas compartidas la hacen inconfundible.",
+   "d_en": "A century-old Asturian cider house beside the Manzanares, famous for its roast chicken and poured cider. Its lively atmosphere and shared tables make it unmistakable.",
+   "h": "A la hora de comer, para el pollo asado con sidra en su terraza.",
+   "h_en": "At lunchtime, for roast chicken with cider on its terrace.",
+   "i": "la cocina asturiana y las sidrerías con ambiente",
+   "i_en": "Asturian cuisine and lively cider houses"
+  },
+  "bodega_de_la_ardosa": {
+   "id": "bodega_de_la_ardosa",
+   "d": "Una bodega histórica de Malasaña, célebre por su vermú de grifo, su salmorejo y su tortilla. Su barra estrecha y azulejada rebosa ambiente a cualquier hora del día.",
+   "d_en": "A historic bodega in Malasaña, famed for its draught vermouth, salmorejo and omelette. Its narrow tiled bar brims with atmosphere at any time of day.",
+   "h": "A la hora del vermú, antes de comer, para tapear en su barra.",
+   "h_en": "At vermouth time, before lunch, for tapas at its bar.",
+   "i": "el vermú de grifo y las bodegas tradicionales",
+   "i_en": "draught vermouth and traditional bodegas"
+  },
+  "el_capricho": {
+   "id": "el_capricho",
+   "d": "Un jardín romántico secreto y exquisito, quizá el más bello y desconocido de Madrid. Entre lagos, templetes y laberintos de setos, invita a un paseo detenido fuera del tiempo.",
+   "d_en": "A secret, exquisite romantic garden, perhaps the most beautiful and least known in Madrid. Amid lakes, follies and hedge mazes, it invites a timeless, unhurried stroll.",
+   "h": "En una mañana tranquila de fin de semana, cuando abre al público.",
+   "h_en": "On a quiet weekend morning, when it opens to the public.",
+   "i": "los jardines románticos y los rincones secretos",
+   "i_en": "romantic gardens and secret corners"
+  },
+  "palacio_de_cristal_del_retiro": {
+   "id": "palacio_de_cristal_del_retiro",
+   "d": "Un delicado pabellón de cristal y hierro que parece flotar junto a un estanque en el corazón del Retiro. Hoy acoge exposiciones de arte contemporáneo bajo su cúpula luminosa.",
+   "d_en": "A delicate pavilion of glass and iron that seems to float beside a pond in the heart of the Retiro. Today it hosts contemporary art exhibitions beneath its luminous dome.",
+   "h": "A media mañana, cuando la luz atraviesa el cristal y brilla en el agua.",
+   "h_en": "Mid-morning, when light passes through the glass and shines on the water.",
+   "i": "la arquitectura del cristal y el arte en entornos naturales",
+   "i_en": "glass architecture and art in natural settings"
+  },
+  "plaza_de_oriente": {
+   "id": "plaza_de_oriente",
+   "d": "Unos jardines señoriales con estatuas de reyes que se despliegan entre el Palacio Real y el Teatro Real. Su trazado elegante y sus vistas al palacio la convierten en una de las plazas más nobles de Madrid.",
+   "d_en": "Stately gardens with statues of kings unfolding between the Royal Palace and the Teatro Real. Its elegant layout and palace views make it one of Madrid's most noble squares.",
+   "h": "Al atardecer, cuando la luz dora la fachada del palacio.",
+   "h_en": "At dusk, when the light gilds the palace facade.",
+   "i": "las plazas señoriales y los conjuntos monumentales",
+   "i_en": "stately squares and monumental ensembles"
+  },
+  "palacio_de_cibeles_y_su_mirador": {
+   "id": "palacio_de_cibeles_y_su_mirador",
+   "d": "Un palacio de aire fabuloso, antaño sede de correos, coronado por un mirador con vistas privilegiadas del centro. Sus torres y su blancura lo convierten en uno de los edificios más admirados de la ciudad.",
+   "d_en": "A fairy-tale palace, once the main post office, crowned by a viewpoint with privileged views of the centre. Its towers and whiteness make it one of the city's most admired buildings.",
+   "h": "Al atardecer, para subir al mirador con la mejor luz.",
+   "h_en": "At dusk, to go up to the viewpoint in the best light.",
+   "i": "los miradores y la arquitectura monumental",
+   "i_en": "viewpoints and monumental architecture"
+  },
+  "museo_arqueologico_nacional": {
+   "id": "museo_arqueologico_nacional",
+   "d": "Un viaje por la historia de la península, de la prehistoria a la célebre Dama de Elche, en pleno barrio de Salamanca. Sus salas reúnen tesoros ibéricos, romanos y medievales magníficamente expuestos.",
+   "d_en": "A journey through the peninsula's history, from prehistory to the famous Lady of Elche, in the heart of Salamanca. Its galleries gather Iberian, Roman and medieval treasures superbly displayed.",
+   "h": "Por la mañana entre semana, para recorrerlo con calma.",
+   "h_en": "On a weekday morning, to explore it at ease.",
+   "i": "la arqueología y la historia antigua de España",
+   "i_en": "archaeology and the ancient history of Spain"
+  },
+  "plaza_de_santa_ana": {
+   "id": "plaza_de_santa_ana",
+   "d": "El corazón bullicioso del Barrio de las Letras, animado por terrazas y tabernas centenarias. Presidida por teatros y estatuas de escritores, vibra de día y de noche.",
+   "d_en": "The bustling heart of the Barrio de las Letras, animated by terraces and century-old taverns. Presided over by theatres and statues of writers, it thrives day and night.",
+   "h": "Al atardecer, para tomar algo en sus terrazas con buen ambiente.",
+   "h_en": "At dusk, for a drink on its terraces with a good vibe.",
+   "i": "las terrazas animadas y el ambiente literario",
+   "i_en": "lively terraces and literary atmosphere"
+  },
+  "cuesta_de_moyano": {
+   "id": "cuesta_de_moyano",
+   "d": "Una hilera de casetas de libreros de viejo que desciende hacia el Retiro, un paraíso para los amantes de la lectura. Rebuscar entre sus estantes es toparse con auténticos tesoros de papel.",
+   "d_en": "A row of secondhand booksellers' stalls descending towards the Retiro, a paradise for book lovers. Rummaging through its shelves means stumbling on genuine paper treasures.",
+   "h": "Una mañana soleada de fin de semana, para hojear libros sin prisa.",
+   "h_en": "On a sunny weekend morning, to browse books unhurried.",
+   "i": "los libros de viejo y los rincones literarios",
+   "i_en": "secondhand books and literary corners"
+  },
+  "museo_chicote": {
+   "id": "museo_chicote",
+   "d": "La coctelería más legendaria de la Gran Vía, refugio de artistas, escritores y estrellas de cine a lo largo del siglo XX. Su ambiente art déco conserva la elegancia de una época dorada.",
+   "d_en": "The most legendary cocktail bar on the Gran Vía, a refuge for artists, writers and film stars throughout the twentieth century. Its art deco setting preserves the elegance of a golden age.",
+   "h": "Por la noche, para tomar un cóctel en su ambiente clásico.",
+   "h_en": "In the evening, for a cocktail in its classic setting.",
+   "i": "la coctelería clásica y los locales con glamour",
+   "i_en": "classic cocktail bars and glamorous venues"
+  },
+  "cerveceria_alemana": {
+   "id": "cerveceria_alemana",
+   "d": "Una cervecería clásica de la Plaza de Santa Ana, con barra de mármol y madera donde las cañas se sirven impecables. Su historia literaria y su ambiente atemporal la hacen inconfundible.",
+   "d_en": "A classic beer hall on the Plaza de Santa Ana, with a marble and wood bar where the beers are pulled to perfection. Its literary history and timeless atmosphere make it unmistakable.",
+   "h": "A media tarde, para una caña en su terraza de la plaza.",
+   "h_en": "Mid-afternoon, for a beer on its terrace by the square.",
+   "i": "las cañas bien tiradas y los locales con historia",
+   "i_en": "well-poured beers and historic venues"
+  },
+  "pasteleria_la_mallorquina": {
+   "id": "pasteleria_la_mallorquina",
+   "d": "Una pastelería clásica junto a la Puerta del Sol, envuelta en aroma dulce y célebre por sus napolitanas calientes. Su bullicio y su vitrina rebosante son una tentación irresistible.",
+   "d_en": "A classic pastry shop beside the Puerta del Sol, wrapped in a sweet aroma and famed for its warm napolitanas. Its bustle and brimming display case are an irresistible temptation.",
+   "h": "A media mañana, para una napolitana recién hecha con un café.",
+   "h_en": "Mid-morning, for a freshly baked napolitana with a coffee.",
+   "i": "la repostería tradicional y los dulces recién hechos",
+   "i_en": "traditional pastries and freshly baked sweets"
+  },
+  "convento_de_las_descalzas_reales": {
+   "id": "convento_de_las_descalzas_reales",
+   "d": "Un monasterio casi secreto a un paso de la Puerta del Sol, que atesora tapices, pinturas y relicarios de incalculable valor. Tras su sobria fachada se esconde un mundo de esplendor cortesano.",
+   "d_en": "An almost secret monastery a step from the Puerta del Sol, treasuring tapestries, paintings and reliquaries of immense value. Behind its sober facade hides a world of courtly splendour.",
+   "h": "A media mañana entre semana, para la visita guiada con calma.",
+   "h_en": "Mid-morning on a weekday, for the guided visit in calm.",
+   "i": "los conventos históricos y los tesoros artísticos ocultos",
+   "i_en": "historic convents and hidden artistic treasures"
+  },
+  "real_academia_de_bellas_artes_de_san_f": {
+   "id": "real_academia_de_bellas_artes_de_san_f",
+   "d": "Una pinacoteca íntima donde contemplar Goyas, El Greco y Zurbarán casi en soledad. Su colección, menos concurrida que los grandes museos, es un descubrimiento para los amantes del arte.",
+   "d_en": "An intimate art gallery where you can contemplate works by Goya, El Greco and Zurbarán almost in solitude. Its collection, less crowded than the great museums, is a discovery for art lovers.",
+   "h": "Por la mañana, para disfrutar de sus salas casi vacías.",
+   "h_en": "In the morning, to enjoy its near-empty galleries.",
+   "i": "las pinacotecas íntimas y los grandes maestros",
+   "i_en": "intimate galleries and old masters"
+  },
+  "matadero_madrid": {
+   "id": "matadero_madrid",
+   "d": "Un antiguo matadero de ladrillo reconvertido en una vibrante fábrica de creación cultural. Entre sus naves conviven exposiciones, teatro, cine y diseño en constante efervescencia.",
+   "d_en": "A former brick slaughterhouse turned into a vibrant hub of cultural creation. Across its halls, exhibitions, theatre, cinema and design coexist in constant ferment.",
+   "h": "Por la tarde, para recorrer sus naves y su programación cultural.",
+   "h_en": "In the afternoon, to explore its halls and cultural programme.",
+   "i": "los espacios culturales alternativos y la creación contemporánea",
+   "i_en": "alternative cultural spaces and contemporary creation"
+  },
+  "joy_eslava": {
+   "id": "joy_eslava",
+   "d": "Un teatro decimonónico transformado en una de las discotecas más míticas del centro. Bajo sus palcos y su escenario, la fiesta madrileña se prolonga hasta la madrugada.",
+   "d_en": "A nineteenth-century theatre transformed into one of the centre's most legendary nightclubs. Beneath its boxes and stage, Madrid's party stretches into the small hours.",
+   "h": "De madrugada, para bailar en su antiguo escenario teatral.",
+   "h_en": "In the small hours, to dance on its old theatre stage.",
+   "i": "las discotecas emblemáticas y la fiesta nocturna",
+   "i_en": "iconic nightclubs and nightlife"
+  },
+  "wizink_center": {
+   "id": "wizink_center",
+   "d": "El gran templo de los conciertos y del baloncesto en el barrio de Goya, escenario de los grandes eventos de la ciudad. Su aforo y su ambiente lo convierten en parada obligada de las giras internacionales.",
+   "d_en": "The great temple of concerts and basketball in the Goya district, stage for the city's major events. Its capacity and atmosphere make it a must-stop for international tours.",
+   "h": "En una noche de concierto o de partido, para vivir el ambiente.",
+   "h_en": "On a concert or game night, to soak up the atmosphere.",
+   "i": "los grandes conciertos y los eventos deportivos",
+   "i_en": "major concerts and sporting events"
+  },
+  "la_casa_del_abuelo": {
+   "id": "la_casa_del_abuelo",
+   "d": "Una taberna clásica donde las gambas al ajillo llegan chisporroteando en su cazuela, acompañadas de vino dulce. Su barra estrecha y su aroma inconfundible la han hecho célebre en el centro.",
+   "d_en": "A classic tavern where the garlic prawns arrive sizzling in their dish, paired with sweet wine. Its narrow bar and unmistakable aroma have made it famous in the centre.",
+   "h": "A media tarde, para las gambas al ajillo con vino dulce.",
+   "h_en": "Mid-afternoon, for the garlic prawns with sweet wine.",
+   "i": "las gambas al ajillo y las tabernas de tapeo",
+   "i_en": "garlic prawns and tapas taverns"
+  },
+  "museo_lazaro_galdiano": {
+   "id": "museo_lazaro_galdiano",
+   "d": "Un palacete rebosante de joyas, marfiles, esmaltes y pinturas reunidas por un coleccionista genial. Cada sala esconde una sorpresa en una de las colecciones privadas más ricas de Madrid.",
+   "d_en": "A mansion brimming with jewels, ivories, enamels and paintings assembled by a brilliant collector. Every room hides a surprise in one of Madrid's richest private collections.",
+   "h": "Por la mañana, para recorrer sus salas sin prisa.",
+   "h_en": "In the morning, to explore its rooms unhurried.",
+   "i": "las colecciones privadas y los palacetes con historia",
+   "i_en": "private collections and mansions with history"
+  },
+  "museo_cerralbo": {
+   "id": "museo_cerralbo",
+   "d": "Una casa-palacio del siglo XIX conservada intacta, con salón de baile, arañas de cristal y estancias recargadas. Visitarla es viajar a la vida aristocrática de la época.",
+   "d_en": "A nineteenth-century mansion preserved intact, with a ballroom, crystal chandeliers and ornate rooms. To visit is to travel back to the aristocratic life of the era.",
+   "h": "A media mañana, cuando la luz realza sus salones de época.",
+   "h_en": "Mid-morning, when the light enhances its period halls.",
+   "i": "las casas-palacio y la vida aristocrática del XIX",
+   "i_en": "aristocratic mansions and nineteenth-century life"
+  },
+  "los_galayos": {
+   "id": "los_galayos",
+   "d": "Un restaurante clásico bajo los soportales de la Plaza Mayor, célebre por su cochinillo y su terraza soñada. Comer bajo sus arcos históricos es una de las estampas gastronómicas de Madrid.",
+   "d_en": "A classic restaurant beneath the arcades of the Plaza Mayor, famed for its suckling pig and dreamy terrace. Dining under its historic arches is one of Madrid's culinary scenes.",
+   "h": "A la hora de comer, para el cochinillo en su terraza porticada.",
+   "h_en": "At lunchtime, for the suckling pig on its arcaded terrace.",
+   "i": "los asados castellanos y las terrazas con encanto",
+   "i_en": "Castilian roasts and charming terraces"
+  },
+  "mercado_de_la_cebada": {
+   "id": "mercado_de_la_cebada",
+   "d": "El mercado más castizo de La Latina, con puestos de pescado y marisco fresco muy apreciados por los vecinos. Su ambiente auténtico refleja el pulso comercial del viejo Madrid.",
+   "d_en": "The most traditional market in La Latina, with fresh fish and seafood stalls prized by locals. Its authentic atmosphere reflects the commercial pulse of old Madrid.",
+   "h": "A media mañana, cuando los puestos exhiben el género fresco.",
+   "h_en": "Mid-morning, when the stalls display the fresh catch.",
+   "i": "los mercados tradicionales y el marisco fresco",
+   "i_en": "traditional markets and fresh seafood"
+  },
+  "museo_del_romanticismo": {
+   "id": "museo_del_romanticismo",
+   "d": "Un palacete que recrea con mimo la vida romántica del siglo XIX, con sus salones, su jardín y su café de época. Cada estancia respira la sensibilidad y el gusto de aquel Madrid.",
+   "d_en": "A mansion that lovingly recreates nineteenth-century Romantic life, with its parlours, garden and period café. Every room breathes the sensibility and taste of that Madrid.",
+   "h": "A media tarde, para acabar con un té en su jardín-café.",
+   "h_en": "Mid-afternoon, to finish with tea in its garden café.",
+   "i": "el romanticismo del XIX y los ambientes de época",
+   "i_en": "nineteenth-century Romanticism and period settings"
+  },
+  "teatro_de_la_zarzuela": {
+   "id": "teatro_de_la_zarzuela",
+   "d": "El escenario que guarda el alma del género lírico más español, la zarzuela. Su sala histórica sigue haciendo vibrar al público con música, canto y sabor popular.",
+   "d_en": "The stage that keeps the soul of Spain's most native lyric genre, the zarzuela. Its historic auditorium still thrills audiences with music, song and popular flavour.",
+   "h": "Por la noche, para asistir a una función de zarzuela.",
+   "h_en": "In the evening, to attend a zarzuela performance.",
+   "i": "la zarzuela y la música lírica española",
+   "i_en": "zarzuela and Spanish lyric music"
+  },
+  "iglesia_de_san_jeronimo_el_real": {
+   "id": "iglesia_de_san_jeronimo_el_real",
+   "d": "Conocida como Los Jerónimos, es un templo de aire gótico ligado a la corona y vecino del Museo del Prado. Sus torres y su interior luminoso lo hacen un remanso de recogimiento.",
+   "d_en": "Known as Los Jerónimos, a Gothic-style church tied to the crown and neighbour to the Prado Museum. Its towers and luminous interior make it a haven of contemplation.",
+   "h": "A media mañana, con la luz entrando por sus ventanales.",
+   "h_en": "Mid-morning, with light streaming through its windows.",
+   "i": "la arquitectura gótica y los templos históricos",
+   "i_en": "Gothic architecture and historic churches"
+  },
+  "cines_dore_filmoteca_espanola": {
+   "id": "cines_dore_filmoteca_espanola",
+   "d": "Un cine modernista de principios del siglo XX donde el cine clásico y de autor sigue proyectándose cada noche. Su fachada y su ambiente lo convierten en un santuario para cinéfilos.",
+   "d_en": "An Art Nouveau cinema from the early twentieth century where classic and auteur films still screen every night. Its facade and atmosphere make it a sanctuary for cinephiles.",
+   "h": "Por la noche, para una sesión de cine clásico en pantalla grande.",
+   "h_en": "In the evening, for a classic film screening on the big screen.",
+   "i": "el cine clásico y los cines de autor",
+   "i_en": "classic cinema and arthouse film"
+  },
+  "puerta_de_toledo": {
+   "id": "puerta_de_toledo",
+   "d": "El último gran arco triunfal de Madrid, guardián del viejo camino del sur. Su piedra neoclásica marca la frontera del casco histórico con sobria elegancia.",
+   "d_en": "Madrid's last great triumphal arch, guardian of the old road to the south. Its neoclassical stone marks the edge of the historic centre with sober elegance.",
+   "h": "Al atardecer, cuando la piedra toma tonos cálidos.",
+   "h_en": "At dusk, when the stone takes on warm tones.",
+   "i": "los arcos triunfales y los monumentos neoclásicos",
+   "i_en": "triumphal arches and neoclassical monuments"
+  },
+  "mercado_de_anton_martin": {
+   "id": "mercado_de_anton_martin",
+   "d": "Un mercado de barrio en Lavapiés que mezcla puestos de toda la vida con propuestas de cocina joven y creativa. Su carácter diverso lo hace un reflejo del Madrid actual.",
+   "d_en": "A neighbourhood market in Lavapiés blending lifelong stalls with young, creative cooking. Its diverse character makes it a mirror of present-day Madrid.",
+   "h": "Al mediodía, para comer entre puestos tradicionales y modernos.",
+   "h_en": "At midday, to eat among traditional and modern stalls.",
+   "i": "los mercados de barrio y la cocina joven",
+   "i_en": "neighbourhood markets and young cuisine"
+  },
+  "museo_naval": {
+   "id": "museo_naval",
+   "d": "Un museo que reúne maquetas, instrumentos y mapas históricos, incluido uno de los primeros que representan América. Su recorrido narra siglos de navegación y exploración.",
+   "d_en": "A museum gathering models, instruments and historic maps, including one of the first to depict the Americas. Its route recounts centuries of seafaring and exploration.",
+   "h": "Por la mañana, para recorrer sus salas con detalle.",
+   "h_en": "In the morning, to explore its rooms in detail.",
+   "i": "la historia naval y la exploración marítima",
+   "i_en": "naval history and maritime exploration"
+  },
+  "casa_julio": {
+   "id": "casa_julio",
+   "d": "Un bar minúsculo y de culto en Malasaña, famoso por servir algunas de las croquetas más celebradas de Madrid. Su reducido tamaño y su cola en la puerta hablan de su leyenda.",
+   "d_en": "A tiny cult bar in Malasaña, famous for serving some of the most celebrated croquettes in Madrid. Its small size and the queue at the door speak of its legend.",
+   "h": "A media tarde, para probar sus croquetas antes de que se llene.",
+   "h_en": "Mid-afternoon, to try its croquettes before it fills up.",
+   "i": "las croquetas de autor y los bares de culto",
+   "i_en": "signature croquettes and cult bars"
+  },
+  "jardines_de_las_vistillas": {
+   "id": "jardines_de_las_vistillas",
+   "d": "Un balcón verde asomado a la sierra donde Madrid se despide del sol cada tarde. Sus terrazas al aire libre son un clásico para ver el atardecer con buena compañía.",
+   "d_en": "A green balcony looking out towards the mountains where Madrid bids the sun farewell each evening. Its open-air terraces are a classic for watching the sunset in good company.",
+   "h": "Al atardecer, para ver caer el sol sobre la sierra.",
+   "h_en": "At sunset, to watch the sun drop behind the mountains.",
+   "i": "los miradores al atardecer y las terrazas al aire libre",
+   "i_en": "sunset viewpoints and open-air terraces"
+  },
+  "teatro_espanol": {
+   "id": "teatro_espanol",
+   "d": "La escena viva más antigua de Madrid, presidiendo la Plaza de Santa Ana con siglos de historia teatral. Su telón sigue alzándose sobre lo mejor de la dramaturgia española.",
+   "d_en": "The oldest living stage in Madrid, presiding over the Plaza de Santa Ana with centuries of theatrical history. Its curtain still rises on the best of Spanish drama.",
+   "h": "Por la noche, para asistir a una función en su sala histórica.",
+   "h_en": "In the evening, to attend a performance in its historic hall.",
+   "i": "el teatro clásico y las salas históricas",
+   "i_en": "classical theatre and historic playhouses"
+  },
+  "puente_de_toledo": {
+   "id": "puente_de_toledo",
+   "d": "Un elegante puente barroco de nueve arcos que salva el Manzanares en Madrid Río. Sus hornacinas con santos y su perfil ornamentado lo convierten en una joya sobre el agua.",
+   "d_en": "An elegant nine-arched Baroque bridge spanning the Manzanares in Madrid Río. Its niches with saints and ornate profile make it a jewel over the water.",
+   "h": "Al atardecer, cuando la luz realza su silueta barroca.",
+   "h_en": "At dusk, when the light enhances its Baroque silhouette.",
+   "i": "los puentes históricos y los paseos junto al río",
+   "i_en": "historic bridges and riverside walks"
+  },
+  "taberna_de_angel_sierra": {
+   "id": "taberna_de_angel_sierra",
+   "d": "Una taberna asomada a la animada Plaza de Chueca, con azulejos de época y vermut servido de grifo. Su barra bulliciosa conserva el sabor de las tabernas castizas de siempre.",
+   "d_en": "A tavern facing the lively Plaza de Chueca, with period tiles and vermouth poured on tap. Its bustling bar keeps the flavour of the timeless traditional taverns.",
+   "h": "A la hora del vermú, para tomarlo de grifo en su terraza.",
+   "h_en": "At vermouth time, for a draught pour on its terrace.",
+   "i": "el vermú de grifo y las tabernas castizas",
+   "i_en": "draught vermouth and traditional taverns"
+  },
+  "real_basilica_de_nuestra_senora_de_ato": {
+   "id": "real_basilica_de_nuestra_senora_de_ato",
+   "d": "Un santuario mariano muy querido por los madrileños, vecino del Panteón de Hombres Ilustres. Su devoción centenaria y su recinto sereno invitan al recogimiento.",
+   "d_en": "A Marian sanctuary deeply loved by the people of Madrid, neighbour to the Pantheon of Illustrious Men. Its centuries-old devotion and serene grounds invite quiet reflection.",
+   "h": "A media mañana, para visitarla con tranquilidad.",
+   "h_en": "Mid-morning, to visit it in peace.",
+   "i": "los santuarios marianos y los rincones de recogimiento",
+   "i_en": "Marian sanctuaries and places of quiet reflection"
+  },
+  "bar_cock": {
+   "id": "bar_cock",
+   "d": "Una coctelería de penumbra y madera noble que fue refugio nocturno de la movida madrileña. Su ambiente clásico y discreto la mantiene como un templo del cóctel bien hecho.",
+   "d_en": "A cocktail bar of shadows and fine wood that was a nightly refuge of the Madrid Movida. Its classic, discreet atmosphere keeps it a temple of the well-made cocktail.",
+   "h": "Por la noche, para un cóctel en su ambiente recogido.",
+   "h_en": "At night, for a cocktail in its intimate setting.",
+   "i": "la coctelería clásica y los locales con historia nocturna",
+   "i_en": "classic cocktail bars and venues with nocturnal history"
+  },
+  "museo_de_historia_de_madrid": {
+   "id": "museo_de_historia_de_madrid",
+   "d": "Tras una espectacular portada barroca se despliega la historia de la villa siglo a siglo. Maquetas, pinturas y objetos narran cómo Madrid llegó a ser capital.",
+   "d_en": "Behind a spectacular Baroque doorway unfolds the city's history century by century. Models, paintings and objects recount how Madrid became a capital.",
+   "h": "Por la mañana, para recorrer su historia con calma.",
+   "h_en": "In the morning, to walk through its history at ease.",
+   "i": "la historia de Madrid y las portadas barrocas",
+   "i_en": "the history of Madrid and Baroque doorways"
+  },
+  "taberna_antonio_sanchez": {
+   "id": "taberna_antonio_sanchez",
+   "d": "Una de las tabernas más antiguas de Madrid, de marcado aire taurino y célebre por su rabo de toro. Sus paredes, cargadas de recuerdos, conservan un ambiente de otra época.",
+   "d_en": "One of the oldest taverns in Madrid, with a strong bullfighting air and famed for its oxtail stew. Its walls, laden with mementos, preserve an atmosphere from another era.",
+   "h": "A la hora de comer, para el rabo de toro en su ambiente taurino.",
+   "h_en": "At lunchtime, for the oxtail stew in its bullfighting setting.",
+   "i": "la cocina castiza y las tabernas de ambiente taurino",
+   "i_en": "traditional cooking and taverns with bullfighting spirit"
+  },
+  "museo_nacional_de_ciencias_naturales": {
+   "id": "museo_nacional_de_ciencias_naturales",
+   "d": "Un museo que asombra a grandes y pequeños con esqueletos de dinosaurios y fauna de todo el planeta. Sus colecciones acercan la historia natural de forma didáctica y espectacular.",
+   "d_en": "A museum that amazes young and old with dinosaur skeletons and wildlife from all over the planet. Its collections bring natural history to life in a didactic, spectacular way.",
+   "h": "Por la mañana, ideal para una visita en familia.",
+   "h_en": "In the morning, ideal for a family visit.",
+   "i": "la historia natural y los planes en familia",
+   "i_en": "natural history and family outings"
+  },
+  "jardines_del_descubrimiento_plaza_de_c": {
+   "id": "jardines_del_descubrimiento_plaza_de_c",
+   "d": "Un remanso verde bajo la gran bandera de España, junto a los monumentos dedicados a Colón. Sus terrazas y esculturas crean un espacio abierto en pleno bullicio urbano.",
+   "d_en": "A green oasis beneath the great Spanish flag, beside the monuments dedicated to Columbus. Its terraces and sculptures create an open space amid the urban bustle.",
+   "h": "A media tarde, para un paseo entre sus esculturas.",
+   "h_en": "Mid-afternoon, for a stroll among its sculptures.",
+   "i": "las plazas monumentales y los espacios verdes urbanos",
+   "i_en": "monumental squares and urban green spaces"
+  },
+  "casa_gonzalez": {
+   "id": "casa_gonzalez",
+   "d": "Un colmado y vinoteca de solera donde catar quesos, embutidos y conservas con una buena copa. Su ambiente de tienda antigua reconvertida en bar lo hace entrañable.",
+   "d_en": "A time-honoured deli and wine bar where you can taste cheeses, cured meats and preserves with a good glass. Its old-shop-turned-bar atmosphere makes it endearing.",
+   "h": "A media tarde, para una tabla de quesos con vino.",
+   "h_en": "Mid-afternoon, for a cheese board with wine.",
+   "i": "los quesos y embutidos y las vinotecas con encanto",
+   "i_en": "cheeses and cured meats and charming wine bars"
+  },
+  "real_fabrica_de_tapices": {
+   "id": "real_fabrica_de_tapices",
+   "d": "Una fábrica centenaria cuyos telares aún tejen a mano tapices como los que soñó Goya. Ver trabajar a los artesanos es asistir a la pervivencia de un oficio de siglos.",
+   "d_en": "A century-old factory whose looms still weave tapestries by hand, like those Goya once dreamed up. Watching the craftspeople at work is to witness the survival of a centuries-old trade.",
+   "h": "Por la mañana entre semana, cuando trabajan los telares.",
+   "h_en": "On a weekday morning, when the looms are at work.",
+   "i": "la artesanía tradicional y los oficios centenarios",
+   "i_en": "traditional craftsmanship and centuries-old trades"
+  },
+  "parque_de_la_quinta_de_los_molinos": {
+   "id": "parque_de_la_quinta_de_los_molinos",
+   "d": "Un parque que cada final de invierno se cubre de un mar de almendros en flor que tiñe la ciudad de rosa. Sus caminos y estanques lo convierten en un rincón poético poco conocido.",
+   "d_en": "A park that each late winter fills with a sea of almond blossom, tinting the city pink. Its paths and ponds make it a poetic, little-known corner.",
+   "h": "A finales de invierno, cuando florecen los almendros.",
+   "h_en": "In late winter, when the almond trees bloom.",
+   "i": "los almendros en flor y los rincones poéticos",
+   "i_en": "almond blossom and poetic corners"
+  },
+  "antigua_pasteleria_del_pozo": {
+   "id": "antigua_pasteleria_del_pozo",
+   "d": "La confitería más antigua de Madrid, una dulce cápsula del tiempo con su mostrador y sus vitrinas de época. Cada bandeja conserva recetas transmitidas durante generaciones.",
+   "d_en": "The oldest confectioner in Madrid, a sweet time capsule with its period counter and display cases. Every tray preserves recipes handed down over generations.",
+   "h": "A media mañana, para un dulce en su interior de época.",
+   "h_en": "Mid-morning, for a sweet in its period interior.",
+   "i": "la repostería histórica y los locales de época",
+   "i_en": "historic confectionery and period shops"
+  },
+  "costello_club": {
+   "id": "costello_club",
+   "d": "Un club de referencia junto a la Gran Vía, con conciertos íntimos y sesiones indie hasta la madrugada. Su ambiente moderno y su cartel musical atraen a los amantes de la buena música.",
+   "d_en": "A landmark club beside the Gran Vía, with intimate concerts and indie sessions into the small hours. Its modern vibe and music line-up draw lovers of good music.",
+   "h": "Por la noche, para un concierto íntimo o una sesión indie.",
+   "h_en": "At night, for an intimate concert or indie session.",
+   "i": "los conciertos íntimos y la música indie",
+   "i_en": "intimate concerts and indie music"
+  },
+  "casa_toni": {
+   "id": "casa_toni",
+   "d": "Un bar castizo del centro donde probar casquería tradicional y una célebre oreja a la plancha. Su barra bulliciosa es una parada honesta y sabrosa del Madrid de siempre.",
+   "d_en": "A traditional bar in the centre for classic offal and a famous grilled pig's ear. Its lively bar is an honest, tasty stop of timeless Madrid.",
+   "h": "A media tarde, para tapear casquería en su barra animada.",
+   "h_en": "Mid-afternoon, for offal tapas at its lively bar.",
+   "i": "la casquería tradicional y los bares castizos",
+   "i_en": "traditional offal and classic Madrid bars"
+  },
+  "parque_de_berlin": {
+   "id": "parque_de_berlin",
+   "d": "Un parque de fuentes y chorros de agua que guarda auténticos trozos del Muro de Berlín entre sus paseos. Un rincón familiar donde la historia reciente se cruza con el juego y el descanso.",
+   "d_en": "A park of fountains and water jets that keeps genuine fragments of the Berlin Wall among its paths. A family spot where recent history meets play and rest.",
+   "h": "Por la tarde, ideal para un paseo tranquilo en familia.",
+   "h_en": "In the afternoon, ideal for a quiet family stroll.",
+   "i": "los parques familiares y los rincones con historia",
+   "i_en": "family parks and corners with history"
+  },
+  "malacatin": {
+   "id": "malacatin",
+   "d": "Una taberna familiar de La Latina que sirve el cocido madrileño de siempre, abundante y bien cocinado. Su comedor sencillo y su trato cercano conservan la esencia del barrio.",
+   "d_en": "A family tavern in La Latina serving the timeless Madrid stew, hearty and well cooked. Its simple dining room and warm welcome preserve the neighbourhood's essence.",
+   "h": "A la hora de comer, para el cocido en su comedor familiar.",
+   "h_en": "At lunchtime, for the stew in its family dining room.",
+   "i": "el cocido madrileño y las tabernas familiares",
+   "i_en": "Madrid stew and family taverns"
+  },
+  "sala_el_sol": {
+   "id": "sala_el_sol",
+   "d": "Una sala de conciertos legendaria, cuna de la movida madrileña y templo del directo desde hace décadas. Por su escenario han pasado incontables bandas que marcaron una época.",
+   "d_en": "A legendary concert hall, cradle of the Madrid Movida and a temple of live music for decades. Countless bands that defined an era have crossed its stage.",
+   "h": "Por la noche, para vivir un concierto en directo.",
+   "h_en": "At night, to experience a live concert.",
+   "i": "la música en directo y las salas legendarias",
+   "i_en": "live music and legendary venues"
+  },
+  "mercado_de_vallehermoso": {
+   "id": "mercado_de_vallehermoso",
+   "d": "El mercado gastronómico favorito de Chamberí, con puestos de cocina de autor y producto cuidado. Su ambiente cercano y sus propuestas variadas lo han convertido en un imprescindible del barrio.",
+   "d_en": "The favourite food market of Chamberí, with signature-cooking stalls and carefully sourced produce. Its friendly vibe and varied offerings have made it a neighbourhood must.",
+   "h": "Al mediodía o al final de la tarde, para tapear entre sus puestos.",
+   "h_en": "At midday or in the early evening, for tapas among its stalls.",
+   "i": "los mercados gastronómicos y la cocina de autor",
+   "i_en": "food markets and signature cooking"
+  },
+  "parque_de_la_fuente_del_berro": {
+   "id": "parque_de_la_fuente_del_berro",
+   "d": "Un jardín romántico de estanques, cascadas y pavos reales, salpicado de rincones escondidos. Su trazado sinuoso lo hace uno de los parques más apacibles y sorprendentes de la ciudad.",
+   "d_en": "A romantic garden of ponds, waterfalls and peacocks, dotted with hidden corners. Its winding layout makes it one of the city's most peaceful and surprising parks.",
+   "h": "Por la mañana, para pasear entre sus estanques con calma.",
+   "h_en": "In the morning, to stroll among its ponds in calm.",
+   "i": "los jardines románticos y los parques tranquilos",
+   "i_en": "romantic gardens and quiet parks"
+  },
+  "jardines_de_cecilio_rodriguez": {
+   "id": "jardines_de_cecilio_rodriguez",
+   "d": "Un rincón de aire andaluz dentro del Retiro, con setos recortados, fuentes y pavos reales paseando a sus anchas. Su trazado ordenado invita a un paseo sereno y elegante.",
+   "d_en": "An Andalusian-flavoured corner within the Retiro, with clipped hedges, fountains and peacocks roaming freely. Its orderly layout invites a serene, elegant stroll.",
+   "h": "A media mañana, cuando los pavos reales pasean por los setos.",
+   "h_en": "Mid-morning, when the peacocks wander among the hedges.",
+   "i": "los jardines de estilo andaluz y los rincones tranquilos",
+   "i_en": "Andalusian-style gardens and peaceful corners"
+  },
+  "parque_de_atenas": {
+   "id": "parque_de_atenas",
+   "d": "Un mirador verde a los pies del Palacio Real, salpicado de estatuas y asomado al Manzanares. Sus laderas ofrecen una perspectiva distinta y tranquila del entorno del palacio.",
+   "d_en": "A green viewpoint at the foot of the Royal Palace, dotted with statues and overlooking the Manzanares. Its slopes offer a different, quiet perspective of the palace surroundings.",
+   "h": "Al atardecer, cuando el palacio se recorta sobre el cielo.",
+   "h_en": "At sunset, when the palace is silhouetted against the sky.",
+   "i": "los miradores ajardinados y los paseos tranquilos",
+   "i_en": "landscaped viewpoints and quiet walks"
+  }
+ },
+ "food": {
+  "mercado_de_san_miguel": {
+   "cuisine": "Mercado gastronómico",
+   "price": "20–40 €",
+   "hours": "10:00–24:00"
+  },
+  "chocolateria_san_gines": {
+   "cuisine": "Chocolatería",
+   "price": "5–12 €",
+   "hours": "08:00–24:00"
+  },
+  "sobrino_de_botin": {
+   "cuisine": "Asador",
+   "price": "40–60 €",
+   "hours": "13:00–16:00 · 20:00–23:30"
+  },
+  "mercado_de_san_anton": {
+   "cuisine": "Mercado gastronómico",
+   "price": "15–35 €",
+   "hours": "10:00–24:00"
+  },
+  "casa_labra": {
+   "cuisine": "Taberna",
+   "price": "10–25 €",
+   "hours": "11:00–15:30 · 18:00–23:00"
+  },
+  "lhardy": {
+   "cuisine": "Cocina madrileña",
+   "price": "50–80 €",
+   "hours": "13:00–15:30 · 20:30–23:00"
+  },
+  "cafe_gijon": {
+   "cuisine": "Café histórico",
+   "price": "20–40 €",
+   "hours": "09:00–24:00"
+  },
+  "casa_lucio": {
+   "cuisine": "Cocina madrileña",
+   "price": "40–60 €",
+   "hours": "13:00–16:00 · 20:00–24:00"
+  },
+  "la_venencia": {
+   "cuisine": "Taberna",
+   "price": "10–20 €",
+   "hours": "12:00–15:30 · 19:00–01:30"
+  },
+  "mercado_de_san_fernando": {
+   "cuisine": "Mercado gastronómico",
+   "price": "10–25 €",
+   "hours": "09:00–22:00"
+  },
+  "taberna_la_bola": {
+   "cuisine": "Cocina madrileña",
+   "price": "25–40 €",
+   "hours": "13:00–16:00 · 20:30–23:00"
+  },
+  "mercado_de_la_paz": {
+   "cuisine": "Mercado gastronómico",
+   "price": "10–25 €",
+   "hours": "09:00–20:00"
+  },
+  "casa_mingo": {
+   "cuisine": "Sidrería",
+   "price": "15–25 €",
+   "hours": "11:00–23:30"
+  },
+  "bodega_de_la_ardosa": {
+   "cuisine": "Taberna",
+   "price": "10–25 €",
+   "hours": "12:00–16:00 · 19:00–01:30"
+  },
+  "museo_chicote": {
+   "cuisine": "Coctelería",
+   "price": "15–35 €",
+   "hours": "17:00–03:00"
+  },
+  "cerveceria_alemana": {
+   "cuisine": "Cervecería",
+   "price": "15–30 €",
+   "hours": "11:00–24:00"
+  },
+  "pasteleria_la_mallorquina": {
+   "cuisine": "Pastelería",
+   "price": "5–15 €",
+   "hours": "09:00–21:00"
+  },
+  "la_casa_del_abuelo": {
+   "cuisine": "Tapas",
+   "price": "15–30 €",
+   "hours": "12:00–24:00"
+  },
+  "los_galayos": {
+   "cuisine": "Cocina madrileña",
+   "price": "30–50 €",
+   "hours": "12:00–16:30 · 19:00–23:30"
+  },
+  "mercado_de_la_cebada": {
+   "cuisine": "Mercado gastronómico",
+   "price": "10–25 €",
+   "hours": "09:00–14:00 · 17:00–20:00"
+  },
+  "mercado_de_anton_martin": {
+   "cuisine": "Mercado gastronómico",
+   "price": "10–25 €",
+   "hours": "09:00–21:00"
+  },
+  "casa_julio": {
+   "cuisine": "Croquetas",
+   "price": "10–20 €",
+   "hours": "13:00–16:00 · 19:00–23:00"
+  },
+  "taberna_de_angel_sierra": {
+   "cuisine": "Taberna",
+   "price": "10–25 €",
+   "hours": "12:00–01:30"
+  },
+  "bar_cock": {
+   "cuisine": "Coctelería",
+   "price": "15–35 €",
+   "hours": "19:00–02:30"
+  },
+  "taberna_antonio_sanchez": {
+   "cuisine": "Taberna",
+   "price": "20–35 €",
+   "hours": "12:00–16:00 · 20:00–24:00"
+  },
+  "casa_gonzalez": {
+   "cuisine": "Taberna",
+   "price": "15–30 €",
+   "hours": "09:00–24:00"
+  },
+  "antigua_pasteleria_del_pozo": {
+   "cuisine": "Pastelería",
+   "price": "5–15 €",
+   "hours": "09:30–14:00 · 17:00–20:00"
+  },
+  "casa_toni": {
+   "cuisine": "Tapas",
+   "price": "10–25 €",
+   "hours": "12:00–16:00 · 19:00–23:30"
+  },
+  "malacatin": {
+   "cuisine": "Cocina madrileña",
+   "price": "25–40 €",
+   "hours": "11:00–17:30 · 20:00–23:00"
+  },
+  "mercado_de_vallehermoso": {
+   "cuisine": "Mercado gastronómico",
+   "price": "10–25 €",
+   "hours": "09:00–22:00"
+  }
+ },
+ "photo": {},
+ "souvenirs": [
+  {
+   "city": "Madrid centro (Sol y Gran Vía)",
+   "items": [
+    {
+     "name": "Abanico pintado a mano",
+     "price": "12–25 €",
+     "desc": "Complemento clásico español, ideal como regalo elegante."
+    },
+    {
+     "name": "Imán o figura del oso y el madroño",
+     "price": "6–14 €",
+     "desc": "El símbolo de Madrid, en versión de bolsillo."
+    },
+    {
+     "name": "Camiseta o taza del metro de Madrid",
+     "price": "8–15 €",
+     "desc": "Un guiño con encanto a la ciudad."
+    }
+   ],
+   "shops": [
+    "Casa de Diego (abanicos, Puerta del Sol)",
+    "Tiendas de Gran Vía",
+    "El Corte Inglés de Callao"
+   ]
+  },
+  {
+   "city": "Barrio de las Letras y los museos",
+   "items": [
+    {
+     "name": "Lámina de Las Meninas o la Maja",
+     "price": "10–20 €",
+     "desc": "Reproducción de las joyas del Museo del Prado."
+    },
+    {
+     "name": "Recuerdo del Guernica",
+     "price": "8–18 €",
+     "desc": "Postal, marcapáginas o cuaderno de la tienda del Reina Sofía."
+    },
+    {
+     "name": "Cuaderno o pluma del Barrio de las Letras",
+     "price": "6–14 €",
+     "desc": "Homenaje a Cervantes y el Siglo de Oro."
+    }
+   ],
+   "shops": [
+    "Tienda del Museo del Prado",
+    "Tienda del Reina Sofía",
+    "Librerías de la calle Huertas"
+   ]
+  },
+  {
+   "city": "La Latina y El Rastro",
+   "items": [
+    {
+     "name": "Cerámica de Talavera (plato o azulejo)",
+     "price": "10–25 €",
+     "desc": "Artesanía tradicional pintada a mano."
+    },
+    {
+     "name": "Antigüedad o vinilo del Rastro",
+     "price": "5–20 €",
+     "desc": "Un hallazgo del mercadillo de los domingos."
+    },
+    {
+     "name": "Botijo o cacharro de barro",
+     "price": "8–18 €",
+     "desc": "Un clásico castizo para la casa."
+    }
+   ],
+   "shops": [
+    "El Rastro (domingos, Ribera de Curtidores)",
+    "Tiendas de cerámica de La Latina",
+    "Plaza de Cascorro"
+   ]
+  },
+  {
+   "city": "Sabores de Madrid",
+   "items": [
+    {
+     "name": "Caja de rosquillas o pastas artesanas",
+     "price": "6–15 €",
+     "desc": "Dulce tradicional para llevar a casa."
+    },
+    {
+     "name": "Caramelos de violeta",
+     "price": "5–12 €",
+     "desc": "Las famosas violetas de la confitería La Violeta, junto a Sol."
+    },
+    {
+     "name": "Botella de vermut de Madrid",
+     "price": "8–16 €",
+     "desc": "Para la hora del aperitivo en casa."
+    }
+   ],
+   "shops": [
+    "La Violeta (Plaza de Canalejas)",
+    "Mercado de San Miguel",
+    "Casa Mira (Carrera de San Jerónimo)"
+   ]
+  },
+  {
+   "city": "Fútbol y ciudad",
+   "items": [
+    {
+     "name": "Bufanda o camiseta del Real Madrid o el Atlético",
+     "price": "15–35 €",
+     "desc": "El regalo estrella para los aficionados."
+    },
+    {
+     "name": "Recuerdo del Bernabéu o el Metropolitano",
+     "price": "8–20 €",
+     "desc": "Un detalle de la visita a los grandes estadios."
+    },
+    {
+     "name": "Llavero o taza con la Cibeles o la Gran Vía",
+     "price": "5–12 €",
+     "desc": "Un recuerdo sencillo de los iconos de la ciudad."
+    }
+   ],
+   "shops": [
+    "Tienda oficial del Santiago Bernabéu",
+    "Tienda del Metropolitano",
+    "Tiendas de recuerdos de Gran Vía"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Madrid se mueve de maravilla en metro; con la centro-ciudad a pie tienes casi todo lo esencial cerca.",
+   "Reserva online el Museo del Prado, el Reina Sofía y el Palacio Real para evitar colas, sobre todo en fin de semana.",
+   "Aprovecha las horas gratis de los museos (última franja de la tarde) y el Retiro para descansar entre visitas.",
+   "En verano el centro aprieta de calor; madruga para las visitas y deja las terrazas y azoteas para el atardecer.",
+   "Para excursiones cercanas, El Escorial, Aranjuez y Alcalá de Henares se hacen en el día en tren de Cercanías."
+  ],
+  "en": [
+   "Madrid is easy to get around by metro; with the city centre on foot you have almost everything essential nearby.",
+   "Book the Prado, Reina Sofía and Royal Palace online to skip queues, especially at weekends.",
+   "Take advantage of the museums' free hours (late afternoon) and the Retiro park to rest between visits.",
+   "In summer the centre gets hot; sightsee early and save the terraces and rooftops for sunset.",
+   "For nearby day trips, El Escorial, Aranjuez and Alcalá de Henares are easy by Cercanías train."
+  ]
+ },
+ "climate": {
+  "hi": [
+   10,
+   12,
+   16,
+   18,
+   22,
+   28,
+   32,
+   32,
+   27,
+   20,
+   14,
+   10
+  ],
+  "lo": [
+   2,
+   3,
+   5,
+   7,
+   11,
+   16,
+   19,
+   19,
+   15,
+   10,
+   5,
+   2
+  ]
+ },
+ "tr": {
+  "El kilómetro cero de España, corazón palpitante de Madrid y punto de encuentro de todos.": "The kilómetro cero of Spain, the beating heart of Madrid and everyone's meeting point.",
+  "Grandiosa plaza porticada del Madrid de los Austrias, testigo de fiestas y mercados desde 1620.": "A grand arcaded square in the Madrid de los Austrias, witness to festivals and markets since 1620.",
+  "El mayor museo de pintura del mundo, con Velázquez y Goya bajo un mismo techo.": "The greatest painting museum in the world, with Velázquez and Goya under one roof.",
+  "El palacio real más grande de Europa occidental, entre salones dorados y jardines.": "The largest royal palace in Western Europe, amid gilded halls and gardens.",
+  "El pulmón verde de Madrid, con su estanque, el Palacio de Cristal y paseos infinitos.": "The green lung of Madrid, with its pond, the Palacio de Cristal and endless walks.",
+  "La avenida más vibrante de Madrid, con cines, teatros y arquitectura de principios del XX.": "Madrid's most vibrant avenue, with cinemas, theaters and early 20th-century architecture.",
+  "Un templo egipcio milenario que regala los atardeceres más bellos de Madrid.": "A thousand-year-old Egyptian temple that offers the most beautiful sunsets in Madrid.",
+  "Mercado gastronómico de hierro y cristal donde picar tapas y probar lo mejor de España.": "A gourmet market of iron and glass where you can nibble on tapas and sample the best of Spain.",
+  "La fuente más emblemática de Madrid, donde el Real celebra sus títulos.": "Madrid's most iconic fountain, where Real Madrid celebrates its titles.",
+  "Majestuoso arco neoclásico que un día fue puerta de entrada a la ciudad.": "A majestic neoclassical arch that was once the gateway into the city.",
+  "Hogar del Guernica de Picasso y del mejor arte contemporáneo español.": "Home to Picasso's Guernica and the finest Spanish contemporary art.",
+  "La catedral de Madrid, frente al Palacio Real, con cripta neorrománica y cúpulas coloridas.": "The cathedral of Madrid, facing the Palacio Real, with a neo-Romanesque crypt and colorful domes.",
+  "Ocho siglos de pintura europea, de los primitivos al pop, en el Paseo del Arte.": "Eight centuries of European painting, from the primitives to pop, on the Paseo del Arte.",
+  "Templo del chocolate con churros desde 1894, abierto casi a cualquier hora.": "A temple of chocolate con churros since 1894, open at almost any hour.",
+  "El mítico coliseo del Real Madrid, renovado y espectacular a cualquier hora.": "The legendary coliseum of Real Madrid, renovated and spectacular at any hour.",
+  "La catedral del toreo, joya neomudéjar y templo de la fiesta nacional.": "The cathedral of bullfighting, a neo-Mudéjar jewel and temple of the fiesta nacional.",
+  "El restaurante más antiguo del mundo, famoso por su cochinillo asado desde 1725.": "The oldest restaurant in the world, famous for its roast cochinillo since 1725.",
+  "El mercadillo dominical más famoso de Madrid, un mar de puestos y antigüedades.": "Madrid's most famous Sunday flea market, a sea of stalls and antiques.",
+  "Amplia plaza renovada a los pies de rascacielos históricos y del monumento a Cervantes.": "A broad, renovated square at the foot of historic skyscrapers and the monument to Cervantes.",
+  "El gran teatro de ópera de Madrid, frente al Palacio, con una programación de primer nivel.": "Madrid's great opera house, facing the Palacio, with a world-class program.",
+  "Un remanso de paz junto al Prado, con miles de especies de todo el planeta.": "A haven of peace next to the Prado, with thousands of species from all over the planet.",
+  "Jardines de estilo neoclásico junto al Palacio Real, perfectos al atardecer.": "Neoclassical-style gardens beside the Palacio Real, perfect at sunset.",
+  "La azotea con las mejores vistas del centro, cóctel en mano sobre los tejados de Madrid.": "The rooftop with the best views of the center, cocktail in hand above the rooftops of Madrid.",
+  "Mercado moderno en pleno Chueca, con tapas, terraza en la azotea y ambiente animado.": "A modern market in the heart of Chueca, with tapas, a rooftop terrace and a lively atmosphere.",
+  "Basílica de cúpula colosal que atesora pinturas de Goya y Zurbarán.": "A basilica with a colossal dome that treasures paintings by Goya and Zurbarán.",
+  "Un largo parque a orillas del Manzanares para pasear, correr o cruzar puentes históricos.": "A long park along the banks of the Manzanares for strolling, running or crossing historic bridges.",
+  "El barrio de Cervantes y Lope de Vega, de calles literarias y tabernas con solera.": "The neighborhood of Cervantes and Lope de Vega, of literary streets and time-honored taverns.",
+  "Taberna histórica de 1860 famosa por sus croquetas y su bacalao rebozado.": "A historic tavern from 1860 famous for its croquetas and battered bacalao.",
+  "Elegante casa de comidas desde 1839, célebre por su cocido y su consomé.": "An elegant eating house since 1839, renowned for its cocido and its consommé.",
+  "La casa-museo del pintor de la luz, con jardines andaluces y obras luminosas.": "The house-museum of the painter of light, with Andalusian gardens and luminous works.",
+  "Centro cultural de exposiciones coronado por un espectacular jardín vertical.": "A cultural exhibition center crowned by a spectacular vertical garden.",
+  "El tablao flamenco más famoso del mundo, donde el arte jondo se vive en directo.": "The most famous flamenco tablao in the world, where the arte jondo is experienced live.",
+  "Mirador a 92 metros con vistas panorámicas de todo Madrid y la sierra.": "A viewpoint 92 meters up with panoramic views of all of Madrid and the sierra.",
+  "Un vuelo sobre la ciudad desde el Parque del Oeste hasta la Casa de Campo.": "A flight over the city from the Parque del Oeste to the Casa de Campo.",
+  "Café literario de 1888, testigo de tertulias de escritores y bohemios.": "A literary café from 1888, witness to the gatherings of writers and bohemians.",
+  "Una de las plazas más antiguas y con encanto del viejo Madrid.": "One of the oldest and most charming squares of old Madrid.",
+  "Mesón de la Cava Baja célebre por sus huevos estrellados y su ambiente castizo.": "A Cava Baja tavern renowned for its huevos estrellados and its castizo atmosphere.",
+  "Pequeña ermita con la cúpula pintada al fresco por Goya, aquí enterrado.": "A small chapel with a dome frescoed by Goya, who is buried here.",
+  "Cuna de la Movida y epicentro del ocio nocturno, alternativo y bohemio.": "The cradle of the Movida and epicenter of nightlife, alternative and bohemian.",
+  "Histórica estación con un exuberante jardín tropical bajo su antigua marquesina.": "A historic station with a lush tropical garden beneath its old canopy.",
+  "Bar de vinos de Jerez detenido en el tiempo, sin fotos y con mucha historia.": "A Jerez wine bar frozen in time, no photos allowed and full of history.",
+  "Parque ondulado con una preciosa rosaleda y rincones para perderse.": "A rolling park with a lovely rose garden and corners to get lost in.",
+  "Uno de los edificios más fotografiados de Madrid, coronado por su Victoria alada.": "One of the most photographed buildings in Madrid, crowned by its winged Victory.",
+  "Mercado con alma de barrio en Lavapiés, multicultural y lleno de propuestas.": "A market with neighborhood soul in Lavapiés, multicultural and full of offerings.",
+  "El mayor parque de Madrid, con lago, teleférico y kilómetros de naturaleza.": "The largest park in Madrid, with a lake, a cable car and kilometers of nature.",
+  "Taberna centenaria donde el cocido madrileño se cuece a fuego lento en puchero.": "A century-old tavern where cocido madrileño simmers slowly in the pot.",
+  "El mercado gourmet del barrio de Salamanca, famoso por su tortilla de patatas.": "The gourmet market of the barrio de Salamanca, famous for its tortilla de patatas.",
+  "Sidrería asturiana centenaria de pollo asado y sidra junto al Manzanares.": "A century-old Asturian cider house serving roast chicken and cider beside the Manzanares.",
+  "Bodega de 1892 en Malasaña, célebre por su vermú, salmorejo y tortilla.": "An 1892 tavern in Malasaña, renowned for its vermú, salmorejo and tortilla.",
+  "Un jardín romántico secreto y exquisito, el más bello y desconocido de Madrid.": "A secret and exquisite romantic garden, the most beautiful and least known in Madrid.",
+  "Un pabellón de cristal y hierro que flota junto a un estanque en el corazón del Retiro.": "A pavilion of glass and iron that floats beside a pond in the heart of the Retiro.",
+  "Jardines señoriales con estatuas de reyes entre el Palacio Real y el Teatro Real.": "Stately gardens with statues of kings between the Palacio Real and the Teatro Real.",
+  "Un palacio de cuento coronado por un mirador con las mejores vistas del centro.": "A fairy-tale palace crowned by a lookout with the best views of the center.",
+  "Un viaje por Iberia desde la prehistoria hasta la Dama de Elche en pleno Salamanca.": "A journey through Iberia from prehistory to the Dama de Elche, right in the heart of Salamanca.",
+  "El corazón bullicioso del Barrio de las Letras, entre terrazas y tabernas centenarias.": "The bustling heart of the Barrio de las Letras, among terraces and century-old taverns.",
+  "Casetas de libreros de viejo que descienden hacia el Retiro buscando su tesoro.": "Stalls of secondhand booksellers descending toward the Retiro in search of their treasure.",
+  "La coctelería más legendaria de la Gran Vía, refugio de artistas y estrellas de cine.": "The most legendary cocktail bar on the Gran Vía, refuge of artists and movie stars.",
+  "Cañas bien tiradas en mármol y madera donde Hemingway tenía su mesa favorita.": "Perfectly poured cañas amid marble and wood, where Hemingway had his favorite table.",
+  "Napolitanas calientes y aroma dulce junto a la Puerta del Sol desde 1894.": "Warm napolitanas and a sweet aroma next to the Puerta del Sol since 1894.",
+  "Un monasterio secreto lleno de tapices y tesoros a un paso de la Puerta del Sol.": "A secret monastery full of tapestries and treasures a step from the Puerta del Sol.",
+  "Una pinacoteca íntima con Goyas, El Greco y Zurbarán casi para ti solo.": "An intimate art gallery with works by Goya, El Greco and Zurbarán almost all to yourself.",
+  "Antiguo matadero de ladrillo hoy convertido en vibrante fábrica de creación cultural.": "A former brick slaughterhouse now turned into a vibrant factory of cultural creation.",
+  "Un teatro decimonónico transformado en la discoteca más mítica del centro.": "A nineteenth-century theater transformed into the most legendary nightclub in the center.",
+  "El gran templo de los conciertos y del baloncesto en el barrio de Goya.": "The great temple of concerts and basketball in the barrio de Goya.",
+  "Gambas al ajillo chisporroteando y vino dulce en una taberna de 1906.": "Sizzling gambas al ajillo and sweet wine in a tavern from 1906.",
+  "Un palacete rebosante de joyas, marfiles y pinturas de un coleccionista genial.": "A small palace brimming with jewels, ivories and paintings from a brilliant collector.",
+  "Una casa-palacio del siglo XIX intacta, con salón de baile y luz de araña.": "An untouched 19th-century palatial house, with a ballroom and chandelier light.",
+  "Cochinillo y terraza soñada bajo los soportales de la Plaza Mayor desde 1894.": "Cochinillo and a dream terrace beneath the arcades of the Plaza Mayor since 1894.",
+  "Puestos de pescado y marisco fresco en el mercado más castizo de La Latina.": "Stalls of fresh fish and seafood in the most castizo market of La Latina.",
+  "Un palacete que recrea la vida romántica del XIX, con jardín y café de época.": "A small palace that recreates the romantic life of the 19th century, with a garden and a period café.",
+  "El escenario que guarda el alma del género lírico más español, la zarzuela.": "The stage that keeps the soul of the most Spanish of lyric genres, the zarzuela.",
+  "Los Jerónimos, templo gótico de reyes coronados junto al Museo del Prado.": "Los Jerónimos, a Gothic temple of crowned kings beside the Museo del Prado.",
+  "Un cine modernista de 1912 donde el cine clásico sigue proyectándose cada noche.": "An Art Nouveau cinema from 1912 where classic films are still screened every night.",
+  "El último gran arco triunfal de Madrid, guardián del viejo camino del sur.": "The last great triumphal arch of Madrid, guardian of the old road to the south.",
+  "Mercado de barrio en Lavapiés que mezcla puestos de toda la vida y cocina joven.": "A neighborhood market in Lavapiés that blends lifelong stalls with young cuisine.",
+  "Maquetas, mapas y el primer plano de América en el Paseo del Prado.": "Models, maps and the first map of America on the Paseo del Prado.",
+  "Las croquetas más famosas de Malasaña en un bar minúsculo de culto.": "The most famous croquetas in Malasaña in a tiny cult bar.",
+  "Un balcón verde sobre la sierra donde Madrid se despide del sol cada tarde.": "A green balcony over the sierra where Madrid bids the sun farewell every evening.",
+  "La escena viva más antigua de Madrid, presidiendo la Plaza de Santa Ana.": "The oldest living stage in Madrid, presiding over the Plaza de Santa Ana.",
+  "Un puente barroco de nueve arcos que salta el Manzanares en Madrid Río.": "A Baroque bridge of nine arches that leaps over the Manzanares at Madrid Río.",
+  "Vermut de grifo y azulejos de 1917 asomados a la animada Plaza de Chueca.": "Vermouth on tap and tiles from 1917 overlooking the lively Plaza de Chueca.",
+  "Santuario mariano muy querido por los madrileños junto al Panteón de Hombres Ilustres.": "A Marian sanctuary much beloved by madrileños beside the Panteón de Hombres Ilustres.",
+  "Coctelería de penumbra y madera noble, refugio nocturno de la movida madrileña.": "A cocktail bar of dim light and fine wood, a nighttime refuge of the movida madrileña.",
+  "Tras una espectacular portada barroca, la historia de la villa siglo a siglo.": "Behind a spectacular Baroque façade, the history of the city century by century.",
+  "Una de las tabernas más antiguas de Madrid, con aire taurino y rabo de toro.": "One of the oldest taverns in Madrid, with a bullfighting air and rabo de toro.",
+  "Esqueletos de dinosaurios y fauna del planeta para asombrar a grandes y pequeños.": "Dinosaur skeletons and the planet's wildlife to amaze young and old alike.",
+  "Un remanso verde bajo la gran bandera de España y los monumentos a Colón.": "A green haven beneath the great flag of Spain and the monuments to Colón.",
+  "Colmado y vinoteca de 1931 donde catar quesos y embutidos con una copa.": "A grocer and wine bar from 1931 where you can taste cheeses and cured meats over a glass.",
+  "Telares centenarios que aún tejen a mano los tapices soñados por Goya.": "Century-old looms that still weave by hand the tapestries dreamed up by Goya.",
+  "Un mar de almendros en flor que tiñe de rosa la ciudad cada febrero.": "A sea of almond trees in bloom that tints the city pink every February.",
+  "La confitería más antigua de Madrid, dulce cápsula del tiempo desde 1830.": "The oldest confectionery in Madrid, a sweet time capsule since 1830.",
+  "Conciertos íntimos y sesiones indie en un club de referencia junto a Gran Vía.": "Intimate concerts and indie sessions in a landmark club next to Gran Vía.",
+  "Casquería castiza y oreja a la plancha en una barra bulliciosa del centro.": "Castizo offal and grilled oreja at a bustling bar in the center.",
+  "Fuentes, chorros y auténticos trozos del Muro de Berlín entre sus paseos.": "Fountains, water jets and authentic pieces of the Berlin Wall among its paths.",
+  "El cocido madrileño de siempre en una taberna familiar de La Latina desde 1895.": "The classic cocido madrileño in a family tavern in La Latina since 1895.",
+  "Cuna de la movida madrileña, sala de conciertos legendaria desde 1979.": "Cradle of the movida madrileña, a legendary concert hall since 1979.",
+  "El mercado gastronómico favorito de Chamberí, entre puestos de cocina de autor.": "The favorite gourmet market of Chamberí, among stalls of signature cuisine.",
+  "Un jardín romántico de estanques, pavos reales y rincones escondidos.": "A romantic garden of ponds, peacocks and hidden corners.",
+  "Un rincón andaluz del Retiro con setos, fuentes y pavos reales paseando.": "An Andalusian corner of the Retiro with hedges, fountains and peacocks strolling about.",
+  "Un mirador verde a los pies del Palacio Real, entre estatuas y el Manzanares.": "A green lookout at the foot of the Palacio Real, among statues and the Manzanares.",
+  "Madrid centro (Sol y Gran Vía)": "Central Madrid (Sol & Gran Vía)",
+  "Barrio de las Letras y los museos": "Barrio de las Letras & the museums",
+  "La Latina y El Rastro": "La Latina & El Rastro",
+  "Sabores de Madrid": "Flavors of Madrid",
+  "Fútbol y ciudad": "Football & the city"
+ }
+}

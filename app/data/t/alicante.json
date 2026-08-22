@@ -1,0 +1,739 @@
+{
+ "id": "alicante",
+ "name": "Alicante",
+ "country": "ES",
+ "center": [
+  38.3452,
+  -0.481
+ ],
+ "pois": [
+  {
+   "id": "cva_santa_barbara",
+   "cat": "monuments",
+   "name": "Castillo de Santa Bárbara",
+   "icon": "🏰",
+   "lat": 38.3486,
+   "lng": -0.4769,
+   "desc": "Fortaleza sobre el monte Benacantil con vistas a toda la bahía."
+  },
+  {
+   "id": "cva_explanada",
+   "cat": "monuments",
+   "name": "Explanada de España",
+   "icon": "🌴",
+   "lat": 38.344,
+   "lng": -0.4817,
+   "desc": "Paseo emblemático de mosaico ondulado junto al puerto."
+  },
+  {
+   "id": "cva_santa_cruz",
+   "cat": "monuments",
+   "name": "Barrio de Santa Cruz",
+   "icon": "🏘️",
+   "lat": 38.3479,
+   "lng": -0.4785,
+   "desc": "Casco antiguo de callejuelas blancas y flores a los pies del castillo."
+  },
+  {
+   "id": "cva_marq",
+   "cat": "monuments",
+   "name": "MARQ - Museo Arqueológico de Alicante",
+   "icon": "🏛️",
+   "lat": 38.3536,
+   "lng": -0.4718,
+   "desc": "Museo arqueológico premiado con montajes muy inmersivos."
+  },
+  {
+   "id": "cva_santa_maria_elche",
+   "cat": "monuments",
+   "name": "Basílica de Santa María de Elche",
+   "icon": "⛪",
+   "lat": 38.268,
+   "lng": -0.6994,
+   "desc": "Basílica barroca donde se representa el Misteri d'Elx."
+  },
+  {
+   "id": "cva_guadalest",
+   "cat": "monuments",
+   "name": "Castillo de Guadalest (Castell de la Alcozaiba)",
+   "icon": "🏰",
+   "lat": 38.6743,
+   "lng": -0.1918,
+   "desc": "Castillo colgado en la roca sobre el pueblo y su embalse turquesa."
+  },
+  {
+   "id": "cva_denia_castillo",
+   "cat": "monuments",
+   "name": "Castillo de Dénia",
+   "icon": "🏰",
+   "lat": 38.8409,
+   "lng": -0.1062,
+   "desc": "Fortaleza histórica que domina la ciudad y el puerto de Dénia."
+  },
+  {
+   "id": "cva_altea_iglesia",
+   "cat": "monuments",
+   "name": "Iglesia de Nuestra Señora del Consuelo (Altea)",
+   "icon": "⛪",
+   "lat": 38.5987,
+   "lng": -0.051,
+   "desc": "La icónica iglesia de cúpulas azules en lo alto de Altea."
+  },
+  {
+   "id": "cva_santa_pola_castillo",
+   "cat": "monuments",
+   "name": "Castillo-Fortaleza de Santa Pola",
+   "icon": "🏰",
+   "lat": 38.1913,
+   "lng": -0.5554,
+   "desc": "Fortaleza renacentista del siglo XVI en el centro de Santa Pola."
+  },
+  {
+   "id": "cva_ifach",
+   "cat": "nature",
+   "name": "Peñón de Ifach",
+   "icon": "🪨",
+   "lat": 38.6333,
+   "lng": 0.0727,
+   "desc": "Gran peñón calizo de 332 m que se adentra en el mar en Calpe."
+  },
+  {
+   "id": "cva_palmeral",
+   "cat": "nature",
+   "name": "Palmeral de Elche",
+   "icon": "🌴",
+   "lat": 38.2683,
+   "lng": -0.6923,
+   "desc": "El mayor palmeral de Europa, Patrimonio de la Humanidad."
+  },
+  {
+   "id": "cva_huerto_cura",
+   "cat": "nature",
+   "name": "Huerto del Cura",
+   "icon": "🌿",
+   "lat": 38.2662,
+   "lng": -0.6976,
+   "desc": "Jardín artístico con la célebre Palmera Imperial de siete brazos."
+  },
+  {
+   "id": "cva_postiguet",
+   "cat": "nature",
+   "name": "Playa del Postiguet",
+   "icon": "🏖️",
+   "lat": 38.3465,
+   "lng": -0.4773,
+   "desc": "La playa urbana de Alicante, a los pies del castillo."
+  },
+  {
+   "id": "cva_levante",
+   "cat": "nature",
+   "name": "Playa de Levante (Benidorm)",
+   "icon": "🏖️",
+   "lat": 38.5391,
+   "lng": -0.125,
+   "desc": "La playa más animada de Benidorm, con rascacielos de fondo."
+  },
+  {
+   "id": "cva_poniente",
+   "cat": "nature",
+   "name": "Playa de Poniente (Benidorm)",
+   "icon": "🏖️",
+   "lat": 38.5341,
+   "lng": -0.1498,
+   "desc": "La playa más amplia y familiar de Benidorm."
+  },
+  {
+   "id": "cva_salinas_torrevieja",
+   "cat": "nature",
+   "name": "Salinas de Torrevieja (Laguna Rosa)",
+   "icon": "🌸",
+   "lat": 38.0057,
+   "lng": -0.7031,
+   "desc": "Laguna salada de agua rosa y flamencos, escenario surrealista."
+  },
+  {
+   "id": "cva_tabarca",
+   "cat": "nature",
+   "name": "Isla de Tabarca",
+   "icon": "🏝️",
+   "lat": 38.1656,
+   "lng": -0.4717,
+   "desc": "Única isla habitada de la Comunidad Valenciana y reserva marina."
+  },
+  {
+   "id": "cva_algar",
+   "cat": "nature",
+   "name": "Les Fonts de l'Algar",
+   "icon": "💦",
+   "lat": 38.6633,
+   "lng": -0.1268,
+   "desc": "Cascadas y pozas turquesa para el baño en plena montaña."
+  },
+  {
+   "id": "cva_terra_mitica",
+   "cat": "ocio",
+   "name": "Terra Mítica",
+   "icon": "🎢",
+   "lat": 38.5452,
+   "lng": -0.0985,
+   "desc": "Gran parque temático de las civilizaciones antiguas."
+  },
+  {
+   "id": "cva_balcon",
+   "cat": "ocio",
+   "name": "Balcón del Mediterráneo (Benidorm)",
+   "icon": "🌅",
+   "lat": 38.5348,
+   "lng": -0.1305,
+   "desc": "Mirador icónico entre las dos playas de Benidorm."
+  },
+  {
+   "id": "cva_valor",
+   "cat": "ocio",
+   "name": "Museo del Chocolate Valor (Villajoyosa)",
+   "icon": "🍫",
+   "lat": 38.5079,
+   "lng": -0.2326,
+   "desc": "Museo del chocolate de la histórica fábrica Valor."
+  },
+  {
+   "id": "cva_villajoyosa_casas",
+   "cat": "ocio",
+   "name": "Casas de colores de Villajoyosa",
+   "icon": "🎨",
+   "lat": 38.5056,
+   "lng": -0.2336,
+   "desc": "Fachadas de colores vivos junto al mar en el casco antiguo."
+  },
+  {
+   "id": "cva_misteri",
+   "cat": "ocio",
+   "name": "Misteri d'Elx",
+   "icon": "🎭",
+   "lat": 38.2679,
+   "lng": -0.6995,
+   "desc": "Drama sacro cantado del siglo XV, Patrimonio de la Humanidad."
+  },
+  {
+   "id": "cva_isla_benidorm",
+   "cat": "ocio",
+   "name": "Isla de Benidorm",
+   "icon": "🚤",
+   "lat": 38.5013,
+   "lng": -0.1248,
+   "desc": "Islote frente a Benidorm, ideal para excursión en barco y snorkel."
+  },
+  {
+   "id": "cva_granadella",
+   "cat": "ocio",
+   "name": "Cala Granadella (Xàbia)",
+   "icon": "🤿",
+   "lat": 38.7134,
+   "lng": 0.2246,
+   "desc": "Cala de aguas turquesa entre acantilados, top de la Costa Blanca."
+  },
+  {
+   "id": "cva_nou_manolin",
+   "cat": "food",
+   "name": "Nou Manolín",
+   "icon": "🍤",
+   "lat": 38.3476,
+   "lng": -0.4822,
+   "desc": "Clásico de Alicante por su barra de tapas y sus arroces."
+  },
+  {
+   "id": "cva_el_portal",
+   "cat": "food",
+   "name": "El Portal Taberna & Wines",
+   "icon": "🍷",
+   "lat": 38.3462,
+   "lng": -0.4817,
+   "desc": "Gastrobar de moda en Alicante, tapas creativas y coctelería."
+  },
+  {
+   "id": "cva_granaino",
+   "cat": "food",
+   "name": "Mesón El Granaíno",
+   "icon": "🥘",
+   "lat": 38.2676,
+   "lng": -0.7,
+   "desc": "Referente de Elche con arroces y tapas tradicionales."
+  },
+  {
+   "id": "cva_casa_elias",
+   "cat": "food",
+   "name": "Casa Elías (El Xinorlet)",
+   "icon": "🍚",
+   "lat": 38.4041,
+   "lng": -0.9073,
+   "desc": "Templo del arroz con conejo y caracoles a la leña."
+  },
+  {
+   "id": "cva_quique_dacosta",
+   "cat": "food",
+   "name": "Quique Dacosta Restaurante (Dénia)",
+   "icon": "🌟",
+   "lat": 38.8518,
+   "lng": -0.1087,
+   "desc": "Alta cocina de vanguardia con tres estrellas Michelin."
+  },
+  {
+   "id": "cva_bonamb",
+   "cat": "food",
+   "name": "BonAmb Restaurant (Xàbia)",
+   "icon": "👨‍🍳",
+   "lat": 38.76843,
+   "lng": 0.14283,
+   "desc": "Cocina mediterránea de autor con dos estrellas Michelin."
+  },
+  {
+   "id": "cva_cava_aragonesa",
+   "cat": "food",
+   "name": "La Cava Aragonesa (Benidorm)",
+   "icon": "🍢",
+   "lat": 38.5378,
+   "lng": -0.1314,
+   "desc": "Barra de pinchos y vinos de referencia en el casco antiguo."
+  }
+ ],
+ "extra": {
+  "cva_santa_barbara": {
+   "id": "cva_santa_barbara",
+   "d": "Alzada en la cima del monte Benacantil, esta fortaleza medieval de origen árabe domina Alicante desde 166 metros de altura. Sus miradores ofrecen una panorámica inmejorable del puerto, la ciudad y el Mediterráneo.",
+   "d_en": "Perched atop Mount Benacantil, this medieval fortress of Arab origin towers over Alicante from 166 metres up. Its viewpoints offer an unbeatable panorama of the port, the city and the Mediterranean.",
+   "h": "Al atardecer, para ver la ciudad iluminada",
+   "h_en": "At sunset, to see the city lit up",
+   "i": "la historia y las vistas panorámicas",
+   "i_en": "history and panoramic views"
+  },
+  "cva_explanada": {
+   "id": "cva_explanada",
+   "d": "El paseo más célebre de Alicante, formado por más de seis millones de teselas de mármol rojo, crema y negro que dibujan un ondulante mosaico. Flanqueado por palmeras, es el corazón de la vida social de la ciudad.",
+   "d_en": "Alicante's most famous promenade, made of over six million red, cream and black marble tiles forming an undulating mosaic. Lined with palm trees, it is the heart of the city's social life.",
+   "h": "Por la tarde-noche, con el paseo animado",
+   "h_en": "In the evening, when the promenade is lively",
+   "i": "pasear y el ambiente mediterráneo",
+   "i_en": "strolling and the Mediterranean atmosphere"
+  },
+  "cva_santa_cruz": {
+   "id": "cva_santa_cruz",
+   "d": "El barrio más pintoresco de Alicante, un laberinto de callejuelas empinadas con casas encaladas, macetas de flores y cruces decoradas. Sube hacia el castillo entre rincones llenos de encanto y color.",
+   "d_en": "Alicante's most picturesque quarter, a maze of steep alleys with whitewashed houses, flower pots and decorated crosses. It climbs towards the castle through corners full of charm and colour.",
+   "h": "Por la mañana, con luz suave para las fotos",
+   "h_en": "In the morning, with soft light for photos",
+   "i": "los cascos antiguos con encanto",
+   "i_en": "charming old towns"
+  },
+  "cva_marq": {
+   "id": "cva_marq",
+   "d": "Galardonado como Museo Europeo del Año, el MARQ recorre la historia de la provincia desde la prehistoria hasta la Edad Moderna con escenografías espectaculares e interactivas. Una de las mejores visitas culturales de Alicante.",
+   "d_en": "Named European Museum of the Year, the MARQ traces the province's history from prehistory to the modern age through spectacular, interactive stagings. One of Alicante's finest cultural visits.",
+   "h": "Por la mañana; ideal en días de calor",
+   "h_en": "In the morning; ideal on hot days",
+   "i": "la arqueología y la historia",
+   "i_en": "archaeology and history"
+  },
+  "cva_santa_maria_elche": {
+   "id": "cva_santa_maria_elche",
+   "d": "Imponente templo barroco levantado sobre una antigua mezquita, con una gran cúpula azul y una fachada monumental. Es el escenario del Misteri d'Elx, drama sacro medieval declarado Patrimonio de la Humanidad.",
+   "d_en": "An imposing Baroque church built over a former mosque, with a great blue dome and a monumental facade. It hosts the Misteri d'Elx, a medieval sacred drama declared a UNESCO World Heritage masterpiece.",
+   "h": "Sube a la cubierta para ver el Palmeral",
+   "h_en": "Climb to the roof for views of the Palm Grove",
+   "i": "el arte sacro y la arquitectura",
+   "i_en": "sacred art and architecture"
+  },
+  "cva_guadalest": {
+   "id": "cva_guadalest",
+   "d": "Este castillo de origen árabe corona uno de los pueblos más bonitos de España, encaramado en un peñasco al que se accede por un túnel excavado en la roca. Desde arriba, las vistas del valle y del embalse turquesa son inolvidables.",
+   "d_en": "This castle of Arab origin crowns one of Spain's prettiest villages, perched on a crag reached through a tunnel carved into the rock. From the top, the views over the valley and turquoise reservoir are unforgettable.",
+   "h": "A media mañana, antes de las multitudes",
+   "h_en": "Mid-morning, before the crowds",
+   "i": "los pueblos con encanto y las vistas",
+   "i_en": "charming villages and views"
+  },
+  "cva_denia_castillo": {
+   "id": "cva_denia_castillo",
+   "d": "Fortaleza de origen islámico que se alza sobre un cerro en pleno centro de Dénia, con murallas, portales y el Palau del Governador. Alberga el Museo Arqueológico y regala vistas del mar, el puerto y el Montgó.",
+   "d_en": "A fortress of Islamic origin rising on a hill in the heart of Dénia, with walls, gateways and the Governor's Palace. It houses the Archaeological Museum and offers views of the sea, the harbour and the Montgó.",
+   "h": "Al atardecer, con vistas al mar",
+   "h_en": "At sunset, with sea views",
+   "i": "los castillos y las vistas al mar",
+   "i_en": "castles and sea views"
+  },
+  "cva_altea_iglesia": {
+   "id": "cva_altea_iglesia",
+   "d": "Con sus cúpulas de teja azul y blanca, esta iglesia es el símbolo de Altea y una de las imágenes más fotografiadas de la Costa Blanca. Preside la plaza de la Iglesia, en lo alto del casco antiguo, frente al Mediterráneo.",
+   "d_en": "With its blue-and-white tiled domes, this church is the symbol of Altea and one of the most photographed images on the Costa Blanca. It presides over the church square at the top of the old town, facing the Mediterranean.",
+   "h": "Al atardecer, con luz dorada sobre las cúpulas",
+   "h_en": "At sunset, with golden light on the domes",
+   "i": "los pueblos blancos y la fotografía",
+   "i_en": "whitewashed villages and photography"
+  },
+  "cva_santa_pola_castillo": {
+   "id": "cva_santa_pola_castillo",
+   "d": "Robusta fortaleza del siglo XVI construida para defender la costa de los ataques berberiscos, con planta cuadrada y patio de armas. Hoy acoge museos y actividades culturales en pleno corazón de Santa Pola.",
+   "d_en": "A sturdy 16th-century fortress built to defend the coast from Barbary raids, with a square plan and parade courtyard. Today it hosts museums and cultural events in the heart of Santa Pola.",
+   "h": "Por la tarde, combinándolo con el puerto",
+   "h_en": "In the afternoon, combined with the harbour",
+   "i": "la historia costera y los museos",
+   "i_en": "coastal history and museums"
+  },
+  "cva_ifach": {
+   "id": "cva_ifach",
+   "d": "Este colosal peñón de roca caliza de 332 metros es el emblema de Calpe y el parque natural más pequeño de la Comunidad Valenciana. Un sendero, en parte por un túnel, lleva a la cima entre gaviotas y vistas de vértigo.",
+   "d_en": "This colossal 332-metre limestone rock is the emblem of Calpe and the smallest nature park in the Valencian Community. A trail, partly through a tunnel, leads to the summit amid gulls and dizzying views.",
+   "h": "Temprano por la mañana; lleva agua y calzado firme",
+   "h_en": "Early morning; bring water and sturdy shoes",
+   "i": "el senderismo y los paisajes espectaculares",
+   "i_en": "hiking and dramatic landscapes"
+  },
+  "cva_palmeral": {
+   "id": "cva_palmeral",
+   "d": "Con más de 200.000 palmeras datileras, este oasis de origen árabe es el mayor palmeral de Europa y Patrimonio de la Humanidad. Sus huertos y acequias forman un pulmón verde único en el corazón de Elche.",
+   "d_en": "With more than 200,000 date palms, this oasis of Arab origin is the largest palm grove in Europe and a UNESCO World Heritage Site. Its orchards and irrigation channels form a unique green lung in the heart of Elche.",
+   "h": "A primera hora o al atardecer, con menos calor",
+   "h_en": "Early or at dusk, when it's cooler",
+   "i": "la naturaleza y los paseos tranquilos",
+   "i_en": "nature and peaceful walks"
+  },
+  "cva_huerto_cura": {
+   "id": "cva_huerto_cura",
+   "d": "Jardín botánico y artístico dentro del Palmeral de Elche, con estanques, cactus y plantas exóticas cuidadosamente dispuestos. Su joya es la Palmera Imperial, un ejemplar único de siete brazos con más de 175 años.",
+   "d_en": "A botanical and artistic garden within Elche's Palm Grove, with ponds, cacti and exotic plants arranged with care. Its jewel is the Imperial Palm, a unique seven-armed specimen over 175 years old.",
+   "h": "Por la mañana, con luz suave entre las palmeras",
+   "h_en": "In the morning, with soft light among the palms",
+   "i": "los jardines y la botánica",
+   "i_en": "gardens and botany"
+  },
+  "cva_postiguet": {
+   "id": "cva_postiguet",
+   "d": "Playa de arena dorada en pleno centro de Alicante, con el castillo de Santa Bárbara como telón de fondo y palmeras junto al paseo. Perfecta para un baño rápido entre visita y visita a la ciudad.",
+   "d_en": "A golden-sand beach in the centre of Alicante, backed by Santa Bárbara castle and lined with palm trees. Perfect for a quick dip between sightseeing stops.",
+   "h": "Por la mañana para el baño; de noche por el ambiente",
+   "h_en": "Morning for a swim; evening for the atmosphere",
+   "i": "las playas y el sol",
+   "i_en": "beaches and sunshine"
+  },
+  "cva_levante": {
+   "id": "cva_levante",
+   "d": "Amplia playa de arena fina y aguas tranquilas que define la imagen de Benidorm, con su skyline de rascacielos y un paseo lleno de vida. Ideal para bañarse de día y salir por la zona de ocio al caer la noche.",
+   "d_en": "A wide fine-sand beach with calm waters that defines Benidorm's image, backed by its skyscraper skyline and a lively promenade. Great for swimming by day and nightlife after dark.",
+   "h": "Todo el día; muy animada en verano",
+   "h_en": "All day; very lively in summer",
+   "i": "las playas y el ambiente de ciudad",
+   "i_en": "beaches and a buzzing city vibe"
+  },
+  "cva_poniente": {
+   "id": "cva_poniente",
+   "d": "La mayor playa de Benidorm, más tranquila y familiar que Levante, con un moderno paseo marítimo ondulado de colores. Sus casi tres kilómetros de arena la hacen perfecta para largos paseos junto al mar.",
+   "d_en": "Benidorm's largest beach, calmer and more family-friendly than Levante, with a modern, wavy, colourful promenade. Its near three kilometres of sand make it perfect for long seaside walks.",
+   "h": "Por la tarde, para pasear por el paseo",
+   "h_en": "In the afternoon, for a stroll along the promenade",
+   "i": "las playas amplias y tranquilas",
+   "i_en": "wide, relaxed beaches"
+  },
+  "cva_salinas_torrevieja": {
+   "id": "cva_salinas_torrevieja",
+   "d": "Esta laguna salada adquiere un espectacular tono rosado por un alga y bacterias que viven en sus aguas hipersalinas. Rodeada de flamencos y montañas de sal, ofrece uno de los paisajes más singulares y fotografiados de la costa.",
+   "d_en": "This salt lagoon turns a spectacular pink from algae and bacteria living in its hypersaline waters. Ringed by flamingos and salt mounds, it offers one of the coast's most unusual and photographed landscapes.",
+   "h": "Al mediodía con sol, cuando el rosa es más intenso",
+   "h_en": "At midday in full sun, when the pink is most intense",
+   "i": "los paisajes únicos y la fotografía",
+   "i_en": "unique landscapes and photography"
+  },
+  "cva_tabarca": {
+   "id": "cva_tabarca",
+   "d": "Pequeña isla amurallada frente a la costa alicantina, primera reserva marina de España y paraíso del snorkel por sus aguas cristalinas. Su casco histórico de casas bajas y su gastronomía marinera completan la visita.",
+   "d_en": "A small walled island off the Alicante coast, Spain's first marine reserve and a snorkelling paradise thanks to its crystal-clear waters. Its historic centre of low houses and its seafood cuisine round off the visit.",
+   "h": "En barco desde Alicante o Santa Pola; todo el día",
+   "h_en": "By boat from Alicante or Santa Pola; a full day",
+   "i": "el snorkel y las escapadas en barco",
+   "i_en": "snorkelling and boat trips"
+  },
+  "cva_algar": {
+   "id": "cva_algar",
+   "d": "Un paraje natural protegido donde el río Algar forma una sucesión de cascadas y pozas de agua cristalina entre la vegetación. Un sendero acondicionado permite bañarse en sus refrescantes piscinas naturales.",
+   "d_en": "A protected natural spot where the Algar river forms a series of waterfalls and crystal-clear pools amid lush vegetation. A well-kept trail lets you bathe in its refreshing natural pools.",
+   "h": "Por la mañana en verano, para coger sitio",
+   "h_en": "Morning in summer, to grab a spot",
+   "i": "los baños naturales y la montaña",
+   "i_en": "wild swimming and the mountains"
+  },
+  "cva_terra_mitica": {
+   "id": "cva_terra_mitica",
+   "d": "Uno de los mayores parques temáticos de España, ambientado en las culturas del Mediterráneo antiguo: Egipto, Grecia, Roma e Iberia. Combina montañas rusas de vértigo con espectáculos y atracciones para toda la familia.",
+   "d_en": "One of Spain's largest theme parks, themed on the ancient Mediterranean cultures: Egypt, Greece, Rome and Iberia. It blends thrilling roller coasters with shows and rides for the whole family.",
+   "h": "Todo el día; mejor en temporada alta abierta",
+   "h_en": "A full day; check open season first",
+   "i": "las montañas rusas y los parques temáticos",
+   "i_en": "roller coasters and theme parks"
+  },
+  "cva_balcon": {
+   "id": "cva_balcon",
+   "d": "Situado sobre el antiguo castillo, este mirador con balaustrada blanca separa las playas de Levante y Poniente y ofrece una de las mejores panorámicas de Benidorm. Es el punto de encuentro y foto imprescindible de la ciudad.",
+   "d_en": "Set on the site of the old castle, this white-balustraded viewpoint separates Levante and Poniente beaches and offers one of Benidorm's best panoramas. It is the city's essential meeting point and photo spot.",
+   "h": "Al atardecer, con vistas al mar y la isla",
+   "h_en": "At sunset, with views of the sea and the island",
+   "i": "los miradores y las vistas al mar",
+   "i_en": "viewpoints and sea views"
+  },
+  "cva_valor": {
+   "id": "cva_valor",
+   "d": "En la localidad chocolatera de Villajoyosa, este museo recorre la historia de la marca Valor y el proceso de elaboración del chocolate con maquinaria antigua y audiovisuales. La visita termina con una degustación irresistible.",
+   "d_en": "In the chocolate-making town of Villajoyosa, this museum traces the history of the Valor brand and the chocolate-making process with vintage machinery and audiovisuals. The visit ends with an irresistible tasting.",
+   "h": "Por la mañana; entrada gratuita con reserva",
+   "h_en": "In the morning; free entry with booking",
+   "i": "el chocolate y las visitas gastronómicas",
+   "i_en": "chocolate and food experiences"
+  },
+  "cva_villajoyosa_casas": {
+   "id": "cva_villajoyosa_casas",
+   "d": "El casco histórico de Villajoyosa luce fachadas pintadas de colores intensos, una tradición marinera que ayudaba a los pescadores a distinguir sus casas desde el mar. Pasear por sus callejuelas y la ribera es un festín para la vista.",
+   "d_en": "Villajoyosa's old town shows off facades painted in vivid colours, a seafaring tradition that helped fishermen spot their homes from the sea. Wandering its alleys and riverfront is a feast for the eyes.",
+   "h": "Al mediodía, con el sol realzando los colores",
+   "h_en": "At midday, when the sun brings out the colours",
+   "i": "los pueblos coloridos y la fotografía",
+   "i_en": "colourful towns and photography"
+  },
+  "cva_misteri": {
+   "id": "cva_misteri",
+   "d": "Único drama sacro-lírico medieval que ha sobrevivido hasta hoy, se representa cada agosto en la Basílica de Santa María de Elche. Declarado Obra Maestra del Patrimonio Oral e Inmaterial de la Humanidad, sobrecoge por su música y su tramoya aérea.",
+   "d_en": "The only medieval sacred musical drama still performed today, staged each August in Elche's Basilica of Santa María. A UNESCO Masterpiece of the Oral and Intangible Heritage, it awes with its music and aerial stage machinery.",
+   "h": "En agosto (días 14-15, con ensayos previos)",
+   "h_en": "In August (14th-15th, with prior rehearsals)",
+   "i": "las tradiciones y los espectáculos únicos",
+   "i_en": "traditions and unique performances"
+  },
+  "cva_isla_benidorm": {
+   "id": "cva_isla_benidorm",
+   "d": "Pequeña isla triangular frente a la bahía de Benidorm, protegida como área natural y refugio de aves marinas. Los barcos con fondo de cristal salen desde el puerto para bañarse y hacer snorkel en sus aguas transparentes.",
+   "d_en": "A small triangular island off Benidorm's bay, protected as a natural area and a refuge for seabirds. Glass-bottom boats depart from the harbour for swimming and snorkelling in its clear waters.",
+   "h": "En barco desde el puerto; mejor por la mañana",
+   "h_en": "By boat from the harbour; best in the morning",
+   "i": "las excursiones en barco y el snorkel",
+   "i_en": "boat trips and snorkelling"
+  },
+  "cva_granadella": {
+   "id": "cva_granadella",
+   "d": "Considerada una de las mejores calas de España, la Granadella es un rincón de guijarros y aguas turquesa encajado entre acantilados y pinares en Xàbia. Un paraíso para nadar, hacer snorkel y kayak.",
+   "d_en": "Rated one of Spain's finest coves, La Granadella is a pebble-and-turquoise haven tucked between cliffs and pine woods in Xàbia. A paradise for swimming, snorkelling and kayaking.",
+   "h": "Llega temprano; el aparcamiento se llena rápido",
+   "h_en": "Arrive early; the car park fills up fast",
+   "i": "las calas escondidas y el snorkel",
+   "i_en": "hidden coves and snorkelling"
+  },
+  "cva_nou_manolin": {
+   "id": "cva_nou_manolin",
+   "d": "Institución de la cocina alicantina desde 1971, célebre por su espectacular barra de producto y sus arroces melosos. Materia prima excelsa del mar y la huerta en un ambiente elegante y bullicioso.",
+   "d_en": "An institution of Alicante cuisine since 1971, famed for its spectacular tapas bar and its creamy rice dishes. Superb produce from sea and garden in an elegant, buzzing setting.",
+   "h": "Reserva imprescindible; ideal en la barra",
+   "h_en": "Booking essential; the bar is a highlight",
+   "i": "los arroces y las tapas de producto",
+   "i_en": "rice dishes and top-produce tapas"
+  },
+  "cva_el_portal": {
+   "id": "cva_el_portal",
+   "d": "Uno de los locales más vibrantes de Alicante, con tapas de mercado, mariscos, arroces y una carta de vinos y cócteles de primer nivel. Ambiente animado hasta altas horas en pleno centro.",
+   "d_en": "One of Alicante's most vibrant venues, offering market tapas, seafood, rice dishes and a top-class wine and cocktail list. A lively atmosphere until late in the city centre.",
+   "h": "Perfecto para cenar y tomar copas",
+   "h_en": "Perfect for dinner and drinks",
+   "i": "las tapas creativas y la coctelería",
+   "i_en": "creative tapas and cocktails"
+  },
+  "cva_granaino": {
+   "id": "cva_granaino",
+   "d": "Taberna centenaria en el centro de Elche, famosa por sus arroces, sus tapas de producto y su bodega. Una parada clásica para probar la cocina ilicitana en un ambiente típico y acogedor.",
+   "d_en": "A century-old tavern in central Elche, famed for its rice dishes, produce-driven tapas and wine cellar. A classic stop to taste the local cuisine in a typical, welcoming setting.",
+   "h": "Reserva recomendada; barra muy concurrida",
+   "h_en": "Booking recommended; a busy tapas bar",
+   "i": "los arroces y la cocina tradicional",
+   "i_en": "rice dishes and traditional cooking"
+  },
+  "cva_casa_elias": {
+   "id": "cva_casa_elias",
+   "d": "Legendaria casa de comidas en la pedanía de El Xinorlet, donde se cocina el mítico arroz con conejo y caracoles al sarmiento sobre leña de vid. Cocina tradicional del interior alicantino en estado puro.",
+   "d_en": "A legendary eatery in the hamlet of El Xinorlet, home to the famed rice with rabbit and snails cooked over vine-shoot fire. Traditional inland Alicante cooking at its purest.",
+   "h": "Solo mediodía; reserva con antelación",
+   "h_en": "Lunch only; book well in advance",
+   "i": "los arroces auténticos y la cocina de leña",
+   "i_en": "authentic rice dishes and wood-fired cooking"
+  },
+  "cva_quique_dacosta": {
+   "id": "cva_quique_dacosta",
+   "d": "El restaurante insignia del chef Quique Dacosta en Dénia, tres estrellas Michelin y uno de los grandes referentes de la cocina de vanguardia mundial. Un menú degustación creativo inspirado en el paisaje y el mar de la zona.",
+   "d_en": "Chef Quique Dacosta's flagship in Dénia, holder of three Michelin stars and a global reference in avant-garde cuisine. A creative tasting menu inspired by the local landscape and sea.",
+   "h": "Solo con reserva; experiencia de varias horas",
+   "h_en": "Reservation only; a multi-hour experience",
+   "i": "la alta cocina y las experiencias gastronómicas",
+   "i_en": "fine dining and gastronomic experiences"
+  },
+  "cva_bonamb": {
+   "id": "cva_bonamb",
+   "d": "En una masía rehabilitada de Xàbia, el chef Alberto Ferruz firma una cocina mediterránea creativa con dos estrellas Michelin. Producto de la Marina Alta, sal, mar y montaña en menús degustación memorables.",
+   "d_en": "In a restored country house in Xàbia, chef Alberto Ferruz delivers creative Mediterranean cuisine with two Michelin stars. Produce from the Marina Alta, salt, sea and mountain in memorable tasting menus.",
+   "h": "Solo con reserva; comida o cena pausada",
+   "h_en": "Reservation only; a leisurely lunch or dinner",
+   "i": "la alta cocina mediterránea y el producto local",
+   "i_en": "fine Mediterranean cuisine and local produce"
+  },
+  "cva_cava_aragonesa": {
+   "id": "cva_cava_aragonesa",
+   "d": "En pleno casco antiguo de Benidorm, esta taberna es famosa por su enorme barra de pinchos y tapas y por una de las mayores cartas de vinos de la zona. Ambiente animado y bocados para todos los gustos.",
+   "d_en": "In the heart of Benidorm's old town, this tavern is renowned for its huge counter of pinchos and tapas and one of the area's largest wine lists. A lively atmosphere and bites for every taste.",
+   "h": "Al mediodía o de tardeo; ir con hambre",
+   "h_en": "At lunchtime or early evening; go hungry",
+   "i": "los pinchos, las tapas y el vino",
+   "i_en": "pinchos, tapas and wine"
+  }
+ },
+ "food": {
+  "cva_nou_manolin": {
+   "cuisine": "Cocina alicantina de mercado, arroces y tapas",
+   "price": "45-70 €",
+   "hours": "13:00-16:00 y 20:00-23:30"
+  },
+  "cva_el_portal": {
+   "cuisine": "Gastrobar, tapas de mercado y marisco",
+   "price": "35-55 €",
+   "hours": "12:30-01:30"
+  },
+  "cva_granaino": {
+   "cuisine": "Cocina ilicitana, arroces y tapas",
+   "price": "35-55 €",
+   "hours": "13:00-16:00 y 20:30-23:30"
+  },
+  "cva_casa_elias": {
+   "cuisine": "Arroces a la leña, cocina tradicional del interior",
+   "price": "30-45 €",
+   "hours": "13:30-16:00 (solo comidas)"
+  },
+  "cva_quique_dacosta": {
+   "cuisine": "Alta cocina de autor, menú degustación",
+   "price": "265-320 € (menú degustación)",
+   "hours": "13:30-15:00 y 20:30-22:00 (cerrado temporada baja)"
+  },
+  "cva_bonamb": {
+   "cuisine": "Cocina mediterránea de autor, menú degustación",
+   "price": "150-210 € (menú degustación)",
+   "hours": "13:30-15:00 y 20:30-22:00"
+  },
+  "cva_cava_aragonesa": {
+   "cuisine": "Pinchos, tapas y vinos",
+   "price": "20-35 €",
+   "hours": "11:00-24:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Alicante",
+   "items": [
+    {
+     "name": "Turrón de Jijona y Alicante",
+     "price": "8–20 €",
+     "desc": "El dulce navideño por excelencia, con Denominación de Origen."
+    },
+    {
+     "name": "Dátiles y artesanía de palma de Elche",
+     "price": "6–18 €",
+     "desc": "Del mayor palmeral de Europa, Patrimonio de la Humanidad."
+    },
+    {
+     "name": "Chocolate Valor (Villajoyosa)",
+     "price": "5–15 €",
+     "desc": "Bombones y tabletas de la histórica fábrica de la Vila Joiosa."
+    },
+    {
+     "name": "Peladillas y confitería",
+     "price": "6–14 €",
+     "desc": "Almendras confitadas típicas de Casinos y de toda la zona."
+    }
+   ],
+   "shops": [
+    "Mercado Central de Alicante",
+    "Turrones El Lobo/1880",
+    "Fábrica de Chocolates Valor"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Valencia capital se recorre muy bien a pie y en bici por el antiguo cauce del Turia; para la playa y la Ciudad de las Artes usa el tranvía o el metro.",
+   "El clima es mediterráneo y suave casi todo el año; en verano protégete del sol y del calor húmedo en la costa, y madruga para las visitas.",
+   "Reserva mesa en las arrocerías buenas: la paella y el arroz se sirven sobre todo a mediodía, no de noche.",
+   "Si viajas en marzo, las Fallas de Valencia lo llenan todo (pólvora, fuego y multitudes): planifica alojamiento con mucha antelación.",
+   "La provincia es grande y variada: combina costa (Benidorm, Calpe, Peñíscola) con interior de castillos y montaña (Morella, Guadalest, Xàtiva). El coche ayuda para los pueblos."
+  ],
+  "en": [
+   "Valencia city is best explored on foot and by bike along the former Turia riverbed; take the tram or metro for the beach and the City of Arts and Sciences.",
+   "The climate is mild and Mediterranean most of the year; in summer protect yourself from the sun and humid coastal heat, and start sightseeing early.",
+   "Book a table at the good rice restaurants: paella and rice dishes are served mainly at lunchtime, not for dinner.",
+   "If you travel in March, Valencia's Fallas take over the city (fireworks, fire and crowds): book accommodation well in advance.",
+   "The region is large and varied: combine the coast (Benidorm, Calpe, Peñíscola) with inland castles and mountains (Morella, Guadalest, Xàtiva). A car helps for the villages."
+  ]
+ },
+ "climate": {
+  "hi": [
+   16,
+   17,
+   19,
+   21,
+   24,
+   28,
+   30,
+   31,
+   28,
+   24,
+   19,
+   16
+  ],
+  "lo": [
+   7,
+   8,
+   9,
+   11,
+   14,
+   18,
+   21,
+   21,
+   19,
+   15,
+   11,
+   8
+  ]
+ },
+ "tr": {
+  "Fortaleza sobre el monte Benacantil con vistas a toda la bahía.": "Fortress atop Mount Benacantil with views over the whole bay.",
+  "Paseo emblemático de mosaico ondulado junto al puerto.": "Emblematic promenade of wavy mosaic beside the harbour.",
+  "Casco antiguo de callejuelas blancas y flores a los pies del castillo.": "Old town of white alleyways and flowers at the foot of the castle.",
+  "Museo arqueológico premiado con montajes muy inmersivos.": "Award-winning archaeological museum with highly immersive displays.",
+  "Basílica barroca donde se representa el Misteri d'Elx.": "Baroque basilica where the Misteri d'Elx is performed.",
+  "Castillo colgado en la roca sobre el pueblo y su embalse turquesa.": "Castle clinging to the rock above the village and its turquoise reservoir.",
+  "Fortaleza histórica que domina la ciudad y el puerto de Dénia.": "Historic fortress overlooking the town and harbour of Dénia.",
+  "La icónica iglesia de cúpulas azules en lo alto de Altea.": "The iconic blue-domed church atop Altea.",
+  "Fortaleza renacentista del siglo XVI en el centro de Santa Pola.": "16th-century Renaissance fortress in the centre of Santa Pola.",
+  "Gran peñón calizo de 332 m que se adentra en el mar en Calpe.": "Great 332 m limestone rock jutting into the sea at Calpe.",
+  "El mayor palmeral de Europa, Patrimonio de la Humanidad.": "Europe's largest palm grove, a World Heritage Site.",
+  "Jardín artístico con la célebre Palmera Imperial de siete brazos.": "Artistic garden with the famous seven-armed Imperial Palm.",
+  "La playa urbana de Alicante, a los pies del castillo.": "Alicante's city beach, at the foot of the castle.",
+  "La playa más animada de Benidorm, con rascacielos de fondo.": "Benidorm's liveliest beach, with skyscrapers as a backdrop.",
+  "La playa más amplia y familiar de Benidorm.": "Benidorm's widest and most family-friendly beach.",
+  "Laguna salada de agua rosa y flamencos, escenario surrealista.": "Salt lagoon of pink water and flamingos, a surreal setting.",
+  "Única isla habitada de la Comunidad Valenciana y reserva marina.": "The only inhabited island in the Valencian Community and a marine reserve.",
+  "Cascadas y pozas turquesa para el baño en plena montaña.": "Waterfalls and turquoise pools for a swim deep in the mountains.",
+  "Gran parque temático de las civilizaciones antiguas.": "Large theme park based on the ancient civilisations.",
+  "Mirador icónico entre las dos playas de Benidorm.": "Iconic viewpoint between Benidorm's two beaches.",
+  "Museo del chocolate de la histórica fábrica Valor.": "Chocolate museum of the historic Valor factory.",
+  "Fachadas de colores vivos junto al mar en el casco antiguo.": "Brightly coloured facades by the sea in the old town.",
+  "Drama sacro cantado del siglo XV, Patrimonio de la Humanidad.": "Sung sacred drama from the 15th century, a World Heritage treasure.",
+  "Islote frente a Benidorm, ideal para excursión en barco y snorkel.": "Islet off Benidorm, ideal for a boat trip and snorkelling.",
+  "Cala de aguas turquesa entre acantilados, top de la Costa Blanca.": "Turquoise cove between cliffs, one of the best on the Costa Blanca.",
+  "Clásico de Alicante por su barra de tapas y sus arroces.": "An Alicante classic for its tapas bar and rice dishes.",
+  "Gastrobar de moda en Alicante, tapas creativas y coctelería.": "Trendy gastrobar in Alicante with creative tapas and cocktails.",
+  "Referente de Elche con arroces y tapas tradicionales.": "An Elche favourite for rice dishes and traditional tapas.",
+  "Templo del arroz con conejo y caracoles a la leña.": "A temple of wood-fired rice with rabbit and snails.",
+  "Alta cocina de vanguardia con tres estrellas Michelin.": "Avant-garde fine dining with three Michelin stars.",
+  "Cocina mediterránea de autor con dos estrellas Michelin.": "Signature Mediterranean cuisine with two Michelin stars.",
+  "Barra de pinchos y vinos de referencia en el casco antiguo.": "A go-to pinchos and wine bar in the old town.",
+  "Alicante": "Alicante"
+ }
+}

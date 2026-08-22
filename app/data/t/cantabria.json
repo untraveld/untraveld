@@ -1,0 +1,622 @@
+{
+ "id": "cantabria",
+ "name": "Cantabria",
+ "country": "ES",
+ "center": [
+  43.4623,
+  -3.8099
+ ],
+ "pois": [
+  {
+   "id": "cnt_magdalena",
+   "cat": "monuments",
+   "name": "Palacio de la Magdalena",
+   "icon": "🏰",
+   "lat": 43.4682,
+   "lng": -3.7597,
+   "desc": "Palacio real de estilo inglés sobre una península con vistas al mar."
+  },
+  {
+   "id": "cnt_botin",
+   "cat": "monuments",
+   "name": "Centro Botín",
+   "icon": "🎨",
+   "lat": 43.46095,
+   "lng": -3.8023,
+   "desc": "Centro de arte de Renzo Piano volcado sobre la bahía."
+  },
+  {
+   "id": "cnt_catedral_santander",
+   "cat": "monuments",
+   "name": "Catedral de Santander",
+   "icon": "⛪",
+   "lat": 43.4617,
+   "lng": -3.8053,
+   "desc": "Conjunto gótico con cripta románica del Santísimo Cristo."
+  },
+  {
+   "id": "cnt_santillana",
+   "cat": "monuments",
+   "name": "Santillana del Mar",
+   "icon": "🏘️",
+   "lat": 43.3924,
+   "lng": -4.1085,
+   "desc": "Villa medieval de piedra con la Colegiata de Santa Juliana."
+  },
+  {
+   "id": "cnt_altamira",
+   "cat": "monuments",
+   "name": "Museo y Neocueva de Altamira",
+   "icon": "🦬",
+   "lat": 43.3773,
+   "lng": -4.1218,
+   "desc": "Réplica de la 'Capilla Sixtina' del arte rupestre paleolítico."
+  },
+  {
+   "id": "cnt_capricho_gaudi",
+   "cat": "monuments",
+   "name": "El Capricho de Gaudí",
+   "icon": "🌻",
+   "lat": 43.3857,
+   "lng": -4.2913,
+   "desc": "Villa modernista de Gaudí con torre cubierta de girasoles."
+  },
+  {
+   "id": "cnt_sobrellano",
+   "cat": "monuments",
+   "name": "Palacio de Sobrellano",
+   "icon": "🏛️",
+   "lat": 43.3876,
+   "lng": -4.2947,
+   "desc": "Palacio neogótico de los marqueses de Comillas."
+  },
+  {
+   "id": "cnt_comillas_universidad",
+   "cat": "monuments",
+   "name": "Universidad Pontificia de Comillas",
+   "icon": "🎓",
+   "lat": 43.3868,
+   "lng": -4.2985,
+   "desc": "Gran edificio modernista sobre una colina de Comillas."
+  },
+  {
+   "id": "cnt_svb_castillo",
+   "cat": "monuments",
+   "name": "Castillo del Rey (San Vicente de la Barquera)",
+   "icon": "🏰",
+   "lat": 43.3923,
+   "lng": -4.3968,
+   "desc": "Castillo medieval sobre la villa marinera y su ría."
+  },
+  {
+   "id": "cnt_castro_santamaria",
+   "cat": "monuments",
+   "name": "Santa María e Castillo-Faro (Castro Urdiales)",
+   "icon": "⛪",
+   "lat": 43.3843,
+   "lng": -3.215,
+   "desc": "Iglesia gótica y castillo-faro sobre el puerto pesquero."
+  },
+  {
+   "id": "cnt_lierganes",
+   "cat": "monuments",
+   "name": "Liérganes",
+   "icon": "🌉",
+   "lat": 43.3269,
+   "lng": -3.7534,
+   "desc": "Pueblo de piedra con puente barroco y leyenda del Hombre Pez."
+  },
+  {
+   "id": "cnt_fuente_de",
+   "cat": "nature",
+   "name": "Teleférico de Fuente Dé",
+   "icon": "🚡",
+   "lat": 43.1458,
+   "lng": -4.8147,
+   "desc": "Teleférico que sube 750 m a un mirador de los Picos de Europa."
+  },
+  {
+   "id": "cnt_hermida",
+   "cat": "nature",
+   "name": "Desfiladero de La Hermida",
+   "icon": "🏞️",
+   "lat": 43.247,
+   "lng": -4.599,
+   "desc": "Espectacular garganta de 20 km excavada por el río Deva."
+  },
+  {
+   "id": "cnt_sardinero",
+   "cat": "nature",
+   "name": "Playa del Sardinero",
+   "icon": "🏖️",
+   "lat": 43.4732,
+   "lng": -3.778,
+   "desc": "Elegante playa urbana de Santander con casino y jardines."
+  },
+  {
+   "id": "cnt_cabo_mayor",
+   "cat": "nature",
+   "name": "Faro de Cabo Mayor",
+   "icon": "🗼",
+   "lat": 43.4915,
+   "lng": -3.793,
+   "desc": "Faro sobre acantilados con vistas al Cantábrico."
+  },
+  {
+   "id": "cnt_oyambre",
+   "cat": "nature",
+   "name": "Parque Natural de Oyambre",
+   "icon": "🌾",
+   "lat": 43.391,
+   "lng": -4.344,
+   "desc": "Playas, dunas y marismas entre San Vicente y Comillas."
+  },
+  {
+   "id": "cnt_cabarceno",
+   "cat": "ocio",
+   "name": "Parque de la Naturaleza de Cabárceno",
+   "icon": "🐘",
+   "lat": 43.3576,
+   "lng": -3.879,
+   "desc": "Parque de fauna en semilibertad en una antigua mina."
+  },
+  {
+   "id": "cnt_soplao",
+   "cat": "ocio",
+   "name": "Cueva El Soplao",
+   "icon": "💎",
+   "lat": 43.3,
+   "lng": -4.41,
+   "desc": "Cueva espectacular famosa por sus excéntricas formaciones."
+  },
+  {
+   "id": "cnt_museo_maritimo",
+   "cat": "ocio",
+   "name": "Museo Marítimo del Cantábrico",
+   "icon": "🐋",
+   "lat": 43.4634,
+   "lng": -3.7886,
+   "desc": "Museo del mar con acuarios y esqueleto de ballena."
+  },
+  {
+   "id": "cnt_mupac",
+   "cat": "ocio",
+   "name": "MUPAC – Prehistoria y Arqueología",
+   "icon": "🗿",
+   "lat": 43.462,
+   "lng": -3.8044,
+   "desc": "Museo con el gran tesoro del arte rupestre cántabro."
+  },
+  {
+   "id": "cnt_parque_magdalena",
+   "cat": "ocio",
+   "name": "Parque de la Magdalena",
+   "icon": "🐧",
+   "lat": 43.4655,
+   "lng": -3.765,
+   "desc": "Península con mini-zoo, playas y galeones para pasear."
+  },
+  {
+   "id": "cnt_food_canadio",
+   "cat": "food",
+   "name": "Zona de Cañadío (Santander)",
+   "icon": "🍤",
+   "lat": 43.4628,
+   "lng": -3.8023,
+   "desc": "Epicentro del tapeo y las rabas en Santander."
+  },
+  {
+   "id": "cnt_food_svb_marisco",
+   "cat": "food",
+   "name": "Marisquerías de San Vicente de la Barquera",
+   "icon": "🦞",
+   "lat": 43.387,
+   "lng": -4.394,
+   "desc": "Marisco y sorropotún frente al puerto pesquero."
+  },
+  {
+   "id": "cnt_food_potes",
+   "cat": "food",
+   "name": "Cocido lebaniego (Potes)",
+   "icon": "🍲",
+   "lat": 43.1555,
+   "lng": -4.629,
+   "desc": "Contundente cocido de garbanzos y embutidos de Liébana."
+  },
+  {
+   "id": "cnt_food_santona",
+   "cat": "food",
+   "name": "Anchoas de Santoña",
+   "icon": "🐟",
+   "lat": 43.4443,
+   "lng": -3.459,
+   "desc": "La villa mundialmente famosa por sus anchoas en salazón."
+  },
+  {
+   "id": "cnt_food_pasiego",
+   "cat": "food",
+   "name": "Sobaos y quesada pasiega (Valles Pasiegos)",
+   "icon": "🧈",
+   "lat": 43.147,
+   "lng": -3.779,
+   "desc": "Dulces tradicionales de leche y mantequilla pasiega."
+  }
+ ],
+ "extra": {
+  "cnt_magdalena": {
+   "id": "cnt_magdalena",
+   "d": "Construido entre 1908 y 1912 como residencia de verano de Alfonso XIII, es el emblema de Santander. Rodeado de jardines, playas y un pequeño parque, hoy acoge cursos y visitas guiadas por sus salones.",
+   "d_en": "Built between 1908 and 1912 as Alfonso XIII's summer residence, it is Santander's emblem. Surrounded by gardens, beaches and a small park, today it hosts courses and guided tours of its halls.",
+   "h": "Visitas guiadas, horario variable según temporada (consultar)",
+   "h_en": "Guided tours, hours vary by season (check ahead)",
+   "i": "Ideal si te gusta la historia real y los paseos junto al mar.",
+   "i_en": "Ideal if you like royal history and seaside strolls."
+  },
+  "cnt_botin": {
+   "id": "cnt_botin",
+   "d": "Inaugurado en 2017, este llamativo edificio de dos volúmenes suspendidos sobre el agua alberga exposiciones de arte contemporáneo, auditorio y terrazas con vistas espectaculares a la bahía de Santander.",
+   "d_en": "Opened in 2017, this striking building of two volumes suspended over the water houses contemporary art exhibitions, an auditorium and terraces with spectacular views over Santander bay.",
+   "h": "Mar–Dom 10:00–20:00 (consultar temporada)",
+   "h_en": "Tue–Sun 10:00–20:00 (check season)",
+   "i": "Ideal si te gusta el arte contemporáneo y la arquitectura.",
+   "i_en": "Ideal if you like contemporary art and architecture."
+  },
+  "cnt_catedral_santander": {
+   "id": "cnt_catedral_santander",
+   "d": "La catedral de la Asunción reúne dos iglesias superpuestas: la iglesia baja o cripta del Santísimo Cristo, de origen medieval, y el templo gótico superior. Aquí reposan restos del polígrafo Marcelino Menéndez Pelayo.",
+   "d_en": "The Cathedral of the Assumption combines two stacked churches: the lower church or Christ crypt of medieval origin, and the upper Gothic temple. The remains of scholar Marcelino Menéndez Pelayo rest here.",
+   "h": "Lun–Sáb 10:00–13:00 y 16:00–20:00 (consultar)",
+   "h_en": "Mon–Sat 10:00–13:00 and 16:00–20:00 (check)",
+   "i": "Ideal si te gusta la arquitectura medieval y la historia religiosa.",
+   "i_en": "Ideal if you like medieval architecture and religious history."
+  },
+  "cnt_santillana": {
+   "id": "cnt_santillana",
+   "d": "Uno de los pueblos más bellos de España, con calles empedradas, casonas blasonadas y la joya románica de la Colegiata de Santa Juliana (siglo XII). Un conjunto histórico peatonal detenido en el tiempo.",
+   "d_en": "One of Spain's most beautiful towns, with cobbled streets, coats-of-arms mansions and the Romanesque jewel of the Santa Juliana Collegiate (12th century). A pedestrian historic ensemble frozen in time.",
+   "h": "Pueblo abierto; Colegiata 10:00–13:30 y 16:00–19:30 (consultar)",
+   "h_en": "Town always open; Collegiate 10:00–13:30 and 16:00–19:30 (check)",
+   "i": "Ideal si te gusta perderte por cascos medievales con encanto.",
+   "i_en": "Ideal if you like wandering charming medieval old towns."
+  },
+  "cnt_altamira": {
+   "id": "cnt_altamira",
+   "d": "Como la cueva original está cerrada al público por conservación, el museo ofrece la Neocueva, una reproducción exacta de los famosos bisontes policromados de hace unos 36.000 años, Patrimonio de la Humanidad.",
+   "d_en": "As the original cave is closed to the public for conservation, the museum offers the Neocave, an exact reproduction of the famous polychrome bison from around 36,000 years ago, a World Heritage Site.",
+   "h": "Mar–Sáb 09:30–20:00, Dom 09:30–15:00 (consultar)",
+   "h_en": "Tue–Sat 09:30–20:00, Sun 09:30–15:00 (check)",
+   "i": "Ideal si te gusta la prehistoria y el arte más antiguo.",
+   "i_en": "Ideal if you like prehistory and the oldest art."
+  },
+  "cnt_capricho_gaudi": {
+   "id": "cnt_capricho_gaudi",
+   "d": "Una de las pocas obras de Antoni Gaudí fuera de Cataluña (1883–1885). Este palacete de veraneo despliega colorida cerámica con motivos de girasol, hierro forjado y una torre-minarete de fantasía oriental.",
+   "d_en": "One of the few works by Antoni Gaudí outside Catalonia (1883–1885). This summer villa displays colourful ceramics with sunflower motifs, wrought iron and a fantasy oriental minaret-tower.",
+   "h": "Abierto todo el año 10:30–20:00 (según temporada)",
+   "h_en": "Open year-round 10:30–20:00 (seasonal)",
+   "i": "Ideal si te gusta el modernismo y la arquitectura singular.",
+   "i_en": "Ideal if you like Art Nouveau and unique architecture."
+  },
+  "cnt_sobrellano": {
+   "id": "cnt_sobrellano",
+   "d": "Imponente palacio del siglo XIX obra de Joan Martorell, con mobiliario diseñado en parte por Gaudí. Junto a él, la Capilla-Panteón neogótica completa este conjunto vinculado a la corte del rey y la burguesía indiana.",
+   "d_en": "Imposing 19th-century palace by Joan Martorell, with furniture partly designed by Gaudí. Beside it, the Neo-Gothic Chapel-Pantheon completes this ensemble tied to the royal court and returning-emigrant bourgeoisie.",
+   "h": "Visitas guiadas, horario variable (consultar)",
+   "h_en": "Guided tours, hours vary (check)",
+   "i": "Ideal si te gusta la arquitectura palaciega del siglo XIX.",
+   "i_en": "Ideal if you like 19th-century palatial architecture."
+  },
+  "cnt_comillas_universidad": {
+   "id": "cnt_comillas_universidad",
+   "d": "Antiguo seminario de finales del XIX que domina la villa desde lo alto. Domènech i Montaner intervino en su fachada y detalles modernistas, creando uno de los conjuntos más monumentales de Cantabria.",
+   "d_en": "A late 19th-century former seminary dominating the town from above. Domènech i Montaner worked on its facade and Art Nouveau details, creating one of Cantabria's most monumental complexes.",
+   "h": "Visitas guiadas al exterior/interior (consultar)",
+   "h_en": "Guided tours of exterior/interior (check)",
+   "i": "Ideal si te gusta el modernismo catalán y las vistas.",
+   "i_en": "Ideal if you like Catalan Art Nouveau and views."
+  },
+  "cnt_svb_castillo": {
+   "id": "cnt_svb_castillo",
+   "d": "Fortaleza del siglo XIII que preside el casco antiguo de esta preciosa villa marinera. Desde sus muros y desde el vecino Puente de la Maza se disfrutan vistas de la ría, las marismas y los Picos de Europa al fondo.",
+   "d_en": "A 13th-century fortress presiding over the old town of this lovely fishing village. From its walls and the nearby Maza Bridge you enjoy views of the estuary, marshes and the Picos de Europa beyond.",
+   "h": "Mar–Dom, horario variable según temporada (consultar)",
+   "h_en": "Tue–Sun, hours vary by season (check)",
+   "i": "Ideal si te gusta la historia medieval y los pueblos de mar.",
+   "i_en": "Ideal if you like medieval history and coastal towns."
+  },
+  "cnt_castro_santamaria": {
+   "id": "cnt_castro_santamaria",
+   "d": "La iglesia de Santa María de la Asunción es el mejor gótico de Cantabria, junto al castillo medieval de Santa Ana reconvertido en faro. Un conjunto espectacular asomado al Cantábrico en la villa más oriental.",
+   "d_en": "The church of Santa María de la Asunción is Cantabria's finest Gothic, beside the medieval Santa Ana castle turned lighthouse. A spectacular ensemble overlooking the Cantabrian Sea in the easternmost town.",
+   "h": "Iglesia horario de culto/visita; conjunto exterior siempre visible",
+   "h_en": "Church worship/visit hours; exterior always visible",
+   "i": "Ideal si te gusta el gótico y los paisajes de costa.",
+   "i_en": "Ideal if you like Gothic art and coastal landscapes."
+  },
+  "cnt_lierganes": {
+   "id": "cnt_lierganes",
+   "d": "Uno de los pueblos más bonitos de España, con casonas montañesas del XVII y XVIII y el elegante Puente Mayor sobre el río Miera. La estatua del Hombre Pez recuerda su famosa leyenda local.",
+   "d_en": "One of Spain's prettiest villages, with 17th and 18th-century mountain mansions and the elegant Puente Mayor over the Miera river. The Fish-Man statue recalls its famous local legend.",
+   "h": "Pueblo abierto todo el año",
+   "h_en": "Village open all year",
+   "i": "Ideal si te gusta la arquitectura tradicional y las leyendas.",
+   "i_en": "Ideal if you like traditional architecture and legends."
+  },
+  "cnt_fuente_de": {
+   "id": "cnt_fuente_de",
+   "d": "En apenas cuatro minutos salva un desnivel de 750 metros hasta el mirador del Cable (1.823 m), en pleno corazón de los Picos de Europa. Punto de partida de rutas de montaña con panorámicas sobrecogedoras.",
+   "d_en": "In just four minutes it climbs 750 metres to the Cable viewpoint (1,823 m), in the heart of the Picos de Europa. Starting point for mountain routes with breathtaking panoramas.",
+   "h": "Diario, horario según temporada (aprox. 09:00–18:00)",
+   "h_en": "Daily, seasonal hours (approx. 09:00–18:00)",
+   "i": "Ideal si te gusta la alta montaña y las vistas de vértigo.",
+   "i_en": "Ideal if you like high mountains and dizzying views."
+  },
+  "cnt_hermida": {
+   "id": "cnt_hermida",
+   "d": "El desfiladero más largo de España, con paredes verticales de hasta 600 metros que encajonan el río Deva camino de Liébana. En su interior se esconden las pinturas rupestres de Santa María de Lebeña.",
+   "d_en": "Spain's longest gorge, with vertical walls up to 600 metres hemming in the Deva river on the way to Liébana. Inside hides the church of Santa María de Lebeña.",
+   "h": "Acceso libre por carretera todo el año",
+   "h_en": "Free road access all year",
+   "i": "Ideal si te gusta la naturaleza salvaje y las rutas en coche.",
+   "i_en": "Ideal if you like wild nature and scenic drives."
+  },
+  "cnt_sardinero": {
+   "id": "cnt_sardinero",
+   "d": "La gran playa señorial de Santander, de arena dorada y aire belle époque, bordeada de jardines, hoteles clásicos y el Gran Casino. Un paseo imprescindible que enlaza con la península de la Magdalena.",
+   "d_en": "Santander's grand stately beach, golden-sanded and belle-époque in spirit, lined with gardens, classic hotels and the Grand Casino. An essential walk connecting to the Magdalena peninsula.",
+   "h": "Acceso libre todo el año",
+   "h_en": "Free access all year",
+   "i": "Ideal si te gusta la playa con ambiente urbano y elegante.",
+   "i_en": "Ideal if you like beaches with an elegant city vibe."
+  },
+  "cnt_cabo_mayor": {
+   "id": "cnt_cabo_mayor",
+   "d": "Faro del siglo XIX en el extremo norte de Santander, rodeado de acantilados, praderas y senderos. Alberga un centro de arte y es un mirador privilegiado sobre el mar abierto y la costa cántabra.",
+   "d_en": "A 19th-century lighthouse at the northern tip of Santander, surrounded by cliffs, meadows and trails. It houses an art centre and is a prime viewpoint over the open sea and the Cantabrian coast.",
+   "h": "Exterior y senderos siempre accesibles; sala de arte (consultar)",
+   "h_en": "Exterior and trails always open; art room (check)",
+   "i": "Ideal si te gusta caminar por acantilados y ver el mar.",
+   "i_en": "Ideal if you like clifftop walks and sea views."
+  },
+  "cnt_oyambre": {
+   "id": "cnt_oyambre",
+   "d": "Espacio protegido de gran belleza con extensas playas salvajes, dunas, rías y prados verdes que llegan hasta el mar. Un paraíso para el surf, las aves y los paseos costeros con los Picos de Europa al fondo.",
+   "d_en": "A protected area of great beauty with wild beaches, dunes, estuaries and green meadows reaching the sea. A paradise for surfing, birdwatching and coastal walks with the Picos de Europa behind.",
+   "h": "Acceso libre todo el año",
+   "h_en": "Free access all year",
+   "i": "Ideal si te gusta la naturaleza costera y las playas vírgenes.",
+   "i_en": "Ideal if you like coastal nature and unspoilt beaches."
+  },
+  "cnt_cabarceno": {
+   "id": "cnt_cabarceno",
+   "d": "Sobre 750 hectáreas de un antiguo complejo minero de roca kárstica viven más de 100 especies de cinco continentes en amplios recintos: elefantes, osos, tigres, jirafas o gorilas. Se recorre en coche o teleférico.",
+   "d_en": "Over 750 hectares of a former karst mining complex host more than 100 species from five continents in large enclosures: elephants, bears, tigers, giraffes and gorillas. Explored by car or cable car.",
+   "h": "Diario, aprox. 09:30–18:00/20:00 según temporada",
+   "h_en": "Daily, approx. 09:30–18:00/20:00 by season",
+   "i": "Ideal si te gusta la fauna salvaje y los planes en familia.",
+   "i_en": "Ideal if you like wildlife and family days out."
+  },
+  "cnt_soplao": {
+   "id": "cnt_soplao",
+   "d": "Considerada una maravilla geológica, destaca por sus raras formaciones de aragonito (excéntricas) que desafían la gravedad. Se visita en un tren minero y ofrece rutas turísticas y de aventura por sus galerías.",
+   "d_en": "Regarded as a geological wonder, it stands out for rare aragonite (eccentric) formations that defy gravity. Visited aboard a mining train, it offers tourist and adventure routes through its galleries.",
+   "h": "Diario, horario según temporada (consultar y reservar)",
+   "h_en": "Daily, seasonal hours (check and book)",
+   "i": "Ideal si te gusta la espeleología y las maravillas subterráneas.",
+   "i_en": "Ideal if you like caving and underground wonders."
+  },
+  "cnt_museo_maritimo": {
+   "id": "cnt_museo_maritimo",
+   "d": "Recorre la biología marina, la pesca y la historia naval del Cantábrico. Destacan sus acuarios con especies locales, el gran esqueleto de una ballena y las vistas a la bahía desde su terraza.",
+   "d_en": "It covers marine biology, fishing and the naval history of the Cantabrian Sea. Highlights include aquariums of local species, a large whale skeleton and bay views from its terrace.",
+   "h": "Mar–Dom 10:00–19:30 (consultar temporada)",
+   "h_en": "Tue–Sun 10:00–19:30 (check season)",
+   "i": "Ideal si te gusta el mundo marino y los acuarios.",
+   "i_en": "Ideal if you like the marine world and aquariums."
+  },
+  "cnt_mupac": {
+   "id": "cnt_mupac",
+   "d": "El Museo de Prehistoria y Arqueología de Cantabria reúne piezas excepcionales como el Bastón de mando de El Pendo o las tablillas de Altamira, en un moderno espacio bajo el Mercado del Este.",
+   "d_en": "The Museum of Prehistory and Archaeology of Cantabria gathers exceptional pieces such as the El Pendo command staff or the Altamira tablets, in a modern space beneath the Mercado del Este.",
+   "h": "Mar–Dom, horario variable (consultar)",
+   "h_en": "Tue–Sun, hours vary (check)",
+   "i": "Ideal si te gusta la arqueología y la prehistoria.",
+   "i_en": "Ideal if you like archaeology and prehistory."
+  },
+  "cnt_parque_magdalena": {
+   "id": "cnt_parque_magdalena",
+   "d": "El gran parque público de Santander ocupa toda la península de la Magdalena: senderos junto al mar, pequeñas playas, un recinto con focas y pingüinos y réplicas de los galeones de la expedición de Elcano.",
+   "d_en": "Santander's great public park fills the whole Magdalena peninsula: seaside paths, small beaches, an enclosure with seals and penguins, and replicas of the galleons from Elcano's expedition.",
+   "h": "Acceso libre; horario del recinto variable según temporada",
+   "h_en": "Free access; enclosure hours vary by season",
+   "i": "Ideal si te gusta pasear en familia junto al mar.",
+   "i_en": "Ideal if you like seaside family strolls."
+  },
+  "cnt_food_canadio": {
+   "id": "cnt_food_canadio",
+   "d": "La plaza de Cañadío y sus calles concentran los mejores bares de pinchos de Santander, ideales para probar rabas, rejos, tortilla y vinos de la tierra saltando de local en local en un ambiente animado.",
+   "d_en": "Cañadío square and its streets concentrate Santander's best pincho bars, ideal for trying rabas, octopus, tortilla and local wines while hopping from bar to bar in a lively atmosphere.",
+   "h": "Bares aprox. 12:00–16:00 y 19:00–24:00",
+   "h_en": "Bars approx. 12:00–16:00 and 19:00–24:00",
+   "i": "Ideal si te gusta el tapeo y el ambiente de barra.",
+   "i_en": "Ideal if you like tapas and a lively bar scene."
+  },
+  "cnt_food_svb_marisco": {
+   "id": "cnt_food_svb_marisco",
+   "d": "En el paseo del puerto se sirve marisco fresquísimo y el sorropotún o marmita, el guiso de bonito con patatas típico de esta villa marinera, acompañado de vistas a la ría y los Picos de Europa.",
+   "d_en": "Along the port promenade you get very fresh seafood and sorropotún or marmita, the tuna-and-potato stew typical of this fishing town, with views of the estuary and the Picos de Europa.",
+   "h": "Comidas 13:00–16:00, cenas 20:00–23:00",
+   "h_en": "Lunch 13:00–16:00, dinner 20:00–23:00",
+   "i": "Ideal si te gusta el marisco y la cocina marinera.",
+   "i_en": "Ideal if you like seafood and coastal cooking."
+  },
+  "cnt_food_potes": {
+   "id": "cnt_food_potes",
+   "d": "En los mesones de Potes, capital de Liébana, se sirve el cocido lebaniego: garbanzos de la comarca, compango de cerdo y relleno, regado con vino y rematado con orujo casero de postre.",
+   "d_en": "In the taverns of Potes, capital of Liébana, they serve cocido lebaniego: local chickpeas, pork meats and stuffing, washed down with wine and finished with homemade orujo for dessert.",
+   "h": "Comidas 13:30–16:00",
+   "h_en": "Lunch 13:30–16:00",
+   "i": "Ideal si te gusta la cocina de montaña contundente.",
+   "i_en": "Ideal if you like hearty mountain cuisine."
+  },
+  "cnt_food_santona": {
+   "id": "cnt_food_santona",
+   "d": "Santoña es la capital de la anchoa del Cantábrico. Sus conserveras artesanas ofrecen catas y venta directa, y en sus bares se sirven las mejores anchoas del mundo sobre pan con mantequilla o en boquerones.",
+   "d_en": "Santoña is the capital of the Cantabrian anchovy. Its artisan canneries offer tastings and direct sales, and its bars serve the world's finest anchovies on buttered bread or as fresh boquerones.",
+   "h": "Conserveras y bares, horario comercial",
+   "h_en": "Canneries and bars, business hours",
+   "i": "Ideal si te gusta la gastronomía del mar y las conservas.",
+   "i_en": "Ideal if you like seafood delicacies and preserves."
+  },
+  "cnt_food_pasiego": {
+   "id": "cnt_food_pasiego",
+   "d": "En los Valles Pasiegos, en torno a Vega de Pas y Selaya, se elaboran los sobaos (bizcocho mantecoso con IGP) y la quesada, densa tarta de cuajada. Obradores y ventas artesanas jalonan estos valles verdes.",
+   "d_en": "In the Pasiego Valleys, around Vega de Pas and Selaya, they make sobaos (buttery IGP sponge cake) and quesada, a dense curd tart. Workshops and artisan shops dot these green valleys.",
+   "h": "Obradores en horario comercial",
+   "h_en": "Workshops in business hours",
+   "i": "Ideal si te gusta la repostería tradicional y el turismo rural.",
+   "i_en": "Ideal if you like traditional baking and rural tourism."
+  }
+ },
+ "food": {
+  "cnt_food_canadio": {
+   "cuisine": "Cántabra / tapas / pescado",
+   "price": "15–35 €",
+   "hours": "12:00–16:00, 19:00–24:00"
+  },
+  "cnt_food_svb_marisco": {
+   "cuisine": "Marisco / pescado / guisos marineros",
+   "price": "25–55 €",
+   "hours": "13:00–16:00, 20:00–23:00"
+  },
+  "cnt_food_potes": {
+   "cuisine": "Montañesa / cocido / carne",
+   "price": "18–35 €",
+   "hours": "13:30–16:00"
+  },
+  "cnt_food_santona": {
+   "cuisine": "Conservas / pescado / tapas",
+   "price": "10–30 €",
+   "hours": "10:00–14:00, 17:00–20:00"
+  },
+  "cnt_food_pasiego": {
+   "cuisine": "Repostería / dulces tradicionales",
+   "price": "5–15 €",
+   "hours": "09:00–14:00, 16:00–20:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Cantabria",
+   "items": [
+    {
+     "name": "Sobaos pasiegos",
+     "price": "4–9 €",
+     "desc": "Bizcochos mantecosos de los Valles Pasiegos, con IGP; se venden en cajas de madera."
+    },
+    {
+     "name": "Quesada pasiega",
+     "price": "4–8 €",
+     "desc": "Postre tradicional de leche cuajada, mantequilla y limón, denso y dulce."
+    },
+    {
+     "name": "Anchoas de Santoña",
+     "price": "9–25 €",
+     "desc": "Filetes de anchoa del Cantábrico en salazón y aceite de oliva, joya gastronómica."
+    },
+    {
+     "name": "Orujo de Liébana",
+     "price": "8–18 €",
+     "desc": "Aguardiente y licores de orujo (crema, hierbas) de la comarca de Liébana."
+    },
+    {
+     "name": "Sardina de Santoña / conservas",
+     "price": "6–20 €",
+     "desc": "Bonito del norte y conservas artesanas del litoral cántabro."
+    }
+   ],
+   "shops": [
+    "Mercado de la Esperanza (Santander)",
+    "Mercado del Este (Santander)",
+    "Tiendas de sobaos en Selaya y Vega de Pas",
+    "Conserveras de Santoña",
+    "Bodegas de orujo en Potes"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "El clima es húmedo y cambiante: lleva chubasquero y capas incluso en verano.",
+   "Reserva con antelación la Neocueva de Altamira y el teleférico de Fuente Dé, se agotan en temporada.",
+   "Muévete en coche: muchos pueblos y miradores no tienen buena conexión de transporte público.",
+   "Prueba las rabas (calamares rebozados) y los pinchos en la zona de Cañadío de Santander.",
+   "Aparca fuera de Santillana del Mar y Comillas y entra andando; los cascos históricos son peatonales."
+  ],
+  "en": [
+   "The weather is humid and changeable: bring a raincoat and layers even in summer.",
+   "Book the Altamira Neocave and the Fuente Dé cable car ahead, they sell out in high season.",
+   "Get around by car: many villages and viewpoints have poor public transport links.",
+   "Try rabas (battered squid) and pinchos in Santander's Cañadío district.",
+   "Park outside Santillana del Mar and Comillas and walk in; the old towns are pedestrian only."
+  ]
+ },
+ "climate": {
+  "hi": [
+   14,
+   14,
+   16,
+   17,
+   19,
+   22,
+   24,
+   25,
+   23,
+   20,
+   16,
+   14
+  ],
+  "lo": [
+   8,
+   8,
+   9,
+   10,
+   13,
+   15,
+   17,
+   18,
+   16,
+   14,
+   11,
+   9
+  ]
+ },
+ "tr": {
+  "Palacio real de estilo inglés sobre una península con vistas al mar.": "English-style royal palace on a peninsula with sea views.",
+  "Centro de arte de Renzo Piano volcado sobre la bahía.": "Renzo Piano art centre projecting over the bay.",
+  "Conjunto gótico con cripta románica del Santísimo Cristo.": "Gothic complex with the Romanesque Christ crypt.",
+  "Villa medieval de piedra con la Colegiata de Santa Juliana.": "Medieval stone town with the Collegiate of Santa Juliana.",
+  "Réplica de la 'Capilla Sixtina' del arte rupestre paleolítico.": "Replica of the 'Sistine Chapel' of Palaeolithic cave art.",
+  "Villa modernista de Gaudí con torre cubierta de girasoles.": "Gaudí's Art Nouveau villa with a sunflower-tiled tower.",
+  "Palacio neogótico de los marqueses de Comillas.": "Neo-Gothic palace of the Marquises of Comillas.",
+  "Gran edificio modernista sobre una colina de Comillas.": "Grand Art Nouveau building on a Comillas hilltop.",
+  "Castillo medieval sobre la villa marinera y su ría.": "Medieval castle above the fishing town and its estuary.",
+  "Iglesia gótica y castillo-faro sobre el puerto pesquero.": "Gothic church and castle-lighthouse over the fishing port.",
+  "Pueblo de piedra con puente barroco y leyenda del Hombre Pez.": "Stone village with a Baroque bridge and the Fish-Man legend.",
+  "Teleférico que sube 750 m a un mirador de los Picos de Europa.": "Cable car climbing 750 m to a Picos de Europa viewpoint.",
+  "Espectacular garganta de 20 km excavada por el río Deva.": "Spectacular 20 km gorge carved by the Deva river.",
+  "Elegante playa urbana de Santander con casino y jardines.": "Elegant Santander city beach with casino and gardens.",
+  "Faro sobre acantilados con vistas al Cantábrico.": "Lighthouse on cliffs with Cantabrian Sea views.",
+  "Playas, dunas y marismas entre San Vicente y Comillas.": "Beaches, dunes and marshes between San Vicente and Comillas.",
+  "Parque de fauna en semilibertad en una antigua mina.": "Semi-wild wildlife park in a former mine.",
+  "Cueva espectacular famosa por sus excéntricas formaciones.": "Spectacular cave famed for its eccentric formations.",
+  "Museo del mar con acuarios y esqueleto de ballena.": "Sea museum with aquariums and a whale skeleton.",
+  "Museo con el gran tesoro del arte rupestre cántabro.": "Museum holding the great treasure of Cantabrian cave art.",
+  "Península con mini-zoo, playas y galeones para pasear.": "Peninsula with a mini-zoo, beaches and galleons to explore.",
+  "Epicentro del tapeo y las rabas en Santander.": "Epicentre of tapas and rabas in Santander.",
+  "Marisco y sorropotún frente al puerto pesquero.": "Seafood and sorropotún facing the fishing port.",
+  "Contundente cocido de garbanzos y embutidos de Liébana.": "Hearty Liébana chickpea-and-sausage stew.",
+  "La villa mundialmente famosa por sus anchoas en salazón.": "The town world-famous for its salt-cured anchovies.",
+  "Dulces tradicionales de leche y mantequilla pasiega.": "Traditional Pasiego milk-and-butter sweets.",
+  "Cantabria": "Cantabria"
+ }
+}

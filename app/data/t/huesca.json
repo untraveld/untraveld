@@ -1,0 +1,615 @@
+{
+ "id": "huesca",
+ "name": "Huesca",
+ "country": "ES",
+ "center": [
+  42.1362,
+  -0.4083
+ ],
+ "pois": [
+  {
+   "id": "hsc_catedral_huesca",
+   "cat": "monuments",
+   "name": "Catedral de Santa María de Huesca",
+   "icon": "⛪",
+   "lat": 42.14139,
+   "lng": -0.40889,
+   "desc": "Catedral gótica en lo más alto del casco antiguo, con retablo de Damián Forment."
+  },
+  {
+   "id": "hsc_san_pedro_viejo",
+   "cat": "monuments",
+   "name": "San Pedro el Viejo",
+   "icon": "🏛️",
+   "lat": 42.1378,
+   "lng": -0.4097,
+   "desc": "Monasterio románico oscense con claustro del siglo XII y panteón real."
+  },
+  {
+   "id": "hsc_castillo_loarre",
+   "cat": "monuments",
+   "name": "Castillo de Loarre",
+   "icon": "🏰",
+   "lat": 42.32611,
+   "lng": -0.60972,
+   "desc": "El castillo románico mejor conservado de Europa, sobre un espolón rocoso."
+  },
+  {
+   "id": "hsc_catedral_jaca",
+   "cat": "monuments",
+   "name": "Catedral de San Pedro de Jaca",
+   "icon": "⛪",
+   "lat": 42.5705,
+   "lng": -0.54911,
+   "desc": "Una de las primeras catedrales románicas de España, en el corazón de Jaca."
+  },
+  {
+   "id": "hsc_ciudadela_jaca",
+   "cat": "monuments",
+   "name": "Ciudadela de Jaca",
+   "icon": "🏰",
+   "lat": 42.5719,
+   "lng": -0.5525,
+   "desc": "Fortaleza pentagonal renacentista con foso y ciervos, única en España."
+  },
+  {
+   "id": "hsc_san_juan_pena",
+   "cat": "monuments",
+   "name": "Monasterio de San Juan de la Peña",
+   "icon": "🏛️",
+   "lat": 42.50833,
+   "lng": -0.67139,
+   "desc": "Monasterio románico incrustado bajo una gran roca, cuna del reino de Aragón."
+  },
+  {
+   "id": "hsc_colegiata_alquezar",
+   "cat": "monuments",
+   "name": "Colegiata de Santa María de Alquézar",
+   "icon": "⛪",
+   "lat": 42.1728,
+   "lng": 0.0304,
+   "desc": "Colegiata amurallada sobre Alquézar, uno de los pueblos más bonitos de España."
+  },
+  {
+   "id": "hsc_ainsa",
+   "cat": "monuments",
+   "name": "Villa medieval de Aínsa",
+   "icon": "🏘️",
+   "lat": 42.4192,
+   "lng": 0.1383,
+   "desc": "Casco medieval de piedra con Plaza Mayor porticada y castillo, capital del Sobrarbe."
+  },
+  {
+   "id": "hsc_catedral_barbastro",
+   "cat": "monuments",
+   "name": "Catedral de Barbastro",
+   "icon": "⛪",
+   "lat": 42.03556,
+   "lng": 0.12694,
+   "desc": "Catedral gótica del Somontano, capital del vino y del jamón."
+  },
+  {
+   "id": "hsc_torla",
+   "cat": "monuments",
+   "name": "Torla-Ordesa",
+   "icon": "🏘️",
+   "lat": 42.6281,
+   "lng": -0.1117,
+   "desc": "Pueblo pirenaico de piedra y puerta principal al Parque Nacional de Ordesa."
+  },
+  {
+   "id": "hsc_ordesa",
+   "cat": "nature",
+   "name": "Parque Nacional de Ordesa y Monte Perdido",
+   "icon": "🏞️",
+   "lat": 42.6414,
+   "lng": -0.0836,
+   "desc": "Cañones, cascadas y altas cumbres en el gran parque nacional del Pirineo."
+  },
+  {
+   "id": "hsc_mallos_riglos",
+   "cat": "nature",
+   "name": "Mallos de Riglos",
+   "icon": "🧗",
+   "lat": 42.3453,
+   "lng": -0.7247,
+   "desc": "Enormes torres de conglomerado rojizo, paraíso de escaladores y buitres."
+  },
+  {
+   "id": "hsc_valle_benasque",
+   "cat": "nature",
+   "name": "Valle de Benasque y Aneto",
+   "icon": "⛰️",
+   "lat": 42.6047,
+   "lng": 0.5236,
+   "desc": "El valle de los tresmiles, con el Aneto, techo del Pirineo."
+  },
+  {
+   "id": "hsc_valle_pineta",
+   "cat": "nature",
+   "name": "Valle de Pineta (Bielsa)",
+   "icon": "🏔️",
+   "lat": 42.687,
+   "lng": 0.079,
+   "desc": "Valle glaciar de praderas y cascadas bajo la cara norte de Monte Perdido."
+  },
+  {
+   "id": "hsc_panticosa",
+   "cat": "nature",
+   "name": "Baños de Panticosa y Valle de Tena",
+   "icon": "🏞️",
+   "lat": 42.764,
+   "lng": -0.244,
+   "desc": "Balneario histórico entre altas paredes de granito e ibones glaciares."
+  },
+  {
+   "id": "hsc_guara",
+   "cat": "nature",
+   "name": "Sierra y Cañones de Guara",
+   "icon": "🪨",
+   "lat": 42.28237,
+   "lng": -0.07814,
+   "desc": "Parque natural de cañones y barrancos, capital europea del descenso."
+  },
+  {
+   "id": "hsc_formigal",
+   "cat": "ocio",
+   "name": "Estación de esquí de Formigal",
+   "icon": "⛷️",
+   "lat": 42.775,
+   "lng": -0.3944,
+   "desc": "La mayor estación de esquí del Pirineo aragonés, en el Valle de Tena."
+  },
+  {
+   "id": "hsc_cerler",
+   "cat": "ocio",
+   "name": "Estación de esquí de Cerler",
+   "icon": "🎿",
+   "lat": 42.588,
+   "lng": 0.54,
+   "desc": "La estación más alta del Pirineo aragonés, sobre el Valle de Benasque."
+  },
+  {
+   "id": "hsc_candanchu",
+   "cat": "ocio",
+   "name": "Estación de esquí de Candanchú",
+   "icon": "⛷️",
+   "lat": 42.787,
+   "lng": -0.532,
+   "desc": "La estación de esquí más antigua de España, en el Valle del Aragón."
+  },
+  {
+   "id": "hsc_pasarelas_vero",
+   "cat": "ocio",
+   "name": "Pasarelas del Río Vero (Alquézar)",
+   "icon": "🌉",
+   "lat": 42.17,
+   "lng": 0.036,
+   "desc": "Ruta de pasarelas colgadas sobre el cañón del Vero, bajo Alquézar."
+  },
+  {
+   "id": "hsc_barranquismo_guara",
+   "cat": "ocio",
+   "name": "Barranquismo en la Sierra de Guara",
+   "icon": "🤿",
+   "lat": 42.2845,
+   "lng": -0.075,
+   "desc": "Descensos de barrancos con toboganes, rápeles y saltos en aguas turquesa."
+  },
+  {
+   "id": "hsc_lillas_pastia",
+   "cat": "food",
+   "name": "Restaurante Lillas Pastia",
+   "icon": "🍽️",
+   "lat": 42.1368,
+   "lng": -0.4079,
+   "desc": "Alta cocina oscense con la trufa negra de Aragón como protagonista."
+  },
+  {
+   "id": "hsc_las_torres",
+   "cat": "food",
+   "name": "Restaurante Las Torres (Huesca)",
+   "icon": "🍽️",
+   "lat": 42.1395,
+   "lng": -0.414,
+   "desc": "Cocina aragonesa de autor con estrella Michelin, regentada por los hermanos Abadía."
+  },
+  {
+   "id": "hsc_callizo_ainsa",
+   "cat": "food",
+   "name": "Restaurante Callizo (Aínsa)",
+   "icon": "⭐",
+   "lat": 42.4192,
+   "lng": 0.1382,
+   "desc": "Cocina creativa del Pirineo con estrella Michelin en la Plaza Mayor de Aínsa."
+  },
+  {
+   "id": "hsc_enoturismo_somontano",
+   "cat": "food",
+   "name": "Ruta del Vino Somontano (Barbastro)",
+   "icon": "🍷",
+   "lat": 42.039,
+   "lng": 0.125,
+   "desc": "Bodegas y catas de la D.O. Somontano, con tapas y jamón del Alto Aragón."
+  },
+  {
+   "id": "hsc_tapas_huesca",
+   "cat": "food",
+   "name": "Ruta de tapas de Huesca",
+   "icon": "🍢",
+   "lat": 42.139,
+   "lng": -0.408,
+   "desc": "Tapeo por el casco antiguo con pinchos, ternasco y longaniza aragonesa."
+  }
+ ],
+ "extra": {
+  "hsc_catedral_huesca": {
+   "id": "hsc_catedral_huesca",
+   "d": "Levantada entre los siglos XIII y XVI sobre la antigua mezquita mayor, destaca por su portada gótica, su torre mirador y el excepcional retablo mayor de alabastro de Damián Forment. El Museo Diocesano contiguo reúne arte sacro medieval del Altoaragón.",
+   "d_en": "Built between the 13th and 16th centuries over the former great mosque, it stands out for its Gothic portal, its tower viewpoint and the exceptional alabaster high altarpiece by Damián Forment. The adjoining Diocesan Museum gathers medieval sacred art of the Aragonese highlands.",
+   "h": "Lun–Sáb 10:30–14:00 y 16:00–18:30; horario reducido en invierno.",
+   "h_en": "Mon–Sat 10:30–14:00 and 16:00–18:30; reduced hours in winter.",
+   "i": "Ideal si te gusta el arte gótico, los retablos de alabastro y las vistas desde campanarios.",
+   "i_en": "Ideal if you like Gothic art, alabaster altarpieces and views from bell towers."
+  },
+  "hsc_san_pedro_viejo": {
+   "id": "hsc_san_pedro_viejo",
+   "d": "Uno de los conjuntos románicos más importantes de Aragón, con un delicado claustro de capiteles historiados y la capilla de San Bartolomé, panteón de los reyes Alfonso I el Batallador y Ramiro II el Monje. Su iglesia conserva pinturas y sepulcros medievales.",
+   "d_en": "One of Aragón's most important Romanesque ensembles, with a delicate cloister of storied capitals and the chapel of San Bartolomé, burial place of kings Alfonso I the Battler and Ramiro II the Monk. Its church preserves medieval paintings and tombs.",
+   "h": "Lun–Sáb 10:00–13:30 y 16:00–18:00; consultar festivos.",
+   "h_en": "Mon–Sat 10:00–13:30 and 16:00–18:00; check holiday hours.",
+   "i": "Ideal si te gusta el románico, los claustros con encanto y la historia de los reyes de Aragón.",
+   "i_en": "Ideal if you like Romanesque art, charming cloisters and the history of Aragón's kings."
+  },
+  "hsc_castillo_loarre": {
+   "id": "hsc_castillo_loarre",
+   "d": "Fortaleza-abadía del siglo XI mandada construir por Sancho Ramírez, con murallas, torres y una iglesia románica de excepcional belleza sobre el llano de la Hoya de Huesca. Sus escaleras, criptas y almenas sirvieron de escenario a la película 'El reino de los cielos'.",
+   "d_en": "An 11th-century castle-abbey commissioned by Sancho Ramírez, with walls, towers and a strikingly beautiful Romanesque church overlooking the Hoya de Huesca plain. Its staircases, crypts and battlements featured in the film 'Kingdom of Heaven'.",
+   "h": "Abre todo el año con horario variable por temporada; verano aprox. 10:00–20:00.",
+   "h_en": "Open year-round with seasonal hours; summer approx. 10:00–20:00.",
+   "i": "Ideal si te gusta el románico monumental, los castillos de película y las vistas panorámicas.",
+   "i_en": "Ideal if you like monumental Romanesque, movie-set castles and panoramic views."
+  },
+  "hsc_catedral_jaca": {
+   "id": "hsc_catedral_jaca",
+   "d": "Consagrada en el siglo XI, es pionera del románico peninsular y punto clave del Camino de Santiago aragonés. Alberga el Museo Diocesano de Jaca, con una de las mejores colecciones de pintura mural románica y gótica de Europa.",
+   "d_en": "Consecrated in the 11th century, it is a pioneer of Iberian Romanesque and a key stop on the Aragonese Way of St James. It houses the Jaca Diocesan Museum, with one of Europe's finest collections of Romanesque and Gothic mural painting.",
+   "h": "Catedral: horario de culto y visita; Museo Diocesano mar–dom 10:00–13:30 y 16:00–19:00.",
+   "h_en": "Cathedral: worship and visiting hours; Diocesan Museum Tue–Sun 10:00–13:30 and 16:00–19:00.",
+   "i": "Ideal si te gusta el románico primitivo, la pintura mural y el Camino de Santiago.",
+   "i_en": "Ideal if you like early Romanesque, mural painting and the Way of St James."
+  },
+  "hsc_ciudadela_jaca": {
+   "id": "hsc_ciudadela_jaca",
+   "d": "Castillo de San Pedro construido a finales del siglo XVI, de planta pentagonal con baluartes y foso habitado por ciervos. Conserva su carácter militar y alberga el Museo de Miniaturas Militares con miles de figuras que recrean batallas históricas.",
+   "d_en": "The Castle of San Pedro, built in the late 16th century, has a pentagonal plan with bastions and a moat home to deer. It keeps its military character and houses the Museum of Military Miniatures, with thousands of figures recreating historic battles.",
+   "h": "Visitas guiadas; verano aprox. 11:00–20:00, invierno horario reducido.",
+   "h_en": "Guided visits; summer approx. 11:00–20:00, reduced hours in winter.",
+   "i": "Ideal si te gusta la arquitectura militar, los museos curiosos y pasear en familia.",
+   "i_en": "Ideal if you like military architecture, quirky museums and family strolls."
+  },
+  "hsc_san_juan_pena": {
+   "id": "hsc_san_juan_pena",
+   "d": "El Monasterio Viejo se cobija bajo un enorme risco de conglomerado, con un claustro románico al aire libre y el panteón de los primeros reyes de Aragón; según la leyenda, custodió el Santo Grial. En lo alto, el Monasterio Nuevo barroco alberga los centros de interpretación.",
+   "d_en": "The Old Monastery shelters beneath an enormous conglomerate cliff, with an open-air Romanesque cloister and the pantheon of Aragón's first kings; legend says it guarded the Holy Grail. Above, the Baroque New Monastery holds the interpretation centres.",
+   "h": "Variable por temporada; verano aprox. 10:00–20:00, invierno hasta 17:00.",
+   "h_en": "Seasonal; summer approx. 10:00–20:00, winter until 17:00.",
+   "i": "Ideal si te gusta la historia medieval, las leyendas del Grial y los enclaves espectaculares.",
+   "i_en": "Ideal if you like medieval history, Grail legends and spectacular settings."
+  },
+  "hsc_colegiata_alquezar": {
+   "id": "hsc_colegiata_alquezar",
+   "d": "Antigua alcazaba andalusí reconvertida en colegiata, domina desde su roca el laberinto de callejuelas medievales de Alquézar y el cañón del río Vero. Conserva un claustro con pinturas murales góticas y un museo de arte sacro, con vistas privilegiadas sobre la Sierra de Guara.",
+   "d_en": "A former Andalusi citadel turned collegiate church, it rises on its rock above Alquézar's maze of medieval lanes and the Vero canyon. It preserves a cloister with Gothic murals and a sacred-art museum, with sweeping views over the Sierra de Guara.",
+   "h": "Visitas guiadas; horario aprox. 11:00–13:30 y 16:30–19:30 según temporada.",
+   "h_en": "Guided visits; approx. 11:00–13:30 and 16:30–19:30 depending on season.",
+   "i": "Ideal si te gusta el patrimonio medieval, los pueblos con encanto y los miradores de cañón.",
+   "i_en": "Ideal if you like medieval heritage, charming villages and canyon viewpoints."
+  },
+  "hsc_ainsa": {
+   "id": "hsc_ainsa",
+   "d": "Declarada Conjunto Histórico-Artístico, conserva una de las plazas mayores porticadas más bellas del Pirineo, calles empedradas, la iglesia románica de Santa María y un castillo que domina la confluencia de los ríos Ara y Cinca, con espectaculares vistas al macizo de la Peña Montañesa.",
+   "d_en": "A designated Historic-Artistic Site, it keeps one of the finest arcaded main squares in the Pyrenees, cobbled streets, the Romanesque church of Santa María and a castle overlooking the meeting of the Ara and Cinca rivers, with striking views of the Peña Montañesa massif.",
+   "h": "Villa abierta todo el año; castillo y ecomuseo con horario de temporada.",
+   "h_en": "Town open year-round; castle and eco-museum with seasonal hours.",
+   "i": "Ideal si te gusta pasear por pueblos medievales, la fotografía y las puestas de sol.",
+   "i_en": "Ideal if you like strolling medieval towns, photography and sunsets."
+  },
+  "hsc_catedral_barbastro": {
+   "id": "hsc_catedral_barbastro",
+   "d": "Catedral de la Asunción de estilo gótico tardío, con tres naves de igual altura, esbeltas columnas y un retablo mayor iniciado por Damián Forment. Barbastro es el corazón de la D.O. Somontano y punto de partida ideal para el enoturismo del Alto Aragón.",
+   "d_en": "The late-Gothic Cathedral of the Assumption, with three naves of equal height, slender columns and a high altarpiece begun by Damián Forment. Barbastro is the heart of the D.O. Somontano and an ideal base for Upper Aragón wine tourism.",
+   "h": "Horario de culto y visita; consultar en la oficina de turismo.",
+   "h_en": "Worship and visiting hours; check at the tourist office.",
+   "i": "Ideal si te gusta el gótico, el enoturismo y descubrir capitales de comarca con historia.",
+   "i_en": "Ideal if you like Gothic art, wine tourism and discovering historic county capitals."
+  },
+  "hsc_torla": {
+   "id": "hsc_torla",
+   "d": "Villa de casas de piedra con tejados de losa a los pies del Mondarruego, con la iglesia de San Salvador y calles empinadas de sabor montañés. Es el acceso y punto de partida del autobús lanzadera al valle de Ordesa, con una de las estampas más fotografiadas del Pirineo.",
+   "d_en": "A village of stone houses with slate roofs at the foot of Mondarruego, with the church of San Salvador and steep mountain lanes. It is the access point and start of the shuttle bus into the Ordesa valley, offering one of the most photographed scenes in the Pyrenees.",
+   "h": "Pueblo abierto todo el año; servicios y lanzadera con temporada alta en verano.",
+   "h_en": "Village open year-round; services and shuttle bus in high season in summer.",
+   "i": "Ideal si te gusta el ambiente de montaña, la fotografía de pueblos y el senderismo.",
+   "i_en": "Ideal if you like mountain atmosphere, village photography and hiking."
+  },
+  "hsc_ordesa": {
+   "id": "hsc_ordesa",
+   "d": "Patrimonio Mundial por su paisaje kárstico, reúne el impresionante Valle de Ordesa, la Cola de Caballo, los circos glaciares y el Monte Perdido (3.355 m), el macizo calcáreo más alto de Europa. Ofrece rutas para todos los niveles entre bosques, praderas y saltos de agua.",
+   "d_en": "A World Heritage site for its karst landscape, it takes in the stunning Ordesa Valley, the Cola de Caballo waterfall, glacial cirques and Monte Perdido (3,355 m), Europe's highest limestone massif. It offers trails for all levels among forests, meadows and cascades.",
+   "h": "Acceso libre; en verano y Semana Santa, lanzadera obligatoria desde Torla.",
+   "h_en": "Free access; in summer and Easter a compulsory shuttle runs from Torla.",
+   "i": "Ideal si te gusta el senderismo, la alta montaña y los paisajes de postal.",
+   "i_en": "Ideal if you like hiking, high mountains and postcard landscapes."
+  },
+  "hsc_mallos_riglos": {
+   "id": "hsc_mallos_riglos",
+   "d": "Espectaculares paredes verticales de hasta 300 metros que se alzan sobre el pueblo de Riglos, célebres en el mundo de la escalada y refugio de una gran colonia de buitres leonados. Hay senderos a su base y miradores para contemplar el vuelo de las aves rapaces.",
+   "d_en": "Spectacular vertical walls up to 300 metres rising above the village of Riglos, famous in the climbing world and home to a large colony of griffon vultures. Trails lead to their base and viewpoints let you watch the birds of prey soar.",
+   "h": "Acceso libre todo el año.",
+   "h_en": "Free access year-round.",
+   "i": "Ideal si te gusta la escalada, la observación de aves y los paisajes geológicos.",
+   "i_en": "Ideal if you like climbing, birdwatching and geological landscapes."
+  },
+  "hsc_valle_benasque": {
+   "id": "hsc_valle_benasque",
+   "d": "Rodeado por los macizos de la Maladeta y Posets, reúne la mayor concentración de picos de más de 3.000 metros del Pirineo, incluido el Aneto (3.404 m). Benasque, villa señorial de piedra, es la base para trekking, glaciares, ibones y el Parque Natural Posets-Maladeta.",
+   "d_en": "Ringed by the Maladeta and Posets massifs, it gathers the greatest concentration of peaks over 3,000 metres in the Pyrenees, including Aneto (3,404 m). Benasque, a noble stone town, is the base for trekking, glaciers, mountain lakes and the Posets-Maladeta Natural Park.",
+   "h": "Acceso libre; alta montaña recomendable en verano y con guía para el Aneto.",
+   "h_en": "Free access; high mountain best in summer and with a guide for Aneto.",
+   "i": "Ideal si te gusta el montañismo, los tresmiles y la naturaleza salvaje.",
+   "i_en": "Ideal if you like mountaineering, three-thousanders and wild nature."
+  },
+  "hsc_valle_pineta": {
+   "id": "hsc_valle_pineta",
+   "d": "Valle en forma de U de origen glaciar dentro del Parque Nacional, con verdes praderas, cascadas y el circo de Pineta coronado por Monte Perdido. Desde Bielsa se accede al parador y a rutas como la del Balcón de Pineta o el Llano Tripals, entre las más bellas del Sobrarbe.",
+   "d_en": "A U-shaped glacial valley within the National Park, with green meadows, waterfalls and the Pineta cirque crowned by Monte Perdido. From Bielsa you reach the parador and trails such as the Balcón de Pineta or Llano Tripals, among the finest in Sobrarbe.",
+   "h": "Acceso libre todo el año; carretera a veces cerrada por nieve en invierno.",
+   "h_en": "Free access year-round; road sometimes closed by snow in winter.",
+   "i": "Ideal si te gusta el paisaje glaciar, las cascadas y el senderismo tranquilo.",
+   "i_en": "Ideal if you like glacial scenery, waterfalls and peaceful hiking."
+  },
+  "hsc_panticosa": {
+   "id": "hsc_panticosa",
+   "d": "Enclave termal a 1.636 m rodeado de picos que superan los 3.000 m, con aguas medicinales conocidas desde época romana y elegantes edificios balnearios. Punto de partida hacia ibones como el de Bachimaña o los Baños, en el corazón del Valle de Tena.",
+   "d_en": "A thermal enclave at 1,636 m ringed by peaks over 3,000 m, with medicinal waters known since Roman times and elegant spa buildings. It is a starting point towards mountain lakes such as Bachimaña, in the heart of the Tena Valley.",
+   "h": "Acceso libre; balneario y spa con horarios propios.",
+   "h_en": "Free access; spa and baths with their own opening hours.",
+   "i": "Ideal si te gusta el termalismo, los lagos de montaña y el senderismo de altura.",
+   "i_en": "Ideal if you like thermal baths, mountain lakes and high-altitude hiking."
+  },
+  "hsc_guara": {
+   "id": "hsc_guara",
+   "d": "El Parque Natural de la Sierra y Cañones de Guara protege un laberinto de gargantas labradas por los ríos Vero, Alcanadre y Mascún. Desde Rodellar, aldea rodeada de paredes rojizas, parten rutas de senderismo y los barrancos más famosos del país, entre buitres y pozas turquesa.",
+   "d_en": "The Sierra y Cañones de Guara Natural Park protects a maze of gorges carved by the Vero, Alcanadre and Mascún rivers. From Rodellar, a hamlet ringed by reddish walls, run hiking trails and the country's most famous canyons, amid vultures and turquoise pools.",
+   "h": "Acceso libre; algunos barrancos regulados para proteger la fauna.",
+   "h_en": "Free access; some canyons regulated to protect wildlife.",
+   "i": "Ideal si te gusta la naturaleza salvaje, los cañones y la aventura al aire libre.",
+   "i_en": "Ideal if you like wild nature, canyons and outdoor adventure."
+  },
+  "hsc_formigal": {
+   "id": "hsc_formigal",
+   "d": "Con cuatro valles esquiables y más de 175 km de pistas, Formigal es el gran dominio del Pirineo aragonés para todos los niveles. En verano ofrece senderismo, bici de montaña y actividades de aventura, además de un animado après-ski y accesos al Balneario de Panticosa.",
+   "d_en": "With four ski valleys and over 175 km of runs, Formigal is the great Aragonese Pyrenean domain for all levels. In summer it offers hiking, mountain biking and adventure activities, plus lively après-ski and access to the Panticosa spa.",
+   "h": "Temporada de esquí dic–abril, aprox. 9:00–16:30; actividades de verano jul–sep.",
+   "h_en": "Ski season Dec–April, approx. 9:00–16:30; summer activities Jul–Sep.",
+   "i": "Ideal si te gusta esquiar, la nieve en familia y las actividades de montaña.",
+   "i_en": "Ideal if you like skiing, family snow days and mountain activities."
+  },
+  "hsc_cerler": {
+   "id": "hsc_cerler",
+   "d": "Situada junto al pueblo de piedra de Cerler, alcanza cotas cercanas a los 2.600 m con vistas al Aneto y nieve de calidad. Buen dominio para esquiadores de todos los niveles y base para el freeride, con un entorno privilegiado en el corazón del Pirineo oriental oscense.",
+   "d_en": "Set beside the stone village of Cerler, it reaches heights near 2,600 m with views of Aneto and quality snow. A good domain for skiers of all levels and a base for freeride, in a privileged setting in the eastern Huesca Pyrenees.",
+   "h": "Temporada de esquí dic–abril, aprox. 9:00–16:30.",
+   "h_en": "Ski season Dec–April, approx. 9:00–16:30.",
+   "i": "Ideal si te gusta el esquí de altura, el freeride y los pueblos de montaña.",
+   "i_en": "Ideal if you like high-altitude skiing, freeride and mountain villages."
+  },
+  "hsc_candanchu": {
+   "id": "hsc_candanchu",
+   "d": "Pionera del esquí en España desde 1928, se extiende junto al puerto del Somport en la frontera con Francia. Ofrece pistas variadas, esquí de fondo y un ambiente clásico de montaña, con el vecino Candanchú-Astún formando uno de los grandes referentes del Pirineo occidental.",
+   "d_en": "A pioneer of skiing in Spain since 1928, it spreads beside the Somport pass on the French border. It offers varied runs, cross-country skiing and a classic mountain atmosphere, with neighbouring Astún forming one of the western Pyrenees' great hubs.",
+   "h": "Temporada de esquí dic–abril, aprox. 9:00–16:30.",
+   "h_en": "Ski season Dec–April, approx. 9:00–16:30.",
+   "i": "Ideal si te gusta el esquí clásico, la historia del deporte blanco y el fondo.",
+   "i_en": "Ideal if you like classic skiing, snow-sport history and cross-country trails."
+  },
+  "hsc_pasarelas_vero": {
+   "id": "hsc_pasarelas_vero",
+   "d": "Sendero circular que combina escaleras talladas, senderos y pasarelas metálicas ancladas a las paredes del cañón del río Vero, con pozas, cuevas con arte rupestre cercanas y vistas espectaculares. Una de las excursiones más populares y accesibles de la Sierra de Guara.",
+   "d_en": "A circular trail combining carved steps, footpaths and metal walkways anchored to the walls of the Vero river canyon, with pools, nearby rock-art caves and spectacular views. One of the most popular and accessible outings in the Sierra de Guara.",
+   "h": "Acceso de pago; abierto según temporada y nivel del río, consultar en Alquézar.",
+   "h_en": "Paid access; open depending on season and river level, check in Alquézar.",
+   "i": "Ideal si te gusta el senderismo con emoción, los cañones y la fotografía.",
+   "i_en": "Ideal if you like thrilling hikes, canyons and photography."
+  },
+  "hsc_barranquismo_guara": {
+   "id": "hsc_barranquismo_guara",
+   "d": "La Sierra de Guara es el destino de barranquismo por excelencia de Europa, con decenas de descensos para todos los niveles entre las gargantas del Mascún, la Peonera o el Formiga. Desde Rodellar y Alquézar, las empresas de aventura ofrecen salidas guiadas con material incluido.",
+   "d_en": "The Sierra de Guara is Europe's premier canyoning destination, with dozens of descents for all levels among the Mascún, Peonera and Formiga gorges. From Rodellar and Alquézar, adventure companies offer guided trips with gear included.",
+   "h": "Temporada aprox. mayo–octubre; reserva previa con empresas de guías.",
+   "h_en": "Season approx. May–October; advance booking with guiding companies.",
+   "i": "Ideal si te gusta la aventura, el agua y la adrenalina en plena naturaleza.",
+   "i_en": "Ideal if you like adventure, water and adrenaline in the wild."
+  },
+  "hsc_lillas_pastia": {
+   "id": "hsc_lillas_pastia",
+   "d": "Instalado en el modernista Casino de Huesca, en la Plaza de Navarra, es un referente de la gastronomía altoaragonesa de autor. Su cocina reivindica los productos de temporada y, muy especialmente, la trufa negra del Somontano, en menús degustación reconocidos por la crítica.",
+   "d_en": "Set in the Modernist Casino of Huesca on Plaza de Navarra, it is a benchmark of signature Upper Aragón gastronomy. Its kitchen champions seasonal produce and, above all, the black truffle of the Somontano, in tasting menus praised by critics.",
+   "h": "Mar–Sáb 13:30–15:30 y 21:00–22:30; consultar cierres.",
+   "h_en": "Tue–Sat 13:30–15:30 and 21:00–22:30; check closing days.",
+   "i": "Ideal si te gusta la alta cocina, la trufa y los productos de temporada.",
+   "i_en": "Ideal if you like fine dining, truffle and seasonal produce."
+  },
+  "hsc_las_torres": {
+   "id": "hsc_las_torres",
+   "d": "Referente histórico de la gastronomía de Huesca, ofrece una cocina técnica y creativa arraigada en el producto altoaragonés, con la trufa negra, las verduras y las carnes de la tierra como ejes. Menús degustación y una cuidada bodega con protagonismo del Somontano.",
+   "d_en": "A historic benchmark of Huesca gastronomy, it offers technical, creative cooking rooted in Upper Aragón produce, with black truffle, vegetables and local meats at its core. Tasting menus and a carefully curated cellar led by Somontano wines.",
+   "h": "Mar–Sáb 13:30–15:30 y 21:00–22:30; consultar cierres.",
+   "h_en": "Tue–Sat 13:30–15:30 and 21:00–22:30; check closing days.",
+   "i": "Ideal si te gusta la alta cocina, la trufa y los menús degustación.",
+   "i_en": "Ideal if you like fine dining, truffle and tasting menus."
+  },
+  "hsc_callizo_ainsa": {
+   "id": "hsc_callizo_ainsa",
+   "d": "En un edificio de piedra de la plaza medieval de Aínsa, ofrece un menú degustación teatral y muy personal que reinterpreta el paisaje, los productos y la memoria del Sobrarbe y el Pirineo. Cocina de vanguardia que ha situado a la comarca en el mapa gastronómico.",
+   "d_en": "In a stone building on Aínsa's medieval square, it serves a theatrical, deeply personal tasting menu reinterpreting the landscape, produce and memory of Sobrarbe and the Pyrenees. Avant-garde cooking that has put the region on the gastronomic map.",
+   "h": "Servicios con menú degustación; reserva imprescindible, consultar días.",
+   "h_en": "Tasting-menu services; booking essential, check open days.",
+   "i": "Ideal si te gusta la cocina de vanguardia, los menús degustación y el Pirineo.",
+   "i_en": "Ideal if you like avant-garde cooking, tasting menus and the Pyrenees."
+  },
+  "hsc_enoturismo_somontano": {
+   "id": "hsc_enoturismo_somontano",
+   "d": "Barbastro es la capital de la Ruta del Vino Somontano, que reúne bodegas modernas y centenarias donde catar tintos, blancos y rosados junto a la despensa local: longaniza, ternasco, quesos y crespillos. El Espacio del Vino y los restaurantes de la comarca completan la experiencia.",
+   "d_en": "Barbastro is the capital of the Somontano Wine Route, gathering modern and century-old wineries where you can taste reds, whites and rosés alongside local fare: sausage, lamb, cheeses and crespillos. The Wine Space and regional restaurants complete the experience.",
+   "h": "Bodegas y enotecas con visitas y catas, generalmente con reserva.",
+   "h_en": "Wineries and wine bars with tours and tastings, usually by reservation.",
+   "i": "Ideal si te gusta el vino, el enoturismo y la gastronomía de producto.",
+   "i_en": "Ideal if you like wine, wine tourism and produce-driven food."
+  },
+  "hsc_tapas_huesca": {
+   "id": "hsc_tapas_huesca",
+   "d": "El casco histórico de Huesca, en torno al Coso, la Plaza López Allué y las calles junto a la Catedral, concentra bares y tabernas donde probar pinchos calientes, ternasco de Aragón, longaniza de Graus, migas y buenos vinos del Somontano en ambiente animado.",
+   "d_en": "Huesca's historic centre, around the Coso, Plaza López Allué and the streets by the Cathedral, packs bars and taverns for hot pinchos, Aragonese ternasco lamb, Graus sausage, migas and good Somontano wines in a lively atmosphere.",
+   "h": "Bares con horario de tapeo, aprox. 12:00–15:30 y 19:30–23:00.",
+   "h_en": "Bars with tapas hours, approx. 12:00–15:30 and 19:30–23:00.",
+   "i": "Ideal si te gusta el tapeo, el ambiente local y la cocina tradicional.",
+   "i_en": "Ideal if you like tapas, local atmosphere and traditional food."
+  }
+ },
+ "food": {
+  "hsc_lillas_pastia": {
+   "cuisine": "Alta cocina aragonesa de autor",
+   "price": "60–110 €",
+   "hours": "Mar–Sáb 13:30–15:30 y 21:00–22:30"
+  },
+  "hsc_las_torres": {
+   "cuisine": "Alta cocina aragonesa de autor",
+   "price": "55–100 €",
+   "hours": "Mar–Sáb 13:30–15:30 y 21:00–22:30"
+  },
+  "hsc_callizo_ainsa": {
+   "cuisine": "Alta cocina creativa del Pirineo",
+   "price": "90–140 €",
+   "hours": "Reserva previa; menú degustación (consultar días)"
+  },
+  "hsc_enoturismo_somontano": {
+   "cuisine": "Enoturismo y cocina del Somontano (vinos D.O., embutidos, ternasco)",
+   "price": "15–45 €",
+   "hours": "Visitas y catas con reserva (consultar cada bodega)"
+  },
+  "hsc_tapas_huesca": {
+   "cuisine": "Tapas y cocina tradicional aragonesa",
+   "price": "2–4 € tapa (15–25 € ruta)",
+   "hours": "Aprox. 12:00–15:30 y 19:30–23:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Huesca",
+   "items": [
+    {
+     "name": "Vino D.O. Somontano",
+     "price": "8–25 €",
+     "desc": "Tintos, blancos y rosados del Somontano, una de las denominaciones más prestigiosas de Aragón."
+    },
+    {
+     "name": "Ternasco y longaniza de Graus",
+     "price": "10–20 €",
+     "desc": "Cordero con IGP Ternasco de Aragón y embutidos curados del Pirineo."
+    },
+    {
+     "name": "Trenza de Almudévar",
+     "price": "12–18 €",
+     "desc": "Dulce trenzado de hojaldre con frutos secos, azúcar y mantequilla, típico oscense."
+    },
+    {
+     "name": "Aceite y crespillos del Somontano",
+     "price": "6–14 €",
+     "desc": "Aceite de oliva local y dulces tradicionales de borraja fritos."
+    }
+   ],
+   "shops": [
+    "Mercado y Porches de Galicia (Huesca)",
+    "Tiendas del casco antiguo junto a la Catedral",
+    "Bodegas y enotecas de la Ruta del Vino Somontano (Barbastro)"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Para Ordesa en verano y Semana Santa aparca en Torla y usa el autobús lanzadera obligatorio hasta la Pradera.",
+   "Reserva con antelación el Castillo de Loarre y San Juan de la Peña, sobre todo en fines de semana y puentes.",
+   "En Alquézar lleva calzado con buen agarre y bañador para las Pasarelas del Vero; consulta el nivel del río antes de ir.",
+   "El tiempo en el Pirineo cambia rápido: lleva ropa de abrigo e impermeable incluso en verano y madruga para las rutas de montaña.",
+   "Aprovecha para catar la D.O. Somontano en Barbastro y probar el ternasco de Aragón; muchas bodegas ofrecen visitas con degustación."
+  ],
+  "en": [
+   "For Ordesa in summer and Easter, park in Torla and take the compulsory shuttle bus up to the Pradera meadow.",
+   "Book Loarre Castle and San Juan de la Peña in advance, especially on weekends and long holidays.",
+   "In Alquézar wear grippy shoes and a swimsuit for the Vero walkways; check the river level before you go.",
+   "Pyrenean weather changes fast: pack warm and waterproof layers even in summer and start mountain hikes early.",
+   "Take time to taste D.O. Somontano wines in Barbastro and try Aragonese ternasco lamb; many wineries offer tours with tastings."
+  ]
+ },
+ "climate": {
+  "hi": [
+   9,
+   12,
+   16,
+   18,
+   23,
+   28,
+   32,
+   31,
+   26,
+   20,
+   13,
+   9
+  ],
+  "lo": [
+   1,
+   2,
+   4,
+   6,
+   10,
+   14,
+   17,
+   17,
+   13,
+   9,
+   4,
+   2
+  ]
+ },
+ "tr": {
+  "Catedral gótica en lo más alto del casco antiguo, con retablo de Damián Forment.": "Gothic cathedral crowning the old town, home to Damián Forment's alabaster altarpiece.",
+  "Monasterio románico oscense con claustro del siglo XII y panteón real.": "Romanesque monastery in Huesca with a 12th-century cloister and royal pantheon.",
+  "El castillo románico mejor conservado de Europa, sobre un espolón rocoso.": "Europe's best-preserved Romanesque castle, perched on a rocky spur.",
+  "Una de las primeras catedrales románicas de España, en el corazón de Jaca.": "One of Spain's earliest Romanesque cathedrals, in the heart of Jaca.",
+  "Fortaleza pentagonal renacentista con foso y ciervos, única en España.": "Renaissance star-shaped fortress with a moat and deer, unique in Spain.",
+  "Monasterio románico incrustado bajo una gran roca, cuna del reino de Aragón.": "Romanesque monastery tucked under a huge rock, cradle of the Kingdom of Aragón.",
+  "Colegiata amurallada sobre Alquézar, uno de los pueblos más bonitos de España.": "Walled collegiate church above Alquézar, one of Spain's prettiest villages.",
+  "Casco medieval de piedra con Plaza Mayor porticada y castillo, capital del Sobrarbe.": "Stone medieval town with an arcaded main square and castle, capital of Sobrarbe.",
+  "Catedral gótica del Somontano, capital del vino y del jamón.": "Gothic cathedral of the Somontano, capital of wine and cured ham.",
+  "Pueblo pirenaico de piedra y puerta principal al Parque Nacional de Ordesa.": "Stone Pyrenean village and main gateway to Ordesa National Park.",
+  "Cañones, cascadas y altas cumbres en el gran parque nacional del Pirineo.": "Canyons, waterfalls and high peaks in the great Pyrenean national park.",
+  "Enormes torres de conglomerado rojizo, paraíso de escaladores y buitres.": "Huge reddish conglomerate towers, a paradise for climbers and vultures.",
+  "El valle de los tresmiles, con el Aneto, techo del Pirineo.": "The valley of the three-thousanders, home to Aneto, the Pyrenees' roof.",
+  "Valle glaciar de praderas y cascadas bajo la cara norte de Monte Perdido.": "Glacial valley of meadows and waterfalls below Monte Perdido's north face.",
+  "Balneario histórico entre altas paredes de granito e ibones glaciares.": "Historic spa town amid high granite walls and glacial mountain lakes.",
+  "Parque natural de cañones y barrancos, capital europea del descenso.": "Natural park of canyons and gorges, Europe's canyoning capital.",
+  "La mayor estación de esquí del Pirineo aragonés, en el Valle de Tena.": "The largest ski resort in the Aragonese Pyrenees, in the Tena Valley.",
+  "La estación más alta del Pirineo aragonés, sobre el Valle de Benasque.": "The highest ski resort in the Aragonese Pyrenees, above Benasque.",
+  "La estación de esquí más antigua de España, en el Valle del Aragón.": "Spain's oldest ski resort, in the Aragón Valley.",
+  "Ruta de pasarelas colgadas sobre el cañón del Vero, bajo Alquézar.": "Trail of walkways hanging over the Vero canyon, below Alquézar.",
+  "Descensos de barrancos con toboganes, rápeles y saltos en aguas turquesa.": "Canyoning descents with slides, rappels and jumps into turquoise water.",
+  "Alta cocina oscense con la trufa negra de Aragón como protagonista.": "Fine Huesca cuisine starring the black truffle of Aragón.",
+  "Cocina aragonesa de autor con estrella Michelin, regentada por los hermanos Abadía.": "Signature Aragonese cuisine with a Michelin star, run by the Abadía brothers.",
+  "Cocina creativa del Pirineo con estrella Michelin en la Plaza Mayor de Aínsa.": "Creative Pyrenean cuisine with a Michelin star on Aínsa's main square.",
+  "Bodegas y catas de la D.O. Somontano, con tapas y jamón del Alto Aragón.": "Wineries and tastings of D.O. Somontano, with Upper Aragón tapas and ham.",
+  "Tapeo por el casco antiguo con pinchos, ternasco y longaniza aragonesa.": "Tapas crawl through the old town with pinchos, lamb and Aragonese sausage.",
+  "Huesca": "Huesca"
+ }
+}

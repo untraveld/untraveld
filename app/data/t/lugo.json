@@ -1,0 +1,577 @@
+{
+ "id": "lugo",
+ "name": "Lugo",
+ "country": "ES",
+ "center": [
+  43.01204,
+  -7.5562
+ ],
+ "pois": [
+  {
+   "id": "lug_muralla",
+   "cat": "monuments",
+   "name": "Muralla Romana de Lugo",
+   "icon": "🏛️",
+   "lat": 43.01204,
+   "lng": -7.5562,
+   "desc": "Muralla romana del siglo III, Patrimonio de la Humanidad."
+  },
+  {
+   "id": "lug_catedral",
+   "cat": "monuments",
+   "name": "Catedral de Santa María de Lugo",
+   "icon": "⛪",
+   "lat": 43.00937,
+   "lng": -7.55889,
+   "desc": "Catedral románica con añadidos góticos y barrocos."
+  },
+  {
+   "id": "lug_praza_maior",
+   "cat": "monuments",
+   "name": "Casco histórico y Praza Maior de Lugo",
+   "icon": "🏘️",
+   "lat": 43.00972,
+   "lng": -7.55583,
+   "desc": "Corazón peatonal de Lugo dentro de la muralla."
+  },
+  {
+   "id": "lug_catedral_mondonedo",
+   "cat": "monuments",
+   "name": "Catedral de Mondoñedo",
+   "icon": "⛪",
+   "lat": 43.42758,
+   "lng": -7.36372,
+   "desc": "Catedral 'Kneeling', gótica del siglo XIII."
+  },
+  {
+   "id": "lug_monforte_sanvicente",
+   "cat": "monuments",
+   "name": "Monasterio de San Vicente do Pino (Monforte de Lemos)",
+   "icon": "🏰",
+   "lat": 42.52387,
+   "lng": -7.51064,
+   "desc": "Conjunto monumental sobre la colina de Monforte."
+  },
+  {
+   "id": "lug_cebreiro",
+   "cat": "monuments",
+   "name": "O Cebreiro y su iglesia de Santa María a Real",
+   "icon": "⛪",
+   "lat": 42.70889,
+   "lng": -7.04361,
+   "desc": "Aldea del Camino con pallozas e iglesia prerrománica."
+  },
+  {
+   "id": "lug_san_martino_foz",
+   "cat": "monuments",
+   "name": "Basílica de San Martiño de Mondoñedo (Foz)",
+   "icon": "⛪",
+   "lat": 43.56108,
+   "lng": -7.30331,
+   "desc": "Considerada la catedral más antigua de España."
+  },
+  {
+   "id": "lug_boveda",
+   "cat": "monuments",
+   "name": "Santa Eulalia de Bóveda",
+   "icon": "🏛️",
+   "lat": 42.98036,
+   "lng": -7.68575,
+   "desc": "Enigmático monumento romano-paleocristiano."
+  },
+  {
+   "id": "lug_torre_moreno",
+   "cat": "monuments",
+   "name": "Torre dos Moreno (Ribadeo)",
+   "icon": "🏰",
+   "lat": 43.53528,
+   "lng": -7.03889,
+   "desc": "Edificio modernista indiano de Ribadeo."
+  },
+  {
+   "id": "lug_sarria_camino",
+   "cat": "monuments",
+   "name": "Rúa Maior de Sarria",
+   "icon": "🚶",
+   "lat": 42.78139,
+   "lng": -7.41417,
+   "desc": "Villa clave del Camino a 100 km de Santiago."
+  },
+  {
+   "id": "lug_catedrais",
+   "cat": "nature",
+   "name": "Playa de las Catedrales (Praia das Catedrais)",
+   "icon": "🏖️",
+   "lat": 43.55389,
+   "lng": -7.15528,
+   "desc": "Arcos y bóvedas de roca esculpidos por el mar."
+  },
+  {
+   "id": "lug_canon_sil",
+   "cat": "nature",
+   "name": "Miradoiros do Cañón do Sil (Ribeira Sacra)",
+   "icon": "🏞️",
+   "lat": 42.41139,
+   "lng": -7.61639,
+   "desc": "Miradores sobre los cañones del río Sil."
+  },
+  {
+   "id": "lug_augasantas",
+   "cat": "nature",
+   "name": "Praia de Augasantas",
+   "icon": "🏖️",
+   "lat": 43.68333,
+   "lng": -7.41972,
+   "desc": "Cala virgen entre acantilados cerca de Sargadelos."
+  },
+  {
+   "id": "lug_covas_viveiro",
+   "cat": "nature",
+   "name": "Praia de Covas (Viveiro)",
+   "icon": "🏖️",
+   "lat": 43.67269,
+   "lng": -7.60516,
+   "desc": "Amplio arenal urbano en la ría de Viveiro."
+  },
+  {
+   "id": "lug_souto_retorta",
+   "cat": "nature",
+   "name": "Souto da Retorta (Eucaliptos de Chavín)",
+   "icon": "🌲",
+   "lat": 43.61608,
+   "lng": -7.59503,
+   "desc": "Bosque con el eucalipto más alto de Europa."
+  },
+  {
+   "id": "lug_catamaran_sil",
+   "cat": "ocio",
+   "name": "Catamarán por los cañones del Sil",
+   "icon": "⛴️",
+   "lat": 42.40083,
+   "lng": -7.63889,
+   "desc": "Paseo en barco por las gargantas de la Ribeira Sacra."
+  },
+  {
+   "id": "lug_termas_lugo",
+   "cat": "ocio",
+   "name": "Termas Romanas de Lugo",
+   "icon": "♨️",
+   "lat": 42.99944,
+   "lng": -7.56583,
+   "desc": "Baños termales de origen romano junto al Miño."
+  },
+  {
+   "id": "lug_sargadelos_fabrica",
+   "cat": "ocio",
+   "name": "Fábrica y Museo de Sargadelos (Cervo)",
+   "icon": "🏺",
+   "lat": 43.66675,
+   "lng": -7.40256,
+   "desc": "Cuna de la célebre cerámica azul gallega."
+  },
+  {
+   "id": "lug_paseo_ribadeo",
+   "cat": "ocio",
+   "name": "Puerto y paseo de la ría del Eo (Ribadeo)",
+   "icon": "⚓",
+   "lat": 43.5375,
+   "lng": -7.04083,
+   "desc": "Puerto deportivo y paseo sobre la ría del Eo."
+  },
+  {
+   "id": "lug_meson_alberto",
+   "cat": "food",
+   "name": "Mesón de Alberto (Lugo)",
+   "icon": "🍽️",
+   "lat": 43.00944,
+   "lng": -7.55694,
+   "desc": "Cocina gallega clásica en el casco viejo de Lugo."
+  },
+  {
+   "id": "lug_pulperia_casco",
+   "cat": "food",
+   "name": "Pulpería del casco histórico (Lugo)",
+   "icon": "🐙",
+   "lat": 43.00889,
+   "lng": -7.55639,
+   "desc": "Pulpo á feira y vinos de la tierra en el centro."
+  },
+  {
+   "id": "lug_ogrelo_monforte",
+   "cat": "food",
+   "name": "Restaurante O Grelo (Monforte de Lemos)",
+   "icon": "🍷",
+   "lat": 42.52028,
+   "lng": -7.51361,
+   "desc": "Cocina de la Ribeira Sacra con sus vinos."
+  },
+  {
+   "id": "lug_marisco_ribadeo",
+   "cat": "food",
+   "name": "Marisquería del puerto de Ribadeo",
+   "icon": "🦐",
+   "lat": 43.53611,
+   "lng": -7.03972,
+   "desc": "Mariscos y pescado fresco de la ría del Eo."
+  },
+  {
+   "id": "lug_tarta_mondonedo",
+   "cat": "food",
+   "name": "Pastelería de la Tarta de Mondoñedo",
+   "icon": "🍰",
+   "lat": 43.42722,
+   "lng": -7.36444,
+   "desc": "Dulce histórico de hojaldre y frutas."
+  }
+ ],
+ "extra": {
+  "lug_muralla": {
+   "id": "lug_muralla",
+   "d": "Única muralla romana del mundo que conserva íntegro todo su perímetro: 2.117 metros con 71 torreones y un adarve que se puede recorrer por completo. Rodea el casco histórico y es el símbolo de Lugo.",
+   "d_en": "The only Roman wall in the world that preserves its entire perimeter: 2,117 metres with 71 towers and a walkway you can circle completely. It surrounds the old town and is Lugo's emblem.",
+   "h": "Acceso libre las 24 horas por varias escaleras y rampas.",
+   "h_en": "Free access 24 hours via several stairways and ramps.",
+   "i": "Ideal si te gusta la historia romana y pasear con vistas panorámicas.",
+   "i_en": "Ideal if you like Roman history and walking with panoramic views."
+  },
+  "lug_catedral": {
+   "id": "lug_catedral",
+   "d": "Iniciada en 1129, mezcla románico, gótico, barroco y neoclásico. Alberga la capilla de la Virgen de los Ojos Grandes y es famosa por la exposición permanente del Santísimo Sacramento, privilegio recogido en el escudo de Galicia.",
+   "d_en": "Begun in 1129, it blends Romanesque, Gothic, Baroque and Neoclassical styles. It holds the chapel of the Virgin of the Big Eyes and is famous for the permanent exposition of the Blessed Sacrament, a privilege shown on Galicia's coat of arms.",
+   "h": "Lun-Dom 8:30-20:30 aprox.; museo con horario reducido.",
+   "h_en": "Mon-Sun approx. 8:30-20:30; museum with reduced hours.",
+   "i": "Ideal si te gusta el arte sacro y la arquitectura de varios siglos.",
+   "i_en": "Ideal if you like sacred art and architecture spanning centuries."
+  },
+  "lug_praza_maior": {
+   "id": "lug_praza_maior",
+   "d": "Dentro del recinto amurallado, el casco antiguo reúne la Praza Maior con su palacio consistorial barroco, la Praza do Campo con soportales y las calles de tapeo. Un laberinto de piedra lleno de vida.",
+   "d_en": "Within the walled enclosure, the old town gathers the Praza Maior with its Baroque town hall, the arcaded Praza do Campo and the tapas streets. A lively stone labyrinth.",
+   "h": "Acceso libre; ambiente animado tardes y fines de semana.",
+   "h_en": "Free access; lively in the evenings and at weekends.",
+   "i": "Ideal si te gusta perderte por callejuelas y el ambiente de plaza.",
+   "i_en": "Ideal if you like wandering old lanes and a bustling square."
+  },
+  "lug_catedral_mondonedo": {
+   "id": "lug_catedral_mondonedo",
+   "d": "Conocida como la 'Catedral de rodillas' por su baja y armónica fachada, combina el románico de sus portadas con un gran rosetón gótico y frescos medievales. Preside la villa histórica de Mondoñedo, antigua capital provincial.",
+   "d_en": "Known as the 'Kneeling Cathedral' for its low, harmonious facade, it combines Romanesque doorways with a large Gothic rose window and medieval frescoes. It presides over the historic town of Mondoñedo, a former provincial capital.",
+   "h": "Lun-Dom 10:00-13:30 y 16:00-19:00 aprox.",
+   "h_en": "Mon-Sun approx. 10:00-13:30 and 16:00-19:00.",
+   "i": "Ideal si te gusta el arte medieval y los pueblos con historia.",
+   "i_en": "Ideal if you like medieval art and towns steeped in history."
+  },
+  "lug_monforte_sanvicente": {
+   "id": "lug_monforte_sanvicente",
+   "d": "En lo alto del monte San Vicente conviven el monasterio benedictino (hoy Parador), la Torre del Homenaje medieval y el Palacio Condal. Desde aquí se domina Monforte de Lemos, capital de la Ribeira Sacra.",
+   "d_en": "On top of San Vicente hill stand the Benedictine monastery (now a Parador), the medieval keep and the Counts' Palace. From here you overlook Monforte de Lemos, capital of the Ribeira Sacra.",
+   "h": "Torre y recinto: mañana y tarde según temporada.",
+   "h_en": "Tower and grounds: morning and afternoon, seasonal.",
+   "i": "Ideal si te gusta la arquitectura monástica y las vistas de altura.",
+   "i_en": "Ideal if you like monastic architecture and hilltop views."
+  },
+  "lug_cebreiro": {
+   "id": "lug_cebreiro",
+   "d": "Puerta de Galicia en el Camino Francés, a 1.300 m de altitud. Conserva las pallozas de piedra y techo de paja de origen celta y la iglesia de Santa María a Real, escenario del milagro eucarístico del Santo Grial.",
+   "d_en": "Galicia's gateway on the French Way, at 1,300 m altitude. It preserves the Celtic-rooted stone-and-thatch pallozas and the church of Santa María a Real, setting of the Holy Grail eucharistic miracle.",
+   "h": "Iglesia abierta al culto y peregrinos; aldea siempre accesible.",
+   "h_en": "Church open for worship and pilgrims; village always accessible.",
+   "i": "Ideal si te gusta el Camino de Santiago y la arquitectura ancestral.",
+   "i_en": "Ideal if you like the Camino de Santiago and ancestral architecture."
+  },
+  "lug_san_martino_foz": {
+   "id": "lug_san_martino_foz",
+   "d": "Templo románico del siglo XII sobre una sede episcopal del siglo IX, por lo que se le atribuye ser la catedral más antigua en uso de España. Guarda pinturas murales medievales y un excepcional retablo de piedra.",
+   "d_en": "A 12th-century Romanesque church on a 9th-century episcopal see, credited as Spain's oldest cathedral in use. It keeps medieval wall paintings and an exceptional stone altarpiece.",
+   "h": "Mar-Dom con visitas guiadas; consultar horario local.",
+   "h_en": "Tue-Sun with guided visits; check local hours.",
+   "i": "Ideal si te gusta el románico primitivo lejos de las multitudes.",
+   "i_en": "Ideal if you like early Romanesque away from the crowds."
+  },
+  "lug_boveda": {
+   "id": "lug_boveda",
+   "d": "Cerca de Lugo, este singular recinto semisubterráneo de época tardorromana conserva una piscina ritual y frescos con aves de gran belleza. Su función exacta sigue siendo un misterio para los arqueólogos.",
+   "d_en": "Near Lugo, this singular semi-underground late-Roman enclosure preserves a ritual pool and beautiful bird frescoes. Its exact purpose remains an archaeological mystery.",
+   "h": "Mar-Dom mañana y tarde; lunes cerrado.",
+   "h_en": "Tue-Sun morning and afternoon; closed Mondays.",
+   "i": "Ideal si te gusta la arqueología y los enigmas del pasado.",
+   "i_en": "Ideal if you like archaeology and mysteries of the past."
+  },
+  "lug_torre_moreno": {
+   "id": "lug_torre_moreno",
+   "d": "Levantada en 1915 por emigrantes retornados de América, es la joya de la arquitectura indiana de Ribadeo, con cúpula, atlantes y azulejería. Preside la villa marinera junto a la ría del Eo.",
+   "d_en": "Built in 1915 by emigrants returned from the Americas, it is the jewel of Ribadeo's Indiano architecture, with a dome, atlantes and tilework. It presides over the seafaring town beside the Eo estuary.",
+   "h": "Exterior visitable siempre; interior en visitas puntuales.",
+   "h_en": "Exterior always viewable; interior on occasional visits.",
+   "i": "Ideal si te gusta la arquitectura de indianos y los pueblos marineros.",
+   "i_en": "Ideal if you like Indiano architecture and seafaring towns."
+  },
+  "lug_sarria_camino": {
+   "id": "lug_sarria_camino",
+   "d": "Sarria es el punto de partida más popular del Camino Francés, ya que está justo a los 100 km necesarios para la Compostela. Su empedrada Rúa Maior sube hasta el convento de la Magdalena y la torre de la fortaleza.",
+   "d_en": "Sarria is the most popular starting point on the French Way, sitting exactly at the 100 km needed for the Compostela. Its cobbled Rúa Maior climbs to the Magdalena convent and the fortress tower.",
+   "h": "Acceso libre; máximo ambiente peregrino en verano.",
+   "h_en": "Free access; peak pilgrim atmosphere in summer.",
+   "i": "Ideal si te gusta el Camino y el ambiente de los peregrinos.",
+   "i_en": "Ideal if you like the Camino and the pilgrim atmosphere."
+  },
+  "lug_catedrais": {
+   "id": "lug_catedrais",
+   "d": "Monumento Natural en Ribadeo cuyos acantilados forman arcos y contrafuertes que recuerdan a una catedral gótica. Solo se pueden recorrer sus arcos con la marea baja; en verano y Semana Santa hace falta reserva gratuita.",
+   "d_en": "A Natural Monument in Ribadeo whose cliffs form arches and buttresses resembling a Gothic cathedral. The arches can only be walked at low tide; in summer and Easter a free booking is required.",
+   "h": "Solo con marea baja; reserva obligatoria en temporada alta.",
+   "h_en": "Only at low tide; booking required in high season.",
+   "i": "Ideal si te gusta la fotografía y los paisajes costeros espectaculares.",
+   "i_en": "Ideal if you like photography and spectacular coastal scenery."
+  },
+  "lug_canon_sil": {
+   "id": "lug_canon_sil",
+   "d": "El Sil excava gargantas de hasta 500 m de profundidad tapizadas de viñedos heroicos en bancales. Desde miradores como Cabezoás o A Cividade, en el lado lucense de Sober, se contemplan las mejores panorámicas de la Ribeira Sacra.",
+   "d_en": "The Sil carves gorges up to 500 m deep clad with heroic terraced vineyards. From viewpoints such as Cabezoás or A Cividade, on the Lugo side in Sober, you get the finest panoramas of the Ribeira Sacra.",
+   "h": "Miradores accesibles todo el día; mejor con luz de mañana.",
+   "h_en": "Viewpoints accessible all day; best in morning light.",
+   "i": "Ideal si te gusta el paisaje vinícola y las vistas de vértigo.",
+   "i_en": "Ideal if you like vineyard scenery and dizzying views."
+  },
+  "lug_augasantas": {
+   "id": "lug_augasantas",
+   "d": "En el concello de Cervo, esta pequeña playa semisalvaje se abre entre acantilados y aguas cristalinas. Junto a ella asoma el islote y el arco natural, un rincón tranquilo alejado del turismo masivo de la Mariña lucense.",
+   "d_en": "In the Cervo municipality, this small semi-wild beach opens between cliffs and crystal-clear water. Beside it rise an islet and a natural arch, a quiet corner away from the mass tourism of the Lugo coast.",
+   "h": "Acceso libre; baño según mar y mareas.",
+   "h_en": "Free access; bathing subject to sea and tides.",
+   "i": "Ideal si te gusta el mar salvaje y las calas poco concurridas.",
+   "i_en": "Ideal if you like wild seas and uncrowded coves."
+  },
+  "lug_covas_viveiro": {
+   "id": "lug_covas_viveiro",
+   "d": "El gran arenal de Covas se extiende junto a la villa de Viveiro, protegido por la ría y flanqueado por las islas de los Netos. Ideal para el baño en familia y para pasear por su largo paseo marítimo.",
+   "d_en": "The great sweep of Covas stretches beside the town of Viveiro, sheltered by the estuary and flanked by the Netos islets. Ideal for family bathing and strolling its long promenade.",
+   "h": "Acceso libre; servicios de playa en verano.",
+   "h_en": "Free access; beach services in summer.",
+   "i": "Ideal si te gusta la playa tranquila con todos los servicios.",
+   "i_en": "Ideal if you like a calm, fully serviced beach."
+  },
+  "lug_souto_retorta": {
+   "id": "lug_souto_retorta",
+   "d": "En Chavín (Viveiro), a orillas del río Landro, crece este soto centenario de eucaliptos gigantes. El 'Avó', de más de 60 metros, está considerado el árbol más alto de Europa. Un paseo umbrío y monumental.",
+   "d_en": "In Chavín (Viveiro), on the banks of the Landro river, grows this centuries-old grove of giant eucalyptus. The 'Avó', over 60 metres tall, is regarded as Europe's tallest tree. A shady, monumental walk.",
+   "h": "Acceso libre durante el día.",
+   "h_en": "Free access during daylight.",
+   "i": "Ideal si te gusta la naturaleza monumental y los paseos frescos.",
+   "i_en": "Ideal if you like monumental nature and cool walks."
+  },
+  "lug_catamaran_sil": {
+   "id": "lug_catamaran_sil",
+   "d": "Desde el embarcadero de Ponte do Sil, los catamaranes navegan al pie de los cañones, ofreciendo la perspectiva del río hacia arriba y los viñedos colgados en las laderas. Una hora larga de travesía imprescindible en la Ribeira Sacra.",
+   "d_en": "From the Ponte do Sil pier, catamarans sail at the foot of the canyons, offering the up-river view and the vineyards clinging to the slopes. A must-do crossing of just over an hour in the Ribeira Sacra.",
+   "h": "Salidas diarias en temporada; reserva recomendada.",
+   "h_en": "Daily departures in season; booking recommended.",
+   "i": "Ideal si te gusta ver el paisaje desde el agua sin esfuerzo.",
+   "i_en": "Ideal if you like taking in scenery from the water effortlessly."
+  },
+  "lug_termas_lugo": {
+   "id": "lug_termas_lugo",
+   "d": "A orillas del río Miño, un balneario aprovecha las mismas aguas termales que ya usaban los romanos, cuyos restos del 'apodyterium' se conservan integrados en el edificio. Relax con historia a un paso del centro.",
+   "d_en": "On the banks of the Miño, a spa uses the same thermal waters the Romans enjoyed, with remains of the 'apodyterium' preserved within the building. Relaxation with history a step from the centre.",
+   "h": "Lun-Dom con horarios de spa; reserva recomendable.",
+   "h_en": "Mon-Sun with spa hours; booking advisable.",
+   "i": "Ideal si te gusta relajarte en aguas termales con encanto histórico.",
+   "i_en": "Ideal if you like relaxing in thermal waters with historic charm."
+  },
+  "lug_sargadelos_fabrica": {
+   "id": "lug_sargadelos_fabrica",
+   "d": "En Cervo nació en el siglo XVIII la loza de Sargadelos, hoy icono del diseño gallego. Se puede visitar la fábrica, ver el proceso de porcelana pintada a mano y recorrer el museo y la tienda del complejo.",
+   "d_en": "In Cervo the Sargadelos pottery was born in the 18th century, today an icon of Galician design. You can tour the factory, watch the hand-painted porcelain process and visit the complex's museum and shop.",
+   "h": "Visitas guiadas a la fábrica en horario de mañana; tienda todo el día.",
+   "h_en": "Guided factory visits in the morning; shop open all day.",
+   "i": "Ideal si te gusta la artesanía, el diseño y las compras con sello local.",
+   "i_en": "Ideal if you like craftsmanship, design and shopping with local flair."
+  },
+  "lug_paseo_ribadeo": {
+   "id": "lug_paseo_ribadeo",
+   "d": "El frente marítimo de Ribadeo combina puerto deportivo, terrazas y miradores sobre la ría del Eo, frontera natural con Asturias. Un plan perfecto al atardecer, con el puente de los Santos recortado sobre el agua.",
+   "d_en": "Ribadeo's waterfront combines a marina, terraces and viewpoints over the Eo estuary, the natural border with Asturias. A perfect plan at sunset, with the Puente de los Santos outlined over the water.",
+   "h": "Acceso libre; terrazas activas tardes de verano.",
+   "h_en": "Free access; terraces busy on summer evenings.",
+   "i": "Ideal si te gusta el ambiente portuario y las puestas de sol.",
+   "i_en": "Ideal if you like a harbour atmosphere and sunsets."
+  },
+  "lug_meson_alberto": {
+   "id": "lug_meson_alberto",
+   "d": "Institución de la gastronomía lucense en una casa de piedra dentro de la muralla. Ofrece producto de temporada, mariscos y carnes gallegas, con taberna de tapas en la planta baja y comedor más formal arriba.",
+   "d_en": "An institution of Lugo dining in a stone house within the walls. It serves seasonal produce, seafood and Galician meats, with a tapas tavern downstairs and a more formal dining room above.",
+   "h": "Mar-Sáb 13:30-16:00 y 21:00-23:30; consultar cierres.",
+   "h_en": "Tue-Sat 13:30-16:00 and 21:00-23:30; check closing days.",
+   "i": "Ideal si te gusta la cocina gallega tradicional bien ejecutada.",
+   "i_en": "Ideal if you like well-executed traditional Galician cooking."
+  },
+  "lug_pulperia_casco": {
+   "id": "lug_pulperia_casco",
+   "d": "En las calles de tapeo del casco viejo abundan las pulperías donde el pulpo se cuece en calderos de cobre y se sirve con aceite, sal gorda y pimentón. Acompáñalo con un ribeiro o mencía de la Ribeira Sacra.",
+   "d_en": "In the tapas streets of the old town, pulperías abound where octopus is boiled in copper cauldrons and served with oil, coarse salt and paprika. Pair it with a ribeiro or Ribeira Sacra mencía.",
+   "h": "Lun-Dom 12:00-16:00 y 20:00-23:30 aprox.",
+   "h_en": "Mon-Sun approx. 12:00-16:00 and 20:00-23:30.",
+   "i": "Ideal si te gusta el pulpo y el tapeo informal gallego.",
+   "i_en": "Ideal if you like octopus and casual Galician tapas."
+  },
+  "lug_ogrelo_monforte": {
+   "id": "lug_ogrelo_monforte",
+   "d": "Referente gastronómico de Monforte, apuesta por el producto de la comarca -carnes, setas, pescados de río- y una bodega centrada en los tintos de mencía y blancos de godello de la Ribeira Sacra.",
+   "d_en": "A dining reference in Monforte, it champions local produce -meats, mushrooms, river fish- and a cellar focused on Ribeira Sacra mencía reds and godello whites.",
+   "h": "Mar-Dom 13:30-16:00 y 21:00-23:00; consultar cierre semanal.",
+   "h_en": "Tue-Sun 13:30-16:00 and 21:00-23:00; check weekly closing.",
+   "i": "Ideal si te gusta maridar cocina de interior con vino local.",
+   "i_en": "Ideal if you like pairing inland cuisine with local wine."
+  },
+  "lug_marisco_ribadeo": {
+   "id": "lug_marisco_ribadeo",
+   "d": "Junto al puerto de Ribadeo se degusta el mejor producto del Cantábrico: percebes, nécoras, ostras del Eo y pescado de lonja. Ambiente marinero y vistas a la ría mientras comes.",
+   "d_en": "By Ribadeo's harbour you taste the best of the Cantabrian Sea: goose barnacles, velvet crabs, Eo oysters and market fish. A seafaring atmosphere with estuary views while you eat.",
+   "h": "Lun-Dom 13:00-16:00 y 20:30-23:30 en temporada.",
+   "h_en": "Mon-Sun 13:00-16:00 and 20:30-23:30 in season.",
+   "i": "Ideal si te gusta el marisco fresco frente al mar.",
+   "i_en": "Ideal if you like fresh shellfish by the sea."
+  },
+  "lug_tarta_mondonedo": {
+   "id": "lug_tarta_mondonedo",
+   "d": "En las pastelerías de Mondoñedo se elabora desde el siglo XIX la célebre tarta, un hojaldre relleno de cabello de ángel, frutas confitadas, bizcocho y cadillos. Parada golosa obligada junto a la catedral.",
+   "d_en": "In Mondoñedo's pastry shops the famous tart has been made since the 19th century: puff pastry filled with angel-hair squash, candied fruit, sponge and cadillos. A sweet must-stop by the cathedral.",
+   "h": "Lun-Dom en horario de comercio; mañana y tarde.",
+   "h_en": "Mon-Sun during shop hours; morning and afternoon.",
+   "i": "Ideal si te gusta la repostería tradicional y el dulce con historia.",
+   "i_en": "Ideal if you like traditional pastries and sweets with history."
+  }
+ },
+ "food": {
+  "lug_meson_alberto": {
+   "cuisine": "Gallega tradicional",
+   "price": "30–55 €",
+   "hours": "Mar-Sáb 13:30-16:00 y 21:00-23:30"
+  },
+  "lug_pulperia_casco": {
+   "cuisine": "Pulpo y tapas gallegas",
+   "price": "12–25 €",
+   "hours": "Lun-Dom 12:00-16:00 y 20:00-23:30"
+  },
+  "lug_ogrelo_monforte": {
+   "cuisine": "Gallega de la Ribeira Sacra",
+   "price": "30–50 €",
+   "hours": "Mar-Dom 13:30-16:00 y 21:00-23:00"
+  },
+  "lug_marisco_ribadeo": {
+   "cuisine": "Marisco y pescado",
+   "price": "25–55 €",
+   "hours": "Lun-Dom 13:00-16:00 y 20:30-23:30"
+  },
+  "lug_tarta_mondonedo": {
+   "cuisine": "Repostería tradicional",
+   "price": "3–18 €",
+   "hours": "Lun-Dom horario comercial"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Lugo",
+   "items": [
+    {
+     "name": "Queixo San Simón da Costa",
+     "price": "6–16 €",
+     "desc": "Queso ahumado con Denominación de Origen, de forma de pera y sabor intenso."
+    },
+    {
+     "name": "Cerámica de Sargadelos",
+     "price": "20–130 €",
+     "desc": "Porcelana artística azul y blanca, icono del diseño gallego."
+    },
+    {
+     "name": "Tarta de Mondoñedo",
+     "price": "8–18 €",
+     "desc": "Dulce tradicional de hojaldre con cabello de ángel, frutas y cadillos."
+    },
+    {
+     "name": "Augardente e licor café",
+     "price": "8–22 €",
+     "desc": "Aguardiente de orujo y licor de café artesanos de la Ribeira Sacra."
+    }
+   ],
+   "shops": [
+    "Sargadelos Lugo (Praza de Santo Domingo)",
+    "Praza do Campo y casco histórico",
+    "Mercado de Abastos de Lugo"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Pasea por el adarve completo de la Muralla Romana: son 2,1 km ininterrumpidos con vistas a la ciudad.",
+   "Para la Playa de las Catedrales consulta la tabla de mareas y reserva acceso gratuito en temporada alta (Semana Santa y verano).",
+   "En Lugo entra en la Catedral para ver al Sacramento expuesto de forma permanente, una tradición única.",
+   "En la Ribeira Sacra reserva con antelación el catamarán por los cañones del Sil; sale del embarcadero de Ponte do Sil.",
+   "Prueba el pulpo á feira y los vinos de la Ribeira Sacra (mencía y godello) en las tabernas del casco viejo."
+  ],
+  "en": [
+   "Walk the full parapet of the Roman Wall: 2.1 km of uninterrupted walkway with views over the city.",
+   "For the Beach of the Cathedrals check the tide table and book free entry in high season (Easter and summer).",
+   "Enter Lugo's Cathedral to see the permanently exposed Blessed Sacrament, a unique tradition.",
+   "In the Ribeira Sacra book the Sil canyon catamaran ahead; it departs from the Ponte do Sil pier.",
+   "Try pulpo á feira and Ribeira Sacra wines (mencía and godello) in the old-town taverns."
+  ]
+ },
+ "climate": {
+  "hi": [
+   11,
+   12,
+   15,
+   16,
+   19,
+   23,
+   26,
+   26,
+   23,
+   18,
+   13,
+   11
+  ],
+  "lo": [
+   2,
+   2,
+   4,
+   5,
+   8,
+   11,
+   13,
+   13,
+   11,
+   8,
+   5,
+   3
+  ]
+ },
+ "tr": {
+  "Muralla romana del siglo III, Patrimonio de la Humanidad.": "3rd-century Roman wall, a UNESCO World Heritage Site.",
+  "Catedral románica con añadidos góticos y barrocos.": "Romanesque cathedral with Gothic and Baroque additions.",
+  "Corazón peatonal de Lugo dentro de la muralla.": "Lugo's pedestrian heart inside the walls.",
+  "Catedral 'Kneeling', gótica del siglo XIII.": "The 'Kneeling Cathedral', Gothic from the 13th century.",
+  "Conjunto monumental sobre la colina de Monforte.": "Monumental complex atop Monforte's hill.",
+  "Aldea del Camino con pallozas e iglesia prerrománica.": "Camino village with pallozas and a pre-Romanesque church.",
+  "Considerada la catedral más antigua de España.": "Considered the oldest cathedral in Spain.",
+  "Enigmático monumento romano-paleocristiano.": "Enigmatic Roman-Paleochristian monument.",
+  "Edificio modernista indiano de Ribadeo.": "Ribadeo's Indiano modernist landmark.",
+  "Villa clave del Camino a 100 km de Santiago.": "Key Camino town, 100 km from Santiago.",
+  "Arcos y bóvedas de roca esculpidos por el mar.": "Rock arches and vaults carved by the sea.",
+  "Miradores sobre los cañones del río Sil.": "Viewpoints over the Sil river canyons.",
+  "Cala virgen entre acantilados cerca de Sargadelos.": "Unspoilt cove among cliffs near Sargadelos.",
+  "Amplio arenal urbano en la ría de Viveiro.": "Broad town beach on the Viveiro estuary.",
+  "Bosque con el eucalipto más alto de Europa.": "Woodland with Europe's tallest eucalyptus.",
+  "Paseo en barco por las gargantas de la Ribeira Sacra.": "Boat trip through the Ribeira Sacra gorges.",
+  "Baños termales de origen romano junto al Miño.": "Roman-origin thermal baths beside the Miño.",
+  "Cuna de la célebre cerámica azul gallega.": "Birthplace of the famous blue Galician ceramics.",
+  "Puerto deportivo y paseo sobre la ría del Eo.": "Marina and promenade over the Eo estuary.",
+  "Cocina gallega clásica en el casco viejo de Lugo.": "Classic Galician cuisine in Lugo's old town.",
+  "Pulpo á feira y vinos de la tierra en el centro.": "Pulpo á feira and local wines in the centre.",
+  "Cocina de la Ribeira Sacra con sus vinos.": "Ribeira Sacra cuisine paired with its wines.",
+  "Mariscos y pescado fresco de la ría del Eo.": "Shellfish and fresh fish from the Eo estuary.",
+  "Dulce histórico de hojaldre y frutas.": "Historic pastry of puff dough and fruit.",
+  "Lugo": "Lugo"
+ }
+}

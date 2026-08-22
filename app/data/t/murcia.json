@@ -1,0 +1,2350 @@
+{
+ "id": "murcia",
+ "name": "Región de Murcia",
+ "country": "ES",
+ "center": [
+  37.9922,
+  -1.1307
+ ],
+ "pois": [
+  {
+   "id": "catedral_de_murcia",
+   "cat": "monuments",
+   "name": "Catedral de Murcia",
+   "icon": "⛪",
+   "lat": 37.9840473,
+   "lng": -1.1285752,
+   "desc": "Fachada barroca imponente en el corazón de la ciudad, con la segunda torre más alta de España."
+  },
+  {
+   "id": "teatro_romano_de_cartagena",
+   "cat": "monuments",
+   "name": "Teatro Romano de Cartagena",
+   "icon": "🏛️",
+   "lat": 37.5994943,
+   "lng": -0.9841346,
+   "desc": "Grandioso teatro romano del siglo I a.C., joya arqueológica descubierta bajo la ciudad portuaria."
+  },
+  {
+   "id": "la_manga_del_mar_menor",
+   "cat": "nature",
+   "name": "La Manga del Mar Menor",
+   "icon": "🏖️",
+   "lat": 37.652874,
+   "lng": -0.719664,
+   "desc": "Lengua de arena entre dos mares, con playas infinitas de aguas cálidas y tranquilas."
+  },
+  {
+   "id": "real_casino_de_murcia",
+   "cat": "monuments",
+   "name": "Real Casino de Murcia",
+   "icon": "🏛️",
+   "lat": 37.9854323,
+   "lng": -1.1290433,
+   "desc": "Palacio social del siglo XIX que deslumbra con su patio árabe, biblioteca y salones de ensueño."
+  },
+  {
+   "id": "castillo_de_lorca_fortaleza_del_sol",
+   "cat": "monuments",
+   "name": "Castillo de Lorca",
+   "icon": "🏰",
+   "lat": 37.6776175,
+   "lng": -1.7068334,
+   "desc": "Fortaleza medieval sobre la ciudad del sol, con sus torres del Espolón y Alfonsina."
+  },
+  {
+   "id": "basilica_de_la_vera_cruz_caravaca",
+   "cat": "monuments",
+   "name": "Basílica de la Vera Cruz",
+   "icon": "⛪",
+   "lat": 38.1077885,
+   "lng": -1.8584466,
+   "desc": "Santuario que custodia la sagrada Cruz, meta de peregrinos en uno de los cinco lugares santos."
+  },
+  {
+   "id": "parque_natural_de_calblanque",
+   "cat": "nature",
+   "name": "Parque Natural de Calblanque",
+   "icon": "🏖️",
+   "lat": 37.6083428,
+   "lng": -0.7497163,
+   "desc": "Calas vírgenes, dunas doradas y acantilados salvajes en un litoral protegido y sin igual."
+  },
+  {
+   "id": "salinas_de_san_pedro_del_pinatar",
+   "cat": "nature",
+   "name": "Salinas de San Pedro del Pinatar",
+   "icon": "🦩",
+   "lat": 37.8187254,
+   "lng": -0.7748245,
+   "desc": "Salinas rosadas donde los flamencos pasean entre molinos y baños de barro terapéutico."
+  },
+  {
+   "id": "castillo_de_la_concepcion_cartagena",
+   "cat": "monuments",
+   "name": "Castillo de la Concepción",
+   "icon": "🏰",
+   "lat": 37.6001873,
+   "lng": -0.9821462,
+   "desc": "Mirador sobre los cinco cerros y el puerto, coronando la historia milenaria de Cartagena."
+  },
+  {
+   "id": "sierra_espuna",
+   "cat": "nature",
+   "name": "Sierra Espuña",
+   "icon": "⛰️",
+   "lat": 37.8558019,
+   "lng": -1.5127223,
+   "desc": "Bosque frondoso y cumbres frescas, un pulmón verde con pozos de nieve y senderos infinitos."
+  },
+  {
+   "id": "faro_de_cabo_de_palos",
+   "cat": "nature",
+   "name": "Faro de Cabo de Palos",
+   "icon": "🌊",
+   "lat": 37.6344862,
+   "lng": -0.6903362,
+   "desc": "Faro centenario sobre acantilados donde el Mediterráneo esconde uno de los mejores fondos de buceo."
+  },
+  {
+   "id": "muralla_punica_cartagena",
+   "cat": "monuments",
+   "name": "Muralla Púnica",
+   "icon": "🏛️",
+   "lat": 37.604129,
+   "lng": -0.9786499,
+   "desc": "Vestigios de la muralla cartaginesa que narran los orígenes de Qart Hadasht."
+  },
+  {
+   "id": "gredas_de_bolnuevo_mazarron",
+   "cat": "nature",
+   "name": "Gredas de Bolnuevo",
+   "icon": "🏜️",
+   "lat": 37.5642592,
+   "lng": -1.3124478,
+   "desc": "Caprichosas esculturas de arena erosionada junto al mar, un paisaje casi lunar."
+  },
+  {
+   "id": "museo_salzillo_murcia",
+   "cat": "monuments",
+   "name": "Museo Salzillo",
+   "icon": "🏛️",
+   "lat": 37.98667,
+   "lng": -1.13845,
+   "desc": "Templo del imaginero barroco, con los pasos procesionales más emotivos de la Semana Santa murciana."
+  },
+  {
+   "id": "bateria_de_castillitos_cartagena",
+   "cat": "monuments",
+   "name": "Batería de Castillitos",
+   "icon": "🏰",
+   "lat": 37.54023,
+   "lng": -1.12086,
+   "desc": "Fortaleza de aire medieval sobre el mar, con cañones gigantes y vistas de vértigo a Cabo Tiñoso."
+  },
+  {
+   "id": "castillo_de_san_juan_de_las_aguilas",
+   "cat": "monuments",
+   "name": "Castillo de San Juan de las Águilas",
+   "icon": "🏰",
+   "lat": 37.4013132,
+   "lng": -1.5797725,
+   "desc": "Fortín del siglo XVIII sobre el mar que vigila las bahías y el casco marinero de Águilas."
+  },
+  {
+   "id": "mercado_de_veronicas_murcia",
+   "cat": "food",
+   "name": "Mercado de Verónicas",
+   "icon": "🥘",
+   "lat": 37.9837945,
+   "lng": -1.1342472,
+   "desc": "Mercado modernista a orillas del Segura, rebosante de sabores y productos de la huerta murciana."
+  },
+  {
+   "id": "cala_cortina_cartagena",
+   "cat": "nature",
+   "name": "Cala Cortina",
+   "icon": "🏖️",
+   "lat": 37.5814276,
+   "lng": -0.9749233,
+   "desc": "Pequeña cala urbana de aguas cristalinas, el refugio de baño más cercano a Cartagena."
+  },
+  {
+   "id": "salto_del_usero_bullas",
+   "cat": "nature",
+   "name": "Salto del Usero",
+   "icon": "💧",
+   "lat": 38.025911,
+   "lng": -1.674119,
+   "desc": "Cascada de ensueño que cae sobre una poza turquesa entre roca esculpida por el agua."
+  },
+  {
+   "id": "terra_natura_murcia",
+   "cat": "ocio",
+   "name": "Terra Natura Murcia",
+   "icon": "🐘",
+   "lat": 38.01056,
+   "lng": -1.16375,
+   "desc": "Parque de fauna con más de 300 especies en hábitats abiertos, aventura para toda la familia."
+  },
+  {
+   "id": "santuario_de_la_fuensanta_murcia",
+   "cat": "monuments",
+   "name": "Santuario de la Fuensanta",
+   "icon": "⛪",
+   "lat": 37.937523,
+   "lng": -1.118225,
+   "desc": "Santuario barroco en la sierra, hogar de la patrona de Murcia entre pinares y miradores."
+  },
+  {
+   "id": "barrio_del_foro_romano_molinete_cartag",
+   "cat": "monuments",
+   "name": "Barrio del Foro Romano",
+   "icon": "🏛️",
+   "lat": 37.602386,
+   "lng": -0.985246,
+   "desc": "Yacimiento y museo que revive el corazón monumental de la Cartagena romana."
+  },
+  {
+   "id": "colegiata_de_san_patricio_lorca",
+   "cat": "monuments",
+   "name": "Colegiata de San Patricio",
+   "icon": "⛪",
+   "lat": 37.676962,
+   "lng": -1.699573,
+   "desc": "Majestuosa colegiata renacentista que preside la señorial Plaza de España de Lorca."
+  },
+  {
+   "id": "arqua_museo_de_arqueologia_subacuatica",
+   "cat": "monuments",
+   "name": "ARQUA - Museo de Arqueología Subacuática",
+   "icon": "🏛️",
+   "lat": 37.59777,
+   "lng": -0.98098,
+   "desc": "Museo que rescata tesoros del fondo del mar y la historia de la navegación mediterránea."
+  },
+  {
+   "id": "cristo_de_monteagudo_murcia",
+   "cat": "monuments",
+   "name": "Cristo de Monteagudo",
+   "icon": "✝️",
+   "lat": 38.020142,
+   "lng": -1.097725,
+   "desc": "Gigantesco Cristo blanco sobre un castillo roquero, vigía inconfundible de la huerta de Murcia."
+  },
+  {
+   "id": "monte_arabi_yecla",
+   "cat": "nature",
+   "name": "Monte Arabí",
+   "icon": "⛰️",
+   "lat": 38.6981,
+   "lng": -1.2836,
+   "desc": "Montaña mágica de arte rupestre y formaciones caprichosas, envuelta en leyendas milenarias."
+  },
+  {
+   "id": "plaza_de_las_flores_murcia",
+   "cat": "food",
+   "name": "Plaza de las Flores",
+   "icon": "🍢",
+   "lat": 37.984636,
+   "lng": -1.133142,
+   "desc": "Plaza vibrante de terrazas y tapas, el mejor lugar para probar la marinera y una caña bien fría."
+  },
+  {
+   "id": "balneario_de_archena",
+   "cat": "ocio",
+   "name": "Balneario de Archena",
+   "icon": "♨️",
+   "lat": 38.128432,
+   "lng": -1.304711,
+   "desc": "Aguas termales entre palmeras junto al Segura, un oasis de relax desde época romana."
+  },
+  {
+   "id": "fuentes_del_marques_caravaca_de_la_cru",
+   "cat": "nature",
+   "name": "Fuentes del Marqués",
+   "icon": "💧",
+   "lat": 38.101328,
+   "lng": -1.877653,
+   "desc": "Paraje umbrío de manantiales y cuevas templarias, remanso natural a un paso del santuario."
+  },
+  {
+   "id": "floracion_de_cieza",
+   "cat": "nature",
+   "name": "Floración de Cieza",
+   "icon": "🌸",
+   "lat": 38.2497,
+   "lng": -1.4022,
+   "desc": "Valles teñidos de rosa y blanco cada primavera cuando florecen miles de melocotoneros."
+  },
+  {
+   "id": "basilica_de_la_purisima_yecla",
+   "cat": "monuments",
+   "name": "Basílica de la Purísima",
+   "icon": "⛪",
+   "lat": 38.613368,
+   "lng": -1.115307,
+   "desc": "Elegante basílica de cúpula azul que domina el perfil de Yecla desde su cerro."
+  },
+  {
+   "id": "palacio_consistorial_de_cartagena",
+   "cat": "monuments",
+   "name": "Palacio Consistorial de Cartagena",
+   "icon": "🏛️",
+   "lat": 37.59896,
+   "lng": -0.98575,
+   "desc": "Deslumbrante ayuntamiento modernista de mármol que preside la plaza y el puerto."
+  },
+  {
+   "id": "jardin_de_floridablanca_murcia",
+   "cat": "nature",
+   "name": "Jardín de Floridablanca",
+   "icon": "🌳",
+   "lat": 37.980543,
+   "lng": -1.129904,
+   "desc": "El jardín público más antiguo de España, con ficus centenarios que dan sombra a los paseos."
+  },
+  {
+   "id": "canon_de_almadenes_cieza",
+   "cat": "nature",
+   "name": "Cañón de Almadenes",
+   "icon": "🏞️",
+   "lat": 38.2519,
+   "lng": -1.5197,
+   "desc": "Desfiladero vertiginoso donde el Segura se abre paso entre paredes de roca y cuevas prehistóricas."
+  },
+  {
+   "id": "valle_de_ricote",
+   "cat": "nature",
+   "name": "Valle de Ricote",
+   "icon": "🏞️",
+   "lat": 38.1571,
+   "lng": -1.366,
+   "desc": "Último rincón morisco de huertas y meandros, un vergel de naranjos entre montañas."
+  },
+  {
+   "id": "castillo_de_jumilla",
+   "cat": "monuments",
+   "name": "Castillo de Jumilla",
+   "icon": "🏰",
+   "lat": 38.4826,
+   "lng": -1.33,
+   "desc": "Castillo roquero del marquesado que corona la ciudad del vino con vistas a los viñedos."
+  },
+  {
+   "id": "castillo_de_los_velez_mula",
+   "cat": "monuments",
+   "name": "Castillo de los Vélez",
+   "icon": "🏰",
+   "lat": 38.0444,
+   "lng": -1.4919,
+   "desc": "Fortaleza renacentista de los Fajardo suspendida sobre el laberinto blanco de Mula."
+  },
+  {
+   "id": "puerto_deportivo_tomas_maestre_la_mang",
+   "cat": "ocio",
+   "name": "Puerto Deportivo Tomás Maestre",
+   "icon": "⛵",
+   "lat": 37.745424,
+   "lng": -0.742023,
+   "desc": "Puerto deportivo y epicentro del ocio de La Manga, entre yates, terrazas y noches de verano."
+  },
+  {
+   "id": "playa_del_espejo_los_alcazares",
+   "cat": "nature",
+   "name": "Playa del Espejo",
+   "icon": "🏖️",
+   "lat": 37.7455,
+   "lng": -0.8496,
+   "desc": "Playa familiar de aguas someras y cálidas, sereno reflejo del tranquilo Mar Menor."
+  },
+  {
+   "id": "museo_del_vino_de_bullas",
+   "cat": "food",
+   "name": "Museo del Vino de Bullas",
+   "icon": "🍷",
+   "lat": 38.0447,
+   "lng": -1.6683,
+   "desc": "Casa bodega del siglo XIX que narra la cultura del monastrell, alma de los vinos de Bullas."
+  },
+  {
+   "id": "isla_del_fraile_aguilas",
+   "cat": "nature",
+   "name": "Isla del Fraile",
+   "icon": "🏝️",
+   "lat": 37.408602,
+   "lng": -1.546222,
+   "desc": "Islote enigmático frente a la costa aguileña, con restos arqueológicos y aguas transparentes."
+  },
+  {
+   "id": "cresta_del_gallo_murcia",
+   "cat": "nature",
+   "name": "Cresta del Gallo",
+   "icon": "⛰️",
+   "lat": 37.943841,
+   "lng": -1.090818,
+   "desc": "Sierra de siluetas dentadas y miradores sobre la ciudad, paraíso de senderistas y escaladores."
+  },
+  {
+   "id": "santuario_de_la_esperanza_calasparra",
+   "cat": "monuments",
+   "name": "Santuario de la Esperanza",
+   "icon": "⛪",
+   "lat": 38.260627,
+   "lng": -1.709556,
+   "desc": "Santuario excavado en la roca junto al Segura, sereno refugio de peregrinos entre cañones."
+  },
+  {
+   "id": "la_tana_caldero_del_mar_menor_cabo_de_",
+   "cat": "food",
+   "name": "La Tana - Caldero del Mar Menor",
+   "icon": "🥘",
+   "lat": 37.6296,
+   "lng": -0.7166,
+   "desc": "Templo del caldero del Mar Menor frente al puerto, arroz marinero de raíces pescadoras."
+  },
+  {
+   "id": "castillo_fortaleza_de_moratalla",
+   "cat": "monuments",
+   "name": "Castillo-Fortaleza de Moratalla",
+   "icon": "🏰",
+   "lat": 38.1806,
+   "lng": -1.8927,
+   "desc": "Torreón medieval que vela sobre las calles empinadas y blancas del pueblo serrano."
+  },
+  {
+   "id": "casco_antiguo_de_cehegin",
+   "cat": "monuments",
+   "name": "Casco Antiguo de Cehegín",
+   "icon": "🏘️",
+   "lat": 38.0928,
+   "lng": -1.7992,
+   "desc": "Laberinto de callejuelas, palacios y miradores en uno de los conjuntos históricos más bellos."
+  },
+  {
+   "id": "aqua_natura_murcia",
+   "cat": "ocio",
+   "name": "Aqua Natura Murcia",
+   "icon": "🌊",
+   "lat": 38.0092,
+   "lng": -1.1655,
+   "desc": "Parque acuático de toboganes y piscinas, la diversión más refrescante del verano murciano."
+  },
+  {
+   "id": "submarino_peral_cartagena",
+   "cat": "monuments",
+   "name": "Submarino Peral",
+   "icon": "🚢",
+   "lat": 37.5936,
+   "lng": -0.9837,
+   "desc": "El primer submarino torpedero del mundo, orgullo cartagenero varado junto al puerto."
+  },
+  {
+   "id": "bodegas_juan_gil_jumilla",
+   "cat": "food",
+   "name": "Bodegas Juan Gil",
+   "icon": "🍷",
+   "lat": 38.4917,
+   "lng": -1.3049,
+   "desc": "Bodega familiar histórica donde catar los intensos monastrell que dieron fama a Jumilla."
+  },
+  {
+   "id": "puerto_de_mazarron",
+   "cat": "nature",
+   "name": "Puerto de Mazarrón",
+   "icon": "⚓",
+   "lat": 37.5648,
+   "lng": -1.2606,
+   "desc": "Puerto pesquero y de recreo con playas doradas, sabor marinero y atardeceres dorados."
+  },
+  {
+   "id": "cabana_buenavista",
+   "cat": "food",
+   "name": "Cabaña Buenavista",
+   "icon": "🍴",
+   "lat": 37.924258,
+   "lng": -1.163293,
+   "desc": "Alta cocina murciana entre jardines, dos estrellas Michelin en una finca llena de encanto."
+  },
+  {
+   "id": "la_pequena_taberna",
+   "cat": "food",
+   "name": "La Pequeña Taberna",
+   "icon": "🍴",
+   "lat": 37.98408,
+   "lng": -1.12575,
+   "desc": "Verduras de la huerta y tapas de siempre en un rincón entrañable junto a la plaza de San Juan."
+  },
+  {
+   "id": "pura_cepa",
+   "cat": "food",
+   "name": "Pura Cepa",
+   "icon": "🍷",
+   "lat": 37.983374,
+   "lng": -1.125802,
+   "desc": "Vinos y tapas creativas en una terraza animada frente a la plaza Cristo del Rescate."
+  },
+  {
+   "id": "los_zagales",
+   "cat": "food",
+   "name": "Los Zagales",
+   "icon": "🍺",
+   "lat": 37.98485,
+   "lng": -1.12835,
+   "desc": "Bar de tapas de toda la vida a la sombra de la Catedral, cañas y raciones caseras."
+  },
+  {
+   "id": "meson_el_corral_de_jose_luis",
+   "cat": "food",
+   "name": "Mesón El Corral de José Luis",
+   "icon": "🍴",
+   "lat": 37.98525,
+   "lng": -1.1301,
+   "desc": "Cocina tradicional murciana en la señorial plaza de Santo Domingo, entre casas nobles."
+  },
+  {
+   "id": "mercado_de_correos",
+   "cat": "food",
+   "name": "Mercado de Correos",
+   "icon": "🍴",
+   "lat": 37.984626,
+   "lng": -1.126734,
+   "desc": "Mercado gastronómico en el antiguo edificio de Correos, puestos de tapeo y ambiente animado."
+  },
+  {
+   "id": "magoga",
+   "cat": "food",
+   "name": "Magoga",
+   "icon": "🍴",
+   "lat": 37.605537,
+   "lng": -0.983843,
+   "desc": "Estrella Michelin donde el producto local brilla con elegancia en el corazón de Cartagena."
+  },
+  {
+   "id": "el_barrio_de_san_roque",
+   "cat": "food",
+   "name": "El Barrio de San Roque",
+   "icon": "🍴",
+   "lat": 37.60374,
+   "lng": -0.98976,
+   "desc": "Tapas modernas y arroces marineros en pleno casco antiguo, cocina cartagenera con chispa."
+  },
+  {
+   "id": "la_marquesita",
+   "cat": "food",
+   "name": "La Marquesita",
+   "icon": "🍴",
+   "lat": 37.605165,
+   "lng": -0.990147,
+   "desc": "Clásico cartagenero de cocina mediterránea y arroces junto a la plaza de Alcolea."
+  },
+  {
+   "id": "miramar",
+   "cat": "food",
+   "name": "Miramar",
+   "icon": "🥘",
+   "lat": 37.631394,
+   "lng": -0.700401,
+   "desc": "Caldero y pescado fresco frente al puerto pesquero, con el faro recortado en el horizonte."
+  },
+  {
+   "id": "el_mosqui",
+   "cat": "food",
+   "name": "El Mosqui",
+   "icon": "🥘",
+   "lat": 37.631804,
+   "lng": -0.695494,
+   "desc": "Templo del caldero del Mar Menor camino del faro, sabor marinero desde hace décadas."
+  },
+  {
+   "id": "los_churrascos",
+   "cat": "food",
+   "name": "Los Churrascos",
+   "icon": "🥘",
+   "lat": 37.642931,
+   "lng": -0.86928,
+   "desc": "Arroces y brasas legendarios cerca del Mar Menor, una institución de la cocina murciana."
+  },
+  {
+   "id": "venezuela",
+   "cat": "food",
+   "name": "Venezuela",
+   "icon": "🥘",
+   "lat": 37.818433,
+   "lng": -0.785836,
+   "desc": "Gambas y arroces del Mar Menor frente al club náutico, un clásico marinero de Lo Pagán."
+  },
+  {
+   "id": "el_paso",
+   "cat": "food",
+   "name": "El Paso",
+   "icon": "🦐",
+   "lat": 37.407,
+   "lng": -1.5821,
+   "desc": "Marisco y pescado del día en el corazón de Águilas, sabor puro del Mediterráneo."
+  },
+  {
+   "id": "el_sordo",
+   "cat": "food",
+   "name": "El Sordo",
+   "icon": "🍴",
+   "lat": 38.152596,
+   "lng": -1.365992,
+   "desc": "Cocina de autor con raíces en el Valle de Ricote, un rincón gastronómico entre palmeras."
+  },
+  {
+   "id": "el_olivar",
+   "cat": "food",
+   "name": "El Olivar",
+   "icon": "🍴",
+   "lat": 38.184978,
+   "lng": -1.890774,
+   "desc": "Cocina creativa del maestro del aceite Firo Vázquez en el corazón del Noroeste."
+  },
+  {
+   "id": "casa_candido",
+   "cat": "food",
+   "name": "Casa Cándido",
+   "icon": "🍴",
+   "lat": 37.678002,
+   "lng": -1.697282,
+   "desc": "Sabores lorquinos de siempre, migas y guisos de cuchara en una casa con solera."
+  },
+  {
+   "id": "casa_sebastian",
+   "cat": "food",
+   "name": "Casa Sebastián",
+   "icon": "🍴",
+   "lat": 38.473879,
+   "lng": -1.326694,
+   "desc": "Gazpachos jumillanos y cocina de caza en el mercado de abastos, tradición del Altiplano."
+  },
+  {
+   "id": "bodegas_barahonda",
+   "cat": "food",
+   "name": "Bodegas Barahonda",
+   "icon": "🍷",
+   "lat": 38.598,
+   "lng": -1.077,
+   "desc": "Enoturismo y restaurante entre viñedos de monastrell, catas con alma en Yecla."
+  },
+  {
+   "id": "bodegas_bleda",
+   "cat": "food",
+   "name": "Bodegas Bleda",
+   "icon": "🍷",
+   "lat": 38.497154,
+   "lng": -1.357989,
+   "desc": "Bodega familiar con vistas al castillo, catas de los grandes tintos de Jumilla."
+  },
+  {
+   "id": "bodegas_del_rosario",
+   "cat": "food",
+   "name": "Bodegas del Rosario",
+   "icon": "🍷",
+   "lat": 38.0425,
+   "lng": -1.6679,
+   "desc": "Cooperativa histórica de Bullas para descubrir los vinos de la sierra entre catas y viñas."
+  },
+  {
+   "id": "la_encarnacion",
+   "cat": "food",
+   "name": "La Encarnación",
+   "icon": "🥘",
+   "lat": 37.738289,
+   "lng": -0.849187,
+   "desc": "Caldero y arroces a pie de playa en un balneario histórico del Mar Menor."
+  },
+  {
+   "id": "el_cason_de_los_reyes",
+   "cat": "food",
+   "name": "El Casón de los Reyes",
+   "icon": "🍴",
+   "lat": 38.103844,
+   "lng": -1.869991,
+   "desc": "Cocina tradicional caravaqueña, migas y asados junto a la ciudad de la Vera Cruz."
+  },
+  {
+   "id": "arroz_y_ascua",
+   "cat": "food",
+   "name": "Arroz y Ascua",
+   "icon": "🥘",
+   "lat": 38.252,
+   "lng": -1.432,
+   "desc": "Arroces y carnes a la brasa a las puertas de Cieza, sabor de huerta y monte."
+  },
+  {
+   "id": "heladeria_jijonenca_enrique_verdu",
+   "cat": "food",
+   "name": "Heladería Jijonenca Enrique Verdú",
+   "icon": "🍧",
+   "lat": 37.7969,
+   "lng": -0.7965,
+   "desc": "Helados artesanos de turrón premiados, saboreados frente al Mar Menor en la explanada Barnuevo."
+  },
+  {
+   "id": "teatro_romea",
+   "cat": "ocio",
+   "name": "Teatro Romea",
+   "icon": "🎭",
+   "lat": 37.987017,
+   "lng": -1.130655,
+   "desc": "Joya escénica del siglo XIX en el corazón de Murcia, siglo y medio de telón y aplausos."
+  },
+  {
+   "id": "teatro_circo",
+   "cat": "ocio",
+   "name": "Teatro Circo",
+   "icon": "🎭",
+   "lat": 37.9864,
+   "lng": -1.1246,
+   "desc": "Antiguo circo estable reconvertido en escenario vanguardista, cultura viva en Murcia."
+  },
+  {
+   "id": "auditorio_el_batel",
+   "cat": "ocio",
+   "name": "Auditorio El Batel",
+   "icon": "🎭",
+   "lat": 37.598014,
+   "lng": -0.978508,
+   "desc": "Auditorio vanguardista asomado al puerto de Cartagena, música y congresos junto al mar."
+  },
+  {
+   "id": "teatro_guerra",
+   "cat": "ocio",
+   "name": "Teatro Guerra",
+   "icon": "🎭",
+   "lat": 37.6731,
+   "lng": -1.6994,
+   "desc": "Coliseo decimonónico de Lorca, escenario histórico de teatro, danza y música."
+  },
+  {
+   "id": "teatro_vico",
+   "cat": "ocio",
+   "name": "Teatro Vico",
+   "icon": "🎭",
+   "lat": 38.4795,
+   "lng": -1.3247,
+   "desc": "Elegante teatro del XIX en Jumilla, telón rojo y programación para todo el Altiplano."
+  },
+  {
+   "id": "balneario_de_leana",
+   "cat": "ocio",
+   "name": "Balneario de Leana",
+   "icon": "♨️",
+   "lat": 38.208302,
+   "lng": -1.11132,
+   "desc": "Aguas termales desde época romana en los Baños de Fortuna, relax entre palmeras."
+  },
+  {
+   "id": "thalasia_centro_marino",
+   "cat": "ocio",
+   "name": "Thalasia Centro Marino",
+   "icon": "♨️",
+   "lat": 37.837561,
+   "lng": -0.778374,
+   "desc": "Talasoterapia y spa marino frente a las salinas, bienestar con el mar como medicina."
+  },
+  {
+   "id": "centro_de_buceo_islas_hormigas",
+   "cat": "ocio",
+   "name": "Centro de Buceo Islas Hormigas",
+   "icon": "🤿",
+   "lat": 37.6315,
+   "lng": -0.7005,
+   "desc": "Inmersiones en la reserva marina de Cabo de Palos, uno de los mejores fondos de Europa."
+  },
+  {
+   "id": "garaje_beat_club",
+   "cat": "ocio",
+   "name": "Garaje Beat Club",
+   "icon": "🪩",
+   "lat": 37.9905,
+   "lng": -1.135,
+   "desc": "Templo de la música en directo y las noches murcianas, conciertos y baile hasta el alba."
+  },
+  {
+   "id": "zoco_de_levante",
+   "cat": "ocio",
+   "name": "Zoco de Levante",
+   "icon": "🍸",
+   "lat": 37.652,
+   "lng": -0.7265,
+   "desc": "Zona de copas y terrazas en plena Gran Vía de La Manga, epicentro del ocio nocturno."
+  },
+  {
+   "id": "cala_reona_beach_club",
+   "cat": "ocio",
+   "name": "Cala Reona Beach Club",
+   "icon": "🍹",
+   "lat": 37.647,
+   "lng": -0.7187,
+   "desc": "Cócteles y atardeceres junto a una cala virgen de Cabo de Palos, ambiente chill frente al mar."
+  },
+  {
+   "id": "club_nautico_mar_menor",
+   "cat": "ocio",
+   "name": "Club Náutico Mar Menor",
+   "icon": "🛶",
+   "lat": 37.7432,
+   "lng": -0.8501,
+   "desc": "Vela y rutas en kayak por las aguas tranquilas del Mar Menor desde Los Alcázares."
+  },
+  {
+   "id": "canon_y_canon_multiaventura",
+   "cat": "ocio",
+   "name": "Cañón y Cañón Multiaventura",
+   "icon": "🛶",
+   "lat": 38.2285,
+   "lng": -1.7005,
+   "desc": "Rafting y descenso entre las paredes del Cañón de Almadenes, aventura sobre el río Segura."
+  },
+  {
+   "id": "playa_de_percheles",
+   "cat": "nature",
+   "name": "Playa de Percheles",
+   "icon": "🏖️",
+   "lat": 37.529899,
+   "lng": -1.381503,
+   "desc": "Cala virgen de arena dorada y aguas turquesas, un paraíso salvaje en la costa de Mazarrón."
+  },
+  {
+   "id": "playa_de_la_higuerica",
+   "cat": "nature",
+   "name": "Playa de la Higuerica",
+   "icon": "🏖️",
+   "lat": 37.379908,
+   "lng": -1.62616,
+   "desc": "Rincón agreste de las Cuatro Calas, arenas doradas y calma mediterránea cerca de Águilas."
+  },
+  {
+   "id": "puntas_de_calnegre",
+   "cat": "nature",
+   "name": "Puntas de Calnegre",
+   "icon": "🏖️",
+   "lat": 37.51368,
+   "lng": -1.39923,
+   "desc": "Playas solitarias al pie de acantilados, naturaleza intacta en el litoral de Lorca."
+  },
+  {
+   "id": "barrancos_de_gebas",
+   "cat": "nature",
+   "name": "Barrancos de Gebas",
+   "icon": "⛰️",
+   "lat": 37.8505,
+   "lng": -1.457,
+   "desc": "Paisaje lunar de cárcavas y ocres, un mirador sobrecogedor sobre los bad-lands de Gebas."
+  },
+  {
+   "id": "cabezo_gordo",
+   "cat": "nature",
+   "name": "Cabezo Gordo",
+   "icon": "⛰️",
+   "lat": 37.79568,
+   "lng": -0.899908,
+   "desc": "Cerro aislado con cuevas y la prehistórica Sima de las Palomas, vistas al Mar Menor."
+  },
+  {
+   "id": "sierra_de_la_pila",
+   "cat": "nature",
+   "name": "Sierra de la Pila",
+   "icon": "⛰️",
+   "lat": 38.318,
+   "lng": -1.199,
+   "desc": "Parque regional de pinares y cumbres, senderos y silencio en el interior murciano."
+  },
+  {
+   "id": "fuente_caputa",
+   "cat": "nature",
+   "name": "Fuente Caputa",
+   "icon": "💧",
+   "lat": 38.079439,
+   "lng": -1.500636,
+   "desc": "Pozas turquesas y cascadas escondidas junto a la rambla de Perea, un oasis en Mula."
+  },
+  {
+   "id": "museo_arqueologico_de_murcia",
+   "cat": "monuments",
+   "name": "Museo Arqueológico de Murcia",
+   "icon": "🏛️",
+   "lat": 37.989721,
+   "lng": -1.130467,
+   "desc": "Viaje por la historia regional entre íberos y romanos en la Casa de la Cultura de Murcia."
+  },
+  {
+   "id": "castillo_de_monteagudo",
+   "cat": "monuments",
+   "name": "Castillo de Monteagudo",
+   "icon": "🏰",
+   "lat": 38.020398,
+   "lng": -1.097634,
+   "desc": "Fortaleza andalusí sobre una peña coronada por el Cristo, atalaya milenaria de la huerta."
+  },
+  {
+   "id": "museo_minero_de_la_union",
+   "cat": "monuments",
+   "name": "Museo Minero de La Unión",
+   "icon": "🏛️",
+   "lat": 37.618087,
+   "lng": -0.87988,
+   "desc": "Legado de la sierra minera de La Unión: galerías, minerales y la memoria del cante de las minas."
+  },
+  {
+   "id": "palacio_de_guevara",
+   "cat": "monuments",
+   "name": "Palacio de Guevara",
+   "icon": "🏛️",
+   "lat": 37.67482,
+   "lng": -1.69761,
+   "desc": "Palacio barroco llamado Casa de las Columnas, joya señorial del siglo XVIII en Lorca."
+  },
+  {
+   "id": "iglesia_de_el_salvador",
+   "cat": "monuments",
+   "name": "Iglesia de El Salvador",
+   "icon": "⛪",
+   "lat": 38.108389,
+   "lng": -1.860806,
+   "desc": "Templo renacentista monumental en la ciudad de la Vera Cruz, cantería y arte sacro."
+  }
+ ],
+ "extra": {
+  "catedral_de_murcia": {
+   "id": "catedral_de_murcia",
+   "d": "En pleno casco antiguo, su portada barroca se despliega como un retablo de piedra que atrapa la mirada. La torre, símbolo de la ciudad, mezcla estilos de siglos y ofrece una de las siluetas más reconocibles del skyline murciano.",
+   "d_en": "In the heart of the old town, its Baroque facade unfolds like a stone altarpiece that captivates the eye. The tower, a symbol of the city, blends styles from many centuries and offers one of the most recognisable outlines of the Murcia skyline.",
+   "h": "A media mañana, cuando la luz realza los relieves de la fachada.",
+   "h_en": "Mid-morning, when the light brings out the reliefs of the facade.",
+   "i": "la arquitectura barroca y el patrimonio religioso",
+   "i_en": "Baroque architecture and religious heritage"
+  },
+  "teatro_romano_de_cartagena": {
+   "id": "teatro_romano_de_cartagena",
+   "d": "Oculto durante siglos bajo el entramado urbano, este teatro emergió para devolver a Cartagena el eco de su esplendor romano. Sus graderíos restaurados y la escena evocan las representaciones que congregaban a la antigua Carthago Nova.",
+   "d_en": "Hidden for centuries beneath the urban fabric, this theatre re-emerged to give Cartagena back the echo of its Roman splendour. Its restored tiers and stage evoke the performances that once drew crowds in ancient Carthago Nova.",
+   "h": "A primera hora de la mañana, para recorrerlo con calma y evitar el calor.",
+   "h_en": "Early in the morning, to explore it calmly and avoid the heat.",
+   "i": "la historia y la arqueología romana",
+   "i_en": "history and Roman archaeology"
+  },
+  "la_manga_del_mar_menor": {
+   "id": "la_manga_del_mar_menor",
+   "d": "Esta estrecha franja de arena separa dos mares de carácter distinto: la laguna cálida y serena del Mar Menor y el Mediterráneo abierto. Un enclave singular para el baño tranquilo, los deportes acuáticos y los paseos junto al agua.",
+   "d_en": "This narrow strip of sand separates two seas of different character: the warm, serene lagoon of the Mar Menor and the open Mediterranean. A singular spot for calm bathing, water sports and strolls beside the water.",
+   "h": "Al atardecer, cuando el sol se refleja sobre las dos orillas.",
+   "h_en": "At sunset, when the sun reflects across both shores.",
+   "i": "las playas y los deportes acuáticos",
+   "i_en": "beaches and water sports"
+  },
+  "real_casino_de_murcia": {
+   "id": "real_casino_de_murcia",
+   "d": "Tras su fachada ecléctica se esconde un derroche de salones que resumen el gusto del siglo XIX. El patio de inspiración árabe, la biblioteca de madera noble y el salón de baile transportan a la elegancia de la burguesía murciana.",
+   "d_en": "Behind its eclectic facade lies a lavish sequence of halls that capture nineteenth-century taste. The Moorish-inspired courtyard, the fine-wood library and the ballroom transport you to the elegance of Murcia's bourgeoisie.",
+   "h": "A media mañana, para admirar sus salones con luz natural.",
+   "h_en": "Mid-morning, to admire its halls in natural light.",
+   "i": "la arquitectura ecléctica y el modernismo",
+   "i_en": "eclectic architecture and Art Nouveau"
+  },
+  "castillo_de_lorca_fortaleza_del_sol": {
+   "id": "castillo_de_lorca_fortaleza_del_sol",
+   "d": "Encaramada sobre el cerro que domina Lorca, esta fortaleza medieval fue baluarte de frontera entre reinos. Sus torres del Espolón y Alfonsina se recortan contra el cielo y regalan una panorámica amplia del valle del Guadalentín.",
+   "d_en": "Perched on the hill overlooking Lorca, this medieval fortress was a frontier stronghold between kingdoms. Its Espolon and Alfonsina towers stand against the sky and offer a sweeping panorama of the Guadalentin valley.",
+   "h": "Al final de la tarde, con la mejor luz sobre las torres.",
+   "h_en": "In the late afternoon, with the best light on the towers.",
+   "i": "los castillos y la historia medieval",
+   "i_en": "castles and medieval history"
+  },
+  "basilica_de_la_vera_cruz_caravaca": {
+   "id": "basilica_de_la_vera_cruz_caravaca",
+   "d": "En lo alto de Caravaca, este santuario custodia la venerada Cruz que la convierte en uno de los lugares santos de la cristiandad. Peregrinos de muchos rincones ascienden hasta su recinto amurallado en busca de recogimiento y devoción.",
+   "d_en": "High above Caravaca, this sanctuary guards the venerated Cross that makes it one of Christianity's holy places. Pilgrims from many regions climb to its walled precinct seeking contemplation and devotion.",
+   "h": "Por la mañana, en un ambiente sereno de recogimiento.",
+   "h_en": "In the morning, in a serene atmosphere of contemplation.",
+   "i": "los lugares de peregrinación y el arte sacro",
+   "i_en": "pilgrimage sites and sacred art"
+  },
+  "parque_natural_de_calblanque": {
+   "id": "parque_natural_de_calblanque",
+   "d": "Un litoral que ha escapado del ladrillo y conserva calas de agua transparente, dunas doradas y acantilados barridos por el viento. Los senderos entre saladares y matorral mediterráneo descubren rincones de belleza casi virgen.",
+   "d_en": "A coastline that has escaped concrete and preserves coves of transparent water, golden dunes and wind-swept cliffs. Trails through salt flats and Mediterranean scrub reveal corners of almost pristine beauty.",
+   "h": "A primera hora de la mañana, para disfrutar de las calas sin gente.",
+   "h_en": "Early in the morning, to enjoy the coves without crowds.",
+   "i": "la naturaleza y el senderismo costero",
+   "i_en": "nature and coastal hiking"
+  },
+  "salinas_de_san_pedro_del_pinatar": {
+   "id": "salinas_de_san_pedro_del_pinatar",
+   "d": "Entre molinos salineros y balsas teñidas de rosa, este humedal es refugio de flamencos y aves migratorias. Sus lodos, aprovechados desde antiguo, y los paseos entre charcas y dunas hacen de este paraje un remanso natural único.",
+   "d_en": "Among salt mills and pink-tinged ponds, this wetland shelters flamingos and migratory birds. Its long-prized muds and the walks among pools and dunes make this spot a unique natural haven.",
+   "h": "Al atardecer, cuando los flamencos tiñen la laguna.",
+   "h_en": "At sunset, when the flamingos colour the lagoon.",
+   "i": "la observación de aves y los humedales",
+   "i_en": "birdwatching and wetlands"
+  },
+  "castillo_de_la_concepcion_cartagena": {
+   "id": "castillo_de_la_concepcion_cartagena",
+   "d": "Coronando uno de los cinco cerros de Cartagena, esta fortaleza reúne siglos de estratos históricos bajo su torreón. Desde su parque escalonado se abarca el puerto, el mar y el trazado de una ciudad milenaria.",
+   "d_en": "Crowning one of Cartagena's five hills, this fortress gathers centuries of historical layers beneath its keep. From its terraced park you take in the harbour, the sea and the layout of a millennia-old city.",
+   "h": "Al atardecer, para ver el puerto encenderse con las luces.",
+   "h_en": "At sunset, to watch the harbour light up.",
+   "i": "los miradores y la historia de las ciudades",
+   "i_en": "viewpoints and city history"
+  },
+  "sierra_espuna": {
+   "id": "sierra_espuna",
+   "d": "Repoblada hace más de un siglo, esta sierra es un frondoso pulmón verde de pinares y cumbres frescas. Sus antiguos pozos de nieve, fuentes escondidas y una densa red de senderos invitan a perderse lejos del bullicio del litoral.",
+   "d_en": "Reforested more than a century ago, this mountain range is a lush green lung of pinewoods and cool peaks. Its old snow wells, hidden springs and a dense network of trails invite you to lose yourself far from the coastal bustle.",
+   "h": "En primavera o en otoño, cuando el bosque luce su mejor color.",
+   "h_en": "In spring or autumn, when the forest shows its finest colour.",
+   "i": "el senderismo y los bosques de montaña",
+   "i_en": "hiking and mountain forests"
+  },
+  "faro_de_cabo_de_palos": {
+   "id": "faro_de_cabo_de_palos",
+   "d": "Este faro centenario se alza sobre acantilados donde el Mediterráneo esconde arrecifes y pecios. Los fondos que lo rodean forman una reserva marina célebre entre buceadores, mientras el pueblo pesquero conserva su sabor de siempre.",
+   "d_en": "This century-old lighthouse rises over cliffs where the Mediterranean hides reefs and shipwrecks. The waters around it form a marine reserve famous among divers, while the fishing village keeps its timeless flavour.",
+   "h": "Al atardecer, con el faro recortado sobre el mar.",
+   "h_en": "At sunset, with the lighthouse outlined against the sea.",
+   "i": "el buceo y los paisajes marinos",
+   "i_en": "diving and seascapes"
+  },
+  "muralla_punica_cartagena": {
+   "id": "muralla_punica_cartagena",
+   "d": "Estos lienzos de muralla nos hablan del origen cartaginés de la ciudad, fundada como Qart Hadasht. El centro de interpretación conserva los muros defensivos y una cripta que asoma a los primeros capítulos de su historia.",
+   "d_en": "These stretches of wall speak of the city's Carthaginian origins, founded as Qart Hadasht. The interpretation centre preserves the defensive walls and a crypt that opens onto the earliest chapters of its history.",
+   "h": "A media mañana, para recorrer el interior con tranquilidad.",
+   "h_en": "Mid-morning, to explore the interior at ease.",
+   "i": "la arqueología y las civilizaciones antiguas",
+   "i_en": "archaeology and ancient civilisations"
+  },
+  "gredas_de_bolnuevo_mazarron": {
+   "id": "gredas_de_bolnuevo_mazarron",
+   "d": "El viento y el agua han modelado durante milenios estas caprichosas formas de arenisca junto al mar. El resultado es un paisaje casi lunar de columnas y cornisas doradas que cambia de color según la hora del día.",
+   "d_en": "Wind and water have shaped these whimsical sandstone forms beside the sea over millennia. The result is an almost lunar landscape of golden columns and cornices that shifts colour with the hour of the day.",
+   "h": "Al atardecer, cuando la arenisca se tiñe de dorado.",
+   "h_en": "At sunset, when the sandstone turns golden.",
+   "i": "los paisajes geológicos singulares",
+   "i_en": "unique geological landscapes"
+  },
+  "museo_salzillo_murcia": {
+   "id": "museo_salzillo_murcia",
+   "d": "Dedicado al gran imaginero Francisco Salzillo, este museo reúne los pasos que recorren las calles en la Semana Santa murciana. La expresividad de sus tallas y el belén monumental convierten la visita en un viaje por el barroco devocional.",
+   "d_en": "Devoted to the great sculptor Francisco Salzillo, this museum gathers the floats that fill the streets during Murcia's Holy Week. The expressiveness of his carvings and the monumental nativity turn the visit into a journey through devotional Baroque.",
+   "h": "A media mañana, para contemplar las tallas sin prisas.",
+   "h_en": "Mid-morning, to contemplate the carvings unhurried.",
+   "i": "la escultura barroca y las tradiciones",
+   "i_en": "Baroque sculpture and traditions"
+  },
+  "bateria_de_castillitos_cartagena": {
+   "id": "bateria_de_castillitos_cartagena",
+   "d": "Con su aire de castillo de cuento sobre los acantilados, esta batería artillera vigilaba la entrada al mar. Sus enormes cañones y las vistas de vértigo hacia Cabo Tiñoso hacen del lugar una atalaya tan imponente como fotogénica.",
+   "d_en": "With its fairy-tale castle air atop the cliffs, this artillery battery once guarded the approach to the sea. Its enormous cannons and dizzying views towards Cabo Tinoso make it a lookout as imposing as it is photogenic.",
+   "h": "Al atardecer, con el sol cayendo sobre el mar.",
+   "h_en": "At sunset, with the sun sinking over the sea.",
+   "i": "la historia militar y los miradores",
+   "i_en": "military history and viewpoints"
+  },
+  "castillo_de_san_juan_de_las_aguilas": {
+   "id": "castillo_de_san_juan_de_las_aguilas",
+   "d": "Este fortín dieciochesco se asoma al mar para vigilar las bahías y el casco marinero de Águilas. Desde sus muros se domina el ir y venir del puerto y una costa recortada de calas que invitan al paseo.",
+   "d_en": "This eighteenth-century fort looks out to sea to watch over the bays and the seafaring heart of Aguilas. From its walls you command the comings and goings of the harbour and a coastline dotted with inviting coves.",
+   "h": "Al final de la tarde, para ver la bahía dorada.",
+   "h_en": "In the late afternoon, to see the bay turn golden.",
+   "i": "los miradores y el patrimonio costero",
+   "i_en": "viewpoints and coastal heritage"
+  },
+  "mercado_de_veronicas_murcia": {
+   "id": "mercado_de_veronicas_murcia",
+   "d": "A orillas del Segura, este mercado modernista es una fiesta para los sentidos. Entre sus puestos se despliegan las verduras de la huerta, el pescado fresco y los sabores que definen la despensa murciana, siempre con bullicio de vecinos.",
+   "d_en": "On the banks of the Segura, this Art Nouveau market is a feast for the senses. Its stalls display vegetables from the huerta, fresh fish and the flavours that define Murcia's larder, always amid the bustle of locals.",
+   "h": "A media mañana, cuando el mercado está en plena actividad.",
+   "h_en": "Mid-morning, when the market is in full swing.",
+   "i": "los mercados y la gastronomía local",
+   "i_en": "markets and local gastronomy"
+  },
+  "cala_cortina_cartagena": {
+   "id": "cala_cortina_cartagena",
+   "d": "A un paso del centro de Cartagena, esta pequeña cala de aguas transparentes es el baño urbano por excelencia. Resguardada entre laderas, resulta perfecta para un chapuzón rápido sin renunciar a la comodidad de la ciudad.",
+   "d_en": "A stone's throw from central Cartagena, this small cove of transparent water is the urban swim par excellence. Sheltered between slopes, it is perfect for a quick dip without giving up the comfort of the city.",
+   "h": "A media mañana entre semana, cuando está más tranquila.",
+   "h_en": "Mid-morning on a weekday, when it is quieter.",
+   "i": "las calas y el baño cerca de la ciudad",
+   "i_en": "coves and swimming near the city"
+  },
+  "salto_del_usero_bullas": {
+   "id": "salto_del_usero_bullas",
+   "d": "El agua ha esculpido aquí una poza turquesa sobre la que se derrama una cascada de postal. Rodeado de roca modelada y vegetación de ribera, este rincón de Bullas es un refresco natural muy querido en los días de calor.",
+   "d_en": "Here the water has sculpted a turquoise pool over which a postcard waterfall spills. Surrounded by shaped rock and riverside vegetation, this corner of Bullas is a much-loved natural refreshment on hot days.",
+   "h": "A primera hora de la mañana, para disfrutarlo sin aglomeraciones.",
+   "h_en": "Early in the morning, to enjoy it without crowds.",
+   "i": "los rincones naturales y las cascadas",
+   "i_en": "natural spots and waterfalls"
+  },
+  "terra_natura_murcia": {
+   "id": "terra_natura_murcia",
+   "d": "En este parque de fauna, cientos de especies viven en amplios hábitats que recrean sus entornos naturales. El diseño sin barreras visibles acerca a los animales y convierte el recorrido en una aventura educativa para toda la familia.",
+   "d_en": "In this wildlife park, hundreds of species live in spacious habitats that recreate their natural surroundings. The barrier-free design brings you close to the animals and turns the visit into an educational adventure for the whole family.",
+   "h": "A primera hora, cuando los animales están más activos.",
+   "h_en": "Early in the day, when the animals are most active.",
+   "i": "los planes en familia y la fauna",
+   "i_en": "family outings and wildlife"
+  },
+  "santuario_de_la_fuensanta_murcia": {
+   "id": "santuario_de_la_fuensanta_murcia",
+   "d": "Enclavado en la sierra que abraza Murcia, este santuario barroco acoge a la patrona de la ciudad entre pinares. Los miradores del camino y la fachada trabajada hacen de la subida una escapada de fe y paisaje.",
+   "d_en": "Nestled in the range that embraces Murcia, this Baroque sanctuary houses the city's patron saint among pinewoods. The viewpoints along the way and the ornate facade make the climb an escape of faith and scenery.",
+   "h": "Por la mañana, para disfrutar de los miradores del camino.",
+   "h_en": "In the morning, to enjoy the viewpoints along the way.",
+   "i": "los santuarios y las vistas panorámicas",
+   "i_en": "sanctuaries and panoramic views"
+  },
+  "barrio_del_foro_romano_molinete_cartag": {
+   "id": "barrio_del_foro_romano_molinete_cartag",
+   "d": "Sobre el cerro del Molinete, este yacimiento saca a la luz el corazón monumental de la Cartagena romana. Termas, edificios públicos y calles empedradas, protegidos por una cubierta museística, permiten pasear por la ciudad antigua.",
+   "d_en": "On the Molinete hill, this site brings to light the monumental heart of Roman Cartagena. Baths, public buildings and cobbled streets, sheltered by a museum canopy, let you walk through the ancient city.",
+   "h": "A primera hora de la mañana, para recorrerlo con calma.",
+   "h_en": "Early in the morning, to explore it at ease.",
+   "i": "la arqueología y la vida en la Roma antigua",
+   "i_en": "archaeology and life in ancient Rome"
+  },
+  "colegiata_de_san_patricio_lorca": {
+   "id": "colegiata_de_san_patricio_lorca",
+   "d": "Presidiendo la señorial Plaza de España, esta colegiata combina la solidez renacentista con detalles barrocos en su portada. Su interior amplio y luminoso es uno de los grandes tesoros del rico patrimonio monumental de Lorca.",
+   "d_en": "Presiding over the stately Plaza de Espana, this collegiate church combines Renaissance solidity with Baroque touches on its facade. Its broad, luminous interior is one of the great treasures of Lorca's rich monumental heritage.",
+   "h": "A media mañana, cuando la luz entra por las vidrieras.",
+   "h_en": "Mid-morning, when light streams through the windows.",
+   "i": "la arquitectura renacentista y el arte sacro",
+   "i_en": "Renaissance architecture and sacred art"
+  },
+  "arqua_museo_de_arqueologia_subacuatica": {
+   "id": "arqua_museo_de_arqueologia_subacuatica",
+   "d": "Este museo rescata del fondo del mar la memoria de la navegación mediterránea. Ánforas, tesoros y restos de naufragios se exhiben en salas que sumergen al visitante en la aventura de la arqueología bajo las olas.",
+   "d_en": "This museum recovers from the seabed the memory of Mediterranean navigation. Amphorae, treasures and shipwreck remains are displayed in galleries that immerse visitors in the adventure of archaeology beneath the waves.",
+   "h": "Por la mañana, para recorrer sus salas con tranquilidad.",
+   "h_en": "In the morning, to explore its galleries calmly.",
+   "i": "la arqueología marina y la historia de la navegación",
+   "i_en": "marine archaeology and the history of seafaring"
+  },
+  "cristo_de_monteagudo_murcia": {
+   "id": "cristo_de_monteagudo_murcia",
+   "d": "Sobre una peña coronada por un viejo castillo se alza este gran Cristo blanco, visible desde toda la huerta. La silueta se ha convertido en un hito inconfundible del paisaje y en un mirador privilegiado del entorno de Murcia.",
+   "d_en": "Atop a crag crowned by an old castle stands this great white Christ, visible across the whole huerta. Its silhouette has become an unmistakable landmark and a privileged viewpoint over the surroundings of Murcia.",
+   "h": "Al atardecer, cuando la figura destaca sobre el cielo.",
+   "h_en": "At sunset, when the figure stands out against the sky.",
+   "i": "los miradores y los paisajes de la huerta",
+   "i_en": "viewpoints and huerta landscapes"
+  },
+  "monte_arabi_yecla": {
+   "id": "monte_arabi_yecla",
+   "d": "Esta montaña envuelta en leyendas guarda pinturas rupestres y caprichosas formaciones erosionadas por el tiempo. Considerada un lugar mágico desde la prehistoria, ofrece rutas entre roca y silencio con vistas amplias del Altiplano.",
+   "d_en": "This mountain wrapped in legend holds rock paintings and whimsical formations eroded by time. Regarded as a magical place since prehistory, it offers routes among rock and silence with broad views of the Altiplano.",
+   "h": "A primera hora de la mañana, para caminar con temperatura suave.",
+   "h_en": "Early in the morning, to walk in mild temperatures.",
+   "i": "el arte rupestre y la naturaleza",
+   "i_en": "rock art and nature"
+  },
+  "plaza_de_las_flores_murcia": {
+   "id": "plaza_de_las_flores_murcia",
+   "d": "Corazón del tapeo murciano, esta plaza vive entre terrazas animadas y puestos de flores. Es el lugar perfecto para saborear la mítica marinera con una caña bien fría mientras se contempla el trasiego alegre del centro.",
+   "d_en": "The heart of Murcia's tapas scene, this square buzzes with lively terraces and flower stalls. It is the perfect place to savour the legendary marinera with a cold beer while watching the cheerful bustle of the centre.",
+   "h": "A la hora del aperitivo, cuando las terrazas se llenan de ambiente.",
+   "h_en": "At aperitif time, when the terraces fill with atmosphere.",
+   "i": "las tapas y el ambiente de plaza",
+   "i_en": "tapas and lively square atmosphere"
+  },
+  "balneario_de_archena": {
+   "id": "balneario_de_archena",
+   "d": "Junto al Segura y rodeado de palmeras, este balneario aprovecha aguas termales conocidas desde época romana. Un oasis de relax donde los baños minerales y los jardines invitan a desconectar del ajetreo cotidiano.",
+   "d_en": "Beside the Segura and surrounded by palm trees, this spa harnesses thermal waters known since Roman times. An oasis of relaxation where mineral baths and gardens invite you to unwind from everyday hustle.",
+   "h": "Por la mañana, para empezar el día con calma.",
+   "h_en": "In the morning, to start the day calmly.",
+   "i": "el bienestar y las aguas termales",
+   "i_en": "wellness and thermal waters"
+  },
+  "fuentes_del_marques_caravaca_de_la_cru": {
+   "id": "fuentes_del_marques_caravaca_de_la_cru",
+   "d": "A un paso de Caravaca, este paraje umbrío reúne manantiales, arboleda y cuevas ligadas a la memoria templaria. Sus sendas junto al agua ofrecen un remanso fresco y natural, ideal para complementar la visita al santuario.",
+   "d_en": "A short walk from Caravaca, this shady spot gathers springs, woodland and caves linked to Templar memory. Its waterside paths offer a cool, natural haven, perfect to round off a visit to the sanctuary.",
+   "h": "A media mañana, para pasear a la sombra de la arboleda.",
+   "h_en": "Mid-morning, to stroll in the shade of the woodland.",
+   "i": "los parajes naturales y las leyendas",
+   "i_en": "natural spots and legends"
+  },
+  "floracion_de_cieza": {
+   "id": "floracion_de_cieza",
+   "d": "Cada primavera, los valles de Cieza se cubren de un manto rosa y blanco cuando florecen miles de melocotoneros. El espectáculo, breve y efímero, tiñe la vega de color y perfume y atrae a fotógrafos y paseantes.",
+   "d_en": "Each spring, the valleys of Cieza are covered in a pink and white blanket as thousands of peach trees bloom. The brief, fleeting spectacle floods the plain with colour and fragrance, drawing photographers and walkers.",
+   "h": "En primavera, en las semanas de máxima floración.",
+   "h_en": "In spring, during the weeks of peak blossom.",
+   "i": "la naturaleza en flor y la fotografía",
+   "i_en": "nature in bloom and photography"
+  },
+  "basilica_de_la_purisima_yecla": {
+   "id": "basilica_de_la_purisima_yecla",
+   "d": "Con su inconfundible cúpula azul, esta basílica domina el perfil de Yecla desde lo alto de su cerro. La armonía de su arquitectura y su interior sereno la convierten en el gran emblema religioso del Altiplano.",
+   "d_en": "With its unmistakable blue dome, this basilica dominates the skyline of Yecla from atop its hill. The harmony of its architecture and its serene interior make it the great religious emblem of the Altiplano.",
+   "h": "A media mañana, cuando la cúpula brilla con el sol.",
+   "h_en": "Mid-morning, when the dome gleams in the sun.",
+   "i": "la arquitectura religiosa y los miradores",
+   "i_en": "religious architecture and viewpoints"
+  },
+  "palacio_consistorial_de_cartagena": {
+   "id": "palacio_consistorial_de_cartagena",
+   "d": "Este deslumbrante ayuntamiento de mármol es una joya modernista que preside la plaza junto al puerto. Sus fachadas ornamentadas y sus escaleras señoriales reflejan el esplendor de la Cartagena de comienzos del siglo XX.",
+   "d_en": "This dazzling marble city hall is an Art Nouveau jewel presiding over the square beside the harbour. Its ornate facades and stately staircases reflect the splendour of early twentieth-century Cartagena.",
+   "h": "Al final de la tarde, cuando la fachada se ilumina.",
+   "h_en": "In the late afternoon, when the facade is lit up.",
+   "i": "el modernismo y la arquitectura civil",
+   "i_en": "Art Nouveau and civic architecture"
+  },
+  "jardin_de_floridablanca_murcia": {
+   "id": "jardin_de_floridablanca_murcia",
+   "d": "Considerado el jardín público más antiguo de España, este remanso urbano regala sombra bajo sus ficus centenarios. Sus paseos arbolados y su ambiente tranquilo lo convierten en el pulmón verde favorito de los murcianos.",
+   "d_en": "Considered the oldest public garden in Spain, this urban haven offers shade beneath its century-old fig trees. Its tree-lined paths and calm atmosphere make it the favourite green lung of Murcia's residents.",
+   "h": "A media tarde, para pasear a la sombra de los ficus.",
+   "h_en": "Mid-afternoon, to stroll in the shade of the fig trees.",
+   "i": "los jardines históricos y el paseo tranquilo",
+   "i_en": "historic gardens and quiet strolls"
+  },
+  "canon_de_almadenes_cieza": {
+   "id": "canon_de_almadenes_cieza",
+   "d": "El Segura se abre paso entre altas paredes de roca en este desfiladero salpicado de cuevas prehistóricas. Un escenario vertiginoso ideal para el descenso en piragua o la contemplación de un paisaje fluvial poco común.",
+   "d_en": "The Segura carves its way between high rock walls in this gorge dotted with prehistoric caves. A dizzying setting ideal for canoeing or for admiring an uncommon river landscape.",
+   "h": "A media mañana, con buena luz en el fondo del cañón.",
+   "h_en": "Mid-morning, with good light at the bottom of the gorge.",
+   "i": "la aventura y los paisajes fluviales",
+   "i_en": "adventure and river landscapes"
+  },
+  "valle_de_ricote": {
+   "id": "valle_de_ricote",
+   "d": "Último reducto morisco de la región, este valle despliega huertas, meandros y palmerales entre montañas. Los naranjos y los pueblos de sabor antiguo componen un vergel sereno que invita a rutas pausadas y miradores.",
+   "d_en": "The region's last Morisco stronghold, this valley unfolds orchards, river bends and palm groves among mountains. Orange trees and villages of old-world charm form a serene oasis that invites unhurried routes and viewpoints.",
+   "h": "A media mañana, para recorrer los pueblos y miradores.",
+   "h_en": "Mid-morning, to explore the villages and viewpoints.",
+   "i": "los paisajes rurales y el legado andalusí",
+   "i_en": "rural landscapes and Andalusi legacy"
+  },
+  "castillo_de_jumilla": {
+   "id": "castillo_de_jumilla",
+   "d": "Este castillo roquero corona la ciudad del vino con su torre del homenaje y un amplio horizonte de viñedos. Vinculado al marquesado, su ascenso recompensa con vistas que abarcan el mosaico agrícola del Altiplano.",
+   "d_en": "This rocky castle crowns the city of wine with its keep and a wide horizon of vineyards. Linked to the marquisate, the climb rewards you with views that span the agricultural mosaic of the Altiplano.",
+   "h": "Al atardecer, con los viñedos bañados por la luz cálida.",
+   "h_en": "At sunset, with the vineyards bathed in warm light.",
+   "i": "los castillos y los paisajes de viñedo",
+   "i_en": "castles and vineyard landscapes"
+  },
+  "castillo_de_los_velez_mula": {
+   "id": "castillo_de_los_velez_mula",
+   "d": "Suspendida sobre el laberinto blanco de Mula, esta fortaleza renacentista de los Fajardo domina el caserío. Sus muros vigilan las calles empinadas del pueblo y ofrecen una estampa inolvidable del interior murciano.",
+   "d_en": "Suspended above the white maze of Mula, this Renaissance fortress of the Fajardo family dominates the town. Its walls watch over the steep streets and offer an unforgettable image of inland Murcia.",
+   "h": "Al final de la tarde, con el pueblo blanco a sus pies.",
+   "h_en": "In the late afternoon, with the white town at its feet.",
+   "i": "los castillos y los pueblos con encanto",
+   "i_en": "castles and charming towns"
+  },
+  "puerto_deportivo_tomas_maestre_la_mang": {
+   "id": "puerto_deportivo_tomas_maestre_la_mang",
+   "d": "Epicentro del ocio de La Manga, este puerto deportivo bulle entre yates, terrazas y locales nocturnos. En verano se convierte en punto de encuentro para navegantes y visitantes que buscan diversión junto al mar.",
+   "d_en": "The epicentre of nightlife in La Manga, this marina buzzes among yachts, terraces and clubs. In summer it becomes a meeting point for sailors and visitors seeking fun beside the sea.",
+   "h": "Al anochecer en verano, cuando se anima el ambiente.",
+   "h_en": "At nightfall in summer, when the atmosphere comes alive.",
+   "i": "la náutica y el ocio nocturno",
+   "i_en": "boating and nightlife"
+  },
+  "playa_del_espejo_los_alcazares": {
+   "id": "playa_del_espejo_los_alcazares",
+   "d": "De aguas someras y cálidas, esta playa familiar refleja la calma característica del Mar Menor. Su suave pendiente y su ambiente tranquilo la hacen ideal para un baño relajado y para quienes viajan con niños.",
+   "d_en": "With shallow, warm waters, this family beach mirrors the characteristic calm of the Mar Menor. Its gentle slope and peaceful atmosphere make it ideal for a relaxed swim and for those travelling with children.",
+   "h": "Por la mañana, cuando el agua está más tranquila.",
+   "h_en": "In the morning, when the water is calmest.",
+   "i": "las playas tranquilas en familia",
+   "i_en": "calm family beaches"
+  },
+  "museo_del_vino_de_bullas": {
+   "id": "museo_del_vino_de_bullas",
+   "d": "Instalado en una casa bodega del siglo XIX, este museo narra la cultura del monastrell, alma de los vinos de Bullas. Entre lagares y aperos antiguos se descubre el arduo camino de la uva a la copa en estas tierras.",
+   "d_en": "Housed in a nineteenth-century winery house, this museum tells the story of monastrell, the soul of Bullas wines. Among presses and old tools you discover the arduous journey from grape to glass in these lands.",
+   "h": "A media mañana, para combinar visita y cata con calma.",
+   "h_en": "Mid-morning, to combine visit and tasting at ease.",
+   "i": "la cultura del vino y el enoturismo",
+   "i_en": "wine culture and wine tourism"
+  },
+  "isla_del_fraile_aguilas": {
+   "id": "isla_del_fraile_aguilas",
+   "d": "Frente a la costa aguileña, este islote enigmático conserva restos arqueológicos y se rodea de aguas transparentes. Su silueta preside la bahía y sus fondos atraen a quienes disfrutan del snorkel y el mar limpio.",
+   "d_en": "Off the coast of Aguilas, this enigmatic islet preserves archaeological remains and is ringed by transparent waters. Its silhouette presides over the bay and its seabed draws lovers of snorkelling and clear water.",
+   "h": "A media mañana, con el mar en calma para el baño.",
+   "h_en": "Mid-morning, with a calm sea for swimming.",
+   "i": "el snorkel y los enclaves marinos",
+   "i_en": "snorkelling and marine spots"
+  },
+  "cresta_del_gallo_murcia": {
+   "id": "cresta_del_gallo_murcia",
+   "d": "De perfil dentado, esta sierra asoma sobre Murcia con miradores que dominan la ciudad y la huerta. Sus paredes y senderos son un paraíso para senderistas y escaladores que buscan aventura muy cerca del asfalto.",
+   "d_en": "With its jagged profile, this range rises over Murcia with viewpoints commanding the city and the huerta. Its walls and trails are a paradise for hikers and climbers seeking adventure close to the city.",
+   "h": "Al atardecer, para ver la ciudad iluminarse desde lo alto.",
+   "h_en": "At sunset, to watch the city light up from above.",
+   "i": "el senderismo, la escalada y los miradores",
+   "i_en": "hiking, climbing and viewpoints"
+  },
+  "santuario_de_la_esperanza_calasparra": {
+   "id": "santuario_de_la_esperanza_calasparra",
+   "d": "Excavado en la roca junto al Segura, este santuario sorprende por su encaje en el paisaje del cañón. Un refugio sereno de peregrinos donde la piedra, el agua y la fe se funden en un entorno de gran belleza.",
+   "d_en": "Carved into the rock beside the Segura, this sanctuary astonishes with how it fits into the canyon landscape. A serene refuge for pilgrims where stone, water and faith merge in a setting of great beauty.",
+   "h": "Por la mañana, para disfrutar del entorno del cañón.",
+   "h_en": "In the morning, to enjoy the canyon surroundings.",
+   "i": "los santuarios singulares y la naturaleza",
+   "i_en": "singular sanctuaries and nature"
+  },
+  "la_tana_caldero_del_mar_menor_cabo_de_": {
+   "id": "la_tana_caldero_del_mar_menor_cabo_de_",
+   "d": "Frente al puerto, esta casa es un referente del caldero, el arroz marinero de raíces pescadoras del Mar Menor. La tradición de la lumbre y el pescado de la zona se sirven aquí con el sabor auténtico de la costa.",
+   "d_en": "Facing the harbour, this house is a benchmark for caldero, the fisherman's rice dish rooted in the Mar Menor. The tradition of the open fire and local fish is served here with the authentic flavour of the coast.",
+   "h": "A la hora de comer, para disfrutar del arroz recién hecho.",
+   "h_en": "At lunchtime, to enjoy the rice freshly made.",
+   "i": "los arroces marineros y la cocina tradicional",
+   "i_en": "seafood rice dishes and traditional cooking"
+  },
+  "castillo_fortaleza_de_moratalla": {
+   "id": "castillo_fortaleza_de_moratalla",
+   "d": "Este torreón medieval vela sobre las calles empinadas y blancas de Moratalla, encaramado en lo alto del pueblo. Desde sus muros se abarca un mar de tejados y las sierras del Noroeste que envuelven la localidad.",
+   "d_en": "This medieval tower watches over the steep white streets of Moratalla, perched at the top of the town. From its walls you take in a sea of rooftops and the Northwest ranges that surround the village.",
+   "h": "Al final de la tarde, con el pueblo blanco iluminado.",
+   "h_en": "In the late afternoon, with the white town lit up.",
+   "i": "los castillos y los pueblos de montaña",
+   "i_en": "castles and mountain villages"
+  },
+  "casco_antiguo_de_cehegin": {
+   "id": "casco_antiguo_de_cehegin",
+   "d": "Uno de los conjuntos históricos más bellos de la región despliega aquí un laberinto de callejuelas, palacios y miradores. Pasear por Cehegín es viajar a un pasado señorial con vistas abiertas sobre el valle del Quípar.",
+   "d_en": "One of the region's most beautiful historic quarters unfolds here in a maze of alleys, palaces and viewpoints. Strolling through Cehegin is a journey into a stately past with open views over the Quipar valley.",
+   "h": "Al final de la tarde, cuando la piedra toma tonos dorados.",
+   "h_en": "In the late afternoon, when the stone turns golden.",
+   "i": "los cascos históricos y la arquitectura señorial",
+   "i_en": "historic quarters and stately architecture"
+  },
+  "aqua_natura_murcia": {
+   "id": "aqua_natura_murcia",
+   "d": "Toboganes, piscinas y zonas de chapoteo hacen de este parque acuático la diversión más refrescante del verano murciano. Un plan familiar para combatir el calor entre risas, saltos y ratos de relax al sol.",
+   "d_en": "Slides, pools and splash zones make this water park the most refreshing fun of the Murcian summer. A family plan to beat the heat amid laughter, jumps and moments of relaxation in the sun.",
+   "h": "A primera hora en verano, antes de las horas de más calor.",
+   "h_en": "Early in the day in summer, before the hottest hours.",
+   "i": "los planes en familia y la diversión acuática",
+   "i_en": "family outings and water fun"
+  },
+  "submarino_peral_cartagena": {
+   "id": "submarino_peral_cartagena",
+   "d": "Varado junto al puerto, este ingenio es el primer submarino torpedero del mundo y orgullo de Cartagena. Obra del inventor Isaac Peral, su casco de acero recuerda una hazaña pionera de la ingeniería naval española.",
+   "d_en": "Moored beside the harbour, this vessel is the world's first torpedo submarine and the pride of Cartagena. Created by inventor Isaac Peral, its steel hull recalls a pioneering feat of Spanish naval engineering.",
+   "h": "A media mañana, para verlo con buena luz junto al puerto.",
+   "h_en": "Mid-morning, to see it in good light beside the harbour.",
+   "i": "la historia de la ingeniería y la ciencia",
+   "i_en": "the history of engineering and science"
+  },
+  "bodegas_juan_gil_jumilla": {
+   "id": "bodegas_juan_gil_jumilla",
+   "d": "Esta bodega familiar de larga trayectoria es un lugar ideal para catar los intensos monastrell que dieron fama a Jumilla. Entre barricas y viñedos, la visita descubre el carácter potente y afrutado de sus vinos.",
+   "d_en": "This long-established family winery is an ideal place to taste the intense monastrell wines that made Jumilla famous. Among barrels and vineyards, the visit reveals the powerful, fruity character of its wines.",
+   "h": "A media mañana, para la visita y la cata con calma.",
+   "h_en": "Mid-morning, for an unhurried visit and tasting.",
+   "i": "el enoturismo y los vinos con carácter",
+   "i_en": "wine tourism and full-bodied wines"
+  },
+  "puerto_de_mazarron": {
+   "id": "puerto_de_mazarron",
+   "d": "Entre barcas de pesca y embarcaciones de recreo, este puerto conserva un auténtico sabor marinero. Sus playas doradas, sus lonjas y los atardeceres sobre el agua componen una estampa mediterránea llena de encanto.",
+   "d_en": "Among fishing boats and pleasure craft, this harbour keeps an authentic seafaring flavour. Its golden beaches, fish markets and sunsets over the water make up a charming Mediterranean scene.",
+   "h": "Al atardecer, cuando el cielo se tiñe sobre el puerto.",
+   "h_en": "At sunset, when the sky colours over the harbour.",
+   "i": "los puertos pesqueros y el ambiente marinero",
+   "i_en": "fishing harbours and seafaring atmosphere"
+  },
+  "cabana_buenavista": {
+   "id": "cabana_buenavista",
+   "d": "Rodeada de jardines, esta finca alberga una de las mesas más laureadas de la región, con dos estrellas Michelin. La cocina de Pablo González reinterpreta la despensa murciana con técnica y una puesta en escena llena de encanto.",
+   "d_en": "Surrounded by gardens, this estate holds one of the region's most acclaimed tables, with two Michelin stars. Pablo Gonzalez's cuisine reinterprets Murcia's larder with technique and a setting full of charm.",
+   "h": "A la hora de comer, para saborear el menú sin prisas.",
+   "h_en": "At lunchtime, to savour the menu unhurried.",
+   "i": "la alta cocina y la gastronomía de autor",
+   "i_en": "fine dining and signature cuisine"
+  },
+  "la_pequena_taberna": {
+   "id": "la_pequena_taberna",
+   "d": "Junto a la plaza de San Juan, este rincón entrañable ensalza las verduras de la huerta y las tapas de siempre. Su ambiente cercano y sus productos de temporada la han convertido en un clásico querido del centro de Murcia.",
+   "d_en": "Beside the Plaza de San Juan, this endearing spot celebrates the vegetables of the huerta and time-honoured tapas. Its friendly atmosphere and seasonal produce have made it a beloved classic of central Murcia.",
+   "h": "A la hora de comer, para probar las verduras de temporada.",
+   "h_en": "At lunchtime, to try the seasonal vegetables.",
+   "i": "la cocina de la huerta y las tapas tradicionales",
+   "i_en": "huerta cuisine and traditional tapas"
+  },
+  "pura_cepa": {
+   "id": "pura_cepa",
+   "d": "Frente a la plaza Cristo del Rescate, esta terraza animada marida vinos con tapas creativas. Su carta inquieta y su ambiente distendido la convierten en una parada perfecta para el tapeo con buen producto local.",
+   "d_en": "Facing the Plaza Cristo del Rescate, this lively terrace pairs wines with creative tapas. Its adventurous menu and relaxed atmosphere make it a perfect stop for tapas with good local produce.",
+   "h": "A la hora del aperitivo, para disfrutar de la terraza.",
+   "h_en": "At aperitif time, to enjoy the terrace.",
+   "i": "el vino y las tapas creativas",
+   "i_en": "wine and creative tapas"
+  },
+  "los_zagales": {
+   "id": "los_zagales",
+   "d": "A la sombra de la Catedral, este bar de toda la vida sirve cañas y raciones caseras con solera. Un templo del tapeo murciano donde el ambiente animado y los sabores de siempre nunca fallan.",
+   "d_en": "In the shadow of the Cathedral, this lifelong bar serves beers and homemade dishes with pedigree. A temple of Murcian tapas where the lively atmosphere and time-tested flavours never disappoint.",
+   "h": "A la hora del aperitivo, cuando el bar rebosa ambiente.",
+   "h_en": "At aperitif time, when the bar overflows with atmosphere.",
+   "i": "las tapas clásicas y el ambiente de barra",
+   "i_en": "classic tapas and lively bar atmosphere"
+  },
+  "meson_el_corral_de_jose_luis": {
+   "id": "meson_el_corral_de_jose_luis",
+   "d": "En la señorial plaza de Santo Domingo, entre casas nobles, este mesón defiende la cocina tradicional murciana. Guisos de cuchara y platos de raíz se sirven en un ambiente clásico que invita a comer con calma.",
+   "d_en": "On the stately Plaza de Santo Domingo, among noble houses, this tavern upholds traditional Murcian cooking. Hearty stews and rooted dishes are served in a classic setting that invites unhurried dining.",
+   "h": "A la hora de comer, para disfrutar de los guisos de temporada.",
+   "h_en": "At lunchtime, to enjoy the seasonal stews.",
+   "i": "la cocina tradicional y los guisos de siempre",
+   "i_en": "traditional cooking and time-honoured stews"
+  },
+  "mercado_de_correos": {
+   "id": "mercado_de_correos",
+   "d": "En el antiguo edificio de Correos, este mercado gastronómico reúne puestos de tapeo y un ambiente animado. Un espacio moderno para picar de todo un poco, ideal para descubrir sabores variados en compañía.",
+   "d_en": "In the former post office building, this food market brings together tapas stalls and a lively atmosphere. A modern space to nibble a bit of everything, ideal for discovering varied flavours in good company.",
+   "h": "A la hora del aperitivo o la cena, cuando hay más ambiente.",
+   "h_en": "At aperitif or dinner time, when it is busiest.",
+   "i": "los mercados gastronómicos y el tapeo variado",
+   "i_en": "food markets and varied tapas"
+  },
+  "magoga": {
+   "id": "magoga",
+   "d": "En el corazón de Cartagena, esta mesa con estrella Michelin hace brillar el producto local con elegancia. La cocina de María Gómez combina raíces mediterráneas y técnica actual en un menú de temporada muy cuidado.",
+   "d_en": "In the heart of Cartagena, this Michelin-starred table makes local produce shine with elegance. Maria Gomez's cuisine blends Mediterranean roots and modern technique in a carefully crafted seasonal menu.",
+   "h": "A la hora de comer, para saborear el menú degustación con calma.",
+   "h_en": "At lunchtime, to savour the tasting menu at ease.",
+   "i": "la alta cocina y el producto de temporada",
+   "i_en": "fine dining and seasonal produce"
+  },
+  "el_barrio_de_san_roque": {
+   "id": "el_barrio_de_san_roque",
+   "d": "En pleno casco antiguo de Cartagena, esta casa ofrece tapas modernas y arroces marineros con chispa. Su cocina reinterpreta el recetario local con frescura, ideal para descubrir el sabor cartagenero actual.",
+   "d_en": "In the heart of old Cartagena, this house offers modern tapas and seafood rice dishes with flair. Its kitchen reinterprets the local repertoire with freshness, ideal for discovering today's Cartagena flavour.",
+   "h": "A la hora de comer, para disfrutar de los arroces marineros.",
+   "h_en": "At lunchtime, to enjoy the seafood rice dishes.",
+   "i": "la cocina marinera con un toque actual",
+   "i_en": "seafood cuisine with a modern touch"
+  },
+  "la_marquesita": {
+   "id": "la_marquesita",
+   "d": "Junto a la plaza de Alcolea, este clásico cartagenero cultiva la cocina mediterránea y los arroces. Una casa de referencia donde el buen producto y el trato cercano mantienen viva la tradición gastronómica local.",
+   "d_en": "Beside the Plaza de Alcolea, this Cartagena classic cultivates Mediterranean cuisine and rice dishes. A benchmark house where fine produce and warm service keep the local culinary tradition alive.",
+   "h": "A la hora de comer, para probar los arroces de la casa.",
+   "h_en": "At lunchtime, to try the house rice dishes.",
+   "i": "la cocina mediterránea y los arroces",
+   "i_en": "Mediterranean cuisine and rice dishes"
+  },
+  "miramar": {
+   "id": "miramar",
+   "d": "Frente al puerto pesquero, con el faro en el horizonte, esta casa sirve caldero y pescado fresco del día. El sabor del mar llega directo a la mesa en un entorno marinero que enamora a los amantes del producto.",
+   "d_en": "Facing the fishing harbour, with the lighthouse on the horizon, this house serves caldero and fresh fish of the day. The flavour of the sea reaches the table directly in a seafaring setting that delights produce lovers.",
+   "h": "A la hora de comer, con vistas al puerto y al faro.",
+   "h_en": "At lunchtime, with views of the harbour and lighthouse.",
+   "i": "el pescado fresco y los arroces marineros",
+   "i_en": "fresh fish and seafood rice dishes"
+  },
+  "el_mosqui": {
+   "id": "el_mosqui",
+   "d": "Camino del faro, esta casa es un templo del caldero del Mar Menor desde hace décadas. Su arroz marinero, elaborado con la receta de siempre, mantiene el sabor auténtico de la cocina pescadora de la zona.",
+   "d_en": "On the way to the lighthouse, this house has been a temple of Mar Menor caldero for decades. Its seafood rice, made to the time-honoured recipe, keeps the authentic flavour of the area's fishermen's cooking.",
+   "h": "A la hora de comer, para disfrutar del caldero recién hecho.",
+   "h_en": "At lunchtime, to enjoy the caldero freshly made.",
+   "i": "los arroces marineros y la tradición pescadora",
+   "i_en": "seafood rice dishes and fishing tradition"
+  },
+  "los_churrascos": {
+   "id": "los_churrascos",
+   "d": "Cerca del Mar Menor, esta institución de la cocina murciana es célebre por sus arroces y sus brasas. Un lugar de referencia donde la tradición del buen producto se sirve con generosidad y saber hacer.",
+   "d_en": "Near the Mar Menor, this institution of Murcian cuisine is famous for its rice dishes and grilled meats. A benchmark place where the tradition of fine produce is served with generosity and know-how.",
+   "h": "A la hora de comer, para disfrutar de los arroces y las brasas.",
+   "h_en": "At lunchtime, to enjoy the rice dishes and grilled meats.",
+   "i": "los arroces y las carnes a la brasa",
+   "i_en": "rice dishes and grilled meats"
+  },
+  "venezuela": {
+   "id": "venezuela",
+   "d": "Frente al club náutico de Lo Pagán, este clásico marinero triunfa con gambas y arroces del Mar Menor. El sabor del producto local y las vistas al agua lo convierten en una parada obligada junto a la laguna.",
+   "d_en": "Facing the yacht club in Lo Pagan, this seafaring classic thrives on prawns and Mar Menor rice dishes. The flavour of local produce and the waterside views make it a must-stop beside the lagoon.",
+   "h": "A la hora de comer, con vistas al Mar Menor.",
+   "h_en": "At lunchtime, with views of the Mar Menor.",
+   "i": "el marisco y los arroces del Mar Menor",
+   "i_en": "seafood and Mar Menor rice dishes"
+  },
+  "el_paso": {
+   "id": "el_paso",
+   "d": "En el corazón de Águilas, esta casa ofrece marisco y pescado del día con el sabor puro del Mediterráneo. El producto fresco de la lonja llega a la mesa en un ambiente marinero y cercano muy del gusto local.",
+   "d_en": "In the heart of Aguilas, this house offers seafood and fresh fish with the pure flavour of the Mediterranean. Fresh produce from the market reaches the table in a warm seafaring setting much loved by locals.",
+   "h": "A la hora de comer, para disfrutar del pescado del día.",
+   "h_en": "At lunchtime, to enjoy the fish of the day.",
+   "i": "el marisco y el pescado fresco",
+   "i_en": "seafood and fresh fish"
+  },
+  "el_sordo": {
+   "id": "el_sordo",
+   "d": "Entre palmeras del Valle de Ricote, esta casa despliega una cocina de autor con raíces en la tierra. Sus platos reinterpretan el recetario local con creatividad en un rincón gastronómico de sereno encanto.",
+   "d_en": "Among the palm trees of the Ricote Valley, this house offers signature cuisine rooted in the land. Its dishes reinterpret the local repertoire with creativity in a gastronomic corner of serene charm.",
+   "h": "A la hora de comer, para saborear el menú con tranquilidad.",
+   "h_en": "At lunchtime, to savour the menu at leisure.",
+   "i": "la cocina de autor con raíces locales",
+   "i_en": "signature cuisine with local roots"
+  },
+  "el_olivar": {
+   "id": "el_olivar",
+   "d": "En el corazón del Noroeste, el maestro del aceite Firo Vázquez despliega una cocina creativa y personal. Sus platos giran en torno al producto de la tierra y al aceite de oliva, elevados con imaginación y oficio.",
+   "d_en": "In the heart of the Northwest, olive-oil master Firo Vazquez offers creative, personal cuisine. His dishes revolve around local produce and olive oil, elevated with imagination and craft.",
+   "h": "A la hora de comer, para disfrutar del menú con calma.",
+   "h_en": "At lunchtime, to enjoy the menu calmly.",
+   "i": "la cocina creativa y el aceite de oliva",
+   "i_en": "creative cuisine and olive oil"
+  },
+  "casa_candido": {
+   "id": "casa_candido",
+   "d": "Con solera de casa de siempre, este local defiende los sabores lorquinos más auténticos. Migas, guisos de cuchara y recetas de tradición se sirven en un ambiente hogareño que sabe a cocina de la abuela.",
+   "d_en": "With the pedigree of a lifelong house, this spot upholds the most authentic Lorca flavours. Migas, hearty stews and traditional recipes are served in a homely setting that tastes of grandmother's cooking.",
+   "h": "A la hora de comer, para probar las migas y los guisos.",
+   "h_en": "At lunchtime, to try the migas and stews.",
+   "i": "la cocina tradicional lorquina",
+   "i_en": "traditional Lorca cooking"
+  },
+  "casa_sebastian": {
+   "id": "casa_sebastian",
+   "d": "En el mercado de abastos de Jumilla, esta casa mantiene viva la tradición del Altiplano. Sus gazpachos jumillanos y su cocina de caza son un homenaje a los sabores recios de estas tierras del interior.",
+   "d_en": "In the covered market of Jumilla, this house keeps the tradition of the Altiplano alive. Its Jumilla gazpachos and game cuisine are a tribute to the robust flavours of these inland lands.",
+   "h": "A la hora de comer, para disfrutar de la cocina de temporada.",
+   "h_en": "At lunchtime, to enjoy the seasonal cooking.",
+   "i": "la cocina de caza y los sabores del interior",
+   "i_en": "game cuisine and inland flavours"
+  },
+  "bodegas_barahonda": {
+   "id": "bodegas_barahonda",
+   "d": "Entre viñedos de monastrell, esta bodega yeclana une enoturismo y restaurante en un mismo enclave. Las catas con alma y los platos maridados invitan a descubrir el carácter de los vinos de Yecla junto a las viñas.",
+   "d_en": "Among monastrell vineyards, this Yecla winery combines wine tourism and a restaurant in one place. Soulful tastings and paired dishes invite you to discover the character of Yecla wines beside the vines.",
+   "h": "A media mañana, para combinar visita, cata y comida.",
+   "h_en": "Mid-morning, to combine visit, tasting and lunch.",
+   "i": "el enoturismo y el maridaje de vinos",
+   "i_en": "wine tourism and food-and-wine pairing"
+  },
+  "bodegas_bleda": {
+   "id": "bodegas_bleda",
+   "d": "Con el castillo de Jumilla al fondo, esta bodega familiar ofrece catas de sus grandes tintos. La tradición de varias generaciones se degusta entre barricas mientras se descubre el alma del monastrell jumillano.",
+   "d_en": "With Jumilla castle in the background, this family winery offers tastings of its great reds. The tradition of several generations is savoured among barrels while you discover the soul of Jumilla monastrell.",
+   "h": "A media mañana, para la visita y la cata con vistas al castillo.",
+   "h_en": "Mid-morning, for the visit and tasting with castle views.",
+   "i": "el enoturismo y los tintos de Jumilla",
+   "i_en": "wine tourism and Jumilla reds"
+  },
+  "bodegas_del_rosario": {
+   "id": "bodegas_del_rosario",
+   "d": "Esta cooperativa histórica de Bullas invita a descubrir los vinos de la sierra entre catas y viñedos. Su larga tradición vinícola ofrece un recorrido por los sabores del monastrell cultivado en altura.",
+   "d_en": "This historic Bullas cooperative invites you to discover the wines of the sierra among tastings and vineyards. Its long winemaking tradition offers a journey through the flavours of high-altitude monastrell.",
+   "h": "A media mañana, para la visita y la cata con calma.",
+   "h_en": "Mid-morning, for the visit and tasting at ease.",
+   "i": "el enoturismo y los vinos de sierra",
+   "i_en": "wine tourism and mountain wines"
+  },
+  "la_encarnacion": {
+   "id": "la_encarnacion",
+   "d": "A pie de playa en un balneario histórico del Mar Menor, esta casa sirve caldero y arroces frente al agua. El sabor marinero y la brisa de la laguna se dan la mano en una comida con vistas inolvidables.",
+   "d_en": "On the beach at a historic Mar Menor spa, this house serves caldero and rice dishes facing the water. Seafaring flavour and the lagoon breeze come together in a meal with unforgettable views.",
+   "h": "A la hora de comer, con vistas a la laguna.",
+   "h_en": "At lunchtime, with views of the lagoon.",
+   "i": "los arroces marineros a pie de playa",
+   "i_en": "seafood rice dishes by the beach"
+  },
+  "el_cason_de_los_reyes": {
+   "id": "el_cason_de_los_reyes",
+   "d": "Junto a la ciudad de la Vera Cruz, esta casa defiende la cocina tradicional caravaqueña. Migas, asados y recetas de raíz componen una mesa contundente que refleja los sabores del Noroeste murciano.",
+   "d_en": "Near the city of the Vera Cruz, this house upholds traditional Caravaca cooking. Migas, roasts and rooted recipes make up a hearty table that reflects the flavours of Murcia's Northwest.",
+   "h": "A la hora de comer, para disfrutar de las migas y los asados.",
+   "h_en": "At lunchtime, to enjoy the migas and roasts.",
+   "i": "la cocina tradicional del Noroeste",
+   "i_en": "traditional Northwest cooking"
+  },
+  "arroz_y_ascua": {
+   "id": "arroz_y_ascua",
+   "d": "A las puertas de Cieza, esta casa reúne arroces y carnes a la brasa con sabor de huerta y monte. El producto de la tierra y el fuego de la parrilla se combinan en una cocina generosa y honesta.",
+   "d_en": "On the edge of Cieza, this house brings together rice dishes and grilled meats with the flavour of huerta and mountain. Local produce and the grill's fire combine in generous, honest cooking.",
+   "h": "A la hora de comer, para disfrutar de las brasas.",
+   "h_en": "At lunchtime, to enjoy the grill.",
+   "i": "los arroces y las brasas de producto local",
+   "i_en": "rice dishes and grilled local produce"
+  },
+  "heladeria_jijonenca_enrique_verdu": {
+   "id": "heladeria_jijonenca_enrique_verdu",
+   "d": "Frente al Mar Menor, en la explanada Barnuevo, esta heladería elabora helados artesanos de turrón premiados. Un dulce clásico para saborear paseando junto al agua, con el sabor de la tradición jijonenca.",
+   "d_en": "Facing the Mar Menor, on the Barnuevo esplanade, this parlour makes award-winning artisan nougat ice cream. A classic treat to savour while strolling by the water, with the flavour of the Jijona tradition.",
+   "h": "Al atardecer, para pasear junto al Mar Menor con un helado.",
+   "h_en": "At sunset, to stroll by the Mar Menor with an ice cream.",
+   "i": "los helados artesanos y los dulces tradicionales",
+   "i_en": "artisan ice cream and traditional sweets"
+  },
+  "teatro_romea": {
+   "id": "teatro_romea",
+   "d": "Joya escénica del siglo XIX, este teatro es el corazón cultural de Murcia desde hace más de siglo y medio. Su sala de herradura y su telón han acogido generaciones de aplausos en el centro de la ciudad.",
+   "d_en": "A nineteenth-century theatrical jewel, this venue has been Murcia's cultural heart for over a century and a half. Its horseshoe auditorium and curtain have hosted generations of applause in the city centre.",
+   "h": "Por la noche, en función, para vivir su ambiente escénico.",
+   "h_en": "In the evening, during a performance, to feel its stage atmosphere.",
+   "i": "las artes escénicas y los teatros históricos",
+   "i_en": "performing arts and historic theatres"
+  },
+  "teatro_circo": {
+   "id": "teatro_circo",
+   "d": "Antiguo circo estable reconvertido en escenario vanguardista, este espacio es cultura viva en Murcia. Su arquitectura singular y su programación inquieta acogen propuestas actuales de teatro, danza y música.",
+   "d_en": "A former permanent circus turned avant-garde stage, this space is living culture in Murcia. Its singular architecture and adventurous programming host contemporary theatre, dance and music.",
+   "h": "Por la noche, coincidiendo con la programación en cartel.",
+   "h_en": "In the evening, coinciding with the current programme.",
+   "i": "las artes escénicas contemporáneas",
+   "i_en": "contemporary performing arts"
+  },
+  "auditorio_el_batel": {
+   "id": "auditorio_el_batel",
+   "d": "Asomado al puerto de Cartagena, este auditorio de líneas vanguardistas acoge música y congresos junto al mar. Su arquitectura contemporánea dialoga con el agua y convierte cada evento en una experiencia con vistas.",
+   "d_en": "Overlooking Cartagena's harbour, this avant-garde auditorium hosts music and conferences beside the sea. Its contemporary architecture converses with the water, turning every event into an experience with a view.",
+   "h": "Por la noche, coincidiendo con un concierto o espectáculo.",
+   "h_en": "In the evening, coinciding with a concert or show.",
+   "i": "la música en directo y la arquitectura moderna",
+   "i_en": "live music and modern architecture"
+  },
+  "teatro_guerra": {
+   "id": "teatro_guerra",
+   "d": "Coliseo decimonónico de Lorca, este teatro ha sido escenario histórico de teatro, danza y música. Su elegante sala mantiene viva la tradición escénica de la ciudad del sol con una programación variada.",
+   "d_en": "A nineteenth-century playhouse in Lorca, this theatre has been a historic stage for theatre, dance and music. Its elegant auditorium keeps the city's stage tradition alive with a varied programme.",
+   "h": "Por la noche, en función, para disfrutar de su elegante sala.",
+   "h_en": "In the evening, during a performance, to enjoy its elegant hall.",
+   "i": "las artes escénicas y los teatros históricos",
+   "i_en": "performing arts and historic theatres"
+  },
+  "teatro_vico": {
+   "id": "teatro_vico",
+   "d": "Elegante teatro decimonónico de Jumilla, luce telón rojo y una programación que llega a todo el Altiplano. Su ambiente clásico y su cuidada sala lo convierten en un referente cultural de esta tierra de vino.",
+   "d_en": "An elegant nineteenth-century theatre in Jumilla, it boasts a red curtain and a programme that reaches the whole Altiplano. Its classic atmosphere and refined hall make it a cultural landmark of this wine country.",
+   "h": "Por la noche, coincidiendo con la función en cartel.",
+   "h_en": "In the evening, coinciding with the scheduled performance.",
+   "i": "las artes escénicas y los teatros clásicos",
+   "i_en": "performing arts and classic theatres"
+  },
+  "balneario_de_leana": {
+   "id": "balneario_de_leana",
+   "d": "En los Baños de Fortuna, este balneario aprovecha aguas termales conocidas desde época romana. Entre palmeras y ambiente sosegado, sus baños minerales invitan a un relax que hunde sus raíces en la antigüedad.",
+   "d_en": "In the Banos de Fortuna, this spa harnesses thermal waters known since Roman times. Among palm trees and a tranquil atmosphere, its mineral baths invite a relaxation rooted in antiquity.",
+   "h": "Por la mañana, para empezar el día con calma.",
+   "h_en": "In the morning, to start the day calmly.",
+   "i": "el bienestar y las aguas termales",
+   "i_en": "wellness and thermal waters"
+  },
+  "thalasia_centro_marino": {
+   "id": "thalasia_centro_marino",
+   "d": "Frente a las salinas de San Pedro, este centro combina talasoterapia y spa marino. El poder del agua de mar se convierte aquí en medicina de bienestar, con circuitos y tratamientos que miman cuerpo y mente.",
+   "d_en": "Facing the San Pedro salt flats, this centre combines thalassotherapy and a marine spa. The power of seawater becomes wellness medicine here, with circuits and treatments that pamper body and mind.",
+   "h": "Por la mañana, para disfrutar del circuito con tranquilidad.",
+   "h_en": "In the morning, to enjoy the circuit at leisure.",
+   "i": "el bienestar y la talasoterapia",
+   "i_en": "wellness and thalassotherapy"
+  },
+  "centro_de_buceo_islas_hormigas": {
+   "id": "centro_de_buceo_islas_hormigas",
+   "d": "Este centro organiza inmersiones en la reserva marina de Cabo de Palos, uno de los mejores fondos de Europa. Praderas, paredes y pecios habitados por peces esperan a quienes se atreven a explorar el azul.",
+   "d_en": "This centre organises dives in the Cabo de Palos marine reserve, one of the best seabeds in Europe. Meadows, walls and fish-filled wrecks await those who dare to explore the blue.",
+   "h": "Por la mañana, cuando el mar suele estar más en calma.",
+   "h_en": "In the morning, when the sea is usually calmest.",
+   "i": "el buceo y la vida marina",
+   "i_en": "diving and marine life"
+  },
+  "garaje_beat_club": {
+   "id": "garaje_beat_club",
+   "d": "Templo de la música en directo, este local es epicentro de las noches murcianas. Conciertos y baile hasta el alba se suceden en un ambiente vibrante que reúne a los amantes de la escena musical de la ciudad.",
+   "d_en": "A temple of live music, this venue is the epicentre of Murcia's nights. Concerts and dancing until dawn unfold in a vibrant atmosphere that gathers lovers of the city's music scene.",
+   "h": "Por la noche, cuando arrancan los conciertos.",
+   "h_en": "At night, when the concerts kick off.",
+   "i": "la música en directo y el ocio nocturno",
+   "i_en": "live music and nightlife"
+  },
+  "zoco_de_levante": {
+   "id": "zoco_de_levante",
+   "d": "En plena Gran Vía de La Manga, esta zona de copas y terrazas es epicentro del ocio nocturno. En las noches de verano se llena de ambiente, marcando el pulso de la vida festiva de la franja marina.",
+   "d_en": "On La Manga's Gran Via, this cluster of bars and terraces is the epicentre of nightlife. On summer nights it fills with atmosphere, setting the pulse of festive life on the sandy strip.",
+   "h": "Al anochecer en verano, cuando cobra vida el ambiente.",
+   "h_en": "At nightfall in summer, when the atmosphere comes alive.",
+   "i": "el ocio nocturno y las terrazas",
+   "i_en": "nightlife and terraces"
+  },
+  "cala_reona_beach_club": {
+   "id": "cala_reona_beach_club",
+   "d": "Junto a una cala virgen de Cabo de Palos, este beach club une cócteles y atardeceres con ambiente chill. El rumor del mar y la luz cálida del ocaso componen un plan relajado frente a la costa protegida.",
+   "d_en": "Beside a pristine cove in Cabo de Palos, this beach club pairs cocktails and sunsets with a chilled vibe. The murmur of the sea and the warm dusk light make a relaxed plan facing the protected coast.",
+   "h": "Al atardecer, para disfrutar del ocaso con un cóctel.",
+   "h_en": "At sunset, to enjoy the dusk with a cocktail.",
+   "i": "el ambiente chill y los atardeceres junto al mar",
+   "i_en": "chilled vibes and seaside sunsets"
+  },
+  "club_nautico_mar_menor": {
+   "id": "club_nautico_mar_menor",
+   "d": "Desde Los Alcázares, este club propone vela y rutas en kayak por las aguas tranquilas del Mar Menor. La suavidad de la laguna lo convierte en un escenario ideal para iniciarse en los deportes náuticos.",
+   "d_en": "From Los Alcazares, this club offers sailing and kayak routes across the calm waters of the Mar Menor. The gentleness of the lagoon makes it an ideal setting to start out in water sports.",
+   "h": "Por la mañana, cuando el viento es más favorable para navegar.",
+   "h_en": "In the morning, when the wind is best for sailing.",
+   "i": "la vela y los deportes náuticos",
+   "i_en": "sailing and water sports"
+  },
+  "canon_y_canon_multiaventura": {
+   "id": "canon_y_canon_multiaventura",
+   "d": "Entre las paredes del Cañón de Almadenes, esta empresa propone rafting y descensos sobre el río Segura. Una dosis de adrenalina en plena naturaleza, con la roca y el agua como escenario de la aventura.",
+   "d_en": "Between the walls of the Almadenes Canyon, this company offers rafting and descents on the Segura river. A dose of adrenaline deep in nature, with rock and water as the backdrop for adventure.",
+   "h": "A media mañana, con buena temperatura para la actividad.",
+   "h_en": "Mid-morning, with a good temperature for the activity.",
+   "i": "los deportes de aventura y el río",
+   "i_en": "adventure sports and the river"
+  },
+  "playa_de_percheles": {
+   "id": "playa_de_percheles",
+   "d": "Cala virgen de arena dorada y aguas turquesas, este rincón de la costa de Mazarrón es un paraíso salvaje. Su entorno sin urbanizar conserva la esencia de un litoral limpio, ideal para el baño y la desconexión.",
+   "d_en": "A pristine cove of golden sand and turquoise water, this corner of the Mazarron coast is a wild paradise. Its undeveloped surroundings keep the essence of a clean coastline, ideal for swimming and disconnecting.",
+   "h": "A primera hora de la mañana, para disfrutarla sin gente.",
+   "h_en": "Early in the morning, to enjoy it without crowds.",
+   "i": "las calas vírgenes y el baño en aguas limpias",
+   "i_en": "pristine coves and swimming in clear waters"
+  },
+  "playa_de_la_higuerica": {
+   "id": "playa_de_la_higuerica",
+   "d": "En el conjunto de las Cuatro Calas, este rincón agreste ofrece arenas doradas y calma mediterránea. Su entorno natural, cerca de Águilas, invita a un baño sereno lejos de las playas más concurridas.",
+   "d_en": "Part of the Cuatro Calas, this rugged spot offers golden sands and Mediterranean calm. Its natural surroundings, near Aguilas, invite a serene swim away from the busier beaches.",
+   "h": "A primera hora de la mañana, para disfrutar de la tranquilidad.",
+   "h_en": "Early in the morning, to enjoy the tranquillity.",
+   "i": "las calas agrestes y las playas tranquilas",
+   "i_en": "rugged coves and quiet beaches"
+  },
+  "puntas_de_calnegre": {
+   "id": "puntas_de_calnegre",
+   "d": "Al pie de acantilados, estas playas solitarias conservan una naturaleza intacta en el litoral de Lorca. Un tramo de costa poco alterado donde la roca, el mar y el silencio ofrecen un refugio para el descanso.",
+   "d_en": "At the foot of cliffs, these solitary beaches preserve untouched nature on the Lorca coast. A little-altered stretch of coastline where rock, sea and silence offer a refuge for rest.",
+   "h": "A primera hora de la mañana, para disfrutar de la calma.",
+   "h_en": "Early in the morning, to enjoy the calm.",
+   "i": "las playas salvajes y la naturaleza costera",
+   "i_en": "wild beaches and coastal nature"
+  },
+  "barrancos_de_gebas": {
+   "id": "barrancos_de_gebas",
+   "d": "Este paisaje lunar de cárcavas y tonos ocres se abre como un mirador sobrecogedor sobre los bad-lands de Gebas. La erosión ha modelado un relieve árido y espectacular que sorprende por su desolada belleza.",
+   "d_en": "This lunar landscape of gullies and ochre tones opens as a striking viewpoint over the Gebas badlands. Erosion has shaped an arid, spectacular relief that astonishes with its desolate beauty.",
+   "h": "Al atardecer, cuando la luz realza los tonos ocres.",
+   "h_en": "At sunset, when the light heightens the ochre tones.",
+   "i": "los paisajes áridos y la fotografía de naturaleza",
+   "i_en": "arid landscapes and nature photography"
+  },
+  "cabezo_gordo": {
+   "id": "cabezo_gordo",
+   "d": "Este cerro aislado, con cuevas y la prehistórica Sima de las Palomas, se alza sobre la llanura del Campo de Cartagena. Desde su cima se domina el Mar Menor, mientras su interior guarda huellas de tiempos remotos.",
+   "d_en": "This isolated hill, with caves and the prehistoric Sima de las Palomas, rises over the plain of the Campo de Cartagena. From its summit you command the Mar Menor, while its interior holds traces of remote times.",
+   "h": "A primera hora de la mañana, para caminar con temperatura suave.",
+   "h_en": "Early in the morning, to walk in mild temperatures.",
+   "i": "la prehistoria y los miradores naturales",
+   "i_en": "prehistory and natural viewpoints"
+  },
+  "sierra_de_la_pila": {
+   "id": "sierra_de_la_pila",
+   "d": "Este parque regional de pinares y cumbres ofrece senderos y silencio en el interior murciano. Su naturaleza bien conservada y sus rincones apartados invitan a caminar lejos del bullicio, entre bosque y roca.",
+   "d_en": "This regional park of pinewoods and peaks offers trails and silence in inland Murcia. Its well-preserved nature and secluded corners invite you to walk far from the bustle, among forest and rock.",
+   "h": "A primera hora de la mañana, cuando el bosque despierta.",
+   "h_en": "Early in the morning, when the forest awakens.",
+   "i": "el senderismo y la naturaleza tranquila",
+   "i_en": "hiking and quiet nature"
+  },
+  "fuente_caputa": {
+   "id": "fuente_caputa",
+   "d": "Junto a la rambla de Perea, en Mula, este oasis esconde pozas turquesas y pequeñas cascadas. La roca esculpida por el agua y la vegetación de ribera componen un refugio natural muy apreciado en los días de calor.",
+   "d_en": "Beside the Perea ravine, in Mula, this oasis hides turquoise pools and small waterfalls. Rock sculpted by water and riverside vegetation form a natural refuge much prized on hot days.",
+   "h": "A primera hora de la mañana, para disfrutarlo sin aglomeraciones.",
+   "h_en": "Early in the morning, to enjoy it without crowds.",
+   "i": "los rincones naturales y las pozas de agua",
+   "i_en": "natural spots and water pools"
+  },
+  "museo_arqueologico_de_murcia": {
+   "id": "museo_arqueologico_de_murcia",
+   "d": "En la Casa de la Cultura, este museo propone un viaje por la historia regional entre íberos y romanos. Sus colecciones de cerámica, epigrafía y hallazgos antiguos revelan el rico pasado de estas tierras.",
+   "d_en": "In the Casa de la Cultura, this museum offers a journey through regional history between Iberians and Romans. Its collections of ceramics, epigraphy and ancient finds reveal the rich past of these lands.",
+   "h": "A media mañana, para recorrer las salas con calma.",
+   "h_en": "Mid-morning, to explore the galleries at ease.",
+   "i": "la arqueología y la historia regional",
+   "i_en": "archaeology and regional history"
+  },
+  "castillo_de_monteagudo": {
+   "id": "castillo_de_monteagudo",
+   "d": "Sobre una peña coronada por el Cristo, esta fortaleza andalusí es una atalaya milenaria de la huerta. Sus muros de tapial, encaramados en la roca, recuerdan el pasado islámico y dominan una amplia panorámica.",
+   "d_en": "On a crag crowned by the Christ, this Andalusi fortress is a millennia-old watchtower over the huerta. Its rammed-earth walls, perched on the rock, recall the Islamic past and command a broad panorama.",
+   "h": "Al atardecer, con la huerta bañada por la luz cálida.",
+   "h_en": "At sunset, with the huerta bathed in warm light.",
+   "i": "las fortalezas andalusíes y los miradores",
+   "i_en": "Andalusi fortresses and viewpoints"
+  },
+  "museo_minero_de_la_union": {
+   "id": "museo_minero_de_la_union",
+   "d": "Este museo custodia el legado de la sierra minera de La Unión: galerías, minerales y la memoria del cante de las minas. Un recorrido por el sudor y el arte de una comarca marcada por la extracción y el flamenco.",
+   "d_en": "This museum guards the legacy of the La Union mining range: galleries, minerals and the memory of the miners' cante. A journey through the sweat and art of a district shaped by mining and flamenco.",
+   "h": "A media mañana, para recorrer las galerías con tranquilidad.",
+   "h_en": "Mid-morning, to explore the galleries calmly.",
+   "i": "la historia minera y las tradiciones",
+   "i_en": "mining history and traditions"
+  },
+  "palacio_de_guevara": {
+   "id": "palacio_de_guevara",
+   "d": "Llamado Casa de las Columnas, este palacio barroco es una joya señorial del siglo XVIII lorquino. Su portada monumental y sus patios reflejan el esplendor de la nobleza que dio a Lorca su rica arquitectura civil.",
+   "d_en": "Known as the House of Columns, this Baroque palace is an eighteenth-century stately jewel of Lorca. Its monumental doorway and courtyards reflect the splendour of the nobility that gave Lorca its rich civic architecture.",
+   "h": "A media mañana, para admirar la portada con buena luz.",
+   "h_en": "Mid-morning, to admire the doorway in good light.",
+   "i": "la arquitectura barroca y los palacios señoriales",
+   "i_en": "Baroque architecture and stately palaces"
+  },
+  "iglesia_de_el_salvador": {
+   "id": "iglesia_de_el_salvador",
+   "d": "En la ciudad de la Vera Cruz, este templo renacentista impresiona por su monumentalidad y su cantería. El arte sacro y la solidez de su fábrica lo convierten en una de las grandes muestras del patrimonio de Caravaca.",
+   "d_en": "In the city of the Vera Cruz, this Renaissance church impresses with its monumentality and stonework. Sacred art and the solidity of its structure make it one of the great examples of Caravaca's heritage.",
+   "h": "A media mañana, cuando la luz realza la cantería.",
+   "h_en": "Mid-morning, when the light enhances the stonework.",
+   "i": "la arquitectura renacentista y el arte sacro",
+   "i_en": "Renaissance architecture and sacred art"
+  }
+ },
+ "food": {
+  "mercado_de_veronicas_murcia": {
+   "cuisine": "Mercado gastronómico",
+   "price": "15–25 €",
+   "hours": "07:30–15:00"
+  },
+  "plaza_de_las_flores_murcia": {
+   "cuisine": "Tapas",
+   "price": "15–25 €",
+   "hours": "11:00–16:00 · 19:30–23:30"
+  },
+  "museo_del_vino_de_bullas": {
+   "cuisine": "Bodega/Vinos",
+   "price": "5–15 €",
+   "hours": "10:00–14:00"
+  },
+  "la_tana_caldero_del_mar_menor_cabo_de_": {
+   "cuisine": "Arrocería",
+   "price": "25–40 €",
+   "hours": "13:00–16:30"
+  },
+  "bodegas_juan_gil_jumilla": {
+   "cuisine": "Bodega/Vinos",
+   "price": "10–20 €",
+   "hours": "10:00–14:00"
+  },
+  "cabana_buenavista": {
+   "cuisine": "Cocina de autor",
+   "price": "150–200 €",
+   "hours": "13:30–15:30 · 20:30–22:30"
+  },
+  "la_pequena_taberna": {
+   "cuisine": "Cocina murciana",
+   "price": "25–40 €",
+   "hours": "13:00–16:00 · 20:30–23:30"
+  },
+  "pura_cepa": {
+   "cuisine": "Tapas",
+   "price": "20–35 €",
+   "hours": "13:00–16:00 · 20:00–23:30"
+  },
+  "los_zagales": {
+   "cuisine": "Tapas",
+   "price": "20–35 €",
+   "hours": "13:00–16:00 · 20:30–23:30"
+  },
+  "meson_el_corral_de_jose_luis": {
+   "cuisine": "Asador",
+   "price": "25–40 €",
+   "hours": "13:30–16:00 · 20:30–23:30"
+  },
+  "mercado_de_correos": {
+   "cuisine": "Mercado gastronómico",
+   "price": "15–25 €",
+   "hours": "12:00–00:00"
+  },
+  "magoga": {
+   "cuisine": "Cocina de autor",
+   "price": "70–100 €",
+   "hours": "13:30–15:30 · 20:30–22:30"
+  },
+  "el_barrio_de_san_roque": {
+   "cuisine": "Cocina murciana",
+   "price": "30–45 €",
+   "hours": "13:30–16:00 · 20:30–23:30"
+  },
+  "la_marquesita": {
+   "cuisine": "Cocina murciana",
+   "price": "30–45 €",
+   "hours": "13:30–16:00 · 20:30–23:30"
+  },
+  "miramar": {
+   "cuisine": "Arrocería",
+   "price": "30–45 €",
+   "hours": "13:00–16:30 · 20:30–23:00"
+  },
+  "el_mosqui": {
+   "cuisine": "Arrocería",
+   "price": "30–45 €",
+   "hours": "13:00–16:30 · 20:30–23:00"
+  },
+  "los_churrascos": {
+   "cuisine": "Asador",
+   "price": "35–50 €",
+   "hours": "13:30–16:00 · 20:30–23:30"
+  },
+  "venezuela": {
+   "cuisine": "Arrocería",
+   "price": "25–40 €",
+   "hours": "13:00–16:30 · 20:30–23:00"
+  },
+  "el_paso": {
+   "cuisine": "Cocina murciana",
+   "price": "25–40 €",
+   "hours": "13:30–16:00 · 20:30–23:30"
+  },
+  "el_sordo": {
+   "cuisine": "Cocina murciana",
+   "price": "30–45 €",
+   "hours": "13:30–16:00 · 20:30–23:00"
+  },
+  "el_olivar": {
+   "cuisine": "Cocina de autor",
+   "price": "40–60 €",
+   "hours": "13:30–15:30 · 20:30–22:30"
+  },
+  "casa_candido": {
+   "cuisine": "Cocina murciana",
+   "price": "25–40 €",
+   "hours": "13:00–16:00 · 20:30–23:30"
+  },
+  "casa_sebastian": {
+   "cuisine": "Cocina murciana",
+   "price": "30–45 €",
+   "hours": "13:30–16:00 · 20:30–23:30"
+  },
+  "bodegas_barahonda": {
+   "cuisine": "Bodega/Vinos",
+   "price": "25–40 €",
+   "hours": "13:30–16:00"
+  },
+  "bodegas_bleda": {
+   "cuisine": "Bodega/Vinos",
+   "price": "10–20 €",
+   "hours": "09:00–14:00"
+  },
+  "bodegas_del_rosario": {
+   "cuisine": "Bodega/Vinos",
+   "price": "10–20 €",
+   "hours": "09:00–14:00"
+  },
+  "la_encarnacion": {
+   "cuisine": "Cocina murciana",
+   "price": "35–50 €",
+   "hours": "13:30–16:00 · 20:30–23:00"
+  },
+  "el_cason_de_los_reyes": {
+   "cuisine": "Cocina murciana",
+   "price": "25–40 €",
+   "hours": "13:00–16:00 · 20:30–23:00"
+  },
+  "arroz_y_ascua": {
+   "cuisine": "Arrocería",
+   "price": "25–40 €",
+   "hours": "13:00–16:30 · 20:30–23:00"
+  },
+  "heladeria_jijonenca_enrique_verdu": {
+   "cuisine": "Heladería",
+   "price": "3–8 €",
+   "hours": "10:00–22:00"
+  }
+ },
+ "photo": {},
+ "souvenirs": [
+  {
+   "city": "Murcia capital",
+   "items": [
+    {
+     "name": "Pendientes o pulsera de esparto o plata",
+     "price": "10–18 €",
+     "desc": "Artesanía tradicional murciana en bordado, esparto o platería."
+    },
+    {
+     "name": "Figura de belén murciano en miniatura",
+     "price": "12–20 €",
+     "desc": "Tradición de imagineros locales, especialmente de Puente Tocinos."
+    },
+    {
+     "name": "Turrón o dulces artesanos de la huerta",
+     "price": "6–15 €",
+     "desc": "Un sabor típico para llevar a casa."
+    }
+   ],
+   "shops": [
+    "La Vitrina Murcia (C/ Trapería, frente al Real Casino)",
+    "Plaza de las Flores",
+    "Mercado de Verónicas"
+   ]
+  },
+  {
+   "city": "Cartagena",
+   "items": [
+    {
+     "name": "Imán o réplica pequeña del Submarino Isaac Peral",
+     "price": "5–12 €",
+     "desc": "El símbolo naval de la ciudad, inventado por el cartagenero Isaac Peral."
+    },
+    {
+     "name": "Reproducción de una pieza romana en miniatura",
+     "price": "10–18 €",
+     "desc": "Mosaico o ánfora a pequeña escala, inspirada en el patrimonio romano."
+    },
+    {
+     "name": "Taza o llavero con motivos de la Muralla Púnica",
+     "price": "6–14 €",
+     "desc": "Recuerdo con la historia fenicia y romana de Cartagena."
+    }
+   ],
+   "shops": [
+    "Tienda del Museo del Teatro Romano",
+    "Tienda del Castillo de la Concepción",
+    "Calle Mayor (zona comercial del centro)"
+   ]
+  },
+  {
+   "city": "Águilas",
+   "items": [
+    {
+     "name": "Joya artesanal hecha con conchas o coral",
+     "price": "10–18 €",
+     "desc": "Pendientes, pulseras o colgantes de inspiración marina."
+    },
+    {
+     "name": "Figura o lámpara decorativa de conchas",
+     "price": "12–20 €",
+     "desc": "Pieza artesanal hecha a mano con materiales del mar."
+    },
+    {
+     "name": "Conserva de pescado local",
+     "price": "8–16 €",
+     "desc": "Un sabor del Mediterráneo para llevar a casa."
+    }
+   ],
+   "shops": [
+    "Coral (tienda de souvenirs marinos)",
+    "Paseo marítimo junto al Muelle 12",
+    "Mercado municipal de Águilas"
+   ]
+  },
+  {
+   "city": "Lorca",
+   "items": [
+    {
+     "name": "Artesanía en esparto o cerámica",
+     "price": "10–18 €",
+     "desc": "Oficios tradicionales de la comarca lorquina."
+    },
+    {
+     "name": "Imán o pin inspirado en los bordados de Semana Santa",
+     "price": "6–12 €",
+     "desc": "Motivo de los famosos bordados en oro y seda de los Pasos."
+    },
+    {
+     "name": "Dulces o embutidos de la Plaza de Abastos",
+     "price": "8–15 €",
+     "desc": "Producto fresco y típico de la huerta y la matanza local."
+    }
+   ],
+   "shops": [
+    "Centro de Artesanía de Lorca",
+    "Tienda del Castillo de Lorca (Lorca Taller del Tiempo)",
+    "Plaza de Abastos Las Hortalizas"
+   ]
+  },
+  {
+   "city": "Mar Menor (La Manga, Cabo de Palos, San Pedro)",
+   "items": [
+    {
+     "name": "Camiseta o imán de recuerdo del Mar Menor",
+     "price": "8–15 €",
+     "desc": "Recuerdo clásico de la laguna salada más grande de Europa."
+    },
+    {
+     "name": "Cosmético con sal o barro del Mar Menor",
+     "price": "10–18 €",
+     "desc": "Inspirado en los famosos baños de barro terapéutico de la zona."
+    },
+    {
+     "name": "Detalle náutico (llavero o pin de vela/windsurf)",
+     "price": "6–14 €",
+     "desc": "En homenaje a la tradición marinera y deportiva de la zona."
+    }
+   ],
+   "shops": [
+    "D Costa (Centro Comercial Zoco de Levante, La Manga)",
+    "Tiendas junto a las Salinas de San Pedro del Pinatar",
+    "Tiendas náuticas del puerto de Cabo de Palos"
+   ]
+  },
+  {
+   "city": "Caravaca de la Cruz",
+   "items": [
+    {
+     "name": "Colgante o pulsera de la Cruz de Caravaca",
+     "price": "8–18 €",
+     "desc": "El símbolo de una de las cinco ciudades santas del mundo."
+    },
+    {
+     "name": "Imán de cerámica con la fachada de la Basílica",
+     "price": "6–12 €",
+     "desc": "Cerámica pintada a mano en tonos blanco y azul, típica de la zona."
+    },
+    {
+     "name": "Rosario con la Cruz de Caravaca",
+     "price": "10–18 €",
+     "desc": "Recuerdo de fuerte significado religioso para la ciudad."
+    }
+   ],
+   "shops": [
+    "La Joyería del Peregrino",
+    "Tienda oficial de la Cofradía de la Vera Cruz (junto a la Basílica)",
+    "Tiendas de cerámica del casco histórico"
+   ]
+  },
+  {
+   "city": "Mazarrón (Bolnuevo)",
+   "items": [
+    {
+     "name": "Camiseta o bolsa con diseño de Bolnuevo",
+     "price": "15–20 €",
+     "desc": "Diseños inspirados en las Erosiones y el paisaje local."
+    },
+    {
+     "name": "Imán con las Erosiones de Bolnuevo",
+     "price": "5–10 €",
+     "desc": "El paisaje más fotografiado del municipio."
+    },
+    {
+     "name": "Pieza de bisutería o cerámica del mercadillo",
+     "price": "8–18 €",
+     "desc": "Artesanía local de venta ambulante."
+    }
+   ],
+   "shops": [
+    "Mazarrón Souvenirs (C/ González Ballesta 6, Puerto de Mazarrón)",
+    "Mercadillo Artesanal del Puerto de Mazarrón",
+    "Tiendas de Bolnuevo"
+   ]
+  },
+  {
+   "city": "Sierra Espuña / Alhama de Murcia",
+   "items": [
+    {
+     "name": "Miel de la sierra (tomillo, romero o milflores)",
+     "price": "6–12 €",
+     "desc": "Producida por apicultores locales con flora del propio parque regional."
+    },
+    {
+     "name": "Aceite de oliva o conservas artesanales",
+     "price": "8–16 €",
+     "desc": "Producto de proximidad típico de la comarca."
+    },
+    {
+     "name": "Recuerdo del Centro de Visitantes",
+     "price": "5–15 €",
+     "desc": "Guía o detalle sobre la flora y fauna del parque regional."
+    }
+   ],
+   "shops": [
+    "Centro de Visitantes Ricardo Codorníu",
+    "Comercios de la Plaza de Abastos de Alhama de Murcia",
+    "Tiendas de Pliego"
+   ]
+  },
+  {
+   "city": "San Juan de los Terreros (ya en Almería)",
+   "items": [
+    {
+     "name": "Imán o recuerdo del Castillo de Terreros",
+     "price": "5–10 €",
+     "desc": "Recuerdo del pequeño fuerte costero, ya fuera de la Región de Murcia."
+    },
+    {
+     "name": "Joya o adorno de inspiración marina",
+     "price": "8–16 €",
+     "desc": "Típico de los pueblos costeros de la zona."
+    },
+    {
+     "name": "Conserva de pescado local",
+     "price": "6–15 €",
+     "desc": "Producto del mar de toda la vida."
+    }
+   ],
+   "shops": [
+    "Tienda del propio Castillo/Fuerte de Terreros",
+    "Comercios del paseo marítimo",
+    "Mercadillo local"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "El casco histórico de Murcia y Cartagena se recorren muy bien a pie; deja el coche para moverte entre ciudades y la costa.",
+   "En verano el calor aprieta: visita a primera hora o al atardecer y reserva la playa y el Mar Menor para el mediodía.",
+   "No te vayas sin probar las tapas de la huerta (marinera, michirones, zarangollo) y el arroz y caldero del Mar Menor.",
+   "Cartagena concentra un patrimonio romano espectacular (Teatro Romano); reserva con antelación en puentes y festivos.",
+   "La Semana Santa y los Bandos de la Huerta (primavera) llenan Murcia; si viajas entonces, reserva alojamiento pronto."
+  ],
+  "en": [
+   "Murcia's and Cartagena's old towns are best explored on foot; use the car to move between cities and the coast.",
+   "Summer heat is strong: sightsee early or at sunset and save the beach and the Mar Menor for midday.",
+   "Don't leave without trying the huerta tapas (marinera, michirones, zarangollo) and the rice and caldero of the Mar Menor.",
+   "Cartagena has a spectacular Roman heritage (Roman Theatre); book ahead on long weekends and holidays.",
+   "Holy Week and the Bandos de la Huerta (spring) fill Murcia; if you travel then, book accommodation early."
+  ]
+ },
+ "climate": {
+  "hi": [
+   17,
+   18,
+   20,
+   22,
+   25,
+   29,
+   33,
+   33,
+   29,
+   25,
+   20,
+   17
+  ],
+  "lo": [
+   5,
+   6,
+   7,
+   9,
+   13,
+   17,
+   20,
+   21,
+   17,
+   13,
+   9,
+   6
+  ]
+ },
+ "tr": {
+  "Fachada barroca imponente en el corazón de la ciudad, con la segunda torre más alta de España.": "An imposing Baroque façade in the heart of the city, crowned by the second-tallest tower in Spain.",
+  "Grandioso teatro romano del siglo I a.C., joya arqueológica descubierta bajo la ciudad portuaria.": "A magnificent Roman theatre from the 1st century BC, an archaeological gem unearthed beneath the port city.",
+  "Lengua de arena entre dos mares, con playas infinitas de aguas cálidas y tranquilas.": "A tongue of sand between two seas, with endless beaches of warm, calm waters.",
+  "Palacio social del siglo XIX que deslumbra con su patio árabe, biblioteca y salones de ensueño.": "A 19th-century social palace that dazzles with its Arab courtyard, library and dreamlike halls.",
+  "Fortaleza medieval sobre la ciudad del sol, con sus torres del Espolón y Alfonsina.": "A medieval fortress overlooking the city of the sun, with its Espolón and Alfonsina towers.",
+  "Santuario que custodia la sagrada Cruz, meta de peregrinos en uno de los cinco lugares santos.": "A sanctuary guarding the sacred Cruz, a pilgrims' destination at one of the five holy sites.",
+  "Calas vírgenes, dunas doradas y acantilados salvajes en un litoral protegido y sin igual.": "Unspoiled coves, golden dunes and wild cliffs along a protected, incomparable coastline.",
+  "Salinas rosadas donde los flamencos pasean entre molinos y baños de barro terapéutico.": "Pink salt flats where flamingos stroll among windmills and therapeutic mud baths.",
+  "Mirador sobre los cinco cerros y el puerto, coronando la historia milenaria de Cartagena.": "A viewpoint over the five hills and the harbour, crowning the ancient history of Cartagena.",
+  "Bosque frondoso y cumbres frescas, un pulmón verde con pozos de nieve y senderos infinitos.": "Lush forest and cool peaks, a green lung with snow wells and endless trails.",
+  "Faro centenario sobre acantilados donde el Mediterráneo esconde uno de los mejores fondos de buceo.": "A century-old lighthouse atop cliffs where the Mediterráneo hides one of the finest diving spots.",
+  "Vestigios de la muralla cartaginesa que narran los orígenes de Qart Hadasht.": "Remains of the Carthaginian wall that tell the origins of Qart Hadasht.",
+  "Caprichosas esculturas de arena erosionada junto al mar, un paisaje casi lunar.": "Whimsical sculptures of wind-worn sandstone beside the sea, an almost lunar landscape.",
+  "Templo del imaginero barroco, con los pasos procesionales más emotivos de la Semana Santa murciana.": "A temple of Baroque sculpture, home to the most moving processional floats of the Murcian Semana Santa.",
+  "Fortaleza de aire medieval sobre el mar, con cañones gigantes y vistas de vértigo a Cabo Tiñoso.": "A fortress of medieval air above the sea, with giant cannons and dizzying views of Cabo Tiñoso.",
+  "Fortín del siglo XVIII sobre el mar que vigila las bahías y el casco marinero de Águilas.": "An 18th-century seaside fort watching over the bays and the seafaring old town of Águilas.",
+  "Mercado modernista a orillas del Segura, rebosante de sabores y productos de la huerta murciana.": "A Modernista market on the banks of the Segura, brimming with flavours and produce from the Murcian huerta.",
+  "Pequeña cala urbana de aguas cristalinas, el refugio de baño más cercano a Cartagena.": "A small urban cove of crystal-clear water, the closest swimming spot to Cartagena.",
+  "Cascada de ensueño que cae sobre una poza turquesa entre roca esculpida por el agua.": "A dreamlike waterfall tumbling into a turquoise pool amid rock sculpted by water.",
+  "Parque de fauna con más de 300 especies en hábitats abiertos, aventura para toda la familia.": "A wildlife park with over 300 species in open habitats, an adventure for the whole family.",
+  "Santuario barroco en la sierra, hogar de la patrona de Murcia entre pinares y miradores.": "A Baroque sanctuary in the sierra, home to the patron saint of Murcia amid pine woods and viewpoints.",
+  "Yacimiento y museo que revive el corazón monumental de la Cartagena romana.": "A site and museum that brings the monumental heart of Roman Cartagena back to life.",
+  "Majestuosa colegiata renacentista que preside la señorial Plaza de España de Lorca.": "A majestic Renaissance collegiate church presiding over Lorca's stately Plaza de España.",
+  "Museo que rescata tesoros del fondo del mar y la historia de la navegación mediterránea.": "A museum that recovers treasures from the seabed and the history of Mediterranean navigation.",
+  "Gigantesco Cristo blanco sobre un castillo roquero, vigía inconfundible de la huerta de Murcia.": "A giant white Cristo atop a rocky castle, the unmistakable sentinel of the huerta de Murcia.",
+  "Montaña mágica de arte rupestre y formaciones caprichosas, envuelta en leyendas milenarias.": "A magical mountain of rock art and whimsical formations, wrapped in ancient legends.",
+  "Plaza vibrante de terrazas y tapas, el mejor lugar para probar la marinera y una caña bien fría.": "A lively square of terraces and tapas, the best place to try a marinera and an ice-cold caña.",
+  "Aguas termales entre palmeras junto al Segura, un oasis de relax desde época romana.": "Thermal waters among palm trees beside the Segura, an oasis of relaxation since Roman times.",
+  "Paraje umbrío de manantiales y cuevas templarias, remanso natural a un paso del santuario.": "A shady spot of springs and Templar caves, a natural haven a step from the sanctuary.",
+  "Valles teñidos de rosa y blanco cada primavera cuando florecen miles de melocotoneros.": "Valleys tinged with pink and white each spring when thousands of peach trees bloom.",
+  "Elegante basílica de cúpula azul que domina el perfil de Yecla desde su cerro.": "An elegant blue-domed basilica dominating the skyline of Yecla from its hilltop.",
+  "Deslumbrante ayuntamiento modernista de mármol que preside la plaza y el puerto.": "A dazzling Modernista marble town hall presiding over the square and the harbour.",
+  "El jardín público más antiguo de España, con ficus centenarios que dan sombra a los paseos.": "Spain's oldest public garden, with century-old ficus trees shading its walkways.",
+  "Desfiladero vertiginoso donde el Segura se abre paso entre paredes de roca y cuevas prehistóricas.": "A dizzying gorge where the Segura carves its way between rock walls and prehistoric caves.",
+  "Último rincón morisco de huertas y meandros, un vergel de naranjos entre montañas.": "A last Moorish corner of orchards and meanders, an orange-grove paradise among the mountains.",
+  "Castillo roquero del marquesado que corona la ciudad del vino con vistas a los viñedos.": "A rocky marquisate castle crowning the city of wine with views over the vineyards.",
+  "Fortaleza renacentista de los Fajardo suspendida sobre el laberinto blanco de Mula.": "A Renaissance Fajardo fortress suspended above the white labyrinth of Mula.",
+  "Puerto deportivo y epicentro del ocio de La Manga, entre yates, terrazas y noches de verano.": "A marina and the leisure epicentre of La Manga, amid yachts, terraces and summer nights.",
+  "Playa familiar de aguas someras y cálidas, sereno reflejo del tranquilo Mar Menor.": "A family beach of shallow, warm waters, a serene reflection of the calm Mar Menor.",
+  "Casa bodega del siglo XIX que narra la cultura del monastrell, alma de los vinos de Bullas.": "A 19th-century winery house telling the story of the monastrell, soul of the wines of Bullas.",
+  "Islote enigmático frente a la costa aguileña, con restos arqueológicos y aguas transparentes.": "An enigmatic islet off the Águilas coast, with archaeological remains and transparent waters.",
+  "Sierra de siluetas dentadas y miradores sobre la ciudad, paraíso de senderistas y escaladores.": "A sierra of jagged silhouettes and viewpoints over the city, a paradise for hikers and climbers.",
+  "Santuario excavado en la roca junto al Segura, sereno refugio de peregrinos entre cañones.": "A sanctuary carved into the rock beside the Segura, a serene refuge for pilgrims among the canyons.",
+  "Templo del caldero del Mar Menor frente al puerto, arroz marinero de raíces pescadoras.": "A shrine to the caldero of the Mar Menor by the harbour, a seafarer's rice with fishing roots.",
+  "Torreón medieval que vela sobre las calles empinadas y blancas del pueblo serrano.": "A medieval tower watching over the steep, whitewashed streets of the mountain village.",
+  "Laberinto de callejuelas, palacios y miradores en uno de los conjuntos históricos más bellos.": "A labyrinth of narrow streets, palaces and viewpoints in one of the most beautiful historic quarters.",
+  "Parque acuático de toboganes y piscinas, la diversión más refrescante del verano murciano.": "A water park of slides and pools, the most refreshing fun of the Murcian summer.",
+  "El primer submarino torpedero del mundo, orgullo cartagenero varado junto al puerto.": "The world's first torpedo submarine, the pride of Cartagena moored beside the harbour.",
+  "Bodega familiar histórica donde catar los intensos monastrell que dieron fama a Jumilla.": "A historic family winery where you can taste the intense monastrell wines that made Jumilla famous.",
+  "Puerto pesquero y de recreo con playas doradas, sabor marinero y atardeceres dorados.": "A fishing and leisure harbour with golden beaches, seafaring flavour and golden sunsets.",
+  "Alta cocina murciana entre jardines, dos estrellas Michelin en una finca llena de encanto.": "Fine Murcian cuisine among gardens, two Michelin stars on an estate full of charm.",
+  "Verduras de la huerta y tapas de siempre en un rincón entrañable junto a la plaza de San Juan.": "Garden vegetables and timeless tapas in a charming spot beside the plaza de San Juan.",
+  "Vinos y tapas creativas en una terraza animada frente a la plaza Cristo del Rescate.": "Wines and creative tapas on a lively terrace facing the plaza Cristo del Rescate.",
+  "Bar de tapas de toda la vida a la sombra de la Catedral, cañas y raciones caseras.": "A time-honoured tapas bar in the shadow of the Catedral, cañas and homemade dishes.",
+  "Cocina tradicional murciana en la señorial plaza de Santo Domingo, entre casas nobles.": "Traditional Murcian cooking on the stately plaza de Santo Domingo, amid noble houses.",
+  "Mercado gastronómico en el antiguo edificio de Correos, puestos de tapeo y ambiente animado.": "A gourmet market in the old Correos building, tapas stalls and a lively atmosphere.",
+  "Estrella Michelin donde el producto local brilla con elegancia en el corazón de Cartagena.": "A Michelin star where local produce shines with elegance in the heart of Cartagena.",
+  "Tapas modernas y arroces marineros en pleno casco antiguo, cocina cartagenera con chispa.": "Modern tapas and seafaring rice dishes right in the old town, Cartagena cooking with a spark.",
+  "Clásico cartagenero de cocina mediterránea y arroces junto a la plaza de Alcolea.": "A Cartagena classic of Mediterranean cooking and rice dishes beside the plaza de Alcolea.",
+  "Caldero y pescado fresco frente al puerto pesquero, con el faro recortado en el horizonte.": "Caldero and fresh fish facing the fishing harbour, with the lighthouse etched on the horizon.",
+  "Templo del caldero del Mar Menor camino del faro, sabor marinero desde hace décadas.": "A shrine to the caldero of the Mar Menor on the way to the lighthouse, seafaring flavour for decades.",
+  "Arroces y brasas legendarios cerca del Mar Menor, una institución de la cocina murciana.": "Legendary rice dishes and grills near the Mar Menor, an institution of Murcian cuisine.",
+  "Gambas y arroces del Mar Menor frente al club náutico, un clásico marinero de Lo Pagán.": "Prawns and rice dishes from the Mar Menor facing the yacht club, a seafaring classic of Lo Pagán.",
+  "Marisco y pescado del día en el corazón de Águilas, sabor puro del Mediterráneo.": "Shellfish and the day's catch in the heart of Águilas, the pure taste of the Mediterráneo.",
+  "Cocina de autor con raíces en el Valle de Ricote, un rincón gastronómico entre palmeras.": "Signature cuisine rooted in the Valle de Ricote, a gastronomic corner among the palm trees.",
+  "Cocina creativa del maestro del aceite Firo Vázquez en el corazón del Noroeste.": "Creative cooking from olive-oil master Firo Vázquez in the heart of the Noroeste.",
+  "Sabores lorquinos de siempre, migas y guisos de cuchara en una casa con solera.": "Timeless Lorca flavours, migas and hearty stews in a house of long tradition.",
+  "Gazpachos jumillanos y cocina de caza en el mercado de abastos, tradición del Altiplano.": "Jumilla gazpachos and game cooking in the market hall, a tradition of the Altiplano.",
+  "Enoturismo y restaurante entre viñedos de monastrell, catas con alma en Yecla.": "Wine tourism and a restaurant among monastrell vineyards, soulful tastings in Yecla.",
+  "Bodega familiar con vistas al castillo, catas de los grandes tintos de Jumilla.": "A family winery with views of the castle, tastings of the great reds of Jumilla.",
+  "Cooperativa histórica de Bullas para descubrir los vinos de la sierra entre catas y viñas.": "A historic Bullas cooperative to discover the wines of the sierra among tastings and vines.",
+  "Caldero y arroces a pie de playa en un balneario histórico del Mar Menor.": "Caldero and rice dishes right on the beach at a historic Mar Menor spa resort.",
+  "Cocina tradicional caravaqueña, migas y asados junto a la ciudad de la Vera Cruz.": "Traditional Caravaca cooking, migas and roasts beside the city of the Vera Cruz.",
+  "Arroces y carnes a la brasa a las puertas de Cieza, sabor de huerta y monte.": "Rice dishes and grilled meats at the gateway to Cieza, the flavour of the huerta and the hills.",
+  "Helados artesanos de turrón premiados, saboreados frente al Mar Menor en la explanada Barnuevo.": "Award-winning artisan turrón ice creams, savoured facing the Mar Menor on the explanada Barnuevo.",
+  "Joya escénica del siglo XIX en el corazón de Murcia, siglo y medio de telón y aplausos.": "A 19th-century theatrical gem in the heart of Murcia, a century and a half of curtains and applause.",
+  "Antiguo circo estable reconvertido en escenario vanguardista, cultura viva en Murcia.": "A former permanent circus turned avant-garde stage, living culture in Murcia.",
+  "Auditorio vanguardista asomado al puerto de Cartagena, música y congresos junto al mar.": "An avant-garde auditorium overlooking the port of Cartagena, music and conferences by the sea.",
+  "Coliseo decimonónico de Lorca, escenario histórico de teatro, danza y música.": "A 19th-century theatre in Lorca, a historic stage for drama, dance and music.",
+  "Elegante teatro del XIX en Jumilla, telón rojo y programación para todo el Altiplano.": "An elegant 19th-century theatre in Jumilla, red curtain and a programme for the whole Altiplano.",
+  "Aguas termales desde época romana en los Baños de Fortuna, relax entre palmeras.": "Thermal waters since Roman times at the Baños de Fortuna, relaxation among the palm trees.",
+  "Talasoterapia y spa marino frente a las salinas, bienestar con el mar como medicina.": "Thalassotherapy and a marine spa facing the salt flats, wellness with the sea as medicine.",
+  "Inmersiones en la reserva marina de Cabo de Palos, uno de los mejores fondos de Europa.": "Dives in the marine reserve of Cabo de Palos, one of the finest seabeds in Europe.",
+  "Templo de la música en directo y las noches murcianas, conciertos y baile hasta el alba.": "A temple of live music and Murcian nights, concerts and dancing until dawn.",
+  "Zona de copas y terrazas en plena Gran Vía de La Manga, epicentro del ocio nocturno.": "A cluster of bars and terraces right on La Manga's Gran Vía, the epicentre of nightlife.",
+  "Cócteles y atardeceres junto a una cala virgen de Cabo de Palos, ambiente chill frente al mar.": "Cocktails and sunsets beside an unspoiled cove of Cabo de Palos, a chill vibe by the sea.",
+  "Vela y rutas en kayak por las aguas tranquilas del Mar Menor desde Los Alcázares.": "Sailing and kayak routes across the calm waters of the Mar Menor from Los Alcázares.",
+  "Rafting y descenso entre las paredes del Cañón de Almadenes, aventura sobre el río Segura.": "Rafting and descents between the walls of the Cañón de Almadenes, adventure on the río Segura.",
+  "Cala virgen de arena dorada y aguas turquesas, un paraíso salvaje en la costa de Mazarrón.": "An unspoiled cove of golden sand and turquoise waters, a wild paradise on the Mazarrón coast.",
+  "Rincón agreste de las Cuatro Calas, arenas doradas y calma mediterránea cerca de Águilas.": "A rugged corner of the Cuatro Calas, golden sands and Mediterranean calm near Águilas.",
+  "Playas solitarias al pie de acantilados, naturaleza intacta en el litoral de Lorca.": "Secluded beaches at the foot of cliffs, untouched nature along the Lorca coastline.",
+  "Paisaje lunar de cárcavas y ocres, un mirador sobrecogedor sobre los bad-lands de Gebas.": "A lunar landscape of gullies and ochres, a breathtaking viewpoint over the bad-lands de Gebas.",
+  "Cerro aislado con cuevas y la prehistórica Sima de las Palomas, vistas al Mar Menor.": "An isolated hill with caves and the prehistoric Sima de las Palomas, with views of the Mar Menor.",
+  "Parque regional de pinares y cumbres, senderos y silencio en el interior murciano.": "A regional park of pine woods and peaks, trails and silence in the Murcian interior.",
+  "Pozas turquesas y cascadas escondidas junto a la rambla de Perea, un oasis en Mula.": "Turquoise pools and hidden waterfalls beside the rambla de Perea, an oasis in Mula.",
+  "Viaje por la historia regional entre íberos y romanos en la Casa de la Cultura de Murcia.": "A journey through regional history from Iberians to Romans at the Casa de la Cultura de Murcia.",
+  "Fortaleza andalusí sobre una peña coronada por el Cristo, atalaya milenaria de la huerta.": "An Andalusi fortress on a crag crowned by the Cristo, an ancient watchtower over the huerta.",
+  "Legado de la sierra minera de La Unión: galerías, minerales y la memoria del cante de las minas.": "The legacy of the mining sierra of La Unión: galleries, minerals and the memory of the cante de las minas.",
+  "Palacio barroco llamado Casa de las Columnas, joya señorial del siglo XVIII en Lorca.": "A Baroque palace known as the Casa de las Columnas, a stately 18th-century gem in Lorca.",
+  "Templo renacentista monumental en la ciudad de la Vera Cruz, cantería y arte sacro.": "A monumental Renaissance church in the city of the Vera Cruz, fine stonework and sacred art.",
+  "Murcia capital": "Murcia city",
+  "Cartagena": "Cartagena",
+  "Águilas": "Águilas",
+  "Lorca": "Lorca",
+  "Mar Menor (La Manga, Cabo de Palos, San Pedro)": "Mar Menor (La Manga, Cabo de Palos, San Pedro)",
+  "Caravaca de la Cruz": "Caravaca de la Cruz",
+  "Mazarrón (Bolnuevo)": "Mazarrón (Bolnuevo)",
+  "Sierra Espuña / Alhama de Murcia": "Sierra Espuña / Alhama de Murcia",
+  "San Juan de los Terreros (ya en Almería)": "San Juan de los Terreros (now in Almería)"
+ }
+}

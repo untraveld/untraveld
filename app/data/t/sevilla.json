@@ -1,0 +1,1522 @@
+{
+ "id": "sevilla",
+ "name": "Sevilla",
+ "country": "ES",
+ "center": [
+  37.3886,
+  -5.9934
+ ],
+ "pois": [
+  {
+   "id": "sev_catedral",
+   "cat": "monuments",
+   "name": "Catedral de Sevilla",
+   "icon": "⛪",
+   "lat": 37.38589,
+   "lng": -5.9932,
+   "desc": "La mayor catedral gótica del mundo, Patrimonio de la Humanidad."
+  },
+  {
+   "id": "sev_giralda",
+   "cat": "monuments",
+   "name": "La Giralda",
+   "icon": "🕌",
+   "lat": 37.3862,
+   "lng": -5.9927,
+   "desc": "El campanario símbolo de Sevilla, antiguo alminar almohade."
+  },
+  {
+   "id": "sev_alcazar",
+   "cat": "monuments",
+   "name": "Real Alcázar de Sevilla",
+   "icon": "🏰",
+   "lat": 37.38318,
+   "lng": -5.99105,
+   "desc": "Palacio real en uso más antiguo de Europa, joya mudéjar."
+  },
+  {
+   "id": "sev_archivo",
+   "cat": "monuments",
+   "name": "Archivo General de Indias",
+   "icon": "📜",
+   "lat": 37.38472,
+   "lng": -5.99278,
+   "desc": "Archivo renacentista con la memoria del imperio en América."
+  },
+  {
+   "id": "sev_plaza_espana",
+   "cat": "monuments",
+   "name": "Plaza de España",
+   "icon": "⛲",
+   "lat": 37.37727,
+   "lng": -5.987,
+   "desc": "Grandiosa plaza semicircular de la Exposición de 1929."
+  },
+  {
+   "id": "sev_torre_oro",
+   "cat": "monuments",
+   "name": "Torre del Oro",
+   "icon": "🗼",
+   "lat": 37.38253,
+   "lng": -5.99631,
+   "desc": "Torre almohade defensiva a orillas del Guadalquivir."
+  },
+  {
+   "id": "sev_santa_cruz",
+   "cat": "monuments",
+   "name": "Barrio de Santa Cruz",
+   "icon": "🌿",
+   "lat": 37.3848,
+   "lng": -5.9901,
+   "desc": "Antigua judería de callejas blancas y patios floridos."
+  },
+  {
+   "id": "sev_setas",
+   "cat": "monuments",
+   "name": "Setas de Sevilla (Metropol Parasol)",
+   "icon": "🍄",
+   "lat": 37.39303,
+   "lng": -5.99178,
+   "desc": "La mayor estructura de madera del mundo con mirador."
+  },
+  {
+   "id": "sev_ayuntamiento",
+   "cat": "monuments",
+   "name": "Ayuntamiento de Sevilla",
+   "icon": "🏛️",
+   "lat": 37.38899,
+   "lng": -5.9945,
+   "desc": "Casa consistorial con fachada plateresca del siglo XVI."
+  },
+  {
+   "id": "sev_pilatos",
+   "cat": "monuments",
+   "name": "Casa de Pilatos",
+   "icon": "🏛️",
+   "lat": 37.38999,
+   "lng": -5.98722,
+   "desc": "Palacio andaluz que mezcla mudéjar, gótico y renacentista."
+  },
+  {
+   "id": "sev_duenas",
+   "cat": "monuments",
+   "name": "Palacio de las Dueñas",
+   "icon": "🏛️",
+   "lat": 37.39447,
+   "lng": -5.98996,
+   "desc": "Palacio de la Casa de Alba con jardines y patios señoriales."
+  },
+  {
+   "id": "sev_venerables",
+   "cat": "monuments",
+   "name": "Hospital de los Venerables",
+   "icon": "⛪",
+   "lat": 37.38537,
+   "lng": -5.99095,
+   "desc": "Antiguo hospicio barroco en el corazón de Santa Cruz."
+  },
+  {
+   "id": "sev_macarena",
+   "cat": "monuments",
+   "name": "Basílica de la Macarena",
+   "icon": "⛪",
+   "lat": 37.40128,
+   "lng": -5.98921,
+   "desc": "Templo de la venerada Virgen de la Esperanza Macarena."
+  },
+  {
+   "id": "sev_salvador",
+   "cat": "monuments",
+   "name": "Iglesia Colegial del Salvador",
+   "icon": "⛪",
+   "lat": 37.38959,
+   "lng": -5.99298,
+   "desc": "Segundo templo de la ciudad, barroco sobre mezquita."
+  },
+  {
+   "id": "sev_maestranza",
+   "cat": "monuments",
+   "name": "Plaza de Toros de la Real Maestranza",
+   "icon": "🎪",
+   "lat": 37.38636,
+   "lng": -5.99854,
+   "desc": "Una de las plazas de toros más antiguas y bellas de España."
+  },
+  {
+   "id": "sev_caridad",
+   "cat": "monuments",
+   "name": "Hospital de la Caridad",
+   "icon": "⛪",
+   "lat": 37.3847,
+   "lng": -5.9973,
+   "desc": "Hospital barroco con obras maestras de Murillo y Valdés Leal."
+  },
+  {
+   "id": "sev_salinas",
+   "cat": "monuments",
+   "name": "Casa de Salinas",
+   "icon": "🏛️",
+   "lat": 37.3856,
+   "lng": -5.9905,
+   "desc": "Casa palacio renacentista con mosaico romano y patio mudéjar."
+  },
+  {
+   "id": "sev_lebrija",
+   "cat": "monuments",
+   "name": "Palacio de la Condesa de Lebrija",
+   "icon": "🏛️",
+   "lat": 37.39119,
+   "lng": -5.99483,
+   "desc": "Palacio con la mayor colección privada de mosaicos romanos."
+  },
+  {
+   "id": "sev_tabacos",
+   "cat": "monuments",
+   "name": "Antigua Fábrica de Tabacos (Universidad de Sevilla)",
+   "icon": "🏛️",
+   "lat": 37.37946,
+   "lng": -5.99093,
+   "desc": "Edificio industrial del XVIII, sede de la Universidad y cuna de Carmen."
+  },
+  {
+   "id": "sev_don_fadrique",
+   "cat": "monuments",
+   "name": "Torre de Don Fadrique",
+   "icon": "🗼",
+   "lat": 37.3966,
+   "lng": -5.99556,
+   "desc": "Torre gótica del siglo XIII en el convento de Santa Clara."
+  },
+  {
+   "id": "sev_cartuja",
+   "cat": "monuments",
+   "name": "Monasterio de la Cartuja de Santa María de las Cuevas",
+   "icon": "⛪",
+   "lat": 37.40056,
+   "lng": -6.00472,
+   "desc": "Monasterio histórico ligado a Colón y a la Expo 92."
+  },
+  {
+   "id": "sev_triana",
+   "cat": "monuments",
+   "name": "Puente de Triana (Isabel II)",
+   "icon": "🌉",
+   "lat": 37.38667,
+   "lng": -6.00186,
+   "desc": "El puente de hierro más antiguo de España sobre el Guadalquivir."
+  },
+  {
+   "id": "sev_san_jose",
+   "cat": "monuments",
+   "name": "Capilla de San José",
+   "icon": "⛪",
+   "lat": 37.38818,
+   "lng": -5.99556,
+   "desc": "Pequeña joya del barroco sevillano de retablos dorados."
+  },
+  {
+   "id": "sev_italica",
+   "cat": "monuments",
+   "name": "Conjunto Arqueológico de Itálica (Santiponce)",
+   "icon": "🏟️",
+   "lat": 37.4436,
+   "lng": -6.0449,
+   "desc": "Ciudad romana con gran anfiteatro, cuna de emperadores."
+  },
+  {
+   "id": "sev_carmona",
+   "cat": "monuments",
+   "name": "Conjunto Histórico de Carmona (Necrópolis y Alcázar)",
+   "icon": "🏛️",
+   "lat": 37.4699,
+   "lng": -5.6495,
+   "desc": "Villa monumental con necrópolis romana y alcázares mudéjares."
+  },
+  {
+   "id": "sev_rinconcillo",
+   "cat": "food",
+   "name": "El Rinconcillo",
+   "icon": "🍷",
+   "lat": 37.39335,
+   "lng": -5.98837,
+   "desc": "La taberna más antigua de Sevilla, fundada en 1670."
+  },
+  {
+   "id": "sev_columnas",
+   "cat": "food",
+   "name": "Bodega Santa Cruz (Las Columnas)",
+   "icon": "🫒",
+   "lat": 37.38604,
+   "lng": -5.99077,
+   "desc": "Bullicioso bar de tapas junto a la Catedral, un clásico del barrio."
+  },
+  {
+   "id": "sev_brunilda",
+   "cat": "food",
+   "name": "La Brunilda",
+   "icon": "🍤",
+   "lat": 37.38833,
+   "lng": -5.99941,
+   "desc": "Tapas modernas y creativas en el Arenal; suele haber cola."
+  },
+  {
+   "id": "sev_eslava",
+   "cat": "food",
+   "name": "Eslava",
+   "icon": "⭐",
+   "lat": 37.39751,
+   "lng": -5.99696,
+   "desc": "Tapas premiadas en el barrio de San Lorenzo."
+  },
+  {
+   "id": "sev_casamorales",
+   "cat": "food",
+   "name": "Casa Morales",
+   "icon": "🍇",
+   "lat": 37.3865,
+   "lng": -5.99463,
+   "desc": "Bodega histórica de 1850 con enormes tinajas de vino."
+  },
+  {
+   "id": "sev_bar_giralda",
+   "cat": "food",
+   "name": "Cervecería Giralda",
+   "icon": "🏛️",
+   "lat": 37.38616,
+   "lng": -5.99145,
+   "desc": "Tapas bajo bóvedas de unos baños árabes del siglo XII."
+  },
+  {
+   "id": "sev_elcomercio",
+   "cat": "food",
+   "name": "Bar El Comercio",
+   "icon": "🍩",
+   "lat": 37.39076,
+   "lng": -5.99229,
+   "desc": "Bar centenario famoso por sus churros con chocolate."
+  },
+  {
+   "id": "sev_golondrinas",
+   "cat": "food",
+   "name": "Las Golondrinas",
+   "icon": "🍢",
+   "lat": 37.38487,
+   "lng": -6.00551,
+   "desc": "Icono de tapas en el corazón de Triana."
+  },
+  {
+   "id": "sev_lasteresas",
+   "cat": "food",
+   "name": "Bar Las Teresas",
+   "icon": "🍖",
+   "lat": 37.38598,
+   "lng": -5.98934,
+   "desc": "Taberna centenaria de Santa Cruz con jamones colgados."
+  },
+  {
+   "id": "sev_laazotea",
+   "cat": "food",
+   "name": "La Azotea",
+   "icon": "🍽️",
+   "lat": 37.39592,
+   "lng": -5.9956,
+   "desc": "Cocina de mercado y tapas actuales cerca de la Alameda."
+  },
+  {
+   "id": "sev_puertacarne",
+   "cat": "food",
+   "name": "Freiduría Puerta de la Carne",
+   "icon": "🐟",
+   "lat": 37.38579,
+   "lng": -5.98681,
+   "desc": "Pescaíto frito de toda la vida junto a Santa Cruz."
+  },
+  {
+   "id": "sev_casacuesta",
+   "cat": "food",
+   "name": "Casa Cuesta",
+   "icon": "🥘",
+   "lat": 37.38603,
+   "lng": -6.00441,
+   "desc": "Taberna histórica de Triana con guisos y ambiente cofrade."
+  },
+  {
+   "id": "sev_bodeguitaromero",
+   "cat": "food",
+   "name": "Bodeguita Romero",
+   "icon": "🥪",
+   "lat": 37.38708,
+   "lng": -5.99567,
+   "desc": "Célebre por su pringá y los montaditos calientes."
+  },
+  {
+   "id": "sev_baralfalfa",
+   "cat": "food",
+   "name": "Bar Alfalfa",
+   "icon": "🍅",
+   "lat": 37.38998,
+   "lng": -5.99016,
+   "desc": "Diminuto bar de esquina con toque italoandaluz."
+  },
+  {
+   "id": "sev_lacampana",
+   "cat": "food",
+   "name": "Confitería La Campana",
+   "icon": "🍰",
+   "lat": 37.39259,
+   "lng": -5.99483,
+   "desc": "Pastelería emblemática de 1885 en la calle Sierpes."
+  },
+  {
+   "id": "sev_mercadotriana",
+   "cat": "food",
+   "name": "Mercado de Triana",
+   "icon": "🛒",
+   "lat": 37.38575,
+   "lng": -6.00357,
+   "desc": "Mercado de abastos con puestos y barras de tapeo."
+  },
+  {
+   "id": "sev_lonjabarranco",
+   "cat": "food",
+   "name": "Mercado Lonja del Barranco",
+   "icon": "🦐",
+   "lat": 37.38765,
+   "lng": -6.00213,
+   "desc": "Mercado gourmet en una lonja de hierro junto al río."
+  },
+  {
+   "id": "sev_gongora",
+   "cat": "food",
+   "name": "Bodega Góngora",
+   "icon": "🍷",
+   "lat": 37.38948,
+   "lng": -5.99479,
+   "desc": "Bodega clásica del centro, animada en Semana Santa."
+  },
+  {
+   "id": "sev_eltremendo",
+   "cat": "food",
+   "name": "El Tremendo",
+   "icon": "🍺",
+   "lat": 37.39297,
+   "lng": -5.98871,
+   "desc": "Cervecería mítica de barra, cerveza fría y montaditos."
+  },
+  {
+   "id": "sev_casaricardo",
+   "cat": "food",
+   "name": "Casa Ricardo",
+   "icon": "🧆",
+   "lat": 37.39758,
+   "lng": -5.99588,
+   "desc": "Taberna con solera cerca de la Alameda, famosa por sus croquetas."
+  },
+  {
+   "id": "sev_dosdemayo",
+   "cat": "food",
+   "name": "Bodega Dos de Mayo",
+   "icon": "🍢",
+   "lat": 37.39511,
+   "lng": -5.99711,
+   "desc": "Bodega clásica en la Plaza de la Gavidia con terraza."
+  },
+  {
+   "id": "sev_flortoranzo",
+   "cat": "food",
+   "name": "La Flor de Toranzo",
+   "icon": "🥖",
+   "lat": 37.38767,
+   "lng": -5.99557,
+   "desc": "Pequeño bar castizo del Arenal, famoso por su melva."
+  },
+  {
+   "id": "sev_museo_flamenco",
+   "cat": "ocio",
+   "name": "Museo del Baile Flamenco",
+   "icon": "💃",
+   "lat": 37.3889,
+   "lng": -5.99109,
+   "desc": "Museo y tablao del flamenco de Cristina Hoyos."
+  },
+  {
+   "id": "sev_casa_memoria",
+   "cat": "ocio",
+   "name": "Casa de la Memoria",
+   "icon": "🎸",
+   "lat": 37.39232,
+   "lng": -5.99382,
+   "desc": "Espectáculos íntimos de flamenco en un patio histórico."
+  },
+  {
+   "id": "sev_tablao_arenal",
+   "cat": "ocio",
+   "name": "Tablao El Arenal",
+   "icon": "👏",
+   "lat": 37.3851,
+   "lng": -5.997,
+   "desc": "Tablao clásico en el barrio del Arenal."
+  },
+  {
+   "id": "sev_casa_flamenco",
+   "cat": "ocio",
+   "name": "La Casa del Flamenco",
+   "icon": "🎶",
+   "lat": 37.38628,
+   "lng": -5.98857,
+   "desc": "Flamenco en el patio de una casa del s. XV en Santa Cruz."
+  },
+  {
+   "id": "sev_setas_mirador",
+   "cat": "ocio",
+   "name": "Setas de Sevilla (Mirador)",
+   "icon": "🌇",
+   "lat": 37.39313,
+   "lng": -5.99181,
+   "desc": "Mirador panorámico sobre la pasarela de las Setas."
+  },
+  {
+   "id": "sev_crucero_guadalquivir",
+   "cat": "ocio",
+   "name": "Crucero por el Guadalquivir",
+   "icon": "⛵",
+   "lat": 37.383,
+   "lng": -5.9964,
+   "desc": "Paseo en barco por el río junto a la Torre del Oro."
+  },
+  {
+   "id": "sev_terraza_eme",
+   "cat": "ocio",
+   "name": "La Terraza del EME (Azotea Hotel EME)",
+   "icon": "🍸",
+   "lat": 37.3863,
+   "lng": -5.9928,
+   "desc": "Azotea con vistas directas a la Giralda."
+  },
+  {
+   "id": "sev_calle_sierpes",
+   "cat": "ocio",
+   "name": "Calle Sierpes",
+   "icon": "🛍️",
+   "lat": 37.3906,
+   "lng": -5.9949,
+   "desc": "La calle comercial más emblemática de Sevilla."
+  },
+  {
+   "id": "sev_calle_betis",
+   "cat": "ocio",
+   "name": "Triana de noche (Calle Betis)",
+   "icon": "🌃",
+   "lat": 37.3826,
+   "lng": -6.0016,
+   "desc": "Bares y vistas del río en el corazón de Triana."
+  },
+  {
+   "id": "sev_isla_magica",
+   "cat": "ocio",
+   "name": "Isla Mágica",
+   "icon": "🎢",
+   "lat": 37.40547,
+   "lng": -5.99906,
+   "desc": "Parque temático en la Isla de la Cartuja."
+  },
+  {
+   "id": "sev_real_feria",
+   "cat": "ocio",
+   "name": "Real de la Feria (Feria de Abril)",
+   "icon": "🎡",
+   "lat": 37.3768,
+   "lng": -6.0148,
+   "desc": "El recinto de la Feria de Abril en Los Remedios."
+  },
+  {
+   "id": "sev_aquopolis",
+   "cat": "ocio",
+   "name": "Aquópolis Sevilla",
+   "icon": "🌊",
+   "lat": 37.4185,
+   "lng": -5.939,
+   "desc": "Parque acuático al este de la ciudad."
+  },
+  {
+   "id": "sev_maria_luisa",
+   "cat": "nature",
+   "name": "Parque de María Luisa",
+   "icon": "🌳",
+   "lat": 37.37467,
+   "lng": -5.98868,
+   "desc": "El gran parque histórico de Sevilla."
+  },
+  {
+   "id": "sev_alcazar_jardines",
+   "cat": "nature",
+   "name": "Jardines del Real Alcázar",
+   "icon": "🏰",
+   "lat": 37.3831,
+   "lng": -5.9878,
+   "desc": "Jardines palaciegos del Alcázar, Patrimonio Mundial."
+  },
+  {
+   "id": "sev_plaza_america",
+   "cat": "nature",
+   "name": "Plaza de América",
+   "icon": "🕊️",
+   "lat": 37.37165,
+   "lng": -5.98706,
+   "desc": "Plaza monumental con palomas dentro del Parque."
+  },
+  {
+   "id": "sev_jardines_murillo",
+   "cat": "nature",
+   "name": "Jardines de Murillo",
+   "icon": "🌴",
+   "lat": 37.38364,
+   "lng": -5.98781,
+   "desc": "Jardines con pérgolas junto al barrio de Santa Cruz."
+  },
+  {
+   "id": "sev_muelle_sal",
+   "cat": "nature",
+   "name": "Muelle de la Sal (Guadalquivir)",
+   "icon": "🌉",
+   "lat": 37.38612,
+   "lng": -6.00085,
+   "desc": "Paseo fluvial con vistas a Triana."
+  },
+  {
+   "id": "sev_torre_oro_mirador",
+   "cat": "nature",
+   "name": "Mirador Torre del Oro",
+   "icon": "🗼",
+   "lat": 37.38257,
+   "lng": -5.99646,
+   "desc": "Torre almohade junto al río con vistas."
+  },
+  {
+   "id": "sev_alamillo",
+   "cat": "nature",
+   "name": "Parque del Alamillo",
+   "icon": "🌲",
+   "lat": 37.42159,
+   "lng": -5.99517,
+   "desc": "El mayor parque natural urbano de Sevilla."
+  },
+  {
+   "id": "sev_jardines_delicias",
+   "cat": "nature",
+   "name": "Jardines de las Delicias",
+   "icon": "🌺",
+   "lat": 37.37196,
+   "lng": -5.98989,
+   "desc": "Jardines botánicos junto al Guadalquivir."
+  },
+  {
+   "id": "sev_jardin_americano",
+   "cat": "nature",
+   "name": "Jardín Americano (Isla de la Cartuja)",
+   "icon": "🌿",
+   "lat": 37.4075,
+   "lng": -6.0035,
+   "desc": "Jardín botánico de la Expo 92 junto al río."
+  },
+  {
+   "id": "sev_principes",
+   "cat": "nature",
+   "name": "Parque de los Príncipes",
+   "icon": "🍃",
+   "lat": 37.37405,
+   "lng": -6.00596,
+   "desc": "Parque de barrio con lago en Los Remedios."
+  }
+ ],
+ "extra": {
+  "sev_catedral": {
+   "id": "sev_catedral",
+   "d": "La Catedral de Santa María de la Sede es el templo gótico de mayores dimensiones del mundo y guarda la tumba de Cristóbal Colón. Levantada sobre la antigua mezquita almohade, deslumbra con su retablo mayor dorado y sus incontables capillas.",
+   "d_en": "The Cathedral of Saint Mary of the See is the largest Gothic church in the world and holds the tomb of Christopher Columbus. Built over the old Almohad mosque, it dazzles with its gilded main altarpiece and countless chapels.",
+   "h": "Media mañana entre semana para evitar colas",
+   "h_en": "Mid-morning on weekdays to avoid queues",
+   "i": "el arte gótico y la historia de los descubrimientos",
+   "i_en": "Gothic art and the history of the discoveries"
+  },
+  "sev_giralda": {
+   "id": "sev_giralda",
+   "d": "La Giralda fue el alminar de la mezquita mayor almohade del siglo XII y hoy sirve de campanario a la catedral. Se sube por 35 rampas hasta un mirador con las mejores vistas del casco histórico sevillano.",
+   "d_en": "The Giralda was the minaret of the 12th-century Almohad great mosque and today serves as the cathedral's bell tower. You climb 35 ramps to a viewpoint with the finest views over Seville's old town.",
+   "h": "Al atardecer para fotografiar la ciudad con luz dorada",
+   "h_en": "At sunset to photograph the city in golden light",
+   "i": "la arquitectura almohade y los miradores panorámicos",
+   "i_en": "Almohad architecture and panoramic viewpoints"
+  },
+  "sev_alcazar": {
+   "id": "sev_alcazar",
+   "d": "El Real Alcázar es un conjunto palaciego de origen musulmán ampliado por reyes cristianos, con el espectacular Palacio de Pedro I y sus patios de azulejos. Sus jardines de naranjos, fuentes y pabellones son un remanso en pleno centro.",
+   "d_en": "The Royal Alcázar is a palace complex of Muslim origin expanded by Christian kings, featuring the spectacular Palace of Pedro I with its tiled courtyards. Its gardens of orange trees, fountains and pavilions are an oasis in the city centre.",
+   "h": "A primera hora para disfrutar los jardines sin multitudes",
+   "h_en": "First thing in the morning to enjoy the gardens without crowds",
+   "i": "la arquitectura mudéjar y los jardines históricos",
+   "i_en": "Mudéjar architecture and historic gardens"
+  },
+  "sev_archivo": {
+   "id": "sev_archivo",
+   "d": "Alojado en la antigua Casa Lonja de Mercaderes, obra renacentista de Juan de Herrera, custodia millones de documentos sobre la colonización española de América. Es Patrimonio de la Humanidad junto a la catedral y el Alcázar.",
+   "d_en": "Housed in the former Merchants' Exchange, a Renaissance work by Juan de Herrera, it guards millions of documents on the Spanish colonisation of the Americas. It is a World Heritage Site alongside the cathedral and the Alcázar.",
+   "h": "Por la mañana; la entrada es gratuita",
+   "h_en": "In the morning; admission is free",
+   "i": "la historia colonial y la arquitectura renacentista",
+   "i_en": "colonial history and Renaissance architecture"
+  },
+  "sev_plaza_espana": {
+   "id": "sev_plaza_espana",
+   "d": "Construida para la Exposición Iberoamericana de 1929, esta plaza monumental combina ladrillo, cerámica y mármol en un enorme semicírculo con canal navegable. Sus bancos de azulejos representan las provincias de España.",
+   "d_en": "Built for the 1929 Ibero-American Exposition, this monumental plaza blends brick, ceramics and marble in a huge semicircle with a navigable canal. Its tiled alcoves depict the provinces of Spain.",
+   "h": "Al amanecer o al atardecer para la mejor luz",
+   "h_en": "At sunrise or sunset for the best light",
+   "i": "la arquitectura regionalista y la fotografía",
+   "i_en": "regionalist architecture and photography"
+  },
+  "sev_torre_oro": {
+   "id": "sev_torre_oro",
+   "d": "Esta torre albarrana del siglo XIII formaba parte de las defensas almohades del puerto y controlaba el acceso fluvial a la ciudad. Hoy alberga un pequeño museo marítimo y ofrece vistas del río desde su terraza.",
+   "d_en": "This 13th-century watchtower was part of the Almohad defences of the port and controlled river access to the city. Today it houses a small maritime museum and offers river views from its terrace.",
+   "h": "Al atardecer paseando por la ribera del río",
+   "h_en": "At sunset while strolling along the riverbank",
+   "i": "la historia militar y los paseos junto al río",
+   "i_en": "military history and riverside walks"
+  },
+  "sev_santa_cruz": {
+   "id": "sev_santa_cruz",
+   "d": "El Barrio de Santa Cruz fue la judería medieval de Sevilla y hoy es un laberinto de callejones estrechos, plazas recoletas y patios con naranjos. Pasear sin rumbo entre sus casas encaladas es una de las mejores experiencias de la ciudad.",
+   "d_en": "The Santa Cruz quarter was Seville's medieval Jewish district and is now a maze of narrow lanes, quiet squares and orange-tree courtyards. Wandering aimlessly among its whitewashed houses is one of the city's best experiences.",
+   "h": "A media tarde, cuando refresca y hay menos gente",
+   "h_en": "In the late afternoon, when it cools and is quieter",
+   "i": "los cascos históricos y la vida de barrio",
+   "i_en": "historic quarters and neighbourhood life"
+  },
+  "sev_setas": {
+   "id": "sev_setas",
+   "d": "El Metropol Parasol, popularmente las Setas, es una espectacular estructura de madera diseñada por Jürgen Mayer en la plaza de la Encarnación. En su base hay restos romanos y en lo alto una pasarela con vistas de 360 grados.",
+   "d_en": "The Metropol Parasol, popularly the Mushrooms, is a spectacular wooden structure designed by Jürgen Mayer on the Encarnación square. Its base holds Roman remains and its top a walkway with 360-degree views.",
+   "h": "Al anochecer, cuando se ilumina la estructura",
+   "h_en": "At dusk, when the structure lights up",
+   "i": "la arquitectura contemporánea y los miradores",
+   "i_en": "contemporary architecture and viewpoints"
+  },
+  "sev_ayuntamiento": {
+   "id": "sev_ayuntamiento",
+   "d": "El Ayuntamiento de Sevilla luce en la Plaza de San Francisco una de las mejores fachadas platerescas de España, con detallada decoración escultórica del Renacimiento. El lado que da a la Plaza Nueva muestra un estilo más sobrio del siglo XIX.",
+   "d_en": "Seville's City Hall boasts on Plaza de San Francisco one of Spain's finest Plateresque façades, with detailed Renaissance sculptural decoration. The side facing Plaza Nueva shows a more sober 19th-century style.",
+   "h": "De día para apreciar el detalle de la fachada plateresca",
+   "h_en": "During the day to appreciate the Plateresque façade detail",
+   "i": "la escultura renacentista y la arquitectura civil",
+   "i_en": "Renaissance sculpture and civic architecture"
+  },
+  "sev_pilatos": {
+   "id": "sev_pilatos",
+   "d": "La Casa de Pilatos es el palacio señorial más notable de Sevilla, con un patio principal cubierto de azulejos, esculturas romanas y yeserías mudéjares. Combina con maestría lo gótico, lo mudéjar y lo renacentista italiano.",
+   "d_en": "The Casa de Pilatos is Seville's finest aristocratic mansion, with a main courtyard clad in tiles, Roman statues and Mudéjar plasterwork. It masterfully blends Gothic, Mudéjar and Italian Renaissance styles.",
+   "h": "Por la mañana para recorrer con calma los dos pisos",
+   "h_en": "In the morning to explore both floors at leisure",
+   "i": "los palacios señoriales y la azulejería andaluza",
+   "i_en": "aristocratic palaces and Andalusian tilework"
+  },
+  "sev_duenas": {
+   "id": "sev_duenas",
+   "d": "Residencia sevillana de la Casa de Alba y lugar de nacimiento del poeta Antonio Machado, el Palacio de las Dueñas reúne arquitectura gótico-mudéjar y renacentista. Sus patios, jardines y colecciones artísticas evocan siglos de vida aristocrática.",
+   "d_en": "A Seville residence of the House of Alba and birthplace of the poet Antonio Machado, the Palacio de las Dueñas brings together Gothic-Mudéjar and Renaissance architecture. Its courtyards, gardens and art collections evoke centuries of aristocratic life.",
+   "h": "A media mañana para pasear por los jardines",
+   "h_en": "In the mid-morning to stroll through the gardens",
+   "i": "la historia nobiliaria y los jardines con encanto",
+   "i_en": "aristocratic history and charming gardens"
+  },
+  "sev_venerables": {
+   "id": "sev_venerables",
+   "d": "Fundado en el siglo XVII como residencia para sacerdotes ancianos, este conjunto barroco destaca por su iglesia decorada por Valdés Leal y su recogido patio central. Alberga el Centro Velázquez con pintura del Siglo de Oro.",
+   "d_en": "Founded in the 17th century as a home for elderly priests, this Baroque complex stands out for its church decorated by Valdés Leal and its intimate central courtyard. It houses the Velázquez Centre with Golden Age painting.",
+   "h": "Por la mañana, combinándolo con el Barrio de Santa Cruz",
+   "h_en": "In the morning, combined with the Santa Cruz quarter",
+   "i": "el barroco sevillano y la pintura del Siglo de Oro",
+   "i_en": "Sevillian Baroque and Golden Age painting"
+  },
+  "sev_macarena": {
+   "id": "sev_macarena",
+   "d": "La basílica alberga la imagen de la Virgen de la Esperanza Macarena, una de las más queridas de la Semana Santa sevillana. Junto a ella se conserva un tramo de la muralla almohade y la Puerta de la Macarena.",
+   "d_en": "The basilica is home to the image of the Virgin of Hope of Macarena, one of the most beloved in Seville's Holy Week. Beside it stand a stretch of the Almohad wall and the Macarena Gate.",
+   "h": "Por la mañana; imprescindible en Semana Santa",
+   "h_en": "In the morning; a must during Holy Week",
+   "i": "la devoción popular y la imaginería religiosa",
+   "i_en": "popular devotion and religious imagery"
+  },
+  "sev_salvador": {
+   "id": "sev_salvador",
+   "d": "Levantada sobre la antigua mezquita mayor de Ibn Adabbas, la Colegial del Salvador es el mayor templo barroco de Sevilla tras la catedral. Su interior guarda retablos dorados espectaculares y obras de Martínez Montañés.",
+   "d_en": "Built over the old great mosque of Ibn Adabbas, the Collegiate Church of El Salvador is Seville's largest Baroque church after the cathedral. Its interior holds spectacular gilded altarpieces and works by Martínez Montañés.",
+   "h": "Por la mañana; la entrada se comparte con la catedral",
+   "h_en": "In the morning; entry is shared with the cathedral",
+   "i": "el barroco y los retablos dorados",
+   "i_en": "the Baroque and gilded altarpieces"
+  },
+  "sev_maestranza": {
+   "id": "sev_maestranza",
+   "d": "La Real Maestranza, iniciada en el siglo XVIII, es una de las plazas de toros más antiguas y monumentales de España, con su característico albero y palcos blancos. Incluye un museo taurino y visitas guiadas por el ruedo y las cuadras.",
+   "d_en": "The Real Maestranza, begun in the 18th century, is one of Spain's oldest and most monumental bullrings, with its characteristic sand and white balconies. It includes a bullfighting museum and guided tours of the ring and stables.",
+   "h": "Por la mañana con visita guiada",
+   "h_en": "In the morning with a guided tour",
+   "i": "la tradición taurina y la arquitectura del siglo XVIII",
+   "i_en": "bullfighting tradition and 18th-century architecture"
+  },
+  "sev_caridad": {
+   "id": "sev_caridad",
+   "d": "Fundado por Miguel de Mañara en el siglo XVII, este hospital benéfico conserva una iglesia barroca decorada con cuadros de Murillo y las célebres alegorías de la muerte de Valdés Leal. Su patio y azulejos completan la visita.",
+   "d_en": "Founded by Miguel de Mañara in the 17th century, this charitable hospital preserves a Baroque church decorated with paintings by Murillo and the famous allegories of death by Valdés Leal. Its courtyard and tiles round off the visit.",
+   "h": "Por la mañana, tras la Torre del Oro",
+   "h_en": "In the morning, after the Torre del Oro",
+   "i": "la pintura barroca y Murillo",
+   "i_en": "Baroque painting and Murillo"
+  },
+  "sev_salinas": {
+   "id": "sev_salinas",
+   "d": "Esta casa palacio del siglo XVI en el Barrio de Santa Cruz conserva un elegante patio con columnas de mármol, artesonados mudéjares y un mosaico romano original. Es un ejemplo íntimo y auténtico de la casa señorial sevillana.",
+   "d_en": "This 16th-century mansion in the Santa Cruz quarter preserves an elegant courtyard with marble columns, Mudéjar coffered ceilings and an original Roman mosaic. It is an intimate, authentic example of the Sevillian noble house.",
+   "h": "Con visita guiada, mejor por la mañana",
+   "h_en": "By guided tour, best in the morning",
+   "i": "las casas palacio y los detalles mudéjares",
+   "i_en": "palatial houses and Mudéjar details"
+  },
+  "sev_lebrija": {
+   "id": "sev_lebrija",
+   "d": "El Palacio de Lebrija reúne una excepcional colección de mosaicos y piezas romanas procedentes en gran parte de Itálica, integrados en sus suelos y patios. La planta baja se recorre libremente y la principal en visita guiada.",
+   "d_en": "The Lebrija Palace holds an exceptional collection of Roman mosaics and artefacts, largely from Italica, set into its floors and courtyards. The ground floor is visited freely and the main floor by guided tour.",
+   "h": "Por la mañana para ver bien los mosaicos",
+   "h_en": "In the morning to see the mosaics well",
+   "i": "la arqueología romana y las artes decorativas",
+   "i_en": "Roman archaeology and decorative arts"
+  },
+  "sev_tabacos": {
+   "id": "sev_tabacos",
+   "d": "La Real Fábrica de Tabacos fue en el siglo XVIII el mayor edificio industrial de España y escenario de la ópera Carmen de Bizet. Hoy es sede del rectorado y de facultades de la Universidad de Sevilla, con patios y galerías monumentales.",
+   "d_en": "The Royal Tobacco Factory was in the 18th century the largest industrial building in Spain and the setting of Bizet's opera Carmen. Today it houses the rectorate and faculties of the University of Seville, with monumental courtyards and galleries.",
+   "h": "En horario lectivo, entrada libre a los patios",
+   "h_en": "During term hours, free entry to the courtyards",
+   "i": "la arquitectura industrial y la historia de Carmen",
+   "i_en": "industrial architecture and the story of Carmen"
+  },
+  "sev_don_fadrique": {
+   "id": "sev_don_fadrique",
+   "d": "Construida hacia 1252, esta torre de transición del románico al gótico se alza en el jardín del antiguo convento de Santa Clara. Es una de las estructuras civiles medievales mejor conservadas de la ciudad.",
+   "d_en": "Built around 1252, this tower of Romanesque-to-Gothic transition rises in the garden of the former convent of Santa Clara. It is one of the best-preserved medieval civic structures in the city.",
+   "h": "Dentro del horario del Espacio Santa Clara",
+   "h_en": "Within the opening hours of the Espacio Santa Clara",
+   "i": "la arquitectura medieval y los rincones poco turísticos",
+   "i_en": "medieval architecture and off-the-beaten-path corners"
+  },
+  "sev_cartuja": {
+   "id": "sev_cartuja",
+   "d": "Este monasterio cartujo del siglo XV acogió a Cristóbal Colón, se convirtió en fábrica de cerámica en el siglo XIX y fue recuperado para la Exposición Universal de 1992. Hoy alberga el Centro Andaluz de Arte Contemporáneo.",
+   "d_en": "This 15th-century Carthusian monastery hosted Christopher Columbus, became a ceramics factory in the 19th century and was restored for the 1992 World's Fair. Today it houses the Andalusian Centre of Contemporary Art.",
+   "h": "Por la mañana; combina historia y arte contemporáneo",
+   "h_en": "In the morning; it combines history and contemporary art",
+   "i": "la historia industrial y el arte contemporáneo",
+   "i_en": "industrial history and contemporary art"
+  },
+  "sev_triana": {
+   "id": "sev_triana",
+   "d": "Inaugurado en 1852, el Puente de Isabel II es el puente de hierro conservado más antiguo de España y une el centro con el barrio de Triana. Sus arcos inspirados en el Pont du Carrousel de París son un icono de la ciudad.",
+   "d_en": "Opened in 1852, the Isabel II Bridge is the oldest surviving iron bridge in Spain and links the centre with the Triana district. Its arches, inspired by the Pont du Carrousel in Paris, are a city icon.",
+   "h": "Al atardecer, cruzando hacia Triana",
+   "h_en": "At sunset, crossing over to Triana",
+   "i": "la ingeniería del siglo XIX y el ambiente de Triana",
+   "i_en": "19th-century engineering and the Triana atmosphere"
+  },
+  "sev_san_jose": {
+   "id": "sev_san_jose",
+   "d": "Esta capilla del gremio de carpinteros, del siglo XVII y XVIII, esconde uno de los interiores barrocos más exuberantes de Sevilla. Su retablo mayor dorado y sus yeserías la convierten en una sorpresa entre las tiendas de la calle Jovellanos.",
+   "d_en": "This 17th- and 18th-century chapel of the carpenters' guild hides one of Seville's most exuberant Baroque interiors. Its gilded main altarpiece and plasterwork make it a surprise among the shops of Jovellanos street.",
+   "h": "En horario de culto, breve pero deslumbrante",
+   "h_en": "During service hours, brief but dazzling",
+   "i": "el barroco recargado y las joyas escondidas",
+   "i_en": "lavish Baroque and hidden gems"
+  },
+  "sev_italica": {
+   "id": "sev_italica",
+   "d": "Fundada en el 206 a.C., Itálica fue cuna de los emperadores Trajano y Adriano y conserva uno de los mayores anfiteatros del mundo romano. Sus calles enlosadas y magníficos mosaicos, junto a su papel como escenario de Juego de Tronos, la hacen imprescindible.",
+   "d_en": "Founded in 206 BC, Italica was the birthplace of emperors Trajan and Hadrian and preserves one of the largest amphitheatres of the Roman world. Its paved streets and magnificent mosaics, plus its role as a Game of Thrones location, make it a must-see.",
+   "h": "Por la mañana temprano para evitar el calor",
+   "h_en": "Early in the morning to avoid the heat",
+   "i": "la arqueología romana y los grandes anfiteatros",
+   "i_en": "Roman archaeology and great amphitheatres"
+  },
+  "sev_carmona": {
+   "id": "sev_carmona",
+   "d": "Carmona, sobre una colina dominando la campiña, atesora una excepcional necrópolis romana con tumbas excavadas en la roca, la Puerta de Sevilla y el Alcázar del Rey Don Pedro. Su casco histórico reúne restos romanos, árabes y palacios renacentistas.",
+   "d_en": "Carmona, set on a hill overlooking the countryside, holds an exceptional Roman necropolis with rock-cut tombs, the Seville Gate and the Alcázar of King Pedro. Its old town gathers Roman, Arab and Renaissance remains.",
+   "h": "Excursión de medio día desde Sevilla",
+   "h_en": "A half-day trip from Seville",
+   "i": "la arqueología romana y los pueblos con historia",
+   "i_en": "Roman archaeology and historic towns"
+  },
+  "sev_rinconcillo": {
+   "id": "sev_rinconcillo",
+   "d": "Fundada en 1670, es la taberna más antigua de la ciudad, con azulejos, techos de madera y jamones colgando de la barra. Los camareros aún apuntan la cuenta con tiza sobre el mostrador mientras sirven espinacas con garbanzos y montaditos.",
+   "d_en": "Founded in 1670, it is the oldest tavern in the city, with tiled walls, wooden ceilings and hams hanging over the bar. Waiters still chalk up your bill on the counter while serving spinach with chickpeas and montaditos.",
+   "h": "Cae bien a media tarde, evitando las horas punta de comida y cena.",
+   "h_en": "Best mid-afternoon, avoiding the peak lunch and dinner rushes.",
+   "i": "la historia viva y las tapas de toda la vida",
+   "i_en": "living history and timeless traditional tapas"
+  },
+  "sev_columnas": {
+   "id": "sev_columnas",
+   "d": "En pleno barrio de Santa Cruz, a un paso de la Giralda, es un hervidero de gente que toma tapas económicas de pie en la calle. Los camareros cantan la comanda y apuntan la cuenta con tiza sobre la barra de madera.",
+   "d_en": "In the heart of the Santa Cruz quarter, steps from the Giralda, it is a lively spot where people eat cheap tapas standing in the street. Waiters shout out the orders and chalk your tab onto the wooden bar.",
+   "h": "Mejor a mediodía o al caer la tarde; siempre está lleno.",
+   "h_en": "Best at midday or early evening; it is always packed.",
+   "i": "el ambiente de barra y las tapas económicas",
+   "i_en": "a buzzing bar scene and cheap tapas"
+  },
+  "sev_brunilda": {
+   "id": "sev_brunilda",
+   "d": "Uno de los templos de la tapa moderna sevillana, en una casa encalada del Arenal. Ofrece platillos creativos como risotto de setas o solomillo con foie, siempre con producto fresco y mucha afluencia.",
+   "d_en": "One of the temples of modern Sevillian tapas, in a whitewashed house in the Arenal. It serves creative small plates such as mushroom risotto or sirloin with foie, always with fresh produce and big crowds.",
+   "h": "Llega pronto a la apertura para evitar la cola.",
+   "h_en": "Arrive right at opening to skip the queue.",
+   "i": "la cocina de tapas creativa y de temporada",
+   "i_en": "creative, seasonal tapas cooking"
+  },
+  "sev_eslava": {
+   "id": "sev_eslava",
+   "d": "En el ambiente bohemio de San Lorenzo, Eslava es célebre por sus tapas premiadas como el huevo sobre bizcocho de boletus o las costillas al vino tinto con miel. La barra se llena rápido y el comedor exige reserva.",
+   "d_en": "In the bohemian San Lorenzo neighbourhood, Eslava is famous for award-winning tapas like the egg over boletus sponge cake or ribs in red wine with honey. The bar fills up fast and the dining room needs a booking.",
+   "h": "Ve al abrir para pillar sitio en la barra.",
+   "h_en": "Go at opening to grab a spot at the bar.",
+   "i": "las tapas de autor galardonadas",
+   "i_en": "award-winning signature tapas"
+  },
+  "sev_casamorales": {
+   "id": "sev_casamorales",
+   "d": "Abierta en 1850, conserva las gigantescas tinajas de barro donde antaño se criaba el vino. Se toma vermut, vinos generosos y montaditos sencillos en un ambiente que apenas ha cambiado en más de un siglo.",
+   "d_en": "Opened in 1850, it still keeps the giant clay jars where wine was once aged. You sip vermouth, fortified wines and simple montaditos in a setting that has barely changed in over a century.",
+   "h": "Ideal para el vermut de mediodía o el aperitivo.",
+   "h_en": "Ideal for a midday vermouth or a pre-meal aperitif.",
+   "i": "los vinos generosos y las bodegas de época",
+   "i_en": "fortified wines and old-world bodegas"
+  },
+  "sev_bar_giralda": {
+   "id": "sev_bar_giralda",
+   "d": "Ocupa unos baños árabes del siglo XII, con bóvedas y yeserías recuperadas que se pueden admirar mientras se tapea. Sirve clásicos sevillanos y platos con guiño andalusí en uno de los locales más bellos del centro.",
+   "d_en": "Set inside 12th-century Arab baths, with restored vaults and plasterwork you can admire while you eat. It serves Sevillian classics and dishes with an Andalusi touch in one of the most beautiful venues downtown.",
+   "h": "Buena para comer con calma y mirar el techo.",
+   "h_en": "Great for a relaxed meal while admiring the ceiling.",
+   "i": "comer entre historia y arquitectura andalusí",
+   "i_en": "dining amid history and Andalusi architecture"
+  },
+  "sev_elcomercio": {
+   "id": "sev_elcomercio",
+   "d": "Institución desde 1904, sus churros y calentitos recién fritos con chocolate espeso son legendarios en Sevilla. El interior de azulejos y su ambiente de desayuno de toda la vida lo hacen imprescindible por la mañana.",
+   "d_en": "An institution since 1904, its freshly fried churros and calentitos with thick chocolate are legendary in Seville. The tiled interior and timeless breakfast atmosphere make it a must in the morning.",
+   "h": "Perfecto para el desayuno o la merienda.",
+   "h_en": "Perfect for breakfast or an afternoon snack.",
+   "i": "los churros con chocolate de siempre",
+   "i_en": "classic churros with hot chocolate"
+  },
+  "sev_golondrinas": {
+   "id": "sev_golondrinas",
+   "d": "En el antiguo barrio alfarero de Triana, esta casa de dos plantas con azulejos es famosa por su punta de solomillo al whisky y el champiñón a la plancha. Los camareros suben y bajan con las bandejas en un ambiente siempre animado.",
+   "d_en": "In Triana's old potters' quarter, this two-floor tiled house is famous for its pork tenderloin tips in whisky sauce and grilled mushrooms. Waiters run up and down with trays in an always lively atmosphere.",
+   "h": "Mejor a la hora del tapeo, a media mañana o por la noche.",
+   "h_en": "Best at tapas time, mid-morning or in the evening.",
+   "i": "el tapeo trianero de siempre",
+   "i_en": "classic Triana-style tapas hopping"
+  },
+  "sev_lasteresas": {
+   "id": "sev_lasteresas",
+   "d": "Abierta desde 1870 en una calleja de Santa Cruz, es una barra estrecha con jamones ibéricos colgando y fotos antiguas en las paredes. Destacan el jamón cortado a cuchillo, las croquetas y el guiso de espinacas.",
+   "d_en": "Open since 1870 on a narrow Santa Cruz lane, it is a slender bar with Iberian hams hanging overhead and old photos on the walls. Highlights include hand-carved ham, croquettes and the spinach stew.",
+   "h": "Agradable a media mañana o antes de cenar.",
+   "h_en": "Pleasant mid-morning or before dinner.",
+   "i": "el jamón ibérico y las tabernas con solera",
+   "i_en": "Iberian ham and tradition-steeped taverns"
+  },
+  "sev_laazotea": {
+   "id": "sev_laazotea",
+   "d": "Referente de la nueva cocina sevillana, combina producto de temporada con recetas frescas y bien presentadas. Su carta cambia a menudo y triunfan los pescados, los guisos ligeros y las verduras de mercado.",
+   "d_en": "A benchmark of Seville's new cooking, it pairs seasonal produce with fresh, beautifully plated recipes. The menu changes often and the fish, light stews and market vegetables are standouts.",
+   "h": "Buena opción para comer o cenar con reserva.",
+   "h_en": "A good choice for lunch or dinner with a booking.",
+   "i": "la cocina de mercado y las tapas actuales",
+   "i_en": "market cooking and contemporary tapas"
+  },
+  "sev_puertacarne": {
+   "id": "sev_puertacarne",
+   "d": "Freiduría clásica donde el pescado se fríe al momento en aceite limpio y se sirve en cucuruchos de papel. Cazón en adobo, boquerones, chocos y puntillitas son la esencia del pescaíto frito sevillano para llevar o tomar allí.",
+   "d_en": "A classic freiduría where fish is fried to order in clean oil and served in paper cones. Marinated dogfish, anchovies, cuttlefish and baby squid are the essence of Seville's fried fish, to take away or eat in.",
+   "h": "Ideal al mediodía o para la cena informal.",
+   "h_en": "Ideal at midday or for a casual dinner.",
+   "i": "el pescaíto frito auténtico",
+   "i_en": "authentic Andalusian fried fish"
+  },
+  "sev_casacuesta": {
+   "id": "sev_casacuesta",
+   "d": "Fundada en 1917 frente al mercado de Triana, conserva espejos, mármoles y carteles taurinos y cofrades. Es lugar de guisos tradicionales, rabo de toro y tapas clásicas en una de las esquinas más castizas del barrio.",
+   "d_en": "Founded in 1917 opposite Triana market, it keeps mirrors, marble and old bullfighting and religious posters. It is a place for traditional stews, oxtail and classic tapas on one of the most authentic corners of the district.",
+   "h": "Buena para comer sin prisa a mediodía o de noche.",
+   "h_en": "Good for an unhurried lunch or dinner.",
+   "i": "los guisos y las tabernas trianeras con historia",
+   "i_en": "hearty stews and historic Triana taverns"
+  },
+  "sev_bodeguitaromero": {
+   "id": "sev_bodeguitaromero",
+   "d": "Pequeña bodega familiar del Arenal famosa por su pringá, el guiso de carne desmenuzada servido en montadito caliente. También brillan las papas aliñás y las tapas caseras en una barra siempre concurrida.",
+   "d_en": "A small family bodega in the Arenal famous for its pringá, a shredded-meat stew served in a warm montadito. The dressed potatoes and homemade tapas also shine at an always busy bar.",
+   "h": "Mejor a mediodía; cierra temprano y suele llenarse.",
+   "h_en": "Best at midday; it closes early and often fills up.",
+   "i": "la pringá y los montaditos de siempre",
+   "i_en": "pringá and classic warm montaditos"
+  },
+  "sev_baralfalfa": {
+   "id": "sev_baralfalfa",
+   "d": "Bar minúsculo y siempre lleno en la esquina de la Alfalfa, con la barra rebosante de conservas y quesos. Su seña de identidad es la bruschetta de tomate serrano con queso de cabra, además de embutidos italianos y andaluces.",
+   "d_en": "A tiny, always-packed bar on the corner of Alfalfa, its counter piled with preserves and cheeses. Its signature is the bruschetta of mountain tomato with goat cheese, alongside Italian and Andalusian cold cuts.",
+   "h": "Buena para picar a media mañana o al atardecer.",
+   "h_en": "Good for a bite mid-morning or at sunset.",
+   "i": "los sabores italoandaluces y el picoteo informal",
+   "i_en": "Italian-Andalusian flavours and casual grazing"
+  },
+  "sev_lacampana": {
+   "id": "sev_lacampana",
+   "d": "La confitería más famosa de Sevilla, abierta en 1885, sigue siendo parada obligada para dulces como el tocino de cielo, las yemas y los pestiños. Su vitrina y su barra de mármol son un pedazo de historia de la ciudad.",
+   "d_en": "Seville's most famous patisserie, opened in 1885, remains a must-stop for sweets like tocino de cielo, yemas and pestiños. Its display case and marble counter are a slice of the city's history.",
+   "h": "Para el desayuno, la merienda o comprar dulces.",
+   "h_en": "For breakfast, an afternoon treat or buying sweets.",
+   "i": "la repostería tradicional andaluza",
+   "i_en": "traditional Andalusian pastries"
+  },
+  "sev_mercadotriana": {
+   "id": "sev_mercadotriana",
+   "d": "Levantado sobre los restos del castillo de San Jorge, junto al puente de Triana, mezcla puestos de pescado, verduras y especias con bares donde tapear. Es el corazón gastronómico del barrio y punto de partida perfecto para probar producto local.",
+   "d_en": "Built over the remains of San Jorge castle, beside the Triana bridge, it blends fish, vegetable and spice stalls with bars for tapas. It is the district's culinary heart and a perfect place to sample local produce.",
+   "h": "Mejor por la mañana para ver los puestos en marcha.",
+   "h_en": "Best in the morning to see the stalls in full swing.",
+   "i": "los mercados de abastos y el producto local",
+   "i_en": "food markets and local produce"
+  },
+  "sev_lonjabarranco": {
+   "id": "sev_lonjabarranco",
+   "d": "En una antigua lonja de pescado de estructura de hierro diseñada en el entorno de Eiffel, reúne puestos gourmet de tapas, marisco, ibéricos y dulces. Junto al Guadalquivir, es ideal para picar de todo un poco en un ambiente moderno.",
+   "d_en": "Housed in a former iron-framed fish market in the Eiffel tradition, it gathers gourmet stalls of tapas, seafood, Iberian ham and sweets. Beside the Guadalquivir, it is ideal for grazing on a bit of everything in a modern setting.",
+   "h": "Bien para el aperitivo o una cena informal junto al río.",
+   "h_en": "Great for an aperitif or a casual riverside dinner.",
+   "i": "los mercados gourmet y el picoteo variado",
+   "i_en": "gourmet food halls and varied grazing"
+  },
+  "sev_gongora": {
+   "id": "sev_gongora",
+   "d": "Taberna castiza desde los años 20, con barricas, azulejos y fotos cofrades, muy popular durante la Semana Santa. Sirve montaditos, chacinas y vinos en un ambiente auténticamente sevillano cerca de Plaza Nueva.",
+   "d_en": "A traditional tavern since the 1920s, with barrels, tiles and Holy Week photos, hugely popular during Semana Santa. It serves montaditos, cured meats and wines in an authentically Sevillian atmosphere near Plaza Nueva.",
+   "h": "Buena para el aperitivo y para ver ambiente cofrade.",
+   "h_en": "Good for an aperitif and soaking up local atmosphere.",
+   "i": "las bodegas castizas y el ambiente cofrade",
+   "i_en": "traditional bodegas and Holy Week atmosphere"
+  },
+  "sev_eltremendo": {
+   "id": "sev_eltremendo",
+   "d": "Cervecería histórica de la zona de Santa Catalina, sin cocina caliente, famosa por su cerveza tirada muy fría y sus montaditos de caballa, chicharrones y anchoas. Un clásico de barra rápida y precios populares.",
+   "d_en": "A historic cervecería near Santa Catalina, with no hot kitchen, famous for its ice-cold draught beer and its montaditos of mackerel, pork crackling and anchovies. A classic for a quick, cheap stand-up bite.",
+   "h": "Perfecto para una caña rápida a media tarde.",
+   "h_en": "Perfect for a quick cold beer in the afternoon.",
+   "i": "la caña bien fría y el montadito rápido",
+   "i_en": "ice-cold beer and quick montaditos"
+  },
+  "sev_casaricardo": {
+   "id": "sev_casaricardo",
+   "d": "Antigua Casa Ovidio, esta taberna de más de un siglo luce paredes cubiertas de imágenes de Semana Santa. Sus croquetas caseras, el rabo de toro y las carrilladas son motivo suficiente para cruzar la ciudad.",
+   "d_en": "Formerly Casa Ovidio, this century-old tavern has walls covered with Holy Week imagery. Its homemade croquettes, oxtail and pork cheeks are reason enough to cross the city.",
+   "h": "Mejor a la hora de comer o cenar, con reserva.",
+   "h_en": "Best at lunch or dinner, ideally with a booking.",
+   "i": "las croquetas caseras y las tabernas con historia",
+   "i_en": "homemade croquettes and history-rich taverns"
+  },
+  "sev_dosdemayo": {
+   "id": "sev_dosdemayo",
+   "d": "Situada en la tranquila Plaza de la Gavidia, es una bodega tradicional muy valorada por sus tapas y su terraza a la sombra. Triunfan las tortillitas de camarones, el pescaíto y los guisos de siempre.",
+   "d_en": "On the quiet Plaza de la Gavidia, it is a traditional bodega prized for its tapas and its shady terrace. The shrimp fritters, fried fish and classic stews are favourites.",
+   "h": "Agradable a mediodía en la terraza de la plaza.",
+   "h_en": "Pleasant at midday on the terrace on the square.",
+   "i": "las tapas tradicionales con terraza tranquila",
+   "i_en": "traditional tapas with a calm terrace"
+  },
+  "sev_flortoranzo": {
+   "id": "sev_flortoranzo",
+   "d": "Bar diminuto y de toda la vida en la calle Jimios, con azulejos y barra de mármol. Su montadito de melva con pan y su ambiente de tapeo rápido lo convierten en una parada auténtica lejos de los tópicos.",
+   "d_en": "A tiny, timeless bar on Calle Jimios, with tiles and a marble counter. Its melva tuna montadito and quick-tapas atmosphere make it an authentic stop away from the clichés.",
+   "h": "Bueno para una tapa rápida a media mañana o tarde.",
+   "h_en": "Good for a quick tapa mid-morning or afternoon.",
+   "i": "los bares castizos y las conservas de pescado",
+   "i_en": "old-school bars and tinned-fish tapas"
+  },
+  "sev_museo_flamenco": {
+   "id": "sev_museo_flamenco",
+   "d": "Fundado por la bailaora Cristina Hoyos, combina un museo interactivo sobre el arte flamenco con espectáculos en directo cada noche en su patio. Está en pleno casco antiguo, a un paso de las Setas.",
+   "d_en": "Founded by dancer Cristina Hoyos, it blends an interactive museum about the art of flamenco with live shows every evening in its patio. It sits in the old town, steps from Las Setas.",
+   "h": "Espectáculos al anochecer; museo por la tarde.",
+   "h_en": "Shows at dusk; museum best in the afternoon.",
+   "i": "el flamenco auténtico y su historia",
+   "i_en": "authentic flamenco and its history"
+  },
+  "sev_casa_memoria": {
+   "id": "sev_casa_memoria",
+   "d": "Un centro cultural en la calle Cuna donde se ofrecen recitales de flamenco muy cercanos y de gran pureza en un patio de casa señorial. El aforo reducido hace que la experiencia sea intensa y auténtica.",
+   "d_en": "A cultural center on Calle Cuna offering intimate, purist flamenco recitals in the patio of an old mansion. The small capacity makes the experience intense and authentic.",
+   "h": "Función de tarde-noche; reserva con antelación.",
+   "h_en": "Late afternoon and evening shows; book ahead.",
+   "i": "el flamenco íntimo y de cerca",
+   "i_en": "close-up, intimate flamenco"
+  },
+  "sev_tablao_arenal": {
+   "id": "sev_tablao_arenal",
+   "d": "Uno de los tablaos con más solera de Sevilla, en el barrio del Arenal junto a la plaza de toros. Ofrece espectáculos de gran nivel con cena o copa incluida en un ambiente tradicional.",
+   "d_en": "One of Seville's most established tablaos, in the Arenal district next to the bullring. It stages top-quality shows with dinner or a drink in a traditional setting.",
+   "h": "Pases de noche; dos sesiones habituales.",
+   "h_en": "Evening shows; usually two sessions.",
+   "i": "los tablaos clásicos con cena",
+   "i_en": "classic dinner-and-flamenco tablaos"
+  },
+  "sev_casa_flamenco": {
+   "id": "sev_casa_flamenco",
+   "d": "En el corazón del barrio de Santa Cruz, este auditorio ocupa el patio mudéjar de una casa del siglo XV. El espectáculo es sobrio y elegante, centrado en el baile, el cante y la guitarra.",
+   "d_en": "In the heart of the Santa Cruz quarter, this venue occupies the Mudejar courtyard of a 15th-century house. The show is sober and elegant, focused on dance, singing and guitar.",
+   "h": "Espectáculo diario al caer la tarde.",
+   "h_en": "Daily show in the early evening.",
+   "i": "el flamenco en un patio con encanto",
+   "i_en": "flamenco in a charming courtyard"
+  },
+  "sev_setas_mirador": {
+   "id": "sev_setas_mirador",
+   "d": "El Metropol Parasol, conocido como Las Setas, es la mayor estructura de madera del mundo. Su pasarela superior ofrece las mejores vistas 360º de los tejados y torres del casco histórico.",
+   "d_en": "The Metropol Parasol, known as Las Setas, is the world's largest wooden structure. Its rooftop walkway offers the best 360º views of the old town's rooftops and towers.",
+   "h": "Ideal al atardecer para ver la ciudad iluminarse.",
+   "h_en": "Best at sunset as the city lights up.",
+   "i": "las vistas panorámicas y la arquitectura moderna",
+   "i_en": "panoramic views and modern architecture"
+  },
+  "sev_crucero_guadalquivir": {
+   "id": "sev_crucero_guadalquivir",
+   "d": "Desde el embarcadero junto a la Torre del Oro parten cruceros que recorren el Guadalquivir entre Triana y la Cartuja. Es una forma relajada de ver Sevilla desde el agua, especialmente al atardecer.",
+   "d_en": "From the pier beside the Torre del Oro, cruises sail the Guadalquivir between Triana and La Cartuja. It's a relaxed way to see Seville from the water, especially at sunset.",
+   "h": "Salidas durante el día; mágico al atardecer.",
+   "h_en": "Departures through the day; magical at sunset.",
+   "i": "los paseos en barco y las vistas del río",
+   "i_en": "boat rides and river views"
+  },
+  "sev_terraza_eme": {
+   "id": "sev_terraza_eme",
+   "d": "La azotea del Hotel EME Catedral se sitúa justo frente a la Giralda y la Catedral, con una de las vistas más espectaculares de la ciudad. Es un plan perfecto para una copa al atardecer.",
+   "d_en": "The rooftop of Hotel EME Catedral sits right opposite the Giralda and the Cathedral, with one of the most spectacular views in the city. It's a perfect spot for a sunset drink.",
+   "h": "Al atardecer y primera hora de la noche.",
+   "h_en": "At sunset and early evening.",
+   "i": "las terrazas con vistas y una copa al atardecer",
+   "i_en": "rooftop bars with a view and a sunset drink"
+  },
+  "sev_calle_sierpes": {
+   "id": "sev_calle_sierpes",
+   "d": "Peatonal y siempre animada, la calle Sierpes es el eje comercial tradicional del centro, con tiendas históricas, sombrererías, abaniquerías y confiterías. Un paseo obligado para tomar el pulso a la ciudad.",
+   "d_en": "Pedestrian and always lively, Calle Sierpes is the traditional shopping artery of the center, with historic shops, hat and fan makers and pastry stores. A must-walk to feel the city's pulse.",
+   "h": "Por la mañana o al caer la tarde para compras.",
+   "h_en": "Morning or late afternoon for shopping.",
+   "i": "las compras y el ambiente de calle",
+   "i_en": "shopping and street atmosphere"
+  },
+  "sev_calle_betis": {
+   "id": "sev_calle_betis",
+   "d": "La calle Betis, en la orilla de Triana, alinea bares, tabernas y terrazas frente al Guadalquivir con vistas a la Torre del Oro. Es uno de los mejores lugares para salir de noche y ver la ciudad iluminada.",
+   "d_en": "Calle Betis, on the Triana bank, lines up bars, taverns and terraces facing the Guadalquivir with views of the Torre del Oro. It's one of the best places for a night out and to see the city lit up.",
+   "h": "De noche, para copas y ambiente.",
+   "h_en": "At night, for drinks and atmosphere.",
+   "i": "la vida nocturna y las vistas del río",
+   "i_en": "nightlife and river views"
+  },
+  "sev_isla_magica": {
+   "id": "sev_isla_magica",
+   "d": "Ambientado en la América del siglo XVI, este parque de atracciones de la Cartuja combina montañas rusas, espectáculos y la zona acuática Agua Mágica. Es el gran plan familiar de Sevilla.",
+   "d_en": "Themed on 16th-century America, this amusement park in La Cartuja combines roller coasters, shows and the Agua Mágica water zone. It's Seville's big family day out.",
+   "h": "Todo el día; temporada de primavera a otoño.",
+   "h_en": "All day; open spring to autumn.",
+   "i": "las atracciones y los planes en familia",
+   "i_en": "rides and family fun"
+  },
+  "sev_real_feria": {
+   "id": "sev_real_feria",
+   "d": "El Real de la Feria, en el barrio de Los Remedios, es el enorme recinto donde cada primavera se celebra la Feria de Abril con casetas, farolillos, caballos y sevillanas. Fuera de fechas es un gran espacio abierto junto al río.",
+   "d_en": "El Real de la Feria, in the Los Remedios district, is the vast fairground where the April Fair is held each spring with casetas, lanterns, horses and sevillanas. Outside fair dates it's a large open space by the river.",
+   "h": "En su esplendor durante la Feria de Abril.",
+   "h_en": "At its best during the April Fair.",
+   "i": "las fiestas populares y las tradiciones",
+   "i_en": "popular festivals and traditions"
+  },
+  "sev_aquopolis": {
+   "id": "sev_aquopolis",
+   "d": "En la zona de Sevilla Este, junto a FIBES, este parque acuático ofrece toboganes, piscinas de olas y zonas infantiles. Es el plan ideal para refrescarse en los calurosos veranos sevillanos.",
+   "d_en": "In the Seville Este area, next to FIBES, this water park offers slides, wave pools and kids' zones. It's the ideal way to cool off during Seville's hot summers.",
+   "h": "Verano, en las horas de más calor.",
+   "h_en": "Summer, during the hottest hours.",
+   "i": "los toboganes y refrescarte en verano",
+   "i_en": "water slides and cooling off in summer"
+  },
+  "sev_maria_luisa": {
+   "id": "sev_maria_luisa",
+   "d": "El principal parque público de la ciudad es un jardín romántico de fuentes, glorietas, estanques y palmeras junto a la Plaza de España. Un remanso de sombra perfecto para pasear o alquilar un coche de pedales.",
+   "d_en": "The city's main public park is a romantic garden of fountains, arbors, ponds and palm trees next to the Plaza de España. A shady haven perfect for a stroll or renting a pedal car.",
+   "h": "Por la mañana o al atardecer, con buena luz.",
+   "h_en": "Morning or late afternoon, in good light.",
+   "i": "los jardines históricos y pasear al aire libre",
+   "i_en": "historic gardens and outdoor strolls"
+  },
+  "sev_alcazar_jardines": {
+   "id": "sev_alcazar_jardines",
+   "d": "Los jardines del Real Alcázar mezclan setos, fuentes, estanques y pabellones de estilo mudéjar y renacentista entre naranjos y palmeras. Un oasis histórico que ha servido de escenario a series como Juego de Tronos.",
+   "d_en": "The gardens of the Royal Alcázar blend hedges, fountains, ponds and Mudejar and Renaissance pavilions among orange and palm trees. A historic oasis that has appeared as a set in series like Game of Thrones.",
+   "h": "A primera hora para evitar colas y calor.",
+   "h_en": "Early morning to avoid queues and heat.",
+   "i": "los jardines palaciegos y la historia",
+   "i_en": "palace gardens and history"
+  },
+  "sev_plaza_america": {
+   "id": "sev_plaza_america",
+   "d": "En el extremo sur del Parque de María Luisa, esta plaza reúne tres pabellones de la Exposición de 1929 rodeados de jardines y estanques. Es famosa por sus bandadas de palomas y su ambiente tranquilo.",
+   "d_en": "At the southern end of the Parque de María Luisa, this square gathers three pavilions from the 1929 Exhibition surrounded by gardens and ponds. It's famous for its flocks of pigeons and calm atmosphere.",
+   "h": "Tranquila por la mañana temprano.",
+   "h_en": "Quiet in the early morning.",
+   "i": "la arquitectura, los estanques y la calma",
+   "i_en": "architecture, ponds and calm"
+  },
+  "sev_jardines_murillo": {
+   "id": "sev_jardines_murillo",
+   "d": "Antiguos huertos del Alcázar, estos jardines lindan con el barrio de Santa Cruz y ofrecen paseos umbríos entre palmeras, azulejos y pérgolas cubiertas de buganvillas. Un rincón fresco en pleno centro.",
+   "d_en": "Once the Alcázar's orchards, these gardens border the Santa Cruz quarter and offer shady walks among palm trees, tilework and pergolas draped in bougainvillea. A cool corner right in the center.",
+   "h": "En cualquier momento; ideal para escapar del calor.",
+   "h_en": "Any time; ideal to escape the heat.",
+   "i": "los rincones con sombra y el paseo tranquilo",
+   "i_en": "shady corners and quiet walks"
+  },
+  "sev_muelle_sal": {
+   "id": "sev_muelle_sal",
+   "d": "Este tramo peatonal de la orilla del Guadalquivir es uno de los mejores lugares para pasear, correr o sentarse frente al río con Triana y el puente de Isabel II de fondo. Muy animado al atardecer.",
+   "d_en": "This pedestrian stretch of the Guadalquivir bank is one of the best places to walk, run or sit by the river with Triana and the Isabel II bridge behind. Very lively at sunset.",
+   "h": "Al atardecer, con las mejores luces sobre el río.",
+   "h_en": "At sunset, with the best light on the river.",
+   "i": "los paseos junto al río y los atardeceres",
+   "i_en": "riverside walks and sunsets"
+  },
+  "sev_torre_oro_mirador": {
+   "id": "sev_torre_oro_mirador",
+   "d": "La emblemática Torre del Oro, del siglo XIII, vigila el Guadalquivir desde su orilla. Alberga un pequeño museo naval y una terraza superior con vistas al río, Triana y el casco histórico.",
+   "d_en": "The iconic 13th-century Torre del Oro watches over the Guadalquivir from its bank. It houses a small naval museum and an upper terrace with views of the river, Triana and the old town.",
+   "h": "Por la mañana o al atardecer junto al río.",
+   "h_en": "Morning or sunset by the river.",
+   "i": "los monumentos junto al río y las vistas",
+   "i_en": "riverside landmarks and views"
+  },
+  "sev_alamillo": {
+   "id": "sev_alamillo",
+   "d": "Al norte de la ciudad, en la Isla de la Cartuja, es el mayor parque metropolitano de Sevilla, con amplias praderas, pinares, lagos y rutas para caminar o ir en bici. Ideal para un día al aire libre.",
+   "d_en": "North of the city, on Isla de la Cartuja, it's Seville's largest metropolitan park, with wide meadows, pine woods, lakes and trails for walking or cycling. Ideal for a day outdoors.",
+   "h": "Mañanas o tardes; perfecto para picnic.",
+   "h_en": "Mornings or afternoons; perfect for a picnic.",
+   "i": "los grandes espacios verdes y la bici",
+   "i_en": "big green spaces and cycling"
+  },
+  "sev_jardines_delicias": {
+   "id": "sev_jardines_delicias",
+   "d": "Estos tranquilos jardines históricos junto al río reúnen especies exóticas, fuentes y esculturas en un ambiente sereno y poco masificado. Perfectos para un paseo relajado lejos del bullicio.",
+   "d_en": "These quiet historic gardens by the river gather exotic species, fountains and sculptures in a serene, uncrowded setting. Perfect for a relaxed walk away from the bustle.",
+   "h": "Tranquilos casi a cualquier hora del día.",
+   "h_en": "Peaceful at almost any time of day.",
+   "i": "la botánica y los jardines poco concurridos",
+   "i_en": "botany and uncrowded gardens"
+  },
+  "sev_jardin_americano": {
+   "id": "sev_jardin_americano",
+   "d": "Creado para la Expo 92 con especies donadas por países americanos, este jardín botánico se extiende por la orilla de la Cartuja junto al Guadalquivir. Es una zona verde tranquila y algo escondida, ideal para pasear.",
+   "d_en": "Created for Expo 92 with species donated by American countries, this botanical garden runs along the Cartuja bank of the Guadalquivir. It's a quiet, slightly hidden green space, ideal for a stroll.",
+   "h": "De día; muy tranquilo entre semana.",
+   "h_en": "During the day; very quiet on weekdays.",
+   "i": "la naturaleza tranquila y los rincones escondidos",
+   "i_en": "quiet nature and hidden corners"
+  },
+  "sev_principes": {
+   "id": "sev_principes",
+   "d": "En el barrio de Los Remedios, este agradable parque cuenta con un lago, praderas, rosaledas y zonas de juego muy frecuentadas por los vecinos. Una escapada verde tranquila al otro lado del río.",
+   "d_en": "In the Los Remedios district, this pleasant park has a lake, meadows, rose gardens and play areas much loved by locals. A quiet green escape across the river.",
+   "h": "Mañanas y tardes; ambiente local.",
+   "h_en": "Mornings and afternoons; local vibe.",
+   "i": "los parques de barrio y el ambiente local",
+   "i_en": "neighborhood parks and local life"
+  }
+ },
+ "food": {
+  "sev_rinconcillo": {
+   "cuisine": "Tapas tradicionales",
+   "price": "15–30 €",
+   "hours": "13:00–24:00"
+  },
+  "sev_columnas": {
+   "cuisine": "Tapas tradicionales",
+   "price": "10–20 €",
+   "hours": "11:30–24:00"
+  },
+  "sev_brunilda": {
+   "cuisine": "Tapas de autor",
+   "price": "25–40 €",
+   "hours": "13:00–16:00 · 20:00–23:30"
+  },
+  "sev_eslava": {
+   "cuisine": "Tapas de autor",
+   "price": "25–40 €",
+   "hours": "12:30–17:00 · 19:30–24:00"
+  },
+  "sev_casamorales": {
+   "cuisine": "Bodega · Vinos y tapas",
+   "price": "12–25 €",
+   "hours": "12:00–16:00 · 20:00–24:00"
+  },
+  "sev_bar_giralda": {
+   "cuisine": "Tapas tradicionales",
+   "price": "20–35 €",
+   "hours": "12:00–24:00"
+  },
+  "sev_elcomercio": {
+   "cuisine": "Churros y dulces",
+   "price": "5–12 €",
+   "hours": "08:00–21:00"
+  },
+  "sev_golondrinas": {
+   "cuisine": "Tapas tradicionales",
+   "price": "12–25 €",
+   "hours": "12:00–16:30 · 20:00–24:00"
+  },
+  "sev_lasteresas": {
+   "cuisine": "Tapas · Ibéricos",
+   "price": "15–30 €",
+   "hours": "11:00–24:00"
+  },
+  "sev_laazotea": {
+   "cuisine": "Tapas de mercado",
+   "price": "25–40 €",
+   "hours": "13:30–16:30 · 20:30–24:00"
+  },
+  "sev_puertacarne": {
+   "cuisine": "Pescaíto frito",
+   "price": "12–25 €",
+   "hours": "12:00–16:30 · 20:00–24:00"
+  },
+  "sev_casacuesta": {
+   "cuisine": "Guisos · Cocina tradicional",
+   "price": "20–35 €",
+   "hours": "12:00–24:00"
+  },
+  "sev_bodeguitaromero": {
+   "cuisine": "Tapas tradicionales",
+   "price": "12–25 €",
+   "hours": "12:30–16:30 · 20:00–23:30"
+  },
+  "sev_baralfalfa": {
+   "cuisine": "Tapas · Italoandaluza",
+   "price": "12–25 €",
+   "hours": "09:00–24:00"
+  },
+  "sev_lacampana": {
+   "cuisine": "Dulces y repostería",
+   "price": "5–15 €",
+   "hours": "08:00–22:00"
+  },
+  "sev_mercadotriana": {
+   "cuisine": "Mercado gastronómico",
+   "price": "10–25 €",
+   "hours": "09:00–23:00"
+  },
+  "sev_lonjabarranco": {
+   "cuisine": "Mercado gastronómico",
+   "price": "15–30 €",
+   "hours": "12:00–24:00"
+  },
+  "sev_gongora": {
+   "cuisine": "Bodega · Tapas",
+   "price": "12–25 €",
+   "hours": "12:00–16:00 · 20:00–24:00"
+  },
+  "sev_eltremendo": {
+   "cuisine": "Cervecería · Montaditos",
+   "price": "8–18 €",
+   "hours": "11:00–23:00"
+  },
+  "sev_casaricardo": {
+   "cuisine": "Tapas tradicionales",
+   "price": "15–30 €",
+   "hours": "13:00–16:00 · 20:00–24:00"
+  },
+  "sev_dosdemayo": {
+   "cuisine": "Bodega · Tapas",
+   "price": "15–30 €",
+   "hours": "12:00–16:30 · 20:00–24:00"
+  },
+  "sev_flortoranzo": {
+   "cuisine": "Tapas tradicionales",
+   "price": "8–18 €",
+   "hours": "08:00–16:00 · 19:30–23:30"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Sevilla",
+   "items": [
+    {
+     "name": "Cerámica y azulejos de Triana",
+     "price": "8–40 €",
+     "desc": "Piezas pintadas a mano de tradición trianera, el souvenir sevillano por excelencia."
+    },
+    {
+     "name": "Abanico y mantoncillo",
+     "price": "12–60 €",
+     "desc": "Complementos flamencos artesanos; los abanicos pintados son un clásico."
+    },
+    {
+     "name": "Castañuelas y complementos flamencos",
+     "price": "8–30 €",
+     "desc": "Peinetas, flores y castañuelas del mundo del flamenco y la Feria."
+    },
+    {
+     "name": "Agua de azahar y dulces de convento",
+     "price": "5–15 €",
+     "desc": "Yemas, tortas y agua de azahar elaboradas por conventos sevillanos."
+    },
+    {
+     "name": "Manzanilla, vino y aceite",
+     "price": "6–20 €",
+     "desc": "Productos andaluces para llevarse el sabor del sur a casa."
+    }
+   ],
+   "shops": [
+    "Barrio de Triana (Cerámica Santa Ana)",
+    "Calle Sierpes",
+    "Mercado de Triana"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "El centro histórico se recorre a pie: Catedral, Alcázar y Santa Cruz están pegados; usa el tranvía o la bici pública (Sevici) para tramos largos.",
+   "Reserva online con antelación el Real Alcázar y la Catedral/Giralda para evitar largas colas, sobre todo en primavera.",
+   "En verano el calor es intenso (supera los 40°C): visita por la mañana temprano o al atardecer y descansa a mediodía.",
+   "La tapa se toma de barra en barra; muchos bares clásicos no reservan y cobran en efectivo. Ve pronto para coger sitio.",
+   "Si viajas en Semana Santa o Feria de Abril, la ciudad se transforma pero se llena: reserva alojamiento con mucha antelación."
+  ],
+  "en": [
+   "The historic center is best explored on foot: the Cathedral, Alcázar and Santa Cruz are next to each other; use the tram or public bikes (Sevici) for longer stretches.",
+   "Book the Real Alcázar and the Cathedral/Giralda online in advance to avoid long queues, especially in spring.",
+   "Summer heat is intense (over 40°C): visit early morning or at sunset and rest at midday.",
+   "Tapas are enjoyed bar-hopping; many classic spots don't take reservations and are cash-only. Go early to get a spot.",
+   "If you travel during Holy Week or the April Fair the city transforms but fills up: book accommodation well in advance."
+  ]
+ },
+ "climate": {
+  "hi": [
+   16,
+   18,
+   22,
+   24,
+   28,
+   33,
+   36,
+   36,
+   32,
+   25,
+   20,
+   16
+  ],
+  "lo": [
+   6,
+   7,
+   9,
+   11,
+   14,
+   18,
+   20,
+   21,
+   18,
+   14,
+   10,
+   7
+  ]
+ },
+ "tr": {
+  "La mayor catedral gótica del mundo, Patrimonio de la Humanidad.": "The world's largest Gothic cathedral, a UNESCO World Heritage Site.",
+  "El campanario símbolo de Sevilla, antiguo alminar almohade.": "Seville's iconic bell tower, a former Almohad minaret.",
+  "Palacio real en uso más antiguo de Europa, joya mudéjar.": "Europe's oldest royal palace still in use, a Mudéjar gem.",
+  "Archivo renacentista con la memoria del imperio en América.": "A Renaissance archive holding the memory of the empire in the Americas.",
+  "Grandiosa plaza semicircular de la Exposición de 1929.": "A grand semicircular plaza from the 1929 Exposition.",
+  "Torre almohade defensiva a orillas del Guadalquivir.": "An Almohad defensive tower on the banks of the Guadalquivir.",
+  "Antigua judería de callejas blancas y patios floridos.": "Former Jewish quarter of white alleys and flower-filled courtyards.",
+  "La mayor estructura de madera del mundo con mirador.": "The world's largest wooden structure, with a viewpoint.",
+  "Casa consistorial con fachada plateresca del siglo XVI.": "City hall with a 16th-century Plateresque façade.",
+  "Palacio andaluz que mezcla mudéjar, gótico y renacentista.": "An Andalusian palace blending Mudéjar, Gothic and Renaissance styles.",
+  "Palacio de la Casa de Alba con jardines y patios señoriales.": "A House of Alba palace with stately gardens and courtyards.",
+  "Antiguo hospicio barroco en el corazón de Santa Cruz.": "A former Baroque hospice in the heart of Santa Cruz.",
+  "Templo de la venerada Virgen de la Esperanza Macarena.": "The church of the revered Virgen de la Esperanza Macarena.",
+  "Segundo templo de la ciudad, barroco sobre mezquita.": "The city's second church, a Baroque temple built over a mosque.",
+  "Una de las plazas de toros más antiguas y bellas de España.": "One of the oldest and most beautiful bullrings in Spain.",
+  "Hospital barroco con obras maestras de Murillo y Valdés Leal.": "A Baroque hospital with masterpieces by Murillo and Valdés Leal.",
+  "Casa palacio renacentista con mosaico romano y patio mudéjar.": "A Renaissance mansion with a Roman mosaic and a Mudéjar courtyard.",
+  "Palacio con la mayor colección privada de mosaicos romanos.": "A palace with the largest private collection of Roman mosaics.",
+  "Edificio industrial del XVIII, sede de la Universidad y cuna de Carmen.": "An 18th-century industrial building, home to the University and birthplace of Carmen.",
+  "Torre gótica del siglo XIII en el convento de Santa Clara.": "A 13th-century Gothic tower at the Santa Clara convent.",
+  "Monasterio histórico ligado a Colón y a la Expo 92.": "A historic monastery linked to Columbus and Expo 92.",
+  "El puente de hierro más antiguo de España sobre el Guadalquivir.": "Spain's oldest iron bridge, spanning the Guadalquivir.",
+  "Pequeña joya del barroco sevillano de retablos dorados.": "A small gem of Sevillian Baroque with gilded altarpieces.",
+  "Ciudad romana con gran anfiteatro, cuna de emperadores.": "A Roman city with a great amphitheatre, birthplace of emperors.",
+  "Villa monumental con necrópolis romana y alcázares mudéjares.": "A monumental town with a Roman necropolis and Mudéjar fortresses.",
+  "La taberna más antigua de Sevilla, fundada en 1670.": "Seville's oldest tavern, founded in 1670.",
+  "Bullicioso bar de tapas junto a la Catedral, un clásico del barrio.": "A lively tapas bar next to the Cathedral, a neighbourhood classic.",
+  "Tapas modernas y creativas en el Arenal; suele haber cola.": "Modern, creative tapas in El Arenal; expect a queue.",
+  "Tapas premiadas en el barrio de San Lorenzo.": "Award-winning tapas in the San Lorenzo neighbourhood.",
+  "Bodega histórica de 1850 con enormes tinajas de vino.": "A historic 1850 wine bar with huge wine jars.",
+  "Tapas bajo bóvedas de unos baños árabes del siglo XII.": "Tapas beneath the vaults of 12th-century Arab baths.",
+  "Bar centenario famoso por sus churros con chocolate.": "A century-old bar famous for its churros con chocolate.",
+  "Icono de tapas en el corazón de Triana.": "A tapas icon in the heart of Triana.",
+  "Taberna centenaria de Santa Cruz con jamones colgados.": "A century-old Santa Cruz tavern with hams hanging from the ceiling.",
+  "Cocina de mercado y tapas actuales cerca de la Alameda.": "Market cuisine and contemporary tapas near the Alameda.",
+  "Pescaíto frito de toda la vida junto a Santa Cruz.": "Traditional fried fish right by Santa Cruz.",
+  "Taberna histórica de Triana con guisos y ambiente cofrade.": "A historic Triana tavern with stews and a brotherhood atmosphere.",
+  "Célebre por su pringá y los montaditos calientes.": "Renowned for its pringá and hot montaditos.",
+  "Diminuto bar de esquina con toque italoandaluz.": "A tiny corner bar with an Italian-Andalusian touch.",
+  "Pastelería emblemática de 1885 en la calle Sierpes.": "An iconic 1885 pastry shop on calle Sierpes.",
+  "Mercado de abastos con puestos y barras de tapeo.": "A food market with stalls and tapas counters.",
+  "Mercado gourmet en una lonja de hierro junto al río.": "A gourmet market in an iron hall by the river.",
+  "Bodega clásica del centro, animada en Semana Santa.": "A classic downtown wine bar, lively during Holy Week.",
+  "Cervecería mítica de barra, cerveza fría y montaditos.": "A legendary stand-up beer bar with cold beer and montaditos.",
+  "Taberna con solera cerca de la Alameda, famosa por sus croquetas.": "A time-honoured tavern near the Alameda, famous for its croquettes.",
+  "Bodega clásica en la Plaza de la Gavidia con terraza.": "A classic wine bar on Plaza de la Gavidia with a terrace.",
+  "Pequeño bar castizo del Arenal, famoso por su melva.": "A small, traditional Arenal bar famous for its melva.",
+  "Museo y tablao del flamenco de Cristina Hoyos.": "Cristina Hoyos's flamenco museum and tablao.",
+  "Espectáculos íntimos de flamenco en un patio histórico.": "Intimate flamenco shows in a historic courtyard.",
+  "Tablao clásico en el barrio del Arenal.": "A classic tablao in the Arenal neighbourhood.",
+  "Flamenco en el patio de una casa del s. XV en Santa Cruz.": "Flamenco in the courtyard of a 15th-century house in Santa Cruz.",
+  "Mirador panorámico sobre la pasarela de las Setas.": "A panoramic viewpoint on the Setas walkway.",
+  "Paseo en barco por el río junto a la Torre del Oro.": "A boat trip along the river by the Torre del Oro.",
+  "Azotea con vistas directas a la Giralda.": "A rooftop with direct views of the Giralda.",
+  "La calle comercial más emblemática de Sevilla.": "Seville's most iconic shopping street.",
+  "Bares y vistas del río en el corazón de Triana.": "Bars and river views in the heart of Triana.",
+  "Parque temático en la Isla de la Cartuja.": "A theme park on the Isla de la Cartuja.",
+  "El recinto de la Feria de Abril en Los Remedios.": "The grounds of the Feria de Abril in Los Remedios.",
+  "Parque acuático al este de la ciudad.": "A water park on the east side of the city.",
+  "El gran parque histórico de Sevilla.": "Seville's grand historic park.",
+  "Jardines palaciegos del Alcázar, Patrimonio Mundial.": "The Alcázar's palace gardens, a World Heritage Site.",
+  "Plaza monumental con palomas dentro del Parque.": "A monumental square full of pigeons inside the park.",
+  "Jardines con pérgolas junto al barrio de Santa Cruz.": "Gardens with pergolas next to the Santa Cruz quarter.",
+  "Paseo fluvial con vistas a Triana.": "A riverside walk with views of Triana.",
+  "Torre almohade junto al río con vistas.": "An Almohad tower by the river with fine views.",
+  "El mayor parque natural urbano de Sevilla.": "Seville's largest urban nature park.",
+  "Jardines botánicos junto al Guadalquivir.": "Botanical gardens beside the Guadalquivir.",
+  "Jardín botánico de la Expo 92 junto al río.": "An Expo 92 botanical garden by the river.",
+  "Parque de barrio con lago en Los Remedios.": "A neighbourhood park with a lake in Los Remedios.",
+  "Sevilla": "Seville"
+ }
+}

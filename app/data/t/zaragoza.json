@@ -1,0 +1,703 @@
+{
+ "id": "zaragoza",
+ "name": "Zaragoza",
+ "country": "ES",
+ "center": [
+  41.65606,
+  -0.87734
+ ],
+ "pois": [
+  {
+   "id": "zar_pilar",
+   "cat": "monuments",
+   "name": "Basílica del Pilar",
+   "icon": "⛪",
+   "lat": 41.65667,
+   "lng": -0.87778,
+   "desc": "Gran basílica barroca a orillas del Ebro y símbolo de Zaragoza."
+  },
+  {
+   "id": "zar_seo",
+   "cat": "monuments",
+   "name": "Catedral de La Seo",
+   "icon": "🏛️",
+   "lat": 41.65611,
+   "lng": -0.87361,
+   "desc": "Catedral del Salvador, joya que mezcla románico, gótico y mudéjar."
+  },
+  {
+   "id": "zar_aljaferia",
+   "cat": "monuments",
+   "name": "Palacio de la Aljafería",
+   "icon": "🏰",
+   "lat": 41.66222,
+   "lng": -0.89694,
+   "desc": "Palacio-fortaleza islámico del siglo XI, hoy sede de las Cortes de Aragón."
+  },
+  {
+   "id": "zar_puente_piedra",
+   "cat": "monuments",
+   "name": "Puente de Piedra",
+   "icon": "🌉",
+   "lat": 41.65833,
+   "lng": -0.87806,
+   "desc": "Puente medieval de siete arcos sobre el Ebro, con la mejor vista del Pilar."
+  },
+  {
+   "id": "zar_teatro_romano",
+   "cat": "monuments",
+   "name": "Teatro Romano de Caesaraugusta",
+   "icon": "🎭",
+   "lat": 41.65139,
+   "lng": -0.875,
+   "desc": "Gran teatro romano del siglo I con museo, en pleno casco antiguo."
+  },
+  {
+   "id": "zar_tarazona",
+   "cat": "monuments",
+   "name": "Catedral de Tarazona",
+   "icon": "⛪",
+   "lat": 41.90139,
+   "lng": -1.72611,
+   "desc": "Catedral gótico-mudéjar de Tarazona, tras una larga restauración."
+  },
+  {
+   "id": "zar_calatayud",
+   "cat": "monuments",
+   "name": "Colegiata de Santa María (Calatayud)",
+   "icon": "🕌",
+   "lat": 41.35278,
+   "lng": -1.64306,
+   "desc": "Torre mudéjar octogonal y portada plateresca en la vieja Bílbilis."
+  },
+  {
+   "id": "zar_belchite",
+   "cat": "monuments",
+   "name": "Pueblo Viejo de Belchite",
+   "icon": "🏚️",
+   "lat": 41.30306,
+   "lng": -0.75417,
+   "desc": "Pueblo en ruinas conservado como memoria de la Guerra Civil."
+  },
+  {
+   "id": "zar_fuendetodos",
+   "cat": "monuments",
+   "name": "Casa Natal de Goya (Fuendetodos)",
+   "icon": "🎨",
+   "lat": 41.29944,
+   "lng": -0.85,
+   "desc": "Humilde casa donde nació Francisco de Goya en 1746."
+  },
+  {
+   "id": "zar_daroca",
+   "cat": "monuments",
+   "name": "Murallas de Daroca",
+   "icon": "🧱",
+   "lat": 41.115,
+   "lng": -1.41611,
+   "desc": "Villa medieval amurallada con más de 100 torreones y puertas monumentales."
+  },
+  {
+   "id": "zar_veruela",
+   "cat": "monuments",
+   "name": "Monasterio de Veruela",
+   "icon": "🏰",
+   "lat": 41.72278,
+   "lng": -1.68889,
+   "desc": "Abadía cisterciense del siglo XII al pie del Moncayo."
+  },
+  {
+   "id": "zar_sos",
+   "cat": "monuments",
+   "name": "Sos del Rey Católico",
+   "icon": "🏘️",
+   "lat": 42.49639,
+   "lng": -1.21611,
+   "desc": "Villa medieval de las Cinco Villas, cuna de Fernando el Católico."
+  },
+  {
+   "id": "zar_monasterio_piedra",
+   "cat": "nature",
+   "name": "Monasterio de Piedra",
+   "icon": "💧",
+   "lat": 41.19556,
+   "lng": -1.78806,
+   "desc": "Parque de cascadas y grutas junto a un monasterio cisterciense en Nuévalos."
+  },
+  {
+   "id": "zar_moncayo",
+   "cat": "nature",
+   "name": "Parque Natural del Moncayo",
+   "icon": "⛰️",
+   "lat": 41.78778,
+   "lng": -1.83722,
+   "desc": "La montaña más alta del Sistema Ibérico, con hayedos y rutas de cima."
+  },
+  {
+   "id": "zar_gallocanta",
+   "cat": "nature",
+   "name": "Laguna de Gallocanta",
+   "icon": "🦢",
+   "lat": 40.97389,
+   "lng": -1.50722,
+   "desc": "Gran laguna salada, paraíso de las grullas en migración."
+  },
+  {
+   "id": "zar_galacho_juslibol",
+   "cat": "nature",
+   "name": "Galacho de Juslibol",
+   "icon": "🌿",
+   "lat": 41.69861,
+   "lng": -0.90333,
+   "desc": "Meandro abandonado del Ebro y humedal a las afueras de Zaragoza."
+  },
+  {
+   "id": "zar_mar_aragon",
+   "cat": "nature",
+   "name": "Mar de Aragón (Mequinenza)",
+   "icon": "🌊",
+   "lat": 41.37361,
+   "lng": 0.30056,
+   "desc": "Gran embalse del Ebro, meca de la pesca y los deportes acuáticos."
+  },
+  {
+   "id": "zar_parque_agua",
+   "cat": "nature",
+   "name": "Parque del Agua Luis Buñuel",
+   "icon": "🌳",
+   "lat": 41.67083,
+   "lng": -0.88361,
+   "desc": "Gran parque fluvial de la Expo, con playas de río y jardines junto al Ebro."
+  },
+  {
+   "id": "zar_museo_goya",
+   "cat": "ocio",
+   "name": "Museo Goya - Colección Ibercaja",
+   "icon": "🖼️",
+   "lat": 41.65472,
+   "lng": -0.87611,
+   "desc": "Museo dedicado a Goya y su época en un palacio renacentista."
+  },
+  {
+   "id": "zar_museo_zaragoza",
+   "cat": "ocio",
+   "name": "Museo de Zaragoza",
+   "icon": "🏛️",
+   "lat": 41.64944,
+   "lng": -0.87278,
+   "desc": "Museo provincial de arqueología y bellas artes en la Plaza de los Sitios."
+  },
+  {
+   "id": "zar_acuario",
+   "cat": "ocio",
+   "name": "Acuario de Zaragoza",
+   "icon": "🐟",
+   "lat": 41.66861,
+   "lng": -0.89,
+   "desc": "Uno de los mayores acuarios fluviales de Europa, herencia de la Expo 2008."
+  },
+  {
+   "id": "zar_plaza_pilar",
+   "cat": "ocio",
+   "name": "Plaza del Pilar",
+   "icon": "📸",
+   "lat": 41.65639,
+   "lng": -0.87806,
+   "desc": "El gran salón urbano de Zaragoza, entre el Pilar y La Seo."
+  },
+  {
+   "id": "zar_expo",
+   "cat": "ocio",
+   "name": "Recinto Expo y Torre del Agua",
+   "icon": "🗼",
+   "lat": 41.66722,
+   "lng": -0.89083,
+   "desc": "Meandro de Ranillas con la arquitectura vanguardista de la Expo 2008."
+  },
+  {
+   "id": "zar_puerto_venecia",
+   "cat": "ocio",
+   "name": "Puerto Venecia",
+   "icon": "🛍️",
+   "lat": 41.6125,
+   "lng": -0.88389,
+   "desc": "Enorme complejo de ocio y compras con lago, tiendas y restaurantes."
+  },
+  {
+   "id": "zar_el_tubo",
+   "cat": "food",
+   "name": "El Tubo",
+   "icon": "🍢",
+   "lat": 41.65389,
+   "lng": -0.87806,
+   "desc": "Laberinto de callejones repleto de bares de tapas en el casco viejo."
+  },
+  {
+   "id": "zar_mercado_central",
+   "cat": "food",
+   "name": "Mercado Central de Lanuza",
+   "icon": "🥘",
+   "lat": 41.65861,
+   "lng": -0.88028,
+   "desc": "Mercado modernista de hierro y cristal con productos frescos de Aragón."
+  },
+  {
+   "id": "zar_casa_lac",
+   "cat": "food",
+   "name": "Casa Lac",
+   "icon": "🍽️",
+   "lat": 41.65194,
+   "lng": -0.88,
+   "desc": "Restaurante histórico con la primera licencia de España, cocina aragonesa."
+  },
+  {
+   "id": "zar_fruta_aragon",
+   "cat": "food",
+   "name": "Confiterías de Fruta de Aragón",
+   "icon": "🍬",
+   "lat": 41.654,
+   "lng": -0.87778,
+   "desc": "Obradores históricos del centro donde probar los dulces típicos de Zaragoza."
+  },
+  {
+   "id": "zar_carinena",
+   "cat": "food",
+   "name": "Ruta del Vino D.O. Cariñena",
+   "icon": "🍷",
+   "lat": 41.33778,
+   "lng": -1.22333,
+   "desc": "Denominación de origen histórica del 'Campo de Cariñena', tierra de garnacha."
+  },
+  {
+   "id": "zar_campo_borja",
+   "cat": "food",
+   "name": "D.O. Campo de Borja",
+   "icon": "🍇",
+   "lat": 41.83389,
+   "lng": -1.53472,
+   "desc": "El 'Imperio de la Garnacha' al pie del Moncayo, en torno a Borja."
+  }
+ ],
+ "extra": {
+  "zar_pilar": {
+   "id": "zar_pilar",
+   "d": "Templo mariano por excelencia de España, con sus cúpulas de teja policromada, frescos de Goya en la Regina Martyrum y la Santa Capilla que guarda la imagen de la Virgen del Pilar. Se puede subir en ascensor a una de las torres para contemplar la ciudad.",
+   "d_en": "One of Spain's foremost Marian shrines, with its polychrome-tiled domes, Goya frescoes in the Regina Martyrum chapel and the Holy Chapel housing the image of the Virgin of the Pillar. A lift takes visitors up one of the towers for city views.",
+   "h": "Basílica 6:45–20:30; mirador de la torre 10:00–14:00 y 16:00–18:00 (cerrado lunes)",
+   "h_en": "Basilica 6:45–20:30; tower viewpoint 10:00–14:00 and 16:00–18:00 (closed Mon)",
+   "i": "Ideal si te gusta el arte sacro, el barroco monumental y las vistas panorámicas.",
+   "i_en": "Ideal if you like sacred art, monumental Baroque and panoramic views."
+  },
+  "zar_seo": {
+   "id": "zar_seo",
+   "d": "Levantada sobre la antigua mezquita mayor, La Seo despliega siglos de estilos: el espectacular muro mudéjar de la Parroquieta (Patrimonio de la Humanidad), retablo gótico del altar mayor y un valioso Museo de Tapices. Es la catedral histórica de la ciudad, frente a la más famosa Basílica del Pilar.",
+   "d_en": "Built over the former great mosque, La Seo layers centuries of styles: the spectacular Mudéjar wall of the Parroquieta (a World Heritage feature), the Gothic high altarpiece and a prized Tapestry Museum. It is the city's historic cathedral, facing the more famous Basílica del Pilar.",
+   "h": "Mar–Sáb 10:00–18:00, Dom 10:00–12:00 y 16:00–18:00 (varía por temporada)",
+   "h_en": "Tue–Sat 10:00–18:00, Sun 10:00–12:00 and 16:00–18:00 (seasonal variations)",
+   "i": "Ideal si te gusta la historia, el arte mudéjar y las catedrales con capas de siglos.",
+   "i_en": "Ideal if you like history, Mudéjar art and cathedrals layered over centuries."
+  },
+  "zar_aljaferia": {
+   "id": "zar_aljaferia",
+   "d": "El palacio taifal mejor conservado fuera de Andalucía, con arcos entrelazados, yeserías y el pequeño oratorio de la mezquita. Ampliado por los reyes cristianos con el Palacio de Pedro IV y el artesonado dorado del Salón del Trono. Es Patrimonio de la Humanidad dentro del conjunto mudéjar de Aragón.",
+   "d_en": "The best-preserved Taifa palace outside Andalusia, with interlacing arches, stucco work and the small mosque oratory. Extended by the Christian kings with the Palace of Peter IV and the gilded coffered ceiling of the Throne Room. It is a World Heritage site within the Mudéjar Architecture of Aragon.",
+   "h": "10:00–14:00 y 16:30–18:30; horarios reducidos por sesiones parlamentarias",
+   "h_en": "10:00–14:00 and 16:30–18:30; reduced hours during parliamentary sessions",
+   "i": "Ideal si te gusta el arte islámico, las fortalezas y la arquitectura mudéjar.",
+   "i_en": "Ideal if you like Islamic art, fortresses and Mudéjar architecture."
+  },
+  "zar_puente_piedra": {
+   "id": "zar_puente_piedra",
+   "d": "Conocido como el Puente de los Leones por las esculturas que lo custodian, este puente de sillería del siglo XV cruza el Ebro y ofrece la estampa clásica de las cúpulas del Pilar reflejadas en el río, sobre todo al atardecer.",
+   "d_en": "Known as the Bridge of the Lions for the sculptures guarding it, this 15th-century stone bridge crosses the Ebro and offers the classic view of El Pilar's domes mirrored in the river, especially at sunset.",
+   "h": "Acceso libre las 24 horas",
+   "h_en": "Free access, open 24 hours",
+   "i": "Ideal si te gusta pasear, fotografiar skylines y los atardeceres junto al río.",
+   "i_en": "Ideal if you like strolling, photographing skylines and riverside sunsets."
+  },
+  "zar_teatro_romano": {
+   "id": "zar_teatro_romano",
+   "d": "Uno de los mayores teatros de la Hispania romana, con capacidad para unos 6.000 espectadores. Sus gradas se pueden recorrer a través de pasarelas y el museo anexo explica la vida de la colonia Caesaraugusta, fundada por Augusto. Forma parte de la Ruta de Caesaraugusta junto a los museos del foro, las termas y el puerto fluvial.",
+   "d_en": "One of the largest theatres of Roman Hispania, seating around 6,000. Walkways cross the tiers, and the adjoining museum explains life in the colony of Caesaraugusta, founded by Augustus. It is part of the Caesaraugusta Route alongside the forum, baths and river-port museums.",
+   "h": "Mar–Sáb 10:00–14:00 y 17:00–21:00, Dom 10:00–14:30 (cerrado lunes)",
+   "h_en": "Tue–Sat 10:00–14:00 and 17:00–21:00, Sun 10:00–14:30 (closed Mon)",
+   "i": "Ideal si te gusta la arqueología, la historia romana y los museos didácticos.",
+   "i_en": "Ideal if you like archaeology, Roman history and hands-on museums."
+  },
+  "zar_tarazona": {
+   "id": "zar_tarazona",
+   "d": "Santa María de la Huerta combina estructura gótica francesa con torre, cimborrio y claustro de exquisita labor mudéjar en ladrillo y yeso. Tarazona, la 'ciudad mudéjar' a los pies del Moncayo, conserva además un casco medieval de casas colgadas, la judería y una original plaza de toros octogonal.",
+   "d_en": "Santa María de la Huerta combines a French Gothic structure with a tower, lantern and cloister of exquisite Mudéjar brick and plaster work. Tarazona, the 'Mudéjar city' at the foot of the Moncayo, also preserves a medieval quarter of hanging houses, the Jewish quarter and an unusual octagonal bullring.",
+   "h": "Catedral Mar–Dom 11:00–14:00 y 16:00–19:00 (consultar temporada)",
+   "h_en": "Cathedral Tue–Sun 11:00–14:00 and 16:00–19:00 (check season)",
+   "i": "Ideal si te gusta el arte mudéjar, los cascos medievales y salir de las rutas masificadas.",
+   "i_en": "Ideal if you like Mudéjar art, medieval towns and getting off the beaten track."
+  },
+  "zar_calatayud": {
+   "id": "zar_calatayud",
+   "d": "La Colegiata de Santa María la Mayor luce una espléndida torre mudéjar octogonal, Patrimonio de la Humanidad, y una portada renacentista. Calatayud, sobre las ruinas romanas de Bílbilis, se corona con castillos de origen andalusí y guarda otras iglesias mudéjares como San Andrés y San Pedro de los Francos.",
+   "d_en": "The Collegiate Church of Santa María la Mayor boasts a splendid octagonal Mudéjar tower, a World Heritage feature, and a Renaissance doorway. Calatayud, above the Roman ruins of Bílbilis, is crowned by castles of Andalusi origin and preserves other Mudéjar churches such as San Andrés and San Pedro de los Francos.",
+   "h": "Colegiata Mar–Dom 10:30–13:30 y 16:30–18:30 (variable)",
+   "h_en": "Collegiate church Tue–Sun 10:30–13:30 and 16:30–18:30 (variable)",
+   "i": "Ideal si te gusta el mudéjar, los castillos y la historia hispanorromana.",
+   "i_en": "Ideal if you like Mudéjar art, castles and Hispano-Roman history."
+  },
+  "zar_belchite": {
+   "id": "zar_belchite",
+   "d": "Escenario de una durísima batalla en 1937, el viejo Belchite quedó destruido y Franco decidió dejarlo en pie como testimonio, construyendo un pueblo nuevo al lado. Hoy sus calles fantasma, iglesias derruidas y la torre del Reloj se recorren en visitas guiadas diurnas y nocturnas de fuerte carga emocional.",
+   "d_en": "Scene of a brutal battle in 1937, old Belchite was left in ruins and Franco chose to keep it standing as a testimony, building a new village beside it. Today its ghostly streets, shattered churches and the Clock Tower are toured on emotionally charged daytime and night-time guided visits.",
+   "h": "Solo con visita guiada; varios pases diarios (reserva recomendada)",
+   "h_en": "Guided visits only; several daily slots (booking recommended)",
+   "i": "Ideal si te gusta la historia del siglo XX, los lugares con memoria y la fotografía atmosférica.",
+   "i_en": "Ideal if you like 20th-century history, places of memory and atmospheric photography."
+  },
+  "zar_fuendetodos": {
+   "id": "zar_fuendetodos",
+   "d": "En este pequeño pueblo del Campo de Belchite nació el genio de la pintura. La casa natal se ha restaurado con mobiliario de la época y a pocos metros el Museo del Grabado exhibe series completas de sus estampas (Caprichos, Desastres de la Guerra, Tauromaquia). Un lugar de peregrinación para los amantes de Goya.",
+   "d_en": "The genius of Spanish painting was born in this small village of the Campo de Belchite. His birthplace has been restored with period furnishings, and a few metres away the Engraving Museum shows complete sets of his prints (Caprichos, Disasters of War, Tauromaquia). A place of pilgrimage for Goya lovers.",
+   "h": "Mar–Dom 11:00–14:00 y 16:00–19:00 (cerrado lunes)",
+   "h_en": "Tue–Sun 11:00–14:00 and 16:00–19:00 (closed Mon)",
+   "i": "Ideal si te gusta el arte, el grabado y seguir las huellas de los grandes pintores.",
+   "i_en": "Ideal if you like art, printmaking and tracing the footsteps of great painters."
+  },
+  "zar_daroca": {
+   "id": "zar_daroca",
+   "d": "Daroca conserva un impresionante recinto amurallado de origen andalusí y medieval que trepa por las laderas, con las puertas Alta y Baja como entradas monumentales. En su interior, iglesias, la basílica de los Sagrados Corporales y la curiosa Mina, un túnel de desagüe del siglo XVI. Es uno de los conjuntos históricos más completos de Aragón.",
+   "d_en": "Daroca preserves an impressive ring of Andalusi and medieval walls climbing the hillsides, with the Upper and Lower Gates as monumental entrances. Inside are churches, the Basilica of the Holy Corporals and the curious Mina, a 16th-century drainage tunnel. It is one of the most complete historic ensembles in Aragon.",
+   "h": "Murallas acceso libre; oficina de turismo e iglesias con horario propio",
+   "h_en": "Walls freely accessible; tourist office and churches keep their own hours",
+   "i": "Ideal si te gusta el medievo, las murallas y los pueblos con encanto.",
+   "i_en": "Ideal if you like the Middle Ages, town walls and charming villages."
+  },
+  "zar_veruela": {
+   "id": "zar_veruela",
+   "d": "Rodeado de una muralla almenada, este gran monasterio cisterciense conserva iglesia de transición románico-gótica, claustro y sala capitular. Aquí se alojaron Gustavo Adolfo Bécquer y su hermano, que escribieron las 'Cartas desde mi celda'. Hoy alberga también un museo del vino de la D.O. Campo de Borja.",
+   "d_en": "Ringed by battlemented walls, this great Cistercian monastery preserves a transitional Romanesque-Gothic church, cloister and chapter house. The poet Gustavo Adolfo Bécquer and his brother stayed here and wrote the 'Letters from my Cell'. It now also houses a wine museum of the Campo de Borja appellation.",
+   "h": "Mié–Dom 10:30–19:00 (invierno hasta 18:00; cerrado lunes y martes)",
+   "h_en": "Wed–Sun 10:30–19:00 (winter until 18:00; closed Mon and Tue)",
+   "i": "Ideal si te gusta el arte cisterciense, el romanticismo literario y la naturaleza del Moncayo.",
+   "i_en": "Ideal if you like Cistercian art, literary Romanticism and the nature of the Moncayo."
+  },
+  "zar_sos": {
+   "id": "zar_sos",
+   "d": "Uno de los pueblos más bonitos de España, con calles empedradas, casonas blasonadas, la iglesia románica de San Esteban y el palacio de Sada donde nació en 1452 el rey Fernando. Su conjunto tan bien conservado ha servido de escenario de cine. Corona el pueblo el castillo y ofrece vistas sobre las Cinco Villas.",
+   "d_en": "One of Spain's most beautiful villages, with cobbled streets, crested mansions, the Romanesque church of San Esteban and the Sada palace where King Ferdinand was born in 1452. Its exceptionally preserved centre has served as a film set. The castle crowns the town with views over the Cinco Villas region.",
+   "h": "Casco histórico acceso libre; palacio de Sada y oficina de turismo con horario propio",
+   "h_en": "Old town freely accessible; Sada palace and tourist office keep their own hours",
+   "i": "Ideal si te gusta el medievo, los pueblos con encanto y la historia de los Reyes Católicos.",
+   "i_en": "Ideal if you like the Middle Ages, charming villages and the history of the Catholic Monarchs."
+  },
+  "zar_monasterio_piedra": {
+   "id": "zar_monasterio_piedra",
+   "d": "El río Piedra ha esculpido un oasis de cascadas, lagos y cuevas dentro de un paisaje árido. El sendero pasa por la espectacular Cola de Caballo, de 50 metros de caída, y la Gruta Iris. Junto al parque, el antiguo monasterio cisterciense del siglo XII se puede visitar y aloja un hotel. Fue aquí donde se elaboró el primer chocolate de Europa.",
+   "d_en": "The Piedra river has carved an oasis of waterfalls, lakes and caves within an arid landscape. The trail passes the spectacular Horse's Tail, a 50-metre drop, and the Iris Grotto. Beside the park, the 12th-century Cistercian monastery can be visited and houses a hotel. Europe's first chocolate is said to have been prepared here.",
+   "h": "Abierto todo el año, aprox. 9:00–20:00 en verano y 9:00–18:00 en invierno",
+   "h_en": "Open year-round, roughly 9:00–20:00 in summer and 9:00–18:00 in winter",
+   "i": "Ideal si te gusta la naturaleza, las cascadas y combinar paisaje con patrimonio.",
+   "i_en": "Ideal if you like nature, waterfalls and combining scenery with heritage."
+  },
+  "zar_moncayo": {
+   "id": "zar_moncayo",
+   "d": "El pico San Miguel, a 2.315 m, se alza como un gigante nevado sobre la llanura del Ebro. El parque protege densos hayedos, robledales y pinares que cambian de color con las estaciones, un santuario mariano y rutas de senderismo hasta la cumbre. Es un espacio cargado de leyendas becquerianas.",
+   "d_en": "Pico San Miguel, at 2,315 m, rises like a snow-capped giant above the Ebro plain. The park protects dense beech, oak and pine woods that change colour with the seasons, a Marian sanctuary and hiking trails to the summit. It is a place steeped in Bécquer's legends.",
+   "h": "Acceso libre; centro de interpretación de Agramonte con horario propio",
+   "h_en": "Free access; Agramonte interpretation centre keeps its own hours",
+   "i": "Ideal si te gusta el senderismo, los bosques de otoño y la alta montaña.",
+   "i_en": "Ideal if you like hiking, autumn forests and high mountains."
+  },
+  "zar_gallocanta": {
+   "id": "zar_gallocanta",
+   "d": "La mayor laguna natural de la Península es reserva natural y una de las mejores atalayas de Europa para observar aves. Cada otoño e invierno decenas de miles de grullas comunes hacen escala aquí, ofreciendo un espectáculo sonoro y visual inolvidable al amanecer y al atardecer. Cuenta con observatorios y centro de interpretación.",
+   "d_en": "The largest natural lagoon on the Peninsula is a nature reserve and one of Europe's finest birdwatching spots. Each autumn and winter tens of thousands of common cranes stop over here, offering an unforgettable sound-and-sight spectacle at dawn and dusk. It has hides and an interpretation centre.",
+   "h": "Acceso libre; centro de interpretación de Bello con horario propio",
+   "h_en": "Free access; Bello interpretation centre keeps its own hours",
+   "i": "Ideal si te gusta la ornitología, la fotografía de naturaleza y los grandes paisajes abiertos.",
+   "i_en": "Ideal if you like birdwatching, nature photography and vast open landscapes."
+  },
+  "zar_galacho_juslibol": {
+   "id": "zar_galacho_juslibol",
+   "d": "Un antiguo brazo del río convertido en soto y laguna, refugio de aves acuáticas, castores y una rica vegetación de ribera junto a espectaculares escarpes de yesos. A pocos minutos del centro, es el pulmón verde favorito para pasear, ir en bici y observar fauna, con centro de visitantes y bus lanzadera en fines de semana.",
+   "d_en": "A former arm of the river turned into a grove and lagoon, a refuge for water birds, beavers and rich riverbank vegetation beside dramatic gypsum cliffs. Just minutes from the centre, it is the locals' favourite green lung for walking, cycling and wildlife-watching, with a visitor centre and a weekend shuttle bus.",
+   "h": "Acceso libre; centro de visitantes abierto fines de semana y festivos",
+   "h_en": "Free access; visitor centre open weekends and holidays",
+   "i": "Ideal si te gusta la naturaleza cercana, el cicloturismo y la observación de fauna.",
+   "i_en": "Ideal if you like nature close to the city, cycling and wildlife-watching."
+  },
+  "zar_mar_aragon": {
+   "id": "zar_mar_aragon",
+   "d": "El embalse de Mequinenza forma un mar interior de casi 110 km² entre Zaragoza y la frontera catalana. Famoso a nivel europeo por la pesca de grandes siluros y carpas, permite también navegación, kayak y baño. En sus orillas, Mequinenza conserva su castillo y el evocador 'Pueblo Viejo', escenario de las novelas de Jesús Moncada.",
+   "d_en": "The Mequinenza reservoir forms an inland sea of nearly 110 km² between Zaragoza and the Catalan border. Famous across Europe for catfish and carp fishing, it also allows boating, kayaking and swimming. On its banks, Mequinenza keeps its castle and the evocative 'Old Town', setting for the novels of Jesús Moncada.",
+   "h": "Acceso libre; empresas de pesca y náutica con horario propio",
+   "h_en": "Free access; fishing and boating operators keep their own hours",
+   "i": "Ideal si te gusta la pesca, los deportes acuáticos y los paisajes de agua.",
+   "i_en": "Ideal if you like fishing, water sports and waterscapes."
+  },
+  "zar_parque_agua": {
+   "id": "zar_parque_agua",
+   "d": "Herencia verde de la Expo 2008 en el meandro de Ranillas, es uno de los mayores parques de Aragón: playas fluviales, canal de aguas bravas, jardín botánico, praderas y sotos junto al Ebro. Perfecto para pasear, montar en bici, remar o darse un baño en verano, muy cerca del recinto Expo y del Acuario.",
+   "d_en": "A green legacy of Expo 2008 in the Ranillas meander, it is one of Aragon's largest parks: river beaches, a whitewater channel, a botanical garden, meadows and groves beside the Ebro. Perfect for strolling, cycling, paddling or a summer swim, right next to the Expo grounds and the Aquarium.",
+   "h": "Acceso libre; playas y equipamientos con horario de temporada",
+   "h_en": "Free access; beaches and facilities keep seasonal hours",
+   "i": "Ideal si te gusta la naturaleza urbana, el deporte al aire libre y los planes de verano.",
+   "i_en": "Ideal if you like urban nature, outdoor sports and summer plans."
+  },
+  "zar_museo_goya": {
+   "id": "zar_museo_goya",
+   "d": "Instalado en el palacio de los Pardo, reúne pinturas de Goya y una colección completa de sus grabados, junto a obras de sus contemporáneos y maestros aragoneses. Es la mejor puerta de entrada en la ciudad para comprender al pintor de Fuendetodos y el arte de los siglos XV a XX.",
+   "d_en": "Housed in the Pardo palace, it gathers paintings by Goya and a complete collection of his engravings, alongside works by his contemporaries and Aragonese masters. It is the best gateway in the city to understand the painter from Fuendetodos and the art of the 15th to 20th centuries.",
+   "h": "Lun–Sáb 10:00–14:00 y 16:00–20:00, Dom 10:00–14:00",
+   "h_en": "Mon–Sat 10:00–14:00 and 16:00–20:00, Sun 10:00–14:00",
+   "i": "Ideal si te gusta la pintura, el grabado y la obra de Goya.",
+   "i_en": "Ideal if you like painting, engraving and the work of Goya."
+  },
+  "zar_museo_zaragoza": {
+   "id": "zar_museo_zaragoza",
+   "d": "En un elegante edificio de la Exposición Hispano-Francesa de 1908, expone desde restos íberos y romanos de Caesaraugusta hasta una notable sección de pintura con obras de Goya. Sus salas repasan la historia de Aragón y la entrada es gratuita, lo que lo convierte en una visita muy recomendable.",
+   "d_en": "In an elegant building from the 1908 Hispano-French Exhibition, it displays everything from Iberian and Roman remains of Caesaraugusta to a notable painting section with works by Goya. Its rooms trace the history of Aragon and admission is free, making it a highly recommended visit.",
+   "h": "Mar–Sáb 10:00–14:00 y 17:00–20:00, Dom 10:00–14:00 (cerrado lunes)",
+   "h_en": "Tue–Sat 10:00–14:00 and 17:00–20:00, Sun 10:00–14:00 (closed Mon)",
+   "i": "Ideal si te gusta la arqueología, la historia local y los museos gratuitos.",
+   "i_en": "Ideal if you like archaeology, local history and free museums."
+  },
+  "zar_acuario": {
+   "id": "zar_acuario",
+   "d": "Recorre los cinco grandes ríos del mundo (Nilo, Mekong, Amazonas, Murray-Darling y Ebro) a través de más de 300 especies. Su tanque central de 9 metros de altura es el corazón de la visita. Situado en el recinto de la Expo, es un plan perfecto en familia y con niños.",
+   "d_en": "It journeys through the world's five great rivers (Nile, Mekong, Amazon, Murray-Darling and Ebro) with more than 300 species. Its 9-metre-high central tank is the heart of the visit. Located in the Expo grounds, it is a perfect plan for families and children.",
+   "h": "Aprox. 10:00–19:00 (ampliado fines de semana y verano)",
+   "h_en": "Roughly 10:00–19:00 (extended at weekends and in summer)",
+   "i": "Ideal si te gusta la fauna acuática, los planes en familia y la divulgación.",
+   "i_en": "Ideal if you like aquatic wildlife, family outings and science outreach."
+  },
+  "zar_plaza_pilar": {
+   "id": "zar_plaza_pilar",
+   "d": "Una de las plazas peatonales más grandes de Europa reúne la Basílica del Pilar, La Seo, el Ayuntamiento, la Lonja renacentista y la fuente de la Hispanidad. Corazón de la vida ciudadana y epicentro de las multitudinarias Fiestas del Pilar de octubre, es el mejor punto de partida para descubrir el casco histórico.",
+   "d_en": "One of the largest pedestrian squares in Europe brings together the Basílica del Pilar, La Seo, the City Hall, the Renaissance Lonja and the Hispanidad fountain. The heart of city life and epicentre of the crowded Pilar festivities in October, it is the best starting point to explore the old town.",
+   "h": "Espacio abierto, acceso libre las 24 horas",
+   "h_en": "Open space, free access 24 hours",
+   "i": "Ideal si te gusta el ambiente urbano, la arquitectura monumental y la fotografía de plaza.",
+   "i_en": "Ideal if you like urban atmosphere, monumental architecture and square-side photography."
+  },
+  "zar_expo": {
+   "id": "zar_expo",
+   "d": "El recinto de la Exposición Internacional de 2008, dedicada al agua, dejó edificios icónicos como la Torre del Agua, el Pabellón Puente de Zaha Hadid y el Palacio de Congresos. Hoy es un moderno distrito de paseo junto al Ebro, ideal para combinar con el vecino Parque del Agua y sus playas fluviales.",
+   "d_en": "The grounds of the 2008 International Exhibition, devoted to water, left iconic buildings such as the Water Tower, Zaha Hadid's Bridge Pavilion and the Congress Centre. Today it is a modern riverside district for strolling, ideal to combine with the neighbouring Water Park and its river beaches.",
+   "h": "Recinto exterior acceso libre; edificios con usos y horarios propios",
+   "h_en": "Outdoor grounds freely accessible; buildings have their own uses and hours",
+   "i": "Ideal si te gusta la arquitectura contemporánea, pasear junto al río y el diseño urbano.",
+   "i_en": "Ideal if you like contemporary architecture, riverside walks and urban design."
+  },
+  "zar_puerto_venecia": {
+   "id": "zar_puerto_venecia",
+   "d": "Uno de los mayores centros comerciales y de ocio de Europa, organizado en torno a un gran lago con barcas y una noria. Reúne cientos de tiendas, cines, zonas de restauración y atracciones, un plan cómodo para días de calor, lluvia o para venir con niños.",
+   "d_en": "One of the largest shopping and leisure complexes in Europe, arranged around a big lake with rowing boats and a Ferris wheel. It gathers hundreds of shops, cinemas, food courts and attractions, a comfortable plan for hot or rainy days or for coming with children.",
+   "h": "Tiendas aprox. 10:00–22:00; restauración y ocio hasta más tarde",
+   "h_en": "Shops roughly 10:00–22:00; dining and leisure until later",
+   "i": "Ideal si te gusta ir de compras, el ocio en familia y los planes bajo techo.",
+   "i_en": "Ideal if you like shopping, family leisure and indoor plans."
+  },
+  "zar_el_tubo": {
+   "id": "zar_el_tubo",
+   "d": "Entre la Plaza del Pilar y el Coso, El Tubo es el epicentro del tapeo zaragozano: decenas de bares centenarios y modernos donde ir de pincho en pincho probando champiñones a la plancha, croquetas, huevos rotos, borrajas y buen vino de la tierra. El ambiente se enciende sobre todo a la hora del vermú y por la noche.",
+   "d_en": "Between Plaza del Pilar and the Coso, El Tubo is the epicentre of Zaragoza tapas: dozens of century-old and modern bars where you hop from bite to bite, trying grilled mushrooms, croquettes, huevos rotos, borage and good local wine. The atmosphere peaks at vermouth hour and at night.",
+   "h": "Zona abierta; bares aprox. 11:00–16:00 y 19:00–24:00",
+   "h_en": "Open district; bars roughly 11:00–16:00 and 19:00–24:00",
+   "i": "Ideal si te gusta el tapeo, el ambiente animado y la cocina de barra.",
+   "i_en": "Ideal if you like tapas, a lively atmosphere and bar cuisine."
+  },
+  "zar_mercado_central": {
+   "id": "zar_mercado_central",
+   "d": "Joya de la arquitectura del hierro de principios del siglo XX, restaurada con brillo, reúne puestos de frutas, embutidos, quesos, pescado y verduras de la huerta zaragozana como las célebres borrajas y la cebolla de Fuentes. Cuenta con barras de degustación para tapear con producto de mercado.",
+   "d_en": "A jewel of early-20th-century iron architecture, brilliantly restored, it brings together stalls of fruit, cured meats, cheeses, fish and vegetables from the Zaragoza market gardens such as the famous borage and Fuentes onions. It has tasting counters for snacking on market produce.",
+   "h": "Lun–Sáb aprox. 8:00–20:00 (algunos puestos cierran a mediodía)",
+   "h_en": "Mon–Sat roughly 8:00–20:00 (some stalls close at midday)",
+   "i": "Ideal si te gusta el producto local, la arquitectura del hierro y los mercados con vida.",
+   "i_en": "Ideal if you like local produce, iron architecture and lively markets."
+  },
+  "zar_casa_lac": {
+   "id": "zar_casa_lac",
+   "d": "Fundado en 1825 y con el título de primera licencia de restaurante de España, conserva un espléndido comedor decimonónico en la planta alta. Ofrece cocina aragonesa actualizada con clásicos como el ternasco asado, además de una popular barra de tapas en la planta baja. Un lugar para comer con historia.",
+   "d_en": "Founded in 1825 and holding the title of Spain's first restaurant licence, it preserves a splendid 19th-century dining room upstairs. It serves updated Aragonese cuisine with classics such as roast ternasco lamb, plus a popular tapas bar downstairs. A place to dine with history.",
+   "h": "Comidas y cenas Mar–Dom (cerrado domingo noche y lunes; consultar)",
+   "h_en": "Lunch and dinner Tue–Sun (closed Sun evening and Mon; check ahead)",
+   "i": "Ideal si te gusta la cocina tradicional, los comedores con historia y el ternasco de Aragón.",
+   "i_en": "Ideal if you like traditional cuisine, historic dining rooms and Aragonese ternasco lamb."
+  },
+  "zar_fruta_aragon": {
+   "id": "zar_fruta_aragon",
+   "d": "En las confiterías centenarias del casco, como Fantoba o Tolosana, se elaboran las Frutas de Aragón (frutas confitadas bañadas en chocolate negro), los adoquines del Pilar y las trenzas y guirlache de tradición. Un dulce recorrido por calles como Don Jaime I y Alfonso I, ideal para llevarse un recuerdo comestible.",
+   "d_en": "In the century-old sweet shops of the old town, such as Fantoba or Tolosana, they make Frutas de Aragón (candied fruit dipped in dark chocolate), the cobblestone sweets of El Pilar, and traditional braids and guirlache nougat. A sweet stroll along streets like Don Jaime I and Alfonso I, ideal for an edible souvenir.",
+   "h": "Confiterías aprox. Lun–Sáb 9:30–14:00 y 17:00–20:30",
+   "h_en": "Sweet shops roughly Mon–Sat 9:30–14:00 and 17:00–20:30",
+   "i": "Ideal si te gusta la repostería tradicional, el chocolate y llevarte dulces de recuerdo.",
+   "i_en": "Ideal if you like traditional pastries, chocolate and taking sweets home."
+  },
+  "zar_carinena": {
+   "id": "zar_carinena",
+   "d": "Una de las denominaciones de origen más antiguas de España despliega alrededor de la villa de Cariñena un mar de viñedos, muchos de garnacha de cepas viejas sobre suelos de cantos rodados. Se visitan bodegas centenarias y modernas, y el Museo del Vino (Casa de la Viña) explica la cultura vitivinícola de la comarca.",
+   "d_en": "One of Spain's oldest wine appellations spreads a sea of vineyards around the town of Cariñena, many of old-vine Garnacha on pebble soils. Visitors can tour century-old and modern wineries, and the Wine Museum (Casa de la Viña) explains the region's winemaking culture.",
+   "h": "Museo del Vino Mar–Dom (consultar); bodegas con visita concertada",
+   "h_en": "Wine Museum Tue–Sun (check ahead); wineries by arranged visit",
+   "i": "Ideal si te gusta el enoturismo, los tintos de garnacha y los paisajes de viñedo.",
+   "i_en": "Ideal if you like wine tourism, Garnacha reds and vineyard landscapes."
+  },
+  "zar_campo_borja": {
+   "id": "zar_campo_borja",
+   "d": "Bajo la sombra del Moncayo, esta denominación se ha ganado fama internacional con sus potentes tintos de garnacha de viñas viejas. Las bodegas de Borja, Ainzón y Fuendejalón ofrecen catas y visitas, y la ruta se combina bien con el Monasterio de Veruela, que alberga su museo del vino.",
+   "d_en": "In the shadow of the Moncayo, this appellation has earned international fame with its powerful old-vine Garnacha reds. Wineries in Borja, Ainzón and Fuendejalón offer tastings and tours, and the route pairs well with the Veruela Monastery, home to its wine museum.",
+   "h": "Bodegas con visita concertada; oficina de la ruta con horario propio",
+   "h_en": "Wineries by arranged visit; route office keeps its own hours",
+   "i": "Ideal si te gusta el enoturismo, la garnacha con carácter y combinar vino y patrimonio.",
+   "i_en": "Ideal if you like wine tourism, characterful Garnacha and pairing wine with heritage."
+  }
+ },
+ "food": {
+  "zar_el_tubo": {
+   "cuisine": "Tapas y pinchos aragoneses",
+   "price": "10–25 €",
+   "hours": "Aprox. 11:00–16:00 y 19:00–24:00"
+  },
+  "zar_mercado_central": {
+   "cuisine": "Producto fresco y tapas de mercado",
+   "price": "5–20 €",
+   "hours": "Lun–Sáb 8:00–20:00"
+  },
+  "zar_casa_lac": {
+   "cuisine": "Cocina aragonesa tradicional",
+   "price": "30–55 €",
+   "hours": "Mar–Dom, comidas y cenas"
+  },
+  "zar_fruta_aragon": {
+   "cuisine": "Dulces y confitería tradicional",
+   "price": "5–20 €",
+   "hours": "Lun–Sáb 9:30–14:00 y 17:00–20:30"
+  },
+  "zar_carinena": {
+   "cuisine": "Enoturismo y vinos D.O. Cariñena",
+   "price": "10–30 €",
+   "hours": "Bodegas y museo con visita concertada"
+  },
+  "zar_campo_borja": {
+   "cuisine": "Enoturismo y vinos D.O. Campo de Borja",
+   "price": "10–30 €",
+   "hours": "Bodegas con visita concertada"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Zaragoza",
+   "items": [
+    {
+     "name": "Frutas de Aragón",
+     "price": "8–20 €",
+     "desc": "Frutas confitadas bañadas en chocolate negro, el dulce más típico de la ciudad."
+    },
+    {
+     "name": "Adoquines del Pilar",
+     "price": "5–12 €",
+     "desc": "Caramelos artesanos grandes en forma de adoquín, un clásico de las confiterías."
+    },
+    {
+     "name": "Vino Garnacha D.O. Cariñena o Campo de Borja",
+     "price": "6–20 €",
+     "desc": "Tintos de garnacha de viñas viejas, buque insignia enológico de la provincia."
+    },
+    {
+     "name": "Cerámica de Muel",
+     "price": "10–40 €",
+     "desc": "Alfarería vidriada en azul y verde de tradición mudéjar."
+    },
+    {
+     "name": "Cachirulo",
+     "price": "5–15 €",
+     "desc": "Pañuelo tradicional aragonés que se anuda a la cabeza en las fiestas."
+    }
+   ],
+   "shops": [
+    "Confitería Fantoba (Don Jaime I)",
+    "Pastelería Tolosana",
+    "La Despensa de Aragón",
+    "Mercado Central de Lanuza",
+    "Tiendas del entorno de la Plaza del Pilar"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Sube al mirador de la torre de la Basílica del Pilar para una vista panorámica del Ebro y del casco histórico.",
+   "Tapea por El Tubo, el laberinto de callejones entre la Plaza del Pilar y el Coso, sobre todo al mediodía y a la hora del vermú.",
+   "Reserva con antelación la visita al interior del Palacio de la Aljafería: el aforo es limitado y a veces cierra por actos del parlamento aragonés.",
+   "Para llegar al Monasterio de Piedra, Belchite o el Moncayo necesitas coche; el transporte público es escaso.",
+   "El pueblo viejo de Belchite solo se visita con visita guiada y en horarios concretos; no se puede entrar por libre."
+  ],
+  "en": [
+   "Climb the tower viewpoint of the Basílica del Pilar for a panoramic view over the Ebro and the old town.",
+   "Go tapas-hopping in El Tubo, the maze of alleys between Plaza del Pilar and the Coso, especially at lunchtime and vermouth hour.",
+   "Book ahead for the interior of the Aljafería Palace: capacity is limited and it sometimes closes for sessions of the Aragonese parliament.",
+   "You need a car to reach the Monasterio de Piedra, Belchite or the Moncayo; public transport is sparse.",
+   "The old village of Belchite can only be visited on a guided tour at set times; you cannot wander in on your own."
+  ]
+ },
+ "climate": {
+  "hi": [
+   10,
+   13,
+   18,
+   20,
+   25,
+   30,
+   33,
+   32,
+   27,
+   21,
+   14,
+   10
+  ],
+  "lo": [
+   2,
+   4,
+   6,
+   8,
+   13,
+   16,
+   19,
+   19,
+   15,
+   11,
+   6,
+   3
+  ]
+ },
+ "tr": {
+  "Gran basílica barroca a orillas del Ebro y símbolo de Zaragoza.": "Grand Baroque basilica on the Ebro and the symbol of Zaragoza.",
+  "Catedral del Salvador, joya que mezcla románico, gótico y mudéjar.": "Cathedral of the Saviour, blending Romanesque, Gothic and Mudéjar.",
+  "Palacio-fortaleza islámico del siglo XI, hoy sede de las Cortes de Aragón.": "11th-century Islamic palace-fortress, today seat of the Aragonese Cortes.",
+  "Puente medieval de siete arcos sobre el Ebro, con la mejor vista del Pilar.": "Seven-arched medieval bridge over the Ebro with the best view of El Pilar.",
+  "Gran teatro romano del siglo I con museo, en pleno casco antiguo.": "Large 1st-century Roman theatre with a museum, in the old town.",
+  "Catedral gótico-mudéjar de Tarazona, tras una larga restauración.": "Gothic-Mudéjar cathedral of Tarazona, restored after long works.",
+  "Torre mudéjar octogonal y portada plateresca en la vieja Bílbilis.": "Octagonal Mudéjar tower and Plateresque doorway in old Bílbilis.",
+  "Pueblo en ruinas conservado como memoria de la Guerra Civil.": "Ruined village preserved as a memorial of the Spanish Civil War.",
+  "Humilde casa donde nació Francisco de Goya en 1746.": "Humble house where Francisco de Goya was born in 1746.",
+  "Villa medieval amurallada con más de 100 torreones y puertas monumentales.": "Walled medieval town with over 100 towers and monumental gateways.",
+  "Abadía cisterciense del siglo XII al pie del Moncayo.": "12th-century Cistercian abbey at the foot of the Moncayo.",
+  "Villa medieval de las Cinco Villas, cuna de Fernando el Católico.": "Medieval town of the Cinco Villas, birthplace of Ferdinand the Catholic.",
+  "Parque de cascadas y grutas junto a un monasterio cisterciense en Nuévalos.": "Park of waterfalls and grottoes beside a Cistercian monastery in Nuévalos.",
+  "La montaña más alta del Sistema Ibérico, con hayedos y rutas de cima.": "The highest mountain of the Iberian System, with beech woods and summit trails.",
+  "Gran laguna salada, paraíso de las grullas en migración.": "Large salt lagoon, a paradise for migrating cranes.",
+  "Meandro abandonado del Ebro y humedal a las afueras de Zaragoza.": "Oxbow of the Ebro and wetland on the edge of Zaragoza.",
+  "Gran embalse del Ebro, meca de la pesca y los deportes acuáticos.": "Vast Ebro reservoir, a mecca for fishing and water sports.",
+  "Gran parque fluvial de la Expo, con playas de río y jardines junto al Ebro.": "Large riverside Expo park with river beaches and gardens by the Ebro.",
+  "Museo dedicado a Goya y su época en un palacio renacentista.": "Museum devoted to Goya and his era in a Renaissance palace.",
+  "Museo provincial de arqueología y bellas artes en la Plaza de los Sitios.": "Provincial museum of archaeology and fine arts on Plaza de los Sitios.",
+  "Uno de los mayores acuarios fluviales de Europa, herencia de la Expo 2008.": "One of Europe's largest river aquariums, a legacy of Expo 2008.",
+  "El gran salón urbano de Zaragoza, entre el Pilar y La Seo.": "Zaragoza's great urban living room, between El Pilar and La Seo.",
+  "Meandro de Ranillas con la arquitectura vanguardista de la Expo 2008.": "Ranillas meander with the avant-garde architecture of Expo 2008.",
+  "Enorme complejo de ocio y compras con lago, tiendas y restaurantes.": "Huge leisure and shopping complex with a lake, shops and restaurants.",
+  "Laberinto de callejones repleto de bares de tapas en el casco viejo.": "Maze of alleys packed with tapas bars in the old town.",
+  "Mercado modernista de hierro y cristal con productos frescos de Aragón.": "Modernista iron-and-glass market with fresh Aragonese produce.",
+  "Restaurante histórico con la primera licencia de España, cocina aragonesa.": "Historic restaurant with Spain's first licence, serving Aragonese cuisine.",
+  "Obradores históricos del centro donde probar los dulces típicos de Zaragoza.": "Historic sweet shops in the centre for Zaragoza's typical confectionery.",
+  "Denominación de origen histórica del 'Campo de Cariñena', tierra de garnacha.": "Historic 'Campo de Cariñena' appellation, land of Garnacha.",
+  "El 'Imperio de la Garnacha' al pie del Moncayo, en torno a Borja.": "The 'Empire of Garnacha' at the foot of the Moncayo, around Borja.",
+  "Zaragoza": "Zaragoza"
+ }
+}

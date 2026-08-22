@@ -1,0 +1,515 @@
+{
+ "id": "girona",
+ "name": "Girona",
+ "country": "ES",
+ "center": [
+  41.9794,
+  2.8214
+ ],
+ "pois": [
+  {
+   "id": "cgi_girona_catedral",
+   "cat": "monuments",
+   "name": "Catedral de Girona",
+   "icon": "⛪",
+   "lat": 41.9873,
+   "lng": 2.826,
+   "desc": "Catedral gótica con la nave más ancha del gótico mundial y su gran escalinata."
+  },
+  {
+   "id": "cgi_dali_figueres",
+   "cat": "ocio",
+   "name": "Teatre-Museu Dalí (Figueres)",
+   "icon": "🎨",
+   "lat": 42.2675,
+   "lng": 2.9557,
+   "desc": "El museo surrealista diseñado por el propio Dalí, coronado de huevos gigantes."
+  },
+  {
+   "id": "cgi_cadaques",
+   "cat": "ocio",
+   "name": "Cadaqués",
+   "icon": "🏘️",
+   "lat": 42.2886,
+   "lng": 3.2771,
+   "desc": "Pueblo blanco de pescadores en el Cap de Creus, refugio de artistas."
+  },
+  {
+   "id": "cgi_tossa",
+   "cat": "ocio",
+   "name": "Vila Vella de Tossa de Mar",
+   "icon": "🏰",
+   "lat": 41.71861,
+   "lng": 2.9325,
+   "desc": "Único recinto medieval amurallado que sobrevive en la costa catalana."
+  },
+  {
+   "id": "cgi_besalu",
+   "cat": "monuments",
+   "name": "Pont Vell de Besalú",
+   "icon": "🌉",
+   "lat": 42.19861,
+   "lng": 2.69833,
+   "desc": "Puente románico angular sobre el río Fluvià, entrada a la villa medieval."
+  },
+  {
+   "id": "cgi_dali_portlligat",
+   "cat": "ocio",
+   "name": "Casa-Museo Salvador Dalí de Portlligat",
+   "icon": "🥚",
+   "lat": 42.2893,
+   "lng": 3.285,
+   "desc": "La casa-laberinto de pescadores donde Dalí vivió y pintó junto al mar."
+  },
+  {
+   "id": "cgi_empuries",
+   "cat": "monuments",
+   "name": "Ruinas de Empúries",
+   "icon": "🏛️",
+   "lat": 42.13389,
+   "lng": 3.12028,
+   "desc": "Yacimiento grecorromano junto al mar, puerta de la cultura clásica en Iberia."
+  },
+  {
+   "id": "cgi_girona_call",
+   "cat": "monuments",
+   "name": "Call Jueu de Girona",
+   "icon": "🕎",
+   "lat": 41.9865,
+   "lng": 2.8252,
+   "desc": "Uno de los barrios judíos medievales mejor conservados de Europa."
+  },
+  {
+   "id": "cgi_fageda",
+   "cat": "nature",
+   "name": "Fageda d'en Jordà",
+   "icon": "🌳",
+   "lat": 42.1467,
+   "lng": 2.5303,
+   "desc": "Hayedo singular crecido sobre una colada de lava volcánica."
+  },
+  {
+   "id": "cgi_volcans_garrotxa",
+   "cat": "nature",
+   "name": "Volcanes de la Garrotxa (Santa Margarida)",
+   "icon": "🌋",
+   "lat": 42.14144,
+   "lng": 2.54395,
+   "desc": "Zona volcánica con más de 40 conos, entre ellos el cráter de Santa Margarida."
+  },
+  {
+   "id": "cgi_banyoles",
+   "cat": "nature",
+   "name": "Estany de Banyoles",
+   "icon": "🏞️",
+   "lat": 42.1218,
+   "lng": 2.7532,
+   "desc": "El mayor lago natural de Cataluña, de origen kárstico y aguas tranquilas."
+  },
+  {
+   "id": "cgi_cases_onyar",
+   "cat": "ocio",
+   "name": "Casas del Onyar (Girona)",
+   "icon": "🌈",
+   "lat": 41.9838,
+   "lng": 2.8244,
+   "desc": "Las coloridas casas colgadas sobre el río, la postal más famosa de Girona."
+  },
+  {
+   "id": "cgi_girona_santfeliu",
+   "cat": "monuments",
+   "name": "Basílica de Sant Feliu (Girona)",
+   "icon": "⛪",
+   "lat": 41.9879,
+   "lng": 2.8256,
+   "desc": "Iglesia gótica de aguja truncada, con sarcófagos paleocristianos."
+  },
+  {
+   "id": "cgi_calella_palafrugell",
+   "cat": "nature",
+   "name": "Calella de Palafrugell",
+   "icon": "⛵",
+   "lat": 41.886,
+   "lng": 3.1833,
+   "desc": "Pueblo marinero de calas y voltes blancas, esencia de la Costa Brava."
+  },
+  {
+   "id": "cgi_begur",
+   "cat": "nature",
+   "name": "Begur y calas de Aiguablava",
+   "icon": "🏖️",
+   "lat": 41.95417,
+   "lng": 3.2075,
+   "desc": "Pueblo con castillo y casas indianas sobre calas de agua turquesa."
+  },
+  {
+   "id": "cgi_capdecreus",
+   "cat": "nature",
+   "name": "Cap de Creus",
+   "icon": "🌊",
+   "lat": 42.31894,
+   "lng": 3.31572,
+   "desc": "Punto más oriental de la península, de rocas retorcidas y faro sobre el mar."
+  },
+  {
+   "id": "cgi_celler_can_roca",
+   "cat": "food",
+   "name": "El Celler de Can Roca",
+   "icon": "🍽️",
+   "lat": 41.9933,
+   "lng": 2.808,
+   "desc": "Templo de la alta cocina de los hermanos Roca, tres estrellas Michelin."
+  },
+  {
+   "id": "cgi_rocambolesc",
+   "cat": "food",
+   "name": "Rocambolesc (Girona)",
+   "icon": "🍦",
+   "lat": 41.9797,
+   "lng": 2.8212,
+   "desc": "La heladería juguetona de Jordi Roca, pura fantasía dulce."
+  },
+  {
+   "id": "cgi_compartir",
+   "cat": "food",
+   "name": "Compartir (Cadaqués)",
+   "icon": "🦐",
+   "lat": 42.2888,
+   "lng": 3.2772,
+   "desc": "Cocina mediterránea para compartir de tres chefs de elBulli."
+  },
+  {
+   "id": "cgi_els_tinars",
+   "cat": "food",
+   "name": "Els Tinars (Llagostera)",
+   "icon": "⭐",
+   "lat": 41.82753,
+   "lng": 2.95363,
+   "desc": "Casa familiar con estrella Michelin y raíces en la cocina del Empordà."
+  },
+  {
+   "id": "cgi_el_motel",
+   "cat": "food",
+   "name": "El Motel — Hotel Empordà (Figueres)",
+   "icon": "🍷",
+   "lat": 42.2731,
+   "lng": 2.9647,
+   "desc": "Restaurante histórico, cuna de la nueva cocina catalana del Empordà."
+  }
+ ],
+ "extra": {
+  "cgi_girona_catedral": {
+   "id": "cgi_girona_catedral",
+   "d": "La Catedral de Santa María de Girona corona el casco antiguo tras una monumental escalinata barroca de 90 peldaños. Su nave gótica es la más ancha del mundo y guarda el famoso Tapiz de la Creación. La fachada apareció en Juego de Tronos como Desembarco del Rey.",
+   "d_en": "Girona's Cathedral of Saint Mary crowns the old town at the top of a monumental 90-step Baroque staircase. Its Gothic nave is the widest in the world and holds the famous Tapestry of Creation. The facade featured in Game of Thrones as King's Landing.",
+   "h": "Por la mañana con luz suave sobre la escalinata",
+   "h_en": "Morning, when soft light falls on the staircase",
+   "i": "la arquitectura gótica, la historia y Juego de Tronos",
+   "i_en": "Gothic architecture, history and Game of Thrones"
+  },
+  "cgi_dali_figueres": {
+   "id": "cgi_dali_figueres",
+   "d": "Construido sobre las ruinas del antiguo teatro de Figueres, el Teatre-Museu Dalí es la mayor obra surrealista del mundo, concebida por el artista como una experiencia total. Guarda desde el Cadillac lluvioso hasta la sala Mae West, y bajo su cúpula reposa el propio Dalí.",
+   "d_en": "Built over the ruins of Figueres' old theatre, the Dalí Theatre-Museum is the largest surrealist object in the world, conceived by the artist as a total experience. It houses the Rainy Cadillac, the Mae West room and, beneath its dome, Dalí's own tomb.",
+   "h": "Nada más abrir para recorrerlo sin aglomeraciones",
+   "h_en": "Right at opening time to explore without the crowds",
+   "i": "el arte moderno, el surrealismo y lo excéntrico",
+   "i_en": "modern art, surrealism and the eccentric"
+  },
+  "cgi_cadaques": {
+   "id": "cgi_cadaques",
+   "d": "Cadaqués es un laberinto de callejuelas empedradas y casas encaladas frente a una bahía azul, protegido por la montañosa península del Cap de Creus. Su luz y su encanto bohemio atrajeron a Dalí, Picasso o Duchamp, y su iglesia de Santa María corona el casco antiguo.",
+   "d_en": "Cadaqués is a maze of cobbled lanes and whitewashed houses facing a blue bay, sheltered by the rugged Cap de Creus peninsula. Its light and bohemian charm drew Dalí, Picasso and Duchamp, and the church of Santa Maria crowns the old town.",
+   "h": "Al atardecer, cuando la luz dora las casas blancas",
+   "h_en": "At sunset, when the light gilds the white houses",
+   "i": "los pueblos con encanto, el arte y el mar",
+   "i_en": "charming villages, art and the sea"
+  },
+  "cgi_tossa": {
+   "id": "cgi_tossa",
+   "d": "La Vila Vella de Tossa de Mar es el único conjunto medieval fortificado que se conserva en el litoral catalán, con murallas y torres almenadas del siglo XIV sobre un promontorio junto al mar. A sus pies se abren la playa Gran y calas de aguas transparentes.",
+   "d_en": "The Vila Vella of Tossa de Mar is the only fortified medieval enclave still standing on the Catalan coast, with 14th-century walls and crenellated towers on a headland above the sea. Below it lie the Platja Gran and coves of crystal-clear water.",
+   "h": "A última hora de la tarde, con la muralla iluminada",
+   "h_en": "Late afternoon, when the walls are lit up",
+   "i": "los castillos, las playas y las postales de cuento",
+   "i_en": "castles, beaches and postcard views"
+  },
+  "cgi_besalu": {
+   "id": "cgi_besalu",
+   "d": "El puente medieval de Besalú, del siglo XI y con su característico trazado en ángulo y torre central, cruza el río Fluvià como pórtico de una de las villas medievales mejor conservadas de Cataluña. Besalú conserva además su antiguo call judío y unos baños rituales (mikvé).",
+   "d_en": "Besalú's 11th-century medieval bridge, with its distinctive angled layout and central gate tower, spans the Fluvià river as the gateway to one of Catalonia's best-preserved medieval towns. Besalú also keeps its old Jewish quarter and a ritual bath (mikvah).",
+   "h": "Primera hora, para fotografiar el puente sin gente",
+   "h_en": "Early morning, to photograph the bridge without crowds",
+   "i": "los pueblos medievales, la historia y la fotografía",
+   "i_en": "medieval towns, history and photography"
+  },
+  "cgi_dali_portlligat": {
+   "id": "cgi_dali_portlligat",
+   "d": "En la cala de Portlligat, Dalí transformó varias barracas de pescadores en un laberíntico hogar-taller donde vivió con Gala durante décadas. Se visita con reserva y cita previa, y conserva su estudio, el jardín con la piscina fálica y los huevos gigantes del tejado.",
+   "d_en": "In the cove of Portlligat, Dalí turned several fishermen's huts into a labyrinthine home and studio where he lived with Gala for decades. Visited by advance booking, it preserves his atelier, the garden with its phallic pool and the giant eggs on the roof.",
+   "h": "Reserva con antelación; mejor a media mañana",
+   "h_en": "Book ahead; best mid-morning",
+   "i": "el arte, las casas de artistas y las historias íntimas",
+   "i_en": "art, artists' homes and intimate stories"
+  },
+  "cgi_empuries": {
+   "id": "cgi_empuries",
+   "d": "Empúries, junto a L'Escala, es el único yacimiento de la península donde conviven una ciudad griega y otra romana. Fundada por los focenses hacia el 575 a.C., fue la puerta de entrada de la cultura clásica a Iberia y hoy se recorre con el mar Mediterráneo de fondo.",
+   "d_en": "Empúries, next to L'Escala, is the only site in Iberia where a Greek and a Roman city sit side by side. Founded by Phocaean Greeks around 575 BC, it was the gateway of classical culture into the peninsula and is explored today with the Mediterranean as a backdrop.",
+   "h": "Por la mañana, con temperatura suave junto al mar",
+   "h_en": "In the morning, when it is cooler by the sea",
+   "i": "la arqueología, la historia antigua y el mar",
+   "i_en": "archaeology, ancient history and the sea"
+  },
+  "cgi_girona_call": {
+   "id": "cgi_girona_call",
+   "d": "El Call de Girona, en torno a la Carrer de la Força, es uno de los barrios judíos medievales mejor conservados de Europa, un dédalo de callejones estrechos, patios y escaleras de piedra. El Museu d'Història dels Jueus explica la vida de la comunidad hasta su expulsión en 1492.",
+   "d_en": "Girona's Call, around Carrer de la Força, is one of Europe's best-preserved medieval Jewish quarters, a maze of narrow alleys, courtyards and stone stairways. The Museum of Jewish History tells the story of the community up to its expulsion in 1492.",
+   "h": "Al mediodía, cuando la luz entra en los callejones",
+   "h_en": "Around midday, when light reaches the alleys",
+   "i": "la historia, los barrios antiguos y perderse a pie",
+   "i_en": "history, old quarters and wandering on foot"
+  },
+  "cgi_fageda": {
+   "id": "cgi_fageda",
+   "d": "La Fageda d'en Jordà es un hayedo único que creció sobre una antigua colada de lava del volcán Croscat, dentro del Parque Natural de la Zona Volcánica de la Garrotxa. Sus suaves montículos (tossols) y la luz filtrada entre las hayas inspiraron un célebre poema de Joan Maragall.",
+   "d_en": "The Fageda d'en Jordà is a unique beech forest that grew over an old lava flow from the Croscat volcano, inside the Garrotxa Volcanic Zone Natural Park. Its gentle mounds and the light filtering through the beeches inspired a famous poem by Joan Maragall.",
+   "h": "En otoño, cuando las hayas se tiñen de cobre",
+   "h_en": "In autumn, when the beeches turn coppery",
+   "i": "los bosques, los paseos tranquilos y la naturaleza",
+   "i_en": "forests, gentle walks and nature"
+  },
+  "cgi_volcans_garrotxa": {
+   "id": "cgi_volcans_garrotxa",
+   "d": "El Parque Natural de la Zona Volcánica de la Garrotxa reúne más de cuarenta conos volcánicos en un paisaje verde y fértil. El volcán de Santa Margarida sorprende con una ermita en el centro de su cráter herboso, mientras el vecino Croscat muestra su interior de tierras rojizas.",
+   "d_en": "The Garrotxa Volcanic Zone Natural Park gathers more than forty volcanic cones in a green, fertile landscape. Santa Margarida volcano surprises visitors with a chapel set in its grassy crater floor, while the neighbouring Croscat reveals its reddish quarried heart.",
+   "h": "Media mañana para caminar hasta el cráter",
+   "h_en": "Mid-morning for the walk up to the crater",
+   "i": "los volcanes, el senderismo y los paisajes verdes",
+   "i_en": "volcanoes, hiking and green landscapes"
+  },
+  "cgi_banyoles": {
+   "id": "cgi_banyoles",
+   "d": "El Estany de Banyoles es el mayor lago natural de Cataluña, alimentado por surgencias subterráneas de origen kárstico. Un cómodo paseo de unos 8 km rodea sus aguas verdiazules entre embarcaderos de madera; acogió las pruebas de remo de los Juegos Olímpicos de Barcelona 1992.",
+   "d_en": "The Lake of Banyoles is the largest natural lake in Catalonia, fed by underground karstic springs. An easy 8 km path circles its blue-green waters past wooden jetties; it hosted the rowing events of the Barcelona 1992 Olympic Games.",
+   "h": "Al amanecer, con las aguas en calma y niebla suave",
+   "h_en": "At dawn, with calm water and soft mist",
+   "i": "los lagos, el remo y los paseos junto al agua",
+   "i_en": "lakes, rowing and lakeside walks"
+  },
+  "cgi_cases_onyar": {
+   "id": "cgi_cases_onyar",
+   "d": "Las casas del Onyar son hileras de fachadas de colores ocres, rojos y amarillos que se asoman directamente sobre el río, formando la imagen más reconocible de Girona. Se contemplan desde los puentes del casco antiguo, entre ellos el Pont de les Peixateries Velles diseñado por la casa Eiffel.",
+   "d_en": "The houses of the Onyar are rows of ochre, red and yellow facades leaning right over the river, forming Girona's most recognisable image. They are best seen from the old-town bridges, including the Pont de les Peixateries Velles built by Eiffel's company.",
+   "h": "A media tarde, con reflejos de colores en el río",
+   "h_en": "Mid-afternoon, with colours reflected in the river",
+   "i": "la fotografía, los rincones con color y los paseos urbanos",
+   "i_en": "photography, colourful corners and city strolls"
+  },
+  "cgi_girona_santfeliu": {
+   "id": "cgi_girona_santfeliu",
+   "d": "La Basílica de Sant Feliu, con su inconfundible campanario de aguja truncada por un rayo, fue la primera catedral de Girona. Guarda ocho sarcófagos paleocristianos y romanos empotrados en el presbiterio y la venerada imagen del Crist Jacent, obra maestra del gótico.",
+   "d_en": "The Basilica of Sant Feliu, with its unmistakable bell tower whose spire was cut short by lightning, was Girona's first cathedral. It holds eight early-Christian and Roman sarcophagi set into the presbytery and the revered Gothic masterpiece of the Recumbent Christ.",
+   "h": "Combínala con la subida a la catedral vecina",
+   "h_en": "Combine it with the climb to the nearby cathedral",
+   "i": "las iglesias históricas y el arte religioso",
+   "i_en": "historic churches and religious art"
+  },
+  "cgi_calella_palafrugell": {
+   "id": "cgi_calella_palafrugell",
+   "d": "Calella de Palafrugell conserva el encanto del viejo pueblo de pescadores, con casitas blancas, arcos (voltes) sobre la playa y barcas varadas en pequeñas calas. Es célebre por su cantada de habaneras en verano y por el camino de ronda que enlaza sus rincones junto al mar.",
+   "d_en": "Calella de Palafrugell keeps the charm of an old fishing village, with white houses, arches over the beach and boats drawn up in small coves. It is famous for its summer habaneras singing and for the coastal path that links its seaside corners.",
+   "h": "En verano, para la noche de habaneras y un baño",
+   "h_en": "In summer, for the habaneras night and a swim",
+   "i": "las calas, los pueblos marineros y el mar tranquilo",
+   "i_en": "coves, fishing villages and calm sea"
+  },
+  "cgi_begur": {
+   "id": "cgi_begur",
+   "d": "Begur se alza en torno a su castillo y sus torres de defensa, con elegantes casas de indianos que recuerdan la emigración a Cuba. A sus pies se abren algunas de las calas más bellas de la Costa Brava, como Aiguablava, Sa Tuna o Fornells, de aguas turquesa entre pinos y acantilados.",
+   "d_en": "Begur rises around its castle and defensive towers, with elegant 'indiano' mansions recalling emigration to Cuba. Below it lie some of the Costa Brava's most beautiful coves, such as Aiguablava, Sa Tuna and Fornells, with turquoise water framed by pines and cliffs.",
+   "h": "Al mediodía para disfrutar del color de las calas",
+   "h_en": "Around midday to enjoy the colour of the coves",
+   "i": "las calas turquesa, los miradores y los pueblos con historia",
+   "i_en": "turquoise coves, viewpoints and historic villages"
+  },
+  "cgi_capdecreus": {
+   "id": "cgi_capdecreus",
+   "d": "El Cap de Creus es el extremo más oriental de la península ibérica, un parque natural de rocas esculpidas por la tramontana en formas surrealistas que fascinaron a Dalí. Su faro, sobre acantilados batidos por el mar, ofrece uno de los primeros amaneceres de España.",
+   "d_en": "Cap de Creus is the easternmost tip of the Iberian Peninsula, a natural park of rocks carved by the tramontana wind into surreal shapes that fascinated Dalí. Its lighthouse, set on sea-battered cliffs, catches one of Spain's earliest sunrises.",
+   "h": "Al amanecer o para ver la puesta de sol sobre la costa",
+   "h_en": "At dawn, or to watch the sun set over the coast",
+   "i": "los paisajes salvajes, los faros y los acantilados",
+   "i_en": "wild landscapes, lighthouses and cliffs"
+  },
+  "cgi_celler_can_roca": {
+   "id": "cgi_celler_can_roca",
+   "d": "El Celler de Can Roca, de los hermanos Joan, Josep y Jordi Roca, es uno de los mejores restaurantes del mundo, dos veces número uno del ranking The World's 50 Best. Sus tres estrellas Michelin premian una cocina creativa que fusiona tradición ampurdanesa y vanguardia.",
+   "d_en": "El Celler de Can Roca, run by brothers Joan, Josep and Jordi Roca, is one of the world's finest restaurants, twice ranked number one in The World's 50 Best. Its three Michelin stars reward creative cooking that fuses Empordà tradition with the avant-garde.",
+   "h": "Reserva con muchos meses de antelación",
+   "h_en": "Book many months in advance",
+   "i": "la alta gastronomía y las experiencias memorables",
+   "i_en": "fine dining and memorable experiences"
+  },
+  "cgi_rocambolesc": {
+   "id": "cgi_rocambolesc",
+   "d": "Rocambolesc es la heladería creativa de Jordi Roca, el pastelero de El Celler de Can Roca. En un local divertidísimo sirve helados artesanos, polos con formas imposibles y el célebre 'panet' relleno, todo con un toque circense y sabores sorprendentes.",
+   "d_en": "Rocambolesc is the playful gelateria of Jordi Roca, the pastry chef of El Celler de Can Roca. In a whimsical shop it serves artisan ice creams, ice lollies in impossible shapes and the famous filled 'panet', all with a circus touch and surprising flavours.",
+   "h": "Como postre después de pasear por el casco antiguo",
+   "h_en": "As dessert after strolling the old town",
+   "i": "los dulces, los helados y las experiencias divertidas",
+   "i_en": "sweets, ice cream and fun experiences"
+  },
+  "cgi_compartir": {
+   "id": "cgi_compartir",
+   "d": "Compartir, en Cadaqués, es el restaurante de Mateu Casañas, Oriol Castro y Eduard Xatruch, tres antiguos cocineros de elBulli. En un patio encalado con buganvillas proponen platos mediterráneos pensados para compartir, con producto de la Costa Brava y técnica de vanguardia.",
+   "d_en": "Compartir, in Cadaqués, is the restaurant of Mateu Casañas, Oriol Castro and Eduard Xatruch, three former elBulli chefs. In a whitewashed patio draped with bougainvillea they offer Mediterranean sharing plates built on Costa Brava produce and avant-garde technique.",
+   "h": "En verano, cena en el patio con reserva previa",
+   "h_en": "In summer, dinner in the patio with a booking",
+   "i": "la cocina mediterránea moderna y compartir mesa",
+   "i_en": "modern Mediterranean cooking and sharing plates"
+  },
+  "cgi_els_tinars": {
+   "id": "cgi_els_tinars",
+   "d": "Restaurant Els Tinars, en Llagostera, es una casa familiar con estrella Michelin dirigida por Marc Gascons y su hermana Elena. Su cocina une la tradición del Empordà y el producto de temporada de la Costa Brava con una técnica precisa y una excelente bodega.",
+   "d_en": "Restaurant Els Tinars, in Llagostera, is a Michelin-starred family house led by Marc Gascons and his sister Elena. Their cooking marries Empordà tradition and seasonal Costa Brava produce with precise technique and an excellent wine list.",
+   "h": "Comida de fin de semana camino de la Costa Brava",
+   "h_en": "A weekend lunch on the way to the Costa Brava",
+   "i": "la cocina de producto, la tradición y la buena mesa",
+   "i_en": "produce-driven cooking, tradition and fine dining"
+  },
+  "cgi_el_motel": {
+   "id": "cgi_el_motel",
+   "d": "El Motel, en el Hotel Empordà de Figueres, es un restaurante legendario considerado cuna de la nueva cocina catalana desde los años sesenta. La familia Subirós mantiene una cocina clásica y de mercado ampurdanesa, con platos de caza, pescado y una bodega notable.",
+   "d_en": "El Motel, in the Hotel Empordà of Figueres, is a legendary restaurant regarded as the birthplace of modern Catalan cuisine since the 1960s. The Subirós family keeps a classic Empordà market kitchen, with game, fish and a notable wine cellar.",
+   "h": "Combínalo con la visita al Teatre-Museu Dalí",
+   "h_en": "Combine it with a visit to the Dalí Theatre-Museum",
+   "i": "la cocina clásica, la historia gastronómica y el vino",
+   "i_en": "classic cooking, culinary history and wine"
+  }
+ },
+ "food": {
+  "cgi_celler_can_roca": {
+   "cuisine": "Alta cocina catalana creativa",
+   "price": "200-250 € por persona (menú degustación)",
+   "hours": "Martes a sábado, comidas y cenas (con reserva)"
+  },
+  "cgi_rocambolesc": {
+   "cuisine": "Heladería y postres artesanos",
+   "price": "4-8 € por persona",
+   "hours": "Todos los días, mediodía y tarde"
+  },
+  "cgi_compartir": {
+   "cuisine": "Mediterránea de autor para compartir",
+   "price": "60-90 € por persona",
+   "hours": "Comidas y cenas (cerrado parte del invierno)"
+  },
+  "cgi_els_tinars": {
+   "cuisine": "Catalana de producto, cocina del Empordà",
+   "price": "80-120 € por persona",
+   "hours": "Comidas y cenas (cerrado domingo noche y lunes)"
+  },
+  "cgi_el_motel": {
+   "cuisine": "Catalana clásica de mercado, cocina del Empordà",
+   "price": "50-80 € por persona",
+   "hours": "Todos los días, comidas y cenas"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Girona / Costa Brava",
+   "items": [
+    {
+     "name": "Recuerdos de Dalí",
+     "price": "8–30 €",
+     "desc": "Del universo surrealista de Figueres, Cadaqués y Púbol."
+    },
+    {
+     "name": "Anchoas de L'Escala",
+     "price": "10–25 €",
+     "desc": "Salazón tradicional del Empordà, muy apreciada."
+    },
+    {
+     "name": "Cerámica de La Bisbal",
+     "price": "8–35 €",
+     "desc": "Alfarería típica del Empordà, colorida y artesanal."
+    }
+   ],
+   "shops": [
+    "Casco antiguo de Girona",
+    "Teatre-Museu Dalí (tienda)",
+    "La Bisbal d'Empordà"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Barcelona se mueve muy bien en metro y a pie; compra online y con antelación las entradas de la Sagrada Família, la Casa Batlló y el Park Güell para evitar colas y agotados.",
+   "Ojo con los carteristas en La Rambla, el metro y las zonas turísticas: lleva lo justo y vigila bolsos y móviles.",
+   "Cataluña es bilingüe (catalán y español); verás muchos carteles y menús en catalán, pero te entenderán en español sin problema.",
+   "La región combina ciudad, playa (Costa Brava y Costa Daurada) y Pirineo (Val d'Aran, Aigüestortes): para el interior y la montaña el coche es casi imprescindible.",
+   "En invierno el norte tiene esquí (Baqueira) y en verano la costa se llena: reserva alojamiento con antelación en temporada alta y festivos."
+  ],
+  "en": [
+   "Barcelona is easy to get around by metro and on foot; buy tickets for the Sagrada Família, Casa Batlló and Park Güell online and in advance to avoid queues and sell-outs.",
+   "Watch out for pickpockets on La Rambla, the metro and tourist areas: carry only what you need and keep an eye on bags and phones.",
+   "Catalonia is bilingual (Catalan and Spanish); you'll see many signs and menus in Catalan, but you'll be understood in Spanish everywhere.",
+   "The region combines city, beaches (Costa Brava and Costa Daurada) and the Pyrenees (Val d'Aran, Aigüestortes): a car is almost essential for the inland and mountain areas.",
+   "In winter the north has skiing (Baqueira) and in summer the coast fills up: book accommodation ahead in high season and on holidays."
+  ]
+ },
+ "climate": {
+  "hi": [
+   13,
+   14,
+   16,
+   18,
+   21,
+   25,
+   28,
+   29,
+   25,
+   21,
+   16,
+   13
+  ],
+  "lo": [
+   5,
+   6,
+   8,
+   10,
+   13,
+   17,
+   20,
+   20,
+   17,
+   13,
+   9,
+   6
+  ]
+ },
+ "tr": {
+  "Catedral gótica con la nave más ancha del gótico mundial y su gran escalinata.": "A Gothic cathedral with the widest Gothic nave in the world and its grand staircase.",
+  "El museo surrealista diseñado por el propio Dalí, coronado de huevos gigantes.": "The surrealist museum designed by Dalí himself, crowned with giant eggs.",
+  "Pueblo blanco de pescadores en el Cap de Creus, refugio de artistas.": "A whitewashed fishing village on Cap de Creus, a haven for artists.",
+  "Único recinto medieval amurallado que sobrevive en la costa catalana.": "The only walled medieval enclave surviving on the Catalan coast.",
+  "Puente románico angular sobre el río Fluvià, entrada a la villa medieval.": "An angular Romanesque bridge over the Fluvià river, the gateway to the medieval town.",
+  "La casa-laberinto de pescadores donde Dalí vivió y pintó junto al mar.": "The labyrinthine fisherman's house where Dalí lived and painted by the sea.",
+  "Yacimiento grecorromano junto al mar, puerta de la cultura clásica en Iberia.": "A Greco-Roman site by the sea, gateway of classical culture into Iberia.",
+  "Uno de los barrios judíos medievales mejor conservados de Europa.": "One of the best-preserved medieval Jewish quarters in Europe.",
+  "Hayedo singular crecido sobre una colada de lava volcánica.": "A remarkable beech forest grown over a volcanic lava flow.",
+  "Zona volcánica con más de 40 conos, entre ellos el cráter de Santa Margarida.": "A volcanic zone with over 40 cones, among them the Santa Margarida crater.",
+  "El mayor lago natural de Cataluña, de origen kárstico y aguas tranquilas.": "The largest natural lake in Catalonia, of karstic origin and calm waters.",
+  "Las coloridas casas colgadas sobre el río, la postal más famosa de Girona.": "The colorful houses hanging over the river, Girona's most famous postcard.",
+  "Iglesia gótica de aguja truncada, con sarcófagos paleocristianos.": "A Gothic church with a truncated spire, home to Early Christian sarcophagi.",
+  "Pueblo marinero de calas y voltes blancas, esencia de la Costa Brava.": "A fishing village of coves and whitewashed voltes, the essence of the Costa Brava.",
+  "Pueblo con castillo y casas indianas sobre calas de agua turquesa.": "A village with a castle and colonial-era mansions above turquoise coves.",
+  "Punto más oriental de la península, de rocas retorcidas y faro sobre el mar.": "The easternmost point of the peninsula, of twisted rocks and a lighthouse above the sea.",
+  "Templo de la alta cocina de los hermanos Roca, tres estrellas Michelin.": "A temple of haute cuisine by the Roca brothers, three Michelin stars.",
+  "La heladería juguetona de Jordi Roca, pura fantasía dulce.": "Jordi Roca's playful ice-cream shop, pure sweet fantasy.",
+  "Cocina mediterránea para compartir de tres chefs de elBulli.": "Mediterranean small plates for sharing from three elBulli chefs.",
+  "Casa familiar con estrella Michelin y raíces en la cocina del Empordà.": "A Michelin-starred family restaurant rooted in the cuisine of the Empordà.",
+  "Restaurante histórico, cuna de la nueva cocina catalana del Empordà.": "A historic restaurant, birthplace of the new Catalan cuisine of the Empordà.",
+  "Girona / Costa Brava": "Girona / Costa Brava"
+ }
+}

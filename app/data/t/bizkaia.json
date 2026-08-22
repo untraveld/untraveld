@@ -1,0 +1,622 @@
+{
+ "id": "bizkaia",
+ "name": "Bizkaia",
+ "country": "ES",
+ "center": [
+  43.26301,
+  -2.92528
+ ],
+ "pois": [
+  {
+   "id": "biz_guggenheim",
+   "cat": "monuments",
+   "name": "Museo Guggenheim Bilbao",
+   "icon": "🏛️",
+   "lat": 43.2687,
+   "lng": -2.9341,
+   "desc": "Icono de titanio de Frank Gehry junto a la ría."
+  },
+  {
+   "id": "biz_casco_viejo",
+   "cat": "monuments",
+   "name": "Casco Viejo y Siete Calles",
+   "icon": "🏘️",
+   "lat": 43.2569,
+   "lng": -2.9236,
+   "desc": "El corazón medieval de Bilbao con sus siete calles originales."
+  },
+  {
+   "id": "biz_puente_bizkaia",
+   "cat": "monuments",
+   "name": "Puente Colgante de Bizkaia",
+   "icon": "🌉",
+   "lat": 43.3228,
+   "lng": -3.0164,
+   "desc": "Puente transbordador Patrimonio de la Humanidad entre Portugalete y Getxo."
+  },
+  {
+   "id": "biz_azkuna",
+   "cat": "monuments",
+   "name": "Azkuna Zentroa (Alhóndiga)",
+   "icon": "🏢",
+   "lat": 43.2633,
+   "lng": -2.9369,
+   "desc": "Antiguo almacén de vinos reconvertido por Philippe Starck."
+  },
+  {
+   "id": "biz_catedral_santiago",
+   "cat": "monuments",
+   "name": "Catedral de Santiago",
+   "icon": "⛪",
+   "lat": 43.2564,
+   "lng": -2.9245,
+   "desc": "Catedral gótica en el corazón del Casco Viejo."
+  },
+  {
+   "id": "biz_gaztelugatxe",
+   "cat": "monuments",
+   "name": "San Juan de Gaztelugatxe",
+   "icon": "⛪",
+   "lat": 43.4471,
+   "lng": -2.7849,
+   "desc": "Ermita sobre un islote unido por 241 escalones."
+  },
+  {
+   "id": "biz_balmaseda",
+   "cat": "monuments",
+   "name": "Balmaseda",
+   "icon": "🏰",
+   "lat": 43.1769,
+   "lng": -3.205,
+   "desc": "La villa más antigua de Bizkaia, con puente medieval."
+  },
+  {
+   "id": "biz_begona",
+   "cat": "monuments",
+   "name": "Basílica de Begoña",
+   "icon": "⛪",
+   "lat": 43.2634,
+   "lng": -2.9195,
+   "desc": "Santuario de la patrona de Bizkaia sobre Bilbao."
+  },
+  {
+   "id": "biz_zubizuri",
+   "cat": "monuments",
+   "name": "Puente Zubizuri",
+   "icon": "🌉",
+   "lat": 43.2637,
+   "lng": -2.9268,
+   "desc": "Pasarela blanca de Calatrava sobre la ría."
+  },
+  {
+   "id": "biz_teatro_arriaga",
+   "cat": "monuments",
+   "name": "Teatro Arriaga",
+   "icon": "🎭",
+   "lat": 43.2576,
+   "lng": -2.9233,
+   "desc": "Teatro neobarroco junto a la ría y el Casco Viejo."
+  },
+  {
+   "id": "biz_mundaka",
+   "cat": "nature",
+   "name": "Mundaka y su ola",
+   "icon": "🏄",
+   "lat": 43.4071,
+   "lng": -2.6967,
+   "desc": "Pueblo marinero con la ola izquierda más famosa de Europa."
+  },
+  {
+   "id": "biz_urdaibai",
+   "cat": "nature",
+   "name": "Reserva de la Biosfera de Urdaibai",
+   "icon": "🌿",
+   "lat": 43.375,
+   "lng": -2.665,
+   "desc": "Estuario protegido por la UNESCO con marismas y aves."
+  },
+  {
+   "id": "biz_bosque_oma",
+   "cat": "nature",
+   "name": "Bosque de Oma (Bosque Animado)",
+   "icon": "🌲",
+   "lat": 43.3319,
+   "lng": -2.6178,
+   "desc": "Pinar pintado por el artista Agustín Ibarrola."
+  },
+  {
+   "id": "biz_artxanda_monte",
+   "cat": "nature",
+   "name": "Monte Artxanda",
+   "icon": "⛰️",
+   "lat": 43.2734,
+   "lng": -2.9299,
+   "desc": "Mirador natural con vistas de todo Bilbao."
+  },
+  {
+   "id": "biz_playa_laida",
+   "cat": "nature",
+   "name": "Playa de Laida",
+   "icon": "🏖️",
+   "lat": 43.4173,
+   "lng": -2.6636,
+   "desc": "Amplia playa de arena fina en Urdaibai."
+  },
+  {
+   "id": "biz_cabo_matxitxako",
+   "cat": "nature",
+   "name": "Cabo Matxitxako",
+   "icon": "🌊",
+   "lat": 43.4567,
+   "lng": -2.752,
+   "desc": "El cabo más septentrional de Bizkaia con faro."
+  },
+  {
+   "id": "biz_funicular_artxanda",
+   "cat": "ocio",
+   "name": "Funicular de Artxanda",
+   "icon": "🚟",
+   "lat": 43.2664,
+   "lng": -2.9286,
+   "desc": "Funicular centenario que sube al monte Artxanda."
+  },
+  {
+   "id": "biz_mercado_ribera",
+   "cat": "ocio",
+   "name": "Mercado de la Ribera",
+   "icon": "🛒",
+   "lat": 43.2556,
+   "lng": -2.9243,
+   "desc": "Gran mercado cubierto a orillas de la ría."
+  },
+  {
+   "id": "biz_bermeo",
+   "cat": "ocio",
+   "name": "Puerto de Bermeo",
+   "icon": "⚓",
+   "lat": 43.4209,
+   "lng": -2.7217,
+   "desc": "Villa marinera de tradición ballenera y pesquera."
+  },
+  {
+   "id": "biz_getxo",
+   "cat": "ocio",
+   "name": "Getxo y el Puerto Viejo",
+   "icon": "🏖️",
+   "lat": 43.3484,
+   "lng": -3.0106,
+   "desc": "Playas, palacios y el pintoresco Puerto Viejo de Algorta."
+  },
+  {
+   "id": "biz_lekeitio",
+   "cat": "ocio",
+   "name": "Lekeitio",
+   "icon": "🏝️",
+   "lat": 43.3647,
+   "lng": -2.5044,
+   "desc": "Villa marinera con playa y la isla de San Nicolás."
+  },
+  {
+   "id": "biz_pintxos_casco",
+   "cat": "food",
+   "name": "Ruta de pintxos del Casco Viejo",
+   "icon": "🍢",
+   "lat": 43.2568,
+   "lng": -2.924,
+   "desc": "Barra tras barra de pintxos por la Plaza Nueva."
+  },
+  {
+   "id": "biz_bacalao_vizcaina",
+   "cat": "food",
+   "name": "Bacalao a la vizcaína",
+   "icon": "🐟",
+   "lat": 43.259,
+   "lng": -2.925,
+   "desc": "El plato emblemático de la cocina vizcaína."
+  },
+  {
+   "id": "biz_marmitako",
+   "cat": "food",
+   "name": "Marmitako de Bermeo",
+   "icon": "🍲",
+   "lat": 43.4208,
+   "lng": -2.722,
+   "desc": "Guiso marinero de bonito y patata."
+  },
+  {
+   "id": "biz_txakoli",
+   "cat": "food",
+   "name": "Txakoli de Bakio",
+   "icon": "🍷",
+   "lat": 43.4284,
+   "lng": -2.806,
+   "desc": "Vino blanco vasco escanciado en altura."
+  },
+  {
+   "id": "biz_talo_txistorra",
+   "cat": "food",
+   "name": "Talo con txistorra",
+   "icon": "🌯",
+   "lat": 43.257,
+   "lng": -2.9235,
+   "desc": "Torta de maíz rellena, típica de ferias."
+  }
+ ],
+ "extra": {
+  "biz_guggenheim": {
+   "id": "biz_guggenheim",
+   "d": "Obra maestra de la arquitectura deconstructivista inaugurada en 1997, transformó Bilbao con su brillante piel de titanio. Alberga arte contemporáneo y esculturas monumentales como Puppy y Mamá.",
+   "d_en": "A masterpiece of deconstructivist architecture opened in 1997, it transformed Bilbao with its shimmering titanium skin. It houses contemporary art and monumental sculptures like Puppy and Maman.",
+   "h": "Mar–Dom 10:00–19:00; lunes cerrado (salvo festivos)",
+   "h_en": "Tue–Sun 10:00–19:00; closed Mondays (except holidays)",
+   "i": "Ideal si te gusta el arte contemporáneo y la arquitectura icónica.",
+   "i_en": "Ideal if you like contemporary art and iconic architecture."
+  },
+  "biz_casco_viejo": {
+   "id": "biz_casco_viejo",
+   "d": "El núcleo histórico de Bilbao nació de las Siete Calles, un laberinto peatonal de comercios centenarios, la Plaza Nueva porticada y una intensa vida de pintxos y ambiente.",
+   "d_en": "Bilbao's historic core grew from the Seven Streets, a pedestrian maze of century-old shops, the arcaded Plaza Nueva and a lively pintxo and street scene.",
+   "h": "Acceso libre 24 h; comercios aprox. 10:00–20:00",
+   "h_en": "Open access 24 h; shops approx. 10:00–20:00",
+   "i": "Ideal si te gusta pasear, comprar y empaparte del ambiente local.",
+   "i_en": "Ideal if you like strolling, shopping and soaking up the local vibe."
+  },
+  "biz_puente_bizkaia": {
+   "id": "biz_puente_bizkaia",
+   "d": "Inaugurado en 1893, es el puente transbordador más antiguo del mundo y Patrimonio de la Humanidad. Su barquilla cruza la ría del Nervión y una pasarela superior ofrece vistas panorámicas.",
+   "d_en": "Opened in 1893, it is the world's oldest transporter bridge and a UNESCO World Heritage Site. Its gondola crosses the Nervión estuary and an upper walkway offers panoramic views.",
+   "h": "Barquilla 24 h; pasarela superior aprox. 10:00–19:00",
+   "h_en": "Gondola 24 h; upper walkway approx. 10:00–19:00",
+   "i": "Ideal si te gusta la ingeniería histórica y las vistas de altura.",
+   "i_en": "Ideal if you like historic engineering and high views."
+  },
+  "biz_azkuna": {
+   "id": "biz_azkuna",
+   "d": "Centro cultural y de ocio diseñado por Philippe Starck dentro de una alhóndiga de 1909. Destacan sus 43 columnas únicas y una piscina con suelo de cristal transitable.",
+   "d_en": "A culture and leisure centre designed by Philippe Starck inside a 1909 wine warehouse. Its 43 unique columns and a glass-bottomed rooftop pool stand out.",
+   "h": "Lun–Dom 07:00–23:00 (áreas varían)",
+   "h_en": "Mon–Sun 07:00–23:00 (areas vary)",
+   "i": "Ideal si te gusta el diseño, el cine y los espacios reinventados.",
+   "i_en": "Ideal if you like design, cinema and reinvented spaces."
+  },
+  "biz_catedral_santiago": {
+   "id": "biz_catedral_santiago",
+   "d": "Templo gótico de los siglos XIV–XV, hito del Camino de Santiago del Norte. Destacan su pórtico, el claustro y una esbelta torre neogótica añadida en el siglo XIX.",
+   "d_en": "A 14th–15th-century Gothic church and landmark of the Northern Way of St. James. Its portico, cloister and slender 19th-century neo-Gothic tower stand out.",
+   "h": "Lun–Sáb 10:00–19:00; Dom horario reducido",
+   "h_en": "Mon–Sat 10:00–19:00; Sun reduced hours",
+   "i": "Ideal si te gusta el arte religioso y la historia medieval.",
+   "i_en": "Ideal if you like religious art and medieval history."
+  },
+  "biz_gaztelugatxe": {
+   "id": "biz_gaztelugatxe",
+   "d": "Espectacular islote coronado por una ermita del siglo X, unido a tierra por un sinuoso puente y una escalera de 241 peldaños. Famoso también por aparecer en Juego de Tronos.",
+   "d_en": "A spectacular islet crowned by a 10th-century hermitage, linked to land by a winding bridge and a 241-step stairway. Also famous as a Game of Thrones location.",
+   "h": "Acceso con reserva previa gratuita; consultar temporada",
+   "h_en": "Access by free advance booking; check season",
+   "i": "Ideal si te gusta el senderismo costero y los paisajes de leyenda.",
+   "i_en": "Ideal if you like coastal hiking and legendary landscapes."
+  },
+  "biz_balmaseda": {
+   "id": "biz_balmaseda",
+   "d": "Fundada en 1199, es la villa más antigua de Bizkaia. Conserva su puente Viejo medieval, iglesias góticas y una Semana Santa viviente declarada de Interés Turístico Nacional.",
+   "d_en": "Founded in 1199, it is the oldest chartered town in Bizkaia. It preserves its medieval Old Bridge, Gothic churches and a living Easter passion of National Tourist Interest.",
+   "h": "Acceso libre a la villa 24 h",
+   "h_en": "Free access to the town 24 h",
+   "i": "Ideal si te gusta la historia medieval y los pueblos con encanto.",
+   "i_en": "Ideal if you like medieval history and charming towns."
+  },
+  "biz_begona": {
+   "id": "biz_begona",
+   "d": "Templo gótico-renacentista dedicado a la Amatxu de Begoña, patrona de Bizkaia. Se alza sobre un cerro con vistas a la ciudad y se accede por el ascensor o las escaleras de Mallona.",
+   "d_en": "A Gothic-Renaissance church dedicated to the Amatxu of Begoña, patron of Bizkaia. It stands on a hill overlooking the city, reached by lift or the Mallona steps.",
+   "h": "Lun–Dom aprox. 09:00–20:00",
+   "h_en": "Mon–Sun approx. 09:00–20:00",
+   "i": "Ideal si te gusta la devoción local y las vistas sobre la ciudad.",
+   "i_en": "Ideal if you like local devotion and views over the city."
+  },
+  "biz_zubizuri": {
+   "id": "biz_zubizuri",
+   "d": "Puente peatonal diseñado por Santiago Calatrava en 1997, de silueta blanca en forma de arco y tablero de cristal. Su nombre significa 'puente blanco' en euskera.",
+   "d_en": "A pedestrian bridge designed by Santiago Calatrava in 1997, with a white arched silhouette and glass deck. Its name means 'white bridge' in Basque.",
+   "h": "Acceso libre 24 h",
+   "h_en": "Open access 24 h",
+   "i": "Ideal si te gusta la arquitectura moderna y los paseos junto al agua.",
+   "i_en": "Ideal if you like modern architecture and waterside walks."
+  },
+  "biz_teatro_arriaga": {
+   "id": "biz_teatro_arriaga",
+   "d": "Inaugurado en 1890 e inspirado en la Ópera de París, es el gran teatro de Bilbao. Su fachada neobarroca preside el Arenal, entre el Casco Viejo y la ría.",
+   "d_en": "Opened in 1890 and inspired by the Paris Opera, it is Bilbao's grand theatre. Its neo-Baroque facade presides over the Arenal, between the Old Town and the river.",
+   "h": "Visitas y espectáculos según programación",
+   "h_en": "Tours and shows per programme",
+   "i": "Ideal si te gusta el teatro, la ópera y la arquitectura del XIX.",
+   "i_en": "Ideal if you like theatre, opera and 19th-century architecture."
+  },
+  "biz_mundaka": {
+   "id": "biz_mundaka",
+   "d": "Encantador pueblo pesquero en la desembocadura de la ría de Urdaibai, célebre por su ola izquierda de arena, una de las mejores del mundo para el surf de nivel.",
+   "d_en": "A charming fishing village at the mouth of the Urdaibai estuary, famous for its left-breaking sandbar wave, one of the world's finest for advanced surfing.",
+   "h": "Acceso libre; ola sujeta a marea y oleaje",
+   "h_en": "Open access; wave depends on tide and swell",
+   "i": "Ideal si te gusta el surf, el mar y los pueblos marineros.",
+   "i_en": "Ideal if you like surfing, the sea and fishing villages."
+  },
+  "biz_urdaibai": {
+   "id": "biz_urdaibai",
+   "d": "Reserva de la Biosfera declarada por la UNESCO en 1984, con marismas, playas, encinares y bosques. Es un paraíso ornitológico y refugio de aves migratorias.",
+   "d_en": "A UNESCO Biosphere Reserve since 1984, with tidal marshes, beaches, holm-oak groves and forests. A birding paradise and haven for migratory species.",
+   "h": "Acceso libre; centros de interpretación con horario propio",
+   "h_en": "Open access; visitor centres keep their own hours",
+   "i": "Ideal si te gusta la naturaleza, las aves y el paisaje protegido.",
+   "i_en": "Ideal if you like nature, birdwatching and protected landscapes."
+  },
+  "biz_bosque_oma": {
+   "id": "biz_bosque_oma",
+   "d": "Obra de land art creada por Agustín Ibarrola en los años 80, donde troncos pintados forman figuras que solo cobran sentido desde puntos concretos del sendero.",
+   "d_en": "A land-art work created by Agustín Ibarrola in the 1980s, where painted trunks form figures that only make sense from specific points along the trail.",
+   "h": "Acceso con reserva previa; consultar temporada",
+   "h_en": "Access by advance booking; check season",
+   "i": "Ideal si te gusta el arte al aire libre y los paseos por el bosque.",
+   "i_en": "Ideal if you like outdoor art and forest walks."
+  },
+  "biz_artxanda_monte": {
+   "id": "biz_artxanda_monte",
+   "d": "Montaña que domina Bilbao desde el norte, con parques, restaurantes y el mejor mirador panorámico de la ciudad y su ría, especialmente al atardecer.",
+   "d_en": "A hill overlooking Bilbao from the north, with parks, restaurants and the finest panoramic viewpoint over the city and its river, especially at sunset.",
+   "h": "Acceso libre 24 h",
+   "h_en": "Open access 24 h",
+   "i": "Ideal si te gusta el senderismo urbano y las vistas panorámicas.",
+   "i_en": "Ideal if you like urban hiking and panoramic views."
+  },
+  "biz_playa_laida": {
+   "id": "biz_playa_laida",
+   "d": "Extensa playa de la ría de Urdaibai, frente a Mundaka, con enormes bancos de arena que cambian con las mareas y vistas a la ermita de San Juan.",
+   "d_en": "A sweeping beach on the Urdaibai estuary, facing Mundaka, with huge sandbanks that shift with the tides and views of the San Juan hermitage.",
+   "h": "Acceso libre; socorrismo en temporada de verano",
+   "h_en": "Open access; lifeguards in summer season",
+   "i": "Ideal si te gusta la playa tranquila y los paisajes de estuario.",
+   "i_en": "Ideal if you like calm beaches and estuary scenery."
+  },
+  "biz_cabo_matxitxako": {
+   "id": "biz_cabo_matxitxako",
+   "d": "Punta rocosa entre Bermeo y Gaztelugatxe, con dos faros y acantilados batidos por el Cantábrico. Excelente para avistar aves marinas y, en primavera, cetáceos.",
+   "d_en": "A rocky headland between Bermeo and Gaztelugatxe, with two lighthouses and cliffs battered by the Bay of Biscay. Great for spotting seabirds and, in spring, cetaceans.",
+   "h": "Acceso libre 24 h",
+   "h_en": "Open access 24 h",
+   "i": "Ideal si te gusta la costa salvaje y observar el mar.",
+   "i_en": "Ideal if you like wild coastline and sea watching."
+  },
+  "biz_funicular_artxanda": {
+   "id": "biz_funicular_artxanda",
+   "d": "En servicio desde 1915, este funicular salva en tres minutos el desnivel hasta la cima de Artxanda, ofreciendo un ascenso panorámico sobre Bilbao.",
+   "d_en": "In service since 1915, this funicular climbs to the top of Artxanda in three minutes, offering a panoramic ride above Bilbao.",
+   "h": "Lun–Dom aprox. 07:15–22:00 (amplía en verano)",
+   "h_en": "Mon–Sun approx. 07:15–22:00 (extended in summer)",
+   "i": "Ideal si te gusta subir a los miradores sin esfuerzo.",
+   "i_en": "Ideal if you like reaching viewpoints effortlessly."
+  },
+  "biz_mercado_ribera": {
+   "id": "biz_mercado_ribera",
+   "d": "Uno de los mercados cubiertos más grandes de Europa, de estilo art déco. Reúne puestos de producto fresco en la planta baja y una animada zona de pintxos y gastronomía.",
+   "d_en": "One of Europe's largest covered markets, in Art Deco style. It gathers fresh-produce stalls on the ground floor and a lively pintxo and food area.",
+   "h": "Lun–Sáb 08:00–20:00 (bares hasta más tarde); Dom cerrado",
+   "h_en": "Mon–Sat 08:00–20:00 (bars later); closed Sun",
+   "i": "Ideal si te gusta el producto local y el ambiente de mercado.",
+   "i_en": "Ideal if you like local produce and market atmosphere."
+  },
+  "biz_bermeo": {
+   "id": "biz_bermeo",
+   "d": "Histórico puerto pesquero con casas de colores, la torre medieval de Ercilla y un puerto viejo lleno de encanto. Cuna de una larga tradición ballenera y atunera.",
+   "d_en": "A historic fishing port with colourful houses, the medieval Ercilla tower and a charming old harbour. Cradle of a long whaling and tuna-fishing tradition.",
+   "h": "Acceso libre; museo y comercios con horario propio",
+   "h_en": "Open access; museum and shops keep their own hours",
+   "i": "Ideal si te gusta el ambiente portuario y la cultura del mar.",
+   "i_en": "Ideal if you like harbour atmosphere and maritime culture."
+  },
+  "biz_getxo": {
+   "id": "biz_getxo",
+   "d": "Elegante municipio costero con un paseo de palacetes indianos, la playa de Ereaga y el laberíntico Puerto Viejo de Algorta, ideal para tomar algo frente al mar.",
+   "d_en": "An elegant coastal town with a promenade of Indiano mansions, Ereaga beach and the maze-like Old Port of Algorta, perfect for a seaside drink.",
+   "h": "Acceso libre 24 h",
+   "h_en": "Open access 24 h",
+   "i": "Ideal si te gusta pasear junto al mar y la arquitectura señorial.",
+   "i_en": "Ideal if you like seaside strolls and stately architecture."
+  },
+  "biz_lekeitio": {
+   "id": "biz_lekeitio",
+   "d": "Bella villa pesquera con dos playas, un puerto animado y la isla de San Nicolás, accesible a pie con la marea baja. Su basílica gótica corona el conjunto.",
+   "d_en": "A beautiful fishing town with two beaches, a lively harbour and San Nicolás island, reachable on foot at low tide. Its Gothic basilica crowns the scene.",
+   "h": "Acceso libre; isla solo con marea baja",
+   "h_en": "Open access; island only at low tide",
+   "i": "Ideal si te gusta la playa, el puerto y los pueblos con encanto.",
+   "i_en": "Ideal if you like beaches, harbours and charming towns."
+  },
+  "biz_pintxos_casco": {
+   "id": "biz_pintxos_casco",
+   "d": "El clásico txikiteo bilbaíno: ir de bar en bar probando pintxos fríos y calientes acompañados de un zurito o un txakoli. La Plaza Nueva es su epicentro los domingos.",
+   "d_en": "The classic Bilbao txikiteo: hopping from bar to bar sampling cold and hot pintxos with a small beer or a txakoli. Plaza Nueva is the epicentre on Sundays.",
+   "h": "Bares aprox. 11:00–15:00 y 19:00–23:00",
+   "h_en": "Bars approx. 11:00–15:00 and 19:00–23:00",
+   "i": "Ideal si te gusta comer picoteando y el ambiente de barra.",
+   "i_en": "Ideal if you like grazing and lively bar scenes."
+  },
+  "biz_bacalao_vizcaina": {
+   "id": "biz_bacalao_vizcaina",
+   "d": "Bacalao desalado cocinado con la característica salsa vizcaína, elaborada con pimiento choricero y cebolla. Un guiso tradicional que encontrarás en asadores y sidrerías.",
+   "d_en": "Salt cod cooked in the characteristic Bizkaian sauce made from choricero peppers and onion. A traditional stew found in grills and cider houses.",
+   "h": "Comidas 13:00–15:30; cenas 20:30–22:30",
+   "h_en": "Lunch 13:00–15:30; dinner 20:30–22:30",
+   "i": "Ideal si te gusta la cocina tradicional de pescado.",
+   "i_en": "Ideal if you like traditional fish cookery."
+  },
+  "biz_marmitako": {
+   "id": "biz_marmitako",
+   "d": "Contundente guiso de origen pesquero elaborado con bonito del norte, patata, pimiento y tomate. Se disfruta especialmente en verano, durante la costera del bonito.",
+   "d_en": "A hearty stew of fishing origin made with albacore tuna, potato, pepper and tomato. Best enjoyed in summer during the tuna season.",
+   "h": "Comidas 13:00–15:30; cenas 20:30–22:30",
+   "h_en": "Lunch 13:00–15:30; dinner 20:30–22:30",
+   "i": "Ideal si te gusta la cocina marinera de cuchara.",
+   "i_en": "Ideal if you like hearty seafood stews."
+  },
+  "biz_txakoli": {
+   "id": "biz_txakoli",
+   "d": "Vino blanco joven, fresco y con una punta de aguja, elaborado en las laderas costeras de Bakio con Denominación de Origen Bizkaiko Txakolina. Muchas bodegas ofrecen visita y cata.",
+   "d_en": "A young, fresh, slightly sparkling white wine made on the coastal slopes of Bakio under the Bizkaiko Txakolina appellation. Many wineries offer tours and tastings.",
+   "h": "Bodegas con visita previa reserva, aprox. 11:00–18:00",
+   "h_en": "Wineries by prior booking, approx. 11:00–18:00",
+   "i": "Ideal si te gusta el enoturismo y los vinos frescos.",
+   "i_en": "Ideal if you like wine tourism and fresh whites."
+  },
+  "biz_talo_txistorra": {
+   "id": "biz_talo_txistorra",
+   "d": "Torta plana de harina de maíz cocinada a la plancha y rellena de txistorra o chorizo, herencia de la cocina rural vasca. Imprescindible en ferias y mercados como Santo Tomás.",
+   "d_en": "A flat corn-flour cake cooked on a griddle and filled with txistorra sausage, a legacy of rural Basque cooking. A must at fairs and markets like Santo Tomás.",
+   "h": "Puestos en ferias y mercados; fines de semana",
+   "h_en": "Stalls at fairs and markets; weekends",
+   "i": "Ideal si te gusta la comida callejera tradicional.",
+   "i_en": "Ideal if you like traditional street food."
+  }
+ },
+ "food": {
+  "biz_pintxos_casco": {
+   "cuisine": "Pintxos vascos",
+   "price": "2–4 € por pintxo",
+   "hours": "11:00–15:00, 19:00–23:00"
+  },
+  "biz_bacalao_vizcaina": {
+   "cuisine": "Cocina vasca tradicional",
+   "price": "16–24 €",
+   "hours": "13:00–15:30, 20:30–22:30"
+  },
+  "biz_marmitako": {
+   "cuisine": "Cocina marinera",
+   "price": "14–20 €",
+   "hours": "13:00–15:30, 20:30–22:30"
+  },
+  "biz_txakoli": {
+   "cuisine": "Enoturismo / vinos",
+   "price": "8–20 €",
+   "hours": "11:00–18:00"
+  },
+  "biz_talo_txistorra": {
+   "cuisine": "Comida tradicional de feria",
+   "price": "4–7 €",
+   "hours": "Ferias y mercados, fines de semana"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Bizkaia",
+   "items": [
+    {
+     "name": "Txapela (boina vasca)",
+     "price": "20–45 €",
+     "desc": "La clásica boina de fieltro, símbolo cultural del País Vasco."
+    },
+    {
+     "name": "Txakoli de Bizkaia",
+     "price": "8–15 €",
+     "desc": "Vino blanco joven, ligeramente espumoso, con Denominación de Origen propia."
+    },
+    {
+     "name": "Bacalao del Puerto",
+     "price": "12–30 €",
+     "desc": "Bacalao salado de calidad, base de recetas emblemáticas como la vizcaína."
+    },
+    {
+     "name": "Merchandising del Guggenheim",
+     "price": "5–40 €",
+     "desc": "Réplicas de Puppy, catálogos y diseño contemporáneo de la tienda del museo."
+    },
+    {
+     "name": "Bufanda del Athletic Club",
+     "price": "15–25 €",
+     "desc": "Colores rojiblancos del club de fútbol más querido de Bilbao."
+    }
+   ],
+   "shops": [
+    "Mercado de la Ribera (Bilbao)",
+    "Tienda del Museo Guggenheim",
+    "Sombrerería Gorostiaga (Casco Viejo)",
+    "Bodegas de txakoli de Bakio",
+    "Mercado de la Plaza Nueva (domingos)"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Compra la Bilbao Bizkaia Card para transporte y descuentos en museos si vas a moverte mucho.",
+   "Reserva online la entrada a Gaztelugatxe: el acceso es gratuito pero con cupo horario limitado.",
+   "El clima es húmedo y cambiante todo el año; lleva siempre chubasquero o paraguas ligero.",
+   "Para los pintxos, la ronda ideal es de barra en barra por el Casco Viejo antes de las 14:00 o hacia las 20:00.",
+   "Consulta las mareas si quieres ver la ola de Mundaka o cruzar a islas como San Nicolás en Lekeitio."
+  ],
+  "en": [
+   "Buy the Bilbao Bizkaia Card for transport and museum discounts if you plan to move around a lot.",
+   "Book Gaztelugatxe online in advance: access is free but limited to timed entry slots.",
+   "The weather is humid and changeable year-round; always carry a raincoat or light umbrella.",
+   "For pintxos, the ideal crawl is bar to bar through the Old Town before 2 pm or around 8 pm.",
+   "Check the tides if you want to see Mundaka's wave or walk to islands like San Nicolás in Lekeitio."
+  ]
+ },
+ "climate": {
+  "hi": [
+   13,
+   14,
+   16,
+   17,
+   20,
+   23,
+   25,
+   26,
+   24,
+   21,
+   16,
+   14
+  ],
+  "lo": [
+   6,
+   6,
+   7,
+   9,
+   12,
+   14,
+   16,
+   17,
+   15,
+   12,
+   9,
+   7
+  ]
+ },
+ "tr": {
+  "Icono de titanio de Frank Gehry junto a la ría.": "Frank Gehry's titanium icon beside the river.",
+  "El corazón medieval de Bilbao con sus siete calles originales.": "Bilbao's medieval heart with its seven original streets.",
+  "Puente transbordador Patrimonio de la Humanidad entre Portugalete y Getxo.": "UNESCO transporter bridge linking Portugalete and Getxo.",
+  "Antiguo almacén de vinos reconvertido por Philippe Starck.": "Former wine warehouse reinvented by Philippe Starck.",
+  "Catedral gótica en el corazón del Casco Viejo.": "Gothic cathedral in the heart of the Old Town.",
+  "Ermita sobre un islote unido por 241 escalones.": "Hermitage on an islet reached by 241 steps.",
+  "La villa más antigua de Bizkaia, con puente medieval.": "The oldest chartered town in Bizkaia, with a medieval bridge.",
+  "Santuario de la patrona de Bizkaia sobre Bilbao.": "Sanctuary of Bizkaia's patron saint above Bilbao.",
+  "Pasarela blanca de Calatrava sobre la ría.": "Calatrava's white footbridge over the estuary.",
+  "Teatro neobarroco junto a la ría y el Casco Viejo.": "Neo-Baroque theatre by the river and Old Town.",
+  "Pueblo marinero con la ola izquierda más famosa de Europa.": "Fishing village with Europe's most famous left-hander wave.",
+  "Estuario protegido por la UNESCO con marismas y aves.": "UNESCO-protected estuary of marshes and birdlife.",
+  "Pinar pintado por el artista Agustín Ibarrola.": "Pine forest painted by artist Agustín Ibarrola.",
+  "Mirador natural con vistas de todo Bilbao.": "Natural viewpoint over the whole of Bilbao.",
+  "Amplia playa de arena fina en Urdaibai.": "Wide fine-sand beach in Urdaibai.",
+  "El cabo más septentrional de Bizkaia con faro.": "Bizkaia's northernmost cape, with a lighthouse.",
+  "Funicular centenario que sube al monte Artxanda.": "Century-old funicular up to Mount Artxanda.",
+  "Gran mercado cubierto a orillas de la ría.": "Grand covered market on the riverbank.",
+  "Villa marinera de tradición ballenera y pesquera.": "Seafaring town of whaling and fishing tradition.",
+  "Playas, palacios y el pintoresco Puerto Viejo de Algorta.": "Beaches, mansions and Algorta's picturesque Old Port.",
+  "Villa marinera con playa y la isla de San Nicolás.": "Fishing town with a beach and San Nicolás island.",
+  "Barra tras barra de pintxos por la Plaza Nueva.": "Bar-hopping for pintxos around Plaza Nueva.",
+  "El plato emblemático de la cocina vizcaína.": "The emblematic dish of Bizkaian cuisine.",
+  "Guiso marinero de bonito y patata.": "Fisherman's stew of tuna and potato.",
+  "Vino blanco vasco escanciado en altura.": "Basque white wine poured from a height.",
+  "Torta de maíz rellena, típica de ferias.": "Corn flatbread filling, typical of fairs.",
+  "Bizkaia": "Bizkaia"
+ }
+}

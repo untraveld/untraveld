@@ -1,0 +1,535 @@
+{
+ "id": "ciudadreal",
+ "name": "Ciudad Real",
+ "country": "ES",
+ "center": [
+  38.98626,
+  -3.92907
+ ],
+ "pois": [
+  {
+   "id": "cre_corral_comedias",
+   "cat": "monuments",
+   "name": "Corral de Comedias de Almagro",
+   "icon": "🎭",
+   "lat": 38.8883,
+   "lng": -3.71187,
+   "desc": "Único corral de comedias del Siglo de Oro que se conserva completo y en uso."
+  },
+  {
+   "id": "cre_plaza_mayor_almagro",
+   "cat": "monuments",
+   "name": "Plaza Mayor de Almagro",
+   "icon": "🏛️",
+   "lat": 38.889,
+   "lng": -3.7126,
+   "desc": "Plaza porticada rectangular con galerías verdes acristaladas, única en España."
+  },
+  {
+   "id": "cre_molinos_criptana",
+   "cat": "monuments",
+   "name": "Molinos de viento de Campo de Criptana",
+   "icon": "🌬️",
+   "lat": 39.4098,
+   "lng": -3.1258,
+   "desc": "Los gigantes del Quijote: molinos blancos sobre la Sierra de los Molinos."
+  },
+  {
+   "id": "cre_catedral_ciudad_real",
+   "cat": "monuments",
+   "name": "Catedral de Santa María del Prado",
+   "icon": "⛪",
+   "lat": 38.986,
+   "lng": -3.9288,
+   "desc": "Catedral gótica de una sola nave, la más ancha de Castilla-La Mancha."
+  },
+  {
+   "id": "cre_puerta_toledo",
+   "cat": "monuments",
+   "name": "Puerta de Toledo",
+   "icon": "🏰",
+   "lat": 38.99417,
+   "lng": -3.92528,
+   "desc": "Puerta fortificada del siglo XIV, única superviviente de la muralla."
+  },
+  {
+   "id": "cre_plaza_villanueva_infantes",
+   "cat": "monuments",
+   "name": "Plaza Mayor de Villanueva de los Infantes",
+   "icon": "🏛️",
+   "lat": 38.73556,
+   "lng": -3.01056,
+   "desc": "Bella plaza barroca en un conjunto histórico de referencia manchega."
+  },
+  {
+   "id": "cre_castillo_calatrava_nueva",
+   "cat": "monuments",
+   "name": "Castillo de Calatrava la Nueva",
+   "icon": "🏰",
+   "lat": 38.68389,
+   "lng": -3.8325,
+   "desc": "Imponente sacro convento-fortaleza de la Orden de Calatrava."
+  },
+  {
+   "id": "cre_museo_teatro_almagro",
+   "cat": "monuments",
+   "name": "Museo Nacional del Teatro",
+   "icon": "🎭",
+   "lat": 38.8897,
+   "lng": -3.7113,
+   "desc": "Único museo estatal dedicado a las artes escénicas en España."
+  },
+  {
+   "id": "cre_plaza_mayor_ciudad_real",
+   "cat": "monuments",
+   "name": "Plaza Mayor de Ciudad Real",
+   "icon": "🏙️",
+   "lat": 38.98639,
+   "lng": -3.92722,
+   "desc": "Centro neurálgico de la capital con el ayuntamiento neogótico."
+  },
+  {
+   "id": "cre_tablas_daimiel",
+   "cat": "nature",
+   "name": "Parque Nacional de las Tablas de Daimiel",
+   "icon": "🦆",
+   "lat": 39.14028,
+   "lng": -3.68306,
+   "desc": "Último tablazo fluvial y humedal manchego declarado Parque Nacional."
+  },
+  {
+   "id": "cre_lagunas_ruidera",
+   "cat": "nature",
+   "name": "Parque Natural de las Lagunas de Ruidera",
+   "icon": "💧",
+   "lat": 38.96139,
+   "lng": -2.86556,
+   "desc": "Rosario de quince lagunas turquesa escalonadas entre travertinos."
+  },
+  {
+   "id": "cre_volcan_cerro_gordo",
+   "cat": "nature",
+   "name": "Volcán de Cerro Gordo",
+   "icon": "🌋",
+   "lat": 38.8975,
+   "lng": -3.8353,
+   "desc": "Cráter volcánico visitable en el Campo de Calatrava."
+  },
+  {
+   "id": "cre_valle_alcudia",
+   "cat": "nature",
+   "name": "Parque Natural del Valle de Alcudia y Sierra Madrona",
+   "icon": "🏞️",
+   "lat": 38.55,
+   "lng": -4.3,
+   "desc": "Extensas dehesas y sierras con una de las mejores trashumancias de España."
+  },
+  {
+   "id": "cre_cueva_montesinos",
+   "cat": "nature",
+   "name": "Cueva de Montesinos",
+   "icon": "🕳️",
+   "lat": 38.935,
+   "lng": -2.855,
+   "desc": "Gruta legendaria del Quijote en el entorno de las Lagunas de Ruidera."
+  },
+  {
+   "id": "cre_museo_vino_valdepenas",
+   "cat": "ocio",
+   "name": "Museo del Vino de Valdepeñas",
+   "icon": "🍷",
+   "lat": 38.7631,
+   "lng": -3.3856,
+   "desc": "Museo que narra la cultura vinícola de la mayor DO manchega."
+  },
+  {
+   "id": "cre_ruta_vino_valdepenas",
+   "cat": "ocio",
+   "name": "Bodegas y Ruta del Vino de Valdepeñas",
+   "icon": "🍇",
+   "lat": 38.7628,
+   "lng": -3.3844,
+   "desc": "Visitas a bodegas históricas de una de las grandes cunas del vino español."
+  },
+  {
+   "id": "cre_parque_gasset",
+   "cat": "ocio",
+   "name": "Parque de Gasset",
+   "icon": "🌳",
+   "lat": 38.9875,
+   "lng": -3.9233,
+   "desc": "El gran pulmón verde y jardín histórico de la capital."
+  },
+  {
+   "id": "cre_museo_quijote_ciudad_real",
+   "cat": "ocio",
+   "name": "Museo del Quijote y Biblioteca Cervantina",
+   "icon": "📖",
+   "lat": 38.98833,
+   "lng": -3.92583,
+   "desc": "Recorrido interactivo por la obra y el mundo de Cervantes."
+  },
+  {
+   "id": "cre_el_corregidor",
+   "cat": "food",
+   "name": "Restaurante El Corregidor (Almagro)",
+   "icon": "🍽️",
+   "lat": 38.88892,
+   "lng": -3.7137,
+   "desc": "Cocina manchega de referencia en una casa señorial de Almagro."
+  },
+  {
+   "id": "cre_venta_quijote",
+   "cat": "food",
+   "name": "Venta del Quijote (Puerto Lápice)",
+   "icon": "🍲",
+   "lat": 39.33306,
+   "lng": -3.4875,
+   "desc": "Venta manchega tradicional evocadora de la posada del Quijote."
+  },
+  {
+   "id": "cre_restaurante_miami",
+   "cat": "food",
+   "name": "Restaurante Miami (Manzanares)",
+   "icon": "🍴",
+   "lat": 38.9986,
+   "lng": -3.3706,
+   "desc": "Clásico restaurante de carretera manchego junto a la antigua N-IV."
+  },
+  {
+   "id": "cre_morada_vargas",
+   "cat": "food",
+   "name": "La Morada de Juan de Vargas (Villanueva de los Infantes)",
+   "icon": "🥘",
+   "lat": 38.735,
+   "lng": -3.011,
+   "desc": "Restaurante con encanto en una casona del Siglo de Oro manchego."
+  }
+ ],
+ "extra": {
+  "cre_corral_comedias": {
+   "id": "cre_corral_comedias",
+   "d": "Patio de comedias del siglo XVII con galerías de madera, sede del Festival Internacional de Teatro Clásico. Un teatro vivo que transporta al público a la época de Cervantes y Lope de Vega.",
+   "d_en": "A 17th-century courtyard theatre with wooden galleries, home of the International Classical Theatre Festival. A living stage that carries visitors back to the age of Cervantes and Lope de Vega.",
+   "h": "Mar-dom 10:00–14:00 y 17:00–20:00 (consultar en festival)",
+   "h_en": "Tue-Sun 10:00–14:00 and 17:00–20:00 (check during festival)",
+   "i": "Ideal si te gusta el teatro clásico y la historia viva del Siglo de Oro.",
+   "i_en": "Ideal if you like classical theatre and living Golden Age history."
+  },
+  "cre_plaza_mayor_almagro": {
+   "id": "cre_plaza_mayor_almagro",
+   "d": "Corazón de Almagro, con soportales de columnas toscanas y balconadas de madera pintadas de verde de influencia centroeuropea, legado de banqueros alemanes Fugger. Rodeada de tabernas y tiendas de encaje.",
+   "d_en": "The heart of Almagro, with Tuscan-columned arcades and green-painted wooden balconies of Central-European influence, a legacy of the Fugger bankers. Ringed by taverns and lace shops.",
+   "h": "Acceso libre todo el día",
+   "h_en": "Open access all day",
+   "i": "Ideal si te gusta la arquitectura singular y pasear por cascos históricos.",
+   "i_en": "Ideal if you like unusual architecture and strolling historic centres."
+  },
+  "cre_molinos_criptana": {
+   "id": "cre_molinos_criptana",
+   "d": "Conjunto de molinos de viento del siglo XVI, algunos con maquinaria original, encaramados a un cerro con vistas al barrio de Albaicín y a la llanura manchega. Escenario mítico de la lucha de Don Quijote contra los gigantes.",
+   "d_en": "A cluster of 16th-century windmills, some with original machinery, perched on a hill overlooking the Albaicín quarter and the Manchego plain. The mythical setting of Don Quixote's battle against the giants.",
+   "h": "Molinos visitables Mar-dom 10:00–14:00 y 16:00–19:00; exterior libre",
+   "h_en": "Interiors Tue-Sun 10:00–14:00 and 16:00–19:00; exterior free",
+   "i": "Ideal si te gusta el universo del Quijote y las postales de La Mancha.",
+   "i_en": "Ideal if you love the world of Don Quixote and postcard La Mancha."
+  },
+  "cre_catedral_ciudad_real": {
+   "id": "cre_catedral_ciudad_real",
+   "d": "Templo de los siglos XV-XVI con una imponente nave única, retablo barroco de Giraldo de Merlo y la venerada imagen de la patrona de Ciudad Real. Su amplitud interior sorprende a todo el que entra.",
+   "d_en": "A 15th-16th-century church with an imposing single nave, a Baroque altarpiece by Giraldo de Merlo and the revered image of Ciudad Real's patron saint. Its interior breadth surprises every visitor.",
+   "h": "Lun-sáb 10:00–13:00 y 18:00–20:00; dom culto",
+   "h_en": "Mon-Sat 10:00–13:00 and 18:00–20:00; Sun worship",
+   "i": "Ideal si te gusta el arte gótico y los grandes espacios sacros.",
+   "i_en": "Ideal if you like Gothic art and grand sacred spaces."
+  },
+  "cre_puerta_toledo": {
+   "id": "cre_puerta_toledo",
+   "d": "Monumento nacional mandado construir por Alfonso XI, con doble arco entre torreones y escudos heráldicos. Es el símbolo por excelencia de Ciudad Real y vestigio de su antiguo recinto amurallado.",
+   "d_en": "A national monument commissioned by Alfonso XI, with a double arch between towers and heraldic shields. It is the quintessential symbol of Ciudad Real and a relic of its old walled enclosure.",
+   "h": "Exterior visitable todo el día",
+   "h_en": "Exterior viewable all day",
+   "i": "Ideal si te gusta la arquitectura medieval y la historia local.",
+   "i_en": "Ideal if you like medieval architecture and local history."
+  },
+  "cre_plaza_villanueva_infantes": {
+   "id": "cre_plaza_villanueva_infantes",
+   "d": "Plaza porticada presidida por la iglesia de San Andrés, donde está enterrado Francisco de Quevedo. El pueblo se considera candidato al 'lugar de la Mancha' cuyo nombre Cervantes no quiso recordar.",
+   "d_en": "An arcaded square dominated by the church of San Andrés, where writer Francisco de Quevedo is buried. The town is a leading candidate for the 'place in La Mancha' Cervantes chose not to name.",
+   "h": "Acceso libre todo el día",
+   "h_en": "Open access all day",
+   "i": "Ideal si te gusta la literatura del Siglo de Oro y los cascos monumentales.",
+   "i_en": "Ideal if you like Golden Age literature and monumental old towns."
+  },
+  "cre_castillo_calatrava_nueva": {
+   "id": "cre_castillo_calatrava_nueva",
+   "d": "Conjunto medieval del siglo XIII encaramado a un cerro en Aldea del Rey, sede de la poderosa orden militar. Murallas, iglesia con rosetón de alabastro y vistas panorámicas del Campo de Calatrava.",
+   "d_en": "A 13th-century medieval complex perched on a hill in Aldea del Rey, seat of the powerful military order. Walls, a church with an alabaster rose window and sweeping views over the Campo de Calatrava.",
+   "h": "Mar-dom 10:00–14:00 y 16:00–18:00 (verano hasta 20:00)",
+   "h_en": "Tue-Sun 10:00–14:00 and 16:00–18:00 (summer until 20:00)",
+   "i": "Ideal si te gustan los castillos y las órdenes militares medievales.",
+   "i_en": "Ideal if you like castles and medieval military orders."
+  },
+  "cre_museo_teatro_almagro": {
+   "id": "cre_museo_teatro_almagro",
+   "d": "Instalado en Almagro, conserva figurines, maquetas, bocetos, títeres y objetos de la historia del teatro español, desde el Siglo de Oro hasta la actualidad. Complemento perfecto del Corral de Comedias.",
+   "d_en": "Housed in Almagro, it holds costume designs, models, sketches, puppets and objects from the history of Spanish theatre, from the Golden Age to today. The perfect complement to the Corral de Comedias.",
+   "h": "Mar-sáb 10:00–14:00 y 16:00–19:00; dom 11:00–14:00",
+   "h_en": "Tue-Sat 10:00–14:00 and 16:00–19:00; Sun 11:00–14:00",
+   "i": "Ideal si te gusta el teatro y la historia de las artes escénicas.",
+   "i_en": "Ideal if you like theatre and the history of the performing arts."
+  },
+  "cre_plaza_mayor_ciudad_real": {
+   "id": "cre_plaza_mayor_ciudad_real",
+   "d": "Amplia plaza porticada presidida por la Casa Consistorial neogótica y el reloj carillón que a ciertas horas saca a Don Quijote y Sancho. Punto de encuentro, terrazas y comercio del corazón de Ciudad Real.",
+   "d_en": "A wide arcaded square dominated by the neo-Gothic town hall and a carillon clock that, at set hours, brings out Don Quixote and Sancho. A meeting point of terraces and shops in the heart of Ciudad Real.",
+   "h": "Acceso libre todo el día",
+   "h_en": "Open access all day",
+   "i": "Ideal si te gusta el ambiente urbano y las plazas con encanto.",
+   "i_en": "Ideal if you like city buzz and charming squares."
+  },
+  "cre_tablas_daimiel": {
+   "id": "cre_tablas_daimiel",
+   "d": "Reserva de la Biosfera donde confluyen los ríos Guadiana y Gigüela, con pasarelas e islas para observar aves acuáticas como garzas, ánsares y aguiluchos. Un frágil paraíso ornitológico en plena llanura.",
+   "d_en": "A Biosphere Reserve where the Guadiana and Gigüela rivers meet, with boardwalks and islands for watching herons, geese and marsh harriers. A fragile birdwatching paradise on the open plain.",
+   "h": "Centro de visitantes 9:00–18:30 (verano hasta 21:00)",
+   "h_en": "Visitor centre 9:00–18:30 (summer until 21:00)",
+   "i": "Ideal si te gusta la observación de aves y los humedales.",
+   "i_en": "Ideal if you like birdwatching and wetlands."
+  },
+  "cre_lagunas_ruidera": {
+   "id": "cre_lagunas_ruidera",
+   "d": "Cadena de lagunas unidas por cascadas y barreras de toba a lo largo del alto Guadiana, entre Ciudad Real y Albacete. Aguas cristalinas para baño, kayak y senderismo en un paisaje casi tropical.",
+   "d_en": "A chain of lagoons linked by waterfalls and tufa barriers along the upper Guadiana, between Ciudad Real and Albacete. Crystal-clear waters for swimming, kayaking and hiking in an almost tropical landscape.",
+   "h": "Acceso libre; centro de interpretación 10:00–14:00 y 16:00–18:00",
+   "h_en": "Free access; interpretation centre 10:00–14:00 and 16:00–18:00",
+   "i": "Ideal si te gusta el agua, el baño natural y el senderismo.",
+   "i_en": "Ideal if you like water, wild swimming and hiking."
+  },
+  "cre_volcan_cerro_gordo": {
+   "id": "cre_volcan_cerro_gordo",
+   "d": "Uno de los volcanes mejor conservados de la región volcánica del Campo de Calatrava, en Granátula de Calatrava, con sendero hasta el cráter y paneles geológicos. Recuerdo de un pasado eruptivo poco conocido de España.",
+   "d_en": "One of the best-preserved volcanoes in the Campo de Calatrava volcanic field, in Granátula de Calatrava, with a trail to the crater and geological panels. A reminder of a little-known eruptive past in Spain.",
+   "h": "Acceso libre; visitas guiadas con reserva",
+   "h_en": "Free access; guided visits by booking",
+   "i": "Ideal si te gusta la geología y los paisajes volcánicos.",
+   "i_en": "Ideal if you like geology and volcanic landscapes."
+  },
+  "cre_valle_alcudia": {
+   "id": "cre_valle_alcudia",
+   "d": "Gran espacio protegido de pastizales, encinares y sierras cuarcíticas al sur de la provincia, refugio de lince, buitre negro y ciervo. Cielos oscuros ideales para astronomía y pinturas rupestres en Fuencaliente.",
+   "d_en": "A large protected area of grasslands, holm-oak woods and quartzite ranges in the south of the province, home to lynx, black vulture and deer. Dark skies ideal for stargazing and rock art near Fuencaliente.",
+   "h": "Acceso libre todo el año",
+   "h_en": "Free access year-round",
+   "i": "Ideal si te gusta la naturaleza salvaje, la fauna y los cielos estrellados.",
+   "i_en": "Ideal if you like wild nature, wildlife and starry skies."
+  },
+  "cre_cueva_montesinos": {
+   "id": "cre_cueva_montesinos",
+   "d": "Cavidad natural donde Cervantes ambientó uno de los episodios más oníricos de la segunda parte del Quijote. Se accede por un sendero entre lagunas y encinares del alto Guadiana.",
+   "d_en": "A natural cavity where Cervantes set one of the most dreamlike episodes of the second part of Don Quixote. Reached by a footpath among the lagoons and holm oaks of the upper Guadiana.",
+   "h": "Acceso libre; recomendable linterna",
+   "h_en": "Free access; torch recommended",
+   "i": "Ideal si te gusta unir literatura y naturaleza en una ruta.",
+   "i_en": "Ideal if you like combining literature and nature on a walk."
+  },
+  "cre_museo_vino_valdepenas": {
+   "id": "cre_museo_vino_valdepenas",
+   "d": "Ubicado en una antigua bodega, muestra tinajas, prensas y aperos junto a proyecciones sobre la elaboración del vino de Valdepeñas. Suele incluir cata para descubrir el Cencibel local.",
+   "d_en": "Set in an old winery, it displays clay vats, presses and tools alongside films on Valdepeñas winemaking. Visits often include a tasting to discover the local Cencibel grape.",
+   "h": "Mar-sáb 10:00–14:00 y 17:00–19:00; dom 10:00–14:00",
+   "h_en": "Tue-Sat 10:00–14:00 and 17:00–19:00; Sun 10:00–14:00",
+   "i": "Ideal si te gusta el enoturismo y la cultura del vino.",
+   "i_en": "Ideal if you like wine tourism and wine culture."
+  },
+  "cre_ruta_vino_valdepenas": {
+   "id": "cre_ruta_vino_valdepenas",
+   "d": "Valdepeñas concentra decenas de bodegas, muchas visitables, donde catar tintos de Tempranillo y conocer las tinajas de barro tradicionales. La Ruta del Vino combina enología, gastronomía y patrimonio.",
+   "d_en": "Valdepeñas concentrates dozens of wineries, many open to visits, where you can taste Tempranillo reds and see traditional clay vats. The Wine Route blends enology, gastronomy and heritage.",
+   "h": "Según bodega, habitualmente 10:00–14:00 y 17:00–19:00 con reserva",
+   "h_en": "Varies by winery, usually 10:00–14:00 and 17:00–19:00 by booking",
+   "i": "Ideal si te gusta catar vinos y visitar bodegas.",
+   "i_en": "Ideal if you like tasting wines and visiting wineries."
+  },
+  "cre_parque_gasset": {
+   "id": "cre_parque_gasset",
+   "d": "Parque urbano de finales del siglo XIX con estanque, glorietas, esculturas y un característico reloj de flores. Lugar de paseo, patos y ocio familiar en el centro de Ciudad Real.",
+   "d_en": "A late-19th-century urban park with a pond, bandstands, sculptures and a signature floral clock. A spot for strolling, ducks and family leisure in central Ciudad Real.",
+   "h": "Abierto todo el día",
+   "h_en": "Open all day",
+   "i": "Ideal si te gusta relajarte al aire libre en plena ciudad.",
+   "i_en": "Ideal if you like relaxing outdoors in the middle of the city."
+  },
+  "cre_museo_quijote_ciudad_real": {
+   "id": "cre_museo_quijote_ciudad_real",
+   "d": "Espacio museográfico en Ciudad Real que sumerge al visitante en las aventuras de Don Quijote mediante escenografías y recreaciones, junto a una destacada biblioteca cervantina con ediciones de todo el mundo.",
+   "d_en": "A museum space in Ciudad Real that immerses visitors in Don Quixote's adventures through sets and recreations, alongside a notable Cervantine library with editions from around the world.",
+   "h": "Mar-sáb 10:00–14:00 y 17:00–20:00; dom 10:00–14:00",
+   "h_en": "Tue-Sat 10:00–14:00 and 17:00–20:00; Sun 10:00–14:00",
+   "i": "Ideal si te gusta la literatura y las experiencias interactivas.",
+   "i_en": "Ideal if you like literature and interactive experiences."
+  },
+  "cre_el_corregidor": {
+   "id": "cre_el_corregidor",
+   "d": "Restaurante instalado en un edificio del siglo XVI con patio, donde brillan las berenjenas de Almagro, el pisto manchego, las migas y los platos de caza y cordero regados con vinos de Valdepeñas.",
+   "d_en": "A restaurant set in a 16th-century building with a courtyard, showcasing Almagro aubergines, pisto manchego, migas and game and lamb dishes paired with Valdepeñas wines.",
+   "h": "Mar-dom 13:30–16:00 y 21:00–23:00",
+   "h_en": "Tue-Sun 13:30–16:00 and 21:00–23:00",
+   "i": "Ideal si te gusta la gastronomía manchega y las berenjenas de Almagro.",
+   "i_en": "Ideal if you like Manchego cuisine and Almagro aubergines."
+  },
+  "cre_venta_quijote": {
+   "id": "cre_venta_quijote",
+   "d": "Antigua venta con patio empedrado, tinajas y aperos, donde probar duelos y quebrantos, gachas, cordero y migas en el ambiente que Cervantes describió. Parada clásica de la Ruta del Quijote.",
+   "d_en": "An old inn with a cobbled courtyard, clay vats and farm tools, where you can try duelos y quebrantos, gachas, lamb and migas in the setting Cervantes described. A classic stop on the Quixote Route.",
+   "h": "Todos los días 13:00–16:30 y 20:30–23:00",
+   "h_en": "Daily 13:00–16:30 and 20:30–23:00",
+   "i": "Ideal si te gusta la comida típica y el ambiente quijotesco.",
+   "i_en": "Ideal if you like typical food and a Quixote atmosphere."
+  },
+  "cre_restaurante_miami": {
+   "id": "cre_restaurante_miami",
+   "d": "Institución gastronómica de Manzanares desde mediados del siglo XX, famosa por su cocina manchega generosa: pisto, perdiz estofada, cordero asado y postres caseros. Parada obligada entre Madrid y Andalucía.",
+   "d_en": "A Manzanares gastronomic institution since the mid-20th century, famed for hearty Manchego cooking: pisto, stewed partridge, roast lamb and homemade desserts. A must-stop between Madrid and Andalusia.",
+   "h": "Todos los días 13:00–16:00 y 20:30–23:00",
+   "h_en": "Daily 13:00–16:00 and 20:30–23:00",
+   "i": "Ideal si te gusta la cocina tradicional abundante y la caza.",
+   "i_en": "Ideal if you like hearty traditional cooking and game."
+  },
+  "cre_morada_vargas": {
+   "id": "cre_morada_vargas",
+   "d": "Ubicado en una casa palaciega del casco histórico de Villanueva de los Infantes, ofrece cocina manchega actualizada con productos de la tierra, quesos, caza y vinos del entorno de Valdepeñas.",
+   "d_en": "Set in a mansion in the historic centre of Villanueva de los Infantes, it serves updated Manchego cuisine with local produce, cheeses, game and wines from the Valdepeñas area.",
+   "h": "Mié-dom 13:30–16:00 y 21:00–23:00",
+   "h_en": "Wed-Sun 13:30–16:00 and 21:00–23:00",
+   "i": "Ideal si te gusta la buena mesa en entornos históricos.",
+   "i_en": "Ideal if you like fine dining in historic settings."
+  }
+ },
+ "food": {
+  "cre_el_corregidor": {
+   "cuisine": "Manchega tradicional",
+   "price": "30–55 €",
+   "hours": "Mar-dom 13:30–16:00 y 21:00–23:00; cerrado lun"
+  },
+  "cre_venta_quijote": {
+   "cuisine": "Manchega tradicional",
+   "price": "20–40 €",
+   "hours": "Todos los días 13:00–16:30 y 20:30–23:00"
+  },
+  "cre_restaurante_miami": {
+   "cuisine": "Manchega tradicional",
+   "price": "25–45 €",
+   "hours": "Todos los días 13:00–16:00 y 20:30–23:00"
+  },
+  "cre_morada_vargas": {
+   "cuisine": "Manchega de autor",
+   "price": "25–45 €",
+   "hours": "Mié-dom 13:30–16:00 y 21:00–23:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Ciudad Real",
+   "items": [
+    {
+     "name": "Berenjenas de Almagro IGP",
+     "price": "4–8 €",
+     "desc": "Berenjenas encurtidas en tarro, la conserva más típica de la provincia."
+    },
+    {
+     "name": "Vino DO Valdepeñas",
+     "price": "4–15 €",
+     "desc": "Tintos de Cencibel (Tempranillo) y blancos de una de las mayores denominaciones de España."
+    },
+    {
+     "name": "Encaje de bolillos de Almagro",
+     "price": "15–60 €",
+     "desc": "Blondas y puntillas hechas a mano según tradición secular manchega."
+    },
+    {
+     "name": "Queso Manchego DOP",
+     "price": "10–25 €",
+     "desc": "Queso curado de oveja manchega, seña de identidad de la región."
+    }
+   ],
+   "shops": [
+    "Tiendas de artesanía junto al Corral de Comedias (Almagro)",
+    "Bodegas y enotecas de Valdepeñas",
+    "Cooperativas queseras de la comarca",
+    "Mercado y comercios del centro de Ciudad Real"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Reserva con antelación entradas para el Corral de Comedias de Almagro, sobre todo durante el Festival de Teatro Clásico de julio.",
+   "En los molinos de Campo de Criptana ve a primera hora o al atardecer para ver la luz dorada sobre La Mancha y evitar el calor.",
+   "Visita las Tablas de Daimiel y las Lagunas de Ruidera al amanecer para observar aves y disfrutar del agua con menos gente.",
+   "En verano el interior manchego supera con facilidad los 35 °C: lleva agua, gorra y protección solar en rutas y volcanes.",
+   "Aprovecha para hacer enoturismo en Valdepeñas: muchas bodegas ofrecen visitas guiadas con cata previa reserva."
+  ],
+  "en": [
+   "Book Corral de Comedias tickets in Almagro well ahead, especially during the July Classical Theatre Festival.",
+   "Visit the Campo de Criptana windmills early morning or at sunset for golden light over La Mancha and to avoid the heat.",
+   "See Las Tablas de Daimiel and Lagunas de Ruidera at dawn for birdwatching and quieter waterside walks.",
+   "Summers inland easily top 35 °C: carry water, a hat and sunscreen on trails and volcano hikes.",
+   "Enjoy wine tourism in Valdepeñas: many wineries offer guided tours with tastings if booked in advance."
+  ]
+ },
+ "climate": {
+  "hi": [
+   11,
+   13,
+   17,
+   20,
+   25,
+   31,
+   35,
+   34,
+   29,
+   22,
+   15,
+   11
+  ],
+  "lo": [
+   2,
+   3,
+   5,
+   8,
+   11,
+   16,
+   19,
+   19,
+   15,
+   10,
+   6,
+   3
+  ]
+ },
+ "tr": {
+  "Único corral de comedias del Siglo de Oro que se conserva completo y en uso.": "The only Golden Age playhouse preserved intact and still in use.",
+  "Plaza porticada rectangular con galerías verdes acristaladas, única en España.": "Rectangular arcaded square with green glazed galleries, unique in Spain.",
+  "Los gigantes del Quijote: molinos blancos sobre la Sierra de los Molinos.": "The giants of Don Quixote: white windmills on the Sierra de los Molinos.",
+  "Catedral gótica de una sola nave, la más ancha de Castilla-La Mancha.": "Gothic single-nave cathedral, the widest in Castilla-La Mancha.",
+  "Puerta fortificada del siglo XIV, única superviviente de la muralla.": "14th-century fortified gate, the last survivor of the city wall.",
+  "Bella plaza barroca en un conjunto histórico de referencia manchega.": "Beautiful Baroque square in a landmark Manchego historic centre.",
+  "Imponente sacro convento-fortaleza de la Orden de Calatrava.": "Imposing monastery-fortress of the Order of Calatrava.",
+  "Único museo estatal dedicado a las artes escénicas en España.": "Spain's only state museum devoted to the performing arts.",
+  "Centro neurálgico de la capital con el ayuntamiento neogótico.": "The capital's nerve centre with its neo-Gothic town hall.",
+  "Último tablazo fluvial y humedal manchego declarado Parque Nacional.": "The last river-flood wetland of La Mancha, a National Park.",
+  "Rosario de quince lagunas turquesa escalonadas entre travertinos.": "A string of fifteen turquoise lagoons stepped over travertine dams.",
+  "Cráter volcánico visitable en el Campo de Calatrava.": "A walkable volcanic crater in the Campo de Calatrava.",
+  "Extensas dehesas y sierras con una de las mejores trashumancias de España.": "Vast dehesa pastures and ranges with some of Spain's finest transhumance.",
+  "Gruta legendaria del Quijote en el entorno de las Lagunas de Ruidera.": "The legendary Quixote cave near the Lagunas de Ruidera.",
+  "Museo que narra la cultura vinícola de la mayor DO manchega.": "A museum telling the wine culture of the largest Manchego DO.",
+  "Visitas a bodegas históricas de una de las grandes cunas del vino español.": "Tours of historic wineries in one of Spain's great wine cradles.",
+  "El gran pulmón verde y jardín histórico de la capital.": "The capital's great green lung and historic garden.",
+  "Recorrido interactivo por la obra y el mundo de Cervantes.": "An interactive journey through Cervantes' work and world.",
+  "Cocina manchega de referencia en una casa señorial de Almagro.": "Landmark Manchego cuisine in a stately house in Almagro.",
+  "Venta manchega tradicional evocadora de la posada del Quijote.": "A traditional Manchego inn evoking Don Quixote's tavern.",
+  "Clásico restaurante de carretera manchego junto a la antigua N-IV.": "A classic Manchego roadside restaurant by the old N-IV.",
+  "Restaurante con encanto en una casona del Siglo de Oro manchego.": "A charming restaurant in a Golden Age Manchego mansion.",
+  "Ciudad Real": "Ciudad Real"
+ }
+}

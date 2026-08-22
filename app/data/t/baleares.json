@@ -1,0 +1,703 @@
+{
+ "id": "baleares",
+ "name": "Islas Baleares",
+ "country": "ES",
+ "center": [
+  39.56958,
+  2.6502
+ ],
+ "pois": [
+  {
+   "id": "bal_catedral_palma",
+   "cat": "monuments",
+   "name": "Catedral de Palma (La Seu)",
+   "icon": "⛪",
+   "lat": 39.5671,
+   "lng": 2.6422,
+   "desc": "Colosal catedral gótica frente al mar, símbolo de Palma."
+  },
+  {
+   "id": "bal_castillo_bellver",
+   "cat": "monuments",
+   "name": "Castillo de Bellver",
+   "icon": "🏰",
+   "lat": 39.56472,
+   "lng": 2.61944,
+   "desc": "Fortaleza circular gótica sobre una colina de Palma."
+  },
+  {
+   "id": "bal_almudaina",
+   "cat": "monuments",
+   "name": "Palacio Real de la Almudaina",
+   "icon": "🏛️",
+   "lat": 39.56583,
+   "lng": 2.64528,
+   "desc": "Antiguo alcázar árabe convertido en palacio real."
+  },
+  {
+   "id": "bal_lonja_palma",
+   "cat": "monuments",
+   "name": "Sa Llotja de Palma",
+   "icon": "🏛️",
+   "lat": 39.56694,
+   "lng": 2.64306,
+   "desc": "Joya del gótico civil junto al puerto de Palma."
+  },
+  {
+   "id": "bal_cartuja_valldemossa",
+   "cat": "monuments",
+   "name": "Real Cartuja de Valldemossa",
+   "icon": "⛪",
+   "lat": 39.7113,
+   "lng": 2.6222,
+   "desc": "Monasterio donde vivieron Chopin y George Sand."
+  },
+  {
+   "id": "bal_alcudia",
+   "cat": "monuments",
+   "name": "Casco antiguo y murallas de Alcúdia",
+   "icon": "🏰",
+   "lat": 39.85306,
+   "lng": 3.12083,
+   "desc": "Ciudad medieval amurallada en el norte de Mallorca."
+  },
+  {
+   "id": "bal_ciutadella",
+   "cat": "monuments",
+   "name": "Ciutadella de Menorca",
+   "icon": "⛪",
+   "lat": 40.00167,
+   "lng": 3.83861,
+   "desc": "Casco histórico señorial y catedral gótica de Menorca."
+  },
+  {
+   "id": "bal_naveta_tudons",
+   "cat": "monuments",
+   "name": "Naveta des Tudons",
+   "icon": "🗿",
+   "lat": 39.98944,
+   "lng": 3.87556,
+   "desc": "Monumento funerario prehistórico único en Menorca."
+  },
+  {
+   "id": "bal_talati",
+   "cat": "monuments",
+   "name": "Talatí de Dalt",
+   "icon": "🗿",
+   "lat": 39.90083,
+   "lng": 4.18306,
+   "desc": "Poblado talayótico con impresionante taula."
+  },
+  {
+   "id": "bal_dalt_vila",
+   "cat": "monuments",
+   "name": "Dalt Vila (Ibiza)",
+   "icon": "🏰",
+   "lat": 38.90694,
+   "lng": 1.43583,
+   "desc": "Ciudad amurallada renacentista sobre Eivissa."
+  },
+  {
+   "id": "bal_serra_tramuntana",
+   "cat": "nature",
+   "name": "Serra de Tramuntana",
+   "icon": "⛰️",
+   "lat": 39.80889,
+   "lng": 2.80889,
+   "desc": "Cordillera Patrimonio Mundial en el norte de Mallorca."
+  },
+  {
+   "id": "bal_cap_formentor",
+   "cat": "nature",
+   "name": "Cap de Formentor",
+   "icon": "🌊",
+   "lat": 39.9617,
+   "lng": 3.2116,
+   "desc": "Espectacular cabo con faro en el extremo norte."
+  },
+  {
+   "id": "bal_sa_calobra",
+   "cat": "nature",
+   "name": "Sa Calobra y Torrent de Pareis",
+   "icon": "🏞️",
+   "lat": 39.85417,
+   "lng": 2.79861,
+   "desc": "Cala encajonada al final de un cañón espectacular."
+  },
+  {
+   "id": "bal_cala_macarella",
+   "cat": "nature",
+   "name": "Cala Macarella",
+   "icon": "🏖️",
+   "lat": 39.93417,
+   "lng": 3.93556,
+   "desc": "Cala virgen de arena blanca y agua turquesa."
+  },
+  {
+   "id": "bal_cami_cavalls",
+   "cat": "nature",
+   "name": "Camí de Cavalls",
+   "icon": "🥾",
+   "lat": 39.95389,
+   "lng": 4.26833,
+   "desc": "Sendero histórico que rodea toda Menorca."
+  },
+  {
+   "id": "bal_ses_salines_ibiza",
+   "cat": "nature",
+   "name": "Ses Salines (Ibiza)",
+   "icon": "🦩",
+   "lat": 38.73778,
+   "lng": 1.38861,
+   "desc": "Parque natural de salinas, dunas y playa."
+  },
+  {
+   "id": "bal_cala_comte",
+   "cat": "nature",
+   "name": "Cala Comte (Cala Conta)",
+   "icon": "🌅",
+   "lat": 38.95861,
+   "lng": 1.22278,
+   "desc": "Cala de aguas turquesa famosa por sus atardeceres."
+  },
+  {
+   "id": "bal_ses_illetes",
+   "cat": "nature",
+   "name": "Platja de Ses Illetes (Formentera)",
+   "icon": "🏝️",
+   "lat": 38.74417,
+   "lng": 1.43389,
+   "desc": "Playa caribeña en el parque natural de Formentera."
+  },
+  {
+   "id": "bal_tren_soller",
+   "cat": "ocio",
+   "name": "Tren de Sóller",
+   "icon": "🚂",
+   "lat": 39.76639,
+   "lng": 2.71583,
+   "desc": "Tren histórico de madera entre Palma y Sóller."
+  },
+  {
+   "id": "bal_cuevas_drach",
+   "cat": "ocio",
+   "name": "Cuevas del Drach",
+   "icon": "💧",
+   "lat": 39.53722,
+   "lng": 3.29278,
+   "desc": "Grandes cuevas con lago subterráneo y concierto."
+  },
+  {
+   "id": "bal_mao_puerto",
+   "cat": "ocio",
+   "name": "Puerto de Mahón (Maó)",
+   "icon": "⚓",
+   "lat": 39.89194,
+   "lng": 4.27083,
+   "desc": "Uno de los mayores puertos naturales del mundo."
+  },
+  {
+   "id": "bal_sant_antoni",
+   "cat": "ocio",
+   "name": "Sant Antoni de Portmany",
+   "icon": "🌇",
+   "lat": 38.98139,
+   "lng": 1.30389,
+   "desc": "Bahía famosa por sus atardeceres y su ocio."
+  },
+  {
+   "id": "bal_port_soller",
+   "cat": "ocio",
+   "name": "Port de Sóller",
+   "icon": "⛵",
+   "lat": 39.79556,
+   "lng": 2.69417,
+   "desc": "Bahía en herradura con playa, tranvía y faros."
+  },
+  {
+   "id": "bal_passeig_born",
+   "cat": "ocio",
+   "name": "Passeig des Born (Palma)",
+   "icon": "🛍️",
+   "lat": 39.57,
+   "lng": 2.65,
+   "desc": "Elegante bulevar de compras en el corazón de Palma."
+  },
+  {
+   "id": "bal_mercat_olivar",
+   "cat": "food",
+   "name": "Mercat de l'Olivar (Palma)",
+   "icon": "🥘",
+   "lat": 39.57389,
+   "lng": 2.65472,
+   "desc": "Mercado histórico de Palma con productos y tapeo."
+  },
+  {
+   "id": "bal_can_joan_saigo",
+   "cat": "food",
+   "name": "Ca'n Joan de s'Aigo (Palma)",
+   "icon": "🍫",
+   "lat": 39.57083,
+   "lng": 2.65389,
+   "desc": "Café centenario de ensaïmada y chocolate."
+  },
+  {
+   "id": "bal_fornells_langosta",
+   "cat": "food",
+   "name": "Fornells (caldereta de langosta)",
+   "icon": "🦞",
+   "lat": 40.05528,
+   "lng": 4.13361,
+   "desc": "Pueblo pesquero cuna de la caldereta de langosta."
+  },
+  {
+   "id": "bal_celler_can_amer",
+   "cat": "food",
+   "name": "Celler Can Amer (Inca)",
+   "icon": "🍷",
+   "lat": 39.72083,
+   "lng": 2.91139,
+   "desc": "Celler tradicional de cocina mallorquina en Inca."
+  },
+  {
+   "id": "bal_bodega_binissalem",
+   "cat": "food",
+   "name": "Bodegas de Binissalem",
+   "icon": "🍇",
+   "lat": 39.68694,
+   "lng": 2.8325,
+   "desc": "Cuna del vino con Denominación de Origen de Mallorca."
+  },
+  {
+   "id": "bal_xoriguer_maho",
+   "cat": "food",
+   "name": "Destilería Xoriguer (Maó)",
+   "icon": "🍸",
+   "lat": 39.89083,
+   "lng": 4.26389,
+   "desc": "Ginebra menorquina y la famosa 'pomada'."
+  }
+ ],
+ "extra": {
+  "bal_catedral_palma": {
+   "id": "bal_catedral_palma",
+   "d": "Levantada sobre la antigua mezquita entre los siglos XIII y XVI, La Seu deslumbra por su rosetón, uno de los mayores del gótico, y por la intervención de Gaudí y de Miquel Barceló en la Capilla del Santísimo.",
+   "d_en": "Built over the former mosque between the 13th and 16th centuries, La Seu dazzles with its rose window, one of the largest in Gothic art, and the interventions of Gaudí and Miquel Barceló in the Holy Sacrament chapel.",
+   "h": "Lun–Sáb 10:00–17:15 (horario reducido invierno); cerrado domingos a visita turística",
+   "h_en": "Mon–Sat 10:00–17:15 (reduced in winter); closed to tourist visits on Sundays",
+   "i": "Ideal si te gusta la arquitectura gótica y las vistas al mar.",
+   "i_en": "Ideal if you like Gothic architecture and sea views."
+  },
+  "bal_castillo_bellver": {
+   "id": "bal_castillo_bellver",
+   "d": "Construido en el siglo XIV como residencia real y luego prisión, es uno de los pocos castillos de planta totalmente circular de Europa. Alberga el museo de historia de la ciudad y ofrece vistas de 360° sobre la bahía.",
+   "d_en": "Built in the 14th century as a royal residence and later a prison, it is one of the few fully circular castles in Europe. It houses the city history museum and offers 360° views over the bay.",
+   "h": "Mar–Sáb 10:00–19:00, Dom 10:00–15:00; cerrado lunes",
+   "h_en": "Tue–Sat 10:00–19:00, Sun 10:00–15:00; closed Mondays",
+   "i": "Ideal si te gusta la historia y los miradores panorámicos.",
+   "i_en": "Ideal if you like history and panoramic viewpoints."
+  },
+  "bal_almudaina": {
+   "id": "bal_almudaina",
+   "d": "Frente a la catedral, este palacio de origen andalusí es residencia oficial de los reyes en Palma. Conserva salones góticos, la capilla de Santa Ana y patios que mezclan la herencia islámica y cristiana de la isla.",
+   "d_en": "Facing the cathedral, this palace of Andalusi origin is the official royal residence in Palma. It preserves Gothic halls, the chapel of Santa Ana and courtyards blending the island's Islamic and Christian heritage.",
+   "h": "Mar–Dom 10:00–18:00 (hasta 20:00 en verano); cerrado lunes",
+   "h_en": "Tue–Sun 10:00–18:00 (until 20:00 in summer); closed Mondays",
+   "i": "Ideal si te gusta la historia real y la arquitectura andalusí.",
+   "i_en": "Ideal if you like royal history and Andalusi architecture."
+  },
+  "bal_lonja_palma": {
+   "id": "bal_lonja_palma",
+   "d": "Antigua lonja de mercaderes del siglo XV obra de Guillem Sagrera, con esbeltas columnas helicoidales que parecen palmeras de piedra. Hoy acoge exposiciones temporales de arte.",
+   "d_en": "A 15th-century merchants' exchange by Guillem Sagrera, with slender spiral columns resembling stone palm trees. Today it hosts temporary art exhibitions.",
+   "h": "Mar–Sáb 11:00–14:00 y 17:00–21:00, Dom 11:00–14:00 (según exposición)",
+   "h_en": "Tue–Sat 11:00–14:00 and 17:00–21:00, Sun 11:00–14:00 (depending on exhibition)",
+   "i": "Ideal si te gusta el arte gótico y los edificios singulares.",
+   "i_en": "Ideal if you like Gothic art and unusual buildings."
+  },
+  "bal_cartuja_valldemossa": {
+   "id": "bal_cartuja_valldemossa",
+   "d": "En el precioso pueblo de montaña de Valldemossa, esta cartuja del siglo XIV es célebre por el invierno de 1838 que pasaron aquí Frédéric Chopin y la escritora George Sand. Conserva celdas, farmacia y jardines con vistas al valle.",
+   "d_en": "In the beautiful mountain village of Valldemossa, this 14th-century charterhouse is famous for the winter of 1838 that Frédéric Chopin and the writer George Sand spent here. It preserves cells, an old pharmacy and gardens overlooking the valley.",
+   "h": "Todos los días 9:30–18:30 (horario reducido en invierno)",
+   "h_en": "Daily 9:30–18:30 (reduced hours in winter)",
+   "i": "Ideal si te gusta la música, la historia y los pueblos con encanto.",
+   "i_en": "Ideal if you like music, history and charming villages."
+  },
+  "bal_alcudia": {
+   "id": "bal_alcudia",
+   "d": "Alcúdia conserva una muralla renacentista casi completa que rodea un laberinto de calles de piedra, plazas y la iglesia de Sant Jaume. A las afueras se hallan los restos de la ciudad romana de Pollentia.",
+   "d_en": "Alcúdia preserves an almost complete Renaissance wall enclosing a maze of stone streets, squares and the church of Sant Jaume. Just outside lie the remains of the Roman town of Pollentia.",
+   "h": "Acceso libre a las calles todo el día; murallas y ruinas de Pollentia con horario diurno",
+   "h_en": "Free access to the streets all day; walls and Pollentia ruins open during daytime",
+   "i": "Ideal si te gusta pasear por pueblos históricos y restos romanos.",
+   "i_en": "Ideal if you like strolling through historic towns and Roman remains."
+  },
+  "bal_ciutadella": {
+   "id": "bal_ciutadella",
+   "d": "Antigua capital de Menorca, Ciutadella seduce por su catedral gótica, sus palacios señoriales, el puerto natural y las calles porticadas donde en junio estalla la fiesta de Sant Joan con sus caballos.",
+   "d_en": "Menorca's former capital, Ciutadella charms with its Gothic cathedral, noble palaces, natural harbour and arcaded streets where the Sant Joan festival with its horses erupts each June.",
+   "h": "Acceso libre al casco antiguo; catedral abierta en horario diurno",
+   "h_en": "Free access to the old town; cathedral open during daytime",
+   "i": "Ideal si te gusta el ambiente señorial y las fiestas tradicionales.",
+   "i_en": "Ideal if you like an elegant atmosphere and traditional festivals."
+  },
+  "bal_naveta_tudons": {
+   "id": "bal_naveta_tudons",
+   "d": "Con forma de nave invertida, esta construcción megalítica de hacia el 1000 a.C. es el sepulcro colectivo mejor conservado de la cultura talayótica, hoy Patrimonio de la Humanidad.",
+   "d_en": "Shaped like an upturned ship, this megalithic structure from around 1000 BC is the best-preserved collective tomb of the Talayotic culture, now a World Heritage Site.",
+   "h": "Todos los días, horario diurno (aprox. 9:30–19:00)",
+   "h_en": "Daily, daytime hours (approx. 9:30–19:00)",
+   "i": "Ideal si te gusta la arqueología y los enigmas prehistóricos.",
+   "i_en": "Ideal if you like archaeology and prehistoric mysteries."
+  },
+  "bal_talati": {
+   "id": "bal_talati",
+   "d": "Uno de los yacimientos talayóticos más evocadores de Menorca, con una gran taula en forma de T, un talayot, cuevas y restos de viviendas rodeados de acebuches, en un entorno rural de gran belleza.",
+   "d_en": "One of Menorca's most evocative Talayotic sites, with a large T-shaped taula, a talayot, caves and dwelling remains surrounded by wild olive trees in a beautiful rural setting.",
+   "h": "Todos los días, horario diurno (aprox. 9:00–20:00)",
+   "h_en": "Daily, daytime hours (approx. 9:00–20:00)",
+   "i": "Ideal si te gusta la historia antigua en plena naturaleza.",
+   "i_en": "Ideal if you like ancient history amid nature."
+  },
+  "bal_dalt_vila": {
+   "id": "bal_dalt_vila",
+   "d": "El casco antiguo fortificado de Ibiza, Patrimonio de la Humanidad, corona la ciudad con sus murallas del siglo XVI, la catedral, calles empedradas, galerías y miradores sobre el puerto y el mar.",
+   "d_en": "Ibiza's fortified old town, a World Heritage Site, crowns the city with its 16th-century walls, cathedral, cobbled streets, galleries and viewpoints over the harbour and sea.",
+   "h": "Acceso libre todo el día; museos y catedral en horario diurno",
+   "h_en": "Free access all day; museums and cathedral open during daytime",
+   "i": "Ideal si te gusta la historia, las vistas y el ambiente bohemio.",
+   "i_en": "Ideal if you like history, views and a bohemian atmosphere."
+  },
+  "bal_serra_tramuntana": {
+   "id": "bal_serra_tramuntana",
+   "d": "Esta sierra de bancales, olivares y pueblos de piedra recorre 90 km de costa entre Andratx y Pollença, con el Puig Major como techo de las islas. Es paraíso del senderismo, el ciclismo y los paisajes de vértigo.",
+   "d_en": "This range of terraces, olive groves and stone villages runs 90 km along the coast between Andratx and Pollença, with Puig Major as the islands' highest peak. It is a paradise for hiking, cycling and dramatic scenery.",
+   "h": "Acceso libre todo el año (rutas de montaña)",
+   "h_en": "Open access all year (mountain trails)",
+   "i": "Ideal si te gusta el senderismo y los paisajes de montaña.",
+   "i_en": "Ideal if you like hiking and mountain landscapes."
+  },
+  "bal_cap_formentor": {
+   "id": "bal_cap_formentor",
+   "d": "Conocido como 'el punto de encuentro de los vientos', este cabo de acantilados vertiginosos termina en un faro rodeado de mar azul intenso. La carretera hasta él ofrece miradores inolvidables como Es Colomer.",
+   "d_en": "Known as 'the meeting point of the winds', this cape of dizzying cliffs ends at a lighthouse surrounded by deep-blue sea. The road to it offers unforgettable viewpoints such as Es Colomer.",
+   "h": "Acceso libre; en verano el acceso en coche está restringido (usar bus lanzadera)",
+   "h_en": "Free access; in summer car access is restricted (use the shuttle bus)",
+   "i": "Ideal si te gusta la costa salvaje y los atardeceres.",
+   "i_en": "Ideal if you like wild coastlines and sunsets."
+  },
+  "bal_sa_calobra": {
+   "id": "bal_sa_calobra",
+   "d": "En plena Tramuntana, la desembocadura del Torrent de Pareis forma una cala de cantos entre altísimas paredes de roca. Se llega por una carretera de curvas imposibles, el 'Nus de sa Corbata', o en barco desde Port de Sóller.",
+   "d_en": "Deep in the Tramuntana, the mouth of the Torrent de Pareis forms a pebble cove between towering rock walls. It is reached by a road of impossible bends, the 'Nus de sa Corbata', or by boat from Port de Sóller.",
+   "h": "Acceso libre; recomendable ir temprano por el aparcamiento",
+   "h_en": "Free access; best to arrive early due to parking",
+   "i": "Ideal si te gusta la naturaleza dramática y los cañones.",
+   "i_en": "Ideal if you like dramatic scenery and gorges."
+  },
+  "bal_cala_macarella": {
+   "id": "bal_cala_macarella",
+   "d": "Una de las playas más fotografiadas de Menorca, enmarcada por pinares y acantilados. Junto a ella, la aún más pequeña Macarelleta. Se accede a pie por el Camí de Cavalls o desde Cala Galdana.",
+   "d_en": "One of Menorca's most photographed beaches, framed by pine woods and cliffs. Beside it lies the even smaller Macarelleta. Access is on foot via the Camí de Cavalls or from Cala Galdana.",
+   "h": "Acceso libre; en verano el acceso en coche está limitado",
+   "h_en": "Free access; in summer car access is limited",
+   "i": "Ideal si te gusta el agua cristalina y las calas vírgenes.",
+   "i_en": "Ideal if you like crystal-clear water and unspoilt coves."
+  },
+  "bal_cami_cavalls": {
+   "id": "bal_cami_cavalls",
+   "d": "El GR-223 es un antiguo camino de vigilancia de 185 km que da la vuelta a la isla en 20 etapas, alternando calas, acantilados, marismas y bosques. El tramo de Es Grau, junto al parque natural de s'Albufera, es de los más populares.",
+   "d_en": "The GR-223 is an old coastal watch path of 185 km that circles the island in 20 stages, alternating coves, cliffs, wetlands and woods. The Es Grau stretch, beside the s'Albufera nature park, is among the most popular.",
+   "h": "Acceso libre todo el año",
+   "h_en": "Open access all year",
+   "i": "Ideal si te gusta el senderismo costero y la naturaleza.",
+   "i_en": "Ideal if you like coastal hiking and nature."
+  },
+  "bal_ses_salines_ibiza": {
+   "id": "bal_ses_salines_ibiza",
+   "d": "El Parc Natural de ses Salines protege antiguas salinas donde aún se recoge sal, lagunas con flamencos y una larga playa de arena fina respaldada por dunas y sabinas. Su posidonia marina es Patrimonio de la Humanidad.",
+   "d_en": "The Ses Salines Nature Park protects old salt pans where salt is still harvested, lagoons with flamingos and a long fine-sand beach backed by dunes and junipers. Its marine posidonia is a World Heritage Site.",
+   "h": "Playa de acceso libre; chiringuitos abren en temporada",
+   "h_en": "Free beach access; beach bars open in season",
+   "i": "Ideal si te gusta la naturaleza y las playas con ambiente.",
+   "i_en": "Ideal if you like nature and lively beaches."
+  },
+  "bal_cala_comte": {
+   "id": "bal_cala_comte",
+   "d": "En la costa oeste de Ibiza, Cala Comte reúne calas de arena y roca frente a los islotes de s'Espartar y es Bosc. Su agua transparente y sus puestas de sol la convierten en un clásico del ocaso ibicenco.",
+   "d_en": "On Ibiza's west coast, Cala Comte gathers sandy and rocky coves facing the islets of s'Espartar and es Bosc. Its transparent water and sunsets make it an Ibizan sunset classic.",
+   "h": "Acceso libre; muy concurrida al atardecer",
+   "h_en": "Free access; very busy at sunset",
+   "i": "Ideal si te gusta el snorkel y los atardeceres.",
+   "i_en": "Ideal if you like snorkelling and sunsets."
+  },
+  "bal_ses_illetes": {
+   "id": "bal_ses_illetes",
+   "d": "Considerada una de las mejores playas de Europa, Ses Illetes es una lengua de arena blanquísima entre aguas turquesa poco profundas, dentro del parque natural de Ses Salines. Ideal para llegar en barco desde Ibiza.",
+   "d_en": "Rated one of Europe's best beaches, Ses Illetes is a strip of dazzling white sand between shallow turquoise waters, within the Ses Salines nature park. Perfect to reach by boat from Ibiza.",
+   "h": "Acceso libre; se paga entrada al parque en coche/moto en verano",
+   "h_en": "Free access; a park fee applies for cars/scooters in summer",
+   "i": "Ideal si te gusta el agua turquesa y las playas paradisíacas.",
+   "i_en": "Ideal if you like turquoise water and paradise beaches."
+  },
+  "bal_tren_soller": {
+   "id": "bal_tren_soller",
+   "d": "Inaugurado en 1912, este ferrocarril de vagones de madera cruza la Serra de Tramuntana desde Palma hasta el valle de naranjos de Sóller, atravesando 13 túneles y viaductos con vistas espectaculares. En Sóller enlaza con un tranvía a su puerto.",
+   "d_en": "Opened in 1912, this wooden-carriage railway crosses the Serra de Tramuntana from Palma to the orange valley of Sóller, passing through 13 tunnels and viaducts with spectacular views. In Sóller it connects with a tram to the port.",
+   "h": "Varias salidas diarias; horario reducido en invierno",
+   "h_en": "Several daily departures; reduced schedule in winter",
+   "i": "Ideal si te gusta el turismo nostálgico y los paisajes en tren.",
+   "i_en": "Ideal if you like nostalgic travel and scenery by train."
+  },
+  "bal_cuevas_drach": {
+   "id": "bal_cuevas_drach",
+   "d": "En Porto Cristo, estas cuevas recorren 1,2 km de estalactitas y estalagmitas hasta el lago Martel, uno de los mayores lagos subterráneos del mundo, donde se ofrece un breve concierto de música clásica en directo desde barcas.",
+   "d_en": "In Porto Cristo, these caves run 1.2 km of stalactites and stalagmites to Lake Martel, one of the world's largest underground lakes, where a short live classical concert is performed from boats.",
+   "h": "Visitas guiadas por turnos, aprox. 10:00–17:00 (reservar)",
+   "h_en": "Guided visits in timed slots, approx. 10:00–17:00 (booking advised)",
+   "i": "Ideal si te gusta la espeleología suave y las experiencias únicas.",
+   "i_en": "Ideal if you like easy caving and unique experiences."
+  },
+  "bal_mao_puerto": {
+   "id": "bal_mao_puerto",
+   "d": "El puerto de Maó se adentra 5 km tierra adentro y está flanqueado por fortalezas, islotes y antiguas casas de armadores. Hoy sus muelles reúnen restaurantes, terrazas y paseos en barco, y es la puerta de entrada a la capital menorquina.",
+   "d_en": "Maó's harbour reaches 5 km inland and is flanked by fortresses, islets and old shipowners' houses. Today its quays gather restaurants, terraces and boat trips, and it is the gateway to the Menorcan capital.",
+   "h": "Acceso libre; restaurantes y paseos en barco en horario comercial",
+   "h_en": "Free access; restaurants and boat tours during business hours",
+   "i": "Ideal si te gusta el ambiente marinero y los paseos en barco.",
+   "i_en": "Ideal if you like a maritime atmosphere and boat trips."
+  },
+  "bal_sant_antoni": {
+   "id": "bal_sant_antoni",
+   "d": "En la costa oeste de Ibiza, Sant Antoni es sinónimo de puestas de sol frente a los míticos bares del Sunset Strip, además de playas, un animado paseo marítimo y una vibrante vida nocturna.",
+   "d_en": "On Ibiza's west coast, Sant Antoni is synonymous with sunsets in front of the legendary Sunset Strip bars, along with beaches, a lively seafront promenade and vibrant nightlife.",
+   "h": "Acceso libre; bares y clubes hasta la madrugada en verano",
+   "h_en": "Free access; bars and clubs until dawn in summer",
+   "i": "Ideal si te gusta la fiesta, la música y los atardeceres.",
+   "i_en": "Ideal if you like partying, music and sunsets."
+  },
+  "bal_port_soller": {
+   "id": "bal_port_soller",
+   "d": "Resguardado por la Tramuntana, este puerto de bahía casi circular ofrece playas familiares, un paseo con el histórico tranvía de madera, restaurantes de pescado y senderos a los faros que custodian su bocana.",
+   "d_en": "Sheltered by the Tramuntana, this almost circular bay offers family beaches, a ride on the historic wooden tram, seafood restaurants and paths to the lighthouses guarding its entrance.",
+   "h": "Acceso libre; tranvía y servicios en horario comercial",
+   "h_en": "Free access; tram and services during business hours",
+   "i": "Ideal si te gusta el ambiente de puerto y los paseos tranquilos.",
+   "i_en": "Ideal if you like a harbour atmosphere and gentle walks."
+  },
+  "bal_passeig_born": {
+   "id": "bal_passeig_born",
+   "d": "El paseo más señorial de Palma, arbolado y flanqueado por edificios modernistas, tiendas de lujo, cafés y terrazas. Es el eje del casco antiguo y punto de partida para descubrir sus patios, museos y plazas.",
+   "d_en": "Palma's most stately promenade, tree-lined and flanked by Modernista buildings, luxury shops, cafés and terraces. It is the axis of the old town and a starting point to discover its courtyards, museums and squares.",
+   "h": "Acceso libre; tiendas aprox. 10:00–21:00",
+   "h_en": "Free access; shops approx. 10:00–21:00",
+   "i": "Ideal si te gusta pasear, ir de compras y el ambiente urbano.",
+   "i_en": "Ideal if you like strolling, shopping and city life."
+  },
+  "bal_mercat_olivar": {
+   "id": "bal_mercat_olivar",
+   "d": "El mercado de abastos más grande de Palma reúne puestos de pescado, embutidos, quesos y verduras junto a barras donde comer marisco fresco, sobrassada y ensaïmada. El lugar perfecto para probar la despensa mallorquina.",
+   "d_en": "Palma's largest food market gathers stalls of fish, cured meats, cheeses and vegetables alongside counters serving fresh seafood, sobrassada and ensaïmada. The perfect place to taste the Mallorcan larder.",
+   "h": "Lun–Sáb 7:00–14:30 (algunas barras hasta la tarde)",
+   "h_en": "Mon–Sat 7:00–14:30 (some counters until afternoon)",
+   "i": "Ideal si te gusta el producto local y el ambiente de mercado.",
+   "i_en": "Ideal if you like local produce and market atmosphere."
+  },
+  "bal_can_joan_saigo": {
+   "id": "bal_can_joan_saigo",
+   "d": "Fundado en 1700, este emblemático café de Palma es famoso por su chocolate a la taza con ensaïmada recién hecha, sus quartos helados y su cuarterada, en un interior de azulejos y mármol lleno de historia.",
+   "d_en": "Founded in 1700, this iconic Palma café is famous for its cup chocolate with freshly baked ensaïmada, its almond ice cream and traditional sponge, in a tiled and marble interior full of history.",
+   "h": "Todos los días 8:00–21:00",
+   "h_en": "Daily 8:00–21:00",
+   "i": "Ideal si te gusta la repostería tradicional y los cafés con encanto.",
+   "i_en": "Ideal if you like traditional pastries and charming cafés."
+  },
+  "bal_fornells_langosta": {
+   "id": "bal_fornells_langosta",
+   "d": "Este blanco pueblo marinero del norte de Menorca es célebre por su caldereta de langosta, guiso de tomate, cebolla y langosta que atrae a gourmets de todo el mundo. Sus restaurantes junto a la bahía la sirven como plato estrella.",
+   "d_en": "This whitewashed fishing village in northern Menorca is famous for its caldereta de langosta, a stew of tomato, onion and lobster that draws gourmets from around the world. Its bayside restaurants serve it as the star dish.",
+   "h": "Restaurantes: comidas 13:00–15:30 y cenas 20:00–23:00",
+   "h_en": "Restaurants: lunch 13:00–15:30 and dinner 20:00–23:00",
+   "i": "Ideal si te gusta el marisco y la cocina marinera.",
+   "i_en": "Ideal if you like seafood and coastal cuisine."
+  },
+  "bal_celler_can_amer": {
+   "id": "bal_celler_can_amer",
+   "d": "En la villa de Inca, capital del cuero y del vino, este antiguo celler con enormes toneles ofrece platos de fondo mallorquín como el frit, el tumbet, la porcella y el cordero al horno, en un ambiente rústico y auténtico.",
+   "d_en": "In the town of Inca, capital of leather and wine, this old cellar with huge barrels serves hearty Mallorcan dishes such as frit, tumbet, suckling pig and roast lamb, in a rustic, authentic setting.",
+   "h": "Lun–Sáb 13:00–16:00 y 19:30–23:00; cerrado domingos",
+   "h_en": "Mon–Sat 13:00–16:00 and 19:30–23:00; closed Sundays",
+   "i": "Ideal si te gusta la cocina de raíz y los interiores con solera.",
+   "i_en": "Ideal if you like traditional cooking and time-worn interiors."
+  },
+  "bal_bodega_binissalem": {
+   "id": "bal_bodega_binissalem",
+   "d": "Binissalem es el corazón vinícola de Mallorca, con la primera D.O. de las islas y bodegas donde se cultivan variedades autóctonas como el manto negro y el prensal. Muchas ofrecen visitas y catas entre viñedos.",
+   "d_en": "Binissalem is Mallorca's wine heartland, home to the islands' first D.O. and wineries growing native grapes such as manto negro and prensal. Many offer tours and tastings among the vineyards.",
+   "h": "Visitas y catas con reserva, aprox. 10:00–18:00",
+   "h_en": "Tours and tastings by appointment, approx. 10:00–18:00",
+   "i": "Ideal si te gusta el enoturismo y los vinos autóctonos.",
+   "i_en": "Ideal if you like wine tourism and native wines."
+  },
+  "bal_xoriguer_maho": {
+   "id": "bal_xoriguer_maho",
+   "d": "En el puerto de Maó, esta destilería histórica elabora desde el siglo XVIII la ginebra Xoriguer en alambiques de cobre, herencia de la ocupación británica. En su tienda se puede catar y probar la pomada, mezcla de gin y limonada.",
+   "d_en": "In Maó's harbour, this historic distillery has made Xoriguer gin in copper stills since the 18th century, a legacy of the British occupation. Its shop offers tastings and the pomada, a mix of gin and lemonade.",
+   "h": "Lun–Sáb 9:00–19:00 (horario reducido en invierno)",
+   "h_en": "Mon–Sat 9:00–19:00 (reduced hours in winter)",
+   "i": "Ideal si te gusta la coctelería y los productos con historia.",
+   "i_en": "Ideal if you like cocktails and products with history."
+  }
+ },
+ "food": {
+  "bal_mercat_olivar": {
+   "cuisine": "Mercado mallorquín, marisco y tapas",
+   "price": "8–25 €",
+   "hours": "Lun–Sáb 7:00–14:30"
+  },
+  "bal_can_joan_saigo": {
+   "cuisine": "Repostería mallorquina, chocolate y helados",
+   "price": "3–10 €",
+   "hours": "Todos los días 8:00–21:00"
+  },
+  "bal_fornells_langosta": {
+   "cuisine": "Cocina marinera menorquina, langosta",
+   "price": "40–90 €",
+   "hours": "13:00–15:30 y 20:00–23:00"
+  },
+  "bal_celler_can_amer": {
+   "cuisine": "Cocina tradicional mallorquina",
+   "price": "25–50 €",
+   "hours": "Lun–Sáb 13:00–16:00 y 19:30–23:00"
+  },
+  "bal_bodega_binissalem": {
+   "cuisine": "Enoturismo, vinos D.O. Binissalem",
+   "price": "15–40 €",
+   "hours": "Con reserva, aprox. 10:00–18:00"
+  },
+  "bal_xoriguer_maho": {
+   "cuisine": "Destilería, ginebra y licores menorquines",
+   "price": "5–20 €",
+   "hours": "Lun–Sáb 9:00–19:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Baleares",
+   "items": [
+    {
+     "name": "Ensaïmada de Mallorca",
+     "price": "6–18 €",
+     "desc": "Bollo espiral de masa hojaldrada con manteca; se vende en cajas octogonales, lisa o rellena de cabello de ángel."
+    },
+    {
+     "name": "Sobrassada de Mallorca (IGP)",
+     "price": "8–20 €",
+     "desc": "Embutido curado de cerdo negro mallorquín especiado con pimentón, untable y de color rojo intenso."
+    },
+    {
+     "name": "Avarques menorquinas",
+     "price": "25–60 €",
+     "desc": "Sandalias artesanas de cuero con suela de neumático reciclado, símbolo del campo de Menorca."
+    },
+    {
+     "name": "Perlas de Mallorca",
+     "price": "15–120 €",
+     "desc": "Perlas artificiales de gran calidad fabricadas en Manacor (Majorica), en collares y pendientes."
+    },
+    {
+     "name": "Hierbas ibicencas / Gin Xoriguer",
+     "price": "10–22 €",
+     "desc": "Licor de hierbas de Ibiza o la ginebra menorquina de Maó, base de la 'pomada' con limonada."
+    }
+   ],
+   "shops": [
+    "Mercat de l'Olivar (Palma)",
+    "Forn des Teatre (Palma)",
+    "Mercat de Maó (Menorca)",
+    "Mercat Vell de Ciutadella",
+    "Mercat de Vila (Dalt Vila, Ibiza)"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Alquila un coche para llegar a las calas más bonitas: el transporte público es limitado fuera de las ciudades.",
+   "En verano, ve a las playas famosas (Ses Illetes, Macarella, Cap de Formentor) antes de las 10:00 o al atardecer para evitar aparcamientos llenos.",
+   "Reserva con antelación las Cuevas del Drach y el tren de Sóller; se agotan en temporada alta.",
+   "Lleva calzado cómodo y agua para tramos del Camí de Cavalls o la Serra de Tramuntana; hay poca sombra.",
+   "Prueba la gastronomía local: ensaïmada, sobrassada y caldereta de langosta en Fornells, y respeta las zonas de posidonia al fondear."
+  ],
+  "en": [
+   "Rent a car to reach the prettiest coves: public transport is limited outside the main towns.",
+   "In summer, visit the famous beaches (Ses Illetes, Macarella, Cap de Formentor) before 10:00 or at sunset to avoid full car parks.",
+   "Book the Caves of Drach and the Sóller train in advance; they sell out in high season.",
+   "Wear comfortable shoes and carry water for stretches of the Camí de Cavalls or the Serra de Tramuntana; there is little shade.",
+   "Try the local food: ensaïmada, sobrassada and lobster stew in Fornells, and respect the posidonia seagrass zones when anchoring."
+  ]
+ },
+ "climate": {
+  "hi": [
+   15,
+   15,
+   17,
+   19,
+   23,
+   27,
+   30,
+   30,
+   27,
+   23,
+   18,
+   16
+  ],
+  "lo": [
+   4,
+   4,
+   6,
+   8,
+   11,
+   15,
+   18,
+   19,
+   16,
+   13,
+   8,
+   6
+  ]
+ },
+ "tr": {
+  "Colosal catedral gótica frente al mar, símbolo de Palma.": "Colossal seafront Gothic cathedral, the symbol of Palma.",
+  "Fortaleza circular gótica sobre una colina de Palma.": "Circular Gothic fortress on a hill above Palma.",
+  "Antiguo alcázar árabe convertido en palacio real.": "Former Arab citadel turned royal palace.",
+  "Joya del gótico civil junto al puerto de Palma.": "Gem of civil Gothic art beside Palma's port.",
+  "Monasterio donde vivieron Chopin y George Sand.": "Monastery where Chopin and George Sand once lived.",
+  "Ciudad medieval amurallada en el norte de Mallorca.": "Walled medieval town in northern Mallorca.",
+  "Casco histórico señorial y catedral gótica de Menorca.": "Aristocratic old town and Gothic cathedral of Menorca.",
+  "Monumento funerario prehistórico único en Menorca.": "Unique prehistoric funerary monument in Menorca.",
+  "Poblado talayótico con impresionante taula.": "Talayotic settlement with an impressive taula.",
+  "Ciudad amurallada renacentista sobre Eivissa.": "Renaissance walled town above Eivissa.",
+  "Cordillera Patrimonio Mundial en el norte de Mallorca.": "World Heritage mountain range in northern Mallorca.",
+  "Espectacular cabo con faro en el extremo norte.": "Spectacular cape with a lighthouse at the far north.",
+  "Cala encajonada al final de un cañón espectacular.": "Cove tucked at the end of a spectacular gorge.",
+  "Cala virgen de arena blanca y agua turquesa.": "Unspoilt cove of white sand and turquoise water.",
+  "Sendero histórico que rodea toda Menorca.": "Historic trail encircling the whole of Menorca.",
+  "Parque natural de salinas, dunas y playa.": "Nature park of salt pans, dunes and beach.",
+  "Cala de aguas turquesa famosa por sus atardeceres.": "Turquoise cove famous for its sunsets.",
+  "Playa caribeña en el parque natural de Formentera.": "Caribbean-like beach in Formentera's nature park.",
+  "Tren histórico de madera entre Palma y Sóller.": "Historic wooden train between Palma and Sóller.",
+  "Grandes cuevas con lago subterráneo y concierto.": "Large caves with an underground lake and concert.",
+  "Uno de los mayores puertos naturales del mundo.": "One of the largest natural harbours in the world.",
+  "Bahía famosa por sus atardeceres y su ocio.": "Bay famous for its sunsets and nightlife.",
+  "Bahía en herradura con playa, tranvía y faros.": "Horseshoe bay with beach, tram and lighthouses.",
+  "Elegante bulevar de compras en el corazón de Palma.": "Elegant shopping boulevard in the heart of Palma.",
+  "Mercado histórico de Palma con productos y tapeo.": "Palma's historic market with produce and tapas.",
+  "Café centenario de ensaïmada y chocolate.": "Century-old café for ensaïmada and hot chocolate.",
+  "Pueblo pesquero cuna de la caldereta de langosta.": "Fishing village, home of the lobster stew.",
+  "Celler tradicional de cocina mallorquina en Inca.": "Traditional Mallorcan cellar restaurant in Inca.",
+  "Cuna del vino con Denominación de Origen de Mallorca.": "Cradle of Mallorca's Denomination of Origin wine.",
+  "Ginebra menorquina y la famosa 'pomada'.": "Menorcan gin and the famous 'pomada'.",
+  "Baleares": "Baleares"
+ }
+}

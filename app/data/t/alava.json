@@ -1,0 +1,564 @@
+{
+ "id": "alava",
+ "name": "Álava",
+ "country": "ES",
+ "center": [
+  42.84667,
+  -2.67278
+ ],
+ "pois": [
+  {
+   "id": "ala_catedral_santa_maria",
+   "cat": "monuments",
+   "name": "Catedral de Santa María (Puerta Abierta)",
+   "icon": "⛪",
+   "lat": 42.85054,
+   "lng": -2.67341,
+   "desc": "Catedral gótica del s. XIII visitable durante su restauración."
+  },
+  {
+   "id": "ala_casco_medieval",
+   "cat": "monuments",
+   "name": "Casco Medieval (la Almendra)",
+   "icon": "🏘️",
+   "lat": 42.84836,
+   "lng": -2.6726,
+   "desc": "Núcleo medieval de Vitoria con forma de almendra."
+  },
+  {
+   "id": "ala_virgen_blanca",
+   "cat": "monuments",
+   "name": "Plaza de la Virgen Blanca",
+   "icon": "🏛️",
+   "lat": 42.84688,
+   "lng": -2.67293,
+   "desc": "Plaza emblemática y centro social de Vitoria."
+  },
+  {
+   "id": "ala_los_arquillos",
+   "cat": "monuments",
+   "name": "Los Arquillos y Plaza de España",
+   "icon": "🏛️",
+   "lat": 42.8476,
+   "lng": -2.6716,
+   "desc": "Conjunto neoclásico que une la ciudad alta y baja."
+  },
+  {
+   "id": "ala_catedral_nueva",
+   "cat": "monuments",
+   "name": "Catedral Nueva (María Inmaculada)",
+   "icon": "⛪",
+   "lat": 42.84431,
+   "lng": -2.6765,
+   "desc": "Gran catedral neogótica del s. XX."
+  },
+  {
+   "id": "ala_laguardia",
+   "cat": "monuments",
+   "name": "Laguardia (villa medieval)",
+   "icon": "🏰",
+   "lat": 42.55389,
+   "lng": -2.58389,
+   "desc": "Villa amurallada sobre la Rioja Alavesa."
+  },
+  {
+   "id": "ala_marques_riscal",
+   "cat": "monuments",
+   "name": "Marqués de Riscal (Elciego)",
+   "icon": "🍷",
+   "lat": 42.51139,
+   "lng": -2.61944,
+   "desc": "Bodega icónica con hotel de Frank Gehry."
+  },
+  {
+   "id": "ala_ysios",
+   "cat": "monuments",
+   "name": "Bodegas Ysios",
+   "icon": "🍷",
+   "lat": 42.5687,
+   "lng": -2.59099,
+   "desc": "Bodega de Calatrava a los pies de la Sierra de Cantabria."
+  },
+  {
+   "id": "ala_dolmen_hechicera",
+   "cat": "monuments",
+   "name": "Dolmen de la Chabola de la Hechicera",
+   "icon": "🗿",
+   "lat": 42.56761,
+   "lng": -2.55356,
+   "desc": "Dolmen megalítico entre viñedos, cerca de Elvillar."
+  },
+  {
+   "id": "ala_salinas_anana",
+   "cat": "nature",
+   "name": "Valle Salado de Añana",
+   "icon": "🧂",
+   "lat": 42.79928,
+   "lng": -2.9858,
+   "desc": "Salinas de manantial en terrazas de madera del s. XI."
+  },
+  {
+   "id": "ala_valderejo",
+   "cat": "nature",
+   "name": "Parque Natural de Valderejo",
+   "icon": "🏞️",
+   "lat": 42.8794,
+   "lng": -3.2069,
+   "desc": "Valle remoto y salvaje en el extremo oeste de Álava."
+  },
+  {
+   "id": "ala_ullibarri",
+   "cat": "nature",
+   "name": "Embalse de Ullíbarri-Gamboa",
+   "icon": "🚣",
+   "lat": 42.93,
+   "lng": -2.61,
+   "desc": "Gran lago interior con playas y deportes náuticos."
+  },
+  {
+   "id": "ala_salburua",
+   "cat": "nature",
+   "name": "Humedales de Salburua (Anillo Verde)",
+   "icon": "🦌",
+   "lat": 42.85417,
+   "lng": -2.63472,
+   "desc": "Humedal urbano con ciervos, aves y el Anillo Verde."
+  },
+  {
+   "id": "ala_santa_catalina",
+   "cat": "nature",
+   "name": "Jardín Botánico de Santa Catalina",
+   "icon": "🌿",
+   "lat": 42.84953,
+   "lng": -2.80687,
+   "desc": "Jardín botánico sobre las ruinas de un convento."
+  },
+  {
+   "id": "ala_artium",
+   "cat": "ocio",
+   "name": "Artium Museoa",
+   "icon": "🎨",
+   "lat": 42.84936,
+   "lng": -2.66794,
+   "desc": "Museo de arte contemporáneo vasco y español."
+  },
+  {
+   "id": "ala_fournier",
+   "cat": "ocio",
+   "name": "Museo Fournier de Naipes",
+   "icon": "🃏",
+   "lat": 42.84957,
+   "lng": -2.67108,
+   "desc": "Museo de la baraja en el Palacio de Bendaña."
+  },
+  {
+   "id": "ala_villa_lucia",
+   "cat": "ocio",
+   "name": "Villa Lucía (Laguardia)",
+   "icon": "🍇",
+   "lat": 42.5525,
+   "lng": -2.5875,
+   "desc": "Centro temático del vino con experiencia 4D."
+  },
+  {
+   "id": "ala_cuevas_laguardia",
+   "cat": "ocio",
+   "name": "Bodegas subterráneas de Laguardia",
+   "icon": "🛢️",
+   "lat": 42.554,
+   "lng": -2.5833,
+   "desc": "Cuevas-bodega centenarias bajo la villa medieval."
+  },
+  {
+   "id": "ala_pintxos_cuchi",
+   "cat": "food",
+   "name": "Pintxos en la Cuchillería",
+   "icon": "🍢",
+   "lat": 42.8489,
+   "lng": -2.6713,
+   "desc": "Ruta de pintxos por el casco viejo de Vitoria."
+  },
+  {
+   "id": "ala_el_portalon",
+   "cat": "food",
+   "name": "Restaurante El Portalón",
+   "icon": "🍽️",
+   "lat": 42.85,
+   "lng": -2.6735,
+   "desc": "Cocina tradicional en una posta del s. XV."
+  },
+  {
+   "id": "ala_zaldiaran",
+   "cat": "food",
+   "name": "Restaurante Zaldiaran",
+   "icon": "⭐",
+   "lat": 42.8415,
+   "lng": -2.6836,
+   "desc": "Alta cocina vasca de referencia en Vitoria."
+  },
+  {
+   "id": "ala_amelibia",
+   "cat": "food",
+   "name": "Restaurante Amelibia (Laguardia)",
+   "icon": "🍲",
+   "lat": 42.5536,
+   "lng": -2.5833,
+   "desc": "Cocina de mercado con vistas al viñedo."
+  },
+  {
+   "id": "ala_hector_oribe",
+   "cat": "food",
+   "name": "Restaurante Héctor Oribe (Páganos)",
+   "icon": "🍷",
+   "lat": 42.55836,
+   "lng": -2.60412,
+   "desc": "Cocina riojana y maridaje en plena Rioja Alavesa."
+  }
+ ],
+ "extra": {
+  "ala_catedral_santa_maria": {
+   "id": "ala_catedral_santa_maria",
+   "d": "El proyecto 'Abierto por Obras' permite recorrer con casco la cripta, la nave y la torre mientras se consolida el edificio que inspiró a Ken Follett. Una visita única entre andamios y arqueología.",
+   "d_en": "The 'Open for Works' project lets you tour the crypt, nave and tower with a helmet while the building that inspired Ken Follett is consolidated. A unique visit among scaffolds and archaeology.",
+   "h": "Visitas guiadas con reserva; consultar horarios estacionales.",
+   "h_en": "Guided visits by reservation; check seasonal timetables.",
+   "i": "Ideal si te gusta la arqueología, el gótico y las historias entre bambalinas.",
+   "i_en": "Ideal if you like archaeology, Gothic art and behind-the-scenes stories."
+  },
+  "ala_casco_medieval": {
+   "id": "ala_casco_medieval",
+   "d": "Un entramado de calles gremiales (Cuchillería, Herrería, Zapatería) con palacios renacentistas, torres e iglesias. El corazón histórico de la capital alavesa, perfecto para pasear sin rumbo.",
+   "d_en": "A web of guild streets (Cuchillería, Herrería, Zapatería) with Renaissance palaces, towers and churches. The historic heart of Álava's capital, perfect for aimless strolling.",
+   "h": "Acceso libre todo el día.",
+   "h_en": "Free access all day.",
+   "i": "Ideal si te gusta perderte por callejuelas con historia y ambiente.",
+   "i_en": "Ideal if you like wandering historic lanes full of atmosphere."
+  },
+  "ala_virgen_blanca": {
+   "id": "ala_virgen_blanca",
+   "d": "Presidida por el monumento a la Batalla de Vitoria y flanqueada por casas con miradores acristalados, es el escenario de las fiestas de la Virgen Blanca y del descenso de Celedón.",
+   "d_en": "Overlooked by the Battle of Vitoria monument and lined with glass-balconied houses, it stages the Virgen Blanca festival and the descent of Celedón.",
+   "h": "Acceso libre todo el día.",
+   "h_en": "Free access all day.",
+   "i": "Ideal si te gusta el pulso de la ciudad y las terrazas.",
+   "i_en": "Ideal if you like the city's pulse and terrace cafés."
+  },
+  "ala_los_arquillos": {
+   "id": "ala_los_arquillos",
+   "d": "Obra de Justo Antonio de Olaguíbel, este ingenioso graderío de arcos salva el desnivel del cerro y desemboca en la porticada Plaza de España. Un ejemplo brillante de urbanismo del s. XVIII.",
+   "d_en": "Designed by Justo Antonio de Olaguíbel, this ingenious arcaded terrace bridges the hill's slope and opens onto the porticoed Plaza de España. A brilliant example of 18th-century urban planning.",
+   "h": "Acceso libre todo el día.",
+   "h_en": "Free access all day.",
+   "i": "Ideal si te gusta la arquitectura y los rincones fotogénicos.",
+   "i_en": "Ideal if you like architecture and photogenic corners."
+  },
+  "ala_catedral_nueva": {
+   "id": "ala_catedral_nueva",
+   "d": "Una de las mayores catedrales de España construidas en el s. XX, en piedra arenisca y estilo neogótico, con una cripta que alberga un museo diocesano de arte sacro.",
+   "d_en": "One of the largest cathedrals in Spain built in the 20th century, in sandstone and neo-Gothic style, with a crypt housing a diocesan museum of sacred art.",
+   "h": "Consultar horarios de culto y visita.",
+   "h_en": "Check worship and visiting hours.",
+   "i": "Ideal si te gusta la monumentalidad y el arte religioso.",
+   "i_en": "Ideal if you like monumental scale and religious art."
+  },
+  "ala_laguardia": {
+   "id": "ala_laguardia",
+   "d": "Encaramada en un cerro, sus calles peatonales esconden un subsuelo horadado por cientos de bodegas centenarias. Destaca la portada policromada de Santa María de los Reyes.",
+   "d_en": "Perched on a hill, its pedestrian streets hide an underground riddled with hundreds of centuries-old wine cellars. The polychrome doorway of Santa María de los Reyes stands out.",
+   "h": "Acceso libre; portada de Santa María con visita guiada.",
+   "h_en": "Free access; Santa María doorway by guided tour.",
+   "i": "Ideal si te gusta el vino, la historia y las vistas al viñedo.",
+   "i_en": "Ideal if you like wine, history and vineyard views."
+  },
+  "ala_marques_riscal": {
+   "id": "ala_marques_riscal",
+   "d": "La 'Ciudad del Vino' combina bodegas históricas de 1858 con un espectacular edificio de titanio ondulado firmado por Gehry. Visitas guiadas, catas y alta gastronomía junto al viñedo.",
+   "d_en": "The 'City of Wine' blends historic 1858 cellars with a spectacular undulating titanium building by Gehry. Guided tours, tastings and fine dining beside the vineyard.",
+   "h": "Visitas con reserva previa; consultar horarios.",
+   "h_en": "Visits by prior booking; check timetables.",
+   "i": "Ideal si te gusta la arquitectura contemporánea y el enoturismo.",
+   "i_en": "Ideal if you like contemporary architecture and wine tourism."
+  },
+  "ala_ysios": {
+   "id": "ala_ysios",
+   "d": "Su cubierta ondulada de aluminio y madera, obra de Santiago Calatrava, imita la silueta de la montaña. Una de las imágenes más reconocibles del enoturismo alavés.",
+   "d_en": "Its wavy aluminium-and-wood roof by Santiago Calatrava mirrors the mountain's silhouette. One of the most recognisable images of Álava wine tourism.",
+   "h": "Visitas guiadas con reserva.",
+   "h_en": "Guided tours by reservation.",
+   "i": "Ideal si te gusta la arquitectura escultórica y la fotografía.",
+   "i_en": "Ideal if you like sculptural architecture and photography."
+  },
+  "ala_dolmen_hechicera": {
+   "id": "ala_dolmen_hechicera",
+   "d": "Uno de los monumentos megalíticos mejor conservados del País Vasco, con cámara y corredor visibles. Testigo del poblamiento prehistórico de la Rioja Alavesa hace más de 5.000 años.",
+   "d_en": "One of the best-preserved megalithic monuments in the Basque Country, with visible chamber and corridor. Witness to prehistoric settlement of the Rioja Alavesa over 5,000 years ago.",
+   "h": "Acceso libre todo el día.",
+   "h_en": "Free access all day.",
+   "i": "Ideal si te gusta la prehistoria y el paisaje del viñedo.",
+   "i_en": "Ideal if you like prehistory and vineyard landscapes."
+  },
+  "ala_salinas_anana": {
+   "id": "ala_salinas_anana",
+   "d": "Un paisaje único de miles de eras de sal escalonadas donde aún se produce sal a mano con agua de manantial salado. Visitas guiadas, catas de sal y baños termales de salmuera.",
+   "d_en": "A unique landscape of thousands of stepped salt pans where salt is still made by hand from salty spring water. Guided tours, salt tastings and brine spa baths.",
+   "h": "Visitas guiadas con reserva; consultar horarios.",
+   "h_en": "Guided tours by reservation; check timetables.",
+   "i": "Ideal si te gusta el patrimonio vivo y los paisajes singulares.",
+   "i_en": "Ideal if you like living heritage and singular landscapes."
+  },
+  "ala_valderejo": {
+   "id": "ala_valderejo",
+   "d": "Rodeado de crestas calizas, alberga buitreras, hayedos y el desfiladero del río Purón. Sus rutas parten de la aldea de Lalastra, con centro de interpretación de la naturaleza.",
+   "d_en": "Ringed by limestone crags, it shelters griffon vulture colonies, beech woods and the Purón river gorge. Trails start from the hamlet of Lalastra, with a nature interpretation centre.",
+   "h": "Acceso libre; centro de interpretación con horario propio.",
+   "h_en": "Free access; interpretation centre has its own hours.",
+   "i": "Ideal si te gusta el senderismo y la observación de aves.",
+   "i_en": "Ideal if you like hiking and birdwatching."
+  },
+  "ala_ullibarri": {
+   "id": "ala_ullibarri",
+   "d": "El mayor embalse del País Vasco, con zonas de baño (Garaio, Landa), vela, piragüismo y humedales protegidos. Un refugio de ocio y naturaleza a un paso de Vitoria.",
+   "d_en": "The largest reservoir in the Basque Country, with swimming areas (Garaio, Landa), sailing, canoeing and protected wetlands. A leisure and nature retreat just outside Vitoria.",
+   "h": "Acceso libre; servicios de temporada en verano.",
+   "h_en": "Free access; seasonal services in summer.",
+   "i": "Ideal si te gusta el agua, la playa interior y el picnic.",
+   "i_en": "Ideal if you like water, inland beaches and picnics."
+  },
+  "ala_salburua": {
+   "id": "ala_salburua",
+   "d": "Parte del Anillo Verde que rodea Vitoria, sus lagunas recuperadas acogen ciervos, visón europeo y decenas de aves acuáticas. Cuenta con el centro de interpretación Ataria y pasarelas.",
+   "d_en": "Part of the Green Ring encircling Vitoria, its restored lagoons host deer, European mink and dozens of water birds. It has the Ataria interpretation centre and boardwalks.",
+   "h": "Acceso libre; centro Ataria con horario propio.",
+   "h_en": "Free access; Ataria centre has its own hours.",
+   "i": "Ideal si te gusta la fauna y pasear o pedalear cerca de la ciudad.",
+   "i_en": "Ideal if you like wildlife and walking or cycling near the city."
+  },
+  "ala_santa_catalina": {
+   "id": "ala_santa_catalina",
+   "d": "En la sierra de Badaya, junto a Trespuentes, las ruinas de un convento del s. XIV enmarcan un jardín con cientos de especies y un mirador sobre la llanada alavesa.",
+   "d_en": "In the Badaya range near Trespuentes, the ruins of a 14th-century convent frame a garden with hundreds of species and a viewpoint over the Álava plain.",
+   "h": "Consultar horarios estacionales.",
+   "h_en": "Check seasonal timetables.",
+   "i": "Ideal si te gusta la botánica y los rincones románticos.",
+   "i_en": "Ideal if you like botany and romantic spots."
+  },
+  "ala_artium": {
+   "id": "ala_artium",
+   "d": "El 'Museo de Arte Contemporáneo del País Vasco' reúne obras de Oteiza, Chillida, Barceló o Tàpies en amplias salas subterráneas, con exposiciones temporales de vanguardia.",
+   "d_en": "The 'Basque Contemporary Art Museum' gathers works by Oteiza, Chillida, Barceló and Tàpies in large underground galleries, with cutting-edge temporary shows.",
+   "h": "Mar–Dom; lunes cerrado. Consultar horarios.",
+   "h_en": "Tue–Sun; closed Mondays. Check timetables.",
+   "i": "Ideal si te gusta el arte contemporáneo y la escultura vasca.",
+   "i_en": "Ideal if you like contemporary art and Basque sculpture."
+  },
+  "ala_fournier": {
+   "id": "ala_fournier",
+   "d": "Una de las mejores colecciones de naipes del mundo, con más de 20.000 barajas de todos los continentes, en un palacio renacentista del casco medieval de Vitoria.",
+   "d_en": "One of the world's finest playing-card collections, with over 20,000 decks from every continent, in a Renaissance palace of Vitoria's old town.",
+   "h": "Mar–Dom; lunes cerrado. Consultar horarios.",
+   "h_en": "Tue–Sun; closed Mondays. Check timetables.",
+   "i": "Ideal si te gusta la curiosidad, el diseño y la historia local.",
+   "i_en": "Ideal if you like curiosities, design and local history."
+  },
+  "ala_villa_lucia": {
+   "id": "ala_villa_lucia",
+   "d": "Un espacio interactivo dedicado a la cultura del vino de la Rioja Alavesa, con museo, jardín, degustaciones y un audiovisual sensorial en 4 dimensiones. Ideal en familia.",
+   "d_en": "An interactive space devoted to Rioja Alavesa wine culture, with a museum, garden, tastings and a 4D sensory show. Great for families.",
+   "h": "Visitas con reserva; consultar horarios.",
+   "h_en": "Visits by reservation; check timetables.",
+   "i": "Ideal si te gusta el enoturismo divulgativo y en familia.",
+   "i_en": "Ideal if you like accessible, family-friendly wine tourism."
+  },
+  "ala_cuevas_laguardia": {
+   "id": "ala_cuevas_laguardia",
+   "d": "El subsuelo de Laguardia esconde cientos de cuevas excavadas donde se elabora y guarda el vino desde el s. XV. Bodegas familiares como El Fabulista ofrecen visita y cata.",
+   "d_en": "Laguardia's subsoil hides hundreds of dug caves where wine has been made and aged since the 15th century. Family cellars such as El Fabulista offer tours and tastings.",
+   "h": "Visitas guiadas con reserva.",
+   "h_en": "Guided tours by reservation.",
+   "i": "Ideal si te gusta el vino con historia y ambientes subterráneos.",
+   "i_en": "Ideal if you like wine with history and underground settings."
+  },
+  "ala_pintxos_cuchi": {
+   "id": "ala_pintxos_cuchi",
+   "d": "La calle Cuchillería (Cuchi) y su entorno concentran bares donde probar pintxos creativos y clásicos, ganadores del concurso de la ciudad. El mejor plan para un txikiteo local.",
+   "d_en": "Cuchillería street (Cuchi) and its surroundings pack bars serving creative and classic pintxos, winners of the city contest. The best plan for a local txikiteo.",
+   "h": "Mediodía y noche; muchos bares.",
+   "h_en": "Midday and evening; many bars.",
+   "i": "Ideal si te gusta picar de bar en bar con ambiente.",
+   "i_en": "Ideal if you like bar-hopping with atmosphere."
+  },
+  "ala_el_portalon": {
+   "id": "ala_el_portalon",
+   "d": "En un edificio de entramado de madera del casco medieval, ofrece cocina vasca clásica: chuletón, bacalao, verduras de temporada y una notable bodega de Rioja Alavesa.",
+   "d_en": "In a timber-framed building in the old town, it serves classic Basque cuisine: rib steak, cod, seasonal vegetables and a fine Rioja Alavesa cellar.",
+   "h": "Comidas y cenas; cerrado domingo noche.",
+   "h_en": "Lunch and dinner; closed Sunday evening.",
+   "i": "Ideal si te gusta la tradición y los edificios con historia.",
+   "i_en": "Ideal if you like tradition and historic buildings."
+  },
+  "ala_zaldiaran": {
+   "id": "ala_zaldiaran",
+   "d": "Un clásico de la gastronomía alavesa, cuna de grandes chefs, con menús degustación de producto de temporada y una carta de vinos excepcional. Ambiente elegante y sereno.",
+   "d_en": "A landmark of Álava gastronomy, cradle of great chefs, with seasonal tasting menus and an exceptional wine list. Elegant, serene setting.",
+   "h": "Comidas y cenas con reserva; consultar cierres.",
+   "h_en": "Lunch and dinner by reservation; check closing days.",
+   "i": "Ideal si te gusta la alta cocina y las celebraciones.",
+   "i_en": "Ideal if you like haute cuisine and special occasions."
+  },
+  "ala_amelibia": {
+   "id": "ala_amelibia",
+   "d": "Sobre la muralla de Laguardia, sus grandes ventanales miran a la Sierra de Cantabria y al viñedo. Guisos de temporada, caza y platos riojanos regados con vinos de la zona.",
+   "d_en": "On Laguardia's walls, its large windows face the Sierra de Cantabria and the vineyards. Seasonal stews, game and Riojan dishes paired with local wines.",
+   "h": "Comidas; cenas fin de semana. Reserva recomendada.",
+   "h_en": "Lunch; weekend dinners. Booking advised.",
+   "i": "Ideal si te gusta comer con vistas y sabor de la tierra.",
+   "i_en": "Ideal if you like dining with views and local flavour."
+  },
+  "ala_hector_oribe": {
+   "id": "ala_hector_oribe",
+   "d": "En la pequeña localidad de Páganos, junto a Laguardia, ofrece cocina de mercado bien ejecutada y una de las mejores bodegas de la comarca, con menús a precio ajustado.",
+   "d_en": "In the small village of Páganos next to Laguardia, it serves well-crafted market cuisine and one of the finest cellars in the area, with keenly priced menus.",
+   "h": "Comidas; consultar cenas y cierres.",
+   "h_en": "Lunch; check dinners and closing days.",
+   "i": "Ideal si te gusta el buen comer entre viñedos sin pretensiones.",
+   "i_en": "Ideal if you like fine, unpretentious dining among vineyards."
+  }
+ },
+ "food": {
+  "ala_pintxos_cuchi": {
+   "cuisine": "Pintxos vascos",
+   "price": "2–4 € (por pintxo)",
+   "hours": "12:00–15:30, 19:30–23:30"
+  },
+  "ala_el_portalon": {
+   "cuisine": "Vasca tradicional",
+   "price": "40–65 €",
+   "hours": "13:00–15:30, 20:30–23:00"
+  },
+  "ala_zaldiaran": {
+   "cuisine": "Alta cocina vasca",
+   "price": "70–110 €",
+   "hours": "13:30–15:30, 21:00–23:00"
+  },
+  "ala_amelibia": {
+   "cuisine": "Riojana de mercado",
+   "price": "35–55 €",
+   "hours": "13:30–15:30 (cenas fin de semana)"
+  },
+  "ala_hector_oribe": {
+   "cuisine": "Riojana de mercado",
+   "price": "30–50 €",
+   "hours": "13:30–15:30 (cenas con reserva)"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Álava",
+   "items": [
+    {
+     "name": "Vino de Rioja Alavesa",
+     "price": "8–40 €",
+     "desc": "Tintos de Tempranillo y blancos de bodegas de Laguardia, Elciego y Oyón."
+    },
+    {
+     "name": "Sal de Añana",
+     "price": "5–15 €",
+     "desc": "Sal de manantial recogida a mano en el Valle Salado, en escamas o flor de sal."
+    },
+    {
+     "name": "Trufas y bombones Goya",
+     "price": "6–18 €",
+     "desc": "Chocolates artesanos clásicos de Vitoria-Gasteiz."
+    },
+    {
+     "name": "Naipes Fournier",
+     "price": "5–12 €",
+     "desc": "Barajas de la histórica fábrica vitoriana, un icono de la ciudad."
+    },
+    {
+     "name": "Perretxikos y patata alavesa",
+     "price": "6–20 €",
+     "desc": "Setas de primavera y patata de guarnición, base de la cocina local."
+    }
+   ],
+   "shops": [
+    "Mercado de Abastos de Vitoria-Gasteiz",
+    "Tienda del Valle Salado (Añana)",
+    "Bodegas de la Rioja Alavesa",
+    "Confitería Goya (Vitoria)"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "El casco medieval de Vitoria (la Almendra) es peatonal y con cuestas; lleva calzado cómodo.",
+   "Reserva con antelación las visitas a bodegas de la Rioja Alavesa y a Marqués de Riscal, sobre todo en fin de semana.",
+   "La visita 'Puerta Abierta' a la Catedral de Santa María requiere entrada previa; incluye casco y andamios.",
+   "Aprovecha el Anillo Verde de Vitoria en bici: conecta parques y humedales como Salburua.",
+   "Combina Salinas de Añana y Valderejo en un mismo día por el oeste alavés; verifica horarios estacionales."
+  ],
+  "en": [
+   "Vitoria's medieval old town (the Almond) is pedestrian and hilly; wear comfortable shoes.",
+   "Book Rioja Alavesa winery tours and Marqués de Riscal well ahead, especially on weekends.",
+   "The 'Open Door' visit to Santa María Cathedral needs a prior ticket; it includes helmet and scaffolding.",
+   "Explore Vitoria's Green Ring by bike: it links parks and wetlands such as Salburua.",
+   "Pair the Añana Salt Valley and Valderejo in one day across western Álava; check seasonal timetables."
+  ]
+ },
+ "climate": {
+  "hi": [
+   8,
+   10,
+   14,
+   15,
+   19,
+   23,
+   26,
+   26,
+   23,
+   17,
+   11,
+   8
+  ],
+  "lo": [
+   1,
+   1,
+   3,
+   5,
+   8,
+   11,
+   13,
+   13,
+   11,
+   8,
+   4,
+   2
+  ]
+ },
+ "tr": {
+  "Catedral gótica del s. XIII visitable durante su restauración.": "13th-century Gothic cathedral visitable during its restoration.",
+  "Núcleo medieval de Vitoria con forma de almendra.": "Vitoria's almond-shaped medieval core.",
+  "Plaza emblemática y centro social de Vitoria.": "Emblematic square and social hub of Vitoria.",
+  "Conjunto neoclásico que une la ciudad alta y baja.": "Neoclassical ensemble linking the upper and lower town.",
+  "Gran catedral neogótica del s. XX.": "Large 20th-century neo-Gothic cathedral.",
+  "Villa amurallada sobre la Rioja Alavesa.": "Walled town above the Rioja Alavesa.",
+  "Bodega icónica con hotel de Frank Gehry.": "Iconic winery with a Frank Gehry hotel.",
+  "Bodega de Calatrava a los pies de la Sierra de Cantabria.": "Calatrava winery at the foot of the Sierra de Cantabria.",
+  "Dolmen megalítico entre viñedos, cerca de Elvillar.": "Megalithic dolmen among vineyards, near Elvillar.",
+  "Salinas de manantial en terrazas de madera del s. XI.": "Spring-water salt terraces dating from the 11th century.",
+  "Valle remoto y salvaje en el extremo oeste de Álava.": "Remote, wild valley in the far west of Álava.",
+  "Gran lago interior con playas y deportes náuticos.": "Large inland lake with beaches and water sports.",
+  "Humedal urbano con ciervos, aves y el Anillo Verde.": "Urban wetland with deer, birds and the Green Ring.",
+  "Jardín botánico sobre las ruinas de un convento.": "Botanical garden over a ruined convent.",
+  "Museo de arte contemporáneo vasco y español.": "Museum of Basque and Spanish contemporary art.",
+  "Museo de la baraja en el Palacio de Bendaña.": "Playing-card museum in the Bendaña Palace.",
+  "Centro temático del vino con experiencia 4D.": "Wine theme centre with a 4D experience.",
+  "Cuevas-bodega centenarias bajo la villa medieval.": "Centuries-old cellar caves beneath the medieval town.",
+  "Ruta de pintxos por el casco viejo de Vitoria.": "Pintxo crawl through Vitoria's old town.",
+  "Cocina tradicional en una posta del s. XV.": "Traditional cuisine in a 15th-century posting house.",
+  "Alta cocina vasca de referencia en Vitoria.": "Reference haute Basque cuisine in Vitoria.",
+  "Cocina de mercado con vistas al viñedo.": "Market cuisine with vineyard views.",
+  "Cocina riojana y maridaje en plena Rioja Alavesa.": "Riojan cuisine and pairings in the heart of Rioja Alavesa.",
+  "Álava": "Álava"
+ }
+}

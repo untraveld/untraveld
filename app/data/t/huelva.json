@@ -1,0 +1,578 @@
+{
+ "id": "huelva",
+ "name": "Huelva",
+ "country": "ES",
+ "center": [
+  37.2614,
+  -6.9447
+ ],
+ "pois": [
+  {
+   "id": "hue_muelle_tinto",
+   "cat": "monuments",
+   "name": "Muelle del Tinto (Muelle-Embarcadero de Riotinto)",
+   "icon": "🌉",
+   "lat": 37.2552,
+   "lng": -6.9481,
+   "desc": "Muelle de hierro victoriano sobre la ría de Huelva."
+  },
+  {
+   "id": "hue_barrio_reina_victoria",
+   "cat": "monuments",
+   "name": "Barrio Reina Victoria (Barrio Obrero)",
+   "icon": "🏘️",
+   "lat": 37.2668,
+   "lng": -6.941,
+   "desc": "Barrio-jardín inglés de casitas de colores."
+  },
+  {
+   "id": "hue_catedral_merced",
+   "cat": "monuments",
+   "name": "Catedral de la Merced",
+   "icon": "⛪",
+   "lat": 37.26165,
+   "lng": -6.95,
+   "desc": "Catedral barroca de fachada blanca colonial."
+  },
+  {
+   "id": "hue_santuario_cinta",
+   "cat": "monuments",
+   "name": "Santuario de Nuestra Señora de la Cinta",
+   "icon": "🕍",
+   "lat": 37.2871,
+   "lng": -6.9369,
+   "desc": "Ermita mudéjar ligada a Colón."
+  },
+  {
+   "id": "hue_monasterio_rabida",
+   "cat": "monuments",
+   "name": "Monasterio de La Rábida",
+   "icon": "⛪",
+   "lat": 37.20756,
+   "lng": -6.92614,
+   "desc": "Monasterio franciscano donde Colón gestó su viaje."
+  },
+  {
+   "id": "hue_muelle_carabelas",
+   "cat": "monuments",
+   "name": "Muelle de las Carabelas",
+   "icon": "⛵",
+   "lat": 37.2103,
+   "lng": -6.927,
+   "desc": "Réplicas navegables de la Niña, Pinta y Santa María."
+  },
+  {
+   "id": "hue_gruta_maravillas",
+   "cat": "monuments",
+   "name": "Gruta de las Maravillas",
+   "icon": "🕳️",
+   "lat": 37.8931,
+   "lng": -6.5625,
+   "desc": "Cueva turística de lagos y estalactitas en Aracena."
+  },
+  {
+   "id": "hue_castillo_aracena",
+   "cat": "monuments",
+   "name": "Castillo e Iglesia Prioral de Aracena",
+   "icon": "🏰",
+   "lat": 37.8908,
+   "lng": -6.5638,
+   "desc": "Castillo templario y torre mudéjar con vistas."
+  },
+  {
+   "id": "hue_niebla_murallas",
+   "cat": "monuments",
+   "name": "Niebla, murallas y Castillo de los Guzmán",
+   "icon": "🏰",
+   "lat": 37.3597,
+   "lng": -6.6817,
+   "desc": "Villa amurallada milenaria junto al Río Tinto."
+  },
+  {
+   "id": "hue_moguer_santa_clara",
+   "cat": "monuments",
+   "name": "Moguer y el Monasterio de Santa Clara",
+   "icon": "🏛️",
+   "lat": 37.2757,
+   "lng": -6.8384,
+   "desc": "Pueblo blanco de Juan Ramón Jiménez y Platero."
+  },
+  {
+   "id": "hue_donana",
+   "cat": "nature",
+   "name": "Parque Nacional de Doñana",
+   "icon": "🦩",
+   "lat": 37.0533,
+   "lng": -6.5875,
+   "desc": "Marismas y dunas, refugio de aves y linces."
+  },
+  {
+   "id": "hue_marismas_odiel",
+   "cat": "nature",
+   "name": "Paraje Natural Marismas del Odiel",
+   "icon": "🦩",
+   "lat": 37.235,
+   "lng": -6.98,
+   "desc": "Reserva de la Biosfera de marismas a las puertas de Huelva."
+  },
+  {
+   "id": "hue_sierra_aracena",
+   "cat": "nature",
+   "name": "Sierra de Aracena y Picos de Aroche",
+   "icon": "⛰️",
+   "lat": 37.8647,
+   "lng": -6.6633,
+   "desc": "Parque natural de dehesas, castaños y pueblos blancos."
+  },
+  {
+   "id": "hue_rio_tinto_paisaje",
+   "cat": "nature",
+   "name": "Paisaje del Río Tinto (Peña de Hierro)",
+   "icon": "🔴",
+   "lat": 37.728,
+   "lng": -6.556,
+   "desc": "El río rojo de aguas marcianas."
+  },
+  {
+   "id": "hue_flecha_rompido",
+   "cat": "nature",
+   "name": "Flecha del Rompido (El Rompido)",
+   "icon": "🏖️",
+   "lat": 37.218,
+   "lng": -7.133,
+   "desc": "Lengua de arena virgen frente a un pueblo marinero."
+  },
+  {
+   "id": "hue_matalascanas",
+   "cat": "ocio",
+   "name": "Playa de Matalascañas",
+   "icon": "🏖️",
+   "lat": 37.0006,
+   "lng": -6.549,
+   "desc": "Amplia playa junto a Doñana con la Torre la Higuera."
+  },
+  {
+   "id": "hue_punta_umbria",
+   "cat": "ocio",
+   "name": "Punta Umbría",
+   "icon": "🏖️",
+   "lat": 37.181,
+   "lng": -6.965,
+   "desc": "Pueblo playero clásico de la costa onubense."
+  },
+  {
+   "id": "hue_isla_cristina_playa",
+   "cat": "ocio",
+   "name": "Playa Central de Isla Cristina",
+   "icon": "🏖️",
+   "lat": 37.1997,
+   "lng": -7.32,
+   "desc": "Playa dorada y pinares junto a la frontera."
+  },
+  {
+   "id": "hue_parque_minero_riotinto",
+   "cat": "ocio",
+   "name": "Parque Minero de Riotinto",
+   "icon": "⛏️",
+   "lat": 37.6906,
+   "lng": -6.5911,
+   "desc": "Museo minero, tren histórico y la Corta Atalaya."
+  },
+  {
+   "id": "hue_ayamonte",
+   "cat": "ocio",
+   "name": "Ayamonte y el río Guadiana",
+   "icon": "🌅",
+   "lat": 37.2103,
+   "lng": -7.4045,
+   "desc": "Pueblo fronterizo con Portugal sobre el Guadiana."
+  },
+  {
+   "id": "hue_jabugo",
+   "cat": "food",
+   "name": "Jabugo, cuna del jamón ibérico",
+   "icon": "🐖",
+   "lat": 37.8917,
+   "lng": -6.7264,
+   "desc": "El mejor jamón de bellota DOP de la Sierra."
+  },
+  {
+   "id": "hue_mercado_carmen",
+   "cat": "food",
+   "name": "Mercado del Carmen (Huelva)",
+   "icon": "🦐",
+   "lat": 37.2603,
+   "lng": -6.9476,
+   "desc": "Mercado de abastos con barras de tapeo."
+  },
+  {
+   "id": "hue_isla_cristina_atun",
+   "cat": "food",
+   "name": "Atún y mojama de Isla Cristina",
+   "icon": "🐟",
+   "lat": 37.1975,
+   "lng": -7.3245,
+   "desc": "Salazones y pescado en el puerto pesquero."
+  },
+  {
+   "id": "hue_condado_vino",
+   "cat": "food",
+   "name": "Vinos del Condado (Bollullos Par del Condado)",
+   "icon": "🍷",
+   "lat": 37.3406,
+   "lng": -6.5389,
+   "desc": "Bodegas de vino generoso y vino de naranja."
+  }
+ ],
+ "extra": {
+  "hue_muelle_tinto": {
+   "id": "hue_muelle_tinto",
+   "d": "Espectacular embarcadero de mineral construido por la Rio Tinto Company Ltd. en 1876, obra de ingeniería inglesa curvada sobre el agua. Hoy es paseo peatonal y uno de los iconos de la ciudad, precioso al atardecer.",
+   "d_en": "Spectacular ore-loading pier built by the Rio Tinto Company Ltd. in 1876, a curved British engineering landmark over the water. Now a pedestrian promenade and one of the city's icons, stunning at sunset.",
+   "h": "Al atardecer, 1 h",
+   "h_en": "At sunset, 1 h",
+   "i": "Ideal si te gusta la historia industrial y la fotografía.",
+   "i_en": "Ideal if you like industrial heritage and photography."
+  },
+  "hue_barrio_reina_victoria": {
+   "id": "hue_barrio_reina_victoria",
+   "d": "Barrio construido a partir de 1916 por la compañía minera inglesa para sus empleados, con casas de estilo británico, porches y jardines. Un rincón único y pintoresco que recuerda la fuerte huella inglesa en Huelva.",
+   "d_en": "District built from 1916 by the British mining company for its workers, with English-style houses, porches and gardens. A unique, picturesque corner that recalls the strong British imprint on Huelva.",
+   "h": "Mañana, 45 min",
+   "h_en": "Morning, 45 min",
+   "i": "Ideal si te gusta la arquitectura curiosa y pasear.",
+   "i_en": "Ideal if you like quirky architecture and strolling."
+  },
+  "hue_catedral_merced": {
+   "id": "hue_catedral_merced",
+   "d": "Antiguo convento de la Merced (siglo XVII) convertido en catedral en 1953. De estilo colonial y tonos blancos y almagra, alberga a la patrona Virgen de la Cinta. Su fachada inspiró templos hispanoamericanos.",
+   "d_en": "Former Convent of La Merced (17th century), made a cathedral in 1953. Colonial in style with white and ochre tones, it houses the city's patron, the Virgen de la Cinta. Its façade inspired churches across Latin America.",
+   "h": "Mañana, 30 min",
+   "h_en": "Morning, 30 min",
+   "i": "Ideal si te gusta el arte religioso y la arquitectura.",
+   "i_en": "Ideal if you like religious art and architecture."
+  },
+  "hue_santuario_cinta": {
+   "id": "hue_santuario_cinta",
+   "d": "Ermita blanca de los siglos XIV-XV, en un alto sobre la ciudad, donde según la tradición rezó Cristóbal Colón antes de partir. Conserva azulejos de Daniel Zuloaga y es santuario de la patrona de Huelva.",
+   "d_en": "White 14th–15th-century hermitage on a hilltop above the city where, by tradition, Columbus prayed before setting sail. It preserves tiles by Daniel Zuloaga and is the sanctuary of Huelva's patron saint.",
+   "h": "Mañana, 40 min",
+   "h_en": "Morning, 40 min",
+   "i": "Ideal si te gusta la historia colombina y las vistas.",
+   "i_en": "Ideal if you like Columbus history and views."
+  },
+  "hue_monasterio_rabida": {
+   "id": "hue_monasterio_rabida",
+   "d": "Monasterio franciscano del siglo XV, corazón de los Lugares Colombinos. Aquí Colón encontró apoyo de los frailes para su viaje a América. Conserva claustro mudéjar, frescos de Vázquez Díaz y la sala capitular.",
+   "d_en": "15th-century Franciscan monastery, the heart of the Columbus Sites. Here Columbus found the friars' support for his voyage to America. It preserves a Mudéjar cloister, frescoes by Vázquez Díaz and the chapter house.",
+   "h": "Mañana, 1 h",
+   "h_en": "Morning, 1 h",
+   "i": "Ideal si te gusta la historia de los descubrimientos.",
+   "i_en": "Ideal if you like the history of the Age of Discovery."
+  },
+  "hue_muelle_carabelas": {
+   "id": "hue_muelle_carabelas",
+   "d": "Museo al aire libre junto a La Rábida con reproducciones a tamaño real de las tres carabelas del primer viaje de Colón, que se pueden recorrer, más un barrio medieval recreado. Muy recomendable con niños.",
+   "d_en": "Open-air museum next to La Rábida with full-size reproductions of the three caravels of Columbus's first voyage, which you can board, plus a recreated medieval quarter. Great with children.",
+   "h": "Mañana o tarde, 1.5 h",
+   "h_en": "Morning or afternoon, 1.5 h",
+   "i": "Ideal si te gusta la navegación y viajar con familia.",
+   "i_en": "Ideal if you like sailing and family travel."
+  },
+  "hue_gruta_maravillas": {
+   "id": "hue_gruta_maravillas",
+   "d": "Primera cueva turística de España (abierta en 1914), bajo el castillo de Aracena. Un recorrido de más de un kilómetro por salas con lagos subterráneos, estalactitas y estalagmitas espectacularmente iluminadas.",
+   "d_en": "Spain's first show cave (opened 1914), beneath Aracena castle. A walk of over a kilometre through chambers with underground lakes, stalactites and stalagmites, spectacularly lit.",
+   "h": "Reserva previa, 1 h",
+   "h_en": "Book ahead, 1 h",
+   "i": "Ideal si te gusta la geología y las cuevas.",
+   "i_en": "Ideal if you like geology and caves."
+  },
+  "hue_castillo_aracena": {
+   "id": "hue_castillo_aracena",
+   "d": "Fortaleza medieval del siglo XIII en lo alto del cerro que domina Aracena, junto a la Iglesia Prioral de Nuestra Señora del Mayor Dolor, cuya torre mudéjar recuerda a la Giralda. Vistas magníficas de la Sierra.",
+   "d_en": "13th-century medieval fortress atop the hill overlooking Aracena, beside the Priory Church of Nuestra Señora del Mayor Dolor, whose Mudéjar tower echoes the Giralda. Magnificent views over the Sierra.",
+   "h": "Tarde, 1 h",
+   "h_en": "Afternoon, 1 h",
+   "i": "Ideal si te gusta subir a castillos y las panorámicas.",
+   "i_en": "Ideal if you like climbing castles and panoramas."
+  },
+  "hue_niebla_murallas": {
+   "id": "hue_niebla_murallas",
+   "d": "Conjunto histórico rodeado por casi 2 km de murallas almohades con puertas de época romana, árabe y medieval. Destaca el Castillo de los Guzmán y el puente romano sobre el Río Tinto, de aguas rojizas.",
+   "d_en": "Historic town encircled by almost 2 km of Almohad walls with Roman, Arab and medieval gates. Highlights include the Castle of the Guzmán and the Roman bridge over the reddish waters of the Río Tinto.",
+   "h": "Medio día, 1.5 h",
+   "h_en": "Half day, 1.5 h",
+   "i": "Ideal si te gusta la historia medieval y las murallas.",
+   "i_en": "Ideal if you like medieval history and city walls."
+  },
+  "hue_moguer_santa_clara": {
+   "id": "hue_moguer_santa_clara",
+   "d": "Villa colombina y cuna del Nobel Juan Ramón Jiménez, autor de 'Platero y yo'. Reúne la Casa Museo Zenobia-Juan Ramón, el Monasterio de Santa Clara del siglo XIV y un bello casco blanco lleno de literatura.",
+   "d_en": "Columbus town and birthplace of Nobel laureate Juan Ramón Jiménez, author of 'Platero y yo'. It gathers the Zenobia–Juan Ramón House Museum, the 14th-century Monastery of Santa Clara and a lovely whitewashed centre steeped in literature.",
+   "h": "Medio día, 1.5 h",
+   "h_en": "Half day, 1.5 h",
+   "i": "Ideal si te gusta la literatura y los pueblos blancos.",
+   "i_en": "Ideal if you like literature and white towns."
+  },
+  "hue_donana": {
+   "id": "hue_donana",
+   "d": "Uno de los humedales más importantes de Europa y Patrimonio de la Humanidad. Mosaico de marismas, dunas móviles y pinares que acoge flamencos, aves migratorias y al lince ibérico. Se visita en tours 4x4 autorizados.",
+   "d_en": "One of Europe's most important wetlands and a World Heritage Site. A mosaic of marshes, shifting dunes and pine woods hosting flamingos, migratory birds and the Iberian lynx. Visited on authorized 4x4 tours.",
+   "h": "Tour de medio día",
+   "h_en": "Half-day tour",
+   "i": "Ideal si te gusta la naturaleza y el avistamiento de aves.",
+   "i_en": "Ideal if you like nature and birdwatching."
+  },
+  "hue_marismas_odiel": {
+   "id": "hue_marismas_odiel",
+   "d": "Reserva de la Biosfera junto a la capital, en la desembocadura del Tinto y el Odiel. Marismas mareales con la mayor colonia de espátulas de Europa, flamencos y aves acuáticas, con senderos, mirador y playas casi vírgenes.",
+   "d_en": "Biosphere Reserve next to the city, at the mouth of the Tinto and Odiel rivers. Tidal marshes with Europe's largest spoonbill colony, flamingos and waterbirds, with trails, a viewpoint and near-pristine beaches.",
+   "h": "Mañana, 2 h",
+   "h_en": "Morning, 2 h",
+   "i": "Ideal si te gusta observar aves cerca de la ciudad.",
+   "i_en": "Ideal if you like birdwatching near the city."
+  },
+  "hue_sierra_aracena": {
+   "id": "hue_sierra_aracena",
+   "d": "Parque natural de bosques de castaños, alcornoques y dehesas de encinas donde pasta el cerdo ibérico. Salpicado de pueblos blancos como Alájar y su Peña de Arias Montano, es un paraíso para el senderismo.",
+   "d_en": "Natural park of chestnut and cork-oak woods and holm-oak dehesas where Iberian pigs graze. Dotted with white villages like Alájar and its Peña de Arias Montano, it is a paradise for hiking.",
+   "h": "Día completo",
+   "h_en": "Full day",
+   "i": "Ideal si te gusta el senderismo y la naturaleza rural.",
+   "i_en": "Ideal if you like hiking and rural nature."
+  },
+  "hue_rio_tinto_paisaje": {
+   "id": "hue_rio_tinto_paisaje",
+   "d": "El nacimiento del Río Tinto, de aguas rojizas y ácidas cargadas de minerales, crea un paisaje surrealista que la NASA estudia como análogo de Marte. En Peña de Hierro se ven la mina a cielo abierto y el manantial del río.",
+   "d_en": "The source of the Río Tinto, whose reddish, acidic mineral-laden waters create a surreal landscape NASA studies as a Mars analogue. At Peña de Hierro you can see the open-pit mine and the river's spring.",
+   "h": "Mañana, 1.5 h",
+   "h_en": "Morning, 1.5 h",
+   "i": "Ideal si te gusta la geología insólita y la fotografía.",
+   "i_en": "Ideal if you like unusual geology and photography."
+  },
+  "hue_flecha_rompido": {
+   "id": "hue_flecha_rompido",
+   "d": "Barra de arena de varios kilómetros que crece frente a El Rompido, formando una laguna protegida y playas vírgenes accesibles solo en barco. Un paraíso natural entre pinares y el estuario del Piedras.",
+   "d_en": "A several-kilometre sandbar growing in front of El Rompido, forming a sheltered lagoon and unspoilt beaches reachable only by boat. A natural haven between pine woods and the Piedras estuary.",
+   "h": "Medio día, en barco",
+   "h_en": "Half day, by boat",
+   "i": "Ideal si te gusta la playa tranquila y los paseos en barco.",
+   "i_en": "Ideal if you like quiet beaches and boat trips."
+  },
+  "hue_matalascanas": {
+   "id": "hue_matalascanas",
+   "d": "Extensa playa de arena fina y aguas del Atlántico en el límite de Doñana. Junto a la orilla, la 'Torre derrumbada' (Torre la Higuera) es su icono. Ambiente animado en verano y magníficos atardeceres.",
+   "d_en": "Long fine-sand beach with Atlantic waters on the edge of Doñana. By the shore, the toppled Torre la Higuera watchtower is its icon. Lively in summer with magnificent sunsets.",
+   "h": "Tarde, medio día",
+   "h_en": "Afternoon, half day",
+   "i": "Ideal si te gusta la playa amplia y el ambiente familiar.",
+   "i_en": "Ideal if you like big beaches and a family vibe."
+  },
+  "hue_punta_umbria": {
+   "id": "hue_punta_umbria",
+   "d": "Localidad marinera entre el mar y la ría, con largas playas de arena dorada, paseo marítimo y buena oferta de marisco. El destino de playa más cercano a la capital, ideal para un día de sol y pescaíto.",
+   "d_en": "Seaside town between the ocean and the estuary, with long golden beaches, a promenade and excellent seafood. The closest beach destination to the capital, ideal for a day of sun and fried fish.",
+   "h": "Día completo",
+   "h_en": "Full day",
+   "i": "Ideal si te gusta la playa y el marisco fresco.",
+   "i_en": "Ideal if you like the beach and fresh seafood."
+  },
+  "hue_isla_cristina_playa": {
+   "id": "hue_isla_cristina_playa",
+   "d": "Amplia playa de arena fina rodeada de dunas y pinares, en uno de los puertos pesqueros más importantes de Andalucía. Combina sol y baño con un casco animado y una gastronomía marinera de primer nivel.",
+   "d_en": "Wide fine-sand beach ringed by dunes and pine woods, in one of Andalusia's most important fishing ports. It blends sun and sea with a lively town centre and top-class seafood cuisine.",
+   "h": "Día completo",
+   "h_en": "Full day",
+   "i": "Ideal si te gusta la playa y el pescado de lonja.",
+   "i_en": "Ideal if you like the beach and market-fresh fish."
+  },
+  "hue_parque_minero_riotinto": {
+   "id": "hue_parque_minero_riotinto",
+   "d": "Complejo que explica 5.000 años de minería: el Museo Minero, la casa colonial nº21, un tren turístico por el paisaje rojo y la Corta Atalaya, una de las mayores minas a cielo abierto de Europa.",
+   "d_en": "Complex telling 5,000 years of mining: the Mining Museum, colonial House No. 21, a tourist train through the red landscape and Corta Atalaya, one of Europe's largest open-pit mines.",
+   "h": "Reserva previa, medio día",
+   "h_en": "Book ahead, half day",
+   "i": "Ideal si te gusta la historia industrial y los trenes.",
+   "i_en": "Ideal if you like industrial history and trains."
+  },
+  "hue_ayamonte": {
+   "id": "hue_ayamonte",
+   "d": "Villa marinera en la desembocadura del Guadiana, frontera natural con Portugal. Casco andaluz con azoteas, un ferry que cruza a Vila Real de Santo António y magníficas puestas de sol sobre el río.",
+   "d_en": "Seafaring town at the mouth of the Guadiana, the natural border with Portugal. An Andalusian centre with rooftop terraces, a ferry across to Vila Real de Santo António and glorious sunsets over the river.",
+   "h": "Tarde, 2 h",
+   "h_en": "Afternoon, 2 h",
+   "i": "Ideal si te gusta cruzar fronteras y los atardeceres.",
+   "i_en": "Ideal if you like crossing borders and sunsets."
+  },
+  "hue_jabugo": {
+   "id": "hue_jabugo",
+   "d": "Pequeño pueblo serrano que da nombre a la Denominación de Origen del jamón ibérico más prestigioso de España. Se pueden visitar secaderos y bodegas, catar jamón de bellota y conocer la cultura del cerdo ibérico.",
+   "d_en": "Small mountain village that gives its name to the appellation of Spain's most prestigious Iberian ham. You can visit curing lofts and cellars, taste acorn-fed ham and learn about Iberian-pig culture.",
+   "h": "Mañana, 2 h con cata",
+   "h_en": "Morning, 2 h with tasting",
+   "i": "Ideal si te gusta la gastronomía y los productos ibéricos.",
+   "i_en": "Ideal if you like gastronomy and Iberian products."
+  },
+  "hue_mercado_carmen": {
+   "id": "hue_mercado_carmen",
+   "d": "El gran mercado de abastos de la capital, escaparate del producto onubense: gambas blancas, coquinas, pescado de lonja y jamón. En sus barras y bares se tapea marisco fresquísimo a buen precio.",
+   "d_en": "The city's main food market, a showcase of Huelva produce: white prawns, wedge clams, market-fresh fish and ham. At its counters and bars you can enjoy very fresh seafood tapas at good prices.",
+   "h": "Mañana, 1 h",
+   "h_en": "Morning, 1 h",
+   "i": "Ideal si te gusta el marisco y el ambiente local.",
+   "i_en": "Ideal if you like seafood and local atmosphere."
+  },
+  "hue_isla_cristina_atun": {
+   "id": "hue_isla_cristina_atun",
+   "d": "Uno de los puertos pesqueros de referencia de Andalucía, famoso por su atún, la mojama, las huevas y el pescaíto frito. En sus restaurantes junto a la lonja se degusta el mar directamente de la subasta.",
+   "d_en": "One of Andalusia's leading fishing ports, famous for its tuna, mojama (cured tuna), roe and fried fish. In restaurants beside the fish market you can taste the sea straight from the auction.",
+   "h": "Almuerzo, 1.5 h",
+   "h_en": "Lunch, 1.5 h",
+   "i": "Ideal si te gusta el pescado y los sabores del mar.",
+   "i_en": "Ideal if you like fish and flavours of the sea."
+  },
+  "hue_condado_vino": {
+   "id": "hue_condado_vino",
+   "d": "Capital vitivinícola del Condado de Huelva, con bodegas históricas donde se elaboran vinos blancos, generosos y el peculiar vino de naranja. Ideal para una visita con cata de vinos y tapas de la tierra.",
+   "d_en": "Wine capital of the Condado de Huelva, with historic cellars producing white and fortified wines and the distinctive orange wine. Perfect for a visit with a wine tasting and local tapas.",
+   "h": "Tarde, 1.5 h con cata",
+   "h_en": "Afternoon, 1.5 h with tasting",
+   "i": "Ideal si te gusta el enoturismo y los vinos singulares.",
+   "i_en": "Ideal if you like wine tourism and distinctive wines."
+  }
+ },
+ "food": {
+  "hue_jabugo": {
+   "cuisine": "Jamón ibérico / Charcutería",
+   "price": "20–60 €",
+   "hours": "10:00–14:00, 17:00–20:00"
+  },
+  "hue_mercado_carmen": {
+   "cuisine": "Marisco / Tapas",
+   "price": "10–30 €",
+   "hours": "08:00–15:00"
+  },
+  "hue_isla_cristina_atun": {
+   "cuisine": "Pescado / Atún / Salazones",
+   "price": "15–40 €",
+   "hours": "13:00–16:00, 20:30–23:30"
+  },
+  "hue_condado_vino": {
+   "cuisine": "Vino / Bodega",
+   "price": "10–25 €",
+   "hours": "11:00–14:00, 18:00–20:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Huelva",
+   "items": [
+    {
+     "name": "Jamón ibérico de Jabugo (DOP)",
+     "price": "80–300 €",
+     "desc": "Jamón de bellota de la Sierra de Aracena, con Denominación de Origen Jabugo."
+    },
+    {
+     "name": "Mojama y atún de Isla Cristina",
+     "price": "15–40 €",
+     "desc": "Atún de almadraba curado al sol, una delicatessen del litoral onubense."
+    },
+    {
+     "name": "Gambas blancas de Huelva",
+     "price": "30–60 €",
+     "desc": "El marisco más preciado de la costa, dulce y de textura fina."
+    },
+    {
+     "name": "Vino y vino naranja del Condado",
+     "price": "5–15 €",
+     "desc": "Vinos generosos y el característico vino de naranja de Bollullos y el Condado."
+    },
+    {
+     "name": "Fresas y frutos rojos de Huelva",
+     "price": "3–6 €",
+     "desc": "Fresas, arándanos y frambuesas de la huerta de Palos y Moguer, en temporada."
+    }
+   ],
+   "shops": [
+    "Mercado del Carmen (Huelva)",
+    "Tiendas gourmet de Jabugo (Cinco Jotas y otras)",
+    "Bodegas del Condado (Bollullos Par del Condado)",
+    "Lonja y salazones de Isla Cristina"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Los Lugares Colombinos (La Rábida, Palos y Moguer) están muy cerca entre sí: puedes verlos en medio día.",
+   "Reserva con antelación la Gruta de las Maravillas y las visitas guiadas del Parque Minero de Riotinto, con aforo limitado.",
+   "Para entrar en Doñana contrata un tour 4x4 autorizado desde El Acebuche o El Rocío; no se puede acceder libremente al parque.",
+   "Prueba el jamón de Jabugo y las gambas blancas; la mejor zona de tapeo de la capital es la Gran Vía y el entorno del Mercado del Carmen.",
+   "En verano las playas de Matalascañas, Punta Umbría e Isla Cristina se llenan: llega temprano para aparcar y evitar el calor del mediodía."
+  ],
+  "en": [
+   "The Columbus Sites (La Rábida, Palos and Moguer) are very close together and can be visited in half a day.",
+   "Book the Gruta de las Maravillas cave and the Riotinto Mining Park guided tours in advance, as capacity is limited.",
+   "To enter Doñana take an authorized 4x4 tour from El Acebuche or El Rocío; you cannot drive into the park freely.",
+   "Try Jabugo ham and the local white prawns; the best tapas area in the capital is Gran Vía and around the Mercado del Carmen.",
+   "In summer Matalascañas, Punta Umbría and Isla Cristina beaches get crowded: arrive early to park and beat the midday heat."
+  ]
+ },
+ "climate": {
+  "hi": [
+   16,
+   17,
+   20,
+   22,
+   25,
+   29,
+   32,
+   32,
+   29,
+   25,
+   20,
+   17
+  ],
+  "lo": [
+   6,
+   7,
+   9,
+   11,
+   13,
+   17,
+   19,
+   19,
+   17,
+   14,
+   9,
+   7
+  ]
+ },
+ "tr": {
+  "Muelle de hierro victoriano sobre la ría de Huelva.": "Victorian iron pier over the Huelva estuary.",
+  "Barrio-jardín inglés de casitas de colores.": "English garden district of colourful cottages.",
+  "Catedral barroca de fachada blanca colonial.": "Baroque cathedral with a white colonial façade.",
+  "Ermita mudéjar ligada a Colón.": "Mudéjar hermitage linked to Columbus.",
+  "Monasterio franciscano donde Colón gestó su viaje.": "Franciscan monastery where Columbus planned his voyage.",
+  "Réplicas navegables de la Niña, Pinta y Santa María.": "Sailable replicas of the Niña, Pinta and Santa María.",
+  "Cueva turística de lagos y estalactitas en Aracena.": "Show cave of lakes and stalactites in Aracena.",
+  "Castillo templario y torre mudéjar con vistas.": "Templar castle and Mudéjar tower with views.",
+  "Villa amurallada milenaria junto al Río Tinto.": "Ancient walled town beside the Río Tinto.",
+  "Pueblo blanco de Juan Ramón Jiménez y Platero.": "White town of Juan Ramón Jiménez and Platero.",
+  "Marismas y dunas, refugio de aves y linces.": "Marshes and dunes, refuge of birds and lynx.",
+  "Reserva de la Biosfera de marismas a las puertas de Huelva.": "Biosphere Reserve of marshes at Huelva's doorstep.",
+  "Parque natural de dehesas, castaños y pueblos blancos.": "Natural park of dehesas, chestnuts and white villages.",
+  "El río rojo de aguas marcianas.": "The red river with Martian-like waters.",
+  "Lengua de arena virgen frente a un pueblo marinero.": "Pristine sand spit facing a fishing village.",
+  "Amplia playa junto a Doñana con la Torre la Higuera.": "Wide beach beside Doñana with the Torre la Higuera.",
+  "Pueblo playero clásico de la costa onubense.": "Classic beach resort of the Huelva coast.",
+  "Playa dorada y pinares junto a la frontera.": "Golden beach and pine woods near the border.",
+  "Museo minero, tren histórico y la Corta Atalaya.": "Mining museum, historic train and Corta Atalaya.",
+  "Pueblo fronterizo con Portugal sobre el Guadiana.": "Border town with Portugal on the Guadiana.",
+  "El mejor jamón de bellota DOP de la Sierra.": "The finest DOP acorn-fed ham of the Sierra.",
+  "Mercado de abastos con barras de tapeo.": "Food market with tapas counters.",
+  "Salazones y pescado en el puerto pesquero.": "Salted fish and seafood at the fishing port.",
+  "Bodegas de vino generoso y vino de naranja.": "Cellars of fortified wine and orange wine.",
+  "Huelva": "Huelva"
+ }
+}

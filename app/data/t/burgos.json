@@ -1,0 +1,654 @@
+{
+ "id": "burgos",
+ "name": "Burgos",
+ "country": "ES",
+ "center": [
+  42.34366,
+  -3.69696
+ ],
+ "pois": [
+  {
+   "id": "bur_catedral",
+   "cat": "monuments",
+   "name": "Catedral de Burgos",
+   "icon": "⛪",
+   "lat": 42.34063,
+   "lng": -3.70425,
+   "desc": "Catedral gótica del s. XIII, Patrimonio de la Humanidad."
+  },
+  {
+   "id": "bur_castillo",
+   "cat": "monuments",
+   "name": "Castillo y Mirador de Burgos",
+   "icon": "🏰",
+   "lat": 42.34694,
+   "lng": -3.70861,
+   "desc": "Fortaleza sobre el cerro con el mejor mirador de la ciudad."
+  },
+  {
+   "id": "bur_cartuja",
+   "cat": "monuments",
+   "name": "Cartuja de Miraflores",
+   "icon": "⛪",
+   "lat": 42.33389,
+   "lng": -3.66528,
+   "desc": "Monasterio cartujo con retablo gótico dorado en oro."
+  },
+  {
+   "id": "bur_huelgas",
+   "cat": "monuments",
+   "name": "Monasterio de las Huelgas",
+   "icon": "⛪",
+   "lat": 42.33861,
+   "lng": -3.72389,
+   "desc": "Monasterio cisterciense real con panteón medieval."
+  },
+  {
+   "id": "bur_arco_santamaria",
+   "cat": "monuments",
+   "name": "Arco de Santa María",
+   "icon": "🏛️",
+   "lat": 42.34042,
+   "lng": -3.70544,
+   "desc": "Puerta monumental renacentista de acceso a la ciudad."
+  },
+  {
+   "id": "bur_atapuerca",
+   "cat": "monuments",
+   "name": "Yacimientos de Atapuerca",
+   "icon": "🦴",
+   "lat": 42.37139,
+   "lng": -3.54722,
+   "desc": "Yacimientos prehistóricos Patrimonio de la Humanidad."
+  },
+  {
+   "id": "bur_silos",
+   "cat": "monuments",
+   "name": "Monasterio de Santo Domingo de Silos",
+   "icon": "⛪",
+   "lat": 41.96222,
+   "lng": -3.41833,
+   "desc": "Abadía benedictina famosa por su claustro y su canto gregoriano."
+  },
+  {
+   "id": "bur_covarrubias",
+   "cat": "monuments",
+   "name": "Villa de Covarrubias",
+   "icon": "🏘️",
+   "lat": 42.05917,
+   "lng": -3.52056,
+   "desc": "Villa medieval de casas de entramado y adobe."
+  },
+  {
+   "id": "bur_lerma",
+   "cat": "monuments",
+   "name": "Villa Ducal de Lerma",
+   "icon": "🏛️",
+   "lat": 42.02833,
+   "lng": -3.75972,
+   "desc": "Conjunto barroco con Palacio Ducal y gran Plaza Mayor."
+  },
+  {
+   "id": "bur_frias",
+   "cat": "monuments",
+   "name": "Ciudad de Frías y su Castillo",
+   "icon": "🏰",
+   "lat": 42.76028,
+   "lng": -3.29222,
+   "desc": "La ciudad más pequeña de España con castillo colgante."
+  },
+  {
+   "id": "bur_puente_frias",
+   "cat": "monuments",
+   "name": "Puente Medieval de Frías",
+   "icon": "🌉",
+   "lat": 42.75667,
+   "lng": -3.29417,
+   "desc": "Puente fortificado sobre el río Ebro con torre de portazgo."
+  },
+  {
+   "id": "bur_santa_maria_aranda",
+   "cat": "monuments",
+   "name": "Iglesia de Santa María la Real (Aranda)",
+   "icon": "⛪",
+   "lat": 41.67083,
+   "lng": -3.68972,
+   "desc": "Joya del gótico isabelino en Aranda de Duero."
+  },
+  {
+   "id": "bur_yecla",
+   "cat": "nature",
+   "name": "Desfiladero de La Yecla",
+   "icon": "🏞️",
+   "lat": 41.94472,
+   "lng": -3.42694,
+   "desc": "Estrecho cañón con pasarelas colgadas sobre el río."
+  },
+  {
+   "id": "bur_ojo_guarena",
+   "cat": "nature",
+   "name": "Ojo Guareña",
+   "icon": "🕳️",
+   "lat": 43.02722,
+   "lng": -3.66472,
+   "desc": "Uno de los mayores complejos kársticos de España."
+  },
+  {
+   "id": "bur_canon_ebro",
+   "cat": "nature",
+   "name": "Cañón del Ebro",
+   "icon": "🏞️",
+   "lat": 42.75333,
+   "lng": -3.80722,
+   "desc": "Hoces calizas excavadas por el Ebro en su nacimiento."
+  },
+  {
+   "id": "bur_lagunas_neila",
+   "cat": "nature",
+   "name": "Lagunas de Neila",
+   "icon": "🏔️",
+   "lat": 42.03917,
+   "lng": -3.04833,
+   "desc": "Lagunas glaciares en la Sierra de la Demanda."
+  },
+  {
+   "id": "bur_rio_lobos",
+   "cat": "nature",
+   "name": "Cañón del Río Lobos",
+   "icon": "🦅",
+   "lat": 41.86667,
+   "lng": -3.16667,
+   "desc": "Parque natural de cañones calizos y buitreras."
+  },
+  {
+   "id": "bur_sabinares",
+   "cat": "nature",
+   "name": "Sabinares del Arlanza",
+   "icon": "🌲",
+   "lat": 42.01222,
+   "lng": -3.45889,
+   "desc": "Bosques milenarios de sabina sobre cañones rojizos."
+  },
+  {
+   "id": "bur_espolon",
+   "cat": "ocio",
+   "name": "Paseo del Espolón",
+   "icon": "🌳",
+   "lat": 42.34083,
+   "lng": -3.7025,
+   "desc": "Elegante paseo arbolado junto al río Arlanzón."
+  },
+  {
+   "id": "bur_museo_evolucion",
+   "cat": "ocio",
+   "name": "Museo de la Evolución Humana",
+   "icon": "🧬",
+   "lat": 42.34,
+   "lng": -3.69806,
+   "desc": "Museo moderno sobre la evolución y Atapuerca."
+  },
+  {
+   "id": "bur_bodegas_aranda",
+   "cat": "ocio",
+   "name": "Bodegas subterráneas de Aranda",
+   "icon": "🍷",
+   "lat": 41.67056,
+   "lng": -3.68889,
+   "desc": "Red de bodegas medievales bajo el casco de Aranda."
+  },
+  {
+   "id": "bur_bodega_portia",
+   "cat": "ocio",
+   "name": "Bodegas Portia (Ribera del Duero)",
+   "icon": "🍇",
+   "lat": 41.74333,
+   "lng": -3.6825,
+   "desc": "Bodega de autor diseñada por Norman Foster."
+  },
+  {
+   "id": "bur_orbaneja",
+   "cat": "ocio",
+   "name": "Orbaneja del Castillo",
+   "icon": "💧",
+   "lat": 42.75806,
+   "lng": -3.80639,
+   "desc": "Pueblo con cascada que cae entre sus casas."
+  },
+  {
+   "id": "bur_morcilla_burgos",
+   "cat": "food",
+   "name": "Morcilla de Burgos",
+   "icon": "🌭",
+   "lat": 42.3425,
+   "lng": -3.70472,
+   "desc": "La tapa emblemática de la ciudad, frita o en guiso."
+  },
+  {
+   "id": "bur_casa_ojeda",
+   "cat": "food",
+   "name": "Casa Ojeda",
+   "icon": "🍽️",
+   "lat": 42.34194,
+   "lng": -3.69972,
+   "desc": "Restaurante histórico de cocina burgalesa."
+  },
+  {
+   "id": "bur_lechazo_aranda",
+   "cat": "food",
+   "name": "Lechazo asado de Aranda",
+   "icon": "🍖",
+   "lat": 41.67028,
+   "lng": -3.68917,
+   "desc": "Cordero lechal asado en horno de leña, la estrella de la Ribera."
+  },
+  {
+   "id": "bur_queso_burgos",
+   "cat": "food",
+   "name": "Queso fresco de Burgos",
+   "icon": "🧀",
+   "lat": 42.34472,
+   "lng": -3.7,
+   "desc": "Queso tierno y suave, dulce o con miel."
+  },
+  {
+   "id": "bur_dulces_silos",
+   "cat": "food",
+   "name": "Dulces de convento de Silos",
+   "icon": "🍬",
+   "lat": 41.9625,
+   "lng": -3.41889,
+   "desc": "Yemas y pastas artesanas de tradición monástica."
+  }
+ ],
+ "extra": {
+  "bur_catedral": {
+   "id": "bur_catedral",
+   "d": "Obra maestra del gótico español con agujas caladas, el Papamoscas, el cimborrio estrellado y la tumba del Cid. Su fachada y capillas son de las más impresionantes de Europa.",
+   "d_en": "A masterpiece of Spanish Gothic with openwork spires, the Papamoscas clock, a star-vaulted lantern tower and the tomb of El Cid. Its façade and chapels are among Europe's finest.",
+   "h": "Todos los días 9:30–19:30 (cerrada durante cultos)",
+   "h_en": "Daily 9:30–19:30 (closed during services)",
+   "i": "Ideal si te gusta el arte gótico y la arquitectura monumental.",
+   "i_en": "Ideal if you like Gothic art and monumental architecture."
+  },
+  "bur_castillo": {
+   "id": "bur_castillo",
+   "d": "Coronando el cerro de San Miguel, conserva restos de murallas y pozos subterráneos visitables. Desde su explanada se domina toda la ciudad y las agujas de la Catedral.",
+   "d_en": "Crowning San Miguel hill, it keeps walls and visitable underground galleries. From its esplanade you overlook the whole city and the Cathedral's spires.",
+   "h": "Mar–dom 11:00–14:00 y 16:00–19:00 (varía por temporada)",
+   "h_en": "Tue–Sun 11:00–14:00 and 16:00–19:00 (seasonal)",
+   "i": "Ideal si te gustan las vistas panorámicas y la historia militar.",
+   "i_en": "Ideal if you like panoramic views and military history."
+  },
+  "bur_cartuja": {
+   "id": "bur_cartuja",
+   "d": "Fundada en el s. XV, alberga el espectacular retablo mayor de Gil de Siloé bañado en oro americano y los sepulcros reales de Juan II e Isabel de Portugal. Sigue siendo comunidad de monjes.",
+   "d_en": "Founded in the 15th c., it holds Gil de Siloé's dazzling gilded main altarpiece and the royal tombs of John II and Isabella of Portugal. Still a living monastic community.",
+   "h": "Lun–sáb 10:15–15:00 y 16:00–18:00, dom 11:00–15:00 y 16:00–18:00",
+   "h_en": "Mon–Sat 10:15–15:00 and 16:00–18:00, Sun 11:00–15:00 and 16:00–18:00",
+   "i": "Ideal si te gusta la escultura gótica y el arte religioso.",
+   "i_en": "Ideal if you like Gothic sculpture and religious art."
+  },
+  "bur_huelgas": {
+   "id": "bur_huelgas",
+   "d": "Fundado por Alfonso VIII en 1187, fue panteón real y poderoso convento femenino. Destaca su claustro románico-gótico, los tejidos medievales del Museo de Telas y el púlpito giratorio.",
+   "d_en": "Founded by Alfonso VIII in 1187, it was a royal pantheon and powerful convent for noblewomen. Highlights include its Romanesque-Gothic cloister, the medieval textiles museum and a rotating pulpit.",
+   "h": "Mar–sáb 10:00–14:00 y 16:00–18:30, dom 10:30–15:00",
+   "h_en": "Tue–Sat 10:00–14:00 and 16:00–18:30, Sun 10:30–15:00",
+   "i": "Ideal si te gusta la historia medieval y el arte cisterciense.",
+   "i_en": "Ideal if you like medieval history and Cistercian art."
+  },
+  "bur_arco_santamaria": {
+   "id": "bur_arco_santamaria",
+   "d": "Antigua puerta de la muralla reconvertida en arco de honor a Carlos V en el s. XVI. Sus hornacinas muestran figuras de fundadores y héroes de Burgos, con el Cid en el centro.",
+   "d_en": "A former wall gate turned into a 16th-c. arch of honour to Charles V. Its niches display Burgos's founders and heroes, with El Cid at the centre.",
+   "h": "Exterior visitable siempre; salas mar–sáb 11:00–14:00 y 17:00–21:00",
+   "h_en": "Exterior always visitable; halls Tue–Sat 11:00–14:00 and 17:00–21:00",
+   "i": "Ideal si te gusta la arquitectura civil y la fotografía urbana.",
+   "i_en": "Ideal if you like civic architecture and urban photography."
+  },
+  "bur_atapuerca": {
+   "id": "bur_atapuerca",
+   "d": "Sierra donde se hallaron los restos humanos más antiguos de Europa, incluida la especie Homo antecessor. La visita guiada recorre la Trinchera del Ferrocarril, la Gran Dolina y la Sima de los Huesos.",
+   "d_en": "The range where Europe's oldest human remains were found, including Homo antecessor. Guided tours cover the Railway Trench, Gran Dolina and the Pit of Bones.",
+   "h": "Visitas guiadas con reserva; horarios según temporada",
+   "h_en": "Guided tours by reservation; hours vary by season",
+   "i": "Ideal si te gusta la arqueología y la evolución humana.",
+   "i_en": "Ideal if you like archaeology and human evolution."
+  },
+  "bur_silos": {
+   "id": "bur_silos",
+   "d": "Su claustro románico de doble planta, con capiteles esculpidos y relieves excepcionales, es de los más bellos de Europa. Los monjes aún cantan gregoriano en las horas litúrgicas.",
+   "d_en": "Its two-storey Romanesque cloister, with carved capitals and outstanding reliefs, is one of Europe's finest. Monks still sing Gregorian chant at the liturgical hours.",
+   "h": "Mar–sáb 10:00–13:00 y 16:30–18:00, dom 12:00–13:00 y 16:00–18:00",
+   "h_en": "Tue–Sat 10:00–13:00 and 16:30–18:00, Sun 12:00–13:00 and 16:00–18:00",
+   "i": "Ideal si te gusta el arte románico y el recogimiento monástico.",
+   "i_en": "Ideal if you like Romanesque art and monastic calm."
+  },
+  "bur_covarrubias": {
+   "id": "bur_covarrubias",
+   "d": "Uno de los pueblos más bonitos de Castilla, con soportales, casas blasonadas y la Colegiata de San Cosme. Ligada a la princesa noruega Kristina y al conde Fernán González.",
+   "d_en": "One of Castile's prettiest villages, with arcades, crested houses and the Collegiate Church of San Cosme. Tied to the Norwegian princess Kristina and Count Fernán González.",
+   "h": "Calles abiertas siempre; colegiata mié–lun con visitas guiadas",
+   "h_en": "Streets always open; collegiate church Wed–Mon with guided tours",
+   "i": "Ideal si te gustan los pueblos con encanto y la historia medieval.",
+   "i_en": "Ideal if you like charming villages and medieval history."
+  },
+  "bur_lerma": {
+   "id": "bur_lerma",
+   "d": "Levantada por el Duque de Lerma en el s. XVII, conserva una de las plazas mayores más grandes de España, el Palacio Ducal (hoy parador) y pasadizos que unen sus conventos.",
+   "d_en": "Built by the Duke of Lerma in the 17th c., it keeps one of Spain's largest main squares, the Ducal Palace (now a parador) and passageways linking its convents.",
+   "h": "Plaza y calles abiertas siempre; oficina de turismo con visitas guiadas",
+   "h_en": "Square and streets always open; tourist office runs guided tours",
+   "i": "Ideal si te gusta la arquitectura barroca y el urbanismo histórico.",
+   "i_en": "Ideal if you like Baroque architecture and historic town planning."
+  },
+  "bur_frias": {
+   "id": "bur_frias",
+   "d": "Casas colgadas sobre una peña rematada por un castillo roquero del s. XV que domina el valle de Tobalina. Su casco medieval y su emplazamiento la hacen inolvidable.",
+   "d_en": "Houses hanging over a crag topped by a 15th-c. rock castle overlooking the Tobalina valley. Its medieval core and dramatic setting make it unforgettable.",
+   "h": "Castillo: mar–dom 11:00–14:00 y 16:00–19:00 (varía por temporada)",
+   "h_en": "Castle: Tue–Sun 11:00–14:00 and 16:00–19:00 (seasonal)",
+   "i": "Ideal si te gustan los pueblos espectaculares y las fortalezas.",
+   "i_en": "Ideal if you like dramatic villages and fortresses."
+  },
+  "bur_puente_frias": {
+   "id": "bur_puente_frias",
+   "d": "Puente de origen románico y reformas góticas, con una torre defensiva central donde se cobraba el portazgo. Ofrece la estampa más clásica de Frías reflejada en el Ebro.",
+   "d_en": "A Romanesque bridge with Gothic rebuilding and a central defensive tower where tolls were collected. It gives Frías's most classic view mirrored in the Ebro.",
+   "h": "Acceso libre todo el día",
+   "h_en": "Free access all day",
+   "i": "Ideal si te gusta la ingeniería medieval y la fotografía de paisaje.",
+   "i_en": "Ideal if you like medieval engineering and landscape photography."
+  },
+  "bur_santa_maria_aranda": {
+   "id": "bur_santa_maria_aranda",
+   "d": "Su portada, tallada como un retablo de piedra, es una de las cumbres del gótico isabelino. Preside el casco histórico de la capital de la Ribera del Duero.",
+   "d_en": "Its portal, carved like a stone altarpiece, is a high point of Isabelline Gothic. It presides over the old town of the Ribera del Duero's capital.",
+   "h": "Horario de culto y visitas; consultar en parroquia",
+   "h_en": "Worship and visiting hours; check with the parish",
+   "i": "Ideal si te gusta la escultura en piedra y el gótico tardío.",
+   "i_en": "Ideal if you like stone carving and late Gothic art."
+  },
+  "bur_yecla": {
+   "id": "bur_yecla",
+   "d": "Angosta garganta labrada por el arroyo Cauce cerca de Silos, recorrida por pasarelas metálicas entre paredes verticales a pocos metros de distancia. Refugio de buitres leonados.",
+   "d_en": "A tight gorge carved near Silos, crossed by metal walkways between vertical walls just metres apart. A refuge for griffon vultures.",
+   "h": "Acceso libre; senda de unos 600 m",
+   "h_en": "Free access; roughly 600 m trail",
+   "i": "Ideal si te gusta el senderismo y los paisajes espectaculares.",
+   "i_en": "Ideal if you like hiking and dramatic scenery."
+  },
+  "bur_ojo_guarena": {
+   "id": "bur_ojo_guarena",
+   "d": "Monumento Natural con más de 100 km de galerías subterráneas y la ermita rupestre de San Bernabé excavada en la roca, con pinturas murales. Espacio de gran valor arqueológico.",
+   "d_en": "A Natural Monument with over 100 km of underground galleries and the rock-cut hermitage of San Bernabé, painted with murals. A site of great archaeological value.",
+   "h": "Ermita: visitas guiadas de primavera a otoño; consultar",
+   "h_en": "Hermitage: guided tours spring to autumn; check ahead",
+   "i": "Ideal si te gusta la espeleología y los paisajes subterráneos.",
+   "i_en": "Ideal if you like caving and underground landscapes."
+  },
+  "bur_canon_ebro": {
+   "id": "bur_canon_ebro",
+   "d": "Espacio natural entre Pesquera de Ebro y Valdelateja, con miradores sobre paredes verticales, buitreras y pueblos de piedra. Ideal para rutas a pie y en canoa.",
+   "d_en": "A natural area between Pesquera de Ebro and Valdelateja, with viewpoints over vertical cliffs, vulture colonies and stone villages. Great for hiking and canoeing.",
+   "h": "Acceso libre todo el año",
+   "h_en": "Free access year-round",
+   "i": "Ideal si te gusta la naturaleza salvaje y las rutas escénicas.",
+   "i_en": "Ideal if you like wild nature and scenic trails."
+  },
+  "bur_lagunas_neila": {
+   "id": "bur_lagunas_neila",
+   "d": "Conjunto de lagunas de origen glaciar rodeadas de pinares y cumbres, con la Laguna Negra como joya. Un mirador permite verlas desde lo alto, espectaculares en otoño.",
+   "d_en": "A cluster of glacial lakes ringed by pine forest and peaks, with the Laguna Negra as the jewel. A viewpoint reveals them from above, stunning in autumn.",
+   "h": "Acceso libre; carretera de acceso puede cerrar por nieve",
+   "h_en": "Free access; access road may close with snow",
+   "i": "Ideal si te gusta la alta montaña y la fotografía de paisaje.",
+   "i_en": "Ideal if you like high mountains and landscape photography."
+  },
+  "bur_rio_lobos": {
+   "id": "bur_rio_lobos",
+   "d": "Parque natural compartido con Soria, con acceso desde Hontoria del Pinar. Paredes de caliza, sabinares y una de las mayores colonias de buitre leonado de Europa.",
+   "d_en": "A natural park shared with Soria, entered from Hontoria del Pinar. Limestone walls, juniper woods and one of Europe's largest griffon vulture colonies.",
+   "h": "Acceso libre; centro de interpretación en temporada",
+   "h_en": "Free access; visitor centre open in season",
+   "i": "Ideal si te gusta el senderismo y la observación de aves.",
+   "i_en": "Ideal if you like hiking and birdwatching."
+  },
+  "bur_sabinares": {
+   "id": "bur_sabinares",
+   "d": "Parque natural de Sabinares del Arlanza-La Yecla, con árboles centenarios, cortados de roca rojiza y miradores sobre el valle. Refugio de rapaces y paisajes de película.",
+   "d_en": "The Sabinares del Arlanza-La Yecla natural park, with centuries-old trees, reddish rock cliffs and valley viewpoints. A refuge for raptors and cinematic scenery.",
+   "h": "Acceso libre todo el año",
+   "h_en": "Free access year-round",
+   "i": "Ideal si te gusta la botánica y los paisajes solitarios.",
+   "i_en": "Ideal if you like botany and lonely landscapes."
+  },
+  "bur_espolon": {
+   "id": "bur_espolon",
+   "d": "El salón urbano de Burgos, con plátanos centenarios entrelazados, estatuas de reyes, terrazas y quioscos. Punto de encuentro para pasear, tapear y ver la ciudad vivir.",
+   "d_en": "Burgos's urban living room, with interlaced century-old plane trees, statues of kings, terraces and kiosks. The place to stroll, snack and watch the city go by.",
+   "h": "Abierto siempre",
+   "h_en": "Always open",
+   "i": "Ideal si te gusta pasear con calma y el ambiente local.",
+   "i_en": "Ideal if you like leisurely walks and local atmosphere."
+  },
+  "bur_museo_evolucion": {
+   "id": "bur_museo_evolucion",
+   "d": "Espacio luminoso que exhibe los fósiles originales de Atapuerca, réplicas de homínidos a tamaño real y una reproducción del Beagle de Darwin. Complemento perfecto de los yacimientos.",
+   "d_en": "A light-filled venue showing original Atapuerca fossils, life-size hominin reconstructions and a replica of Darwin's Beagle. The perfect complement to the dig sites.",
+   "h": "Mar–vie 10:00–14:30 y 16:30–20:00, sáb–dom 10:00–20:00",
+   "h_en": "Tue–Fri 10:00–14:30 and 16:30–20:00, Sat–Sun 10:00–20:00",
+   "i": "Ideal si te gusta la ciencia y la prehistoria.",
+   "i_en": "Ideal if you like science and prehistory."
+  },
+  "bur_bodegas_aranda": {
+   "id": "bur_bodegas_aranda",
+   "d": "Más de siete kilómetros de galerías del s. XIII excavadas bajo la ciudad para conservar el vino. Algunas se visitan y muestran cómo la Ribera del Duero vivía sobre su propio vino.",
+   "d_en": "Over seven kilometres of 13th-c. tunnels dug beneath the town to store wine. Some can be visited, showing how the Ribera del Duero lived above its own wine.",
+   "h": "Visitas guiadas con reserva en la oficina de turismo",
+   "h_en": "Guided tours by reservation at the tourist office",
+   "i": "Ideal si te gusta el enoturismo y la historia local.",
+   "i_en": "Ideal if you like wine tourism and local history."
+  },
+  "bur_bodega_portia": {
+   "id": "bur_bodega_portia",
+   "d": "Espectacular bodega en Gumiel de Izán con forma de estrella de tres brazos obra de Norman Foster. Ofrece visitas guiadas por sus salas de crianza y catas de tintos de la Ribera.",
+   "d_en": "A striking three-pointed-star winery in Gumiel de Izán by Norman Foster. It offers guided tours of its ageing halls and tastings of Ribera reds.",
+   "h": "Visitas y catas con reserva, lun–dom",
+   "h_en": "Tours and tastings by reservation, Mon–Sun",
+   "i": "Ideal si te gusta el vino y la arquitectura contemporánea.",
+   "i_en": "Ideal if you like wine and contemporary architecture."
+  },
+  "bur_orbaneja": {
+   "id": "bur_orbaneja",
+   "d": "Pintoresco pueblo colgado en el Cañón del Ebro, famoso por la cascada que brota de la Cueva del Agua y desciende en pozas turquesas hasta el río. Callejuelas de piedra y gatos por doquier.",
+   "d_en": "A picturesque village clinging to the Ebro Canyon, famous for the waterfall that springs from the Cueva del Agua and drops in turquoise pools to the river. Stone lanes and cats everywhere.",
+   "h": "Pueblo abierto siempre; aparcamiento de pago en temporada",
+   "h_en": "Village always open; paid parking in season",
+   "i": "Ideal si te gusta la fotografía y los rincones con agua.",
+   "i_en": "Ideal if you like photography and watery corners."
+  },
+  "bur_morcilla_burgos": {
+   "id": "bur_morcilla_burgos",
+   "d": "Embutido de arroz, cebolla, manteca y sangre, especiado y sabroso. Se toma frita en tapa por la Calle San Lorenzo o como base de platos de cuchara. Producto con Indicación Geográfica.",
+   "d_en": "A sausage of rice, onion, lard and blood, well spiced and savoury. Enjoyed fried as a tapa around Calle San Lorenzo or in hearty stews. A protected regional product.",
+   "h": "12:00–16:00 y 20:00–24:00",
+   "h_en": "12:00–16:00 and 20:00–24:00",
+   "i": "Ideal si te gusta el tapeo y la cocina tradicional.",
+   "i_en": "Ideal if you like tapas-hopping and traditional food."
+  },
+  "bur_casa_ojeda": {
+   "id": "bur_casa_ojeda",
+   "d": "Institución centenaria junto a la Catedral, famosa por su cordero lechal asado en horno de leña, la olla podrida y la morcilla. Comedores castellanos y confitería propia.",
+   "d_en": "A century-old institution near the Cathedral, famed for wood-oven roast lamb, olla podrida stew and morcilla. Castilian dining rooms and its own patisserie.",
+   "h": "13:30–16:00 y 21:00–23:00",
+   "h_en": "13:30–16:00 and 21:00–23:00",
+   "i": "Ideal si te gusta el asado castellano y los sabores contundentes.",
+   "i_en": "Ideal if you like Castilian roasts and hearty flavours."
+  },
+  "bur_lechazo_aranda": {
+   "id": "bur_lechazo_aranda",
+   "d": "Aranda de Duero es la capital del lechazo: cuartos de cordero asados lentamente en horno de leña, con la piel dorada y crujiente. Se acompaña de ensalada y un buen Ribera del Duero.",
+   "d_en": "Aranda de Duero is the capital of lechazo: quarters of lamb slow-roasted in wood ovens with crisp golden skin. Served with salad and a good Ribera del Duero.",
+   "h": "13:30–16:00; cena con reserva",
+   "h_en": "13:30–16:00; dinner by reservation",
+   "i": "Ideal si te gusta el asado tradicional y el maridaje con vino.",
+   "i_en": "Ideal if you like traditional roasts and wine pairing."
+  },
+  "bur_queso_burgos": {
+   "id": "bur_queso_burgos",
+   "d": "Queso fresco sin curar, de textura jugosa y sabor lácteo suave, tradicionalmente de leche de oveja. Se toma de postre con miel y nueces o como desayuno en el Mercado Norte.",
+   "d_en": "An uncured fresh cheese, moist and mildly milky, traditionally from sheep's milk. Eaten as dessert with honey and walnuts or for breakfast at the Mercado Norte.",
+   "h": "Mercado Norte: lun–sáb 8:00–14:30",
+   "h_en": "Mercado Norte: Mon–Sat 8:00–14:30",
+   "i": "Ideal si te gustan los sabores suaves y los productos artesanos.",
+   "i_en": "Ideal if you like mild flavours and artisan products."
+  },
+  "bur_dulces_silos": {
+   "id": "bur_dulces_silos",
+   "d": "En Santo Domingo de Silos se elaboran dulces conventuales como yemas, almendrados y pastas de té según recetas centenarias. Un capricho perfecto tras visitar el monasterio.",
+   "d_en": "In Santo Domingo de Silos, convent sweets such as yemas, almond cakes and tea pastries are made to centuries-old recipes. A perfect treat after visiting the monastery.",
+   "h": "10:00–14:00 y 16:30–19:30",
+   "h_en": "10:00–14:00 and 16:30–19:30",
+   "i": "Ideal si te gusta el dulce artesano y la tradición monástica.",
+   "i_en": "Ideal if you like artisan sweets and monastic tradition."
+  }
+ },
+ "food": {
+  "bur_morcilla_burgos": {
+   "cuisine": "Castellana / tapas",
+   "price": "3–10 €",
+   "hours": "Bares de tapas: 12:00–16:00 y 20:00–24:00"
+  },
+  "bur_casa_ojeda": {
+   "cuisine": "Castellana / asador",
+   "price": "35–55 €",
+   "hours": "Todos los días 13:30–16:00 y 21:00–23:00"
+  },
+  "bur_lechazo_aranda": {
+   "cuisine": "Asador / Ribera del Duero",
+   "price": "30–45 €",
+   "hours": "Asadores: 13:30–16:00; cena con reserva"
+  },
+  "bur_queso_burgos": {
+   "cuisine": "Producto lácteo local",
+   "price": "3–7 €",
+   "hours": "Mercado Norte: lun–sáb 8:00–14:30"
+  },
+  "bur_dulces_silos": {
+   "cuisine": "Repostería conventual",
+   "price": "5–12 €",
+   "hours": "Tiendas del pueblo: 10:00–14:00 y 16:30–19:30"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Burgos",
+   "items": [
+    {
+     "name": "Morcilla de Burgos",
+     "price": "4–8 €",
+     "desc": "Embutido de arroz, cebolla y sangre, especiado; el producto más típico de la ciudad."
+    },
+    {
+     "name": "Queso fresco de Burgos",
+     "price": "3–7 €",
+     "desc": "Queso tierno de oveja o vaca, suave y jugoso, ideal con miel o membrillo."
+    },
+    {
+     "name": "Vino Ribera del Duero",
+     "price": "8–30 €",
+     "desc": "Tintos de tempranillo con Denominación de Origen, potentes y aromáticos."
+    },
+    {
+     "name": "Yemas y dulces de convento",
+     "price": "5–12 €",
+     "desc": "Dulces artesanos de yema y almendra elaborados en monasterios como Silos."
+    }
+   ],
+   "shops": [
+    "Casa Quintanilla (Calle de la Paloma)",
+    "Mercado Norte de Burgos",
+    "Rincón del Peregrino (junto a la Catedral)",
+    "Tiendas gourmet del casco histórico"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Burgos es de las ciudades más frías de España: lleva abrigo y capas incluso en primavera y otoño.",
+   "Reserva la entrada a la Catedral con antelación y sube al Castillo al atardecer por las mejores vistas.",
+   "Muchos monasterios (Huelgas, Silos, Cartuja) tienen horarios restringidos; consulta antes de ir.",
+   "Para Atapuerca conviene reservar la visita guiada al yacimiento y combinarla con el Museo de la Evolución Humana.",
+   "Alquila coche para pueblos como Frías, Covarrubias o el Cañón del Ebro; el transporte público es limitado."
+  ],
+  "en": [
+   "Burgos is one of Spain's coldest cities: bring a coat and layers even in spring and autumn.",
+   "Book Cathedral tickets ahead and climb to the Castle at sunset for the best views.",
+   "Many monasteries (Huelgas, Silos, Cartuja) have restricted opening hours; check before visiting.",
+   "For Atapuerca book the guided dig-site tour and pair it with the Museum of Human Evolution.",
+   "Rent a car for villages like Frías, Covarrubias or the Ebro Canyon; public transport is limited."
+  ]
+ },
+ "climate": {
+  "hi": [
+   7,
+   9,
+   13,
+   14,
+   18,
+   24,
+   28,
+   27,
+   23,
+   16,
+   10,
+   7
+  ],
+  "lo": [
+   0,
+   0,
+   2,
+   4,
+   7,
+   11,
+   13,
+   13,
+   10,
+   7,
+   3,
+   1
+  ]
+ },
+ "tr": {
+  "Catedral gótica del s. XIII, Patrimonio de la Humanidad.": "13th-c. Gothic cathedral, a UNESCO World Heritage Site.",
+  "Fortaleza sobre el cerro con el mejor mirador de la ciudad.": "Hilltop fortress with the city's best viewpoint.",
+  "Monasterio cartujo con retablo gótico dorado en oro.": "Carthusian monastery with a gilded Gothic altarpiece.",
+  "Monasterio cisterciense real con panteón medieval.": "Royal Cistercian monastery with a medieval pantheon.",
+  "Puerta monumental renacentista de acceso a la ciudad.": "Monumental Renaissance gateway into the old town.",
+  "Yacimientos prehistóricos Patrimonio de la Humanidad.": "Prehistoric dig sites, a UNESCO World Heritage Site.",
+  "Abadía benedictina famosa por su claustro y su canto gregoriano.": "Benedictine abbey famed for its cloister and Gregorian chant.",
+  "Villa medieval de casas de entramado y adobe.": "Medieval town of half-timbered adobe houses.",
+  "Conjunto barroco con Palacio Ducal y gran Plaza Mayor.": "Baroque ensemble with a ducal palace and vast main square.",
+  "La ciudad más pequeña de España con castillo colgante.": "Spain's smallest city, with a cliff-top castle.",
+  "Puente fortificado sobre el río Ebro con torre de portazgo.": "Fortified bridge over the Ebro with a tollhouse tower.",
+  "Joya del gótico isabelino en Aranda de Duero.": "Gem of Isabelline Gothic in Aranda de Duero.",
+  "Estrecho cañón con pasarelas colgadas sobre el río.": "Narrow gorge with walkways suspended over the river.",
+  "Uno de los mayores complejos kársticos de España.": "One of Spain's largest karst cave systems.",
+  "Hoces calizas excavadas por el Ebro en su nacimiento.": "Limestone gorges carved by the young Ebro river.",
+  "Lagunas glaciares en la Sierra de la Demanda.": "Glacial lakes in the Sierra de la Demanda.",
+  "Parque natural de cañones calizos y buitreras.": "Natural park of limestone canyons and vulture cliffs.",
+  "Bosques milenarios de sabina sobre cañones rojizos.": "Ancient juniper forests above reddish canyons.",
+  "Elegante paseo arbolado junto al río Arlanzón.": "Elegant tree-lined promenade by the Arlanzón river.",
+  "Museo moderno sobre la evolución y Atapuerca.": "Modern museum on human evolution and Atapuerca.",
+  "Red de bodegas medievales bajo el casco de Aranda.": "Network of medieval cellars beneath Aranda's old town.",
+  "Bodega de autor diseñada por Norman Foster.": "Landmark winery designed by Norman Foster.",
+  "Pueblo con cascada que cae entre sus casas.": "Village with a waterfall tumbling among its houses.",
+  "La tapa emblemática de la ciudad, frita o en guiso.": "The city's flagship tapa, fried or in stews.",
+  "Restaurante histórico de cocina burgalesa.": "Historic restaurant of classic Burgos cuisine.",
+  "Cordero lechal asado en horno de leña, la estrella de la Ribera.": "Milk-fed lamb roasted in wood ovens, the Ribera's star dish.",
+  "Queso tierno y suave, dulce o con miel.": "Soft, mild fresh cheese, sweet or with honey.",
+  "Yemas y pastas artesanas de tradición monástica.": "Artisan yolk sweets and pastries of monastic tradition.",
+  "Burgos": "Burgos"
+ }
+}

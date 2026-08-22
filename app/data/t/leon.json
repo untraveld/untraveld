@@ -1,0 +1,701 @@
+{
+ "id": "leon",
+ "name": "León",
+ "country": "ES",
+ "center": [
+  42.59873,
+  -5.5671
+ ],
+ "pois": [
+  {
+   "id": "leo_catedral_leon",
+   "cat": "monuments",
+   "name": "Catedral de León (Santa María de Regla)",
+   "icon": "⛪",
+   "lat": 42.59942,
+   "lng": -5.56694,
+   "desc": "Obra cumbre del gótico con 1.800 m² de vidrieras."
+  },
+  {
+   "id": "leo_san_isidoro",
+   "cat": "monuments",
+   "name": "Basílica de San Isidoro",
+   "icon": "🏛️",
+   "lat": 42.60155,
+   "lng": -5.5708,
+   "desc": "Joya románica con el Panteón Real y sus frescos."
+  },
+  {
+   "id": "leo_casa_botines",
+   "cat": "monuments",
+   "name": "Casa Botines (Gaudí)",
+   "icon": "🏰",
+   "lat": 42.59836,
+   "lng": -5.56845,
+   "desc": "Edificio neogótico de Antoni Gaudí de 1892."
+  },
+  {
+   "id": "leo_palacio_guzmanes",
+   "cat": "monuments",
+   "name": "Palacio de los Guzmanes",
+   "icon": "🏛️",
+   "lat": 42.59845,
+   "lng": -5.56862,
+   "desc": "Palacio renacentista, sede de la Diputación."
+  },
+  {
+   "id": "leo_san_marcos",
+   "cat": "monuments",
+   "name": "Convento de San Marcos",
+   "icon": "🏛️",
+   "lat": 42.603,
+   "lng": -5.5756,
+   "desc": "Fachada plateresca de más de 100 metros."
+  },
+  {
+   "id": "leo_palacio_gaudi_astorga",
+   "cat": "monuments",
+   "name": "Palacio Episcopal de Astorga (Gaudí)",
+   "icon": "🏰",
+   "lat": 42.4569,
+   "lng": -6.0559,
+   "desc": "Palacio de cuento diseñado por Gaudí en granito."
+  },
+  {
+   "id": "leo_catedral_astorga",
+   "cat": "monuments",
+   "name": "Catedral de Astorga",
+   "icon": "⛪",
+   "lat": 42.4577,
+   "lng": -6.0554,
+   "desc": "Catedral gótico-tardía junto al palacio de Gaudí."
+  },
+  {
+   "id": "leo_castillo_ponferrada",
+   "cat": "monuments",
+   "name": "Castillo de los Templarios de Ponferrada",
+   "icon": "🏰",
+   "lat": 42.5478,
+   "lng": -6.6025,
+   "desc": "Fortaleza templaria del siglo XII sobre el Sil."
+  },
+  {
+   "id": "leo_basilica_encina",
+   "cat": "monuments",
+   "name": "Basílica de la Encina (Ponferrada)",
+   "icon": "⛪",
+   "lat": 42.5465,
+   "lng": -6.5976,
+   "desc": "Templo renacentista de la patrona del Bierzo."
+  },
+  {
+   "id": "leo_villafranca_bierzo",
+   "cat": "monuments",
+   "name": "Villafranca del Bierzo",
+   "icon": "🏘️",
+   "lat": 42.6083,
+   "lng": -6.8087,
+   "desc": "Villa jacobea con castillo e iglesia del Perdón."
+  },
+  {
+   "id": "leo_sahagun_san_tirso",
+   "cat": "monuments",
+   "name": "San Tirso de Sahagún",
+   "icon": "🕌",
+   "lat": 42.3707,
+   "lng": -5.0289,
+   "desc": "Cuna del mudéjar de ladrillo del siglo XII."
+  },
+  {
+   "id": "leo_castillo_valencia_don_juan",
+   "cat": "monuments",
+   "name": "Castillo de Valencia de Don Juan",
+   "icon": "🏰",
+   "lat": 42.292,
+   "lng": -5.516,
+   "desc": "Castillo gótico-mudéjar sobre el río Esla."
+  },
+  {
+   "id": "leo_las_medulas",
+   "cat": "nature",
+   "name": "Las Médulas",
+   "icon": "⛰️",
+   "lat": 42.4639,
+   "lng": -6.7702,
+   "desc": "Paisaje rojizo de la antigua mina de oro romana."
+  },
+  {
+   "id": "leo_mirador_orellan",
+   "cat": "nature",
+   "name": "Mirador de Orellán",
+   "icon": "🌄",
+   "lat": 42.4743,
+   "lng": -6.7604,
+   "desc": "Balcón panorámico sobre Las Médulas."
+  },
+  {
+   "id": "leo_valporquero",
+   "cat": "nature",
+   "name": "Cuevas de Valporquero",
+   "icon": "🕳️",
+   "lat": 42.9017,
+   "lng": -5.515,
+   "desc": "Gran cueva de estalactitas y ríos subterráneos."
+  },
+  {
+   "id": "leo_ruta_cares",
+   "cat": "nature",
+   "name": "Ruta del Cares (Caín)",
+   "icon": "🥾",
+   "lat": 43.1659,
+   "lng": -4.8983,
+   "desc": "Senda espectacular tallada en la garganta del Cares."
+  },
+  {
+   "id": "leo_riano_picos",
+   "cat": "nature",
+   "name": "Riaño y embalse de los Picos de Europa",
+   "icon": "🏔️",
+   "lat": 42.986,
+   "lng": -5.003,
+   "desc": "Pueblo entre montañas junto a un embalse turquesa."
+  },
+  {
+   "id": "leo_hoces_vegacervera",
+   "cat": "nature",
+   "name": "Hoces de Vegacervera",
+   "icon": "🪨",
+   "lat": 42.869,
+   "lng": -5.521,
+   "desc": "Desfiladero calizo de paredes verticales."
+  },
+  {
+   "id": "leo_lago_carucedo",
+   "cat": "nature",
+   "name": "Lago de Carucedo",
+   "icon": "🏞️",
+   "lat": 42.4883,
+   "lng": -6.7732,
+   "desc": "Lago de origen romano junto a Las Médulas."
+  },
+  {
+   "id": "leo_barrio_humedo",
+   "cat": "ocio",
+   "name": "Barrio Húmedo",
+   "icon": "🍷",
+   "lat": 42.5978,
+   "lng": -5.566,
+   "desc": "Laberinto de tapas y vino en el casco viejo."
+  },
+  {
+   "id": "leo_musac",
+   "cat": "ocio",
+   "name": "MUSAC – Museo de Arte Contemporáneo",
+   "icon": "🎨",
+   "lat": 42.60563,
+   "lng": -5.5761,
+   "desc": "Museo de arte actual de fachada multicolor."
+  },
+  {
+   "id": "leo_plaza_mayor_leon",
+   "cat": "ocio",
+   "name": "Plaza Mayor de León",
+   "icon": "🏙️",
+   "lat": 42.5976,
+   "lng": -5.5672,
+   "desc": "Plaza barroca porticada con mercado tradicional."
+  },
+  {
+   "id": "leo_museo_chocolate_astorga",
+   "cat": "ocio",
+   "name": "Museo del Chocolate de Astorga",
+   "icon": "🍫",
+   "lat": 42.455,
+   "lng": -6.0565,
+   "desc": "Historia dulce de la tradición chocolatera astorgana."
+  },
+  {
+   "id": "leo_bodegas_cacabelos",
+   "cat": "ocio",
+   "name": "Bodegas del Bierzo (Cacabelos)",
+   "icon": "🍇",
+   "lat": 42.5956,
+   "lng": -6.7238,
+   "desc": "Enoturismo entre viñedos de uva mencía."
+  },
+  {
+   "id": "leo_tapas_barrio_humedo",
+   "cat": "food",
+   "name": "Tapeo en el Barrio Húmedo",
+   "icon": "🍢",
+   "lat": 42.5977,
+   "lng": -5.5662,
+   "desc": "Ruta de tapa gratis con cada vino o caña."
+  },
+  {
+   "id": "leo_cecina_leon",
+   "cat": "food",
+   "name": "Cecina de León",
+   "icon": "🥩",
+   "lat": 42.597,
+   "lng": -5.5668,
+   "desc": "Carne de vacuno curada y ahumada, emblema local."
+  },
+  {
+   "id": "leo_cocido_maragato",
+   "cat": "food",
+   "name": "Cocido Maragato (Astorga)",
+   "icon": "🍲",
+   "lat": 42.4556,
+   "lng": -6.0534,
+   "desc": "Cocido servido al revés: primero las carnes."
+  },
+  {
+   "id": "leo_botillo_bierzo",
+   "cat": "food",
+   "name": "Botillo del Bierzo",
+   "icon": "🍖",
+   "lat": 42.547,
+   "lng": -6.599,
+   "desc": "Embutido curado cocido, rey del invierno berciano."
+  },
+  {
+   "id": "leo_mantecadas_astorga",
+   "cat": "food",
+   "name": "Mantecadas y dulces de Astorga",
+   "icon": "🧁",
+   "lat": 42.4562,
+   "lng": -6.0542,
+   "desc": "Repostería tradicional de mantequilla y chocolate."
+  },
+  {
+   "id": "leo_vino_godello_bierzo",
+   "cat": "food",
+   "name": "Vinos DO Bierzo (mencía y godello)",
+   "icon": "🍷",
+   "lat": 42.595,
+   "lng": -6.723,
+   "desc": "Tintos y blancos de suelos de pizarra bercianos."
+  }
+ ],
+ "extra": {
+  "leo_catedral_leon": {
+   "id": "leo_catedral_leon",
+   "d": "Apodada la Pulchra Leonina, es una de las catedrales góticas más luminosas de Europa. Sus vidrieras de los siglos XIII a XV filtran la luz creando un espectáculo cromático único que parece disolver los muros de piedra.",
+   "d_en": "Nicknamed the Pulchra Leonina, it is one of Europe's most luminous Gothic cathedrals. Its 13th- to 15th-century windows filter light into a unique chromatic spectacle that seems to dissolve the stone walls.",
+   "h": "Lun–Sáb 9:30–13:30 y 16:00–19:00; Dom horario reducido",
+   "h_en": "Mon–Sat 9:30–13:30 and 16:00–19:00; Sun reduced hours",
+   "i": "Ideal si te gusta el arte gótico y la luz de las vidrieras.",
+   "i_en": "Ideal if you like Gothic art and the light of stained glass."
+  },
+  "leo_san_isidoro": {
+   "id": "leo_san_isidoro",
+   "d": "Su Panteón de los Reyes, cubierto de frescos románicos del siglo XII, es conocido como la Capilla Sixtina del románico. Alberga tumbas reales, un valioso museo y el legendario Cáliz de Doña Urraca.",
+   "d_en": "Its Royal Pantheon, covered in 12th-century Romanesque frescoes, is known as the Sistine Chapel of Romanesque art. It holds royal tombs, a rich museum and the legendary Chalice of Doña Urraca.",
+   "h": "Mar–Sáb 10:00–14:00 y 16:00–19:00; Dom 10:00–14:00",
+   "h_en": "Tue–Sat 10:00–14:00 and 16:00–19:00; Sun 10:00–14:00",
+   "i": "Ideal si te gusta el arte románico y la historia medieval.",
+   "i_en": "Ideal if you like Romanesque art and medieval history."
+  },
+  "leo_casa_botines": {
+   "id": "leo_casa_botines",
+   "d": "Una de las escasas obras de Gaudí fuera de Cataluña, con aire de castillo medieval y torreones cónicos. Hoy es museo y sede cultural que recorre la vida del arquitecto y el edificio en la León de finales del XIX.",
+   "d_en": "One of the few Gaudí works outside Catalonia, evoking a medieval castle with conical turrets. Today a museum and cultural venue exploring the architect's life and the building in late-19th-century León.",
+   "h": "Mar–Dom 11:00–14:00 y 17:00–20:00; Lun cerrado",
+   "h_en": "Tue–Sun 11:00–14:00 and 17:00–20:00; Mon closed",
+   "i": "Ideal si te gusta el modernismo y la obra de Gaudí.",
+   "i_en": "Ideal if you like Modernisme and Gaudí's work."
+  },
+  "leo_palacio_guzmanes": {
+   "id": "leo_palacio_guzmanes",
+   "d": "Construido en el siglo XVI, destaca por su elegante patio de arcos, su fachada plateresca y la torre esquinera. Frente a la Casa Botines, forma uno de los conjuntos monumentales más fotografiados del centro leonés.",
+   "d_en": "Built in the 16th century, it stands out for its elegant arcaded courtyard, Plateresque façade and corner tower. Facing Casa Botines, it forms one of the most photographed monumental corners of central León.",
+   "h": "Visitas guiadas al patio y torre; consultar en Diputación",
+   "h_en": "Guided visits to courtyard and tower; check with the council",
+   "i": "Ideal si te gusta la arquitectura renacentista española.",
+   "i_en": "Ideal if you like Spanish Renaissance architecture."
+  },
+  "leo_san_marcos": {
+   "id": "leo_san_marcos",
+   "d": "Antiguo hospital de peregrinos y casa de la Orden de Santiago, su extensa fachada plateresca es una de las cumbres del Renacimiento español. Hoy alberga un Parador de lujo y un museo con claustro e iglesia.",
+   "d_en": "A former pilgrims' hospital and house of the Order of Santiago, its long Plateresque façade is a peak of the Spanish Renaissance. Today it houses a luxury Parador plus a museum with cloister and church.",
+   "h": "Exterior siempre visible; museo Mar–Dom 10:00–14:00 y 16:00–19:00",
+   "h_en": "Exterior always visible; museum Tue–Sun 10:00–14:00 and 16:00–19:00",
+   "i": "Ideal si te gusta el Camino de Santiago y el plateresco.",
+   "i_en": "Ideal if you like the Camino de Santiago and Plateresque art."
+  },
+  "leo_palacio_gaudi_astorga": {
+   "id": "leo_palacio_gaudi_astorga",
+   "d": "De aspecto de castillo blanco, este palacio neogótico de Gaudí nunca fue residencia episcopal y alberga el Museo de los Caminos, dedicado al Camino de Santiago. Sus torres, arcos y vidrieras son pura fantasía.",
+   "d_en": "Resembling a white castle, this Neo-Gothic Gaudí palace never served as a bishop's residence and houses the Museo de los Caminos on the Camino de Santiago. Its towers, arches and windows are pure fantasy.",
+   "h": "Mar–Dom 10:00–14:00 y 16:00–20:00; Lun cerrado",
+   "h_en": "Tue–Sun 10:00–14:00 and 16:00–20:00; Mon closed",
+   "i": "Ideal si te gusta Gaudí y la arquitectura de fantasía.",
+   "i_en": "Ideal if you like Gaudí and fantastical architecture."
+  },
+  "leo_catedral_astorga": {
+   "id": "leo_catedral_astorga",
+   "d": "Levantada entre los siglos XV y XVIII, mezcla gótico, renacimiento y barroco. Su fachada de piedra rosada, sus torres y el retablo de Gaspar Becerra forman un conjunto imponente frente al palacio gaudiniano.",
+   "d_en": "Built between the 15th and 18th centuries, it blends Gothic, Renaissance and Baroque. Its pink-stone façade, towers and Gaspar Becerra altarpiece make an imposing pair with the Gaudí palace opposite.",
+   "h": "Lun–Dom 10:00–14:00 y 16:00–18:30",
+   "h_en": "Mon–Sun 10:00–14:00 and 16:00–18:30",
+   "i": "Ideal si te gusta mezclar estilos artísticos en un solo edificio.",
+   "i_en": "Ideal if you like several artistic styles in one building."
+  },
+  "leo_castillo_ponferrada": {
+   "id": "leo_castillo_ponferrada",
+   "d": "Uno de los castillos templarios mejor conservados de España, con murallas almenadas, torres y patio de armas. Alberga una biblioteca de facsímiles y ofrece vistas sobre Ponferrada y el río Sil desde sus adarves.",
+   "d_en": "One of Spain's best-preserved Templar castles, with battlemented walls, towers and a parade ground. It holds a library of facsimiles and offers views over Ponferrada and the river Sil from its walkways.",
+   "h": "Mar–Dom 10:00–14:00 y 16:00–19:00; Lun cerrado",
+   "h_en": "Tue–Sun 10:00–14:00 and 16:00–19:00; Mon closed",
+   "i": "Ideal si te gusta la historia templaria y los castillos.",
+   "i_en": "Ideal if you like Templar history and castles."
+  },
+  "leo_basilica_encina": {
+   "id": "leo_basilica_encina",
+   "d": "Dedicada a la Virgen de la Encina, patrona del Bierzo, combina la sobriedad renacentista con una torre barroca. Está en el corazón del casco antiguo de Ponferrada, a un paso del castillo templario.",
+   "d_en": "Dedicated to the Virgin of the Oak, patron of the Bierzo, it blends Renaissance sobriety with a Baroque tower. It stands in the heart of Ponferrada's old town, steps from the Templar castle.",
+   "h": "Lun–Dom 10:00–13:30 y 17:00–20:00",
+   "h_en": "Mon–Sun 10:00–13:30 and 17:00–20:00",
+   "i": "Ideal si te gusta combinar castillo y casco histórico.",
+   "i_en": "Ideal if you like pairing a castle with the old town."
+  },
+  "leo_villafranca_bierzo": {
+   "id": "leo_villafranca_bierzo",
+   "d": "Enclave clave del Camino de Santiago, sus calles empedradas reúnen palacios, conventos y la iglesia de Santiago con su Puerta del Perdón, donde los peregrinos enfermos obtenían el jubileo. Preside la villa un castillo señorial.",
+   "d_en": "A key Camino de Santiago stop, its cobbled streets gather palaces, convents and the Church of Santiago with its Door of Forgiveness, where sick pilgrims earned the jubilee. A manorial castle presides over the town.",
+   "h": "Casco visitable todo el día; monumentos con horario propio",
+   "h_en": "Old town open all day; monuments have their own hours",
+   "i": "Ideal si te gusta el Camino y los pueblos con historia.",
+   "i_en": "Ideal if you like the Camino and historic villages."
+  },
+  "leo_sahagun_san_tirso": {
+   "id": "leo_sahagun_san_tirso",
+   "d": "Sahagún es considerada la cuna del arte mudéjar de ladrillo en España, y San Tirso, con su torre y ábsides de arcos ciegos, es su mejor ejemplo. La villa conserva otras iglesias y un rico pasado monástico cluniacense.",
+   "d_en": "Sahagún is regarded as the cradle of Spanish brick Mudéjar art, and San Tirso, with its tower and blind-arched apses, is its finest example. The town keeps other churches and a rich Cluniac monastic past.",
+   "h": "Consultar horarios de visita en la oficina de turismo",
+   "h_en": "Check visiting hours at the tourist office",
+   "i": "Ideal si te gusta el arte mudéjar y las villas jacobeas.",
+   "i_en": "Ideal if you like Mudéjar art and Camino towns."
+  },
+  "leo_castillo_valencia_don_juan": {
+   "id": "leo_castillo_valencia_don_juan",
+   "d": "Silueta de torreones cilíndricos y almenas que se recorta sobre el Esla, es uno de los castillos más elegantes de León. Del siglo XV, perteneció a los Acuña y ofrece vistas del río y de la vega circundante.",
+   "d_en": "A skyline of cylindrical towers and battlements above the Esla, it is one of León's most elegant castles. Dating from the 15th century, it belonged to the Acuña family and overlooks the river and its floodplain.",
+   "h": "Mar–Dom 10:00–14:00 y 17:00–20:00 (estacional)",
+   "h_en": "Tue–Sun 10:00–14:00 and 17:00–20:00 (seasonal)",
+   "i": "Ideal si te gusta descubrir castillos menos concurridos.",
+   "i_en": "Ideal if you like discovering less-crowded castles."
+  },
+  "leo_las_medulas": {
+   "id": "leo_las_medulas",
+   "d": "Patrimonio de la Humanidad, este paisaje surrealista de picos rojizos es lo que quedó tras la mayor explotación aurífera del Imperio romano, obtenida con la técnica de la ruina montium. Cuevas, senderos y miradores completan la visita.",
+   "d_en": "A World Heritage Site, this surreal landscape of red pinnacles is what remained after the Roman Empire's largest gold operation, using the ruina montium technique. Caves, trails and viewpoints complete the visit.",
+   "h": "Acceso libre; Cueva de Orellán con horario y entrada",
+   "h_en": "Free access; Orellán cave with hours and ticket",
+   "i": "Ideal si te gusta la historia romana y los paisajes únicos.",
+   "i_en": "Ideal if you like Roman history and unique landscapes."
+  },
+  "leo_mirador_orellan": {
+   "id": "leo_mirador_orellan",
+   "d": "Desde este mirador colgado sobre las antiguas galerías se domina toda la extensión rojiza de Las Médulas, especialmente espectacular al atardecer. Junto a él arranca la visita a las galerías subterráneas de la mina.",
+   "d_en": "From this balcony hanging over the ancient galleries you take in the entire red expanse of Las Médulas, especially dramatic at sunset. The tour of the mine's underground galleries also starts here.",
+   "h": "Acceso al mirador todo el día; galerías con horario",
+   "h_en": "Viewpoint open all day; galleries with set hours",
+   "i": "Ideal si te gusta la fotografía de paisaje al atardecer.",
+   "i_en": "Ideal if you like landscape photography at sunset."
+  },
+  "leo_valporquero": {
+   "id": "leo_valporquero",
+   "d": "Un mundo subterráneo de estalactitas, estalagmitas y salas iluminadas atravesado por un río, a temperatura constante de 7 °C. Sus recorridos, algunos con tramos acuáticos, la convierten en una de las cuevas más espectaculares del norte.",
+   "d_en": "An underground world of stalactites, stalagmites and lit chambers crossed by a river, at a constant 7 °C. Its routes, some with watery stretches, make it one of northern Spain's most spectacular caves.",
+   "h": "Estacional, aprox. mayo–diciembre; consultar apertura",
+   "h_en": "Seasonal, roughly May–December; check opening",
+   "i": "Ideal si te gusta la espeleología y las formaciones kársticas.",
+   "i_en": "Ideal if you like caving and karst formations."
+  },
+  "leo_ruta_cares": {
+   "id": "leo_ruta_cares",
+   "d": "Conocida como la Garganta Divina, esta senda de vértigo excavada en la roca sigue el río Cares entre paredes verticales de los Picos de Europa. Parte de Caín, en el corazón leonés del parque nacional, hacia Asturias.",
+   "d_en": "Known as the Divine Gorge, this vertiginous rock-cut path follows the river Cares between the vertical walls of the Picos de Europa. It starts in Caín, in the León heart of the national park, towards Asturias.",
+   "h": "Acceso libre; recomendable en primavera–otoño con buen tiempo",
+   "h_en": "Free access; best in spring–autumn with good weather",
+   "i": "Ideal si te gusta el senderismo y los paisajes de montaña.",
+   "i_en": "Ideal if you like hiking and mountain landscapes."
+  },
+  "leo_riano_picos": {
+   "id": "leo_riano_picos",
+   "d": "Rodeado por las cumbres de los Picos de Europa, Riaño se asoma a un embalse de aguas azul-verdosas que crea estampas casi alpinas. Es puerta de rutas de montaña, avistamiento de fauna y paseos en barco por el pantano.",
+   "d_en": "Ringed by the peaks of the Picos de Europa, Riaño overlooks a blue-green reservoir that creates almost alpine scenery. It is a gateway to mountain trails, wildlife watching and boat trips on the lake.",
+   "h": "Acceso libre todo el año; actividades estacionales",
+   "h_en": "Free access year-round; seasonal activities",
+   "i": "Ideal si te gusta la alta montaña y los paisajes de agua.",
+   "i_en": "Ideal if you like high mountains and water landscapes."
+  },
+  "leo_hoces_vegacervera": {
+   "id": "leo_hoces_vegacervera",
+   "d": "Un cañón estrecho excavado por el río Torío entre imponentes paredes de caliza, refugio de buitres y cabras montesas. Es un paso natural hacia la montaña central leonesa, cerca de las cuevas de Valporquero.",
+   "d_en": "A narrow canyon carved by the river Torío between towering limestone walls, home to vultures and wild goats. It is a natural gateway to León's central mountains, near the Valporquero caves.",
+   "h": "Acceso libre todo el año",
+   "h_en": "Free access year-round",
+   "i": "Ideal si te gusta conducir por paisajes espectaculares.",
+   "i_en": "Ideal if you like driving through dramatic scenery."
+  },
+  "leo_lago_carucedo": {
+   "id": "leo_lago_carucedo",
+   "d": "Formado por los sedimentos arrastrados durante la explotación minera romana de Las Médulas, este lago tranquilo es hoy un humedal de valor ecológico, con aves acuáticas y senderos que lo conectan con el paisaje rojizo.",
+   "d_en": "Formed by the sediment washed down during the Roman mining of Las Médulas, this quiet lake is now an ecologically valuable wetland, with waterbirds and trails linking it to the red landscape.",
+   "h": "Acceso libre todo el año",
+   "h_en": "Free access year-round",
+   "i": "Ideal si te gusta la naturaleza tranquila y las aves.",
+   "i_en": "Ideal if you like quiet nature and birdlife."
+  },
+  "leo_barrio_humedo": {
+   "id": "leo_barrio_humedo",
+   "d": "El corazón festivo de León: callejuelas en torno a la Plaza de San Martín repletas de bares donde cada consumición viene con tapa gratis. Cecina, morcilla y vino corren de mesa en mesa hasta bien entrada la noche.",
+   "d_en": "The festive heart of León: alleys around Plaza de San Martín packed with bars where every drink comes with a free tapa. Cecina, blood sausage and wine flow from table to table well into the night.",
+   "h": "Bares aprox. 12:00–16:00 y 20:00–madrugada",
+   "h_en": "Bars roughly 12:00–16:00 and 20:00–late",
+   "i": "Ideal si te gusta el ambiente de tapeo y la vida nocturna.",
+   "i_en": "Ideal if you like the tapas scene and nightlife."
+  },
+  "leo_musac": {
+   "id": "leo_musac",
+   "d": "Su fachada de cristales de colores, inspirada en las vidrieras de la catedral, anuncia un museo vanguardista Premio Mies van der Rohe. Dentro, exposiciones rotativas de arte contemporáneo nacional e internacional.",
+   "d_en": "Its coloured-glass façade, inspired by the cathedral's windows, heralds an avant-garde museum awarded the Mies van der Rohe Prize. Inside, rotating exhibitions of Spanish and international contemporary art.",
+   "h": "Mar–Vie 11:00–14:00 y 17:00–20:00; Sáb–Dom 11:00–15:00 y 17:00–21:00",
+   "h_en": "Tue–Fri 11:00–14:00 and 17:00–20:00; Sat–Sun 11:00–15:00 and 17:00–21:00",
+   "i": "Ideal si te gusta el arte contemporáneo y la arquitectura moderna.",
+   "i_en": "Ideal if you like contemporary art and modern architecture."
+  },
+  "leo_plaza_mayor_leon": {
+   "id": "leo_plaza_mayor_leon",
+   "d": "Corazón del casco antiguo, esta plaza porticada del siglo XVII acoge cada miércoles y sábado un mercado de productos de la tierra. Sus soportales, terrazas y el edificio del Consistorio Viejo invitan a demorarse.",
+   "d_en": "Heart of the old town, this 17th-century arcaded square hosts a market of local produce every Wednesday and Saturday. Its porticoes, terraces and the Old Town Hall invite you to linger.",
+   "h": "Plaza abierta todo el día; mercado miércoles y sábados por la mañana",
+   "h_en": "Square open all day; market Wednesday and Saturday mornings",
+   "i": "Ideal si te gusta el ambiente de plaza y los mercados locales.",
+   "i_en": "Ideal if you like square life and local markets."
+  },
+  "leo_museo_chocolate_astorga": {
+   "id": "leo_museo_chocolate_astorga",
+   "d": "Astorga fue uno de los grandes centros chocolateros de España, y este museo recorre esa historia con máquinas antiguas, moldes, litografías y catas. Una parada golosa para entender por qué el cacao marcó a la ciudad.",
+   "d_en": "Astorga was one of Spain's great chocolate hubs, and this museum tells that story with old machinery, moulds, lithographs and tastings. A sweet stop to understand why cocoa shaped the city.",
+   "h": "Mar–Sáb 10:30–14:00 y 16:30–19:30; Dom mañanas",
+   "h_en": "Tue–Sat 10:30–14:00 and 16:30–19:30; Sun mornings",
+   "i": "Ideal si te gusta la gastronomía dulce y los museos temáticos.",
+   "i_en": "Ideal if you like sweet gastronomy and themed museums."
+  },
+  "leo_bodegas_cacabelos": {
+   "id": "leo_bodegas_cacabelos",
+   "d": "Cacabelos y su entorno concentran muchas bodegas de la DO Bierzo, donde se elaboran tintos de mencía y blancos de godello en suelos de pizarra. Las visitas combinan viñedo, sala de crianza y cata de vinos con carácter.",
+   "d_en": "Cacabelos and its surroundings concentrate many DO Bierzo wineries, producing mencía reds and godello whites on slate soils. Visits combine vineyard, ageing cellar and tastings of characterful wines.",
+   "h": "Visitas con reserva previa; consultar cada bodega",
+   "h_en": "Visits by prior booking; check each winery",
+   "i": "Ideal si te gusta el enoturismo y los vinos con carácter.",
+   "i_en": "Ideal if you like wine tourism and characterful wines."
+  },
+  "leo_tapas_barrio_humedo": {
+   "id": "leo_tapas_barrio_humedo",
+   "d": "La mejor forma de cenar en León: recorrer los bares de la Plaza de San Martín pidiendo pequeñas consumiciones que llegan siempre con tapa incluida. Cada local tiene su especialidad, del pincho de tortilla a la patata brava.",
+   "d_en": "The best way to dine in León: bar-hop around Plaza de San Martín ordering small drinks that always arrive with a free tapa. Each place has its speciality, from tortilla skewers to spicy patatas bravas.",
+   "h": "Aprox. 12:00–16:00 y 20:00–madrugada",
+   "h_en": "Roughly 12:00–16:00 and 20:00–late",
+   "i": "Ideal si te gusta comer picoteando de bar en bar.",
+   "i_en": "Ideal if you like grazing from bar to bar."
+  },
+  "leo_cecina_leon": {
+   "id": "leo_cecina_leon",
+   "d": "Elaborada con las mejores piezas de vacuno saladas, secadas y ahumadas al roble, la cecina de León IGP se sirve en finas lonchas con un chorro de aceite. Delicatessen imprescindible en cualquier mesa o tabla de embutidos.",
+   "d_en": "Made from prime beef cuts salted, dried and oak-smoked, León's IGP cecina is served in thin slices with a drizzle of oil. A must-try delicacy on any table or charcuterie board.",
+   "h": "En mesones y tabernas del centro, horario de comidas",
+   "h_en": "In taverns of the centre, meal hours",
+   "i": "Ideal si te gustan los curados y sabores intensos.",
+   "i_en": "Ideal if you like cured meats and intense flavours."
+  },
+  "leo_cocido_maragato": {
+   "id": "leo_cocido_maragato",
+   "d": "Contundente plato de la comarca maragata que se come al revés del habitual: primero hasta siete u ocho carnes, luego los garbanzos con berza y, al final, la sopa. Un festín pensado para el frío de la meseta.",
+   "d_en": "A hearty dish of the Maragatería eaten in reverse of the usual order: first seven or eight meats, then chickpeas with cabbage and, last, the soup. A feast made for the plateau's cold.",
+   "h": "Mesones de Astorga, principalmente a mediodía",
+   "h_en": "Astorga taverns, mainly at lunch",
+   "i": "Ideal si te gusta la cocina de cuchara contundente.",
+   "i_en": "Ideal if you like hearty, spoon-based cooking."
+  },
+  "leo_botillo_bierzo": {
+   "id": "leo_botillo_bierzo",
+   "d": "Piezas de costilla y rabo de cerdo adobadas, embutidas y ahumadas que se cuecen y se sirven con patatas, berza y garbanzos. Jugoso y especiado, el botillo es el plato más celebrado de la gastronomía berciana.",
+   "d_en": "Marinated pork rib and tail cuts, stuffed, smoked, then boiled and served with potatoes, cabbage and chickpeas. Juicy and spiced, botillo is the most celebrated dish of Bierzo cuisine.",
+   "h": "Restaurantes de Ponferrada y el Bierzo, temporada de invierno",
+   "h_en": "Ponferrada and Bierzo restaurants, winter season",
+   "i": "Ideal si te gusta la cocina de invierno y el cerdo adobado.",
+   "i_en": "Ideal if you like winter cooking and marinated pork."
+  },
+  "leo_mantecadas_astorga": {
+   "id": "leo_mantecadas_astorga",
+   "d": "Astorga es tierra dulce: sus mantecadas esponjosas horneadas en cajita, los hojaldres y el chocolate artesano llenan las confiterías del centro. Perfectas para acompañar un café o llevar como recuerdo comestible.",
+   "d_en": "Astorga is sweet country: fluffy mantecadas baked in paper cases, puff pastries and artisan chocolate fill the town's confectioners. Perfect with coffee or as an edible souvenir.",
+   "h": "Confiterías del centro, horario comercial",
+   "h_en": "Town-centre confectioners, shop hours",
+   "i": "Ideal si te gusta la repostería tradicional y el chocolate.",
+   "i_en": "Ideal if you like traditional pastries and chocolate."
+  },
+  "leo_vino_godello_bierzo": {
+   "id": "leo_vino_godello_bierzo",
+   "d": "La DO Bierzo brilla con tintos de mencía, frescos y minerales, y blancos de godello de gran finura, cultivados en laderas de pizarra. Una copa marida a la perfección con el botillo, la cecina y los quesos de la zona.",
+   "d_en": "DO Bierzo shines with fresh, mineral mencía reds and finely crafted godello whites, grown on slate slopes. A glass pairs perfectly with botillo, cecina and local cheeses.",
+   "h": "Vinotecas y bodegas del Bierzo, con reserva para catas",
+   "h_en": "Bierzo wine bars and cellars, tastings by booking",
+   "i": "Ideal si te gusta el vino y el maridaje con producto local.",
+   "i_en": "Ideal if you like wine paired with local produce."
+  }
+ },
+ "food": {
+  "leo_tapas_barrio_humedo": {
+   "cuisine": "Tapas leonesas",
+   "price": "8–18 €",
+   "hours": "Aprox. 12:00–16:00 y 20:00–madrugada"
+  },
+  "leo_cecina_leon": {
+   "cuisine": "Embutidos y curados",
+   "price": "10–20 €",
+   "hours": "En mesones y tabernas del centro, horario de comidas"
+  },
+  "leo_cocido_maragato": {
+   "cuisine": "Cocina tradicional maragata",
+   "price": "18–28 €",
+   "hours": "Mesones de Astorga, principalmente a mediodía"
+  },
+  "leo_botillo_bierzo": {
+   "cuisine": "Cocina berciana",
+   "price": "15–25 €",
+   "hours": "Restaurantes de Ponferrada y el Bierzo, temporada de invierno"
+  },
+  "leo_mantecadas_astorga": {
+   "cuisine": "Repostería tradicional",
+   "price": "4–12 €",
+   "hours": "Confiterías del centro, horario comercial"
+  },
+  "leo_vino_godello_bierzo": {
+   "cuisine": "Vinos y maridaje",
+   "price": "6–20 €",
+   "hours": "Vinotecas y bodegas del Bierzo, con reserva para catas"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "León",
+   "items": [
+    {
+     "name": "Cecina de León IGP",
+     "price": "15–30 €",
+     "desc": "Carne de vacuno curada y ahumada, tierna y de sabor intenso, joya gastronómica leonesa."
+    },
+    {
+     "name": "Mantecadas de Astorga IGP",
+     "price": "4–8 €",
+     "desc": "Dulces esponjosos de mantequilla horneados en cajita de papel, tradición maragata centenaria."
+    },
+    {
+     "name": "Vino del Bierzo (Mencía) DO",
+     "price": "6–20 €",
+     "desc": "Tintos frescos y afrutados de la uva mencía cultivada en pizarra, con creciente prestigio."
+    },
+    {
+     "name": "Chocolate de Astorga",
+     "price": "5–12 €",
+     "desc": "Tableta artesana de una ciudad con siglos de tradición chocolatera y museo propio."
+    },
+    {
+     "name": "Botillo del Bierzo IGP",
+     "price": "10–18 €",
+     "desc": "Embutido curado de piezas de cerdo adobadas, plato invernal por excelencia del Bierzo."
+    }
+   ],
+   "shops": [
+    "Mercado de abastos y comercios de la Plaza Mayor",
+    "Tiendas gourmet del Barrio Húmedo",
+    "Confiterías y chocolaterías del centro de Astorga"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Reserva la subida a las torres de la Catedral de León y visita las vidrieras a mediodía, cuando la luz las enciende.",
+   "En el Barrio Húmedo cada consumición incluye tapa gratis: pide un vino y descubre la ruta de bares.",
+   "Para Las Médulas reserva la Cueva de Orellán y sube al mirador al atardecer para ver el rojo intenso.",
+   "Las Cuevas de Valporquero abren de forma estacional; consulta horarios y lleva chaqueta, dentro hace 7 °C.",
+   "El Bierzo y los Picos de Europa leoneses requieren coche; combina bodegas de Cacabelos con la Ruta del Cares."
+  ],
+  "en": [
+   "Book the tower climb at León Cathedral and see the stained glass at midday, when the light sets it ablaze.",
+   "In the Barrio Húmedo every drink comes with a free tapa: order a wine and follow the tapas-bar route.",
+   "For Las Médulas book the Orellán cave and climb to the viewpoint at sunset for the deep-red glow.",
+   "The Valporquero Caves open seasonally; check hours and bring a jacket, it is 7 °C inside.",
+   "El Bierzo and the León Picos de Europa need a car; combine Cacabelos wineries with the Cares Route."
+  ]
+ },
+ "climate": {
+  "hi": [
+   8,
+   11,
+   15,
+   16,
+   20,
+   26,
+   29,
+   29,
+   24,
+   18,
+   12,
+   8
+  ],
+  "lo": [
+   0,
+   1,
+   3,
+   5,
+   8,
+   12,
+   14,
+   14,
+   11,
+   7,
+   3,
+   1
+  ]
+ },
+ "tr": {
+  "Obra cumbre del gótico con 1.800 m² de vidrieras.": "Gothic masterpiece with 1,800 m² of stained glass.",
+  "Joya románica con el Panteón Real y sus frescos.": "Romanesque jewel with the Royal Pantheon frescoes.",
+  "Edificio neogótico de Antoni Gaudí de 1892.": "Neo-Gothic building by Antoni Gaudí, 1892.",
+  "Palacio renacentista, sede de la Diputación.": "Renaissance palace, seat of the provincial council.",
+  "Fachada plateresca de más de 100 metros.": "Plateresque façade over 100 metres long.",
+  "Palacio de cuento diseñado por Gaudí en granito.": "Fairy-tale palace designed by Gaudí in granite.",
+  "Catedral gótico-tardía junto al palacio de Gaudí.": "Late-Gothic cathedral beside the Gaudí palace.",
+  "Fortaleza templaria del siglo XII sobre el Sil.": "12th-century Templar fortress above the Sil.",
+  "Templo renacentista de la patrona del Bierzo.": "Renaissance church of the Bierzo's patron saint.",
+  "Villa jacobea con castillo e iglesia del Perdón.": "Camino town with castle and Church of Forgiveness.",
+  "Cuna del mudéjar de ladrillo del siglo XII.": "Birthplace of 12th-century brick Mudéjar.",
+  "Castillo gótico-mudéjar sobre el río Esla.": "Gothic-Mudéjar castle above the river Esla.",
+  "Paisaje rojizo de la antigua mina de oro romana.": "Red landscape of an ancient Roman gold mine.",
+  "Balcón panorámico sobre Las Médulas.": "Panoramic balcony over Las Médulas.",
+  "Gran cueva de estalactitas y ríos subterráneos.": "Vast cave of stalactites and underground rivers.",
+  "Senda espectacular tallada en la garganta del Cares.": "Spectacular trail carved into the Cares gorge.",
+  "Pueblo entre montañas junto a un embalse turquesa.": "Village amid mountains beside a turquoise reservoir.",
+  "Desfiladero calizo de paredes verticales.": "Limestone gorge with vertical walls.",
+  "Lago de origen romano junto a Las Médulas.": "Lake of Roman origin next to Las Médulas.",
+  "Laberinto de tapas y vino en el casco viejo.": "Maze of tapas and wine in the old town.",
+  "Museo de arte actual de fachada multicolor.": "Contemporary art museum with a rainbow façade.",
+  "Plaza barroca porticada con mercado tradicional.": "Arcaded Baroque square with a traditional market.",
+  "Historia dulce de la tradición chocolatera astorgana.": "Sweet history of Astorga's chocolate tradition.",
+  "Enoturismo entre viñedos de uva mencía.": "Wine tourism among mencía vineyards.",
+  "Ruta de tapa gratis con cada vino o caña.": "Free-tapa crawl with every wine or beer.",
+  "Carne de vacuno curada y ahumada, emblema local.": "Cured, smoked beef, the local emblem.",
+  "Cocido servido al revés: primero las carnes.": "Stew served in reverse: meats come first.",
+  "Embutido curado cocido, rey del invierno berciano.": "Cured, boiled sausage, king of Bierzo winters.",
+  "Repostería tradicional de mantequilla y chocolate.": "Traditional butter cakes and chocolate treats.",
+  "Tintos y blancos de suelos de pizarra bercianos.": "Reds and whites from Bierzo slate soils.",
+  "León": "León"
+ }
+}

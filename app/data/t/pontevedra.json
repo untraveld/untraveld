@@ -1,0 +1,659 @@
+{
+ "id": "pontevedra",
+ "name": "Pontevedra",
+ "country": "ES",
+ "center": [
+  42.43122,
+  -8.6446
+ ],
+ "pois": [
+  {
+   "id": "pon_peregrina",
+   "cat": "monuments",
+   "name": "Santuario de la Peregrina",
+   "icon": "⛪",
+   "lat": 42.43107,
+   "lng": -8.64615,
+   "desc": "Capilla barroca de planta en forma de concha de vieira."
+  },
+  {
+   "id": "pon_santa_maria",
+   "cat": "monuments",
+   "name": "Basílica de Santa María la Mayor",
+   "icon": "⛪",
+   "lat": 42.43255,
+   "lng": -8.6489,
+   "desc": "Templo gótico-plateresco del gremio de mareantes."
+  },
+  {
+   "id": "pon_ferreria",
+   "cat": "monuments",
+   "name": "Praza da Ferrería",
+   "icon": "🏛️",
+   "lat": 42.43137,
+   "lng": -8.6456,
+   "desc": "Plaza porticada, corazón del casco histórico."
+  },
+  {
+   "id": "pon_casco_vello_vigo",
+   "cat": "monuments",
+   "name": "Casco Vello de Vigo",
+   "icon": "🏘️",
+   "lat": 42.2396,
+   "lng": -8.724,
+   "desc": "Barrio antiguo de Vigo junto al puerto."
+  },
+  {
+   "id": "pon_combarro",
+   "cat": "monuments",
+   "name": "Hórreos de Combarro",
+   "icon": "🏚️",
+   "lat": 42.43189,
+   "lng": -8.70432,
+   "desc": "Pueblo marinero con hórreos sobre el mar."
+  },
+  {
+   "id": "pon_fefinans",
+   "cat": "monuments",
+   "name": "Praza de Fefiñáns",
+   "icon": "🏛️",
+   "lat": 42.5189,
+   "lng": -8.8134,
+   "desc": "Plaza señorial de Cambados, capital del albariño."
+  },
+  {
+   "id": "pon_monterreal",
+   "cat": "monuments",
+   "name": "Fortaleza de Monterreal",
+   "icon": "🏰",
+   "lat": 42.1254,
+   "lng": -8.8501,
+   "desc": "Recinto amurallado de Baiona con parador."
+  },
+  {
+   "id": "pon_pinta",
+   "cat": "monuments",
+   "name": "Réplica de la carabela Pinta",
+   "icon": "⛵",
+   "lat": 42.1204,
+   "lng": -8.8476,
+   "desc": "Carabela museo del primer regreso de América."
+  },
+  {
+   "id": "pon_catedral_tui",
+   "cat": "monuments",
+   "name": "Catedral de Santa María de Tui",
+   "icon": "⛪",
+   "lat": 42.0457,
+   "lng": -8.6438,
+   "desc": "Catedral-fortaleza sobre el río Miño."
+  },
+  {
+   "id": "pon_soutomaior",
+   "cat": "monuments",
+   "name": "Castelo de Soutomaior",
+   "icon": "🏰",
+   "lat": 42.3295,
+   "lng": -8.5684,
+   "desc": "Castillo medieval rodeado de jardines botánicos."
+  },
+  {
+   "id": "pon_santa_trega",
+   "cat": "monuments",
+   "name": "Castro de Santa Trega",
+   "icon": "🗿",
+   "lat": 41.8924,
+   "lng": -8.8736,
+   "desc": "Poblado castreño sobre la desembocadura del Miño."
+  },
+  {
+   "id": "pon_cies",
+   "cat": "nature",
+   "name": "Islas Cíes - Playa de Rodas",
+   "icon": "🏝️",
+   "lat": 42.2223,
+   "lng": -8.9023,
+   "desc": "Playa paradisíaca en el Parque Nacional."
+  },
+  {
+   "id": "pon_monte_castro",
+   "cat": "nature",
+   "name": "Monte do Castro",
+   "icon": "🌳",
+   "lat": 42.2337,
+   "lng": -8.7244,
+   "desc": "Parque mirador sobre la ría de Vigo."
+  },
+  {
+   "id": "pon_ons",
+   "cat": "nature",
+   "name": "Illa de Ons",
+   "icon": "🏝️",
+   "lat": 42.3833,
+   "lng": -8.9338,
+   "desc": "Isla atlántica de faro y calas tranquilas."
+  },
+  {
+   "id": "pon_silgar",
+   "cat": "nature",
+   "name": "Playa de Silgar",
+   "icon": "🏖️",
+   "lat": 42.3956,
+   "lng": -8.8066,
+   "desc": "Playa urbana y bandera azul de Sanxenxo."
+  },
+  {
+   "id": "pon_aloia",
+   "cat": "nature",
+   "name": "Parque Natural Monte Aloia",
+   "icon": "⛰️",
+   "lat": 42.0703,
+   "lng": -8.6775,
+   "desc": "Primer parque natural de Galicia sobre Tui."
+  },
+  {
+   "id": "pon_illa_toxa",
+   "cat": "nature",
+   "name": "Illa da Toxa",
+   "icon": "🌴",
+   "lat": 42.4825,
+   "lng": -8.8643,
+   "desc": "Isla-balneario con la capilla de conchas."
+  },
+  {
+   "id": "pon_fervenza_toxa",
+   "cat": "nature",
+   "name": "Fervenza do Toxa",
+   "icon": "💧",
+   "lat": 42.7565,
+   "lng": -8.2721,
+   "desc": "Cascada de más de 30 m en Silleda."
+  },
+  {
+   "id": "pon_balneario_mondariz",
+   "cat": "ocio",
+   "name": "Balneario de Mondariz",
+   "icon": "♨️",
+   "lat": 42.2273,
+   "lng": -8.4659,
+   "desc": "Histórico balneario termal de las aguas de Mondariz."
+  },
+  {
+   "id": "pon_barco_cies",
+   "cat": "ocio",
+   "name": "Excursión en barco a las Cíes",
+   "icon": "⛴️",
+   "lat": 42.2406,
+   "lng": -8.7256,
+   "desc": "Travesía en catamarán desde la ría de Vigo."
+  },
+  {
+   "id": "pon_spa_toxa",
+   "cat": "ocio",
+   "name": "Talaso A Toxa",
+   "icon": "💆",
+   "lat": 42.4818,
+   "lng": -8.8656,
+   "desc": "Centro de talasoterapia en la isla de A Toxa."
+  },
+  {
+   "id": "pon_praza_lena",
+   "cat": "ocio",
+   "name": "Praza da Leña",
+   "icon": "🍷",
+   "lat": 42.43265,
+   "lng": -8.6453,
+   "desc": "Plaza de vinos y tapas del casco viejo."
+  },
+  {
+   "id": "pon_ostras_vigo",
+   "cat": "food",
+   "name": "Ostras de la Rúa da Pedra",
+   "icon": "🦪",
+   "lat": 42.2417,
+   "lng": -8.727,
+   "desc": "Ostras frescas abiertas en plena calle."
+  },
+  {
+   "id": "pon_marisco_grove",
+   "cat": "food",
+   "name": "Marisco de O Grove",
+   "icon": "🦐",
+   "lat": 42.4934,
+   "lng": -8.8639,
+   "desc": "Capital del marisco de las Rías Baixas."
+  },
+  {
+   "id": "pon_albarino_cambados",
+   "cat": "food",
+   "name": "Bodegas de Albariño de Cambados",
+   "icon": "🍷",
+   "lat": 42.5128,
+   "lng": -8.8115,
+   "desc": "Cata de vino albariño en su cuna."
+  },
+  {
+   "id": "pon_pulpo_pontevedra",
+   "cat": "food",
+   "name": "Pulpo á feira",
+   "icon": "🐙",
+   "lat": 42.4315,
+   "lng": -8.645,
+   "desc": "Pulpo cocido con pimentón, clásico gallego."
+  },
+  {
+   "id": "pon_mejillones",
+   "cat": "food",
+   "name": "Mejillones de las bateas",
+   "icon": "🫕",
+   "lat": 42.2414,
+   "lng": -8.7246,
+   "desc": "Mejillón de ría al vapor, sabor de las Rías Baixas."
+  },
+  {
+   "id": "pon_empanada",
+   "cat": "food",
+   "name": "Empanada gallega",
+   "icon": "🥧",
+   "lat": 42.4318,
+   "lng": -8.6447,
+   "desc": "Masa rellena de zamburiñas, atún o carne."
+  }
+ ],
+ "extra": {
+  "pon_peregrina": {
+   "id": "pon_peregrina",
+   "d": "Icono de Pontevedra construido en el siglo XVIII, dedicado a la Virgen Peregrina, patrona de la ciudad y del Camino Portugués. Su singular planta curva y su doble escalinata la hacen inconfundible.",
+   "d_en": "Pontevedra's icon, built in the 18th century and dedicated to the Pilgrim Virgin, patron of the city and the Portuguese Way. Its curved floor plan and twin staircase make it unmistakable.",
+   "h": "Todos los días 9:00–20:30",
+   "h_en": "Daily 9:00–20:30",
+   "i": "Ideal si te gusta la arquitectura barroca y el Camino de Santiago.",
+   "i_en": "Ideal if you like Baroque architecture and the Camino de Santiago."
+  },
+  "pon_santa_maria": {
+   "id": "pon_santa_maria",
+   "d": "Levantada en el siglo XVI con el patrocinio del gremio de mareantes, destaca por su portada plateresca esculpida a modo de retablo. Preside la parte alta del casco histórico.",
+   "d_en": "Built in the 16th century sponsored by the mariners' guild, famous for its Plateresque façade carved like an altarpiece. It crowns the upper old town.",
+   "h": "Lun–Dom 10:00–13:30, 17:00–20:00",
+   "h_en": "Mon–Sun 10:00–13:30, 17:00–20:00",
+   "i": "Ideal si te gusta el arte gótico y las fachadas esculpidas.",
+   "i_en": "Ideal if you like Gothic art and carved façades."
+  },
+  "pon_ferreria": {
+   "id": "pon_ferreria",
+   "d": "La plaza más animada de Pontevedra, con soportales, la fuente barroca y la iglesia de San Francisco. Rodeada de terrazas, es el punto de encuentro de la ciudad.",
+   "d_en": "Pontevedra's liveliest square, with arcades, a Baroque fountain and the church of San Francisco. Lined with terraces, it is the city's meeting point.",
+   "h": "Acceso libre 24 h",
+   "h_en": "Open access 24 h",
+   "i": "Ideal si te gusta pasear, tomar algo y ver ambiente urbano.",
+   "i_en": "Ideal if you like strolling, having a drink and city buzz."
+  },
+  "pon_casco_vello_vigo": {
+   "id": "pon_casco_vello_vigo",
+   "d": "Laberinto de calles empedradas con la Praza da Constitución, la Colegiata y la famosa Rúa da Pedra. Combina historia marinera, arte urbano y ambiente de tapas.",
+   "d_en": "A maze of cobbled streets with Praza da Constitución, the Collegiate church and the famous Rúa da Pedra. It blends seafaring history, street art and a tapas scene.",
+   "h": "Acceso libre 24 h",
+   "h_en": "Open access 24 h",
+   "i": "Ideal si te gusta el ambiente portuario y callejear.",
+   "i_en": "Ideal if you like harbour atmosphere and wandering streets."
+  },
+  "pon_combarro": {
+   "id": "pon_combarro",
+   "d": "Conjunto histórico-artístico famoso por su hilera de hórreos de piedra alineados frente a la ría, cruceiros y casas marineras. Uno de los rincones más fotografiados de Galicia.",
+   "d_en": "A protected village famous for its row of stone granaries lined up against the ría, wayside crosses and fishermen's houses. One of Galicia's most photographed spots.",
+   "h": "Acceso libre 24 h",
+   "h_en": "Open access 24 h",
+   "i": "Ideal si te gusta la etnografía gallega y la fotografía.",
+   "i_en": "Ideal if you like Galician heritage and photography."
+  },
+  "pon_fefinans": {
+   "id": "pon_fefinans",
+   "d": "Amplia plaza renacentista presidida por el pazo de Fefiñáns y su bodega. Es el escenario de la Festa do Albariño y símbolo de la villa de Cambados.",
+   "d_en": "A broad Renaissance square presided over by the Fefiñáns manor and its winery. It hosts the Albariño Festival and symbolises the town of Cambados.",
+   "h": "Acceso libre 24 h",
+   "h_en": "Open access 24 h",
+   "i": "Ideal si te gusta la arquitectura señorial y el vino.",
+   "i_en": "Ideal if you like stately architecture and wine."
+  },
+  "pon_monterreal": {
+   "id": "pon_monterreal",
+   "d": "Península fortificada con murallas medievales que hoy alberga el Parador de Baiona. Se puede recorrer su paseo de ronda con vistas a la ría y al océano.",
+   "d_en": "A fortified peninsula with medieval walls that today houses the Parador de Baiona. You can walk its rampart path with views over the ría and ocean.",
+   "h": "Paseo de murallas 10:00–21:00 (2 € aprox.)",
+   "h_en": "Rampart walk 10:00–21:00 (approx. €2)",
+   "i": "Ideal si te gusta la historia y las vistas al mar.",
+   "i_en": "Ideal if you like history and sea views."
+  },
+  "pon_pinta": {
+   "id": "pon_pinta",
+   "d": "Réplica navegable de La Pinta, que en marzo de 1493 arribó a Baiona trayendo la primera noticia del Nuevo Mundo. Se visita como museo flotante en el puerto.",
+   "d_en": "A sailable replica of La Pinta, which in March 1493 reached Baiona bringing the first news of the New World. It is visited as a floating museum in the port.",
+   "h": "Mar–Dom 10:00–19:00 (2,50 € aprox.)",
+   "h_en": "Tue–Sun 10:00–19:00 (approx. €2.50)",
+   "i": "Ideal si te gusta la historia de la navegación y el descubrimiento.",
+   "i_en": "Ideal if you like the history of seafaring and discovery."
+  },
+  "pon_catedral_tui": {
+   "id": "pon_catedral_tui",
+   "d": "Catedral románico-gótica del siglo XII con aspecto de fortaleza y una portada gótica pionera en la península. Domina la frontera con Portugal desde lo alto de Tui.",
+   "d_en": "A 12th-century Romanesque-Gothic cathedral with a fortress-like look and one of the peninsula's first Gothic portals. It overlooks the border with Portugal from the top of Tui.",
+   "h": "Lun–Dom 10:15–20:00 (4 € aprox.)",
+   "h_en": "Mon–Sun 10:15–20:00 (approx. €4)",
+   "i": "Ideal si te gusta el arte medieval y las ciudades fronterizas.",
+   "i_en": "Ideal if you like medieval art and border towns."
+  },
+  "pon_soutomaior": {
+   "id": "pon_soutomaior",
+   "d": "Fortaleza del siglo XII ligada al noble Pedro Madruga, hoy rodeada de un espléndido parque botánico con camelias centenarias y castaños milenarios.",
+   "d_en": "A 12th-century fortress linked to the noble Pedro Madruga, now surrounded by a splendid botanical park with centennial camellias and ancient chestnut trees.",
+   "h": "Mar–Dom 10:00–20:00 (verano); horario reducido invierno",
+   "h_en": "Tue–Sun 10:00–20:00 (summer); reduced in winter",
+   "i": "Ideal si te gusta la historia medieval y los jardines.",
+   "i_en": "Ideal if you like medieval history and gardens."
+  },
+  "pon_santa_trega": {
+   "id": "pon_santa_trega",
+   "d": "Yacimiento galaico-romano con viviendas circulares reconstruidas en la cima del Monte de Santa Trega, en A Guarda. Ofrece vistas al Atlántico y a la frontera portuguesa.",
+   "d_en": "A Galaico-Roman site with reconstructed round houses atop Mount Santa Trega in A Guarda. It offers views over the Atlantic and the Portuguese border.",
+   "h": "Todos los días 10:00–20:00 (verano)",
+   "h_en": "Daily 10:00–20:00 (summer)",
+   "i": "Ideal si te gusta la arqueología y los miradores.",
+   "i_en": "Ideal if you like archaeology and panoramic viewpoints."
+  },
+  "pon_cies": {
+   "id": "pon_cies",
+   "d": "Arenal en forma de media luna que une dos islas, con arena blanca y aguas turquesas dentro del Parque Nacional das Illas Atlánticas. Considerada una de las mejores playas del mundo.",
+   "d_en": "A crescent-shaped beach linking two islands, with white sand and turquoise water inside the Atlantic Islands National Park. Rated one of the best beaches in the world.",
+   "h": "Acceso solo con permiso y barco; temporada abril–octubre",
+   "h_en": "Access only by permit and boat; season April–October",
+   "i": "Ideal si te gusta la naturaleza virgen y las playas de ensueño.",
+   "i_en": "Ideal if you like pristine nature and dream beaches."
+  },
+  "pon_monte_castro": {
+   "id": "pon_monte_castro",
+   "d": "Pulmón verde de Vigo coronado por un castillo del siglo XVII y restos de un castro. Sus jardines y miradores ofrecen las mejores panorámicas de la ciudad y la ría.",
+   "d_en": "Vigo's green lung, crowned by a 17th-century castle and the remains of a hillfort. Its gardens and viewpoints offer the best panoramas of the city and the ría.",
+   "h": "Acceso libre 24 h",
+   "h_en": "Open access 24 h",
+   "i": "Ideal si te gusta pasear entre verde con vistas.",
+   "i_en": "Ideal if you like green walks with a view."
+  },
+  "pon_ons": {
+   "id": "pon_ons",
+   "d": "Isla habitada del Parque Nacional das Illas Atlánticas, con rutas a pie hasta su faro, playas resguardadas y el mirador del Buraco do Inferno. Más tranquila que las Cíes.",
+   "d_en": "An inhabited island of the Atlantic Islands National Park, with walking routes to its lighthouse, sheltered beaches and the Buraco do Inferno viewpoint. Quieter than the Cíes.",
+   "h": "Acceso con barco; temporada primavera–otoño",
+   "h_en": "Access by boat; spring–autumn season",
+   "i": "Ideal si te gusta el senderismo insular sin masificación.",
+   "i_en": "Ideal if you like island hiking without the crowds."
+  },
+  "pon_silgar": {
+   "id": "pon_silgar",
+   "d": "Principal arenal de Sanxenxo, capital turística de las Rías Baixas, con un paseo marítimo animado, el monumento a A Madama e o Mariñeiro y todos los servicios.",
+   "d_en": "The main beach of Sanxenxo, the tourist capital of the Rías Baixas, with a lively promenade, the 'Madama e o Mariñeiro' statue and every service.",
+   "h": "Acceso libre 24 h",
+   "h_en": "Open access 24 h",
+   "i": "Ideal si te gusta la playa con ambiente y vida nocturna.",
+   "i_en": "Ideal if you like a beach with atmosphere and nightlife."
+  },
+  "pon_aloia": {
+   "id": "pon_aloia",
+   "d": "Montaña boscosa declarada primer parque natural de Galicia, con senderos, áreas recreativas y miradores sobre el valle del Miño y la frontera portuguesa.",
+   "d_en": "A wooded mountain declared Galicia's first nature park, with trails, picnic areas and viewpoints over the Miño valley and the Portuguese border.",
+   "h": "Acceso libre 24 h",
+   "h_en": "Open access 24 h",
+   "i": "Ideal si te gusta el senderismo y las vistas de valle.",
+   "i_en": "Ideal if you like hiking and valley views."
+  },
+  "pon_illa_toxa": {
+   "id": "pon_illa_toxa",
+   "d": "Pequeña isla unida a O Grove por un puente, famosa por sus aguas termales, hoteles de lujo y la singular capilla de San Caralampio cubierta de conchas de vieira.",
+   "d_en": "A small island linked to O Grove by a bridge, famous for its thermal waters, luxury hotels and the singular chapel of San Caralampio covered in scallop shells.",
+   "h": "Acceso libre 24 h",
+   "h_en": "Open access 24 h",
+   "i": "Ideal si te gusta el relax elegante junto al mar.",
+   "i_en": "Ideal if you like elegant relaxation by the sea."
+  },
+  "pon_fervenza_toxa": {
+   "id": "pon_fervenza_toxa",
+   "d": "Salto de agua del río Toxa junto al monasterio de Carboeiro, con una de las mayores caídas verticales de Galicia. Entorno de bosque atlántico ideal para caminar.",
+   "d_en": "A waterfall of the river Toxa next to the Carboeiro monastery, with one of Galicia's greatest vertical drops. Atlantic woodland ideal for walking.",
+   "h": "Acceso libre 24 h",
+   "h_en": "Open access 24 h",
+   "i": "Ideal si te gusta la naturaleza y las cascadas.",
+   "i_en": "Ideal if you like nature and waterfalls."
+  },
+  "pon_balneario_mondariz": {
+   "id": "pon_balneario_mondariz",
+   "d": "Complejo termal de tradición centenaria famoso por su agua mineromedicinal embotellada. Ofrece circuitos de aguas, tratamientos y un elegante gran hotel.",
+   "d_en": "A century-old thermal complex famous for its bottled mineral water. It offers water circuits, treatments and an elegant grand hotel.",
+   "h": "Circuito termal con reserva, aprox. 10:00–20:00",
+   "h_en": "Thermal circuit by booking, approx. 10:00–20:00",
+   "i": "Ideal si te gusta el bienestar y las aguas termales.",
+   "i_en": "Ideal if you like wellness and thermal waters."
+  },
+  "pon_barco_cies": {
+   "id": "pon_barco_cies",
+   "d": "Salida desde la estación marítima de Vigo (también Cangas o Baiona) hacia el archipiélago de las Cíes. La travesía por la ría es un espectáculo en sí misma.",
+   "d_en": "Departure from Vigo's ferry terminal (also Cangas or Baiona) to the Cíes archipelago. The crossing through the ría is a spectacle in itself.",
+   "h": "Salidas diarias en temporada; ida/vuelta 18–20 € aprox.",
+   "h_en": "Daily departures in season; return approx. €18–20",
+   "i": "Ideal si te gusta navegar y descubrir islas.",
+   "i_en": "Ideal if you like sailing and discovering islands."
+  },
+  "pon_spa_toxa": {
+   "id": "pon_spa_toxa",
+   "d": "Spa marino que aprovecha el agua de mar y las aguas termales de la isla, con piscinas dinámicas, saunas y tratamientos. Uno de los referentes de bienestar de Galicia.",
+   "d_en": "A marine spa using the island's seawater and thermal springs, with dynamic pools, saunas and treatments. One of Galicia's wellness benchmarks.",
+   "h": "Todos los días con reserva, aprox. 10:00–21:00",
+   "h_en": "Daily by booking, approx. 10:00–21:00",
+   "i": "Ideal si te gusta el relax y los circuitos de spa.",
+   "i_en": "Ideal if you like relaxation and spa circuits."
+  },
+  "pon_praza_lena": {
+   "id": "pon_praza_lena",
+   "d": "Coqueta plaza con cruceiro y soportales, rodeada de bares de vinos y el Museo de Pontevedra. Uno de los mejores lugares para el tapeo por el casco histórico.",
+   "d_en": "A charming square with a wayside cross and arcades, surrounded by wine bars and the Pontevedra Museum. One of the best spots for tapas-hopping in the old town.",
+   "h": "Bares aprox. 12:00–00:00",
+   "h_en": "Bars approx. 12:00–00:00",
+   "i": "Ideal si te gusta el vino, las tapas y el ambiente.",
+   "i_en": "Ideal if you like wine, tapas and atmosphere."
+  },
+  "pon_ostras_vigo": {
+   "id": "pon_ostras_vigo",
+   "d": "En la Rúa da Pedra del Casco Vello, las ostreiras abren ostras al momento sobre puestos de piedra. Se comen con limón y un vino blanco, una tradición viguesa imprescindible.",
+   "d_en": "On Rúa da Pedra in the Old Town, the 'ostreiras' shuck oysters on the spot at stone stalls. Eaten with lemon and white wine, an essential Vigo tradition.",
+   "h": "Lun–Sáb 10:00–15:00",
+   "h_en": "Mon–Sat 10:00–15:00",
+   "i": "Ideal si te gusta el marisco fresco y auténtico.",
+   "i_en": "Ideal if you like fresh, authentic seafood."
+  },
+  "pon_marisco_grove": {
+   "id": "pon_marisco_grove",
+   "d": "O Grove vive del mar: sus restaurantes sirven vieiras, nécoras, centollos y navajas recién sacados de la ría. En octubre celebra la Festa do Marisco.",
+   "d_en": "O Grove lives from the sea: its restaurants serve scallops, velvet crabs, spider crabs and razor clams straight from the ría. In October it holds the Seafood Festival.",
+   "h": "Restaurantes 13:00–16:00, 20:00–23:30",
+   "h_en": "Restaurants 13:00–16:00, 20:00–23:30",
+   "i": "Ideal si te gusta el marisco de calidad y la cocina marinera.",
+   "i_en": "Ideal if you like top-quality shellfish and seafood cooking."
+  },
+  "pon_albarino_cambados": {
+   "id": "pon_albarino_cambados",
+   "d": "Cambados es la capital del albariño DO Rías Baixas. Sus pazos-bodega ofrecen visitas y catas del blanco más famoso de Galicia, ideal con marisco.",
+   "d_en": "Cambados is the capital of albariño DO Rías Baixas. Its manor-wineries offer tours and tastings of Galicia's most famous white, perfect with seafood.",
+   "h": "Bodegas con visita, aprox. 11:00–19:00",
+   "h_en": "Wineries by tour, approx. 11:00–19:00",
+   "i": "Ideal si te gusta el enoturismo y los vinos blancos.",
+   "i_en": "Ideal if you like wine tourism and white wines."
+  },
+  "pon_pulpo_pontevedra": {
+   "id": "pon_pulpo_pontevedra",
+   "d": "En las tabernas y pulperías de Pontevedra se sirve el pulpo á feira sobre plato de madera, con aceite, sal gorda y pimentón. Se acompaña de pan y vino tinto del país.",
+   "d_en": "In Pontevedra's taverns and 'pulperías', octopus is served on a wooden plate with oil, coarse salt and paprika. Enjoyed with bread and local red wine.",
+   "h": "Lun–Dom 12:00–16:00, 20:00–23:00",
+   "h_en": "Mon–Sun 12:00–16:00, 20:00–23:00",
+   "i": "Ideal si te gusta la cocina tradicional gallega.",
+   "i_en": "Ideal if you like traditional Galician cuisine."
+  },
+  "pon_mejillones": {
+   "id": "pon_mejillones",
+   "d": "Las bateas flotantes de las rías producen algunos de los mejores mejillones del mundo. Se degustan al vapor, en escabeche o en empanada en los bares del puerto de Vigo.",
+   "d_en": "The floating rafts of the rías produce some of the world's best mussels. They are enjoyed steamed, pickled or in a pie at the bars of Vigo's port.",
+   "h": "Lun–Dom 12:00–00:00",
+   "h_en": "Mon–Sun 12:00–00:00",
+   "i": "Ideal si te gusta el marisco económico y sabroso.",
+   "i_en": "Ideal if you like affordable, flavourful seafood."
+  },
+  "pon_empanada": {
+   "id": "pon_empanada",
+   "d": "La empanada es el emblema de la panadería gallega: masa fina rellena de zamburiñas, bacalao, atún o raxo. Se compra por raciones en hornos y mercados de Pontevedra.",
+   "d_en": "The empanada is the emblem of Galician baking: thin pastry filled with queen scallops, cod, tuna or pork. Bought by the slice in Pontevedra's bakeries and markets.",
+   "h": "Lun–Sáb 9:00–20:00",
+   "h_en": "Mon–Sat 9:00–20:00",
+   "i": "Ideal si te gusta la comida casera para llevar.",
+   "i_en": "Ideal if you like homemade food to go."
+  }
+ },
+ "food": {
+  "pon_ostras_vigo": {
+   "cuisine": "Marisco gallego",
+   "price": "10–20 €",
+   "hours": "Lun–Sáb 10:00–15:00"
+  },
+  "pon_marisco_grove": {
+   "cuisine": "Marisco y pescado",
+   "price": "25–50 €",
+   "hours": "Restaurantes 13:00–16:00, 20:00–23:30"
+  },
+  "pon_albarino_cambados": {
+   "cuisine": "Vino y tapas",
+   "price": "10–25 €",
+   "hours": "Bodegas con visita, aprox. 11:00–19:00"
+  },
+  "pon_pulpo_pontevedra": {
+   "cuisine": "Cocina gallega",
+   "price": "12–20 €",
+   "hours": "Lun–Dom 12:00–16:00, 20:00–23:00"
+  },
+  "pon_mejillones": {
+   "cuisine": "Marisco gallego",
+   "price": "8–15 €",
+   "hours": "Lun–Dom 12:00–00:00"
+  },
+  "pon_empanada": {
+   "cuisine": "Panadería gallega",
+   "price": "3–8 €",
+   "hours": "Lun–Sáb 9:00–20:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Pontevedra",
+   "items": [
+    {
+     "name": "Vino Albariño DO Rías Baixas",
+     "price": "8–18 €",
+     "desc": "Blanco afrutado y fresco, insignia de las Rías Baixas."
+    },
+    {
+     "name": "Conservas de mejillón y berberecho",
+     "price": "4–12 €",
+     "desc": "Marisco de las rías en lata, listo para tapear."
+    },
+    {
+     "name": "Aguardiente de orujo y licor café",
+     "price": "10–20 €",
+     "desc": "Destilados gallegos artesanos, base de la queimada."
+    },
+    {
+     "name": "Cerámica de Sargadelos",
+     "price": "15–60 €",
+     "desc": "Loza azul y blanca de diseño clásico gallego."
+    }
+   ],
+   "shops": [
+    "Mercado de Abastos de Pontevedra",
+    "Tiendas del casco histórico peatonal",
+    "Bodegas de Cambados y O Salnés",
+    "Lonja de O Grove"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Reserva con antelación el permiso gratuito para visitar las Islas Cíes en la web de la Xunta; sin él no te dejan embarcar en verano.",
+   "El casco histórico de Pontevedra es peatonal: aparca en los parkings del ensanche y recórrelo a pie.",
+   "Prueba el albariño directamente en las bodegas de Cambados y el marisco en la lonja de O Grove.",
+   "Consulta las mareas antes de ir a las playas y bancos marisqueros de las rías.",
+   "Combina interior y costa: balnearios de Mondariz y A Toxa para descansar tras la playa."
+  ],
+  "en": [
+   "Book the free permit to visit the Cíes Islands in advance on the Xunta website; without it you cannot board in summer.",
+   "Pontevedra's old town is pedestrian-only: park in the new-town car parks and explore on foot.",
+   "Taste albariño straight from the Cambados wineries and seafood at the O Grove fish market.",
+   "Check tide tables before heading to the rías' beaches and shellfish banks.",
+   "Mix inland and coast: the Mondariz and A Toxa spas are perfect to unwind after the beach."
+  ]
+ },
+ "climate": {
+  "hi": [
+   14,
+   15,
+   17,
+   18,
+   20,
+   23,
+   25,
+   26,
+   24,
+   20,
+   16,
+   14
+  ],
+  "lo": [
+   6,
+   6,
+   7,
+   9,
+   11,
+   14,
+   15,
+   16,
+   14,
+   12,
+   9,
+   7
+  ]
+ },
+ "tr": {
+  "Capilla barroca de planta en forma de concha de vieira.": "Baroque chapel shaped like a scallop shell.",
+  "Templo gótico-plateresco del gremio de mareantes.": "Gothic-Plateresque church of the mariners' guild.",
+  "Plaza porticada, corazón del casco histórico.": "Arcaded square at the heart of the old town.",
+  "Barrio antiguo de Vigo junto al puerto.": "Vigo's old quarter beside the harbour.",
+  "Pueblo marinero con hórreos sobre el mar.": "Fishing village with granaries over the sea.",
+  "Plaza señorial de Cambados, capital del albariño.": "Stately square in Cambados, albariño capital.",
+  "Recinto amurallado de Baiona con parador.": "Walled fortress of Baiona with a parador.",
+  "Carabela museo del primer regreso de América.": "Caravel museum of the first return from America.",
+  "Catedral-fortaleza sobre el río Miño.": "Fortress-cathedral above the river Miño.",
+  "Castillo medieval rodeado de jardines botánicos.": "Medieval castle set in botanical gardens.",
+  "Poblado castreño sobre la desembocadura del Miño.": "Iron Age hillfort above the Miño estuary.",
+  "Playa paradisíaca en el Parque Nacional.": "Paradise beach in the National Park.",
+  "Parque mirador sobre la ría de Vigo.": "Hilltop park overlooking Vigo's ría.",
+  "Isla atlántica de faro y calas tranquilas.": "Atlantic island of lighthouse and quiet coves.",
+  "Playa urbana y bandera azul de Sanxenxo.": "Blue-flag town beach of Sanxenxo.",
+  "Primer parque natural de Galicia sobre Tui.": "Galicia's first nature park above Tui.",
+  "Isla-balneario con la capilla de conchas.": "Spa island with the shell-covered chapel.",
+  "Cascada de más de 30 m en Silleda.": "Waterfall of over 30 m in Silleda.",
+  "Histórico balneario termal de las aguas de Mondariz.": "Historic thermal spa of Mondariz waters.",
+  "Travesía en catamarán desde la ría de Vigo.": "Catamaran crossing from Vigo's ría.",
+  "Centro de talasoterapia en la isla de A Toxa.": "Thalassotherapy centre on A Toxa island.",
+  "Plaza de vinos y tapas del casco viejo.": "Wine-and-tapas square in the old town.",
+  "Ostras frescas abiertas en plena calle.": "Fresh oysters shucked in the street.",
+  "Capital del marisco de las Rías Baixas.": "Shellfish capital of the Rías Baixas.",
+  "Cata de vino albariño en su cuna.": "Albariño wine tasting in its birthplace.",
+  "Pulpo cocido con pimentón, clásico gallego.": "Boiled octopus with paprika, a Galician classic.",
+  "Mejillón de ría al vapor, sabor de las Rías Baixas.": "Steamed ría mussels, taste of the Rías Baixas.",
+  "Masa rellena de zamburiñas, atún o carne.": "Pastry filled with scallops, tuna or meat.",
+  "Pontevedra": "Pontevedra"
+ }
+}

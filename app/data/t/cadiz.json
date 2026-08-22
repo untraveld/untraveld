@@ -1,0 +1,658 @@
+{
+ "id": "cadiz",
+ "name": "Cádiz",
+ "country": "ES",
+ "center": [
+  36.52984,
+  -6.2935
+ ],
+ "pois": [
+  {
+   "id": "cad_catedral",
+   "cat": "monuments",
+   "name": "Catedral de Cádiz",
+   "icon": "⛪",
+   "lat": 36.5288,
+   "lng": -6.2946,
+   "desc": "Catedral barroca y neoclásica frente al mar."
+  },
+  {
+   "id": "cad_baelo_claudia",
+   "cat": "monuments",
+   "name": "Baelo Claudia (Bolonia)",
+   "icon": "🏛️",
+   "lat": 36.0881,
+   "lng": -5.7708,
+   "desc": "Ciudad romana junto a la playa de Bolonia."
+  },
+  {
+   "id": "cad_arte_ecuestre",
+   "cat": "ocio",
+   "name": "Real Escuela Andaluza del Arte Ecuestre",
+   "icon": "🐴",
+   "lat": 36.6939,
+   "lng": -6.1385,
+   "desc": "Espectáculo del caballo andaluz en Jerez."
+  },
+  {
+   "id": "cad_bolonia",
+   "cat": "nature",
+   "name": "Playa y Duna de Bolonia",
+   "icon": "🏖️",
+   "lat": 36.0923,
+   "lng": -5.7809,
+   "desc": "Playa virgen con gran duna móvil."
+  },
+  {
+   "id": "cad_alcazar_jerez",
+   "cat": "monuments",
+   "name": "Alcázar de Jerez de la Frontera",
+   "icon": "🏰",
+   "lat": 36.6793,
+   "lng": -6.1421,
+   "desc": "Fortaleza almohade del siglo XII."
+  },
+  {
+   "id": "cad_torre_tavira",
+   "cat": "monuments",
+   "name": "Torre Tavira",
+   "icon": "🗼",
+   "lat": 36.5296,
+   "lng": -6.2973,
+   "desc": "Torre vigía con cámara oscura."
+  },
+  {
+   "id": "cad_la_caleta",
+   "cat": "nature",
+   "name": "Playa de La Caleta",
+   "icon": "🏖️",
+   "lat": 36.5276,
+   "lng": -6.3058,
+   "desc": "Playa histórica entre dos castillos."
+  },
+  {
+   "id": "cad_bodegas_tiopepe",
+   "cat": "ocio",
+   "name": "Bodegas Tío Pepe (González Byass)",
+   "icon": "🍷",
+   "lat": 36.6798,
+   "lng": -6.1454,
+   "desc": "Bodega histórica de vino de Jerez."
+  },
+  {
+   "id": "cad_arcos",
+   "cat": "monuments",
+   "name": "Arcos de la Frontera",
+   "icon": "🏘️",
+   "lat": 36.748,
+   "lng": -5.8105,
+   "desc": "Pueblo blanco sobre un peñón."
+  },
+  {
+   "id": "cad_trafalgar",
+   "cat": "nature",
+   "name": "Cabo de Trafalgar",
+   "icon": "🌅",
+   "lat": 36.181,
+   "lng": -6.0388,
+   "desc": "Faro y tómbolo frente al Atlántico."
+  },
+  {
+   "id": "cad_tarifa",
+   "cat": "ocio",
+   "name": "Tarifa y Playa de Los Lances",
+   "icon": "🪁",
+   "lat": 36.0244,
+   "lng": -5.6139,
+   "desc": "Capital europea del viento y el kitesurf."
+  },
+  {
+   "id": "cad_vejer",
+   "cat": "monuments",
+   "name": "Vejer de la Frontera",
+   "icon": "🏘️",
+   "lat": 36.2529,
+   "lng": -5.9656,
+   "desc": "Pueblo blanco de origen andalusí."
+  },
+  {
+   "id": "cad_zahara",
+   "cat": "nature",
+   "name": "Zahara de los Atunes",
+   "icon": "🏖️",
+   "lat": 36.1384,
+   "lng": -5.8503,
+   "desc": "Playa amplia de arena dorada."
+  },
+  {
+   "id": "cad_puerto_santamaria",
+   "cat": "monuments",
+   "name": "Castillo de San Marcos (El Puerto de Santa María)",
+   "icon": "🏰",
+   "lat": 36.5956,
+   "lng": -6.2332,
+   "desc": "Castillo-iglesia medieval junto al Guadalete."
+  },
+  {
+   "id": "cad_populo",
+   "cat": "monuments",
+   "name": "Barrio del Pópulo",
+   "icon": "🏛️",
+   "lat": 36.53,
+   "lng": -6.2928,
+   "desc": "Núcleo medieval de Cádiz."
+  },
+  {
+   "id": "cad_setenil",
+   "cat": "monuments",
+   "name": "Setenil de las Bodegas",
+   "icon": "🏘️",
+   "lat": 36.8639,
+   "lng": -5.1813,
+   "desc": "Casas bajo la roca del cañón."
+  },
+  {
+   "id": "cad_grazalema",
+   "cat": "nature",
+   "name": "Sierra de Grazalema",
+   "icon": "⛰️",
+   "lat": 36.7605,
+   "lng": -5.3661,
+   "desc": "Parque natural de sierras y bosques."
+  },
+  {
+   "id": "cad_sanlucar_donana",
+   "cat": "ocio",
+   "name": "Doñana desde Sanlúcar (Bajo de Guía)",
+   "icon": "⛴️",
+   "lat": 36.7919,
+   "lng": -6.3495,
+   "desc": "Barco por la desembocadura del Guadalquivir."
+  },
+  {
+   "id": "cad_conil",
+   "cat": "nature",
+   "name": "Conil de la Frontera",
+   "icon": "🏖️",
+   "lat": 36.2765,
+   "lng": -6.0933,
+   "desc": "Pueblo pesquero con calas y playas."
+  },
+  {
+   "id": "cad_teatro_falla",
+   "cat": "monuments",
+   "name": "Gran Teatro Falla",
+   "icon": "🎭",
+   "lat": 36.5337,
+   "lng": -6.3019,
+   "desc": "Teatro neomudéjar del Carnaval."
+  },
+  {
+   "id": "cad_castillo_sansebastian",
+   "cat": "monuments",
+   "name": "Castillo de San Sebastián",
+   "icon": "🏰",
+   "lat": 36.5269,
+   "lng": -6.316,
+   "desc": "Fortaleza sobre un islote en el mar."
+  },
+  {
+   "id": "cad_parque_genoves",
+   "cat": "ocio",
+   "name": "Parque Genovés",
+   "icon": "🌳",
+   "lat": 36.5335,
+   "lng": -6.306,
+   "desc": "Jardín botánico frente al Atlántico."
+  },
+  {
+   "id": "cad_el_campero",
+   "cat": "food",
+   "name": "El Campero (atún rojo), Barbate",
+   "icon": "🐟",
+   "lat": 36.1912,
+   "lng": -5.921,
+   "desc": "Templo del atún rojo de almadraba."
+  },
+  {
+   "id": "cad_romerijo",
+   "cat": "food",
+   "name": "Romerijo (El Puerto de Santa María)",
+   "icon": "🦐",
+   "lat": 36.6001,
+   "lng": -6.2329,
+   "desc": "Marisco cocido y pescaíto para llevar."
+  },
+  {
+   "id": "cad_tabanco_jerez",
+   "cat": "food",
+   "name": "Tabancos de Jerez",
+   "icon": "🍷",
+   "lat": 36.6821,
+   "lng": -6.1378,
+   "desc": "Taberna de fino con flamenco en vivo."
+  },
+  {
+   "id": "cad_mercado_cadiz",
+   "cat": "food",
+   "name": "Mercado Central de Abastos (Cádiz)",
+   "icon": "🍤",
+   "lat": 36.5308,
+   "lng": -6.2978,
+   "desc": "Mercado con rincón gastronómico."
+  },
+  {
+   "id": "cad_manzanilla_sanlucar",
+   "cat": "food",
+   "name": "Manzanilla y langostinos de Sanlúcar",
+   "icon": "🦐",
+   "lat": 36.778,
+   "lng": -6.353,
+   "desc": "Vino de albariza y marisco de la bahía."
+  },
+  {
+   "id": "cad_medina_dulces",
+   "cat": "food",
+   "name": "Dulces de Medina Sidonia",
+   "icon": "🍬",
+   "lat": 36.4579,
+   "lng": -5.9272,
+   "desc": "Alfajores y repostería tradicional."
+  }
+ ],
+ "extra": {
+  "cad_catedral": {
+   "id": "cad_catedral",
+   "d": "Conocida como la Catedral Nueva, mezcla barroco, rococó y neoclásico bajo su cúpula dorada. Sube a la Torre de Poniente para una vista panorámica de la ciudad y el Atlántico.",
+   "d_en": "Known as the New Cathedral, it blends Baroque, Rococo and Neoclassical styles beneath a golden dome. Climb the Torre de Poniente for sweeping views of the city and the Atlantic.",
+   "h": "Mañana o al atardecer",
+   "h_en": "Morning or sunset",
+   "i": "Ideal si te gusta la arquitectura religiosa y las vistas panorámicas.",
+   "i_en": "Ideal if you like religious architecture and panoramic views."
+  },
+  "cad_baelo_claudia": {
+   "id": "cad_baelo_claudia",
+   "d": "Yacimiento romano excepcionalmente conservado con foro, basílica, teatro y factorías de salazón, todo a pie de la playa de Bolonia frente al estrecho de Gibraltar.",
+   "d_en": "Exceptionally preserved Roman site with forum, basilica, theatre and salting factories, right by Bolonia beach facing the Strait of Gibraltar.",
+   "h": "Mañana (evita el calor del mediodía)",
+   "h_en": "Morning (avoid midday heat)",
+   "i": "Ideal si te gusta la historia antigua y la arqueología.",
+   "i_en": "Ideal if you like ancient history and archaeology."
+  },
+  "cad_arte_ecuestre": {
+   "id": "cad_arte_ecuestre",
+   "d": "Institución dedicada a la doma clásica y vaquera. Su exhibición 'Cómo bailan los caballos andaluces' combina caballos, jinetes con trajes del siglo XVIII y música española en un palacio decimonónico.",
+   "d_en": "Institution devoted to classical and country dressage. The show 'How the Andalusian Horses Dance' combines horses, riders in 18th-century costume and Spanish music in a 19th-century palace.",
+   "h": "Días de exhibición (consultar horario)",
+   "h_en": "Show days (check schedule)",
+   "i": "Ideal si te gustan los caballos y los espectáculos ecuestres.",
+   "i_en": "Ideal if you like horses and equestrian shows."
+  },
+  "cad_bolonia": {
+   "id": "cad_bolonia",
+   "d": "Una de las playas más bellas de la Costa de la Luz, con aguas turquesa, pinar y una duna de arena blanca de casi 30 metros declarada Monumento Natural.",
+   "d_en": "One of the most beautiful beaches on the Costa de la Luz, with turquoise water, pine woods and a nearly 30-metre white dune declared a Natural Monument.",
+   "h": "Mañana temprano en verano",
+   "h_en": "Early morning in summer",
+   "i": "Ideal si te gustan las playas salvajes y los paisajes naturales.",
+   "i_en": "Ideal if you like wild beaches and natural landscapes."
+  },
+  "cad_alcazar_jerez": {
+   "id": "cad_alcazar_jerez",
+   "d": "Conjunto amurallado almohade con mezquita, baños árabes, patios y jardines. Su torre y su cámara oscura ofrecen vistas de Jerez y del viñedo circundante.",
+   "d_en": "Walled Almohad complex with mosque, Arab baths, courtyards and gardens. Its tower and camera obscura offer views of Jerez and the surrounding vineyards.",
+   "h": "Mañana",
+   "h_en": "Morning",
+   "i": "Ideal si te gusta la herencia andalusí y los jardines históricos.",
+   "i_en": "Ideal if you like Andalusi heritage and historic gardens."
+  },
+  "cad_torre_tavira": {
+   "id": "cad_torre_tavira",
+   "d": "El punto más alto del casco antiguo de Cádiz y antigua torre vigía del comercio marítimo. Su cámara oscura proyecta imágenes en vivo de la ciudad y ofrece una vista de 360 grados.",
+   "d_en": "The highest point of Cádiz old town and a former maritime-trade watchtower. Its camera obscura projects live images of the city and gives a 360-degree view.",
+   "h": "Mañana con cielo despejado",
+   "h_en": "Morning with clear skies",
+   "i": "Ideal si te gusta ver la ciudad desde las alturas.",
+   "i_en": "Ideal if you like seeing the city from above."
+  },
+  "cad_la_caleta": {
+   "id": "cad_la_caleta",
+   "d": "La playa más emblemática de Cádiz, enmarcada por los castillos de San Sebastián y Santa Catalina. Escenario de películas y del Carnaval, con atardeceres inolvidables.",
+   "d_en": "Cádiz's most iconic beach, framed by the castles of San Sebastián and Santa Catalina. A film location and Carnival backdrop with unforgettable sunsets.",
+   "h": "Atardecer",
+   "h_en": "Sunset",
+   "i": "Ideal si te gusta el ambiente local y las puestas de sol.",
+   "i_en": "Ideal if you like local atmosphere and sunsets."
+  },
+  "cad_bodegas_tiopepe": {
+   "id": "cad_bodegas_tiopepe",
+   "d": "Una de las bodegas más famosas del Marco de Jerez. La visita recorre sus catedrales de barricas, el trenecito entre las naves y una cata de finos y olorosos.",
+   "d_en": "One of the most famous wineries of the Marco de Jerez. The tour explores its cathedral-like cellars, the little train between the halls and a tasting of finos and olorosos.",
+   "h": "Mediodía (visita con cata)",
+   "h_en": "Midday (tour with tasting)",
+   "i": "Ideal si te gusta el enoturismo y el vino de Jerez.",
+   "i_en": "Ideal if you like wine tourism and sherry."
+  },
+  "cad_arcos": {
+   "id": "cad_arcos",
+   "d": "Puerta de la Ruta de los Pueblos Blancos, encaramado sobre un tajo con vistas al río Guadalete. Su Plaza del Cabildo, la basílica de Santa María y sus callejuelas encaladas son un icono andaluz.",
+   "d_en": "Gateway to the White Villages Route, perched on a crag above the Guadalete river. Its Plaza del Cabildo, the basilica of Santa María and its whitewashed lanes are an Andalusian icon.",
+   "h": "Media tarde",
+   "h_en": "Mid-afternoon",
+   "i": "Ideal si te gustan los pueblos con encanto y los miradores.",
+   "i_en": "Ideal if you like charming villages and viewpoints."
+  },
+  "cad_trafalgar": {
+   "id": "cad_trafalgar",
+   "d": "Cabo unido a tierra por un tómbolo de arena, escenario de la histórica batalla naval de 1805. Sus playas vírgenes y su faro ofrecen algunos de los mejores atardeceres de la costa.",
+   "d_en": "A cape joined to land by a sandy tombolo, scene of the historic 1805 naval battle. Its unspoilt beaches and lighthouse offer some of the coast's finest sunsets.",
+   "h": "Atardecer",
+   "h_en": "Sunset",
+   "i": "Ideal si te gustan los faros y los paisajes marinos.",
+   "i_en": "Ideal if you like lighthouses and seascapes."
+  },
+  "cad_tarifa": {
+   "id": "cad_tarifa",
+   "d": "Punto más al sur de la Europa continental, entre el Atlántico y el Mediterráneo. Sus playas de viento constante la convierten en meca del kite y el windsurf, con vistas a las montañas de África.",
+   "d_en": "The southernmost point of mainland Europe, between the Atlantic and the Mediterranean. Its steady winds make it a mecca for kitesurfing and windsurfing, with views of the African mountains.",
+   "h": "Media mañana (viento activo)",
+   "h_en": "Late morning (active wind)",
+   "i": "Ideal si te gustan los deportes de viento y el ambiente joven.",
+   "i_en": "Ideal if you like wind sports and a young vibe."
+  },
+  "cad_vejer": {
+   "id": "cad_vejer",
+   "d": "Uno de los pueblos más bonitos de España, con murallas, arcos, patios y calles blancas sobre una colina. Célebre por su gastronomía y por su casco histórico laberíntico.",
+   "d_en": "One of Spain's prettiest villages, with walls, arches, courtyards and white streets atop a hill. Famous for its food and its labyrinthine old town.",
+   "h": "Tarde y noche",
+   "h_en": "Afternoon and evening",
+   "i": "Ideal si te gustan los pueblos blancos y la buena mesa.",
+   "i_en": "Ideal if you like white villages and good food."
+  },
+  "cad_zahara": {
+   "id": "cad_zahara",
+   "d": "Antiguo pueblo de almadraba con kilómetros de playa abierta y dunas. Famoso por su atún rojo de temporada y por sus arenales tranquilos y de aguas cristalinas.",
+   "d_en": "A former tuna-fishing village with kilometres of open beach and dunes. Famous for its seasonal bluefin tuna and its calm, crystal-clear sands.",
+   "h": "Todo el día en verano",
+   "h_en": "All day in summer",
+   "i": "Ideal si te gustan las playas extensas y tranquilas.",
+   "i_en": "Ideal if you like broad, quiet beaches."
+  },
+  "cad_puerto_santamaria": {
+   "id": "cad_puerto_santamaria",
+   "d": "Fortaleza alfonsí levantada sobre una antigua mezquita en la ciudad de las bodegas y las plazas de toros. El Puerto es puerta de la bahía y punto de partida del vaporcito a Cádiz.",
+   "d_en": "An Alfonsine fortress built over a former mosque in the city of sherry cellars and bullrings. El Puerto is a gateway to the bay and departure point of the ferry to Cádiz.",
+   "h": "Mañana",
+   "h_en": "Morning",
+   "i": "Ideal si te gusta la historia medieval y las ciudades bodegueras.",
+   "i_en": "Ideal if you like medieval history and sherry towns."
+  },
+  "cad_populo": {
+   "id": "cad_populo",
+   "d": "El barrio más antiguo de la ciudad, con sus arcos medievales, el teatro romano y la Casa del Almirante. Un laberinto de callejuelas que conserva la Cádiz de la Edad Media.",
+   "d_en": "The city's oldest quarter, with medieval arches, the Roman theatre and the Casa del Almirante. A maze of lanes preserving medieval Cádiz.",
+   "h": "Mañana",
+   "h_en": "Morning",
+   "i": "Ideal si te gusta pasear por barrios históricos.",
+   "i_en": "Ideal if you like wandering historic quarters."
+  },
+  "cad_setenil": {
+   "id": "cad_setenil",
+   "d": "Pueblo singular donde las casas se cobijan bajo enormes salientes de roca sobre el río Trejo. Sus calles Cuevas del Sol y Cuevas de la Sombra son de las más fotografiadas de Andalucía.",
+   "d_en": "A remarkable village where houses shelter under huge rock overhangs above the Trejo river. Its Cuevas del Sol and Cuevas de la Sombra streets are among Andalusia's most photographed.",
+   "h": "Mediodía",
+   "h_en": "Midday",
+   "i": "Ideal si te gustan los pueblos insólitos y las fotos únicas.",
+   "i_en": "Ideal if you like unusual villages and unique photos."
+  },
+  "cad_grazalema": {
+   "id": "cad_grazalema",
+   "d": "Reserva de la Biosfera con la mayor pluviosidad de España, hogar del pinsapo. Ofrece senderismo, gargantas, buitres leonados y el bonito pueblo blanco de Grazalema.",
+   "d_en": "A Biosphere Reserve with Spain's highest rainfall, home of the Spanish fir. It offers hiking, gorges, griffon vultures and the pretty white village of Grazalema.",
+   "h": "Mañana (rutas de senderismo)",
+   "h_en": "Morning (hiking trails)",
+   "i": "Ideal si te gusta el senderismo y la naturaleza de montaña.",
+   "i_en": "Ideal if you like hiking and mountain nature."
+  },
+  "cad_sanlucar_donana": {
+   "id": "cad_sanlucar_donana",
+   "d": "Desde el barrio marinero de Bajo de Guía zarpan los barcos que cruzan a las marismas de Doñana. Sanlúcar añade sus carreras de caballos en la playa y la mejor manzanilla.",
+   "d_en": "From the Bajo de Guía fishing quarter, boats set off across to the Doñana marshes. Sanlúcar adds its beach horse races and the finest manzanilla sherry.",
+   "h": "Mañana (salida en barco)",
+   "h_en": "Morning (boat departure)",
+   "i": "Ideal si te gusta la naturaleza fluvial y las aves.",
+   "i_en": "Ideal if you like river nature and birdwatching."
+  },
+  "cad_conil": {
+   "id": "cad_conil",
+   "d": "Villa marinera de casas blancas con largas playas de arena fina como Los Bateles y calas como la del Aceite. Ambiente animado, tradición atunera y aguas tranquilas.",
+   "d_en": "A whitewashed fishing town with long fine-sand beaches like Los Bateles and coves like Cala del Aceite. Lively atmosphere, tuna tradition and calm waters.",
+   "h": "Todo el día en verano",
+   "h_en": "All day in summer",
+   "i": "Ideal si te gustan las playas familiares y los pueblos costeros.",
+   "i_en": "Ideal if you like family beaches and coastal towns."
+  },
+  "cad_teatro_falla": {
+   "id": "cad_teatro_falla",
+   "d": "Emblema de Cádiz de fachada de ladrillo rojo y estilo neomudéjar. Es el corazón del Carnaval, donde compiten chirigotas y comparsas en el famoso concurso oficial.",
+   "d_en": "A Cádiz landmark with a red-brick facade and Neo-Mudéjar style. It is the heart of Carnival, where chirigotas and comparsas compete in the famous official contest.",
+   "h": "Tarde (visita o función)",
+   "h_en": "Afternoon (tour or show)",
+   "i": "Ideal si te gustan el teatro y las tradiciones populares.",
+   "i_en": "Ideal if you like theatre and popular traditions."
+  },
+  "cad_castillo_sansebastian": {
+   "id": "cad_castillo_sansebastian",
+   "d": "Castillo del siglo XVIII sobre un islote unido a La Caleta por un largo camino de piedra. El paseo hacia el faro entre las olas es uno de los más fotogénicos de Cádiz.",
+   "d_en": "An 18th-century castle on an islet linked to La Caleta by a long stone causeway. The walk to the lighthouse amid the waves is one of the most photogenic in Cádiz.",
+   "h": "Atardecer",
+   "h_en": "Sunset",
+   "i": "Ideal si te gustan las fortalezas marítimas y los paseos con vistas.",
+   "i_en": "Ideal if you like sea fortresses and scenic walks."
+  },
+  "cad_parque_genoves": {
+   "id": "cad_parque_genoves",
+   "d": "El principal parque de Cádiz, con árboles centenarios, setos podados, una cascada y palmeras exóticas. Un remanso verde junto a la muralla y el paseo marítimo.",
+   "d_en": "Cádiz's main park, with centuries-old trees, clipped hedges, a waterfall and exotic palms. A green oasis beside the sea wall and promenade.",
+   "h": "Media tarde",
+   "h_en": "Mid-afternoon",
+   "i": "Ideal si te gusta pasear entre jardines y relajarte.",
+   "i_en": "Ideal if you like strolling gardens and relaxing."
+  },
+  "cad_el_campero": {
+   "id": "cad_el_campero",
+   "d": "Referente nacional del atún rojo de almadraba capturado con el arte milenario de la zona. Ofrece desde tartar y tataki hasta las partes más nobles del atún.",
+   "d_en": "A national reference for almadraba bluefin tuna caught with the area's age-old method. Serves everything from tartar and tataki to the tuna's finest cuts.",
+   "h": "Almuerzo",
+   "h_en": "Lunch",
+   "i": "Ideal si te gusta el pescado de calidad y la alta cocina marinera.",
+   "i_en": "Ideal if you like quality fish and fine seafood cuisine."
+  },
+  "cad_romerijo": {
+   "id": "cad_romerijo",
+   "d": "Institución del marisco en la bahía. Se compra por cartuchos de gambas, langostinos, coquinas y frituras que se comen en sus terrazas junto al río Guadalete.",
+   "d_en": "A shellfish institution on the bay. You buy paper cones of prawns, langoustines, clams and fried fish to eat on its terraces by the Guadalete river.",
+   "h": "Almuerzo o cena informal",
+   "h_en": "Casual lunch or dinner",
+   "i": "Ideal si te gusta el marisco fresco y el ambiente popular.",
+   "i_en": "Ideal if you like fresh shellfish and a lively vibe."
+  },
+  "cad_tabanco_jerez": {
+   "id": "cad_tabanco_jerez",
+   "d": "Los tabancos son tabernas centenarias donde se sirve el vino de Jerez a granel con tapas sencillas y, a menudo, flamenco espontáneo. El Pasaje es uno de los más emblemáticos.",
+   "d_en": "Tabancos are century-old taverns serving sherry from the barrel with simple tapas and often spontaneous flamenco. El Pasaje is one of the most emblematic.",
+   "h": "Mediodía o noche",
+   "h_en": "Midday or night",
+   "i": "Ideal si te gustan el vino, las tapas y el flamenco auténtico.",
+   "i_en": "Ideal if you like sherry, tapas and authentic flamenco."
+  },
+  "cad_mercado_cadiz": {
+   "id": "cad_mercado_cadiz",
+   "d": "El mercado más antiguo de España en funcionamiento, con puestos de pescado y su animado Rincón Gastronómico donde probar sushi, ostras, fritura y productos locales de pie.",
+   "d_en": "Spain's oldest working market, with fish stalls and a lively Gastro Corner where you can try sushi, oysters, fried fish and local products standing up.",
+   "h": "Mediodía",
+   "h_en": "Midday",
+   "i": "Ideal si te gusta el producto fresco y el tapeo callejero.",
+   "i_en": "Ideal if you like fresh produce and street tapas."
+  },
+  "cad_manzanilla_sanlucar": {
+   "id": "cad_manzanilla_sanlucar",
+   "d": "En los merenderos de Bajo de Guía y las bodegas del Barrio Bajo se marida la manzanilla, criada por la brisa atlántica, con los célebres langostinos de Sanlúcar y el pescado frito.",
+   "d_en": "At the Bajo de Guía eateries and Barrio Bajo cellars, manzanilla sherry, aged by the Atlantic breeze, is paired with Sanlúcar's famous langoustines and fried fish.",
+   "h": "Almuerzo junto al río",
+   "h_en": "Riverside lunch",
+   "i": "Ideal si te gustan el vino generoso y el marisco de la costa.",
+   "i_en": "Ideal if you like fortified wine and coastal shellfish."
+  },
+  "cad_medina_dulces": {
+   "id": "cad_medina_dulces",
+   "d": "Pueblo blanco famoso por su repostería de origen medieval: alfajores, amarguillos y tortas pardas elaborados por obradores y conventos con miel, almendra y especias.",
+   "d_en": "A white village famed for its medieval-rooted pastries: alfajores, amarguillos and tortas pardas made by bakeries and convents with honey, almonds and spices.",
+   "h": "Media tarde",
+   "h_en": "Mid-afternoon",
+   "i": "Ideal si te gustan los dulces artesanos y los pueblos con historia.",
+   "i_en": "Ideal if you like artisan sweets and historic villages."
+  }
+ },
+ "food": {
+  "cad_el_campero": {
+   "cuisine": "Atún rojo y cocina marinera gaditana",
+   "price": "40–70 €",
+   "hours": "13:30–16:00, 20:30–23:30"
+  },
+  "cad_romerijo": {
+   "cuisine": "Marisco cocido y pescaíto frito",
+   "price": "15–35 €",
+   "hours": "11:00–23:00"
+  },
+  "cad_tabanco_jerez": {
+   "cuisine": "Vinos de Jerez y tapas tradicionales",
+   "price": "10–20 €",
+   "hours": "12:00–16:00, 20:00–24:00"
+  },
+  "cad_mercado_cadiz": {
+   "cuisine": "Mercado y tapeo variado",
+   "price": "8–20 €",
+   "hours": "09:00–15:00 (gastro hasta tarde jueves a sábado)"
+  },
+  "cad_manzanilla_sanlucar": {
+   "cuisine": "Manzanilla, langostinos y pescaíto",
+   "price": "20–40 €",
+   "hours": "13:00–16:30, 20:00–23:30"
+  },
+  "cad_medina_dulces": {
+   "cuisine": "Repostería tradicional y conventual",
+   "price": "5–15 €",
+   "hours": "10:00–14:00, 17:00–20:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Cádiz",
+   "items": [
+    {
+     "name": "Vino fino y manzanilla",
+     "price": "8–25 €",
+     "desc": "Vinos generosos del Marco de Jerez y de Sanlúcar de Barrameda."
+    },
+    {
+     "name": "Mojama y atún de almadraba",
+     "price": "10–30 €",
+     "desc": "Atún rojo curado al sol, salazón tradicional de la costa gaditana."
+    },
+    {
+     "name": "Sal marina de las salinas",
+     "price": "3–8 €",
+     "desc": "Sal y flor de sal artesanal de las salinas de la Bahía de Cádiz."
+    },
+    {
+     "name": "Abanico y complementos de Carnaval",
+     "price": "5–20 €",
+     "desc": "Abanicos, gorras y objetos con el humor y color del Carnaval gaditano."
+    }
+   ],
+   "shops": [
+    "Mercado Central de Abastos (Cádiz)",
+    "Bodegas del Marco de Jerez",
+    "Tiendas del casco antiguo de Cádiz"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Muévete a pie por el casco antiguo de Cádiz; sus calles estrechas no son aptas para el coche.",
+   "Reserva con antelación la exhibición 'Cómo bailan los caballos andaluces' en la Real Escuela Ecuestre de Jerez.",
+   "En verano llega temprano a las playas de Bolonia, Zahara y Conil para aparcar sin problemas.",
+   "Prueba el pescaíto frito y las tortillitas de camarones acompañados de un fino o una manzanilla bien fríos.",
+   "Combina bodega y flamenco en los tabancos de Jerez para vivir el sur más auténtico."
+  ],
+  "en": [
+   "Explore Cádiz old town on foot; its narrow lanes are not made for driving.",
+   "Book the 'How the Andalusian Horses Dance' show at Jerez's Royal Equestrian School in advance.",
+   "In summer arrive early at Bolonia, Zahara and Conil beaches to find parking.",
+   "Try fried fish and shrimp fritters with a well-chilled fino or manzanilla sherry.",
+   "Combine sherry and flamenco at Jerez's tabancos for the most authentic south."
+  ]
+ },
+ "climate": {
+  "hi": [
+   16,
+   17,
+   19,
+   21,
+   23,
+   26,
+   29,
+   29,
+   27,
+   24,
+   20,
+   17
+  ],
+  "lo": [
+   9,
+   10,
+   11,
+   13,
+   15,
+   18,
+   20,
+   21,
+   20,
+   16,
+   13,
+   10
+  ]
+ },
+ "tr": {
+  "Catedral barroca y neoclásica frente al mar.": "Baroque and neoclassical seafront cathedral.",
+  "Ciudad romana junto a la playa de Bolonia.": "Roman town beside Bolonia beach.",
+  "Espectáculo del caballo andaluz en Jerez.": "Andalusian horse show in Jerez.",
+  "Playa virgen con gran duna móvil.": "Unspoilt beach with a huge shifting dune.",
+  "Fortaleza almohade del siglo XII.": "12th-century Almohad fortress.",
+  "Torre vigía con cámara oscura.": "Watchtower with a camera obscura.",
+  "Playa histórica entre dos castillos.": "Historic beach between two castles.",
+  "Bodega histórica de vino de Jerez.": "Historic Jerez sherry winery.",
+  "Pueblo blanco sobre un peñón.": "White village on a clifftop.",
+  "Faro y tómbolo frente al Atlántico.": "Lighthouse and tombolo facing the Atlantic.",
+  "Capital europea del viento y el kitesurf.": "Europe's wind and kitesurf capital.",
+  "Pueblo blanco de origen andalusí.": "White village of Andalusi origin.",
+  "Playa amplia de arena dorada.": "Broad golden-sand beach.",
+  "Castillo-iglesia medieval junto al Guadalete.": "Medieval castle-church by the Guadalete.",
+  "Núcleo medieval de Cádiz.": "Medieval core of Cádiz.",
+  "Casas bajo la roca del cañón.": "Houses tucked under the canyon rock.",
+  "Parque natural de sierras y bosques.": "Nature park of mountains and forests.",
+  "Barco por la desembocadura del Guadalquivir.": "Boat trip on the Guadalquivir mouth.",
+  "Pueblo pesquero con calas y playas.": "Fishing town with coves and beaches.",
+  "Teatro neomudéjar del Carnaval.": "Neo-Mudéjar theatre of Carnival.",
+  "Fortaleza sobre un islote en el mar.": "Fortress on a sea islet.",
+  "Jardín botánico frente al Atlántico.": "Botanical garden facing the Atlantic.",
+  "Templo del atún rojo de almadraba.": "Temple of almadraba bluefin tuna.",
+  "Marisco cocido y pescaíto para llevar.": "Boiled shellfish and fried fish to go.",
+  "Taberna de fino con flamenco en vivo.": "Sherry tavern with live flamenco.",
+  "Mercado con rincón gastronómico.": "Market with a gastro corner.",
+  "Vino de albariza y marisco de la bahía.": "Albariza wine and bay shellfish.",
+  "Alfajores y repostería tradicional.": "Alfajores and traditional pastries.",
+  "Cádiz": "Cádiz"
+ }
+}

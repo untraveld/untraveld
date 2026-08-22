@@ -1,0 +1,621 @@
+{
+ "id": "cordoba",
+ "name": "Córdoba",
+ "country": "ES",
+ "center": [
+  37.8882,
+  -4.77938
+ ],
+ "pois": [
+  {
+   "id": "cba_mezquita_catedral",
+   "cat": "monuments",
+   "name": "Mezquita-Catedral de Córdoba",
+   "icon": "🕌",
+   "lat": 37.87896,
+   "lng": -4.77938,
+   "desc": "El gran monumento de Córdoba: bosque de arcos y catedral dentro."
+  },
+  {
+   "id": "cba_juderia",
+   "cat": "monuments",
+   "name": "Judería de Córdoba",
+   "icon": "🏘️",
+   "lat": 37.8786,
+   "lng": -4.7809,
+   "desc": "Laberinto de callejuelas blancas junto a la Mezquita."
+  },
+  {
+   "id": "cba_alcazar_reyes_cristianos",
+   "cat": "monuments",
+   "name": "Alcázar de los Reyes Cristianos",
+   "icon": "🏰",
+   "lat": 37.87626,
+   "lng": -4.78156,
+   "desc": "Fortaleza medieval con espectaculares jardines y estanques."
+  },
+  {
+   "id": "cba_puente_romano",
+   "cat": "monuments",
+   "name": "Puente Romano",
+   "icon": "🌉",
+   "lat": 37.87556,
+   "lng": -4.77861,
+   "desc": "Puente milenario sobre el Guadalquivir con vistas a la Mezquita."
+  },
+  {
+   "id": "cba_medina_azahara",
+   "cat": "monuments",
+   "name": "Medina Azahara (Madinat al-Zahra)",
+   "icon": "🏛️",
+   "lat": 37.888,
+   "lng": -4.867,
+   "desc": "Ciudad palatina califal en ruinas, Patrimonio de la Humanidad."
+  },
+  {
+   "id": "cba_palacio_viana",
+   "cat": "monuments",
+   "name": "Palacio de Viana",
+   "icon": "🌿",
+   "lat": 37.89083,
+   "lng": -4.77417,
+   "desc": "Palacio renacentista con doce patios ajardinados."
+  },
+  {
+   "id": "cba_torre_calahorra",
+   "cat": "monuments",
+   "name": "Torre de la Calahorra",
+   "icon": "🗼",
+   "lat": 37.87472,
+   "lng": -4.77639,
+   "desc": "Torre defensiva al pie del Puente Romano con museo."
+  },
+  {
+   "id": "cba_sinagoga",
+   "cat": "monuments",
+   "name": "Sinagoga de Córdoba",
+   "icon": "🕎",
+   "lat": 37.87944,
+   "lng": -4.78389,
+   "desc": "Una de las pocas sinagogas medievales conservadas en España."
+  },
+  {
+   "id": "cba_templo_romano",
+   "cat": "monuments",
+   "name": "Templo Romano",
+   "icon": "🏛️",
+   "lat": 37.88472,
+   "lng": -4.77667,
+   "desc": "Columnas de un templo romano del siglo I junto al Ayuntamiento."
+  },
+  {
+   "id": "cba_castillo_almodovar",
+   "cat": "monuments",
+   "name": "Castillo de Almodóvar del Río",
+   "icon": "🏯",
+   "lat": 37.80917,
+   "lng": -5.02028,
+   "desc": "Imponente castillo medieval sobre una colina, escenario de rodajes."
+  },
+  {
+   "id": "cba_castillo_moral_lucena",
+   "cat": "monuments",
+   "name": "Castillo del Moral (Lucena)",
+   "icon": "🏰",
+   "lat": 37.40861,
+   "lng": -4.48611,
+   "desc": "Castillo histórico en Lucena, hoy museo arqueológico."
+  },
+  {
+   "id": "cba_sierras_subbeticas",
+   "cat": "nature",
+   "name": "Parque Natural Sierras Subbéticas",
+   "icon": "⛰️",
+   "lat": 37.48333,
+   "lng": -4.38333,
+   "desc": "Geoparque de montañas calizas, olivares y pueblos blancos."
+  },
+  {
+   "id": "cba_zuheros",
+   "cat": "nature",
+   "name": "Zuheros",
+   "icon": "🏔️",
+   "lat": 37.55444,
+   "lng": -4.31861,
+   "desc": "Pueblo blanco colgado de un risco con castillo árabe."
+  },
+  {
+   "id": "cba_cueva_murcielagos",
+   "cat": "nature",
+   "name": "Cueva de los Murciélagos (Zuheros)",
+   "icon": "🦇",
+   "lat": 37.56167,
+   "lng": -4.30083,
+   "desc": "Cueva con formaciones kársticas y arte rupestre neolítico."
+  },
+  {
+   "id": "cba_embalse_iznajar",
+   "cat": "nature",
+   "name": "Embalse de Iznájar",
+   "icon": "🏞️",
+   "lat": 37.25583,
+   "lng": -4.31,
+   "desc": "El mayor embalse de Andalucía, con un pueblo sobre un risco."
+  },
+  {
+   "id": "cba_fuente_del_rey",
+   "cat": "nature",
+   "name": "Fuente del Rey (Priego de Córdoba)",
+   "icon": "⛲",
+   "lat": 37.43861,
+   "lng": -4.19583,
+   "desc": "Monumental fuente barroca con 139 caños y esculturas."
+  },
+  {
+   "id": "cba_patios_san_basilio",
+   "cat": "ocio",
+   "name": "Patios de San Basilio",
+   "icon": "🌺",
+   "lat": 37.87528,
+   "lng": -4.78694,
+   "desc": "Barrio de los famosos patios floridos, Patrimonio Inmaterial."
+  },
+  {
+   "id": "cba_plaza_corredera",
+   "cat": "ocio",
+   "name": "Plaza de la Corredera",
+   "icon": "🏟️",
+   "lat": 37.88389,
+   "lng": -4.775,
+   "desc": "Gran plaza mayor porticada, única en Andalucía."
+  },
+  {
+   "id": "cba_calleja_flores",
+   "cat": "ocio",
+   "name": "Calleja de las Flores",
+   "icon": "💐",
+   "lat": 37.87972,
+   "lng": -4.77889,
+   "desc": "Estrecho callejón con macetas y vistas a la torre de la Mezquita."
+  },
+  {
+   "id": "cba_priego_barrio_villa",
+   "cat": "ocio",
+   "name": "Barrio de la Villa (Priego de Córdoba)",
+   "icon": "🏘️",
+   "lat": 37.44083,
+   "lng": -4.19472,
+   "desc": "Casco antiguo medieval de calles blancas y flores."
+  },
+  {
+   "id": "cba_bodegas_alvear_montilla",
+   "cat": "ocio",
+   "name": "Bodegas Alvear (Montilla)",
+   "icon": "🍷",
+   "lat": 37.58583,
+   "lng": -4.63472,
+   "desc": "Bodega histórica de vinos Montilla-Moriles con visitas y catas."
+  },
+  {
+   "id": "cba_bodegas_campos",
+   "cat": "food",
+   "name": "Bodegas Campos",
+   "icon": "🍽️",
+   "lat": 37.88222,
+   "lng": -4.77361,
+   "desc": "Emblemática casa-bodega de cocina cordobesa tradicional."
+  },
+  {
+   "id": "cba_casa_pepe_juderia",
+   "cat": "food",
+   "name": "Casa Pepe de la Judería",
+   "icon": "🍢",
+   "lat": 37.87861,
+   "lng": -4.77944,
+   "desc": "Taberna con azotea y vistas, referente de tapas cordobesas."
+  },
+  {
+   "id": "cba_el_caballo_rojo",
+   "cat": "food",
+   "name": "El Caballo Rojo",
+   "icon": "🐎",
+   "lat": 37.87972,
+   "lng": -4.77833,
+   "desc": "Restaurante clásico junto a la Mezquita, cocina mozárabe."
+  },
+  {
+   "id": "cba_taberna_salinas",
+   "cat": "food",
+   "name": "Taberna Salinas",
+   "icon": "🍷",
+   "lat": 37.88528,
+   "lng": -4.77639,
+   "desc": "Taberna tradicional de 1879 con patio y vino de Montilla."
+  },
+  {
+   "id": "cba_mercado_victoria",
+   "cat": "food",
+   "name": "Mercado Victoria",
+   "icon": "🍤",
+   "lat": 37.8825,
+   "lng": -4.78722,
+   "desc": "Mercado gastronómico gourmet en los Jardines de la Victoria."
+  }
+ ],
+ "extra": {
+  "cba_mezquita_catedral": {
+   "id": "cba_mezquita_catedral",
+   "d": "Patrimonio de la Humanidad y símbolo de la ciudad. Su bosque de más de 850 columnas y arcos bicolores rojiblancos, el mihrab dorado y la catedral renacentista insertada en el centro la convierten en una de las obras cumbre del arte andalusí.",
+   "d_en": "A UNESCO World Heritage Site and the city's emblem. Its forest of over 850 columns, red-and-white double arches, the golden mihrab and the Renaissance cathedral inserted at its heart make it a masterpiece of Al-Andalus art.",
+   "h": "Primera hora de la mañana (9:00–10:00), 1,5–2 h",
+   "h_en": "Early morning (9:00–10:00), 1.5–2 h",
+   "i": "Ideal si te gusta la historia, la arquitectura y el arte islámico.",
+   "i_en": "Ideal if you like history, architecture and Islamic art."
+  },
+  "cba_juderia": {
+   "id": "cba_juderia",
+   "d": "Antiguo barrio judío medieval, con calles estrechas y encaladas, patios floridos, talleres de artesanía y la Sinagoga. Perderse por sus rincones, como la Calleja de las Flores, es una de las experiencias más bonitas de la ciudad.",
+   "d_en": "The old medieval Jewish quarter, with narrow whitewashed streets, flower-filled patios, craft workshops and the synagogue. Getting lost in its corners, like the Calleja de las Flores, is one of the city's loveliest experiences.",
+   "h": "Media mañana o atardecer, 1–2 h",
+   "h_en": "Mid-morning or sunset, 1–2 h",
+   "i": "Ideal si te gusta pasear, la fotografía y el ambiente histórico.",
+   "i_en": "Ideal if you like strolling, photography and a historic atmosphere."
+  },
+  "cba_alcazar_reyes_cristianos": {
+   "id": "cba_alcazar_reyes_cristianos",
+   "d": "Residencia de los Reyes Católicos, quienes recibieron aquí a Colón. Combina torres almenadas, baños árabes, mosaicos romanos y unos jardines escalonados con fuentes, setos y cipreses que están entre los más fotografiados de Andalucía.",
+   "d_en": "Residence of the Catholic Monarchs, who received Columbus here. It combines battlemented towers, Arab baths, Roman mosaics and terraced gardens with fountains, hedges and cypresses among the most photographed in Andalusia.",
+   "h": "Mañana, 1–1,5 h",
+   "h_en": "Morning, 1–1.5 h",
+   "i": "Ideal si te gusta la historia y los jardines.",
+   "i_en": "Ideal if you like history and gardens."
+  },
+  "cba_puente_romano": {
+   "id": "cba_puente_romano",
+   "d": "Construido en época romana y reformado por los árabes, cruza el Guadalquivir con 16 arcos. Al atardecer ofrece la mejor estampa de la Mezquita y la Torre de la Calahorra reflejadas en el río.",
+   "d_en": "Built in Roman times and rebuilt by the Arabs, it crosses the Guadalquivir with 16 arches. At sunset it offers the finest view of the Mosque and the Calahorra Tower mirrored in the river.",
+   "h": "Atardecer, 30–45 min",
+   "h_en": "Sunset, 30–45 min",
+   "i": "Ideal si te gusta la fotografía y los paseos al atardecer.",
+   "i_en": "Ideal if you like photography and sunset walks."
+  },
+  "cba_medina_azahara": {
+   "id": "cba_medina_azahara",
+   "d": "Ciudad palatina mandada construir en el siglo X por Abderramán III a las afueras de Córdoba. Excavada en la ladera de Sierra Morena, conserva salones, arcos y jardines que evocan el esplendor del califato. Cuenta con museo y bus lanzadera.",
+   "d_en": "A palace-city built in the 10th century by Abd al-Rahman III on the outskirts of Córdoba. Set on the slopes of Sierra Morena, it preserves halls, arches and gardens evoking the splendour of the caliphate. It has a museum and a shuttle bus.",
+   "h": "Mañana, 2–3 h (con museo y traslado)",
+   "h_en": "Morning, 2–3 h (with museum and transfer)",
+   "i": "Ideal si te gusta la arqueología y la historia andalusí.",
+   "i_en": "Ideal if you like archaeology and Al-Andalus history."
+  },
+  "cba_palacio_viana": {
+   "id": "cba_palacio_viana",
+   "d": "Conocido como el 'Museo de los Patios', este palacio nobiliario alberga doce patios y un jardín, cada uno con su propio estilo y vegetación. Un oasis de flores, fuentes y aromas en pleno casco histórico.",
+   "d_en": "Known as the 'Museum of Patios', this noble palace holds twelve courtyards and a garden, each with its own style and planting. An oasis of flowers, fountains and scents in the heart of the old town.",
+   "h": "Mañana, 1–1,5 h",
+   "h_en": "Morning, 1–1.5 h",
+   "i": "Ideal si te gusta la botánica, los patios y la fotografía.",
+   "i_en": "Ideal if you like botany, patios and photography."
+  },
+  "cba_torre_calahorra": {
+   "id": "cba_torre_calahorra",
+   "d": "Fortaleza de origen islámico que guardaba el acceso al Puente Romano. Alberga el Museo Vivo de al-Ándalus y, desde su terraza, ofrece una de las mejores panorámicas de la Mezquita y el río.",
+   "d_en": "An Islamic-origin fortress that guarded the entrance to the Roman Bridge. It houses the Living Museum of Al-Andalus and, from its terrace, offers one of the best panoramas of the Mosque and the river.",
+   "h": "Mañana o tarde, 45 min–1 h",
+   "h_en": "Morning or afternoon, 45 min–1 h",
+   "i": "Ideal si te gusta la historia y las vistas panorámicas.",
+   "i_en": "Ideal if you like history and panoramic views."
+  },
+  "cba_sinagoga": {
+   "id": "cba_sinagoga",
+   "d": "Construida en el siglo XIV, es la única sinagoga medieval conservada en Andalucía y una de las tres que quedan en España. Destacan sus delicadas yeserías mudéjares con inscripciones hebreas en el corazón de la Judería.",
+   "d_en": "Built in the 14th century, it is the only surviving medieval synagogue in Andalusia and one of just three left in Spain. Its delicate Mudéjar plasterwork with Hebrew inscriptions stands out, in the heart of the Jewish quarter.",
+   "h": "Mañana, 20–30 min",
+   "h_en": "Morning, 20–30 min",
+   "i": "Ideal si te gusta la historia y el patrimonio sefardí.",
+   "i_en": "Ideal if you like history and Sephardic heritage."
+  },
+  "cba_templo_romano": {
+   "id": "cba_templo_romano",
+   "d": "Restos del principal templo romano de la Córdoba imperial, con altas columnas corintias reconstruidas. Situado junto al Ayuntamiento, recuerda el pasado de la ciudad como capital de la Bética.",
+   "d_en": "Remains of the main Roman temple of imperial Córdoba, with tall reconstructed Corinthian columns. Set beside the Town Hall, it recalls the city's past as capital of Baetica.",
+   "h": "Cualquier momento (exterior), 15–20 min",
+   "h_en": "Any time (exterior), 15–20 min",
+   "i": "Ideal si te gusta la arqueología y la historia romana.",
+   "i_en": "Ideal if you like archaeology and Roman history."
+  },
+  "cba_castillo_almodovar": {
+   "id": "cba_castillo_almodovar",
+   "d": "Fortaleza de origen árabe magníficamente conservada, encaramada en un cerro sobre el Guadalquivir. Sus torres, murallas y patios sirvieron de escenario a 'Juego de Tronos'. A 25 km de la capital.",
+   "d_en": "A superbly preserved Arab-origin fortress perched on a hill above the Guadalquivir. Its towers, walls and courtyards featured in 'Game of Thrones'. 25 km from the capital.",
+   "h": "Mañana, 1,5–2 h (con desplazamiento)",
+   "h_en": "Morning, 1.5–2 h (with travel)",
+   "i": "Ideal si te gustan los castillos y las vistas.",
+   "i_en": "Ideal if you like castles and views."
+  },
+  "cba_castillo_moral_lucena": {
+   "id": "cba_castillo_moral_lucena",
+   "d": "Fortaleza medieval en el corazón de Lucena, célebre porque en su Torre del Moral estuvo preso Boabdil, último rey nazarí. Alberga el Museo Arqueológico y Etnológico de la ciudad.",
+   "d_en": "A medieval fortress in the heart of Lucena, famous because Boabdil, the last Nasrid king, was held captive in its Torre del Moral. It houses the city's Archaeological and Ethnological Museum.",
+   "h": "Mañana, 1 h",
+   "h_en": "Morning, 1 h",
+   "i": "Ideal si te gusta la historia y visitar pueblos con encanto.",
+   "i_en": "Ideal if you like history and charming towns."
+  },
+  "cba_sierras_subbeticas": {
+   "id": "cba_sierras_subbeticas",
+   "d": "Espacio protegido y Geoparque Mundial de la Unesco en el centro-sur de la provincia. Ofrece paisajes cársticos, la Vía Verde del Aceite para senderismo y cicloturismo, buitreras y algunos de los pueblos más bonitos de Córdoba.",
+   "d_en": "A protected area and UNESCO Global Geopark in the south-centre of the province. It offers karst landscapes, the Vía Verde del Aceite greenway for hiking and cycling, vulture colonies and some of Córdoba's prettiest villages.",
+   "h": "Todo el día, 3–6 h",
+   "h_en": "Full day, 3–6 h",
+   "i": "Ideal si te gusta el senderismo, la naturaleza y el cicloturismo.",
+   "i_en": "Ideal if you like hiking, nature and cycling."
+  },
+  "cba_zuheros": {
+   "id": "cba_zuheros",
+   "d": "Uno de los pueblos más bonitos de España, encaramado en un peñón de la Subbética. Sus casas blancas, el castillo roquero y los miradores sobre el mar de olivos crean una estampa inolvidable.",
+   "d_en": "One of Spain's prettiest villages, perched on a crag in the Subbética. Its white houses, rocky castle and viewpoints over the sea of olive trees create an unforgettable scene.",
+   "h": "Media jornada, 2–3 h",
+   "h_en": "Half day, 2–3 h",
+   "i": "Ideal si te gustan los pueblos con encanto y la fotografía.",
+   "i_en": "Ideal if you like charming villages and photography."
+  },
+  "cba_cueva_murcielagos": {
+   "id": "cba_cueva_murcielagos",
+   "d": "Espectacular cavidad en la sierra sobre Zuheros, con estalactitas, estalagmitas y pinturas rupestres neolíticas. La visita guiada recorre grandes galerías; conviene reservar y llevar calzado cómodo.",
+   "d_en": "A spectacular cavity in the range above Zuheros, with stalactites, stalagmites and Neolithic paintings. The guided tour runs through large galleries; booking ahead and comfortable footwear are advisable.",
+   "h": "Mañana, 1,5 h (visita guiada)",
+   "h_en": "Morning, 1.5 h (guided tour)",
+   "i": "Ideal si te gustan las cuevas, la geología y la prehistoria.",
+   "i_en": "Ideal if you like caves, geology and prehistory."
+  },
+  "cba_embalse_iznajar": {
+   "id": "cba_embalse_iznajar",
+   "d": "Enorme lámina de agua rodeada de olivares, apodada el 'lago de Andalucía'. El pueblo de Iznájar corona un peñón con castillo y miradores, y en la orilla hay una playa de agua dulce para bañarse y practicar deportes acuáticos.",
+   "d_en": "A vast expanse of water surrounded by olive groves, nicknamed the 'lake of Andalusia'. The village of Iznájar crowns a crag with a castle and viewpoints, and on the shore there is a freshwater beach for swimming and water sports.",
+   "h": "Media jornada, 2–4 h",
+   "h_en": "Half day, 2–4 h",
+   "i": "Ideal si te gustan los paisajes, el agua y los deportes al aire libre.",
+   "i_en": "Ideal if you like landscapes, water and outdoor sports."
+  },
+  "cba_fuente_del_rey": {
+   "id": "cba_fuente_del_rey",
+   "d": "Espectacular conjunto barroco de tres estanques escalonados con 139 caños, esculturas de Neptuno y un tritón. Es el emblema de Priego de Córdoba, capital del barroco cordobés.",
+   "d_en": "A spectacular Baroque ensemble of three tiered pools with 139 spouts, sculptures of Neptune and a triton. It is the emblem of Priego de Córdoba, capital of Cordoban Baroque.",
+   "h": "Tarde, 30–45 min",
+   "h_en": "Afternoon, 30–45 min",
+   "i": "Ideal si te gusta el arte barroco y los rincones fotogénicos.",
+   "i_en": "Ideal if you like Baroque art and photogenic spots."
+  },
+  "cba_patios_san_basilio": {
+   "id": "cba_patios_san_basilio",
+   "d": "En el barrio del Alcázar Viejo se concentran los patios cordobeses más célebres, casas de vecinos con paredes cubiertas de macetas. La Fiesta de los Patios (mayo) es Patrimonio Cultural Inmaterial de la Humanidad; algunos abren todo el año.",
+   "d_en": "The Alcázar Viejo district gathers Córdoba's most famous patios, communal houses with walls covered in flowerpots. The Patios Festival (May) is UNESCO Intangible Cultural Heritage; some open year-round.",
+   "h": "Mañana o tarde, 1–1,5 h",
+   "h_en": "Morning or afternoon, 1–1.5 h",
+   "i": "Ideal si te gustan las flores, la cultura popular y la fotografía.",
+   "i_en": "Ideal if you like flowers, folk culture and photography."
+  },
+  "cba_plaza_corredera": {
+   "id": "cba_plaza_corredera",
+   "d": "Única plaza mayor rectangular y porticada de Andalucía, del siglo XVII. Rodeada de casas de color rojizo con soportales, acoge mercado por las mañanas y numerosas terrazas donde tapear y tomar algo.",
+   "d_en": "The only rectangular arcaded main square in Andalusia, from the 17th century. Surrounded by reddish porticoed houses, it hosts a morning market and many terraces for tapas and drinks.",
+   "h": "Mediodía o noche, 1 h",
+   "h_en": "Midday or evening, 1 h",
+   "i": "Ideal si te gusta el ambiente, las terrazas y la vida local.",
+   "i_en": "Ideal if you like atmosphere, terraces and local life."
+  },
+  "cba_calleja_flores": {
+   "id": "cba_calleja_flores",
+   "d": "El callejón más fotografiado de Córdoba, en plena Judería. Sus balcones y paredes cubiertos de macetas enmarcan al fondo la torre-campanario de la Mezquita, creando una postal perfecta.",
+   "d_en": "Córdoba's most photographed alley, in the Jewish quarter. Its balconies and walls covered in flowerpots frame the Mosque's bell tower in the background, a perfect postcard.",
+   "h": "Primera hora o atardecer, 15–20 min",
+   "h_en": "Early morning or sunset, 15–20 min",
+   "i": "Ideal si te gusta la fotografía y los rincones con encanto.",
+   "i_en": "Ideal if you like photography and charming corners."
+  },
+  "cba_priego_barrio_villa": {
+   "id": "cba_priego_barrio_villa",
+   "d": "Antiguo barrio de origen medieval, un laberinto de callejuelas encaladas, rejas y macetas que desemboca en el mirador del Adarve, con vistas sobre la Subbética. Uno de los conjuntos más bellos del sur de Córdoba.",
+   "d_en": "An old medieval quarter, a maze of whitewashed lanes, iron grilles and flowerpots leading to the Adarve viewpoint overlooking the Subbética. One of the loveliest ensembles in southern Córdoba.",
+   "h": "Tarde, 1–1,5 h",
+   "h_en": "Afternoon, 1–1.5 h",
+   "i": "Ideal si te gusta pasear por pueblos con encanto y la fotografía.",
+   "i_en": "Ideal if you like strolling charming towns and photography."
+  },
+  "cba_bodegas_alvear_montilla": {
+   "id": "cba_bodegas_alvear_montilla",
+   "d": "Fundada en 1729, es la bodega más antigua de Andalucía y una de las más veteranas de España. Ofrece visitas guiadas por sus naves de crianza y catas de finos y del célebre Pedro Ximénez de la DO Montilla-Moriles.",
+   "d_en": "Founded in 1729, it is the oldest winery in Andalusia and one of the oldest in Spain. It offers guided tours of its ageing cellars and tastings of finos and the famous Pedro Ximénez of the Montilla-Moriles DO.",
+   "h": "Mañana, 1,5 h (con reserva)",
+   "h_en": "Morning, 1.5 h (booking required)",
+   "i": "Ideal si te gusta el enoturismo y la gastronomía.",
+   "i_en": "Ideal if you like wine tourism and gastronomy."
+  },
+  "cba_bodegas_campos": {
+   "id": "cba_bodegas_campos",
+   "d": "Una institución de la ciudad desde 1908, con patios, barricas firmadas por personajes ilustres y una carta que reivindica el recetario cordobés: salmorejo, rabo de toro, flamenquín y postres con Pedro Ximénez.",
+   "d_en": "A city institution since 1908, with patios, barrels signed by illustrious figures and a menu championing Cordoban recipes: salmorejo, oxtail, flamenquín and desserts with Pedro Ximénez.",
+   "h": "Almuerzo o cena, 1,5–2 h",
+   "h_en": "Lunch or dinner, 1.5–2 h",
+   "i": "Ideal si te gusta la gastronomía tradicional y los ambientes con historia.",
+   "i_en": "Ideal if you like traditional cuisine and historic settings."
+  },
+  "cba_casa_pepe_juderia": {
+   "id": "cba_casa_pepe_juderia",
+   "d": "Taberna clásica en plena Judería, decorada con azulejos y patios andaluces. Su terraza en la azotea, junto a la Mezquita, es perfecta para probar salmorejo, berenjenas con miel de caña y rabo de toro.",
+   "d_en": "A classic tavern in the Jewish quarter, decorated with tiles and Andalusian patios. Its rooftop terrace beside the Mosque is perfect for salmorejo, aubergines with cane honey and oxtail.",
+   "h": "Almuerzo o cena, 1–1,5 h",
+   "h_en": "Lunch or dinner, 1–1.5 h",
+   "i": "Ideal si te gusta tapear con buenas vistas.",
+   "i_en": "Ideal if you like tapas with a great view."
+  },
+  "cba_el_caballo_rojo": {
+   "id": "cba_el_caballo_rojo",
+   "d": "Uno de los restaurantes más veteranos de Córdoba, famoso por recuperar recetas de raíz andalusí y mozárabe como el cordero a la miel. Ubicado a pocos metros de la Mezquita, es todo un clásico gastronómico.",
+   "d_en": "One of Córdoba's most veteran restaurants, famous for reviving Al-Andalus and Mozarabic recipes such as lamb with honey. Just steps from the Mosque, it is a gastronomic classic.",
+   "h": "Almuerzo o cena, 1,5 h",
+   "h_en": "Lunch or dinner, 1.5 h",
+   "i": "Ideal si te gusta la cocina histórica y de autor.",
+   "i_en": "Ideal if you like historic and signature cuisine."
+  },
+  "cba_taberna_salinas": {
+   "id": "cba_taberna_salinas",
+   "d": "Taberna centenaria con un precioso patio cordobés, donde el vino de Montilla-Moriles se sirve directamente de las botas. Platos caseros como boquerones en vinagre, bacalao con naranja y flamenquín a precios muy razonables.",
+   "d_en": "A century-old tavern with a beautiful Cordoban patio, where Montilla-Moriles wine is poured straight from the casks. Homemade dishes such as marinated anchovies, cod with orange and flamenquín at very reasonable prices.",
+   "h": "Almuerzo o cena, 1–1,5 h",
+   "h_en": "Lunch or dinner, 1–1.5 h",
+   "i": "Ideal si te gusta el ambiente de taberna y el vino local.",
+   "i_en": "Ideal if you like a tavern atmosphere and local wine."
+  },
+  "cba_mercado_victoria": {
+   "id": "cba_mercado_victoria",
+   "d": "El primer mercado gastronómico de Andalucía, ubicado en una elegante caseta de hierro y cristal del siglo XIX. Reúne decenas de puestos con tapas, mariscos, dulces, vinos y cocina internacional en un ambiente animado.",
+   "d_en": "Andalusia's first gourmet food market, housed in an elegant 19th-century iron-and-glass pavilion. It gathers dozens of stalls with tapas, seafood, sweets, wines and international food in a lively setting.",
+   "h": "Mediodía o noche, 1–1,5 h",
+   "h_en": "Midday or evening, 1–1.5 h",
+   "i": "Ideal si te gusta picar de todo y el ambiente informal.",
+   "i_en": "Ideal if you like grazing on variety and a casual vibe."
+  }
+ },
+ "food": {
+  "cba_bodegas_campos": {
+   "cuisine": "Cordobesa tradicional / andaluza",
+   "price": "30–55 €",
+   "hours": "13:00–16:00 y 20:00–23:30 (cerrado dom noche)"
+  },
+  "cba_casa_pepe_juderia": {
+   "cuisine": "Tapas y cocina andaluza",
+   "price": "25–45 €",
+   "hours": "13:00–16:30 y 20:00–23:30"
+  },
+  "cba_el_caballo_rojo": {
+   "cuisine": "Andalusí / mozárabe",
+   "price": "30–50 €",
+   "hours": "13:00–16:00 y 20:00–23:00"
+  },
+  "cba_taberna_salinas": {
+   "cuisine": "Taberna tradicional cordobesa",
+   "price": "15–30 €",
+   "hours": "12:00–16:00 y 20:00–23:30 (cerrado dom)"
+  },
+  "cba_mercado_victoria": {
+   "cuisine": "Mercado gastronómico / variada",
+   "price": "10–25 €",
+   "hours": "12:00–24:00 (fines de semana hasta 02:00)"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Córdoba",
+   "items": [
+    {
+     "name": "Cuero cordobés (guadamecí)",
+     "price": "20–200 €",
+     "desc": "Piel repujada y policromada, artesanía de origen califal única de Córdoba."
+    },
+    {
+     "name": "Filigrana cordobesa de plata",
+     "price": "15–120 €",
+     "desc": "Joyería fina de hilo de plata trabajada a mano, herencia de la orfebrería andalusí."
+    },
+    {
+     "name": "Vino Montilla-Moriles (fino y PX)",
+     "price": "6–25 €",
+     "desc": "Vinos de la DO local, desde finos secos hasta el dulce Pedro Ximénez."
+    },
+    {
+     "name": "Aceite de oliva virgen extra DOP Baena/Priego",
+     "price": "8–20 €",
+     "desc": "Aceites premiados de la campiña y la Subbética cordobesa."
+    },
+    {
+     "name": "Cerámica y azulejería cordobesa",
+     "price": "5–60 €",
+     "desc": "Piezas decorativas inspiradas en los motivos geométricos de la Mezquita."
+    }
+   ],
+   "shops": [
+    "Meryan (cuero, Calleja de las Flores)",
+    "Mercado Victoria",
+    "Zoco Municipal de Artesanía",
+    "Bodegas y tiendas de la Judería"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Reserva online la entrada a la Mezquita-Catedral y ve a primera hora para evitar colas y calor.",
+   "En verano las temperaturas superan los 40 °C: visita monumentos por la mañana y descansa a mediodía.",
+   "El Festival de los Patios se celebra en mayo; si viajas entonces, reserva alojamiento con mucha antelación.",
+   "Combina la capital con una excursión a Medina Azahara (hay bus lanzadera desde el centro de recepción).",
+   "Prueba el salmorejo, el flamenquín y el rabo de toro acompañados de un fino de Montilla-Moriles."
+  ],
+  "en": [
+   "Book the Mosque-Cathedral ticket online and arrive early to avoid queues and the heat.",
+   "Summers top 40 °C: visit monuments in the morning and rest at midday.",
+   "The Patios Festival is held in May; if you travel then, book accommodation far in advance.",
+   "Pair the city with a trip to Medina Azahara (a shuttle bus runs from the reception centre).",
+   "Try salmorejo, flamenquín and oxtail stew paired with a fino from Montilla-Moriles."
+  ]
+ },
+ "climate": {
+  "hi": [
+   14.9,
+   17.0,
+   20.6,
+   22.6,
+   27.2,
+   32.8,
+   36.9,
+   36.2,
+   31.3,
+   25.0,
+   18.9,
+   15.0
+  ],
+  "lo": [
+   4.4,
+   5.7,
+   7.8,
+   9.9,
+   13.2,
+   17.4,
+   20.0,
+   20.1,
+   17.2,
+   13.1,
+   8.2,
+   5.6
+  ]
+ },
+ "tr": {
+  "El gran monumento de Córdoba: bosque de arcos y catedral dentro.": "Córdoba's great monument: a forest of arches with a cathedral inside.",
+  "Laberinto de callejuelas blancas junto a la Mezquita.": "A maze of whitewashed lanes beside the Mosque.",
+  "Fortaleza medieval con espectaculares jardines y estanques.": "A medieval fortress with spectacular gardens and pools.",
+  "Puente milenario sobre el Guadalquivir con vistas a la Mezquita.": "A millennia-old bridge over the Guadalquivir facing the Mosque.",
+  "Ciudad palatina califal en ruinas, Patrimonio de la Humanidad.": "The ruined caliphal palace-city, a UNESCO World Heritage Site.",
+  "Palacio renacentista con doce patios ajardinados.": "A Renaissance palace with twelve garden courtyards.",
+  "Torre defensiva al pie del Puente Romano con museo.": "A defensive tower at the foot of the Roman Bridge with a museum.",
+  "Una de las pocas sinagogas medievales conservadas en España.": "One of the few surviving medieval synagogues in Spain.",
+  "Columnas de un templo romano del siglo I junto al Ayuntamiento.": "Columns of a 1st-century Roman temple beside the Town Hall.",
+  "Imponente castillo medieval sobre una colina, escenario de rodajes.": "An imposing hilltop medieval castle, a filming location.",
+  "Castillo histórico en Lucena, hoy museo arqueológico.": "A historic castle in Lucena, now an archaeological museum.",
+  "Geoparque de montañas calizas, olivares y pueblos blancos.": "A geopark of limestone mountains, olive groves and white villages.",
+  "Pueblo blanco colgado de un risco con castillo árabe.": "A white village clinging to a crag with an Arab castle.",
+  "Cueva con formaciones kársticas y arte rupestre neolítico.": "A cave with karst formations and Neolithic rock art.",
+  "El mayor embalse de Andalucía, con un pueblo sobre un risco.": "Andalusia's largest reservoir, with a village on a crag.",
+  "Monumental fuente barroca con 139 caños y esculturas.": "A monumental Baroque fountain with 139 spouts and sculptures.",
+  "Barrio de los famosos patios floridos, Patrimonio Inmaterial.": "The quarter of the famous flower patios, Intangible Heritage.",
+  "Gran plaza mayor porticada, única en Andalucía.": "A grand arcaded main square, unique in Andalusia.",
+  "Estrecho callejón con macetas y vistas a la torre de la Mezquita.": "A narrow alley of flowerpots framing the Mosque's tower.",
+  "Casco antiguo medieval de calles blancas y flores.": "A medieval old quarter of white streets and flowers.",
+  "Bodega histórica de vinos Montilla-Moriles con visitas y catas.": "A historic Montilla-Moriles winery with tours and tastings.",
+  "Emblemática casa-bodega de cocina cordobesa tradicional.": "An iconic cellar-restaurant of traditional Cordoban cuisine.",
+  "Taberna con azotea y vistas, referente de tapas cordobesas.": "A tavern with a rooftop terrace, a benchmark for Cordoban tapas.",
+  "Restaurante clásico junto a la Mezquita, cocina mozárabe.": "A classic restaurant next to the Mosque, Mozarabic cuisine.",
+  "Taberna tradicional de 1879 con patio y vino de Montilla.": "A traditional 1879 tavern with a patio and Montilla wine.",
+  "Mercado gastronómico gourmet en los Jardines de la Victoria.": "A gourmet food market in the Victoria Gardens.",
+  "Córdoba": "Córdoba"
+ }
+}

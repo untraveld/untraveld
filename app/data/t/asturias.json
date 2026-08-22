@@ -1,0 +1,664 @@
+{
+ "id": "asturias",
+ "name": "Asturias",
+ "country": "ES",
+ "center": [
+  43.36148,
+  -5.84444
+ ],
+ "pois": [
+  {
+   "id": "ast_catedral_oviedo",
+   "cat": "monuments",
+   "name": "Catedral de San Salvador",
+   "icon": "⛪",
+   "lat": 43.36255,
+   "lng": -5.84306,
+   "desc": "Catedral gótica de Oviedo con la Cámara Santa prerrománica."
+  },
+  {
+   "id": "ast_santa_maria_naranco",
+   "cat": "monuments",
+   "name": "Santa María del Naranco",
+   "icon": "🏛️",
+   "lat": 43.38472,
+   "lng": -5.87361,
+   "desc": "Palacio prerrománico de Ramiro I, Patrimonio de la Humanidad."
+  },
+  {
+   "id": "ast_san_miguel_lillo",
+   "cat": "monuments",
+   "name": "San Miguel de Lillo",
+   "icon": "⛪",
+   "lat": 43.38583,
+   "lng": -5.87528,
+   "desc": "Iglesia prerrománica del siglo IX junto a Santa María."
+  },
+  {
+   "id": "ast_basilica_covadonga",
+   "cat": "monuments",
+   "name": "Basílica de Covadonga",
+   "icon": "⛪",
+   "lat": 43.30833,
+   "lng": -5.05639,
+   "desc": "Basílica neorrománica rosa en el corazón de los Picos de Europa."
+  },
+  {
+   "id": "ast_santa_cueva_covadonga",
+   "cat": "monuments",
+   "name": "Santa Cueva de Covadonga",
+   "icon": "🙏",
+   "lat": 43.30917,
+   "lng": -5.05528,
+   "desc": "Gruta con la imagen de 'La Santina' y una cascada."
+  },
+  {
+   "id": "ast_universidad_laboral",
+   "cat": "monuments",
+   "name": "Universidad Laboral de Gijón",
+   "icon": "🏛️",
+   "lat": 43.525,
+   "lng": -5.61944,
+   "desc": "El edificio más grande de España, hoy centro cultural."
+  },
+  {
+   "id": "ast_cimavilla",
+   "cat": "monuments",
+   "name": "Cimavilla (Gijón)",
+   "icon": "🏘️",
+   "lat": 43.54556,
+   "lng": -5.66056,
+   "desc": "Barrio marinero antiguo de Gijón sobre la península."
+  },
+  {
+   "id": "ast_puente_cangas",
+   "cat": "monuments",
+   "name": "Puente Romano de Cangas de Onís",
+   "icon": "🌉",
+   "lat": 43.35056,
+   "lng": -5.13361,
+   "desc": "Puente medieval con la Cruz de la Victoria colgante."
+  },
+  {
+   "id": "ast_cudillero",
+   "cat": "monuments",
+   "name": "Cudillero",
+   "icon": "🏘️",
+   "lat": 43.56222,
+   "lng": -6.14639,
+   "desc": "Pueblo pesquero de casas de colores en anfiteatro."
+  },
+  {
+   "id": "ast_taramundi",
+   "cat": "monuments",
+   "name": "Taramundi",
+   "icon": "🏘️",
+   "lat": 43.35917,
+   "lng": -7.11444,
+   "desc": "Aldea rural famosa por su cuchillería artesanal."
+  },
+  {
+   "id": "ast_aviles_niemeyer",
+   "cat": "monuments",
+   "name": "Centro Niemeyer (Avilés)",
+   "icon": "🎭",
+   "lat": 43.55611,
+   "lng": -5.92639,
+   "desc": "Complejo cultural de líneas blancas diseñado por Óscar Niemeyer."
+  },
+  {
+   "id": "ast_lago_enol",
+   "cat": "nature",
+   "name": "Lago Enol",
+   "icon": "🏞️",
+   "lat": 43.27389,
+   "lng": -4.99389,
+   "desc": "El mayor de los Lagos de Covadonga, a 1.070 m."
+  },
+  {
+   "id": "ast_lago_ercina",
+   "cat": "nature",
+   "name": "Lago Ercina",
+   "icon": "🏞️",
+   "lat": 43.27528,
+   "lng": -4.98056,
+   "desc": "Lago somero rodeado de pastos, a 1.108 m de altitud."
+  },
+  {
+   "id": "ast_ruta_cares",
+   "cat": "nature",
+   "name": "Ruta del Cares",
+   "icon": "🥾",
+   "lat": 43.25639,
+   "lng": -4.83528,
+   "desc": "Senda espectacular tallada en la 'Garganta Divina'."
+  },
+  {
+   "id": "ast_somiedo",
+   "cat": "nature",
+   "name": "Parque Natural de Somiedo",
+   "icon": "🏔️",
+   "lat": 43.09167,
+   "lng": -6.25556,
+   "desc": "Reserva de la biosfera con brañas y osos pardos."
+  },
+  {
+   "id": "ast_playa_silencio",
+   "cat": "nature",
+   "name": "Playa del Silencio",
+   "icon": "🏖️",
+   "lat": 43.57611,
+   "lng": -6.25472,
+   "desc": "Cala salvaje de cantos rodados bajo acantilados."
+  },
+  {
+   "id": "ast_gulpiyuri",
+   "cat": "nature",
+   "name": "Playa de Gulpiyuri",
+   "icon": "🏖️",
+   "lat": 43.4525,
+   "lng": -4.8875,
+   "desc": "Playa interior sin mar visible, monumento natural."
+  },
+  {
+   "id": "ast_playa_san_lorenzo",
+   "cat": "ocio",
+   "name": "Playa de San Lorenzo",
+   "icon": "🏖️",
+   "lat": 43.54444,
+   "lng": -5.65,
+   "desc": "Gran playa urbana en pleno centro de Gijón."
+  },
+  {
+   "id": "ast_mercado_fontan",
+   "cat": "ocio",
+   "name": "Plaza y Mercado del Fontán",
+   "icon": "🛍️",
+   "lat": 43.36083,
+   "lng": -5.8425,
+   "desc": "Plaza porticada y mercado histórico de Oviedo."
+  },
+  {
+   "id": "ast_senda_oso",
+   "cat": "ocio",
+   "name": "Senda del Oso",
+   "icon": "🚴",
+   "lat": 43.24833,
+   "lng": -6.00722,
+   "desc": "Vía verde ciclable con osas en semilibertad."
+  },
+  {
+   "id": "ast_descenso_sella",
+   "cat": "ocio",
+   "name": "Ribadesella y Descenso del Sella",
+   "icon": "🛶",
+   "lat": 43.46389,
+   "lng": -5.06222,
+   "desc": "Villa marinera y famoso descenso en piragua del Sella."
+  },
+  {
+   "id": "ast_elogio_horizonte",
+   "cat": "ocio",
+   "name": "Elogio del Horizonte",
+   "icon": "🗿",
+   "lat": 43.54806,
+   "lng": -5.66306,
+   "desc": "Escultura de Chillida sobre el Cerro de Santa Catalina."
+  },
+  {
+   "id": "ast_cubos_memoria",
+   "cat": "ocio",
+   "name": "Cubos de la Memoria (Llanes)",
+   "icon": "🎨",
+   "lat": 43.4225,
+   "lng": -4.75778,
+   "desc": "Bloques del puerto de Llanes pintados por Ibarrola."
+  },
+  {
+   "id": "ast_gascona",
+   "cat": "food",
+   "name": "Calle Gascona (Oviedo)",
+   "icon": "🍏",
+   "lat": 43.36444,
+   "lng": -5.84028,
+   "desc": "El 'Bulevar de la Sidra', epicentro sidrero de Oviedo."
+  },
+  {
+   "id": "ast_cabrales",
+   "cat": "food",
+   "name": "Queso Cabrales (Arenas de Cabrales)",
+   "icon": "🧀",
+   "lat": 43.30139,
+   "lng": -4.82361,
+   "desc": "Cuna del queso azul curado en cuevas naturales."
+  },
+  {
+   "id": "ast_nava_sidra",
+   "cat": "food",
+   "name": "Museo de la Sidra (Nava)",
+   "icon": "🍾",
+   "lat": 43.35306,
+   "lng": -5.40889,
+   "desc": "Museo dedicado a la bebida más asturiana, en la capital sidrera."
+  },
+  {
+   "id": "ast_cangas_gastro",
+   "cat": "food",
+   "name": "Mercado de Cangas de Onís",
+   "icon": "🥩",
+   "lat": 43.35194,
+   "lng": -5.13056,
+   "desc": "Mercado dominical con producto de los Picos de Europa."
+  },
+  {
+   "id": "ast_puerto_llanes",
+   "cat": "food",
+   "name": "Marisco del puerto de Llanes",
+   "icon": "🦐",
+   "lat": 43.42056,
+   "lng": -4.75528,
+   "desc": "Sidrerías y marisquerías junto al puerto pesquero de Llanes."
+  }
+ ],
+ "extra": {
+  "ast_catedral_oviedo": {
+   "id": "ast_catedral_oviedo",
+   "d": "Levantada sobre el núcleo fundacional de Oviedo, combina una torre gótica de 80 m con la Cámara Santa, joya prerrománica que guarda las reliquias de San Salvador y la Cruz de la Victoria. Es el kilómetro cero de la ciudad y del Camino Primitivo.",
+   "d_en": "Built on Oviedo's founding core, it blends an 80 m Gothic tower with the Holy Chamber, a pre-Romanesque gem holding the relics of San Salvador and the Victory Cross. It is the city's ground zero and the start of the Primitive Way.",
+   "h": "Lun–Sáb 10:00–19:00, horario reducido en invierno",
+   "h_en": "Mon–Sat 10:00–19:00, reduced hours in winter",
+   "i": "Ideal si te gusta el arte medieval y las reliquias.",
+   "i_en": "Ideal if you like medieval art and relics."
+  },
+  "ast_santa_maria_naranco": {
+   "id": "ast_santa_maria_naranco",
+   "d": "Construido hacia 848 como aula regia y mirador de Ramiro I, es el ejemplo más refinado del arte asturiano: bóveda de cañón, arcos peraltados y medallones esculpidos, en la ladera del monte Naranco con vistas a Oviedo.",
+   "d_en": "Built around 848 as Ramiro I's royal hall and belvedere, it is the finest example of Asturian art: barrel vault, stilted arches and carved medallions, on the slope of Mount Naranco overlooking Oviedo.",
+   "h": "Mar–Dom 9:30–13:00 y 15:30–19:00",
+   "h_en": "Tue–Sun 9:30–13:00 and 15:30–19:00",
+   "i": "Ideal si te gusta la arquitectura única y las vistas.",
+   "i_en": "Ideal if you like unique architecture and views."
+  },
+  "ast_san_miguel_lillo": {
+   "id": "ast_san_miguel_lillo",
+   "d": "A pocos metros de Santa María del Naranco, esta iglesia del siglo IX conserva solo un tercio de su tamaño original tras un derrumbe, pero destaca por sus celosías, columnas sogueadas y relieves inspirados en el arte bizantino.",
+   "d_en": "A few metres from Santa María del Naranco, this 9th-century church keeps only a third of its original size after a collapse, but stands out for its lattice windows, rope-carved columns and Byzantine-inspired reliefs.",
+   "h": "Mar–Dom 9:30–13:00 y 15:30–19:00",
+   "h_en": "Tue–Sun 9:30–13:00 and 15:30–19:00",
+   "i": "Ideal si te gusta el arte prerrománico y los detalles escultóricos.",
+   "i_en": "Ideal if you like pre-Romanesque art and carved detail."
+  },
+  "ast_basilica_covadonga": {
+   "id": "ast_basilica_covadonga",
+   "d": "Templo de piedra caliza rosada levantado entre 1877 y 1901 sobre un promontorio, dedicado a la Virgen de Covadonga. Es el centro espiritual de Asturias y punto de partida de la Reconquista según la tradición.",
+   "d_en": "A pink limestone church built between 1877 and 1901 on a rocky spur, dedicated to the Virgin of Covadonga. It is the spiritual heart of Asturias and, by tradition, the starting point of the Reconquista.",
+   "h": "Todos los días 8:00–20:00",
+   "h_en": "Daily 8:00–20:00",
+   "i": "Ideal si te gusta la historia, la fe y los paisajes de montaña.",
+   "i_en": "Ideal if you like history, faith and mountain scenery."
+  },
+  "ast_santa_cueva_covadonga": {
+   "id": "ast_santa_cueva_covadonga",
+   "d": "Cueva excavada en la roca donde se venera a la Virgen de Covadonga, patrona de Asturias. Se accede por una escalinata y junto a ella cae una cascada sobre un estanque de aguas cristalinas; alberga también la tumba del rey Pelayo.",
+   "d_en": "A grotto carved into the cliff where the Virgin of Covadonga, patron of Asturias, is venerated. Reached by a stairway, with a waterfall dropping into a clear pool beside it; it also holds the tomb of King Pelayo.",
+   "h": "Todos los días 8:30–19:30",
+   "h_en": "Daily 8:30–19:30",
+   "i": "Ideal si te gusta lo sagrado y los rincones fotogénicos.",
+   "i_en": "Ideal if you like sacred spots and photogenic corners."
+  },
+  "ast_universidad_laboral": {
+   "id": "ast_universidad_laboral",
+   "d": "Colosal complejo de estilo historicista construido en los años 40-50, con la torre más alta de Asturias (130 m). Hoy es la Laboral Ciudad de la Cultura, con teatro, salas de arte y una iglesia elíptica singular.",
+   "d_en": "A colossal historicist complex built in the 1940s-50s, with the tallest tower in Asturias (130 m). Today it is the Laboral City of Culture, with a theatre, art halls and a striking elliptical church.",
+   "h": "Visitas guiadas Mar–Dom, consultar horarios",
+   "h_en": "Guided tours Tue–Sun, check schedule",
+   "i": "Ideal si te gusta la arquitectura monumental y la cultura.",
+   "i_en": "Ideal if you like monumental architecture and culture."
+  },
+  "ast_cimavilla": {
+   "id": "ast_cimavilla",
+   "d": "El barrio más antiguo de Gijón, de origen romano, sube por callejuelas empedradas hasta el Cerro de Santa Catalina. Reúne casas de pescadores, sidrerías, plazas con encanto y las mejores vistas de la ciudad.",
+   "d_en": "Gijón's oldest quarter, of Roman origin, climbs cobbled lanes up to the Santa Catalina hill. It gathers fishermen's houses, cider taverns, charming squares and the best views of the city.",
+   "h": "Acceso libre todo el día",
+   "h_en": "Open access all day",
+   "i": "Ideal si te gusta pasear por barrios históricos con ambiente.",
+   "i_en": "Ideal if you like wandering atmospheric old quarters."
+  },
+  "ast_puente_cangas": {
+   "id": "ast_puente_cangas",
+   "d": "Conocido como 'Puentón', este puente de origen medieval sobre el río Sella es el símbolo de Cangas de Onís, primera capital del reino de Asturias. De su arco central cuelga una réplica de la Cruz de la Victoria.",
+   "d_en": "Known as the 'Puentón', this medieval bridge over the Sella river is the symbol of Cangas de Onís, first capital of the Kingdom of Asturias. A replica of the Victory Cross hangs from its central arch.",
+   "h": "Acceso libre todo el día",
+   "h_en": "Open access all day",
+   "i": "Ideal si te gusta la historia y las postales de río.",
+   "i_en": "Ideal if you like history and riverside postcards."
+  },
+  "ast_cudillero": {
+   "id": "ast_cudillero",
+   "d": "Uno de los pueblos más bonitos de Asturias: sus casas de colores se apilan en las laderas de un anfiteatro natural que baja hasta un pequeño puerto pesquero. Sus habitantes, los 'pixuetos', conservan un habla propia.",
+   "d_en": "One of Asturias's prettiest villages: its colourful houses stack up the slopes of a natural amphitheatre dropping to a small fishing port. Its people, the 'pixuetos', keep their own dialect.",
+   "h": "Acceso libre todo el día",
+   "h_en": "Open access all day",
+   "i": "Ideal si te gusta la fotografía y los pueblos con encanto.",
+   "i_en": "Ideal if you like photography and charming villages."
+  },
+  "ast_taramundi": {
+   "id": "ast_taramundi",
+   "d": "En el extremo occidental de Asturias, este pueblo de arquitectura de pizarra es cuna de las célebres navajas y cuchillos artesanos. Alrededor se conservan molinos, mazos hidráulicos y el conjunto etnográfico de Os Teixois.",
+   "d_en": "In Asturias's far west, this slate-built village is the cradle of its famous handmade knives. Around it survive water mills, hydraulic forges and the ethnographic hamlet of Os Teixois.",
+   "h": "Acceso libre; talleres y museos con horario propio",
+   "h_en": "Open access; workshops and museums keep own hours",
+   "i": "Ideal si te gusta la artesanía y el turismo rural.",
+   "i_en": "Ideal if you like crafts and rural tourism."
+  },
+  "ast_aviles_niemeyer": {
+   "id": "ast_aviles_niemeyer",
+   "d": "Único proyecto del arquitecto brasileño Óscar Niemeyer en España, inaugurado en 2011 a orillas de la ría de Avilés. Sus volúmenes blancos y curvos —auditorio, cúpula, torre y plaza— contrastan con el casco medieval de Avilés.",
+   "d_en": "The only project by Brazilian architect Óscar Niemeyer in Spain, opened in 2011 by the Avilés estuary. Its white, curving volumes —auditorium, dome, tower and plaza— contrast with the medieval old town of Avilés.",
+   "h": "Recinto exterior libre; exposiciones Mar–Dom",
+   "h_en": "Outdoor site free; exhibitions Tue–Sun",
+   "i": "Ideal si te gusta la arquitectura contemporánea y el arte.",
+   "i_en": "Ideal if you like contemporary architecture and art."
+  },
+  "ast_lago_enol": {
+   "id": "ast_lago_enol",
+   "d": "Lago glaciar de aguas quietas rodeado de praderas y cumbres de los Picos de Europa. Punto de partida de rutas de montaña y escenario clásico de la Vuelta ciclista, con pastos donde pace el ganado en verano.",
+   "d_en": "A still glacial lake ringed by meadows and the peaks of the Picos de Europa. A starting point for mountain hikes and a classic Vuelta cycling stage, with pastures grazed by cattle in summer.",
+   "h": "Acceso libre; en verano solo en bus lanzadera",
+   "h_en": "Open access; summer access by shuttle bus only",
+   "i": "Ideal si te gusta la alta montaña y el senderismo.",
+   "i_en": "Ideal if you like high mountains and hiking."
+  },
+  "ast_lago_ercina": {
+   "id": "ast_lago_ercina",
+   "d": "El más alto de los dos Lagos de Covadonga, de aguas poco profundas y orillas verdes. Desde él parte la ruta hacia el mirador de Ordiales y el refugio de Vega de Ario, con vistas espectaculares del macizo occidental.",
+   "d_en": "The higher of the two Lakes of Covadonga, shallow and fringed with green banks. From here the trail leads to the Ordiales viewpoint and the Vega de Ario refuge, with spectacular views of the western massif.",
+   "h": "Acceso libre; en verano solo en bus lanzadera",
+   "h_en": "Open access; summer access by shuttle bus only",
+   "i": "Ideal si te gusta caminar entre montañas y prados.",
+   "i_en": "Ideal if you like walking among mountains and meadows."
+  },
+  "ast_ruta_cares": {
+   "id": "ast_ruta_cares",
+   "d": "Ruta de 12 km entre Poncebos (Asturias) y Caín (León) que discurre por un desfiladero vertiginoso excavado en la roca sobre el río Cares. Es uno de los recorridos de montaña más famosos de España, apto para buenos caminantes.",
+   "d_en": "A 12 km trail between Poncebos (Asturias) and Caín (León) running through a dizzying gorge carved into the rock above the Cares river. It is one of Spain's most famous mountain walks, for fit hikers.",
+   "h": "Acceso libre; recomendable de día y con buen tiempo",
+   "h_en": "Open access; best by day and in good weather",
+   "i": "Ideal si te gusta el senderismo con paisajes de vértigo.",
+   "i_en": "Ideal if you like hiking with vertigo-inducing scenery."
+  },
+  "ast_somiedo": {
+   "id": "ast_somiedo",
+   "d": "Parque de montaña y Reserva de la Biosfera famoso por sus brañas, aldeas de cabañas de teito vegetal, sus lagos de altura y por ser uno de los últimos refugios del oso pardo cantábrico. Paraíso de trekking y fauna salvaje.",
+   "d_en": "A mountain park and Biosphere Reserve famous for its 'brañas', hamlets of thatched shepherd huts, its high-altitude lakes and for being one of the last refuges of the Cantabrian brown bear. A paradise for trekking and wildlife.",
+   "h": "Acceso libre todo el año",
+   "h_en": "Open access all year",
+   "i": "Ideal si te gusta la naturaleza salvaje y la etnografía.",
+   "i_en": "Ideal if you like wild nature and rural heritage."
+  },
+  "ast_playa_silencio": {
+   "id": "ast_playa_silencio",
+   "d": "También llamada El Gaviero, es una playa virgen en forma de concha rodeada de acantilados y con islotes rocosos en el agua. Se baja por una senda y unas escaleras; sin servicios, es una de las calas más bellas del Cantábrico.",
+   "d_en": "Also called El Gaviero, a pristine shell-shaped beach ringed by cliffs with rocky islets offshore. Reached by a path and stairs; with no facilities, it is one of the most beautiful coves on the Cantabrian coast.",
+   "h": "Acceso libre; sin servicios",
+   "h_en": "Open access; no facilities",
+   "i": "Ideal si te gusta la naturaleza virgen y las calas escondidas.",
+   "i_en": "Ideal if you like untouched nature and hidden coves."
+  },
+  "ast_gulpiyuri": {
+   "id": "ast_gulpiyuri",
+   "d": "Una diminuta playa de arena situada tierra adentro, a unos 100 m de la costa, alimentada por el mar a través de túneles subterráneos en la roca caliza. Declarada Monumento Natural, es un fenómeno único en Asturias.",
+   "d_en": "A tiny sandy beach set inland, about 100 m from the coast, fed by the sea through underground tunnels in the limestone. Declared a Natural Monument, it is a phenomenon unique to Asturias.",
+   "h": "Acceso libre; a pie desde Naves",
+   "h_en": "Open access; on foot from Naves",
+   "i": "Ideal si te gusta lo curioso y los rincones naturales raros.",
+   "i_en": "Ideal if you like curiosities and rare natural spots."
+  },
+  "ast_playa_san_lorenzo": {
+   "id": "ast_playa_san_lorenzo",
+   "d": "Arenal de más de 1,5 km en forma de concha que baña el centro de Gijón, con un paseo marítimo animado día y noche. Ideal para el baño, el surf y contemplar la marea que descubre y cubre la arena a diario.",
+   "d_en": "A shell-shaped strand over 1.5 km long lapping central Gijón, with a promenade lively day and night. Great for swimming, surfing and watching the tide uncover and cover the sand each day.",
+   "h": "Acceso libre todo el día",
+   "h_en": "Open access all day",
+   "i": "Ideal si te gusta la playa urbana y el ambiente de ciudad.",
+   "i_en": "Ideal if you like city beaches and a lively vibe."
+  },
+  "ast_mercado_fontan": {
+   "id": "ast_mercado_fontan",
+   "d": "Corazón del casco antiguo de Oviedo, esta plaza porticada del siglo XVIII acoge un mercado de abastos y, los domingos, un animado mercadillo. Alrededor se concentran sidrerías, chigres y tiendas de producto local.",
+   "d_en": "The heart of Oviedo's old town, this 18th-century arcaded square holds a food market and, on Sundays, a lively flea market. Around it cluster cider taverns, 'chigres' and local-produce shops.",
+   "h": "Mercado Lun–Sáb mañanas; domingos mercadillo",
+   "h_en": "Market Mon–Sat mornings; Sunday flea market",
+   "i": "Ideal si te gusta el ambiente local y las compras de producto.",
+   "i_en": "Ideal if you like local atmosphere and food shopping."
+  },
+  "ast_senda_oso": {
+   "id": "ast_senda_oso",
+   "d": "Ruta verde de unos 22 km sobre un antiguo trazado ferroviario que serpentea por desfiladeros y valles del centro de Asturias. En Proaza, un cercado alberga osas rescatadas que pueden verse a lo largo del recorrido.",
+   "d_en": "A roughly 22 km greenway on a former railway line winding through gorges and valleys of central Asturias. At Proaza, an enclosure is home to rescued bears that can be seen along the route.",
+   "h": "Acceso libre; alquiler de bicis por temporada",
+   "h_en": "Open access; bike rental seasonal",
+   "i": "Ideal si te gusta el cicloturismo y la fauna.",
+   "i_en": "Ideal if you like cycle touring and wildlife."
+  },
+  "ast_descenso_sella": {
+   "id": "ast_descenso_sella",
+   "d": "Villa entre el mar y el río Sella, con una elegante playa de Santa Marina bordeada de casas indianas. Cada agosto acoge el Descenso Internacional del Sella, fiesta de piragüismo declarada de Interés Turístico Internacional.",
+   "d_en": "A town between the sea and the Sella river, with the elegant Santa Marina beach lined by 'indiano' mansions. Each August it hosts the International Sella Descent, a canoeing festival of International Tourist Interest.",
+   "h": "Acceso libre; descenso primer sábado de agosto",
+   "h_en": "Open access; descent first Saturday of August",
+   "i": "Ideal si te gusta el deporte al aire libre y las playas.",
+   "i_en": "Ideal if you like outdoor sport and beaches."
+  },
+  "ast_elogio_horizonte": {
+   "id": "ast_elogio_horizonte",
+   "d": "Obra de hormigón de Eduardo Chillida (1990) que corona el Cerro de Santa Catalina en Gijón. Su forma abrazada amplifica el sonido del mar y enmarca el horizonte del Cantábrico; icono de la ciudad y mirador imprescindible.",
+   "d_en": "A concrete work by Eduardo Chillida (1990) crowning the Santa Catalina hill in Gijón. Its embracing shape amplifies the sound of the sea and frames the Cantabrian horizon; a city icon and must-see viewpoint.",
+   "h": "Acceso libre todo el día",
+   "h_en": "Open access all day",
+   "i": "Ideal si te gusta el arte al aire libre y las vistas al mar.",
+   "i_en": "Ideal if you like outdoor art and sea views."
+  },
+  "ast_cubos_memoria": {
+   "id": "ast_cubos_memoria",
+   "d": "Los grandes bloques de hormigón que protegen el puerto de Llanes fueron pintados en 2001 por el artista vasco Agustín Ibarrola con formas geométricas y colores vivos, creando una obra de arte al aire libre frente al mar.",
+   "d_en": "The large concrete blocks protecting Llanes harbour were painted in 2001 by Basque artist Agustín Ibarrola with geometric shapes and vivid colours, creating an open-air artwork facing the sea.",
+   "h": "Acceso libre todo el día",
+   "h_en": "Open access all day",
+   "i": "Ideal si te gusta el arte urbano y los puertos con encanto.",
+   "i_en": "Ideal if you like street art and charming harbours."
+  },
+  "ast_gascona": {
+   "id": "ast_gascona",
+   "d": "Calle peatonal repleta de sidrerías donde los camareros escancian sidra natural a chorro. Es el mejor sitio para probar la cocina asturiana clásica: fabada, cachopo, cazuela de fabes con almejas y quesos de la región.",
+   "d_en": "A pedestrian street packed with cider taverns where waiters pour natural cider in a long stream. The best place to try classic Asturian cooking: fabada, cachopo, bean stew with clams and regional cheeses.",
+   "h": "Sidrerías abiertas a diario, comidas y cenas",
+   "h_en": "Cider taverns open daily, lunch and dinner",
+   "i": "Ideal si te gusta la sidra y la gastronomía de cuchara.",
+   "i_en": "Ideal if you like cider and hearty regional food."
+  },
+  "ast_cabrales": {
+   "id": "ast_cabrales",
+   "d": "En Arenas de Cabrales se elabora el famoso queso azul Cabrales, madurado en cuevas de montaña. La Cueva-Exposición permite conocer su proceso y catarlo, y en agosto se celebra el certamen del Queso Cabrales.",
+   "d_en": "In Arenas de Cabrales they make the famous Cabrales blue cheese, matured in mountain caves. The Cave-Exhibition explains the process and offers tastings, and each August the Cabrales Cheese contest is held.",
+   "h": "Cueva-Exposición todos los días, consultar",
+   "h_en": "Cave-Exhibition daily, check times",
+   "i": "Ideal si te gusta el queso fuerte y el turismo gastronómico.",
+   "i_en": "Ideal if you like strong cheese and food tourism."
+  },
+  "ast_nava_sidra": {
+   "id": "ast_nava_sidra",
+   "d": "En Nava, considerada capital de la sidra, este museo recorre todo el proceso desde la manzana hasta el escanciado, con lagares y utensilios tradicionales. La visita suele acompañarse de una degustación de sidra natural.",
+   "d_en": "In Nava, regarded as the cider capital, this museum traces the whole process from apple to pouring, with presses and traditional tools. The visit usually includes a tasting of natural cider.",
+   "h": "Mar–Dom, consultar horario de temporada",
+   "h_en": "Tue–Sun, check seasonal hours",
+   "i": "Ideal si te gusta descubrir la cultura de la sidra.",
+   "i_en": "Ideal if you like discovering cider culture."
+  },
+  "ast_cangas_gastro": {
+   "id": "ast_cangas_gastro",
+   "d": "Cada domingo Cangas de Onís acoge un tradicional mercado con quesos de los Picos, embutidos, miel, fabes y dulces. Es la mejor puerta para probar la despensa de montaña antes o después de subir a Covadonga.",
+   "d_en": "Every Sunday Cangas de Onís hosts a traditional market with cheeses from the Picos, cured meats, honey, beans and sweets. It is the best gateway to sample the mountain larder before or after visiting Covadonga.",
+   "h": "Mercado los domingos por la mañana",
+   "h_en": "Market on Sunday mornings",
+   "i": "Ideal si te gusta el producto artesano y los mercados.",
+   "i_en": "Ideal if you like artisan produce and markets."
+  },
+  "ast_puerto_llanes": {
+   "id": "ast_puerto_llanes",
+   "d": "El puerto de Llanes vuelca cada día pescado y marisco fresco del Cantábrico en las cocinas de sus sidrerías. Aquí se disfrutan el pixín (rape), las andaricas, el bugre y el arroz con bugre, siempre regados con sidra natural.",
+   "d_en": "Llanes harbour lands fresh Cantabrian fish and shellfish daily in the kitchens of its cider taverns. Here you enjoy monkfish, spider crab, lobster and lobster rice, always washed down with natural cider.",
+   "h": "Sidrerías y marisquerías abiertas a diario",
+   "h_en": "Cider taverns and seafood spots open daily",
+   "i": "Ideal si te gusta el marisco fresco frente al mar.",
+   "i_en": "Ideal if you like fresh seafood by the sea."
+  }
+ },
+ "food": {
+  "ast_gascona": {
+   "cuisine": "Cocina asturiana tradicional y sidra natural",
+   "price": "15–30 €",
+   "hours": "12:00–16:00 y 20:00–24:00"
+  },
+  "ast_cabrales": {
+   "cuisine": "Queso azul Cabrales y productos de montaña",
+   "price": "5–20 €",
+   "hours": "10:00–14:00 y 16:00–19:00"
+  },
+  "ast_nava_sidra": {
+   "cuisine": "Sidra natural asturiana y cultura sidrera",
+   "price": "4–10 €",
+   "hours": "11:00–14:00 y 16:00–19:00"
+  },
+  "ast_cangas_gastro": {
+   "cuisine": "Producto local: quesos, embutidos y fabes",
+   "price": "5–25 €",
+   "hours": "9:00–14:00 (domingos)"
+  },
+  "ast_puerto_llanes": {
+   "cuisine": "Pescados y mariscos del Cantábrico",
+   "price": "20–45 €",
+   "hours": "13:00–16:00 y 20:30–23:30"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Asturias",
+   "items": [
+    {
+     "name": "Sidra natural asturiana",
+     "price": "3–6 €",
+     "desc": "Botella de sidra DOP, para escanciar en casa."
+    },
+    {
+     "name": "Queso Cabrales DOP",
+     "price": "12–25 €",
+     "desc": "Queso azul curado en cuevas de los Picos de Europa."
+    },
+    {
+     "name": "Navaja de Taramundi",
+     "price": "20–80 €",
+     "desc": "Cuchillería artesanal con mango de madera taraceada."
+    },
+    {
+     "name": "Fabes de la Granja (fabada)",
+     "price": "6–12 €",
+     "desc": "Alubia blanca IGP para preparar la fabada."
+    },
+    {
+     "name": "Azabache",
+     "price": "15–120 €",
+     "desc": "Joyería tallada en azabache, típica del Camino."
+    },
+    {
+     "name": "Madreñas",
+     "price": "20–60 €",
+     "desc": "Zueco de madera tradicional del campo asturiano."
+    }
+   ],
+   "shops": [
+    "Calle Gascona (Oviedo)",
+    "Mercado del Fontán (Oviedo)",
+    "Mercado de Cimavilla y puerto (Gijón)",
+    "Tiendas artesanas de Taramundi"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "La sidra se escancia en chorro largo y se bebe de un trago; pide un 'culín' y no lo dejes reposar.",
+   "El tiempo cambia rápido: lleva chubasquero y calzado impermeable incluso en verano.",
+   "Para los Lagos de Covadonga en temporada alta hay plan de transporte obligatorio en bus desde Cangas de Onís.",
+   "Reserva con antelación la Cueva de Tito Bustillo y la visita a la cámara de Cabrales; el aforo es limitado.",
+   "Alquila coche para el interior (Somiedo, Taramundi, Senda del Oso); el transporte público es escaso en zonas rurales."
+  ],
+  "en": [
+   "Cider is poured in a long stream and drunk in one go; order a 'culín' and don't let it sit.",
+   "Weather changes fast: bring a rain jacket and waterproof shoes even in summer.",
+   "For the Lakes of Covadonga in high season there is a compulsory shuttle-bus plan from Cangas de Onís.",
+   "Book the Tito Bustillo Cave and the Cabrales cheese cave visit ahead; capacity is limited.",
+   "Rent a car for the interior (Somiedo, Taramundi, Senda del Oso); public transport is scarce in rural areas."
+  ]
+ },
+ "climate": {
+  "hi": [
+   12,
+   13,
+   15,
+   16,
+   18,
+   21,
+   23,
+   24,
+   22,
+   18,
+   14,
+   12
+  ],
+  "lo": [
+   5,
+   5,
+   6,
+   8,
+   10,
+   13,
+   15,
+   15,
+   13,
+   11,
+   8,
+   6
+  ]
+ },
+ "tr": {
+  "Catedral gótica de Oviedo con la Cámara Santa prerrománica.": "Gothic cathedral of Oviedo with the pre-Romanesque Holy Chamber.",
+  "Palacio prerrománico de Ramiro I, Patrimonio de la Humanidad.": "Pre-Romanesque palace of Ramiro I, a World Heritage Site.",
+  "Iglesia prerrománica del siglo IX junto a Santa María.": "9th-century pre-Romanesque church next to Santa María.",
+  "Basílica neorrománica rosa en el corazón de los Picos de Europa.": "Pink neo-Romanesque basilica in the heart of the Picos de Europa.",
+  "Gruta con la imagen de 'La Santina' y una cascada.": "Grotto with the image of 'La Santina' and a waterfall.",
+  "El edificio más grande de España, hoy centro cultural.": "Spain's largest building, now a cultural centre.",
+  "Barrio marinero antiguo de Gijón sobre la península.": "Gijón's old fishermen's quarter on the peninsula.",
+  "Puente medieval con la Cruz de la Victoria colgante.": "Medieval bridge with the hanging Victory Cross.",
+  "Pueblo pesquero de casas de colores en anfiteatro.": "Fishing village of colourful houses forming an amphitheatre.",
+  "Aldea rural famosa por su cuchillería artesanal.": "Rural village famous for its handmade cutlery.",
+  "Complejo cultural de líneas blancas diseñado por Óscar Niemeyer.": "White-lined cultural complex designed by Óscar Niemeyer.",
+  "El mayor de los Lagos de Covadonga, a 1.070 m.": "The larger of the Lakes of Covadonga, at 1,070 m.",
+  "Lago somero rodeado de pastos, a 1.108 m de altitud.": "Shallow lake surrounded by pastures, at 1,108 m.",
+  "Senda espectacular tallada en la 'Garganta Divina'.": "Spectacular trail cut into the 'Divine Gorge'.",
+  "Reserva de la biosfera con brañas y osos pardos.": "Biosphere reserve with 'brañas' huts and brown bears.",
+  "Cala salvaje de cantos rodados bajo acantilados.": "Wild pebble cove beneath tall cliffs.",
+  "Playa interior sin mar visible, monumento natural.": "Inland beach with no sea in sight, a natural monument.",
+  "Gran playa urbana en pleno centro de Gijón.": "Large urban beach right in central Gijón.",
+  "Plaza porticada y mercado histórico de Oviedo.": "Arcaded square and historic market of Oviedo.",
+  "Vía verde ciclable con osas en semilibertad.": "Greenway cycle path with bears in a semi-wild enclosure.",
+  "Villa marinera y famoso descenso en piragua del Sella.": "Seaside town and the famous Sella canoe descent.",
+  "Escultura de Chillida sobre el Cerro de Santa Catalina.": "Chillida sculpture atop the Santa Catalina hill.",
+  "Bloques del puerto de Llanes pintados por Ibarrola.": "Llanes harbour blocks painted by Ibarrola.",
+  "El 'Bulevar de la Sidra', epicentro sidrero de Oviedo.": "The 'Cider Boulevard', Oviedo's cider epicentre.",
+  "Cuna del queso azul curado en cuevas naturales.": "Home of the blue cheese cured in natural caves.",
+  "Museo dedicado a la bebida más asturiana, en la capital sidrera.": "Museum devoted to Asturias's iconic drink, in the cider capital.",
+  "Mercado dominical con producto de los Picos de Europa.": "Sunday market with produce from the Picos de Europa.",
+  "Sidrerías y marisquerías junto al puerto pesquero de Llanes.": "Cider taverns and seafood spots by Llanes fishing port.",
+  "Asturias": "Asturias"
+ }
+}

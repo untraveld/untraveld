@@ -1,0 +1,535 @@
+{
+ "id": "palencia",
+ "name": "Palencia",
+ "country": "ES",
+ "center": [
+  42.00955,
+  -4.52406
+ ],
+ "pois": [
+  {
+   "id": "pal_catedral",
+   "cat": "monuments",
+   "name": "Catedral de San Antolín (La Bella Desconocida)",
+   "icon": "⛪",
+   "lat": 42.01111,
+   "lng": -4.53694,
+   "desc": "Gran catedral gótica apodada 'La Bella Desconocida' por su valor poco divulgado."
+  },
+  {
+   "id": "pal_cristo_otero",
+   "cat": "monuments",
+   "name": "Cristo del Otero",
+   "icon": "🗿",
+   "lat": 42.02833,
+   "lng": -4.52944,
+   "desc": "Colosal Cristo de hormigón de Victorio Macho sobre un cerro con vistas a la ciudad."
+  },
+  {
+   "id": "pal_calle_mayor",
+   "cat": "monuments",
+   "name": "Calle Mayor de Palencia",
+   "icon": "🏛️",
+   "lat": 42.00944,
+   "lng": -4.53,
+   "desc": "Elegante calle porticada, corazón comercial y social de la capital."
+  },
+  {
+   "id": "pal_santa_maria_real",
+   "cat": "monuments",
+   "name": "Monasterio de Santa María la Real (Aguilar de Campoo)",
+   "icon": "🏰",
+   "lat": 42.79528,
+   "lng": -4.2725,
+   "desc": "Monasterio románico y sede del centro de estudios del Románico Palentino."
+  },
+  {
+   "id": "pal_san_martin_fromista",
+   "cat": "monuments",
+   "name": "Iglesia de San Martín de Tours (Frómista)",
+   "icon": "⛪",
+   "lat": 42.2665,
+   "lng": -4.40583,
+   "desc": "Joya del románico pleno europeo en pleno Camino de Santiago."
+  },
+  {
+   "id": "pal_villalcazar_sirga",
+   "cat": "monuments",
+   "name": "Iglesia de Santa María la Blanca (Villalcázar de Sirga)",
+   "icon": "⛪",
+   "lat": 42.317,
+   "lng": -4.54246,
+   "desc": "Imponente templo de transición románico-gótico ligado a los Templarios."
+  },
+  {
+   "id": "pal_banos_cerrato",
+   "cat": "monuments",
+   "name": "Basílica de San Juan de Baños (Baños de Cerrato)",
+   "icon": "🏛️",
+   "lat": 41.9208,
+   "lng": -4.47236,
+   "desc": "Iglesia visigoda del siglo VII, una de las más antiguas de España."
+  },
+  {
+   "id": "pal_ampudia",
+   "cat": "monuments",
+   "name": "Villa y Colegiata de San Miguel (Ampudia)",
+   "icon": "🏰",
+   "lat": 41.91625,
+   "lng": -4.78071,
+   "desc": "Uno de los pueblos más bonitos de España, con calles porticadas y castillo."
+  },
+  {
+   "id": "pal_aguilar_colegiata",
+   "cat": "monuments",
+   "name": "Colegiata de San Miguel y castillo de Aguilar de Campoo",
+   "icon": "🏰",
+   "lat": 42.79264,
+   "lng": -4.25962,
+   "desc": "Villa medieval amurallada, capital del Románico y de las galletas."
+  },
+  {
+   "id": "pal_paredes_nava",
+   "cat": "monuments",
+   "name": "Iglesia de Santa Eulalia y Museo Berruguete (Paredes de Nava)",
+   "icon": "🖼️",
+   "lat": 42.15361,
+   "lng": -4.69361,
+   "desc": "Cuna de los Berruguete, con un museo de arte sacro en su iglesia."
+  },
+  {
+   "id": "pal_fuentes_carrionas",
+   "cat": "nature",
+   "name": "Parque Natural Fuentes Carrionas y Fuente Cobre",
+   "icon": "🏔️",
+   "lat": 42.945,
+   "lng": -4.72,
+   "desc": "Corazón de la Montaña Palentina, refugio del oso pardo y el urogallo."
+  },
+  {
+   "id": "pal_curavacas",
+   "cat": "nature",
+   "name": "Pico Curavacas",
+   "icon": "⛰️",
+   "lat": 42.9764,
+   "lng": -4.67392,
+   "desc": "Emblemática cima de conglomerado de 2.524 m en la Montaña Palentina."
+  },
+  {
+   "id": "pal_canal_castilla",
+   "cat": "nature",
+   "name": "Canal de Castilla y cuádruple esclusa de Frómista",
+   "icon": "🚤",
+   "lat": 42.26353,
+   "lng": -4.39944,
+   "desc": "Obra hidráulica ilustrada del siglo XVIII con esclusas navegables."
+  },
+  {
+   "id": "pal_las_tuerces",
+   "cat": "nature",
+   "name": "Las Tuerces (Ciudad de piedra)",
+   "icon": "🪨",
+   "lat": 42.7553,
+   "lng": -4.2556,
+   "desc": "Laberinto kárstico de rocas calizas esculpidas por la erosión."
+  },
+  {
+   "id": "pal_covalagua",
+   "cat": "nature",
+   "name": "Covalagua y mirador de Valcabado",
+   "icon": "🌄",
+   "lat": 42.78163,
+   "lng": -4.10241,
+   "desc": "Paraje kárstico con cascada, cueva y un mirador de vértigo."
+  },
+  {
+   "id": "pal_cueva_franceses",
+   "cat": "ocio",
+   "name": "Cueva de los Franceses",
+   "icon": "🕳️",
+   "lat": 42.77238,
+   "lng": -4.11665,
+   "desc": "Cueva turística de estalactitas con leyenda de la Guerra de la Independencia."
+  },
+  {
+   "id": "pal_barco_canal",
+   "cat": "ocio",
+   "name": "Paseo en barco por el Canal de Castilla (Villaumbrales/Herrera)",
+   "icon": "⛴️",
+   "lat": 42.03389,
+   "lng": -4.61417,
+   "desc": "Navegación turística por el histórico canal en barcos tradicionales."
+  },
+  {
+   "id": "pal_via_verde_tren_burra",
+   "cat": "ocio",
+   "name": "Vía Verde del Tren Burra (Guardo–Ojeda)",
+   "icon": "🚲",
+   "lat": 42.78694,
+   "lng": -4.50389,
+   "desc": "Antigua vía férrea reconvertida en ruta para andar y pedalear."
+  },
+  {
+   "id": "pal_asador_encina",
+   "cat": "food",
+   "name": "Asador La Encina",
+   "icon": "🍖",
+   "lat": 42.0033,
+   "lng": -4.52791,
+   "desc": "Asador clásico de Palencia famoso por su tortilla de patata y el lechazo."
+  },
+  {
+   "id": "pal_casa_damian",
+   "cat": "food",
+   "name": "Restaurante Casa Damián",
+   "icon": "🥘",
+   "lat": 42.01161,
+   "lng": -4.53243,
+   "desc": "Referente histórico de la menestra de verduras palentina."
+  },
+  {
+   "id": "pal_hosteria_palmeros",
+   "cat": "food",
+   "name": "Hostería de los Palmeros (Frómista)",
+   "icon": "🍲",
+   "lat": 42.26722,
+   "lng": -4.40639,
+   "desc": "Cocina castellana junto al románico de Frómista y el Camino."
+  },
+  {
+   "id": "pal_meson_aguilar",
+   "cat": "food",
+   "name": "Restaurante Cortés (Aguilar de Campoo)",
+   "icon": "🐑",
+   "lat": 42.78972,
+   "lng": -4.26611,
+   "desc": "Cocina de la Montaña Palentina con lechazo y platos de caza."
+  }
+ ],
+ "extra": {
+  "pal_catedral": {
+   "id": "pal_catedral",
+   "d": "Levantada entre los siglos XIV y XVI sobre una cripta visigoda y románica dedicada a San Antolín, esconde un retablo con tablas de Juan de Flandes, una escalera plateresca y un rico museo catedralicio. Su sobriedad exterior contrasta con la riqueza del interior, de ahí su famoso sobrenombre.",
+   "d_en": "Built between the 14th and 16th centuries over a Visigothic and Romanesque crypt dedicated to Saint Antoninus, it hides an altarpiece with panels by Juan de Flandes, a Plateresque staircase and a rich cathedral museum. Its plain exterior contrasts with the wealth inside, hence its famous nickname.",
+   "h": "Lun-Sáb 10:00–13:30 y 16:00–18:30; Dom acceso restringido por culto",
+   "h_en": "Mon-Sat 10:00–13:30 and 16:00–18:30; Sun restricted access due to worship",
+   "i": "Ideal si te gusta el arte gótico, las criptas antiguas y los tesoros escondidos.",
+   "i_en": "Ideal if you like Gothic art, ancient crypts and hidden treasures."
+  },
+  "pal_cristo_otero": {
+   "id": "pal_cristo_otero",
+   "d": "Erigido en 1931 por el escultor palentino Victorio Macho, este Cristo de más de 20 metros es uno de los más altos del mundo. A sus pies hay una ermita y una pequeña cripta donde reposan los restos del artista; el mirador ofrece una panorámica completa de Palencia y Tierra de Campos.",
+   "d_en": "Erected in 1931 by Palencia-born sculptor Victorio Macho, this Christ standing over 20 metres tall is one of the tallest in the world. At its feet lie a chapel and a small crypt holding the artist's remains; the viewpoint offers a full panorama of Palencia and Tierra de Campos.",
+   "h": "Acceso libre al cerro todo el día; ermita en horario variable",
+   "h_en": "Free access to the hill all day; chapel hours vary",
+   "i": "Ideal si te gusta la escultura monumental y los miradores panorámicos.",
+   "i_en": "Ideal if you like monumental sculpture and panoramic viewpoints."
+  },
+  "pal_calle_mayor": {
+   "id": "pal_calle_mayor",
+   "d": "Una de las calles porticadas más largas y bellas de Castilla, jalonada de soportales, cafés históricos, edificios modernistas y comercios centenarios. Es el eje de la vida palentina, perfecto para el paseo, las tapas y la observación de la arquitectura burguesa de los siglos XIX y XX.",
+   "d_en": "One of the longest and most beautiful arcaded streets in Castile, lined with porticoes, historic cafés, Art Nouveau buildings and century-old shops. It is the axis of Palencia life, perfect for strolling, tapas and admiring the bourgeois architecture of the 19th and 20th centuries.",
+   "h": "Acceso libre 24 h",
+   "h_en": "Open access 24 h",
+   "i": "Ideal si te gusta pasear, ir de tapas y la arquitectura urbana.",
+   "i_en": "Ideal if you like strolling, tapas hopping and urban architecture."
+  },
+  "pal_santa_maria_real": {
+   "id": "pal_santa_maria_real",
+   "d": "Antiguo monasterio premonstratense de los siglos XII y XIII, rescatado de la ruina y hoy sede de la Fundación Santa María la Real y del innovador museo Rom, dedicado al arte románico. Destacan su claustro, la sala capitular y sus capiteles historiados, referencia imprescindible del románico del norte palentino.",
+   "d_en": "A former Premonstratensian monastery from the 12th and 13th centuries, saved from ruin and today home to the Santa María la Real Foundation and the innovative Rom museum devoted to Romanesque art. Its cloister, chapter house and carved capitals stand out as an essential reference of the northern Palentine Romanesque.",
+   "h": "Mar-Dom 10:30–14:00 y 16:00–19:00 (consultar temporada)",
+   "h_en": "Tue-Sun 10:30–14:00 and 16:00–19:00 (check season)",
+   "i": "Ideal si te gusta el arte románico y la historia monástica medieval.",
+   "i_en": "Ideal if you like Romanesque art and medieval monastic history."
+  },
+  "pal_san_martin_fromista": {
+   "id": "pal_san_martin_fromista",
+   "d": "Construida hacia 1066, es una de las iglesias románicas más puras y armónicas de España, con planta de tres naves, dos torres cilíndricas, cimborrio octogonal y más de 300 canecillos esculpidos. Restaurada a comienzos del siglo XX, es parada obligada de los peregrinos del Camino Francés.",
+   "d_en": "Built around 1066, it is one of the purest and most harmonious Romanesque churches in Spain, with a three-nave plan, two cylindrical towers, an octagonal lantern and over 300 carved corbels. Restored in the early 20th century, it is a must-stop for pilgrims on the French Way.",
+   "h": "Todos los días 10:00–14:00 y 16:00–19:00 (horario reducido en invierno)",
+   "h_en": "Daily 10:00–14:00 and 16:00–19:00 (reduced hours in winter)",
+   "i": "Ideal si te gusta el románico, el Camino de Santiago y la escultura medieval.",
+   "i_en": "Ideal if you like Romanesque architecture, the Camino de Santiago and medieval sculpture."
+  },
+  "pal_villalcazar_sirga": {
+   "id": "pal_villalcazar_sirga",
+   "d": "Templo fortaleza de los siglos XIII y XIV vinculado a la Orden del Temple, con una espectacular portada esculpida, un gran rosetón y los famosos sepulcros góticos policromados del infante don Felipe y su esposa. Aparece citada en las Cantigas de Santa María de Alfonso X el Sabio.",
+   "d_en": "A 13th- and 14th-century fortress-church linked to the Order of the Temple, with a spectacular carved portal, a large rose window and the famous polychrome Gothic tombs of Infante Don Felipe and his wife. It is mentioned in the Cantigas de Santa María of Alfonso X the Wise.",
+   "h": "Mar-Dom 10:30–14:00 y 16:30–19:00 (consultar temporada)",
+   "h_en": "Tue-Sun 10:30–14:00 and 16:30–19:00 (check season)",
+   "i": "Ideal si te gusta la historia templaria, los sepulcros góticos y el Camino.",
+   "i_en": "Ideal if you like Templar history, Gothic tombs and the Camino."
+  },
+  "pal_banos_cerrato": {
+   "id": "pal_banos_cerrato",
+   "d": "Mandada construir por el rey visigodo Recesvinto en el año 661, es un rarísimo testimonio de arquitectura preislámica en la península. Conserva arcos de herradura, capiteles reutilizados de época romana y la inscripción fundacional original, lo que la convierte en un tesoro de la Alta Edad Media.",
+   "d_en": "Commissioned by the Visigothic king Recceswinth in the year 661, it is a rare testimony of pre-Islamic architecture on the peninsula. It preserves horseshoe arches, reused Roman capitals and the original foundational inscription, making it an Early Middle Ages treasure.",
+   "h": "Mar-Dom 10:30–14:00 y 16:00–18:30 (cerrado lunes)",
+   "h_en": "Tue-Sun 10:30–14:00 and 16:00–18:30 (closed Mondays)",
+   "i": "Ideal si te gusta la arqueología, lo visigodo y los orígenes de España.",
+   "i_en": "Ideal if you like archaeology, the Visigothic world and the origins of Spain."
+  },
+  "pal_ampudia": {
+   "id": "pal_ampudia",
+   "d": "Conjunto histórico declarado, Ampudia conserva largas calles porticadas de madera, un castillo del siglo XV perfectamente conservado y la colegiata de San Miguel con su esbelta torre conocida como 'La Giralda de Campos'. Un pueblo que parece detenido en el tiempo, perfecto para pasear sin prisa.",
+   "d_en": "A listed historic site, Ampudia preserves long wooden-arcaded streets, a well-kept 15th-century castle and the collegiate church of San Miguel with its slender tower known as 'the Giralda of Campos'. A village that seems frozen in time, perfect for a leisurely stroll.",
+   "h": "Pueblo acceso libre; castillo y colegiata en horario de visita variable",
+   "h_en": "Village free access; castle and church with variable visiting hours",
+   "i": "Ideal si te gusta los pueblos con encanto y la arquitectura popular.",
+   "i_en": "Ideal if you like charming villages and vernacular architecture."
+  },
+  "pal_aguilar_colegiata": {
+   "id": "pal_aguilar_colegiata",
+   "d": "Aguilar de Campoo conserva su recinto amurallado, una gran plaza porticada, el castillo sobre el cerro y la colegiata de San Miguel, panteón de los marqueses de Aguilar. Rodeada de decenas de iglesias románicas, es la puerta de entrada al norte palentino y famosa por su industria galletera.",
+   "d_en": "Aguilar de Campoo preserves its walled enclosure, a large arcaded square, the hilltop castle and the collegiate church of San Miguel, pantheon of the marquises of Aguilar. Surrounded by dozens of Romanesque churches, it is the gateway to northern Palencia and famous for its biscuit industry.",
+   "h": "Colegiata en horario de visita variable; castillo acceso libre exterior",
+   "h_en": "Collegiate church variable hours; castle free exterior access",
+   "i": "Ideal si te gusta las villas medievales, las murallas y el románico.",
+   "i_en": "Ideal if you like medieval towns, walls and Romanesque art."
+  },
+  "pal_paredes_nava": {
+   "id": "pal_paredes_nava",
+   "d": "Paredes de Nava es la patria del pintor Pedro Berruguete y del escultor Alonso Berruguete, figuras clave del Renacimiento español. La iglesia de Santa Eulalia, con su bella torre románico-mudéjar, alberga un museo con retablos y tablas de la saga, un imprescindible del arte castellano.",
+   "d_en": "Paredes de Nava is the homeland of the painter Pedro Berruguete and the sculptor Alonso Berruguete, key figures of the Spanish Renaissance. The church of Santa Eulalia, with its beautiful Romanesque-Mudéjar tower, houses a museum of altarpieces and panels by the family, a must for Castilian art.",
+   "h": "Mar-Dom 10:30–14:00 y 16:30–19:00 (consultar temporada)",
+   "h_en": "Tue-Sun 10:30–14:00 and 16:30–19:00 (check season)",
+   "i": "Ideal si te gusta la pintura y escultura del Renacimiento español.",
+   "i_en": "Ideal if you like Spanish Renaissance painting and sculpture."
+  },
+  "pal_fuentes_carrionas": {
+   "id": "pal_fuentes_carrionas",
+   "d": "Espacio natural de alta montaña con circos glaciares, lagunas, hayedos y robledales que abarca las cabeceras del río Carrión. Alberga las últimas poblaciones cantábricas de oso pardo y urogallo en la zona, y ofrece rutas espectaculares como la del Pozo de Curavacas o la laguna de Fuentes Carrionas.",
+   "d_en": "A high-mountain natural area with glacial cirques, lakes, beech and oak woods spanning the headwaters of the Carrión river. It shelters the last Cantabrian populations of brown bear and capercaillie in the zone, and offers spectacular routes such as the Pozo de Curavacas or the Fuentes Carrionas lagoon.",
+   "h": "Acceso libre todo el año; consultar estado de las pistas en invierno",
+   "h_en": "Free access year-round; check track conditions in winter",
+   "i": "Ideal si te gusta la alta montaña, el senderismo y la fauna salvaje.",
+   "i_en": "Ideal if you like high mountains, hiking and wildlife."
+  },
+  "pal_curavacas": {
+   "id": "pal_curavacas",
+   "d": "El Curavacas es la montaña más carismática de Palencia, una imponente mole de conglomerado rojizo con paredes verticales y un origen glaciar visible en su circo y su laguna. Su ascensión, exigente y aérea, es un clásico del montañismo del norte de Castilla, con vistas inmensas sobre Fuentes Carrionas.",
+   "d_en": "Curavacas is the most charismatic mountain in Palencia, an imposing mass of reddish conglomerate with vertical walls and a glacial origin visible in its cirque and lake. Its demanding, airy ascent is a classic of northern Castilian mountaineering, with vast views over Fuentes Carrionas.",
+   "h": "Acceso libre; ascensión recomendada de junio a octubre",
+   "h_en": "Free access; ascent recommended June to October",
+   "i": "Ideal si te gusta el montañismo exigente y los paisajes glaciares.",
+   "i_en": "Ideal if you like demanding mountaineering and glacial landscapes."
+  },
+  "pal_canal_castilla": {
+   "id": "pal_canal_castilla",
+   "d": "Gran vía navegable proyectada en el siglo XVIII para transportar el grano castellano, recorre más de 200 km entre Palencia, Burgos y Valladolid. La cuádruple esclusa de Frómista es una de sus obras de ingeniería más admiradas; sus caminos de sirga son hoy paraíso de senderistas, ciclistas y aves acuáticas.",
+   "d_en": "A great navigable waterway designed in the 18th century to transport Castilian grain, running over 200 km between Palencia, Burgos and Valladolid. The quadruple lock at Frómista is one of its most admired engineering works; its towpaths are now a haven for hikers, cyclists and waterbirds.",
+   "h": "Caminos de sirga acceso libre 24 h",
+   "h_en": "Towpaths open access 24 h",
+   "i": "Ideal si te gusta el patrimonio industrial, el cicloturismo y los paseos junto al agua.",
+   "i_en": "Ideal if you like industrial heritage, cycling and waterside walks."
+  },
+  "pal_las_tuerces": {
+   "id": "pal_las_tuerces",
+   "d": "Monumento natural cerca de Villaescusa de las Torres donde la erosión ha modelado un espectacular conjunto de callejones, arcos y setas de piedra caliza. Un sencillo sendero circular permite adentrarse en esta 'ciudad de piedra' y asomarse al cañón del río Pisuerga desde sus miradores.",
+   "d_en": "A natural monument near Villaescusa de las Torres where erosion has shaped a spectacular set of alleys, arches and limestone mushroom rocks. An easy circular trail lets you explore this 'stone city' and look out over the Pisuerga river canyon from its viewpoints.",
+   "h": "Acceso libre todo el año",
+   "h_en": "Free access year-round",
+   "i": "Ideal si te gusta la geología, los paisajes kársticos y las rutas fáciles.",
+   "i_en": "Ideal if you like geology, karst landscapes and easy trails."
+  },
+  "pal_covalagua": {
+   "id": "pal_covalagua",
+   "d": "En el páramo de La Lora, Covalagua reúne el nacimiento de un arroyo que forma una cascada, una cueva visitable y el impresionante mirador de Valcabado, asomado a un cortado de más de 200 metros sobre el valle de Valderredible. Un rincón sorprendente del norte palentino.",
+   "d_en": "On the La Lora moorland, Covalagua brings together the source of a stream that forms a waterfall, a visitable cave and the impressive Valcabado viewpoint, perched over a cliff more than 200 metres above the Valderredible valley. A surprising corner of northern Palencia.",
+   "h": "Paraje acceso libre; cueva con visitas guiadas en temporada",
+   "h_en": "Site free access; cave with guided visits in season",
+   "i": "Ideal si te gusta las cascadas, los miradores y la naturaleza kárstica.",
+   "i_en": "Ideal if you like waterfalls, viewpoints and karst nature."
+  },
+  "pal_cueva_franceses": {
+   "id": "pal_cueva_franceses",
+   "d": "Situada en el páramo de La Lora, cerca de Covalagua, esta cavidad ofrece una visita guiada por salas repletas de estalactitas, estalagmitas y columnas iluminadas. Su nombre proviene de la leyenda de unos soldados franceses arrojados a su interior durante la Guerra de la Independencia.",
+   "d_en": "Located on the La Lora moorland near Covalagua, this cavity offers a guided tour through halls full of illuminated stalactites, stalagmites and columns. Its name comes from the legend of French soldiers thrown inside during the Peninsular War.",
+   "h": "Visitas guiadas Mar-Dom en horarios fijos (consultar y reservar)",
+   "h_en": "Guided visits Tue-Sun at set times (check and book)",
+   "i": "Ideal si te gusta las cuevas, la espeleología suave y las leyendas.",
+   "i_en": "Ideal if you like caves, gentle speleology and legends."
+  },
+  "pal_barco_canal": {
+   "id": "pal_barco_canal",
+   "d": "Desde puntos como Villaumbrales, sede del Museo del Canal de Castilla, o Herrera de Pisuerga, se pueden hacer travesías turísticas en barcos como el 'Marqués de la Ensenada' o el 'Juan de Homar', disfrutando del paisaje ribereño, las esclusas y la historia de esta gran obra hidráulica de forma relajada.",
+   "d_en": "From points such as Villaumbrales, home of the Canal de Castilla Museum, or Herrera de Pisuerga, you can take sightseeing trips on boats like the 'Marqués de la Ensenada' or the 'Juan de Homar', enjoying the riverside scenery, the locks and the history of this great waterway in a relaxed way.",
+   "h": "Temporada primavera-otoño, fines de semana y festivos (consultar y reservar)",
+   "h_en": "Spring-autumn season, weekends and holidays (check and book)",
+   "i": "Ideal si te gusta los paseos en barco tranquilos y el turismo familiar.",
+   "i_en": "Ideal if you like calm boat rides and family-friendly tourism."
+  },
+  "pal_via_verde_tren_burra": {
+   "id": "pal_via_verde_tren_burra",
+   "d": "Trazado del histórico ferrocarril 'Tren Burra' que unía la Montaña Palentina, hoy acondicionado como vía verde de firme llano y suave que atraviesa las comarcas de la Ojeda y el Boedo entre bosques, pueblos con románico y estaciones recuperadas. Perfecta para familias, senderistas y cicloturistas.",
+   "d_en": "Route of the historic 'Tren Burra' railway that linked the Palentine Mountains, now converted into a flat, gentle greenway crossing the Ojeda and Boedo districts among woods, Romanesque villages and restored stations. Perfect for families, hikers and cyclists.",
+   "h": "Acceso libre todo el año",
+   "h_en": "Free access year-round",
+   "i": "Ideal si te gusta el cicloturismo, caminar en familia y las vías verdes.",
+   "i_en": "Ideal if you like cycling, family walks and greenways."
+  },
+  "pal_asador_encina": {
+   "id": "pal_asador_encina",
+   "d": "Institución de la capital, célebre por elaborar una de las mejores tortillas de patata de España, jugosa y meliflua, y por su lechazo churro asado en horno de leña. Cocina castellana de producto, ambiente tradicional y buena carta de vinos de la Ribera y del Cerrato.",
+   "d_en": "A city institution, renowned for making one of the best potato omelettes in Spain, juicy and creamy, and for its churro suckling lamb roasted in a wood-fired oven. Castilian produce-driven cuisine, a traditional atmosphere and a good list of Ribera and Cerrato wines.",
+   "h": "Mar-Dom 13:30–16:00 y 21:00–23:00 (consultar cierre semanal)",
+   "h_en": "Tue-Sun 13:30–16:00 and 21:00–23:00 (check weekly closing)",
+   "i": "Ideal si te gusta el asado castellano y la tortilla de patata de leyenda.",
+   "i_en": "Ideal if you like Castilian roasts and legendary potato omelette."
+  },
+  "pal_casa_damian": {
+   "id": "pal_casa_damian",
+   "d": "Restaurante veterano del centro de Palencia, muy reconocido por su menestra de verduras de Tierra de Campos, elaborada con producto de temporada, y por su recetario castellano de cuchara y asados. Cocina honesta y tradicional que resume el sabor de la huerta y la meseta.",
+   "d_en": "A veteran restaurant in central Palencia, highly regarded for its Tierra de Campos vegetable menestra made with seasonal produce, and for its Castilian stews and roasts. Honest, traditional cooking that captures the flavour of the vegetable gardens and the plateau.",
+   "h": "Mar-Dom comidas; cenas fines de semana (consultar)",
+   "h_en": "Tue-Sun lunch; dinner at weekends (check)",
+   "i": "Ideal si te gusta la cocina tradicional de verduras y de cuchara.",
+   "i_en": "Ideal if you like traditional vegetable dishes and hearty stews."
+  },
+  "pal_hosteria_palmeros": {
+   "id": "pal_hosteria_palmeros",
+   "d": "Ubicada en un antiguo hospital de peregrinos frente a la plaza de San Telmo, ofrece una cocina castellana cuidada con guiños al recetario del Camino: sopas, legumbres, lechazo y postres caseros. Parada ideal para reponer fuerzas tras visitar San Martín de Tours.",
+   "d_en": "Set in a former pilgrims' hospital facing San Telmo square, it offers refined Castilian cooking with nods to Camino recipes: soups, pulses, roast lamb and homemade desserts. An ideal stop to recharge after visiting San Martín de Tours.",
+   "h": "Todos los días comidas; cenas según temporada (consultar)",
+   "h_en": "Daily lunch; dinner depending on season (check)",
+   "i": "Ideal si te gusta la cocina del Camino y comer junto al románico.",
+   "i_en": "Ideal if you like Camino cuisine and dining next to Romanesque art."
+  },
+  "pal_meson_aguilar": {
+   "id": "pal_meson_aguilar",
+   "d": "En pleno Aguilar de Campoo, sirve una cocina castellana de montaña basada en producto local: lechazo asado, guisos de caza en temporada, setas del norte palentino y postres con las famosas galletas de la villa. Buen punto de partida gastronómico para recorrer el románico del norte.",
+   "d_en": "In the heart of Aguilar de Campoo, it serves Castilian mountain cuisine based on local produce: roast lamb, game stews in season, wild mushrooms from northern Palencia and desserts made with the town's famous biscuits. A good gastronomic base for touring the northern Romanesque.",
+   "h": "Mar-Dom comidas y cenas (consultar cierre semanal)",
+   "h_en": "Tue-Sun lunch and dinner (check weekly closing)",
+   "i": "Ideal si te gusta el lechazo, la caza y la cocina de montaña.",
+   "i_en": "Ideal if you like roast lamb, game and mountain cuisine."
+  }
+ },
+ "food": {
+  "pal_asador_encina": {
+   "cuisine": "Castellana, asador de leña",
+   "price": "30–45 €",
+   "hours": "Mar-Dom 13:30–16:00 y 21:00–23:00"
+  },
+  "pal_casa_damian": {
+   "cuisine": "Castellana tradicional, menestra",
+   "price": "28–40 €",
+   "hours": "Mar-Dom 13:30–16:00; cenas fin de semana 21:00–23:00"
+  },
+  "pal_hosteria_palmeros": {
+   "cuisine": "Castellana, cocina del Camino",
+   "price": "25–40 €",
+   "hours": "13:30–15:30 diario; cenas 20:30–22:30 según temporada"
+  },
+  "pal_meson_aguilar": {
+   "cuisine": "Castellana de montaña, asador",
+   "price": "28–45 €",
+   "hours": "Mar-Dom 13:30–16:00 y 21:00–23:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Palencia",
+   "items": [
+    {
+     "name": "Amarguillos de Palencia",
+     "price": "6–12 €",
+     "desc": "Pastas artesanas de almendra amarga, dulce típico palentino ideal para llevar."
+    },
+    {
+     "name": "Queso de oveja de Tierra de Campos",
+     "price": "10–20 €",
+     "desc": "Queso curado de leche cruda de oveja churra, sabor intenso y curación castellana."
+    },
+    {
+     "name": "Manta palentina de lana",
+     "price": "40–90 €",
+     "desc": "Textil tradicional de lana virgen tejido en la comarca del Cerrato y Saldaña."
+    },
+    {
+     "name": "Legumbres de Saldaña y Tierra de Campos",
+     "price": "4–9 €",
+     "desc": "Alubias, lentejas y garbanzos de secano, base de la cocina de cuchara palentina."
+    }
+   ],
+   "shops": [
+    "Confitería La Rueda (Calle Mayor, Palencia)",
+    "Mercado de Abastos de Palencia (Plaza del Abastos)",
+    "Tiendas gourmet de la Calle Mayor Principal",
+    "Fábrica de galletas Gullón / tienda outlet (Aguilar de Campoo)"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Recorre el Románico Palentino en coche: Aguilar, Frómista y Villalcázar quedan cerca entre sí y forman una ruta perfecta de un día.",
+   "Llévate ropa de abrigo si subes a la Montaña Palentina: incluso en verano el Curavacas y Fuentes Carrionas refrescan mucho por la tarde.",
+   "Reserva con antelación la visita guiada a la Cueva de los Franceses; el aforo es limitado y en puentes se agota.",
+   "Prueba la menestra de verduras y el lechazo asado en un asador de la capital: son los dos platos estrella de Palencia.",
+   "Aprovecha las esclusas y dársenas del Canal de Castilla para pasear o pedalear por sus caminos de sirga, llanos y muy tranquilos."
+  ],
+  "en": [
+   "Tour the Palentine Romanesque by car: Aguilar, Frómista and Villalcázar are close together and make a perfect one-day route.",
+   "Bring warm clothing if you head into the Palentine Mountains: even in summer Curavacas and Fuentes Carrionas cool down sharply in the afternoon.",
+   "Book the guided visit to the Cueva de los Franceses in advance; capacity is limited and it sells out on long weekends.",
+   "Try the vegetable menestra and roast suckling lamb at a grill house in the capital: they are Palencia's two signature dishes.",
+   "Make the most of the locks and basins of the Canal de Castilla to stroll or cycle along its flat, quiet towpaths."
+  ]
+ },
+ "climate": {
+  "hi": [
+   8,
+   11,
+   15,
+   17,
+   21,
+   27,
+   30,
+   30,
+   26,
+   18,
+   12,
+   8
+  ],
+  "lo": [
+   -1,
+   0,
+   2,
+   4,
+   7,
+   11,
+   13,
+   13,
+   10,
+   6,
+   2,
+   0
+  ]
+ },
+ "tr": {
+  "Gran catedral gótica apodada 'La Bella Desconocida' por su valor poco divulgado.": "Great Gothic cathedral nicknamed 'The Beautiful Unknown' for its underrated grandeur.",
+  "Colosal Cristo de hormigón de Victorio Macho sobre un cerro con vistas a la ciudad.": "Colossal concrete Christ by Victorio Macho on a hill overlooking the city.",
+  "Elegante calle porticada, corazón comercial y social de la capital.": "Elegant arcaded street, the commercial and social heart of the capital.",
+  "Monasterio románico y sede del centro de estudios del Románico Palentino.": "Romanesque monastery and home of the Palentine Romanesque study centre.",
+  "Joya del románico pleno europeo en pleno Camino de Santiago.": "A jewel of full European Romanesque right on the Camino de Santiago.",
+  "Imponente templo de transición románico-gótico ligado a los Templarios.": "Imposing Romanesque-Gothic transitional church linked to the Templars.",
+  "Iglesia visigoda del siglo VII, una de las más antiguas de España.": "7th-century Visigothic church, one of the oldest in Spain.",
+  "Uno de los pueblos más bonitos de España, con calles porticadas y castillo.": "One of Spain's prettiest villages, with arcaded streets and a castle.",
+  "Villa medieval amurallada, capital del Románico y de las galletas.": "Walled medieval town, capital of the Romanesque and of biscuits.",
+  "Cuna de los Berruguete, con un museo de arte sacro en su iglesia.": "Birthplace of the Berruguete family, with a sacred-art museum in its church.",
+  "Corazón de la Montaña Palentina, refugio del oso pardo y el urogallo.": "Heart of the Palentine Mountains, refuge of the brown bear and capercaillie.",
+  "Emblemática cima de conglomerado de 2.524 m en la Montaña Palentina.": "Iconic 2,524 m conglomerate summit in the Palentine Mountains.",
+  "Obra hidráulica ilustrada del siglo XVIII con esclusas navegables.": "18th-century Enlightenment waterway with navigable locks.",
+  "Laberinto kárstico de rocas calizas esculpidas por la erosión.": "Karst maze of limestone rocks sculpted by erosion.",
+  "Paraje kárstico con cascada, cueva y un mirador de vértigo.": "Karst site with a waterfall, a cave and a dizzying viewpoint.",
+  "Cueva turística de estalactitas con leyenda de la Guerra de la Independencia.": "Tourist cave of stalactites with a War of Independence legend.",
+  "Navegación turística por el histórico canal en barcos tradicionales.": "Sightseeing cruise along the historic canal in traditional boats.",
+  "Antigua vía férrea reconvertida en ruta para andar y pedalear.": "Former railway line converted into a walking and cycling route.",
+  "Asador clásico de Palencia famoso por su tortilla de patata y el lechazo.": "Classic Palencia grill house famous for its potato omelette and roast lamb.",
+  "Referente histórico de la menestra de verduras palentina.": "Historic reference for Palencia's vegetable menestra.",
+  "Cocina castellana junto al románico de Frómista y el Camino.": "Castilian cuisine beside Frómista's Romanesque church and the Camino.",
+  "Cocina de la Montaña Palentina con lechazo y platos de caza.": "Palentine Mountain cuisine with roast lamb and game dishes.",
+  "Palencia": "Palencia"
+ }
+}

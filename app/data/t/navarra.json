@@ -1,0 +1,615 @@
+{
+ "id": "navarra",
+ "name": "Navarra",
+ "country": "ES",
+ "center": [
+  42.81687,
+  -1.64323
+ ],
+ "pois": [
+  {
+   "id": "nav_casco_viejo",
+   "cat": "monuments",
+   "name": "Casco Viejo de Pamplona",
+   "icon": "🏛️",
+   "lat": 42.81687,
+   "lng": -1.64323,
+   "desc": "Laberinto medieval de calles con la Plaza del Castillo como corazón."
+  },
+  {
+   "id": "nav_catedral_pamplona",
+   "cat": "monuments",
+   "name": "Catedral de Santa María la Real",
+   "icon": "⛪",
+   "lat": 42.81897,
+   "lng": -1.64,
+   "desc": "Catedral gótica con uno de los claustros más bellos de Europa."
+  },
+  {
+   "id": "nav_ciudadela",
+   "cat": "monuments",
+   "name": "Ciudadela de Pamplona",
+   "icon": "🏰",
+   "lat": 42.81238,
+   "lng": -1.64766,
+   "desc": "Fortaleza renacentista pentagonal rodeada de zonas verdes."
+  },
+  {
+   "id": "nav_plaza_toros",
+   "cat": "monuments",
+   "name": "Plaza de Toros de Pamplona",
+   "icon": "🐂",
+   "lat": 42.81793,
+   "lng": -1.63869,
+   "desc": "Final del encierro de San Fermín y coso taurino histórico."
+  },
+  {
+   "id": "nav_palacio_olite",
+   "cat": "monuments",
+   "name": "Palacio Real de Olite",
+   "icon": "🏰",
+   "lat": 42.48047,
+   "lng": -1.64949,
+   "desc": "Espectacular castillo gótico de torres y patios de cuento."
+  },
+  {
+   "id": "nav_roncesvalles",
+   "cat": "monuments",
+   "name": "Real Colegiata de Roncesvalles",
+   "icon": "⛪",
+   "lat": 43.0092,
+   "lng": -1.3196,
+   "desc": "Conjunto gótico y mítica puerta del Camino de Santiago."
+  },
+  {
+   "id": "nav_leyre",
+   "cat": "monuments",
+   "name": "Monasterio de San Salvador de Leyre",
+   "icon": "⛪",
+   "lat": 42.6268,
+   "lng": -1.183,
+   "desc": "Monasterio románico con cripta única y cantos gregorianos."
+  },
+  {
+   "id": "nav_ujue",
+   "cat": "monuments",
+   "name": "Ujué",
+   "icon": "🏘️",
+   "lat": 42.5123,
+   "lng": -1.5023,
+   "desc": "Pueblo medieval fortificado con santuario e imponentes vistas."
+  },
+  {
+   "id": "nav_estella",
+   "cat": "monuments",
+   "name": "Estella-Lizarra",
+   "icon": "🏛️",
+   "lat": 42.6716,
+   "lng": -2.0323,
+   "desc": "Villa jacobea con palacios románicos e iglesias monumentales."
+  },
+  {
+   "id": "nav_ochagavia",
+   "cat": "monuments",
+   "name": "Ochagavía",
+   "icon": "🏘️",
+   "lat": 42.9093,
+   "lng": -1.0813,
+   "desc": "Pueblo pirenaico de casas de piedra y puente medieval."
+  },
+  {
+   "id": "nav_zugarramurdi",
+   "cat": "monuments",
+   "name": "Cuevas de Zugarramurdi",
+   "icon": "🧙",
+   "lat": 43.2776,
+   "lng": -1.5317,
+   "desc": "Cuevas legendarias de brujas y akelarres del Baztán."
+  },
+  {
+   "id": "nav_bardenas",
+   "cat": "nature",
+   "name": "Bardenas Reales",
+   "icon": "🏜️",
+   "lat": 42.1943,
+   "lng": -1.4785,
+   "desc": "Semidesierto de cárcavas y cabezos como el Castildetierra."
+  },
+  {
+   "id": "nav_irati",
+   "cat": "nature",
+   "name": "Selva de Irati",
+   "icon": "🌲",
+   "lat": 42.976,
+   "lng": -1.1,
+   "desc": "Uno de los mayores hayedos-abetales de Europa."
+  },
+  {
+   "id": "nav_foz_lumbier",
+   "cat": "nature",
+   "name": "Foz de Lumbier",
+   "icon": "🏞️",
+   "lat": 42.6544,
+   "lng": -1.3109,
+   "desc": "Cañón fluvial con antiguo túnel de tren y buitres."
+  },
+  {
+   "id": "nav_foz_arbayun",
+   "cat": "nature",
+   "name": "Foz de Arbayún",
+   "icon": "🦅",
+   "lat": 42.6839,
+   "lng": -1.2296,
+   "desc": "Gran cañón calizo y mirador con colonia de buitres."
+  },
+  {
+   "id": "nav_cascada_cubo",
+   "cat": "nature",
+   "name": "Cascada del Cubo",
+   "icon": "💧",
+   "lat": 42.935,
+   "lng": -1.08,
+   "desc": "Salto de agua escondido en el corazón de la Selva de Irati."
+  },
+  {
+   "id": "nav_urederra",
+   "cat": "nature",
+   "name": "Nacedero del Urederra",
+   "icon": "🏞️",
+   "lat": 42.7908,
+   "lng": -2.1538,
+   "desc": "Pozas turquesa y cascadas de aguas cristalinas."
+  },
+  {
+   "id": "nav_museo_navarra",
+   "cat": "ocio",
+   "name": "Museo de Navarra",
+   "icon": "🖼️",
+   "lat": 42.8204,
+   "lng": -1.6456,
+   "desc": "Arte e historia de Navarra desde la prehistoria a hoy."
+  },
+  {
+   "id": "nav_planetario",
+   "cat": "ocio",
+   "name": "Planetario de Pamplona",
+   "icon": "🪐",
+   "lat": 42.809,
+   "lng": -1.6576,
+   "desc": "Uno de los mayores planetarios de España, con cúpula inmersiva."
+  },
+  {
+   "id": "nav_sendaviva",
+   "cat": "ocio",
+   "name": "Sendaviva",
+   "icon": "🎢",
+   "lat": 42.2013,
+   "lng": -1.5184,
+   "desc": "Parque de naturaleza, animales y atracciones junto a las Bardenas."
+  },
+  {
+   "id": "nav_ruta_vino",
+   "cat": "ocio",
+   "name": "Ruta del Vino de Navarra",
+   "icon": "🍷",
+   "lat": 42.482,
+   "lng": -1.652,
+   "desc": "Bodegas y viñedos de la DO Navarra en torno a Olite."
+  },
+  {
+   "id": "nav_puente_reina",
+   "cat": "ocio",
+   "name": "Puente la Reina",
+   "icon": "🌉",
+   "lat": 42.6723,
+   "lng": -1.8146,
+   "desc": "Puente románico donde confluyen los caminos jacobeos."
+  },
+  {
+   "id": "nav_pintxos_estafeta",
+   "cat": "food",
+   "name": "Pintxos en la Calle Estafeta",
+   "icon": "🍢",
+   "lat": 42.8183,
+   "lng": -1.6401,
+   "desc": "Ruta de pintxos por el corazón del Casco Viejo."
+  },
+  {
+   "id": "nav_cafe_iruna",
+   "cat": "food",
+   "name": "Café Iruña",
+   "icon": "☕",
+   "lat": 42.8173,
+   "lng": -1.6436,
+   "desc": "Café histórico de 1888 en la Plaza del Castillo."
+  },
+  {
+   "id": "nav_verduras_tudela",
+   "cat": "food",
+   "name": "Verduras de la Ribera (Tudela)",
+   "icon": "🥬",
+   "lat": 42.0658,
+   "lng": -1.6066,
+   "desc": "La mejor huerta de Navarra: alcachofas, espárragos y borraja."
+  },
+  {
+   "id": "nav_quesos_roncal",
+   "cat": "food",
+   "name": "Quesería del Valle del Roncal",
+   "icon": "🧀",
+   "lat": 42.805,
+   "lng": -0.9433,
+   "desc": "Queso Roncal DO de oveja en su valle pirenaico de origen."
+  }
+ ],
+ "extra": {
+  "nav_casco_viejo": {
+   "id": "nav_casco_viejo",
+   "d": "El casco antiguo de Pamplona conserva su trazado medieval con la Plaza del Castillo, la calle Estafeta del encierro, murallas y rincones llenos de historia y ambiente de pintxos.",
+   "d_en": "Pamplona's old town keeps its medieval layout with the Plaza del Castillo, the running-of-the-bulls Estafeta street, city walls and corners full of history and pintxo bars.",
+   "h": "Acceso libre todo el día",
+   "h_en": "Free access all day",
+   "i": "Ideal si te gusta pasear por cascos históricos con vida y tapear.",
+   "i_en": "Ideal if you like strolling lively historic centers and grazing on tapas."
+  },
+  "nav_catedral_pamplona": {
+   "id": "nav_catedral_pamplona",
+   "d": "Templo gótico del siglo XV con fachada neoclásica, sepulcro de los reyes de Navarra y un espléndido claustro. El museo Occidens ocupa sus dependencias medievales.",
+   "d_en": "A 15th-century Gothic church with a neoclassical facade, the tomb of Navarre's kings and a splendid cloister. The Occidens museum occupies its medieval halls.",
+   "h": "Lun–sáb 10:30–19:00 (varía por temporada)",
+   "h_en": "Mon–Sat 10:30–19:00 (seasonal)",
+   "i": "Ideal si te gusta el arte gótico y los claustros medievales.",
+   "i_en": "Ideal if you love Gothic art and medieval cloisters."
+  },
+  "nav_ciudadela": {
+   "id": "nav_ciudadela",
+   "d": "Fortificación abaluartada del siglo XVI, considerada de las mejores de España. Hoy es un parque cultural con salas de exposiciones y amplios espacios verdes para pasear.",
+   "d_en": "A 16th-century bastioned fortress, among Spain's finest. Today it is a cultural park with exhibition halls and wide green spaces for walking.",
+   "h": "Parque acceso libre; salas mar–sáb 18:30–20:30",
+   "h_en": "Park free access; halls Tue–Sat 18:30–20:30",
+   "i": "Ideal si te gustan las fortalezas históricas y los parques urbanos.",
+   "i_en": "Ideal if you enjoy historic fortresses and urban parks."
+  },
+  "nav_plaza_toros": {
+   "id": "nav_plaza_toros",
+   "d": "Una de las plazas de toros más grandes del mundo y meta del célebre encierro. Junto a ella está el monumento al Encierro y la estatua de Hemingway.",
+   "d_en": "One of the world's largest bullrings and the finish of the famous bull run. Nearby stand the Encierro monument and the Hemingway statue.",
+   "h": "Visitas guiadas diarias (consultar horarios)",
+   "h_en": "Daily guided tours (check schedule)",
+   "i": "Ideal si te gusta la cultura de San Fermín y la historia local.",
+   "i_en": "Ideal if you're drawn to San Fermín culture and local history."
+  },
+  "nav_palacio_olite": {
+   "id": "nav_palacio_olite",
+   "d": "Antigua residencia de los reyes de Navarra, este palacio del siglo XV con múltiples torres, patios y jardines colgantes es uno de los conjuntos góticos civiles más notables de Europa.",
+   "d_en": "Former residence of Navarre's kings, this 15th-century palace of many towers, courtyards and hanging gardens is one of Europe's most remarkable civil Gothic ensembles.",
+   "h": "Diario 10:00–19:00 (varía por temporada)",
+   "h_en": "Daily 10:00–19:00 (seasonal)",
+   "i": "Ideal si te gustan los castillos de cuento y la historia medieval.",
+   "i_en": "Ideal if you love fairy-tale castles and medieval history."
+  },
+  "nav_roncesvalles": {
+   "id": "nav_roncesvalles",
+   "d": "Enclave pirenaico ligado a la leyenda de Roldán y punto de partida del Camino Francés en España. La colegiata gótica y su claustro guardan siglos de historia jacobea.",
+   "d_en": "A Pyrenean site tied to the legend of Roland and the starting point of the French Way in Spain. The Gothic collegiate church and cloister hold centuries of pilgrim history.",
+   "h": "Diario 10:00–14:00 y 15:30–19:00",
+   "h_en": "Daily 10:00–14:00 and 15:30–19:00",
+   "i": "Ideal si te gusta el Camino de Santiago y las leyendas medievales.",
+   "i_en": "Ideal if you're interested in the Camino de Santiago and medieval legends."
+  },
+  "nav_leyre": {
+   "id": "nav_leyre",
+   "d": "Panteón de los reyes de Navarra, este monasterio benedictino del siglo XI tiene una cripta románica excepcional y ofrece cantos gregorianos de su comunidad monástica.",
+   "d_en": "Pantheon of Navarre's kings, this 11th-century Benedictine monastery has an exceptional Romanesque crypt and offers Gregorian chant from its resident monks.",
+   "h": "Diario 10:15–19:00 (varía por temporada)",
+   "h_en": "Daily 10:15–19:00 (seasonal)",
+   "i": "Ideal si te gusta el arte románico y el recogimiento monástico.",
+   "i_en": "Ideal if you appreciate Romanesque art and monastic calm."
+  },
+  "nav_ujue": {
+   "id": "nav_ujue",
+   "d": "Uno de los pueblos más bellos de Navarra, coronado por la iglesia-fortaleza de Santa María. Sus calles empedradas y sus migas de pastor son toda una experiencia.",
+   "d_en": "One of Navarre's prettiest villages, crowned by the fortress-church of Santa María. Its cobbled streets and shepherd's migas are an experience in themselves.",
+   "h": "Acceso libre; iglesia horarios variables",
+   "h_en": "Free access; church hours vary",
+   "i": "Ideal si te gustan los pueblos medievales con encanto y vistas.",
+   "i_en": "Ideal if you love charming medieval villages with views."
+  },
+  "nav_estella": {
+   "id": "nav_estella",
+   "d": "Conocida como la Toledo del Norte, esta villa del Camino conserva un notable patrimonio románico como el Palacio de los Reyes de Navarra y la iglesia de San Pedro de la Rúa.",
+   "d_en": "Known as the Toledo of the North, this Camino town preserves notable Romanesque heritage such as the Palace of the Kings of Navarre and the church of San Pedro de la Rúa.",
+   "h": "Acceso libre; monumentos horarios variables",
+   "h_en": "Free access; monument hours vary",
+   "i": "Ideal si te gusta el arte románico y las villas del Camino.",
+   "i_en": "Ideal if you enjoy Romanesque art and Camino towns."
+  },
+  "nav_ochagavia": {
+   "id": "nav_ochagavia",
+   "d": "Uno de los pueblos con más encanto del Pirineo navarro, con sus calles empedradas, casonas de piedra y pizarra y un puente medieval sobre el río Anduña. Puerta de la Selva de Irati.",
+   "d_en": "One of the most charming villages of the Navarrese Pyrenees, with cobbled streets, stone-and-slate houses and a medieval bridge over the Anduña. Gateway to the Irati Forest.",
+   "h": "Acceso libre todo el día",
+   "h_en": "Free access all day",
+   "i": "Ideal si te gustan los pueblos de montaña y el turismo rural.",
+   "i_en": "Ideal if you love mountain villages and rural tourism."
+  },
+  "nav_zugarramurdi": {
+   "id": "nav_zugarramurdi",
+   "d": "Grutas naturales asociadas a los famosos juicios de brujería del siglo XVII. Un arroyo atraviesa la gran cueva donde se celebraban akelarres; junto a ella está el Museo de las Brujas.",
+   "d_en": "Natural caves tied to the famous 17th-century witch trials. A stream runs through the great cavern where covens gathered; the Witch Museum stands nearby.",
+   "h": "Diario 11:00–18:30 (varía por temporada)",
+   "h_en": "Daily 11:00–18:30 (seasonal)",
+   "i": "Ideal si te gustan las leyendas, la brujería y la naturaleza.",
+   "i_en": "Ideal if you like legends, witchcraft lore and nature."
+  },
+  "nav_bardenas": {
+   "id": "nav_bardenas",
+   "d": "Reserva de la Biosfera de aspecto lunar, con barrancos, mesetas y formaciones de arcilla como el icónico Castildetierra. Se recorre en coche, bici o a pie por sus pistas.",
+   "d_en": "A lunar-looking Biosphere Reserve of ravines, plateaus and clay formations like the iconic Castildetierra. Explore its tracks by car, bike or on foot.",
+   "h": "Diario del amanecer al atardecer",
+   "h_en": "Daily from sunrise to sunset",
+   "i": "Ideal si te gustan los paisajes desérticos y la fotografía.",
+   "i_en": "Ideal if you love desert landscapes and photography."
+  },
+  "nav_irati": {
+   "id": "nav_irati",
+   "d": "Extenso bosque atlántico de hayas y abetos, espectacular en otoño con sus tonos rojizos. El embalse de Irabia y numerosos senderos invitan a recorrerlo a pie o en bici.",
+   "d_en": "A vast Atlantic forest of beech and fir, spectacular in autumn with its reddish hues. The Irabia reservoir and many trails invite you to explore on foot or by bike.",
+   "h": "Acceso libre; centros de info diurnos",
+   "h_en": "Free access; info centers open daytime",
+   "i": "Ideal si te gusta el senderismo y los bosques de otoño.",
+   "i_en": "Ideal if you love hiking and autumn forests."
+  },
+  "nav_foz_lumbier": {
+   "id": "nav_foz_lumbier",
+   "d": "Estrecho desfiladero excavado por el río Irati, recorrible por una senda que atraviesa túneles del antiguo tren Irati. Refugio de buitres leonados y aves rapaces.",
+   "d_en": "A narrow gorge carved by the Irati river, walkable via a path through tunnels of the old Irati railway. A refuge for griffon vultures and birds of prey.",
+   "h": "Acceso libre; parking diurno",
+   "h_en": "Free access; car park open daytime",
+   "i": "Ideal si te gusta el senderismo fácil y la observación de aves.",
+   "i_en": "Ideal if you like easy hikes and birdwatching."
+  },
+  "nav_foz_arbayun": {
+   "id": "nav_foz_arbayun",
+   "d": "El desfiladero más espectacular de Navarra, excavado por el río Salazar. Desde el mirador de Iso se contempla su imponente garganta y una de las mayores colonias de buitres del sur de Europa.",
+   "d_en": "Navarre's most spectacular gorge, carved by the Salazar river. From the Iso viewpoint you can admire its imposing ravine and one of southern Europe's largest vulture colonies.",
+   "h": "Mirador acceso libre todo el día",
+   "h_en": "Viewpoint free access all day",
+   "i": "Ideal si te gustan los miradores impresionantes y las aves.",
+   "i_en": "Ideal if you love dramatic viewpoints and birds."
+  },
+  "nav_cascada_cubo": {
+   "id": "nav_cascada_cubo",
+   "d": "Bonita cascada a la que se accede por un sendero temático desde Ochagavía, entre hayedos frondosos. Especialmente vistosa tras las lluvias y en el deshielo.",
+   "d_en": "A pretty waterfall reached by a themed trail from Ochagavía through lush beech woods. Especially striking after rain and during snowmelt.",
+   "h": "Acceso libre; recomendable de día",
+   "h_en": "Free access; best in daylight",
+   "i": "Ideal si te gustan las rutas a cascadas y el bosque.",
+   "i_en": "Ideal if you enjoy waterfall hikes and forest walks."
+  },
+  "nav_urederra": {
+   "id": "nav_urederra",
+   "d": "Nacimiento del río Urederra en la sierra de Urbasa, un paraje protegido de pozas de un intenso color turquesa y cascadas. Requiere reserva previa para su acceso.",
+   "d_en": "The source of the Urederra river in the Urbasa range, a protected spot of intensely turquoise pools and waterfalls. Advance booking is required for access.",
+   "h": "Acceso con reserva; horario diurno",
+   "h_en": "Access by booking; daytime hours",
+   "i": "Ideal si te gustan los paisajes de agua y la fotografía natural.",
+   "i_en": "Ideal if you love water landscapes and nature photography."
+  },
+  "nav_museo_navarra": {
+   "id": "nav_museo_navarra",
+   "d": "Instalado en un antiguo hospital renacentista, recorre mosaicos romanos, arte medieval, la arqueta islámica de Leyre y obras como el retrato del Marqués de San Adrián de Goya.",
+   "d_en": "Housed in a former Renaissance hospital, it spans Roman mosaics, medieval art, the Islamic casket of Leyre and works such as Goya's portrait of the Marquis of San Adrián.",
+   "h": "Mar–sáb 9:30–14:00 y 17:00–19:00; dom 11:00–14:00",
+   "h_en": "Tue–Sat 9:30–14:00 and 17:00–19:00; Sun 11:00–14:00",
+   "i": "Ideal si te gusta el arte, la arqueología y la historia.",
+   "i_en": "Ideal if you enjoy art, archaeology and history."
+  },
+  "nav_planetario": {
+   "id": "nav_planetario",
+   "d": "Centro de divulgación astronómica con proyecciones inmersivas en su gran cúpula, exposiciones interactivas y actividades para todas las edades en el parque de Yamaguchi.",
+   "d_en": "An astronomy center with immersive dome projections, interactive exhibitions and activities for all ages, set in Yamaguchi Park.",
+   "h": "Sesiones según programación (consultar)",
+   "h_en": "Sessions per schedule (check listings)",
+   "i": "Ideal si te gusta la astronomía y los planes en familia.",
+   "i_en": "Ideal if you like astronomy and family outings."
+  },
+  "nav_sendaviva": {
+   "id": "nav_sendaviva",
+   "d": "El mayor parque de ocio de Navarra, con más de 200 animales, espectáculos de aves, atracciones y toboganes. Un plan familiar perfecto a las puertas de las Bardenas.",
+   "d_en": "Navarre's largest leisure park, with over 200 animals, bird shows, rides and slides. A perfect family day out at the gateway to the Bardenas.",
+   "h": "Temporada mar–oct (consultar calendario)",
+   "h_en": "Season Mar–Oct (check calendar)",
+   "i": "Ideal si viajas en familia y buscas diversión y animales.",
+   "i_en": "Ideal for families seeking fun and animals."
+  },
+  "nav_ruta_vino": {
+   "id": "nav_ruta_vino",
+   "d": "Itinerario enoturístico con visitas y catas en bodegas históricas de la Denominación de Origen Navarra, famosa por sus rosados de garnacha. Olite es su capital y punto de partida.",
+   "d_en": "A wine-tourism route with visits and tastings at historic wineries of the Navarra Designation of Origin, famed for its garnacha rosés. Olite is its capital and starting point.",
+   "h": "Bodegas con visita previa reserva",
+   "h_en": "Wineries by advance booking",
+   "i": "Ideal si te gusta el enoturismo y las catas de vino.",
+   "i_en": "Ideal if you enjoy wine tourism and tastings."
+  },
+  "nav_puente_reina": {
+   "id": "nav_puente_reina",
+   "d": "Villa jacobea célebre por su elegante puente románico del siglo XI sobre el río Arga, punto de unión del Camino Francés y el Aragonés. Vivo ejemplo de la experiencia peregrina.",
+   "d_en": "A pilgrim town famed for its elegant 11th-century Romanesque bridge over the Arga, where the French and Aragonese Ways merge. A living taste of the pilgrim experience.",
+   "h": "Acceso libre todo el día",
+   "h_en": "Free access all day",
+   "i": "Ideal si te gusta el Camino de Santiago y el patrimonio románico.",
+   "i_en": "Ideal if you're into the Camino de Santiago and Romanesque heritage."
+  },
+  "nav_pintxos_estafeta": {
+   "id": "nav_pintxos_estafeta",
+   "d": "La calle del encierro concentra algunos de los mejores bares de pintxos de Pamplona. Ir de poteo probando bocados creativos y clásicos es un ritual imprescindible.",
+   "d_en": "The bull-run street packs some of Pamplona's best pintxo bars. Bar-hopping while sampling creative and classic bites is an essential ritual.",
+   "h": "Diario 12:00–15:30 y 19:30–23:00",
+   "h_en": "Daily 12:00–15:30 and 19:30–23:00",
+   "i": "Ideal si te gusta el tapeo y la gastronomía informal.",
+   "i_en": "Ideal if you love tapas hopping and casual dining."
+  },
+  "nav_cafe_iruna": {
+   "id": "nav_cafe_iruna",
+   "d": "Emblemático café belle époque frecuentado por Hemingway, con decoración de época y un rincón dedicado al escritor. Perfecto para un café, un vermú o un pintxo con solera.",
+   "d_en": "An emblematic belle époque café frequented by Hemingway, with period decor and a corner devoted to the writer. Perfect for a coffee, vermouth or a pintxo with history.",
+   "h": "Diario 9:00–23:30",
+   "h_en": "Daily 9:00–23:30",
+   "i": "Ideal si te gustan los cafés históricos y el ambiente literario.",
+   "i_en": "Ideal if you love historic cafés and literary atmosphere."
+  },
+  "nav_verduras_tudela": {
+   "id": "nav_verduras_tudela",
+   "d": "Tudela y la Ribera son el paraíso de la verdura. En sus restaurantes se sirven menús de la huerta con alcachofas, espárragos, borraja y pochas cocinados con maestría.",
+   "d_en": "Tudela and the Ribera are a vegetable paradise. Its restaurants serve garden menus of artichokes, asparagus, borage and pochas beans cooked with mastery.",
+   "h": "Restaurantes 13:30–15:30 y 21:00–23:00",
+   "h_en": "Restaurants 13:30–15:30 and 21:00–23:00",
+   "i": "Ideal si te gusta la cocina de mercado y los productos de temporada.",
+   "i_en": "Ideal if you love market cuisine and seasonal produce."
+  },
+  "nav_quesos_roncal": {
+   "id": "nav_quesos_roncal",
+   "d": "El valle del Roncal es cuna del primer queso con Denominación de Origen de España. En sus queserías se puede degustar y comprar este queso curado de leche de oveja lacha.",
+   "d_en": "The Roncal valley is the cradle of Spain's first cheese with a Designation of Origin. Its dairies let you taste and buy this cured Lacha sheep's milk cheese.",
+   "h": "Queserías 10:00–14:00 y 16:00–19:00",
+   "h_en": "Dairies 10:00–14:00 and 16:00–19:00",
+   "i": "Ideal si te gustan los quesos artesanos y el turismo gastronómico.",
+   "i_en": "Ideal if you love artisan cheeses and food tourism."
+  }
+ },
+ "food": {
+  "nav_pintxos_estafeta": {
+   "cuisine": "Pintxos y cocina vasco-navarra",
+   "price": "2–4 € por pintxo",
+   "hours": "Diario 12:00–15:30 y 19:30–23:00"
+  },
+  "nav_cafe_iruna": {
+   "cuisine": "Cafetería y raciones tradicionales",
+   "price": "3–15 €",
+   "hours": "Diario 9:00–23:30"
+  },
+  "nav_verduras_tudela": {
+   "cuisine": "Cocina de verdura navarra",
+   "price": "25–45 €",
+   "hours": "Restaurantes 13:30–15:30 y 21:00–23:00"
+  },
+  "nav_quesos_roncal": {
+   "cuisine": "Queso y productos de pastor",
+   "price": "12–25 € por pieza",
+   "hours": "Queserías 10:00–14:00 y 16:00–19:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Navarra",
+   "items": [
+    {
+     "name": "Pacharán",
+     "price": "10–20 €",
+     "desc": "Licor típico de endrinas, dulce y aromático, ideal como digestivo."
+    },
+    {
+     "name": "Espárragos de Navarra IGP",
+     "price": "8–18 €",
+     "desc": "Espárragos blancos en conserva, tiernos y de gran calidad, joya de la huerta."
+    },
+    {
+     "name": "Queso Roncal / Idiazábal DO",
+     "price": "12–25 €",
+     "desc": "Queso curado de oveja de los valles pirenaicos, intenso y con carácter."
+    },
+    {
+     "name": "Piquillo de Lodosa DO",
+     "price": "5–12 €",
+     "desc": "Pimientos rojos asados en conserva, dulces y carnosos, símbolo de la Ribera."
+    },
+    {
+     "name": "Pañuelo rojo de San Fermín",
+     "price": "3–8 €",
+     "desc": "El clásico pañuelico rojo y faja de las fiestas, recuerdo imprescindible."
+    }
+   ],
+   "shops": [
+    "Mercado de Santo Domingo (Pamplona)",
+    "Conservas artesanas de Tudela y Lodosa",
+    "Bodegas de la Ruta del Vino de Navarra (Olite)"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Reserva alojamiento con mucha antelación si viajas en San Fermín (6–14 julio); los precios se disparan.",
+   "La Selva de Irati y las Bardenas se disfrutan mejor en otoño; lleva calzado cómodo y agua.",
+   "Muchos monumentos y palacios cierran los lunes; consulta horarios antes de ir.",
+   "Combina Olite con una visita a las bodegas de la Ruta del Vino de Navarra.",
+   "En los valles pirenaicos el tiempo cambia rápido; lleva ropa de abrigo incluso en verano."
+  ],
+  "en": [
+   "Book accommodation far in advance if traveling during San Fermín (6–14 July); prices soar.",
+   "The Irati Forest and the Bardenas are best in autumn; wear comfortable shoes and bring water.",
+   "Many monuments and palaces close on Mondays; check opening hours before you go.",
+   "Combine Olite with a visit to the wineries of the Navarra Wine Route.",
+   "Weather changes fast in the Pyrenean valleys; bring warm clothing even in summer."
+  ]
+ },
+ "climate": {
+  "hi": [
+   9,
+   11,
+   14,
+   16,
+   20,
+   25,
+   28,
+   28,
+   24,
+   18,
+   13,
+   9
+  ],
+  "lo": [
+   2,
+   2,
+   4,
+   6,
+   9,
+   13,
+   15,
+   15,
+   12,
+   9,
+   5,
+   3
+  ]
+ },
+ "tr": {
+  "Laberinto medieval de calles con la Plaza del Castillo como corazón.": "Medieval maze of streets centered on the Plaza del Castillo.",
+  "Catedral gótica con uno de los claustros más bellos de Europa.": "Gothic cathedral with one of Europe's finest cloisters.",
+  "Fortaleza renacentista pentagonal rodeada de zonas verdes.": "Pentagonal Renaissance fortress ringed by green parkland.",
+  "Final del encierro de San Fermín y coso taurino histórico.": "Finish line of the San Fermín bull run and historic bullring.",
+  "Espectacular castillo gótico de torres y patios de cuento.": "Spectacular Gothic castle of fairy-tale towers and courtyards.",
+  "Conjunto gótico y mítica puerta del Camino de Santiago.": "Gothic complex and mythic gateway of the Camino de Santiago.",
+  "Monasterio románico con cripta única y cantos gregorianos.": "Romanesque monastery with a unique crypt and Gregorian chant.",
+  "Pueblo medieval fortificado con santuario e imponentes vistas.": "Fortified medieval village with a sanctuary and sweeping views.",
+  "Villa jacobea con palacios románicos e iglesias monumentales.": "Pilgrim town with Romanesque palaces and monumental churches.",
+  "Pueblo pirenaico de casas de piedra y puente medieval.": "Pyrenean village of stone houses and a medieval bridge.",
+  "Cuevas legendarias de brujas y akelarres del Baztán.": "Legendary witches' caves and covens of the Baztán.",
+  "Semidesierto de cárcavas y cabezos como el Castildetierra.": "Semi-desert of badlands and buttes like the Castildetierra.",
+  "Uno de los mayores hayedos-abetales de Europa.": "One of Europe's largest beech-fir forests.",
+  "Cañón fluvial con antiguo túnel de tren y buitres.": "River gorge with an old railway tunnel and vultures.",
+  "Gran cañón calizo y mirador con colonia de buitres.": "Great limestone canyon and viewpoint with a vulture colony.",
+  "Salto de agua escondido en el corazón de la Selva de Irati.": "Waterfall hidden in the heart of the Irati Forest.",
+  "Pozas turquesa y cascadas de aguas cristalinas.": "Turquoise pools and cascades of crystal-clear water.",
+  "Arte e historia de Navarra desde la prehistoria a hoy.": "Navarre's art and history from prehistory to today.",
+  "Uno de los mayores planetarios de España, con cúpula inmersiva.": "One of Spain's largest planetariums, with an immersive dome.",
+  "Parque de naturaleza, animales y atracciones junto a las Bardenas.": "Nature, animals and rides park beside the Bardenas.",
+  "Bodegas y viñedos de la DO Navarra en torno a Olite.": "Wineries and vineyards of DO Navarra around Olite.",
+  "Puente románico donde confluyen los caminos jacobeos.": "Romanesque bridge where the pilgrim ways converge.",
+  "Ruta de pintxos por el corazón del Casco Viejo.": "Pintxo crawl through the heart of the old town.",
+  "Café histórico de 1888 en la Plaza del Castillo.": "Historic 1888 café on the Plaza del Castillo.",
+  "La mejor huerta de Navarra: alcachofas, espárragos y borraja.": "Navarre's finest produce: artichokes, asparagus and borage.",
+  "Queso Roncal DO de oveja en su valle pirenaico de origen.": "DO Roncal sheep's cheese in its home Pyrenean valley.",
+  "Navarra": "Navarra"
+ }
+}

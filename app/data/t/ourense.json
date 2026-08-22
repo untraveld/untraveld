@@ -1,0 +1,577 @@
+{
+ "id": "ourense",
+ "name": "Ourense",
+ "country": "ES",
+ "center": [
+  42.33665,
+  -7.86404
+ ],
+ "pois": [
+  {
+   "id": "our_as_burgas",
+   "cat": "ocio",
+   "name": "Termas de As Burgas",
+   "icon": "♨️",
+   "lat": 42.3347,
+   "lng": -7.8656,
+   "desc": "Manantial termal urbano que brota a 67 °C en pleno centro histórico."
+  },
+  {
+   "id": "our_catedral",
+   "cat": "monuments",
+   "name": "Catedral de Ourense y Pórtico do Paraíso",
+   "icon": "⛪",
+   "lat": 42.33746,
+   "lng": -7.8644,
+   "desc": "Catedral románico-gótica con el policromado Pórtico del Paraíso."
+  },
+  {
+   "id": "our_ponte_romana",
+   "cat": "monuments",
+   "name": "Ponte Romana (Ponte Vella)",
+   "icon": "🌉",
+   "lat": 42.34557,
+   "lng": -7.86875,
+   "desc": "Puente medieval sobre bases romanas que cruza el río Miño."
+  },
+  {
+   "id": "our_outariz",
+   "cat": "ocio",
+   "name": "Termas de Outariz",
+   "icon": "♨️",
+   "lat": 42.35026,
+   "lng": -7.9142,
+   "desc": "Pozas termales de estilo japonés a orillas del Miño."
+  },
+  {
+   "id": "our_chavasqueira",
+   "cat": "ocio",
+   "name": "Termas da Chavasqueira",
+   "icon": "♨️",
+   "lat": 42.34724,
+   "lng": -7.87844,
+   "desc": "Termas al aire libre junto al río, con balneario de estilo japonés."
+  },
+  {
+   "id": "our_banos_molgas",
+   "cat": "ocio",
+   "name": "Termas de Baños de Molgas",
+   "icon": "♨️",
+   "lat": 42.24275,
+   "lng": -7.67192,
+   "desc": "Villa termal con balneario histórico junto al río Arnoia."
+  },
+  {
+   "id": "our_prexigueiro",
+   "cat": "ocio",
+   "name": "Termas de Prexigueiro",
+   "icon": "♨️",
+   "lat": 42.25334,
+   "lng": -8.16736,
+   "desc": "Complejo termal al aire libre en un bosque cerca de Ribadavia."
+  },
+  {
+   "id": "our_canon_sil",
+   "cat": "nature",
+   "name": "Cañón do Sil e Miradoiros",
+   "icon": "🏞️",
+   "lat": 42.4147,
+   "lng": -7.6167,
+   "desc": "Gargantas del río Sil con espectaculares miradores sobre los viñedos."
+  },
+  {
+   "id": "our_parada_sil",
+   "cat": "nature",
+   "name": "Balcóns de Madrid (Parada de Sil)",
+   "icon": "🌄",
+   "lat": 42.39049,
+   "lng": -7.56421,
+   "desc": "Mirador colgado sobre el cañón del Sil en Parada de Sil."
+  },
+  {
+   "id": "our_santo_estevo",
+   "cat": "monuments",
+   "name": "Mosteiro de Santo Estevo de Ribas de Sil",
+   "icon": "🏰",
+   "lat": 42.41619,
+   "lng": -7.68595,
+   "desc": "Gran monasterio benedictino con tres claustros, hoy Parador."
+  },
+  {
+   "id": "our_catamaran_sil",
+   "cat": "nature",
+   "name": "Catamarán do Sil",
+   "icon": "⛴️",
+   "lat": 42.4056,
+   "lng": -7.6198,
+   "desc": "Paseo en catamarán por el fondo del cañón del Sil."
+  },
+  {
+   "id": "our_rio_mao",
+   "cat": "nature",
+   "name": "Pasarelas do Río Mao",
+   "icon": "🥾",
+   "lat": 42.376,
+   "lng": -7.535,
+   "desc": "Ruta de pasarelas de madera sobre el desfiladero del río Mao."
+  },
+  {
+   "id": "our_xudaria_ribadavia",
+   "cat": "monuments",
+   "name": "Xudaría de Ribadavia",
+   "icon": "🕍",
+   "lat": 42.288,
+   "lng": -8.1435,
+   "desc": "Una de las juderías medievales mejor conservadas de Galicia."
+  },
+  {
+   "id": "our_castelo_ribadavia",
+   "cat": "monuments",
+   "name": "Castelo dos Sarmiento",
+   "icon": "🏯",
+   "lat": 42.2887,
+   "lng": -8.1456,
+   "desc": "Castillo medieval de los condes de Ribadavia sobre la villa."
+  },
+  {
+   "id": "our_ribeiro_wine",
+   "cat": "food",
+   "name": "Ruta do Viño do Ribeiro",
+   "icon": "🍷",
+   "lat": 42.2877,
+   "lng": -8.144,
+   "desc": "Bodegas y catas del vino del Ribeiro en torno a Ribadavia."
+  },
+  {
+   "id": "our_allariz",
+   "cat": "monuments",
+   "name": "Casco histórico de Allariz",
+   "icon": "🏘️",
+   "lat": 42.1911,
+   "lng": -7.8017,
+   "desc": "Villa medieval premiada por su rehabilitación junto al río Arnoia."
+  },
+  {
+   "id": "our_arnoia_parque",
+   "cat": "nature",
+   "name": "Parque etnográfico do río Arnoia",
+   "icon": "🌳",
+   "lat": 42.1896,
+   "lng": -7.8054,
+   "desc": "Sendas verdes junto al Arnoia con molinos y playa fluvial."
+  },
+  {
+   "id": "our_castro_caldelas",
+   "cat": "monuments",
+   "name": "Castelo de Castro Caldelas",
+   "icon": "🏰",
+   "lat": 42.37599,
+   "lng": -7.4158,
+   "desc": "Castillo medieval sobre una villa asomada a la Ribeira Sacra."
+  },
+  {
+   "id": "our_montederramo",
+   "cat": "monuments",
+   "name": "Mosteiro de Santa María de Montederramo",
+   "icon": "⛪",
+   "lat": 42.2833,
+   "lng": -7.4945,
+   "desc": "Monasterio cisterciense con gran iglesia renacentista."
+  },
+  {
+   "id": "our_celanova",
+   "cat": "monuments",
+   "name": "Mosteiro de San Salvador de Celanova",
+   "icon": "🏛️",
+   "lat": 42.15228,
+   "lng": -7.95689,
+   "desc": "Gran monasterio barroco con la capilla mozárabe de San Miguel."
+  },
+  {
+   "id": "our_san_mamede",
+   "cat": "nature",
+   "name": "Serra de San Mamede",
+   "icon": "⛰️",
+   "lat": 42.238,
+   "lng": -7.607,
+   "desc": "Sierra de media montaña con rutas, brañas y fauna protegida."
+  },
+  {
+   "id": "our_pulpo_feira",
+   "cat": "food",
+   "name": "Pulpo á feira",
+   "icon": "🐙",
+   "lat": 42.3383,
+   "lng": -7.8638,
+   "desc": "El plato gallego por excelencia en las pulperías del casco vello."
+  },
+  {
+   "id": "our_ribeira_sacra_wine",
+   "cat": "food",
+   "name": "Viños da Ribeira Sacra (Mencía)",
+   "icon": "🍇",
+   "lat": 42.402,
+   "lng": -7.6,
+   "desc": "Tintos de mencía de viñedo heroico en las laderas del Sil."
+  },
+  {
+   "id": "our_bica_trives",
+   "cat": "food",
+   "name": "Bica de Trives",
+   "icon": "🍰",
+   "lat": 42.3371,
+   "lng": -7.8648,
+   "desc": "Bizcocho esponjoso tradicional del sureste ourensano."
+  }
+ ],
+ "extra": {
+  "our_as_burgas": {
+   "id": "our_as_burgas",
+   "d": "As Burgas es el corazón termal de Ourense: fuentes monumentales de las que mana agua a 64–67 °C junto a una piscina termal al aire libre. Símbolo de la ciudad desde época romana, es el mejor punto de partida para entender por qué a Ourense la llaman 'la ciudad del agua'.",
+   "d_en": "As Burgas is Ourense's thermal heart: monumental fountains pouring water at 64–67 °C beside an open-air thermal pool. A symbol of the city since Roman times, it is the best place to understand why Ourense is called 'the city of water'.",
+   "h": "Fuentes: acceso libre 24 h. Piscina termal: consultar horario municipal, con reserva.",
+   "h_en": "Fountains: free access 24 h. Thermal pool: check municipal schedule, booking required.",
+   "i": "Ideal si te gusta el termalismo y el patrimonio en un mismo paseo.",
+   "i_en": "Ideal if you like thermal springs and heritage in a single stroll."
+  },
+  "our_catedral": {
+   "id": "our_catedral",
+   "d": "La Catedral de San Martiño combina románico y gótico y guarda el Pórtico do Paraíso, hermana del Pórtico da Gloria de Santiago pero con su policromía original conservada. Destacan el Cristo dos Desamparados y el cimborrio gótico.",
+   "d_en": "San Martiño Cathedral blends Romanesque and Gothic styles and houses the Pórtico do Paraíso, a sister of Santiago's Pórtico da Gloria but with its original polychromy preserved. Highlights include the Cristo dos Desamparados and the Gothic lantern tower.",
+   "h": "Aprox. 11:00–14:00 y 16:00–19:00; consultar visitas y museo catedralicio.",
+   "h_en": "Approx. 11:00–14:00 and 16:00–19:00; check guided visits and cathedral museum.",
+   "i": "Ideal si te gusta el arte medieval y la escultura policromada.",
+   "i_en": "Ideal if you like medieval art and polychrome sculpture."
+  },
+  "our_ponte_romana": {
+   "id": "our_ponte_romana",
+   "d": "La Ponte Vella salva el Miño sobre cimientos de origen romano, reconstruida en época medieval con su característico arco central de gran altura. Es uno de los emblemas de Ourense y ofrece bonitas vistas del río junto al moderno Puente del Milenio.",
+   "d_en": "The Ponte Vella crosses the Miño on Roman-era foundations, rebuilt in medieval times with its distinctive tall central arch. One of Ourense's emblems, it offers lovely river views alongside the modern Millennium Bridge.",
+   "h": "Acceso libre 24 h.",
+   "h_en": "Free access 24 h.",
+   "i": "Ideal si te gusta la ingeniería histórica y pasear junto al río.",
+   "i_en": "Ideal if you like historic engineering and riverside walks."
+  },
+  "our_outariz": {
+   "id": "our_outariz",
+   "d": "En Outariz se combinan pozas termales gratuitas al aire libre con un balneario municipal de inspiración japonesa. Rodeadas de vegetación junto al Miño, sus aguas a unos 40–60 °C son perfectas al atardecer; se llega en coche o con el tren turístico termal.",
+   "d_en": "Outariz combines free open-air thermal pools with a Japanese-inspired municipal spa. Set among greenery by the Miño, its 40–60 °C waters are perfect at dusk; reachable by car or the thermal tourist train.",
+   "h": "Pozas gratuitas: variable, cierre semanal para limpieza. Balneario: consultar horario y precio.",
+   "h_en": "Free pools: variable, weekly closure for cleaning. Spa: check hours and price.",
+   "i": "Ideal si te gusta el baño termal relajado en plena naturaleza.",
+   "i_en": "Ideal if you like relaxed thermal bathing in nature."
+  },
+  "our_chavasqueira": {
+   "id": "our_chavasqueira",
+   "d": "A Chavasqueira fue la pionera del renacer termal de Ourense: pozas gratuitas al aire libre a pie del Miño y un pequeño balneario tipo onsen japonés. Es la más cercana al centro por el paseo termal, accesible andando, en bici o en el tren turístico.",
+   "d_en": "A Chavasqueira pioneered Ourense's thermal revival: free open-air pools by the Miño and a small Japanese-style onsen spa. It is the closest to the centre along the thermal promenade, reachable on foot, by bike or on the tourist train.",
+   "h": "Pozas gratuitas: variable. Balneario: consultar horario y precio.",
+   "h_en": "Free pools: variable. Spa: check hours and price.",
+   "i": "Ideal si te gusta empezar la ruta termal andando desde la ciudad.",
+   "i_en": "Ideal if you like starting the thermal route on foot from the city."
+  },
+  "our_banos_molgas": {
+   "id": "our_banos_molgas",
+   "d": "Baños de Molgas debe su nombre a sus aguas mineromedicinales, aprovechadas desde época romana. Junto al río Arnoia conserva un balneario histórico y una fuente termal pública, en un entorno tranquilo ideal para el descanso.",
+   "d_en": "Baños de Molgas owes its name to its mineral-medicinal waters, used since Roman times. By the river Arnoia it keeps a historic spa and a public thermal fountain, in a quiet setting ideal for relaxation.",
+   "h": "Fuente pública: acceso libre. Balneario: temporada, consultar.",
+   "h_en": "Public fountain: free access. Spa: seasonal, check ahead.",
+   "i": "Ideal si te gusta el termalismo tradicional lejos de las multitudes.",
+   "i_en": "Ideal if you like traditional thermalism away from the crowds."
+  },
+  "our_prexigueiro": {
+   "id": "our_prexigueiro",
+   "d": "En pleno corazón del Ribeiro, las Termas de Prexigueiro ofrecen pozas termales escalonadas al aire libre entre bosque de ribera. Sus aguas templadas y el entorno natural las convierten en un plan perfecto para combinar con una ruta por las bodegas.",
+   "d_en": "In the heart of the Ribeiro, the Prexigueiro thermal baths offer tiered open-air pools amid riverside woodland. Their warm waters and natural surroundings make a perfect plan to combine with a winery route.",
+   "h": "Consultar horario y tarifa según temporada.",
+   "h_en": "Check hours and price by season.",
+   "i": "Ideal si te gusta el termalismo en un entorno boscoso.",
+   "i_en": "Ideal if you like thermal bathing in a woodland setting."
+  },
+  "our_canon_sil": {
+   "id": "our_canon_sil",
+   "d": "El cañón del Sil es el gran paisaje de la Ribeira Sacra: profundas gargantas excavadas por el río con laderas cubiertas de viñedo heroico. Miradores como Cabezoás o Vilouxe ofrecen vistas de vértigo sobre el agua y los bancales.",
+   "d_en": "The Sil canyon is the Ribeira Sacra's great landscape: deep gorges carved by the river with slopes covered in heroic vineyards. Viewpoints such as Cabezoás or Vilouxe offer dizzying views over the water and terraces.",
+   "h": "Acceso libre 24 h; mejor con luz de día.",
+   "h_en": "Free access 24 h; best in daylight.",
+   "i": "Ideal si te gusta la naturaleza espectacular y la fotografía.",
+   "i_en": "Ideal if you like dramatic scenery and photography."
+  },
+  "our_parada_sil": {
+   "id": "our_parada_sil",
+   "d": "Los Balcóns de Madrid son uno de los miradores más famosos de la Ribeira Sacra, un saliente rocoso asomado al meandro del Sil. Desde Parada de Sil se accede tras un corto paseo y regala una de las panorámicas más impresionantes del cañón.",
+   "d_en": "The Balcóns de Madrid are one of the Ribeira Sacra's most famous viewpoints, a rocky outcrop overlooking a bend of the Sil. Reached from Parada de Sil after a short walk, it delivers one of the canyon's most stunning panoramas.",
+   "h": "Acceso libre 24 h; mejor con luz de día.",
+   "h_en": "Free access 24 h; best in daylight.",
+   "i": "Ideal si te gusta buscar los mejores miradores del cañón.",
+   "i_en": "Ideal if you like hunting the best canyon viewpoints."
+  },
+  "our_santo_estevo": {
+   "id": "our_santo_estevo",
+   "d": "Santo Estevo de Ribas de Sil es el monasterio más monumental de la Ribeira Sacra, con orígenes en el siglo VI y tres claustros de estilos románico, gótico y renacentista. Hoy alberga un Parador de Turismo en un enclave rodeado de bosque sobre el Sil.",
+   "d_en": "Santo Estevo de Ribas de Sil is the Ribeira Sacra's most monumental monastery, founded around the 6th century with three cloisters in Romanesque, Gothic and Renaissance styles. It now houses a Parador hotel in a forested setting above the Sil.",
+   "h": "Exteriores: acceso libre. Interior: según actividad del Parador y visitas.",
+   "h_en": "Exterior: free access. Interior: subject to Parador activity and tours.",
+   "i": "Ideal si te gusta el monacato medieval y la arquitectura monumental.",
+   "i_en": "Ideal if you like medieval monasticism and monumental architecture."
+  },
+  "our_catamaran_sil": {
+   "id": "our_catamaran_sil",
+   "d": "El catamarán navega por el embalse del Sil entre paredes de roca y viñedos que se elevan cientos de metros, ofreciendo una perspectiva única desde el agua. La travesía guiada dura alrededor de una hora y conviene reservarla con antelación.",
+   "d_en": "The catamaran sails the Sil reservoir between rock walls and vineyards rising hundreds of metres, giving a unique perspective from the water. The guided trip lasts about an hour and should be booked in advance.",
+   "h": "Salidas programadas; imprescindible reserva previa.",
+   "h_en": "Scheduled departures; advance booking essential.",
+   "i": "Ideal si te gusta ver el cañón desde el río con guía.",
+   "i_en": "Ideal if you like seeing the canyon from the river with a guide."
+  },
+  "our_rio_mao": {
+   "id": "our_rio_mao",
+   "d": "Las pasarelas del río Mao forman un sendero de madera adosado a la roca que recorre un frondoso desfiladero con cascadas, molinos y antiguos soutos de castaños. Es una de las rutas de senderismo más bonitas y accesibles de la Ribeira Sacra.",
+   "d_en": "The Mao river walkways form a wooden path fixed to the rock through a lush gorge with waterfalls, mills and old chestnut groves. It is one of the prettiest and most accessible hiking routes in the Ribeira Sacra.",
+   "h": "Acceso libre 24 h; recomendable calzado adecuado.",
+   "h_en": "Free access 24 h; proper footwear recommended.",
+   "i": "Ideal si te gusta el senderismo entre bosques y agua.",
+   "i_en": "Ideal if you like hiking among forests and water."
+  },
+  "our_xudaria_ribadavia": {
+   "id": "our_xudaria_ribadavia",
+   "d": "Ribadavia conserva una de las juderías más importantes de Galicia, con calles estrechas, casas de piedra y vestigios de sinagoga. Su legado sefardí se celebra cada verano en la Festa da Istoria, con mercado, bodas judías y ambiente medieval.",
+   "d_en": "Ribadavia preserves one of Galicia's most important Jewish quarters, with narrow streets, stone houses and traces of a synagogue. Its Sephardic legacy is celebrated each summer at the Festa da Istoria, with a market, Jewish weddings and a medieval atmosphere.",
+   "h": "Calles: acceso libre 24 h. Centro de información sefardí: consultar horario.",
+   "h_en": "Streets: free access 24 h. Sephardic information centre: check hours.",
+   "i": "Ideal si te gusta la historia medieval y los cascos judíos.",
+   "i_en": "Ideal if you like medieval history and Jewish quarters."
+  },
+  "our_castelo_ribadavia": {
+   "id": "our_castelo_ribadavia",
+   "d": "El castillo de los Sarmiento domina Ribadavia con sus torres y murallas en ruinas parciales, testigo del poder de los condes de la villa. Su recinto, escenario de conciertos y actos, ofrece buenas vistas sobre el casco histórico y el valle del Avia.",
+   "d_en": "The Sarmiento castle dominates Ribadavia with its towers and partly ruined walls, a witness to the power of the town's counts. Its grounds, a venue for concerts and events, offer good views over the old town and the Avia valley.",
+   "h": "Consultar horario de visita; a veces con entrada.",
+   "h_en": "Check visiting hours; sometimes with an entrance fee.",
+   "i": "Ideal si te gusta la arquitectura defensiva medieval.",
+   "i_en": "Ideal if you like medieval defensive architecture."
+  },
+  "our_ribeiro_wine": {
+   "id": "our_ribeiro_wine",
+   "d": "El Ribeiro es uno de los vinos más antiguos de España, con blancos de treixadura frescos y aromáticos y tintos tradicionales. Desde Ribadavia, capital de la comarca, parte una ruta enoturística por bodegas donde catar y comprar directamente del viticultor.",
+   "d_en": "Ribeiro is one of Spain's oldest wines, with fresh, aromatic treixadura whites and traditional reds. From Ribadavia, the comarca's capital, a wine-tourism route runs through wineries where you can taste and buy straight from the grower.",
+   "h": "Bodegas con visita concertada; enotecas aprox. 11:00–20:00.",
+   "h_en": "Wineries by appointment; wine bars approx. 11:00–20:00.",
+   "i": "Ideal si te gusta el enoturismo y los vinos blancos con carácter.",
+   "i_en": "Ideal if you like wine tourism and characterful white wines."
+  },
+  "our_allariz": {
+   "id": "our_allariz",
+   "d": "Allariz es un modelo de recuperación de casco histórico, con calles empedradas, casas de piedra, iglesias románicas y puentes sobre el Arnoia. Reconocida con el Premio Europeo de Urbanismo, es una de las villas más encantadoras de Galicia.",
+   "d_en": "Allariz is a model of old-town restoration, with cobbled streets, stone houses, Romanesque churches and bridges over the Arnoia. Awarded the European Urban Planning Prize, it is one of Galicia's most charming towns.",
+   "h": "Acceso libre 24 h; museos con horario propio.",
+   "h_en": "Free access 24 h; museums have their own hours.",
+   "i": "Ideal si te gusta pasear por villas medievales cuidadas.",
+   "i_en": "Ideal if you like strolling through well-kept medieval towns."
+  },
+  "our_arnoia_parque": {
+   "id": "our_arnoia_parque",
+   "d": "El entorno del río Arnoia en Allariz es un gran parque natural y etnográfico con paseos arbolados, antiguos molinos, curtidurías rehabilitadas y una playa fluvial. Perfecto para caminar, ir en bici o darse un chapuzón en verano.",
+   "d_en": "The Arnoia riverside in Allariz is a large natural and ethnographic park with tree-lined walks, old mills, restored tanneries and a river beach. Perfect for walking, cycling or a summer dip.",
+   "h": "Acceso libre 24 h.",
+   "h_en": "Free access 24 h.",
+   "i": "Ideal si te gusta combinar naturaleza y patrimonio rural.",
+   "i_en": "Ideal if you like combining nature and rural heritage."
+  },
+  "our_castro_caldelas": {
+   "id": "our_castro_caldelas",
+   "d": "El castillo de Castro Caldelas, de los condes de Lemos, corona una villa de calles empinadas y casas blasonadas. Desde sus torres se dominan amplias vistas de la montaña ourensana y la Ribeira Sacra, y en su interior alberga un pequeño museo.",
+   "d_en": "The castle of Castro Caldelas, held by the counts of Lemos, crowns a town of steep streets and heraldic houses. From its towers there are sweeping views of the Ourense mountains and the Ribeira Sacra, and it holds a small museum inside.",
+   "h": "Consultar horario de visita; con entrada.",
+   "h_en": "Check visiting hours; entrance fee applies.",
+   "i": "Ideal si te gusta la historia señorial y las vistas panorámicas.",
+   "i_en": "Ideal if you like noble history and panoramic views."
+  },
+  "our_montederramo": {
+   "id": "our_montederramo",
+   "d": "El monasterio de Montederramo, de origen cisterciense, conserva una imponente iglesia renacentista y claustros de estilo herreriano en un pueblo de montaña a las puertas de la Serra de San Mamede. Fue uno de los grandes cenobios del interior gallego.",
+   "d_en": "The Cistercian monastery of Montederramo preserves an imposing Renaissance church and Herrerian-style cloisters in a mountain village at the gateway to the Serra de San Mamede. It was one of the great monasteries of inland Galicia.",
+   "h": "Iglesia y exteriores: consultar horario local.",
+   "h_en": "Church and exterior: check local hours.",
+   "i": "Ideal si te gusta la arquitectura monástica y los pueblos de montaña.",
+   "i_en": "Ideal if you like monastic architecture and mountain villages."
+  },
+  "our_celanova": {
+   "id": "our_celanova",
+   "d": "El monasterio de San Salvador de Celanova despliega una monumental fachada e iglesia barrocas y dos claustros, pero su joya es la diminuta capilla mozárabe de San Miguel, del siglo X, en su huerta. Fue fundado por San Rosendo en el año 936.",
+   "d_en": "The monastery of San Salvador de Celanova displays a monumental Baroque façade and church and two cloisters, but its jewel is the tiny 10th-century Mozarabic chapel of San Miguel in its garden. It was founded by St Rosendo in 936.",
+   "h": "Visitas guiadas con horario; consultar en la oficina de turismo.",
+   "h_en": "Guided tours on schedule; check the tourist office.",
+   "i": "Ideal si te gusta el barroco monumental y el arte prerrománico.",
+   "i_en": "Ideal if you like monumental Baroque and pre-Romanesque art."
+  },
+  "our_san_mamede": {
+   "id": "our_san_mamede",
+   "d": "La Serra de San Mamede, espacio natural protegido, alcanza los 1.619 m y ofrece un paisaje de montaña con brezales, robledales, turberas y águilas. Sus rutas de senderismo y sus pueblos serranos son perfectos para el turismo activo alejado del bullicio.",
+   "d_en": "The Serra de San Mamede, a protected natural area, rises to 1,619 m and offers a mountain landscape of heathland, oak woods, peat bogs and eagles. Its hiking routes and mountain villages are perfect for active tourism away from the crowds.",
+   "h": "Acceso libre 24 h; consultar rutas y condiciones meteorológicas.",
+   "h_en": "Free access 24 h; check routes and weather conditions.",
+   "i": "Ideal si te gusta la montaña, el senderismo y la fauna salvaje.",
+   "i_en": "Ideal if you like mountains, hiking and wildlife."
+  },
+  "our_pulpo_feira": {
+   "id": "our_pulpo_feira",
+   "d": "El pulpo á feira —cocido, cortado y aliñado con aceite, sal gruesa y pimentón— es el plato estrella de las ferias y pulperías gallegas. En el casco vello de Ourense se sirve tradicionalmente en plato de madera, acompañado de pan y vino del Ribeiro.",
+   "d_en": "Pulpo á feira —octopus boiled, sliced and dressed with oil, coarse salt and paprika— is the star dish of Galician fairs and pulperías. In Ourense's old town it is traditionally served on a wooden plate with bread and Ribeiro wine.",
+   "h": "Aprox. 12:30–16:00 y 20:00–23:00; concurrido los fines de semana.",
+   "h_en": "Approx. 12:30–16:00 and 20:00–23:00; busy on weekends.",
+   "i": "Ideal si te gusta la gastronomía gallega más auténtica.",
+   "i_en": "Ideal if you like the most authentic Galician cuisine."
+  },
+  "our_ribeira_sacra_wine": {
+   "id": "our_ribeira_sacra_wine",
+   "d": "La Ribeira Sacra produce tintos de mencía elegantes y minerales cultivados en bancales imposibles sobre el cañón del Sil, la llamada viticultura heroica. Muchas bodegas familiares ofrecen visitas y catas con vistas espectaculares al río.",
+   "d_en": "The Ribeira Sacra produces elegant, mineral mencía reds grown on impossible terraces above the Sil canyon, so-called heroic viticulture. Many family wineries offer visits and tastings with spectacular river views.",
+   "h": "Visitas a bodega con reserva; catas según disponibilidad.",
+   "h_en": "Winery visits by booking; tastings subject to availability.",
+   "i": "Ideal si te gusta el vino con paisaje y las bodegas familiares.",
+   "i_en": "Ideal if you like wine with a view and family wineries."
+  },
+  "our_bica_trives": {
+   "id": "our_bica_trives",
+   "d": "La bica es un bizcocho denso y jugoso, elaborado con huevos, azúcar y nata, típico de Trives y Castro Caldelas. Se disfruta en cafeterías y confiterías de Ourense acompañando un café, y es un dulce ideal para llevar como recuerdo.",
+   "d_en": "Bica is a dense, moist sponge cake made with eggs, sugar and cream, typical of Trives and Castro Caldelas. Enjoyed in Ourense cafés and pastry shops with a coffee, it makes an ideal sweet souvenir to take home.",
+   "h": "Confiterías aprox. 9:00–20:30.",
+   "h_en": "Pastry shops approx. 9:00–20:30.",
+   "i": "Ideal si te gusta la repostería casera y el café con dulce.",
+   "i_en": "Ideal if you like homemade pastries and coffee with a sweet."
+  }
+ },
+ "food": {
+  "our_ribeiro_wine": {
+   "cuisine": "Enoturismo / vinos y tapas gallegas",
+   "price": "10–30 €",
+   "hours": "Bodegas con visita concertada; enotecas aprox. 11:00–20:00."
+  },
+  "our_pulpo_feira": {
+   "cuisine": "Cocina gallega tradicional / mariscos",
+   "price": "12–22 €",
+   "hours": "Aprox. 12:30–16:00 y 20:00–23:00; concurrido los fines de semana."
+  },
+  "our_ribeira_sacra_wine": {
+   "cuisine": "Enoturismo / vinos tintos y quesos gallegos",
+   "price": "12–35 €",
+   "hours": "Visitas a bodega con reserva; catas según disponibilidad."
+  },
+  "our_bica_trives": {
+   "cuisine": "Repostería tradicional gallega",
+   "price": "3–12 €",
+   "hours": "Confiterías aprox. 9:00–20:30."
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Ourense",
+   "items": [
+    {
+     "name": "Vino do Ribeiro (DO)",
+     "price": "6–18 €",
+     "desc": "Blancos de treixadura y tintos de la comarca del Ribeiro, uno de los vinos más antiguos de Galicia."
+    },
+    {
+     "name": "Vino Ribeira Sacra (Mencía)",
+     "price": "9–25 €",
+     "desc": "Tintos de mencía de viñedo heroico en las laderas del Sil y el Miño."
+    },
+    {
+     "name": "Bica de Trives / Castro Caldelas",
+     "price": "8–15 €",
+     "desc": "Bizcocho esponjoso tradicional del sureste ourensano, con azúcar y nata."
+    },
+    {
+     "name": "Androlla y botelo",
+     "price": "8–16 €",
+     "desc": "Embutidos curados de cerdo típicos de la montaña ourensana, para cocido."
+    },
+    {
+     "name": "Castañas y marrón glacé",
+     "price": "5–14 €",
+     "desc": "Fruto emblemático del otoño ourensano, presente en el Magosto."
+    }
+   ],
+   "shops": [
+    "Mercado de Abastos de Ourense (plaza de Abastos)",
+    "Casa do Viño de Galicia / bodegas del Ribeiro en Ribadavia",
+    "Tiendas gourmet del casco vello de Ourense"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "El termalismo es gratuito en varias pozas al aire libre junto al río Miño (Outariz, A Chavasqueira); lleva bañador, chanclas y toalla.",
+   "Recorre el casco vello de Ourense a pie: As Burgas, la Catedral y la Praza Maior están a pocos minutos entre sí.",
+   "Para la Ribeira Sacra necesitas coche; combina miradores del cañón del Sil con un paseo en catamarán reservado con antelación.",
+   "En otoño no te pierdas el Magosto (castañas) y la vendimia del Ribeiro; en invierno las termas se disfrutan aún más.",
+   "Reserva mesa para comer pulpo á feira los fines de semana y prueba los vinos con denominación de origen del Ribeiro y la Ribeira Sacra."
+  ],
+  "en": [
+   "Thermal bathing is free at several open-air pools by the river Miño (Outariz, A Chavasqueira); bring a swimsuit, flip-flops and a towel.",
+   "Explore Ourense's old town on foot: As Burgas, the Cathedral and the Praza Maior are all a few minutes apart.",
+   "You need a car for the Ribeira Sacra; combine the Sil canyon viewpoints with a catamaran cruise booked in advance.",
+   "In autumn don't miss the Magosto (chestnut festival) and the Ribeiro grape harvest; in winter the thermal baths are even better.",
+   "Book a table for pulpo á feira on weekends and taste the DO wines of Ribeiro and Ribeira Sacra."
+  ]
+ },
+ "climate": {
+  "hi": [
+   10,
+   12,
+   16,
+   18,
+   22,
+   27,
+   30,
+   30,
+   26,
+   20,
+   14,
+   11
+  ],
+  "lo": [
+   2,
+   3,
+   5,
+   7,
+   10,
+   14,
+   16,
+   16,
+   13,
+   10,
+   6,
+   3
+  ]
+ },
+ "tr": {
+  "Manantial termal urbano que brota a 67 °C en pleno centro histórico.": "Urban hot spring gushing at 67 °C in the heart of the old town.",
+  "Catedral románico-gótica con el policromado Pórtico del Paraíso.": "Romanesque-Gothic cathedral with the polychrome Pórtico do Paraíso.",
+  "Puente medieval sobre bases romanas que cruza el río Miño.": "Medieval bridge on Roman foundations spanning the river Miño.",
+  "Pozas termales de estilo japonés a orillas del Miño.": "Japanese-style thermal pools on the banks of the Miño.",
+  "Termas al aire libre junto al río, con balneario de estilo japonés.": "Open-air riverside thermal baths with a Japanese-style spa.",
+  "Villa termal con balneario histórico junto al río Arnoia.": "Thermal village with a historic spa by the river Arnoia.",
+  "Complejo termal al aire libre en un bosque cerca de Ribadavia.": "Open-air thermal complex in woodland near Ribadavia.",
+  "Gargantas del río Sil con espectaculares miradores sobre los viñedos.": "Gorges of the river Sil with spectacular viewpoints over the vineyards.",
+  "Mirador colgado sobre el cañón del Sil en Parada de Sil.": "Cliff-edge viewpoint over the Sil canyon in Parada de Sil.",
+  "Gran monasterio benedictino con tres claustros, hoy Parador.": "Great Benedictine monastery with three cloisters, now a Parador.",
+  "Paseo en catamarán por el fondo del cañón del Sil.": "Catamaran cruise along the bottom of the Sil canyon.",
+  "Ruta de pasarelas de madera sobre el desfiladero del río Mao.": "Wooden-walkway trail over the Mao river gorge.",
+  "Una de las juderías medievales mejor conservadas de Galicia.": "One of the best-preserved medieval Jewish quarters in Galicia.",
+  "Castillo medieval de los condes de Ribadavia sobre la villa.": "Medieval castle of the counts of Ribadavia above the town.",
+  "Bodegas y catas del vino del Ribeiro en torno a Ribadavia.": "Ribeiro wineries and tastings around Ribadavia.",
+  "Villa medieval premiada por su rehabilitación junto al río Arnoia.": "Award-winning medieval town by the river Arnoia.",
+  "Sendas verdes junto al Arnoia con molinos y playa fluvial.": "Green riverside paths along the Arnoia with mills and a river beach.",
+  "Castillo medieval sobre una villa asomada a la Ribeira Sacra.": "Medieval castle above a town overlooking the Ribeira Sacra.",
+  "Monasterio cisterciense con gran iglesia renacentista.": "Cistercian monastery with a large Renaissance church.",
+  "Gran monasterio barroco con la capilla mozárabe de San Miguel.": "Great Baroque monastery with the Mozarabic chapel of San Miguel.",
+  "Sierra de media montaña con rutas, brañas y fauna protegida.": "Mid-mountain range with trails, wetlands and protected wildlife.",
+  "El plato gallego por excelencia en las pulperías del casco vello.": "Galicia's signature dish in the old-town pulperías.",
+  "Tintos de mencía de viñedo heroico en las laderas del Sil.": "Mencía reds from heroic vineyards on the Sil slopes.",
+  "Bizcocho esponjoso tradicional del sureste ourensano.": "Fluffy traditional sponge cake from south-eastern Ourense.",
+  "Ourense": "Ourense"
+ }
+}

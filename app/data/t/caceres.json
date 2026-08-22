@@ -1,0 +1,634 @@
+{
+ "id": "caceres",
+ "name": "Cáceres",
+ "country": "ES",
+ "center": [
+  39.476,
+  -6.3722
+ ],
+ "pois": [
+  {
+   "id": "cac_ciudad_monumental",
+   "cat": "monuments",
+   "name": "Ciudad Monumental de Cáceres",
+   "icon": "🏰",
+   "lat": 39.4724,
+   "lng": -6.3683,
+   "desc": "Casco antiguo medieval Patrimonio de la Humanidad."
+  },
+  {
+   "id": "cac_plaza_mayor_caceres",
+   "cat": "monuments",
+   "name": "Plaza Mayor de Cáceres",
+   "icon": "⛲",
+   "lat": 39.4743,
+   "lng": -6.3706,
+   "desc": "Gran plaza porticada y corazón de la ciudad."
+  },
+  {
+   "id": "cac_arco_estrella",
+   "cat": "monuments",
+   "name": "Arco de la Estrella",
+   "icon": "🌟",
+   "lat": 39.4749,
+   "lng": -6.371,
+   "desc": "Puerta barroca de acceso al casco antiguo."
+  },
+  {
+   "id": "cac_torre_bujaco",
+   "cat": "monuments",
+   "name": "Torre de Bujaco",
+   "icon": "🗼",
+   "lat": 39.4752,
+   "lng": -6.371,
+   "desc": "Torre almohade emblema de Cáceres."
+  },
+  {
+   "id": "cac_concatedral_santa_maria",
+   "cat": "monuments",
+   "name": "Concatedral de Santa María",
+   "icon": "⛪",
+   "lat": 39.4745,
+   "lng": -6.37,
+   "desc": "Templo gótico principal de la ciudad monumental."
+  },
+  {
+   "id": "cac_trujillo_plaza_mayor",
+   "cat": "monuments",
+   "name": "Plaza Mayor de Trujillo",
+   "icon": "🗿",
+   "lat": 39.4587,
+   "lng": -5.8829,
+   "desc": "Plaza renacentista con la estatua de Pizarro."
+  },
+  {
+   "id": "cac_castillo_trujillo",
+   "cat": "monuments",
+   "name": "Castillo de Trujillo",
+   "icon": "🏯",
+   "lat": 39.4614,
+   "lng": -5.8817,
+   "desc": "Fortaleza árabe en lo alto del cerro."
+  },
+  {
+   "id": "cac_catedral_plasencia",
+   "cat": "monuments",
+   "name": "Catedrales de Plasencia",
+   "icon": "⛪",
+   "lat": 40.0278,
+   "lng": -6.0909,
+   "desc": "Conjunto de catedral vieja y nueva unidas."
+  },
+  {
+   "id": "cac_monasterio_guadalupe",
+   "cat": "monuments",
+   "name": "Real Monasterio de Guadalupe",
+   "icon": "🛕",
+   "lat": 39.4526,
+   "lng": -5.3273,
+   "desc": "Monasterio Patrimonio de la Humanidad y santuario mariano."
+  },
+  {
+   "id": "cac_monasterio_yuste",
+   "cat": "monuments",
+   "name": "Monasterio de Yuste",
+   "icon": "🏛️",
+   "lat": 40.1139,
+   "lng": -5.7387,
+   "desc": "Retiro final del emperador Carlos V."
+  },
+  {
+   "id": "cac_juderia_hervas",
+   "cat": "monuments",
+   "name": "Judería de Hervás",
+   "icon": "🏘️",
+   "lat": 40.2748,
+   "lng": -5.8568,
+   "desc": "Barrio judío medieval de calles empinadas."
+  },
+  {
+   "id": "cac_coria_murallas",
+   "cat": "monuments",
+   "name": "Coria y su muralla romana",
+   "icon": "🧱",
+   "lat": 39.982,
+   "lng": -6.5371,
+   "desc": "Recinto amurallado romano casi íntegro."
+  },
+  {
+   "id": "cac_monfrague",
+   "cat": "nature",
+   "name": "Parque Nacional de Monfragüe",
+   "icon": "🦅",
+   "lat": 39.835,
+   "lng": -5.99,
+   "desc": "Refugio de aves rapaces y bosque mediterráneo."
+  },
+  {
+   "id": "cac_salto_gitano",
+   "cat": "nature",
+   "name": "Salto del Gitano",
+   "icon": "🪨",
+   "lat": 39.839,
+   "lng": -6.0335,
+   "desc": "Farallón rocoso con colonias de buitres."
+  },
+  {
+   "id": "cac_valle_jerte",
+   "cat": "nature",
+   "name": "Valle del Jerte",
+   "icon": "🌸",
+   "lat": 40.2244,
+   "lng": -5.7562,
+   "desc": "Valle de cerezos famoso por su floración."
+  },
+  {
+   "id": "cac_garganta_infiernos",
+   "cat": "nature",
+   "name": "Reserva Natural Garganta de los Infiernos",
+   "icon": "💧",
+   "lat": 40.184,
+   "lng": -5.792,
+   "desc": "Gargantas y pozas de Los Pilones."
+  },
+  {
+   "id": "cac_las_hurdes",
+   "cat": "nature",
+   "name": "Comarca de Las Hurdes",
+   "icon": "🏞️",
+   "lat": 40.44,
+   "lng": -6.2,
+   "desc": "Comarca agreste de valles, pizarra y cascadas."
+  },
+  {
+   "id": "cac_garganta_cuartos_vera",
+   "cat": "nature",
+   "name": "Gargantas de La Vera",
+   "icon": "🌿",
+   "lat": 40.112,
+   "lng": -5.665,
+   "desc": "Piscinas naturales de agua fría en La Vera."
+  },
+  {
+   "id": "cac_banos_montemayor",
+   "cat": "ocio",
+   "name": "Balneario de Baños de Montemayor",
+   "icon": "♨️",
+   "lat": 40.3178,
+   "lng": -5.8573,
+   "desc": "Termas de origen romano en el valle del Ambroz."
+  },
+  {
+   "id": "cac_cerezos_flor_fiesta",
+   "cat": "ocio",
+   "name": "Fiesta del Cerezo en Flor",
+   "icon": "🌸",
+   "lat": 40.1956,
+   "lng": -5.7982,
+   "desc": "Fiesta de Interés Turístico Nacional en primavera."
+  },
+  {
+   "id": "cac_museo_caceres",
+   "cat": "ocio",
+   "name": "Museo de Cáceres",
+   "icon": "🏺",
+   "lat": 39.4727,
+   "lng": -6.3703,
+   "desc": "Museo con el famoso aljibe árabe."
+  },
+  {
+   "id": "cac_castillo_monfrague_mirador",
+   "cat": "ocio",
+   "name": "Castillo de Monfragüe y mirador",
+   "icon": "🥾",
+   "lat": 39.8281,
+   "lng": -6.0512,
+   "desc": "Subida al castillo con vistas del parque."
+  },
+  {
+   "id": "cac_atrio_caceres",
+   "cat": "food",
+   "name": "Restaurante Atrio",
+   "icon": "🍽️",
+   "lat": 39.4728,
+   "lng": -6.3705,
+   "desc": "Alta cocina con tres estrellas Michelin."
+  },
+  {
+   "id": "cac_torta_casar_degustacion",
+   "cat": "food",
+   "name": "Torta del Casar",
+   "icon": "🧀",
+   "lat": 39.4742,
+   "lng": -6.3708,
+   "desc": "Queso cremoso emblema de la provincia."
+  },
+  {
+   "id": "cac_migas_extremenas",
+   "cat": "food",
+   "name": "Migas extremeñas",
+   "icon": "🍳",
+   "lat": 39.4588,
+   "lng": -5.8825,
+   "desc": "Plato tradicional de pan, chorizo y panceta."
+  },
+  {
+   "id": "cac_jamon_iberico_montanchez",
+   "cat": "food",
+   "name": "Jamón ibérico de Montánchez",
+   "icon": "🍖",
+   "lat": 39.2241,
+   "lng": -6.1502,
+   "desc": "Jamón de bellota curado en la sierra."
+  },
+  {
+   "id": "cac_dulces_guadalupe",
+   "cat": "food",
+   "name": "Repostería de Guadalupe",
+   "icon": "🍯",
+   "lat": 39.4528,
+   "lng": -5.3269,
+   "desc": "Dulces conventuales y miel de la comarca."
+  }
+ ],
+ "extra": {
+  "cac_ciudad_monumental": {
+   "id": "cac_ciudad_monumental",
+   "d": "Uno de los conjuntos urbanos medievales y renacentistas mejor conservados de Europa, declarado Patrimonio de la Humanidad por la Unesco en 1986. Un laberinto de palacios, torres, iglesias y callejuelas de piedra dorada, sin cables ni antenas visibles, que ha servido de escenario a numerosas películas y series.",
+   "d_en": "One of the best-preserved medieval and Renaissance urban ensembles in Europe, declared a Unesco World Heritage Site in 1986. A maze of palaces, towers, churches and golden-stone alleys, free of visible wiring, that has served as a film and TV set many times.",
+   "h": "Acceso libre las 24 h; monumentos con horario propio",
+   "h_en": "Free access 24 h; individual monuments have their own hours",
+   "i": "Ideal si te gusta perderte por callejuelas medievales y la historia.",
+   "i_en": "Ideal if you like getting lost in medieval alleys and history."
+  },
+  "cac_plaza_mayor_caceres": {
+   "id": "cac_plaza_mayor_caceres",
+   "d": "Amplia plaza soportalada a los pies de la muralla, punto de encuentro y de terrazas. Desde aquí arranca la subida a la Ciudad Monumental por el Arco de la Estrella, con la Torre de Bujaco y el Ayuntamiento presidiendo el conjunto.",
+   "d_en": "A wide arcaded square at the foot of the walls, a meeting point full of terraces. From here the climb into the Old Town begins through the Arco de la Estrella, with the Bujaco Tower and Town Hall overlooking the scene.",
+   "h": "Acceso libre 24 h",
+   "h_en": "Free access 24 h",
+   "i": "Ideal si te gusta tomar algo en terraza y observar la vida local.",
+   "i_en": "Ideal if you like a drink on a terrace and watching local life."
+  },
+  "cac_arco_estrella": {
+   "id": "cac_arco_estrella",
+   "d": "Puerta principal de la muralla reformada en el siglo XVIII por Manuel de Lara Churriguera, que la ensanchó para el paso de carruajes. Bajo su bóveda hay una hornacina con una imagen de la Virgen de la Estrella iluminada por un farol.",
+   "d_en": "The main gate in the walls, remodelled in the 18th century by Manuel de Lara Churriguera, who widened it for carriages. Under its vault sits a niche with an image of the Virgin of the Star lit by a lantern.",
+   "h": "Acceso libre 24 h",
+   "h_en": "Free access 24 h",
+   "i": "Ideal si te gusta la arquitectura y las fotos con encuadre monumental.",
+   "i_en": "Ideal if you like architecture and framed monumental photos."
+  },
+  "cac_torre_bujaco": {
+   "id": "cac_torre_bujaco",
+   "d": "Torre defensiva de origen almohade (siglo XII) sobre cimientos romanos, símbolo de la ciudad. Alberga un centro de interpretación de la muralla y desde su terraza se disfruta de una de las mejores vistas panorámicas de la Plaza Mayor y los tejados del casco antiguo.",
+   "d_en": "A defensive tower of Almohad origin (12th century) on Roman foundations, a city symbol. It houses a wall interpretation centre and its terrace offers one of the best panoramic views over the Plaza Mayor and the old-town rooftops.",
+   "h": "Mar–Dom 10:00–14:00 y 17:00–20:00 (varía por temporada)",
+   "h_en": "Tue–Sun 10:00–14:00 and 17:00–20:00 (seasonal)",
+   "i": "Ideal si te gustan las vistas desde lo alto y las fortalezas.",
+   "i_en": "Ideal if you like views from up high and fortresses."
+  },
+  "cac_concatedral_santa_maria": {
+   "id": "cac_concatedral_santa_maria",
+   "d": "Iglesia mayor de Cáceres, construida entre los siglos XV y XVI en estilo gótico con retablo mayor de cedro sin policromar. Se puede subir a su torre para contemplar una vista aérea del entramado de palacios y torres de la Ciudad Monumental.",
+   "d_en": "The main church of Cáceres, built between the 15th and 16th centuries in Gothic style with an unpainted cedar altarpiece. You can climb its tower for an aerial view over the maze of palaces and towers of the Old Town.",
+   "h": "Lun–Sáb 10:00–14:00 y 16:30–19:30, Dom horario reducido",
+   "h_en": "Mon–Sat 10:00–14:00 and 16:30–19:30, reduced Sun hours",
+   "i": "Ideal si te gusta el arte sacro y las vistas desde campanarios.",
+   "i_en": "Ideal if you like sacred art and views from bell towers."
+  },
+  "cac_trujillo_plaza_mayor": {
+   "id": "cac_trujillo_plaza_mayor",
+   "d": "Escenográfica plaza renacentista rodeada de palacios de conquistadores, presidida por la estatua ecuestre de Francisco Pizarro, natural de Trujillo y conquistador del Perú. Alrededor destacan la iglesia de San Martín y el Palacio de la Conquista con su balcón esquinero.",
+   "d_en": "A theatrical Renaissance square ringed by conquistador palaces, presided over by the equestrian statue of Francisco Pizarro, a Trujillo native and conqueror of Peru. Around it stand the church of San Martín and the Palace of the Conquest with its corner balcony.",
+   "h": "Acceso libre 24 h",
+   "h_en": "Free access 24 h",
+   "i": "Ideal si te gusta la historia de los conquistadores y la arquitectura renacentista.",
+   "i_en": "Ideal if you like conquistador history and Renaissance architecture."
+  },
+  "cac_castillo_trujillo": {
+   "id": "cac_castillo_trujillo",
+   "d": "Alcazaba de origen musulmán (siglos IX–XII) levantada sobre restos romanos, con aljibes, torres y un adarve por el que pasear. Corona el cerro de Trujillo y ofrece vistas de 360º sobre la dehesa extremeña y el caserío histórico.",
+   "d_en": "A Muslim-era fortress (9th–12th centuries) built over Roman remains, with cisterns, towers and a walkway to stroll. It crowns Trujillo's hill and offers 360º views over the Extremadura dehesa and the historic town.",
+   "h": "Todos los días 10:00–14:00 y 16:00–19:00 (varía por temporada)",
+   "h_en": "Daily 10:00–14:00 and 16:00–19:00 (seasonal)",
+   "i": "Ideal si te gustan los castillos y las panorámicas amplias.",
+   "i_en": "Ideal if you like castles and sweeping panoramas."
+  },
+  "cac_catedral_plasencia": {
+   "id": "cac_catedral_plasencia",
+   "d": "Singular conjunto formado por la Catedral Vieja (románico-gótica, siglos XIII–XIV) y la Catedral Nueva (gótico tardío y plateresco), inacabada y adosadas entre sí. Destacan la sillería del coro de Rodrigo Alemán y el claustro. Plasencia es la puerta norte de la provincia.",
+   "d_en": "A singular complex formed by the Old Cathedral (Romanesque-Gothic, 13th–14th centuries) and the unfinished New Cathedral (late Gothic and Plateresque), built onto each other. Highlights include Rodrigo Alemán's choir stalls and the cloister. Plasencia is the province's northern gateway.",
+   "h": "Mar–Dom 10:00–14:00 y 16:00–18:00",
+   "h_en": "Tue–Sun 10:00–14:00 and 16:00–18:00",
+   "i": "Ideal si te gusta la arquitectura religiosa y los detalles escultóricos.",
+   "i_en": "Ideal if you like religious architecture and sculptural detail."
+  },
+  "cac_monasterio_guadalupe": {
+   "id": "cac_monasterio_guadalupe",
+   "d": "Gran conjunto monástico declarado Patrimonio de la Humanidad, muestra de la fusión de estilos mudéjar, gótico, renacentista y barroco. Custodia la venerada imagen de la Virgen de Guadalupe, patrona de Extremadura, y un valioso patrimonio de pinturas de Zurbarán y bordados.",
+   "d_en": "A great monastic complex declared a World Heritage Site, a showcase of Mudéjar, Gothic, Renaissance and Baroque styles fused together. It guards the venerated image of the Virgin of Guadalupe, patron of Extremadura, and a rich heritage of Zurbarán paintings and embroidery.",
+   "h": "Todos los días 09:30–13:00 y 15:30–18:30",
+   "h_en": "Daily 09:30–13:00 and 15:30–18:30",
+   "i": "Ideal si te gusta el arte, la historia y los lugares con espiritualidad.",
+   "i_en": "Ideal if you like art, history and spiritual places."
+  },
+  "cac_monasterio_yuste": {
+   "id": "cac_monasterio_yuste",
+   "d": "Monasterio jerónimo enclavado entre bosques de La Vera donde el emperador Carlos V se retiró a morir en 1558. Conserva el palacio imperial, la iglesia gótica y unos jardines con estanque. Forma parte del Patrimonio Europeo por su papel en la historia del continente.",
+   "d_en": "A Hieronymite monastery set among the woods of La Vera where Emperor Charles V retired to die in 1558. It preserves the imperial quarters, the Gothic church and gardens with a pond. It holds the European Heritage Label for its role in the continent's history.",
+   "h": "Mar–Dom 10:00–18:00 (hasta 20:00 en verano)",
+   "h_en": "Tue–Sun 10:00–18:00 (until 20:00 in summer)",
+   "i": "Ideal si te gusta la historia imperial y los rincones tranquilos.",
+   "i_en": "Ideal if you like imperial history and peaceful corners."
+  },
+  "cac_juderia_hervas": {
+   "id": "cac_juderia_hervas",
+   "d": "Una de las juderías medievales mejor conservadas de España, en el valle del Ambroz. Sus estrechas calles de casas de entramado de madera y adobe descienden hasta el río, con nombres evocadores como la calle de la Amistad Judeo-Cristiana. En verano acoge el festival Los Conversos.",
+   "d_en": "One of the best-preserved medieval Jewish quarters in Spain, in the Ambroz valley. Its narrow lanes of timber-framed adobe houses drop down to the river, with evocative names like the Street of Jewish-Christian Friendship. In summer it hosts the Los Conversos festival.",
+   "h": "Acceso libre 24 h",
+   "h_en": "Free access 24 h",
+   "i": "Ideal si te gustan los pueblos con encanto y la historia sefardí.",
+   "i_en": "Ideal if you like charming villages and Sephardic history."
+  },
+  "cac_coria_murallas": {
+   "id": "cac_coria_murallas",
+   "d": "Antigua Caurium romana que conserva uno de los recintos amurallados romanos más completos de España (siglos III–IV), con sus cuatro puertas. Dentro destacan la catedral gótico-plateresca y el castillo. La ciudad se asoma sobre la vega del río Alagón.",
+   "d_en": "The former Roman Caurium, which preserves one of the most complete Roman walled enclosures in Spain (3rd–4th centuries), with its four gates. Inside stand the Gothic-Plateresque cathedral and the castle. The town looks out over the Alagón river plain.",
+   "h": "Acceso libre a la muralla; monumentos con horario propio",
+   "h_en": "Free access to the walls; monuments have their own hours",
+   "i": "Ideal si te gusta la arqueología romana y los pueblos con historia.",
+   "i_en": "Ideal if you like Roman archaeology and historic towns."
+  },
+  "cac_monfrague": {
+   "id": "cac_monfrague",
+   "d": "Parque nacional y Reserva de la Biosfera, uno de los mejores lugares de Europa para la observación de aves. Alberga grandes colonias de buitre leonado y negro, águila imperial ibérica, cigüeña negra y alimoche, entre dehesas, monte mediterráneo y los ríos Tajo y Tiétar.",
+   "d_en": "A national park and Biosphere Reserve, one of Europe's best birdwatching spots. It holds large colonies of griffon and black vultures, Iberian imperial eagle, black stork and Egyptian vulture, amid dehesas, Mediterranean scrub and the Tagus and Tiétar rivers.",
+   "h": "Acceso libre; centro de visitantes en Villarreal de San Carlos 09:00–17:30",
+   "h_en": "Free access; Villarreal de San Carlos visitor centre 09:00–17:30",
+   "i": "Ideal si te gusta la ornitología y la naturaleza salvaje.",
+   "i_en": "Ideal if you like birdwatching and wild nature."
+  },
+  "cac_salto_gitano": {
+   "id": "cac_salto_gitano",
+   "d": "Imponente peñón de cuarcita (Peña Falcón) que se alza sobre el río Tajo, frente al castillo de Monfragüe. Es el mirador más famoso del parque: desde la carretera se observan cientos de buitres leonados, cigüeñas negras y alimoches anidando en la pared. Espectacular al amanecer.",
+   "d_en": "An imposing quartzite crag (Peña Falcón) rising over the Tagus, facing Monfragüe castle. It is the park's most famous viewpoint: from the road you can watch hundreds of griffon vultures, black storks and Egyptian vultures nesting on the wall. Spectacular at dawn.",
+   "h": "Acceso libre 24 h (mejor al amanecer)",
+   "h_en": "Free access 24 h (best at dawn)",
+   "i": "Ideal si te gusta ver aves de cerca y los paisajes fluviales.",
+   "i_en": "Ideal if you like watching birds up close and river landscapes."
+  },
+  "cac_valle_jerte": {
+   "id": "cac_valle_jerte",
+   "d": "Valle de laderas escalonadas cubiertas por más de un millón de cerezos que, cada primavera, tiñen de blanco las montañas durante el fenómeno del Cerezo en Flor. En verano ofrece piscinas naturales y senderos, y en otoño la recogida de la cereza picota, con Denominación de Origen.",
+   "d_en": "A valley of terraced slopes covered by over a million cherry trees that, each spring, turn the mountains white during the Cherry Blossom phenomenon. In summer it offers natural pools and trails, and in autumn the harvest of protected-origin picota cherries.",
+   "h": "Acceso libre; floración a finales de marzo–principios de abril",
+   "h_en": "Free access; blossom late March–early April",
+   "i": "Ideal si te gustan los paisajes de temporada y el senderismo.",
+   "i_en": "Ideal if you like seasonal landscapes and hiking."
+  },
+  "cac_garganta_infiernos": {
+   "id": "cac_garganta_infiernos",
+   "d": "Reserva natural en el Valle del Jerte donde el agua ha esculpido en la roca las famosas marmitas de gigante de Los Pilones, pozas circulares de aguas cristalinas. Una ruta de senderismo bien señalizada recorre el cauce entre bosques de robles y castaños.",
+   "d_en": "A nature reserve in the Jerte Valley where water has carved the famous giant's kettles of Los Pilones into the rock, circular pools of crystal-clear water. A well-marked trail follows the stream through oak and chestnut woods.",
+   "h": "Acceso libre; centro de interpretación 09:00–18:00",
+   "h_en": "Free access; interpretation centre 09:00–18:00",
+   "i": "Ideal si te gusta el senderismo y bañarte en pozas de montaña.",
+   "i_en": "Ideal if you like hiking and swimming in mountain pools."
+  },
+  "cac_las_hurdes": {
+   "id": "cac_las_hurdes",
+   "d": "Comarca montañosa y aislada de gran belleza salvaje, famosa por sus pueblos de arquitectura negra de pizarra, sus alquerías y sus cascadas como el Chorro de la Meancera. Un territorio de valles profundos, meandros y castaños que invita a rutas y a desconectar.",
+   "d_en": "A mountainous, isolated region of great wild beauty, famed for its black slate architecture, hamlets and waterfalls such as the Chorro de la Meancera. A land of deep valleys, river meanders and chestnut trees, perfect for trails and disconnecting.",
+   "h": "Acceso libre 24 h",
+   "h_en": "Free access 24 h",
+   "i": "Ideal si te gusta la naturaleza remota y los pueblos auténticos.",
+   "i_en": "Ideal if you like remote nature and authentic villages."
+  },
+  "cac_garganta_cuartos_vera": {
+   "id": "cac_garganta_cuartos_vera",
+   "d": "La comarca de La Vera está surcada por numerosas gargantas de agua cristalina que bajan de la sierra de Gredos, como las de Cuartos, Alardos o Jaranda. Forman pozas y piscinas naturales rodeadas de vegetación, ideales para refrescarse en verano entre pueblos de casas de entramado.",
+   "d_en": "The La Vera region is cut by numerous clear-water gorges tumbling down from the Gredos range, such as Cuartos, Alardos and Jaranda. They form pools and natural swimming spots surrounded by greenery, ideal for cooling off in summer among timber-framed villages.",
+   "h": "Acceso libre 24 h (temporada de baño en verano)",
+   "h_en": "Free access 24 h (bathing season in summer)",
+   "i": "Ideal si te gustan los baños naturales y los paisajes de montaña.",
+   "i_en": "Ideal if you like natural bathing and mountain scenery."
+  },
+  "cac_banos_montemayor": {
+   "id": "cac_banos_montemayor",
+   "d": "Villa termal a los pies de la Vía de la Plata cuyas aguas mineromedicinales ya usaban los romanos. Su balneario ofrece baños, chorros y circuitos de relax en un entorno de montaña, y el pueblo conserva soportales y talleres de artesanía en castaño.",
+   "d_en": "A spa town at the foot of the Vía de la Plata whose mineral-medicinal waters were already used by the Romans. Its spa offers baths, jets and relaxation circuits in a mountain setting, and the village keeps arcades and chestnut-wood craft workshops.",
+   "h": "Balneario 10:00–14:00 y 16:00–20:00 (según reserva)",
+   "h_en": "Spa 10:00–14:00 and 16:00–20:00 (by booking)",
+   "i": "Ideal si te gusta el relax, el bienestar y las aguas termales.",
+   "i_en": "Ideal if you like relaxation, wellness and thermal waters."
+  },
+  "cac_cerezos_flor_fiesta": {
+   "id": "cac_cerezos_flor_fiesta",
+   "d": "Celebración de primavera en el Valle del Jerte, declarada Fiesta de Interés Turístico Nacional, que coincide con la floración de más de un millón de cerezos. Incluye rutas guiadas, mercados de productos locales, degustaciones y actividades en pueblos como Cabezuela del Valle.",
+   "d_en": "A spring celebration in the Jerte Valley, declared a Festival of National Tourist Interest, timed with the blossoming of over a million cherry trees. It includes guided walks, local produce markets, tastings and activities in villages such as Cabezuela del Valle.",
+   "h": "Finales de marzo a mediados de abril (según floración)",
+   "h_en": "Late March to mid-April (depending on the blossom)",
+   "i": "Ideal si te gustan las fiestas populares y la naturaleza en flor.",
+   "i_en": "Ideal if you like local festivals and nature in bloom."
+  },
+  "cac_museo_caceres": {
+   "id": "cac_museo_caceres",
+   "d": "Museo provincial ubicado en la Casa de las Veletas, en pleno casco antiguo, con colecciones de arqueología y bellas artes. Su joya es el aljibe almohade del siglo XII, una espectacular cisterna de arcos de herradura sostenida por columnas, único en su género.",
+   "d_en": "The provincial museum housed in the Casa de las Veletas in the old town, with archaeology and fine-arts collections. Its jewel is the 12th-century Almohad cistern, a spectacular water tank of horseshoe arches on columns, unique of its kind.",
+   "h": "Mar–Sáb 09:00–15:00 y 16:00–19:30, Dom 10:00–15:00",
+   "h_en": "Tue–Sat 09:00–15:00 and 16:00–19:30, Sun 10:00–15:00",
+   "i": "Ideal si te gustan los museos y los rincones sorprendentes.",
+   "i_en": "Ideal if you like museums and surprising hidden corners."
+  },
+  "cac_castillo_monfrague_mirador": {
+   "id": "cac_castillo_monfrague_mirador",
+   "d": "Ruta corta pero exigente que sube al castillo templario en lo alto de la sierra de las Corchuelas, con la ermita de la Virgen de Monfragüe. Desde arriba se domina todo el parque nacional, el meandro del Tajo y el Salto del Gitano en una panorámica inolvidable.",
+   "d_en": "A short but demanding walk up to the Templar castle atop the Corchuelas range, with the hermitage of the Virgin of Monfragüe. From the top you overlook the whole national park, the Tagus meander and the Salto del Gitano in an unforgettable panorama.",
+   "h": "Acceso libre 24 h; recinto del castillo 10:00–anochecer",
+   "h_en": "Free access 24 h; castle grounds 10:00–dusk",
+   "i": "Ideal si te gusta el senderismo y las vistas de vértigo.",
+   "i_en": "Ideal if you like hiking and dizzying views."
+  },
+  "cac_atrio_caceres": {
+   "id": "cac_atrio_caceres",
+   "d": "Uno de los grandes templos gastronómicos de España, con tres estrellas Michelin, ubicado en un hotel de diseño dentro del casco antiguo de Cáceres. Ofrece menús degustación de cocina extremeña reinventada y una de las bodegas más impresionantes del mundo.",
+   "d_en": "One of Spain's great gastronomic temples, with three Michelin stars, set in a design hotel within the old town of Cáceres. It offers tasting menus of reimagined Extremaduran cuisine and one of the most impressive wine cellars in the world.",
+   "h": "Mar–Sáb con reserva previa",
+   "h_en": "Tue–Sat by advance booking",
+   "i": "Ideal si te gusta la alta gastronomía y las experiencias memorables.",
+   "i_en": "Ideal if you like haute cuisine and memorable experiences."
+  },
+  "cac_torta_casar_degustacion": {
+   "id": "cac_torta_casar_degustacion",
+   "d": "El producto estrella de la gastronomía cacereña: un queso de oveja de pasta blanda y cremosa, cuajado con flor de cardo, que se come untado tras cortarle la tapa superior. Con Denominación de Origen Protegida, se degusta en tabernas y tiendas gourmet del casco antiguo.",
+   "d_en": "The star product of Cáceres cuisine: a soft, creamy sheep's cheese curdled with cardoon flower, eaten spread after cutting off its top lid. With Protected Designation of Origin, it is savoured in taverns and gourmet shops of the old town.",
+   "h": "Tiendas gourmet 10:00–21:00",
+   "h_en": "Gourmet shops 10:00–21:00",
+   "i": "Ideal si te gusta el queso y los sabores intensos de la tierra.",
+   "i_en": "Ideal if you like cheese and intense local flavours."
+  },
+  "cac_migas_extremenas": {
+   "id": "cac_migas_extremenas",
+   "d": "Plato humilde y contundente de origen pastoril, elaborado con pan del día anterior desmigado y frito con ajo, pimentón de la Vera, chorizo, panceta y a veces uvas. Se sirve en mesones de Trujillo y toda la provincia, especialmente reconfortante en invierno.",
+   "d_en": "A humble, hearty dish of shepherd origin, made with day-old bread crumbled and fried with garlic, Vera paprika, chorizo, pork belly and sometimes grapes. Served in taverns of Trujillo and across the province, especially comforting in winter.",
+   "h": "Mesones 13:30–16:00 y 20:30–23:00",
+   "h_en": "Taverns 13:30–16:00 and 20:30–23:00",
+   "i": "Ideal si te gusta la cocina rural y los platos de cuchara.",
+   "i_en": "Ideal if you like rustic cooking and hearty dishes."
+  },
+  "cac_jamon_iberico_montanchez": {
+   "id": "cac_jamon_iberico_montanchez",
+   "d": "En los pueblos de la sierra de Montánchez se curan algunos de los mejores jamones ibéricos de bellota de España, gracias al clima y a los cerdos criados en la dehesa. Se pueden visitar secaderos y bodegas familiares y degustar el producto recién cortado.",
+   "d_en": "In the villages of the Montánchez range, some of Spain's finest acorn-fed Iberian hams are cured, thanks to the climate and pigs raised in the dehesa. You can visit family curing houses and cellars and taste freshly carved ham.",
+   "h": "Bodegas y bares 10:00–20:00",
+   "h_en": "Cellars and bars 10:00–20:00",
+   "i": "Ideal si te gusta el jamón ibérico y el turismo gastronómico.",
+   "i_en": "Ideal if you like Iberian ham and food tourism."
+  },
+  "cac_dulces_guadalupe": {
+   "id": "cac_dulces_guadalupe",
+   "d": "En torno al monasterio de Guadalupe se elabora una tradicional repostería de raíz conventual, con perrunillas, floretas y dulces de almendra, además de miel de las Villuercas y licores artesanos. Perfecto para acompañar un descanso tras la visita al santuario.",
+   "d_en": "Around Guadalupe monastery a traditional convent-rooted pastry-making thrives, with perrunillas, floretas and almond sweets, alongside Villuercas honey and artisan liqueurs. Perfect to enjoy on a break after visiting the sanctuary.",
+   "h": "Obradores y tiendas 10:00–20:00",
+   "h_en": "Bakeries and shops 10:00–20:00",
+   "i": "Ideal si te gusta el dulce y los productos artesanos locales.",
+   "i_en": "Ideal if you like sweets and local artisan products."
+  }
+ },
+ "food": {
+  "cac_atrio_caceres": {
+   "cuisine": "Alta cocina extremeña de autor",
+   "price": "295–395 €",
+   "hours": "Mar–Sáb, servicio de comida y cena con reserva"
+  },
+  "cac_torta_casar_degustacion": {
+   "cuisine": "Queso y productos con DOP",
+   "price": "8–18 €",
+   "hours": "Tiendas y tabernas 10:00–21:00"
+  },
+  "cac_migas_extremenas": {
+   "cuisine": "Cocina tradicional extremeña",
+   "price": "10–16 €",
+   "hours": "Mesones 13:30–16:00 y 20:30–23:00"
+  },
+  "cac_jamon_iberico_montanchez": {
+   "cuisine": "Ibéricos y embutidos de la dehesa",
+   "price": "15–40 €",
+   "hours": "Bodegas y bares 10:00–20:00 (según establecimiento)"
+  },
+  "cac_dulces_guadalupe": {
+   "cuisine": "Repostería tradicional y productos de las Villuercas",
+   "price": "5–15 €",
+   "hours": "Obradores y tiendas 10:00–20:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Cáceres",
+   "items": [
+    {
+     "name": "Torta del Casar (DOP)",
+     "price": "12–20 €",
+     "desc": "Queso cremoso de oveja con cuajo vegetal de cardo, se come untado."
+    },
+    {
+     "name": "Jamón ibérico de bellota",
+     "price": "25–90 €",
+     "desc": "De la dehesa extremeña, curado en secaderos de montaña."
+    },
+    {
+     "name": "Pimentón de la Vera (DOP)",
+     "price": "3–8 €",
+     "desc": "Ahumado con humo de encina, dulce, agridulce o picante."
+    },
+    {
+     "name": "Cerámica y bordados",
+     "price": "8–40 €",
+     "desc": "Artesanía tradicional de la Ciudad Monumental."
+    }
+   ],
+   "shops": [
+    "Mercado de artesanía de la Plaza Mayor",
+    "Tiendas gourmet del casco antiguo",
+    "Cooperativas del Valle del Jerte"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Visita la Ciudad Monumental al atardecer o de noche: la piedra dorada iluminada es espectacular y hay menos gente.",
+   "En primavera reserva con antelación para ver el cerezo en flor del Valle del Jerte (finales de marzo a principios de abril).",
+   "En Monfragüe madruga: los buitres y el Salto del Gitano se ven mejor a primera hora y con luz suave.",
+   "Prueba la Torta del Casar y el pimentón de la Vera; son productos con Denominación de Origen únicos de la zona.",
+   "Alquila coche: los pueblos y parques naturales están dispersos y el transporte público es limitado."
+  ],
+  "en": [
+   "Visit the Old Town at dusk or night: the golden floodlit stone is spectacular and there are fewer crowds.",
+   "In spring book ahead to see the Jerte Valley cherry blossom (late March to early April).",
+   "In Monfragüe go early: vultures and the Salto del Gitano are best seen at first light in soft sun.",
+   "Try Torta del Casar cheese and Vera paprika; they are unique protected-origin products of the region.",
+   "Rent a car: the villages and natural parks are spread out and public transport is limited."
+  ]
+ },
+ "climate": {
+  "hi": [
+   11,
+   13,
+   17,
+   19,
+   24,
+   30,
+   34,
+   33,
+   28,
+   21,
+   15,
+   11
+  ],
+  "lo": [
+   4,
+   5,
+   7,
+   9,
+   12,
+   17,
+   20,
+   20,
+   17,
+   12,
+   8,
+   5
+  ]
+ },
+ "tr": {
+  "Casco antiguo medieval Patrimonio de la Humanidad.": "Medieval old town, a World Heritage Site.",
+  "Gran plaza porticada y corazón de la ciudad.": "Large arcaded square, the heart of the city.",
+  "Puerta barroca de acceso al casco antiguo.": "Baroque gateway into the old town.",
+  "Torre almohade emblema de Cáceres.": "Almohad tower, emblem of Cáceres.",
+  "Templo gótico principal de la ciudad monumental.": "Main Gothic church of the monumental city.",
+  "Plaza renacentista con la estatua de Pizarro.": "Renaissance square with the Pizarro statue.",
+  "Fortaleza árabe en lo alto del cerro.": "Moorish fortress atop the hill.",
+  "Conjunto de catedral vieja y nueva unidas.": "Combined old and new cathedral complex.",
+  "Monasterio Patrimonio de la Humanidad y santuario mariano.": "World Heritage monastery and Marian sanctuary.",
+  "Retiro final del emperador Carlos V.": "Final retreat of Emperor Charles V.",
+  "Barrio judío medieval de calles empinadas.": "Medieval Jewish quarter of steep lanes.",
+  "Recinto amurallado romano casi íntegro.": "Almost intact Roman walled enclosure.",
+  "Refugio de aves rapaces y bosque mediterráneo.": "Refuge of birds of prey and Mediterranean forest.",
+  "Farallón rocoso con colonias de buitres.": "Rocky crag with vulture colonies.",
+  "Valle de cerezos famoso por su floración.": "Cherry-tree valley famed for its blossom.",
+  "Gargantas y pozas de Los Pilones.": "Gorges and pools of Los Pilones.",
+  "Comarca agreste de valles, pizarra y cascadas.": "Rugged region of valleys, slate and waterfalls.",
+  "Piscinas naturales de agua fría en La Vera.": "Cold-water natural pools in La Vera.",
+  "Termas de origen romano en el valle del Ambroz.": "Roman-origin thermal baths in the Ambroz valley.",
+  "Fiesta de Interés Turístico Nacional en primavera.": "Nationally recognised spring blossom festival.",
+  "Museo con el famoso aljibe árabe.": "Museum with the famous Arab cistern.",
+  "Subida al castillo con vistas del parque.": "Climb to the castle with park views.",
+  "Alta cocina con tres estrellas Michelin.": "Haute cuisine with three Michelin stars.",
+  "Queso cremoso emblema de la provincia.": "Creamy cheese, emblem of the province.",
+  "Plato tradicional de pan, chorizo y panceta.": "Traditional dish of bread, chorizo and pork belly.",
+  "Jamón de bellota curado en la sierra.": "Acorn-fed ham cured in the mountains.",
+  "Dulces conventuales y miel de la comarca.": "Convent sweets and local honey.",
+  "Cáceres": "Cáceres"
+ }
+}

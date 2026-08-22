@@ -1,0 +1,591 @@
+{
+ "id": "guadalajara",
+ "name": "Guadalajara",
+ "country": "ES",
+ "center": [
+  40.63234,
+  -3.16457
+ ],
+ "pois": [
+  {
+   "id": "gua_palacio_infantado",
+   "cat": "monuments",
+   "name": "Palacio del Infantado",
+   "icon": "🏰",
+   "lat": 40.63307,
+   "lng": -3.1649,
+   "desc": "Joya del gótico-mudéjar y del primer Renacimiento español."
+  },
+  {
+   "id": "gua_panteon_vega_pozo",
+   "cat": "monuments",
+   "name": "Panteón de la Condesa de la Vega del Pozo",
+   "icon": "⛪",
+   "lat": 40.6268,
+   "lng": -3.1537,
+   "desc": "Espectacular mausoleo neobizantino del siglo XIX."
+  },
+  {
+   "id": "gua_catedral_siguenza",
+   "cat": "monuments",
+   "name": "Catedral de Sigüenza",
+   "icon": "⛪",
+   "lat": 41.06806,
+   "lng": -2.64139,
+   "desc": "Catedral-fortaleza que guarda el célebre Doncel."
+  },
+  {
+   "id": "gua_castillo_siguenza",
+   "cat": "monuments",
+   "name": "Castillo de Sigüenza (Parador)",
+   "icon": "🏰",
+   "lat": 41.06972,
+   "lng": -2.64306,
+   "desc": "Alcázar medieval convertido en Parador de Turismo."
+  },
+  {
+   "id": "gua_casco_siguenza",
+   "cat": "monuments",
+   "name": "Casco medieval de Sigüenza",
+   "icon": "🏘️",
+   "lat": 41.0674,
+   "lng": -2.642,
+   "desc": "Plaza Mayor porticada y calles de piedra medievales."
+  },
+  {
+   "id": "gua_atienza",
+   "cat": "monuments",
+   "name": "Atienza",
+   "icon": "🏰",
+   "lat": 41.1948,
+   "lng": -2.8756,
+   "desc": "Villa medieval coronada por un castillo roquero."
+  },
+  {
+   "id": "gua_pastrana",
+   "cat": "monuments",
+   "name": "Pastrana",
+   "icon": "🏘️",
+   "lat": 40.4156,
+   "lng": -2.9254,
+   "desc": "Villa ducal con colegiata y los tapices góticos."
+  },
+  {
+   "id": "gua_castillo_molina",
+   "cat": "monuments",
+   "name": "Castillo de Molina de Aragón",
+   "icon": "🏰",
+   "lat": 40.8462,
+   "lng": -1.8895,
+   "desc": "Enorme fortaleza medieval con torre del homenaje."
+  },
+  {
+   "id": "gua_campillo_ranas",
+   "cat": "monuments",
+   "name": "Campillo de Ranas (Arquitectura Negra)",
+   "icon": "🏘️",
+   "lat": 41.0496,
+   "lng": -3.3484,
+   "desc": "Pueblo de pizarra negra en la Sierra Norte."
+  },
+  {
+   "id": "gua_majaelrayo",
+   "cat": "monuments",
+   "name": "Majaelrayo",
+   "icon": "🏘️",
+   "lat": 41.0796,
+   "lng": -3.3599,
+   "desc": "Aldea de pizarra a los pies del pico Ocejón."
+  },
+  {
+   "id": "gua_hayedo_tejera",
+   "cat": "nature",
+   "name": "Hayedo de Tejera Negra",
+   "icon": "🍂",
+   "lat": 41.1298,
+   "lng": -3.42,
+   "desc": "Uno de los hayedos más meridionales de Europa."
+  },
+  {
+   "id": "gua_barranco_rio_dulce",
+   "cat": "nature",
+   "name": "Barranco del Río Dulce",
+   "icon": "🏞️",
+   "lat": 40.9895,
+   "lng": -2.732,
+   "desc": "Cañón fluvial de los documentales de Félix Rodríguez de la Fuente."
+  },
+  {
+   "id": "gua_embalse_entrepenas",
+   "cat": "nature",
+   "name": "Embalse de Entrepeñas",
+   "icon": "🌊",
+   "lat": 40.477,
+   "lng": -2.688,
+   "desc": "Gran embalse del 'Mar de Castilla' sobre el Tajo."
+  },
+  {
+   "id": "gua_embalse_buendia",
+   "cat": "nature",
+   "name": "Embalse de Buendía",
+   "icon": "🌊",
+   "lat": 40.383,
+   "lng": -2.755,
+   "desc": "El mayor embalse del Mar de Castilla."
+  },
+  {
+   "id": "gua_pico_ocejon",
+   "cat": "nature",
+   "name": "Pico Ocejón",
+   "icon": "⛰️",
+   "lat": 41.1019,
+   "lng": -3.3449,
+   "desc": "Cumbre emblemática de la Sierra Norte (2.049 m)."
+  },
+  {
+   "id": "gua_lavanda_brihuega",
+   "cat": "ocio",
+   "name": "Campos de lavanda de Brihuega",
+   "icon": "💜",
+   "lat": 40.748,
+   "lng": -2.855,
+   "desc": "Mares morados de lavanda que florecen en julio."
+  },
+  {
+   "id": "gua_tren_medieval_siguenza",
+   "cat": "ocio",
+   "name": "Tren Medieval de Sigüenza",
+   "icon": "🚂",
+   "lat": 41.071,
+   "lng": -2.633,
+   "desc": "Excursión temática con animación de época hasta Sigüenza."
+  },
+  {
+   "id": "gua_real_fabrica_brihuega",
+   "cat": "ocio",
+   "name": "Real Fábrica de Paños de Brihuega",
+   "icon": "🏛️",
+   "lat": 40.7583,
+   "lng": -2.8756,
+   "desc": "Fábrica circular del siglo XVIII con jardines románticos."
+  },
+  {
+   "id": "gua_nautica_mar_castilla",
+   "cat": "ocio",
+   "name": "Náutica en el Mar de Castilla (Sacedón)",
+   "icon": "🚤",
+   "lat": 40.482,
+   "lng": -2.727,
+   "desc": "Playas de interior y deportes de agua junto a Sacedón."
+  },
+  {
+   "id": "gua_castillo_zafra",
+   "cat": "ocio",
+   "name": "Castillo de Zafra",
+   "icon": "🏰",
+   "lat": 40.9556,
+   "lng": -2.0283,
+   "desc": "Castillo roquero famoso por 'Juego de Tronos'."
+  },
+  {
+   "id": "gua_food_lino",
+   "cat": "food",
+   "name": "Restaurante Lino",
+   "icon": "🍽️",
+   "lat": 40.6295,
+   "lng": -3.1635,
+   "desc": "Referente de la alta cocina en Guadalajara capital."
+  },
+  {
+   "id": "gua_food_doncel",
+   "cat": "food",
+   "name": "El Doncel (Sigüenza)",
+   "icon": "⭐",
+   "lat": 41.0656,
+   "lng": -2.6456,
+   "desc": "Restaurante con una estrella Michelin en Sigüenza."
+  },
+  {
+   "id": "gua_food_modegon",
+   "cat": "food",
+   "name": "El Modegón (Molina de Aragón)",
+   "icon": "🍲",
+   "lat": 40.8425,
+   "lng": -1.8879,
+   "desc": "Cocina del Alto Tajo con migas, setas y ternera."
+  },
+  {
+   "id": "gua_food_capricho",
+   "cat": "food",
+   "name": "El Capricho de la Abuela (Brihuega)",
+   "icon": "🍴",
+   "lat": 40.7614,
+   "lng": -2.8747,
+   "desc": "Cocina alcarreña con toques de lavanda y miel."
+  },
+  {
+   "id": "gua_food_pastrana",
+   "cat": "food",
+   "name": "Hospedería Real de Pastrana",
+   "icon": "🍷",
+   "lat": 40.4154,
+   "lng": -2.926,
+   "desc": "Comedor con encanto en la villa ducal de Pastrana."
+  }
+ ],
+ "extra": {
+  "gua_palacio_infantado": {
+   "id": "gua_palacio_infantado",
+   "d": "Mandado construir por los Mendoza en el siglo XV, deslumbra por su fachada de puntas de diamante y su patio de los Leones. Hoy alberga el Museo de Guadalajara.",
+   "d_en": "Built by the Mendoza family in the 15th century, it dazzles with its diamond-point facade and the Patio de los Leones. Today it houses the Museum of Guadalajara.",
+   "h": "Mar–Sáb 10:00–14:00 y 16:00–19:00; Dom 10:00–14:00; lunes cerrado",
+   "h_en": "Tue–Sat 10:00–14:00 and 16:00–19:00; Sun 10:00–14:00; closed Mondays",
+   "i": "Ideal si te gusta la arquitectura palaciega y los museos de arte.",
+   "i_en": "Ideal if you like palatial architecture and art museums."
+  },
+  "gua_panteon_vega_pozo": {
+   "id": "gua_panteon_vega_pozo",
+   "d": "Diseñado por Ricardo Velázquez Bosco para la duquesa de Sevillano, sorprende con su cúpula, mosaicos dorados y mármoles dentro del conjunto de las Adoratrices.",
+   "d_en": "Designed by Ricardo Velázquez Bosco for the Duchess of Sevillano, it astonishes with its dome, golden mosaics and marble within the Adoratrices complex.",
+   "h": "Visitas guiadas fines de semana; consultar horario en turismo",
+   "h_en": "Guided visits on weekends; check times with the tourist office",
+   "i": "Ideal si te gustan las joyas ocultas y la arquitectura ecléctica.",
+   "i_en": "Ideal if you like hidden gems and eclectic architecture."
+  },
+  "gua_catedral_siguenza": {
+   "id": "gua_catedral_siguenza",
+   "d": "La 'Fortis Seguntina' mezcla románico, gótico, plateresco y barroco. En su interior descansa el Doncel de Sigüenza, una de las esculturas funerarias más bellas de España.",
+   "d_en": "The 'Fortis Seguntina' blends Romanesque, Gothic, Plateresque and Baroque. Inside lies the Doncel of Sigüenza, one of Spain's most beautiful funerary sculptures.",
+   "h": "Todos los días 10:00–14:00 y 16:00–19:00 (visitas guiadas)",
+   "h_en": "Daily 10:00–14:00 and 16:00–19:00 (guided tours)",
+   "i": "Ideal si te gusta el arte sacro y la historia medieval.",
+   "i_en": "Ideal if you like sacred art and medieval history."
+  },
+  "gua_castillo_siguenza": {
+   "id": "gua_castillo_siguenza",
+   "d": "De origen musulmán y luego residencia de obispos, corona la ciudad con sus murallas almenadas. Hoy es un Parador donde se puede dormir como en la Edad Media.",
+   "d_en": "Of Muslim origin and later a bishops' residence, it crowns the town with battlemented walls. Today a Parador where you can sleep as in the Middle Ages.",
+   "h": "Exterior visitable siempre; interior según ocupación del Parador",
+   "h_en": "Exterior always viewable; interior subject to Parador occupancy",
+   "i": "Ideal si te gustan los castillos y dormir en lugares con historia.",
+   "i_en": "Ideal if you like castles and sleeping in historic places."
+  },
+  "gua_casco_siguenza": {
+   "id": "gua_casco_siguenza",
+   "d": "Uno de los conjuntos medievales mejor conservados de España, con la Plaza Mayor renacentista, la Travesaña, la casa del Doncel y rincones de sabor jacobeo.",
+   "d_en": "One of Spain's best-preserved medieval quarters, with its Renaissance Plaza Mayor, the Travesaña street, the Doncel's house and pilgrim-route corners.",
+   "h": "Acceso libre las 24 horas",
+   "h_en": "Open access 24 hours",
+   "i": "Ideal si te gusta pasear por pueblos con encanto histórico.",
+   "i_en": "Ideal if you like strolling through historic, charming towns."
+  },
+  "gua_atienza": {
+   "id": "gua_atienza",
+   "d": "Uno de los pueblos más bonitos de España, con murallas, iglesias románicas y la peña donde se alza su castillo. Cada Pentecostés celebra la histórica Caballada.",
+   "d_en": "One of Spain's prettiest villages, with walls, Romanesque churches and the crag topped by its castle. Each Pentecost it holds the historic Caballada festival.",
+   "h": "Pueblo de acceso libre; castillo visitable de día",
+   "h_en": "Village open access; castle viewable during the day",
+   "i": "Ideal si te gustan los pueblos amurallados y las vistas panorámicas.",
+   "i_en": "Ideal if you like walled villages and panoramic views."
+  },
+  "gua_pastrana": {
+   "id": "gua_pastrana",
+   "d": "Ligada a la princesa de Éboli, conserva su palacio ducal, la Colegiata y un museo con los famosos Tapices de Pastrana, obras maestras del gótico flamenco.",
+   "d_en": "Linked to the Princess of Éboli, it keeps its ducal palace, the collegiate church and a museum with the famous Pastrana Tapestries, Flemish Gothic masterpieces.",
+   "h": "Colegiata y museo Mar–Dom 10:30–14:00 y 16:00–18:30",
+   "h_en": "Collegiate church and museum Tue–Sun 10:30–14:00 and 16:00–18:30",
+   "i": "Ideal si te gusta la historia cortesana y el arte textil.",
+   "i_en": "Ideal if you like courtly history and textile art."
+  },
+  "gua_castillo_molina": {
+   "id": "gua_castillo_molina",
+   "d": "Uno de los mayores castillos de España, de origen musulmán, con doble recinto amurallado y la Torre de Aragón. Domina la villa del Alto Tajo y sus tierras señoriales.",
+   "d_en": "One of Spain's largest castles, of Muslim origin, with a double walled enclosure and the Torre de Aragón. It dominates the Alto Tajo town and its lands.",
+   "h": "Mar–Dom 11:00–14:00 y 16:00–19:00 (varía por temporada)",
+   "h_en": "Tue–Sun 11:00–14:00 and 16:00–19:00 (varies by season)",
+   "i": "Ideal si te gustan las grandes fortalezas y la historia militar.",
+   "i_en": "Ideal if you like great fortresses and military history."
+  },
+  "gua_campillo_ranas": {
+   "id": "gua_campillo_ranas",
+   "d": "Corazón de la Arquitectura Negra, sus casas de lajas de pizarra oscura se funden con el paisaje. Punto de partida hacia aldeas como Roblelacasa y el Ocejón.",
+   "d_en": "Heart of the 'Black Architecture', its dark slate-slab houses blend into the landscape. A gateway to hamlets like Roblelacasa and Mount Ocejón.",
+   "h": "Acceso libre las 24 horas",
+   "h_en": "Open access 24 hours",
+   "i": "Ideal si te gusta la arquitectura popular y los pueblos con carácter.",
+   "i_en": "Ideal if you like vernacular architecture and characterful villages."
+  },
+  "gua_majaelrayo": {
+   "id": "gua_majaelrayo",
+   "d": "Uno de los pueblos más fotogénicos de la Arquitectura Negra, con callejuelas empinadas y casas de pizarra. Célebre por su Danza de los Zancos en septiembre.",
+   "d_en": "One of the most photogenic Black Architecture villages, with steep lanes and slate houses. Famous for its September stilt dance, the Danza de los Zancos.",
+   "h": "Acceso libre las 24 horas",
+   "h_en": "Open access 24 hours",
+   "i": "Ideal si te gusta la fotografía rural y el senderismo.",
+   "i_en": "Ideal if you like rural photography and hiking."
+  },
+  "gua_hayedo_tejera": {
+   "id": "gua_hayedo_tejera",
+   "d": "Dentro del Parque Natural Sierra Norte y Patrimonio de la Humanidad, este bosque de hayas y robles estalla en cobres y dorados en otoño. Rutas señalizadas junto al río Lillas.",
+   "d_en": "Within the Sierra Norte Natural Park and a World Heritage site, this beech-and-oak forest bursts into copper and gold in autumn. Marked trails follow the Lillas river.",
+   "h": "Acceso con reserva previa; cupos limitados sobre todo en otoño",
+   "h_en": "Access by prior booking; limited quotas especially in autumn",
+   "i": "Ideal si te gustan los bosques mágicos y las caminatas en otoño.",
+   "i_en": "Ideal if you like magical forests and autumn walks."
+  },
+  "gua_barranco_rio_dulce": {
+   "id": "gua_barranco_rio_dulce",
+   "d": "Parque Natural de hoces calizas donde anidan buitres y águilas. Desde el mirador de Pelegrina se abren vistas espectaculares del río encajado entre paredes de roca.",
+   "d_en": "A natural park of limestone gorges where vultures and eagles nest. From the Pelegrina viewpoint, spectacular views open over the river between rock walls.",
+   "h": "Acceso libre; miradores accesibles de día",
+   "h_en": "Open access; viewpoints reachable during the day",
+   "i": "Ideal si te gusta la naturaleza salvaje y observar aves.",
+   "i_en": "Ideal if you like wild nature and birdwatching."
+  },
+  "gua_embalse_entrepenas": {
+   "id": "gua_embalse_entrepenas",
+   "d": "Junto al de Buendía forma el llamado Mar de Castilla, con aguas azul turquesa entre cerros de la Alcarria. Ideal para navegar, pescar y contemplar sus penínsulas.",
+   "d_en": "Together with Buendía it forms the so-called Sea of Castile, with turquoise waters among Alcarria hills. Great for boating, fishing and admiring its peninsulas.",
+   "h": "Acceso libre las 24 horas",
+   "h_en": "Open access 24 hours",
+   "i": "Ideal si te gustan los paisajes de agua y los deportes náuticos.",
+   "i_en": "Ideal if you like water landscapes and watersports."
+  },
+  "gua_embalse_buendia": {
+   "id": "gua_embalse_buendia",
+   "d": "Enorme lámina de agua entre Guadalajara y Cuenca, rodeada de barrancos y con el balneario de Solán de Cabras cerca. Paraíso para el piragüismo, la vela y el baño.",
+   "d_en": "A vast sheet of water between Guadalajara and Cuenca, ringed by ravines and near the Solán de Cabras spa. A paradise for canoeing, sailing and swimming.",
+   "h": "Acceso libre las 24 horas",
+   "h_en": "Open access 24 hours",
+   "i": "Ideal si te gustan los baños, la vela y las escapadas acuáticas.",
+   "i_en": "Ideal if you like swimming, sailing and lakeside getaways."
+  },
+  "gua_pico_ocejon": {
+   "id": "gua_pico_ocejon",
+   "d": "Montaña de pizarra que preside los pueblos negros. Su ascensión desde Majaelrayo o Valverde de los Arroyos ofrece brezales, cascadas y vistas de todo el Sistema Central.",
+   "d_en": "A slate mountain overlooking the black villages. The climb from Majaelrayo or Valverde de los Arroyos offers heathland, waterfalls and views of the whole Central System.",
+   "h": "Acceso libre; recomendable de día y con buen tiempo",
+   "h_en": "Open access; best in daylight and good weather",
+   "i": "Ideal si te gusta el montañismo y las vistas de cumbre.",
+   "i_en": "Ideal if you like mountaineering and summit views."
+  },
+  "gua_lavanda_brihuega": {
+   "id": "gua_lavanda_brihuega",
+   "d": "Extensas plantaciones que tiñen la Alcarria de violeta y perfuman el aire. En julio se celebra el Festival de la Lavanda con conciertos al atardecer entre las flores.",
+   "d_en": "Vast plantations that dye the Alcarria violet and perfume the air. In July the Lavender Festival brings sunset concerts among the blooms.",
+   "h": "Floración a mediados de julio; mejor al amanecer o atardecer",
+   "h_en": "Bloom in mid-July; best at sunrise or sunset",
+   "i": "Ideal si te gusta la fotografía y los paisajes de ensueño.",
+   "i_en": "Ideal if you like photography and dreamlike landscapes."
+  },
+  "gua_tren_medieval_siguenza": {
+   "id": "gua_tren_medieval_siguenza",
+   "d": "Sale de Madrid con juglares, damas y músicos a bordo. Al llegar, ofrece visita guiada por la ciudad medieval, degustaciones y descuentos en monumentos.",
+   "d_en": "It departs Madrid with minstrels, ladies and musicians aboard. On arrival it offers a guided tour of the medieval town, tastings and monument discounts.",
+   "h": "Fines de semana de primavera y otoño; consultar calendario",
+   "h_en": "Spring and autumn weekends; check the calendar",
+   "i": "Ideal si viajas en familia y te gustan las experiencias temáticas.",
+   "i_en": "Ideal for family trips and themed experiences."
+  },
+  "gua_real_fabrica_brihuega": {
+   "id": "gua_real_fabrica_brihuega",
+   "d": "Singular edificio de planta redonda rodeado de jardines aterrazados con vistas al valle del Tajuña. Escenario de bodas y eventos, es una rareza arquitectónica ilustrada.",
+   "d_en": "A unique round-plan building surrounded by terraced gardens overlooking the Tajuña valley. A venue for weddings and events, it is an Enlightenment architectural rarity.",
+   "h": "Visitas y jardines según programación; consultar turismo de Brihuega",
+   "h_en": "Visits and gardens per schedule; check Brihuega tourism",
+   "i": "Ideal si te gustan los jardines y la arquitectura singular.",
+   "i_en": "Ideal if you like gardens and unusual architecture."
+  },
+  "gua_nautica_mar_castilla": {
+   "id": "gua_nautica_mar_castilla",
+   "d": "En la Playa de la Isla y clubes náuticos se alquilan kayaks, paddle surf y barcos, y hay zonas de baño balizadas. La capital del Mar de Castilla en pleno verano.",
+   "d_en": "At Playa de la Isla and nautical clubs you can hire kayaks, paddleboards and boats, with buoyed swimming areas. The capital of the Sea of Castile in high summer.",
+   "h": "Temporada de baño de junio a septiembre; servicios estacionales",
+   "h_en": "Swimming season June to September; seasonal services",
+   "i": "Ideal si te gustan los deportes acuáticos y el sol de verano.",
+   "i_en": "Ideal if you like watersports and summer sun."
+  },
+  "gua_castillo_zafra": {
+   "id": "gua_castillo_zafra",
+   "d": "Fortaleza del siglo XII alzada sobre un peñasco de rodeno en pleno Señorío de Molina. Escenario de la Torre de la Alegría en la serie, con un entorno rojizo y solitario.",
+   "d_en": "A 12th-century fortress atop a red-sandstone crag in the Molina lands. It was the Tower of Joy in the series, set in a reddish, solitary landscape.",
+   "h": "Exterior visitable de día; interior en visitas puntuales",
+   "h_en": "Exterior viewable by day; interior on occasional visits",
+   "i": "Ideal si te gustan las series de fantasía y los lugares remotos.",
+   "i_en": "Ideal if you like fantasy series and remote spots."
+  },
+  "gua_food_lino": {
+   "id": "gua_food_lino",
+   "d": "Casa histórica de la ciudad donde la cocina tradicional castellana se eleva con producto de temporada, caza y setas de la Alcarria y una completa bodega.",
+   "d_en": "A historic city house where traditional Castilian cooking is elevated with seasonal produce, game and Alcarria mushrooms and a full cellar.",
+   "h": "13:30–16:00 y 21:00–23:30; domingo noche y lunes cerrado",
+   "h_en": "13:30–16:00 and 21:00–23:30; closed Sunday night and Monday",
+   "i": "Ideal si te gusta la gastronomía tradicional bien elaborada.",
+   "i_en": "Ideal if you like well-crafted traditional gastronomy."
+  },
+  "gua_food_doncel": {
+   "id": "gua_food_doncel",
+   "d": "Los hermanos Pérez reinterpretan la despensa serrana con caza, cordero y hierbas del entorno en menús degustación de vanguardia junto a la Alameda.",
+   "d_en": "The Pérez brothers reinterpret the mountain larder with game, lamb and local herbs in avant-garde tasting menus beside the Alameda.",
+   "h": "13:30–15:30 y 21:00–22:30; consultar días de cierre",
+   "h_en": "13:30–15:30 and 21:00–22:30; check closing days",
+   "i": "Ideal si te gusta la cocina creativa y las experiencias gourmet.",
+   "i_en": "Ideal if you like creative cuisine and gourmet experiences."
+  },
+  "gua_food_modegon": {
+   "id": "gua_food_modegon",
+   "d": "En pleno Señorío de Molina, ofrece platos de raíz serrana: migas molineras, cordero, setas de temporada y la afamada ternera de la comarca.",
+   "d_en": "In the heart of the Molina lands, it serves mountain-rooted dishes: migas molineras, lamb, seasonal mushrooms and the renowned local beef.",
+   "h": "13:30–16:00 y 21:00–23:00; consultar cierre semanal",
+   "h_en": "13:30–16:00 and 21:00–23:00; check weekly closing",
+   "i": "Ideal si te gusta la cocina de montaña y los productos de temporada.",
+   "i_en": "Ideal if you like mountain cooking and seasonal produce."
+  },
+  "gua_food_capricho": {
+   "id": "gua_food_capricho",
+   "d": "En la villa de la lavanda, propone recetas tradicionales renovadas, con guiños a la miel de la Alcarria, verduras de temporada y postres perfumados.",
+   "d_en": "In the lavender town, it offers renewed traditional recipes, with nods to Alcarria honey, seasonal vegetables and perfumed desserts.",
+   "h": "13:30–16:00 y 20:30–23:00; consultar cierre semanal",
+   "h_en": "13:30–16:00 and 20:30–23:00; check weekly closing",
+   "i": "Ideal si te gusta la cocina local con producto de proximidad.",
+   "i_en": "Ideal if you like local cooking with nearby produce."
+  },
+  "gua_food_pastrana": {
+   "id": "gua_food_pastrana",
+   "d": "En un antiguo convento, sirve cocina alcarreña de cuchara, asados y setas en un ambiente histórico junto a la Colegiata y el palacio ducal.",
+   "d_en": "Set in a former convent, it serves hearty Alcarria stews, roasts and mushrooms in a historic setting beside the collegiate church and ducal palace.",
+   "h": "13:30–16:00 y 20:30–22:30; consultar cierre semanal",
+   "h_en": "13:30–16:00 and 20:30–22:30; check weekly closing",
+   "i": "Ideal si te gusta comer en entornos históricos con encanto.",
+   "i_en": "Ideal if you like dining in charming historic settings."
+  }
+ },
+ "food": {
+  "gua_food_lino": {
+   "cuisine": "Castellana de mercado",
+   "price": "35–60 €",
+   "hours": "13:30–16:00 y 21:00–23:30; domingo noche y lunes cerrado"
+  },
+  "gua_food_doncel": {
+   "cuisine": "Alta cocina de autor",
+   "price": "70–110 €",
+   "hours": "13:30–15:30 y 21:00–22:30; consultar días de cierre"
+  },
+  "gua_food_modegon": {
+   "cuisine": "Serrana del Señorío de Molina",
+   "price": "20–35 €",
+   "hours": "13:30–16:00 y 21:00–23:00; consultar cierre semanal"
+  },
+  "gua_food_capricho": {
+   "cuisine": "Alcarreña de temporada",
+   "price": "25–45 €",
+   "hours": "13:30–16:00 y 20:30–23:00; consultar cierre semanal"
+  },
+  "gua_food_pastrana": {
+   "cuisine": "Alcarreña tradicional",
+   "price": "25–40 €",
+   "hours": "13:30–16:00 y 20:30–22:30; consultar cierre semanal"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Guadalajara",
+   "items": [
+    {
+     "name": "Bizcochos borrachos",
+     "price": "4–9 €",
+     "desc": "Dulce típico alcarreño empapado en almíbar y licor, envuelto en papel de seda."
+    },
+    {
+     "name": "Miel de la Alcarria (DOP)",
+     "price": "6–12 €",
+     "desc": "Miel de romero, espliego y tomillo con Denominación de Origen Protegida."
+    },
+    {
+     "name": "Aceite de espliego / lavanda de Brihuega",
+     "price": "5–15 €",
+     "desc": "Aceites esenciales y cosmética artesana de los campos de lavanda."
+    }
+   ],
+   "shops": [
+    "Confitería El Alcázar (Guadalajara)",
+    "Mercado de abastos de Guadalajara",
+    "Tiendas de la Plaza Mayor de Brihuega"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "En otoño reserva con antelación la entrada al Hayedo de Tejera Negra: el acceso en coche está limitado por cupos.",
+   "Los campos de lavanda de Brihuega florecen a mediados de julio; ve al amanecer o atardecer para mejor luz y menos gente.",
+   "Sigüenza, Atienza y Molina se recorren mejor a pie con calzado cómodo por sus cuestas y calles empedradas.",
+   "El clima es continental: veranos calurosos e inviernos fríos con heladas, lleva capas de ropa incluso en primavera.",
+   "Combina el Mar de Castilla (Entrepeñas y Buendía) con Pastrana en un mismo día por la carretera de la Alcarria."
+  ],
+  "en": [
+   "In autumn book your Hayedo de Tejera Negra entry in advance: car access is capped by daily quotas.",
+   "Brihuega's lavender fields bloom in mid-July; go at sunrise or sunset for the best light and fewer crowds.",
+   "Sigüenza, Atienza and Molina are best explored on foot with comfy shoes for their slopes and cobbled lanes.",
+   "The climate is continental: hot summers and cold, frosty winters, so bring layers even in spring.",
+   "Pair the Mar de Castilla reservoirs (Entrepeñas and Buendía) with Pastrana in one day along the Alcarria road."
+  ]
+ },
+ "climate": {
+  "hi": [
+   10,
+   12,
+   16,
+   18,
+   22,
+   28,
+   32,
+   31,
+   26,
+   19,
+   13,
+   10
+  ],
+  "lo": [
+   1,
+   2,
+   4,
+   6,
+   10,
+   14,
+   17,
+   17,
+   13,
+   9,
+   4,
+   2
+  ]
+ },
+ "tr": {
+  "Joya del gótico-mudéjar y del primer Renacimiento español.": "A jewel of Gothic-Mudéjar and early Spanish Renaissance style.",
+  "Espectacular mausoleo neobizantino del siglo XIX.": "A spectacular 19th-century neo-Byzantine mausoleum.",
+  "Catedral-fortaleza que guarda el célebre Doncel.": "A fortress-cathedral guarding the famous Doncel tomb.",
+  "Alcázar medieval convertido en Parador de Turismo.": "A medieval fortress turned into a Parador hotel.",
+  "Plaza Mayor porticada y calles de piedra medievales.": "Arcaded main square and medieval stone streets.",
+  "Villa medieval coronada por un castillo roquero.": "A medieval village crowned by a rocky-crag castle.",
+  "Villa ducal con colegiata y los tapices góticos.": "A ducal town with a collegiate church and Gothic tapestries.",
+  "Enorme fortaleza medieval con torre del homenaje.": "A huge medieval fortress with a keep tower.",
+  "Pueblo de pizarra negra en la Sierra Norte.": "A black-slate village in the northern sierra.",
+  "Aldea de pizarra a los pies del pico Ocejón.": "A slate hamlet at the foot of Mount Ocejón.",
+  "Uno de los hayedos más meridionales de Europa.": "One of Europe's southernmost beech forests.",
+  "Cañón fluvial de los documentales de Félix Rodríguez de la Fuente.": "The river canyon of Félix Rodríguez de la Fuente's wildlife films.",
+  "Gran embalse del 'Mar de Castilla' sobre el Tajo.": "A large 'Sea of Castile' reservoir on the Tagus.",
+  "El mayor embalse del Mar de Castilla.": "The largest reservoir of the Sea of Castile.",
+  "Cumbre emblemática de la Sierra Norte (2.049 m).": "The emblematic peak of the northern sierra (2,049 m).",
+  "Mares morados de lavanda que florecen en julio.": "Purple seas of lavender that bloom in July.",
+  "Excursión temática con animación de época hasta Sigüenza.": "A themed excursion with period entertainment to Sigüenza.",
+  "Fábrica circular del siglo XVIII con jardines románticos.": "An 18th-century circular factory with romantic gardens.",
+  "Playas de interior y deportes de agua junto a Sacedón.": "Inland beaches and watersports beside Sacedón.",
+  "Castillo roquero famoso por 'Juego de Tronos'.": "A crag-top castle made famous by 'Game of Thrones'.",
+  "Referente de la alta cocina en Guadalajara capital.": "A benchmark of fine dining in Guadalajara city.",
+  "Restaurante con una estrella Michelin en Sigüenza.": "A one-Michelin-star restaurant in Sigüenza.",
+  "Cocina del Alto Tajo con migas, setas y ternera.": "Alto Tajo cooking with migas, mushrooms and beef.",
+  "Cocina alcarreña con toques de lavanda y miel.": "Alcarria cooking with touches of lavender and honey.",
+  "Comedor con encanto en la villa ducal de Pastrana.": "A charming dining room in the ducal town of Pastrana.",
+  "Guadalajara": "Guadalajara"
+ }
+}

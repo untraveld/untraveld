@@ -1,0 +1,596 @@
+{
+ "id": "avila",
+ "name": "Ávila",
+ "country": "ES",
+ "center": [
+  40.65643,
+  -4.69182
+ ],
+ "pois": [
+  {
+   "id": "avi_murallas",
+   "cat": "monuments",
+   "name": "Murallas de Ávila",
+   "icon": "🏰",
+   "lat": 40.6558,
+   "lng": -4.7009,
+   "desc": "Recinto amurallado medieval mejor conservado de Europa, con 87 torreones."
+  },
+  {
+   "id": "avi_catedral",
+   "cat": "monuments",
+   "name": "Catedral del Salvador",
+   "icon": "⛪",
+   "lat": 40.6564,
+   "lng": -4.6969,
+   "desc": "Catedral-fortaleza considerada la primera gótica de España."
+  },
+  {
+   "id": "avi_san_vicente",
+   "cat": "monuments",
+   "name": "Basílica de San Vicente",
+   "icon": "⛪",
+   "lat": 40.6589,
+   "lng": -4.6947,
+   "desc": "Joya del románico avilano junto a la muralla."
+  },
+  {
+   "id": "avi_santa_teresa",
+   "cat": "monuments",
+   "name": "Convento de Santa Teresa",
+   "icon": "⛪",
+   "lat": 40.6543,
+   "lng": -4.7016,
+   "desc": "Convento barroco sobre la casa natal de Santa Teresa de Jesús."
+  },
+  {
+   "id": "avi_encarnacion",
+   "cat": "monuments",
+   "name": "Convento de la Encarnación",
+   "icon": "⛪",
+   "lat": 40.6626,
+   "lng": -4.6963,
+   "desc": "Monasterio donde Santa Teresa vivió casi tres décadas."
+  },
+  {
+   "id": "avi_cuatro_postes",
+   "cat": "monuments",
+   "name": "Los Cuatro Postes",
+   "icon": "🗿",
+   "lat": 40.656,
+   "lng": -4.7107,
+   "desc": "Humilladero del siglo XVI y mejor mirador de la muralla."
+  },
+  {
+   "id": "avi_castillo_valdecorneja",
+   "cat": "monuments",
+   "name": "Castillo de Valdecorneja",
+   "icon": "🏰",
+   "lat": 40.3567,
+   "lng": -5.5233,
+   "desc": "Castillo medieval que domina El Barco de Ávila y el río Tormes."
+  },
+  {
+   "id": "avi_castillo_mombeltran",
+   "cat": "monuments",
+   "name": "Castillo de Mombeltrán",
+   "icon": "🏰",
+   "lat": 40.2578,
+   "lng": -5.0175,
+   "desc": "Castillo del siglo XV en el valle del Tiétar."
+  },
+  {
+   "id": "avi_madrigal",
+   "cat": "monuments",
+   "name": "Madrigal de las Altas Torres",
+   "icon": "🏰",
+   "lat": 41.0894,
+   "lng": -4.999,
+   "desc": "Villa amurallada, cuna de Isabel la Católica."
+  },
+  {
+   "id": "avi_palacio_piedrahita",
+   "cat": "monuments",
+   "name": "Palacio de los Duques de Alba (Piedrahíta)",
+   "icon": "🏛️",
+   "lat": 40.464,
+   "lng": -5.3222,
+   "desc": "Palacio dieciochesco de estilo francés en Piedrahíta."
+  },
+  {
+   "id": "avi_castillo_arenas",
+   "cat": "monuments",
+   "name": "Castillo del Condestable Dávalos",
+   "icon": "🏰",
+   "lat": 40.2094,
+   "lng": -5.0886,
+   "desc": "Castillo del siglo XIV en Arenas de San Pedro."
+  },
+  {
+   "id": "avi_plataforma_gredos",
+   "cat": "nature",
+   "name": "Plataforma de Gredos",
+   "icon": "🏔️",
+   "lat": 40.2663,
+   "lng": -5.2183,
+   "desc": "Aparcamiento de montaña, puerta de entrada al corazón de Gredos."
+  },
+  {
+   "id": "avi_laguna_grande",
+   "cat": "nature",
+   "name": "Laguna Grande de Gredos",
+   "icon": "🏞️",
+   "lat": 40.2483,
+   "lng": -5.2758,
+   "desc": "Lago glaciar al pie del Almanzor."
+  },
+  {
+   "id": "avi_circo_gredos",
+   "cat": "nature",
+   "name": "Circo de Gredos y Almanzor",
+   "icon": "⛰️",
+   "lat": 40.2417,
+   "lng": -5.2822,
+   "desc": "Anfiteatro glaciar coronado por el pico Almanzor (2.592 m)."
+  },
+  {
+   "id": "avi_cuevas_aguila",
+   "cat": "nature",
+   "name": "Cuevas del Águila",
+   "icon": "🕳️",
+   "lat": 40.19,
+   "lng": -5.017,
+   "desc": "Gruta kárstica con formaciones de gran colorido cerca de Arenas."
+  },
+  {
+   "id": "avi_puerto_pico",
+   "cat": "nature",
+   "name": "Puerto del Pico y calzada romana",
+   "icon": "🛤️",
+   "lat": 40.3203,
+   "lng": -5.0055,
+   "desc": "Puerto de montaña con una calzada romana en zigzag."
+  },
+  {
+   "id": "avi_plaza_mercado_chico",
+   "cat": "ocio",
+   "name": "Plaza del Mercado Chico",
+   "icon": "🏛️",
+   "lat": 40.657,
+   "lng": -4.699,
+   "desc": "Plaza mayor porticada, centro de la vida avilana."
+  },
+  {
+   "id": "avi_charco_ninfa",
+   "cat": "ocio",
+   "name": "Charco de la Ninfa",
+   "icon": "🏊",
+   "lat": 40.214,
+   "lng": -5.095,
+   "desc": "Piscina natural en la garganta de Arenas de San Pedro."
+  },
+  {
+   "id": "avi_embalse_burguillo",
+   "cat": "ocio",
+   "name": "Embalse del Burguillo",
+   "icon": "🚤",
+   "lat": 40.41,
+   "lng": -4.517,
+   "desc": "Embalse para deportes acuáticos rodeado de pinares."
+  },
+  {
+   "id": "avi_toros_guisando",
+   "cat": "ocio",
+   "name": "Toros de Guisando",
+   "icon": "🗿",
+   "lat": 40.3676,
+   "lng": -4.456,
+   "desc": "Verracos vetones de piedra del siglo II a.C."
+  },
+  {
+   "id": "avi_hosteria_cancelas",
+   "cat": "food",
+   "name": "Hostería Las Cancelas",
+   "icon": "🍽️",
+   "lat": 40.657,
+   "lng": -4.6961,
+   "desc": "Mesón histórico intramuros de cocina castellana."
+  },
+  {
+   "id": "avi_el_almacen",
+   "cat": "food",
+   "name": "Restaurante El Almacén",
+   "icon": "🥩",
+   "lat": 40.6542,
+   "lng": -4.713,
+   "desc": "Referente gastronómico con vistas a la muralla."
+  },
+  {
+   "id": "avi_confiteria_flor",
+   "cat": "food",
+   "name": "Confitería La Flor de Castilla",
+   "icon": "🍮",
+   "lat": 40.6557,
+   "lng": -4.6985,
+   "desc": "Obrador tradicional de las auténticas yemas de Santa Teresa."
+  },
+  {
+   "id": "avi_parador_gredos",
+   "cat": "food",
+   "name": "Parador de Gredos",
+   "icon": "🍲",
+   "lat": 40.3352,
+   "lng": -5.1435,
+   "desc": "Restaurante de montaña en el primer parador de España."
+  },
+  {
+   "id": "avi_meson_barco",
+   "cat": "food",
+   "name": "Mesón de El Barco de Ávila",
+   "icon": "🫘",
+   "lat": 40.3552,
+   "lng": -5.5238,
+   "desc": "Cocina de las famosas judías del Barco junto al Tormes."
+  }
+ ],
+ "extra": {
+  "avi_murallas": {
+   "id": "avi_murallas",
+   "d": "Levantada desde el siglo XI, la muralla rodea el casco histórico con 2,5 km de lienzo, nueve puertas y 87 cubos semicirculares. Se puede caminar por gran parte del adarve para admirar la ciudad y la sierra.",
+   "d_en": "Begun in the 11th century, the wall rings the old town with 2.5 km of ramparts, nine gates and 87 semicircular towers. Much of the parapet walk is open, offering views of the town and mountains.",
+   "h": "Mar–Oct 10:00–20:00; Nov–Feb 10:00–18:00; cerrado algunos lunes",
+   "h_en": "Mar–Oct 10:00–20:00; Nov–Feb 10:00–18:00; closed some Mondays",
+   "i": "Ideal si te gusta la arquitectura militar medieval y las vistas panorámicas.",
+   "i_en": "Ideal if you like medieval military architecture and panoramic views."
+  },
+  "avi_catedral": {
+   "id": "avi_catedral",
+   "d": "Su ábside, el llamado 'Cimorro', forma parte de la propia muralla. Combina románico y gótico, con piedra caleña de tonos rojizos, notable retablo y museo catedralicio.",
+   "d_en": "Its apse, the 'Cimorro', is built into the city wall itself. It blends Romanesque and Gothic styles in reddish mottled stone, with a notable altarpiece and cathedral museum.",
+   "h": "Lun–Sáb 10:00–19:00; Dom 12:00–18:00",
+   "h_en": "Mon–Sat 10:00–19:00; Sun 12:00–18:00",
+   "i": "Ideal si te gusta el arte gótico y las iglesias fortificadas.",
+   "i_en": "Ideal if you like Gothic art and fortified churches."
+  },
+  "avi_san_vicente": {
+   "id": "avi_san_vicente",
+   "d": "Construida sobre el lugar del martirio de los santos Vicente, Sabina y Cristeta, destaca por su pórtico occidental, el cenotafio policromado y la mezcla de románico y gótico primitivo.",
+   "d_en": "Built on the site of the martyrdom of Saints Vincent, Sabina and Cristeta, it stands out for its western portico, polychrome cenotaph and blend of Romanesque and early Gothic.",
+   "h": "10:00–18:30 (verano hasta 20:00)",
+   "h_en": "10:00–18:30 (until 20:00 in summer)",
+   "i": "Ideal si te gusta el arte románico y la escultura medieval.",
+   "i_en": "Ideal if you like Romanesque art and medieval sculpture."
+  },
+  "avi_santa_teresa": {
+   "id": "avi_santa_teresa",
+   "d": "Erigido en el siglo XVII en el solar donde nació Teresa de Jesús, alberga una capilla en su antigua habitación, museo teresiano y reliquias de la mística y doctora de la Iglesia.",
+   "d_en": "Built in the 17th century on the plot where Teresa of Jesus was born, it holds a chapel in her former room, a Teresian museum and relics of the mystic and Doctor of the Church.",
+   "h": "10:00–14:00 y 16:00–19:00",
+   "h_en": "10:00–14:00 and 16:00–19:00",
+   "i": "Ideal si te gusta la historia religiosa y la figura de Santa Teresa.",
+   "i_en": "Ideal if you like religious history and the figure of Saint Teresa."
+  },
+  "avi_encarnacion": {
+   "id": "avi_encarnacion",
+   "d": "Fuera de la muralla, aquí profesó y residió Teresa de Jesús durante 27 años. Conserva su celda, objetos personales y salas que evocan la vida conventual del siglo XVI.",
+   "d_en": "Outside the walls, this is where Teresa of Jesus took vows and lived for 27 years. It preserves her cell, personal objects and rooms evoking 16th-century convent life.",
+   "h": "Mar–Dom 10:00–13:30 y 16:00–19:00",
+   "h_en": "Tue–Sun 10:00–13:30 and 16:00–19:00",
+   "i": "Ideal si te gusta el recogimiento y la historia mística.",
+   "i_en": "Ideal if you like quiet contemplation and mystical history."
+  },
+  "avi_cuatro_postes": {
+   "id": "avi_cuatro_postes",
+   "d": "Cuatro columnas dóricas con una cruz central, situadas al oeste de la ciudad. Ofrecen la estampa clásica de Ávila amurallada, espectacular al atardecer y de noche con la muralla iluminada.",
+   "d_en": "Four Doric columns framing a central cross, set west of the city. They give the classic view of walled Ávila, spectacular at sunset and at night when the walls are floodlit.",
+   "h": "Acceso libre 24 h",
+   "h_en": "Open access 24 h",
+   "i": "Ideal si te gusta la fotografía y las panorámicas urbanas.",
+   "i_en": "Ideal if you like photography and city panoramas."
+  },
+  "avi_castillo_valdecorneja": {
+   "id": "avi_castillo_valdecorneja",
+   "d": "Fortaleza de los duques de Alba junto al puente románico sobre el Tormes. Su torre del homenaje y su emplazamiento ofrecen vistas de la villa, la sierra de Gredos y la de Béjar.",
+   "d_en": "Stronghold of the Dukes of Alba beside the Romanesque bridge over the Tormes. Its keep and setting offer views of the town and the Gredos and Béjar mountain ranges.",
+   "h": "Consultar; visita exterior libre",
+   "h_en": "Check locally; exterior visit free",
+   "i": "Ideal si te gusta la arquitectura defensiva y los paisajes de montaña.",
+   "i_en": "Ideal if you like defensive architecture and mountain scenery."
+  },
+  "avi_castillo_mombeltran": {
+   "id": "avi_castillo_mombeltran",
+   "d": "Mandado construir por el condestable Beltrán de la Cueva, es uno de los castillos mejor conservados de la provincia. Domina la ruta del Puerto del Pico entre Gredos y el Tiétar.",
+   "d_en": "Commissioned by constable Beltrán de la Cueva, it is one of the best-preserved castles in the province. It commands the Puerto del Pico route between Gredos and the Tiétar valley.",
+   "h": "Fines de semana y festivos; consultar horario",
+   "h_en": "Weekends and holidays; check hours",
+   "i": "Ideal si te gusta la historia medieval y los pueblos serranos.",
+   "i_en": "Ideal if you like medieval history and mountain villages."
+  },
+  "avi_madrigal": {
+   "id": "avi_madrigal",
+   "d": "Conserva un recinto amurallado de tapial con torres, el Palacio-Convento de las Agustinas donde nació Isabel I y la iglesia de San Nicolás. Un conjunto histórico en plena tierra de Arévalo.",
+   "d_en": "It keeps a rammed-earth wall with towers, the Palace-Convent of the Augustinians where Isabella I was born, and the church of San Nicolás. A historic ensemble in the Arévalo plains.",
+   "h": "Visita del pueblo libre; monumentos con horario",
+   "h_en": "Town free to visit; monuments have set hours",
+   "i": "Ideal si te gusta la historia de los Reyes Católicos.",
+   "i_en": "Ideal if you like the history of the Catholic Monarchs."
+  },
+  "avi_palacio_piedrahita": {
+   "id": "avi_palacio_piedrahita",
+   "d": "Residencia de recreo de los duques de Alba, con jardines a la francesa inspirados en Versalles. Piedrahíta, a los pies de la sierra, conserva un bello conjunto de soportales y plazas.",
+   "d_en": "Leisure residence of the Dukes of Alba, with French-style gardens inspired by Versailles. Piedrahíta, at the foot of the range, keeps a fine set of arcades and squares.",
+   "h": "Exterior libre; interior según uso administrativo",
+   "h_en": "Exterior free; interior per administrative use",
+   "i": "Ideal si te gusta la arquitectura señorial y los jardines.",
+   "i_en": "Ideal if you like stately architecture and gardens."
+  },
+  "avi_castillo_arenas": {
+   "id": "avi_castillo_arenas",
+   "d": "También llamado castillo de la Triste Condesa, es una fortaleza gótica de planta cuadrada con torre del homenaje. Punto de partida para explorar el valle del Tiétar y la sierra de Gredos.",
+   "d_en": "Also called the castle of the Sad Countess, it is a square-plan Gothic fortress with a keep. A starting point to explore the Tiétar valley and the Gredos range.",
+   "h": "Consultar horarios locales",
+   "h_en": "Check local opening hours",
+   "i": "Ideal si te gusta combinar patrimonio y naturaleza.",
+   "i_en": "Ideal if you like combining heritage and nature."
+  },
+  "avi_plataforma_gredos": {
+   "id": "avi_plataforma_gredos",
+   "d": "A 1.750 m, es el inicio de la ruta más popular hacia la Laguna Grande y el Circo de Gredos. En verano el acceso en coche se limita; hay servicio de autobús desde Hoyos del Espino.",
+   "d_en": "At 1,750 m, it is the start of the most popular route to Laguna Grande and the Circo de Gredos. In summer car access is limited; a shuttle bus runs from Hoyos del Espino.",
+   "h": "Acceso libre; parking regulado en temporada",
+   "h_en": "Open access; regulated parking in season",
+   "i": "Ideal si te gusta el senderismo de alta montaña.",
+   "i_en": "Ideal if you like high-mountain hiking."
+  },
+  "avi_laguna_grande": {
+   "id": "avi_laguna_grande",
+   "d": "Situada a unos 1.940 m dentro del gran circo glaciar de Gredos, es el destino estrella del senderismo en la sierra. Junto a ella hay un refugio de montaña y suelen verse cabras montesas.",
+   "d_en": "At about 1,940 m within the great glacial cirque of Gredos, it is the star hiking destination in the range. A mountain refuge stands beside it and Spanish ibex are often seen.",
+   "h": "Acceso libre; ruta de unas 2,5 h desde la Plataforma",
+   "h_en": "Open access; about a 2.5 h walk from the Plataforma",
+   "i": "Ideal si te gusta la alta montaña y la fauna salvaje.",
+   "i_en": "Ideal if you like high mountains and wildlife."
+  },
+  "avi_circo_gredos": {
+   "id": "avi_circo_gredos",
+   "d": "El circo glaciar más espectacular del Sistema Central, con crestas, agujas y neveros. El Almanzor es la cumbre más alta de Gredos; su ascensión requiere experiencia en montaña.",
+   "d_en": "The most spectacular glacial cirque in the Central System, with ridges, spires and snowfields. Almanzor is the highest summit of Gredos; its ascent requires mountaineering experience.",
+   "h": "Acceso libre; alta montaña",
+   "h_en": "Open access; high mountain terrain",
+   "i": "Ideal si te gusta el montañismo y los paisajes glaciares.",
+   "i_en": "Ideal if you like mountaineering and glacial landscapes."
+  },
+  "avi_cuevas_aguila": {
+   "id": "avi_cuevas_aguila",
+   "d": "Descubierta en 1963, es una sala única de unos 1.000 m² repleta de estalactitas, estalagmitas y coladas. La temperatura constante ronda los 17 ºC durante todo el año.",
+   "d_en": "Discovered in 1963, it is a single chamber of about 1,000 m² full of stalactites, stalagmites and flowstone. The temperature stays around 17 °C all year.",
+   "h": "10:30–13:00 y 15:00–18:00 (ampliado en verano)",
+   "h_en": "10:30–13:00 and 15:00–18:00 (extended in summer)",
+   "i": "Ideal si te gusta la geología y las cuevas.",
+   "i_en": "Ideal if you like geology and caves."
+  },
+  "avi_puerto_pico": {
+   "id": "avi_puerto_pico",
+   "d": "A 1.352 m separa el valle del Tiétar del valle del Tormes. Conserva un tramo excepcional de calzada empedrada de época romana, usada durante siglos como cañada de trashumancia.",
+   "d_en": "At 1,352 m it separates the Tiétar valley from the Tormes valley. It preserves an outstanding stretch of cobbled Roman road, used for centuries as a droving trail.",
+   "h": "Acceso libre 24 h",
+   "h_en": "Open access 24 h",
+   "i": "Ideal si te gusta la historia antigua y el senderismo.",
+   "i_en": "Ideal if you like ancient history and hiking."
+  },
+  "avi_plaza_mercado_chico": {
+   "id": "avi_plaza_mercado_chico",
+   "d": "Corazón del casco antiguo desde época romana, acoge el Ayuntamiento, terrazas y el mercado semanal de los viernes. Punto perfecto para una parada entre visitas a los monumentos.",
+   "d_en": "The core of the old town since Roman times, it hosts the town hall, café terraces and the Friday weekly market. A perfect stop between monument visits.",
+   "h": "Acceso libre; mercado los viernes por la mañana",
+   "h_en": "Open access; market on Friday mornings",
+   "i": "Ideal si te gusta el ambiente de plaza y las terrazas.",
+   "i_en": "Ideal if you like square life and café terraces."
+  },
+  "avi_charco_ninfa": {
+   "id": "avi_charco_ninfa",
+   "d": "Poza de agua cristalina formada por la garganta de Arenas, con zonas de baño y merenderos entre pinares. Un refresco perfecto en los calurosos veranos del valle del Tiétar.",
+   "d_en": "A crystal-clear pool formed by the Arenas gorge, with bathing areas and picnic spots among pine woods. A perfect refreshment in the hot summers of the Tiétar valley.",
+   "h": "Acceso libre; recomendable en verano",
+   "h_en": "Open access; best in summer",
+   "i": "Ideal si te gusta el baño en la naturaleza.",
+   "i_en": "Ideal if you like wild swimming."
+  },
+  "avi_embalse_burguillo": {
+   "id": "avi_embalse_burguillo",
+   "d": "Sobre el río Alberche, es un destino popular para piragüismo, vela, paddle surf y pesca. En sus orillas hay zonas de recreo y rutas próximas al valle de Iruelas.",
+   "d_en": "On the Alberche river, it is a popular spot for canoeing, sailing, paddle surfing and fishing. Its shores have recreation areas and trails near the Iruelas valley.",
+   "h": "Acceso libre; actividades según temporada",
+   "h_en": "Open access; activities by season",
+   "i": "Ideal si te gusta el deporte al aire libre y el agua.",
+   "i_en": "Ideal if you like outdoor sports and water."
+  },
+  "avi_toros_guisando": {
+   "id": "avi_toros_guisando",
+   "d": "Cuatro esculturas de granito de la cultura vetona, junto a El Tiemblo. Aquí se firmó en 1468 el Tratado de los Toros de Guisando que reconoció a Isabel como heredera de Castilla.",
+   "d_en": "Four granite sculptures of the Vettonian culture, near El Tiemblo. Here in 1468 the Treaty of the Bulls of Guisando was signed, recognising Isabella as heir to Castile.",
+   "h": "Acceso libre 24 h",
+   "h_en": "Open access 24 h",
+   "i": "Ideal si te gusta la arqueología y la historia prerromana.",
+   "i_en": "Ideal if you like archaeology and pre-Roman history."
+  },
+  "avi_hosteria_cancelas": {
+   "id": "avi_hosteria_cancelas",
+   "d": "En una casa con patio del siglo XV junto a la catedral, es todo un clásico avilano. Sirve chuletón de Ávila a la brasa, judías del Barco, cochinillo y postres caseros.",
+   "d_en": "In a 15th-century house with courtyard next to the cathedral, it is an Ávila classic. It serves grilled Ávila steak, El Barco beans, roast suckling pig and homemade desserts.",
+   "h": "13:30–16:00 y 21:00–23:00",
+   "h_en": "13:30–16:00 and 21:00–23:00",
+   "i": "Ideal si te gusta la cocina tradicional en ambiente histórico.",
+   "i_en": "Ideal if you like traditional food in a historic setting."
+  },
+  "avi_el_almacen": {
+   "id": "avi_el_almacen",
+   "d": "Ubicado en un antiguo almacén a las afueras, ofrece cocina de producto con la muralla al fondo. Destaca por sus carnes de la tierra, verduras de temporada y una cuidada bodega.",
+   "d_en": "Set in a former warehouse on the outskirts, it offers produce-driven cuisine with the wall as backdrop. Known for local meats, seasonal vegetables and a well-kept wine cellar.",
+   "h": "14:00–15:30 y 21:00–22:30; cerrado dom noche y lun",
+   "h_en": "14:00–15:30 and 21:00–22:30; closed Sun eve and Mon",
+   "i": "Ideal si te gusta la alta cocina con producto local.",
+   "i_en": "Ideal if you like fine dining with local produce."
+  },
+  "avi_confiteria_flor": {
+   "id": "avi_confiteria_flor",
+   "d": "Casa fundada hace más de un siglo, elabora las célebres yemas de Ávila y otros dulces conventuales. Parada obligada para degustar y llevar el souvenir más goloso de la ciudad.",
+   "d_en": "A house founded over a century ago, it makes the famous Ávila yemas and other convent sweets. A must-stop to taste and take home the city's sweetest souvenir.",
+   "h": "9:30–14:00 y 17:00–20:00",
+   "h_en": "9:30–14:00 and 17:00–20:00",
+   "i": "Ideal si te gusta la repostería tradicional y los dulces.",
+   "i_en": "Ideal if you like traditional pastries and sweets."
+  },
+  "avi_parador_gredos": {
+   "id": "avi_parador_gredos",
+   "d": "Inaugurado en 1928 en Navarredonda de Gredos, ofrece cocina serrana con vistas al pinar y a la sierra. Platos como el cabrito, las judías del Barco y las truchas del Tormes.",
+   "d_en": "Opened in 1928 in Navarredonda de Gredos, it serves mountain cuisine with views of pines and peaks. Dishes include roast kid, El Barco beans and Tormes trout.",
+   "h": "13:30–15:30 y 20:30–22:30",
+   "h_en": "13:30–15:30 and 20:30–22:30",
+   "i": "Ideal si te gusta comer con vistas en plena naturaleza.",
+   "i_en": "Ideal if you like dining with views in nature."
+  },
+  "avi_meson_barco": {
+   "id": "avi_meson_barco",
+   "d": "En la villa que da nombre a la legumbre con IGP, los mesones sirven la judía blanca guisada con embutidos, además de truchas y carnes de la sierra de Gredos y Béjar.",
+   "d_en": "In the town that gives its name to the IGP bean, the inns serve white beans stewed with cured meats, plus trout and meats from the Gredos and Béjar ranges.",
+   "h": "14:00–16:00 y 21:00–23:00",
+   "h_en": "14:00–16:00 and 21:00–23:00",
+   "i": "Ideal si te gusta la cocina de legumbres y cuchara.",
+   "i_en": "Ideal if you like hearty legume and stew dishes."
+  }
+ },
+ "food": {
+  "avi_hosteria_cancelas": {
+   "cuisine": "Castellana tradicional",
+   "price": "30–45 €",
+   "hours": "13:30–16:00 y 21:00–23:00"
+  },
+  "avi_el_almacen": {
+   "cuisine": "Cocina de mercado / castellana moderna",
+   "price": "40–60 €",
+   "hours": "14:00–15:30 y 21:00–22:30; cerrado dom noche y lun"
+  },
+  "avi_confiteria_flor": {
+   "cuisine": "Repostería / dulces tradicionales",
+   "price": "3–14 €",
+   "hours": "9:30–14:00 y 17:00–20:00"
+  },
+  "avi_parador_gredos": {
+   "cuisine": "Cocina serrana de Gredos",
+   "price": "30–45 €",
+   "hours": "13:30–15:30 y 20:30–22:30"
+  },
+  "avi_meson_barco": {
+   "cuisine": "Cocina tradicional serrana",
+   "price": "20–35 €",
+   "hours": "14:00–16:00 y 21:00–23:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Ávila",
+   "items": [
+    {
+     "name": "Yemas de Santa Teresa",
+     "price": "6–14 €",
+     "desc": "Dulce tradicional de yema de huevo y azúcar, emblema repostero de la ciudad."
+    },
+    {
+     "name": "Judías de El Barco de Ávila (IGP)",
+     "price": "8–16 €",
+     "desc": "Alubia blanca de gran calidad amparada por Indicación Geográfica Protegida."
+    },
+    {
+     "name": "Chuletón / Carne de Ávila (IGP)",
+     "price": "18–35 €",
+     "desc": "Ternera avileña-negra ibérica, base del célebre chuletón a la brasa."
+    },
+    {
+     "name": "Miel y ponche avilano",
+     "price": "5–12 €",
+     "desc": "Miel de la sierra y licores artesanos de la comarca de Gredos."
+    }
+   ],
+   "shops": [
+    "Confitería La Flor de Castilla (Ávila)",
+    "Mercado Central de Abastos",
+    "Tiendas del entorno de la Plaza de Santa Teresa"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Ávila está a 1.130 m: incluso en verano lleva una chaqueta para las noches frescas.",
+   "Recorre el adarve de la muralla a primera hora o al atardecer para evitar calor y multitudes.",
+   "Los Cuatro Postes ofrecen la mejor vista panorámica de la muralla iluminada al anochecer.",
+   "Para Gredos, madruga: la Plataforma se llena y en verano se restringe el acceso en coche.",
+   "Prueba el menú de chuletón y judías del Barco; reserva en fines de semana y festivos."
+  ],
+  "en": [
+   "Ávila sits at 1,130 m: bring a jacket for cool evenings even in summer.",
+   "Walk the wall's parapet early morning or at sunset to avoid heat and crowds.",
+   "Los Cuatro Postes offers the best panoramic view of the floodlit walls at dusk.",
+   "For Gredos, start early: the Plataforma fills up and car access is restricted in summer.",
+   "Try the chuletón steak and El Barco beans; book ahead on weekends and holidays."
+  ]
+ },
+ "climate": {
+  "hi": [
+   7,
+   9,
+   13,
+   15,
+   19,
+   25,
+   30,
+   29,
+   24,
+   17,
+   11,
+   8
+  ],
+  "lo": [
+   -1,
+   0,
+   2,
+   4,
+   8,
+   12,
+   15,
+   14,
+   11,
+   6,
+   2,
+   0
+  ]
+ },
+ "tr": {
+  "Recinto amurallado medieval mejor conservado de Europa, con 87 torreones.": "Best-preserved medieval walled enclosure in Europe, with 87 towers.",
+  "Catedral-fortaleza considerada la primera gótica de España.": "Cathedral-fortress considered the first Gothic one in Spain.",
+  "Joya del románico avilano junto a la muralla.": "Gem of Ávila's Romanesque architecture beside the wall.",
+  "Convento barroco sobre la casa natal de Santa Teresa de Jesús.": "Baroque convent over the birthplace of Saint Teresa of Ávila.",
+  "Monasterio donde Santa Teresa vivió casi tres décadas.": "Monastery where Saint Teresa lived for nearly three decades.",
+  "Humilladero del siglo XVI y mejor mirador de la muralla.": "16th-century wayside shrine and best viewpoint of the walls.",
+  "Castillo medieval que domina El Barco de Ávila y el río Tormes.": "Medieval castle overlooking El Barco de Ávila and the Tormes river.",
+  "Castillo del siglo XV en el valle del Tiétar.": "15th-century castle in the Tiétar valley.",
+  "Villa amurallada, cuna de Isabel la Católica.": "Walled town, birthplace of Isabella the Catholic.",
+  "Palacio dieciochesco de estilo francés en Piedrahíta.": "18th-century French-style palace in Piedrahíta.",
+  "Castillo del siglo XIV en Arenas de San Pedro.": "14th-century castle in Arenas de San Pedro.",
+  "Aparcamiento de montaña, puerta de entrada al corazón de Gredos.": "Mountain trailhead, gateway to the heart of Gredos.",
+  "Lago glaciar al pie del Almanzor.": "Glacial lake at the foot of Almanzor peak.",
+  "Anfiteatro glaciar coronado por el pico Almanzor (2.592 m).": "Glacial amphitheatre crowned by Almanzor peak (2,592 m).",
+  "Gruta kárstica con formaciones de gran colorido cerca de Arenas.": "Karst cave with colourful formations near Arenas.",
+  "Puerto de montaña con una calzada romana en zigzag.": "Mountain pass with a zig-zagging Roman road.",
+  "Plaza mayor porticada, centro de la vida avilana.": "Arcaded main square, heart of Ávila's daily life.",
+  "Piscina natural en la garganta de Arenas de San Pedro.": "Natural pool in the gorge of Arenas de San Pedro.",
+  "Embalse para deportes acuáticos rodeado de pinares.": "Reservoir for water sports surrounded by pine forests.",
+  "Verracos vetones de piedra del siglo II a.C.": "Pre-Roman Vettonian stone bulls from the 2nd century BC.",
+  "Mesón histórico intramuros de cocina castellana.": "Historic inn within the walls serving Castilian cuisine.",
+  "Referente gastronómico con vistas a la muralla.": "Gastronomic reference point with views of the wall.",
+  "Obrador tradicional de las auténticas yemas de Santa Teresa.": "Traditional bakery of the authentic Yemas de Santa Teresa.",
+  "Restaurante de montaña en el primer parador de España.": "Mountain restaurant in Spain's first parador.",
+  "Cocina de las famosas judías del Barco junto al Tormes.": "Home of the famous El Barco beans beside the Tormes.",
+  "Ávila": "Ávila"
+ }
+}

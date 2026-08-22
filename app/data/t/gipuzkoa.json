@@ -1,0 +1,626 @@
+{
+ "id": "gipuzkoa",
+ "name": "Gipuzkoa",
+ "country": "ES",
+ "center": [
+  43.31283,
+  -1.97499
+ ],
+ "pois": [
+  {
+   "id": "gip_playa_concha",
+   "cat": "nature",
+   "name": "Playa de la Concha",
+   "icon": "🏖️",
+   "lat": 43.3178,
+   "lng": -1.9886,
+   "desc": "La bahía en forma de concha, una de las playas urbanas más bellas de Europa."
+  },
+  {
+   "id": "gip_monte_igueldo",
+   "cat": "nature",
+   "name": "Monte Igueldo",
+   "icon": "🚡",
+   "lat": 43.31556,
+   "lng": -2.01528,
+   "desc": "Mirador con las mejores vistas panorámicas de la bahía de La Concha."
+  },
+  {
+   "id": "gip_monte_urgull",
+   "cat": "nature",
+   "name": "Monte Urgull",
+   "icon": "⛰️",
+   "lat": 43.32389,
+   "lng": -1.98139,
+   "desc": "Colina arbolada sobre la Parte Vieja coronada por el Sagrado Corazón."
+  },
+  {
+   "id": "gip_flysch_zumaia",
+   "cat": "nature",
+   "name": "Flysch de Zumaia (Playa de Itzurun)",
+   "icon": "🪨",
+   "lat": 43.3002,
+   "lng": -2.2609,
+   "desc": "Espectaculares acantilados de estratos rocosos que narran millones de años."
+  },
+  {
+   "id": "gip_playa_zarautz",
+   "cat": "nature",
+   "name": "Playa de Zarautz",
+   "icon": "🏄",
+   "lat": 43.285,
+   "lng": -2.172,
+   "desc": "La playa más larga de Gipuzkoa, meca del surf en el Cantábrico."
+  },
+  {
+   "id": "gip_raton_getaria",
+   "cat": "nature",
+   "name": "El Ratón de Getaria (San Antón)",
+   "icon": "🐭",
+   "lat": 43.30556,
+   "lng": -2.20389,
+   "desc": "Islote con forma de ratón que abriga el pintoresco puerto de Getaria."
+  },
+  {
+   "id": "gip_catedral_buen_pastor",
+   "cat": "monuments",
+   "name": "Catedral del Buen Pastor",
+   "icon": "⛪",
+   "lat": 43.3165,
+   "lng": -1.9813,
+   "desc": "El templo más alto de la ciudad, de estilo neogótico del siglo XIX."
+  },
+  {
+   "id": "gip_kursaal",
+   "cat": "monuments",
+   "name": "Palacio de Congresos Kursaal",
+   "icon": "🏛️",
+   "lat": 43.3234,
+   "lng": -1.987,
+   "desc": "Los dos cubos de vidrio de Rafael Moneo junto a la desembocadura del Urumea."
+  },
+  {
+   "id": "gip_basilica_santa_maria",
+   "cat": "monuments",
+   "name": "Basílica de Santa María del Coro",
+   "icon": "⛪",
+   "lat": 43.32444,
+   "lng": -1.98639,
+   "desc": "Barroca portada al pie del Urgull, corazón espiritual de la Parte Vieja."
+  },
+  {
+   "id": "gip_palacio_miramar",
+   "cat": "monuments",
+   "name": "Palacio de Miramar",
+   "icon": "🏰",
+   "lat": 43.31472,
+   "lng": -1.99361,
+   "desc": "Residencia real de estilo inglés con jardines sobre la bahía."
+  },
+  {
+   "id": "gip_santuario_loyola",
+   "cat": "monuments",
+   "name": "Santuario de San Ignacio de Loyola",
+   "icon": "⛪",
+   "lat": 43.183,
+   "lng": -2.286,
+   "desc": "Grandioso conjunto barroco erigido junto a la casa natal de San Ignacio."
+  },
+  {
+   "id": "gip_arantzazu",
+   "cat": "monuments",
+   "name": "Santuario de Arantzazu",
+   "icon": "⛪",
+   "lat": 42.979,
+   "lng": -2.399,
+   "desc": "Santuario de montaña y obra maestra del arte vasco del siglo XX."
+  },
+  {
+   "id": "gip_universidad_onati",
+   "cat": "monuments",
+   "name": "Universidad de Sancti Spiritus (Oñati)",
+   "icon": "🎓",
+   "lat": 43.0352,
+   "lng": -2.4093,
+   "desc": "La única universidad histórica del País Vasco, joya renacentista."
+  },
+  {
+   "id": "gip_casco_hondarribia",
+   "cat": "monuments",
+   "name": "Casco histórico de Hondarribia",
+   "icon": "🏰",
+   "lat": 43.3623,
+   "lng": -1.7917,
+   "desc": "Villa amurallada con casas de colores y balcones de madera."
+  },
+  {
+   "id": "gip_museo_balenciaga",
+   "cat": "monuments",
+   "name": "Museo Cristóbal Balenciaga",
+   "icon": "👗",
+   "lat": 43.30306,
+   "lng": -2.20361,
+   "desc": "Museo de la alta costura en la villa natal del gran modisto."
+  },
+  {
+   "id": "gip_peine_viento",
+   "cat": "ocio",
+   "name": "El Peine del Viento",
+   "icon": "🌬️",
+   "lat": 43.31947,
+   "lng": -2.00877,
+   "desc": "Emblemática obra de Chillida donde el mar rompe entre acero y roca."
+  },
+  {
+   "id": "gip_aquarium_donostia",
+   "cat": "ocio",
+   "name": "Aquarium de San Sebastián",
+   "icon": "🐠",
+   "lat": 43.3229,
+   "lng": -1.9903,
+   "desc": "Acuario centenario con túnel de tiburones frente al puerto viejo."
+  },
+  {
+   "id": "gip_parque_igueldo",
+   "cat": "ocio",
+   "name": "Parque de Atracciones de Monte Igueldo",
+   "icon": "🎡",
+   "lat": 43.31611,
+   "lng": -2.01694,
+   "desc": "Parque de atracciones vintage en lo alto del monte Igueldo."
+  },
+  {
+   "id": "gip_mercado_bretxa",
+   "cat": "ocio",
+   "name": "Mercado de La Bretxa",
+   "icon": "🛒",
+   "lat": 43.3225,
+   "lng": -1.98583,
+   "desc": "Mercado tradicional en la linde de la Parte Vieja donostiarra."
+  },
+  {
+   "id": "gip_surf_zarautz",
+   "cat": "ocio",
+   "name": "Surf en Zarautz",
+   "icon": "🏄‍♂️",
+   "lat": 43.28472,
+   "lng": -2.16944,
+   "desc": "Escuelas y olas para iniciarse en el surf de la costa vasca."
+  },
+  {
+   "id": "gip_pintxos_parte_vieja",
+   "cat": "food",
+   "name": "Ruta de pintxos por la Parte Vieja",
+   "icon": "🍢",
+   "lat": 43.32361,
+   "lng": -1.98528,
+   "desc": "El templo mundial del pintxo, de barra en barra por el casco viejo."
+  },
+  {
+   "id": "gip_arzak",
+   "cat": "food",
+   "name": "Restaurante Arzak",
+   "icon": "🍽️",
+   "lat": 43.3208,
+   "lng": -1.9541,
+   "desc": "Tres estrellas Michelin, cuna de la nueva cocina vasca."
+  },
+  {
+   "id": "gip_parrillas_getaria",
+   "cat": "food",
+   "name": "Asadores de Getaria",
+   "icon": "🐟",
+   "lat": 43.30389,
+   "lng": -2.20194,
+   "desc": "Pescado a la brasa junto al puerto, con el rodaballo como rey."
+  },
+  {
+   "id": "gip_txakoli_getaria",
+   "cat": "food",
+   "name": "Bodegas de Txakoli (Getaria)",
+   "icon": "🍷",
+   "lat": 43.305,
+   "lng": -2.196,
+   "desc": "Viñedos sobre el mar donde nace el txakoli con aguja."
+  },
+  {
+   "id": "gip_alubias_tolosa",
+   "cat": "food",
+   "name": "Alubiada de Tolosa",
+   "icon": "🫘",
+   "lat": 43.135,
+   "lng": -2.073,
+   "desc": "El mítico guiso de alubias negras en su villa de origen."
+  },
+  {
+   "id": "gip_sidreria_astigarraga",
+   "cat": "food",
+   "name": "Sidrerías de Astigarraga",
+   "icon": "🍏",
+   "lat": 43.28306,
+   "lng": -1.94694,
+   "desc": "El ritual del 'txotx' con sidra natural directa de la kupela."
+  }
+ ],
+ "extra": {
+  "gip_playa_concha": {
+   "id": "gip_playa_concha",
+   "d": "Su arena dorada y su elegante barandilla art déco definen la imagen de Donostia. Ideal para pasear, bañarse en aguas tranquilas y contemplar la isla de Santa Clara enmarcada por los montes Urgull e Igueldo.",
+   "d_en": "Its golden sand and elegant art déco railing define the image of Donostia. Perfect for strolling, swimming in calm waters and gazing at Santa Clara island framed by Mounts Urgull and Igueldo.",
+   "h": "Acceso libre todo el día",
+   "h_en": "Open access all day",
+   "i": "Ideal si te gusta pasear junto al mar y las playas urbanas elegantes.",
+   "i_en": "Ideal if you like seaside walks and elegant urban beaches."
+  },
+  "gip_monte_igueldo": {
+   "id": "gip_monte_igueldo",
+   "d": "Se sube en un funicular centenario que corona el monte occidental de la ciudad. Desde arriba se abraza toda la bahía, la isla de Santa Clara y la costa, una postal imprescindible de San Sebastián.",
+   "d_en": "Reached by a century-old funicular crowning the city's western hill. From the top you take in the whole bay, Santa Clara island and the coast, an essential San Sebastián postcard.",
+   "h": "Funicular aprox. 10:00–20:00 (según temporada)",
+   "h_en": "Funicular approx. 10:00–20:00 (seasonal)",
+   "i": "Ideal si te gustan los miradores y las fotografías panorámicas.",
+   "i_en": "Ideal if you love viewpoints and panoramic photos."
+  },
+  "gip_monte_urgull": {
+   "id": "gip_monte_urgull",
+   "d": "Antigua fortaleza con el castillo de la Mota, senderos entre bosque y murallas, y vistas sobre el puerto y la bahía. La gran estatua del Sagrado Corazón vigila la ciudad desde su cima.",
+   "d_en": "A former fortress with La Mota castle, woodland paths among ramparts, and views over the harbour and bay. The great Sacred Heart statue watches over the city from its summit.",
+   "h": "Acceso libre; recinto aprox. 8:00–21:00",
+   "h_en": "Free access; grounds approx. 8:00–21:00",
+   "i": "Ideal si te gustan las caminatas urbanas con historia y vistas.",
+   "i_en": "Ideal if you like historic city walks with a view."
+  },
+  "gip_flysch_zumaia": {
+   "id": "gip_flysch_zumaia",
+   "d": "En la playa de Itzurun se alza el flysch, capas verticales de roca esculpidas por el mar que registran 60 millones de años, incluido el límite de la extinción de los dinosaurios. Un paisaje geológico único, protegido por el Geoparkea de la Costa Vasca.",
+   "d_en": "At Itzurun beach rises the flysch, vertical rock layers carved by the sea recording 60 million years, including the dinosaur-extinction boundary. A unique geological landscape protected by the Basque Coast Geopark.",
+   "h": "Acceso libre; visita mejor con marea baja",
+   "h_en": "Free access; best visited at low tide",
+   "i": "Ideal si te gusta la geología, la naturaleza y los paisajes de cine.",
+   "i_en": "Ideal if you love geology, nature and cinematic landscapes."
+  },
+  "gip_playa_zarautz": {
+   "id": "gip_playa_zarautz",
+   "d": "Más de dos kilómetros de arena y un extenso paseo marítimo hacen de Zarautz un imán para surfistas y familias. Sus olas constantes acogen competiciones internacionales y su ambiente es animado todo el año.",
+   "d_en": "Over two kilometres of sand and a long promenade make Zarautz a magnet for surfers and families. Its steady waves host international contests and the vibe is lively year-round.",
+   "h": "Acceso libre todo el día",
+   "h_en": "Open access all day",
+   "i": "Ideal si te gusta el surf, la playa amplia y el ambiente joven.",
+   "i_en": "Ideal if you enjoy surfing, wide beaches and a young vibe."
+  },
+  "gip_raton_getaria": {
+   "id": "gip_raton_getaria",
+   "d": "El monte de San Antón, unido al pueblo por un istmo, parece un ratón dormido sobre el mar. Rodearlo a pie regala vistas del puerto pesquero, los viñedos de txakoli y la casa natal de Juan Sebastián Elcano.",
+   "d_en": "The San Antón headland, joined to the town by an isthmus, looks like a mouse asleep on the sea. Walking around it offers views of the fishing port, txakoli vineyards and Juan Sebastián Elcano's birthplace.",
+   "h": "Acceso libre",
+   "h_en": "Free access",
+   "i": "Ideal si te gustan los pueblos marineros y los paseos costeros.",
+   "i_en": "Ideal if you like fishing villages and coastal walks."
+  },
+  "gip_catedral_buen_pastor": {
+   "id": "gip_catedral_buen_pastor",
+   "d": "Construida en piedra arenisca del monte Igueldo, su aguja de 75 metros domina el ensanche de Donostia. Interior luminoso de tres naves y un gran órgano, en pleno corazón comercial de la ciudad.",
+   "d_en": "Built in sandstone from Mount Igueldo, its 75-metre spire dominates Donostia's downtown. A luminous three-nave interior and a great organ, right in the city's commercial heart.",
+   "h": "Aprox. 10:00–13:00 y 17:00–20:00",
+   "h_en": "Approx. 10:00–13:00 and 17:00–20:00",
+   "i": "Ideal si te gusta la arquitectura religiosa y neogótica.",
+   "i_en": "Ideal if you enjoy religious and neo-Gothic architecture."
+  },
+  "gip_kursaal": {
+   "id": "gip_kursaal",
+   "d": "Icono de la arquitectura contemporánea vasca, estos volúmenes traslúcidos evocan 'dos rocas varadas'. Sede del Festival Internacional de Cine de San Sebastián y de grandes congresos, junto a la playa de la Zurriola.",
+   "d_en": "An icon of contemporary Basque architecture, these translucent volumes evoke 'two beached rocks'. Home of the San Sebastián International Film Festival and major congresses, beside Zurriola beach.",
+   "h": "Exterior libre; visitas guiadas según programación",
+   "h_en": "Exterior free; guided tours per schedule",
+   "i": "Ideal si te gusta la arquitectura moderna y el cine.",
+   "i_en": "Ideal if you like modern architecture and cinema."
+  },
+  "gip_basilica_santa_maria": {
+   "id": "gip_basilica_santa_maria",
+   "d": "Su exuberante fachada churrigueresca preside las callejuelas del casco viejo donostiarra. En su interior, un imponente retablo y la imagen de la Virgen del Coro, patrona de la ciudad.",
+   "d_en": "Its exuberant Churrigueresque façade presides over the Old Town's narrow lanes. Inside, a striking altarpiece and the image of the Virgin of the Choir, the city's patron.",
+   "h": "Aprox. 10:00–13:00 y 17:00–19:30",
+   "h_en": "Approx. 10:00–13:00 and 17:00–19:30",
+   "i": "Ideal si te gusta el arte barroco y los cascos históricos.",
+   "i_en": "Ideal if you enjoy Baroque art and historic quarters."
+  },
+  "gip_palacio_miramar": {
+   "id": "gip_palacio_miramar",
+   "d": "Mandado construir por la reina María Cristina en 1893, este palacio de aire británico se rodea de jardines abiertos al público que separan las playas de La Concha y Ondarreta, con vistas privilegiadas.",
+   "d_en": "Commissioned by Queen María Cristina in 1893, this British-looking palace is surrounded by public gardens dividing La Concha and Ondarreta beaches, with privileged views.",
+   "h": "Jardines aprox. 8:00–21:00",
+   "h_en": "Gardens approx. 8:00–21:00",
+   "i": "Ideal si te gustan los palacios, jardines y las vistas al mar.",
+   "i_en": "Ideal if you like palaces, gardens and sea views."
+  },
+  "gip_santuario_loyola": {
+   "id": "gip_santuario_loyola",
+   "d": "Su gran cúpula circular obra del arquitecto italiano Carlo Fontana envuelve la Santa Casa donde nació el fundador de los jesuitas. Uno de los mayores santuarios del País Vasco, rodeado de verdes montañas en Azpeitia.",
+   "d_en": "Its great circular dome by Italian architect Carlo Fontana wraps the Holy House where the Jesuit founder was born. One of the Basque Country's largest sanctuaries, ringed by green hills in Azpeitia.",
+   "h": "Aprox. 10:00–13:00 y 15:00–19:00",
+   "h_en": "Approx. 10:00–13:00 and 15:00–19:00",
+   "i": "Ideal si te gustan la historia religiosa y la arquitectura barroca.",
+   "i_en": "Ideal if you enjoy religious history and Baroque architecture."
+  },
+  "gip_arantzazu": {
+   "id": "gip_arantzazu",
+   "d": "Encaramado en un paraje kárstico sobre Oñati, reúne a genios como Oteiza (los apóstoles de la fachada), Chillida (las puertas) y Basterretxea. Lugar de peregrinación a la patrona de Gipuzkoa entre riscos y hayedos.",
+   "d_en": "Perched in a karst landscape above Oñati, it gathers geniuses like Oteiza (façade apostles), Chillida (the doors) and Basterretxea. A pilgrimage site to Gipuzkoa's patron amid crags and beech woods.",
+   "h": "Aprox. 8:00–20:00",
+   "h_en": "Approx. 8:00–20:00",
+   "i": "Ideal si te gusta el arte moderno en entornos de montaña.",
+   "i_en": "Ideal if you like modern art in mountain settings."
+  },
+  "gip_universidad_onati": {
+   "id": "gip_universidad_onati",
+   "d": "Fundada en 1540, su portada plateresca y su patio de columnas la convierten en el gran monumento civil de Oñati. Durante siglos fue el principal centro de estudios superiores del territorio.",
+   "d_en": "Founded in 1540, its Plateresque façade and columned courtyard make it Oñati's great civic monument. For centuries it was the territory's main centre of higher learning.",
+   "h": "Visitas guiadas según horario de la oficina de turismo",
+   "h_en": "Guided tours per tourist office schedule",
+   "i": "Ideal si te gusta la arquitectura renacentista y la historia.",
+   "i_en": "Ideal if you enjoy Renaissance architecture and history."
+  },
+  "gip_casco_hondarribia": {
+   "id": "gip_casco_hondarribia",
+   "d": "Tras sus murallas medievales se esconden calles empedradas, la iglesia de Santa María, el castillo de Carlos V (hoy parador) y la vibrante Calle Mayor. El barrio marinero de La Marina completa una de las villas más bonitas de la costa.",
+   "d_en": "Behind its medieval walls hide cobbled streets, Santa María church, the Charles V castle (now a parador) and the lively Calle Mayor. The Marina fishermen's quarter completes one of the coast's prettiest towns.",
+   "h": "Acceso libre",
+   "h_en": "Free access",
+   "i": "Ideal si te gustan los cascos históricos amurallados con encanto.",
+   "i_en": "Ideal if you love charming walled old towns."
+  },
+  "gip_museo_balenciaga": {
+   "id": "gip_museo_balenciaga",
+   "d": "En Getaria, un edificio contemporáneo unido a un palacete alberga cientos de piezas del genio de la moda Cristóbal Balenciaga. Un recorrido por vestidos, trajes y técnicas que revolucionaron la costura del siglo XX.",
+   "d_en": "In Getaria, a contemporary building joined to a manor houses hundreds of pieces by fashion genius Cristóbal Balenciaga. A journey through gowns, suits and techniques that revolutionised 20th-century couture.",
+   "h": "Mar–Dom aprox. 10:00–19:00 (cerrado lunes)",
+   "h_en": "Tue–Sun approx. 10:00–19:00 (closed Mondays)",
+   "i": "Ideal si te gusta la moda, el diseño y la alta costura.",
+   "i_en": "Ideal if you love fashion, design and haute couture."
+  },
+  "gip_peine_viento": {
+   "id": "gip_peine_viento",
+   "d": "Tres esculturas de acero de Eduardo Chillida se anclan a las rocas del extremo oeste de la bahía, con una plaza diseñada por Peña Ganchegui y respiraderos por los que sopla el mar. Espectacular con marejada.",
+   "d_en": "Three steel sculptures by Eduardo Chillida anchor to the rocks at the bay's western tip, with a plaza by Peña Ganchegui and blowholes through which the sea breathes. Spectacular in rough seas.",
+   "h": "Acceso libre todo el día",
+   "h_en": "Open access all day",
+   "i": "Ideal si te gusta el arte al aire libre y el mar bravo.",
+   "i_en": "Ideal if you like open-air art and wild seas."
+  },
+  "gip_aquarium_donostia": {
+   "id": "gip_aquarium_donostia",
+   "d": "Uno de los acuarios más antiguos de España combina un museo naval, esqueletos de ballena y un gran oceanario con túnel transparente rodeado de tiburones y rayas. Perfecto para familias junto al muelle.",
+   "d_en": "One of Spain's oldest aquariums combines a naval museum, whale skeletons and a large oceanarium with a transparent tunnel surrounded by sharks and rays. Perfect for families by the quay.",
+   "h": "Aprox. 10:00–19:00 (ampliado en verano)",
+   "h_en": "Approx. 10:00–19:00 (extended in summer)",
+   "i": "Ideal si viajas en familia o te gusta la vida marina.",
+   "i_en": "Ideal for families or marine-life lovers."
+  },
+  "gip_parque_igueldo": {
+   "id": "gip_parque_igueldo",
+   "d": "Un encantador parque de principios del siglo XX con montaña rusa suiza, carrusel, casa del terror y la famosa torre-mirador, todo con vistas de vértigo sobre la bahía de La Concha. Nostalgia y diversión para todas las edades.",
+   "d_en": "A charming early-20th-century park with a Swiss water-ride, carousel, haunted house and the famous viewing tower, all with dizzying views over La Concha bay. Nostalgia and fun for all ages.",
+   "h": "Según temporada, aprox. 11:00–20:00",
+   "h_en": "Seasonal, approx. 11:00–20:00",
+   "i": "Ideal si te gustan los parques con encanto retro y las vistas.",
+   "i_en": "Ideal if you like retro-charm parks and great views."
+  },
+  "gip_mercado_bretxa": {
+   "id": "gip_mercado_bretxa",
+   "d": "Entre puestos de pescado fresco, verduras de caserío, quesos Idiazabal y setas de temporada se palpa la despensa guipuzcoana. Un lugar vivo para descubrir productos locales y llevarse sabores a casa.",
+   "d_en": "Amid stalls of fresh fish, farmhouse vegetables, Idiazabal cheese and seasonal mushrooms you feel Gipuzkoa's larder. A lively place to discover local produce and take flavours home.",
+   "h": "Lun–Sáb aprox. 8:00–20:00",
+   "h_en": "Mon–Sat approx. 8:00–20:00",
+   "i": "Ideal si te gusta el mercado local y la gastronomía de raíz.",
+   "i_en": "Ideal if you love local markets and rooted food culture."
+  },
+  "gip_surf_zarautz": {
+   "id": "gip_surf_zarautz",
+   "d": "La larga playa de Zarautz concentra escuelas de surf para todos los niveles, con clases, alquiler de material y un ambiente muy surfero. Fondo de arena y olas regulares que la hacen ideal para aprender.",
+   "d_en": "Zarautz's long beach hosts surf schools for all levels, with lessons, gear rental and a strong surf scene. A sandy bottom and steady waves make it ideal for learning.",
+   "h": "Clases aprox. 10:00–19:00 (según mareas)",
+   "h_en": "Lessons approx. 10:00–19:00 (tide-dependent)",
+   "i": "Ideal si te gustan los deportes de agua y la adrenalina.",
+   "i_en": "Ideal if you enjoy water sports and adrenaline."
+  },
+  "gip_pintxos_parte_vieja": {
+   "id": "gip_pintxos_parte_vieja",
+   "d": "Las callejuelas de la Parte Vieja concentran decenas de bares con barras rebosantes de pintxos: gilda, txangurro, foie, brocheta de langostino o la célebre 'txuleta'. Se come de pie, se pide un zurito y se salta al siguiente. Templos como Ganbara, La Cuchara de San Telmo o Bar Nestor son de culto.",
+   "d_en": "The Old Town's lanes pack dozens of bars with counters overflowing with pintxos: gilda, spider-crab, foie, prawn skewers or the famous 'txuleta'. Eat standing, order a small beer and hop on. Temples like Ganbara, La Cuchara de San Telmo or Bar Nestor are cult stops.",
+   "h": "Aprox. 12:00–15:30 y 19:30–23:30",
+   "h_en": "Approx. 12:00–15:30 and 19:30–23:30",
+   "i": "Ideal si te gusta comer picoteando y el ambiente de bares.",
+   "i_en": "Ideal if you like grazing your way through lively bars."
+  },
+  "gip_arzak": {
+   "id": "gip_arzak",
+   "d": "En la casa familiar de Juan Mari y Elena Arzak se cocina alta gastronomía de vanguardia con raíz vasca desde hace generaciones. Un menú degustación imaginativo y técnico, referencia mundial de la cocina de autor.",
+   "d_en": "In the family home of Juan Mari and Elena Arzak, avant-garde haute cuisine with Basque roots has been served for generations. An imaginative, technical tasting menu, a world reference in signature cooking.",
+   "h": "Mar–Sáb, comidas y cenas con reserva",
+   "h_en": "Tue–Sat, lunch and dinner by reservation",
+   "i": "Ideal si te gusta la alta gastronomía y las experiencias únicas.",
+   "i_en": "Ideal if you love haute cuisine and unique experiences."
+  },
+  "gip_parrillas_getaria": {
+   "id": "gip_parrillas_getaria",
+   "d": "Getaria es célebre por sus parrillas al aire libre donde el rodaballo, el besugo y la lubina se asan enteros sobre brasas de encina. Casas como Elkano o Kaia Kaipe elevan el producto del Cantábrico, regado con txakoli local.",
+   "d_en": "Getaria is famed for its outdoor grills where turbot, sea bream and sea bass are roasted whole over oak embers. Houses like Elkano or Kaia Kaipe elevate Cantabrian produce, paired with local txakoli.",
+   "h": "Aprox. 13:00–15:30 y 20:00–22:30",
+   "h_en": "Approx. 13:00–15:30 and 20:00–22:30",
+   "i": "Ideal si te gusta el pescado fresco a la parrilla.",
+   "i_en": "Ideal if you love fresh grilled fish."
+  },
+  "gip_txakoli_getaria": {
+   "id": "gip_txakoli_getaria",
+   "d": "En las laderas de Getaria, bodegas como Txomin Etxaniz o Gaintza abren sus puertas a catas del blanco joven, fresco y ligeramente espumoso con D.O. Getariako Txakolina. Visitas entre viñas con vistas al Cantábrico.",
+   "d_en": "On Getaria's slopes, wineries like Txomin Etxaniz or Gaintza open for tastings of the young, fresh, lightly sparkling white with D.O. Getariako Txakolina. Vineyard visits with Cantabrian sea views.",
+   "h": "Visitas con reserva, aprox. 10:00–18:00",
+   "h_en": "Visits by reservation, approx. 10:00–18:00",
+   "i": "Ideal si te gusta el enoturismo y los paisajes de viñedo.",
+   "i_en": "Ideal if you love wine tourism and vineyard landscapes."
+  },
+  "gip_alubias_tolosa": {
+   "id": "gip_alubias_tolosa",
+   "d": "Tolosa venera su alubia negra, servida cremosa con sus 'sacramentos': morcilla, chorizo, tocino y berza. Sociedades gastronómicas y restaurantes del casco la elevan a plato de culto, especialmente en el frío invierno.",
+   "d_en": "Tolosa reveres its black bean, served creamy with its 'sacraments': blood sausage, chorizo, bacon and cabbage. Gastronomic societies and old-town restaurants raise it to cult status, especially in cold winter.",
+   "h": "Comidas aprox. 13:30–15:30",
+   "h_en": "Lunch approx. 13:30–15:30",
+   "i": "Ideal si te gusta la cocina de cuchara y tradicional.",
+   "i_en": "Ideal if you enjoy hearty traditional home cooking."
+  },
+  "gip_sidreria_astigarraga": {
+   "id": "gip_sidreria_astigarraga",
+   "d": "Astigarraga es la capital de la sidra vasca. En temporada (enero–abril) se acude al grito de '¡Txotx!' para llenar el vaso directo de la barrica y disfrutar el menú clásico: tortilla de bacalao, bacalao frito, chuletón y queso con membrillo y nueces.",
+   "d_en": "Astigarraga is the capital of Basque cider. In season (January–April) diners answer the call of 'Txotx!' to fill their glass straight from the barrel and enjoy the classic menu: cod omelette, fried cod, T-bone steak and cheese with quince and walnuts.",
+   "h": "Temporada ene–abr; comidas y cenas con reserva",
+   "h_en": "Season Jan–Apr; lunch and dinner by reservation",
+   "i": "Ideal si te gusta la tradición vasca y las experiencias grupales.",
+   "i_en": "Ideal if you love Basque tradition and group experiences."
+  }
+ },
+ "food": {
+  "gip_pintxos_parte_vieja": {
+   "cuisine": "Pintxos y cocina vasca en miniatura",
+   "price": "3–25 €",
+   "hours": "Aprox. 12:00–15:30 y 19:30–23:30"
+  },
+  "gip_arzak": {
+   "cuisine": "Alta cocina vasca de autor",
+   "price": "260–320 €",
+   "hours": "Mar–Sáb, comidas y cenas con reserva"
+  },
+  "gip_parrillas_getaria": {
+   "cuisine": "Pescado a la brasa / cocina marinera",
+   "price": "45–90 €",
+   "hours": "Aprox. 13:00–15:30 y 20:00–22:30"
+  },
+  "gip_txakoli_getaria": {
+   "cuisine": "Enoturismo / vino txakoli",
+   "price": "10–30 €",
+   "hours": "Visitas con reserva, aprox. 10:00–18:00"
+  },
+  "gip_alubias_tolosa": {
+   "cuisine": "Cocina tradicional vasca / legumbre",
+   "price": "20–35 €",
+   "hours": "Comidas aprox. 13:30–15:30"
+  },
+  "gip_sidreria_astigarraga": {
+   "cuisine": "Sidrería tradicional / parrilla",
+   "price": "35–45 €",
+   "hours": "Temporada ene–abr; comidas y cenas con reserva"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Gipuzkoa",
+   "items": [
+    {
+     "name": "Txakoli de Getaria (D.O. Getariako Txakolina)",
+     "price": "8–18 €",
+     "desc": "Vino blanco joven, ligero y con aguja, escanciado desde lo alto; el gran acompañante del pescado a la brasa."
+    },
+    {
+     "name": "Alubias de Tolosa",
+     "price": "6–14 €",
+     "desc": "Legumbre negra y cremosa con Eusko Label, base del célebre guiso 'alubiada' con sus sacramentos."
+    },
+    {
+     "name": "Pañuelo con la txapela / boina vasca",
+     "price": "20–45 €",
+     "desc": "La clásica boina de fieltro, símbolo de identidad vasca, ideal para llevarse un recuerdo auténtico."
+    },
+    {
+     "name": "Sidra natural de Astigarraga",
+     "price": "4–10 €",
+     "desc": "Sidra de manzana sin gas de las sidrerías guipuzcoanas, para revivir el ritual del 'txotx'."
+    },
+    {
+     "name": "Tejas y cigarrillos de Tolosa",
+     "price": "6–12 €",
+     "desc": "Finas galletas de almendra crujientes, dulce tradicional que se regala en cajas metálicas."
+    }
+   ],
+   "shops": [
+    "Mercado de La Bretxa (Donostia)",
+    "Aitor Lasa (quesos y despensa, Donostia)",
+    "Bodegas de txakoli en Getaria (Txomin Etxaniz, Gaintza)",
+    "Mercado del Tinglado y Plaza Berdura (Tolosa)"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Los pintxos se piden de barra en barra: entra, toma uno o dos con tu zurito o txakoli y sigue al siguiente bar de la Parte Vieja.",
+   "El tiempo cambia rápido en la costa vasca; lleva siempre chubasquero o paraguas aunque salga sol.",
+   "Reserva con antelación los restaurantes con estrella (Arzak, Akelarre) y las sidrerías de temporada (enero–abril).",
+   "El flysch de Zumaia se disfruta mejor con marea baja; consulta las tablas de mareas antes de ir.",
+   "Muévete en transporte público: la red Lurraldebus y el tren Euskotren conectan bien Donostia con Getaria, Zarautz, Zumaia y Hondarribia."
+  ],
+  "en": [
+   "Pintxos are eaten bar-hopping: pop in, have one or two with a small beer or txakoli, then move on to the next bar in the Old Town.",
+   "Weather changes fast on the Basque coast; always carry a raincoat or umbrella even when the sun is out.",
+   "Book Michelin-starred restaurants (Arzak, Akelarre) and seasonal cider houses (January–April) well in advance.",
+   "The Zumaia flysch is best at low tide; check the tide tables before you go.",
+   "Use public transport: the Lurraldebus network and the Euskotren train link Donostia well with Getaria, Zarautz, Zumaia and Hondarribia."
+  ]
+ },
+ "climate": {
+  "hi": [
+   11,
+   12,
+   14,
+   15,
+   18,
+   21,
+   23,
+   24,
+   23,
+   19,
+   15,
+   12
+  ],
+  "lo": [
+   6,
+   6,
+   8,
+   9,
+   12,
+   15,
+   17,
+   18,
+   16,
+   13,
+   9,
+   7
+  ]
+ },
+ "tr": {
+  "La bahía en forma de concha, una de las playas urbanas más bellas de Europa.": "The shell-shaped bay, one of Europe's most beautiful urban beaches.",
+  "Mirador con las mejores vistas panorámicas de la bahía de La Concha.": "Viewpoint with the finest panoramic views over La Concha bay.",
+  "Colina arbolada sobre la Parte Vieja coronada por el Sagrado Corazón.": "Wooded hill above the Old Town crowned by the Sacred Heart statue.",
+  "Espectaculares acantilados de estratos rocosos que narran millones de años.": "Spectacular cliffs of rock strata telling millions of years of history.",
+  "La playa más larga de Gipuzkoa, meca del surf en el Cantábrico.": "Gipuzkoa's longest beach, a Cantabrian surfing mecca.",
+  "Islote con forma de ratón que abriga el pintoresco puerto de Getaria.": "Mouse-shaped islet sheltering Getaria's picturesque harbour.",
+  "El templo más alto de la ciudad, de estilo neogótico del siglo XIX.": "The city's tallest church, a 19th-century neo-Gothic landmark.",
+  "Los dos cubos de vidrio de Rafael Moneo junto a la desembocadura del Urumea.": "Rafael Moneo's two glass cubes beside the mouth of the Urumea.",
+  "Barroca portada al pie del Urgull, corazón espiritual de la Parte Vieja.": "Baroque church at the foot of Urgull, spiritual heart of the Old Town.",
+  "Residencia real de estilo inglés con jardines sobre la bahía.": "English-style royal residence with gardens overlooking the bay.",
+  "Grandioso conjunto barroco erigido junto a la casa natal de San Ignacio.": "Grand Baroque complex built beside the birthplace of St Ignatius.",
+  "Santuario de montaña y obra maestra del arte vasco del siglo XX.": "Mountain sanctuary and masterpiece of 20th-century Basque art.",
+  "La única universidad histórica del País Vasco, joya renacentista.": "The Basque Country's only historic university, a Renaissance gem.",
+  "Villa amurallada con casas de colores y balcones de madera.": "Walled town with colourful houses and wooden balconies.",
+  "Museo de la alta costura en la villa natal del gran modisto.": "Haute-couture museum in the great couturier's home town.",
+  "Emblemática obra de Chillida donde el mar rompe entre acero y roca.": "Chillida's iconic artwork where the sea crashes among steel and rock.",
+  "Acuario centenario con túnel de tiburones frente al puerto viejo.": "Century-old aquarium with a shark tunnel by the old harbour.",
+  "Parque de atracciones vintage en lo alto del monte Igueldo.": "Vintage amusement park at the top of Mount Igueldo.",
+  "Mercado tradicional en la linde de la Parte Vieja donostiarra.": "Traditional market on the edge of Donostia's Old Town.",
+  "Escuelas y olas para iniciarse en el surf de la costa vasca.": "Schools and waves to get started with Basque-coast surfing.",
+  "El templo mundial del pintxo, de barra en barra por el casco viejo.": "The world temple of the pintxo, bar-hopping through the Old Town.",
+  "Tres estrellas Michelin, cuna de la nueva cocina vasca.": "Three Michelin stars, cradle of new Basque cuisine.",
+  "Pescado a la brasa junto al puerto, con el rodaballo como rey.": "Grilled fish by the harbour, with turbot as the star.",
+  "Viñedos sobre el mar donde nace el txakoli con aguja.": "Sea-facing vineyards where the sparkling txakoli is born.",
+  "El mítico guiso de alubias negras en su villa de origen.": "The legendary black-bean stew in its home town.",
+  "El ritual del 'txotx' con sidra natural directa de la kupela.": "The 'txotx' ritual with natural cider straight from the barrel.",
+  "Gipuzkoa": "Gipuzkoa"
+ }
+}

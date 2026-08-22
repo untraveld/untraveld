@@ -1,0 +1,634 @@
+{
+ "id": "almeria",
+ "name": "Almería",
+ "country": "ES",
+ "center": [
+  36.83814,
+  -2.45974
+ ],
+ "pois": [
+  {
+   "id": "alm_alcazaba",
+   "cat": "monuments",
+   "name": "Alcazaba de Almería",
+   "icon": "🏰",
+   "lat": 36.8388,
+   "lng": -2.4687,
+   "desc": "Gran fortaleza musulmana sobre la ciudad."
+  },
+  {
+   "id": "alm_cabo_gata_sirenas",
+   "cat": "nature",
+   "name": "Arrecife de las Sirenas (Cabo de Gata)",
+   "icon": "🌊",
+   "lat": 36.7274,
+   "lng": -2.1915,
+   "desc": "Faro y roquedos volcánicos del cabo."
+  },
+  {
+   "id": "alm_playa_monsul",
+   "cat": "nature",
+   "name": "Playa de Mónsul",
+   "icon": "🏖️",
+   "lat": 36.7285,
+   "lng": -2.1431,
+   "desc": "Playa virgen con la famosa duna y roca."
+  },
+  {
+   "id": "alm_mojacar_pueblo",
+   "cat": "monuments",
+   "name": "Mojácar Pueblo",
+   "icon": "🏘️",
+   "lat": 37.1409,
+   "lng": -1.8528,
+   "desc": "Pueblo blanco colgado de la montaña."
+  },
+  {
+   "id": "alm_catedral",
+   "cat": "monuments",
+   "name": "Catedral de la Encarnación de Almería",
+   "icon": "⛪",
+   "lat": 36.83792,
+   "lng": -2.46543,
+   "desc": "Catedral-fortaleza del Renacimiento."
+  },
+  {
+   "id": "alm_fort_bravo",
+   "cat": "ocio",
+   "name": "Fort Bravo / Texas Hollywood",
+   "icon": "🤠",
+   "lat": 37.0633,
+   "lng": -2.4318,
+   "desc": "Poblado del Oeste en el desierto."
+  },
+  {
+   "id": "alm_oasys_mini_hollywood",
+   "cat": "ocio",
+   "name": "Oasys MiniHollywood",
+   "icon": "🎬",
+   "lat": 37.0584,
+   "lng": -2.4466,
+   "desc": "Parque temático y zoo del desierto."
+  },
+  {
+   "id": "alm_playa_genoveses",
+   "cat": "nature",
+   "name": "Playa de los Genoveses",
+   "icon": "🏖️",
+   "lat": 36.7428,
+   "lng": -2.1276,
+   "desc": "Gran playa virgen en forma de concha."
+  },
+  {
+   "id": "alm_desierto_tabernas",
+   "cat": "nature",
+   "name": "Desierto de Tabernas",
+   "icon": "🏜️",
+   "lat": 37.0244,
+   "lng": -2.35,
+   "desc": "El único desierto de Europa continental."
+  },
+  {
+   "id": "alm_nijar",
+   "cat": "monuments",
+   "name": "Níjar",
+   "icon": "🏺",
+   "lat": 36.9658,
+   "lng": -2.2084,
+   "desc": "Pueblo de cerámica y jarapas."
+  },
+  {
+   "id": "alm_cable_ingles",
+   "cat": "monuments",
+   "name": "Cable Inglés (Cargadero de Mineral)",
+   "icon": "🚂",
+   "lat": 36.83385,
+   "lng": -2.4636,
+   "desc": "Espectacular cargadero de hierro y acero."
+  },
+  {
+   "id": "alm_san_jose",
+   "cat": "ocio",
+   "name": "San José",
+   "icon": "⛵",
+   "lat": 36.7592,
+   "lng": -2.1074,
+   "desc": "Pueblo costero del parque natural."
+  },
+  {
+   "id": "alm_playa_muertos",
+   "cat": "nature",
+   "name": "Playa de los Muertos",
+   "icon": "🏖️",
+   "lat": 36.9872,
+   "lng": -1.8938,
+   "desc": "Cala salvaje de aguas cristalinas."
+  },
+  {
+   "id": "alm_castillo_velez_blanco",
+   "cat": "monuments",
+   "name": "Castillo de Vélez Blanco",
+   "icon": "🏰",
+   "lat": 37.7195,
+   "lng": -2.0954,
+   "desc": "Castillo renacentista en el norte."
+  },
+  {
+   "id": "alm_salinas_cabo_gata",
+   "cat": "nature",
+   "name": "Salinas de Cabo de Gata",
+   "icon": "🦩",
+   "lat": 36.7647,
+   "lng": -2.2313,
+   "desc": "Salinas con flamencos y aves."
+  },
+  {
+   "id": "alm_casa_puga",
+   "cat": "food",
+   "name": "Casa Puga",
+   "icon": "🍷",
+   "lat": 36.8409,
+   "lng": -2.4642,
+   "desc": "Taberna de tapas histórica."
+  },
+  {
+   "id": "alm_los_millares",
+   "cat": "monuments",
+   "name": "Yacimiento de Los Millares",
+   "icon": "🗿",
+   "lat": 37.0038,
+   "lng": -2.5135,
+   "desc": "Poblado prehistórico de la Edad del Cobre."
+  },
+  {
+   "id": "alm_refugios_guerra_civil",
+   "cat": "monuments",
+   "name": "Refugios de la Guerra Civil",
+   "icon": "🕯️",
+   "lat": 36.8387,
+   "lng": -2.4636,
+   "desc": "Kilómetros de túneles antiaéreos."
+  },
+  {
+   "id": "alm_roquetas_playa",
+   "cat": "ocio",
+   "name": "Roquetas de Mar",
+   "icon": "🏖️",
+   "lat": 36.7554,
+   "lng": -2.6141,
+   "desc": "Destino de sol, playa y ocio familiar."
+  },
+  {
+   "id": "alm_terraza_carmona",
+   "cat": "food",
+   "name": "Terraza Carmona (Vera)",
+   "icon": "🍲",
+   "lat": 37.2456,
+   "lng": -1.8747,
+   "desc": "Cocina tradicional del Levante almeriense."
+  },
+  {
+   "id": "alm_castillo_santa_ana",
+   "cat": "monuments",
+   "name": "Castillo de Santa Ana (Roquetas)",
+   "icon": "🏯",
+   "lat": 36.7579,
+   "lng": -2.6149,
+   "desc": "Fortaleza costera restaurada."
+  },
+  {
+   "id": "alm_paseo_puerto_almeria",
+   "cat": "ocio",
+   "name": "Puerto y Paseo Marítimo de Almería",
+   "icon": "⚓",
+   "lat": 36.8338,
+   "lng": -2.4666,
+   "desc": "Paseo junto al mar en la capital."
+  },
+  {
+   "id": "alm_4nudos_sanjose",
+   "cat": "food",
+   "name": "4 Nudos (San José)",
+   "icon": "🦐",
+   "lat": 36.7596,
+   "lng": -2.1068,
+   "desc": "Pescado y arroces frente al puerto."
+  },
+  {
+   "id": "alm_iglesia_mojacar",
+   "cat": "monuments",
+   "name": "Iglesia de Santa María (Mojácar)",
+   "icon": "⛪",
+   "lat": 37.1402,
+   "lng": -1.8534,
+   "desc": "Iglesia-fortaleza del pueblo."
+  },
+  {
+   "id": "alm_castillo_san_andres",
+   "cat": "monuments",
+   "name": "Castillo de San Andrés (Carboneras)",
+   "icon": "🏯",
+   "lat": 36.9968,
+   "lng": -1.8954,
+   "desc": "Castillo del siglo XVI junto al mar."
+  },
+  {
+   "id": "alm_mercado_central",
+   "cat": "food",
+   "name": "Mercado Central de Almería",
+   "icon": "🍅",
+   "lat": 36.8406,
+   "lng": -2.4633,
+   "desc": "Mercado de abastos histórico."
+  },
+  {
+   "id": "alm_casa_joaquin",
+   "cat": "food",
+   "name": "Casa Joaquín",
+   "icon": "🐟",
+   "lat": 36.8397,
+   "lng": -2.4642,
+   "desc": "Marisquería clásica de la capital."
+  }
+ ],
+ "extra": {
+  "alm_alcazaba": {
+   "id": "alm_alcazaba",
+   "d": "La segunda mayor ciudadela andalusí de España tras la Alhambra, levantada en el siglo X. Sus murallas, jardines y torres ofrecen vistas espectaculares del puerto y el casco antiguo.",
+   "d_en": "The second-largest Andalusi citadel in Spain after the Alhambra, built in the 10th century. Its walls, gardens and towers offer spectacular views of the port and old town.",
+   "h": "Mañana temprano para evitar el calor; entrada gratuita para ciudadanos UE.",
+   "h_en": "Early morning to avoid the heat; free entry for EU citizens.",
+   "i": "la historia andalusí y las vistas panorámicas.",
+   "i_en": "Andalusi history and panoramic views."
+  },
+  "alm_cabo_gata_sirenas": {
+   "id": "alm_cabo_gata_sirenas",
+   "d": "El icónico mirador junto al faro de Cabo de Gata, con afiladas rocas volcánicas emergiendo del mar turquesa. Es la imagen más reconocible del parque natural.",
+   "d_en": "The iconic viewpoint by the Cabo de Gata lighthouse, with sharp volcanic rocks rising from the turquoise sea. It is the most recognisable image of the natural park.",
+   "h": "Al atardecer, cuando la luz dora el acantilado.",
+   "h_en": "At sunset, when the light turns the cliff golden.",
+   "i": "los paisajes volcánicos y los miradores costeros.",
+   "i_en": "volcanic landscapes and coastal viewpoints."
+  },
+  "alm_playa_monsul": {
+   "id": "alm_playa_monsul",
+   "d": "Una de las playas más bellas de España, con arena oscura volcánica y una enorme roca esculpida por el viento. Escenario de rodajes como 'Indiana Jones y la última cruzada'.",
+   "d_en": "One of Spain's most beautiful beaches, with dark volcanic sand and a huge wind-sculpted rock. A filming location for movies like 'Indiana Jones and the Last Crusade'.",
+   "h": "Mañana temprano; en verano llega en bus lanzadera desde San José.",
+   "h_en": "Early morning; in summer take the shuttle bus from San José.",
+   "i": "las playas salvajes y el cine.",
+   "i_en": "wild beaches and cinema."
+  },
+  "alm_mojacar_pueblo": {
+   "id": "alm_mojacar_pueblo",
+   "d": "Laberinto de callejuelas blancas de raíces moriscas encaramado en un cerro con vistas al Mediterráneo. Su casco antiguo, lleno de flores y tiendas de artesanía, es de los más fotografiados de Almería.",
+   "d_en": "A maze of whitewashed lanes of Moorish origin perched on a hill overlooking the Mediterranean. Its old town, full of flowers and craft shops, is among the most photographed in Almería.",
+   "h": "Al atardecer para pasear sin calor y ver las vistas.",
+   "h_en": "At sunset to stroll in the cool and enjoy the views.",
+   "i": "los pueblos blancos y el ambiente bohemio.",
+   "i_en": "white villages and a bohemian atmosphere."
+  },
+  "alm_catedral": {
+   "id": "alm_catedral",
+   "d": "Una catedral única con aspecto de fortaleza, con torreones y muros gruesos para defenderse de los ataques piratas del siglo XVI. Fusiona el gótico tardío y el Renacimiento.",
+   "d_en": "A unique cathedral built like a fortress, with towers and thick walls to defend against 16th-century pirate raids. It blends late Gothic and Renaissance styles.",
+   "h": "Horario de mañana y tarde; consulta los días de culto.",
+   "h_en": "Morning and afternoon opening; check service days.",
+   "i": "la arquitectura religiosa singular.",
+   "i_en": "unusual religious architecture."
+  },
+  "alm_fort_bravo": {
+   "id": "alm_fort_bravo",
+   "d": "Uno de los platós de cine del Oeste más famosos de Europa, donde se rodaron spaghetti westerns legendarios. Se pueden recorrer sus calles, ver espectáculos de vaqueros y visitar un poblado mexicano y otro indio.",
+   "d_en": "One of Europe's most famous Western film sets, where legendary spaghetti westerns were shot. You can wander its streets, watch cowboy shows and visit Mexican and Native American villages.",
+   "h": "Mañana; consulta los horarios de los espectáculos.",
+   "h_en": "Mornings; check the show schedule.",
+   "i": "el cine del Oeste y los espectáculos en familia.",
+   "i_en": "Western movies and family shows."
+  },
+  "alm_oasys_mini_hollywood": {
+   "id": "alm_oasys_mini_hollywood",
+   "d": "Antiguo decorado de películas como 'La muerte tenía un precio' convertido en parque temático con shows de vaqueros, un cancán en el saloon y una reserva zoológica del desierto.",
+   "d_en": "A former set for films like 'For a Few Dollars More', now a theme park with cowboy shows, a saloon cancan and a desert zoo reserve.",
+   "h": "Todo el día; llega a los espectáculos programados.",
+   "h_en": "All day; arrive in time for the scheduled shows.",
+   "i": "los parques temáticos y los animales.",
+   "i_en": "theme parks and animals."
+  },
+  "alm_playa_genoveses": {
+   "id": "alm_playa_genoveses",
+   "d": "Amplia playa de arena dorada rodeada de dunas, agaves y palmitos, sin construcciones. Sus aguas tranquilas y poco profundas la hacen ideal para familias.",
+   "d_en": "A wide golden-sand beach surrounded by dunes, agaves and palmettos, with no buildings. Its calm, shallow waters make it ideal for families.",
+   "h": "Mañana; en verano usa el bus lanzadera desde San José.",
+   "h_en": "Mornings; in summer use the shuttle bus from San José.",
+   "i": "las playas amplias y tranquilas.",
+   "i_en": "wide, calm beaches."
+  },
+  "alm_desierto_tabernas": {
+   "id": "alm_desierto_tabernas",
+   "d": "Un paraje natural de badlands, ramblas y cárcavas que ha servido de escenario a cientos de películas del Oeste y de ciencia ficción. Su paisaje árido recuerda al lejano oeste americano.",
+   "d_en": "A natural landscape of badlands, dry riverbeds and gullies that has been the backdrop for hundreds of Western and sci-fi films. Its arid scenery evokes the American Wild West.",
+   "h": "Amanecer o atardecer para la mejor luz y menos calor.",
+   "h_en": "Sunrise or sunset for the best light and less heat.",
+   "i": "los paisajes desérticos y las localizaciones de cine.",
+   "i_en": "desert landscapes and film locations."
+  },
+  "alm_nijar": {
+   "id": "alm_nijar",
+   "d": "Villa blanca al pie de Sierra Alhamilla, célebre por su cerámica vidriada y sus jarapas tejidas a mano. Pasear por su casco antiguo es visitar talleres artesanos con siglos de tradición.",
+   "d_en": "A whitewashed town at the foot of Sierra Alhamilla, famous for its glazed ceramics and hand-woven rag rugs. Strolling its old town means visiting craft workshops with centuries of tradition.",
+   "h": "Por la mañana, cuando abren los talleres.",
+   "h_en": "In the morning, when the workshops open.",
+   "i": "la artesanía y las compras auténticas.",
+   "i_en": "crafts and authentic shopping."
+  },
+  "alm_cable_ingles": {
+   "id": "alm_cable_ingles",
+   "d": "Impresionante estructura de hierro de principios del siglo XX diseñada para cargar mineral en los barcos del puerto. Restaurado como paseo, es un icono industrial junto al mar.",
+   "d_en": "An impressive early-20th-century iron structure built to load ore onto ships in the port. Restored as a walkway, it is a seafront industrial icon.",
+   "h": "Al atardecer, cuando se ilumina sobre el mar.",
+   "h_en": "At sunset, when it lights up over the sea.",
+   "i": "el patrimonio industrial y la fotografía.",
+   "i_en": "industrial heritage and photography."
+  },
+  "alm_san_jose": {
+   "id": "alm_san_jose",
+   "d": "El principal núcleo turístico de Cabo de Gata, con puerto deportivo, restaurantes y playas. Es la base perfecta para explorar las calas y practicar buceo o kayak.",
+   "d_en": "The main tourist hub of Cabo de Gata, with a marina, restaurants and beaches. It is the perfect base for exploring the coves and for diving or kayaking.",
+   "h": "En verano por la tarde-noche, con ambiente animado.",
+   "h_en": "In summer during the evening, with a lively atmosphere.",
+   "i": "las bases costeras y los deportes acuáticos.",
+   "i_en": "coastal bases and water sports."
+  },
+  "alm_playa_muertos": {
+   "id": "alm_playa_muertos",
+   "d": "Playa de cantos blancos y aguas profundas de un azul intenso, elegida a menudo entre las mejores de España. Se accede a pie por un sendero empinado desde el aparcamiento.",
+   "d_en": "A beach of white pebbles and deep, intensely blue waters, often ranked among Spain's best. It is reached on foot by a steep path from the car park.",
+   "h": "Mañana; el descenso a pie exige calzado firme.",
+   "h_en": "Morning; the walk down requires sturdy shoes.",
+   "i": "las calas salvajes de difícil acceso.",
+   "i_en": "wild, hard-to-reach coves."
+  },
+  "alm_castillo_velez_blanco": {
+   "id": "alm_castillo_velez_blanco",
+   "d": "Elegante castillo del siglo XVI que domina el pueblo blanco de Vélez Blanco, en la comarca de Los Vélez. Su célebre patio de mármol se conserva hoy en el Metropolitan de Nueva York.",
+   "d_en": "An elegant 16th-century castle dominating the white village of Vélez Blanco, in the Los Vélez region. Its famous marble courtyard is now kept at the Metropolitan Museum in New York.",
+   "h": "Mañana; combínalo con la Cueva de los Letreros.",
+   "h_en": "Morning; combine it with the Cueva de los Letreros.",
+   "i": "los castillos y la historia del interior.",
+   "i_en": "castles and inland history."
+  },
+  "alm_salinas_cabo_gata": {
+   "id": "alm_salinas_cabo_gata",
+   "d": "Salinas en activo convertidas en refugio de aves, donde en primavera y otoño se concentran miles de flamencos rosados. Cuenta con observatorios junto a la carretera costera.",
+   "d_en": "Working salt flats turned into a bird refuge, where thousands of pink flamingos gather in spring and autumn. There are birdwatching hides along the coastal road.",
+   "h": "Primavera u otoño al amanecer para ver aves.",
+   "h_en": "Spring or autumn at dawn to see the birds.",
+   "i": "la observación de aves y la naturaleza.",
+   "i_en": "birdwatching and nature."
+  },
+  "alm_casa_puga": {
+   "id": "alm_casa_puga",
+   "d": "Una de las tabernas más antiguas de Almería, abierta desde 1870, con paredes cubiertas de azulejos y botellas. Es una parada obligada para probar la auténtica tapa almeriense.",
+   "d_en": "One of Almería's oldest taverns, open since 1870, with walls covered in tiles and bottles. It is a must-stop for authentic Almería tapas.",
+   "h": "Mediodía o primera hora de la noche; suele llenarse.",
+   "h_en": "Midday or early evening; it fills up quickly.",
+   "i": "las tapas tradicionales y el ambiente clásico.",
+   "i_en": "traditional tapas and a classic atmosphere."
+  },
+  "alm_los_millares": {
+   "id": "alm_los_millares",
+   "d": "Uno de los yacimientos calcolíticos más importantes de Europa, con murallas, tumbas colectivas y cabañas de hace más de 4.000 años. Un viaje al origen de las primeras sociedades del Mediterráneo.",
+   "d_en": "One of the most important Copper Age sites in Europe, with walls, collective tombs and huts over 4,000 years old. A journey to the origins of the first Mediterranean societies.",
+   "h": "Mañana; visita guiada recomendada, evita el calor del mediodía.",
+   "h_en": "Morning; a guided tour is recommended, avoid midday heat.",
+   "i": "la arqueología y la prehistoria.",
+   "i_en": "archaeology and prehistory."
+  },
+  "alm_refugios_guerra_civil": {
+   "id": "alm_refugios_guerra_civil",
+   "d": "Una extensa red de refugios subterráneos excavada bajo la ciudad para proteger a la población de los bombardeos de la Guerra Civil. Es uno de los mayores conjuntos conservados de Europa.",
+   "d_en": "An extensive network of underground shelters dug beneath the city to protect civilians from Civil War bombings. It is one of the largest preserved complexes in Europe.",
+   "h": "Solo con visita guiada; reserva con antelación.",
+   "h_en": "Guided tour only; book in advance.",
+   "i": "la historia del siglo XX y las visitas guiadas.",
+   "i_en": "20th-century history and guided tours."
+  },
+  "alm_roquetas_playa": {
+   "id": "alm_roquetas_playa",
+   "d": "El gran destino turístico de la costa almeriense, con largas playas, paseo marítimo, puerto deportivo y parque acuático. Ideal para familias y para el turismo de sol y playa.",
+   "d_en": "The main resort of the Almería coast, with long beaches, a promenade, a marina and a water park. Ideal for families and sun-and-beach tourism.",
+   "h": "Todo el día en verano; atardeceres en el paseo.",
+   "h_en": "All day in summer; sunsets along the promenade.",
+   "i": "las vacaciones de playa y el ocio familiar.",
+   "i_en": "beach holidays and family fun."
+  },
+  "alm_terraza_carmona": {
+   "id": "alm_terraza_carmona",
+   "d": "Restaurante emblemático de Vera, referente de la gastronomía almeriense desde 1960. Famoso por sus gurullos, el arroz caldoso y los guisos de la tierra.",
+   "d_en": "A landmark restaurant in Vera, a benchmark of Almería cuisine since 1960. Famous for its gurullos pasta, soupy rice and local stews.",
+   "h": "Comida principal al mediodía; reserva en temporada.",
+   "h_en": "Main meal at midday; book in high season.",
+   "i": "la cocina tradicional y los guisos caseros.",
+   "i_en": "traditional cooking and home-style stews."
+  },
+  "alm_castillo_santa_ana": {
+   "id": "alm_castillo_santa_ana",
+   "d": "Castillo defensivo junto al puerto de Roquetas de Mar, levantado para vigilar la costa frente a los piratas. Hoy acoge exposiciones y actos culturales junto al faro.",
+   "d_en": "A defensive castle by the port of Roquetas de Mar, built to guard the coast against pirates. Today it hosts exhibitions and cultural events beside the lighthouse.",
+   "h": "Tarde-noche; consulta las exposiciones temporales.",
+   "h_en": "Evening; check the temporary exhibitions.",
+   "i": "las fortalezas costeras y la cultura local.",
+   "i_en": "coastal fortresses and local culture."
+  },
+  "alm_paseo_puerto_almeria": {
+   "id": "alm_paseo_puerto_almeria",
+   "d": "El paseo marítimo y el puerto deportivo de Almería concentran terrazas, palmeras y el trasiego del muelle. Un lugar agradable para pasear, tomar algo y ver la ciudad desde el mar.",
+   "d_en": "Almería's promenade and marina gather terraces, palm trees and harbour bustle. A pleasant spot to stroll, have a drink and see the city from the sea.",
+   "h": "Al atardecer, para pasear con brisa marina.",
+   "h_en": "At sunset, for a stroll in the sea breeze.",
+   "i": "los paseos urbanos junto al mar.",
+   "i_en": "urban seaside walks."
+  },
+  "alm_4nudos_sanjose": {
+   "id": "alm_4nudos_sanjose",
+   "d": "Restaurante muy valorado en San José especializado en pescado fresco de la lonja, mariscos y arroces. Perfecto para comer junto al mar tras un día de playa en Cabo de Gata.",
+   "d_en": "A highly rated restaurant in San José specialising in fresh market fish, seafood and rice dishes. Perfect for a seaside meal after a beach day in Cabo de Gata.",
+   "h": "Mediodía o noche; reserva en verano.",
+   "h_en": "Midday or evening; book in summer.",
+   "i": "el pescado fresco y la cocina marinera.",
+   "i_en": "fresh fish and seafood cooking."
+  },
+  "alm_iglesia_mojacar": {
+   "id": "alm_iglesia_mojacar",
+   "d": "Templo del siglo XVI de aspecto macizo y defensivo, corazón del casco antiguo de Mojácar. Desde su entorno se disfrutan las mejores vistas del laberinto de calles blancas.",
+   "d_en": "A 16th-century church of solid, defensive appearance, at the heart of Mojácar's old town. Its surroundings offer the best views over the maze of white streets.",
+   "h": "Cualquier momento del paseo por el pueblo.",
+   "h_en": "Any time during a walk through the village.",
+   "i": "la arquitectura de los pueblos blancos.",
+   "i_en": "white-village architecture."
+  },
+  "alm_castillo_san_andres": {
+   "id": "alm_castillo_san_andres",
+   "d": "Fortaleza construida para defender Carboneras de los ataques berberiscos, hoy sede de actividades culturales. Se alza junto a la playa del pueblo pesquero, con vistas a la isla de San Andrés.",
+   "d_en": "A fortress built to defend Carboneras from Barbary raids, now used for cultural activities. It stands beside the fishing town's beach, facing San Andrés islet.",
+   "h": "Tarde; combina con un paseo por el puerto.",
+   "h_en": "Afternoon; combine with a walk along the port.",
+   "i": "las fortalezas y los pueblos marineros.",
+   "i_en": "fortresses and fishing towns."
+  },
+  "alm_mercado_central": {
+   "id": "alm_mercado_central",
+   "d": "Mercado de finales del siglo XIX donde se venden pescado fresco, frutas, hortalizas y productos de la huerta almeriense. Ideal para descubrir los sabores locales y comprar souvenirs comestibles.",
+   "d_en": "A late-19th-century market selling fresh fish, fruit, vegetables and produce from Almería's fertile plains. Ideal for discovering local flavours and buying edible souvenirs.",
+   "h": "Por la mañana temprano, cuando hay más actividad.",
+   "h_en": "Early morning, when it is busiest.",
+   "i": "los mercados locales y los productos frescos.",
+   "i_en": "local markets and fresh produce."
+  },
+  "alm_casa_joaquin": {
+   "id": "alm_casa_joaquin",
+   "d": "Pequeña taberna almeriense de toda la vida, famosa por su pescado y marisco fresco servido sin cartas ni artificios. Un templo del producto del día muy querido por los locales.",
+   "d_en": "A tiny lifelong Almería tavern, famous for fresh fish and seafood served with no menus or frills. A temple to the catch of the day, much loved by locals.",
+   "h": "Solo mediodía; llega pronto porque se agota el género.",
+   "h_en": "Lunch only; arrive early as the produce sells out.",
+   "i": "el marisco fresco y las tabernas auténticas.",
+   "i_en": "fresh seafood and authentic taverns."
+  }
+ },
+ "food": {
+  "alm_casa_puga": {
+   "cuisine": "Tapas almerienses y andaluzas",
+   "price": "10–25 €",
+   "hours": "12:00–16:00 y 20:00–23:30 (cerrado domingos)"
+  },
+  "alm_terraza_carmona": {
+   "cuisine": "Cocina almeriense tradicional",
+   "price": "25–45 €",
+   "hours": "13:00–16:00 y 20:30–23:00"
+  },
+  "alm_4nudos_sanjose": {
+   "cuisine": "Pescado, marisco y arroces",
+   "price": "25–50 €",
+   "hours": "13:00–16:00 y 20:00–23:00"
+  },
+  "alm_mercado_central": {
+   "cuisine": "Producto local y puestos de mercado",
+   "price": "3–15 €",
+   "hours": "Lun–Sáb 08:00–15:00 (cerrado domingos)"
+  },
+  "alm_casa_joaquin": {
+   "cuisine": "Pescado y marisco fresco",
+   "price": "25–45 €",
+   "hours": "13:00–16:00 (cerrado domingos y noches)"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Almería",
+   "items": [
+    {
+     "name": "Jarapas de Níjar",
+     "price": "15–60 €",
+     "desc": "Alfombras y mantas artesanales tejidas con tiras de tela recicladas, típicas del Valle del Andarax y Níjar."
+    },
+    {
+     "name": "Cerámica de Níjar",
+     "price": "8–40 €",
+     "desc": "Platos, cuencos y azulejos vidriados a mano con colores vivos y motivos tradicionales almerienses."
+    },
+    {
+     "name": "Uva de mesa del Vinalopó / Ohanes",
+     "price": "3–8 €",
+     "desc": "Famosa uva blanca de mesa de la provincia, con Denominación de Origen."
+    },
+    {
+     "name": "Aceite de oliva y hierbas del desierto",
+     "price": "6–18 €",
+     "desc": "Aceites y hierbas aromáticas cultivados en las tierras áridas del interior almeriense."
+    }
+   ],
+   "shops": [
+    "Mercado Central de Almería",
+    "Talleres de cerámica del casco antiguo de Níjar",
+    "Tiendas artesanas de la calle Real (Almería)"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "En verano el sol de Almería es intenso: lleva agua, sombrero y crema solar, sobre todo en Cabo de Gata y el desierto de Tabernas.",
+   "Muchas calas de Cabo de Gata no tienen servicios ni sombra; lleva comida, agua y calzado cómodo.",
+   "El acceso en coche a playas como Mónsul y Genoveses suele restringirse en verano: usa el bus lanzadera desde San José.",
+   "Reserva con antelación las visitas a los poblados del oeste (Fort Bravo y Oasys) y consulta los horarios de los shows.",
+   "Prueba la cultura de la tapa gratis: en muchos bares de la capital cada consumición viene acompañada de una tapa."
+  ],
+  "en": [
+   "Almería's summer sun is intense: bring water, a hat and sunscreen, especially at Cabo de Gata and the Tabernas desert.",
+   "Many Cabo de Gata coves have no services or shade; carry food, water and comfortable shoes.",
+   "Car access to beaches like Mónsul and Genoveses is often restricted in summer: use the shuttle bus from San José.",
+   "Book the Western film-set parks (Fort Bravo and Oasys) ahead and check the show timetables.",
+   "Try the free-tapa culture: in many bars in the capital every drink comes with a tapa."
+  ]
+ },
+ "climate": {
+  "hi": [
+   16.8,
+   17.4,
+   19.3,
+   20.8,
+   23.3,
+   26.9,
+   29.7,
+   30.3,
+   27.8,
+   24.1,
+   20.2,
+   17.9
+  ],
+  "lo": [
+   8.2,
+   8.9,
+   10.4,
+   12.2,
+   15.1,
+   18.7,
+   21.4,
+   22.2,
+   19.7,
+   16.0,
+   12.0,
+   9.5
+  ]
+ },
+ "tr": {
+  "Gran fortaleza musulmana sobre la ciudad.": "Great Moorish fortress above the city.",
+  "Faro y roquedos volcánicos del cabo.": "Lighthouse and volcanic rocks of the cape.",
+  "Playa virgen con la famosa duna y roca.": "Wild beach with its famous dune and rock.",
+  "Pueblo blanco colgado de la montaña.": "White village clinging to the mountainside.",
+  "Catedral-fortaleza del Renacimiento.": "Renaissance fortress-cathedral.",
+  "Poblado del Oeste en el desierto.": "Wild West film set in the desert.",
+  "Parque temático y zoo del desierto.": "Desert theme park and zoo.",
+  "Gran playa virgen en forma de concha.": "Large unspoilt shell-shaped beach.",
+  "El único desierto de Europa continental.": "The only desert in continental Europe.",
+  "Pueblo de cerámica y jarapas.": "Village of pottery and rag rugs.",
+  "Espectacular cargadero de hierro y acero.": "Spectacular iron-ore loading pier.",
+  "Pueblo costero del parque natural.": "Coastal village in the natural park.",
+  "Cala salvaje de aguas cristalinas.": "Wild cove with crystal-clear waters.",
+  "Castillo renacentista en el norte.": "Renaissance castle in the north.",
+  "Salinas con flamencos y aves.": "Salt flats with flamingos and birds.",
+  "Taberna de tapas histórica.": "Historic tapas tavern.",
+  "Poblado prehistórico de la Edad del Cobre.": "Prehistoric Copper Age settlement.",
+  "Kilómetros de túneles antiaéreos.": "Kilometres of air-raid tunnels.",
+  "Destino de sol, playa y ocio familiar.": "Sun, beach and family fun destination.",
+  "Cocina tradicional del Levante almeriense.": "Traditional Almería-Levante cuisine.",
+  "Fortaleza costera restaurada.": "Restored coastal fortress.",
+  "Paseo junto al mar en la capital.": "Seafront promenade in the capital.",
+  "Pescado y arroces frente al puerto.": "Fish and rice dishes by the port.",
+  "Iglesia-fortaleza del pueblo.": "Fortress-church of the village.",
+  "Castillo del siglo XVI junto al mar.": "16th-century seaside castle.",
+  "Mercado de abastos histórico.": "Historic covered food market.",
+  "Marisquería clásica de la capital.": "Classic seafood bar in the capital.",
+  "Almería": "Almería"
+ }
+}

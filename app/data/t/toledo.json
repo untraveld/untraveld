@@ -1,0 +1,711 @@
+{
+ "id": "toledo",
+ "name": "Toledo",
+ "country": "ES",
+ "center": [
+  39.85814,
+  -4.02427
+ ],
+ "pois": [
+  {
+   "id": "tol_catedral",
+   "cat": "monuments",
+   "name": "Catedral Primada de Toledo",
+   "icon": "⛪",
+   "lat": 39.85719,
+   "lng": -4.02446,
+   "desc": "Gran catedral gótica del siglo XIII, sede primada de España."
+  },
+  {
+   "id": "tol_alcazar",
+   "cat": "monuments",
+   "name": "Alcázar de Toledo",
+   "icon": "🏰",
+   "lat": 39.85806,
+   "lng": -4.02058,
+   "desc": "Fortaleza cuadrada que corona la ciudad, hoy museo del Ejército."
+  },
+  {
+   "id": "tol_san_juan_reyes",
+   "cat": "monuments",
+   "name": "Monasterio de San Juan de los Reyes",
+   "icon": "⛪",
+   "lat": 39.85778,
+   "lng": -4.03083,
+   "desc": "Monasterio gótico isabelino mandado erigir por los Reyes Católicos."
+  },
+  {
+   "id": "tol_transito",
+   "cat": "monuments",
+   "name": "Sinagoga del Tránsito y Museo Sefardí",
+   "icon": "🕍",
+   "lat": 39.85631,
+   "lng": -4.02998,
+   "desc": "Sinagoga mudéjar del siglo XIV con el Museo Sefardí."
+  },
+  {
+   "id": "tol_santa_maria_blanca",
+   "cat": "monuments",
+   "name": "Sinagoga de Santa María la Blanca",
+   "icon": "🕍",
+   "lat": 39.85719,
+   "lng": -4.03047,
+   "desc": "Antigua sinagoga de arcos de herradura y columnas blancas."
+  },
+  {
+   "id": "tol_santo_tome",
+   "cat": "monuments",
+   "name": "Iglesia de Santo Tomé (El Greco)",
+   "icon": "🖼️",
+   "lat": 39.85688,
+   "lng": -4.02867,
+   "desc": "Iglesia mudéjar que guarda 'El entierro del Conde de Orgaz'."
+  },
+  {
+   "id": "tol_museo_greco",
+   "cat": "monuments",
+   "name": "Museo del Greco",
+   "icon": "🖼️",
+   "lat": 39.85622,
+   "lng": -4.02958,
+   "desc": "Casa-museo dedicada al pintor cretense en la judería."
+  },
+  {
+   "id": "tol_cristo_luz",
+   "cat": "monuments",
+   "name": "Mezquita del Cristo de la Luz",
+   "icon": "🕌",
+   "lat": 39.86147,
+   "lng": -4.02346,
+   "desc": "Pequeña mezquita del año 999, joya del arte califal."
+  },
+  {
+   "id": "tol_puente_alcantara",
+   "cat": "monuments",
+   "name": "Puente de Alcántara",
+   "icon": "🌉",
+   "lat": 39.85826,
+   "lng": -4.01554,
+   "desc": "Puente romano sobre el Tajo, entrada histórica a la ciudad."
+  },
+  {
+   "id": "tol_puente_san_martin",
+   "cat": "monuments",
+   "name": "Puente de San Martín",
+   "icon": "🌉",
+   "lat": 39.85714,
+   "lng": -4.03361,
+   "desc": "Puente medieval de arcos apuntados en el oeste del casco."
+  },
+  {
+   "id": "tol_consuegra_castillo",
+   "cat": "monuments",
+   "name": "Castillo de la Muela (Consuegra)",
+   "icon": "🏰",
+   "lat": 39.45528,
+   "lng": -3.60858,
+   "desc": "Castillo medieval de los Hospitalarios sobre el cerro Calderico."
+  },
+  {
+   "id": "tol_molinos_consuegra",
+   "cat": "monuments",
+   "name": "Molinos de Viento de Consuegra",
+   "icon": "🌬️",
+   "lat": 39.45606,
+   "lng": -3.60659,
+   "desc": "Doce molinos blancos alineados en el cerro Calderico."
+  },
+  {
+   "id": "tol_talavera_prado",
+   "cat": "monuments",
+   "name": "Basílica de Nuestra Señora del Prado",
+   "icon": "⛪",
+   "lat": 39.96007,
+   "lng": -4.83367,
+   "desc": "Santuario de Talavera revestido con la mejor azulejería local."
+  },
+  {
+   "id": "tol_oropesa",
+   "cat": "monuments",
+   "name": "Castillo-Parador de Oropesa",
+   "icon": "🏰",
+   "lat": 39.91486,
+   "lng": -5.16847,
+   "desc": "Castillo medieval convertido en parador con vistas a Gredos."
+  },
+  {
+   "id": "tol_illescas",
+   "cat": "monuments",
+   "name": "Santuario de Nuestra Señora de la Caridad",
+   "icon": "⛪",
+   "lat": 40.12242,
+   "lng": -3.84766,
+   "desc": "Santuario de Illescas con cinco lienzos de El Greco."
+  },
+  {
+   "id": "tol_ocana_plaza",
+   "cat": "monuments",
+   "name": "Plaza Mayor de Ocaña",
+   "icon": "🏛️",
+   "lat": 39.95721,
+   "lng": -3.49751,
+   "desc": "Elegante plaza barroca porticada del siglo XVIII."
+  },
+  {
+   "id": "tol_mirador_valle",
+   "cat": "nature",
+   "name": "Mirador del Valle",
+   "icon": "🌄",
+   "lat": 39.8526,
+   "lng": -4.0172,
+   "desc": "Balcón panorámico con la mejor vista de Toledo."
+  },
+  {
+   "id": "tol_burujon",
+   "cat": "nature",
+   "name": "Barrancas de Burujón",
+   "icon": "🏜️",
+   "lat": 39.90583,
+   "lng": -4.29361,
+   "desc": "Cárcavas de arcilla roja sobre el embalse de Castrejón."
+  },
+  {
+   "id": "tol_montes_toledo",
+   "cat": "nature",
+   "name": "Montes de Toledo (Cascada del Chorro)",
+   "icon": "🏞️",
+   "lat": 39.5348,
+   "lng": -4.6521,
+   "desc": "Salto de agua y sendas en la sierra de Los Navalucillos."
+  },
+  {
+   "id": "tol_senda_tajo",
+   "cat": "nature",
+   "name": "Senda Ecológica del Tajo",
+   "icon": "🚶",
+   "lat": 39.8645,
+   "lng": -4.0085,
+   "desc": "Paseo fluvial que rodea el casco histórico junto al río."
+  },
+  {
+   "id": "tol_puy_du_fou",
+   "cat": "ocio",
+   "name": "Puy du Fou España",
+   "icon": "🎭",
+   "lat": 39.90574,
+   "lng": -3.96274,
+   "desc": "Parque de espectáculos históricos a las afueras de Toledo."
+  },
+  {
+   "id": "tol_zocodover",
+   "cat": "ocio",
+   "name": "Plaza de Zocodover",
+   "icon": "🛍️",
+   "lat": 39.85833,
+   "lng": -4.02289,
+   "desc": "Plaza triangular, corazón social y comercial de Toledo."
+  },
+  {
+   "id": "tol_fly_toledo",
+   "cat": "ocio",
+   "name": "Fly Toledo (tirolina)",
+   "icon": "🪂",
+   "lat": 39.857,
+   "lng": -4.034,
+   "desc": "Tirolina urbana que cruza el Tajo junto al Puente de San Martín."
+  },
+  {
+   "id": "tol_talavera_ceramica",
+   "cat": "ocio",
+   "name": "Ruta de la Cerámica de Talavera",
+   "icon": "🏺",
+   "lat": 39.9628,
+   "lng": -4.8342,
+   "desc": "Talleres y museo de la loza Patrimonio de la Humanidad."
+  },
+  {
+   "id": "tol_damasquinado",
+   "cat": "ocio",
+   "name": "Talleres de damasquinado y espadas",
+   "icon": "⚔️",
+   "lat": 39.8576,
+   "lng": -4.0233,
+   "desc": "Artesanía del acero toledano en el casco histórico."
+  },
+  {
+   "id": "tol_food_carcamusas",
+   "cat": "food",
+   "name": "Carcamusas de Toledo",
+   "icon": "🍲",
+   "lat": 39.8582,
+   "lng": -4.0247,
+   "desc": "Guiso típico de cerdo y ternera con tomate y guisantes."
+  },
+  {
+   "id": "tol_food_mazapan",
+   "cat": "food",
+   "name": "Mazapán de Toledo",
+   "icon": "🍬",
+   "lat": 39.8585,
+   "lng": -4.0245,
+   "desc": "Dulce artesano de almendra en obradores centenarios."
+  },
+  {
+   "id": "tol_food_perdiz",
+   "cat": "food",
+   "name": "Perdiz a la toledana",
+   "icon": "🍽️",
+   "lat": 39.8577,
+   "lng": -4.0241,
+   "desc": "Perdiz estofada con vino, laurel y verduras."
+  },
+  {
+   "id": "tol_food_azafran",
+   "cat": "food",
+   "name": "Azafrán y migas de Consuegra",
+   "icon": "🌸",
+   "lat": 39.4583,
+   "lng": -3.6074,
+   "desc": "Gastronomía manchega con el oro rojo de La Mancha."
+  },
+  {
+   "id": "tol_food_venado",
+   "cat": "food",
+   "name": "Caza de los Montes de Toledo",
+   "icon": "🦌",
+   "lat": 39.634,
+   "lng": -3.8729,
+   "desc": "Venado, jabalí y ciervo en mesones serranos."
+  }
+ ],
+ "extra": {
+  "tol_catedral": {
+   "id": "tol_catedral",
+   "d": "Obra maestra del gótico español levantada sobre una antigua mezquita. Alberga el Transparente barroco, sacristía con obras de El Greco, Goya y Van Dyck, y un imponente coro y retablo mayor policromado.",
+   "d_en": "Masterpiece of Spanish Gothic built over a former mosque. It houses the Baroque Transparente, a sacristy with works by El Greco, Goya and Van Dyck, and an imposing choir and polychrome main altarpiece.",
+   "h": "Lun-Sáb 10:00-18:30, Dom 14:00-18:30",
+   "h_en": "Mon-Sat 10:00-18:30, Sun 14:00-18:30",
+   "i": "Ideal si te gusta el arte gótico y la pintura clásica.",
+   "i_en": "Ideal if you like Gothic art and classical painting."
+  },
+  "tol_alcazar": {
+   "id": "tol_alcazar",
+   "d": "Antigua residencia real reconstruida tras la Guerra Civil. Domina el skyline de Toledo y alberga el Museo del Ejército con extensas colecciones de armas, historia militar y una biblioteca regional.",
+   "d_en": "Former royal residence rebuilt after the Civil War. It dominates Toledo's skyline and houses the Army Museum with vast collections of weapons, military history and a regional library.",
+   "h": "Jue-Mar 10:00-17:00, cerrado Lun",
+   "h_en": "Thu-Tue 10:00-17:00, closed Mon",
+   "i": "Ideal si te gusta la historia militar y las vistas panorámicas.",
+   "i_en": "Ideal if you like military history and panoramic views."
+  },
+  "tol_san_juan_reyes": {
+   "id": "tol_san_juan_reyes",
+   "d": "Joya del gótico flamígero con un claustro de doble plana y bóvedas elaboradas. De sus muros exteriores cuelgan las cadenas de los cristianos liberados de Granada, símbolo de la Reconquista.",
+   "d_en": "A jewel of Flamboyant Gothic with a two-storey cloister and elaborate vaulting. Chains of Christians freed from Granada hang on its outer walls, a symbol of the Reconquest.",
+   "h": "Diario 10:00-18:45 (invierno hasta 17:45)",
+   "h_en": "Daily 10:00-18:45 (winter until 17:45)",
+   "i": "Ideal si te gusta la arquitectura gótica y los claustros.",
+   "i_en": "Ideal if you like Gothic architecture and cloisters."
+  },
+  "tol_transito": {
+   "id": "tol_transito",
+   "d": "Fundada por Samuel Leví, tesorero de Pedro I, destaca por sus finas yeserías mudéjares e inscripciones hebreas. Hoy alberga el Museo Sefardí, dedicado a la memoria judía de España.",
+   "d_en": "Founded by Samuel Levi, treasurer to Peter I, it stands out for its fine Mudéjar plasterwork and Hebrew inscriptions. Today it houses the Sephardic Museum devoted to Spain's Jewish memory.",
+   "h": "Mar-Sáb 09:30-18:00, Dom 10:00-15:00",
+   "h_en": "Tue-Sat 09:30-18:00, Sun 10:00-15:00",
+   "i": "Ideal si te gusta la herencia judía y el arte mudéjar.",
+   "i_en": "Ideal if you like Jewish heritage and Mudéjar art."
+  },
+  "tol_santa_maria_blanca": {
+   "id": "tol_santa_maria_blanca",
+   "d": "Construida en el siglo XII, es considerada la sinagoga en pie más antigua de Europa. Su bosque de columnas blancas y capiteles de piña con arcos de herradura crea un interior de aire almohade único.",
+   "d_en": "Built in the 12th century, it is considered the oldest surviving synagogue in Europe. Its forest of white columns with pine-cone capitals and horseshoe arches creates a unique Almohad-style interior.",
+   "h": "Diario 10:00-18:45 (invierno hasta 17:45)",
+   "h_en": "Daily 10:00-18:45 (winter until 17:45)",
+   "i": "Ideal si te gusta la arquitectura almohade y las tres culturas.",
+   "i_en": "Ideal if you like Almohad architecture and the three cultures."
+  },
+  "tol_santo_tome": {
+   "id": "tol_santo_tome",
+   "d": "Modesta iglesia de torre mudéjar célebre por custodiar la obra maestra de El Greco, pintada en 1586. El cuadro divide cielo y tierra en una composición cumbre de la pintura española.",
+   "d_en": "A modest church with a Mudéjar tower famous for holding El Greco's 1586 masterpiece. The painting splits heaven and earth in a supreme composition of Spanish art.",
+   "h": "Diario 10:00-18:45 (invierno hasta 17:45)",
+   "h_en": "Daily 10:00-18:45 (winter until 17:45)",
+   "i": "Ideal si te gusta la pintura de El Greco.",
+   "i_en": "Ideal if you like El Greco's painting."
+  },
+  "tol_museo_greco": {
+   "id": "tol_museo_greco",
+   "d": "Recreación de la casa del artista en el antiguo barrio judío, con una notable colección de obras de El Greco como 'Vista y plano de Toledo' y la serie de apóstoles, más patios y jardines.",
+   "d_en": "A recreation of the artist's home in the old Jewish quarter, with a notable collection of El Greco works such as 'View and Plan of Toledo' and the apostle series, plus courtyards and gardens.",
+   "h": "Mar-Sáb 09:30-18:00, Dom 10:00-15:00",
+   "h_en": "Tue-Sat 09:30-18:00, Sun 10:00-15:00",
+   "i": "Ideal si te gusta el arte del Siglo de Oro.",
+   "i_en": "Ideal if you like Golden Age art."
+  },
+  "tol_cristo_luz": {
+   "id": "tol_cristo_luz",
+   "d": "La mezquita mejor conservada de Toledo, con nueve bóvedas distintas de estilo cordobés. Tras la Reconquista se le añadió un ábside mudéjar, uniendo dos culturas en un mismo edificio.",
+   "d_en": "Toledo's best-preserved mosque, with nine distinct Cordoban-style vaults. After the Reconquest a Mudéjar apse was added, joining two cultures in one building.",
+   "h": "Diario 10:00-18:45 (invierno hasta 17:45)",
+   "h_en": "Daily 10:00-18:45 (winter until 17:45)",
+   "i": "Ideal si te gusta el arte islámico y la historia medieval.",
+   "i_en": "Ideal if you like Islamic art and medieval history."
+  },
+  "tol_puente_alcantara": {
+   "id": "tol_puente_alcantara",
+   "d": "De origen romano y reconstruido por los árabes, cruza el Tajo bajo el Alcázar. Enmarcado por una puerta con torre defensiva, ha sido durante siglos la puerta de acceso oriental a Toledo.",
+   "d_en": "Of Roman origin and rebuilt by the Arabs, it crosses the Tagus beneath the Alcázar. Framed by a gate with a defensive tower, it has been Toledo's eastern access for centuries.",
+   "h": "Acceso libre 24h",
+   "h_en": "Open access 24h",
+   "i": "Ideal si te gusta la ingeniería histórica y pasear junto al río.",
+   "i_en": "Ideal if you like historic engineering and riverside walks."
+  },
+  "tol_puente_san_martin": {
+   "id": "tol_puente_san_martin",
+   "d": "Construido en el siglo XIV, salva el Tajo con cinco arcos góticos y torres almenadas en ambos extremos. Ofrece vistas del monasterio de San Juan de los Reyes y del río encajonado.",
+   "d_en": "Built in the 14th century, it spans the Tagus with five Gothic arches and battlemented towers at each end. It offers views of San Juan de los Reyes monastery and the gorge.",
+   "h": "Acceso libre 24h",
+   "h_en": "Open access 24h",
+   "i": "Ideal si te gusta la fotografía y los puentes medievales.",
+   "i_en": "Ideal if you like photography and medieval bridges."
+  },
+  "tol_consuegra_castillo": {
+   "id": "tol_consuegra_castillo",
+   "d": "Fortaleza del siglo XII vinculada a la Orden de San Juan, restaurada y visitable. Corona el cerro junto a los molinos de viento y domina la llanura manchega en un entorno de tintes quijotescos.",
+   "d_en": "A 12th-century fortress linked to the Order of St John, restored and open to visitors. It crowns the hill beside the windmills and dominates the La Mancha plain in a Quixotic setting.",
+   "h": "Mar-Dom 10:00-18:30, cerrado Lun",
+   "h_en": "Tue-Sun 10:00-18:30, closed Mon",
+   "i": "Ideal si te gusta la historia templaria y los paisajes de La Mancha.",
+   "i_en": "Ideal if you like knightly history and La Mancha landscapes."
+  },
+  "tol_molinos_consuegra": {
+   "id": "tol_molinos_consuegra",
+   "d": "Icono de La Mancha y de Don Quijote, esta hilera de molinos encalados con nombres propios es una de las estampas más fotografiadas de España. Algunos conservan la maquinaria original de molienda.",
+   "d_en": "An icon of La Mancha and Don Quixote, this row of whitewashed, individually named windmills is one of Spain's most photographed sights. Some preserve their original grinding machinery.",
+   "h": "Acceso libre; molinos visitables 10:00-18:00",
+   "h_en": "Open access; mills visitable 10:00-18:00",
+   "i": "Ideal si te gusta el universo del Quijote y los atardeceres.",
+   "i_en": "Ideal if you like the world of Don Quixote and sunsets."
+  },
+  "tol_talavera_prado": {
+   "id": "tol_talavera_prado",
+   "d": "Conocida como la Capilla Sixtina de la cerámica, sus muros y ermitas anexas lucen espectaculares paneles de azulejos de Talavera de varios siglos. Es el gran santuario mariano de la ciudad.",
+   "d_en": "Known as the Sistine Chapel of ceramics, its walls and adjoining chapels display spectacular Talavera tile panels from several centuries. It is the city's great Marian shrine.",
+   "h": "Diario 09:00-13:00 y 17:00-20:00",
+   "h_en": "Daily 09:00-13:00 and 17:00-20:00",
+   "i": "Ideal si te gusta la cerámica y el arte religioso.",
+   "i_en": "Ideal if you like ceramics and religious art."
+  },
+  "tol_oropesa": {
+   "id": "tol_oropesa",
+   "d": "Fortaleza de los condes de Oropesa del siglo XIV-XV, primer parador instalado en un castillo de España. Su patio de armas y su torre del homenaje miran hacia la sierra de Gredos y la campiña toledana.",
+   "d_en": "A 14th-15th century fortress of the Counts of Oropesa, the first parador set inside a Spanish castle. Its courtyard and keep look towards the Gredos range and the Toledo countryside.",
+   "h": "Visitas castillo 10:00-14:00 y 16:00-18:00",
+   "h_en": "Castle visits 10:00-14:00 and 16:00-18:00",
+   "i": "Ideal si te gusta dormir en monumentos y las vistas de montaña.",
+   "i_en": "Ideal if you like sleeping in monuments and mountain views."
+  },
+  "tol_illescas": {
+   "id": "tol_illescas",
+   "d": "Antiguo hospital-santuario que conserva una excepcional serie de cinco pinturas de El Greco realizadas para su retablo, entre ellas 'La Virgen de la Caridad'. Parada obligada camino a Madrid.",
+   "d_en": "A former hospital-shrine preserving an exceptional set of five El Greco paintings made for its altarpiece, including 'The Virgin of Charity'. A must-stop on the way to Madrid.",
+   "h": "Mar-Dom 10:00-13:30 y 16:00-18:00",
+   "h_en": "Tue-Sun 10:00-13:30 and 16:00-18:00",
+   "i": "Ideal si te gusta El Greco fuera de las rutas más masificadas.",
+   "i_en": "Ideal if you like El Greco away from the busiest routes."
+  },
+  "tol_ocana_plaza": {
+   "id": "tol_ocana_plaza",
+   "d": "Considerada una de las plazas mayores más bellas de Castilla-La Mancha, es un rectángulo perfecto de arcadas de ladrillo y balcones de madera. Ocaña conserva además la monumental Fuente Grande.",
+   "d_en": "Regarded as one of the finest main squares in Castilla-La Mancha, it is a perfect rectangle of brick arcades and wooden balconies. Ocaña also preserves the monumental Fuente Grande.",
+   "h": "Acceso libre 24h",
+   "h_en": "Open access 24h",
+   "i": "Ideal si te gusta la arquitectura barroca y los pueblos con encanto.",
+   "i_en": "Ideal if you like Baroque architecture and charming towns."
+  },
+  "tol_mirador_valle": {
+   "id": "tol_mirador_valle",
+   "d": "Situado al otro lado del Tajo en la carretera de circunvalación, ofrece la estampa completa de la ciudad amurallada con la Catedral y el Alcázar recortados sobre la roca. Espectacular al atardecer.",
+   "d_en": "Set across the Tagus on the ring road, it offers the complete picture of the walled city with the Cathedral and Alcázar rising over the rock. Spectacular at sunset.",
+   "h": "Acceso libre 24h",
+   "h_en": "Open access 24h",
+   "i": "Ideal si te gusta la fotografía de paisaje urbano.",
+   "i_en": "Ideal if you like cityscape photography."
+  },
+  "tol_burujon": {
+   "id": "tol_burujon",
+   "d": "Monumento natural de acantilados de arcilla esculpidos por la erosión del viento y el agua, que alcanzan hasta 100 metros sobre el Tajo. Miradores señalizados y rutas de senderismo con abundante avifauna.",
+   "d_en": "A natural monument of clay cliffs sculpted by wind and water erosion, rising up to 100 metres above the Tagus. Marked viewpoints and hiking trails with abundant birdlife.",
+   "h": "Acceso libre; recomendable de día",
+   "h_en": "Open access; best visited by day",
+   "i": "Ideal si te gusta el senderismo y los paisajes geológicos.",
+   "i_en": "Ideal if you like hiking and geological landscapes."
+  },
+  "tol_montes_toledo": {
+   "id": "tol_montes_toledo",
+   "d": "En el corazón de los Montes de Toledo, la Cascada del Chorro y las rutas del entorno de Las Becerras atraviesan bosque mediterráneo, robledales y arroyos, junto al Parque Nacional de Cabañeros.",
+   "d_en": "In the heart of the Montes de Toledo, the Chorro waterfall and the trails around Las Becerras cross Mediterranean forest, oak groves and streams, next to Cabañeros National Park.",
+   "h": "Acceso libre; horario diurno",
+   "h_en": "Open access; daytime only",
+   "i": "Ideal si te gusta la naturaleza salvaje y las rutas de montaña.",
+   "i_en": "Ideal if you like wild nature and mountain trails."
+  },
+  "tol_senda_tajo": {
+   "id": "tol_senda_tajo",
+   "d": "Ruta peatonal y ciclable que bordea el meandro del Tajo entre los puentes de Alcántara y San Martín, con pasarelas de madera, playas fluviales y vistas continuas de las murallas de Toledo.",
+   "d_en": "A walking and cycling route hugging the Tagus meander between the Alcántara and San Martín bridges, with wooden boardwalks, river beaches and constant views of Toledo's walls.",
+   "h": "Acceso libre; horario diurno",
+   "h_en": "Open access; daytime only",
+   "i": "Ideal si te gusta caminar y ver la ciudad desde el río.",
+   "i_en": "Ideal if you like walking and seeing the city from the river."
+  },
+  "tol_puy_du_fou": {
+   "id": "tol_puy_du_fou",
+   "d": "Gran parque temático sin atracciones mecánicas donde grandes montajes al aire libre recrean episodios de la historia de España, culminando con el nocturno 'El Sueño de Toledo' y su despliegue escénico.",
+   "d_en": "A large theme park with no mechanical rides where grand open-air productions recreate episodes of Spanish history, culminating in the night show 'The Dream of Toledo' and its staging.",
+   "h": "Según calendario, tardes; consultar web",
+   "h_en": "Per calendar, afternoons; check website",
+   "i": "Ideal si te gusta el espectáculo en vivo y la historia en familia.",
+   "i_en": "Ideal if you like live shows and history with the family."
+  },
+  "tol_zocodover": {
+   "id": "tol_zocodover",
+   "d": "Antiguo mercado árabe y punto neurálgico de la ciudad, rodeado de terrazas, cafeterías y tiendas de recuerdos. Punto de partida ideal para recorrer el casco y probar el mazapán local.",
+   "d_en": "A former Arab market and nerve centre of the city, ringed by terraces, cafés and souvenir shops. An ideal starting point to explore the old town and taste the local marzipan.",
+   "h": "Acceso libre; comercios 10:00-20:00",
+   "h_en": "Open access; shops 10:00-20:00",
+   "i": "Ideal si te gusta el ambiente urbano y las compras.",
+   "i_en": "Ideal if you like the urban buzz and shopping."
+  },
+  "tol_fly_toledo": {
+   "id": "tol_fly_toledo",
+   "d": "Descenso de casi 200 metros sobre el río Tajo desde el entorno del Puente de San Martín, una de las tirolinas urbanas más largas de Europa, con vistas de vértigo del casco histórico.",
+   "d_en": "A nearly 200-metre descent over the Tagus from near the San Martín bridge, one of Europe's longest urban ziplines, with dizzying views of the old town.",
+   "h": "Diario 10:00-20:00 (según temporada)",
+   "h_en": "Daily 10:00-20:00 (seasonal)",
+   "i": "Ideal si te gusta la aventura y la adrenalina.",
+   "i_en": "Ideal if you like adventure and adrenaline."
+  },
+  "tol_talavera_ceramica": {
+   "id": "tol_talavera_ceramica",
+   "d": "Recorrido por los alfares y el Museo Ruiz de Luna, dedicado a la cerámica de Talavera reconocida por la UNESCO. Se pueden ver artesanos torneando y pintando piezas y comprar loza directamente en obrador.",
+   "d_en": "A tour of the potteries and the Ruiz de Luna Museum devoted to UNESCO-recognised Talavera ceramics. You can watch artisans throwing and painting pieces and buy pottery straight from the workshop.",
+   "h": "Museo Mar-Sáb 10:00-14:00 y 16:00-19:00",
+   "h_en": "Museum Tue-Sat 10:00-14:00 and 16:00-19:00",
+   "i": "Ideal si te gusta la artesanía y llevarte souvenirs únicos.",
+   "i_en": "Ideal if you like crafts and taking home unique souvenirs."
+  },
+  "tol_damasquinado": {
+   "id": "tol_damasquinado",
+   "d": "En las calles del centro se conservan talleres donde artesanos incrustan hilos de oro sobre acero (damasquinado) y forjan las célebres espadas toledanas. Muchos ofrecen demostraciones en vivo.",
+   "d_en": "In the central streets, workshops survive where artisans inlay gold thread on steel (damascening) and forge the famous Toledo swords. Many offer live demonstrations.",
+   "h": "Comercios 10:00-14:00 y 16:30-20:00",
+   "h_en": "Shops 10:00-14:00 and 16:30-20:00",
+   "i": "Ideal si te gusta la artesanía tradicional y la historia del acero.",
+   "i_en": "Ideal if you like traditional crafts and the history of steel."
+  },
+  "tol_food_carcamusas": {
+   "id": "tol_food_carcamusas",
+   "d": "El plato más castizo de Toledo, un guiso picantón de carne servido en cazuela para mojar pan, popularizado en tabernas históricas del centro como el Bar Ludeña, junto a la plaza de la Magdalena.",
+   "d_en": "Toledo's most local dish, a lightly spicy meat stew served in a clay pot for dipping bread, made famous in historic central taverns such as Bar Ludeña by Plaza de la Magdalena.",
+   "h": "12:00-16:00 y 20:00-23:30",
+   "h_en": "12:00-16:00 and 20:00-23:30",
+   "i": "Ideal si te gusta la cocina de tapeo y los guisos con carácter.",
+   "i_en": "Ideal if you like tapas culture and hearty stews."
+  },
+  "tol_food_mazapan": {
+   "id": "tol_food_mazapan",
+   "d": "Elaborado con almendra y azúcar según receta conventual, el mazapán toledano cuenta con IGP y se degusta en confiterías históricas como Santo Tomé, en figuritas, anguilas y la delicada marquesita.",
+   "d_en": "Made from almond and sugar to a convent recipe, Toledo marzipan holds a protected IGP and is enjoyed at historic bakeries such as Santo Tomé, in figurines, eels and the delicate marquesita.",
+   "h": "09:00-21:00",
+   "h_en": "09:00-21:00",
+   "i": "Ideal si te gusta el dulce y los sabores tradicionales.",
+   "i_en": "Ideal if you like sweets and traditional flavours."
+  },
+  "tol_food_perdiz": {
+   "id": "tol_food_perdiz",
+   "d": "Plato de caza emblemático de la cocina toledana, la perdiz se cocina lentamente en escabeche o estofado. Restaurantes de referencia como Adolfo la elevan a la alta gastronomía junto a vinos de la tierra.",
+   "d_en": "An emblematic game dish of Toledo cuisine, the partridge is slow-cooked in escabeche or stew. Landmark restaurants such as Adolfo raise it to fine dining alongside local wines.",
+   "h": "13:30-16:00 y 20:30-23:00",
+   "h_en": "13:30-16:00 and 20:30-23:00",
+   "i": "Ideal si te gusta la cocina de caza y los sabores intensos.",
+   "i_en": "Ideal if you like game cuisine and bold flavours."
+  },
+  "tol_food_azafran": {
+   "id": "tol_food_azafran",
+   "d": "Consuegra celebra cada otoño su Fiesta de la Rosa del Azafrán. En sus mesones se prueban migas, gachas, queso manchego y platos aromatizados con el preciado azafrán cultivado en la comarca.",
+   "d_en": "Consuegra holds its Saffron Rose Festival each autumn. Its taverns serve migas, gachas, Manchego cheese and dishes flavoured with the prized saffron grown in the district.",
+   "h": "13:30-16:00 y 20:30-23:00",
+   "h_en": "13:30-16:00 and 20:30-23:00",
+   "i": "Ideal si te gusta el producto local y los sabores de La Mancha.",
+   "i_en": "Ideal if you like local produce and La Mancha flavours."
+  },
+  "tol_food_venado": {
+   "id": "tol_food_venado",
+   "d": "Los Montes de Toledo, gran coto cinegético, ofrecen una potente cocina de caza mayor: guisos de venado, jabalí y ciervo, acompañados de setas y vinos locales, servidos en mesones de pueblos como Los Yébenes.",
+   "d_en": "The Montes de Toledo, a major hunting ground, offer a hearty big-game cuisine: venison, wild boar and deer stews with mushrooms and local wines, served in taverns of villages like Los Yébenes.",
+   "h": "13:30-16:30 y 20:30-23:00",
+   "h_en": "13:30-16:30 and 20:30-23:00",
+   "i": "Ideal si te gusta la cocina rústica y los sabores de monte.",
+   "i_en": "Ideal if you like rustic cooking and wild flavours."
+  }
+ },
+ "food": {
+  "tol_food_carcamusas": {
+   "cuisine": "Manchega tradicional",
+   "price": "8–15 €",
+   "hours": "12:00-16:00 y 20:00-23:30"
+  },
+  "tol_food_mazapan": {
+   "cuisine": "Repostería conventual",
+   "price": "5–20 €",
+   "hours": "09:00-21:00"
+  },
+  "tol_food_perdiz": {
+   "cuisine": "Cocina de caza",
+   "price": "18–35 €",
+   "hours": "13:30-16:00 y 20:30-23:00"
+  },
+  "tol_food_azafran": {
+   "cuisine": "Manchega tradicional",
+   "price": "12–25 €",
+   "hours": "13:30-16:00 y 20:30-23:00"
+  },
+  "tol_food_venado": {
+   "cuisine": "Cocina de caza mayor",
+   "price": "15–30 €",
+   "hours": "13:30-16:30 y 20:30-23:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Toledo",
+   "items": [
+    {
+     "name": "Mazapán de Toledo",
+     "price": "8–20 €",
+     "desc": "Dulce artesano de almendra y azúcar con IGP, en figuritas y anguilas navideñas."
+    },
+    {
+     "name": "Damasquinado",
+     "price": "15–120 €",
+     "desc": "Joyería y objetos de acero con hilos de oro incrustados, arte de origen árabe."
+    },
+    {
+     "name": "Espadas y navajas",
+     "price": "20–200 €",
+     "desc": "Réplicas de acero toledano forjado, souvenir histórico de la ciudad."
+    },
+    {
+     "name": "Cerámica",
+     "price": "10–60 €",
+     "desc": "Platos y azulejos pintados a mano en azul, verde y ocre."
+    }
+   ],
+   "shops": [
+    "Confitería Santo Tomé",
+    "Mariano Zamorano (espadas)",
+    "Talleres de damasquinado del casco histórico"
+   ]
+  },
+  {
+   "city": "Talavera de la Reina",
+   "items": [
+    {
+     "name": "Cerámica de Talavera",
+     "price": "12–150 €",
+     "desc": "Loza esmaltada Patrimonio de la Humanidad, con motivos azules y amarillos."
+    },
+    {
+     "name": "Azulejería decorativa",
+     "price": "8–80 €",
+     "desc": "Azulejos y paneles pintados a mano según tradición renacentista."
+    }
+   ],
+   "shops": [
+    "Talleres alfareros del centro",
+    "Tiendas junto a la Basílica del Prado"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Compra la Pulsera Turística de Toledo para entrar a siete monumentos por un precio único.",
+   "Recorre el casco histórico a pie con calzado cómodo: las calles empedradas y cuestas son constantes.",
+   "Reserva con antelación la subida a la Catedral y evita las horas centrales del mediodía en verano.",
+   "Cruza al Mirador del Valle al atardecer para la mejor panorámica de la ciudad amurallada.",
+   "Prueba el mazapán solo en obradores con IGP y desconfía de imitaciones baratas."
+  ],
+  "en": [
+   "Buy the Toledo Tourist Bracelet to enter seven monuments for a single price.",
+   "Explore the old town on foot with comfortable shoes: cobbled streets and steep slopes are constant.",
+   "Book the Cathedral visit in advance and avoid midday hours in summer.",
+   "Cross to the Mirador del Valle at sunset for the best view of the walled city.",
+   "Try marzipan only at IGP-certified bakeries and beware of cheap imitations."
+  ]
+ },
+ "climate": {
+  "hi": [
+   11,
+   14,
+   18,
+   20,
+   25,
+   31,
+   35,
+   34,
+   29,
+   21,
+   15,
+   11
+  ],
+  "lo": [
+   2,
+   3,
+   5,
+   7,
+   11,
+   15,
+   18,
+   18,
+   14,
+   10,
+   5,
+   3
+  ]
+ },
+ "tr": {
+  "Gran catedral gótica del siglo XIII, sede primada de España.": "Great 13th-century Gothic cathedral, primatial see of Spain.",
+  "Fortaleza cuadrada que corona la ciudad, hoy museo del Ejército.": "Square fortress crowning the city, now the Army Museum.",
+  "Monasterio gótico isabelino mandado erigir por los Reyes Católicos.": "Isabelline Gothic monastery ordered by the Catholic Monarchs.",
+  "Sinagoga mudéjar del siglo XIV con el Museo Sefardí.": "14th-century Mudéjar synagogue housing the Sephardic Museum.",
+  "Antigua sinagoga de arcos de herradura y columnas blancas.": "Former synagogue with horseshoe arches and white columns.",
+  "Iglesia mudéjar que guarda 'El entierro del Conde de Orgaz'.": "Mudéjar church home to 'The Burial of the Count of Orgaz'.",
+  "Casa-museo dedicada al pintor cretense en la judería.": "House-museum devoted to the Cretan painter in the Jewish quarter.",
+  "Pequeña mezquita del año 999, joya del arte califal.": "Tiny mosque from the year 999, a jewel of Caliphal art.",
+  "Puente romano sobre el Tajo, entrada histórica a la ciudad.": "Roman bridge over the Tagus, historic entrance to the city.",
+  "Puente medieval de arcos apuntados en el oeste del casco.": "Medieval pointed-arch bridge on the west of the old town.",
+  "Castillo medieval de los Hospitalarios sobre el cerro Calderico.": "Medieval Hospitaller castle atop the Calderico hill.",
+  "Doce molinos blancos alineados en el cerro Calderico.": "Twelve white windmills lined up on the Calderico hill.",
+  "Santuario de Talavera revestido con la mejor azulejería local.": "Talavera shrine clad in the finest local tilework.",
+  "Castillo medieval convertido en parador con vistas a Gredos.": "Medieval castle turned parador with views of Gredos.",
+  "Santuario de Illescas con cinco lienzos de El Greco.": "Illescas shrine holding five El Greco canvases.",
+  "Elegante plaza barroca porticada del siglo XVIII.": "Elegant porticoed Baroque square of the 18th century.",
+  "Balcón panorámico con la mejor vista de Toledo.": "Panoramic viewpoint with the best view of Toledo.",
+  "Cárcavas de arcilla roja sobre el embalse de Castrejón.": "Red-clay ravines above the Castrejón reservoir.",
+  "Salto de agua y sendas en la sierra de Los Navalucillos.": "Waterfall and trails in the Los Navalucillos range.",
+  "Paseo fluvial que rodea el casco histórico junto al río.": "Riverside path circling the old town along the Tagus.",
+  "Parque de espectáculos históricos a las afueras de Toledo.": "Historical shows park on the outskirts of Toledo.",
+  "Plaza triangular, corazón social y comercial de Toledo.": "Triangular square, social and commercial heart of Toledo.",
+  "Tirolina urbana que cruza el Tajo junto al Puente de San Martín.": "Urban zipline crossing the Tagus by the San Martín bridge.",
+  "Talleres y museo de la loza Patrimonio de la Humanidad.": "Workshops and museum of UNESCO-listed pottery.",
+  "Artesanía del acero toledano en el casco histórico.": "Toledo steelcraft workshops in the old town.",
+  "Guiso típico de cerdo y ternera con tomate y guisantes.": "Typical pork-and-veal stew with tomato and peas.",
+  "Dulce artesano de almendra en obradores centenarios.": "Artisan almond sweet from century-old bakeries.",
+  "Perdiz estofada con vino, laurel y verduras.": "Partridge braised with wine, bay leaf and vegetables.",
+  "Gastronomía manchega con el oro rojo de La Mancha.": "La Mancha cuisine with the region's red gold.",
+  "Venado, jabalí y ciervo en mesones serranos.": "Venison, wild boar and deer in mountain taverns.",
+  "Toledo": "Toledo",
+  "Talavera de la Reina": "Talavera de la Reina"
+ }
+}

@@ -1,0 +1,535 @@
+{
+ "id": "albacete",
+ "name": "Albacete",
+ "country": "ES",
+ "center": [
+  38.9943,
+  -1.8585
+ ],
+ "pois": [
+  {
+   "id": "alb_pasaje_lodares",
+   "cat": "monuments",
+   "name": "Pasaje de Lodares",
+   "icon": "🏛️",
+   "lat": 38.99574,
+   "lng": -1.85558,
+   "desc": "Galería comercial modernista de 1925, joya arquitectónica de Albacete."
+  },
+  {
+   "id": "alb_catedral",
+   "cat": "monuments",
+   "name": "Catedral de San Juan Bautista",
+   "icon": "⛪",
+   "lat": 38.99479,
+   "lng": -1.8564,
+   "desc": "Catedral renacentista con columnas jónicas y capillas históricas."
+  },
+  {
+   "id": "alb_museo_cuchilleria",
+   "cat": "monuments",
+   "name": "Museo de la Cuchillería",
+   "icon": "🔪",
+   "lat": 38.99509,
+   "lng": -1.85607,
+   "desc": "Museo dedicado a la cuchillería en la vistosa Casa de Hortelano."
+  },
+  {
+   "id": "alb_castillo_almansa",
+   "cat": "monuments",
+   "name": "Castillo de Almansa",
+   "icon": "🏰",
+   "lat": 38.86975,
+   "lng": -1.0964,
+   "desc": "Espectacular castillo sobre un peñón calizo dominando Almansa."
+  },
+  {
+   "id": "alb_castillo_alcala",
+   "cat": "monuments",
+   "name": "Castillo de Alcalá del Júcar",
+   "icon": "🏰",
+   "lat": 39.19305,
+   "lng": -1.4285,
+   "desc": "Castillo almohade sobre el meandro del Júcar y el pueblo blanco."
+  },
+  {
+   "id": "alb_castillo_chinchilla",
+   "cat": "monuments",
+   "name": "Castillo de Chinchilla de Montearagón",
+   "icon": "🏰",
+   "lat": 38.9223,
+   "lng": -1.7206,
+   "desc": "Castillo del siglo XV sobre el cerro de San Blas."
+  },
+  {
+   "id": "alb_chinchilla_casco",
+   "cat": "monuments",
+   "name": "Casco histórico de Chinchilla",
+   "icon": "🏘️",
+   "lat": 38.9203,
+   "lng": -1.7217,
+   "desc": "Conjunto histórico-artístico con plaza porticada y casas cueva."
+  },
+  {
+   "id": "alb_alcaraz",
+   "cat": "monuments",
+   "name": "Plaza Mayor de Alcaraz",
+   "icon": "🏛️",
+   "lat": 38.6559,
+   "lng": -2.4893,
+   "desc": "Plaza renacentista con las torres del Tardón y de la Trinidad."
+  },
+  {
+   "id": "alb_riopar_viejo",
+   "cat": "monuments",
+   "name": "Riópar Viejo",
+   "icon": "🏘️",
+   "lat": 38.4932,
+   "lng": -2.4456,
+   "desc": "Pueblo medieval abandonado con castillo e iglesia sobre un cerro."
+  },
+  {
+   "id": "alb_nacimiento_rio_mundo",
+   "cat": "nature",
+   "name": "Nacimiento del río Mundo (Los Chorros)",
+   "icon": "💧",
+   "lat": 38.4654,
+   "lng": -2.4934,
+   "desc": "Cascada que brota de una gran cueva en un anfiteatro de roca."
+  },
+  {
+   "id": "alb_lagunas_ruidera",
+   "cat": "nature",
+   "name": "Lagunas de Ruidera",
+   "icon": "🏞️",
+   "lat": 38.945,
+   "lng": -2.8556,
+   "desc": "Cadena de lagunas turquesa unidas por cascadas naturales."
+  },
+  {
+   "id": "alb_sierra_alcaraz",
+   "cat": "nature",
+   "name": "Sierra de Alcaraz",
+   "icon": "⛰️",
+   "lat": 38.605,
+   "lng": -2.47,
+   "desc": "Sierra de pinares, valles y pueblos serranos al sur de la provincia."
+  },
+  {
+   "id": "alb_calares_mundo_sima",
+   "cat": "nature",
+   "name": "P.N. Calares del Mundo y de la Sima",
+   "icon": "🌲",
+   "lat": 38.475,
+   "lng": -2.44,
+   "desc": "Parque natural kárstico de simas, cuevas y bosques de pino laricio."
+  },
+  {
+   "id": "alb_hoz_jucar",
+   "cat": "nature",
+   "name": "Hoz del Júcar en Alcalá",
+   "icon": "🏞️",
+   "lat": 39.1945,
+   "lng": -1.4305,
+   "desc": "Profundo meandro del río Júcar rodeado de paredes de roca."
+  },
+  {
+   "id": "alb_recinto_ferial",
+   "cat": "ocio",
+   "name": "Recinto Ferial de Albacete",
+   "icon": "🎡",
+   "lat": 39.0053,
+   "lng": -1.8605,
+   "desc": "Recinto circular de 1783 donde se celebra la famosa Feria."
+  },
+  {
+   "id": "alb_casas_cueva_alcala",
+   "cat": "ocio",
+   "name": "Casas cueva de Alcalá del Júcar",
+   "icon": "🕳️",
+   "lat": 39.1924,
+   "lng": -1.4298,
+   "desc": "Viviendas excavadas en la roca que atraviesan el cerro."
+  },
+  {
+   "id": "alb_tamborada_hellin",
+   "cat": "ocio",
+   "name": "Tamborada de Hellín",
+   "icon": "🥁",
+   "lat": 38.5106,
+   "lng": -1.7005,
+   "desc": "Multitudinaria tamborada de Semana Santa por las calles de Hellín."
+  },
+  {
+   "id": "alb_parque_abelardo",
+   "cat": "ocio",
+   "name": "Parque Abelardo Sánchez",
+   "icon": "🌳",
+   "lat": 38.9916,
+   "lng": -1.8638,
+   "desc": "El gran pulmón verde de Albacete con jardines y estanques."
+  },
+  {
+   "id": "alb_miguelitos_roda",
+   "cat": "food",
+   "name": "Miguelitos de La Roda",
+   "icon": "🥐",
+   "lat": 39.2074,
+   "lng": -2.1587,
+   "desc": "Hojaldres rellenos de crema, el dulce estrella de la provincia."
+  },
+  {
+   "id": "alb_gazpachos_manchegos",
+   "cat": "food",
+   "name": "Gazpachos manchegos",
+   "icon": "🍲",
+   "lat": 38.9942,
+   "lng": -1.8583,
+   "desc": "Guiso caliente de caza y torta cenceña, plato típico manchego."
+  },
+  {
+   "id": "alb_atascaburras",
+   "cat": "food",
+   "name": "Atascaburras",
+   "icon": "🥔",
+   "lat": 38.9946,
+   "lng": -1.8572,
+   "desc": "Puré de patata y bacalao con aceite, ajo y huevo cocido."
+  },
+  {
+   "id": "alb_queso_manchego",
+   "cat": "food",
+   "name": "Queso manchego DOP",
+   "icon": "🧀",
+   "lat": 38.9954,
+   "lng": -1.8595,
+   "desc": "Queso curado de oveja manchega con Denominación de Origen."
+  }
+ ],
+ "extra": {
+  "alb_pasaje_lodares": {
+   "id": "alb_pasaje_lodares",
+   "d": "Uno de los tres pasajes comerciales cubiertos que se conservan en España. Inspirado en las galerías italianas, luce columnas, cariátides, vidrieras y balconadas de estilo modernista y ecléctico entre las calles Mayor y Tinte.",
+   "d_en": "One of only three covered commercial arcades preserved in Spain. Inspired by Italian galleries, it features columns, caryatids, stained glass and modernist-eclectic balconies between Calle Mayor and Calle Tinte.",
+   "h": "Acceso libre, horario comercial",
+   "h_en": "Free access, shop hours",
+   "i": "Ideal si te gusta la arquitectura modernista y los rincones fotogénicos.",
+   "i_en": "Ideal if you like modernist architecture and photogenic corners."
+  },
+  "alb_catedral": {
+   "id": "alb_catedral",
+   "d": "Levantada sobre una iglesia gótica del siglo XVI, combina elementos renacentistas, barrocos y neogóticos. Destacan sus esbeltas columnas jónicas, la portada y la Capilla de la Virgen de los Llanos, patrona de la ciudad.",
+   "d_en": "Built over a 16th-century Gothic church, it blends Renaissance, Baroque and Neo-Gothic elements. Highlights include its slender Ionic columns, the doorway and the chapel of the Virgen de los Llanos, patron of the city.",
+   "h": "Lun-Dom 10:00-13:30, 18:00-20:00",
+   "h_en": "Mon-Sun 10:00-13:30, 18:00-20:00",
+   "i": "Ideal si te gusta el arte sacro y la historia local.",
+   "i_en": "Ideal if you like sacred art and local history."
+  },
+  "alb_museo_cuchilleria": {
+   "id": "alb_museo_cuchilleria",
+   "d": "Ubicado en la Casa de Hortelano, un singular edificio modernista de 1912 junto a la catedral. Recorre siglos de tradición cuchillera de Albacete con navajas, tijeras y objetos de filo de gran valor artesanal.",
+   "d_en": "Housed in the Casa de Hortelano, a striking 1912 modernist building next to the cathedral. It traces centuries of Albacete's knife-making tradition with pocketknives, scissors and finely crafted blades.",
+   "h": "Mar-Sáb 10:00-14:00, 17:30-20:30; Dom 10:00-14:00",
+   "h_en": "Tue-Sat 10:00-14:00, 17:30-20:30; Sun 10:00-14:00",
+   "i": "Ideal si te gusta la artesanía y las tradiciones únicas.",
+   "i_en": "Ideal if you like craftsmanship and unique traditions."
+  },
+  "alb_castillo_almansa": {
+   "id": "alb_castillo_almansa",
+   "d": "Fortaleza de origen almohade, reconstruida en el siglo XV por el marqués de Villena. Encaramado en el cerro del Águila, es uno de los castillos más fotografiados de España, con torres, murallas y vistas de la llanura manchega.",
+   "d_en": "A fortress of Almohad origin, rebuilt in the 15th century by the Marquis of Villena. Perched on the Cerro del Águila, it is one of Spain's most photographed castles, with towers, walls and views over the Manchegan plain.",
+   "h": "Mar-Dom 10:00-14:00, 16:00-19:00",
+   "h_en": "Tue-Sun 10:00-14:00, 16:00-19:00",
+   "i": "Ideal si te gusta la historia medieval y las vistas panorámicas.",
+   "i_en": "Ideal if you like medieval history and panoramic views."
+  },
+  "alb_castillo_alcala": {
+   "id": "alb_castillo_alcala",
+   "d": "Fortaleza de los siglos XII-XV en lo alto de un cerro calizo, con torre pentagonal y aljibe. Corona el impresionante caserío de casas colgadas y excavadas en la roca sobre la hoz del río Júcar.",
+   "d_en": "A 12th-15th-century fortress atop a limestone hill, with a pentagonal keep and cistern. It crowns the striking cluster of houses hanging and carved into the rock above the Júcar gorge.",
+   "h": "Mar-Dom 10:30-14:00, 16:00-19:00",
+   "h_en": "Tue-Sun 10:30-14:00, 16:00-19:00",
+   "i": "Ideal si te gusta la fotografía de pueblos y los paisajes de hoz.",
+   "i_en": "Ideal if you like village photography and gorge landscapes."
+  },
+  "alb_castillo_chinchilla": {
+   "id": "alb_castillo_chinchilla",
+   "d": "Fortaleza construida por el marqués de Villena sobre un cerro que domina la villa. Conserva foso, torre del homenaje y mazmorras excavadas en la roca donde estuvieron presos ilustres como César Borgia.",
+   "d_en": "A fortress built by the Marquis of Villena on a hill overlooking the town. It preserves a moat, a keep and rock-cut dungeons that once held notable prisoners such as Cesare Borgia.",
+   "h": "Sáb-Dom 11:00-14:00 (consultar visitas)",
+   "h_en": "Sat-Sun 11:00-14:00 (check visits)",
+   "i": "Ideal si te gusta la historia de fortalezas y los pueblos con encanto.",
+   "i_en": "Ideal if you like fortress history and charming towns."
+  },
+  "alb_chinchilla_casco": {
+   "id": "alb_chinchilla_casco",
+   "d": "Declarado Conjunto Histórico-Artístico, conserva una plaza Mayor renacentista con soportales, la iglesia de Santa María del Salvador y un barrio de casas excavadas en el cerro. Antigua capital de la comarca.",
+   "d_en": "Declared a Historic-Artistic Site, it keeps a Renaissance arcaded main square, the church of Santa María del Salvador and a quarter of cave houses dug into the hill. A former regional capital.",
+   "h": "Acceso libre",
+   "h_en": "Free access",
+   "i": "Ideal si te gusta pasear por pueblos con historia.",
+   "i_en": "Ideal if you like strolling through historic towns."
+  },
+  "alb_alcaraz": {
+   "id": "alb_alcaraz",
+   "d": "Corazón de Alcaraz, cuna del arquitecto Andrés de Vandelvira. La plaza renacentista está flanqueada por las dos torres gemelas del Tardón y de la Trinidad, la lonja del Corregidor y elegantes soportales de piedra.",
+   "d_en": "The heart of Alcaraz, birthplace of architect Andrés de Vandelvira. The Renaissance square is flanked by the twin Tardón and Trinidad towers, the Corregidor's exchange and elegant stone arcades.",
+   "h": "Acceso libre",
+   "h_en": "Free access",
+   "i": "Ideal si te gusta el Renacimiento español y los cascos monumentales.",
+   "i_en": "Ideal if you like Spanish Renaissance and monumental old towns."
+  },
+  "alb_riopar_viejo": {
+   "id": "alb_riopar_viejo",
+   "d": "El primitivo asentamiento de Riópar, encaramado en un cerro rocoso de la Sierra del Segura. Conserva restos del castillo, la iglesia del Espíritu Santo y calles empedradas, con vistas espectaculares del valle.",
+   "d_en": "The original settlement of Riópar, perched on a rocky hill in the Sierra del Segura. It preserves castle remains, the church of the Espíritu Santo and cobbled streets, with spectacular valley views.",
+   "h": "Acceso libre",
+   "h_en": "Free access",
+   "i": "Ideal si te gusta la historia y los miradores naturales.",
+   "i_en": "Ideal if you like history and natural viewpoints."
+  },
+  "alb_nacimiento_rio_mundo": {
+   "id": "alb_nacimiento_rio_mundo",
+   "d": "El agua surge de la Cueva de los Chorros y cae en cascadas escalonadas formando pozas turquesa. Tras las lluvias se produce el 'reventón', un violento chorro que emerge de la cueva. Está en el Parque Natural de los Calares del Mundo y de la Sima.",
+   "d_en": "Water emerges from the Cueva de los Chorros and drops in stepped waterfalls forming turquoise pools. After rain comes the 'reventón', a violent gush bursting from the cave. It lies within the Calares del Mundo y de la Sima Natural Park.",
+   "h": "Todo el día; parking de pago",
+   "h_en": "All day; paid parking",
+   "i": "Ideal si te gusta el senderismo y los paisajes de agua.",
+   "i_en": "Ideal if you like hiking and water landscapes."
+  },
+  "alb_lagunas_ruidera": {
+   "id": "alb_lagunas_ruidera",
+   "d": "Parque Natural compartido con Ciudad Real, con quince lagunas escalonadas de agua cristalina rodeadas de vegetación. En la parte albaceteña, Ossa de Montiel ofrece miradores, rutas y baño en un oasis manchego lleno de leyendas quijotescas.",
+   "d_en": "A Natural Park shared with Ciudad Real, with fifteen stepped lagoons of crystalline water surrounded by greenery. On the Albacete side, Ossa de Montiel offers viewpoints, trails and swimming in a Manchegan oasis full of Quixotic legends.",
+   "h": "Acceso libre; centro de interpretación variable",
+   "h_en": "Free access; visitor centre hours vary",
+   "i": "Ideal si te gusta el baño en la naturaleza y las rutas fáciles.",
+   "i_en": "Ideal if you like wild swimming and easy trails."
+  },
+  "alb_sierra_alcaraz": {
+   "id": "alb_sierra_alcaraz",
+   "d": "Macizo montañoso que enlaza con la Sierra del Segura, con cumbres, hoces fluviales, bosques de pino y aldeas tradicionales. Un destino ideal para senderismo, cicloturismo y observación de flora y fauna en un entorno poco masificado.",
+   "d_en": "A mountain massif linking to the Sierra del Segura, with peaks, river gorges, pine forests and traditional hamlets. An ideal spot for hiking, cycling and wildlife watching in an uncrowded setting.",
+   "h": "Acceso libre",
+   "h_en": "Free access",
+   "i": "Ideal si te gusta la montaña y el turismo rural.",
+   "i_en": "Ideal if you like mountains and rural tourism."
+  },
+  "alb_calares_mundo_sima": {
+   "id": "alb_calares_mundo_sima",
+   "d": "Un paraíso kárstico de más de 19.000 hectáreas con dolinas, simas, cuevas y los mejores pinares laricios de la región. Alberga el nacimiento del río Mundo y numerosas rutas de senderismo entre roca caliza y agua.",
+   "d_en": "A karst paradise of over 19,000 hectares with dolines, chasms, caves and the region's finest Salzmann pine forests. It shelters the source of the río Mundo and many hiking trails amid limestone and water.",
+   "h": "Acceso libre",
+   "h_en": "Free access",
+   "i": "Ideal si te gusta la geología y los bosques.",
+   "i_en": "Ideal if you like geology and forests."
+  },
+  "alb_hoz_jucar": {
+   "id": "alb_hoz_jucar",
+   "d": "El río Júcar dibuja un cerrado meandro excavando un cañón sobre el que se asienta Alcalá del Júcar. Sus paredes verticales, el puente romano y las cuevas del pueblo crean uno de los paisajes fluviales más bellos de Castilla-La Mancha.",
+   "d_en": "The Júcar carves a tight meander into a canyon on which Alcalá del Júcar sits. Its vertical walls, the Roman bridge and the village caves form one of the most beautiful river landscapes in Castilla-La Mancha.",
+   "h": "Acceso libre",
+   "h_en": "Free access",
+   "i": "Ideal si te gusta el paisaje fluvial y el kayak.",
+   "i_en": "Ideal if you like river scenery and kayaking."
+  },
+  "alb_recinto_ferial": {
+   "id": "alb_recinto_ferial",
+   "d": "Edificio ferial de planta circular único en España, construido en el siglo XVIII en torno a la Virgen de los Llanos. Cada septiembre acoge la Feria de Albacete, declarada de Interés Turístico Internacional, con casetas, atracciones y toros.",
+   "d_en": "A one-of-a-kind circular fairground in Spain, built in the 18th century around the Virgen de los Llanos. Each September it hosts the Feria de Albacete, of International Tourist Interest, with stalls, rides and bullfighting.",
+   "h": "Feria 7-17 sept; recinto visitable todo el año",
+   "h_en": "Fair 7-17 Sept; grounds open year-round",
+   "i": "Ideal si te gusta el ambiente festivo y las tradiciones populares.",
+   "i_en": "Ideal if you like festive atmosphere and popular traditions."
+  },
+  "alb_casas_cueva_alcala": {
+   "id": "alb_casas_cueva_alcala",
+   "d": "Casas horadadas en la montaña como la Cueva del Diablo o la del Garadén, cuyos túneles cruzan el cerro de lado a lado hasta miradores sobre el Júcar. Algunas se visitan y otras funcionan como bares o pequeños museos.",
+   "d_en": "Houses bored into the mountain such as the Cueva del Diablo or Garadén, whose tunnels cross the hill from side to side to viewpoints over the Júcar. Some can be visited, others work as bars or small museums.",
+   "h": "Variable según cueva, aprox 11:00-19:00",
+   "h_en": "Varies by cave, approx 11:00-19:00",
+   "i": "Ideal si te gusta lo curioso y las vistas escondidas.",
+   "i_en": "Ideal if you like the unusual and hidden views."
+  },
+  "alb_tamborada_hellin": {
+   "id": "alb_tamborada_hellin",
+   "d": "Declarada de Interés Turístico Internacional, reúne a más de 20.000 tamborileros vestidos con túnica que hacen redoblar sus tambores día y noche durante la Semana Santa, llenando el casco de un estruendo hipnótico e imborrable.",
+   "d_en": "Of International Tourist Interest, it gathers over 20,000 tunic-clad drummers who beat their drums day and night during Holy Week, filling the old town with a hypnotic, unforgettable roar.",
+   "h": "Semana Santa (marzo-abril)",
+   "h_en": "Holy Week (March-April)",
+   "i": "Ideal si te gusta el folclore intenso y las tradiciones vivas.",
+   "i_en": "Ideal if you like intense folklore and living traditions."
+  },
+  "alb_parque_abelardo": {
+   "id": "alb_parque_abelardo",
+   "d": "Uno de los mayores parques urbanos de Castilla-La Mancha, con más de 100.000 m2 de arboledas, paseos, estanques, una glorieta modernista y el Museo de Albacete. Punto de encuentro ideal para pasear y descansar en la ciudad.",
+   "d_en": "One of the largest urban parks in Castilla-La Mancha, with over 100,000 m2 of woodland, paths, ponds, a modernist bandstand and the Albacete Museum. A perfect spot to stroll and relax in the city.",
+   "h": "Todos los días, horario amplio",
+   "h_en": "Open daily, extended hours",
+   "i": "Ideal si te gusta pasear al aire libre y relajarte.",
+   "i_en": "Ideal if you like open-air walks and relaxing."
+  },
+  "alb_miguelitos_roda": {
+   "id": "alb_miguelitos_roda",
+   "d": "Pequeños cuadrados de hojaldre crujiente rellenos de crema pastelera y espolvoreados con azúcar glas, nacidos en La Roda a mediados del siglo XX. Se venden en las confiterías del pueblo, muchas junto a la autovía.",
+   "d_en": "Small squares of crisp puff pastry filled with confectioner's cream and dusted with icing sugar, born in La Roda in the mid-20th century. Sold in the town's pastry shops, many beside the motorway.",
+   "h": "Confiterías 8:00-21:00",
+   "h_en": "Pastry shops 8:00-21:00",
+   "i": "Ideal si te gusta el dulce y llevarte un recuerdo comestible.",
+   "i_en": "Ideal if you like sweets and an edible souvenir."
+  },
+  "alb_gazpachos_manchegos": {
+   "id": "alb_gazpachos_manchegos",
+   "d": "Nada que ver con el gazpacho frío andaluz: es un contundente guiso de caza (liebre, conejo, perdiz) con trozos de torta cenceña sin levadura que actúa como pasta. Reconstituyente clásico de pastores en la meseta.",
+   "d_en": "Nothing like the cold Andalusian gazpacho: a hearty game stew (hare, rabbit, partridge) with pieces of unleavened flatbread acting as pasta. A classic shepherds' dish on the plateau.",
+   "h": "Restaurantes 13:30-16:00, 21:00-23:00",
+   "h_en": "Restaurants 13:30-16:00, 21:00-23:00",
+   "i": "Ideal si te gusta la cocina tradicional y contundente.",
+   "i_en": "Ideal if you like hearty traditional cooking."
+  },
+  "alb_atascaburras": {
+   "id": "alb_atascaburras",
+   "d": "Plato humilde de invierno elaborado majando patata cocida con bacalao desmigado, ajo, aceite de oliva y nueces, coronado con huevo cocido. Sencillo, cremoso y muy sabroso, típico de las sierras albaceteñas.",
+   "d_en": "A humble winter dish made by mashing boiled potato with flaked cod, garlic, olive oil and walnuts, topped with boiled egg. Simple, creamy and full of flavour, typical of the Albacete highlands.",
+   "h": "Restaurantes 13:30-16:00",
+   "h_en": "Restaurants 13:30-16:00",
+   "i": "Ideal si te gusta la cocina de aprovechamiento y sabores intensos.",
+   "i_en": "Ideal if you like resourceful cooking and bold flavours."
+  },
+  "alb_queso_manchego": {
+   "id": "alb_queso_manchego",
+   "d": "Elaborado con leche de oveja de raza manchega, se cura durante meses adquiriendo un sabor intenso y una corteza con el característico dibujo de esparto. Se degusta en tabernas y queserías por toda la provincia.",
+   "d_en": "Made from Manchega-breed sheep's milk, cured for months to gain an intense flavour and a rind with the characteristic esparto pattern. Enjoyed in taverns and cheese shops across the province.",
+   "h": "Queserías y tabernas 10:00-21:00",
+   "h_en": "Cheese shops and taverns 10:00-21:00",
+   "i": "Ideal si te gusta el queso y los productos con denominación de origen.",
+   "i_en": "Ideal if you like cheese and designation-of-origin products."
+  }
+ },
+ "food": {
+  "alb_miguelitos_roda": {
+   "cuisine": "Repostería tradicional",
+   "price": "6–12 €",
+   "hours": "Confiterías 8:00-21:00"
+  },
+  "alb_gazpachos_manchegos": {
+   "cuisine": "Cocina manchega",
+   "price": "12–20 €",
+   "hours": "Restaurantes 13:30-16:00, 21:00-23:00"
+  },
+  "alb_atascaburras": {
+   "cuisine": "Cocina manchega",
+   "price": "8–15 €",
+   "hours": "Restaurantes 13:30-16:00"
+  },
+  "alb_queso_manchego": {
+   "cuisine": "Producto DOP",
+   "price": "10–25 €",
+   "hours": "Queserías y tabernas 10:00-21:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Albacete",
+   "items": [
+    {
+     "name": "Navaja de Albacete",
+     "price": "15–120 €",
+     "desc": "Cuchillo o navaja artesanal, símbolo secular de la ciudad, forjado a mano."
+    },
+    {
+     "name": "Miguelitos de La Roda",
+     "price": "6–12 €",
+     "desc": "Caja de hojaldres rellenos de crema, el dulce más famoso de la provincia."
+    },
+    {
+     "name": "Queso manchego",
+     "price": "10–25 €",
+     "desc": "Cuña de queso curado de oveja con Denominación de Origen."
+    },
+    {
+     "name": "Azafrán de La Mancha",
+     "price": "5–15 €",
+     "desc": "Hebras de azafrán DOP, especia dorada usada en la cocina local."
+    }
+   ],
+   "shops": [
+    "Cuchillería Beldad (Calle Mayor)",
+    "Mercado de Villacerrada",
+    "Confitería Mansilla (La Roda)",
+    "El Corte Inglés Albacete"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Visita la Feria de Albacete (7-17 septiembre); es una de las más importantes de España y llena la ciudad de vida.",
+   "En Alcalá del Júcar aparca arriba y baja andando: las calles del casco son estrechísimas y con mucha pendiente.",
+   "Para el Nacimiento del río Mundo, ve en primavera o tras lluvias para ver el espectáculo del 'reventón'.",
+   "Prueba los gazpachos manchegos y el atascaburras, platos contundentes ideales para el clima continental.",
+   "Combina Chinchilla y Almansa en un mismo día por la A-31; ambos castillos están cerca de la autovía."
+  ],
+  "en": [
+   "Visit the Feria de Albacete (7-17 September); it is one of Spain's biggest fairs and fills the city with life.",
+   "In Alcalá del Júcar, park at the top and walk down: the old-town streets are extremely narrow and steep.",
+   "For the source of the río Mundo, go in spring or after rain to catch the spectacular 'reventón' burst.",
+   "Try gazpachos manchegos and atascaburras, hearty dishes perfect for the continental climate.",
+   "Combine Chinchilla and Almansa in one day via the A-31; both castles sit close to the motorway."
+  ]
+ },
+ "climate": {
+  "hi": [
+   10,
+   13,
+   17,
+   19,
+   24,
+   30,
+   33,
+   33,
+   28,
+   21,
+   14,
+   10
+  ],
+  "lo": [
+   0,
+   1,
+   3,
+   6,
+   9,
+   14,
+   17,
+   17,
+   13,
+   8,
+   4,
+   1
+  ]
+ },
+ "tr": {
+  "Galería comercial modernista de 1925, joya arquitectónica de Albacete.": "Modernist shopping arcade from 1925, an architectural gem of Albacete.",
+  "Catedral renacentista con columnas jónicas y capillas históricas.": "Renaissance cathedral with Ionic columns and historic chapels.",
+  "Museo dedicado a la cuchillería en la vistosa Casa de Hortelano.": "Knife-making museum in the eye-catching Casa de Hortelano.",
+  "Espectacular castillo sobre un peñón calizo dominando Almansa.": "Spectacular castle atop a limestone crag overlooking Almansa.",
+  "Castillo almohade sobre el meandro del Júcar y el pueblo blanco.": "Almohad castle above the Júcar meander and the white village.",
+  "Castillo del siglo XV sobre el cerro de San Blas.": "15th-century castle atop the Cerro de San Blas.",
+  "Conjunto histórico-artístico con plaza porticada y casas cueva.": "Historic-artistic town with an arcaded square and cave houses.",
+  "Plaza renacentista con las torres del Tardón y de la Trinidad.": "Renaissance square with the Tardón and Trinidad towers.",
+  "Pueblo medieval abandonado con castillo e iglesia sobre un cerro.": "Abandoned medieval village with castle and church on a hill.",
+  "Cascada que brota de una gran cueva en un anfiteatro de roca.": "Waterfall bursting from a large cave in a rocky amphitheatre.",
+  "Cadena de lagunas turquesa unidas por cascadas naturales.": "Chain of turquoise lakes linked by natural waterfalls.",
+  "Sierra de pinares, valles y pueblos serranos al sur de la provincia.": "Range of pine forests, valleys and mountain villages in the south.",
+  "Parque natural kárstico de simas, cuevas y bosques de pino laricio.": "Karst natural park of chasms, caves and Salzmann pine forests.",
+  "Profundo meandro del río Júcar rodeado de paredes de roca.": "Deep meander of the Júcar river ringed by rock walls.",
+  "Recinto circular de 1783 donde se celebra la famosa Feria.": "Circular 1783 grounds that host the famous Feria.",
+  "Viviendas excavadas en la roca que atraviesan el cerro.": "Dwellings carved into the rock that pierce the hill.",
+  "Multitudinaria tamborada de Semana Santa por las calles de Hellín.": "Massive Holy Week drumming through the streets of Hellín.",
+  "El gran pulmón verde de Albacete con jardines y estanques.": "Albacete's great green lung with gardens and ponds.",
+  "Hojaldres rellenos de crema, el dulce estrella de la provincia.": "Cream-filled puff pastries, the province's star sweet.",
+  "Guiso caliente de caza y torta cenceña, plato típico manchego.": "Hot game stew with unleavened flatbread, a Manchegan classic.",
+  "Puré de patata y bacalao con aceite, ajo y huevo cocido.": "Potato and cod mash with oil, garlic and boiled egg.",
+  "Queso curado de oveja manchega con Denominación de Origen.": "Cured Manchega sheep's cheese with Protected Designation.",
+  "Albacete": "Albacete"
+ }
+}

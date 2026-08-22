@@ -1,0 +1,591 @@
+{
+ "id": "cuenca",
+ "name": "Cuenca",
+ "country": "ES",
+ "center": [
+  40.0704,
+  -2.1374
+ ],
+ "pois": [
+  {
+   "id": "cue_casas_colgadas",
+   "cat": "monuments",
+   "name": "Casas Colgadas",
+   "icon": "🏚️",
+   "lat": 40.07636,
+   "lng": -2.12889,
+   "desc": "Casas medievales suspendidas sobre la hoz del Huécar, símbolo de Cuenca."
+  },
+  {
+   "id": "cue_catedral",
+   "cat": "monuments",
+   "name": "Catedral de Cuenca",
+   "icon": "⛪",
+   "lat": 40.07713,
+   "lng": -2.1301,
+   "desc": "Primera catedral gótica de Castilla, del siglo XII, en la Plaza Mayor."
+  },
+  {
+   "id": "cue_puente_san_pablo",
+   "cat": "monuments",
+   "name": "Puente de San Pablo",
+   "icon": "🌉",
+   "lat": 40.07747,
+   "lng": -2.12719,
+   "desc": "Puente peatonal de hierro sobre la hoz del Huécar con vistas a las Casas Colgadas."
+  },
+  {
+   "id": "cue_museo_arte_abstracto",
+   "cat": "monuments",
+   "name": "Museo de Arte Abstracto Español",
+   "icon": "🖼️",
+   "lat": 40.0763,
+   "lng": -2.12895,
+   "desc": "Colección de arte abstracto español dentro de las Casas Colgadas."
+  },
+  {
+   "id": "cue_torre_mangana",
+   "cat": "monuments",
+   "name": "Torre de Mangana",
+   "icon": "🗼",
+   "lat": 40.07547,
+   "lng": -2.133,
+   "desc": "Torre-reloj sobre una plaza mirador del casco antiguo."
+  },
+  {
+   "id": "cue_plaza_mayor",
+   "cat": "monuments",
+   "name": "Plaza Mayor de Cuenca",
+   "icon": "🏛️",
+   "lat": 40.07806,
+   "lng": -2.12944,
+   "desc": "Corazón del casco antiguo, presidido por la catedral y el ayuntamiento barroco."
+  },
+  {
+   "id": "cue_castillo_belmonte",
+   "cat": "monuments",
+   "name": "Castillo de Belmonte",
+   "icon": "🏰",
+   "lat": 39.5587,
+   "lng": -2.7069,
+   "desc": "Castillo gótico-mudéjar del siglo XV, escenario de cine y torneos medievales."
+  },
+  {
+   "id": "cue_castillo_alarcon",
+   "cat": "monuments",
+   "name": "Castillo de Alarcón",
+   "icon": "🏰",
+   "lat": 39.556,
+   "lng": -2.0825,
+   "desc": "Fortaleza del siglo XII sobre un meandro del Júcar, hoy Parador Nacional."
+  },
+  {
+   "id": "cue_segobriga",
+   "cat": "monuments",
+   "name": "Parque Arqueológico de Segóbriga",
+   "icon": "🏺",
+   "lat": 39.8847,
+   "lng": -2.8139,
+   "desc": "Ciudad romana con teatro, anfiteatro y termas cerca de Saelices."
+  },
+  {
+   "id": "cue_castillo_canete",
+   "cat": "monuments",
+   "name": "Castillo y murallas de Cañete",
+   "icon": "🏰",
+   "lat": 39.556,
+   "lng": -1.6506,
+   "desc": "Recinto amurallado medieval en la Serranía, villa natal de Álvaro de Luna."
+  },
+  {
+   "id": "cue_ciudad_encantada",
+   "cat": "nature",
+   "name": "Ciudad Encantada",
+   "icon": "🪨",
+   "lat": 40.2038,
+   "lng": -2.004,
+   "desc": "Laberinto de formaciones rocosas kársticas con formas caprichosas."
+  },
+  {
+   "id": "cue_serrania",
+   "cat": "nature",
+   "name": "Serranía de Cuenca",
+   "icon": "⛰️",
+   "lat": 40.3167,
+   "lng": -1.9333,
+   "desc": "Parque natural de bosques, hoces y cañones con rutas como Los Callejones."
+  },
+  {
+   "id": "cue_nacimiento_cuervo",
+   "cat": "nature",
+   "name": "Nacimiento del río Cuervo",
+   "icon": "💧",
+   "lat": 40.4459,
+   "lng": -1.8745,
+   "desc": "Cascadas y musgos donde brota el río Cuervo, espectacular en deshielo."
+  },
+  {
+   "id": "cue_una",
+   "cat": "nature",
+   "name": "Uña y su laguna",
+   "icon": "🦆",
+   "lat": 40.2169,
+   "lng": -1.9833,
+   "desc": "Pueblo serrano junto a una laguna entre altas paredes de roca."
+  },
+  {
+   "id": "cue_ventano_diablo",
+   "cat": "nature",
+   "name": "Ventano del Diablo",
+   "icon": "🪟",
+   "lat": 40.166,
+   "lng": -1.999,
+   "desc": "Mirador natural asomado a la hoz del Júcar en la Serranía."
+  },
+  {
+   "id": "cue_hoz_huecar",
+   "cat": "ocio",
+   "name": "Paseo de la Hoz del Huécar",
+   "icon": "🥾",
+   "lat": 40.0782,
+   "lng": -2.125,
+   "desc": "Ruta al pie del cañón con las mejores vistas de las Casas Colgadas."
+  },
+  {
+   "id": "cue_barrio_castillo",
+   "cat": "ocio",
+   "name": "Barrio del Castillo",
+   "icon": "🚶",
+   "lat": 40.08,
+   "lng": -2.131,
+   "desc": "Parte más alta del casco antiguo con el Arco de Bezudo y miradores."
+  },
+  {
+   "id": "cue_convento_san_pablo",
+   "cat": "ocio",
+   "name": "Convento de San Pablo (Parador)",
+   "icon": "🛎️",
+   "lat": 40.0761,
+   "lng": -2.1261,
+   "desc": "Antiguo convento del siglo XVI convertido en Parador frente a las Casas Colgadas."
+  },
+  {
+   "id": "cue_priego",
+   "cat": "ocio",
+   "name": "Priego y la ruta del mimbre",
+   "icon": "🧺",
+   "lat": 40.4431,
+   "lng": -2.3039,
+   "desc": "Villa artesana del mimbre junto a las hoces del Escabas y el Trabaque."
+  },
+  {
+   "id": "cue_semana_santa",
+   "cat": "ocio",
+   "name": "Semana Santa de Cuenca",
+   "icon": "🕯️",
+   "lat": 40.077,
+   "lng": -2.13,
+   "desc": "Procesiones de Interés Turístico Internacional por el casco antiguo."
+  },
+  {
+   "id": "cue_meson_casas_colgadas",
+   "cat": "food",
+   "name": "Mesón Casas Colgadas",
+   "icon": "🍽️",
+   "lat": 40.0764,
+   "lng": -2.1288,
+   "desc": "Restaurante dentro de las Casas Colgadas con cocina conquense y vistas."
+  },
+  {
+   "id": "cue_figon_huecar",
+   "cat": "food",
+   "name": "Figón del Huécar",
+   "icon": "🍷",
+   "lat": 40.0768,
+   "lng": -2.1292,
+   "desc": "Restaurante con terraza sobre la hoz del Huécar y cocina de autor."
+  },
+  {
+   "id": "cue_posada_san_jose",
+   "cat": "food",
+   "name": "Restaurante Posada San José",
+   "icon": "🥘",
+   "lat": 40.0769,
+   "lng": -2.1296,
+   "desc": "Antigua posada del siglo XVII con terraza colgada y tapas conquenses."
+  },
+  {
+   "id": "cue_raff_san_pedro",
+   "cat": "food",
+   "name": "Raff San Pedro",
+   "icon": "👨‍🍳",
+   "lat": 40.0785,
+   "lng": -2.1305,
+   "desc": "Cocina creativa manchega en pleno casco histórico de Cuenca."
+  },
+  {
+   "id": "cue_taberna_morteruelo",
+   "cat": "food",
+   "name": "Taberna del Morteruelo",
+   "icon": "🍲",
+   "lat": 40.0735,
+   "lng": -2.1325,
+   "desc": "Cocina conquense de cuchara: morteruelo, ajoarriero y zarajos."
+  }
+ ],
+ "extra": {
+  "cue_casas_colgadas": {
+   "id": "cue_casas_colgadas",
+   "d": "Las Casas Colgadas son el emblema de Cuenca: viviendas de origen medieval con balcones de madera que se asoman al vacío sobre el acantilado. Restauradas en el siglo XX, hoy albergan el Museo de Arte Abstracto Español y un restaurante. Su imagen desde el Puente de San Pablo es una de las más fotografiadas de España.",
+   "d_en": "The Hanging Houses are Cuenca's emblem: medieval dwellings with wooden balconies that overhang the cliff edge. Restored in the 20th century, they now house the Spanish Abstract Art Museum and a restaurant. Their view from the San Pablo Bridge is one of the most photographed images in Spain.",
+   "h": "Exterior libre todo el día; museo mar-vie 11:00–14:00 y 16:00–18:00",
+   "h_en": "Exterior free all day; museum Tue–Fri 11:00–14:00 and 16:00–18:00",
+   "i": "Ideal si te gusta la arquitectura singular y la fotografía de paisajes urbanos.",
+   "i_en": "Ideal if you like unique architecture and urban landscape photography."
+  },
+  "cue_catedral": {
+   "id": "cue_catedral",
+   "d": "La Catedral de Santa María y San Julián es uno de los primeros templos góticos de España, iniciada en el siglo XII tras la conquista cristiana. Combina estilos gótico normando, renacentista y una llamativa fachada neogótica. Destacan sus vidrieras contemporáneas, el triforio y el tesoro catedralicio con obras de El Greco.",
+   "d_en": "The Cathedral of Saint Mary and Saint Julian is one of Spain's earliest Gothic churches, begun in the 12th century after the Christian conquest. It blends Norman Gothic and Renaissance styles with a striking neo-Gothic façade. Highlights include its contemporary stained glass, the triforium and a treasury with works by El Greco.",
+   "h": "Lun-dom 10:00–19:30 (consultar temporada)",
+   "h_en": "Mon–Sun 10:00–19:30 (check by season)",
+   "i": "Ideal si te gusta el arte gótico y la historia religiosa.",
+   "i_en": "Ideal if you like Gothic art and religious history."
+  },
+  "cue_puente_san_pablo": {
+   "id": "cue_puente_san_pablo",
+   "d": "Construido en 1902 sobre los restos de un puente de piedra del siglo XVI, este esbelto puente de hierro y madera cruza la hoz del Huécar a gran altura. Une la ciudad con el antiguo Convento de San Pablo (hoy Parador) y ofrece la vista más icónica de las Casas Colgadas. No apto para quienes sufran vértigo.",
+   "d_en": "Built in 1902 on the remains of a 16th-century stone bridge, this slender iron and wooden footbridge crosses the Huécar gorge at great height. It links the city with the former Convent of San Pablo (now a Parador) and offers the most iconic view of the Hanging Houses. Not for those afraid of heights.",
+   "h": "Acceso libre 24 h",
+   "h_en": "Free access 24 h",
+   "i": "Ideal si te gustan los miradores de vértigo y las vistas panorámicas.",
+   "i_en": "Ideal if you like vertigo-inducing viewpoints and panoramic views."
+  },
+  "cue_museo_arte_abstracto": {
+   "id": "cue_museo_arte_abstracto",
+   "d": "Fundado en 1966 por el pintor Fernando Zóbel dentro de las Casas Colgadas, este museo reúne obras de la generación abstracta española: Tàpies, Chillida, Millares, Saura o Torner. La fusión entre las salas medievales y el arte contemporáneo lo convirtió en un referente museístico europeo, hoy gestionado por la Fundación Juan March.",
+   "d_en": "Founded in 1966 by painter Fernando Zóbel inside the Hanging Houses, this museum gathers works by Spain's abstract generation: Tàpies, Chillida, Millares, Saura and Torner. The blend of medieval rooms and contemporary art made it a European reference, now run by the Juan March Foundation.",
+   "h": "Mar-vie 11:00–14:00 y 16:00–18:00; sáb 11:00–14:00 y 16:00–20:00; dom 11:00–14:30",
+   "h_en": "Tue–Fri 11:00–14:00 and 16:00–18:00; Sat 11:00–14:00 and 16:00–20:00; Sun 11:00–14:30",
+   "i": "Ideal si te gusta el arte contemporáneo y los espacios museísticos singulares.",
+   "i_en": "Ideal if you like contemporary art and unusual museum spaces."
+  },
+  "cue_torre_mangana": {
+   "id": "cue_torre_mangana",
+   "d": "Levantada sobre el solar de un antiguo alcázar árabe, la Torre de Mangana es el reloj de la ciudad y uno de sus miradores más populares. Desde su plaza se contempla la hoz del Júcar y el barrio nuevo. La torre actual es de comienzos del siglo XX, aunque conserva el sabor de la fortaleza medieval que la precedió.",
+   "d_en": "Raised on the site of a former Arab fortress, the Mangana Tower is the city's clock and one of its most popular viewpoints. From its square you can see the Júcar gorge and the new town. The current tower dates from the early 20th century, though it retains the flavour of the medieval fortress that preceded it.",
+   "h": "Acceso libre a la plaza 24 h",
+   "h_en": "Free access to the square 24 h",
+   "i": "Ideal si te gustan las vistas al atardecer y los rincones tranquilos.",
+   "i_en": "Ideal if you like sunset views and quiet corners."
+  },
+  "cue_plaza_mayor": {
+   "id": "cue_plaza_mayor",
+   "d": "La Plaza Mayor es el centro neurálgico de la Cuenca monumental, un espacio triangular rodeado de casas con soportales, terrazas y edificios señoriales. La preside la fachada de la catedral y se accede a ella bajo los arcos del Ayuntamiento del siglo XVIII. Es el punto de partida ideal para recorrer el conjunto Patrimonio de la Humanidad.",
+   "d_en": "The Plaza Mayor is the nerve centre of monumental Cuenca, a triangular space ringed by arcaded houses, terraces and stately buildings. It is presided over by the cathedral façade and entered beneath the arches of the 18th-century Town Hall. It is the ideal starting point to explore the World Heritage old town.",
+   "h": "Acceso libre 24 h",
+   "h_en": "Free access 24 h",
+   "i": "Ideal si te gusta el ambiente de plaza y empezar la visita con un café.",
+   "i_en": "Ideal if you like a lively square and starting the visit with a coffee."
+  },
+  "cue_castillo_belmonte": {
+   "id": "cue_castillo_belmonte",
+   "d": "Mandado construir por el Marqués de Villena en el siglo XV, el Castillo de Belmonte destaca por su planta estrellada, sus artesonados mudéjares y su excelente estado de conservación. Ha sido escenario de películas como 'El Cid' y hoy acoge torneos de combate medieval, visitas teatralizadas y un recorrido por sus murallas.",
+   "d_en": "Commissioned by the Marquis of Villena in the 15th century, Belmonte Castle stands out for its star-shaped layout, Mudéjar coffered ceilings and excellent preservation. It has served as a film set for movies such as 'El Cid' and today hosts medieval combat tournaments, dramatised tours and a walk along its walls.",
+   "h": "Mar-dom 10:00–14:00 y 16:00–19:00 (consultar temporada)",
+   "h_en": "Tue–Sun 10:00–14:00 and 16:00–19:00 (check by season)",
+   "i": "Ideal si te gusta la historia medieval y los castillos bien conservados.",
+   "i_en": "Ideal if you like medieval history and well-preserved castles."
+  },
+  "cue_castillo_alarcon": {
+   "id": "cue_castillo_alarcon",
+   "d": "Encaramado sobre un espectacular meandro del río Júcar, el Castillo de Alarcón es una fortaleza de origen musulmán reconquistada en el siglo XII. Rodeado de murallas y torres defensivas, alberga desde 1966 uno de los Paradores más singulares de España, donde se puede dormir o comer entre muros medievales.",
+   "d_en": "Perched over a spectacular meander of the Júcar river, Alarcón Castle is a fortress of Muslim origin reconquered in the 12th century. Surrounded by walls and defensive towers, since 1966 it has housed one of Spain's most unique Paradores, where you can sleep or dine within medieval walls.",
+   "h": "Exterior visitable; interior como hotel-restaurante, reserva recomendada",
+   "h_en": "Exterior open to view; interior operates as hotel-restaurant, booking advised",
+   "i": "Ideal si te gusta alojarte en lugares históricos y los pueblos amurallados.",
+   "i_en": "Ideal if you like staying in historic places and walled villages."
+  },
+  "cue_segobriga": {
+   "id": "cue_segobriga",
+   "d": "Segóbriga fue una próspera ciudad romana famosa por sus minas de lapis specularis (yeso translúcido usado como cristal). El parque arqueológico conserva el teatro, el anfiteatro, las termas, el foro y parte de la muralla, además de un centro de interpretación. Es uno de los conjuntos romanos mejor conservados del interior peninsular.",
+   "d_en": "Segóbriga was a prosperous Roman city famous for its lapis specularis mines (translucent gypsum used as glass). The archaeological park preserves the theatre, amphitheatre, baths, forum and part of the wall, plus a visitor centre. It is one of the best-preserved Roman sites in inland Spain.",
+   "h": "Abr-sep 10:00–20:00; oct-mar 10:00–18:00 (cerrado lunes)",
+   "h_en": "Apr–Sep 10:00–20:00; Oct–Mar 10:00–18:00 (closed Mondays)",
+   "i": "Ideal si te gusta la arqueología y la historia romana.",
+   "i_en": "Ideal if you like archaeology and Roman history."
+  },
+  "cue_castillo_canete": {
+   "id": "cue_castillo_canete",
+   "d": "Cañete conserva uno de los recintos amurallados medievales mejor preservados de la provincia, con torreones, un doble cinturón de murallas y los restos de su castillo. La villa, cuna del influyente valido Álvaro de Luna, se asienta en plena Serranía de Cuenca y ofrece un casco histórico de gran encanto.",
+   "d_en": "Cañete preserves one of the best-kept medieval walled enclosures in the province, with towers, a double ring of walls and the remains of its castle. The town, birthplace of the powerful royal favourite Álvaro de Luna, sits deep in the Serranía de Cuenca and offers a charming historic centre.",
+   "h": "Acceso libre al recinto; consultar visitas guiadas",
+   "h_en": "Free access to the enclosure; check guided tours",
+   "i": "Ideal si te gustan los pueblos con murallas y la historia castellana.",
+   "i_en": "Ideal if you like walled villages and Castilian history."
+  },
+  "cue_ciudad_encantada": {
+   "id": "cue_ciudad_encantada",
+   "d": "La Ciudad Encantada es un conjunto de formaciones calizas modeladas durante millones de años por el agua y el viento, que dibujan figuras a las que la imaginación popular ha puesto nombre: el Tormo Alto, los Osos, el Mar de Piedra o el Puente. Un sendero circular señalizado de unos 3 km recorre este monumento natural en plena Serranía.",
+   "d_en": "The Enchanted City is a set of limestone formations shaped over millions of years by water and wind, forming figures popularly named the Tall Rock, the Bears, the Sea of Stone or the Bridge. A signposted 3 km loop trail winds through this natural monument in the heart of the Serranía.",
+   "h": "Todos los días desde 10:00; cierre según temporada (aprox. 18:00–20:00)",
+   "h_en": "Daily from 10:00; closing varies by season (approx. 18:00–20:00)",
+   "i": "Ideal si te gusta la naturaleza sorprendente y pasear en familia.",
+   "i_en": "Ideal if you like surprising natural landscapes and family walks."
+  },
+  "cue_serrania": {
+   "id": "cue_serrania",
+   "d": "El Parque Natural de la Serranía de Cuenca protege un extenso territorio de pinares, cañones fluviales, hoces y parajes kársticos entre los ríos Júcar, Escabas y Cuervo. Entre sus rincones destacan Los Callejones de Las Majadas, la Raya, los estrechos de Priego y numerosas rutas de senderismo, escalada y observación de fauna.",
+   "d_en": "The Serranía de Cuenca Nature Park protects a vast territory of pine forests, river canyons, gorges and karst landscapes between the Júcar, Escabas and Cuervo rivers. Highlights include Los Callejones de Las Majadas, La Raya, the Priego narrows and countless trails for hiking, climbing and wildlife watching.",
+   "h": "Acceso libre; centro de interpretación con horario estacional",
+   "h_en": "Free access; visitor centre with seasonal hours",
+   "i": "Ideal si te gusta el senderismo y la naturaleza salvaje.",
+   "i_en": "Ideal if you like hiking and wild nature."
+  },
+  "cue_nacimiento_cuervo": {
+   "id": "cue_nacimiento_cuervo",
+   "d": "Este monumento natural marca el nacimiento del río Cuervo, donde el agua brota de la roca y cae en una sucesión de cascadas cubiertas de musgo y toba caliza. Una pasarela de madera de fácil recorrido permite acercarse a los saltos, especialmente caudalosos en primavera con el deshielo y congelados en pleno invierno.",
+   "d_en": "This natural monument marks the source of the Cuervo river, where water gushes from the rock and falls in a series of waterfalls covered in moss and calcareous tufa. An easy wooden boardwalk lets you reach the falls, especially powerful in spring with the snowmelt and frozen in deep winter.",
+   "h": "Acceso libre; parking de pago en temporada alta",
+   "h_en": "Free access; paid parking in high season",
+   "i": "Ideal si te gustan las cascadas y los paseos fáciles por el bosque.",
+   "i_en": "Ideal if you like waterfalls and easy woodland walks."
+  },
+  "cue_una": {
+   "id": "cue_una",
+   "d": "El pequeño pueblo de Uña se asienta junto a una laguna de origen tobáceo encajada entre las paredes de la hoz del Júcar. Es un enclave ideal para la observación de aves, el paseo tranquilo y como base de rutas de la Serranía, como la subida al mirador o la ruta hacia el Ventano del Diablo.",
+   "d_en": "The small village of Uña sits beside a tufa lagoon wedged between the walls of the Júcar gorge. It is an ideal spot for birdwatching, gentle strolls and as a base for Serranía trails, such as the climb to the viewpoint or the route to the Ventano del Diablo.",
+   "h": "Acceso libre 24 h",
+   "h_en": "Free access 24 h",
+   "i": "Ideal si te gusta la ornitología y los pueblos de montaña tranquilos.",
+   "i_en": "Ideal if you like birdwatching and quiet mountain villages."
+  },
+  "cue_ventano_diablo": {
+   "id": "cue_ventano_diablo",
+   "d": "El Ventano del Diablo es una ventana natural excavada en la roca que ofrece una de las vistas más espectaculares de la hoz del Júcar, con el río discurriendo cientos de metros más abajo entre paredes verticales. Una pasarela con barandilla facilita el acceso desde la carretera, junto a un pequeño mirador acondicionado.",
+   "d_en": "The Ventano del Diablo is a natural window carved in the rock offering one of the most spectacular views of the Júcar gorge, with the river flowing hundreds of metres below between vertical walls. A railed walkway makes access easy from the road, next to a small equipped viewpoint.",
+   "h": "Acceso libre 24 h",
+   "h_en": "Free access 24 h",
+   "i": "Ideal si te gustan los miradores impresionantes y las fotos de paisaje.",
+   "i_en": "Ideal if you like impressive viewpoints and landscape photography."
+  },
+  "cue_hoz_huecar": {
+   "id": "cue_hoz_huecar",
+   "d": "Este agradable paseo discurre por el fondo de la hoz del Huécar, entre huertas, chopos y las paredes de roca sobre las que se asienta la ciudad antigua. Desde abajo se obtiene una perspectiva única de las Casas Colgadas, el Puente de San Pablo y el Parador. Un recorrido llano y sombreado, perfecto al atardecer.",
+   "d_en": "This pleasant walk runs along the bottom of the Huécar gorge, among orchards, poplars and the rock walls on which the old town stands. From below you get a unique perspective of the Hanging Houses, the San Pablo Bridge and the Parador. A flat, shaded route, perfect at sunset.",
+   "h": "Acceso libre 24 h",
+   "h_en": "Free access 24 h",
+   "i": "Ideal si te gusta caminar y fotografiar la ciudad desde otro ángulo.",
+   "i_en": "Ideal if you like walking and photographing the city from another angle."
+  },
+  "cue_barrio_castillo": {
+   "id": "cue_barrio_castillo",
+   "d": "El Barrio del Castillo corona la ciudad antigua, allí donde estuvo la fortaleza árabe. Se cruza el Arco de Bezudo, único vestigio de las murallas, y se recorren callejuelas empinadas, casas cueva y varios miradores desde los que se abarcan las dos hoces. Es la zona más tranquila y auténtica para pasear.",
+   "d_en": "The Castle Quarter crowns the old town where the Arab fortress once stood. You pass through the Bezudo Arch, the only remnant of the walls, and wander steep alleys, cave houses and several viewpoints overlooking both gorges. It is the quietest and most authentic area for a stroll.",
+   "h": "Acceso libre 24 h",
+   "h_en": "Free access 24 h",
+   "i": "Ideal si te gusta perderte por callejuelas y buscar miradores escondidos.",
+   "i_en": "Ideal if you like getting lost in alleys and finding hidden viewpoints."
+  },
+  "cue_convento_san_pablo": {
+   "id": "cue_convento_san_pablo",
+   "d": "Fundado en el siglo XVI al otro lado de la hoz del Huécar, el Convento de San Pablo funciona hoy como Parador Nacional. Se accede cruzando el Puente de San Pablo y desde sus salas, claustro y terraza se disfruta de la panorámica más célebre de las Casas Colgadas. Ideal para tomar algo o alojarse con vistas privilegiadas.",
+   "d_en": "Founded in the 16th century on the far side of the Huécar gorge, the Convent of San Pablo now operates as a Parador hotel. Reached by crossing the San Pablo Bridge, its halls, cloister and terrace enjoy the most famous panorama of the Hanging Houses. Ideal for a drink or an overnight stay with privileged views.",
+   "h": "Cafetería y restaurante para el público; alojamiento con reserva",
+   "h_en": "Café and restaurant open to the public; accommodation by booking",
+   "i": "Ideal si te gusta alojarte con encanto y las vistas de postal.",
+   "i_en": "Ideal if you like charming stays and postcard views."
+  },
+  "cue_priego": {
+   "id": "cue_priego",
+   "d": "Priego es la capital española del mimbre, con una larga tradición de cestería que se puede descubrir en su museo etnográfico y sus talleres artesanos. El entorno, entre las hoces de los ríos Escabas y Trabaque, invita a rutas de senderismo, kayak en el embalse y a visitar el convento de San Miguel de las Victorias.",
+   "d_en": "Priego is Spain's wicker capital, with a long basket-weaving tradition you can discover in its ethnographic museum and craft workshops. The surroundings, between the Escabas and Trabaque river gorges, invite hiking, kayaking on the reservoir and a visit to the convent of San Miguel de las Victorias.",
+   "h": "Pueblo de acceso libre; museo y talleres con horario propio",
+   "h_en": "Village freely accessible; museum and workshops with their own hours",
+   "i": "Ideal si te gusta la artesanía tradicional y el turismo activo.",
+   "i_en": "Ideal if you like traditional crafts and active tourism."
+  },
+  "cue_semana_santa": {
+   "id": "cue_semana_santa",
+   "d": "La Semana Santa de Cuenca, declarada de Interés Turístico Internacional, llena las empinadas calles del casco antiguo de procesiones, música y turbas. Su momento más singular es 'Las Turbas' de la madrugada del Viernes Santo, cuando los tamborileros y clarineros acompañan con estruendo el paso de Jesús Nazareno. Se celebra en marzo o abril.",
+   "d_en": "Cuenca's Holy Week, declared of International Tourist Interest, fills the steep old-town streets with processions, music and 'turbas'. Its most unique moment is 'Las Turbas' in the early hours of Good Friday, when drummers and buglers noisily accompany the Jesus of Nazareth float. It takes place in March or April.",
+   "h": "Solo en Semana Santa (marzo/abril); consultar calendario anual",
+   "h_en": "Only during Holy Week (March/April); check the yearly schedule",
+   "i": "Ideal si te gustan las tradiciones populares y el ambiente festivo.",
+   "i_en": "Ideal if you like folk traditions and a festive atmosphere."
+  },
+  "cue_meson_casas_colgadas": {
+   "id": "cue_meson_casas_colgadas",
+   "d": "Situado en el edificio de las Casas Colgadas, este mesón es toda una institución de la gastronomía conquense. Ofrece platos tradicionales como el morteruelo, el ajoarriero o el cordero, con la particularidad de comer literalmente suspendido sobre la hoz del Huécar. Conviene reservar por su ubicación única.",
+   "d_en": "Located in the Hanging Houses building, this mesón is an institution of Cuenca cuisine. It serves traditional dishes such as morteruelo, ajoarriero and lamb, with the added thrill of dining literally suspended over the Huécar gorge. Booking is advised given its unique setting.",
+   "h": "Mar-dom 13:30–16:00 y 21:00–23:00; lunes cerrado",
+   "h_en": "Tue–Sun 13:30–16:00 and 21:00–23:00; closed Mondays",
+   "i": "Ideal si te gusta la cocina tradicional con vistas espectaculares.",
+   "i_en": "Ideal if you like traditional cuisine with spectacular views."
+  },
+  "cue_figon_huecar": {
+   "id": "cue_figon_huecar",
+   "d": "Ubicado en la antigua casa del cantante José Luis Perales, el Figón del Huécar es uno de los restaurantes más elegantes de Cuenca. Propone una cocina de autor que reinterpreta el recetario manchego con productos de temporada, y una terraza asomada al cañón con vistas inmejorables al anochecer.",
+   "d_en": "Set in the former home of singer José Luis Perales, Figón del Huécar is one of Cuenca's most elegant restaurants. It offers signature cuisine that reinterprets the Manchegan repertoire with seasonal produce, and a terrace overlooking the canyon with unbeatable views at dusk.",
+   "h": "Mar-sáb 13:30–15:30 y 20:30–22:30; dom mediodía; lunes cerrado",
+   "h_en": "Tue–Sat 13:30–15:30 and 20:30–22:30; Sun lunch; closed Mondays",
+   "i": "Ideal si te gusta la alta cocina y las cenas con vistas.",
+   "i_en": "Ideal if you like fine dining and meals with a view."
+  },
+  "cue_posada_san_jose": {
+   "id": "cue_posada_san_jose",
+   "d": "Instalada en un convento del siglo XVII convertido en posada con encanto, ofrece un comedor y una espectacular terraza escalonada sobre la hoz del Huécar. Su carta combina tapas y raciones de producto local, embutidos de la Serranía, quesos manchegos y vinos de la tierra en un ambiente acogedor y familiar.",
+   "d_en": "Housed in a 17th-century convent turned charming inn, it offers a dining room and a spectacular terraced balcony over the Huécar gorge. Its menu combines tapas and sharing plates of local produce, Serranía cured meats, Manchegan cheeses and regional wines in a cosy, family atmosphere.",
+   "h": "Todos los días 13:00–15:30 y 20:00–22:30",
+   "h_en": "Daily 13:00–15:30 and 20:00–22:30",
+   "i": "Ideal si te gusta picar tapas de calidad con vistas al cañón.",
+   "i_en": "Ideal if you like quality tapas with canyon views."
+  },
+  "cue_raff_san_pedro": {
+   "id": "cue_raff_san_pedro",
+   "d": "En la parte alta del casco antiguo, Raff San Pedro apuesta por una cocina creativa y contemporánea con firmes raíces manchegas. Trabaja con productos de proximidad como el cordero, las setas de la Serranía o la trucha, en menús degustación cuidados y un espacio moderno dentro de un edificio histórico.",
+   "d_en": "In the upper old town, Raff San Pedro champions creative, contemporary cooking with firm Manchegan roots. It works with local produce such as lamb, Serranía mushrooms and trout in carefully crafted tasting menus, within a modern space set in a historic building.",
+   "h": "Mié-dom 14:00–16:00 y 21:00–23:00; lun-mar cerrado",
+   "h_en": "Wed–Sun 14:00–16:00 and 21:00–23:00; closed Mon–Tue",
+   "i": "Ideal si te gusta la cocina creativa y los menús degustación.",
+   "i_en": "Ideal if you like creative cooking and tasting menus."
+  },
+  "cue_taberna_morteruelo": {
+   "id": "cue_taberna_morteruelo",
+   "d": "Taberna castiza donde probar los grandes clásicos de la gastronomía conquense: el morteruelo (paté caliente de caza), el ajoarriero de bacalao, los zarajos (tripa de cordero) y el gazpacho de pastor. Ambiente informal, raciones generosas y buenos vinos de la tierra para una comida cien por cien local.",
+   "d_en": "A traditional tavern to try the great classics of Cuenca cuisine: morteruelo (a warm game pâté), cod ajoarriero, zarajos (lamb tripe) and shepherd's gazpacho. An informal atmosphere, generous portions and good regional wines for a wholly local meal.",
+   "h": "Todos los días 13:00–16:00 y 20:30–23:00",
+   "h_en": "Daily 13:00–16:00 and 20:30–23:00",
+   "i": "Ideal si te gusta la cocina de cuchara y los sabores auténticos.",
+   "i_en": "Ideal if you like hearty stews and authentic flavours."
+  }
+ },
+ "food": {
+  "cue_meson_casas_colgadas": {
+   "cuisine": "Cocina tradicional conquense",
+   "price": "35–55 €",
+   "hours": "13:30–16:00 / 21:00–23:00"
+  },
+  "cue_figon_huecar": {
+   "cuisine": "Cocina de autor manchega",
+   "price": "40–65 €",
+   "hours": "13:30–15:30 / 20:30–22:30"
+  },
+  "cue_posada_san_jose": {
+   "cuisine": "Tapas y producto local manchego",
+   "price": "20–35 €",
+   "hours": "13:00–15:30 / 20:00–22:30"
+  },
+  "cue_raff_san_pedro": {
+   "cuisine": "Cocina creativa manchega",
+   "price": "35–60 €",
+   "hours": "14:00–16:00 / 21:00–23:00"
+  },
+  "cue_taberna_morteruelo": {
+   "cuisine": "Cocina tradicional de cuchara",
+   "price": "18–30 €",
+   "hours": "13:00–16:00 / 20:30–23:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Cuenca",
+   "items": [
+    {
+     "name": "Resolí",
+     "price": "8–14 €",
+     "desc": "Licor típico conquense a base de aguardiente, café, canela, cáscara de naranja y azúcar tostado."
+    },
+    {
+     "name": "Alajú",
+     "price": "5–10 €",
+     "desc": "Dulce árabe de miel, almendras y pan rallado prensado entre dos obleas."
+    },
+    {
+     "name": "Cestería de mimbre de Priego",
+     "price": "10–40 €",
+     "desc": "Cestos y objetos artesanos tejidos a mano en la tradicional villa mimbrera de Priego."
+    }
+   ],
+   "shops": [
+    "Confitería Ruiz (casco antiguo)",
+    "Mercado gastronómico de Cuenca",
+    "Tiendas artesanas de la calle Alfonso VIII"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Aparca en el barrio nuevo y sube al casco antiguo a pie o en el autobús turístico; las calles altas son muy empinadas y estrechas.",
+   "Reserva con antelación el Parador de Alarcón y las visitas al Castillo de Belmonte, especialmente en puentes y verano.",
+   "Lleva calzado cómodo y agua para las rutas de la Ciudad Encantada, el Nacimiento del Cuervo y la Serranía.",
+   "Visita la Ciudad Encantada a primera hora para evitar aglomeraciones y ver el paraje con mejor luz.",
+   "Si viajas en Semana Santa, consulta el calendario de procesiones: 'Las Turbas' del Viernes Santo son declaradas de Interés Turístico Internacional."
+  ],
+  "en": [
+   "Park in the new town and go up to the old town on foot or by tourist bus; the upper streets are very steep and narrow.",
+   "Book the Parador de Alarcón and Belmonte Castle visits in advance, especially on long weekends and in summer.",
+   "Wear comfortable shoes and carry water for the Enchanted City, Cuervo River spring and Serranía trails.",
+   "Visit the Enchanted City early in the day to avoid crowds and enjoy the rock formations in better light.",
+   "If you travel at Easter, check the procession schedule: the Good Friday 'Las Turbas' are declared of International Tourist Interest."
+  ]
+ },
+ "climate": {
+  "hi": [
+   9,
+   11,
+   15,
+   17,
+   22,
+   28,
+   32,
+   32,
+   26,
+   19,
+   13,
+   9
+  ],
+  "lo": [
+   1,
+   1,
+   3,
+   5,
+   9,
+   13,
+   16,
+   16,
+   13,
+   8,
+   4,
+   1
+  ]
+ },
+ "tr": {
+  "Casas medievales suspendidas sobre la hoz del Huécar, símbolo de Cuenca.": "Medieval houses hanging over the Huécar gorge, the symbol of Cuenca.",
+  "Primera catedral gótica de Castilla, del siglo XII, en la Plaza Mayor.": "The first Gothic cathedral in Castile, 12th century, on the Plaza Mayor.",
+  "Puente peatonal de hierro sobre la hoz del Huécar con vistas a las Casas Colgadas.": "Iron footbridge over the Huécar gorge facing the Hanging Houses.",
+  "Colección de arte abstracto español dentro de las Casas Colgadas.": "Collection of Spanish abstract art inside the Hanging Houses.",
+  "Torre-reloj sobre una plaza mirador del casco antiguo.": "Clock tower on a viewpoint square in the old town.",
+  "Corazón del casco antiguo, presidido por la catedral y el ayuntamiento barroco.": "Heart of the old town, flanked by the cathedral and Baroque town hall.",
+  "Castillo gótico-mudéjar del siglo XV, escenario de cine y torneos medievales.": "15th-century Gothic-Mudéjar castle, film set and medieval tournament venue.",
+  "Fortaleza del siglo XII sobre un meandro del Júcar, hoy Parador Nacional.": "12th-century fortress on a Júcar meander, now a Parador hotel.",
+  "Ciudad romana con teatro, anfiteatro y termas cerca de Saelices.": "Roman city with theatre, amphitheatre and baths near Saelices.",
+  "Recinto amurallado medieval en la Serranía, villa natal de Álvaro de Luna.": "Medieval walled enclosure in the Serranía, birthplace of Álvaro de Luna.",
+  "Laberinto de formaciones rocosas kársticas con formas caprichosas.": "Labyrinth of karst rock formations with whimsical shapes.",
+  "Parque natural de bosques, hoces y cañones con rutas como Los Callejones.": "Nature park of forests, gorges and canyons with trails like Los Callejones.",
+  "Cascadas y musgos donde brota el río Cuervo, espectacular en deshielo.": "Waterfalls and moss where the Cuervo river springs, stunning at snowmelt.",
+  "Pueblo serrano junto a una laguna entre altas paredes de roca.": "Mountain village beside a lagoon between tall rock walls.",
+  "Mirador natural asomado a la hoz del Júcar en la Serranía.": "Natural viewpoint overlooking the Júcar gorge in the Serranía.",
+  "Ruta al pie del cañón con las mejores vistas de las Casas Colgadas.": "Trail at the foot of the canyon with the best views of the Hanging Houses.",
+  "Parte más alta del casco antiguo con el Arco de Bezudo y miradores.": "Highest part of the old town with the Bezudo Arch and viewpoints.",
+  "Antiguo convento del siglo XVI convertido en Parador frente a las Casas Colgadas.": "Former 16th-century convent turned Parador facing the Hanging Houses.",
+  "Villa artesana del mimbre junto a las hoces del Escabas y el Trabaque.": "Wicker craft town beside the Escabas and Trabaque gorges.",
+  "Procesiones de Interés Turístico Internacional por el casco antiguo.": "Processions of International Tourist Interest through the old town.",
+  "Restaurante dentro de las Casas Colgadas con cocina conquense y vistas.": "Restaurant inside the Hanging Houses with Cuenca cuisine and views.",
+  "Restaurante con terraza sobre la hoz del Huécar y cocina de autor.": "Restaurant with a terrace over the Huécar gorge and signature cuisine.",
+  "Antigua posada del siglo XVII con terraza colgada y tapas conquenses.": "17th-century inn with a hanging terrace and Cuenca-style tapas.",
+  "Cocina creativa manchega en pleno casco histórico de Cuenca.": "Creative Manchegan cuisine in the heart of Cuenca's old town.",
+  "Cocina conquense de cuchara: morteruelo, ajoarriero y zarajos.": "Hearty Cuenca cooking: morteruelo, ajoarriero and zarajos.",
+  "Cuenca": "Cuenca"
+ }
+}

@@ -1,0 +1,702 @@
+{
+ "id": "laspalmas",
+ "name": "Las Palmas",
+ "country": "ES",
+ "center": [
+  28.1235,
+  -15.4363
+ ],
+ "pois": [
+  {
+   "id": "lpa_vegueta",
+   "cat": "monuments",
+   "name": "Barrio de Vegueta",
+   "icon": "🏛️",
+   "lat": 28.10063,
+   "lng": -15.41625,
+   "desc": "Casco fundacional de Las Palmas, con calles empedradas y casas coloniales."
+  },
+  {
+   "id": "lpa_casa_colon",
+   "cat": "monuments",
+   "name": "Casa de Colón",
+   "icon": "🧭",
+   "lat": 28.10145,
+   "lng": -15.41597,
+   "desc": "Museo sobre Colón y su escala en Canarias rumbo a América."
+  },
+  {
+   "id": "lpa_catedral_santa_ana",
+   "cat": "monuments",
+   "name": "Catedral de Santa Ana",
+   "icon": "⛪",
+   "lat": 28.10039,
+   "lng": -15.41614,
+   "desc": "Catedral gótica-neoclásica con mirador panorámico en su torre."
+  },
+  {
+   "id": "lpa_teror",
+   "cat": "monuments",
+   "name": "Teror y Basílica del Pino",
+   "icon": "⛪",
+   "lat": 28.05835,
+   "lng": -15.54695,
+   "desc": "Villa mariana de balcones canarios y santuario patronal."
+  },
+  {
+   "id": "lpa_tejeda",
+   "cat": "monuments",
+   "name": "Tejeda",
+   "icon": "🏘️",
+   "lat": 27.9956,
+   "lng": -15.6147,
+   "desc": "Pueblo de montaña considerado uno de los más bonitos de España."
+  },
+  {
+   "id": "lpa_betancuria",
+   "cat": "monuments",
+   "name": "Betancuria",
+   "icon": "🏛️",
+   "lat": 28.4254,
+   "lng": -14.057,
+   "desc": "Antigua capital de Fuerteventura, cargada de historia colonial."
+  },
+  {
+   "id": "lpa_fundacion_manrique",
+   "cat": "monuments",
+   "name": "Fundación César Manrique",
+   "icon": "🎨",
+   "lat": 29.0262,
+   "lng": -13.5583,
+   "desc": "Casa-museo del artista construida sobre burbujas volcánicas."
+  },
+  {
+   "id": "lpa_castillo_luz",
+   "cat": "monuments",
+   "name": "Castillo de la Luz",
+   "icon": "🏰",
+   "lat": 28.1429,
+   "lng": -15.4243,
+   "desc": "Fortaleza defensiva del siglo XVI junto al puerto."
+  },
+  {
+   "id": "lpa_iglesia_arucas",
+   "cat": "monuments",
+   "name": "Iglesia de San Juan Bautista (Arucas)",
+   "icon": "⛪",
+   "lat": 28.1194,
+   "lng": -15.5237,
+   "desc": "Imponente templo neogótico en piedra volcánica, la 'Catedral de Arucas'."
+  },
+  {
+   "id": "lpa_cenobio_valeron",
+   "cat": "monuments",
+   "name": "Cenobio de Valerón",
+   "icon": "🏺",
+   "lat": 28.1338,
+   "lng": -15.6178,
+   "desc": "Granero colectivo aborigen excavado en la roca volcánica."
+  },
+  {
+   "id": "lpa_canteras",
+   "cat": "nature",
+   "name": "Playa de Las Canteras",
+   "icon": "🏖️",
+   "lat": 28.1435,
+   "lng": -15.437,
+   "desc": "Gran playa urbana protegida por una barra natural de arrecife."
+  },
+  {
+   "id": "lpa_maspalomas",
+   "cat": "nature",
+   "name": "Dunas de Maspalomas",
+   "icon": "🏜️",
+   "lat": 27.7402,
+   "lng": -15.5823,
+   "desc": "Espectacular campo de dunas móviles junto al mar en el sur."
+  },
+  {
+   "id": "lpa_roque_nublo",
+   "cat": "nature",
+   "name": "Roque Nublo",
+   "icon": "🪨",
+   "lat": 27.9694,
+   "lng": -15.6151,
+   "desc": "Monolito volcánico símbolo de Gran Canaria a 1.800 m."
+  },
+  {
+   "id": "lpa_timanfaya",
+   "cat": "nature",
+   "name": "Parque Nacional de Timanfaya",
+   "icon": "🌋",
+   "lat": 28.9945,
+   "lng": -13.7562,
+   "desc": "Paisaje de erupciones recientes con demostraciones geotérmicas."
+  },
+  {
+   "id": "lpa_cueva_verdes",
+   "cat": "nature",
+   "name": "Cueva de los Verdes",
+   "icon": "🕳️",
+   "lat": 29.1565,
+   "lng": -13.4423,
+   "desc": "Tubo volcánico recorrible con una sorprendente ilusión óptica."
+  },
+  {
+   "id": "lpa_papagayo",
+   "cat": "nature",
+   "name": "Playas de Papagayo",
+   "icon": "🏖️",
+   "lat": 28.8332,
+   "lng": -13.7897,
+   "desc": "Calas vírgenes de aguas turquesa en el sur de Lanzarote."
+  },
+  {
+   "id": "lpa_corralejo",
+   "cat": "nature",
+   "name": "Dunas de Corralejo",
+   "icon": "🏜️",
+   "lat": 28.6847,
+   "lng": -13.8325,
+   "desc": "Extenso parque natural de dunas frente a Isla de Lobos."
+  },
+  {
+   "id": "lpa_cofete",
+   "cat": "nature",
+   "name": "Playa de Cofete",
+   "icon": "🏖️",
+   "lat": 28.1048,
+   "lng": -14.385,
+   "desc": "Playa salvaje e inmensa al pie de las montañas de Jandía."
+  },
+  {
+   "id": "lpa_isla_lobos",
+   "cat": "nature",
+   "name": "Isla de Lobos",
+   "icon": "🏝️",
+   "lat": 28.7501,
+   "lng": -13.8202,
+   "desc": "Islote protegido con senderos, calas y volcán entre dos islas."
+  },
+  {
+   "id": "lpa_puerto_mogan",
+   "cat": "ocio",
+   "name": "Puerto de Mogán",
+   "icon": "⛵",
+   "lat": 27.8154,
+   "lng": -15.7635,
+   "desc": "Pueblo marinero de canales apodado la 'pequeña Venecia'."
+  },
+  {
+   "id": "lpa_jameos_agua",
+   "cat": "ocio",
+   "name": "Jameos del Agua",
+   "icon": "🌊",
+   "lat": 29.158,
+   "lng": -13.4321,
+   "desc": "Espacio artístico de Manrique en un tubo volcánico con lago."
+  },
+  {
+   "id": "lpa_mirador_rio",
+   "cat": "ocio",
+   "name": "Mirador del Río",
+   "icon": "🌅",
+   "lat": 29.211,
+   "lng": -13.4801,
+   "desc": "Balcón panorámico de Manrique sobre el archipiélago Chinijo."
+  },
+  {
+   "id": "lpa_jardin_cactus",
+   "cat": "ocio",
+   "name": "Jardín de Cactus",
+   "icon": "🌵",
+   "lat": 29.0924,
+   "lng": -13.4778,
+   "desc": "Jardín escultórico con miles de cactus en un antiguo rofero."
+  },
+  {
+   "id": "lpa_playa_ingles",
+   "cat": "ocio",
+   "name": "Playa del Inglés",
+   "icon": "🏖️",
+   "lat": 27.755,
+   "lng": -15.5725,
+   "desc": "Gran resort costero del sur con playa, ocio y vida nocturna."
+  },
+  {
+   "id": "lpa_palmitos_park",
+   "cat": "ocio",
+   "name": "Palmitos Park",
+   "icon": "🦜",
+   "lat": 27.7928,
+   "lng": -15.6233,
+   "desc": "Parque zoológico y botánico con espectáculos de aves rapaces."
+  },
+  {
+   "id": "lpa_el_diablo",
+   "cat": "food",
+   "name": "Restaurante El Diablo (Timanfaya)",
+   "icon": "🍽️",
+   "lat": 28.9947,
+   "lng": -13.7557,
+   "desc": "Restaurante de Manrique que asa con el calor volcánico del suelo."
+  },
+  {
+   "id": "lpa_mercado_puerto",
+   "cat": "food",
+   "name": "Mercado del Puerto",
+   "icon": "🍤",
+   "lat": 28.1408,
+   "lng": -15.4289,
+   "desc": "Mercado de hierro del siglo XIX convertido en zona de tapas."
+  },
+  {
+   "id": "lpa_bodega_geria",
+   "cat": "food",
+   "name": "Bodega La Geria",
+   "icon": "🍷",
+   "lat": 28.9548,
+   "lng": -13.7235,
+   "desc": "Bodega histórica entre viñedos volcánicos con cata de malvasía."
+  },
+  {
+   "id": "lpa_tagoror",
+   "cat": "food",
+   "name": "Restaurante Tagoror (Guayadeque)",
+   "icon": "🍴",
+   "lat": 27.9058,
+   "lng": -15.4564,
+   "desc": "Restaurante excavado en cuevas del Barranco de Guayadeque."
+  },
+  {
+   "id": "lpa_mercado_vegueta",
+   "cat": "food",
+   "name": "Mercado de Vegueta",
+   "icon": "🛒",
+   "lat": 28.0998,
+   "lng": -15.4136,
+   "desc": "Mercado municipal histórico con productos locales y tapas."
+  }
+ ],
+ "extra": {
+  "lpa_vegueta": {
+   "id": "lpa_vegueta",
+   "d": "Vegueta es el barrio más antiguo de Las Palmas de Gran Canaria, fundado en 1478. Sus plazas, balcones de madera y edificios señoriales conforman un conjunto histórico-artístico que gira en torno a la Plaza de Santa Ana y la catedral.",
+   "d_en": "Vegueta is the oldest quarter of Las Palmas de Gran Canaria, founded in 1478. Its squares, wooden balconies and stately buildings form a listed historic quarter centred on Plaza de Santa Ana and the cathedral.",
+   "h": "Acceso libre 24 h; museos con horario propio",
+   "h_en": "Open access 24h; museums keep their own hours",
+   "i": "Ideal si te gusta la historia, la arquitectura colonial y pasear sin prisa.",
+   "i_en": "Ideal if you like history, colonial architecture and unhurried strolls."
+  },
+  "lpa_casa_colon": {
+   "id": "lpa_casa_colon",
+   "d": "Palacio de estilo canario donde, según la tradición, se alojó Cristóbal Colón. Hoy alberga un museo con maquetas de carabelas, cartografía y colecciones sobre la relación de las islas con el Nuevo Mundo.",
+   "d_en": "A Canarian-style palace where, by tradition, Christopher Columbus stayed. Today it houses a museum with caravel models, cartography and collections on the islands' links with the New World.",
+   "h": "Lun-sáb 10:00-18:00, dom 10:00-15:00",
+   "h_en": "Mon-Sat 10:00-18:00, Sun 10:00-15:00",
+   "i": "Ideal si te gusta la historia de los descubrimientos y los museos con encanto.",
+   "i_en": "Ideal if you like the history of exploration and characterful museums."
+  },
+  "lpa_catedral_santa_ana": {
+   "id": "lpa_catedral_santa_ana",
+   "d": "Principal templo de la diócesis, iniciado en 1497 y construido a lo largo de siglos, mezcla estilos gótico, renacentista y neoclásico. Un ascensor sube a la torre para disfrutar de vistas sobre los tejados de Vegueta.",
+   "d_en": "The diocese's main church, begun in 1497 and built over centuries, blends Gothic, Renaissance and neoclassical styles. A lift climbs the tower for views over Vegueta's rooftops.",
+   "h": "Lun-vie 10:00-16:30, sáb 10:00-13:30",
+   "h_en": "Mon-Fri 10:00-16:30, Sat 10:00-13:30",
+   "i": "Ideal si te gustan las catedrales históricas y las vistas desde las alturas.",
+   "i_en": "Ideal if you like historic cathedrals and views from up high."
+  },
+  "lpa_teror": {
+   "id": "lpa_teror",
+   "d": "Teror es el corazón religioso de Gran Canaria, con su Basílica de Nuestra Señora del Pino, patrona de la isla. Sus calles conservan preciosos balcones de madera y un ambiente festivo cada domingo de mercado.",
+   "d_en": "Teror is Gran Canaria's religious heart, home to the Basilica of Our Lady of the Pine, the island's patron. Its streets keep beautiful wooden balconies and a lively market atmosphere every Sunday.",
+   "h": "Basílica: a diario 9:00-19:00 aprox.",
+   "h_en": "Basilica: daily approx. 9:00-19:00",
+   "i": "Ideal si te gustan los pueblos con encanto y las tradiciones religiosas.",
+   "i_en": "Ideal if you like charming villages and religious traditions."
+  },
+  "lpa_tejeda": {
+   "id": "lpa_tejeda",
+   "d": "Enclavado en la caldera central de Gran Canaria, Tejeda ofrece casas blancas colgadas sobre barrancos, vistas al Roque Nublo y al Bentayga, y una gastronomía famosa por sus dulces de almendra.",
+   "d_en": "Set in Gran Canaria's central caldera, Tejeda offers white houses perched over ravines, views of Roque Nublo and Bentayga, and a cuisine famed for its almond sweets.",
+   "h": "Acceso libre 24 h",
+   "h_en": "Open access 24h",
+   "i": "Ideal si te gusta la montaña, los miradores y los pueblos pintorescos.",
+   "i_en": "Ideal if you like mountains, viewpoints and picturesque villages."
+  },
+  "lpa_betancuria": {
+   "id": "lpa_betancuria",
+   "d": "Fundada en 1404, Betancuria fue la primera capital de Fuerteventura. Su iglesia de Santa María, sus casonas y su entorno de montañas la convierten en una parada imprescindible del interior majorero.",
+   "d_en": "Founded in 1404, Betancuria was Fuerteventura's first capital. Its church of Santa María, old mansions and mountain setting make it an essential stop in the island's interior.",
+   "h": "Acceso libre 24 h; iglesia con horario propio",
+   "h_en": "Open access 24h; church keeps its own hours",
+   "i": "Ideal si te gusta la historia y los pueblos tranquilos del interior.",
+   "i_en": "Ideal if you like history and quiet inland villages."
+  },
+  "lpa_fundacion_manrique": {
+   "id": "lpa_fundacion_manrique",
+   "d": "En Tahíche, la antigua residencia de César Manrique aprovecha cinco burbujas volcánicas conectadas por túneles de lava. Hoy es un museo con obra propia y de artistas como Picasso o Miró, símbolo de la fusión entre arte y naturaleza.",
+   "d_en": "In Tahíche, César Manrique's former home makes use of five volcanic bubbles linked by lava tunnels. Now a museum with his own work and pieces by Picasso and Miró, it symbolises the fusion of art and nature.",
+   "h": "A diario 10:00-18:00",
+   "h_en": "Daily 10:00-18:00",
+   "i": "Ideal si te gusta el arte contemporáneo y la arquitectura singular.",
+   "i_en": "Ideal if you like contemporary art and striking architecture."
+  },
+  "lpa_castillo_luz": {
+   "id": "lpa_castillo_luz",
+   "d": "La fortificación más antigua de Gran Canaria, levantada para defender el puerto de piratas. Restaurada como espacio cultural, acoge la colección de arte Martín Chirino en un entorno ajardinado.",
+   "d_en": "Gran Canaria's oldest fortification, built to defend the port from pirates. Restored as a cultural venue, it hosts the Martín Chirino art collection in landscaped grounds.",
+   "h": "Mar-sáb 10:00-18:00, dom 10:00-14:00",
+   "h_en": "Tue-Sat 10:00-18:00, Sun 10:00-14:00",
+   "i": "Ideal si te gustan los castillos históricos y el arte contemporáneo.",
+   "i_en": "Ideal if you like historic castles and contemporary art."
+  },
+  "lpa_iglesia_arucas": {
+   "id": "lpa_iglesia_arucas",
+   "d": "Construida en piedra azul de Arucas a partir de 1909, esta iglesia neogótica destaca por sus torres puntiagudas y vidrieras, dominando el casco histórico de la ciudad del ron y las flores.",
+   "d_en": "Built in Arucas' blue stone from 1909, this neo-Gothic church stands out for its pointed towers and stained glass, dominating the old town of the city of rum and flowers.",
+   "h": "A diario 10:00-13:30 y 16:00-19:00 aprox.",
+   "h_en": "Daily approx. 10:00-13:30 and 16:00-19:00",
+   "i": "Ideal si te gusta la arquitectura neogótica y los cascos históricos.",
+   "i_en": "Ideal if you like neo-Gothic architecture and old towns."
+  },
+  "lpa_cenobio_valeron": {
+   "id": "lpa_cenobio_valeron",
+   "d": "Yacimiento prehispánico con casi 300 silos excavados por los antiguos canarios bajo un gran arco de toba. Servía para almacenar cereales de forma comunitaria y es uno de los conjuntos arqueológicos más notables de las islas.",
+   "d_en": "A pre-Hispanic site with nearly 300 silos dug by the ancient Canarians beneath a huge tuff arch. Used to store grain communally, it is one of the islands' most remarkable archaeological sites.",
+   "h": "Mié-dom 10:00-17:00",
+   "h_en": "Wed-Sun 10:00-17:00",
+   "i": "Ideal si te gusta la arqueología y la historia aborigen.",
+   "i_en": "Ideal if you like archaeology and aboriginal history."
+  },
+  "lpa_canteras": {
+   "id": "lpa_canteras",
+   "d": "Uno de los mejores arenales urbanos de Europa, con más de tres kilómetros de arena dorada y una barra rocosa (La Barra) que crea una piscina natural ideal para nadar y hacer snorkel junto al paseo marítimo.",
+   "d_en": "One of Europe's finest urban beaches, with over three kilometres of golden sand and a rocky bar (La Barra) forming a natural pool ideal for swimming and snorkelling by the promenade.",
+   "h": "Acceso libre 24 h",
+   "h_en": "Open access 24h",
+   "i": "Ideal si te gusta la playa, el snorkel y el ambiente de ciudad costera.",
+   "i_en": "Ideal if you like the beach, snorkelling and a coastal-city vibe."
+  },
+  "lpa_maspalomas": {
+   "id": "lpa_maspalomas",
+   "d": "Reserva natural especial con dunas de arena dorada que parecen un pequeño desierto sahariano frente al océano. Junto al histórico faro y la charca de Maspalomas, es uno de los paisajes más icónicos de Gran Canaria.",
+   "d_en": "A special nature reserve of golden dunes resembling a small Saharan desert facing the ocean. Beside the historic lighthouse and the Maspalomas lagoon, it is one of Gran Canaria's most iconic landscapes.",
+   "h": "Acceso libre 24 h; senderos señalizados",
+   "h_en": "Open access 24h; marked paths",
+   "i": "Ideal si te gusta la naturaleza, la fotografía y las puestas de sol.",
+   "i_en": "Ideal if you like nature, photography and sunsets."
+  },
+  "lpa_roque_nublo": {
+   "id": "lpa_roque_nublo",
+   "d": "Este roque de 80 metros de altura, sagrado para los antiguos canarios, corona el centro de la isla. Una sencilla caminata desde el aparcamiento de La Goleta lleva hasta su base, con vistas al Teide en días despejados.",
+   "d_en": "This 80-metre rock, sacred to the ancient Canarians, crowns the island's centre. An easy walk from the La Goleta car park reaches its base, with views of Mount Teide on clear days.",
+   "h": "Acceso libre 24 h; sendero de 1,5 km",
+   "h_en": "Open access 24h; 1.5 km trail",
+   "i": "Ideal si te gusta el senderismo y los paisajes volcánicos.",
+   "i_en": "Ideal if you like hiking and volcanic landscapes."
+  },
+  "lpa_timanfaya": {
+   "id": "lpa_timanfaya",
+   "d": "Formado por las erupciones de 1730-1736, este mar de lava y conos volcánicos se recorre en ruta guiada de guaguas. En el Islote de Hilario se muestran las Montañas del Fuego, con calor geotérmico a pocos metros de la superficie.",
+   "d_en": "Formed by the 1730-1736 eruptions, this sea of lava and volcanic cones is toured by guided coach. At Islote de Hilario the Fire Mountains reveal geothermal heat just metres below the surface.",
+   "h": "A diario 9:00-17:45 (última entrada 16:00)",
+   "h_en": "Daily 9:00-17:45 (last entry 16:00)",
+   "i": "Ideal si te gusta el vulcanismo y los paisajes de otro planeta.",
+   "i_en": "Ideal if you like volcanism and otherworldly landscapes."
+  },
+  "lpa_cueva_verdes": {
+   "id": "lpa_cueva_verdes",
+   "d": "Formada por la erupción del volcán de La Corona, esta galería subterránea de lava se visita a pie entre juegos de luz y una célebre ilusión óptica. Fue refugio de la población frente a los ataques piratas.",
+   "d_en": "Formed by the eruption of the La Corona volcano, this underground lava gallery is toured on foot amid plays of light and a famous optical illusion. It once sheltered locals from pirate raids.",
+   "h": "A diario 10:00-18:00 (última visita 17:00)",
+   "h_en": "Daily 10:00-18:00 (last tour 17:00)",
+   "i": "Ideal si te gusta la espeleología y los fenómenos volcánicos.",
+   "i_en": "Ideal if you like caving and volcanic phenomena."
+  },
+  "lpa_papagayo": {
+   "id": "lpa_papagayo",
+   "d": "Conjunto de calas protegidas dentro del Monumento Natural de Los Ajaches, con arena dorada, acantilados y aguas cristalinas. Su acceso por pista de tierra ha preservado su ambiente natural y tranquilo.",
+   "d_en": "A cluster of protected coves within the Los Ajaches Natural Monument, with golden sand, cliffs and crystal-clear water. Access by dirt track has preserved their natural, peaceful feel.",
+   "h": "Acceso libre; pista con peaje diurno",
+   "h_en": "Open access; toll dirt road by day",
+   "i": "Ideal si te gustan las calas vírgenes y el baño en aguas turquesa.",
+   "i_en": "Ideal if you like unspoilt coves and swimming in turquoise water."
+  },
+  "lpa_corralejo": {
+   "id": "lpa_corralejo",
+   "d": "El Parque Natural de Corralejo abarca kilómetros de dunas blancas y playas de aguas cristalinas en el norte de Fuerteventura, con vistas a la Isla de Lobos y a Lanzarote. Un paraíso para el baño y el kitesurf.",
+   "d_en": "Corralejo Natural Park spans kilometres of white dunes and clear-water beaches in northern Fuerteventura, with views of Isla de Lobos and Lanzarote. A paradise for swimming and kitesurfing.",
+   "h": "Acceso libre 24 h",
+   "h_en": "Open access 24h",
+   "i": "Ideal si te gusta la playa, el desierto y los deportes de viento.",
+   "i_en": "Ideal if you like beaches, desert scenery and wind sports."
+  },
+  "lpa_cofete": {
+   "id": "lpa_cofete",
+   "d": "Uno de los arenales más remotos y espectaculares de Canarias, con más de 12 km de arena virgen bajo el macizo de Jandía. Su acceso por pista sin asfaltar y sus fuertes corrientes la mantienen indómita.",
+   "d_en": "One of the Canaries' most remote and spectacular beaches, over 12 km of untouched sand beneath the Jandía massif. Its unpaved access and strong currents keep it untamed.",
+   "h": "Acceso libre 24 h; carretera de tierra",
+   "h_en": "Open access 24h; dirt road access",
+   "i": "Ideal si te gustan las playas salvajes y los paisajes remotos.",
+   "i_en": "Ideal if you like wild beaches and remote landscapes."
+  },
+  "lpa_isla_lobos": {
+   "id": "lpa_isla_lobos",
+   "d": "Pequeña isla deshabitada entre Fuerteventura y Lanzarote, dentro del parque natural de Corralejo. Se accede en barco desde Corralejo y ofrece senderos, la lagunita, el faro de Martiño y el ascenso a la Montaña de La Caldera.",
+   "d_en": "A small uninhabited island between Fuerteventura and Lanzarote, within the Corralejo natural park. Reached by boat from Corralejo, it offers trails, a small lagoon, the Martiño lighthouse and a climb up La Caldera.",
+   "h": "Acceso con permiso; barcos diurnos desde Corralejo",
+   "h_en": "Access by permit; daytime boats from Corralejo",
+   "i": "Ideal si te gusta el senderismo insular y la naturaleza protegida.",
+   "i_en": "Ideal if you like island hiking and protected nature."
+  },
+  "lpa_puerto_mogan": {
+   "id": "lpa_puerto_mogan",
+   "d": "Encantador puerto del suroeste de Gran Canaria, con casas blancas cubiertas de buganvillas, puentes sobre canales y un puerto deportivo. Su mercadillo, sus restaurantes y su playa lo hacen muy popular.",
+   "d_en": "A charming harbour in south-west Gran Canaria, with white houses draped in bougainvillea, canal bridges and a marina. Its market, restaurants and beach make it very popular.",
+   "h": "Acceso libre 24 h; mercadillo viernes",
+   "h_en": "Open access 24h; market on Fridays",
+   "i": "Ideal si te gusta el ambiente marinero y los pueblos con encanto.",
+   "i_en": "Ideal if you like a maritime atmosphere and charming villages."
+  },
+  "lpa_jameos_agua": {
+   "id": "lpa_jameos_agua",
+   "d": "Obra maestra de César Manrique dentro del tubo volcánico de La Corona, con un lago natural donde vive el cangrejo ciego endémico, jardines, piscina turquesa y un auditorio de acústica excepcional.",
+   "d_en": "A César Manrique masterpiece inside the La Corona lava tube, with a natural lake home to the endemic blind crab, gardens, a turquoise pool and an auditorium of exceptional acoustics.",
+   "h": "A diario 10:00-18:30; noches con horario especial",
+   "h_en": "Daily 10:00-18:30; special evening hours",
+   "i": "Ideal si te gusta el arte, la arquitectura y los espacios únicos.",
+   "i_en": "Ideal if you like art, architecture and unique spaces."
+  },
+  "lpa_mirador_rio": {
+   "id": "lpa_mirador_rio",
+   "d": "Integrado en un acantilado de 475 m en el norte de Lanzarote, este mirador diseñado por César Manrique ofrece vistas espectaculares sobre el estrecho de El Río, La Graciosa y las islas del archipiélago Chinijo.",
+   "d_en": "Set into a 475 m cliff in northern Lanzarote, this César Manrique-designed viewpoint offers spectacular views over the El Río strait, La Graciosa and the Chinijo archipelago.",
+   "h": "A diario 10:00-17:45",
+   "h_en": "Daily 10:00-17:45",
+   "i": "Ideal si te gustan los miradores y las vistas de vértigo.",
+   "i_en": "Ideal if you like viewpoints and vertiginous vistas."
+  },
+  "lpa_jardin_cactus": {
+   "id": "lpa_jardin_cactus",
+   "d": "Última gran obra de César Manrique, este anfiteatro ajardinado alberga más de 4.500 ejemplares de casi 500 especies de cactus, coronado por un molino restaurado. Un ejemplo perfecto de integración paisajística.",
+   "d_en": "César Manrique's last major work, this landscaped amphitheatre holds over 4,500 specimens of nearly 500 cactus species, crowned by a restored windmill. A perfect example of landscape integration.",
+   "h": "A diario 10:00-17:45",
+   "h_en": "Daily 10:00-17:45",
+   "i": "Ideal si te gustan los jardines botánicos y el diseño paisajístico.",
+   "i_en": "Ideal if you like botanical gardens and landscape design."
+  },
+  "lpa_playa_ingles": {
+   "id": "lpa_playa_ingles",
+   "d": "El corazón turístico del sur de Gran Canaria, con una amplia playa que enlaza con las dunas de Maspalomas, centros comerciales, terrazas y una animada oferta de ocio nocturno durante todo el año.",
+   "d_en": "The tourist heart of southern Gran Canaria, with a broad beach linking to the Maspalomas dunes, shopping centres, terraces and lively year-round nightlife.",
+   "h": "Acceso libre 24 h",
+   "h_en": "Open access 24h",
+   "i": "Ideal si te gusta el sol, las compras y el ambiente animado.",
+   "i_en": "Ideal if you like sun, shopping and a lively atmosphere."
+  },
+  "lpa_palmitos_park": {
+   "id": "lpa_palmitos_park",
+   "d": "Ubicado en un valle del sur de Gran Canaria, combina jardín botánico, delfinario, acuario y una gran colección de aves. Sus exhibiciones de loros y rapaces en vuelo libre son su gran atractivo familiar.",
+   "d_en": "Set in a valley in southern Gran Canaria, it combines a botanical garden, dolphinarium, aquarium and a large bird collection. Its free-flight parrot and raptor shows are the main family draw.",
+   "h": "A diario 10:00-18:00",
+   "h_en": "Daily 10:00-18:00",
+   "i": "Ideal si viajas en familia y te gustan los animales y la naturaleza.",
+   "i_en": "Ideal for families who like animals and nature."
+  },
+  "lpa_el_diablo": {
+   "id": "lpa_el_diablo",
+   "d": "Diseñado por César Manrique en el Islote de Hilario, dentro de Timanfaya, cocina sus carnes en una parrilla que aprovecha el calor geotérmico del volcán. Sus grandes ventanales ofrecen vistas al mar de lava.",
+   "d_en": "Designed by César Manrique on Islote de Hilario within Timanfaya, it grills its meats over the volcano's geothermal heat. Its large windows overlook the sea of lava.",
+   "h": "Comidas 12:00-15:30",
+   "h_en": "Lunch 12:00-15:30",
+   "i": "Ideal si te gusta la cocina a la brasa con una experiencia única.",
+   "i_en": "Ideal if you like grilled food with a one-of-a-kind experience."
+  },
+  "lpa_mercado_puerto": {
+   "id": "lpa_mercado_puerto",
+   "d": "Edificio de estructura de hierro inaugurado en 1891 junto al puerto de Las Palmas. Hoy combina puestos tradicionales con bares de tapas y cocina internacional, muy animado a la hora del aperitivo y los fines de semana.",
+   "d_en": "An iron-framed building opened in 1891 by the port of Las Palmas. Today it mixes traditional stalls with tapas bars and international cuisine, lively at aperitif time and weekends.",
+   "h": "Lun-dom, horario de tapas hasta la noche",
+   "h_en": "Mon-Sun, tapas hours into the evening",
+   "i": "Ideal si te gusta el tapeo y el ambiente de mercado.",
+   "i_en": "Ideal if you like tapas-hopping and a market atmosphere."
+  },
+  "lpa_bodega_geria": {
+   "id": "lpa_bodega_geria",
+   "d": "En pleno paisaje protegido de La Geria, esta bodega elabora vinos con uvas cultivadas en hoyos de ceniza volcánica protegidos por muretes de piedra. Ofrece visitas, catas y platos canarios frente al mar de viñas.",
+   "d_en": "In the heart of the protected La Geria landscape, this winery makes wine from grapes grown in volcanic-ash pits shielded by stone walls. It offers tours, tastings and Canarian dishes overlooking the vines.",
+   "h": "A diario 10:00-19:00 aprox.",
+   "h_en": "Daily approx. 10:00-19:00",
+   "i": "Ideal si te gusta el enoturismo y los paisajes volcánicos.",
+   "i_en": "Ideal if you like wine tourism and volcanic landscapes."
+  },
+  "lpa_tagoror": {
+   "id": "lpa_tagoror",
+   "d": "Comedor excavado en la roca del Barranco de Guayadeque, en Ingenio, donde se sirve cocina canaria tradicional como carne de cabra, papas arrugadas y garbanzas en un ambiente troglodita único.",
+   "d_en": "A dining room dug into the rock of the Guayadeque ravine, in Ingenio, serving traditional Canarian dishes such as goat meat, wrinkly potatoes and chickpea stew in a unique cave setting.",
+   "h": "Mar-dom, comidas; cierra lunes",
+   "h_en": "Tue-Sun, lunch; closed Mondays",
+   "i": "Ideal si te gusta la cocina canaria auténtica en un entorno singular.",
+   "i_en": "Ideal if you like authentic Canarian food in a striking setting."
+  },
+  "lpa_mercado_vegueta": {
+   "id": "lpa_mercado_vegueta",
+   "d": "Inaugurado en 1858, es el mercado más antiguo de la ciudad, junto a Vegueta. Reúne puestos de frutas, quesos, pescado y flores, además de kioscos donde probar productos canarios y tapear entre los locales.",
+   "d_en": "Opened in 1858, it is the city's oldest market, next to Vegueta. It gathers stalls of fruit, cheese, fish and flowers, plus kiosks to sample Canarian products and share tapas among locals.",
+   "h": "Lun-sáb mañanas; mejor temprano",
+   "h_en": "Mon-Sat mornings; best early",
+   "i": "Ideal si te gusta la gastronomía local y los mercados tradicionales.",
+   "i_en": "Ideal if you like local food and traditional markets."
+  }
+ },
+ "food": {
+  "lpa_el_diablo": {
+   "cuisine": "Canaria a la brasa / parrilla volcánica",
+   "price": "20–35 €",
+   "hours": "A diario 12:00-15:30"
+  },
+  "lpa_mercado_puerto": {
+   "cuisine": "Tapas canarias e internacionales, marisco",
+   "price": "10–25 €",
+   "hours": "A diario 9:00-24:00 aprox."
+  },
+  "lpa_bodega_geria": {
+   "cuisine": "Enoturismo, vinos malvasía y cocina canaria",
+   "price": "12–25 €",
+   "hours": "A diario 10:00-19:00"
+  },
+  "lpa_tagoror": {
+   "cuisine": "Cocina canaria tradicional (cabra, papas arrugadas)",
+   "price": "15–25 €",
+   "hours": "Mar-dom 12:00-17:00"
+  },
+  "lpa_mercado_vegueta": {
+   "cuisine": "Productos locales, quesos, pescado y tapas",
+   "price": "5–15 €",
+   "hours": "Lun-sáb 7:00-14:00 aprox."
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Las Palmas",
+   "items": [
+    {
+     "name": "Mojo canario (rojo y verde)",
+     "price": "3–8 €",
+     "desc": "Salsas típicas de ajo, pimienta y cilantro para acompañar las papas arrugadas."
+    },
+    {
+     "name": "Queso majorero / queso de Guía",
+     "price": "8–20 €",
+     "desc": "Quesos de cabra con Denominación de Origen, premiados internacionalmente."
+    },
+    {
+     "name": "Ron miel y Ron Arehucas",
+     "price": "10–25 €",
+     "desc": "Ron canario elaborado en Arucas, en versión clásica o con miel de caña."
+    },
+    {
+     "name": "Vino malvasía de Lanzarote",
+     "price": "10–25 €",
+     "desc": "Vinos volcánicos de La Geria con D.O. Lanzarote, secos y aromáticos."
+    },
+    {
+     "name": "Aloe vera canario",
+     "price": "5–20 €",
+     "desc": "Cremas y geles de aloe vera cultivado en las islas, ideal tras el sol."
+    },
+    {
+     "name": "Gofio",
+     "price": "3–7 €",
+     "desc": "Harina tostada ancestral de los guanches, base de la cocina canaria."
+    }
+   ],
+   "shops": [
+    "Mercado de Vegueta",
+    "Calle Mayor de Triana",
+    "Mercado del Puerto",
+    "El Corte Inglés (Avenida Mesa y López)"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "La guagua (autobús) es la forma más cómoda de moverse por la capital; Global conecta toda Gran Canaria y existen bonos de descuento.",
+   "Alquila coche para explorar el interior montañoso (Roque Nublo, Tejeda) y para recorrer Lanzarote y Fuerteventura a tu ritmo.",
+   "Protégete del sol y lleva agua: el clima es cálido todo el año, sobre todo en el sur y en las dunas de Maspalomas y Corralejo.",
+   "Reserva con antelación el Parque Nacional de Timanfaya y las visitas guiadas de los centros de César Manrique en temporada alta.",
+   "Prueba las papas arrugadas con mojo y los vinos volcánicos de La Geria; respeta las dunas caminando solo por los senderos marcados."
+  ],
+  "en": [
+   "The guagua (local bus) is the easiest way around the capital; Global links all of Gran Canaria and discount travel cards are available.",
+   "Rent a car to explore the mountainous interior (Roque Nublo, Tejeda) and to tour Lanzarote and Fuerteventura at your own pace.",
+   "Protect yourself from the sun and carry water: the climate is warm year-round, especially in the south and the Maspalomas and Corralejo dunes.",
+   "Book Timanfaya National Park and the César Manrique centre guided tours in advance during high season.",
+   "Try papas arrugadas with mojo and the volcanic wines of La Geria; protect the dunes by keeping to the marked paths only."
+  ]
+ },
+ "climate": {
+  "hi": [
+   21,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   27,
+   26,
+   24,
+   22
+  ],
+  "lo": [
+   15,
+   15,
+   16,
+   16,
+   17,
+   18,
+   19,
+   20,
+   20,
+   19,
+   18,
+   16
+  ]
+ },
+ "tr": {
+  "Casco fundacional de Las Palmas, con calles empedradas y casas coloniales.": "Founding old town of Las Palmas, with cobbled streets and colonial houses.",
+  "Museo sobre Colón y su escala en Canarias rumbo a América.": "Museum on Columbus and his Canary stopover on the way to the Americas.",
+  "Catedral gótica-neoclásica con mirador panorámico en su torre.": "Gothic-neoclassical cathedral with a panoramic viewpoint in its tower.",
+  "Villa mariana de balcones canarios y santuario patronal.": "Marian town of Canarian balconies and the island's patron shrine.",
+  "Pueblo de montaña considerado uno de los más bonitos de España.": "Mountain village rated among the most beautiful in Spain.",
+  "Antigua capital de Fuerteventura, cargada de historia colonial.": "Former capital of Fuerteventura, steeped in colonial history.",
+  "Casa-museo del artista construida sobre burbujas volcánicas.": "The artist's house-museum built over volcanic bubbles.",
+  "Fortaleza defensiva del siglo XVI junto al puerto.": "16th-century defensive fortress beside the harbour.",
+  "Imponente templo neogótico en piedra volcánica, la 'Catedral de Arucas'.": "Imposing neo-Gothic church in volcanic stone, the 'Arucas Cathedral'.",
+  "Granero colectivo aborigen excavado en la roca volcánica.": "Aboriginal communal granary carved into the volcanic rock.",
+  "Gran playa urbana protegida por una barra natural de arrecife.": "Large urban beach sheltered by a natural reef bar.",
+  "Espectacular campo de dunas móviles junto al mar en el sur.": "Spectacular field of shifting dunes by the sea in the south.",
+  "Monolito volcánico símbolo de Gran Canaria a 1.800 m.": "Volcanic monolith, Gran Canaria's emblem at 1,800 m.",
+  "Paisaje de erupciones recientes con demostraciones geotérmicas.": "Landscape of recent eruptions with geothermal demonstrations.",
+  "Tubo volcánico recorrible con una sorprendente ilusión óptica.": "Walkable lava tube with a surprising optical illusion.",
+  "Calas vírgenes de aguas turquesa en el sur de Lanzarote.": "Unspoilt turquoise coves in southern Lanzarote.",
+  "Extenso parque natural de dunas frente a Isla de Lobos.": "Vast natural park of dunes facing Isla de Lobos.",
+  "Playa salvaje e inmensa al pie de las montañas de Jandía.": "Wild, immense beach at the foot of the Jandía mountains.",
+  "Islote protegido con senderos, calas y volcán entre dos islas.": "Protected islet with trails, coves and a volcano between two islands.",
+  "Pueblo marinero de canales apodado la 'pequeña Venecia'.": "Fishing village of canals nicknamed 'Little Venice'.",
+  "Espacio artístico de Manrique en un tubo volcánico con lago.": "Manrique's art space in a lava tube with a lagoon.",
+  "Balcón panorámico de Manrique sobre el archipiélago Chinijo.": "Manrique's panoramic balcony over the Chinijo archipelago.",
+  "Jardín escultórico con miles de cactus en un antiguo rofero.": "Sculptural garden with thousands of cacti in a former quarry.",
+  "Gran resort costero del sur con playa, ocio y vida nocturna.": "Major coastal resort in the south with beach, leisure and nightlife.",
+  "Parque zoológico y botánico con espectáculos de aves rapaces.": "Zoo and botanical park with birds-of-prey shows.",
+  "Restaurante de Manrique que asa con el calor volcánico del suelo.": "Manrique's restaurant grilling over the volcano's ground heat.",
+  "Mercado de hierro del siglo XIX convertido en zona de tapas.": "19th-century iron market turned tapas hotspot.",
+  "Bodega histórica entre viñedos volcánicos con cata de malvasía.": "Historic winery among volcanic vineyards with malvasía tasting.",
+  "Restaurante excavado en cuevas del Barranco de Guayadeque.": "Restaurant carved into caves of the Guayadeque ravine.",
+  "Mercado municipal histórico con productos locales y tapas.": "Historic municipal market with local produce and tapas.",
+  "Las Palmas": "Las Palmas"
+ }
+}

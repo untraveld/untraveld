@@ -1,0 +1,702 @@
+{
+ "id": "malaga",
+ "name": "Málaga",
+ "country": "ES",
+ "center": [
+  36.72127,
+  -4.42034
+ ],
+ "pois": [
+  {
+   "id": "mal_alcazaba",
+   "cat": "monuments",
+   "name": "Alcazaba de Málaga",
+   "icon": "🏰",
+   "lat": 36.72132,
+   "lng": -4.41585,
+   "desc": "Fortaleza palaciega musulmana del siglo XI."
+  },
+  {
+   "id": "mal_catedral",
+   "cat": "monuments",
+   "name": "Catedral de Málaga (La Manquita)",
+   "icon": "⛪",
+   "lat": 36.71944,
+   "lng": -4.41972,
+   "desc": "Catedral renacentista con una torre inacabada."
+  },
+  {
+   "id": "mal_museo_picasso",
+   "cat": "monuments",
+   "name": "Museo Picasso Málaga",
+   "icon": "🖼️",
+   "lat": 36.72138,
+   "lng": -4.41757,
+   "desc": "Colección de Picasso en el Palacio de Buenavista."
+  },
+  {
+   "id": "mal_gibralfaro",
+   "cat": "monuments",
+   "name": "Castillo de Gibralfaro",
+   "icon": "🏯",
+   "lat": 36.72389,
+   "lng": -4.40972,
+   "desc": "Castillo con las mejores vistas de Málaga."
+  },
+  {
+   "id": "mal_teatro_romano",
+   "cat": "monuments",
+   "name": "Teatro Romano de Málaga",
+   "icon": "🏛️",
+   "lat": 36.72088,
+   "lng": -4.41618,
+   "desc": "Teatro romano del siglo I a los pies de la Alcazaba."
+  },
+  {
+   "id": "mal_puente_nuevo",
+   "cat": "monuments",
+   "name": "Puente Nuevo de Ronda",
+   "icon": "🌉",
+   "lat": 36.74176,
+   "lng": -5.16558,
+   "desc": "Puente monumental sobre el desfiladero del Tajo."
+  },
+  {
+   "id": "mal_plaza_toros_ronda",
+   "cat": "monuments",
+   "name": "Plaza de Toros de Ronda",
+   "icon": "🐂",
+   "lat": 36.74278,
+   "lng": -5.16667,
+   "desc": "Una de las plazas de toros más antiguas de España."
+  },
+  {
+   "id": "mal_dolmen_menga",
+   "cat": "monuments",
+   "name": "Dolmen de Menga (Antequera)",
+   "icon": "🗿",
+   "lat": 37.02472,
+   "lng": -4.54556,
+   "desc": "Megalito prehistórico, Patrimonio de la Humanidad."
+  },
+  {
+   "id": "mal_alcazaba_antequera",
+   "cat": "monuments",
+   "name": "Alcazaba de Antequera",
+   "icon": "🏰",
+   "lat": 37.01806,
+   "lng": -4.56194,
+   "desc": "Fortaleza árabe sobre la ciudad de Antequera."
+  },
+  {
+   "id": "mal_frigiliana",
+   "cat": "monuments",
+   "name": "Casco Antiguo de Frigiliana",
+   "icon": "🏘️",
+   "lat": 36.79444,
+   "lng": -3.89528,
+   "desc": "Pueblo blanco de calles empedradas de la Axarquía."
+  },
+  {
+   "id": "mal_mijas_pueblo",
+   "cat": "monuments",
+   "name": "Mijas Pueblo",
+   "icon": "🏘️",
+   "lat": 36.59583,
+   "lng": -4.63778,
+   "desc": "Pueblo blanco de montaña con vistas a la costa."
+  },
+  {
+   "id": "mal_marbella_casco",
+   "cat": "monuments",
+   "name": "Casco Antiguo de Marbella",
+   "icon": "🍊",
+   "lat": 36.51083,
+   "lng": -4.88528,
+   "desc": "Centro histórico en torno a la Plaza de los Naranjos."
+  },
+  {
+   "id": "mal_caminito_rey",
+   "cat": "nature",
+   "name": "Caminito del Rey",
+   "icon": "🥾",
+   "lat": 36.90944,
+   "lng": -4.77028,
+   "desc": "Pasarela colgada en el Desfiladero de los Gaitanes."
+  },
+  {
+   "id": "mal_torcal",
+   "cat": "nature",
+   "name": "El Torcal de Antequera",
+   "icon": "⛰️",
+   "lat": 36.9582,
+   "lng": -4.5407,
+   "desc": "Paraje kárstico de formaciones calizas únicas."
+  },
+  {
+   "id": "mal_cuevas_nerja",
+   "cat": "nature",
+   "name": "Cuevas de Nerja",
+   "icon": "🦇",
+   "lat": 36.757,
+   "lng": -3.8408,
+   "desc": "Grutas con formaciones y arte rupestre."
+  },
+  {
+   "id": "mal_tajo_ronda",
+   "cat": "nature",
+   "name": "Mirador del Tajo de Ronda",
+   "icon": "🏞️",
+   "lat": 36.74083,
+   "lng": -5.16528,
+   "desc": "Miradores sobre el cañón que parte Ronda."
+  },
+  {
+   "id": "mal_balcon_europa",
+   "cat": "nature",
+   "name": "Balcón de Europa (Nerja)",
+   "icon": "🌅",
+   "lat": 36.74444,
+   "lng": -3.87389,
+   "desc": "Mirador sobre el mar en el corazón de Nerja."
+  },
+  {
+   "id": "mal_malagueta",
+   "cat": "nature",
+   "name": "Playa de La Malagueta",
+   "icon": "🏖️",
+   "lat": 36.71583,
+   "lng": -4.40806,
+   "desc": "La playa urbana más emblemática de Málaga."
+  },
+  {
+   "id": "mal_muelle_uno",
+   "cat": "ocio",
+   "name": "Muelle Uno",
+   "icon": "⛵",
+   "lat": 36.71472,
+   "lng": -4.41611,
+   "desc": "Paseo portuario con tiendas, ocio y el Pompidou."
+  },
+  {
+   "id": "mal_soho",
+   "cat": "ocio",
+   "name": "Soho de Málaga",
+   "icon": "🎨",
+   "lat": 36.71361,
+   "lng": -4.42361,
+   "desc": "Barrio del arte urbano y los murales."
+  },
+  {
+   "id": "mal_puerto_banus",
+   "cat": "ocio",
+   "name": "Puerto Banús",
+   "icon": "🛥️",
+   "lat": 36.48611,
+   "lng": -4.95167,
+   "desc": "Puerto deportivo de lujo de Marbella."
+  },
+  {
+   "id": "mal_torremolinos",
+   "cat": "ocio",
+   "name": "Playa del Bajondillo (Torremolinos)",
+   "icon": "🏖️",
+   "lat": 36.62028,
+   "lng": -4.49889,
+   "desc": "Amplia playa y paseo animado de la Costa del Sol."
+  },
+  {
+   "id": "mal_fuengirola_bioparc",
+   "cat": "ocio",
+   "name": "Bioparc Fuengirola",
+   "icon": "🦍",
+   "lat": 36.54,
+   "lng": -4.62361,
+   "desc": "Zoológico de inmersión en plena ciudad."
+  },
+  {
+   "id": "mal_teleferico_benalmadena",
+   "cat": "ocio",
+   "name": "Teleférico de Benalmádena",
+   "icon": "🚡",
+   "lat": 36.60167,
+   "lng": -4.53194,
+   "desc": "Teleférico al Monte Calamorro con vistas de la costa."
+  },
+  {
+   "id": "mal_atarazanas",
+   "cat": "food",
+   "name": "Mercado Central de Atarazanas",
+   "icon": "🐟",
+   "lat": 36.71766,
+   "lng": -4.42308,
+   "desc": "Mercado histórico con puestos de tapas."
+  },
+  {
+   "id": "mal_el_pimpi",
+   "cat": "food",
+   "name": "Bodega El Pimpi",
+   "icon": "🍷",
+   "lat": 36.72111,
+   "lng": -4.41722,
+   "desc": "Bodega histórica de vino dulce y tapas."
+  },
+  {
+   "id": "mal_casa_aranda",
+   "cat": "food",
+   "name": "Casa Aranda",
+   "icon": "🍫",
+   "lat": 36.71833,
+   "lng": -4.4225,
+   "desc": "Churros con chocolate desde 1932."
+  },
+  {
+   "id": "mal_pedregalejo",
+   "cat": "food",
+   "name": "Chiringuitos de Pedregalejo",
+   "icon": "🍢",
+   "lat": 36.71889,
+   "lng": -4.38333,
+   "desc": "Espetos de sardinas en la playa de Pedregalejo."
+  },
+  {
+   "id": "mal_antigua_casa_guardia",
+   "cat": "food",
+   "name": "Antigua Casa de Guardia",
+   "icon": "🍾",
+   "lat": 36.71722,
+   "lng": -4.42056,
+   "desc": "La taberna de vinos más antigua de Málaga (1840)."
+  },
+  {
+   "id": "mal_los_marinos_jose",
+   "cat": "food",
+   "name": "Los Marinos José (Fuengirola)",
+   "icon": "🦐",
+   "lat": 36.53889,
+   "lng": -4.62889,
+   "desc": "Templo del marisco y pescado del día en Fuengirola."
+  }
+ ],
+ "extra": {
+  "mal_alcazaba": {
+   "id": "mal_alcazaba",
+   "d": "Una de las alcazabas mejor conservadas de España, con jardines, patios, fuentes y arcos de herradura escalonados sobre el monte, junto al Teatro Romano. Ofrece vistas espectaculares del puerto y la ciudad.",
+   "d_en": "One of the best-preserved Moorish citadels in Spain, with gardens, courtyards, fountains and horseshoe arches climbing the hill beside the Roman Theatre. It offers spectacular views over the port and the city.",
+   "h": "Media mañana, 1,5-2 horas",
+   "h_en": "Mid-morning, 1.5-2 hours",
+   "i": "Ideal si te gusta la historia andalusí y las vistas panorámicas.",
+   "i_en": "Ideal if you like Andalusi history and panoramic views."
+  },
+  "mal_catedral": {
+   "id": "mal_catedral",
+   "d": "Conocida como 'La Manquita' porque le falta la torre sur, esta catedral mezcla estilos renacentista y barroco. Destacan su coro, sus capillas y la posibilidad de subir a las cubiertas para ver la ciudad desde lo alto.",
+   "d_en": "Nicknamed 'La Manquita' (the one-armed lady) because its south tower was never finished, this cathedral blends Renaissance and Baroque styles. Highlights include its choir, chapels and rooftop tour with city views.",
+   "h": "Mañana o media tarde, 1 hora",
+   "h_en": "Morning or mid-afternoon, 1 hour",
+   "i": "Ideal si te gusta la arquitectura religiosa y subir a miradores.",
+   "i_en": "Ideal if you like religious architecture and rooftop viewpoints."
+  },
+  "mal_museo_picasso": {
+   "id": "mal_museo_picasso",
+   "d": "Ubicado en un palacio renacentista del siglo XVI, reúne más de 200 obras del genio malagueño donadas por su familia, abarcando toda su trayectoria. Incluye restos arqueológicos fenicios y romanos en el sótano.",
+   "d_en": "Set in a 16th-century Renaissance palace, it gathers more than 200 works by Málaga's most famous son, donated by his family and spanning his whole career. Phoenician and Roman remains are displayed in the basement.",
+   "h": "Mañana, 1,5 horas",
+   "h_en": "Morning, 1.5 hours",
+   "i": "Ideal si te gusta el arte moderno y Picasso.",
+   "i_en": "Ideal if you like modern art and Picasso."
+  },
+  "mal_gibralfaro": {
+   "id": "mal_gibralfaro",
+   "d": "Fortaleza del siglo XIV conectada con la Alcazaba por una muralla. Su camino de ronda ofrece panorámicas de 360 grados sobre la ciudad, el puerto y la plaza de toros de La Malagueta.",
+   "d_en": "A 14th-century fortress linked to the Alcazaba by a walled corridor. Its rampart walk offers 360-degree views over the city, the port and the La Malagueta bullring.",
+   "h": "Atardecer, 1 hora",
+   "h_en": "Sunset, 1 hour",
+   "i": "Ideal si te gustan las vistas y las caminatas con historia.",
+   "i_en": "Ideal if you like viewpoints and historic walks."
+  },
+  "mal_teatro_romano": {
+   "id": "mal_teatro_romano",
+   "d": "Descubierto en 1951, es el monumento más antiguo de Málaga y sigue usándose para representaciones. Junto a él, un centro de interpretación explica la Malaca romana. La entrada es gratuita.",
+   "d_en": "Rediscovered in 1951, it is Málaga's oldest monument and is still used for performances. An interpretation centre beside it explains Roman Malaca. Admission is free.",
+   "h": "Cualquier momento, 30-45 min",
+   "h_en": "Any time, 30-45 min",
+   "i": "Ideal si te gusta la arqueología romana.",
+   "i_en": "Ideal if you like Roman archaeology."
+  },
+  "mal_puente_nuevo": {
+   "id": "mal_puente_nuevo",
+   "d": "Icono de Ronda, este puente del siglo XVIII salva 98 metros de altura sobre el río Guadalevín, uniendo el casco antiguo con el barrio del Mercadillo. En su interior alberga una pequeña sala de exposiciones.",
+   "d_en": "The icon of Ronda, this 18th-century bridge spans a 98-metre-deep gorge over the Guadalevín river, linking the old town with the Mercadillo quarter. It houses a small exhibition room inside.",
+   "h": "Mañana o atardecer, 1 hora",
+   "h_en": "Morning or sunset, 1 hour",
+   "i": "Ideal si te gustan los paisajes de vértigo y la ingeniería histórica.",
+   "i_en": "Ideal if you like dramatic scenery and historic engineering."
+  },
+  "mal_plaza_toros_ronda": {
+   "id": "mal_plaza_toros_ronda",
+   "d": "Inaugurada en 1785, es cuna del toreo moderno a pie y una joya arquitectónica de piedra con doble galería de arcos. Alberga el Museo Taurino y una escuela de equitación.",
+   "d_en": "Opened in 1785, it is a cradle of modern bullfighting on foot and an architectural gem in stone with a double gallery of arches. It houses the Bullfighting Museum and a riding school.",
+   "h": "Mañana, 1 hora",
+   "h_en": "Morning, 1 hour",
+   "i": "Ideal si te gusta la historia y la arquitectura singular.",
+   "i_en": "Ideal if you like history and distinctive architecture."
+  },
+  "mal_dolmen_menga": {
+   "id": "mal_dolmen_menga",
+   "d": "Con más de 6.000 años, es uno de los mayores dólmenes de Europa. Sus enormes losas, una de casi 180 toneladas, forman una cámara alineada con la Peña de los Enamorados. Forma parte del Conjunto de los Dólmenes de Antequera.",
+   "d_en": "Over 6,000 years old, it is one of Europe's largest dolmens. Its huge slabs, one weighing nearly 180 tonnes, form a chamber aligned with the Peña de los Enamorados rock. It is part of the Antequera Dolmens Site.",
+   "h": "Mañana, 1 hora (con El Romeral)",
+   "h_en": "Morning, 1 hour (with El Romeral)",
+   "i": "Ideal si te gusta la prehistoria y la arqueología.",
+   "i_en": "Ideal if you like prehistory and archaeology."
+  },
+  "mal_alcazaba_antequera": {
+   "id": "mal_alcazaba_antequera",
+   "d": "Conjunto amurallado del siglo XIV en lo alto del casco histórico, con torres, jardines y un magnífico mirador de la ciudad y la Peña de los Enamorados. Junto a ella se alza la Colegiata renacentista de Santa María.",
+   "d_en": "A 14th-century walled complex atop the old town, with towers, gardens and a magnificent viewpoint over the city and the Peña de los Enamorados. The Renaissance Collegiate Church of Santa María stands beside it.",
+   "h": "Media mañana, 1 hora",
+   "h_en": "Mid-morning, 1 hour",
+   "i": "Ideal si te gustan los castillos y las vistas del interior.",
+   "i_en": "Ideal if you like castles and inland views."
+  },
+  "mal_frigiliana": {
+   "id": "mal_frigiliana",
+   "d": "Considerado uno de los pueblos más bonitos de España, su barrio morisco es un laberinto de callejuelas blancas, macetas de flores y azulejos. Ofrece vistas al mar y una destilería histórica de miel de caña.",
+   "d_en": "Regarded as one of Spain's prettiest villages, its Moorish quarter is a maze of white alleys, flower pots and ceramic tiles. It offers sea views and a historic sugar-cane honey distillery.",
+   "h": "Media tarde, 2 horas",
+   "h_en": "Mid-afternoon, 2 hours",
+   "i": "Ideal si te gustan los pueblos blancos y la fotografía.",
+   "i_en": "Ideal if you like white villages and photography."
+  },
+  "mal_mijas_pueblo": {
+   "id": "mal_mijas_pueblo",
+   "d": "Encaramado en la sierra sobre Fuengirola, es famoso por sus casas encaladas, sus miradores sobre el mar y sus tradicionales 'burro-taxis'. Cuenta con una plaza de toros ovalada y jardines colgantes.",
+   "d_en": "Perched on the sierra above Fuengirola, it is famous for its whitewashed houses, its sea-view balconies and its traditional 'burro-taxis' (donkey taxis). It has an oval bullring and hanging gardens.",
+   "h": "Media tarde, 2 horas",
+   "h_en": "Mid-afternoon, 2 hours",
+   "i": "Ideal si te gustan los pueblos con encanto y las panorámicas.",
+   "i_en": "Ideal if you like charming villages and panoramic views."
+  },
+  "mal_marbella_casco": {
+   "id": "mal_marbella_casco",
+   "d": "El corazón antiguo de Marbella conserva calles empedradas, casas encaladas y la renacentista Plaza de los Naranjos, con su ayuntamiento y su ermita. Un contraste tranquilo con el glamour de la costa.",
+   "d_en": "Marbella's old heart preserves cobbled streets, whitewashed houses and the Renaissance Plaza de los Naranjos, with its town hall and chapel. A calm contrast to the glamour of the coast.",
+   "h": "Media tarde, 1,5 horas",
+   "h_en": "Mid-afternoon, 1.5 hours",
+   "i": "Ideal si te gusta pasear por cascos históricos con encanto.",
+   "i_en": "Ideal if you like strolling through charming old towns."
+  },
+  "mal_caminito_rey": {
+   "id": "mal_caminito_rey",
+   "d": "Sendero lineal de unos 8 km (7,7 km) con pasarelas de madera ancladas a paredes verticales sobre el río Guadalhorce, a más de 100 metros de altura. Antes considerado el sendero más peligroso del mundo, hoy es seguro y requiere reserva previa.",
+   "d_en": "A linear trail of about 8 km with wooden walkways bolted to vertical cliffs above the Guadalhorce river, more than 100 metres up. Once called the world's most dangerous path, it is now safe and requires advance booking.",
+   "h": "Mañana temprano, 3-4 horas",
+   "h_en": "Early morning, 3-4 hours",
+   "i": "Ideal si te gusta el senderismo y las emociones fuertes.",
+   "i_en": "Ideal if you like hiking and a thrilling experience."
+  },
+  "mal_torcal": {
+   "id": "mal_torcal",
+   "d": "Reserva natural con uno de los paisajes kársticos más espectaculares de Europa, esculpido por la erosión durante millones de años. Cuenta con senderos señalizados, un centro de visitantes y un observatorio astronómico.",
+   "d_en": "A nature reserve with one of Europe's most spectacular karst landscapes, carved by erosion over millions of years. It has waymarked trails, a visitor centre and an astronomical observatory.",
+   "h": "Mañana, 2-3 horas",
+   "h_en": "Morning, 2-3 hours",
+   "i": "Ideal si te gusta la geología y el senderismo.",
+   "i_en": "Ideal if you like geology and hiking."
+  },
+  "mal_cuevas_nerja": {
+   "id": "mal_cuevas_nerja",
+   "d": "Descubiertas en 1959, contienen la columna estalagmítica más grande del mundo y pinturas rupestres prehistóricas. Sus enormes salas acogen conciertos en verano en un ambiente natural único.",
+   "d_en": "Discovered in 1959, they contain the world's largest stalagmitic column and prehistoric cave paintings. Their vast chambers host summer concerts in a unique natural setting.",
+   "h": "Mañana, 1 hora",
+   "h_en": "Morning, 1 hour",
+   "i": "Ideal si te gustan las cuevas y la geología subterránea.",
+   "i_en": "Ideal if you like caves and underground geology."
+  },
+  "mal_tajo_ronda": {
+   "id": "mal_tajo_ronda",
+   "d": "Desde los balcones del Tajo, como el mirador de Aldehuela y los Jardines de Cuenca, se contempla el desfiladero de casi 100 metros, el Puente Nuevo y el valle circundante con sus fincas y sierras.",
+   "d_en": "From the Tajo balconies, such as the Aldehuela viewpoint and the Cuenca Gardens, you can take in the nearly 100-metre gorge, the New Bridge and the surrounding valley with its farmland and mountains.",
+   "h": "Atardecer, 45 min",
+   "h_en": "Sunset, 45 min",
+   "i": "Ideal si te gustan los paisajes espectaculares y la fotografía.",
+   "i_en": "Ideal if you like spectacular scenery and photography."
+  },
+  "mal_balcon_europa": {
+   "id": "mal_balcon_europa",
+   "d": "Paseo peatonal sobre un antiguo baluarte que se adentra en el Mediterráneo, con palmeras y vistas de acantilados y calas. Es el punto de encuentro de Nerja y rodea el casco antiguo lleno de terrazas.",
+   "d_en": "A pedestrian promenade on a former bastion that juts into the Mediterranean, lined with palms and views of cliffs and coves. It is Nerja's meeting point, surrounded by an old town full of terraces.",
+   "h": "Atardecer, 45 min",
+   "h_en": "Sunset, 45 min",
+   "i": "Ideal si te gustan las vistas al mar y el ambiente de pueblo costero.",
+   "i_en": "Ideal if you like sea views and a coastal-town atmosphere."
+  },
+  "mal_malagueta": {
+   "id": "mal_malagueta",
+   "d": "Playa de arena oscura junto al centro, con paseo marítimo, chiringuitos y el famoso cartel de letras gigantes. Ideal para un baño rápido, tomar el sol o comer un espeto sin salir de la ciudad.",
+   "d_en": "A dark-sand beach next to the centre, with a promenade, beach bars and the famous giant lettered sign. Perfect for a quick swim, sunbathing or eating an espeto without leaving the city.",
+   "h": "Mediodía o tarde, flexible",
+   "h_en": "Midday or afternoon, flexible",
+   "i": "Ideal si te gusta la playa urbana y el ambiente local.",
+   "i_en": "Ideal if you like a city beach and local atmosphere."
+  },
+  "mal_muelle_uno": {
+   "id": "mal_muelle_uno",
+   "d": "Zona comercial y de ocio a pie de puerto, con terrazas, tiendas, un mercadillo de arte y el Centre Pompidou Málaga bajo su cubo de colores. Desde el paseo de la Farola hay bonitas vistas del faro y la ciudad.",
+   "d_en": "A shopping and leisure area right on the harbour, with terraces, shops, an art market and the Centre Pompidou Málaga under its colourful cube. The Farola promenade offers lovely views of the lighthouse and city.",
+   "h": "Tarde y noche, 2 horas",
+   "h_en": "Afternoon and evening, 2 hours",
+   "i": "Ideal si te gusta pasear, comprar y el arte contemporáneo.",
+   "i_en": "Ideal if you like strolling, shopping and contemporary art."
+  },
+  "mal_soho": {
+   "id": "mal_soho",
+   "d": "El 'Barrio de las Artes' se ha convertido en una galería al aire libre con grandes murales de artistas internacionales como Obey y D*Face, además de galerías, cafés de diseño y el Teatro del Soho.",
+   "d_en": "The 'Arts District' has become an open-air gallery with large murals by international artists such as Obey and D*Face, alongside galleries, design cafés and the Soho Theatre.",
+   "h": "Tarde, 1-1,5 horas",
+   "h_en": "Afternoon, 1-1.5 hours",
+   "i": "Ideal si te gusta el arte urbano y el ambiente alternativo.",
+   "i_en": "Ideal if you like street art and an alternative vibe."
+  },
+  "mal_puerto_banus": {
+   "id": "mal_puerto_banus",
+   "d": "El puerto deportivo más glamuroso de la Costa del Sol, con yates de lujo, coches deportivos, boutiques de alta gama y terrazas frente al mar. Es sinónimo del turismo exclusivo de Marbella.",
+   "d_en": "The most glamorous marina on the Costa del Sol, with luxury yachts, sports cars, high-end boutiques and seafront terraces. It is a byword for Marbella's exclusive tourism.",
+   "h": "Atardecer y noche, 2 horas",
+   "h_en": "Sunset and evening, 2 hours",
+   "i": "Ideal si te gusta el lujo, el shopping y el ambiente nocturno.",
+   "i_en": "Ideal if you like luxury, shopping and nightlife."
+  },
+  "mal_torremolinos": {
+   "id": "mal_torremolinos",
+   "d": "Una de las playas clásicas del turismo de sol y playa, con largo paseo marítimo que conecta con La Carihuela, barrio pesquero famoso por sus chiringuitos y su pescaíto frito. Ambiente familiar y muchos servicios.",
+   "d_en": "One of the classic sun-and-beach resorts, with a long promenade linking to La Carihuela, a former fishing quarter famous for its beach bars and fried fish. Family-friendly with plenty of services.",
+   "h": "Todo el día, flexible",
+   "h_en": "All day, flexible",
+   "i": "Ideal si te gustan las playas amplias y el ambiente turístico.",
+   "i_en": "Ideal if you like wide beaches and a resort atmosphere."
+  },
+  "mal_fuengirola_bioparc": {
+   "id": "mal_fuengirola_bioparc",
+   "d": "Parque de fauna que recrea hábitats tropicales de Madagascar, África ecuatorial e Indo-Pacífico, sin barreras visibles. Alberga gorilas, tigres, lémures y aves en un entorno de gran densidad vegetal.",
+   "d_en": "A wildlife park that recreates the tropical habitats of Madagascar, equatorial Africa and the Indo-Pacific with no visible barriers. It houses gorillas, tigers, lemurs and birds amid dense vegetation.",
+   "h": "Mañana o tarde, 2-3 horas",
+   "h_en": "Morning or afternoon, 2-3 hours",
+   "i": "Ideal si viajas en familia o te gustan los animales.",
+   "i_en": "Ideal if you travel with family or like animals."
+  },
+  "mal_teleferico_benalmadena": {
+   "id": "mal_teleferico_benalmadena",
+   "d": "Sube en unos 15 minutos hasta los 769 metros del Monte Calamorro, con panorámicas de la bahía de Málaga, la Costa del Sol y, en días claros, hasta Gibraltar y África. Arriba hay rutas de senderismo y exhibiciones de aves rapaces.",
+   "d_en": "In about 15 minutes it climbs to the 769-metre summit of Mount Calamorro, with panoramas of the Bay of Málaga, the Costa del Sol and, on clear days, as far as Gibraltar and Africa. At the top there are hiking trails and birds-of-prey displays.",
+   "h": "Mañana o atardecer, 2 horas",
+   "h_en": "Morning or sunset, 2 hours",
+   "i": "Ideal si te gustan las vistas panorámicas sin esfuerzo.",
+   "i_en": "Ideal if you like panoramic views without the effort."
+  },
+  "mal_atarazanas": {
+   "id": "mal_atarazanas",
+   "d": "Antiguo astillero nazarí reconvertido en mercado, con una monumental portada de mármol y una gran vidriera. Entre sus puestos de pescado, verduras y frutos secos hay bares donde tapear producto fresco recién comprado.",
+   "d_en": "A former Nasrid shipyard turned market, with a monumental marble gateway and a large stained-glass window. Among its fish, vegetable and dried-fruit stalls are bars serving tapas of freshly bought produce.",
+   "h": "Mediodía, 1 hora",
+   "h_en": "Midday, 1 hour",
+   "i": "Ideal si te gusta el ambiente de mercado y el producto local.",
+   "i_en": "Ideal if you like a market atmosphere and local produce."
+  },
+  "mal_el_pimpi": {
+   "id": "mal_el_pimpi",
+   "d": "Institución malagueña junto al Teatro Romano, con patios andaluces, barricas firmadas por personajes ilustres y una terraza con vistas a la Alcazaba. Famosa por su vino dulce de Málaga y su cocina tradicional.",
+   "d_en": "A Málaga institution beside the Roman Theatre, with Andalusian courtyards, barrels signed by famous figures and a terrace overlooking the Alcazaba. Renowned for its sweet Málaga wine and traditional cuisine.",
+   "h": "Almuerzo o tarde-noche",
+   "h_en": "Lunch or evening",
+   "i": "Ideal si te gusta el vino dulce y el ambiente típico.",
+   "i_en": "Ideal if you like sweet wine and a typical atmosphere."
+  },
+  "mal_casa_aranda": {
+   "id": "mal_casa_aranda",
+   "d": "Clásico malagueño en un callejón junto al Mercado de Atarazanas, con varias terrazas y camareros de toda la vida. Su especialidad son los churros recién hechos con chocolate espeso, un desayuno imprescindible.",
+   "d_en": "A Málaga classic in an alley beside the Atarazanas Market, with several terraces and lifelong waiters. Its speciality is freshly made churros with thick chocolate, an essential breakfast.",
+   "h": "Desayuno o merienda",
+   "h_en": "Breakfast or afternoon snack",
+   "i": "Ideal si te gustan los dulces y las tradiciones locales.",
+   "i_en": "Ideal if you like sweets and local traditions."
+  },
+  "mal_pedregalejo": {
+   "id": "mal_pedregalejo",
+   "d": "Antiguo barrio de pescadores al este de la capital, con un paseo marítimo lleno de chiringuitos que asan espetos de sardinas en barcas con leña. El mejor lugar para probar el pescaíto malagueño frente al mar.",
+   "d_en": "A former fishing quarter east of the city, with a promenade full of beach bars grilling sardine skewers over wood fires in old boats. The best place to try Málaga's seafood by the sea.",
+   "h": "Almuerzo o atardecer",
+   "h_en": "Lunch or sunset",
+   "i": "Ideal si te gusta el marisco y el ambiente de playa.",
+   "i_en": "Ideal if you like seafood and a beach atmosphere."
+  },
+  "mal_antigua_casa_guardia": {
+   "id": "mal_antigua_casa_guardia",
+   "d": "Fundada en 1840, conserva su barra corrida de madera donde el vino se sirve directamente de las barricas y la cuenta se apunta con tiza. Un lugar auténtico para probar los vinos dulces y generosos de Málaga.",
+   "d_en": "Founded in 1840, it keeps its long wooden bar where wine is poured straight from the barrels and the bill is chalked on the counter. An authentic spot to sample Málaga's sweet and fortified wines.",
+   "h": "Aperitivo mediodía o tarde",
+   "h_en": "Aperitif at midday or evening",
+   "i": "Ideal si te gustan los vinos tradicionales y las tabernas con historia.",
+   "i_en": "Ideal if you like traditional wines and historic taverns."
+  },
+  "mal_los_marinos_jose": {
+   "id": "mal_los_marinos_jose",
+   "d": "Reconocido chiringuito frente al mar en Fuengirola, famoso por servir pescado y marisco fresquísimo de lonjas locales, sin carta fija: se elige según la captura del día. Referencia gastronómica de la Costa del Sol.",
+   "d_en": "A renowned seafront chiringuito in Fuengirola, famous for serving the freshest fish and shellfish from local markets, with no fixed menu: you choose from the day's catch. A gastronomic landmark of the Costa del Sol.",
+   "h": "Almuerzo (reserva recomendada)",
+   "h_en": "Lunch (booking recommended)",
+   "i": "Ideal si te gusta el marisco de máxima calidad.",
+   "i_en": "Ideal if you like top-quality seafood."
+  }
+ },
+ "food": {
+  "mal_atarazanas": {
+   "cuisine": "Tapas y productos frescos",
+   "price": "8–20 €",
+   "hours": "Lun-Sáb 08:00-15:00"
+  },
+  "mal_el_pimpi": {
+   "cuisine": "Cocina andaluza tradicional",
+   "price": "20–35 €",
+   "hours": "Todos los días 12:00-24:00"
+  },
+  "mal_casa_aranda": {
+   "cuisine": "Churros y chocolate, desayunos",
+   "price": "3–8 €",
+   "hours": "Todos los días 08:00-13:00 y 17:00-21:00"
+  },
+  "mal_pedregalejo": {
+   "cuisine": "Pescaíto y espetos a la brasa",
+   "price": "15–30 €",
+   "hours": "Todos los días 12:00-24:00"
+  },
+  "mal_antigua_casa_guardia": {
+   "cuisine": "Vinos de Málaga y mariscos",
+   "price": "5–15 €",
+   "hours": "Lun-Sáb 10:00-22:00"
+  },
+  "mal_los_marinos_jose": {
+   "cuisine": "Marisco y pescado fresco",
+   "price": "40–70 €",
+   "hours": "Mar-Dom 13:00-16:00 y 20:00-23:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Málaga",
+   "items": [
+    {
+     "name": "Vino dulce de Málaga (moscatel)",
+     "price": "8–20 €",
+     "desc": "Vino dulce con Denominación de Origen, elaborado con uva moscatel y Pedro Ximénez."
+    },
+    {
+     "name": "Pasas de Málaga",
+     "price": "4–10 €",
+     "desc": "Uvas pasas de moscatel de la Axarquía, secadas al sol, con DOP."
+    },
+    {
+     "name": "Biznaga malagueña",
+     "price": "3–8 €",
+     "desc": "Ramillete artesanal de jazmín sobre una penca de cardo, símbolo floral de Málaga."
+    },
+    {
+     "name": "Aceite de oliva virgen extra",
+     "price": "6–15 €",
+     "desc": "Aceites de la Axarquía y del interior malagueño, de gran calidad."
+    },
+    {
+     "name": "Cerámica andaluza",
+     "price": "10–30 €",
+     "desc": "Azulejos, platos y piezas pintadas a mano en talleres de los pueblos blancos."
+    }
+   ],
+   "shops": [
+    "Mercado Central de Atarazanas",
+    "Antigua Casa de Guardia (Alameda Principal)",
+    "Tiendas del centro histórico y calle Larios",
+    "Talleres artesanos de Frigiliana y Mijas"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Reserva las entradas del Caminito del Rey con bastante antelación (semanas antes en temporada alta): las plazas se agotan y no se venden en taquilla el mismo día.",
+   "Lleva calzado cómodo para el casco histórico de Málaga y los pueblos empedrados como Frigiliana y Mijas.",
+   "Evita las horas centrales del verano (12:00-17:00) para las visitas al aire libre; el sol de la Costa del Sol es intenso.",
+   "Prueba el espeto de sardinas en los chiringuitos de la playa, especialmente al atardecer en Pedregalejo.",
+   "Muévete en tren de Cercanías o autobús entre la capital, Torremolinos y Fuengirola para evitar el tráfico y los problemas de aparcamiento."
+  ],
+  "en": [
+   "Book your Caminito del Rey tickets well in advance (weeks ahead in high season): slots sell out and there are no same-day ticket sales at the entrance.",
+   "Wear comfortable shoes for Málaga's old town and the cobbled hill villages such as Frigiliana and Mijas.",
+   "Avoid the midday hours in summer (12:00-17:00) for outdoor visits; the Costa del Sol sun is intense.",
+   "Try the espeto de sardinas (skewered grilled sardines) at the beach chiringuitos, especially at sunset in Pedregalejo.",
+   "Use the Cercanías train or buses between the capital, Torremolinos and Fuengirola to avoid traffic and parking hassles."
+  ]
+ },
+ "climate": {
+  "hi": [
+   17,
+   18,
+   20,
+   21,
+   24,
+   28,
+   30,
+   31,
+   28,
+   24,
+   20,
+   17
+  ],
+  "lo": [
+   8,
+   9,
+   10,
+   12,
+   15,
+   18,
+   21,
+   21,
+   19,
+   15,
+   12,
+   9
+  ]
+ },
+ "tr": {
+  "Fortaleza palaciega musulmana del siglo XI.": "11th-century Moorish palace-fortress.",
+  "Catedral renacentista con una torre inacabada.": "Renaissance cathedral with one unfinished tower.",
+  "Colección de Picasso en el Palacio de Buenavista.": "Picasso collection in the Buenavista Palace.",
+  "Castillo con las mejores vistas de Málaga.": "Hilltop castle with the best views of Málaga.",
+  "Teatro romano del siglo I a los pies de la Alcazaba.": "1st-century Roman theatre below the Alcazaba.",
+  "Puente monumental sobre el desfiladero del Tajo.": "Monumental bridge over the Tajo gorge.",
+  "Una de las plazas de toros más antiguas de España.": "One of the oldest bullrings in Spain.",
+  "Megalito prehistórico, Patrimonio de la Humanidad.": "Prehistoric megalith, a UNESCO World Heritage Site.",
+  "Fortaleza árabe sobre la ciudad de Antequera.": "Moorish fortress overlooking Antequera.",
+  "Pueblo blanco de calles empedradas de la Axarquía.": "Whitewashed village with cobbled streets in the Axarquía.",
+  "Pueblo blanco de montaña con vistas a la costa.": "White mountain village overlooking the coast.",
+  "Centro histórico en torno a la Plaza de los Naranjos.": "Historic centre around the Orange Square.",
+  "Pasarela colgada en el Desfiladero de los Gaitanes.": "Walkway clinging to the Gaitanes Gorge.",
+  "Paraje kárstico de formaciones calizas únicas.": "Karst landscape of unique limestone formations.",
+  "Grutas con formaciones y arte rupestre.": "Caverns with rock formations and cave art.",
+  "Miradores sobre el cañón que parte Ronda.": "Viewpoints over the canyon that splits Ronda.",
+  "Mirador sobre el mar en el corazón de Nerja.": "Sea viewpoint in the heart of Nerja.",
+  "La playa urbana más emblemática de Málaga.": "Málaga's most emblematic city beach.",
+  "Paseo portuario con tiendas, ocio y el Pompidou.": "Waterfront promenade with shops, leisure and the Pompidou.",
+  "Barrio del arte urbano y los murales.": "The urban-art and mural district.",
+  "Puerto deportivo de lujo de Marbella.": "Marbella's luxury marina.",
+  "Amplia playa y paseo animado de la Costa del Sol.": "Broad beach and lively promenade on the Costa del Sol.",
+  "Zoológico de inmersión en plena ciudad.": "Immersion-style zoo in the city centre.",
+  "Teleférico al Monte Calamorro con vistas de la costa.": "Cable car to Mount Calamorro with coastal views.",
+  "Mercado histórico con puestos de tapas.": "Historic market with tapas stalls.",
+  "Bodega histórica de vino dulce y tapas.": "Historic bodega of sweet wine and tapas.",
+  "Churros con chocolate desde 1932.": "Churros with chocolate since 1932.",
+  "Espetos de sardinas en la playa de Pedregalejo.": "Sardine skewers on Pedregalejo beach.",
+  "La taberna de vinos más antigua de Málaga (1840).": "Málaga's oldest wine tavern (1840).",
+  "Templo del marisco y pescado del día en Fuengirola.": "A temple of shellfish and daily catch in Fuengirola.",
+  "Málaga": "Málaga"
+ }
+}

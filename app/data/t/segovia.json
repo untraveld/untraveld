@@ -1,0 +1,621 @@
+{
+ "id": "segovia",
+ "name": "Segovia",
+ "country": "ES",
+ "center": [
+  40.94815,
+  -4.11836
+ ],
+ "pois": [
+  {
+   "id": "seg_acueducto",
+   "cat": "monuments",
+   "name": "Acueducto de Segovia",
+   "icon": "🏛️",
+   "lat": 40.94815,
+   "lng": -4.11836,
+   "desc": "Acueducto romano del s. I-II, símbolo de la ciudad."
+  },
+  {
+   "id": "seg_alcazar",
+   "cat": "monuments",
+   "name": "Alcázar de Segovia",
+   "icon": "🏰",
+   "lat": 40.9528,
+   "lng": -4.13272,
+   "desc": "Fortaleza-palacio sobre un espolón rocoso."
+  },
+  {
+   "id": "seg_catedral",
+   "cat": "monuments",
+   "name": "Catedral de Segovia",
+   "icon": "⛪",
+   "lat": 40.94957,
+   "lng": -4.12809,
+   "desc": "La 'Dama de las Catedrales', gótica tardía."
+  },
+  {
+   "id": "seg_vera_cruz",
+   "cat": "monuments",
+   "name": "Iglesia de la Vera Cruz",
+   "icon": "✝️",
+   "lat": 40.95826,
+   "lng": -4.13369,
+   "desc": "Templo románico dodecagonal del s. XIII."
+  },
+  {
+   "id": "seg_juderia",
+   "cat": "monuments",
+   "name": "Judería de Segovia",
+   "icon": "🕎",
+   "lat": 40.94757,
+   "lng": -4.12889,
+   "desc": "Antiguo barrio judío medieval."
+  },
+  {
+   "id": "seg_la_granja",
+   "cat": "monuments",
+   "name": "Palacio Real de La Granja de San Ildefonso",
+   "icon": "👑",
+   "lat": 40.90005,
+   "lng": -4.00268,
+   "desc": "Palacio barroco de Felipe V, el 'Versalles español'."
+  },
+  {
+   "id": "seg_riofrio",
+   "cat": "monuments",
+   "name": "Palacio de Riofrío",
+   "icon": "🦌",
+   "lat": 40.87131,
+   "lng": -4.16571,
+   "desc": "Palacio-cazadero rodeado de un bosque con ciervos."
+  },
+  {
+   "id": "seg_castillo_coca",
+   "cat": "monuments",
+   "name": "Castillo de Coca",
+   "icon": "🏰",
+   "lat": 41.21556,
+   "lng": -4.52224,
+   "desc": "Joya del gótico-mudéjar en ladrillo."
+  },
+  {
+   "id": "seg_castillo_cuellar",
+   "cat": "monuments",
+   "name": "Castillo de Cuéllar",
+   "icon": "🏯",
+   "lat": 41.40145,
+   "lng": -4.3157,
+   "desc": "Castillo-palacio de los duques de Alburquerque."
+  },
+  {
+   "id": "seg_pedraza",
+   "cat": "monuments",
+   "name": "Villa de Pedraza",
+   "icon": "🏘️",
+   "lat": 41.11826,
+   "lng": -3.8114,
+   "desc": "Villa medieval amurallada con castillo."
+  },
+  {
+   "id": "seg_sepulveda",
+   "cat": "monuments",
+   "name": "Villa de Sepúlveda",
+   "icon": "🏘️",
+   "lat": 41.29564,
+   "lng": -3.7465,
+   "desc": "Pueblo románico sobre las hoces del Duratón."
+  },
+  {
+   "id": "seg_hoces_duraton",
+   "cat": "nature",
+   "name": "Parque Natural Hoces del Río Duratón",
+   "icon": "🏞️",
+   "lat": 41.3435,
+   "lng": -3.854,
+   "desc": "Cañón fluvial con una gran colonia de buitres."
+  },
+  {
+   "id": "seg_ermita_san_frutos",
+   "cat": "nature",
+   "name": "Ermita de San Frutos",
+   "icon": "🌄",
+   "lat": 41.30875,
+   "lng": -3.8447,
+   "desc": "Ermita románica en un mirador sobre el cañón."
+  },
+  {
+   "id": "seg_mirador_pradera",
+   "cat": "nature",
+   "name": "Mirador de la Pradera de San Marcos",
+   "icon": "📸",
+   "lat": 40.9587,
+   "lng": -4.1342,
+   "desc": "La mejor vista clásica del Alcázar."
+  },
+  {
+   "id": "seg_penalara",
+   "cat": "nature",
+   "name": "Pico de Peñalara (Sierra de Guadarrama)",
+   "icon": "⛰️",
+   "lat": 40.85083,
+   "lng": -3.95556,
+   "desc": "La cumbre más alta del Guadarrama, 2.428 m."
+  },
+  {
+   "id": "seg_navacerrada",
+   "cat": "nature",
+   "name": "Puerto de Navacerrada",
+   "icon": "🏔️",
+   "lat": 40.78083,
+   "lng": -4.00472,
+   "desc": "Puerto de montaña entre Segovia y Madrid."
+  },
+  {
+   "id": "seg_jardines_granja",
+   "cat": "ocio",
+   "name": "Jardines y Fuentes de La Granja",
+   "icon": "⛲",
+   "lat": 40.901,
+   "lng": -4.005,
+   "desc": "Jardines barrocos con fuentes monumentales."
+  },
+  {
+   "id": "seg_plaza_mayor",
+   "cat": "ocio",
+   "name": "Plaza Mayor de Segovia",
+   "icon": "🍷",
+   "lat": 40.9497,
+   "lng": -4.1265,
+   "desc": "Corazón social de la ciudad, junto a la catedral."
+  },
+  {
+   "id": "seg_kayak_duraton",
+   "cat": "ocio",
+   "name": "Kayak en las Hoces del Duratón",
+   "icon": "🛶",
+   "lat": 41.3435,
+   "lng": -3.8545,
+   "desc": "Piragüismo por el embalse entre cañones."
+  },
+  {
+   "id": "seg_casa_moneda",
+   "cat": "ocio",
+   "name": "Real Casa de Moneda de Segovia",
+   "icon": "🪙",
+   "lat": 40.9527,
+   "lng": -4.1361,
+   "desc": "La fábrica de moneda industrial más antigua de Europa."
+  },
+  {
+   "id": "seg_meson_candido",
+   "cat": "food",
+   "name": "Mesón de Cándido",
+   "icon": "🐷",
+   "lat": 40.9482,
+   "lng": -4.1187,
+   "desc": "Templo del cochinillo asado junto al Acueducto."
+  },
+  {
+   "id": "seg_jose_maria",
+   "cat": "food",
+   "name": "Restaurante José María",
+   "icon": "🍽️",
+   "lat": 40.9499,
+   "lng": -4.1253,
+   "desc": "Cochinillo de referencia cerca de la Plaza Mayor."
+  },
+  {
+   "id": "seg_meson_duque",
+   "cat": "food",
+   "name": "Mesón de Duque",
+   "icon": "🔥",
+   "lat": 40.9491,
+   "lng": -4.1213,
+   "desc": "Asador histórico de 1895 en el centro."
+  },
+  {
+   "id": "seg_limon_menta",
+   "cat": "food",
+   "name": "Confitería Limón y Menta",
+   "icon": "🍰",
+   "lat": 40.9496,
+   "lng": -4.126,
+   "desc": "El mejor ponche segoviano de la ciudad."
+  },
+  {
+   "id": "seg_judiones_granja",
+   "cat": "food",
+   "name": "Casa Zaca (La Granja)",
+   "icon": "🍲",
+   "lat": 40.9008,
+   "lng": -4.0042,
+   "desc": "Judiones de La Granja en su lugar de origen."
+  },
+  {
+   "id": "seg_asador_pedraza",
+   "cat": "food",
+   "name": "El Yantar de Pedraza",
+   "icon": "🐑",
+   "lat": 41.1183,
+   "lng": -3.8115,
+   "desc": "Cordero asado en la plaza de Pedraza."
+  }
+ ],
+ "extra": {
+  "seg_acueducto": {
+   "id": "seg_acueducto",
+   "d": "Colosal obra de ingeniería romana de más de 800 m con 167 arcos de granito ensamblados sin argamasa. Es Patrimonio de la Humanidad y llegó a traer agua a la ciudad casi hasta el s. XX.",
+   "d_en": "Colossal Roman engineering feat over 800 m long with 167 granite arches assembled without mortar. A World Heritage Site, it carried water into the city almost into the 20th century.",
+   "h": "Abierto todo el día (exterior)",
+   "h_en": "Open all day (exterior)",
+   "i": "Ideal si te gusta la ingeniería antigua y las postales monumentales.",
+   "i_en": "Ideal if you like ancient engineering and iconic monumental views."
+  },
+  "seg_alcazar": {
+   "id": "seg_alcazar",
+   "d": "Antigua residencia de los reyes de Castilla con torres de pizarra, salas artesonadas y vistas al valle del Eresma. Su silueta de proa inspiró castillos de cuento y aquí fue proclamada reina Isabel la Católica.",
+   "d_en": "Former residence of the kings of Castile, with slate turrets, coffered halls and views over the Eresma valley. Its ship-prow silhouette inspired fairy-tale castles, and Isabella the Catholic was proclaimed queen here.",
+   "h": "10:00–18:00 (verano hasta 20:00)",
+   "h_en": "10:00–18:00 (until 20:00 in summer)",
+   "i": "Ideal si te gustan los castillos, la historia medieval y las vistas panorámicas.",
+   "i_en": "Ideal if you like castles, medieval history and panoramic views."
+  },
+  "seg_catedral": {
+   "id": "seg_catedral",
+   "d": "Última gran catedral gótica de España (s. XVI), con esbeltos pináculos, una torre de casi 90 m, claustro y un museo con tapices y orfebrería. Domina la Plaza Mayor con su piedra dorada.",
+   "d_en": "Spain's last great Gothic cathedral (16th century), with slender pinnacles, a nearly 90 m tower, a cloister and a museum of tapestries and silverwork. Its golden stone dominates the Plaza Mayor.",
+   "h": "09:30–18:30",
+   "h_en": "09:30–18:30",
+   "i": "Ideal si te gusta el arte gótico y subir a torres con vistas.",
+   "i_en": "Ideal if you like Gothic art and climbing towers for the view."
+  },
+  "seg_vera_cruz": {
+   "id": "seg_vera_cruz",
+   "d": "Singular iglesia de planta de doce lados, ligada a la Orden del Temple, con un edículo central de dos pisos. Desde su entorno hay una de las mejores vistas del Alcázar y la ciudad amurallada.",
+   "d_en": "Unusual twelve-sided church linked to the Templar order, with a two-storey central chamber. Its surroundings offer one of the best views of the Alcázar and the walled city.",
+   "h": "10:30–13:30 y 16:00–19:00 (cerrado lunes)",
+   "h_en": "10:30–13:30 and 16:00–19:00 (closed Monday)",
+   "i": "Ideal si te gusta el románico y las historias templarias.",
+   "i_en": "Ideal if you like Romanesque architecture and Templar lore."
+  },
+  "seg_juderia": {
+   "id": "seg_juderia",
+   "d": "Laberinto de callejuelas junto a la catedral con el Centro Didáctico de la Judería, antiguas sinagogas convertidas en iglesias y la Puerta de San Andrés. Conserva la memoria de una de las comunidades más importantes de Castilla.",
+   "d_en": "A maze of alleys next to the cathedral with the Jewish Quarter Interpretation Centre, former synagogues turned into churches and the San Andrés gate. It preserves the memory of one of Castile's key communities.",
+   "h": "Abierto todo el día (calles)",
+   "h_en": "Open all day (streets)",
+   "i": "Ideal si te gusta la historia sefardí y perderte por callejones con encanto.",
+   "i_en": "Ideal if you like Sephardic history and wandering charming alleyways."
+  },
+  "seg_la_granja": {
+   "id": "seg_la_granja",
+   "d": "Residencia real dieciochesca a los pies de la sierra, con salones tapizados, la Real Fábrica de Cristales cercana y un colección de tapices flamencos. Fue el retiro cortesano inspirado en Versalles.",
+   "d_en": "18th-century royal residence at the foot of the sierra, with tapestried halls, the nearby Royal Glass Factory and a collection of Flemish tapestries. It was a courtly retreat modelled on Versailles.",
+   "h": "10:00–18:00 (cerrado lunes)",
+   "h_en": "10:00–18:00 (closed Monday)",
+   "i": "Ideal si te gustan los palacios reales y la elegancia barroca.",
+   "i_en": "Ideal if you like royal palaces and Baroque elegance."
+  },
+  "seg_riofrio": {
+   "id": "seg_riofrio",
+   "d": "Sobrio palacio rosado del s. XVIII mandado construir por Isabel de Farnesio, en medio de una gran dehesa donde pastan libremente ciervos y gamos. Alberga un museo de la caza.",
+   "d_en": "Restrained pink 18th-century palace commissioned by Isabella Farnese, set in a large wooded estate where deer and fallow deer roam freely. It houses a hunting museum.",
+   "h": "10:00–18:00 (cerrado lunes)",
+   "h_en": "10:00–18:00 (closed Monday)",
+   "i": "Ideal si te gusta la naturaleza, la fauna y los palacios tranquilos.",
+   "i_en": "Ideal if you like nature, wildlife and quiet palaces."
+  },
+  "seg_castillo_coca": {
+   "id": "seg_castillo_coca",
+   "d": "Espectacular castillo del s. XV levantado íntegramente en ladrillo por la familia Fonseca, con foso, torres poligonales y decoración mudéjar. Es uno de los castillos más bellos de España.",
+   "d_en": "Spectacular 15th-century castle built entirely of brick by the Fonseca family, with a moat, polygonal towers and Mudéjar decoration. It is one of Spain's most beautiful castles.",
+   "h": "10:30–13:00 y 16:00–18:00 (visitas guiadas)",
+   "h_en": "10:30–13:00 and 16:00–18:00 (guided tours)",
+   "i": "Ideal si te gustan los castillos fotogénicos y el arte mudéjar.",
+   "i_en": "Ideal if you like photogenic castles and Mudéjar art."
+  },
+  "seg_castillo_cuellar": {
+   "id": "seg_castillo_cuellar",
+   "d": "Gran fortaleza que domina la villa amurallada de Cuéllar, mezcla de gótico y renacentista, con patio de armas y visitas teatralizadas nocturnas. La villa conserva un notable conjunto mudéjar.",
+   "d_en": "Large fortress overlooking the walled town of Cuéllar, blending Gothic and Renaissance styles, with a parade courtyard and nighttime dramatized tours. The town preserves a notable Mudéjar ensemble.",
+   "h": "11:00–14:00 y 16:00–19:00 (consultar)",
+   "h_en": "11:00–14:00 and 16:00–19:00 (check ahead)",
+   "i": "Ideal si te gustan las fortalezas y las villas medievales auténticas.",
+   "i_en": "Ideal if you like fortresses and authentic medieval towns."
+  },
+  "seg_pedraza": {
+   "id": "seg_pedraza",
+   "d": "Uno de los pueblos más bonitos de España, con una única puerta de acceso, plaza porticada, cárcel medieval y un castillo que fue estudio del pintor Ignacio Zuloaga. Famosa por sus Conciertos de las Velas.",
+   "d_en": "One of Spain's prettiest villages, with a single entrance gate, an arcaded square, a medieval jail and a castle that was painter Ignacio Zuloaga's studio. Famous for its Candle Concerts.",
+   "h": "Abierto todo el día (villa)",
+   "h_en": "Open all day (village)",
+   "i": "Ideal si te gustan los pueblos con encanto y el ambiente medieval.",
+   "i_en": "Ideal if you like charming villages and medieval atmosphere."
+  },
+  "seg_sepulveda": {
+   "id": "seg_sepulveda",
+   "d": "Villa histórica escalonada sobre un promontorio, con la iglesia románica de El Salvador, restos de muralla y la Casa del Parque de las Hoces del Duratón. Es puerta de entrada al parque natural.",
+   "d_en": "Historic village stepped over a promontory, with the Romanesque church of El Salvador, remains of walls and the Duratón Gorges Visitor Centre. It is the gateway to the natural park.",
+   "h": "Abierto todo el día (villa)",
+   "h_en": "Open all day (village)",
+   "i": "Ideal si te gusta el románico, los miradores y el cordero asado.",
+   "i_en": "Ideal if you like Romanesque art, viewpoints and roast lamb."
+  },
+  "seg_hoces_duraton": {
+   "id": "seg_hoces_duraton",
+   "d": "Profundas gargantas excavadas por el río Duratón entre paredes calizas de hasta 100 m, hogar de una de las mayores colonias de buitre leonado de Europa. Ideal para senderismo y observación de aves.",
+   "d_en": "Deep gorges carved by the Duratón river between limestone walls up to 100 m high, home to one of Europe's largest griffon vulture colonies. Ideal for hiking and birdwatching.",
+   "h": "Acceso libre (zonas restringidas ene–jul)",
+   "h_en": "Free access (restricted zones Jan–Jul)",
+   "i": "Ideal si te gusta la naturaleza, las aves rapaces y los paisajes de cañón.",
+   "i_en": "Ideal if you like nature, birds of prey and canyon scenery."
+  },
+  "seg_ermita_san_frutos": {
+   "id": "seg_ermita_san_frutos",
+   "d": "Pequeña ermita del s. XII asentada en un espectacular meandro del Duratón, con vistas de vértigo sobre el embalse y los buitres sobrevolando las hoces. Un balcón natural inolvidable.",
+   "d_en": "Small 12th-century hermitage set on a dramatic bend of the Duratón, with dizzying views over the reservoir and vultures gliding through the gorges. An unforgettable natural balcony.",
+   "h": "Acceso libre (a pie desde el aparcamiento)",
+   "h_en": "Free access (on foot from the car park)",
+   "i": "Ideal si te gustan los miradores dramáticos y la fotografía de paisaje.",
+   "i_en": "Ideal if you like dramatic viewpoints and landscape photography."
+  },
+  "seg_mirador_pradera": {
+   "id": "seg_mirador_pradera",
+   "d": "Praderas verdes junto al río Eresma desde donde el Alcázar se alza como la proa de un barco. Es el punto perfecto para fotos al atardecer, con la Vera Cruz y el Parral muy cerca.",
+   "d_en": "Green meadows by the Eresma river where the Alcázar rises like a ship's prow. It is the perfect spot for sunset photos, with the Vera Cruz and El Parral close by.",
+   "h": "Abierto todo el día",
+   "h_en": "Open all day",
+   "i": "Ideal si te gusta la fotografía, los paseos junto al río y los atardeceres.",
+   "i_en": "Ideal if you like photography, riverside walks and sunsets."
+  },
+  "seg_penalara": {
+   "id": "seg_penalara",
+   "d": "Techo de la Sierra de Guadarrama, dentro del Parque Nacional, con lagunas de origen glaciar, praderas de alta montaña y rutas de senderismo señalizadas. Nieve frecuente en invierno.",
+   "d_en": "Roof of the Sierra de Guadarrama, within the National Park, with glacial lakes, high-mountain meadows and marked hiking trails. Snow is frequent in winter.",
+   "h": "Acceso libre (según condiciones)",
+   "h_en": "Free access (weather permitting)",
+   "i": "Ideal si te gusta la montaña, el senderismo y los paisajes glaciares.",
+   "i_en": "Ideal if you like mountains, hiking and glacial landscapes."
+  },
+  "seg_navacerrada": {
+   "id": "seg_navacerrada",
+   "d": "Collado a 1.860 m en plena Sierra de Guadarrama, punto de partida de rutas hacia La Bola del Mundo y las cumbres cercanas, con pinares, ganado y amplias vistas. Muy concurrido los fines de semana.",
+   "d_en": "A 1,860 m pass in the heart of the Sierra de Guadarrama, a starting point for routes towards La Bola del Mundo and the nearby peaks, with pine forests, grazing livestock and wide views. Very busy on weekends.",
+   "h": "Acceso libre",
+   "h_en": "Free access",
+   "i": "Ideal si te gustan las rutas de montaña y la nieve en invierno.",
+   "i_en": "Ideal if you like mountain trails and winter snow."
+  },
+  "seg_jardines_granja": {
+   "id": "seg_jardines_granja",
+   "d": "Extenso jardín de estilo francés con parterres, bosquetes y más de veinte fuentes mitológicas que funcionan por gravedad. En días señalados se encienden en un espectáculo de chorros de hasta 40 m.",
+   "d_en": "Extensive French-style garden with parterres, groves and over twenty mythological fountains powered by gravity. On special days they are switched on in a display of jets up to 40 m high.",
+   "h": "10:00–18:30 (fuentes solo fechas señaladas)",
+   "h_en": "10:00–18:30 (fountains on select dates only)",
+   "i": "Ideal si te gusta pasear por jardines y los espectáculos de agua.",
+   "i_en": "Ideal if you like strolling through gardens and water displays."
+  },
+  "seg_plaza_mayor": {
+   "id": "seg_plaza_mayor",
+   "d": "Plaza porticada presidida por la catedral y el Teatro Juan Bravo, rodeada de terrazas donde tapear. Es el mejor sitio para tomar el pulso a la vida segoviana a cualquier hora.",
+   "d_en": "Arcaded square presided over by the cathedral and the Juan Bravo Theatre, ringed with terraces for tapas. It is the best place to feel the pulse of Segovian life at any hour.",
+   "h": "Abierto todo el día",
+   "h_en": "Open all day",
+   "i": "Ideal si te gusta el ambiente de terraza, tapear y la gente.",
+   "i_en": "Ideal if you like terrace atmosphere, tapas and people-watching."
+  },
+  "seg_kayak_duraton": {
+   "id": "seg_kayak_duraton",
+   "d": "Rutas guiadas en kayak por las aguas tranquilas del embalse de Burgomillodo, remando bajo los farallones calizos hasta la ermita de San Frutos. Requiere autorización del parque natural.",
+   "d_en": "Guided kayak routes on the calm waters of the Burgomillodo reservoir, paddling beneath the limestone cliffs to the San Frutos hermitage. A natural park permit is required.",
+   "h": "Salidas por la mañana (temporada, con reserva)",
+   "h_en": "Morning departures (seasonal, by booking)",
+   "i": "Ideal si te gusta el deporte al aire libre y el agua.",
+   "i_en": "Ideal if you like outdoor sports and water activities."
+  },
+  "seg_casa_moneda": {
+   "id": "seg_casa_moneda",
+   "d": "Ingenio del s. XVI junto al Eresma, movido por energía hidráulica, hoy museo interactivo que muestra cómo se acuñaba la moneda con maquinaria original y reproducciones en funcionamiento.",
+   "d_en": "16th-century hydraulic mill on the Eresma, now an interactive museum showing how coins were struck, with original machinery and working reproductions.",
+   "h": "10:00–14:00 y 16:00–18:00 (cerrado lunes)",
+   "h_en": "10:00–14:00 and 16:00–18:00 (closed Monday)",
+   "i": "Ideal si te gusta la historia industrial y los museos con maquinaria.",
+   "i_en": "Ideal if you like industrial history and machinery museums."
+  },
+  "seg_meson_candido": {
+   "id": "seg_meson_candido",
+   "d": "Casa fundada como mesón centenario a los pies del Acueducto, célebre por trinchar el cochinillo con el borde de un plato. Una institución de la gastronomía castellana.",
+   "d_en": "A centuries-old inn at the foot of the Aqueduct, famous for carving suckling pig with the edge of a plate. An institution of Castilian gastronomy.",
+   "h": "13:00–16:00 y 20:30–23:00",
+   "h_en": "13:00–16:00 and 20:30–23:00",
+   "i": "Ideal si te gusta el cochinillo y la tradición gastronómica.",
+   "i_en": "Ideal if you like suckling pig and culinary tradition."
+  },
+  "seg_jose_maria": {
+   "id": "seg_jose_maria",
+   "d": "Uno de los asadores más premiados de la ciudad, con bodega propia y cochinillo de sabor y piel crujientes. Ambiente animado y cocina castellana bien ejecutada.",
+   "d_en": "One of the city's most awarded roasteries, with its own winery and suckling pig of crisp skin and deep flavour. Lively atmosphere and well-executed Castilian cuisine.",
+   "h": "13:00–16:00 y 20:30–23:30",
+   "h_en": "13:00–16:00 and 20:30–23:30",
+   "i": "Ideal si te gusta el buen cochinillo y el vino local.",
+   "i_en": "Ideal if you like great suckling pig and local wine."
+  },
+  "seg_meson_duque": {
+   "id": "seg_meson_duque",
+   "d": "Mesón con más de un siglo de historia especializado en cochinillo y cordero asados en horno de leña, además de los tradicionales judiones de La Granja. Decoración castellana clásica.",
+   "d_en": "An inn with over a century of history specialising in wood-oven roast suckling pig and lamb, plus the traditional La Granja butter beans. Classic Castilian decor.",
+   "h": "13:00–16:30 y 20:00–23:00",
+   "h_en": "13:00–16:30 and 20:00–23:00",
+   "i": "Ideal si te gustan los asados y los guisos tradicionales.",
+   "i_en": "Ideal if you like roasts and traditional stews."
+  },
+  "seg_limon_menta": {
+   "id": "seg_limon_menta",
+   "d": "Pastelería tradicional junto a la Plaza Mayor famosa por su ponche segoviano de mazapán y yema. Perfecta para merendar o comprar dulces para llevar.",
+   "d_en": "Traditional bakery near the Plaza Mayor famous for its marzipan-and-egg-yolk ponche segoviano. Perfect for an afternoon treat or sweets to take home.",
+   "h": "09:00–20:30",
+   "h_en": "09:00–20:30",
+   "i": "Ideal si te gustan los dulces tradicionales y la merienda.",
+   "i_en": "Ideal if you like traditional sweets and afternoon treats."
+  },
+  "seg_judiones_granja": {
+   "id": "seg_judiones_granja",
+   "d": "Restaurante veterano en San Ildefonso donde probar los famosos judiones de La Granja guisados con sus 'sacramentos', además de asados y platos serranos, tras visitar el palacio.",
+   "d_en": "A long-standing restaurant in San Ildefonso to try the famous La Granja butter beans stewed with their traditional cuts, plus roasts and mountain dishes, after visiting the palace.",
+   "h": "13:30–16:00 y 20:30–22:30",
+   "h_en": "13:30–16:00 and 20:30–22:30",
+   "i": "Ideal si te gustan las legumbres y la cocina de montaña.",
+   "i_en": "Ideal if you like legumes and mountain cooking."
+  },
+  "seg_asador_pedraza": {
+   "id": "seg_asador_pedraza",
+   "d": "Asador en la plaza porticada de Pedraza, referencia del cordero lechal asado en horno de leña, plato estrella de esta villa medieval. Terraza con encanto en pleno casco histórico.",
+   "d_en": "A roastery on Pedraza's arcaded square, a benchmark for wood-oven roast milk-fed lamb, the star dish of this medieval village. Charming terrace in the heart of the old town.",
+   "h": "13:30–16:00 (cena fines de semana)",
+   "h_en": "13:30–16:00 (dinner on weekends)",
+   "i": "Ideal si te gusta el cordero asado y comer en pueblos con encanto.",
+   "i_en": "Ideal if you like roast lamb and dining in charming villages."
+  }
+ },
+ "food": {
+  "seg_meson_candido": {
+   "cuisine": "Castellana tradicional / asador",
+   "price": "35–55 €",
+   "hours": "13:00–16:00 y 20:30–23:00"
+  },
+  "seg_jose_maria": {
+   "cuisine": "Castellana / asador",
+   "price": "35–55 €",
+   "hours": "13:00–16:00 y 20:30–23:30"
+  },
+  "seg_meson_duque": {
+   "cuisine": "Castellana / asador",
+   "price": "30–50 €",
+   "hours": "13:00–16:30 y 20:00–23:00"
+  },
+  "seg_limon_menta": {
+   "cuisine": "Pastelería / repostería",
+   "price": "5–15 €",
+   "hours": "09:00–20:30"
+  },
+  "seg_judiones_granja": {
+   "cuisine": "Castellana / serrana",
+   "price": "25–40 €",
+   "hours": "13:30–16:00 y 20:30–22:30"
+  },
+  "seg_asador_pedraza": {
+   "cuisine": "Castellana / asador de cordero",
+   "price": "30–50 €",
+   "hours": "13:30–16:00 (cena fines de semana)"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Segovia",
+   "items": [
+    {
+     "name": "Ponche segoviano",
+     "price": "8–18 €",
+     "desc": "Dulce de mazapán, yema y bizcocho con almíbar, marcado a fuego en rombos."
+    },
+    {
+     "name": "Cochinillo (para llevar / conserva)",
+     "price": "25–55 €",
+     "desc": "El asado más famoso de Segovia, también en tarros y envasado al vacío."
+    },
+    {
+     "name": "Judiones de La Granja",
+     "price": "6–12 €",
+     "desc": "Alubia grande y cremosa con Indicación Geográfica, ideal en guiso."
+    },
+    {
+     "name": "Cerámica y vidrio de La Granja",
+     "price": "10–60 €",
+     "desc": "Piezas de la tradición vidriera de la Real Fábrica de Cristales."
+    }
+   ],
+   "shops": [
+    "Confitería Limón y Menta (Calle Isabel la Católica)",
+    "Mercado de la Plaza Mayor de Segovia",
+    "Tiendas gourmet junto al Acueducto",
+    "Real Fábrica de Cristales de La Granja"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Reserva con antelación en los asadores de cochinillo, sobre todo fines de semana y festivos.",
+   "Comprueba el calendario de encendido de las fuentes históricas de La Granja antes de ir; solo funcionan en fechas señaladas.",
+   "Lleva calzado cómodo: el casco histórico de Segovia tiene fuertes cuestas y adoquines.",
+   "Para las Hoces del Duratón consulta las zonas de acceso restringido por nidificación del buitre leonado (enero–julio).",
+   "Combina la ciudad con pueblos como Pedraza o Sepúlveda; hay poca frecuencia de transporte público, mejor coche."
+  ],
+  "en": [
+   "Book ahead at the roast-suckling-pig restaurants, especially on weekends and holidays.",
+   "Check the schedule for switching on La Granja's historic fountains before you go; they only run on select dates.",
+   "Wear comfortable shoes: Segovia's old town has steep slopes and cobblestones.",
+   "For the Duratón gorges, check the access zones closed for griffon vulture nesting (January–July).",
+   "Pair the city with villages like Pedraza or Sepúlveda; public transport is sparse, so a car is best."
+  ]
+ },
+ "climate": {
+  "hi": [
+   8,
+   10,
+   14,
+   15,
+   20,
+   26,
+   30,
+   30,
+   24,
+   17,
+   11,
+   8
+  ],
+  "lo": [
+   0,
+   1,
+   3,
+   5,
+   9,
+   13,
+   16,
+   16,
+   12,
+   8,
+   4,
+   1
+  ]
+ },
+ "tr": {
+  "Acueducto romano del s. I-II, símbolo de la ciudad.": "1st–2nd century Roman aqueduct, the city's symbol.",
+  "Fortaleza-palacio sobre un espolón rocoso.": "Fortress-palace perched on a rocky spur.",
+  "La 'Dama de las Catedrales', gótica tardía.": "The 'Lady of Cathedrals', late Gothic.",
+  "Templo románico dodecagonal del s. XIII.": "12-sided Romanesque church from the 13th century.",
+  "Antiguo barrio judío medieval.": "Old medieval Jewish quarter.",
+  "Palacio barroco de Felipe V, el 'Versalles español'.": "Baroque palace of Philip V, the 'Spanish Versailles'.",
+  "Palacio-cazadero rodeado de un bosque con ciervos.": "Hunting palace surrounded by a deer-filled forest.",
+  "Joya del gótico-mudéjar en ladrillo.": "A jewel of Gothic-Mudéjar brickwork.",
+  "Castillo-palacio de los duques de Alburquerque.": "Castle-palace of the dukes of Alburquerque.",
+  "Villa medieval amurallada con castillo.": "Walled medieval village with a castle.",
+  "Pueblo románico sobre las hoces del Duratón.": "Romanesque village above the Duratón gorges.",
+  "Cañón fluvial con una gran colonia de buitres.": "River canyon with a large vulture colony.",
+  "Ermita románica en un mirador sobre el cañón.": "Romanesque hermitage on a clifftop viewpoint.",
+  "La mejor vista clásica del Alcázar.": "The classic best view of the Alcázar.",
+  "La cumbre más alta del Guadarrama, 2.428 m.": "The highest peak in the Guadarrama, 2,428 m.",
+  "Puerto de montaña entre Segovia y Madrid.": "Mountain pass between Segovia and Madrid.",
+  "Jardines barrocos con fuentes monumentales.": "Baroque gardens with monumental fountains.",
+  "Corazón social de la ciudad, junto a la catedral.": "The city's social heart, beside the cathedral.",
+  "Piragüismo por el embalse entre cañones.": "Kayaking on the reservoir between canyons.",
+  "La fábrica de moneda industrial más antigua de Europa.": "Europe's oldest industrial mint.",
+  "Templo del cochinillo asado junto al Acueducto.": "Temple of roast suckling pig by the Aqueduct.",
+  "Cochinillo de referencia cerca de la Plaza Mayor.": "Benchmark suckling pig near the Plaza Mayor.",
+  "Asador histórico de 1895 en el centro.": "Historic 1895 roastery in the centre.",
+  "El mejor ponche segoviano de la ciudad.": "The city's best ponche segoviano.",
+  "Judiones de La Granja en su lugar de origen.": "La Granja butter beans in their homeland.",
+  "Cordero asado en la plaza de Pedraza.": "Roast lamb on Pedraza's main square.",
+  "Segovia": "Segovia"
+ }
+}

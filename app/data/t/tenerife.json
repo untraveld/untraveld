@@ -1,0 +1,710 @@
+{
+ "id": "tenerife",
+ "name": "Santa Cruz de Tenerife",
+ "country": "ES",
+ "center": [
+  28.4683,
+  -16.2546
+ ],
+ "pois": [
+  {
+   "id": "tfe_teide",
+   "cat": "nature",
+   "name": "Parque Nacional del Teide",
+   "icon": "🌋",
+   "lat": 28.2724,
+   "lng": -16.6425,
+   "desc": "El pico más alto de España (3.715 m) y volcán rodeado de paisajes lunares."
+  },
+  {
+   "id": "tfe_la_laguna",
+   "cat": "monuments",
+   "name": "San Cristóbal de La Laguna",
+   "icon": "⛪",
+   "lat": 28.487,
+   "lng": -16.315,
+   "desc": "Casco histórico Patrimonio de la Humanidad con calles coloniales y palacios."
+  },
+  {
+   "id": "tfe_auditorio",
+   "cat": "monuments",
+   "name": "Auditorio de Tenerife Adán Martín",
+   "icon": "🎭",
+   "lat": 28.4564,
+   "lng": -16.2472,
+   "desc": "Icónico auditorio de Calatrava junto al mar en Santa Cruz."
+  },
+  {
+   "id": "tfe_plaza_espana",
+   "cat": "monuments",
+   "name": "Plaza de España",
+   "icon": "⛲",
+   "lat": 28.4676,
+   "lng": -16.2472,
+   "desc": "Corazón de Santa Cruz con su gran lago artificial circular."
+  },
+  {
+   "id": "tfe_anaga",
+   "cat": "nature",
+   "name": "Parque Rural de Anaga",
+   "icon": "🌿",
+   "lat": 28.5317,
+   "lng": -16.2906,
+   "desc": "Reserva de la Biosfera con laurisilva y crestas escarpadas."
+  },
+  {
+   "id": "tfe_masca",
+   "cat": "nature",
+   "name": "Caserío de Masca",
+   "icon": "🏔️",
+   "lat": 28.3081,
+   "lng": -16.8449,
+   "desc": "Pueblo remoto encaramado en un espectacular barranco."
+  },
+  {
+   "id": "tfe_los_gigantes",
+   "cat": "nature",
+   "name": "Acantilados de Los Gigantes",
+   "icon": "🌊",
+   "lat": 28.2454,
+   "lng": -16.8419,
+   "desc": "Impresionantes acantilados que caen a plomo sobre el mar."
+  },
+  {
+   "id": "tfe_loro_parque",
+   "cat": "ocio",
+   "name": "Loro Parque",
+   "icon": "🦜",
+   "lat": 28.4113,
+   "lng": -16.5648,
+   "desc": "Zoológico y parque animal de referencia en Puerto de la Cruz."
+  },
+  {
+   "id": "tfe_siam_park",
+   "cat": "ocio",
+   "name": "Siam Park",
+   "icon": "🎢",
+   "lat": 28.0712,
+   "lng": -16.7267,
+   "desc": "Parque acuático de temática tailandesa, entre los mejores del mundo."
+  },
+  {
+   "id": "tfe_garachico",
+   "cat": "monuments",
+   "name": "Garachico",
+   "icon": "🏘️",
+   "lat": 28.3715,
+   "lng": -16.7628,
+   "desc": "Villa histórica con piscinas naturales de origen volcánico."
+  },
+  {
+   "id": "tfe_la_orotava",
+   "cat": "monuments",
+   "name": "La Orotava",
+   "icon": "🏛️",
+   "lat": 28.3903,
+   "lng": -16.5235,
+   "desc": "Villa señorial con casonas, balcones canarios y jardines."
+  },
+  {
+   "id": "tfe_candelaria",
+   "cat": "monuments",
+   "name": "Basílica de Candelaria",
+   "icon": "⛪",
+   "lat": 28.3541,
+   "lng": -16.37,
+   "desc": "Santuario de la patrona de Canarias frente al mar."
+  },
+  {
+   "id": "tfe_piramides_guimar",
+   "cat": "monuments",
+   "name": "Pirámides de Güímar",
+   "icon": "🔺",
+   "lat": 28.3186,
+   "lng": -16.4132,
+   "desc": "Enigmáticas terrazas piramidales de piedra volcánica."
+  },
+  {
+   "id": "tfe_drago_icod",
+   "cat": "nature",
+   "name": "Drago Milenario de Icod",
+   "icon": "🌳",
+   "lat": 28.3667,
+   "lng": -16.7183,
+   "desc": "Ejemplar milenario de drago, símbolo botánico de Canarias."
+  },
+  {
+   "id": "tfe_teleferico_teide",
+   "cat": "ocio",
+   "name": "Teleférico del Teide",
+   "icon": "🚡",
+   "lat": 28.2536,
+   "lng": -16.6258,
+   "desc": "Ascenso rápido a 3.555 m con vistas panorámicas."
+  },
+  {
+   "id": "tfe_puerto_cruz",
+   "cat": "ocio",
+   "name": "Puerto de la Cruz",
+   "icon": "🏖️",
+   "lat": 28.4178,
+   "lng": -16.5424,
+   "desc": "Ciudad turística clásica del norte con piscinas de Lago Martiánez."
+  },
+  {
+   "id": "tfe_tea",
+   "cat": "monuments",
+   "name": "TEA Tenerife Espacio de las Artes",
+   "icon": "🖼️",
+   "lat": 28.4659,
+   "lng": -16.2515,
+   "desc": "Centro de arte contemporáneo y biblioteca en Santa Cruz."
+  },
+  {
+   "id": "tfe_caldera_taburiente",
+   "cat": "nature",
+   "name": "Parque Nacional de la Caldera de Taburiente",
+   "icon": "⛰️",
+   "lat": 28.7222,
+   "lng": -17.875,
+   "desc": "Gigantesca caldera erosiva verde en el corazón de La Palma."
+  },
+  {
+   "id": "tfe_roque_muchachos",
+   "cat": "nature",
+   "name": "Roque de los Muchachos y Observatorio",
+   "icon": "🔭",
+   "lat": 28.7544,
+   "lng": -17.885,
+   "desc": "Techo de La Palma (2.426 m) con uno de los mejores observatorios del mundo."
+  },
+  {
+   "id": "tfe_los_tilos",
+   "cat": "nature",
+   "name": "Bosque de Los Tilos",
+   "icon": "🌲",
+   "lat": 28.7929,
+   "lng": -17.8075,
+   "desc": "Frondoso bosque de laurisilva y Reserva de la Biosfera en La Palma."
+  },
+  {
+   "id": "tfe_santa_cruz_palma",
+   "cat": "monuments",
+   "name": "Santa Cruz de La Palma",
+   "icon": "🏝️",
+   "lat": 28.6835,
+   "lng": -17.7642,
+   "desc": "Elegante capital colonial con la calle O'Daly y sus balcones."
+  },
+  {
+   "id": "tfe_las_nieves",
+   "cat": "monuments",
+   "name": "Santuario de la Virgen de las Nieves",
+   "icon": "🕍",
+   "lat": 28.691,
+   "lng": -17.7733,
+   "desc": "Santuario de la patrona de La Palma sobre la capital."
+  },
+  {
+   "id": "tfe_garajonay",
+   "cat": "nature",
+   "name": "Parque Nacional de Garajonay",
+   "icon": "🌫️",
+   "lat": 28.1147,
+   "lng": -17.2372,
+   "desc": "Bosque de laurisilva Patrimonio de la Humanidad en La Gomera."
+  },
+  {
+   "id": "tfe_valle_gran_rey",
+   "cat": "ocio",
+   "name": "Valle Gran Rey",
+   "icon": "🌴",
+   "lat": 28.1019,
+   "lng": -17.3363,
+   "desc": "Valle de palmerales y playas, refugio alternativo de La Gomera."
+  },
+  {
+   "id": "tfe_san_sebastian_gomera",
+   "cat": "monuments",
+   "name": "San Sebastián de La Gomera",
+   "icon": "⚓",
+   "lat": 28.0916,
+   "lng": -17.1103,
+   "desc": "Villa colombina desde donde zarpó Colón hacia América."
+  },
+  {
+   "id": "tfe_el_golfo",
+   "cat": "nature",
+   "name": "El Golfo y Mirador de la Peña",
+   "icon": "🌅",
+   "lat": 27.7997,
+   "lng": -17.9828,
+   "desc": "Gran valle en forma de media luna con mirador de César Manrique."
+  },
+  {
+   "id": "tfe_la_restinga",
+   "cat": "ocio",
+   "name": "La Restinga",
+   "icon": "🤿",
+   "lat": 27.6434,
+   "lng": -17.9833,
+   "desc": "Pueblo pesquero del sur de El Hierro, paraíso del buceo."
+  },
+  {
+   "id": "tfe_mercado_africa",
+   "cat": "food",
+   "name": "Mercado de Nuestra Señora de África",
+   "icon": "🥭",
+   "lat": 28.4601,
+   "lng": -16.2536,
+   "desc": "Colorido mercado municipal de Santa Cruz con productos locales."
+  },
+  {
+   "id": "tfe_casa_egon",
+   "cat": "food",
+   "name": "Casa Egon",
+   "icon": "🍰",
+   "lat": 28.3663,
+   "lng": -16.7179,
+   "desc": "Histórica confitería de 1916 en Icod de los Vinos."
+  },
+  {
+   "id": "tfe_bodegas_monje",
+   "cat": "food",
+   "name": "Bodegas Monje",
+   "icon": "🍷",
+   "lat": 28.4809,
+   "lng": -16.4335,
+   "desc": "Bodega familiar con restaurante y vistas al mar en El Sauzal."
+  },
+  {
+   "id": "tfe_los_abrigos",
+   "cat": "food",
+   "name": "Los Abrigos",
+   "icon": "🐟",
+   "lat": 28.0229,
+   "lng": -16.6197,
+   "desc": "Pueblo pesquero del sur famoso por su pescado y marisco frescos."
+  }
+ ],
+ "extra": {
+  "tfe_teide": {
+   "id": "tfe_teide",
+   "d": "Patrimonio de la Humanidad de la UNESCO, el Teide domina Tenerife con sus mares de lava, calderas y cielos ideales para la astronomía. Se puede subir en teleférico o caminar entre formaciones volcánicas únicas.",
+   "d_en": "A UNESCO World Heritage Site, Teide dominates Tenerife with lava fields, craters and skies ideal for stargazing. You can ride the cable car or hike among unique volcanic formations.",
+   "h": "Parque abierto todo el año; teleférico aprox. 9:00–16:00",
+   "h_en": "Park open year-round; cable car approx. 9:00–16:00",
+   "i": "Ideal si te gusta el senderismo, los volcanes y los paisajes sobrecogedores.",
+   "i_en": "Ideal if you like hiking, volcanoes and breathtaking landscapes."
+  },
+  "tfe_la_laguna": {
+   "id": "tfe_la_laguna",
+   "d": "Primera ciudad no fortificada de Canarias y modelo urbano de muchas ciudades coloniales americanas. Sus calles rectilíneas, iglesias, conventos y casonas de colores hacen de La Laguna una joya arquitectónica.",
+   "d_en": "The first unfortified city in the Canaries and an urban model for many American colonial cities. Its straight streets, churches, convents and colourful mansions make La Laguna an architectural gem.",
+   "h": "Ciudad abierta; monumentos aprox. 9:00–18:00",
+   "h_en": "Town always open; monuments approx. 9:00–18:00",
+   "i": "Ideal si te gusta la historia, la arquitectura colonial y el ambiente universitario.",
+   "i_en": "Ideal if you like history, colonial architecture and a university atmosphere."
+  },
+  "tfe_auditorio": {
+   "id": "tfe_auditorio",
+   "d": "Obra maestra del arquitecto Santiago Calatrava, su gran ala curva blanca se ha convertido en símbolo de la isla. Acoge conciertos, ópera y espectáculos con vistas al Atlántico.",
+   "d_en": "A masterpiece by architect Santiago Calatrava, its great white curved wing has become a symbol of the island. It hosts concerts, opera and shows overlooking the Atlantic.",
+   "h": "Visitas y taquilla aprox. 10:00–19:00 según programación",
+   "h_en": "Visits and box office approx. 10:00–19:00 depending on schedule",
+   "i": "Ideal si te gusta la arquitectura contemporánea y la música en directo.",
+   "i_en": "Ideal if you like contemporary architecture and live music."
+  },
+  "tfe_plaza_espana": {
+   "id": "tfe_plaza_espana",
+   "d": "La plaza principal de la capital, remodelada por Herzog & de Meuron, con un lago somero de agua salada y vistas al puerto. Punto de encuentro y puerta de entrada a las calles comerciales.",
+   "d_en": "The capital's main square, redesigned by Herzog & de Meuron, with a shallow saltwater lake and harbour views. A meeting point and gateway to the shopping streets.",
+   "h": "Abierta 24 h",
+   "h_en": "Open 24 h",
+   "i": "Ideal si te gusta pasear, la vida urbana y la fotografía de ciudad.",
+   "i_en": "Ideal if you like strolling, city life and urban photography."
+  },
+  "tfe_anaga": {
+   "id": "tfe_anaga",
+   "d": "Un macizo antiguo cubierto de bosque de laurisilva húmedo, senderos entre nubes, caseríos aislados y playas escondidas. Uno de los rincones más verdes y mágicos de Tenerife.",
+   "d_en": "An ancient massif covered in humid laurel forest, misty trails, isolated hamlets and hidden beaches. One of the greenest and most magical corners of Tenerife.",
+   "h": "Acceso libre; centro de visitantes Cruz del Carmen aprox. 9:30–15:00",
+   "h_en": "Free access; Cruz del Carmen visitor centre approx. 9:30–15:00",
+   "i": "Ideal si te gusta el senderismo, los bosques y la naturaleza salvaje.",
+   "i_en": "Ideal if you like hiking, forests and wild nature."
+  },
+  "tfe_masca": {
+   "id": "tfe_masca",
+   "d": "Un diminuto caserío entre montañas escarpadas del macizo de Teno, famoso por sus vistas de vértigo y por la exigente ruta del barranco de Masca que desciende hasta el océano.",
+   "d_en": "A tiny hamlet among the steep mountains of the Teno massif, famous for its dizzying views and the demanding Masca gorge trail that descends to the ocean.",
+   "h": "Acceso libre; barranco con reserva previa",
+   "h_en": "Free access; gorge requires prior booking",
+   "i": "Ideal si te gusta el senderismo exigente y los paisajes de montaña.",
+   "i_en": "Ideal if you like challenging hikes and mountain scenery."
+  },
+  "tfe_los_gigantes": {
+   "id": "tfe_los_gigantes",
+   "d": "Paredes verticales de hasta 600 m que se hunden en el Atlántico. Se admiran mejor desde el mar en barco, con avistamiento de cetáceos y baños en aguas cristalinas.",
+   "d_en": "Vertical walls up to 600 m high sinking into the Atlantic. Best admired from the sea by boat, with whale watching and swims in crystal-clear water.",
+   "h": "Miradores libres; excursiones en barco por horarios",
+   "h_en": "Viewpoints free; boat trips by schedule",
+   "i": "Ideal si te gusta el mar, los paseos en barco y avistar cetáceos.",
+   "i_en": "Ideal if you like the sea, boat trips and whale watching."
+  },
+  "tfe_loro_parque": {
+   "id": "tfe_loro_parque",
+   "d": "Uno de los mejores zoológicos del mundo, con la mayor colección de loros del planeta, orcas, pingüinos, gorilas y grandes acuarios. Un clásico para toda la familia.",
+   "d_en": "One of the world's best zoos, with the planet's largest parrot collection, orcas, penguins, gorillas and large aquariums. A family classic.",
+   "h": "Aprox. 9:30–17:00 (última entrada 16:00)",
+   "h_en": "Approx. 9:30–17:00 (last entry 16:00)",
+   "i": "Ideal si te gusta la fauna, los acuarios y los planes en familia.",
+   "i_en": "Ideal if you like wildlife, aquariums and family outings."
+  },
+  "tfe_siam_park": {
+   "id": "tfe_siam_park",
+   "d": "Toboganes de récord como la Torre del Poder, playa artificial con olas, río lento y decoración tailandesa. Repetidamente elegido el mejor parque acuático del planeta.",
+   "d_en": "Record-breaking slides like the Tower of Power, a wave beach, lazy river and Thai decor. Repeatedly voted the best water park on the planet.",
+   "h": "Aprox. 10:00–18:00 (varía por temporada)",
+   "h_en": "Approx. 10:00–18:00 (varies by season)",
+   "i": "Ideal si te gusta la adrenalina, el agua y la diversión en familia.",
+   "i_en": "Ideal if you like adrenaline, water and family fun."
+  },
+  "tfe_garachico": {
+   "id": "tfe_garachico",
+   "d": "Antiguo puerto principal de la isla, reconstruido tras la erupción de 1706. Conserva calles empedradas, conventos e iglesias, y sus famosas charcas naturales del Caletón entre la lava.",
+   "d_en": "The island's former main port, rebuilt after the 1706 eruption. It preserves cobbled streets, convents and churches, and its famous El Caletón natural pools amid the lava.",
+   "h": "Villa abierta; piscinas de acceso libre",
+   "h_en": "Town always open; pools free access",
+   "i": "Ideal si te gusta la historia, los baños en el mar y los pueblos con encanto.",
+   "i_en": "Ideal if you like history, sea bathing and charming towns."
+  },
+  "tfe_la_orotava": {
+   "id": "tfe_la_orotava",
+   "d": "El casco histórico mejor conservado de Tenerife, con casas nobiliarias, la Casa de los Balcones y el jardín Victoria. Famosa por sus alfombras de flores y arena volcánica en el Corpus Christi.",
+   "d_en": "Tenerife's best-preserved old town, with noble houses, the Casa de los Balcones and the Victoria garden. Famous for its flower and volcanic-sand carpets at Corpus Christi.",
+   "h": "Casco abierto; museos aprox. 9:00–18:00",
+   "h_en": "Town always open; museums approx. 9:00–18:00",
+   "i": "Ideal si te gusta la arquitectura tradicional canaria y la artesanía.",
+   "i_en": "Ideal if you like traditional Canarian architecture and crafts."
+  },
+  "tfe_candelaria": {
+   "id": "tfe_candelaria",
+   "d": "La basílica alberga la imagen de la Virgen de Candelaria, patrona del archipiélago. En su plaza se alinean las estatuas de bronce de los nueve menceyes guanches mirando al Atlántico.",
+   "d_en": "The basilica houses the image of the Virgin of Candelaria, patron of the archipelago. Its square is lined with bronze statues of the nine Guanche kings facing the Atlantic.",
+   "h": "Aprox. 7:30–19:00",
+   "h_en": "Approx. 7:30–19:00",
+   "i": "Ideal si te gusta el arte religioso, la historia guanche y el paseo marítimo.",
+   "i_en": "Ideal if you like religious art, Guanche history and seaside walks."
+  },
+  "tfe_piramides_guimar": {
+   "id": "tfe_piramides_guimar",
+   "d": "Un parque etnográfico con misteriosas construcciones escalonadas estudiadas por Thor Heyerdahl. Incluye jardines, exposiciones y réplicas de embarcaciones como la Ra II.",
+   "d_en": "An ethnographic park with mysterious stepped structures studied by Thor Heyerdahl. It includes gardens, exhibitions and boat replicas such as the Ra II.",
+   "h": "Aprox. 9:30–18:00",
+   "h_en": "Approx. 9:30–18:00",
+   "i": "Ideal si te gusta el misterio, la arqueología y las teorías sobre culturas antiguas.",
+   "i_en": "Ideal if you like mystery, archaeology and theories about ancient cultures."
+  },
+  "tfe_drago_icod": {
+   "id": "tfe_drago_icod",
+   "d": "El drago más famoso y longevo del archipiélago, en Icod de los Vinos. Rodeado de un parque, es una de las estampas más icónicas de Tenerife junto al casco histórico del pueblo.",
+   "d_en": "The most famous and long-lived dragon tree in the archipelago, in Icod de los Vinos. Surrounded by a park, it is one of Tenerife's most iconic sights next to the old town.",
+   "h": "Parque del Drago aprox. 9:00–18:00",
+   "h_en": "Drago Park approx. 9:00–18:00",
+   "i": "Ideal si te gusta la botánica, los árboles singulares y los pueblos con historia.",
+   "i_en": "Ideal if you like botany, unique trees and historic towns."
+  },
+  "tfe_teleferico_teide": {
+   "id": "tfe_teleferico_teide",
+   "d": "En apenas ocho minutos sube desde la base hasta la estación de La Rambleta, cerca de la cima del Teide. Desde arriba, senderos y miradores ofrecen vistas de toda la isla y del mar de nubes.",
+   "d_en": "In just eight minutes it climbs from the base to La Rambleta station, near Teide's summit. From the top, trails and viewpoints offer views of the whole island and the sea of clouds.",
+   "h": "Aprox. 9:00–16:00 (cierra con viento fuerte)",
+   "h_en": "Approx. 9:00–16:00 (closed in strong winds)",
+   "i": "Ideal si te gusta llegar alto sin caminar y disfrutar de vistas de altura.",
+   "i_en": "Ideal if you like reaching great heights without hiking and enjoying summit views."
+  },
+  "tfe_puerto_cruz": {
+   "id": "tfe_puerto_cruz",
+   "d": "Pionera del turismo en Canarias, combina casco histórico, jardines botánicos y el complejo de piscinas de agua marina Lago Martiánez, diseñado por César Manrique.",
+   "d_en": "A pioneer of Canarian tourism, it blends an old town, botanical gardens and the Lago Martiánez seawater pool complex, designed by César Manrique.",
+   "h": "Ciudad abierta; Lago Martiánez aprox. 10:00–18:00",
+   "h_en": "Town always open; Lago Martiánez approx. 10:00–18:00",
+   "i": "Ideal si te gusta el ambiente de costa, las piscinas y los paseos tranquilos.",
+   "i_en": "Ideal if you like a coastal vibe, pools and relaxed walks."
+  },
+  "tfe_tea": {
+   "id": "tfe_tea",
+   "d": "Edificio de vanguardia de Herzog & de Meuron que reúne colecciones de arte contemporáneo, la obra de Óscar Domínguez, exposiciones temporales y una gran biblioteca abierta 24 horas.",
+   "d_en": "A cutting-edge building by Herzog & de Meuron gathering contemporary art collections, the work of Óscar Domínguez, temporary exhibitions and a large 24-hour library.",
+   "h": "Aprox. 10:00–20:00 (cerrado lunes)",
+   "h_en": "Approx. 10:00–20:00 (closed Mondays)",
+   "i": "Ideal si te gusta el arte moderno, la fotografía y la arquitectura de autor.",
+   "i_en": "Ideal if you like modern art, photography and signature architecture."
+  },
+  "tfe_caldera_taburiente": {
+   "id": "tfe_caldera_taburiente",
+   "d": "Un enorme anfiteatro natural de más de 8 km de diámetro, con paredes de hasta 2.000 m, bosques de pino canario, cascadas y el llamativo colorido de la Cascada de Colores.",
+   "d_en": "A huge natural amphitheatre over 8 km wide, with walls up to 2,000 m, Canary pine forests, waterfalls and the striking Cascada de Colores.",
+   "h": "Acceso libre; centro de visitantes aprox. 9:00–16:00",
+   "h_en": "Free access; visitor centre approx. 9:00–16:00",
+   "i": "Ideal si te gusta el senderismo, los miradores y los grandes paisajes.",
+   "i_en": "Ideal if you like hiking, viewpoints and grand landscapes."
+  },
+  "tfe_roque_muchachos": {
+   "id": "tfe_roque_muchachos",
+   "d": "El punto más alto de La Palma, sobre el mar de nubes, alberga el Observatorio del Roque de los Muchachos, con telescopios de referencia mundial gracias a la excepcional calidad del cielo.",
+   "d_en": "La Palma's highest point, above the sea of clouds, hosts the Roque de los Muchachos Observatory, with world-class telescopes thanks to the exceptional sky quality.",
+   "h": "Mirador libre; visitas al observatorio con reserva",
+   "h_en": "Viewpoint free; observatory visits by booking",
+   "i": "Ideal si te gusta la astronomía, los cielos estrellados y las alturas.",
+   "i_en": "Ideal if you like astronomy, starry skies and high altitudes."
+  },
+  "tfe_los_tilos": {
+   "id": "tfe_los_tilos",
+   "d": "Uno de los mejores exponentes de laurisilva del mundo, con helechos gigantes, nacientes de agua y senderos húmedos entre la niebla. Núcleo original de la Reserva de la Biosfera de La Palma.",
+   "d_en": "One of the world's finest examples of laurel forest, with giant ferns, springs and misty humid trails. The original core of La Palma's Biosphere Reserve.",
+   "h": "Acceso libre; centro de visitantes aprox. 9:00–15:00",
+   "h_en": "Free access; visitor centre approx. 9:00–15:00",
+   "i": "Ideal si te gusta la naturaleza exuberante, los bosques y el senderismo.",
+   "i_en": "Ideal if you like lush nature, forests and hiking."
+  },
+  "tfe_santa_cruz_palma": {
+   "id": "tfe_santa_cruz_palma",
+   "d": "Una de las ciudades históricas más bonitas de Canarias, con casas de colores, los famosos balcones de la Avenida Marítima, iglesias renacentistas y la réplica del barco Museo Naval.",
+   "d_en": "One of the most beautiful historic cities in the Canaries, with colourful houses, the famous balconies of the Avenida Marítima, Renaissance churches and the replica ship Naval Museum.",
+   "h": "Ciudad abierta; museos aprox. 10:00–18:00",
+   "h_en": "City always open; museums approx. 10:00–18:00",
+   "i": "Ideal si te gusta la arquitectura colonial, pasear y la historia marinera.",
+   "i_en": "Ideal if you like colonial architecture, strolling and maritime history."
+  },
+  "tfe_las_nieves": {
+   "id": "tfe_las_nieves",
+   "d": "Templo del siglo XVII que custodia la imagen gótica de la Virgen de las Nieves, protagonista cada cinco años de la multitudinaria Bajada de la Virgen. Rodeado de laurisilva y buenas vistas.",
+   "d_en": "A 17th-century church guarding the Gothic image of the Virgin of the Snows, star every five years of the massive Bajada de la Virgen festival. Surrounded by laurel forest with fine views.",
+   "h": "Aprox. 9:00–19:00",
+   "h_en": "Approx. 9:00–19:00",
+   "i": "Ideal si te gusta el arte religioso, las tradiciones y los entornos verdes.",
+   "i_en": "Ideal if you like religious art, traditions and green surroundings."
+  },
+  "tfe_garajonay": {
+   "id": "tfe_garajonay",
+   "d": "Un bosque relicto de la era terciaria, cubierto de niebla permanente, musgos y laureles. Sus senderos llevan al Alto de Garajonay, punto más alto de la isla, con vistas al Teide.",
+   "d_en": "A relict forest from the Tertiary era, cloaked in permanent mist, mosses and laurels. Its trails lead to Alto de Garajonay, the island's highest point, with views of Teide.",
+   "h": "Acceso libre; centro de visitantes aprox. 9:30–16:30",
+   "h_en": "Free access; visitor centre approx. 9:30–16:30",
+   "i": "Ideal si te gusta el senderismo, los bosques mágicos y la naturaleza única.",
+   "i_en": "Ideal if you like hiking, magical forests and unique nature."
+  },
+  "tfe_valle_gran_rey": {
+   "id": "tfe_valle_gran_rey",
+   "d": "Un espectacular valle abancalado descendiendo hasta el mar, con palmeras, pueblos blancos y playas de arena negra. Famoso por su ambiente relajado, sus atardeceres y su comunidad bohemia.",
+   "d_en": "A spectacular terraced valley dropping to the sea, with palms, white villages and black-sand beaches. Famous for its laid-back vibe, sunsets and bohemian community.",
+   "h": "Acceso libre",
+   "h_en": "Free access",
+   "i": "Ideal si te gusta la playa, los atardeceres y el ambiente tranquilo.",
+   "i_en": "Ideal if you like the beach, sunsets and a relaxed atmosphere."
+  },
+  "tfe_san_sebastian_gomera": {
+   "id": "tfe_san_sebastian_gomera",
+   "d": "La capital de La Gomera guarda la Torre del Conde, la Casa de Colón y el pozo de la Aguada, donde Cristóbal Colón hizo su última escala antes de descubrir América en 1492.",
+   "d_en": "La Gomera's capital keeps the Torre del Conde, the Columbus House and the Aguada well, where Christopher Columbus made his last stop before discovering America in 1492.",
+   "h": "Villa abierta; museos aprox. 10:00–18:00",
+   "h_en": "Town always open; museums approx. 10:00–18:00",
+   "i": "Ideal si te gusta la historia de los descubrimientos y los pueblos con encanto.",
+   "i_en": "Ideal if you like the history of exploration and charming towns."
+  },
+  "tfe_el_golfo": {
+   "id": "tfe_el_golfo",
+   "d": "El valle de El Golfo, resto de un antiguo deslizamiento volcánico, se contempla desde el Mirador de la Peña, obra de César Manrique con restaurante y vistas espectaculares al Atlántico.",
+   "d_en": "The El Golfo valley, remnant of an ancient volcanic landslide, is best seen from the Mirador de la Peña, a César Manrique work with a restaurant and spectacular Atlantic views.",
+   "h": "Mirador aprox. 11:00–19:00",
+   "h_en": "Viewpoint approx. 11:00–19:00",
+   "i": "Ideal si te gusta la geología, los miradores y los paisajes vírgenes.",
+   "i_en": "Ideal if you like geology, viewpoints and pristine landscapes."
+  },
+  "tfe_la_restinga": {
+   "id": "tfe_la_restinga",
+   "d": "El pueblo más meridional de España, dentro de la Reserva Marina del Mar de las Calmas, con aguas cristalinas, fondos volcánicos y una biodiversidad marina que lo hacen destino de buceo de primer nivel.",
+   "d_en": "Spain's southernmost village, within the Mar de las Calmas Marine Reserve, with crystal-clear water, volcanic seabeds and marine biodiversity that make it a top diving destination.",
+   "h": "Pueblo abierto; centros de buceo por horarios",
+   "h_en": "Village always open; dive centres by schedule",
+   "i": "Ideal si te gusta el buceo, el snorkel y la vida marina.",
+   "i_en": "Ideal if you like diving, snorkelling and marine life."
+  },
+  "tfe_mercado_africa": {
+   "id": "tfe_mercado_africa",
+   "d": "El mercado más emblemático de la capital, con puestos de frutas tropicales, quesos canarios, pescado fresco, flores y bares donde probar tapas y desayunos típicos.",
+   "d_en": "The capital's most iconic market, with stalls of tropical fruit, Canarian cheeses, fresh fish, flowers and bars serving typical tapas and breakfasts.",
+   "h": "Aprox. 6:00–14:00 (domingos hasta mediodía)",
+   "h_en": "Approx. 6:00–14:00 (Sundays until midday)",
+   "i": "Ideal si te gusta la gastronomía local, los productos frescos y el ambiente de mercado.",
+   "i_en": "Ideal if you like local gastronomy, fresh produce and market atmosphere."
+  },
+  "tfe_casa_egon": {
+   "id": "tfe_casa_egon",
+   "d": "Un café-pastelería centenario junto a la plaza de Icod, famoso por sus dulces artesanales, tartas tradicionales y el ambiente clásico de sus salones de época.",
+   "d_en": "A century-old café-patisserie next to Icod's main square, famous for its handmade pastries, traditional cakes and the classic atmosphere of its period rooms.",
+   "h": "Aprox. 8:30–20:00",
+   "h_en": "Approx. 8:30–20:00",
+   "i": "Ideal si te gusta la repostería tradicional, el café y los locales con historia.",
+   "i_en": "Ideal if you like traditional pastries, coffee and historic cafés."
+  },
+  "tfe_bodegas_monje": {
+   "id": "tfe_bodegas_monje",
+   "d": "Bodega histórica del norte de Tenerife donde catar vinos de la D.O. Tacoronte-Acentejo acompañados de cocina canaria en una terraza con vistas al Atlántico. Ofrece visitas y enoturismo.",
+   "d_en": "A historic winery in northern Tenerife where you can taste D.O. Tacoronte-Acentejo wines alongside Canarian cuisine on a terrace overlooking the Atlantic. Offers tours and wine tourism.",
+   "h": "Aprox. 11:00–19:00 (consultar reservas)",
+   "h_en": "Approx. 11:00–19:00 (check bookings)",
+   "i": "Ideal si te gusta el vino, el enoturismo y la cocina local con vistas.",
+   "i_en": "Ideal if you like wine, wine tourism and local cuisine with a view."
+  },
+  "tfe_los_abrigos": {
+   "id": "tfe_los_abrigos",
+   "d": "Un pequeño puerto en el sur de Tenerife cuya calle principal se llena de restaurantes de pescado y marisco recién capturado. Uno de los mejores lugares de la isla para comer sardinas, cherne y vieja.",
+   "d_en": "A small harbour in southern Tenerife whose main street is lined with restaurants serving freshly caught fish and seafood. One of the best places on the island for sardines, wreckfish and parrotfish.",
+   "h": "Restaurantes aprox. 12:00–23:00",
+   "h_en": "Restaurants approx. 12:00–23:00",
+   "i": "Ideal si te gusta el pescado fresco, el marisco y el ambiente marinero.",
+   "i_en": "Ideal if you like fresh fish, seafood and a seafaring atmosphere."
+  }
+ },
+ "food": {
+  "tfe_mercado_africa": {
+   "cuisine": "Mercado y tapas canarias",
+   "price": "5–15 €",
+   "hours": "6:00–14:00"
+  },
+  "tfe_casa_egon": {
+   "cuisine": "Repostería y café canario",
+   "price": "3–12 €",
+   "hours": "8:30–20:00"
+  },
+  "tfe_bodegas_monje": {
+   "cuisine": "Cocina canaria y vinos",
+   "price": "15–35 €",
+   "hours": "11:00–19:00"
+  },
+  "tfe_los_abrigos": {
+   "cuisine": "Pescado y marisco",
+   "price": "15–40 €",
+   "hours": "12:00–23:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Tenerife",
+   "items": [
+    {
+     "name": "Mojo picón y mojo verde",
+     "price": "4–8 €",
+     "desc": "Salsas canarias de ajo, pimentón y cilantro para acompañar las papas arrugadas."
+    },
+    {
+     "name": "Vino Malvasía",
+     "price": "8–20 €",
+     "desc": "Vino dulce volcánico de las islas, con Denominación de Origen propia."
+    },
+    {
+     "name": "Gofio",
+     "price": "3–6 €",
+     "desc": "Harina tostada de cereales, alimento ancestral guanche imprescindible en la cocina local."
+    },
+    {
+     "name": "Miel de palma (La Gomera)",
+     "price": "6–12 €",
+     "desc": "Melaza dulce obtenida de la palmera canaria, típica de La Gomera."
+    },
+    {
+     "name": "Puros de La Palma",
+     "price": "5–25 €",
+     "desc": "Cigarros artesanales de tabaco palmero, muy apreciados por su calidad."
+    }
+   ],
+   "shops": [
+    "Mercado de Nuestra Señora de África (Santa Cruz)",
+    "La Casa del Vino (El Sauzal)",
+    "Tiendas artesanas de La Laguna y La Orotava"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Para subir al pico del Teide a pie hasta la cima necesitas un permiso gratuito; resérvalo con semanas de antelación en reservasparquesnacionales.es.",
+   "Alquila un coche: el transporte público es limitado y muchos miradores y pueblos solo se alcanzan por carretera.",
+   "Lleva ropa de abrigo para el Teide y el Roque de los Muchachos: en altura hace frío incluso en verano.",
+   "Compra las entradas de Siam Park y Loro Parque online para ahorrar tiempo y dinero.",
+   "Muévete entre islas en ferry (Fred. Olsen o Naviera Armas) o en avión; reserva coche en destino con antelación."
+  ],
+  "en": [
+   "To hike to the summit of Teide you need a free permit; book it weeks in advance at reservasparquesnacionales.es.",
+   "Rent a car: public transport is limited and many viewpoints and villages are only reachable by road.",
+   "Bring warm clothing for Teide and Roque de los Muchachos: it gets cold at altitude even in summer.",
+   "Buy Siam Park and Loro Parque tickets online to save time and money.",
+   "Travel between islands by ferry (Fred. Olsen or Naviera Armas) or by plane; book a car at destination in advance."
+  ]
+ },
+ "climate": {
+  "hi": [
+   21,
+   21,
+   22,
+   23,
+   24,
+   26,
+   28,
+   29,
+   28,
+   27,
+   24,
+   22
+  ],
+  "lo": [
+   16,
+   15,
+   16,
+   17,
+   18,
+   20,
+   21,
+   22,
+   22,
+   21,
+   19,
+   17
+  ]
+ },
+ "tr": {
+  "El pico más alto de España (3.715 m) y volcán rodeado de paisajes lunares.": "Spain's highest peak (3,715 m), a volcano surrounded by lunar landscapes.",
+  "Casco histórico Patrimonio de la Humanidad con calles coloniales y palacios.": "UNESCO World Heritage old town with colonial streets and mansions.",
+  "Icónico auditorio de Calatrava junto al mar en Santa Cruz.": "Iconic seaside auditorium by Calatrava in Santa Cruz.",
+  "Corazón de Santa Cruz con su gran lago artificial circular.": "Heart of Santa Cruz with its large circular artificial lake.",
+  "Reserva de la Biosfera con laurisilva y crestas escarpadas.": "Biosphere Reserve with laurel forest and rugged ridges.",
+  "Pueblo remoto encaramado en un espectacular barranco.": "Remote village perched in a spectacular ravine.",
+  "Impresionantes acantilados que caen a plomo sobre el mar.": "Impressive cliffs plunging straight into the sea.",
+  "Zoológico y parque animal de referencia en Puerto de la Cruz.": "Leading zoo and animal park in Puerto de la Cruz.",
+  "Parque acuático de temática tailandesa, entre los mejores del mundo.": "Thai-themed water park, among the best in the world.",
+  "Villa histórica con piscinas naturales de origen volcánico.": "Historic town with natural volcanic swimming pools.",
+  "Villa señorial con casonas, balcones canarios y jardines.": "Stately town with mansions, Canarian balconies and gardens.",
+  "Santuario de la patrona de Canarias frente al mar.": "Shrine of the patron saint of the Canaries by the sea.",
+  "Enigmáticas terrazas piramidales de piedra volcánica.": "Enigmatic pyramid-shaped terraces of volcanic stone.",
+  "Ejemplar milenario de drago, símbolo botánico de Canarias.": "A thousand-year-old dragon tree, botanical symbol of the Canaries.",
+  "Ascenso rápido a 3.555 m con vistas panorámicas.": "Quick ascent to 3,555 m with panoramic views.",
+  "Ciudad turística clásica del norte con piscinas de Lago Martiánez.": "Classic northern resort town with the Lago Martiánez pools.",
+  "Centro de arte contemporáneo y biblioteca en Santa Cruz.": "Contemporary art centre and library in Santa Cruz.",
+  "Gigantesca caldera erosiva verde en el corazón de La Palma.": "Vast green erosion caldera at the heart of La Palma.",
+  "Techo de La Palma (2.426 m) con uno de los mejores observatorios del mundo.": "La Palma's highest point (2,426 m) with a world-class observatory.",
+  "Frondoso bosque de laurisilva y Reserva de la Biosfera en La Palma.": "Lush laurel forest and Biosphere Reserve in La Palma.",
+  "Elegante capital colonial con la calle O'Daly y sus balcones.": "Elegant colonial capital with Calle O'Daly and its balconies.",
+  "Santuario de la patrona de La Palma sobre la capital.": "Shrine of La Palma's patron saint above the capital.",
+  "Bosque de laurisilva Patrimonio de la Humanidad en La Gomera.": "UNESCO laurel forest at the heart of La Gomera.",
+  "Valle de palmerales y playas, refugio alternativo de La Gomera.": "Valley of palm groves and beaches, La Gomera's alternative haven.",
+  "Villa colombina desde donde zarpó Colón hacia América.": "Columbian town from which Columbus set sail for America.",
+  "Gran valle en forma de media luna con mirador de César Manrique.": "Large crescent-shaped valley with a César Manrique viewpoint.",
+  "Pueblo pesquero del sur de El Hierro, paraíso del buceo.": "Fishing village in southern El Hierro, a diving paradise.",
+  "Colorido mercado municipal de Santa Cruz con productos locales.": "Colourful municipal market in Santa Cruz with local produce.",
+  "Histórica confitería de 1916 en Icod de los Vinos.": "Historic 1916 confectionery in Icod de los Vinos.",
+  "Bodega familiar con restaurante y vistas al mar en El Sauzal.": "Family winery with restaurant and sea views in El Sauzal.",
+  "Pueblo pesquero del sur famoso por su pescado y marisco frescos.": "Southern fishing village famous for its fresh fish and seafood.",
+  "Tenerife": "Tenerife"
+ }
+}

@@ -1,0 +1,525 @@
+{
+  "version": 1,
+  "territories": [
+    {
+      "id": "acoruna",
+      "name": "A Coruña",
+      "country": "ES",
+      "center": [
+        43.3623,
+        -8.4115
+      ],
+      "file": "data/t/acoruna.json"
+    },
+    {
+      "id": "albacete",
+      "name": "Albacete",
+      "country": "ES",
+      "center": [
+        38.9943,
+        -1.8585
+      ],
+      "file": "data/t/albacete.json"
+    },
+    {
+      "id": "alicante",
+      "name": "Alicante",
+      "country": "ES",
+      "center": [
+        38.3452,
+        -0.481
+      ],
+      "file": "data/t/alicante.json"
+    },
+    {
+      "id": "almeria",
+      "name": "Almería",
+      "country": "ES",
+      "center": [
+        36.8381,
+        -2.4597
+      ],
+      "file": "data/t/almeria.json"
+    },
+    {
+      "id": "asturias",
+      "name": "Asturias",
+      "country": "ES",
+      "center": [
+        43.3615,
+        -5.8444
+      ],
+      "file": "data/t/asturias.json"
+    },
+    {
+      "id": "badajoz",
+      "name": "Badajoz",
+      "country": "ES",
+      "center": [
+        38.8789,
+        -6.9707
+      ],
+      "file": "data/t/badajoz.json"
+    },
+    {
+      "id": "barcelona",
+      "name": "Barcelona",
+      "country": "ES",
+      "center": [
+        41.3874,
+        2.1686
+      ],
+      "file": "data/t/barcelona.json"
+    },
+    {
+      "id": "bizkaia",
+      "name": "Bizkaia",
+      "country": "ES",
+      "center": [
+        43.263,
+        -2.9253
+      ],
+      "file": "data/t/bizkaia.json"
+    },
+    {
+      "id": "burgos",
+      "name": "Burgos",
+      "country": "ES",
+      "center": [
+        42.3437,
+        -3.697
+      ],
+      "file": "data/t/burgos.json"
+    },
+    {
+      "id": "cantabria",
+      "name": "Cantabria",
+      "country": "ES",
+      "center": [
+        43.4623,
+        -3.8099
+      ],
+      "file": "data/t/cantabria.json"
+    },
+    {
+      "id": "castellon",
+      "name": "Castellón",
+      "country": "ES",
+      "center": [
+        39.9864,
+        -0.0513
+      ],
+      "file": "data/t/castellon.json"
+    },
+    {
+      "id": "ceuta",
+      "name": "Ceuta",
+      "country": "ES",
+      "center": [
+        35.8893,
+        -5.3198
+      ],
+      "file": "data/t/ceuta.json"
+    },
+    {
+      "id": "ciudadreal",
+      "name": "Ciudad Real",
+      "country": "ES",
+      "center": [
+        38.9863,
+        -3.9291
+      ],
+      "file": "data/t/ciudadreal.json"
+    },
+    {
+      "id": "madrid",
+      "name": "Comunidad de Madrid",
+      "country": "ES",
+      "center": [
+        40.4168,
+        -3.7038
+      ],
+      "file": "data/t/madrid.json"
+    },
+    {
+      "id": "cuenca",
+      "name": "Cuenca",
+      "country": "ES",
+      "center": [
+        40.0704,
+        -2.1374
+      ],
+      "file": "data/t/cuenca.json"
+    },
+    {
+      "id": "caceres",
+      "name": "Cáceres",
+      "country": "ES",
+      "center": [
+        39.476,
+        -6.3722
+      ],
+      "file": "data/t/caceres.json"
+    },
+    {
+      "id": "cadiz",
+      "name": "Cádiz",
+      "country": "ES",
+      "center": [
+        36.5298,
+        -6.2935
+      ],
+      "file": "data/t/cadiz.json"
+    },
+    {
+      "id": "cordoba",
+      "name": "Córdoba",
+      "country": "ES",
+      "center": [
+        37.8882,
+        -4.7794
+      ],
+      "file": "data/t/cordoba.json"
+    },
+    {
+      "id": "gipuzkoa",
+      "name": "Gipuzkoa",
+      "country": "ES",
+      "center": [
+        43.3128,
+        -1.975
+      ],
+      "file": "data/t/gipuzkoa.json"
+    },
+    {
+      "id": "girona",
+      "name": "Girona",
+      "country": "ES",
+      "center": [
+        41.9794,
+        2.8214
+      ],
+      "file": "data/t/girona.json"
+    },
+    {
+      "id": "granada",
+      "name": "Granada",
+      "country": "ES",
+      "center": [
+        37.1773,
+        -3.5986
+      ],
+      "file": "data/t/granada.json"
+    },
+    {
+      "id": "guadalajara",
+      "name": "Guadalajara",
+      "country": "ES",
+      "center": [
+        40.6323,
+        -3.1646
+      ],
+      "file": "data/t/guadalajara.json"
+    },
+    {
+      "id": "huelva",
+      "name": "Huelva",
+      "country": "ES",
+      "center": [
+        37.2614,
+        -6.9447
+      ],
+      "file": "data/t/huelva.json"
+    },
+    {
+      "id": "huesca",
+      "name": "Huesca",
+      "country": "ES",
+      "center": [
+        42.1362,
+        -0.4083
+      ],
+      "file": "data/t/huesca.json"
+    },
+    {
+      "id": "baleares",
+      "name": "Islas Baleares",
+      "country": "ES",
+      "center": [
+        39.5696,
+        2.6502
+      ],
+      "file": "data/t/baleares.json"
+    },
+    {
+      "id": "jaen",
+      "name": "Jaén",
+      "country": "ES",
+      "center": [
+        37.7688,
+        -3.7903
+      ],
+      "file": "data/t/jaen.json"
+    },
+    {
+      "id": "larioja",
+      "name": "La Rioja",
+      "country": "ES",
+      "center": [
+        42.4627,
+        -2.4449
+      ],
+      "file": "data/t/larioja.json"
+    },
+    {
+      "id": "laspalmas",
+      "name": "Las Palmas",
+      "country": "ES",
+      "center": [
+        28.1235,
+        -15.4363
+      ],
+      "file": "data/t/laspalmas.json"
+    },
+    {
+      "id": "leon",
+      "name": "León",
+      "country": "ES",
+      "center": [
+        42.5987,
+        -5.5671
+      ],
+      "file": "data/t/leon.json"
+    },
+    {
+      "id": "lleida",
+      "name": "Lleida",
+      "country": "ES",
+      "center": [
+        41.6176,
+        0.62
+      ],
+      "file": "data/t/lleida.json"
+    },
+    {
+      "id": "lugo",
+      "name": "Lugo",
+      "country": "ES",
+      "center": [
+        43.012,
+        -7.5562
+      ],
+      "file": "data/t/lugo.json"
+    },
+    {
+      "id": "melilla",
+      "name": "Melilla",
+      "country": "ES",
+      "center": [
+        35.2935,
+        -2.9383
+      ],
+      "file": "data/t/melilla.json"
+    },
+    {
+      "id": "malaga",
+      "name": "Málaga",
+      "country": "ES",
+      "center": [
+        36.7213,
+        -4.4203
+      ],
+      "file": "data/t/malaga.json"
+    },
+    {
+      "id": "navarra",
+      "name": "Navarra",
+      "country": "ES",
+      "center": [
+        42.8169,
+        -1.6432
+      ],
+      "file": "data/t/navarra.json"
+    },
+    {
+      "id": "ourense",
+      "name": "Ourense",
+      "country": "ES",
+      "center": [
+        42.3366,
+        -7.864
+      ],
+      "file": "data/t/ourense.json"
+    },
+    {
+      "id": "palencia",
+      "name": "Palencia",
+      "country": "ES",
+      "center": [
+        42.0095,
+        -4.5241
+      ],
+      "file": "data/t/palencia.json"
+    },
+    {
+      "id": "pontevedra",
+      "name": "Pontevedra",
+      "country": "ES",
+      "center": [
+        42.4312,
+        -8.6446
+      ],
+      "file": "data/t/pontevedra.json"
+    },
+    {
+      "id": "murcia",
+      "name": "Región de Murcia",
+      "country": "ES",
+      "center": [
+        37.9922,
+        -1.1307
+      ],
+      "file": "data/t/murcia.json"
+    },
+    {
+      "id": "salamanca",
+      "name": "Salamanca",
+      "country": "ES",
+      "center": [
+        40.965,
+        -5.6642
+      ],
+      "file": "data/t/salamanca.json"
+    },
+    {
+      "id": "tenerife",
+      "name": "Santa Cruz de Tenerife",
+      "country": "ES",
+      "center": [
+        28.4683,
+        -16.2546
+      ],
+      "file": "data/t/tenerife.json"
+    },
+    {
+      "id": "segovia",
+      "name": "Segovia",
+      "country": "ES",
+      "center": [
+        40.9481,
+        -4.1184
+      ],
+      "file": "data/t/segovia.json"
+    },
+    {
+      "id": "sevilla",
+      "name": "Sevilla",
+      "country": "ES",
+      "center": [
+        37.3886,
+        -5.9934
+      ],
+      "file": "data/t/sevilla.json"
+    },
+    {
+      "id": "soria",
+      "name": "Soria",
+      "country": "ES",
+      "center": [
+        41.7647,
+        -2.4653
+      ],
+      "file": "data/t/soria.json"
+    },
+    {
+      "id": "tarragona",
+      "name": "Tarragona",
+      "country": "ES",
+      "center": [
+        41.1189,
+        1.2445
+      ],
+      "file": "data/t/tarragona.json"
+    },
+    {
+      "id": "teruel",
+      "name": "Teruel",
+      "country": "ES",
+      "center": [
+        40.3439,
+        -1.1073
+      ],
+      "file": "data/t/teruel.json"
+    },
+    {
+      "id": "toledo",
+      "name": "Toledo",
+      "country": "ES",
+      "center": [
+        39.8581,
+        -4.0243
+      ],
+      "file": "data/t/toledo.json"
+    },
+    {
+      "id": "valencia",
+      "name": "Valencia",
+      "country": "ES",
+      "center": [
+        39.4699,
+        -0.3763
+      ],
+      "file": "data/t/valencia.json"
+    },
+    {
+      "id": "valladolid",
+      "name": "Valladolid",
+      "country": "ES",
+      "center": [
+        41.6552,
+        -4.7237
+      ],
+      "file": "data/t/valladolid.json"
+    },
+    {
+      "id": "zamora",
+      "name": "Zamora",
+      "country": "ES",
+      "center": [
+        41.5036,
+        -5.7466
+      ],
+      "file": "data/t/zamora.json"
+    },
+    {
+      "id": "zaragoza",
+      "name": "Zaragoza",
+      "country": "ES",
+      "center": [
+        41.6561,
+        -0.8773
+      ],
+      "file": "data/t/zaragoza.json"
+    },
+    {
+      "id": "alava",
+      "name": "Álava",
+      "country": "ES",
+      "center": [
+        42.8467,
+        -2.6728
+      ],
+      "file": "data/t/alava.json"
+    },
+    {
+      "id": "avila",
+      "name": "Ávila",
+      "country": "ES",
+      "center": [
+        40.6564,
+        -4.6918
+      ],
+      "file": "data/t/avila.json"
+    }
+  ]
+}

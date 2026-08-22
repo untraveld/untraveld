@@ -1,0 +1,744 @@
+{
+ "id": "valencia",
+ "name": "Valencia",
+ "country": "ES",
+ "center": [
+  39.4699,
+  -0.3763
+ ],
+ "pois": [
+  {
+   "id": "cvv_artes",
+   "cat": "monuments",
+   "name": "Ciudad de las Artes y las Ciencias",
+   "icon": "🚀",
+   "lat": 39.4542,
+   "lng": -0.3486,
+   "desc": "Espectacular complejo futurista de Calatrava junto al antiguo cauce del Turia."
+  },
+  {
+   "id": "cvv_oceanografic",
+   "cat": "ocio",
+   "name": "Oceanogràfic",
+   "icon": "🐠",
+   "lat": 39.4528,
+   "lng": -0.3481,
+   "desc": "El mayor acuario de Europa, con más de 45.000 animales de todos los mares."
+  },
+  {
+   "id": "cvv_catedral",
+   "cat": "monuments",
+   "name": "Catedral de Valencia y el Miguelete",
+   "icon": "⛪",
+   "lat": 39.47556,
+   "lng": -0.37528,
+   "desc": "Catedral gótica que custodia el Santo Cáliz, con la icónica torre del Miguelete."
+  },
+  {
+   "id": "cvv_lonja",
+   "cat": "monuments",
+   "name": "La Lonja de la Seda",
+   "icon": "🏛️",
+   "lat": 39.47448,
+   "lng": -0.37847,
+   "desc": "Joya del gótico civil y Patrimonio de la Humanidad de la UNESCO."
+  },
+  {
+   "id": "cvv_mercadocentral",
+   "cat": "monuments",
+   "name": "Mercado Central",
+   "icon": "🛒",
+   "lat": 39.4737,
+   "lng": -0.37877,
+   "desc": "Mercado modernista y templo de los productos frescos valencianos."
+  },
+  {
+   "id": "cvv_albufera",
+   "cat": "nature",
+   "name": "L'Albufera y El Palmar",
+   "icon": "🚣",
+   "lat": 39.4032,
+   "lng": -0.33,
+   "desc": "Laguna y arrozales donde nació la paella, con paseos en barca al atardecer."
+  },
+  {
+   "id": "cvv_turia",
+   "cat": "nature",
+   "name": "Jardín del Turia",
+   "icon": "🌳",
+   "lat": 39.4652,
+   "lng": -0.3601,
+   "desc": "9 km de parque verde en el antiguo cauce del río que abraza la ciudad."
+  },
+  {
+   "id": "cvv_serranos",
+   "cat": "monuments",
+   "name": "Torres de Serranos",
+   "icon": "🗼",
+   "lat": 39.47942,
+   "lng": -0.37564,
+   "desc": "Imponente puerta gótica de la antigua muralla medieval de Valencia."
+  },
+  {
+   "id": "cvv_malvarrosa",
+   "cat": "nature",
+   "name": "Playa de la Malvarrosa",
+   "icon": "🏖️",
+   "lat": 39.4725,
+   "lng": -0.3238,
+   "desc": "Amplia playa urbana de arena dorada con largo paseo marítimo y arrocerías."
+  },
+  {
+   "id": "cvv_bioparc",
+   "cat": "ocio",
+   "name": "Bioparc Valencia",
+   "icon": "🦁",
+   "lat": 39.47365,
+   "lng": -0.4056,
+   "desc": "Zoo de inmersión que recrea los hábitats de África sin apenas barreras."
+  },
+  {
+   "id": "cvv_carmen",
+   "cat": "ocio",
+   "name": "Barrio del Carmen",
+   "icon": "🎨",
+   "lat": 39.4795,
+   "lng": -0.3805,
+   "desc": "El casco histórico más bohemio, con calles medievales y arte urbano."
+  },
+  {
+   "id": "cvv_quart",
+   "cat": "monuments",
+   "name": "Torres de Quart",
+   "icon": "🏰",
+   "lat": 39.47519,
+   "lng": -0.38428,
+   "desc": "Puerta medieval del siglo XV que aún conserva las marcas de las balas."
+  },
+  {
+   "id": "cvv_colon",
+   "cat": "ocio",
+   "name": "Mercado de Colón",
+   "icon": "🏬",
+   "lat": 39.46895,
+   "lng": -0.36837,
+   "desc": "Antiguo mercado modernista reconvertido en elegante espacio gastronómico."
+  },
+  {
+   "id": "cvv_pepica",
+   "cat": "food",
+   "name": "La Pepica",
+   "icon": "🥘",
+   "lat": 39.4634,
+   "lng": -0.32347,
+   "desc": "Legendaria arrocería frente al mar, con más de un siglo de historia."
+  },
+  {
+   "id": "cvv_carmela",
+   "cat": "food",
+   "name": "Casa Carmela",
+   "icon": "🥘",
+   "lat": 39.48222,
+   "lng": -0.32585,
+   "desc": "Paellas a la leña junto a la Malvarrosa, una de las mejores de la ciudad."
+  },
+  {
+   "id": "cvv_maribel",
+   "cat": "food",
+   "name": "Arrocería Maribel (El Palmar)",
+   "icon": "🍚",
+   "lat": 39.4026,
+   "lng": -0.3286,
+   "desc": "Arroces de la Albufera junto al agua, con Bib Gourmand de la guía Michelin."
+  },
+  {
+   "id": "cvv_santacatalina",
+   "cat": "food",
+   "name": "Horchatería de Santa Catalina",
+   "icon": "🥛",
+   "lat": 39.4749,
+   "lng": -0.3756,
+   "desc": "Horchatería histórica del centro, famosa por su horchata y fartons."
+  },
+  {
+   "id": "cvv_ivam",
+   "cat": "ocio",
+   "name": "IVAM",
+   "icon": "🖼️",
+   "lat": 39.4796,
+   "lng": -0.3843,
+   "desc": "Museo de arte moderno de referencia, con la gran colección de Julio González."
+  },
+  {
+   "id": "cvv_fallero",
+   "cat": "ocio",
+   "name": "Museo Fallero de Valencia",
+   "icon": "🔥",
+   "lat": 39.4577,
+   "lng": -0.3672,
+   "desc": "Los ninots indultados del fuego que cuentan la historia de las Fallas."
+  },
+  {
+   "id": "cvv_sagunto",
+   "cat": "monuments",
+   "name": "Castillo de Sagunto",
+   "icon": "🏰",
+   "lat": 39.67617,
+   "lng": -0.27717,
+   "desc": "Enorme fortaleza sobre el cerro, con un teatro romano a sus pies."
+  },
+  {
+   "id": "cvv_xativa",
+   "cat": "monuments",
+   "name": "Castillo de Xàtiva",
+   "icon": "🏰",
+   "lat": 38.9764,
+   "lng": -0.5179,
+   "desc": "Doble castillo sobre la sierra, con siglos de historia ibérica y medieval."
+  },
+  {
+   "id": "cvv_gandia",
+   "cat": "monuments",
+   "name": "Palau Ducal dels Borja (Gandia)",
+   "icon": "🏛️",
+   "lat": 38.9673,
+   "lng": -0.181,
+   "desc": "Palacio gótico-barroco de los Borja, con la deslumbrante Galería Dorada."
+  },
+  {
+   "id": "cvv_gandiaplaya",
+   "cat": "nature",
+   "name": "Playa de Gandia",
+   "icon": "🏖️",
+   "lat": 38.998,
+   "lng": -0.162,
+   "desc": "Amplia playa de arena fina y bandera azul, una de las mejores del litoral."
+  },
+  {
+   "id": "cvv_cullera",
+   "cat": "monuments",
+   "name": "Castillo de Cullera",
+   "icon": "🏰",
+   "lat": 39.1625,
+   "lng": -0.2531,
+   "desc": "Castillo medieval y santuario en lo alto del monte, con vistas al mar."
+  },
+  {
+   "id": "cvv_farocullera",
+   "cat": "nature",
+   "name": "Faro de Cullera",
+   "icon": "🌅",
+   "lat": 39.18648,
+   "lng": -0.21696,
+   "desc": "Faro junto al Cap de Cullera, con miradores y calas de aguas turquesa."
+  },
+  {
+   "id": "cvv_daniel",
+   "cat": "food",
+   "name": "Horchatería Daniel (Alboraya)",
+   "icon": "🥛",
+   "lat": 39.501,
+   "lng": -0.344,
+   "desc": "Horchata artesana en Alboraya, la cuna de la chufa valenciana."
+  },
+  {
+   "id": "cvv_montana",
+   "cat": "food",
+   "name": "Bodega Casa Montaña",
+   "icon": "🍷",
+   "lat": 39.4659,
+   "lng": -0.3275,
+   "desc": "Bodega centenaria del Cabanyal, catedral de las tapas y los vinos."
+  },
+  {
+   "id": "cvv_riua",
+   "cat": "food",
+   "name": "La Riuà",
+   "icon": "🥘",
+   "lat": 39.4747,
+   "lng": -0.3727,
+   "desc": "Cocina valenciana tradicional en el centro, con azulejos y solera."
+  },
+  {
+   "id": "cvv_centralbar",
+   "cat": "food",
+   "name": "Central Bar (Ricard Camarena)",
+   "icon": "🍤",
+   "lat": 39.4736,
+   "lng": -0.3788,
+   "desc": "Barra de tapas y bocadillos gourmet del chef Ricard Camarena, en el Mercado Central."
+  },
+  {
+   "id": "cvv_cabecera",
+   "cat": "nature",
+   "name": "Parque de Cabecera",
+   "icon": "🌲",
+   "lat": 39.4766,
+   "lng": -0.4076,
+   "desc": "Gran parque con lago navegable en el inicio del Jardín del Turia."
+  },
+  {
+   "id": "cvv_saler",
+   "cat": "nature",
+   "name": "Playa del Saler (Devesa del Saler)",
+   "icon": "🏝️",
+   "lat": 39.385,
+   "lng": -0.3265,
+   "desc": "Playa virgen de dunas y pinares dentro del Parque Natural de la Albufera."
+  },
+  {
+   "id": "cvv_requena",
+   "cat": "monuments",
+   "name": "Barrio de la Villa (Requena)",
+   "icon": "🍇",
+   "lat": 39.4883,
+   "lng": -1.1016,
+   "desc": "Barrio medieval de origen árabe sobre cuevas, en tierra de vinos."
+  }
+ ],
+ "extra": {
+  "cvv_artes": {
+   "id": "cvv_artes",
+   "d": "Un conjunto arquitectónico monumental de blanco impoluto diseñado por Santiago Calatrava y Félix Candela. Reúne el Hemisfèric, el Museo de las Ciencias, el Ágora y el Palau de les Arts, reflejándose en grandes láminas de agua.",
+   "d_en": "A monumental, dazzling-white architectural complex designed by Santiago Calatrava and Félix Candela. It brings together the Hemisfèric, the Science Museum, the Àgora and the Palau de les Arts, mirrored in vast reflecting pools.",
+   "h": "Al atardecer, cuando se ilumina y se refleja en el agua",
+   "h_en": "At dusk, when it lights up and reflects in the water",
+   "i": "la arquitectura moderna, la ciencia y la fotografía",
+   "i_en": "modern architecture, science and photography"
+  },
+  "cvv_oceanografic": {
+   "id": "cvv_oceanografic",
+   "d": "El acuario más grande de Europa recrea los principales ecosistemas marinos del planeta, desde el Ártico hasta el Mediterráneo. Su túnel submarino, los tiburones y los pingüinos lo convierten en una visita imprescindible en familia.",
+   "d_en": "Europe's largest aquarium recreates the planet's main marine ecosystems, from the Arctic to the Mediterranean. Its underwater tunnel, sharks and penguins make it a must-see family visit.",
+   "h": "Por la mañana temprano para evitar colas",
+   "h_en": "Early morning to avoid queues",
+   "i": "la vida marina, los animales y los planes en familia",
+   "i_en": "marine life, animals and family days out"
+  },
+  "cvv_catedral": {
+   "id": "cvv_catedral",
+   "d": "Levantada sobre una antigua mezquita, mezcla estilos románico, gótico, renacentista y barroco, y guarda el que muchos consideran el Santo Grial. Subir los 207 escalones del campanario del Miguelete regala una vista de 360° de la ciudad.",
+   "d_en": "Built over a former mosque, it blends Romanesque, Gothic, Renaissance and Baroque styles and holds what many believe to be the Holy Grail. Climbing the 207 steps of the Miguelete bell tower rewards you with a 360° view of the city.",
+   "h": "Media mañana; sube al Miguelete con día despejado",
+   "h_en": "Mid-morning; climb the Miguelete on a clear day",
+   "i": "la historia, el arte gótico y las vistas panorámicas",
+   "i_en": "history, Gothic art and panoramic views"
+  },
+  "cvv_lonja": {
+   "id": "cvv_lonja",
+   "d": "Una obra maestra del gótico civil valenciano del siglo XV, símbolo del esplendor mercantil de la ciudad. Su Salón de Contratación, con esbeltas columnas helicoidales que imitan palmeras, es sencillamente hipnótico.",
+   "d_en": "A 15th-century masterpiece of Valencian Civil Gothic and a symbol of the city's mercantile golden age. Its Trading Hall, with slender spiralling columns evoking palm trees, is simply mesmerising.",
+   "h": "A cualquier hora; entrada gratuita los domingos",
+   "h_en": "Any time; free entry on Sundays",
+   "i": "la arquitectura gótica y la historia mercantil",
+   "i_en": "Gothic architecture and mercantile history"
+  },
+  "cvv_mercadocentral": {
+   "id": "cvv_mercadocentral",
+   "d": "Uno de los mercados de productos frescos más grandes de Europa, obra maestra del modernismo con cúpulas, vidrieras y cerámica. Bajo sus más de 1.000 paradas se despliegan frutas, embutidos, pescados y la mejor despensa de la huerta.",
+   "d_en": "One of Europe's largest fresh-produce markets, a Modernist masterpiece of domes, stained glass and ceramics. Its 1,000-plus stalls overflow with fruit, cured meats, seafood and the finest larder of the Valencian huerta.",
+   "h": "Por la mañana (cierra a media tarde y los domingos)",
+   "h_en": "In the morning (closes mid-afternoon and on Sundays)",
+   "i": "la gastronomía, los productos frescos y el modernismo",
+   "i_en": "food, fresh produce and Modernist architecture"
+  },
+  "cvv_albufera": {
+   "id": "cvv_albufera",
+   "d": "El mayor lago de España se rodea de arrozales y de la aldea barquera de El Palmar, cuna de la paella. Un paseo en barca tradicional al atardecer, cuando el cielo se refleja en el agua, es una de las estampas más bellas de la provincia.",
+   "d_en": "Spain's largest lake is ringed by rice paddies and the boatmen's village of El Palmar, birthplace of paella. A traditional boat trip at sunset, when the sky mirrors on the water, is one of the province's most beautiful sights.",
+   "h": "Al atardecer, para el paseo en barca",
+   "h_en": "At sunset, for the boat trip",
+   "i": "la naturaleza, las aves y las puestas de sol",
+   "i_en": "nature, birdlife and sunsets"
+  },
+  "cvv_turia": {
+   "id": "cvv_turia",
+   "d": "Tras desviar el río, su viejo cauce se transformó en un parque de nueve kilómetros que atraviesa Valencia. Ideal para pasear, correr o ir en bici entre puentes históricos, fuentes y el gigante tumbado del parque Gulliver.",
+   "d_en": "After the river was diverted, its old bed became a nine-kilometre park crossing Valencia. Perfect for walking, running or cycling among historic bridges, fountains and the reclining giant of Gulliver Park.",
+   "h": "Por la mañana o al caer la tarde para pasear o pedalear",
+   "h_en": "Morning or late afternoon for a walk or a ride",
+   "i": "el deporte al aire libre y los espacios verdes",
+   "i_en": "outdoor sport and green spaces"
+  },
+  "cvv_serranos": {
+   "id": "cvv_serranos",
+   "d": "Una de las puertas mejor conservadas de la muralla cristiana del siglo XIV, con dos torres poligonales que dominan el Turia. Se puede subir a lo alto para contemplar el casco antiguo y son el escenario del acto de la Crida de las Fallas.",
+   "d_en": "One of the best-preserved gates of the 14th-century Christian city wall, with two polygonal towers overlooking the Turia. You can climb to the top for views of the old town, and they host the Crida ceremony that opens the Fallas.",
+   "h": "Al atardecer; sube arriba para las vistas",
+   "h_en": "At dusk; climb up for the views",
+   "i": "la historia medieval y las vistas del casco antiguo",
+   "i_en": "medieval history and old-town views"
+  },
+  "cvv_malvarrosa": {
+   "id": "cvv_malvarrosa",
+   "d": "La playa más emblemática de la ciudad, de arena fina y aguas tranquilas, con un animado paseo marítimo lleno de restaurantes. El lugar perfecto para un baño, un paseo y una paella frente al mar.",
+   "d_en": "The city's most iconic beach, with fine sand and calm waters and a lively promenade full of restaurants. The perfect spot for a swim, a stroll and a paella by the sea.",
+   "h": "Mañanas de verano o a media tarde para pasear",
+   "h_en": "Summer mornings or mid-afternoon for a stroll",
+   "i": "la playa, el paseo marítimo y el ambiente mediterráneo",
+   "i_en": "the beach, the promenade and the Mediterranean vibe"
+  },
+  "cvv_bioparc": {
+   "id": "cvv_bioparc",
+   "d": "Un parque animalista de nueva generación donde la sabana, los humedales y los bosques de Madagascar se recrean con enorme realismo. Leones, gorilas, elefantes y jirafas conviven en escenarios sin jaulas visibles.",
+   "d_en": "A next-generation zoo where the African savannah, wetlands and Madagascan forests are recreated with striking realism. Lions, gorillas, elephants and giraffes live among landscapes with no visible cages.",
+   "h": "Por la mañana, cuando los animales están más activos",
+   "h_en": "In the morning, when the animals are most active",
+   "i": "los animales, la naturaleza y los planes en familia",
+   "i_en": "animals, nature and family outings"
+  },
+  "cvv_carmen": {
+   "id": "cvv_carmen",
+   "d": "El corazón antiguo y bohemio de Valencia, un laberinto de callejuelas medievales, plazas escondidas y fachadas cubiertas de arte urbano. De día invita a perderse y de noche concentra buena parte de la vida y las terrazas de la ciudad.",
+   "d_en": "Valencia's ancient, bohemian heart, a maze of medieval lanes, hidden squares and street-art-covered façades. By day it invites you to get lost; by night it holds much of the city's buzz and terrace life.",
+   "h": "Al final del día y por la noche para el ambiente",
+   "h_en": "Late afternoon and evening for the atmosphere",
+   "i": "el ambiente bohemio, el arte urbano y la vida nocturna",
+   "i_en": "the bohemian vibe, street art and nightlife"
+  },
+  "cvv_quart": {
+   "id": "cvv_quart",
+   "d": "Dos robustas torres gemelas de estilo gótico-militar que defendían la entrada oeste de la ciudad. En sus muros todavía se ven los impactos de la artillería de las tropas napoleónicas de 1808.",
+   "d_en": "Two sturdy twin towers in Gothic-military style that guarded the city's western entrance. Their walls still bear the cannon-ball scars left by Napoleon's troops in 1808.",
+   "h": "A media mañana; se puede subir a la terraza",
+   "h_en": "Mid-morning; you can climb to the terrace",
+   "i": "la historia militar y las murallas medievales",
+   "i_en": "military history and medieval walls"
+  },
+  "cvv_colon": {
+   "id": "cvv_colon",
+   "d": "Una deslumbrante obra maestra del modernismo valenciano, con fachadas de ladrillo, hierro y cerámica. Hoy es un espacio de moda con cafés, floristerías y horchaterías, ideal para tomar algo bajo su luminosa estructura.",
+   "d_en": "A dazzling masterpiece of Valencian Modernism, with façades of brick, iron and ceramics. Today it's a stylish spot with cafés, florists and horchaterías, perfect for a drink beneath its luminous structure.",
+   "h": "A media tarde para una horchata o un café",
+   "h_en": "Mid-afternoon for a horchata or a coffee",
+   "i": "el modernismo, el café y el ambiente elegante",
+   "i_en": "Modernist design, coffee and an elegant atmosphere"
+  },
+  "cvv_pepica": {
+   "id": "cvv_pepica",
+   "d": "Una institución en el paseo marítimo desde 1898, donde comieron Hemingway y hasta la familia real. Sus paellas y arroces al fuego de leña, servidos con vistas a la playa, son un clásico imprescindible.",
+   "d_en": "An institution on the seafront since 1898, where Hemingway and even the royal family have dined. Its wood-fired paellas and rice dishes, served with beach views, are an essential classic.",
+   "h": "Reserva para comer al mediodía",
+   "h_en": "Book for lunch",
+   "i": "la paella tradicional y comer frente al mar",
+   "i_en": "traditional paella and dining by the sea"
+  },
+  "cvv_carmela": {
+   "id": "cvv_carmela",
+   "d": "Casa familiar fundada en 1922 y célebre por cocinar sus arroces con fuego de leña de naranjo. Su paella valenciana, considerada de las mejores de la ciudad, exige reserva con antelación.",
+   "d_en": "A family-run house founded in 1922, famed for cooking its rice over orange-wood fire. Its Valencian paella, rated among the best in the city, requires booking well ahead.",
+   "h": "Solo mediodía; reserva imprescindible",
+   "h_en": "Lunch only; booking essential",
+   "i": "la auténtica paella a la leña",
+   "i_en": "authentic wood-fired paella"
+  },
+  "cvv_maribel": {
+   "id": "cvv_maribel",
+   "d": "En pleno El Palmar, esta arrocería con vistas a la laguna sirve auténticos arroces de la huerta valenciana. Su reconocimiento Bib Gourmand avala una cocina tradicional excelente a buen precio.",
+   "d_en": "In the heart of El Palmar, this rice restaurant overlooking the lagoon serves authentic dishes from the Valencian huerta. Its Bib Gourmand recognition confirms excellent traditional cooking at fair prices.",
+   "h": "Al mediodía, tras el paseo por la Albufera",
+   "h_en": "At lunchtime, after a trip around the Albufera",
+   "i": "el arroz de la Albufera y el entorno lacustre",
+   "i_en": "Albufera rice dishes and the lakeside setting"
+  },
+  "cvv_santacatalina": {
+   "id": "cvv_santacatalina",
+   "d": "Una horchatería centenaria decorada con azulejos valencianos, en pleno casco antiguo junto a la torre de Santa Catalina. Su horchata con fartons y su chocolate son toda una tradición local.",
+   "d_en": "A century-old horchatería decorated with Valencian tiles, in the old town beside the Santa Catalina tower. Its horchata with fartons and its hot chocolate are a true local tradition.",
+   "h": "A media tarde para merendar",
+   "h_en": "Mid-afternoon for a snack",
+   "i": "la horchata, los fartons y las tradiciones locales",
+   "i_en": "horchata, fartons and local traditions"
+  },
+  "cvv_ivam": {
+   "id": "cvv_ivam",
+   "d": "El Institut Valencià d'Art Modern fue uno de los primeros museos de arte contemporáneo de España. Destaca por su colección del escultor Julio González y por sus ambiciosas exposiciones temporales.",
+   "d_en": "The Valencian Institute of Modern Art was one of Spain's first contemporary-art museums. It stands out for its collection of sculptor Julio González and its ambitious temporary exhibitions.",
+   "h": "Por la mañana; entrada gratuita algunos días",
+   "h_en": "In the morning; free entry on some days",
+   "i": "el arte moderno y contemporáneo",
+   "i_en": "modern and contemporary art"
+  },
+  "cvv_fallero": {
+   "id": "cvv_fallero",
+   "d": "Este museo reúne los 'ninots indultats', las figuras que cada año el público salva de la quema de las Fallas. Un recorrido colorido por la historia, el arte efímero y la fiesta más internacional de Valencia.",
+   "d_en": "This museum gathers the 'ninots indultats', the figures the public saves each year from the Fallas bonfires. A colourful journey through the history, ephemeral art and most international festival of Valencia.",
+   "h": "A cualquier hora del día; ideal si no visitas en marzo",
+   "h_en": "Any time of day; great if you don't visit in March",
+   "i": "las Fallas, la cultura popular y el arte efímero",
+   "i_en": "the Fallas, folk culture and ephemeral art"
+  },
+  "cvv_sagunto": {
+   "id": "cvv_sagunto",
+   "d": "Una extensa fortaleza que corona la colina de Sagunto y encierra capas ibéricas, romanas, árabes y medievales. A sus pies se conserva un imponente teatro romano y desde arriba las vistas alcanzan el mar.",
+   "d_en": "A vast fortress crowning the hill of Sagunto, layering Iberian, Roman, Arab and medieval remains. At its foot stands an impressive Roman theatre, and from the top the views reach the sea.",
+   "h": "Por la mañana; combina con el teatro romano",
+   "h_en": "In the morning; combine with the Roman theatre",
+   "i": "la historia antigua, las ruinas y las vistas",
+   "i_en": "ancient history, ruins and panoramic views"
+  },
+  "cvv_xativa": {
+   "id": "cvv_xativa",
+   "d": "Un impresionante conjunto amurallado que se extiende por la cresta de la montaña sobre la ciudad de Xàtiva, cuna de los Borja. Sus dos recintos, el Castell Menor y el Major, guardan torres, capillas y leyendas.",
+   "d_en": "An impressive walled complex stretching along the mountain ridge above Xàtiva, birthplace of the Borgias. Its two enclosures, the Castell Menor and the Major, hold towers, chapels and legends.",
+   "h": "Por la mañana, evitando el calor del mediodía",
+   "h_en": "In the morning, avoiding the midday heat",
+   "i": "los castillos, la historia medieval y las vistas",
+   "i_en": "castles, medieval history and views"
+  },
+  "cvv_gandia": {
+   "id": "cvv_gandia",
+   "d": "Residencia de la poderosa familia Borja y hogar de San Francisco de Borja, mezcla el gótico civil con la exuberancia barroca. Su Galería Dorada y sus salones de azulejos son la joya del palacio.",
+   "d_en": "Home of the powerful Borgia family and of Saint Francis Borgia, it blends Civil Gothic with Baroque exuberance. Its Golden Gallery and tiled halls are the palace's crowning jewel.",
+   "h": "A media mañana; combina con un día de playa en Gandia",
+   "h_en": "Mid-morning; combine with a beach day in Gandia",
+   "i": "la historia de los Borja y los palacios",
+   "i_en": "the history of the Borgias and palaces"
+  },
+  "cvv_gandiaplaya": {
+   "id": "cvv_gandiaplaya",
+   "d": "Kilómetros de arena dorada, fina y limpia, con aguas poco profundas y un largo paseo marítimo lleno de vida. Es la playa por excelencia del sur de la provincia y un imán en verano.",
+   "d_en": "Kilometres of fine, clean golden sand with shallow waters and a lively, long promenade. It's the flagship beach of the province's south and a magnet in summer.",
+   "h": "En verano, por la mañana o al atardecer",
+   "h_en": "In summer, morning or at sunset",
+   "i": "la playa, el sol y los deportes acuáticos",
+   "i_en": "the beach, sunshine and water sports"
+  },
+  "cvv_cullera": {
+   "id": "cvv_cullera",
+   "d": "Coronando el monte de las Raboses, este castillo de origen árabe y su santuario ofrecen una de las panorámicas más espectaculares del litoral valenciano. Abajo se despliegan la desembocadura del Júcar y kilómetros de playas.",
+   "d_en": "Crowning the Raboses hill, this castle of Arab origin and its sanctuary offer one of the most spectacular views of the Valencian coast. Below unfold the mouth of the Júcar and miles of beaches.",
+   "h": "Al atardecer, por las vistas sobre la costa",
+   "h_en": "At sunset, for the views over the coast",
+   "i": "los castillos, los miradores y el litoral",
+   "i_en": "castles, viewpoints and the coastline"
+  },
+  "cvv_farocullera": {
+   "id": "cvv_farocullera",
+   "d": "Situado en el extremo del Cap de Cullera, este faro está rodeado de senderos, miradores y pequeñas calas de aguas cristalinas. Un rincón perfecto para pasear y contemplar el Mediterráneo.",
+   "d_en": "Set at the tip of the Cap de Cullera, this lighthouse is surrounded by trails, viewpoints and small coves of crystal-clear water. A perfect spot for a walk and to take in the Mediterranean.",
+   "h": "Al atardecer o para un paseo costero",
+   "h_en": "At sunset or for a coastal walk",
+   "i": "los paseos costeros, las calas y los miradores",
+   "i_en": "coastal walks, coves and viewpoints"
+  },
+  "cvv_daniel": {
+   "id": "cvv_daniel",
+   "d": "En Alboraya, donde se cultiva la mejor chufa, esta horchatería fundada en 1949 elabora una horchata cremosa y natural que se ha hecho célebre en toda la provincia. Acompañarla de fartons es obligatorio.",
+   "d_en": "In Alboraya, where the best tiger nuts are grown, this horchatería founded in 1949 makes a creamy, natural horchata famous across the province. Pairing it with fartons is a must.",
+   "h": "A media tarde para merendar horchata y fartons",
+   "h_en": "Mid-afternoon for horchata and fartons",
+   "i": "la horchata artesana y las tradiciones de la huerta",
+   "i_en": "artisan horchata and huerta traditions"
+  },
+  "cvv_montana": {
+   "id": "cvv_montana",
+   "d": "Una taberna fundada en 1836 en el barrio marinero del Cabanyal, con sus históricas botas de vino. Sus tapas tradicionales y su extraordinaria carta de vinos la han convertido en un templo gastronómico de la ciudad.",
+   "d_en": "A tavern founded in 1836 in the seafaring Cabanyal district, with its historic wine barrels. Its traditional tapas and extraordinary wine list have made it a gastronomic temple of the city.",
+   "h": "Al mediodía o a la hora del vermut; reserva recomendable",
+   "h_en": "At lunchtime or for vermouth; booking recommended",
+   "i": "las tapas tradicionales y los buenos vinos",
+   "i_en": "traditional tapas and fine wines"
+  },
+  "cvv_riua": {
+   "id": "cvv_riua",
+   "d": "Un clásico del casco antiguo desde 1982, con paredes de azulejo valenciano y ambiente de toda la vida. Célebre por su arroz a banda, sus anguilas 'all i pebre' y sus platos de mercado.",
+   "d_en": "A classic of the old town since 1982, with Valencian-tiled walls and a timeless atmosphere. Renowned for its arroz a banda, eel 'all i pebre' and market dishes.",
+   "h": "Al mediodía; cierra domingos por la noche y lunes",
+   "h_en": "At lunchtime; closed Sunday evening and Monday",
+   "i": "la cocina valenciana tradicional y el arroz a banda",
+   "i_en": "traditional Valencian cuisine and arroz a banda"
+  },
+  "cvv_centralbar": {
+   "id": "cvv_centralbar",
+   "d": "En pleno Mercado Central, el chef con estrella Michelin Ricard Camarena reinventa la barra de mercado. Sus bocadillos y tapas con producto fresquísimo del propio mercado son una parada perfecta a media mañana.",
+   "d_en": "In the heart of the Mercado Central, Michelin-starred chef Ricard Camarena reinvents the market bar. His sandwiches and tapas made with ultra-fresh market produce are a perfect mid-morning stop.",
+   "h": "A media mañana o al mediodía (horario de mercado)",
+   "h_en": "Mid-morning or lunchtime (market hours)",
+   "i": "las tapas de mercado y el producto de calidad",
+   "i_en": "market tapas and top-quality produce"
+  },
+  "cvv_cabecera": {
+   "id": "cvv_cabecera",
+   "d": "Un frondoso parque diseñado como una recreación del antiguo paisaje del río Turia, con un gran lago donde se pueden alquilar barcas. Junto al Bioparc, es un remanso verde perfecto para familias.",
+   "d_en": "A leafy park designed to recreate the old landscape of the Turia river, with a large lake where you can rent boats. Next to the Bioparc, it's a green haven perfect for families.",
+   "h": "Por la mañana o a media tarde para pasear",
+   "h_en": "Morning or mid-afternoon for a stroll",
+   "i": "los paseos en barca y los espacios verdes en familia",
+   "i_en": "boat rides and green spaces for families"
+  },
+  "cvv_saler": {
+   "id": "cvv_saler",
+   "d": "Una extensa playa salvaje protegida por dunas y bosques de pinos mediterráneos, dentro del Parque Natural de la Albufera. Sus aguas limpias y su entorno natural la convierten en una escapada perfecta cerca de la ciudad.",
+   "d_en": "A vast, wild beach protected by dunes and Mediterranean pine forests, within the Albufera Natural Park. Its clean waters and natural surroundings make it a perfect escape near the city.",
+   "h": "En verano, por la mañana",
+   "h_en": "In summer, in the morning",
+   "i": "las playas vírgenes, las dunas y la naturaleza",
+   "i_en": "unspoilt beaches, dunes and nature"
+  },
+  "cvv_requena": {
+   "id": "cvv_requena",
+   "d": "El casco medieval de Requena, de callejuelas empedradas y origen andalusí, se asienta sobre una red de cuevas subterráneas excavadas en la roca. Está en el corazón de la comarca vinícola de Utiel-Requena.",
+   "d_en": "The medieval quarter of Requena, with cobbled lanes and Andalusi origins, sits atop a network of underground caves carved into the rock. It lies at the heart of the Utiel-Requena wine region.",
+   "h": "Por la mañana; combina con una bodega de la zona",
+   "h_en": "In the morning; combine with a local winery",
+   "i": "los pueblos medievales, el vino y las cuevas",
+   "i_en": "medieval towns, wine and caves"
+  }
+ },
+ "food": {
+  "cvv_pepica": {
+   "cuisine": "Arrocería",
+   "price": "35–55 €",
+   "hours": "13:00–16:30 · 20:00–23:00"
+  },
+  "cvv_carmela": {
+   "cuisine": "Arrocería",
+   "price": "35–50 €",
+   "hours": "13:30–16:00"
+  },
+  "cvv_maribel": {
+   "cuisine": "Arrocería",
+   "price": "30–45 €",
+   "hours": "13:30–16:30"
+  },
+  "cvv_santacatalina": {
+   "cuisine": "Horchatería",
+   "price": "5–12 €",
+   "hours": "08:15–21:30"
+  },
+  "cvv_daniel": {
+   "cuisine": "Horchatería",
+   "price": "4–10 €",
+   "hours": "09:00–21:00"
+  },
+  "cvv_montana": {
+   "cuisine": "Tapas y bodega",
+   "price": "25–40 €",
+   "hours": "11:00–16:00 · 20:00–23:30"
+  },
+  "cvv_riua": {
+   "cuisine": "Cocina valenciana",
+   "price": "30–45 €",
+   "hours": "14:00–16:00 · 21:00–23:00"
+  },
+  "cvv_centralbar": {
+   "cuisine": "Tapas de mercado",
+   "price": "15–30 €",
+   "hours": "07:30–15:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Valencia",
+   "items": [
+    {
+     "name": "Horchata y fartons (para llevar)",
+     "price": "6–12 €",
+     "desc": "El sabor de la chufa de l'Horta; en formato envasado como recuerdo dulce."
+    },
+    {
+     "name": "Cerámica de Manises o Paterna",
+     "price": "10–35 €",
+     "desc": "Azulejos y piezas esmaltadas de tradición alfarera valenciana."
+    },
+    {
+     "name": "Abanico y seda valenciana",
+     "price": "12–40 €",
+     "desc": "Complemento artesano ligado a la indumentaria fallera."
+    },
+    {
+     "name": "Porcelana Lladró",
+     "price": "desde 40 €",
+     "desc": "Figuras de porcelana artística nacidas en Tavernes Blanques."
+    }
+   ],
+   "shops": [
+    "Mercado Central de Valencia",
+    "Horchatería Santa Catalina",
+    "Barrio del Carmen"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Valencia capital se recorre muy bien a pie y en bici por el antiguo cauce del Turia; para la playa y la Ciudad de las Artes usa el tranvía o el metro.",
+   "El clima es mediterráneo y suave casi todo el año; en verano protégete del sol y del calor húmedo en la costa, y madruga para las visitas.",
+   "Reserva mesa en las arrocerías buenas: la paella y el arroz se sirven sobre todo a mediodía, no de noche.",
+   "Si viajas en marzo, las Fallas de Valencia lo llenan todo (pólvora, fuego y multitudes): planifica alojamiento con mucha antelación.",
+   "La provincia es grande y variada: combina costa (Benidorm, Calpe, Peñíscola) con interior de castillos y montaña (Morella, Guadalest, Xàtiva). El coche ayuda para los pueblos."
+  ],
+  "en": [
+   "Valencia city is best explored on foot and by bike along the former Turia riverbed; take the tram or metro for the beach and the City of Arts and Sciences.",
+   "The climate is mild and Mediterranean most of the year; in summer protect yourself from the sun and humid coastal heat, and start sightseeing early.",
+   "Book a table at the good rice restaurants: paella and rice dishes are served mainly at lunchtime, not for dinner.",
+   "If you travel in March, Valencia's Fallas take over the city (fireworks, fire and crowds): book accommodation well in advance.",
+   "The region is large and varied: combine the coast (Benidorm, Calpe, Peñíscola) with inland castles and mountains (Morella, Guadalest, Xàtiva). A car helps for the villages."
+  ]
+ },
+ "climate": {
+  "hi": [
+   16,
+   17,
+   19,
+   21,
+   24,
+   28,
+   30,
+   31,
+   28,
+   24,
+   19,
+   16
+  ],
+  "lo": [
+   7,
+   8,
+   9,
+   11,
+   14,
+   18,
+   21,
+   21,
+   19,
+   15,
+   11,
+   8
+  ]
+ },
+ "tr": {
+  "Espectacular complejo futurista de Calatrava junto al antiguo cauce del Turia.": "Spectacular futuristic complex by Calatrava beside the old Turia riverbed.",
+  "El mayor acuario de Europa, con más de 45.000 animales de todos los mares.": "Europe's largest aquarium, with over 45,000 animals from every sea.",
+  "Catedral gótica que custodia el Santo Cáliz, con la icónica torre del Miguelete.": "Gothic cathedral that guards the Holy Chalice, with the iconic Miguelete tower.",
+  "Joya del gótico civil y Patrimonio de la Humanidad de la UNESCO.": "A gem of civil Gothic architecture and a UNESCO World Heritage Site.",
+  "Mercado modernista y templo de los productos frescos valencianos.": "Art Nouveau market and a temple to fresh Valencian produce.",
+  "Laguna y arrozales donde nació la paella, con paseos en barca al atardecer.": "Lagoon and rice fields where paella was born, with boat trips at sunset.",
+  "9 km de parque verde en el antiguo cauce del río que abraza la ciudad.": "9 km of green park in the old riverbed that wraps around the city.",
+  "Imponente puerta gótica de la antigua muralla medieval de Valencia.": "Imposing Gothic gate of Valencia's old medieval wall.",
+  "Amplia playa urbana de arena dorada con largo paseo marítimo y arrocerías.": "Wide urban beach of golden sand with a long seafront promenade and rice restaurants.",
+  "Zoo de inmersión que recrea los hábitats de África sin apenas barreras.": "Immersive zoo that recreates the habitats of Africa with barely any barriers.",
+  "El casco histórico más bohemio, con calles medievales y arte urbano.": "The most bohemian old town, with medieval streets and street art.",
+  "Puerta medieval del siglo XV que aún conserva las marcas de las balas.": "15th-century medieval gate that still bears the marks of bullets.",
+  "Antiguo mercado modernista reconvertido en elegante espacio gastronómico.": "Former Art Nouveau market turned into an elegant food hall.",
+  "Legendaria arrocería frente al mar, con más de un siglo de historia.": "Legendary seafront rice restaurant with over a century of history.",
+  "Paellas a la leña junto a la Malvarrosa, una de las mejores de la ciudad.": "Wood-fired paellas by the Malvarrosa, some of the best in the city.",
+  "Arroces de la Albufera junto al agua, con Bib Gourmand de la guía Michelin.": "Albufera rice dishes by the water, with a Michelin Guide Bib Gourmand.",
+  "Horchatería histórica del centro, famosa por su horchata y fartons.": "Historic horchatería in the centre, famous for its horchata and fartons.",
+  "Museo de arte moderno de referencia, con la gran colección de Julio González.": "A leading modern art museum, home to the great Julio González collection.",
+  "Los ninots indultados del fuego que cuentan la historia de las Fallas.": "The ninots pardoned from the flames, telling the story of the Fallas.",
+  "Enorme fortaleza sobre el cerro, con un teatro romano a sus pies.": "Huge fortress atop the hill, with a Roman theatre at its feet.",
+  "Doble castillo sobre la sierra, con siglos de historia ibérica y medieval.": "Twin castle on the ridge, with centuries of Iberian and medieval history.",
+  "Palacio gótico-barroco de los Borja, con la deslumbrante Galería Dorada.": "Gothic-Baroque palace of the Borja family, with the dazzling Golden Gallery.",
+  "Amplia playa de arena fina y bandera azul, una de las mejores del litoral.": "Wide beach of fine sand and Blue Flag status, one of the best on the coast.",
+  "Castillo medieval y santuario en lo alto del monte, con vistas al mar.": "Medieval castle and sanctuary atop the mountain, with sea views.",
+  "Faro junto al Cap de Cullera, con miradores y calas de aguas turquesa.": "Lighthouse by the Cap de Cullera, with viewpoints and turquoise coves.",
+  "Horchata artesana en Alboraya, la cuna de la chufa valenciana.": "Artisan horchata in Alboraya, the cradle of the Valencian tiger nut.",
+  "Bodega centenaria del Cabanyal, catedral de las tapas y los vinos.": "Century-old tavern in the Cabanyal, a cathedral of tapas and wines.",
+  "Cocina valenciana tradicional en el centro, con azulejos y solera.": "Traditional Valencian cuisine in the centre, full of tiles and character.",
+  "Barra de tapas y bocadillos gourmet del chef Ricard Camarena, en el Mercado Central.": "Tapas and gourmet sandwich bar by chef Ricard Camarena, in the Central Market.",
+  "Gran parque con lago navegable en el inicio del Jardín del Turia.": "Large park with a boating lake at the start of the Turia Gardens.",
+  "Playa virgen de dunas y pinares dentro del Parque Natural de la Albufera.": "Unspoilt beach of dunes and pine woods within the Albufera Natural Park.",
+  "Barrio medieval de origen árabe sobre cuevas, en tierra de vinos.": "Medieval quarter of Arab origin built over caves, in wine country.",
+  "Valencia": "Valencia"
+ }
+}

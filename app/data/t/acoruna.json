@@ -1,0 +1,645 @@
+{
+ "id": "acoruna",
+ "name": "A Coruña",
+ "country": "ES",
+ "center": [
+  43.3623,
+  -8.4115
+ ],
+ "pois": [
+  {
+   "id": "acr_catedral_santiago",
+   "cat": "monuments",
+   "name": "Catedral de Santiago de Compostela",
+   "icon": "⛪",
+   "lat": 42.88052,
+   "lng": -8.54459,
+   "desc": "Meta del Camino y joya románica con fachada barroca del Obradoiro."
+  },
+  {
+   "id": "acr_praza_obradoiro",
+   "cat": "monuments",
+   "name": "Praza do Obradoiro",
+   "icon": "🏛️",
+   "lat": 42.88066,
+   "lng": -8.54554,
+   "desc": "Plaza monumental frente a la Catedral, corazón simbólico de la ciudad."
+  },
+  {
+   "id": "acr_casco_santiago",
+   "cat": "monuments",
+   "name": "Casco histórico de Santiago",
+   "icon": "🏘️",
+   "lat": 42.8799,
+   "lng": -8.5447,
+   "desc": "Laberinto de rúas de granito, soportales y plazas, Patrimonio Mundial."
+  },
+  {
+   "id": "acr_san_martin_pinario",
+   "cat": "monuments",
+   "name": "Monasterio de San Martín Pinario",
+   "icon": "⛪",
+   "lat": 42.88147,
+   "lng": -8.5443,
+   "desc": "Enorme monasterio benedictino con retablos barrocos deslumbrantes."
+  },
+  {
+   "id": "acr_torre_hercules",
+   "cat": "monuments",
+   "name": "Torre de Hércules",
+   "icon": "🗼",
+   "lat": 43.38622,
+   "lng": -8.40644,
+   "desc": "Faro romano en activo más antiguo del mundo, Patrimonio Mundial."
+  },
+  {
+   "id": "acr_ciudad_vieja_coruna",
+   "cat": "monuments",
+   "name": "Ciudad Vieja de A Coruña",
+   "icon": "🏰",
+   "lat": 43.3711,
+   "lng": -8.3919,
+   "desc": "Barrio medieval de callejas, iglesias románicas y jardines sobre el mar."
+  },
+  {
+   "id": "acr_plaza_maria_pita",
+   "cat": "monuments",
+   "name": "Plaza de María Pita",
+   "icon": "🏛️",
+   "lat": 43.3706,
+   "lng": -8.3956,
+   "desc": "Gran plaza porticada presidida por el Palacio Municipal."
+  },
+  {
+   "id": "acr_betanzos",
+   "cat": "monuments",
+   "name": "Casco histórico de Betanzos",
+   "icon": "🏘️",
+   "lat": 43.2804,
+   "lng": -8.2123,
+   "desc": "Villa medieval de las Mariñas con iglesias góticas y soportales."
+  },
+  {
+   "id": "acr_muxia_barca",
+   "cat": "monuments",
+   "name": "Santuario da Virxe da Barca (Muxía)",
+   "icon": "⛪",
+   "lat": 43.1119,
+   "lng": -9.21944,
+   "desc": "Santuario sobre las rocas azotado por el Atlántico en la Costa da Morte."
+  },
+  {
+   "id": "acr_reis_catolicos",
+   "cat": "monuments",
+   "name": "Hostal dos Reis Católicos",
+   "icon": "🏰",
+   "lat": 42.8811,
+   "lng": -8.5462,
+   "desc": "Antiguo hospital de peregrinos del siglo XVI, hoy parador de lujo."
+  },
+  {
+   "id": "acr_ponteceso_pondal",
+   "cat": "monuments",
+   "name": "Ponteceso y Casa de Pondal",
+   "icon": "🏛️",
+   "lat": 43.2428,
+   "lng": -8.9005,
+   "desc": "Villa del Anllóns ligada al poeta Eduardo Pondal."
+  },
+  {
+   "id": "acr_cabo_finisterre",
+   "cat": "nature",
+   "name": "Cabo Fisterra (Finisterre)",
+   "icon": "🌅",
+   "lat": 42.88187,
+   "lng": -9.27235,
+   "desc": "El 'fin de la tierra', faro y kilómetro 0 del Camino."
+  },
+  {
+   "id": "acr_cabo_vilan",
+   "cat": "nature",
+   "name": "Cabo Vilán",
+   "icon": "🌊",
+   "lat": 43.16035,
+   "lng": -9.21137,
+   "desc": "Faro dramático sobre acantilados y campos de molinos."
+  },
+  {
+   "id": "acr_ezaro",
+   "cat": "nature",
+   "name": "Cascada do Ézaro",
+   "icon": "💧",
+   "lat": 42.9094,
+   "lng": -9.1269,
+   "desc": "Única cascada de Europa que cae directa al mar, junto al monte Pindo."
+  },
+  {
+   "id": "acr_playa_riazor",
+   "cat": "nature",
+   "name": "Playas de Riazor y Orzán",
+   "icon": "🏖️",
+   "lat": 43.3702,
+   "lng": -8.4143,
+   "desc": "Arenal urbano en pleno centro de A Coruña."
+  },
+  {
+   "id": "acr_paseo_maritimo_coruna",
+   "cat": "nature",
+   "name": "Paseo Marítimo de A Coruña",
+   "icon": "🚶",
+   "lat": 43.3698,
+   "lng": -8.415,
+   "desc": "Uno de los paseos marítimos más largos de Europa."
+  },
+  {
+   "id": "acr_malpica",
+   "cat": "nature",
+   "name": "Malpica de Bergantiños e Illas Sisargas",
+   "icon": "🐦",
+   "lat": 43.3233,
+   "lng": -8.8105,
+   "desc": "Villa marinera frente a un archipiélago refugio de aves."
+  },
+  {
+   "id": "acr_domus",
+   "cat": "ocio",
+   "name": "Domus (Casa del Hombre)",
+   "icon": "🧬",
+   "lat": 43.37196,
+   "lng": -8.40598,
+   "desc": "Museo interactivo sobre el ser humano diseñado por Isozaki."
+  },
+  {
+   "id": "acr_aquarium_finisterrae",
+   "cat": "ocio",
+   "name": "Aquarium Finisterrae",
+   "icon": "🐟",
+   "lat": 43.3816,
+   "lng": -8.4134,
+   "desc": "Acuario junto a la Torre con fauna del Atlántico."
+  },
+  {
+   "id": "acr_camarinas_encaje",
+   "cat": "ocio",
+   "name": "Camariñas y el Museo do Encaixe",
+   "icon": "🧵",
+   "lat": 43.1311,
+   "lng": -9.1826,
+   "desc": "Cuna del encaje de bolillos gallego en la Costa da Morte."
+  },
+  {
+   "id": "acr_alameda_santiago",
+   "cat": "ocio",
+   "name": "Parque da Alameda de Santiago",
+   "icon": "🌳",
+   "lat": 42.8772,
+   "lng": -8.5482,
+   "desc": "Parque romántico con la mejor vista de la Catedral."
+  },
+  {
+   "id": "acr_mercado_abastos_santiago",
+   "cat": "food",
+   "name": "Mercado de Abastos de Santiago",
+   "icon": "🦑",
+   "lat": 42.87826,
+   "lng": -8.5401,
+   "desc": "Segundo lugar más visitado de Santiago; producto gallego y cocinado al momento."
+  },
+  {
+   "id": "acr_pulpo_feira",
+   "cat": "food",
+   "name": "Pulpo á feira",
+   "icon": "🐙",
+   "lat": 43.3708,
+   "lng": -8.3963,
+   "desc": "El plato estrella de Galicia, en las pulperías de A Coruña y Santiago."
+  },
+  {
+   "id": "acr_tarta_santiago",
+   "cat": "food",
+   "name": "Tarta de Santiago",
+   "icon": "🍰",
+   "lat": 42.8801,
+   "lng": -8.5444,
+   "desc": "Tarta de almendra con la cruz de Santiago, en cafés del casco viejo."
+  },
+  {
+   "id": "acr_marisqueria_rias",
+   "cat": "food",
+   "name": "Marisco de las Rías",
+   "icon": "🦐",
+   "lat": 43.3693,
+   "lng": -8.4038,
+   "desc": "Percebes, nécoras, vieiras y almejas en las marisquerías del puerto."
+  },
+  {
+   "id": "acr_rua_franco_tapas",
+   "cat": "food",
+   "name": "Tapeo en la Rúa do Franco",
+   "icon": "🍷",
+   "lat": 42.8798,
+   "lng": -8.5452,
+   "desc": "Calle de tabernas y pulperías junto a la Catedral de Santiago."
+  },
+  {
+   "id": "acr_percebes_costa_morte",
+   "cat": "food",
+   "name": "Percebes de la Costa da Morte",
+   "icon": "🦞",
+   "lat": 43.127,
+   "lng": -9.182,
+   "desc": "El marisco más bravo de Galicia, en villas como Camariñas y Muxía."
+  }
+ ],
+ "extra": {
+  "acr_catedral_santiago": {
+   "id": "acr_catedral_santiago",
+   "d": "Catedral iniciada en 1075 que guarda el sepulcro del apóstol Santiago. El Pórtico da Gloria de maestro Mateo, el botafumeiro y la cripta hacen de ella el gran destino de peregrinación de Europa.",
+   "d_en": "Cathedral begun in 1075 that holds the tomb of the Apostle James. Master Mateo's Pórtico da Gloria, the botafumeiro and the crypt make it Europe's great pilgrimage destination.",
+   "h": "Catedral 7:00–20:30; museo y cubiertas con horario y entrada aparte",
+   "h_en": "Cathedral 7:00–20:30; museum and rooftops have separate hours and tickets",
+   "i": "Ideal si te gusta la historia, el arte sacro y el final del Camino.",
+   "i_en": "Ideal if you like history, sacred art and the end of the Camino."
+  },
+  "acr_praza_obradoiro": {
+   "id": "acr_praza_obradoiro",
+   "d": "Gran plaza peatonal rodeada por la Catedral, el Hostal dos Reis Católicos, el Pazo de Raxoi y el Colexio de San Xerome. Punto donde los peregrinos culminan su viaje a Compostela.",
+   "d_en": "Large pedestrian square framed by the Cathedral, the Hostal dos Reis Católicos, the Pazo de Raxoi and the Colexio de San Xerome. The spot where pilgrims complete their journey to Compostela.",
+   "h": "Abierto todo el día, acceso libre",
+   "h_en": "Open all day, free access",
+   "i": "Ideal si te gusta la arquitectura y el ambiente de plaza histórica.",
+   "i_en": "Ideal if you like architecture and a historic square atmosphere."
+  },
+  "acr_casco_santiago": {
+   "id": "acr_casco_santiago",
+   "d": "Ciudad vieja declarada Patrimonio de la Humanidad, con la Rúa do Franco, la Rúa Nova, la Praza da Quintana y decenas de iglesias y pazos entre soportales de piedra.",
+   "d_en": "Old town listed as World Heritage, with Rúa do Franco, Rúa Nova, Praza da Quintana and dozens of churches and manor houses among stone arcades.",
+   "h": "Acceso libre a pie; recomendable de día y al atardecer",
+   "h_en": "Free access on foot; best by day and at dusk",
+   "i": "Ideal si te gusta pasear sin rumbo entre piedra e historia.",
+   "i_en": "Ideal if you like wandering aimlessly among stone and history."
+  },
+  "acr_san_martin_pinario": {
+   "id": "acr_san_martin_pinario",
+   "d": "Segundo monasterio más grande de España, junto a la Catedral. Destacan su iglesia, los retablos dorados de Casas y Novoa y un sillería de coro monumental.",
+   "d_en": "The second-largest monastery in Spain, next to the Cathedral. Highlights include its church, the gilded altarpieces by Casas y Novoa and a monumental choir.",
+   "h": "Aprox. 11:00–19:00, consultar según temporada",
+   "h_en": "Approx. 11:00–19:00, check by season",
+   "i": "Ideal si te gusta el arte barroco y los grandes conjuntos monásticos.",
+   "i_en": "Ideal if you like Baroque art and grand monastic complexes."
+  },
+  "acr_torre_hercules": {
+   "id": "acr_torre_hercules",
+   "d": "Faro de origen romano del siglo I-II sobre la península de A Coruña. Se puede subir a lo alto para ver la ciudad y el Atlántico, rodeado por un parque de esculturas.",
+   "d_en": "A Roman lighthouse from the 1st–2nd century on the A Coruña peninsula. You can climb to the top for views of the city and the Atlantic, surrounded by a sculpture park.",
+   "h": "Aprox. 10:00–18:00 (más tarde en verano)",
+   "h_en": "Approx. 10:00–18:00 (later in summer)",
+   "i": "Ideal si te gusta la historia romana y las vistas al mar.",
+   "i_en": "Ideal if you like Roman history and sea views."
+  },
+  "acr_ciudad_vieja_coruna": {
+   "id": "acr_ciudad_vieja_coruna",
+   "d": "Casco antiguo con la Colegiata de Santa María, la iglesia de Santiago, plazas recoletas y los Jardines de San Carlos, donde reposa el general Moore.",
+   "d_en": "Old town with the Collegiate of Santa María, the church of Santiago, quiet squares and the San Carlos Gardens, where General Moore rests.",
+   "h": "Acceso libre a pie",
+   "h_en": "Free access on foot",
+   "i": "Ideal si te gusta el ambiente medieval y los rincones tranquilos.",
+   "i_en": "Ideal if you like a medieval atmosphere and quiet corners."
+  },
+  "acr_plaza_maria_pita": {
+   "id": "acr_plaza_maria_pita",
+   "d": "Plaza mayor de A Coruña, dedicada a la heroína María Pita. El Palacio Municipal de cúpulas y las terrazas bajo soportales la convierten en el salón de la ciudad.",
+   "d_en": "A Coruña's main square, dedicated to the heroine María Pita. The domed City Hall and the terraces under the arcades make it the city's living room.",
+   "h": "Acceso libre todo el día",
+   "h_en": "Free access all day",
+   "i": "Ideal si te gusta tomar algo viendo la vida de la ciudad.",
+   "i_en": "Ideal if you like a drink while watching city life."
+  },
+  "acr_betanzos": {
+   "id": "acr_betanzos",
+   "d": "Antigua capital provincial con las iglesias de San Francisco, Santa María do Azogue y Santiago, el parque enciclopédico O Pasatempo y su famosa tortilla poco cuajada.",
+   "d_en": "Former provincial capital with the churches of San Francisco, Santa María do Azogue and Santiago, the O Pasatempo park and its famous runny omelette.",
+   "h": "Acceso libre al casco; iglesias con horario propio",
+   "h_en": "Free access to the old town; churches keep their own hours",
+   "i": "Ideal si te gusta el gótico gallego y las villas con encanto.",
+   "i_en": "Ideal if you like Galician Gothic and charming towns."
+  },
+  "acr_muxia_barca": {
+   "id": "acr_muxia_barca",
+   "d": "Iglesia de peregrinación junto a las piedras sagradas de Abalar y dos Cadrís. Escenario de leyendas jacobeas y del monumento A Ferida, en memoria del Prestige.",
+   "d_en": "Pilgrimage church beside the sacred stones of Abalar and dos Cadrís. Setting of Jacobean legends and of the A Ferida monument to the Prestige disaster.",
+   "h": "Exterior siempre accesible; interior según culto",
+   "h_en": "Exterior always accessible; interior according to services",
+   "i": "Ideal si te gusta la costa brava, las leyendas y el mar bravío.",
+   "i_en": "Ideal if you like a wild coast, legends and a raging sea."
+  },
+  "acr_reis_catolicos": {
+   "id": "acr_reis_catolicos",
+   "d": "Fundado por los Reyes Católicos en 1499 para acoger a los peregrinos. Su portada plateresca y sus cuatro patios lo hacen uno de los hoteles históricos más bellos del mundo.",
+   "d_en": "Founded by the Catholic Monarchs in 1499 to shelter pilgrims. Its Plateresque portal and four courtyards make it one of the world's most beautiful historic hotels.",
+   "h": "Patios visitables con visita guiada; consultar",
+   "h_en": "Courtyards visitable on guided tours; check ahead",
+   "i": "Ideal si te gusta la arquitectura plateresca y la historia jacobea.",
+   "i_en": "Ideal if you like Plateresque architecture and pilgrimage history."
+  },
+  "acr_ponteceso_pondal": {
+   "id": "acr_ponteceso_pondal",
+   "d": "Localidad junto al puente medieval sobre la ría del Anllóns, cuna del poeta Eduardo Pondal, autor de la letra del himno gallego. Punto de partida a las dunas de Corme y Balarés.",
+   "d_en": "Town by the medieval bridge over the Anllóns estuary, birthplace of the poet Eduardo Pondal, author of the Galician anthem's lyrics. Gateway to the dunes of Corme and Balarés.",
+   "h": "Villa de acceso libre; casa museo con horario propio",
+   "h_en": "Town freely accessible; house museum keeps its own hours",
+   "i": "Ideal si te gusta la literatura gallega y los paisajes de ría.",
+   "i_en": "Ideal if you like Galician literature and estuary landscapes."
+  },
+  "acr_cabo_finisterre": {
+   "id": "acr_cabo_finisterre",
+   "d": "Cabo mítico que los romanos creían el confín del mundo. Muchos peregrinos alargan aquí el Camino para ver la puesta de sol sobre el Atlántico junto a su faro.",
+   "d_en": "Mythical cape the Romans believed was the edge of the world. Many pilgrims extend the Camino here to watch the sunset over the Atlantic by its lighthouse.",
+   "h": "Acceso libre; imprescindible al atardecer",
+   "h_en": "Free access; a must at sunset",
+   "i": "Ideal si te gusta ver el ocaso sobre el océano y cerrar el Camino.",
+   "i_en": "Ideal if you like ocean sunsets and closing the Camino."
+  },
+  "acr_cabo_vilan": {
+   "id": "acr_cabo_vilan",
+   "d": "Primer faro eléctrico de España, encaramado a acantilados de la Costa da Morte junto al cementerio de los ingleses. Uno de los tramos de costa más salvajes de Galicia.",
+   "d_en": "Spain's first electric lighthouse, perched on Costa da Morte cliffs beside the English cemetery. One of Galicia's wildest stretches of coast.",
+   "h": "Entorno de acceso libre; centro de interpretación con horario",
+   "h_en": "Surroundings freely accessible; visitor centre has set hours",
+   "i": "Ideal si te gusta la costa agreste y los faros con historia.",
+   "i_en": "Ideal if you like rugged coast and lighthouses with history."
+  },
+  "acr_ezaro": {
+   "id": "acr_ezaro",
+   "d": "El río Xallas se despeña sobre las rocas del Pindo hasta la ría. En verano hay iluminación nocturna y un mirador con vistas al 'Olimpo celta'.",
+   "d_en": "The Xallas river plunges over the rocks of Monte Pindo into the estuary. In summer there is night lighting and a viewpoint over the 'Celtic Olympus'.",
+   "h": "Acceso libre; caudal mayor tras las lluvias",
+   "h_en": "Free access; flow is strongest after rain",
+   "i": "Ideal si te gusta la naturaleza espectacular y el senderismo.",
+   "i_en": "Ideal if you like spectacular nature and hiking."
+  },
+  "acr_playa_riazor": {
+   "id": "acr_playa_riazor",
+   "d": "Dos playas contiguas de fina arena dorada abrazadas por el paseo marítimo. Un lujo poder bañarse y hacer surf a pocos metros del casco urbano.",
+   "d_en": "Two adjoining beaches of fine golden sand embraced by the seafront promenade. A treat to swim and surf just steps from the city centre.",
+   "h": "Acceso libre; socorrismo en temporada",
+   "h_en": "Free access; lifeguards in season",
+   "i": "Ideal si te gusta la playa urbana y el surf atlántico.",
+   "i_en": "Ideal if you like an urban beach and Atlantic surf."
+  },
+  "acr_paseo_maritimo_coruna": {
+   "id": "acr_paseo_maritimo_coruna",
+   "d": "Más de 13 km bordeando la ciudad desde el puerto hasta la Torre de Hércules, con tranvía turístico, esculturas y vistas continuas al océano.",
+   "d_en": "Over 13 km hugging the city from the port to the Tower of Hercules, with a tourist tram, sculptures and constant ocean views.",
+   "h": "Acceso libre a cualquier hora",
+   "h_en": "Free access at any time",
+   "i": "Ideal si te gusta caminar, correr o pedalear junto al mar.",
+   "i_en": "Ideal if you like walking, running or cycling by the sea."
+  },
+  "acr_malpica": {
+   "id": "acr_malpica",
+   "d": "Pueblo pesquero de la Costa da Morte con playa urbana y vistas a las Illas Sisargas, colonia de gaviotas y aves marinas. Punto de percebeiros y de la ruta dos Faros.",
+   "d_en": "Costa da Morte fishing village with an urban beach and views of the Sisargas Islands, a colony of gulls and seabirds. A hub for goose-barnacle harvesters and the Ruta dos Faros.",
+   "h": "Villa y playa de acceso libre",
+   "h_en": "Town and beach freely accessible",
+   "i": "Ideal si te gusta la ornitología y los pueblos de mar.",
+   "i_en": "Ideal if you like birdwatching and seaside villages."
+  },
+  "acr_domus": {
+   "id": "acr_domus",
+   "d": "Edificio con forma de vela de Arata Isozaki sobre la bahía del Orzán. Museo dedicado al cuerpo y la mente con cientos de módulos interactivos para todas las edades.",
+   "d_en": "Sail-shaped building by Arata Isozaki above the Orzán bay. A museum about the body and mind with hundreds of interactive modules for all ages.",
+   "h": "Aprox. 10:00–19:00, consultar según temporada",
+   "h_en": "Approx. 10:00–19:00, check by season",
+   "i": "Ideal si te gusta la ciencia divertida y viajar con niños.",
+   "i_en": "Ideal if you like fun science and travelling with kids."
+  },
+  "acr_aquarium_finisterrae": {
+   "id": "acr_aquarium_finisterrae",
+   "d": "Museo del mar con el Nautilus, una sala sumergida rodeada de tiburones, y piscinas exteriores con focas frente al océano, al pie de la Torre de Hércules.",
+   "d_en": "Museum of the sea with the Nautilus, an underwater room surrounded by sharks, and outdoor pools with seals facing the ocean, at the foot of the Tower of Hercules.",
+   "h": "Aprox. 10:00–19:00 (ampliado en verano)",
+   "h_en": "Approx. 10:00–19:00 (extended in summer)",
+   "i": "Ideal si te gusta la fauna marina y los planes en familia.",
+   "i_en": "Ideal if you like marine life and family outings."
+  },
+  "acr_camarinas_encaje": {
+   "id": "acr_camarinas_encaje",
+   "d": "Villa marinera famosa por sus palilleiras, que tejen encaje a mano. El Museo do Encaixe muestra el oficio y se puede comprar directamente a las artesanas.",
+   "d_en": "Fishing town famed for its palilleiras, who weave lace by hand. The Museo do Encaixe shows the craft and you can buy directly from the artisans.",
+   "h": "Museo aprox. 10:00–14:00 y 16:00–19:00, consultar",
+   "h_en": "Museum approx. 10:00–14:00 and 16:00–19:00, check ahead",
+   "i": "Ideal si te gusta la artesanía tradicional y las compras locales.",
+   "i_en": "Ideal if you like traditional crafts and local shopping."
+  },
+  "acr_alameda_santiago": {
+   "id": "acr_alameda_santiago",
+   "d": "Pulmón verde de Santiago con el paseo dos Leóns, las estatuas das Marías y el mirador de Ferradura, desde donde se ve el perfil de la Catedral entre robles.",
+   "d_en": "Santiago's green lung with the Paseo dos Leóns, the statues of As Marías and the Ferradura viewpoint, from where the Cathedral's profile rises among oaks.",
+   "h": "Acceso libre todo el día",
+   "h_en": "Free access all day",
+   "i": "Ideal si te gusta pasear tranquilo y hacer fotos de postal.",
+   "i_en": "Ideal if you like a calm stroll and postcard photos."
+  },
+  "acr_mercado_abastos_santiago": {
+   "id": "acr_mercado_abastos_santiago",
+   "d": "Mercado de granito de 1941 donde comprar pescado, marisco, queso e ico y hacer que te lo cocinen en los puestos de tapeo. El mejor termómetro de la despensa gallega.",
+   "d_en": "A 1941 granite market where you buy fish, shellfish, cheese and produce and have it cooked at the tapas stalls. The best gauge of the Galician pantry.",
+   "h": "Mar–Sáb aprox. 7:30–14:30; domingo cerrado",
+   "h_en": "Tue–Sat approx. 7:30–14:30; closed Sunday",
+   "i": "Ideal si te gusta el producto fresco y el ambiente de mercado.",
+   "i_en": "Ideal if you like fresh produce and a market atmosphere."
+  },
+  "acr_pulpo_feira": {
+   "id": "acr_pulpo_feira",
+   "d": "Pulpo cocido en caldeira de cobre, cortado con tijera y aliñado con aceite, sal gorda y pimentón. Se sirve sobre plato de madera con cachelos y pan.",
+   "d_en": "Octopus boiled in a copper cauldron, cut with scissors and dressed with oil, coarse salt and paprika. Served on a wooden plate with cachelos and bread.",
+   "h": "Pulperías aprox. 12:00–16:00 y 20:00–23:30",
+   "h_en": "Pulperías approx. 12:00–16:00 and 20:00–23:30",
+   "i": "Ideal si te gusta la cocina gallega auténtica y el pulpo.",
+   "i_en": "Ideal if you like authentic Galician food and octopus."
+  },
+  "acr_tarta_santiago": {
+   "id": "acr_tarta_santiago",
+   "d": "Postre tradicional de almendra molida, azúcar y huevo, coronado por la cruz de la Orden de Santiago en azúcar glas. Cuenta con Indicación Geográfica Protegida.",
+   "d_en": "Traditional dessert of ground almond, sugar and egg, topped with the cross of the Order of Santiago in icing sugar. It holds a Protected Geographical Indication.",
+   "h": "Cafés y pastelerías aprox. 9:00–20:00",
+   "h_en": "Cafés and bakeries approx. 9:00–20:00",
+   "i": "Ideal si te gusta la repostería y llevarte un dulce con historia.",
+   "i_en": "Ideal if you like pastries and a sweet with history."
+  },
+  "acr_marisqueria_rias": {
+   "id": "acr_marisqueria_rias",
+   "d": "En A Coruña se disfruta el mejor marisco atlántico: percebes de la Costa da Morte, centollo, navajas y vieiras a la plancha, regados con Albariño frío.",
+   "d_en": "In A Coruña you enjoy the best Atlantic seafood: goose barnacles from the Costa da Morte, spider crab, razor clams and grilled scallops, with cold Albariño.",
+   "h": "Aprox. 13:00–16:00 y 20:30–23:30",
+   "h_en": "Approx. 13:00–16:00 and 20:30–23:30",
+   "i": "Ideal si te gusta el marisco fresco y la cocina de mar.",
+   "i_en": "Ideal if you like fresh shellfish and seafood cuisine."
+  },
+  "acr_rua_franco_tapas": {
+   "id": "acr_rua_franco_tapas",
+   "d": "Arteria gastronómica del casco viejo compostelano, repleta de mesones donde probar pimientos de Padrón, empanada, raxo, zamburiñas y vinos de Ribeiro.",
+   "d_en": "The gastronomic artery of Santiago's old town, packed with taverns serving Padrón peppers, empanada, raxo, queen scallops and Ribeiro wines.",
+   "h": "Aprox. 12:00–24:00",
+   "h_en": "Approx. 12:00–24:00",
+   "i": "Ideal si te gusta ir de tapas y probar muchos platos.",
+   "i_en": "Ideal if you like tapas hopping and trying many dishes."
+  },
+  "acr_percebes_costa_morte": {
+   "id": "acr_percebes_costa_morte",
+   "d": "Crustáceo arrancado de las rocas batidas por el Atlántico por los percebeiros, jugándose la vida. Se cuece con laurel y sal, y sabe al mar más puro.",
+   "d_en": "A crustacean torn from Atlantic-beaten rocks by percebeiros at great risk. Boiled with bay leaf and salt, it tastes of the purest sea.",
+   "h": "Restaurantes aprox. 13:00–16:00 y 20:30–23:00",
+   "h_en": "Restaurants approx. 13:00–16:00 and 20:30–23:00",
+   "i": "Ideal si te gusta el marisco intenso y las experiencias singulares.",
+   "i_en": "Ideal if you like intense shellfish and singular experiences."
+  }
+ },
+ "food": {
+  "acr_mercado_abastos_santiago": {
+   "cuisine": "Producto gallego de mercado, mariscos y pescados",
+   "price": "10–30 €",
+   "hours": "Mar–Sáb aprox. 7:30–14:30; domingo cerrado"
+  },
+  "acr_pulpo_feira": {
+   "cuisine": "Cocina gallega tradicional, pulpo y mariscos",
+   "price": "12–20 €",
+   "hours": "Pulperías aprox. 12:00–16:00 y 20:00–23:30"
+  },
+  "acr_tarta_santiago": {
+   "cuisine": "Repostería tradicional gallega",
+   "price": "3–6 € porción",
+   "hours": "Cafés y pastelerías aprox. 9:00–20:00"
+  },
+  "acr_marisqueria_rias": {
+   "cuisine": "Marisquería atlántica, mariscos y pescados",
+   "price": "25–60 €",
+   "hours": "Aprox. 13:00–16:00 y 20:30–23:30"
+  },
+  "acr_rua_franco_tapas": {
+   "cuisine": "Tapas y cocina gallega de taberna",
+   "price": "10–25 €",
+   "hours": "Aprox. 12:00–24:00"
+  },
+  "acr_percebes_costa_morte": {
+   "cuisine": "Marisco de roca de la Costa da Morte",
+   "price": "40–80 € ración",
+   "hours": "Restaurantes aprox. 13:00–16:00 y 20:30–23:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "A Coruña",
+   "items": [
+    {
+     "name": "Tarta de Santiago",
+     "price": "8–18 €",
+     "desc": "Tarta de almendra con la cruz de Santiago espolvoreada en azúcar glas."
+    },
+    {
+     "name": "Encaje de Camariñas (palillos)",
+     "price": "15–120 €",
+     "desc": "Pañuelos y bolillos hechos a mano por las palilleiras de la Costa da Morte."
+    },
+    {
+     "name": "Conservas de mariscos gallegos",
+     "price": "5–25 €",
+     "desc": "Latas de mejillones, berberechos, navajas y percebes de las rías."
+    },
+    {
+     "name": "Cerámica de Sargadelos",
+     "price": "20–90 €",
+     "desc": "Loza gallega azul y blanca de diseño reconocible de esta tierra."
+    },
+    {
+     "name": "Aguardiente de orujo y licor café",
+     "price": "8–20 €",
+     "desc": "Destilados tradicionales, base de la queimada gallega."
+    }
+   ],
+   "shops": [
+    "Mercado da Praza de Lugo (A Coruña)",
+    "Mercado de Abastos de Santiago",
+    "Sargadelos (Rúa Nova, Santiago)",
+    "Museo do Encaixe de Camariñas"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Lleva chubasquero y capas: el clima atlántico cambia rápido y llueve en cualquier estación.",
+   "En pulperías pide el pulpo á feira con cachelos y un Ribeiro o Albariño de la casa.",
+   "Reserva con antelación la visita al tejado de la Catedral de Santiago; las plazas son limitadas.",
+   "Para la Costa da Morte alquila coche: el transporte público entre cabos y playas es escaso.",
+   "Consulta las tablas de mareas antes de bajar a calas y a la Torre de Hércules."
+  ],
+  "en": [
+   "Bring a rain jacket and layers: the Atlantic weather shifts fast and it can rain in any season.",
+   "At pulperías order pulpo á feira with cachelos and a house Ribeiro or Albariño.",
+   "Book the Santiago Cathedral rooftop tour ahead; spots are limited.",
+   "Rent a car for the Costa da Morte: public transport between capes and beaches is scarce.",
+   "Check the tide tables before heading to coves and the Tower of Hercules."
+  ]
+ },
+ "climate": {
+  "hi": [
+   13,
+   14,
+   15,
+   16,
+   18,
+   20,
+   22,
+   23,
+   22,
+   19,
+   16,
+   14
+  ],
+  "lo": [
+   8,
+   8,
+   9,
+   10,
+   12,
+   14,
+   16,
+   16,
+   15,
+   13,
+   10,
+   9
+  ]
+ },
+ "tr": {
+  "Meta del Camino y joya románica con fachada barroca del Obradoiro.": "End of the Camino and a Romanesque gem with a Baroque Obradoiro facade.",
+  "Plaza monumental frente a la Catedral, corazón simbólico de la ciudad.": "Monumental square facing the Cathedral, the city's symbolic heart.",
+  "Laberinto de rúas de granito, soportales y plazas, Patrimonio Mundial.": "Maze of granite streets, arcades and squares, a World Heritage site.",
+  "Enorme monasterio benedictino con retablos barrocos deslumbrantes.": "Huge Benedictine monastery with dazzling Baroque altarpieces.",
+  "Faro romano en activo más antiguo del mundo, Patrimonio Mundial.": "The world's oldest working Roman lighthouse, a World Heritage site.",
+  "Barrio medieval de callejas, iglesias románicas y jardines sobre el mar.": "Medieval quarter of lanes, Romanesque churches and gardens above the sea.",
+  "Gran plaza porticada presidida por el Palacio Municipal.": "Grand arcaded square dominated by the City Hall.",
+  "Villa medieval de las Mariñas con iglesias góticas y soportales.": "Medieval town of the Mariñas with Gothic churches and arcades.",
+  "Santuario sobre las rocas azotado por el Atlántico en la Costa da Morte.": "Sanctuary on the rocks battered by the Atlantic on the Costa da Morte.",
+  "Antiguo hospital de peregrinos del siglo XVI, hoy parador de lujo.": "16th-century pilgrims' hospital, now a luxury parador.",
+  "Villa del Anllóns ligada al poeta Eduardo Pondal.": "Anllóns river town linked to the poet Eduardo Pondal.",
+  "El 'fin de la tierra', faro y kilómetro 0 del Camino.": "The 'end of the earth', lighthouse and kilometre 0 of the Camino.",
+  "Faro dramático sobre acantilados y campos de molinos.": "Dramatic lighthouse over cliffs and wind-turbine fields.",
+  "Única cascada de Europa que cae directa al mar, junto al monte Pindo.": "Europe's only waterfall that drops straight into the sea, by Monte Pindo.",
+  "Arenal urbano en pleno centro de A Coruña.": "Urban beach right in the centre of A Coruña.",
+  "Uno de los paseos marítimos más largos de Europa.": "One of the longest seafront promenades in Europe.",
+  "Villa marinera frente a un archipiélago refugio de aves.": "Fishing town facing a bird-sanctuary archipelago.",
+  "Museo interactivo sobre el ser humano diseñado por Isozaki.": "Interactive museum about human beings designed by Isozaki.",
+  "Acuario junto a la Torre con fauna del Atlántico.": "Aquarium beside the Tower with Atlantic marine life.",
+  "Cuna del encaje de bolillos gallego en la Costa da Morte.": "Home of Galician bobbin lace on the Costa da Morte.",
+  "Parque romántico con la mejor vista de la Catedral.": "Romantic park with the best view of the Cathedral.",
+  "Segundo lugar más visitado de Santiago; producto gallego y cocinado al momento.": "Santiago's second most-visited spot; Galician produce cooked on the spot.",
+  "El plato estrella de Galicia, en las pulperías de A Coruña y Santiago.": "Galicia's star dish, in the pulperías of A Coruña and Santiago.",
+  "Tarta de almendra con la cruz de Santiago, en cafés del casco viejo.": "Almond cake with the cross of Santiago, in old-town cafés.",
+  "Percebes, nécoras, vieiras y almejas en las marisquerías del puerto.": "Barnacles, crabs, scallops and clams in the port's seafood restaurants.",
+  "Calle de tabernas y pulperías junto a la Catedral de Santiago.": "Street of taverns and pulperías beside Santiago Cathedral.",
+  "El marisco más bravo de Galicia, en villas como Camariñas y Muxía.": "Galicia's toughest-caught shellfish, in towns like Camariñas and Muxía.",
+  "A Coruña": "A Coruña"
+ }
+}
