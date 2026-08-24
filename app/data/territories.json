@@ -520,6 +520,506 @@
         -4.6918
       ],
       "file": "data/t/avila.json"
+    },
+    {
+      "id": "abudabi",
+      "name": "Abu Dabi",
+      "country": "WORLD",
+      "center": [
+        24.4539,
+        54.3773
+      ],
+      "file": "data/t/abudabi.json"
+    },
+    {
+      "id": "antalya",
+      "name": "Antalya",
+      "country": "WORLD",
+      "center": [
+        36.8969,
+        30.7133
+      ],
+      "file": "data/t/antalya.json"
+    },
+    {
+      "id": "atenas",
+      "name": "Atenas",
+      "country": "WORLD",
+      "center": [
+        37.9755,
+        23.7348
+      ],
+      "file": "data/t/atenas.json"
+    },
+    {
+      "id": "bali",
+      "name": "Bali",
+      "country": "WORLD",
+      "center": [
+        -8.4095,
+        115.1889
+      ],
+      "file": "data/t/bali.json"
+    },
+    {
+      "id": "bangkok",
+      "name": "Bangkok",
+      "country": "WORLD",
+      "center": [
+        13.7563,
+        100.5018
+      ],
+      "file": "data/t/bangkok.json"
+    },
+    {
+      "id": "berlin",
+      "name": "Berlín",
+      "country": "WORLD",
+      "center": [
+        52.517,
+        13.3889
+      ],
+      "file": "data/t/berlin.json"
+    },
+    {
+      "id": "bombay",
+      "name": "Bombay",
+      "country": "WORLD",
+      "center": [
+        18.9667,
+        72.8333
+      ],
+      "file": "data/t/bombay.json"
+    },
+    {
+      "id": "cancun",
+      "name": "Cancún",
+      "country": "WORLD",
+      "center": [
+        21.1619,
+        -86.8515
+      ],
+      "file": "data/t/cancun.json"
+    },
+    {
+      "id": "ciudaddemexico",
+      "name": "Ciudad de México",
+      "country": "WORLD",
+      "center": [
+        19.4326,
+        -99.1332
+      ],
+      "file": "data/t/ciudaddemexico.json"
+    },
+    {
+      "id": "ciudaddelcabo",
+      "name": "Ciudad del Cabo",
+      "country": "WORLD",
+      "center": [
+        -33.9249,
+        18.4241
+      ],
+      "file": "data/t/ciudaddelcabo.json"
+    },
+    {
+      "id": "cusco",
+      "name": "Cusco",
+      "country": "WORLD",
+      "center": [
+        -13.5162,
+        -71.9785
+      ],
+      "file": "data/t/cusco.json"
+    },
+    {
+      "id": "doha",
+      "name": "Doha",
+      "country": "WORLD",
+      "center": [
+        25.2854,
+        51.531
+      ],
+      "file": "data/t/doha.json"
+    },
+    {
+      "id": "dublin",
+      "name": "Dublín",
+      "country": "WORLD",
+      "center": [
+        53.3481,
+        -6.2603
+      ],
+      "file": "data/t/dublin.json"
+    },
+    {
+      "id": "dubai",
+      "name": "Dubái",
+      "country": "WORLD",
+      "center": [
+        25.1972,
+        55.2744
+      ],
+      "file": "data/t/dubai.json"
+    },
+    {
+      "id": "elcairo",
+      "name": "El Cairo",
+      "country": "WORLD",
+      "center": [
+        30.0444,
+        31.2357
+      ],
+      "file": "data/t/elcairo.json"
+    },
+    {
+      "id": "estambul",
+      "name": "Estambul",
+      "country": "WORLD",
+      "center": [
+        41.0082,
+        28.9784
+      ],
+      "file": "data/t/estambul.json"
+    },
+    {
+      "id": "florencia",
+      "name": "Florencia",
+      "country": "WORLD",
+      "center": [
+        43.7696,
+        11.2558
+      ],
+      "file": "data/t/florencia.json"
+    },
+    {
+      "id": "hanoi",
+      "name": "Hanói",
+      "country": "WORLD",
+      "center": [
+        21.0285,
+        105.8542
+      ],
+      "file": "data/t/hanoi.json"
+    },
+    {
+      "id": "hochiminh",
+      "name": "Ho Chi Minh",
+      "country": "WORLD",
+      "center": [
+        10.7769,
+        106.7009
+      ],
+      "file": "data/t/hochiminh.json"
+    },
+    {
+      "id": "hongkong",
+      "name": "Hong Kong",
+      "country": "WORLD",
+      "center": [
+        22.3193,
+        114.1694
+      ],
+      "file": "data/t/hongkong.json"
+    },
+    {
+      "id": "kioto",
+      "name": "Kioto",
+      "country": "WORLD",
+      "center": [
+        35.0116,
+        135.7681
+      ],
+      "file": "data/t/kioto.json"
+    },
+    {
+      "id": "kualalumpur",
+      "name": "Kuala Lumpur",
+      "country": "WORLD",
+      "center": [
+        3.1478,
+        101.6953
+      ],
+      "file": "data/t/kualalumpur.json"
+    },
+    {
+      "id": "lasvegas",
+      "name": "Las Vegas",
+      "country": "WORLD",
+      "center": [
+        36.1147,
+        -115.1728
+      ],
+      "file": "data/t/lasvegas.json"
+    },
+    {
+      "id": "lisboa",
+      "name": "Lisboa",
+      "country": "WORLD",
+      "center": [
+        38.7223,
+        -9.1393
+      ],
+      "file": "data/t/lisboa.json"
+    },
+    {
+      "id": "londres",
+      "name": "Londres",
+      "country": "WORLD",
+      "center": [
+        51.5074,
+        -0.1278
+      ],
+      "file": "data/t/londres.json"
+    },
+    {
+      "id": "losangeles",
+      "name": "Los Ángeles",
+      "country": "WORLD",
+      "center": [
+        34.0522,
+        -118.2437
+      ],
+      "file": "data/t/losangeles.json"
+    },
+    {
+      "id": "macao",
+      "name": "Macao",
+      "country": "WORLD",
+      "center": [
+        22.167,
+        113.549
+      ],
+      "file": "data/t/macao.json"
+    },
+    {
+      "id": "marrakech",
+      "name": "Marrakech",
+      "country": "WORLD",
+      "center": [
+        31.6255,
+        -7.9889
+      ],
+      "file": "data/t/marrakech.json"
+    },
+    {
+      "id": "melbourne",
+      "name": "Melbourne",
+      "country": "WORLD",
+      "center": [
+        -37.8136,
+        144.9631
+      ],
+      "file": "data/t/melbourne.json"
+    },
+    {
+      "id": "milan",
+      "name": "Milán",
+      "country": "WORLD",
+      "center": [
+        45.4642,
+        9.19
+      ],
+      "file": "data/t/milan.json"
+    },
+    {
+      "id": "munich",
+      "name": "Múnich",
+      "country": "WORLD",
+      "center": [
+        48.1371,
+        11.5755
+      ],
+      "file": "data/t/munich.json"
+    },
+    {
+      "id": "nairobi",
+      "name": "Nairobi",
+      "country": "WORLD",
+      "center": [
+        -1.2864,
+        36.8172
+      ],
+      "file": "data/t/nairobi.json"
+    },
+    {
+      "id": "nuevayork",
+      "name": "Nueva York",
+      "country": "WORLD",
+      "center": [
+        40.758,
+        -73.9855
+      ],
+      "file": "data/t/nuevayork.json"
+    },
+    {
+      "id": "orlando",
+      "name": "Orlando",
+      "country": "WORLD",
+      "center": [
+        28.5383,
+        -81.3792
+      ],
+      "file": "data/t/orlando.json"
+    },
+    {
+      "id": "osaka",
+      "name": "Osaka",
+      "country": "WORLD",
+      "center": [
+        34.6938,
+        135.5022
+      ],
+      "file": "data/t/osaka.json"
+    },
+    {
+      "id": "paris",
+      "name": "París",
+      "country": "WORLD",
+      "center": [
+        48.8566,
+        2.3522
+      ],
+      "file": "data/t/paris.json"
+    },
+    {
+      "id": "petra",
+      "name": "Petra",
+      "country": "WORLD",
+      "center": [
+        30.3285,
+        35.4481
+      ],
+      "file": "data/t/petra.json"
+    },
+    {
+      "id": "phuket",
+      "name": "Phuket",
+      "country": "WORLD",
+      "center": [
+        7.8906,
+        98.3981
+      ],
+      "file": "data/t/phuket.json"
+    },
+    {
+      "id": "praga",
+      "name": "Praga",
+      "country": "WORLD",
+      "center": [
+        50.0875,
+        14.4208
+      ],
+      "file": "data/t/praga.json"
+    },
+    {
+      "id": "riodejaneiro",
+      "name": "Río de Janeiro",
+      "country": "WORLD",
+      "center": [
+        -22.9068,
+        -43.1729
+      ],
+      "file": "data/t/riodejaneiro.json"
+    },
+    {
+      "id": "sanfrancisco",
+      "name": "San Francisco",
+      "country": "WORLD",
+      "center": [
+        37.7749,
+        -122.4194
+      ],
+      "file": "data/t/sanfrancisco.json"
+    },
+    {
+      "id": "seul",
+      "name": "Seúl",
+      "country": "WORLD",
+      "center": [
+        37.5665,
+        126.978
+      ],
+      "file": "data/t/seul.json"
+    },
+    {
+      "id": "singapur",
+      "name": "Singapur",
+      "country": "WORLD",
+      "center": [
+        1.29,
+        103.85
+      ],
+      "file": "data/t/singapur.json"
+    },
+    {
+      "id": "sidney",
+      "name": "Sídney",
+      "country": "WORLD",
+      "center": [
+        -33.8688,
+        151.2093
+      ],
+      "file": "data/t/sidney.json"
+    },
+    {
+      "id": "taipei",
+      "name": "Taipéi",
+      "country": "WORLD",
+      "center": [
+        25.0478,
+        121.5319
+      ],
+      "file": "data/t/taipei.json"
+    },
+    {
+      "id": "tokio",
+      "name": "Tokio",
+      "country": "WORLD",
+      "center": [
+        35.6812,
+        139.7671
+      ],
+      "file": "data/t/tokio.json"
+    },
+    {
+      "id": "venecia",
+      "name": "Venecia",
+      "country": "WORLD",
+      "center": [
+        45.4371,
+        12.3326
+      ],
+      "file": "data/t/venecia.json"
+    },
+    {
+      "id": "viena",
+      "name": "Viena",
+      "country": "WORLD",
+      "center": [
+        48.2085,
+        16.3732
+      ],
+      "file": "data/t/viena.json"
+    },
+    {
+      "id": "zanzibar",
+      "name": "Zanzíbar",
+      "country": "WORLD",
+      "center": [
+        -6.164,
+        39.1985
+      ],
+      "file": "data/t/zanzibar.json"
+    },
+    {
+      "id": "amsterdam",
+      "name": "Ámsterdam",
+      "country": "WORLD",
+      "center": [
+        52.374,
+        4.8897
+      ],
+      "file": "data/t/amsterdam.json"
     }
   ]
 }
