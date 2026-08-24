@@ -1,0 +1,703 @@
+{
+ "id": "bombay",
+ "name": "Bombay",
+ "country": "WORLD",
+ "center": [
+  18.9667,
+  72.8333
+ ],
+ "pois": [
+  {
+   "id": "w_bom_gateway_india",
+   "cat": "monuments",
+   "name": "Puerta de la India",
+   "icon": "🏛️",
+   "lat": 18.92206,
+   "lng": 72.83464,
+   "desc": "Arco monumental de basalto de 1924 frente al mar Arábigo."
+  },
+  {
+   "id": "w_bom_taj_palace",
+   "cat": "monuments",
+   "name": "Hotel Taj Mahal Palace",
+   "icon": "🏨",
+   "lat": 18.92165,
+   "lng": 72.83329,
+   "desc": "Lujoso hotel histórico de 1903 junto a la Puerta de la India."
+  },
+  {
+   "id": "w_bom_elephanta",
+   "cat": "monuments",
+   "name": "Cuevas de Elefanta",
+   "icon": "🕉️",
+   "lat": 18.96325,
+   "lng": 72.93144,
+   "desc": "Templos rupestres hindúes en una isla, Patrimonio de la Humanidad."
+  },
+  {
+   "id": "w_bom_cst",
+   "cat": "monuments",
+   "name": "Estación CST",
+   "icon": "🚉",
+   "lat": 18.9398,
+   "lng": 72.8354,
+   "desc": "Terminal ferroviaria neogótica victoriana, Patrimonio de la Humanidad."
+  },
+  {
+   "id": "w_bom_siddhivinayak",
+   "cat": "monuments",
+   "name": "Templo Siddhivinayak",
+   "icon": "🛕",
+   "lat": 19.01644,
+   "lng": 72.82942,
+   "desc": "Popular templo hindú dedicado a Ganesha con cúpula dorada."
+  },
+  {
+   "id": "w_bom_haji_ali",
+   "cat": "monuments",
+   "name": "Haji Ali Dargah",
+   "icon": "🕌",
+   "lat": 18.98276,
+   "lng": 72.80889,
+   "desc": "Mezquita y mausoleo blanco sobre un islote en el mar."
+  },
+  {
+   "id": "w_bom_crawford",
+   "cat": "monuments",
+   "name": "Mercado Crawford",
+   "icon": "🏬",
+   "lat": 18.94709,
+   "lng": 72.83483,
+   "desc": "Bullicioso mercado colonial de frutas, especias y de todo."
+  },
+  {
+   "id": "w_bom_csmvs",
+   "cat": "monuments",
+   "name": "Museo CSMVS",
+   "icon": "🏛️",
+   "lat": 18.92739,
+   "lng": 72.83205,
+   "desc": "Principal museo de arte e historia, antiguo Prince of Wales."
+  },
+  {
+   "id": "w_bom_rajabai",
+   "cat": "monuments",
+   "name": "Torre del Reloj Rajabai",
+   "icon": "🕰️",
+   "lat": 18.9293,
+   "lng": 72.8306,
+   "desc": "Torre victoriana de reloj de 85 m junto a la Universidad."
+  },
+  {
+   "id": "w_bom_mani_bhavan",
+   "cat": "monuments",
+   "name": "Mani Bhavan",
+   "icon": "🏠",
+   "lat": 18.9572,
+   "lng": 72.809,
+   "desc": "Casa-museo de Gandhi en sus estancias de Bombay."
+  },
+  {
+   "id": "w_bom_vipassana",
+   "cat": "monuments",
+   "name": "Pagoda Global Vipassana",
+   "icon": "☸️",
+   "lat": 19.22806,
+   "lng": 72.80605,
+   "desc": "Enorme pagoda dorada de meditación junto a Gorai."
+  },
+  {
+   "id": "w_bom_banganga",
+   "cat": "monuments",
+   "name": "Banganga Tank",
+   "icon": "🛕",
+   "lat": 18.9455,
+   "lng": 72.7937,
+   "desc": "Antiguo estanque sagrado rodeado de templos en Walkeshwar."
+  },
+  {
+   "id": "w_bom_marine_drive",
+   "cat": "nature",
+   "name": "Marine Drive",
+   "icon": "🌅",
+   "lat": 18.9436,
+   "lng": 72.8232,
+   "desc": "Paseo marítimo en curva conocido como el Collar de la Reina."
+  },
+  {
+   "id": "w_bom_chowpatty",
+   "cat": "nature",
+   "name": "Playa Chowpatty",
+   "icon": "🏖️",
+   "lat": 18.9548,
+   "lng": 72.814,
+   "desc": "Playa urbana de puestos de comida al final de Marine Drive."
+  },
+  {
+   "id": "w_bom_hanging_gardens",
+   "cat": "nature",
+   "name": "Jardines Colgantes",
+   "icon": "🌳",
+   "lat": 18.9561,
+   "lng": 72.8054,
+   "desc": "Jardines aterrazados en Malabar Hill con setos podados."
+  },
+  {
+   "id": "w_bom_juhu",
+   "cat": "nature",
+   "name": "Playa de Juhu",
+   "icon": "🏖️",
+   "lat": 19.0993,
+   "lng": 72.826,
+   "desc": "Amplia playa de arena en los suburbios del norte."
+  },
+  {
+   "id": "w_bom_sanjay_gandhi",
+   "cat": "nature",
+   "name": "Parque Nacional Sanjay Gandhi",
+   "icon": "🌲",
+   "lat": 19.2143,
+   "lng": 72.9105,
+   "desc": "Gran parque nacional selvático dentro de la ciudad."
+  },
+  {
+   "id": "w_bom_kanheri",
+   "cat": "nature",
+   "name": "Cuevas de Kanheri",
+   "icon": "🪨",
+   "lat": 19.208,
+   "lng": 72.906,
+   "desc": "Conjunto de cuevas budistas talladas en la roca en la selva."
+  },
+  {
+   "id": "w_bom_colaba",
+   "cat": "ocio",
+   "name": "Colaba Causeway",
+   "icon": "🛍️",
+   "lat": 18.9156,
+   "lng": 72.8276,
+   "desc": "Animada avenida de tiendas, cafés y puestos callejeros."
+  },
+  {
+   "id": "w_bom_dharavi",
+   "cat": "ocio",
+   "name": "Dharavi",
+   "icon": "🏘️",
+   "lat": 19.0417,
+   "lng": 72.852,
+   "desc": "Uno de los mayores barrios informales de Asia, muy emprendedor."
+  },
+  {
+   "id": "w_bom_bandra_worli",
+   "cat": "ocio",
+   "name": "Bandra-Worli Sea Link",
+   "icon": "🌉",
+   "lat": 19.0365,
+   "lng": 72.8173,
+   "desc": "Puente atirantado sobre el mar que une Bandra y Worli."
+  },
+  {
+   "id": "w_bom_dhobi_ghat",
+   "cat": "ocio",
+   "name": "Dhobi Ghat",
+   "icon": "🧺",
+   "lat": 18.98292,
+   "lng": 72.82541,
+   "desc": "La mayor lavandería al aire libre del mundo."
+  },
+  {
+   "id": "w_bom_kala_ghoda",
+   "cat": "ocio",
+   "name": "Kala Ghoda",
+   "icon": "🎨",
+   "lat": 18.928,
+   "lng": 72.8328,
+   "desc": "Distrito artístico y cultural con galerías y arquitectura colonial."
+  },
+  {
+   "id": "w_bom_bandstand",
+   "cat": "ocio",
+   "name": "Bandra Bandstand",
+   "icon": "🌊",
+   "lat": 19.0434,
+   "lng": 72.819,
+   "desc": "Paseo marítimo de moda con vistas al Sea Link."
+  },
+  {
+   "id": "w_bom_leopold",
+   "cat": "food",
+   "name": "Leopold Cafe",
+   "icon": "🍽️",
+   "lat": 18.9224,
+   "lng": 72.8318,
+   "desc": "Café-restaurante histórico de 1871, icono de Colaba."
+  },
+  {
+   "id": "w_bom_britannia",
+   "cat": "food",
+   "name": "Britannia & Co.",
+   "icon": "🍛",
+   "lat": 18.93449,
+   "lng": 72.84035,
+   "desc": "Legendario café parsi famoso por su berry pulao."
+  },
+  {
+   "id": "w_bom_bademiya",
+   "cat": "food",
+   "name": "Bademiya",
+   "icon": "🍢",
+   "lat": 18.9208,
+   "lng": 72.8316,
+   "desc": "Mítico puesto nocturno de kebabs y rolls en Colaba."
+  },
+  {
+   "id": "w_bom_trishna",
+   "cat": "food",
+   "name": "Trishna",
+   "icon": "🦀",
+   "lat": 18.9286,
+   "lng": 72.8324,
+   "desc": "Restaurante de marisco costero premiado en Kala Ghoda."
+  },
+  {
+   "id": "w_bom_mondegar",
+   "cat": "food",
+   "name": "Cafe Mondegar",
+   "icon": "🍺",
+   "lat": 18.9222,
+   "lng": 72.8316,
+   "desc": "Café-bar retro de Colaba con murales de Mario Miranda."
+  },
+  {
+   "id": "w_bom_elco",
+   "cat": "food",
+   "name": "Elco Market",
+   "icon": "🥘",
+   "lat": 19.0561,
+   "lng": 72.8333,
+   "desc": "Templo del chaat y street food en Bandra."
+  }
+ ],
+ "extra": {
+  "w_bom_gateway_india": {
+   "id": "w_bom_gateway_india",
+   "d": "Levantada para conmemorar la visita del rey Jorge V en 1911 e inaugurada en 1924, esta puerta de estilo indo-sarraceno de 26 m es el icono de Bombay y punto de partida de los ferris a Elefanta.",
+   "d_en": "Built to commemorate the 1911 visit of King George V and completed in 1924, this 26 m Indo-Saracenic arch is Mumbai's icon and the departure point for Elephanta ferries.",
+   "h": "Acceso libre las 24 horas; explanada muy concurrida al atardecer.",
+   "h_en": "Free access 24 hours; the esplanade is very busy at sunset.",
+   "i": "Por aquí partieron las últimas tropas británicas en 1948, cerrando la era colonial.",
+   "i_en": "The last British troops departed from here in 1948, closing the colonial era."
+  },
+  "w_bom_taj_palace": {
+   "id": "w_bom_taj_palace",
+   "d": "Inaugurado en 1903 por el industrial Jamsetji Tata, mezcla estilos morisco, oriental y florentino. Símbolo del lujo indio, fue restaurado tras los atentados de 2008.",
+   "d_en": "Opened in 1903 by industrialist Jamsetji Tata, it blends Moorish, Oriental and Florentine styles. A symbol of Indian luxury, it was restored after the 2008 attacks.",
+   "h": "Entrada a las zonas públicas y cafeterías para clientes; visita exterior libre.",
+   "h_en": "Public areas and cafes for guests; free to admire from outside.",
+   "i": "Su cúpula central se ve mejor desde la explanada de la Puerta de la India.",
+   "i_en": "Its central dome is best seen from the Gateway of India esplanade."
+  },
+  "w_bom_elephanta": {
+   "id": "w_bom_elephanta",
+   "d": "En una isla del puerto, estas cuevas excavadas entre los siglos V y VIII albergan colosales relieves dedicados a Shiva, incluida la célebre Trimurti de tres rostros de casi 6 m.",
+   "d_en": "On a harbour island, these caves carved between the 5th and 8th centuries hold colossal reliefs dedicated to Shiva, including the famous three-faced Trimurti nearly 6 m tall.",
+   "h": "Martes a domingo 9:00-17:00; cerrado lunes. Ferri desde la Puerta de la India (~1 h).",
+   "h_en": "Tuesday to Sunday 9:00-17:00; closed Mondays. Ferry from the Gateway of India (~1 h).",
+   "i": "Un trenecito une el muelle con la entrada; cuidado con los monos que roban comida.",
+   "i_en": "A small train links the pier with the entrance; beware of monkeys stealing food."
+  },
+  "w_bom_cst": {
+   "id": "w_bom_cst",
+   "d": "Chhatrapati Shivaji Maharaj Terminus, terminada en 1888, combina gótico victoriano con motivos indios. Es una de las estaciones más transitadas del mundo y joya arquitectónica de la ciudad.",
+   "d_en": "Chhatrapati Shivaji Maharaj Terminus, completed in 1888, blends Victorian Gothic with Indian motifs. It is one of the world's busiest stations and an architectural jewel.",
+   "h": "Estación operativa las 24 horas; mejor fachada iluminada de noche.",
+   "h_en": "Station operates 24 hours; the facade looks best floodlit at night.",
+   "i": "Su cúpula está coronada por una estatua del Progreso; aparece en muchas películas de Bollywood.",
+   "i_en": "Its dome is crowned by a statue of Progress; it features in many Bollywood films."
+  },
+  "w_bom_siddhivinayak": {
+   "id": "w_bom_siddhivinayak",
+   "d": "Fundado en 1801 en Prabhadevi, es uno de los templos más ricos y visitados de Bombay. Su ídolo de Ganesha atrae a políticos, estrellas de Bollywood y miles de fieles cada martes.",
+   "d_en": "Founded in 1801 in Prabhadevi, it is one of Mumbai's richest and most visited temples. Its Ganesha idol draws politicians, Bollywood stars and thousands of devotees every Tuesday.",
+   "h": "Abierto a diario ~5:30-22:00; martes con enormes colas.",
+   "h_en": "Open daily ~5:30-22:00; huge queues on Tuesdays.",
+   "i": "Descálzate y deja el móvil en consigna; hay filas rápidas de pago para el darshan.",
+   "i_en": "Remove shoes and leave phones at the counter; paid fast-track queues exist for darshan."
+  },
+  "w_bom_haji_ali": {
+   "id": "w_bom_haji_ali",
+   "d": "Construido en 1431, este santuario sufí flota sobre un islote unido a la costa por una estrecha calzada de casi 1 km que queda sumergida con la marea alta.",
+   "d_en": "Built in 1431, this Sufi shrine sits on an islet linked to the shore by a nearly 1 km causeway that is submerged at high tide.",
+   "h": "Abierto a diario ~5:30-22:00; consulta las mareas antes de cruzar.",
+   "h_en": "Open daily ~5:30-22:00; check the tides before crossing.",
+   "i": "La calzada se llena de puestos y mendigos; visítalo con marea baja y ropa modesta.",
+   "i_en": "The causeway fills with stalls and beggars; visit at low tide in modest clothing."
+  },
+  "w_bom_crawford": {
+   "id": "w_bom_crawford",
+   "d": "Inaugurado en 1869 (hoy Mahatma Jyotiba Phule Mandai), es un mercado cubierto de estilo normando-gótico con relieves de Rudyard Kipling padre, lleno de frutas, especias, mascotas y bazar.",
+   "d_en": "Opened in 1869 (now Mahatma Jyotiba Phule Mandai), a Norman-Gothic covered market with reliefs by Kipling's father, packed with fruit, spices, pets and bazaar goods.",
+   "h": "Lunes a sábado ~10:30-20:00; muy concurrido por la mañana.",
+   "h_en": "Monday to Saturday ~10:30-20:00; busiest in the morning.",
+   "i": "Regatea con firmeza y vigila tus pertenencias entre la multitud.",
+   "i_en": "Haggle firmly and watch your belongings in the crowds."
+  },
+  "w_bom_csmvs": {
+   "id": "w_bom_csmvs",
+   "d": "El Chhatrapati Shivaji Maharaj Vastu Sangrahalaya, de estilo indo-sarraceno y coronado por una cúpula, reúne esculturas, miniaturas, armas y arte de todo el subcontinente en jardines tranquilos.",
+   "d_en": "The Chhatrapati Shivaji Maharaj Vastu Sangrahalaya, in Indo-Saracenic style with a great dome, gathers sculpture, miniatures, arms and art from across the subcontinent in quiet gardens.",
+   "h": "A diario ~10:15-18:00; entrada con tarifa.",
+   "h_en": "Daily ~10:15-18:00; paid admission.",
+   "i": "Está en el corazón del distrito artístico de Kala Ghoda, ideal para pasear.",
+   "i_en": "It sits in the heart of the Kala Ghoda art district, great for a stroll."
+  },
+  "w_bom_rajabai": {
+   "id": "w_bom_rajabai",
+   "d": "Terminada en 1878 e inspirada en el Big Ben, esta torre gótica veneciana de 85 m corona la biblioteca de la Universidad de Bombay y domina el Oval Maidan.",
+   "d_en": "Completed in 1878 and inspired by Big Ben, this 85 m Venetian Gothic tower crowns the University of Mumbai library and overlooks the Oval Maidan.",
+   "h": "Interior cerrado al público; visible desde el Oval Maidan.",
+   "h_en": "Interior closed to the public; visible from the Oval Maidan.",
+   "i": "Sus campanas tocaban antiguamente melodías como el God Save the King.",
+   "i_en": "Its bells once chimed tunes such as God Save the King."
+  },
+  "w_bom_mani_bhavan": {
+   "id": "w_bom_mani_bhavan",
+   "d": "Esta mansión fue la base de Mahatma Gandhi en Bombay entre 1917 y 1934. Hoy es un museo con su habitación, una biblioteca y dioramas que narran su vida y la lucha por la independencia.",
+   "d_en": "This mansion was Mahatma Gandhi's Mumbai base between 1917 and 1934. Now a museum with his room, a library and dioramas telling his life and the freedom struggle.",
+   "h": "A diario ~9:30-18:00; entrada gratuita o donativo.",
+   "h_en": "Daily ~9:30-18:00; free entry or donation.",
+   "i": "Desde aquí Gandhi lanzó campañas clave de desobediencia civil.",
+   "i_en": "From here Gandhi launched key civil disobedience campaigns."
+  },
+  "w_bom_vipassana": {
+   "id": "w_bom_vipassana",
+   "d": "Inaugurada en 2009, su cúpula dorada de 96 m cubre una de las mayores salas sin columnas del mundo, dedicada a la meditación Vipassana y a la memoria de Buda.",
+   "d_en": "Opened in 2009, its 96 m golden dome shelters one of the world's largest pillarless halls, dedicated to Vipassana meditation and the memory of the Buddha.",
+   "h": "Martes a domingo ~9:00-19:00; se llega en ferri desde Gorai.",
+   "h_en": "Tuesday to Sunday ~9:00-19:00; reached by ferry from Gorai.",
+   "i": "Ofrece introducciones gratuitas a la meditación y guarda reliquias de Buda.",
+   "i_en": "It offers free meditation introductions and enshrines Buddha relics."
+  },
+  "w_bom_banganga": {
+   "id": "w_bom_banganga",
+   "d": "Este estanque rectangular del siglo XII, en el barrio de Walkeshwar, está rodeado de templos, ghats y viejas viviendas. Un remanso espiritual escondido en la exclusiva Malabar Hill.",
+   "d_en": "This 12th-century rectangular tank in Walkeshwar is ringed by temples, ghats and old dwellings. A hidden spiritual haven within exclusive Malabar Hill.",
+   "h": "Acceso libre todo el día; discreción en zonas de culto.",
+   "h_en": "Free access all day; be discreet around places of worship.",
+   "i": "La leyenda dice que Rama hizo brotar su agua clavando una flecha en la tierra.",
+   "i_en": "Legend says Rama made its water spring up by striking an arrow into the ground."
+  },
+  "w_bom_marine_drive": {
+   "id": "w_bom_marine_drive",
+   "d": "Bulevar de 3,6 km frente al mar Arábigo, bordeado de edificios art déco. De noche sus farolas dibujan un arco luminoso que le da el apodo de Collar de la Reina.",
+   "d_en": "A 3.6 km boulevard along the Arabian Sea lined with Art Deco buildings. At night its streetlights form a luminous arc, earning the nickname Queen's Necklace.",
+   "h": "Abierto todo el día; el atardecer es el momento estrella.",
+   "h_en": "Open all day; sunset is the highlight.",
+   "i": "Es el lugar favorito de los bombayenses para pasear y ver la puesta de sol.",
+   "i_en": "It is Mumbaikars' favourite spot to stroll and watch the sunset."
+  },
+  "w_bom_chowpatty": {
+   "id": "w_bom_chowpatty",
+   "d": "Girgaon Chowpatty es la playa más popular del centro: familias, globos, masajistas y sobre todo puestos de bhelpuri y pav bhaji al caer la tarde. Escenario del gran festival Ganesh Visarjan.",
+   "d_en": "Girgaon Chowpatty is the city centre's most popular beach: families, balloons, masseurs and above all bhelpuri and pav bhaji stalls at dusk. Stage of the great Ganesh Visarjan festival.",
+   "h": "Abierta todo el día; mejor ambiente al atardecer.",
+   "h_en": "Open all day; liveliest at sunset.",
+   "i": "No es playa de baño; su encanto es la comida callejera y el ambiente.",
+   "i_en": "It is not for swimming; its charm is the street food and atmosphere."
+  },
+  "w_bom_hanging_gardens": {
+   "id": "w_bom_hanging_gardens",
+   "d": "Los Pherozeshah Mehta Gardens, de 1881, se asientan sobre depósitos de agua en lo alto de Malabar Hill. Sus setos con formas de animales y sus miradores ofrecen vistas al mar.",
+   "d_en": "The Pherozeshah Mehta Gardens, laid out in 1881, sit atop water reservoirs on Malabar Hill. Their animal-shaped hedges and viewpoints offer sea views.",
+   "h": "A diario ~5:00-21:00; entrada gratuita.",
+   "h_en": "Daily ~5:00-21:00; free entry.",
+   "i": "Enfrente está el parque Kamala Nehru con la casita-zapato para niños.",
+   "i_en": "Across the road is Kamala Nehru Park with the shoe-shaped house for children."
+  },
+  "w_bom_juhu": {
+   "id": "w_bom_juhu",
+   "d": "La playa más famosa de Bombay se extiende 6 km por el barrio de Juhu, cuna de estrellas de Bollywood. Al atardecer se llena de familias, paseos en camello y puestos de chaat.",
+   "d_en": "Mumbai's most famous beach stretches 6 km along Juhu, home to Bollywood stars. At dusk it fills with families, camel rides and chaat stalls.",
+   "h": "Abierta todo el día; muy animada los fines de semana.",
+   "h_en": "Open all day; very lively at weekends.",
+   "i": "Prueba el pani puri y el pav bhaji, aunque elige puestos concurridos por higiene.",
+   "i_en": "Try the pani puri and pav bhaji, but pick busy stalls for hygiene."
+  },
+  "w_bom_sanjay_gandhi": {
+   "id": "w_bom_sanjay_gandhi",
+   "d": "Con más de 100 km², es uno de los parques nacionales más visitados del mundo y un pulmón verde con leopardos, ciervos, aves y un tren turístico entre bosque tropical.",
+   "d_en": "At over 100 km², it is one of the world's most visited national parks and a green lung with leopards, deer, birds and a toy train through tropical forest.",
+   "h": "Martes a domingo ~7:30-18:00; cerrado lunes. Entrada con tarifa.",
+   "h_en": "Tuesday to Sunday ~7:30-18:00; closed Mondays. Paid entry.",
+   "i": "Alberga las Cuevas de Kanheri; hay avistamientos ocasionales de leopardos.",
+   "i_en": "It contains the Kanheri Caves; leopard sightings occasionally happen."
+  },
+  "w_bom_kanheri": {
+   "id": "w_bom_kanheri",
+   "d": "Dentro del Parque Sanjay Gandhi, más de un centenar de cuevas budistas excavadas entre los siglos I y X sirvieron de monasterios, con salas de oración, estupas e inscripciones.",
+   "d_en": "Inside Sanjay Gandhi Park, over a hundred Buddhist caves carved between the 1st and 10th centuries served as monasteries, with prayer halls, stupas and inscriptions.",
+   "h": "A diario ~7:30-17:00; se accede desde la entrada del parque.",
+   "h_en": "Daily ~7:30-17:00; reached from the park entrance.",
+   "i": "La cueva 3 tiene una gran sala chaitya con enormes estatuas de Buda.",
+   "i_en": "Cave 3 has a large chaitya hall with huge Buddha statues."
+  },
+  "w_bom_colaba": {
+   "id": "w_bom_colaba",
+   "d": "Corazón turístico del sur de Bombay, esta calzada está flanqueada de tiendas de ropa, bisutería y libros, cafés históricos y vendedores ambulantes. Ideal para comprar recuerdos y regatear.",
+   "d_en": "The tourist heart of south Mumbai, this causeway is lined with clothing, jewellery and book shops, historic cafes and hawkers. Ideal for souvenirs and haggling.",
+   "h": "Tiendas ~10:00-22:00; ambiente hasta bien entrada la noche.",
+   "h_en": "Shops ~10:00-22:00; buzzing until late.",
+   "i": "Cerca están el Leopold Cafe y el Cafe Mondegar, iconos del barrio.",
+   "i_en": "Nearby are Leopold Cafe and Cafe Mondegar, neighbourhood icons."
+  },
+  "w_bom_dharavi": {
+   "id": "w_bom_dharavi",
+   "d": "Más que un suburbio pobre, Dharavi es un hervidero productivo con talleres de cuero, reciclaje, cerámica y textil que mueven millones. Los tours éticos muestran su increíble economía comunitaria.",
+   "d_en": "More than a slum, Dharavi is a productive hive of leather, recycling, pottery and textile workshops turning over millions. Ethical tours reveal its remarkable community economy.",
+   "h": "Visita solo con tours guiados responsables, en horario diurno.",
+   "h_en": "Visit only with responsible guided tours, in daylight.",
+   "i": "Fue escenario de la película Slumdog Millionaire; evita las visitas sin guía.",
+   "i_en": "It featured in Slumdog Millionaire; avoid visiting without a guide."
+  },
+  "w_bom_bandra_worli": {
+   "id": "w_bom_bandra_worli",
+   "d": "Inaugurado en 2009, este puente atirantado de 5,6 km cruza la bahía de Mahim y es un símbolo del Bombay moderno. Sus torres y cables iluminados lucen espectaculares de noche.",
+   "d_en": "Opened in 2009, this 5.6 km cable-stayed bridge crosses Mahim Bay and symbolises modern Mumbai. Its lit towers and cables look spectacular at night.",
+   "h": "Circula en coche o taxi de peaje; no se puede cruzar a pie.",
+   "h_en": "Cross by car or toll taxi; no pedestrian access.",
+   "i": "Se ve muy bien desde Bandra Bandstand y desde Worli Sea Face.",
+   "i_en": "It is best viewed from Bandra Bandstand and Worli Sea Face."
+  },
+  "w_bom_dhobi_ghat": {
+   "id": "w_bom_dhobi_ghat",
+   "d": "En Mahalaxmi, cientos de lavanderos (dhobis) frotan ropa a mano en filas de pilas de piedra desde hace más de un siglo, tendiendo miles de prendas de hoteles y hospitales de toda la ciudad.",
+   "d_en": "In Mahalaxmi, hundreds of washermen (dhobis) have scrubbed clothes by hand in rows of stone pens for over a century, drying thousands of garments from hotels and hospitals across the city.",
+   "h": "Mejor vista panorámica desde el puente de la estación de Mahalaxmi.",
+   "h_en": "Best panoramic view from the Mahalaxmi station bridge.",
+   "i": "Cada prenda lleva una marca secreta para no perderse en el proceso.",
+   "i_en": "Each garment carries a secret mark so it is not lost in the process."
+  },
+  "w_bom_kala_ghoda": {
+   "id": "w_bom_kala_ghoda",
+   "d": "Este barrio bohemio entre Colaba y Fort concentra galerías, museos, boutiques de diseño y cafés en edificios coloniales. Cada febrero acoge un multitudinario festival de arte callejero.",
+   "d_en": "This bohemian quarter between Colaba and Fort gathers galleries, museums, design boutiques and cafes in colonial buildings. Each February it hosts a huge street art festival.",
+   "h": "Galerías ~11:00-19:00; festival en febrero.",
+   "h_en": "Galleries ~11:00-19:00; festival in February.",
+   "i": "Su nombre significa Caballo Negro, por una antigua estatua ecuestre.",
+   "i_en": "Its name means Black Horse, after an old equestrian statue."
+  },
+  "w_bom_bandstand": {
+   "id": "w_bom_bandstand",
+   "d": "Este paseo rocoso en Bandra Oeste es un lugar de moda para pasear al atardecer, con vistas al Bandra-Worli Sea Link y a las mansiones de las estrellas de Bollywood cercanas.",
+   "d_en": "This rocky promenade in Bandra West is a fashionable spot for sunset walks, with views of the Bandra-Worli Sea Link and nearby Bollywood star mansions.",
+   "h": "Abierto todo el día; muy animado por la tarde.",
+   "h_en": "Open all day; very lively in the evening.",
+   "i": "Frente a la casa de Shah Rukh Khan se agolpan los fans para hacerse fotos.",
+   "i_en": "Fans gather outside Shah Rukh Khan's house for photos."
+  },
+  "w_bom_leopold": {
+   "id": "w_bom_leopold",
+   "d": "Abierto en 1871, este bullicioso café es punto de encuentro de viajeros de todo el mundo. Sirve cocina india, china y continental, cerveza fría y un ambiente animado a todas horas.",
+   "d_en": "Open since 1871, this bustling cafe is a meeting point for travellers from around the world. It serves Indian, Chinese and continental food, cold beer and a lively atmosphere.",
+   "h": "A diario ~8:00-24:00; suele haber cola en temporada alta.",
+   "h_en": "Daily ~8:00-24:00; queues in high season.",
+   "i": "Conserva impactos de bala de los atentados de 2008 como memoria.",
+   "i_en": "It preserves bullet marks from the 2008 attacks as a memorial."
+  },
+  "w_bom_britannia": {
+   "id": "w_bom_britannia",
+   "d": "Fundado en 1923 en Ballard Estate, este café parsi de aire retro es célebre por su berry pulao con arroz y bayas iraníes y por el dhansak. Una institución de la cocina parsi de Bombay.",
+   "d_en": "Founded in 1923 in Ballard Estate, this retro Parsi cafe is famous for its berry pulao with rice and Iranian berries and for dhansak. An institution of Mumbai's Parsi cuisine.",
+   "h": "Lunes a sábado, solo comidas ~12:00-16:00; cerrado domingos.",
+   "h_en": "Monday to Saturday, lunch only ~12:00-16:00; closed Sundays.",
+   "i": "Sus paredes lucen retratos de la realeza británica y de la familia fundadora.",
+   "i_en": "Its walls display portraits of British royalty and the founding family."
+  },
+  "w_bom_bademiya": {
+   "id": "w_bom_bademiya",
+   "d": "Desde 1946, este tenderete callejero tras el Taj es famoso por sus brochetas de pollo seekh, rolls de kebab y pan tandoori recién hecho. Parada obligada tras una noche por Colaba.",
+   "d_en": "Since 1946, this street stall behind the Taj is famous for its seekh chicken skewers, kebab rolls and fresh tandoori bread. A must after a night out in Colaba.",
+   "h": "A diario, sobre todo de noche ~18:00-2:00.",
+   "h_en": "Daily, mostly at night ~18:00-2:00.",
+   "i": "Empezó como un puesto ambulante y hoy tiene también local con mesas.",
+   "i_en": "It began as a roadside cart and now also has a sit-down outlet."
+  },
+  "w_bom_trishna": {
+   "id": "w_bom_trishna",
+   "d": "Referencia de la cocina de mar del suroeste de India, Trishna es célebre por su cangrejo con mantequilla, ajo y pimienta y sus gambas al estilo koliwada. Elegante pero acogedor.",
+   "d_en": "A benchmark of southwest Indian seafood, Trishna is famed for its butter-garlic-pepper crab and koliwada-style prawns. Elegant yet cosy.",
+   "h": "A diario, comida y cena; conviene reservar.",
+   "h_en": "Daily, lunch and dinner; booking recommended.",
+   "i": "Su cangrejo con mantequilla y pimienta es uno de los platos más famosos de la ciudad.",
+   "i_en": "Its butter-pepper crab is one of the city's most famous dishes."
+  },
+  "w_bom_mondegar": {
+   "id": "w_bom_mondegar",
+   "d": "Abierto en 1932, Mondy's es un querido café iraní decorado con divertidos murales del caricaturista Mario Miranda. Comida sencilla, cerveza de barril y una gramola siempre sonando.",
+   "d_en": "Open since 1932, Mondy's is a beloved Irani cafe decorated with playful murals by cartoonist Mario Miranda. Simple food, draught beer and a jukebox always playing.",
+   "h": "A diario ~9:00-24:00; ambiente joven por la noche.",
+   "h_en": "Daily ~9:00-24:00; young crowd at night.",
+   "i": "Tiene una de las pocas gramolas que aún funcionan en Bombay.",
+   "i_en": "It has one of the few working jukeboxes left in Mumbai."
+  },
+  "w_bom_elco": {
+   "id": "w_bom_elco",
+   "d": "En Hill Road, Bandra, Elco es famoso por su pani puri, sev puri, ragda pattice y otros chaats servidos en condiciones más higiénicas que en la calle. Un imprescindible de la comida callejera.",
+   "d_en": "On Hill Road, Bandra, Elco is famous for pani puri, sev puri, ragda pattice and other chaats served more hygienically than on the street. A street-food must.",
+   "h": "A diario ~11:00-23:30; hay puesto callejero y restaurante.",
+   "h_en": "Daily ~11:00-23:30; both street stall and restaurant.",
+   "i": "Su pani puri es de los más recomendados de la ciudad para probar sin miedo.",
+   "i_en": "Its pani puri is among the city's most recommended to try safely."
+  }
+ },
+ "food": {
+  "w_bom_leopold": {
+   "cuisine": "India, continental y china",
+   "price": "8–20 €",
+   "hours": "A diario ~8:00-24:00"
+  },
+  "w_bom_britannia": {
+   "cuisine": "Parsi iraní",
+   "price": "8–18 €",
+   "hours": "Lunes a sábado ~12:00-16:00"
+  },
+  "w_bom_bademiya": {
+   "cuisine": "Kebabs y comida callejera mogol",
+   "price": "3–10 €",
+   "hours": "A diario ~18:00-2:00"
+  },
+  "w_bom_trishna": {
+   "cuisine": "Marisco costero del sur de India",
+   "price": "20–45 €",
+   "hours": "A diario ~12:00-15:30 y 18:00-23:30"
+  },
+  "w_bom_mondegar": {
+   "cuisine": "Café iraní, continental",
+   "price": "8–18 €",
+   "hours": "A diario ~9:00-24:00"
+  },
+  "w_bom_elco": {
+   "cuisine": "Chaat y street food del norte de India",
+   "price": "3–10 €",
+   "hours": "A diario ~11:00-23:30"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Bombay",
+   "items": [
+    {
+     "name": "Pañuelos y saris de algodón",
+     "price": "8–40 €",
+     "desc": "Tejidos de algodón y seda con estampados block-print, típicos de los mercados del sur de Bombay."
+    },
+    {
+     "name": "Especias y chai masala",
+     "price": "3–12 €",
+     "desc": "Mezclas de masala, cúrcuma y té chai a granel del Mercado Crawford."
+    },
+    {
+     "name": "Bisutería y brazaletes",
+     "price": "2–15 €",
+     "desc": "Pulseras de vidrio, plata de Rajastán y bisutería colorida de Colaba Causeway."
+    },
+    {
+     "name": "Miniaturas y artesanía",
+     "price": "5–30 €",
+     "desc": "Tallas de madera, figuras de Ganesha en latón y cajas laqueadas."
+    },
+    {
+     "name": "Bollywood kitsch",
+     "price": "3–20 €",
+     "desc": "Pósters de cine pintados a mano, camisetas y recuerdos de la industria del cine."
+    }
+   ],
+   "shops": [
+    "Colaba Causeway",
+    "Mercado Crawford",
+    "Chor Bazaar",
+    "Linking Road (Bandra)",
+    "Kala Ghoda"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "La mejor época es de noviembre a febrero, con clima seco y suave; evita el monzón (junio-septiembre), muy lluvioso.",
+   "Usa taxis prepago con taxímetro, la app Uber/Ola o los trenes locales; evita los trenes en hora punta si no estás acostumbrado.",
+   "Regatea siempre en mercados y con vendedores callejeros; pide precio antes de comprar o subir a un taxi sin taxímetro.",
+   "Cúbrete hombros y rodillas para entrar en templos y en el Haji Ali; descálzate y respeta las colas de peregrinos.",
+   "Para las Cuevas de Elefanta toma el ferry desde la Puerta de la India por la mañana; cierran los lunes."
+  ],
+  "en": [
+   "Best time to visit is November to February, dry and mild; avoid the monsoon (June-September) with heavy rain.",
+   "Use prepaid metered taxis, the Uber/Ola app or local trains; avoid rush-hour trains if you are not used to them.",
+   "Always haggle at markets and with street vendors; agree a price before buying or entering an unmetered taxi.",
+   "Cover shoulders and knees to enter temples and Haji Ali; remove shoes and respect the pilgrim queues.",
+   "For Elephanta Caves take the morning ferry from the Gateway of India; the caves close on Mondays."
+  ]
+ },
+ "climate": {
+  "hi": [
+   31,
+   32,
+   33,
+   33,
+   33,
+   32,
+   30,
+   29,
+   30,
+   33,
+   34,
+   32
+  ],
+  "lo": [
+   17,
+   18,
+   22,
+   25,
+   27,
+   26,
+   25,
+   25,
+   24,
+   23,
+   21,
+   19
+  ]
+ },
+ "tr": {
+  "Arco monumental de basalto de 1924 frente al mar Arábigo.": "Monumental basalt arch of 1924 facing the Arabian Sea.",
+  "Lujoso hotel histórico de 1903 junto a la Puerta de la India.": "Luxurious historic hotel of 1903 next to the Gateway of India.",
+  "Templos rupestres hindúes en una isla, Patrimonio de la Humanidad.": "Hindu rock-cut cave temples on an island, a World Heritage Site.",
+  "Terminal ferroviaria neogótica victoriana, Patrimonio de la Humanidad.": "Victorian Gothic Revival railway terminus, a World Heritage Site.",
+  "Popular templo hindú dedicado a Ganesha con cúpula dorada.": "Popular Hindu temple dedicated to Ganesha with a golden dome.",
+  "Mezquita y mausoleo blanco sobre un islote en el mar.": "White mosque and mausoleum on an islet in the sea.",
+  "Bullicioso mercado colonial de frutas, especias y de todo.": "Bustling colonial market of fruit, spices and everything.",
+  "Principal museo de arte e historia, antiguo Prince of Wales.": "The main art and history museum, the former Prince of Wales.",
+  "Torre victoriana de reloj de 85 m junto a la Universidad.": "85 m Victorian clock tower beside the University.",
+  "Casa-museo de Gandhi en sus estancias de Bombay.": "Gandhi's house-museum during his Mumbai stays.",
+  "Enorme pagoda dorada de meditación junto a Gorai.": "Huge golden meditation pagoda near Gorai.",
+  "Antiguo estanque sagrado rodeado de templos en Walkeshwar.": "Ancient sacred tank surrounded by temples in Walkeshwar.",
+  "Paseo marítimo en curva conocido como el Collar de la Reina.": "Curving seafront promenade known as the Queen's Necklace.",
+  "Playa urbana de puestos de comida al final de Marine Drive.": "Urban beach of food stalls at the end of Marine Drive.",
+  "Jardines aterrazados en Malabar Hill con setos podados.": "Terraced gardens on Malabar Hill with topiary hedges.",
+  "Amplia playa de arena en los suburbios del norte.": "Wide sandy beach in the northern suburbs.",
+  "Gran parque nacional selvático dentro de la ciudad.": "Large forested national park within the city.",
+  "Conjunto de cuevas budistas talladas en la roca en la selva.": "Complex of Buddhist rock-cut caves in the forest.",
+  "Animada avenida de tiendas, cafés y puestos callejeros.": "Lively avenue of shops, cafes and street stalls.",
+  "Uno de los mayores barrios informales de Asia, muy emprendedor.": "One of Asia's largest informal settlements, highly enterprising.",
+  "Puente atirantado sobre el mar que une Bandra y Worli.": "Cable-stayed bridge over the sea linking Bandra and Worli.",
+  "La mayor lavandería al aire libre del mundo.": "The world's largest open-air laundry.",
+  "Distrito artístico y cultural con galerías y arquitectura colonial.": "Arts and culture district with galleries and colonial architecture.",
+  "Paseo marítimo de moda con vistas al Sea Link.": "Trendy seafront promenade with views of the Sea Link.",
+  "Café-restaurante histórico de 1871, icono de Colaba.": "Historic cafe-restaurant of 1871, a Colaba icon.",
+  "Legendario café parsi famoso por su berry pulao.": "Legendary Parsi cafe famous for its berry pulao.",
+  "Mítico puesto nocturno de kebabs y rolls en Colaba.": "Iconic late-night kebab and roll stall in Colaba.",
+  "Restaurante de marisco costero premiado en Kala Ghoda.": "Award-winning coastal seafood restaurant in Kala Ghoda.",
+  "Café-bar retro de Colaba con murales de Mario Miranda.": "Retro Colaba cafe-bar with Mario Miranda murals.",
+  "Templo del chaat y street food en Bandra.": "Temple of chaat and street food in Bandra.",
+  "Bombay": "Bombay"
+ }
+}

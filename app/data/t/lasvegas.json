@@ -1,0 +1,641 @@
+{
+ "id": "lasvegas",
+ "name": "Las Vegas",
+ "country": "WORLD",
+ "center": [
+  36.1147,
+  -115.1728
+ ],
+ "pois": [
+  {
+   "id": "w_lv_strip",
+   "cat": "monuments",
+   "name": "The Strip",
+   "icon": "🎰",
+   "lat": 36.1147,
+   "lng": -115.1728,
+   "desc": "Avenida icónica con casinos, hoteles temáticos y neones."
+  },
+  {
+   "id": "w_lv_welcome_sign",
+   "cat": "monuments",
+   "name": "Letrero Welcome to Las Vegas",
+   "icon": "🪧",
+   "lat": 36.08192,
+   "lng": -115.17307,
+   "desc": "El famoso cartel de bienvenida de 1959, símbolo de la ciudad."
+  },
+  {
+   "id": "w_lv_eiffel",
+   "cat": "monuments",
+   "name": "Torre Eiffel de París Las Vegas",
+   "icon": "🗼",
+   "lat": 36.11248,
+   "lng": -115.17045,
+   "desc": "Réplica a mitad de escala de la Torre Eiffel con mirador."
+  },
+  {
+   "id": "w_lv_caesars",
+   "cat": "monuments",
+   "name": "Caesars Palace",
+   "icon": "🏛️",
+   "lat": 36.11778,
+   "lng": -115.175,
+   "desc": "Resort-casino de temática romana con el Forum Shops."
+  },
+  {
+   "id": "w_lv_venetian",
+   "cat": "monuments",
+   "name": "The Venetian y góndolas",
+   "icon": "🚣",
+   "lat": 36.12111,
+   "lng": -115.16963,
+   "desc": "Resort veneciano con canales y paseos en góndola."
+  },
+  {
+   "id": "w_lv_fremont",
+   "cat": "monuments",
+   "name": "Fremont Street Experience",
+   "icon": "💡",
+   "lat": 36.17075,
+   "lng": -115.1432,
+   "desc": "Calle peatonal cubierta por una gran pantalla LED."
+  },
+  {
+   "id": "w_lv_luxor",
+   "cat": "monuments",
+   "name": "Pirámide Luxor",
+   "icon": "🔺",
+   "lat": 36.09553,
+   "lng": -115.17625,
+   "desc": "Hotel piramidal con esfinge y potente haz de luz."
+  },
+  {
+   "id": "w_lv_sphere",
+   "cat": "ocio",
+   "name": "Sphere",
+   "icon": "🔮",
+   "lat": 36.11722,
+   "lng": -115.16147,
+   "desc": "Sala esférica con la mayor pantalla LED envolvente del mundo."
+  },
+  {
+   "id": "w_lv_high_roller",
+   "cat": "ocio",
+   "name": "High Roller (The LINQ)",
+   "icon": "🎡",
+   "lat": 36.1175,
+   "lng": -115.1678,
+   "desc": "Noria gigante de 167 m sobre el paseo del LINQ."
+  },
+  {
+   "id": "w_lv_bellagio_fountains",
+   "cat": "ocio",
+   "name": "Fuentes del Bellagio",
+   "icon": "⛲",
+   "lat": 36.11284,
+   "lng": -115.17434,
+   "desc": "Espectáculo de aguas danzantes con música y luces."
+  },
+  {
+   "id": "w_lv_area15",
+   "cat": "ocio",
+   "name": "AREA15",
+   "icon": "🌀",
+   "lat": 36.13218,
+   "lng": -115.18078,
+   "desc": "Complejo inmersivo de arte, realidad virtual y ocio."
+  },
+  {
+   "id": "w_lv_bellagio_conservatory",
+   "cat": "ocio",
+   "name": "Jardín botánico del Bellagio",
+   "icon": "🌺",
+   "lat": 36.11289,
+   "lng": -115.17671,
+   "desc": "Invernadero temático con instalaciones florales estacionales."
+  },
+  {
+   "id": "w_lv_mob_museum",
+   "cat": "ocio",
+   "name": "The Mob Museum",
+   "icon": "🕵️",
+   "lat": 36.17287,
+   "lng": -115.14026,
+   "desc": "Museo del crimen organizado y las fuerzas del orden."
+  },
+  {
+   "id": "w_lv_neon_museum",
+   "cat": "ocio",
+   "name": "The Neon Museum",
+   "icon": "🪧",
+   "lat": 36.17651,
+   "lng": -115.13528,
+   "desc": "Cementerio de neones históricos de los casinos de Vegas."
+  },
+  {
+   "id": "w_lv_strat",
+   "cat": "ocio",
+   "name": "The STRAT Tower",
+   "icon": "🗼",
+   "lat": 36.14743,
+   "lng": -115.15578,
+   "desc": "Torre de 350 m con mirador y atracciones extremas."
+  },
+  {
+   "id": "w_lv_seven_magic",
+   "cat": "ocio",
+   "name": "Seven Magic Mountains",
+   "icon": "🎨",
+   "lat": 35.84185,
+   "lng": -115.27519,
+   "desc": "Instalación de arte de torres de rocas de colores."
+  },
+  {
+   "id": "w_lv_madame_tussauds",
+   "cat": "ocio",
+   "name": "Madame Tussauds Las Vegas",
+   "icon": "🕺",
+   "lat": 36.12139,
+   "lng": -115.16889,
+   "desc": "Museo de cera con celebridades y experiencias interactivas."
+  },
+  {
+   "id": "w_lv_red_rock",
+   "cat": "nature",
+   "name": "Red Rock Canyon",
+   "icon": "🏜️",
+   "lat": 36.13488,
+   "lng": -115.42736,
+   "desc": "Cañón de roca roja con ruta escénica y senderismo."
+  },
+  {
+   "id": "w_lv_hoover_dam",
+   "cat": "nature",
+   "name": "Presa Hoover",
+   "icon": "🌊",
+   "lat": 36.01598,
+   "lng": -114.73772,
+   "desc": "Colosal presa de los años 30 sobre el río Colorado."
+  },
+  {
+   "id": "w_lv_grand_canyon",
+   "cat": "nature",
+   "name": "Gran Cañón (West Rim)",
+   "icon": "🏞️",
+   "lat": 36.0156,
+   "lng": -113.81038,
+   "desc": "Excursión al borde oeste con el mirador Skywalk."
+  },
+  {
+   "id": "w_lv_valley_of_fire",
+   "cat": "nature",
+   "name": "Valley of Fire",
+   "icon": "🔥",
+   "lat": 36.42917,
+   "lng": -114.51528,
+   "desc": "Parque estatal de arenisca roja y petroglifos."
+  },
+  {
+   "id": "w_lv_lake_mead",
+   "cat": "nature",
+   "name": "Lake Mead",
+   "icon": "🚤",
+   "lat": 36.135,
+   "lng": -114.4468,
+   "desc": "Gran embalse para navegar, nadar y hacer rutas."
+  },
+  {
+   "id": "w_lv_gordon_ramsay",
+   "cat": "food",
+   "name": "Gordon Ramsay Hell's Kitchen",
+   "icon": "🍽️",
+   "lat": 36.1164,
+   "lng": -115.1739,
+   "desc": "Restaurante del chef Gordon Ramsay inspirado en su show."
+  },
+  {
+   "id": "w_lv_bacchanal_buffet",
+   "cat": "food",
+   "name": "Bacchanal Buffet",
+   "icon": "🍤",
+   "lat": 36.1175,
+   "lng": -115.1754,
+   "desc": "Uno de los bufés más aclamados del Strip."
+  },
+  {
+   "id": "w_lv_in_n_out",
+   "cat": "food",
+   "name": "In-N-Out Burger",
+   "icon": "🍔",
+   "lat": 36.1092,
+   "lng": -115.1697,
+   "desc": "Icónica hamburguesería californiana de comida rápida."
+  },
+  {
+   "id": "w_lv_carbone",
+   "cat": "food",
+   "name": "Carbone (Aria)",
+   "icon": "🍝",
+   "lat": 36.1068,
+   "lng": -115.1764,
+   "desc": "Ítalo-americano elegante de ambiente retro."
+  },
+  {
+   "id": "w_lv_secret_pizza",
+   "cat": "food",
+   "name": "Secret Pizza (Cosmopolitan)",
+   "icon": "🍕",
+   "lat": 36.1097,
+   "lng": -115.1737,
+   "desc": "Pizzería escondida al estilo Nueva York."
+  }
+ ],
+ "extra": {
+  "w_lv_strip": {
+   "id": "w_lv_strip",
+   "d": "El Las Vegas Boulevard South, conocido como The Strip, concentra los grandes resorts-casino, espectáculos y atracciones. Unos 6,8 km de luces, réplicas de monumentos mundiales y ambiente 24 horas.",
+   "d_en": "Las Vegas Boulevard South, known as The Strip, packs the biggest resort-casinos, shows and attractions along 6.8 km of lights, replicas of world landmarks and round-the-clock buzz.",
+   "h": "Abierto 24 horas.",
+   "h_en": "Open 24 hours.",
+   "i": "Recórrelo a pie de noche para ver las fachadas iluminadas.",
+   "i_en": "Walk it at night to see the illuminated facades."
+  },
+  "w_lv_welcome_sign": {
+   "id": "w_lv_welcome_sign",
+   "d": "Diseñado por Betty Willis en 1959, el 'Welcome to Fabulous Las Vegas' es uno de los letreros más fotografiados del mundo. Se ubica en la mediana sur del Strip, con aparcamiento propio.",
+   "d_en": "Designed by Betty Willis in 1959, the 'Welcome to Fabulous Las Vegas' sign is one of the most photographed signs in the world. It sits on the southern median of the Strip with its own parking lot.",
+   "h": "Acceso libre 24 horas.",
+   "h_en": "Free access 24 hours.",
+   "i": "Ve temprano para evitar colas en la foto.",
+   "i_en": "Go early to avoid photo queues."
+  },
+  "w_lv_eiffel": {
+   "id": "w_lv_eiffel",
+   "d": "Réplica de 165 m de la Torre Eiffel en el hotel Paris Las Vegas. Su mirador ofrece una de las mejores vistas del Strip y de las fuentes del Bellagio, especialmente al atardecer.",
+   "d_en": "A 165 m replica of the Eiffel Tower at the Paris Las Vegas hotel. Its observation deck offers one of the best views of the Strip and the Bellagio fountains, especially at sunset.",
+   "h": "Mirador aprox. 12:00–00:00.",
+   "h_en": "Deck approx. 12:00–00:00.",
+   "i": "Sube al atardecer para ver el show de fuentes desde arriba.",
+   "i_en": "Go up at dusk to watch the fountain show from above."
+  },
+  "w_lv_caesars": {
+   "id": "w_lv_caesars",
+   "d": "Abierto en 1966, Caesars Palace es un clásico del Strip con arquitectura de la Roma imperial, fuentes, estatuas y el lujoso centro comercial The Forum Shops. Sede de grandes conciertos y combates.",
+   "d_en": "Opened in 1966, Caesars Palace is a Strip classic with imperial Roman architecture, fountains, statues and the upscale Forum Shops mall. It hosts major concerts and boxing bouts.",
+   "h": "Casino y tiendas 24 horas.",
+   "h_en": "Casino and shops 24 hours.",
+   "i": "No te pierdas la fuente animada del Forum Shops.",
+   "i_en": "Don't miss the animated fountain inside the Forum Shops."
+  },
+  "w_lv_venetian": {
+   "id": "w_lv_venetian",
+   "d": "Recreación de Venecia con el Gran Canal, réplicas del Campanile y el Puente de Rialto, y frescos en los techos. Los gondoleros cantan mientras reman por canales interiores y exteriores.",
+   "d_en": "A recreation of Venice with the Grand Canal, replicas of the Campanile and Rialto Bridge, and painted ceilings. Gondoliers sing while rowing along indoor and outdoor canals.",
+   "h": "Góndolas aprox. 10:00–23:00.",
+   "h_en": "Gondolas approx. 10:00–23:00.",
+   "i": "Reserva la góndola con antelación en temporada alta.",
+   "i_en": "Book the gondola ahead in high season."
+  },
+  "w_lv_fremont": {
+   "id": "w_lv_fremont",
+   "d": "El corazón del centro histórico: cinco manzanas peatonales bajo la Viva Vision, una bóveda LED de 460 m. Casinos clásicos, tirolina SlotZilla, música en vivo y ambiente retro de la vieja Las Vegas.",
+   "d_en": "The heart of the historic downtown: five pedestrian blocks under Viva Vision, a 460 m LED canopy. Classic casinos, the SlotZilla zip line, live music and the retro vibe of old Las Vegas.",
+   "h": "Calle 24 h; shows LED cada hora al anochecer.",
+   "h_en": "Street 24 h; LED shows hourly after dark.",
+   "i": "Quédate al anochecer para los espectáculos de la bóveda.",
+   "i_en": "Stay after dark for the canopy light shows."
+  },
+  "w_lv_luxor": {
+   "id": "w_lv_luxor",
+   "d": "Resort en forma de pirámide de cristal negro con una gran esfinge en la entrada. De su vértice sale el haz de luz más potente del mundo, visible a kilómetros. Alberga exposiciones y espectáculos.",
+   "d_en": "A black-glass pyramid resort with a large sphinx at the entrance. From its apex shines the world's most powerful light beam, visible for miles. It hosts exhibitions and shows.",
+   "h": "Casino 24 horas.",
+   "h_en": "Casino 24 hours.",
+   "i": "Mira el haz de luz desde el avión al aterrizar de noche.",
+   "i_en": "Spot the light beam from the plane on a night landing."
+  },
+  "w_lv_sphere": {
+   "id": "w_lv_sphere",
+   "d": "Inaugurado en 2023, el Sphere es un auditorio esférico de 112 m cuya fachada exterior (Exosphere) es una pantalla LED gigante. Dentro ofrece experiencias inmersivas y conciertos con sonido y visuales envolventes.",
+   "d_en": "Opened in 2023, the Sphere is a 112 m spherical venue whose exterior (the Exosphere) is a giant LED display. Inside it offers immersive experiences and concerts with wraparound sound and visuals.",
+   "h": "Según programación de eventos.",
+   "h_en": "Varies with event schedule.",
+   "i": "Aunque no entres, mira la fachada LED desde fuera de noche.",
+   "i_en": "Even without a ticket, view the LED facade from outside at night."
+  },
+  "w_lv_high_roller": {
+   "id": "w_lv_high_roller",
+   "d": "La noria High Roller, de 167 m, es una de las más altas del mundo. Sus cápsulas panorámicas dan una vuelta de 30 minutos con vistas al Strip. Está en el LINQ Promenade, lleno de tiendas y bares.",
+   "d_en": "The 167 m High Roller is one of the tallest observation wheels in the world. Its panoramic cabins complete a 30-minute rotation with Strip views. It stands on the LINQ Promenade, full of shops and bars.",
+   "h": "Aprox. 14:00–00:00.",
+   "h_en": "Approx. 14:00–00:00.",
+   "i": "Elige una cápsula al atardecer para el mejor color de cielo.",
+   "i_en": "Pick a sunset cabin for the best sky colors."
+  },
+  "w_lv_bellagio_fountains": {
+   "id": "w_lv_bellagio_fountains",
+   "d": "Sobre un lago de 3,2 hectáreas frente al hotel Bellagio, cientos de surtidores bailan sincronizados con música y luces. Uno de los espectáculos gratuitos más famosos del mundo.",
+   "d_en": "On a 3.2-hectare lake in front of the Bellagio hotel, hundreds of jets dance in sync with music and lights. One of the most famous free shows in the world.",
+   "h": "Cada 30/15 min desde la tarde hasta medianoche.",
+   "h_en": "Every 30/15 min from afternoon until midnight.",
+   "i": "Míralas desde el puente peatonal frente al Bellagio.",
+   "i_en": "Watch from the pedestrian bridge opposite the Bellagio."
+  },
+  "w_lv_area15": {
+   "id": "w_lv_area15",
+   "d": "Espacio experiencial fuera del Strip que combina instalaciones de arte inmersivo (Meow Wolf 'Omega Mart'), realidad virtual, tirolinas interiores, bares y eventos. Ambiente psicodélico y futurista.",
+   "d_en": "An experiential venue off the Strip combining immersive art installations (Meow Wolf's 'Omega Mart'), virtual reality, indoor zip lines, bars and events. A psychedelic, futuristic atmosphere.",
+   "h": "Aprox. 10:00–00:00 según atracción.",
+   "h_en": "Approx. 10:00–00:00 depending on attraction.",
+   "i": "Reserva 'Omega Mart' online, suele agotarse.",
+   "i_en": "Book 'Omega Mart' online; it often sells out."
+  },
+  "w_lv_bellagio_conservatory": {
+   "id": "w_lv_bellagio_conservatory",
+   "d": "El Conservatory & Botanical Gardens del Bellagio cambia de decoración cinco veces al año con miles de flores, esculturas y estructuras espectaculares según la estación. Entrada gratuita.",
+   "d_en": "The Bellagio Conservatory & Botanical Gardens is redecorated five times a year with thousands of flowers, sculptures and spectacular structures by season. Free admission.",
+   "h": "Abierto 24 horas.",
+   "h_en": "Open 24 hours.",
+   "i": "Visítalo temprano para evitar las multitudes.",
+   "i_en": "Visit early to beat the crowds."
+  },
+  "w_lv_mob_museum": {
+   "id": "w_lv_mob_museum",
+   "d": "Ubicado en un antiguo juzgado federal, narra la historia de la mafia en EE.UU. y su lucha con la ley. Objetos reales, un speakeasy y exposiciones interactivas hacen de él una visita muy popular.",
+   "d_en": "Housed in a former federal courthouse, it tells the story of the mafia in the U.S. and the fight against it. Real artifacts, a speakeasy and interactive exhibits make it a very popular visit.",
+   "h": "Aprox. 09:00–21:00.",
+   "h_en": "Approx. 09:00–21:00.",
+   "i": "Baja al speakeasy del sótano para probar un cóctel de época.",
+   "i_en": "Head to the basement speakeasy for a period cocktail."
+  },
+  "w_lv_neon_museum": {
+   "id": "w_lv_neon_museum",
+   "d": "Museo al aire libre que preserva los letreros de neón originales de hoteles y casinos desaparecidos. El 'Neon Boneyard' es espectacular de noche, cuando algunos rótulos vuelven a encenderse.",
+   "d_en": "An open-air museum preserving original neon signs from vanished hotels and casinos. The 'Neon Boneyard' is spectacular at night, when some signs are relit.",
+   "h": "Aprox. 15:00–00:00.",
+   "h_en": "Approx. 15:00–00:00.",
+   "i": "Reserva la visita nocturna para ver los neones encendidos.",
+   "i_en": "Book the night visit to see the neon signs lit."
+  },
+  "w_lv_strat": {
+   "id": "w_lv_strat",
+   "d": "La torre más alta de EE.UU. al oeste del Misisipi (350 m). Ofrece miradores interiores y exteriores y atracciones extremas en la cima, como el SkyJump y aparatos que cuelgan al vacío.",
+   "d_en": "The tallest freestanding observation tower in the U.S. (350 m). It has indoor and outdoor decks plus extreme thrill rides at the top, including SkyJump and rides that dangle over the edge.",
+   "h": "Aprox. 10:00–01:00.",
+   "h_en": "Approx. 10:00–01:00.",
+   "i": "Sube al anochecer para ver el Strip iluminarse.",
+   "i_en": "Go up at dusk to watch the Strip light up."
+  },
+  "w_lv_seven_magic": {
+   "id": "w_lv_seven_magic",
+   "d": "Obra del artista Ugo Rondinone: siete torres de rocas de más de 9 m pintadas de colores fluorescentes en pleno desierto, a unos 30 min al sur del Strip. Contraste vibrante con el paisaje árido.",
+   "d_en": "By artist Ugo Rondinone: seven towers of boulders over 9 m tall painted in fluorescent colors in the desert, about 30 min south of the Strip. A vivid contrast with the arid landscape.",
+   "h": "Acceso libre en horas de luz.",
+   "h_en": "Free access during daylight.",
+   "i": "Ve al amanecer o atardecer para mejor luz y menos calor.",
+   "i_en": "Go at sunrise or sunset for better light and less heat."
+  },
+  "w_lv_madame_tussauds": {
+   "id": "w_lv_madame_tussauds",
+   "d": "Situado junto al Venetian, reúne figuras de cera hiperrealistas de estrellas de cine, música y deporte, con montajes interactivos y temáticas de Las Vegas. Diversión para fotos con los 'famosos'.",
+   "d_en": "Next to the Venetian, it gathers hyper-realistic wax figures of film, music and sports stars, with interactive sets and Vegas themes. Fun for photos with the 'celebrities'.",
+   "h": "Aprox. 10:00–20:00.",
+   "h_en": "Approx. 10:00–20:00.",
+   "i": "Compra la entrada online para ahorrar sobre la taquilla.",
+   "i_en": "Buy tickets online to save over the box office."
+  },
+  "w_lv_red_rock": {
+   "id": "w_lv_red_rock",
+   "d": "Área de conservación a 30 min del Strip con espectaculares formaciones de arenisca roja. Un circuito panorámico de 21 km, senderos, escalada y fauna del desierto de Mojave.",
+   "d_en": "A conservation area 30 min from the Strip with spectacular red sandstone formations. A 21 km scenic drive, hiking trails, rock climbing and Mojave Desert wildlife.",
+   "h": "Circuito aprox. 06:00–19:00 (estacional).",
+   "h_en": "Loop approx. 06:00–19:00 (seasonal).",
+   "i": "Reserva la entrada temporal (timed entry) en primavera y otoño.",
+   "i_en": "Book timed entry in spring and autumn."
+  },
+  "w_lv_hoover_dam": {
+   "id": "w_lv_hoover_dam",
+   "d": "Excursión clásica a 45 min de Las Vegas. Esta presa de hormigón de 221 m, terminada en 1935, embalsa el lago Mead. Visitas a las turbinas, mirador y el puente Mike O'Callaghan–Pat Tillman.",
+   "d_en": "A classic excursion 45 min from Las Vegas. This 221 m concrete dam, completed in 1935, holds back Lake Mead. Turbine tours, an overlook and the Mike O'Callaghan–Pat Tillman Bridge.",
+   "h": "Centro de visitantes aprox. 09:00–17:00.",
+   "h_en": "Visitor center approx. 09:00–17:00.",
+   "i": "Cruza el puente peatonal para la mejor vista de la presa.",
+   "i_en": "Walk the bypass bridge for the best view of the dam."
+  },
+  "w_lv_grand_canyon": {
+   "id": "w_lv_grand_canyon",
+   "d": "El West Rim del Gran Cañón, en tierras hualapai, es la zona más cercana a Las Vegas (unas 2,5 h). Incluye el Skywalk, una pasarela de cristal suspendida sobre el abismo, y vistas del río Colorado.",
+   "d_en": "The Grand Canyon West Rim, on Hualapai land, is the closest section to Las Vegas (about 2.5 h). It includes the Skywalk, a glass walkway suspended over the abyss, and Colorado River views.",
+   "h": "Aprox. 08:00–17:00 (según tour).",
+   "h_en": "Approx. 08:00–17:00 (tour dependent).",
+   "i": "Contrata un tour organizado; el acceso y el Skywalk requieren reserva.",
+   "i_en": "Take an organized tour; access and the Skywalk need booking."
+  },
+  "w_lv_valley_of_fire": {
+   "id": "w_lv_valley_of_fire",
+   "d": "El parque estatal más antiguo de Nevada, a 1 h del Strip. Formaciones de arenisca roja como Fire Wave y Elephant Rock, petroglifos antiguos y rutas cortas de gran belleza.",
+   "d_en": "Nevada's oldest state park, 1 h from the Strip. Red sandstone formations like Fire Wave and Elephant Rock, ancient petroglyphs and short but stunning trails.",
+   "h": "Amanecer–anochecer; centro 09:00–16:00.",
+   "h_en": "Sunrise–sunset; visitor center 09:00–16:00.",
+   "i": "Evita el mediodía en verano: no hay apenas sombra.",
+   "i_en": "Avoid midday in summer; there is almost no shade."
+  },
+  "w_lv_lake_mead": {
+   "id": "w_lv_lake_mead",
+   "d": "El mayor embalse de EE.UU. por capacidad, creado por la presa Hoover. Área recreativa nacional con playas, deportes acuáticos, miradores y rutas panorámicas por el desierto.",
+   "d_en": "The largest reservoir in the U.S. by capacity, created by the Hoover Dam. A national recreation area with beaches, water sports, overlooks and scenic desert drives.",
+   "h": "Área abierta 24 h; centro 09:00–16:30.",
+   "h_en": "Area open 24 h; visitor center 09:00–16:30.",
+   "i": "Combínalo con la visita a la presa Hoover en un mismo día.",
+   "i_en": "Combine it with the Hoover Dam visit in one day."
+  },
+  "w_lv_gordon_ramsay": {
+   "id": "w_lv_gordon_ramsay",
+   "d": "En Caesars Palace, recrea el plató del programa 'Hell's Kitchen' con cocinas rojas y azules. Platos estrella como el Beef Wellington y el risotto. Ambiente animado y reserva casi obligatoria.",
+   "d_en": "At Caesars Palace, it recreates the 'Hell's Kitchen' TV set with red and blue kitchens. Signature dishes like Beef Wellington and risotto. Lively atmosphere; reservations all but essential.",
+   "h": "Comidas y cenas; reserva recomendada.",
+   "h_en": "Lunch and dinner; reservation recommended.",
+   "i": "Reserva con semanas de antelación, sobre todo en fin de semana.",
+   "i_en": "Book weeks ahead, especially for weekends."
+  },
+  "w_lv_bacchanal_buffet": {
+   "id": "w_lv_bacchanal_buffet",
+   "d": "El bufé insignia de Caesars Palace, con cientos de platos recién hechos: marisco, dim sum, asados, carnes y una enorme sección de postres. Referencia de la abundancia gastronómica de Las Vegas.",
+   "d_en": "Caesars Palace's flagship buffet, with hundreds of made-to-order dishes: seafood, dim sum, roasts, carved meats and a huge dessert section. A benchmark of Las Vegas dining abundance.",
+   "h": "Brunch y cena; puede haber cola.",
+   "h_en": "Brunch and dinner; queues possible.",
+   "i": "Ve a media mañana para evitar las esperas más largas.",
+   "i_en": "Go mid-morning to skip the longest waits."
+  },
+  "w_lv_in_n_out": {
+   "id": "w_lv_in_n_out",
+   "d": "Cadena de culto del oeste de EE.UU. famosa por sus hamburguesas frescas, patatas cortadas al momento y el 'menú secreto' (Animal Style). Opción económica y muy popular cerca del Strip.",
+   "d_en": "A cult West Coast chain famous for fresh burgers, fries cut on the spot and its 'secret menu' (Animal Style). An affordable, very popular option near the Strip.",
+   "h": "Todo el día hasta la madrugada.",
+   "h_en": "All day into the early hours.",
+   "i": "Pide 'Animal Style' para probar la versión más famosa.",
+   "i_en": "Order 'Animal Style' to try the most famous version."
+  },
+  "w_lv_carbone": {
+   "id": "w_lv_carbone",
+   "d": "En el hotel Aria, recrea un lujoso restaurante italoamericano de los años 50 con servicio teatral. Famoso por su Spicy Rigatoni Vodka y sus enormes chuletones. Muy demandado.",
+   "d_en": "At the Aria hotel, it recreates a lavish 1950s Italian-American restaurant with theatrical service. Famous for its Spicy Rigatoni Vodka and huge veal chops. In high demand.",
+   "h": "Solo cenas; reserva imprescindible.",
+   "h_en": "Dinner only; reservation essential.",
+   "i": "Abre reserva 30 días antes; conéctate en cuanto salga.",
+   "i_en": "Bookings open 30 days ahead; log on as soon as they release."
+  },
+  "w_lv_secret_pizza": {
+   "id": "w_lv_secret_pizza",
+   "d": "Pizzería sin cartel al final de un pasillo del hotel Cosmopolitan, un secreto a voces. Sirve porciones al estilo neoyorquino hasta la madrugada, perfecta tras una noche por el Strip.",
+   "d_en": "An unmarked pizzeria at the end of a corridor in the Cosmopolitan hotel, a poorly kept secret. It serves New York-style slices into the early hours, perfect after a night on the Strip.",
+   "h": "Hasta la madrugada.",
+   "h_en": "Open into the early hours.",
+   "i": "Busca el pasillo decorado con discos de vinilo.",
+   "i_en": "Look for the corridor lined with vinyl records."
+  }
+ },
+ "food": {
+  "w_lv_gordon_ramsay": {
+   "cuisine": "Cocina británica moderna / internacional",
+   "price": "45–90 €",
+   "hours": "12:00–22:30 aprox."
+  },
+  "w_lv_bacchanal_buffet": {
+   "cuisine": "Bufé internacional",
+   "price": "60–90 €",
+   "hours": "08:00–22:00 aprox."
+  },
+  "w_lv_in_n_out": {
+   "cuisine": "Hamburguesas / comida rápida",
+   "price": "8–15 €",
+   "hours": "10:30–01:00 aprox."
+  },
+  "w_lv_carbone": {
+   "cuisine": "Italoamericana",
+   "price": "60–110 €",
+   "hours": "17:00–23:00 aprox."
+  },
+  "w_lv_secret_pizza": {
+   "cuisine": "Pizza",
+   "price": "6–15 €",
+   "hours": "11:00–04:00 aprox."
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Las Vegas",
+   "items": [
+    {
+     "name": "Fichas de casino personalizadas",
+     "price": "5–25 €",
+     "desc": "Fichas de recuerdo con diseños de Las Vegas, ideales como detalle."
+    },
+    {
+     "name": "Imán 'Welcome to Las Vegas'",
+     "price": "3–8 €",
+     "desc": "Réplica del icónico letrero de bienvenida en formato imán."
+    },
+    {
+     "name": "Barajas y dados de casino",
+     "price": "5–15 €",
+     "desc": "Cartas y dados usados en casinos reales, sellados como souvenir."
+    },
+    {
+     "name": "Camiseta 'Vegas'",
+     "price": "12–30 €",
+     "desc": "Camisetas con neones y logos de la ciudad del pecado."
+    },
+    {
+     "name": "Réplica de neón / letrero LED",
+     "price": "15–40 €",
+     "desc": "Pequeños letreros luminosos inspirados en el Neon Museum."
+    }
+   ],
+   "shops": [
+    "Bonanza Gift Shop",
+    "Las Vegas North Premium Outlets",
+    "Fashion Show Mall",
+    "The Forum Shops at Caesars",
+    "Tiendas del Fremont Street Experience"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Camina por The Strip de noche: las temperaturas bajan y los neones brillan al máximo.",
+   "Muchas atracciones (fuentes del Bellagio, jardines del Venetian) son gratuitas; aprovéchalas.",
+   "Reserva excursiones al Gran Cañón y la presa Hoover con antelación; salen temprano y se agotan.",
+   "En verano el calor supera los 40 °C: lleva agua, gorra y protección solar siempre.",
+   "El Deuce y el Monorraíl conectan el Strip y el centro; evitan las larguísimas caminatas."
+  ],
+  "en": [
+   "Walk The Strip at night: temperatures drop and the neon lights shine at their best.",
+   "Many attractions (Bellagio fountains, Venetian gardens) are free; make the most of them.",
+   "Book Grand Canyon and Hoover Dam tours in advance; they leave early and sell out.",
+   "In summer heat tops 40 °C: always carry water, a hat and sunscreen.",
+   "The Deuce bus and the Monorail link the Strip and downtown, sparing very long walks."
+  ]
+ },
+ "climate": {
+  "hi": [
+   14,
+   17,
+   21,
+   26,
+   31,
+   37,
+   40,
+   39,
+   34,
+   27,
+   19,
+   14
+  ],
+  "lo": [
+   4,
+   6,
+   9,
+   13,
+   18,
+   23,
+   26,
+   25,
+   20,
+   13,
+   7,
+   3
+  ]
+ },
+ "tr": {
+  "Avenida icónica con casinos, hoteles temáticos y neones.": "Iconic boulevard of casinos, themed hotels and neon.",
+  "El famoso cartel de bienvenida de 1959, símbolo de la ciudad.": "The famous 1959 welcome sign, symbol of the city.",
+  "Réplica a mitad de escala de la Torre Eiffel con mirador.": "Half-scale replica of the Eiffel Tower with viewing deck.",
+  "Resort-casino de temática romana con el Forum Shops.": "Roman-themed resort-casino with the Forum Shops.",
+  "Resort veneciano con canales y paseos en góndola.": "Venetian resort with canals and gondola rides.",
+  "Calle peatonal cubierta por una gran pantalla LED.": "Pedestrian street covered by a giant LED canopy.",
+  "Hotel piramidal con esfinge y potente haz de luz.": "Pyramid hotel with a sphinx and powerful light beam.",
+  "Sala esférica con la mayor pantalla LED envolvente del mundo.": "Spherical venue with the world's largest wraparound LED screen.",
+  "Noria gigante de 167 m sobre el paseo del LINQ.": "167 m giant observation wheel above the LINQ promenade.",
+  "Espectáculo de aguas danzantes con música y luces.": "Dancing water show set to music and lights.",
+  "Complejo inmersivo de arte, realidad virtual y ocio.": "Immersive complex of art, VR and entertainment.",
+  "Invernadero temático con instalaciones florales estacionales.": "Themed conservatory with seasonal floral displays.",
+  "Museo del crimen organizado y las fuerzas del orden.": "Museum of organized crime and law enforcement.",
+  "Cementerio de neones históricos de los casinos de Vegas.": "Boneyard of historic Vegas casino neon signs.",
+  "Torre de 350 m con mirador y atracciones extremas.": "350 m tower with observation deck and thrill rides.",
+  "Instalación de arte de torres de rocas de colores.": "Art installation of colorful stacked-boulder towers.",
+  "Museo de cera con celebridades y experiencias interactivas.": "Wax museum with celebrities and interactive experiences.",
+  "Cañón de roca roja con ruta escénica y senderismo.": "Red sandstone canyon with a scenic loop and hiking.",
+  "Colosal presa de los años 30 sobre el río Colorado.": "Colossal 1930s dam on the Colorado River.",
+  "Excursión al borde oeste con el mirador Skywalk.": "Day trip to the West Rim with the Skywalk overlook.",
+  "Parque estatal de arenisca roja y petroglifos.": "State park of fiery red sandstone and petroglyphs.",
+  "Gran embalse para navegar, nadar y hacer rutas.": "Large reservoir for boating, swimming and trails.",
+  "Restaurante del chef Gordon Ramsay inspirado en su show.": "Gordon Ramsay restaurant inspired by his TV show.",
+  "Uno de los bufés más aclamados del Strip.": "One of the most acclaimed buffets on the Strip.",
+  "Icónica hamburguesería californiana de comida rápida.": "Iconic California fast-food burger chain.",
+  "Ítalo-americano elegante de ambiente retro.": "Upscale Italian-American with a retro vibe.",
+  "Pizzería escondida al estilo Nueva York.": "Hidden New York-style pizza joint.",
+  "Las Vegas": "Las Vegas"
+ }
+}

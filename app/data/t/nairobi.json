@@ -1,0 +1,603 @@
+{
+ "id": "nairobi",
+ "name": "Nairobi",
+ "country": "WORLD",
+ "center": [
+  -1.2864,
+  36.8172
+ ],
+ "pois": [
+  {
+   "id": "w_nbo_nairobi_national_park",
+   "cat": "nature",
+   "name": "Parque Nacional de Nairobi",
+   "icon": "🦁",
+   "lat": -1.3588,
+   "lng": 36.8294,
+   "desc": "Sabana con leones y rinocerontes a las puertas de la ciudad."
+  },
+  {
+   "id": "w_nbo_sheldrick_elephant",
+   "cat": "nature",
+   "name": "Orfanato de Elefantes Sheldrick",
+   "icon": "🐘",
+   "lat": -1.3758,
+   "lng": 36.8461,
+   "desc": "Cría y rescate de elefantes huérfanos junto al parque."
+  },
+  {
+   "id": "w_nbo_giraffe_centre",
+   "cat": "nature",
+   "name": "Giraffe Centre",
+   "icon": "🦒",
+   "lat": -1.3745,
+   "lng": 36.7452,
+   "desc": "Alimenta jirafas Rothschild desde una plataforma."
+  },
+  {
+   "id": "w_nbo_karen_blixen",
+   "cat": "monuments",
+   "name": "Museo Karen Blixen",
+   "icon": "🏡",
+   "lat": -1.3519,
+   "lng": 36.7125,
+   "desc": "La casa de la autora de 'Memorias de África'."
+  },
+  {
+   "id": "w_nbo_bomas_of_kenya",
+   "cat": "ocio",
+   "name": "Bomas of Kenya",
+   "icon": "🥁",
+   "lat": -1.369,
+   "lng": 36.808,
+   "desc": "Danzas y aldeas tradicionales de las etnias del país."
+  },
+  {
+   "id": "w_nbo_national_museum",
+   "cat": "monuments",
+   "name": "Museo Nacional de Kenia",
+   "icon": "🏛️",
+   "lat": -1.274,
+   "lng": 36.8148,
+   "desc": "Historia natural, prehistoria y cultura keniana."
+  },
+  {
+   "id": "w_nbo_maasai_market",
+   "cat": "ocio",
+   "name": "Mercado Masái",
+   "icon": "🛍️",
+   "lat": -1.286,
+   "lng": 36.823,
+   "desc": "Mercado rotativo de artesanía y abalorios masái."
+  },
+  {
+   "id": "w_nbo_uhuru_park",
+   "cat": "nature",
+   "name": "Uhuru Park",
+   "icon": "🌳",
+   "lat": -1.2894,
+   "lng": 36.8149,
+   "desc": "Parque urbano con lago y vistas del 'skyline'."
+  },
+  {
+   "id": "w_nbo_kazuri_beads",
+   "cat": "ocio",
+   "name": "Kazuri Beads",
+   "icon": "📿",
+   "lat": -1.3714,
+   "lng": 36.7042,
+   "desc": "Taller de cuentas de cerámica hechas por mujeres."
+  },
+  {
+   "id": "w_nbo_railway_museum",
+   "cat": "monuments",
+   "name": "Museo del Ferrocarril",
+   "icon": "🚂",
+   "lat": -1.2913,
+   "lng": 36.8266,
+   "desc": "Locomotoras del histórico 'Lunatic Express'."
+  },
+  {
+   "id": "w_nbo_kicc",
+   "cat": "monuments",
+   "name": "KICC (mirador)",
+   "icon": "🌆",
+   "lat": -1.2865,
+   "lng": 36.8205,
+   "desc": "Torre icónica con azotea panorámica 360°."
+  },
+  {
+   "id": "w_nbo_ngong_hills",
+   "cat": "nature",
+   "name": "Colinas Ngong",
+   "icon": "⛰️",
+   "lat": -1.4,
+   "lng": 36.6333,
+   "desc": "Cresta de siete cimas para senderismo y vistas."
+  },
+  {
+   "id": "w_nbo_karura_forest",
+   "cat": "nature",
+   "name": "Bosque de Karura",
+   "icon": "🌲",
+   "lat": -1.2375,
+   "lng": 36.8208,
+   "desc": "Bosque urbano con cascada y senderos para bici."
+  },
+  {
+   "id": "w_nbo_arboretum",
+   "cat": "nature",
+   "name": "Arboreto de Nairobi",
+   "icon": "🍃",
+   "lat": -1.2749,
+   "lng": 36.8032,
+   "desc": "Jardín arbolado con cientos de especies y aves."
+  },
+  {
+   "id": "w_nbo_safari_walk",
+   "cat": "nature",
+   "name": "Nairobi Safari Walk",
+   "icon": "🐆",
+   "lat": -1.3628,
+   "lng": 36.8283,
+   "desc": "Pasarela para ver fauna keniana de cerca."
+  },
+  {
+   "id": "w_nbo_uhuru_gardens",
+   "cat": "monuments",
+   "name": "Uhuru Gardens",
+   "icon": "🗽",
+   "lat": -1.3063,
+   "lng": 36.802,
+   "desc": "Monumento nacional a la independencia de Kenia."
+  },
+  {
+   "id": "w_nbo_august7_memorial",
+   "cat": "monuments",
+   "name": "Parque Memorial 7 de Agosto",
+   "icon": "🕊️",
+   "lat": -1.2856,
+   "lng": 36.8178,
+   "desc": "Memorial del atentado a la embajada de EE. UU."
+  },
+  {
+   "id": "w_nbo_jamia_mosque",
+   "cat": "monuments",
+   "name": "Mezquita Jamia",
+   "icon": "🕌",
+   "lat": -1.2838,
+   "lng": 36.8226,
+   "desc": "Bella mezquita de estilo mogol en el centro."
+  },
+  {
+   "id": "w_nbo_nairobi_gallery",
+   "cat": "monuments",
+   "name": "Nairobi Gallery",
+   "icon": "🖼️",
+   "lat": -1.2887,
+   "lng": 36.8176,
+   "desc": "Arte y joyería africana en un edificio colonial."
+  },
+  {
+   "id": "w_nbo_village_market",
+   "cat": "ocio",
+   "name": "Village Market",
+   "icon": "🏬",
+   "lat": -1.2325,
+   "lng": 36.8046,
+   "desc": "Centro comercial con artesanía y ocio en Gigiri."
+  },
+  {
+   "id": "w_nbo_mamba_village",
+   "cat": "ocio",
+   "name": "Mamba Village",
+   "icon": "🐊",
+   "lat": -1.3479,
+   "lng": 36.7549,
+   "desc": "Granja de cocodrilos con paseos y jardines."
+  },
+  {
+   "id": "w_nbo_carnivore",
+   "cat": "food",
+   "name": "Carnivore",
+   "icon": "🍖",
+   "lat": -1.329,
+   "lng": 36.8005,
+   "desc": "Legendario asador de carnes 'nyama choma'."
+  },
+  {
+   "id": "w_nbo_talisman",
+   "cat": "food",
+   "name": "Talisman",
+   "icon": "🍽️",
+   "lat": -1.319,
+   "lng": 36.7137,
+   "desc": "Bistró de fusión con jardín en Karen."
+  },
+  {
+   "id": "w_nbo_ranalo_foods",
+   "cat": "food",
+   "name": "Ranalo Foods (K'Osewe)",
+   "icon": "🐟",
+   "lat": -1.2846,
+   "lng": 36.8265,
+   "desc": "Cocina keniana auténtica en pleno centro."
+  },
+  {
+   "id": "w_nbo_mama_oliech",
+   "cat": "food",
+   "name": "Mama Oliech",
+   "icon": "🍛",
+   "lat": -1.294,
+   "lng": 36.7869,
+   "desc": "Famosa tilapia y platos luo en Kilimani."
+  }
+ ],
+ "extra": {
+  "w_nbo_nairobi_national_park": {
+   "id": "w_nbo_nairobi_national_park",
+   "d": "Único parque nacional del mundo dentro de una capital: 117 km² de sabana donde pastan leones, rinocerontes negros, jirafas, cebras y búfalos con los rascacielos de fondo. Es un santuario clave para el rinoceronte negro en peligro.",
+   "d_en": "The world's only national park inside a capital: 117 km² of savannah where lions, black rhinos, giraffes, zebras and buffalo roam against a skyline backdrop. It is a key sanctuary for the endangered black rhino.",
+   "h": "Todos los días 6:00–18:00",
+   "h_en": "Daily 6:00–18:00",
+   "i": "Entrada unos 40 USD para extranjeros; conviene ir en 4x4 o safari guiado a primera hora.",
+   "i_en": "Entry around 40 USD for non-residents; go by 4x4 or guided safari early in the morning."
+  },
+  "w_nbo_sheldrick_elephant": {
+   "id": "w_nbo_sheldrick_elephant",
+   "d": "El David Sheldrick Wildlife Trust rescata y cría elefantes y rinocerontes huérfanos para devolverlos a la vida salvaje. En la visita diaria los cuidadores dan el biberón a las crías mientras explican su historia; se puede apadrinar un elefante.",
+   "d_en": "The David Sheldrick Wildlife Trust rescues and raises orphaned elephants and rhinos to return them to the wild. During the daily visit keepers bottle-feed the calves and share their stories; you can adopt an elephant.",
+   "h": "Solo 11:00–12:00 (con reserva)",
+   "h_en": "Only 11:00–12:00 (booking required)",
+   "i": "Reserva online obligatoria; donativo desde 15 USD por persona. Llega pronto para buen sitio.",
+   "i_en": "Online booking required; donation from 15 USD per person. Arrive early for a good spot."
+  },
+  "w_nbo_giraffe_centre": {
+   "id": "w_nbo_giraffe_centre",
+   "d": "Centro de conservación de la jirafa Rothschild, en peligro, donde desde una plataforma elevada puedes darles de comer a la altura de los ojos e incluso recibir un 'beso' de estos gigantes. Cuenta con un sendero natural y centro educativo.",
+   "d_en": "A conservation centre for the endangered Rothschild giraffe where, from a raised platform, you can feed them at eye level and even get a 'kiss' from these gentle giants. It has a nature trail and education centre.",
+   "h": "Todos los días 9:00–17:00",
+   "h_en": "Daily 9:00–17:00",
+   "i": "Entrada unos 15 USD para extranjeros; junto al lujoso Giraffe Manor.",
+   "i_en": "Entry around 15 USD for non-residents; next to the luxury Giraffe Manor."
+  },
+  "w_nbo_karen_blixen": {
+   "id": "w_nbo_karen_blixen",
+   "d": "Antigua granja de café de la escritora danesa Karen Blixen, que inmortalizó su vida aquí en 'Memorias de África'. La casa colonial de 1912 conserva mobiliario original y jardines con vistas a las colinas Ngong; el barrio de Karen lleva su nombre.",
+   "d_en": "Former coffee farm of Danish writer Karen Blixen, who immortalised her life here in 'Out of Africa'. The 1912 colonial house keeps original furnishings and gardens facing the Ngong Hills; the Karen suburb bears her name.",
+   "h": "Todos los días 9:30–18:00",
+   "h_en": "Daily 9:30–18:00",
+   "i": "Entrada unos 1.200 KES para extranjeros; visitas guiadas incluidas.",
+   "i_en": "Entry around 1,200 KES for non-residents; guided tours included."
+  },
+  "w_nbo_bomas_of_kenya": {
+   "id": "w_nbo_bomas_of_kenya",
+   "d": "Centro cultural que reproduce aldeas (bomas) de las principales etnias de Kenia y ofrece a diario espectáculos de danza y música tradicional en un gran auditorio. Ideal para entender la diversidad cultural del país en un solo lugar.",
+   "d_en": "A cultural centre recreating the villages (bomas) of Kenya's main ethnic groups, with daily traditional dance and music shows in a large auditorium. Ideal to grasp the country's cultural diversity in one place.",
+   "h": "Espectáculos diarios sobre 14:30–16:00",
+   "h_en": "Daily shows around 14:30–16:00",
+   "i": "Entrada unos 1.000 KES para extranjeros; consulta horarios de la función.",
+   "i_en": "Entry around 1,000 KES for non-residents; check the show times."
+  },
+  "w_nbo_national_museum": {
+   "id": "w_nbo_national_museum",
+   "d": "El principal museo del país reúne fósiles de homínidos del yacimiento de Turkana, aves y mamíferos disecados, arte y etnografía. En el mismo recinto están el Snake Park y jardines botánicos con especies autóctonas.",
+   "d_en": "The country's flagship museum gathers hominid fossils from the Turkana sites, mounted birds and mammals, art and ethnography. The grounds also house the Snake Park and botanical gardens with native species.",
+   "h": "Todos los días 8:30–17:30",
+   "h_en": "Daily 8:30–17:30",
+   "i": "Entrada unos 1.200 KES para extranjeros; combina con el Snake Park.",
+   "i_en": "Entry around 1,200 KES for non-residents; combine with the Snake Park."
+  },
+  "w_nbo_maasai_market": {
+   "id": "w_nbo_maasai_market",
+   "d": "Mercado de artesanía al aire libre que cambia de barrio según el día de la semana. Puestos rebosantes de abalorios, telas shuka, tallas, cestas y bisutería masái; regatear con simpatía es parte de la experiencia.",
+   "d_en": "An open-air craft market that moves neighbourhood by day of the week. Stalls overflow with beadwork, shuka cloth, carvings, baskets and Maasai jewellery; friendly haggling is part of the experience.",
+   "h": "Según barrio; suele ser 8:00–18:00",
+   "h_en": "Varies by area; usually 8:00–18:00",
+   "i": "Comprueba la sede del día; regatea y paga la mitad del precio inicial.",
+   "i_en": "Check the day's location; haggle and expect to pay half the opening price."
+  },
+  "w_nbo_uhuru_park": {
+   "id": "w_nbo_uhuru_park",
+   "d": "Pulmón verde del centro creado en 1969, con un lago artificial donde alquilar barcas, prados para pasear y el monumento de la Independencia. Ofrece la mejor panorámica cercana de los rascacielos de Nairobi.",
+   "d_en": "Downtown green lung opened in 1969, with a boating lake, lawns for strolling and the Independence monument. It offers the best close-up panorama of Nairobi's skyscrapers.",
+   "h": "Todos los días 6:00–18:00",
+   "h_en": "Daily 6:00–18:00",
+   "i": "Entrada gratuita; muy animado los fines de semana. Cuida tus pertenencias.",
+   "i_en": "Free entry; lively at weekends. Watch your belongings."
+  },
+  "w_nbo_kazuri_beads": {
+   "id": "w_nbo_kazuri_beads",
+   "d": "Fábrica social fundada en 1975 que emplea a mujeres desfavorecidas de Nairobi para crear cuentas de cerámica pintadas a mano. Se visita el taller, se ve todo el proceso y se compran collares y cerámica en la tienda.",
+   "d_en": "A social enterprise founded in 1975 employing disadvantaged Nairobi women to make hand-painted ceramic beads. You can tour the workshop, watch the whole process and buy necklaces and pottery in the shop.",
+   "h": "Lun–Sáb 9:00–17:00, Dom 10:00–17:00",
+   "h_en": "Mon–Sat 9:00–17:00, Sun 10:00–17:00",
+   "i": "Visita al taller gratuita; en Karen, cerca del museo Karen Blixen.",
+   "i_en": "Workshop tour is free; in Karen, near the Karen Blixen Museum."
+  },
+  "w_nbo_railway_museum": {
+   "id": "w_nbo_railway_museum",
+   "d": "Museo dedicado al ferrocarril de Uganda, la línea colonial que dio origen a la ciudad. Locomotoras de vapor, vagones históricos —incluido el del incidente de los leones de Tsavo— y maquetas que narran la epopeya del 'Lunatic Express'.",
+   "d_en": "Museum devoted to the Uganda Railway, the colonial line that gave birth to the city. Steam locomotives, historic carriages —including the one from the Tsavo man-eating lions incident— and models telling the 'Lunatic Express' saga.",
+   "h": "Todos los días 8:00–17:00",
+   "h_en": "Daily 8:00–17:00",
+   "i": "Entrada unos 600 KES para extranjeros; junto a la estación central.",
+   "i_en": "Entry around 600 KES for non-residents; next to the central station."
+  },
+  "w_nbo_kicc": {
+   "id": "w_nbo_kicc",
+   "d": "El Kenyatta International Convention Centre, de 1973, es el rascacielos más emblemático de Nairobi, con forma inspirada en una choza tradicional. Su helipuerto en la azotea se abre como mirador con vistas de 360° sobre la ciudad y, en días claros, el Kilimanjaro lejano.",
+   "d_en": "The 1973 Kenyatta International Convention Centre is Nairobi's most iconic tower, its shape inspired by a traditional hut. Its rooftop helipad opens as a viewpoint with 360° views over the city and, on clear days, distant Kilimanjaro.",
+   "h": "Todos los días 8:00–18:00 (azotea)",
+   "h_en": "Daily 8:00–18:00 (rooftop)",
+   "i": "Acceso a la azotea unos 500 KES; sube al atardecer para la mejor luz.",
+   "i_en": "Rooftop access around 500 KES; go at sunset for the best light."
+  },
+  "w_nbo_ngong_hills": {
+   "id": "w_nbo_ngong_hills",
+   "d": "Cordillera ondulada de siete cumbres al suroeste de la ciudad, famosa por 'Memorias de África'. Una ruta de cresta recorre las cimas entre aerogeneradores, con vistas al valle del Rift a un lado y a Nairobi al otro.",
+   "d_en": "A rolling seven-peaked ridge southwest of the city, famous from 'Out of Africa'. A ridge trail links the summits between wind turbines, with the Rift Valley on one side and Nairobi on the other.",
+   "h": "Recomendado de día, 7:00–17:00",
+   "h_en": "Best in daylight, 7:00–17:00",
+   "i": "Contrata un guía o ranger por seguridad; lleva agua y calzado de montaña.",
+   "i_en": "Hire a guide or ranger for safety; bring water and hiking shoes."
+  },
+  "w_nbo_karura_forest": {
+   "id": "w_nbo_karura_forest",
+   "d": "Uno de los mayores bosques urbanos del mundo, salvado de la urbanización por la nobel Wangari Maathai. Más de 50 km de senderos entre árboles autóctonos, con una cascada, cuevas, un lago y monos y antílopes suni.",
+   "d_en": "One of the world's largest urban forests, saved from development by Nobel laureate Wangari Maathai. Over 50 km of trails through native trees, with a waterfall, caves, a lake and monkeys and suni antelope.",
+   "h": "Todos los días 6:00–18:00",
+   "h_en": "Daily 6:00–18:00",
+   "i": "Entrada unos 600 KES para extranjeros; alquila bici en la puerta de Limuru Rd.",
+   "i_en": "Entry around 600 KES for non-residents; rent a bike at the Limuru Rd gate."
+  },
+  "w_nbo_arboretum": {
+   "id": "w_nbo_arboretum",
+   "d": "Reserva de 30 hectáreas creada en 1907 con más de 350 especies de árboles autóctonos y exóticos, monos colobos y una rica avifauna. Popular para correr, hacer pícnic o pasear a la sombra en pleno centro.",
+   "d_en": "A 30-hectare reserve created in 1907 with over 350 native and exotic tree species, colobus monkeys and rich birdlife. Popular for jogging, picnics and shady walks in the heart of the city.",
+   "h": "Todos los días 6:00–18:00",
+   "h_en": "Daily 6:00–18:00",
+   "i": "Entrada simbólica de unos 100 KES; tranquilo entre semana.",
+   "i_en": "Token entry around 100 KES; quiet on weekdays."
+  },
+  "w_nbo_safari_walk": {
+   "id": "w_nbo_safari_walk",
+   "d": "Zoológico-santuario a pie junto a la entrada del Parque Nacional, con una pasarela elevada que atraviesa hábitats de sabana, humedal y bosque. Se ven leones, leopardos, hipopótamos, rinocerontes blancos y albinos, ideal si no da tiempo al safari.",
+   "d_en": "A walkable zoo-sanctuary beside the National Park gate, with a raised boardwalk crossing savannah, wetland and forest habitats. You can see lions, leopards, hippos, white and albino rhinos —great if you can't fit a full safari.",
+   "h": "Todos los días 8:30–17:30",
+   "h_en": "Daily 8:30–17:30",
+   "i": "Entrada unos 25 USD para extranjeros; junto a la sede del KWS.",
+   "i_en": "Entry around 25 USD for non-residents; next to the KWS headquarters."
+  },
+  "w_nbo_uhuru_gardens": {
+   "id": "w_nbo_uhuru_gardens",
+   "d": "Lugar donde se izó la primera bandera keniana en 1963. Tras su remodelación es un gran parque conmemorativo con monumentos, un museo de la historia nacional, jardines y espacios para eventos.",
+   "d_en": "The site where the first Kenyan flag was raised in 1963. After renovation it is a large memorial park with monuments, a national-history museum, gardens and event spaces.",
+   "h": "Todos los días 8:00–18:00",
+   "h_en": "Daily 8:00–18:00",
+   "i": "Entrada gratuita o simbólica; buen sitio para entender la independencia.",
+   "i_en": "Free or token entry; a good place to learn about independence."
+  },
+  "w_nbo_august7_memorial": {
+   "id": "w_nbo_august7_memorial",
+   "d": "Jardín de paz en el solar de la embajada estadounidense destruida en el atentado de 1998. Un muro con los nombres de las víctimas, esculturas con restos del edificio y un pequeño museo recuerdan la tragedia y promueven la reconciliación.",
+   "d_en": "A peace garden on the site of the US embassy destroyed in the 1998 bombing. A wall of victims' names, sculptures made from the rubble and a small museum recall the tragedy and promote reconciliation.",
+   "h": "Todos los días 8:00–18:00",
+   "h_en": "Daily 8:00–18:00",
+   "i": "Entrada unos 300 KES; remanso de calma en pleno centro.",
+   "i_en": "Entry around 300 KES; a calm oasis in the city centre."
+  },
+  "w_nbo_jamia_mosque": {
+   "id": "w_nbo_jamia_mosque",
+   "d": "La mezquita más importante de Nairobi, inaugurada en 1925, con elegante arquitectura de inspiración mogol: tres cúpulas plateadas, dos minaretes e inscripciones coránicas. Un mercado bullicioso la rodea en el corazón del centro.",
+   "d_en": "Nairobi's most important mosque, opened in 1925, with elegant Mughal-inspired architecture: three silver domes, twin minarets and Quranic inscriptions. A bustling market surrounds it in the heart of downtown.",
+   "h": "Visitas fuera de las horas de rezo",
+   "h_en": "Visits outside prayer times",
+   "i": "Vístete con recato; pregunta antes de fotografiar el interior.",
+   "i_en": "Dress modestly; ask before photographing the interior."
+  },
+  "w_nbo_nairobi_gallery": {
+   "id": "w_nbo_nairobi_gallery",
+   "d": "Antigua oficina provincial de 1913, apodada 'Hatches, Matches and Dispatches' por registrar nacimientos, bodas y defunciones. Hoy alberga la colección Murumbi de arte, textiles y joyería tradicional africana, una de las mayores del continente.",
+   "d_en": "A 1913 former provincial office nicknamed 'Hatches, Matches and Dispatches' for recording births, marriages and deaths. Today it holds the Murumbi collection of African art, textiles and traditional jewellery, one of the continent's largest.",
+   "h": "Todos los días 8:30–17:30",
+   "h_en": "Daily 8:30–17:30",
+   "i": "Entrada unos 1.200 KES para extranjeros; frente a los jardines Uhuru.",
+   "i_en": "Entry around 1,200 KES for non-residents; opposite Uhuru gardens."
+  },
+  "w_nbo_village_market": {
+   "id": "w_nbo_village_market",
+   "d": "Amplio complejo comercial en la zona diplomática de Gigiri, con tiendas, restaurantes, cascadas, minigolf y toboganes. Los viernes acoge un gran mercado de artesanía masái muy cómodo para comprar recuerdos con calma.",
+   "d_en": "A large shopping complex in the diplomatic Gigiri area, with shops, restaurants, waterfalls, mini-golf and waterslides. On Fridays it hosts a big Maasai craft market, a relaxed place to buy souvenirs.",
+   "h": "Todos los días 9:00–21:00",
+   "h_en": "Daily 9:00–21:00",
+   "i": "Cerca de la ONU; el mercado de artesanía es los viernes.",
+   "i_en": "Near the UN complex; the craft market runs on Fridays."
+  },
+  "w_nbo_mamba_village": {
+   "id": "w_nbo_mamba_village",
+   "d": "Centro recreativo en Langata con la mayor granja de cocodrilos de Kenia, además de avestruces, paseos a caballo y en camello, botes y un jardín botánico. Plan familiar y desenfadado cerca del barrio de Karen.",
+   "d_en": "A leisure centre in Langata with Kenya's largest crocodile farm, plus ostriches, horse and camel rides, boats and a botanical garden. A relaxed family outing near the Karen suburb.",
+   "h": "Todos los días 9:00–18:00",
+   "h_en": "Daily 9:00–18:00",
+   "i": "Entrada asequible; las horas de alimentación de cocodrilos son el momento estrella.",
+   "i_en": "Affordable entry; the crocodile feeding times are the highlight."
+  },
+  "w_nbo_carnivore": {
+   "id": "w_nbo_carnivore",
+   "d": "Uno de los restaurantes más famosos de África, un festín de carne a la brasa servida sin límite en espadas de acero hasta que bajas la bandera. Ambiente festivo, música en directo y el clásico cóctel Dawa; antaño servían caza, hoy carnes de granja.",
+   "d_en": "One of Africa's most famous restaurants, an all-you-can-eat feast of flame-grilled meat carved from Maasai swords until you lower the flag. Festive atmosphere, live music and the classic Dawa cocktail; once game meat, now farmed cuts.",
+   "h": "Todos los días 12:00–23:00",
+   "h_en": "Daily 12:00–23:00",
+   "i": "Reserva de noche; menú fijo con acompañamientos incluidos.",
+   "i_en": "Book for dinner; fixed menu with sides included."
+  },
+  "w_nbo_talisman": {
+   "id": "w_nbo_talisman",
+   "d": "Restaurante de culto en Karen que fusiona cocina keniana, europea y asiática en un jardín acogedor con chimeneas y arte local. Sus samosas de feta y sus platos de temporada lo hacen un favorito de expatriados y locales.",
+   "d_en": "A cult restaurant in Karen fusing Kenyan, European and Asian cuisine in a cosy garden with fireplaces and local art. Its feta samosas and seasonal dishes make it a favourite with expats and locals alike.",
+   "h": "Mar–Dom 12:00–23:00",
+   "h_en": "Tue–Sun 12:00–23:00",
+   "i": "Reserva el fin de semana; buena carta de vinos y cócteles.",
+   "i_en": "Book at weekends; good wine and cocktail list."
+  },
+  "w_nbo_ranalo_foods": {
+   "id": "w_nbo_ranalo_foods",
+   "d": "Institución del centro para probar comida keniana de verdad: tilapia entera frita, ugali, sukuma wiki, nyama choma y verduras tradicionales luo. Sencillo, animado y muy popular a la hora del almuerzo.",
+   "d_en": "A downtown institution for real Kenyan food: whole fried tilapia, ugali, sukuma wiki, nyama choma and traditional Luo vegetables. Simple, lively and hugely popular at lunchtime.",
+   "h": "Todos los días 8:00–22:00",
+   "h_en": "Daily 8:00–22:00",
+   "i": "Come la tilapia con las manos, como los locales; efectivo o M-Pesa.",
+   "i_en": "Eat the tilapia with your hands like the locals; cash or M-Pesa."
+  },
+  "w_nbo_mama_oliech": {
+   "id": "w_nbo_mama_oliech",
+   "d": "Restaurante familiar legendario por su pescado, que ha servido incluso a presidentes. Su tilapia frita con ugali y kachumbari es un clásico de la cocina luo; ambiente casero y raciones generosas.",
+   "d_en": "A family restaurant legendary for its fish, having served even presidents. Its fried tilapia with ugali and kachumbari is a Luo classic; homely atmosphere and generous portions.",
+   "h": "Todos los días 10:00–22:00",
+   "h_en": "Daily 10:00–22:00",
+   "i": "El pescado se paga por tamaño; puede tardar, pero vale la pena.",
+   "i_en": "Fish is priced by size; it can take a while, but it's worth it."
+  }
+ },
+ "food": {
+  "w_nbo_carnivore": {
+   "cuisine": "Asador keniano / nyama choma",
+   "price": "30–45 €",
+   "hours": "Todos los días 12:00–23:00"
+  },
+  "w_nbo_talisman": {
+   "cuisine": "Fusión internacional",
+   "price": "20–35 €",
+   "hours": "Mar–Dom 12:00–23:00"
+  },
+  "w_nbo_ranalo_foods": {
+   "cuisine": "Keniana tradicional",
+   "price": "8–18 €",
+   "hours": "Todos los días 8:00–22:00"
+  },
+  "w_nbo_mama_oliech": {
+   "cuisine": "Pescado keniano / luo",
+   "price": "8–20 €",
+   "hours": "Todos los días 10:00–22:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Nairobi",
+   "items": [
+    {
+     "name": "Cuentas de cerámica Kazuri",
+     "price": "8–35 €",
+     "desc": "Collares y pulseras hechos a mano por mujeres en Karen, pintados uno a uno."
+    },
+    {
+     "name": "Manta shuka masái",
+     "price": "10–25 €",
+     "desc": "Tela de cuadros roja tradicional, versátil como pareo, mantel o decoración."
+    },
+    {
+     "name": "Talla de animales en madera",
+     "price": "6–40 €",
+     "desc": "Elefantes, leones y jirafas tallados en madera de olivo o jacaranda."
+    },
+    {
+     "name": "Café de las Highlands keniano",
+     "price": "8–18 €",
+     "desc": "Grano arábica AA de altura, aromático y afrutado, en paquetes sellados."
+    },
+    {
+     "name": "Cesta kiondo",
+     "price": "12–30 €",
+     "desc": "Bolso tejido a mano en fibra de sisal, símbolo del artesanado kikuyu."
+    },
+    {
+     "name": "Bisutería y abalorios masái",
+     "price": "5–20 €",
+     "desc": "Collares y pulseras de cuentas de colores con patrones geométricos."
+    }
+   ],
+   "shops": [
+    "Kazuri Beads (Karen)",
+    "Mercado Masái (rotativo por barrios)",
+    "Village Market (Gigiri)",
+    "Utamaduni Craft Centre (Langata)",
+    "Spinners Web (Westlands)"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "El clima de Nairobi es templado todo el año por su altitud (1.795 m); lleva capas y un cortavientos para las mañanas y noches frescas.",
+   "Reserva con antelación el orfanato de elefantes Sheldrick: solo abre una hora al día (11:00–12:00) y hay que apuntarse online.",
+   "Usa apps de taxi como Uber o Bolt en lugar de parar coches en la calle; son baratas, seguras y con precio cerrado.",
+   "Evita mostrar objetos de valor y no camines de noche por el centro; el barrio de Karen y Gigiri son las zonas más tranquilas.",
+   "Cambia dinero o paga con M-Pesa; muchos comercios y mercados funcionan con pago móvil y regatear en los mercados es habitual."
+  ],
+  "en": [
+   "Nairobi's climate is mild year-round thanks to its altitude (1,795 m); pack layers and a windbreaker for cool mornings and evenings.",
+   "Book the Sheldrick elephant orphanage ahead: it opens just one hour a day (11:00–12:00) and requires an online reservation.",
+   "Use ride apps like Uber or Bolt instead of hailing cars on the street; they are cheap, safe and offer fixed fares.",
+   "Avoid flashing valuables and don't walk downtown after dark; the Karen and Gigiri suburbs are the calmest areas.",
+   "Exchange money or pay with M-Pesa; many shops and markets run on mobile payment, and haggling in markets is expected."
+  ]
+ },
+ "climate": {
+  "hi": [
+   25,
+   26,
+   26,
+   24,
+   23,
+   22,
+   21,
+   22,
+   25,
+   25,
+   23,
+   24
+  ],
+  "lo": [
+   12,
+   13,
+   14,
+   14,
+   13,
+   11,
+   11,
+   11,
+   12,
+   13,
+   13,
+   13
+  ]
+ },
+ "tr": {
+  "Sabana con leones y rinocerontes a las puertas de la ciudad.": "Savannah with lions and rhinos at the city's doorstep.",
+  "Cría y rescate de elefantes huérfanos junto al parque.": "Rescue and rearing of orphaned baby elephants by the park.",
+  "Alimenta jirafas Rothschild desde una plataforma.": "Feed Rothschild giraffes from a raised platform.",
+  "La casa de la autora de 'Memorias de África'.": "The home of the author of 'Out of Africa'.",
+  "Danzas y aldeas tradicionales de las etnias del país.": "Traditional dances and villages of Kenya's peoples.",
+  "Historia natural, prehistoria y cultura keniana.": "Natural history, prehistory and Kenyan culture.",
+  "Mercado rotativo de artesanía y abalorios masái.": "Rotating market of Maasai crafts and beadwork.",
+  "Parque urbano con lago y vistas del 'skyline'.": "Urban park with a lake and skyline views.",
+  "Taller de cuentas de cerámica hechas por mujeres.": "Ceramic bead workshop run by local women.",
+  "Locomotoras del histórico 'Lunatic Express'.": "Locomotives of the historic 'Lunatic Express'.",
+  "Torre icónica con azotea panorámica 360°.": "Iconic tower with a 360° rooftop viewpoint.",
+  "Cresta de siete cimas para senderismo y vistas.": "Seven-peaked ridge for hiking and views.",
+  "Bosque urbano con cascada y senderos para bici.": "Urban forest with a waterfall and bike trails.",
+  "Jardín arbolado con cientos de especies y aves.": "Wooded garden with hundreds of species and birds.",
+  "Pasarela para ver fauna keniana de cerca.": "Boardwalk to see Kenyan wildlife up close.",
+  "Monumento nacional a la independencia de Kenia.": "National monument to Kenya's independence.",
+  "Memorial del atentado a la embajada de EE. UU.": "Memorial to the US embassy bombing.",
+  "Bella mezquita de estilo mogol en el centro.": "Beautiful Mughal-style mosque downtown.",
+  "Arte y joyería africana en un edificio colonial.": "African art and jewellery in a colonial building.",
+  "Centro comercial con artesanía y ocio en Gigiri.": "Shopping and leisure complex in Gigiri.",
+  "Granja de cocodrilos con paseos y jardines.": "Crocodile farm with rides and gardens.",
+  "Legendario asador de carnes 'nyama choma'.": "Legendary 'nyama choma' meat grill.",
+  "Bistró de fusión con jardín en Karen.": "Fusion bistro with a garden in Karen.",
+  "Cocina keniana auténtica en pleno centro.": "Authentic Kenyan cooking downtown.",
+  "Famosa tilapia y platos luo en Kilimani.": "Famous tilapia and Luo dishes in Kilimani.",
+  "Nairobi": "Nairobi"
+ }
+}

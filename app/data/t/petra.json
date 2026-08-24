@@ -1,0 +1,568 @@
+{
+ "id": "petra",
+ "name": "Petra",
+ "country": "WORLD",
+ "center": [
+  30.32852,
+  35.44811
+ ],
+ "pois": [
+  {
+   "id": "w_pet_khazneh",
+   "cat": "monuments",
+   "name": "Al-Khazneh (El Tesoro)",
+   "icon": "🏛️",
+   "lat": 30.32226,
+   "lng": 35.45155,
+   "desc": "La icónica fachada tallada en roca rosada al final del Siq."
+  },
+  {
+   "id": "w_pet_siq",
+   "cat": "nature",
+   "name": "El Siq",
+   "icon": "🏜️",
+   "lat": 30.3234,
+   "lng": 35.4496,
+   "desc": "Desfiladero natural de 1,2 km que da acceso a Petra."
+  },
+  {
+   "id": "w_pet_deir",
+   "cat": "monuments",
+   "name": "Ad-Deir (El Monasterio)",
+   "icon": "🏛️",
+   "lat": 30.33778,
+   "lng": 35.43111,
+   "desc": "Monumento colosal de 47 m tras 850 escalones."
+  },
+  {
+   "id": "w_pet_teatro",
+   "cat": "monuments",
+   "name": "Teatro Romano",
+   "icon": "🎭",
+   "lat": 30.3262,
+   "lng": 35.4456,
+   "desc": "Anfiteatro nabateo excavado en la roca para 8.500 personas."
+  },
+  {
+   "id": "w_pet_tumbas_reales",
+   "cat": "monuments",
+   "name": "Tumbas Reales",
+   "icon": "⚱️",
+   "lat": 30.329,
+   "lng": 35.4478,
+   "desc": "Fila de fachadas monumentales sobre el valle."
+  },
+  {
+   "id": "w_pet_altar",
+   "cat": "monuments",
+   "name": "Altar del Sacrificio",
+   "icon": "⛰️",
+   "lat": 30.3209,
+   "lng": 35.446,
+   "desc": "Lugar de culto nabateo en lo alto de una montaña."
+  },
+  {
+   "id": "w_pet_calle_columnas",
+   "cat": "monuments",
+   "name": "Calle de las Columnas",
+   "icon": "🏛️",
+   "lat": 30.3283,
+   "lng": 35.4421,
+   "desc": "Vía principal columnada del corazón de Petra."
+  },
+  {
+   "id": "w_pet_qasr_bint",
+   "cat": "monuments",
+   "name": "Qasr al-Bint",
+   "icon": "🏛️",
+   "lat": 30.32877,
+   "lng": 35.44,
+   "desc": "Principal templo nabateo aún en pie de Petra."
+  },
+  {
+   "id": "w_pet_gran_templo",
+   "cat": "monuments",
+   "name": "Gran Templo",
+   "icon": "🏛️",
+   "lat": 30.328,
+   "lng": 35.4415,
+   "desc": "Amplio complejo monumental nabateo con teatrillo."
+  },
+  {
+   "id": "w_pet_calle_fachadas",
+   "cat": "monuments",
+   "name": "Calle de las Fachadas",
+   "icon": "🪦",
+   "lat": 30.3246,
+   "lng": 35.4487,
+   "desc": "Hilera de tumbas nabateas tras el Tesoro."
+  },
+  {
+   "id": "w_pet_tumba_obelisco",
+   "cat": "monuments",
+   "name": "Tumba del Obelisco",
+   "icon": "🪦",
+   "lat": 30.3238,
+   "lng": 35.4626,
+   "desc": "Tumba con cuatro obeliscos junto al Bab as-Siq."
+  },
+  {
+   "id": "w_pet_leones_alados",
+   "cat": "monuments",
+   "name": "Templo de los Leones Alados",
+   "icon": "🏛️",
+   "lat": 30.3296,
+   "lng": 35.4425,
+   "desc": "Templo nabateo dedicado a una diosa suprema."
+  },
+  {
+   "id": "w_pet_iglesia_bizantina",
+   "cat": "monuments",
+   "name": "Iglesia Bizantina",
+   "icon": "⛪",
+   "lat": 30.3299,
+   "lng": 35.4421,
+   "desc": "Basílica del siglo V con mosaicos conservados."
+  },
+  {
+   "id": "w_pet_um_biyara",
+   "cat": "nature",
+   "name": "Um al-Biyara",
+   "icon": "⛰️",
+   "lat": 30.3218,
+   "lng": 35.4346,
+   "desc": "La montaña más alta de Petra con ruinas edomitas."
+  },
+  {
+   "id": "w_pet_ain_musa",
+   "cat": "nature",
+   "name": "Ain Musa (Manantial de Moisés)",
+   "icon": "💧",
+   "lat": 30.3194,
+   "lng": 35.4963,
+   "desc": "Manantial ligado a la tradición de Moisés."
+  },
+  {
+   "id": "w_pet_little_petra",
+   "cat": "monuments",
+   "name": "Pequeña Petra (Siq al-Barid)",
+   "icon": "🏜️",
+   "lat": 30.37528,
+   "lng": 35.45228,
+   "desc": "Cañón nabateo con casas y frescos tallados."
+  },
+  {
+   "id": "w_pet_wadi_rum",
+   "cat": "nature",
+   "name": "Wadi Rum",
+   "icon": "🏜️",
+   "lat": 29.55586,
+   "lng": 35.40747,
+   "desc": "Desierto de arena roja y montañas monumentales."
+  },
+  {
+   "id": "w_pet_umm_fruth",
+   "cat": "nature",
+   "name": "Puente de roca Umm Fruth",
+   "icon": "🪨",
+   "lat": 29.4678,
+   "lng": 35.4428,
+   "desc": "Arco natural escalable en pleno Wadi Rum."
+  },
+  {
+   "id": "w_pet_khazali",
+   "cat": "nature",
+   "name": "Cañón de Khazali",
+   "icon": "🏜️",
+   "lat": 29.5495,
+   "lng": 35.394,
+   "desc": "Estrecha garganta con petroglifos antiguos."
+  },
+  {
+   "id": "w_pet_lawrence_spring",
+   "cat": "nature",
+   "name": "Manantial de Lawrence",
+   "icon": "💧",
+   "lat": 29.5746,
+   "lng": 35.4106,
+   "desc": "Fuente en la ladera evocada por T. E. Lawrence."
+  },
+  {
+   "id": "w_pet_petra_night",
+   "cat": "ocio",
+   "name": "Petra by Night",
+   "icon": "🕯️",
+   "lat": 30.32276,
+   "lng": 35.45195,
+   "desc": "Recorrido nocturno al Tesoro a la luz de las velas."
+  },
+  {
+   "id": "w_pet_museo",
+   "cat": "ocio",
+   "name": "Museo de Petra",
+   "icon": "🏺",
+   "lat": 30.3223,
+   "lng": 35.457,
+   "desc": "Museo moderno sobre la civilización nabatea."
+  },
+  {
+   "id": "w_pet_basin_restaurant",
+   "cat": "food",
+   "name": "The Basin Restaurant",
+   "icon": "🍽️",
+   "lat": 30.3293,
+   "lng": 35.4392,
+   "desc": "Bufé dentro del yacimiento junto a Qasr al-Bint."
+  },
+  {
+   "id": "w_pet_my_moms_recipe",
+   "cat": "food",
+   "name": "My Mom's Recipe",
+   "icon": "🍲",
+   "lat": 30.3224,
+   "lng": 35.4825,
+   "desc": "Cocina jordana casera en Wadi Musa."
+  }
+ ],
+ "extra": {
+  "w_pet_khazneh": {
+   "id": "w_pet_khazneh",
+   "d": "Al-Khazneh, el Tesoro, es la imagen más célebre de Petra: una fachada de casi 40 m tallada en el siglo I en arenisca rosa. Aunque se le llamó 'tesoro', fue un mausoleo real nabateo.",
+   "d_en": "Al-Khazneh, the Treasury, is Petra's most famous image: a nearly 40 m facade carved in the 1st century into rose sandstone. Despite its name, it was a royal Nabataean mausoleum.",
+   "h": "Aparece de golpe al salir del Siq; la mejor luz es por la mañana.",
+   "h_en": "It appears suddenly as you exit the Siq; best light is in the morning.",
+   "i": "Fue escenario de la película Indiana Jones y la última cruzada.",
+   "i_en": "It featured as a location in Indiana Jones and the Last Crusade."
+  },
+  "w_pet_siq": {
+   "id": "w_pet_siq",
+   "d": "El Siq es un cañón estrecho y sinuoso de más de un kilómetro, con paredes de hasta 180 m. Conserva restos del acueducto nabateo, nichos votivos y relieves de camellos que anticipan la llegada al Tesoro.",
+   "d_en": "The Siq is a narrow, winding canyon over a kilometre long, with walls up to 180 m high. It preserves the Nabataean water channel, votive niches and camel reliefs that build up to the Treasury.",
+   "h": "Se recorre a pie o en calesa; fíjate en el canal de agua tallado en la pared.",
+   "h_en": "Walk it or take a horse cart; look for the water channel carved into the wall.",
+   "i": "Fue formado por una falla tectónica, no por la erosión del agua.",
+   "i_en": "It was formed by a tectonic fault, not by water erosion."
+  },
+  "w_pet_deir": {
+   "id": "w_pet_deir",
+   "d": "Ad-Deir, el Monasterio, es la mayor fachada de Petra, con casi 50 m de ancho. Tallada en el siglo I, se usó como templo y más tarde como capilla cristiana, de ahí su nombre.",
+   "d_en": "Ad-Deir, the Monastery, is Petra's largest facade, nearly 50 m wide. Carved in the 1st century, it served as a temple and later a Christian chapel, hence its name.",
+   "h": "Sube por la mañana o al atardecer; hay cafés beduinos arriba con vistas.",
+   "h_en": "Climb in the morning or late afternoon; Bedouin cafes at the top offer views.",
+   "i": "La urna que corona la fachada mide unos 9 m de altura.",
+   "i_en": "The urn crowning the facade is about 9 m tall."
+  },
+  "w_pet_teatro": {
+   "id": "w_pet_teatro",
+   "d": "Este teatro fue tallado directamente en la ladera por los nabateos en el siglo I y ampliado por los romanos. Sus gradas cortaron varias tumbas anteriores, aún visibles tras el escenario.",
+   "d_en": "This theatre was cut directly into the hillside by the Nabataeans in the 1st century and enlarged by the Romans. Its seating sliced through earlier tombs, still visible behind the stage.",
+   "h": "Se ve de camino entre la Calle de las Fachadas y las Tumbas Reales.",
+   "h_en": "You pass it between the Street of Facades and the Royal Tombs.",
+   "i": "Podía albergar a casi el 10% de la población de la antigua Petra.",
+   "i_en": "It could hold nearly 10% of ancient Petra's population."
+  },
+  "w_pet_tumbas_reales": {
+   "id": "w_pet_tumbas_reales",
+   "d": "Las Tumbas Reales agrupan grandes mausoleos tallados en la ladera de Al-Khubtha: la Tumba de la Urna, la de Seda, la Corintia y la del Palacio. La Tumba de la Urna se reconvirtió en iglesia bizantina.",
+   "d_en": "The Royal Tombs are a cluster of grand mausoleums carved into the Al-Khubtha cliff: the Urn, Silk, Corinthian and Palace tombs. The Urn Tomb was later turned into a Byzantine church.",
+   "h": "Suben unas escaleras desde la calle principal; la Tumba de Seda tiene vetas de colores.",
+   "h_en": "Steps lead up from the main street; the Silk Tomb has colourful mineral veins.",
+   "i": "Desde arriba parte el sendero que lleva al mirador sobre el Tesoro.",
+   "i_en": "From above starts the trail to the viewpoint over the Treasury."
+  },
+  "w_pet_altar": {
+   "id": "w_pet_altar",
+   "d": "El Altar del Sacrificio (High Place of Sacrifice) es un santuario al aire libre tallado en la cima de Jabal al-Madbah, con altares, canales para la sangre y ofrendas y vistas panorámicas de todo el valle de Petra.",
+   "d_en": "The High Place of Sacrifice is an open-air shrine carved atop Jabal al-Madbah, with altars, blood and libation channels and sweeping views over the whole Petra valley.",
+   "h": "Subida de unos 45 min por escalones; ideal al amanecer para evitar el calor.",
+   "h_en": "About a 45 min climb up steps; best at dawn to avoid the heat.",
+   "i": "Ofrece una de las mejores panorámicas de todo el yacimiento.",
+   "i_en": "It offers one of the best panoramas of the entire site."
+  },
+  "w_pet_calle_columnas": {
+   "id": "w_pet_calle_columnas",
+   "d": "La Calle de las Columnas (Cardo Máximo) era la arteria comercial de Petra, pavimentada por los romanos hacia el 106 d.C. La flanqueaban tiendas, templos y un arco monumental hoy desaparecido.",
+   "d_en": "The Colonnaded Street (Cardo Maximus) was Petra's commercial artery, paved by the Romans around 106 AD. It was lined with shops, temples and a now-lost monumental gate.",
+   "h": "Conecta el teatro con Qasr al-Bint y el Gran Templo.",
+   "h_en": "It links the theatre with Qasr al-Bint and the Great Temple.",
+   "i": "Aún se conservan tramos del pavimento romano original.",
+   "i_en": "Stretches of the original Roman paving still survive."
+  },
+  "w_pet_qasr_bint": {
+   "id": "w_pet_qasr_bint",
+   "d": "Qasr al-Bint es el templo mejor conservado de Petra, construido con bloques de piedra hacia el siglo I a.C. y dedicado probablemente al dios Dushara. Es una de las pocas estructuras no talladas en roca.",
+   "d_en": "Qasr al-Bint is Petra's best-preserved temple, built from stone blocks around the 1st century BC and likely dedicated to the god Dushara. It is one of the few free-standing structures, not rock-cut.",
+   "h": "Al final de la Calle de las Columnas, cerca del restaurante Basin.",
+   "h_en": "At the end of the Colonnaded Street, near the Basin restaurant.",
+   "i": "Su nombre significa 'Castillo de la hija', por una leyenda local.",
+   "i_en": "Its name means 'Castle of the Daughter', from a local legend."
+  },
+  "w_pet_gran_templo": {
+   "id": "w_pet_gran_templo",
+   "d": "El Gran Templo es uno de los complejos más extensos de Petra, con más de 7.000 m². Incluía patios columnados, escalinatas y un pequeño odeón; su función pudo ser religiosa o administrativa.",
+   "d_en": "The Great Temple is one of Petra's largest complexes, over 7,000 m². It had colonnaded courtyards, staircases and a small odeon; its function may have been religious or administrative.",
+   "h": "Junto a la Calle de las Columnas; buenas vistas desde su terraza superior.",
+   "h_en": "Beside the Colonnaded Street; good views from its upper terrace.",
+   "i": "Fue excavado por la Universidad Brown a partir de los años 90.",
+   "i_en": "It was excavated by Brown University from the 1990s onward."
+  },
+  "w_pet_calle_fachadas": {
+   "id": "w_pet_calle_fachadas",
+   "d": "La Calle de las Fachadas es un tramo con más de 40 tumbas talladas en la roca, de estilo asirio con remates escalonados. Marca la transición del Siq al centro monumental de Petra.",
+   "d_en": "The Street of Facades is a stretch of over 40 rock-cut tombs in Assyrian-style with stepped crowns. It marks the transition from the Siq to Petra's monumental centre.",
+   "h": "Empieza justo después del Tesoro, camino del teatro.",
+   "h_en": "It begins just after the Treasury, on the way to the theatre.",
+   "i": "Muchas de estas tumbas pertenecieron a familias nobles nabateas.",
+   "i_en": "Many of these tombs belonged to noble Nabataean families."
+  },
+  "w_pet_tumba_obelisco": {
+   "id": "w_pet_tumba_obelisco",
+   "d": "La Tumba del Obelisco combina un mausoleo coronado por cuatro obeliscos nabateos con el Triclinio Bab as-Siq debajo, usado para banquetes funerarios. Es lo primero que se ve al entrar en Petra.",
+   "d_en": "The Obelisk Tomb combines a mausoleum topped by four Nabataean obelisks with the Bab as-Siq Triclinium below, used for funerary banquets. It is one of the first monuments you see entering Petra.",
+   "h": "Está en el camino de acceso, antes de llegar al Siq.",
+   "h_en": "It stands on the access path, before you reach the Siq.",
+   "i": "Los obeliscos, o 'nefesh', simbolizaban las almas de los difuntos.",
+   "i_en": "The obelisks, or 'nefesh', symbolised the souls of the dead."
+  },
+  "w_pet_leones_alados": {
+   "id": "w_pet_leones_alados",
+   "d": "El Templo de los Leones Alados, del siglo I d.C., debe su nombre a los capiteles decorados con leones alados. Estaba consagrado probablemente a Al-Uzza o Atargatis, diosa de la fertilidad.",
+   "d_en": "The Temple of the Winged Lions, from the 1st century AD, is named for its capitals adorned with winged lions. It was likely dedicated to Al-Uzza or Atargatis, a fertility goddess.",
+   "h": "En la ladera norte, cruzando el lecho del Wadi Musa.",
+   "h_en": "On the north slope, across the Wadi Musa riverbed.",
+   "i": "Aquí se halló un taller con herramientas y pigmentos nabateos.",
+   "i_en": "A workshop with Nabataean tools and pigments was found here."
+  },
+  "w_pet_iglesia_bizantina": {
+   "id": "w_pet_iglesia_bizantina",
+   "d": "La Iglesia Bizantina de Petra conserva magníficos mosaicos de suelo con animales, estaciones y figuras mitológicas. En ella se descubrieron rollos de papiro carbonizados con documentos del siglo VI.",
+   "d_en": "Petra's Byzantine Church preserves splendid floor mosaics of animals, seasons and mythological figures. Here archaeologists found carbonised papyrus scrolls with 6th-century documents.",
+   "h": "Bajo una cubierta protectora en la colina norte.",
+   "h_en": "Under a protective canopy on the northern hill.",
+   "i": "Los papiros aportaron datos únicos sobre la vida bizantina en Petra.",
+   "i_en": "The papyri gave unique insights into Byzantine life in Petra."
+  },
+  "w_pet_um_biyara": {
+   "id": "w_pet_um_biyara",
+   "d": "Um al-Biyara es la meseta que domina el centro de Petra. En su cima hay restos de un asentamiento edomita del siglo VII a.C. y cisternas talladas, además de vistas espectaculares del valle.",
+   "d_en": "Um al-Biyara is the plateau towering over central Petra. Its summit holds remains of a 7th-century BC Edomite settlement and rock-cut cisterns, plus spectacular valley views.",
+   "h": "Ascenso exigente por un sendero tallado; guía recomendado.",
+   "h_en": "A demanding climb up a carved trail; a guide is recommended.",
+   "i": "Su nombre significa 'madre de las cisternas' por sus depósitos de agua.",
+   "i_en": "Its name means 'mother of cisterns' for its water tanks."
+  },
+  "w_pet_ain_musa": {
+   "id": "w_pet_ain_musa",
+   "d": "Ain Musa, a la entrada de Wadi Musa, es el manantial que la tradición asocia con la roca golpeada por Moisés. Sus aguas abastecieron a la antigua Petra a través del acueducto nabateo.",
+   "d_en": "Ain Musa, at the edge of Wadi Musa, is the spring tradition links to the rock struck by Moses. Its waters fed ancient Petra through the Nabataean aqueduct.",
+   "h": "Protegido por un pequeño pabellón de tres cúpulas junto a la carretera.",
+   "h_en": "Sheltered by a small three-domed pavilion beside the road.",
+   "i": "Da nombre a la localidad de Wadi Musa, 'el valle de Moisés'.",
+   "i_en": "It gives the town of Wadi Musa its name, 'the valley of Moses'."
+  },
+  "w_pet_little_petra": {
+   "id": "w_pet_little_petra",
+   "d": "Siq al-Barid, la 'Pequeña Petra', era un suburbio caravanero de Petra. En su estrecho cañón se conservan viviendas, triclinios y el raro fresco pintado de la Casa Pintada, con vides y aves.",
+   "d_en": "Siq al-Barid, 'Little Petra', was a caravan suburb of Petra. Its narrow canyon preserves dwellings, triclinia and the rare painted fresco of the Painted House, with vines and birds.",
+   "h": "A unos 10 km de Wadi Musa; entrada gratuita y menos concurrida.",
+   "h_en": "About 10 km from Wadi Musa; free entry and far less crowded.",
+   "i": "Cerca se halla Beidha, uno de los poblados neolíticos más antiguos.",
+   "i_en": "Nearby lies Beidha, one of the oldest Neolithic villages."
+  },
+  "w_pet_wadi_rum": {
+   "id": "w_pet_wadi_rum",
+   "d": "Wadi Rum, el 'Valle de la Luna', es un desierto protegido por la UNESCO con dunas rojas, cañones y montañas de granito y arenisca. Habitado por beduinos y salpicado de petroglifos milenarios.",
+   "d_en": "Wadi Rum, the 'Valley of the Moon', is a UNESCO-protected desert of red dunes, canyons and granite-and-sandstone mountains. It is home to Bedouins and dotted with ancient petroglyphs.",
+   "h": "A ~1,5–2 h de Petra; se visita en tours 4x4 o campamentos nocturnos.",
+   "h_en": "About 1.5–2 h from Petra; visited by 4x4 tours or overnight camps.",
+   "i": "Aquí se rodaron películas como Lawrence de Arabia, Marte y Dune.",
+   "i_en": "Films like Lawrence of Arabia, The Martian and Dune were shot here."
+  },
+  "w_pet_umm_fruth": {
+   "id": "w_pet_umm_fruth",
+   "d": "El puente de roca de Umm Fruth es uno de los arcos naturales más fotografiados de Wadi Rum. Se alza directamente desde la arena y se puede escalar hasta lo alto para admirar el desierto.",
+   "d_en": "The Umm Fruth rock bridge is one of Wadi Rum's most photographed natural arches. It rises straight from the sand and can be climbed to the top for desert views.",
+   "h": "Parada habitual en los tours 4x4 por el desierto.",
+   "h_en": "A common stop on 4x4 desert tours.",
+   "i": "Mide unos 15 m de altura y se sube sin equipo técnico.",
+   "i_en": "It stands about 15 m high and can be climbed without gear."
+  },
+  "w_pet_khazali": {
+   "id": "w_pet_khazali",
+   "d": "El cañón de Khazali, en Wadi Rum, es una fisura estrecha en la montaña con inscripciones y grabados nabateos y tamúdicos de personas, animales y pies. Ofrece sombra y pozas de agua tras las lluvias.",
+   "d_en": "Khazali Canyon in Wadi Rum is a narrow cleft in the mountain with Nabataean and Thamudic inscriptions and carvings of people, animals and feet. It offers shade and rain pools.",
+   "h": "Se explora a pie unos cientos de metros hacia el interior.",
+   "h_en": "Explored on foot a few hundred metres inward.",
+   "i": "Algunos grabados tienen más de 2.000 años de antigüedad.",
+   "i_en": "Some carvings are over 2,000 years old."
+  },
+  "w_pet_lawrence_spring": {
+   "id": "w_pet_lawrence_spring",
+   "d": "El Manantial de Lawrence (Ain Shalaaleh) brota en la ladera de Jabal Rum entre higueras y vegetación. Lawrence de Arabia lo describió en 'Los siete pilares de la sabiduría' durante la revuelta árabe.",
+   "d_en": "Lawrence's Spring (Ain Shalaaleh) rises on the slope of Jabal Rum among fig trees and greenery. T. E. Lawrence described it in 'Seven Pillars of Wisdom' during the Arab Revolt.",
+   "h": "Corta subida desde el valle; parada frecuente en los tours.",
+   "h_en": "A short climb from the valley floor; a frequent tour stop.",
+   "i": "Cerca hay inscripciones nabateas talladas en la roca.",
+   "i_en": "Nabataean inscriptions are carved in the rock nearby."
+  },
+  "w_pet_petra_night": {
+   "id": "w_pet_petra_night",
+   "d": "Petra by Night ilumina el Siq y la explanada del Tesoro con más de 1.500 farolillos. Se acompaña de música beduina tradicional y té bajo las estrellas frente a la fachada iluminada.",
+   "d_en": "Petra by Night lights the Siq and the Treasury forecourt with over 1,500 candle lanterns, accompanied by traditional Bedouin music and tea beneath the stars before the glowing facade.",
+   "h": "Solo lunes, miércoles y jueves; entrada aparte, hacia las 20:30.",
+   "h_en": "Only Monday, Wednesday and Thursday; separate ticket, around 20:30.",
+   "i": "El espectáculo dura unas dos horas incluyendo el paseo por el Siq.",
+   "i_en": "The show lasts about two hours including the Siq walk."
+  },
+  "w_pet_museo": {
+   "id": "w_pet_museo",
+   "d": "El Museo de Petra, inaugurado en 2019 junto al Centro de Visitantes, expone más de 280 piezas: esculturas, cerámica, monedas e inscripciones que explican la historia y la ingeniería hidráulica nabatea.",
+   "d_en": "The Petra Museum, opened in 2019 beside the Visitor Center, displays over 280 artefacts: sculptures, pottery, coins and inscriptions explaining Nabataean history and water engineering.",
+   "h": "Entrada gratuita; ideal antes o después de recorrer el yacimiento.",
+   "h_en": "Free entry; ideal before or after touring the site.",
+   "i": "Fue construido con apoyo de la cooperación japonesa (JICA).",
+   "i_en": "It was built with support from Japanese cooperation (JICA)."
+  },
+  "w_pet_basin_restaurant": {
+   "id": "w_pet_basin_restaurant",
+   "d": "The Basin es el principal restaurante dentro de Petra, gestionado por Crowne Plaza, con un amplio bufé de platos jordanos e internacionales y terraza sombreada. Práctico para reponer fuerzas antes del Monasterio.",
+   "d_en": "The Basin is Petra's main in-site restaurant, run by Crowne Plaza, with a large buffet of Jordanian and international dishes and a shaded terrace. Handy for refuelling before the Monastery.",
+   "h": "Al final de la Calle de las Columnas, en el corazón del valle.",
+   "h_en": "At the end of the Colonnaded Street, in the heart of the valley.",
+   "i": "Es de los pocos sitios con comida sentada dentro del recinto.",
+   "i_en": "It is one of few sit-down dining spots inside the grounds."
+  },
+  "w_pet_my_moms_recipe": {
+   "id": "w_pet_my_moms_recipe",
+   "d": "My Mom's Recipe es un restaurante familiar de Wadi Musa muy valorado por su maqluba, mansaf y mezze caseros. Ambiente acogedor y buenas opciones vegetarianas a precios razonables tras la visita a Petra.",
+   "d_en": "My Mom's Recipe is a family-run Wadi Musa restaurant loved for its home-cooked maqluba, mansaf and mezze. Cosy atmosphere and good vegetarian options at fair prices after visiting Petra.",
+   "h": "En la calle principal de Wadi Musa, cerca de los hoteles.",
+   "h_en": "On Wadi Musa's main street, near the hotels.",
+   "i": "El mansaf, cordero con yogur y arroz, es el plato nacional jordano.",
+   "i_en": "Mansaf, lamb with yogurt and rice, is Jordan's national dish."
+  }
+ },
+ "food": {
+  "w_pet_basin_restaurant": {
+   "cuisine": "Jordana / Internacional (bufé)",
+   "price": "18–30 €",
+   "hours": "11:00–15:30"
+  },
+  "w_pet_my_moms_recipe": {
+   "cuisine": "Jordana tradicional",
+   "price": "10–20 €",
+   "hours": "12:00–22:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Petra / Wadi Musa",
+   "items": [
+    {
+     "name": "Botella de arena de colores",
+     "price": "3–15 €",
+     "desc": "Arte beduino de arena teñida del desierto formando paisajes y camellos dentro de una botella de cristal."
+    },
+    {
+     "name": "Joyería beduina de plata",
+     "price": "10–60 €",
+     "desc": "Pendientes, pulseras y colgantes de plata con motivos nabateos y piedras del desierto."
+    },
+    {
+     "name": "Keffiyeh (pañuelo)",
+     "price": "5–15 €",
+     "desc": "Pañuelo tradicional rojo o blanco, ideal para protegerse del sol y el polvo."
+    },
+    {
+     "name": "Productos del Mar Muerto",
+     "price": "5–25 €",
+     "desc": "Sales, barro y jabones ricos en minerales del Mar Muerto."
+    },
+    {
+     "name": "Za'atar y especias",
+     "price": "3–10 €",
+     "desc": "Mezcla de tomillo, sésamo y zumaque; también dátiles y té beduino con salvia."
+    }
+   ],
+   "shops": [
+    "Puestos beduinos a lo largo del Siq y la Calle de las Columnas",
+    "Tiendas del Centro de Visitantes de Petra",
+    "Made in Jordan (Wadi Musa)",
+    "Bazares de la calle principal de Wadi Musa"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Compra la entrada en el Centro de Visitantes o incluye Petra en el Jordan Pass (más económico si vuelas y necesitas visado).",
+   "Empieza a primera hora: el Tesoro se ilumina mejor por la mañana y evitas el calor y las multitudes.",
+   "Lleva calzado cómodo y mucha agua: la subida al Monasterio son unos 850 escalones (1–1,5 h ida).",
+   "Petra by Night solo opera lunes, miércoles y jueves; requiere entrada aparte y se reserva con antelación.",
+   "Regatea con respeto en los puestos y para paseos en burro o camello; acuerda el precio antes de subir."
+  ],
+  "en": [
+   "Buy tickets at the Visitor Center or bundle Petra into the Jordan Pass (cheaper if you fly in and need a visa).",
+   "Start early: the Treasury is best lit in the morning and you avoid the heat and crowds.",
+   "Wear sturdy shoes and carry plenty of water: the Monastery climb is about 850 steps (1–1.5 h up).",
+   "Petra by Night runs only Monday, Wednesday and Thursday; it needs a separate ticket booked in advance.",
+   "Haggle politely at stalls and for donkey or camel rides; agree the price before you get on."
+  ]
+ },
+ "climate": {
+  "hi": [
+   12,
+   13,
+   17,
+   22,
+   27,
+   30,
+   32,
+   32,
+   29,
+   25,
+   18,
+   13
+  ],
+  "lo": [
+   3,
+   4,
+   6,
+   9,
+   13,
+   16,
+   18,
+   18,
+   15,
+   12,
+   8,
+   4
+  ]
+ },
+ "tr": {
+  "La icónica fachada tallada en roca rosada al final del Siq.": "The iconic rose-rock facade at the end of the Siq.",
+  "Desfiladero natural de 1,2 km que da acceso a Petra.": "The 1.2 km natural gorge leading into Petra.",
+  "Monumento colosal de 47 m tras 850 escalones.": "Colossal 47 m monument reached by 850 steps.",
+  "Anfiteatro nabateo excavado en la roca para 8.500 personas.": "Nabataean theatre cut into the rock for 8,500 people.",
+  "Fila de fachadas monumentales sobre el valle.": "Row of monumental facades above the valley.",
+  "Lugar de culto nabateo en lo alto de una montaña.": "Nabataean high place of worship atop a mountain.",
+  "Vía principal columnada del corazón de Petra.": "Colonnaded main street at the heart of Petra.",
+  "Principal templo nabateo aún en pie de Petra.": "Petra's main surviving Nabataean temple.",
+  "Amplio complejo monumental nabateo con teatrillo.": "Large Nabataean monumental complex with a small theatre.",
+  "Hilera de tumbas nabateas tras el Tesoro.": "Row of Nabataean tombs beyond the Treasury.",
+  "Tumba con cuatro obeliscos junto al Bab as-Siq.": "Tomb with four obelisks by the Bab as-Siq.",
+  "Templo nabateo dedicado a una diosa suprema.": "Nabataean temple dedicated to a supreme goddess.",
+  "Basílica del siglo V con mosaicos conservados.": "5th-century basilica with preserved mosaics.",
+  "La montaña más alta de Petra con ruinas edomitas.": "Petra's highest mountain with Edomite ruins.",
+  "Manantial ligado a la tradición de Moisés.": "Spring linked to the tradition of Moses.",
+  "Cañón nabateo con casas y frescos tallados.": "Nabataean canyon with rock-cut houses and frescoes.",
+  "Desierto de arena roja y montañas monumentales.": "Desert of red sand and towering mountains.",
+  "Arco natural escalable en pleno Wadi Rum.": "Climbable natural rock arch in Wadi Rum.",
+  "Estrecha garganta con petroglifos antiguos.": "Narrow gorge with ancient petroglyphs.",
+  "Fuente en la ladera evocada por T. E. Lawrence.": "Hillside spring evoked by T. E. Lawrence.",
+  "Recorrido nocturno al Tesoro a la luz de las velas.": "Nighttime walk to the Treasury by candlelight.",
+  "Museo moderno sobre la civilización nabatea.": "Modern museum on the Nabataean civilisation.",
+  "Bufé dentro del yacimiento junto a Qasr al-Bint.": "Buffet inside the site near Qasr al-Bint.",
+  "Cocina jordana casera en Wadi Musa.": "Home-style Jordanian cooking in Wadi Musa.",
+  "Petra / Wadi Musa": "Petra / Wadi Musa"
+ }
+}

@@ -1,0 +1,746 @@
+{
+ "id": "kioto",
+ "name": "Kioto",
+ "country": "WORLD",
+ "center": [
+  35.0116,
+  135.7681
+ ],
+ "pois": [
+  {
+   "id": "w_kio_fushimi_inari",
+   "cat": "monuments",
+   "name": "Fushimi Inari Taisha",
+   "icon": "⛩️",
+   "lat": 34.96714,
+   "lng": 135.77266,
+   "desc": "Santuario sintoísta con miles de toriis rojos por la montaña."
+  },
+  {
+   "id": "w_kio_kinkakuji",
+   "cat": "monuments",
+   "name": "Kinkaku-ji (Pabellón Dorado)",
+   "icon": "🏯",
+   "lat": 35.03937,
+   "lng": 135.72922,
+   "desc": "Templo zen recubierto de pan de oro sobre un estanque."
+  },
+  {
+   "id": "w_kio_kiyomizudera",
+   "cat": "monuments",
+   "name": "Kiyomizu-dera",
+   "icon": "🏯",
+   "lat": 34.99479,
+   "lng": 135.78498,
+   "desc": "Templo de madera con gran terraza sobre la ladera."
+  },
+  {
+   "id": "w_kio_ginkakuji",
+   "cat": "monuments",
+   "name": "Ginkaku-ji (Pabellón de Plata)",
+   "icon": "🏯",
+   "lat": 35.02703,
+   "lng": 135.7982,
+   "desc": "Villa zen con exquisito jardín seco y de musgo."
+  },
+  {
+   "id": "w_kio_nijo",
+   "cat": "monuments",
+   "name": "Castillo Nijo",
+   "icon": "🏯",
+   "lat": 35.01419,
+   "lng": 135.74815,
+   "desc": "Castillo del shogunato con suelos 'ruiseñor' y jardines."
+  },
+  {
+   "id": "w_kio_sanjusangendo",
+   "cat": "monuments",
+   "name": "Sanjusangendo",
+   "icon": "🏯",
+   "lat": 34.98784,
+   "lng": 135.77177,
+   "desc": "Sala budista con 1.001 estatuas doradas de Kannon."
+  },
+  {
+   "id": "w_kio_tenryuji",
+   "cat": "monuments",
+   "name": "Tenryu-ji",
+   "icon": "🏯",
+   "lat": 35.01573,
+   "lng": 135.6738,
+   "desc": "Templo zen en Arashiyama con jardín paisajístico clásico."
+  },
+  {
+   "id": "w_kio_imperial_palace",
+   "cat": "monuments",
+   "name": "Palacio Imperial de Kioto",
+   "icon": "🏯",
+   "lat": 35.02556,
+   "lng": 135.7621,
+   "desc": "Antigua residencia imperial en un vasto parque central."
+  },
+  {
+   "id": "w_kio_toji",
+   "cat": "monuments",
+   "name": "To-ji",
+   "icon": "🏯",
+   "lat": 34.98098,
+   "lng": 135.74764,
+   "desc": "Templo con la pagoda de madera más alta de Japón."
+  },
+  {
+   "id": "w_kio_ryoanji",
+   "cat": "monuments",
+   "name": "Ryoan-ji",
+   "icon": "🏯",
+   "lat": 35.03452,
+   "lng": 135.71829,
+   "desc": "Célebre jardín seco zen de quince rocas y grava."
+  },
+  {
+   "id": "w_kio_nanzenji",
+   "cat": "monuments",
+   "name": "Nanzen-ji",
+   "icon": "🏯",
+   "lat": 35.0112,
+   "lng": 135.79437,
+   "desc": "Gran templo zen con puerta monumental y acueducto."
+  },
+  {
+   "id": "w_kio_heian",
+   "cat": "monuments",
+   "name": "Santuario Heian",
+   "icon": "⛩️",
+   "lat": 35.01639,
+   "lng": 135.78254,
+   "desc": "Santuario de vivo color con enorme torii y jardín."
+  },
+  {
+   "id": "w_kio_yasaka",
+   "cat": "monuments",
+   "name": "Santuario Yasaka",
+   "icon": "⛩️",
+   "lat": 35.00354,
+   "lng": 135.77854,
+   "desc": "Santuario animado entre Gion y el parque Maruyama."
+  },
+  {
+   "id": "w_kio_bosque_bambu",
+   "cat": "nature",
+   "name": "Bosque de bambú de Arashiyama",
+   "icon": "🎋",
+   "lat": 35.017,
+   "lng": 135.67161,
+   "desc": "Sendero mágico entre altísimos bambúes verdes."
+  },
+  {
+   "id": "w_kio_filosofos",
+   "cat": "nature",
+   "name": "Paseo del Filósofo",
+   "icon": "🌸",
+   "lat": 35.02682,
+   "lng": 135.795,
+   "desc": "Sendero junto a un canal bordeado de cerezos."
+  },
+  {
+   "id": "w_kio_maruyama",
+   "cat": "nature",
+   "name": "Parque Maruyama",
+   "icon": "🌳",
+   "lat": 35.0033,
+   "lng": 135.7813,
+   "desc": "Parque histórico famoso por su cerezo llorón."
+  },
+  {
+   "id": "w_kio_jardin_botanico",
+   "cat": "nature",
+   "name": "Jardín Botánico de Kioto",
+   "icon": "🌷",
+   "lat": 35.04972,
+   "lng": 135.76472,
+   "desc": "Amplio jardín botánico junto al río Kamo."
+  },
+  {
+   "id": "w_kio_kamogawa",
+   "cat": "nature",
+   "name": "Río Kamo (Kamogawa)",
+   "icon": "🏞️",
+   "lat": 35.01139,
+   "lng": 135.77222,
+   "desc": "Ribera para pasear, correr y sentarse en la ciudad."
+  },
+  {
+   "id": "w_kio_togetsukyo",
+   "cat": "nature",
+   "name": "Puente Togetsukyo",
+   "icon": "🌉",
+   "lat": 35.01283,
+   "lng": 135.67783,
+   "desc": "Puente icónico sobre el río en Arashiyama."
+  },
+  {
+   "id": "w_kio_monkey_park",
+   "cat": "nature",
+   "name": "Parque de monos Iwatayama",
+   "icon": "🐒",
+   "lat": 35.00889,
+   "lng": 135.67611,
+   "desc": "Monos salvajes en libertad con vistas de la ciudad."
+  },
+  {
+   "id": "w_kio_gion",
+   "cat": "ocio",
+   "name": "Barrio de Gion",
+   "icon": "🏮",
+   "lat": 35.00363,
+   "lng": 135.77515,
+   "desc": "Distrito histórico de geishas, teatros y casas de té."
+  },
+  {
+   "id": "w_kio_kyoto_tower",
+   "cat": "ocio",
+   "name": "Torre de Kioto",
+   "icon": "🗼",
+   "lat": 34.9875,
+   "lng": 135.75917,
+   "desc": "Mirador de 131 m frente a la estación central."
+  },
+  {
+   "id": "w_kio_railway_museum",
+   "cat": "ocio",
+   "name": "Museo del Ferrocarril de Kioto",
+   "icon": "🚂",
+   "lat": 34.98861,
+   "lng": 135.73972,
+   "desc": "Gran museo con locomotoras y simuladores."
+  },
+  {
+   "id": "w_kio_manga_museum",
+   "cat": "ocio",
+   "name": "Museo Internacional del Manga",
+   "icon": "📚",
+   "lat": 35.01167,
+   "lng": 135.75944,
+   "desc": "Museo-biblioteca con 300.000 mangas para leer."
+  },
+  {
+   "id": "w_kio_higashiyama",
+   "cat": "ocio",
+   "name": "Sannenzaka y Ninenzaka",
+   "icon": "⛩️",
+   "lat": 34.99694,
+   "lng": 135.78167,
+   "desc": "Calles empedradas históricas camino de Kiyomizu."
+  },
+  {
+   "id": "w_kio_toei_studio",
+   "cat": "ocio",
+   "name": "Toei Kyoto Studio Park",
+   "icon": "🎬",
+   "lat": 35.01556,
+   "lng": 135.70861,
+   "desc": "Parque temático y plató de cine de época samurái."
+  },
+  {
+   "id": "w_kio_nishiki",
+   "cat": "food",
+   "name": "Mercado de Nishiki",
+   "icon": "🍢",
+   "lat": 35.005,
+   "lng": 135.76472,
+   "desc": "La 'cocina de Kioto': calle-mercado de 400 puestos."
+  },
+  {
+   "id": "w_kio_pontocho",
+   "cat": "food",
+   "name": "Callejón de Pontocho",
+   "icon": "🏮",
+   "lat": 35.00611,
+   "lng": 135.77083,
+   "desc": "Estrecho callejón de restaurantes junto al río."
+  },
+  {
+   "id": "w_kio_ramen_koji",
+   "cat": "food",
+   "name": "Kyoto Ramen Koji",
+   "icon": "🍜",
+   "lat": 34.98556,
+   "lng": 135.75917,
+   "desc": "Calle de ramen con chefs de todo Japón."
+  },
+  {
+   "id": "w_kio_yudofu",
+   "cat": "food",
+   "name": "Yudofu de Nanzen-ji",
+   "icon": "🍲",
+   "lat": 35.00944,
+   "lng": 135.79306,
+   "desc": "Tofu hervido, plato zen histórico de la zona."
+  },
+  {
+   "id": "w_kio_matcha",
+   "cat": "food",
+   "name": "Casa de té matcha (Gion)",
+   "icon": "🍵",
+   "lat": 35.00389,
+   "lng": 135.77417,
+   "desc": "Té verde matcha y dulces wagashi en Gion."
+  },
+  {
+   "id": "w_kio_nishin_soba",
+   "cat": "food",
+   "name": "Nishin soba (Honke Owariya)",
+   "icon": "🍜",
+   "lat": 35.01472,
+   "lng": 135.76083,
+   "desc": "Fideos soba con arenque, plato típico kiotense."
+  }
+ ],
+ "extra": {
+  "w_kio_fushimi_inari": {
+   "id": "w_kio_fushimi_inari",
+   "d": "El santuario más famoso de Kioto, dedicado a Inari, deidad del arroz y la prosperidad. Miles de toriis bermellón donados por empresas forman túneles que ascienden 4 km por el monte Inari, salpicados de estatuas de zorros (kitsune), mensajeros de la deidad. Fundado en el año 711, es la cabecera de unos 30.000 santuarios Inari de Japón.",
+   "d_en": "Kyoto's most famous shrine, dedicated to Inari, deity of rice and prosperity. Thousands of vermilion torii donated by businesses form tunnels climbing 4 km up Mount Inari, dotted with fox (kitsune) statues, the deity's messengers. Founded in 711, it is the head of some 30,000 Inari shrines across Japan.",
+   "h": "Abierto 24 horas todos los días; recinto siempre accesible.",
+   "h_en": "Open 24 hours every day; grounds always accessible.",
+   "i": "Ve al amanecer o de noche para evitar multitudes. La subida completa a la cima lleva 2-3 h; gratis.",
+   "i_en": "Go at dawn or at night to avoid crowds. The full climb to the summit takes 2-3 h; free."
+  },
+  "w_kio_kinkakuji": {
+   "id": "w_kio_kinkakuji",
+   "d": "El Pabellón Dorado es un templo zen cuyas dos plantas superiores están cubiertas de pan de oro puro, reflejándose en el estanque Kyoko-chi (espejo de agua). Construido en 1397 como villa de retiro del shogun Ashikaga Yoshimitsu, fue incendiado en 1950 por un monje y reconstruido en 1955. Es Patrimonio de la Humanidad.",
+   "d_en": "The Golden Pavilion is a Zen temple whose two upper floors are covered in pure gold leaf, mirrored in the Kyoko-chi (mirror pond). Built in 1397 as a retirement villa for shogun Ashikaga Yoshimitsu, it was burned down by a monk in 1950 and rebuilt in 1955. It is a World Heritage Site.",
+   "h": "Todos los días 9:00-17:00.",
+   "h_en": "Daily 9:00-17:00.",
+   "i": "Entrada unos 500 ¥. Recorrido de un solo sentido; la mejor foto es desde la orilla del estanque.",
+   "i_en": "Admission about 500 yen. One-way route; the best photo is from the pond's edge."
+  },
+  "w_kio_kiyomizudera": {
+   "id": "w_kio_kiyomizudera",
+   "d": "Templo budista fundado en 778, célebre por su enorme terraza de madera sostenida por 168 pilares sin un solo clavo, a 13 m sobre la ladera. Bajo el templo, la cascada Otowa ofrece tres corrientes de agua sagrada (salud, amor y éxito). Es Patrimonio de la Humanidad y punto álgido en primavera y otoño.",
+   "d_en": "Buddhist temple founded in 778, famed for its huge wooden terrace held up by 168 pillars without a single nail, 13 m above the slope. Below the temple, the Otowa waterfall offers three sacred streams (health, love and success). A World Heritage Site, stunning in spring and autumn.",
+   "h": "Todos los días 6:00-18:00 (aperturas nocturnas en temporada).",
+   "h_en": "Daily 6:00-18:00 (night openings in season).",
+   "i": "Entrada unos 500 ¥. Sube por las calles Sannenzaka y Ninenzaka; hay iluminaciones nocturnas especiales.",
+   "i_en": "Admission about 500 yen. Climb via the Sannenzaka and Ninenzaka lanes; special night illuminations occur."
+  },
+  "w_kio_ginkakuji": {
+   "id": "w_kio_ginkakuji",
+   "d": "El Pabellón de Plata, pese al nombre, nunca fue recubierto de plata. Construido en 1482 como retiro del shogun Ashikaga Yoshimasa, encarna la estética wabi-sabi. Destacan su cono de arena rastrillada 'Kogetsudai' (que evoca el monte Fuji), el mar de arena plateada y un jardín de musgo con senda ascendente y vistas de la ciudad.",
+   "d_en": "The Silver Pavilion, despite its name, was never coated in silver. Built in 1482 as shogun Ashikaga Yoshimasa's retreat, it embodies wabi-sabi aesthetics. Highlights include the raked-sand cone 'Kogetsudai' (evoking Mount Fuji), the silvery sand sea and a moss garden with a rising path and city views.",
+   "h": "Todos los días 8:30-17:00 (invierno 9:00-16:30).",
+   "h_en": "Daily 8:30-17:00 (winter 9:00-16:30).",
+   "i": "Entrada unos 500 ¥. Empieza el Paseo del Filósofo aquí, en dirección sur.",
+   "i_en": "Admission about 500 yen. Start the Philosopher's Path here, heading south."
+  },
+  "w_kio_nijo": {
+   "id": "w_kio_nijo",
+   "d": "Residencia oficial en Kioto del shogun Tokugawa Ieyasu, terminada en 1626. El palacio Ninomaru destaca por sus 'suelos ruiseñor' que cantan al pisarlos para alertar de intrusos, sus pinturas doradas de la escuela Kano y sus fosos y murallas. Aquí se anunció en 1867 la restauración del poder imperial. Patrimonio de la Humanidad.",
+   "d_en": "The Kyoto official residence of shogun Tokugawa Ieyasu, completed in 1626. The Ninomaru Palace is famous for its 'nightingale floors' that chirp underfoot to warn of intruders, its gilded Kano-school paintings and its moats and walls. The 1867 return of power to the emperor was announced here. A World Heritage Site.",
+   "h": "Todos los días 8:45-16:00 (recinto hasta 17:00).",
+   "h_en": "Daily 8:45-16:00 (grounds until 17:00).",
+   "i": "Entrada unos 1.300 ¥. El palacio Ninomaru cierra algunos martes; consulta antes.",
+   "i_en": "Admission about 1,300 yen. Ninomaru Palace closes some Tuesdays; check ahead."
+  },
+  "w_kio_sanjusangendo": {
+   "id": "w_kio_sanjusangendo",
+   "d": "Templo de 1164 cuya sala principal, de 120 m de largo, es el edificio de madera más largo de Japón. Alberga 1.001 estatuas de madera dorada de la diosa Kannon de mil brazos, alineadas en filas, con la gran Kannon sedente en el centro y 28 deidades guardianas. Un espectáculo abrumador de arte budista.",
+   "d_en": "A temple from 1164 whose 120-m-long main hall is the longest wooden building in Japan. It houses 1,001 gilded wooden statues of the thousand-armed goddess Kannon in ranks, with a great seated Kannon at the centre and 28 guardian deities. An overwhelming spectacle of Buddhist art.",
+   "h": "Todos los días 8:30-17:00 (invierno 9:00-16:00).",
+   "h_en": "Daily 8:30-17:00 (winter 9:00-16:00).",
+   "i": "Entrada unos 600 ¥. Prohibido fotografiar el interior; en enero se celebra el concurso de tiro con arco.",
+   "i_en": "Admission about 600 yen. Interior photography is banned; January hosts the archery contest."
+  },
+  "w_kio_tenryuji": {
+   "id": "w_kio_tenryuji",
+   "d": "Templo principal de su rama zen, fundado en 1339 en memoria del emperador Go-Daigo. Su jardín Sogenchi, obra del maestro Muso Soseki, es el primer jardín designado Lugar Escénico Especial de Japón y conserva el diseño original de hace 700 años, integrando el estanque con las montañas de Arashiyama como paisaje prestado. Patrimonio de la Humanidad.",
+   "d_en": "Head temple of its Zen branch, founded in 1339 in memory of Emperor Go-Daigo. Its Sogenchi garden, by master Muso Soseki, is Japan's first designated Special Place of Scenic Beauty and keeps its 700-year-old original design, blending the pond with the Arashiyama mountains as borrowed scenery. A World Heritage Site.",
+   "h": "Todos los días 8:30-17:00.",
+   "h_en": "Daily 8:30-17:00.",
+   "i": "Entrada al jardín unos 500 ¥. La puerta norte da directo al bosque de bambú.",
+   "i_en": "Garden admission about 500 yen. The north gate leads straight into the bamboo grove."
+  },
+  "w_kio_imperial_palace": {
+   "id": "w_kio_imperial_palace",
+   "d": "Residencia de los emperadores de Japón hasta 1868, cuando la capital pasó a Tokio. Reconstruido en 1855 en estilo tradicional, conserva salones ceremoniales, la Puerta Shishinden para entronizaciones y jardines. Se sitúa en el amplio Parque Imperial (Gyoen), pulmón verde de la ciudad con ciruelos y cerezos.",
+   "d_en": "Residence of Japan's emperors until 1868, when the capital moved to Tokyo. Rebuilt in 1855 in traditional style, it preserves ceremonial halls, the Shishinden Gate used for enthronements and gardens. It stands in the broad Imperial Park (Gyoen), the city's green lung with plum and cherry trees.",
+   "h": "Mar-Sep 9:00-17:00; horario reducido en invierno; cerrado lunes.",
+   "h_en": "Mar-Sep 9:00-17:00; shorter hours in winter; closed Mondays.",
+   "i": "Entrada gratuita, sin reserva previa. El parque Gyoen es abierto y precioso en floración.",
+   "i_en": "Free admission, no prior booking. Gyoen Park is open and lovely in blossom season."
+  },
+  "w_kio_toji": {
+   "id": "w_kio_toji",
+   "d": "Fundado en 796 al erigirse la capital Heian, To-ji fue entregado al monje Kukai, fundador del budismo Shingon. Su pagoda de cinco pisos, de 55 m, es la torre de madera más alta del país y símbolo de Kioto. La Sala Kodo guarda un mandala tridimensional de 21 esculturas. Patrimonio de la Humanidad.",
+   "d_en": "Founded in 796 as the Heian capital was raised, To-ji was granted to the monk Kukai, founder of Shingon Buddhism. Its five-storey, 55-m pagoda is the country's tallest wooden tower and a symbol of Kyoto. The Kodo Hall holds a three-dimensional mandala of 21 sculptures. A World Heritage Site.",
+   "h": "Todos los días 8:00-17:00.",
+   "h_en": "Daily 8:00-17:00.",
+   "i": "Entrada 500-800 ¥ según zonas. El día 21 de cada mes se celebra el gran mercadillo Kobo-san.",
+   "i_en": "Admission 500-800 yen by area. The big Kobo-san flea market is held on the 21st of each month."
+  },
+  "w_kio_ryoanji": {
+   "id": "w_kio_ryoanji",
+   "d": "Templo zen célebre por el jardín karesansui más famoso del mundo: un rectángulo de grava rastrillada con quince rocas dispuestas de modo que nunca se ven todas a la vez desde ningún punto. Creado hacia 1500, es un enigma de significado abierto que invita a la meditación. También posee un bello estanque con nenúfares. Patrimonio de la Humanidad.",
+   "d_en": "Zen temple famous for the world's most celebrated karesansui garden: a rectangle of raked gravel with fifteen rocks placed so that all fifteen can never be seen at once from any spot. Created around 1500, it is an open-ended enigma inviting meditation. It also has a lovely water-lily pond. A World Heritage Site.",
+   "h": "Todos los días 8:00-17:00 (invierno 8:30-16:30).",
+   "h_en": "Daily 8:00-17:00 (winter 8:30-16:30).",
+   "i": "Entrada unos 600 ¥. Siéntate en la tarima y contempla el jardín en silencio.",
+   "i_en": "Admission about 600 yen. Sit on the veranda and contemplate the garden in silence."
+  },
+  "w_kio_nanzenji": {
+   "id": "w_kio_nanzenji",
+   "d": "Uno de los templos zen más importantes de Japón, cabecera de su rama Rinzai. Impresiona su puerta Sanmon de 22 m, con vistas desde lo alto, y el pintoresco acueducto de ladrillo Suirokaku, de la era Meiji, que aún transporta agua del lago Biwa. Los subtemplos ocultan jardines secos exquisitos.",
+   "d_en": "One of Japan's most important Zen temples, head of its Rinzai branch. Its 22-m Sanmon gate, with views from the top, and the picturesque Meiji-era brick Suirokaku aqueduct, still carrying water from Lake Biwa, are unforgettable. The subtemples hide exquisite dry gardens.",
+   "h": "Todos los días 8:40-17:00 (invierno hasta 16:30).",
+   "h_en": "Daily 8:40-17:00 (winter until 16:30).",
+   "i": "Recinto gratis; puerta y jardines unos 600 ¥ cada uno. Prueba el yudofu en los restaurantes cercanos.",
+   "i_en": "Grounds free; gate and gardens about 600 yen each. Try yudofu at the nearby restaurants."
+  },
+  "w_kio_heian": {
+   "id": "w_kio_heian",
+   "d": "Construido en 1895 para el 1.100 aniversario de la fundación de Kioto, reproduce a escala el antiguo Palacio Heian en tonos bermellón y verde. Su torii de acceso, de 24 m, es de los mayores de Japón. Detrás se extiende un jardín paisajístico de estilo Meiji con estanques, un puente cubierto y espectaculares cerezos llorones.",
+   "d_en": "Built in 1895 for the 1,100th anniversary of Kyoto's founding, it recreates the old Heian Palace at reduced scale in vermilion and green. Its 24-m entrance torii is among Japan's largest. Behind lies a Meiji-style landscape garden with ponds, a covered bridge and spectacular weeping cherry trees.",
+   "h": "Santuario 6:00-18:00; jardín 8:30-17:30 (varía por estación).",
+   "h_en": "Shrine 6:00-18:00; garden 8:30-17:30 (varies by season).",
+   "i": "Recinto gratis; jardín unos 600 ¥. Los cerezos llorones de abril son inolvidables.",
+   "i_en": "Grounds free; garden about 600 yen. The April weeping cherries are unforgettable."
+  },
+  "w_kio_yasaka": {
+   "id": "w_kio_yasaka",
+   "d": "Fundado hacia el año 656, es el santuario protector del barrio de Gion y corazón del festival Gion Matsuri, el más famoso de Japón, cada julio. Su puerta oeste bermellón preside la avenida Shijo; de noche, cientos de faroles iluminan el pabellón principal. Es punto de encuentro y de paso hacia el parque Maruyama.",
+   "d_en": "Founded around 656, it is the guardian shrine of the Gion district and the heart of the Gion Matsuri, Japan's most famous festival, held each July. Its vermilion west gate presides over Shijo Avenue; at night hundreds of lanterns light the main hall. It is a meeting point and gateway to Maruyama Park.",
+   "h": "Abierto 24 horas; recinto siempre accesible.",
+   "h_en": "Open 24 hours; grounds always accessible.",
+   "i": "Entrada gratuita. En Nochevieja se reparte fuego sagrado; muy animado en fiestas.",
+   "i_en": "Free admission. Sacred fire is shared on New Year's Eve; very lively during festivals."
+  },
+  "w_kio_bosque_bambu": {
+   "id": "w_kio_bosque_bambu",
+   "d": "El Sagano Bamboo Grove es uno de los paisajes más icónicos de Japón: un sendero de varios cientos de metros flanqueado por miles de cañas de bambú que se mecen decenas de metros hacia el cielo, filtrando la luz y produciendo un susurro reconocido como paisaje sonoro protegido. Enlaza el templo Tenryu-ji con la villa Okochi Sanso.",
+   "d_en": "The Sagano Bamboo Grove is one of Japan's most iconic landscapes: a path several hundred metres long flanked by thousands of bamboo stalks swaying tens of metres skyward, filtering the light and producing a rustle recognised as a protected soundscape. It links Tenryu-ji temple with the Okochi Sanso villa.",
+   "h": "Abierto 24 horas; acceso libre.",
+   "h_en": "Open 24 hours; free access.",
+   "i": "Ve al amanecer para tenerlo casi vacío. Se satura de gente a media mañana.",
+   "i_en": "Come at dawn to have it nearly empty. It gets packed by mid-morning."
+  },
+  "w_kio_filosofos": {
+   "id": "w_kio_filosofos",
+   "d": "El Tetsugaku-no-michi es un sendero peatonal de unos 2 km que sigue un canal desde Ginkaku-ji hasta el barrio de Nanzen-ji. Debe su nombre al filósofo Nishida Kitaro, que meditaba aquí de camino a la universidad. En primavera, cientos de cerezos forman un túnel de flores sobre el agua; en otoño, arces rojos.",
+   "d_en": "The Tetsugaku-no-michi is a roughly 2-km pedestrian path following a canal from Ginkaku-ji to the Nanzen-ji area. It is named after philosopher Nishida Kitaro, who meditated here on his walk to university. In spring, hundreds of cherry trees form a tunnel of blossom over the water; in autumn, red maples.",
+   "h": "Abierto siempre; acceso libre.",
+   "h_en": "Always open; free access.",
+   "i": "Pasea de norte a sur y desvíate a los templos Honen-in y Eikan-do por el camino.",
+   "i_en": "Walk north to south and detour to the Honen-in and Eikan-do temples along the way."
+  },
+  "w_kio_maruyama": {
+   "id": "w_kio_maruyama",
+   "d": "El parque público más antiguo de Kioto, abierto en 1886 junto al santuario Yasaka. Con estanque, arroyos y casas de té, es el lugar más popular de la ciudad para el hanami: su gran cerezo llorón (shidarezakura), iluminado de noche en abril, congrega a multitudes bajo los pétalos. Puerta natural hacia Higashiyama.",
+   "d_en": "Kyoto's oldest public park, opened in 1886 beside Yasaka Shrine. With a pond, streams and teahouses, it is the city's most popular hanami spot: its great weeping cherry (shidarezakura), lit at night in April, draws crowds beneath the petals. A natural gateway into Higashiyama.",
+   "h": "Abierto 24 horas; acceso libre.",
+   "h_en": "Open 24 hours; free access.",
+   "i": "En temporada de cerezos hay puestos de comida; ve de día y vuelve de noche a ver el árbol iluminado.",
+   "i_en": "In cherry season there are food stalls; visit by day and return at night to see the lit tree."
+  },
+  "w_kio_jardin_botanico": {
+   "id": "w_kio_jardin_botanico",
+   "d": "Inaugurado en 1924, es el jardín botánico público más antiguo de Japón, con unas 12.000 especies en 24 hectáreas junto al río Kamo. Cuenta con un gran invernadero tropical, un bosque de coníferas, avenidas de cerezos y un espectacular túnel de ginkgos dorados en otoño. Un remanso verde poco masificado.",
+   "d_en": "Opened in 1924, it is Japan's oldest public botanical garden, with about 12,000 species over 24 hectares beside the Kamo River. It has a large tropical greenhouse, a conifer forest, cherry avenues and a spectacular tunnel of golden ginkgos in autumn. A green, uncrowded haven.",
+   "h": "Todos los días 9:00-17:00.",
+   "h_en": "Daily 9:00-17:00.",
+   "i": "Entrada unos 200 ¥, muy económica. Combínalo con un paseo por la ribera del Kamo.",
+   "i_en": "Admission about 200 yen, very cheap. Combine it with a stroll along the Kamo riverbank."
+  },
+  "w_kio_kamogawa": {
+   "id": "w_kio_kamogawa",
+   "d": "El río Kamo atraviesa Kioto de norte a sur y su ribera es el espacio de ocio al aire libre favorito de sus habitantes. En verano, los restaurantes de Pontocho montan terrazas elevadas (kawadoko) sobre el agua. Las orillas herbosas se llenan de gente que pasea, corre, hace pícnic o toca música, sobre todo al atardecer.",
+   "d_en": "The Kamo River crosses Kyoto north to south and its banks are locals' favourite open-air leisure space. In summer, the Pontocho restaurants set up raised terraces (kawadoko) over the water. The grassy banks fill with people strolling, running, picnicking or playing music, especially at sunset.",
+   "h": "Acceso libre a toda hora.",
+   "h_en": "Free access at all hours.",
+   "i": "El tramo de Sanjo a Shijo es el más animado. Busca las parejas espaciadas de forma casi simétrica.",
+   "i_en": "The Sanjo-to-Shijo stretch is the liveliest. Notice couples spaced almost symmetrically along the bank."
+  },
+  "w_kio_togetsukyo": {
+   "id": "w_kio_togetsukyo",
+   "d": "El 'puente que cruza la luna' es el símbolo de Arashiyama, tendido sobre el río Katsura (Hozu) desde hace más de mil años; la estructura actual es de los años 30 pero conserva el aspecto tradicional. Ofrece vistas soberbias de las montañas boscosas, espectaculares con los cerezos en primavera y los arces en otoño.",
+   "d_en": "The 'moon-crossing bridge' is the symbol of Arashiyama, spanning the Katsura (Hozu) River for over a thousand years; the current structure dates from the 1930s but keeps the traditional look. It offers superb views of the wooded mountains, spectacular with cherry blossom in spring and maples in autumn.",
+   "h": "Acceso libre a toda hora.",
+   "h_en": "Free access at all hours.",
+   "i": "Cruza al lado sur y sube al mirador. En diciembre hay iluminaciones nocturnas (Hanatoro).",
+   "i_en": "Cross to the south side and climb to the viewpoint. December brings the Hanatoro night illuminations."
+  },
+  "w_kio_monkey_park": {
+   "id": "w_kio_monkey_park",
+   "d": "En lo alto del monte Arashiyama vive una tropa de más de un centenar de macacos japoneses en libertad. Tras una caminata de unos 20 minutos cuesta arriba, se llega a una explanada con vistas panorámicas de todo Kioto donde los monos deambulan libres; desde una caseta se les puede dar de comer con seguridad.",
+   "d_en": "High on Mount Arashiyama lives a troop of over a hundred wild Japanese macaques. After a roughly 20-minute uphill walk, you reach a clearing with panoramic views over all of Kyoto where the monkeys roam free; from a hut you can feed them safely.",
+   "h": "Todos los días 9:00-16:30 (varía por estación).",
+   "h_en": "Daily 9:00-16:30 (varies by season).",
+   "i": "Entrada unos 600 ¥. No mires a los monos a los ojos ni les muestres comida fuera de la caseta.",
+   "i_en": "Admission about 600 yen. Do not stare into the monkeys' eyes or show food outside the hut."
+  },
+  "w_kio_gion": {
+   "id": "w_kio_gion",
+   "d": "El barrio de geishas más famoso de Japón, con callejones de madera (machiya), casas de té (ochaya) y farolillos. Al atardecer es posible cruzarse con geiko y maiko camino de sus citas. La calle Hanamikoji y el canal de Shirakawa concentran la estampa más bella; el teatro Minamiza acoge kabuki.",
+   "d_en": "Japan's most famous geisha district, with wooden lanes (machiya), teahouses (ochaya) and lanterns. At dusk you may glimpse geiko and maiko heading to their appointments. Hanamikoji street and the Shirakawa canal hold the prettiest scenes; the Minamiza theatre stages kabuki.",
+   "h": "Calles siempre accesibles; ambiente al atardecer.",
+   "h_en": "Streets always accessible; best atmosphere at dusk.",
+   "i": "Respeta a las geishas: no las persigas ni fotografíes sin permiso, hay zonas donde está prohibido.",
+   "i_en": "Respect the geisha: do not chase or photograph them without consent; some lanes ban it."
+  },
+  "w_kio_kyoto_tower": {
+   "id": "w_kio_kyoto_tower",
+   "d": "Inaugurada en 1964 frente a la estación de Kioto, es la estructura más alta de la ciudad con 131 m. Su diseño evoca una vela o una farola tradicional. El mirador acristalado a 100 m ofrece vistas de 360º sobre el mar de tejados de la ciudad y, en días claros, hasta Osaka; especialmente bonito al anochecer.",
+   "d_en": "Opened in 1964 opposite Kyoto Station, it is the city's tallest structure at 131 m. Its design evokes a candle or a traditional lantern. The glassed observation deck at 100 m offers 360-degree views over the city's sea of rooftops and, on clear days, as far as Osaka; especially lovely at dusk.",
+   "h": "Todos los días, aprox. 10:00-21:00.",
+   "h_en": "Daily, roughly 10:00-21:00.",
+   "i": "Entrada unos 900 ¥. En la base hay tiendas, comida y un onsen público.",
+   "i_en": "Admission about 900 yen. The base has shops, food and a public bathhouse."
+  },
+  "w_kio_railway_museum": {
+   "id": "w_kio_railway_museum",
+   "d": "Uno de los mayores museos ferroviarios de Japón, abierto en 2016. Exhibe 53 trenes, desde locomotoras de vapor hasta los primeros Shinkansen (tren bala), con simuladores de conducción, una maqueta gigante y un depósito circular histórico con mesa giratoria. Ideal para familias y aficionados a los trenes.",
+   "d_en": "One of Japan's largest railway museums, opened in 2016. It displays 53 trains, from steam locomotives to the first Shinkansen bullet trains, with driving simulators, a giant model layout and a historic roundhouse with a turntable. Perfect for families and train enthusiasts.",
+   "h": "10:00-17:00; cerrado miércoles.",
+   "h_en": "10:00-17:00; closed Wednesdays.",
+   "i": "Entrada unos 1.500 ¥. Sube a la terraza para ver pasar los trenes reales y el Shinkansen.",
+   "i_en": "Admission about 1,500 yen. Go up to the terrace to watch real trains and the Shinkansen pass."
+  },
+  "w_kio_manga_museum": {
+   "id": "w_kio_manga_museum",
+   "d": "Instalado en una antigua escuela de 1929, reúne una colección de unos 300.000 mangas, muchos accesibles para leer libremente sentado dentro o en el césped. Repasa la historia y la cultura del cómic japonés con exposiciones, un 'muro de manga' de 200 m de estanterías y demostraciones de dibujantes en directo.",
+   "d_en": "Housed in a former 1929 school, it gathers a collection of some 300,000 manga, many free to pick up and read inside or on the lawn. It traces the history and culture of Japanese comics with exhibitions, a 200-m 'wall of manga' of shelving and live illustrator demonstrations.",
+   "h": "10:00-17:30; cerrado miércoles.",
+   "h_en": "10:00-17:30; closed Wednesdays.",
+   "i": "Entrada unos 900 ¥. Hay una sección de manga traducido a varios idiomas.",
+   "i_en": "Admission about 900 yen. There is a section of manga translated into several languages."
+  },
+  "w_kio_higashiyama": {
+   "id": "w_kio_higashiyama",
+   "d": "Estas dos cuestas empedradas de Higashiyama, preservadas como distrito histórico, conservan el ambiente del viejo Kioto: casas de madera, tiendas de recuerdos, casas de té y dulces tradicionales. Suben hacia Kiyomizu-dera entre tejados curvos y, en un recodo, se asoma la pagoda Yasaka. Es la postal más fotografiada de la ciudad.",
+   "d_en": "These two stone-paved slopes in Higashiyama, preserved as a historic district, keep the atmosphere of old Kyoto: wooden houses, souvenir shops, teahouses and traditional sweets. They climb towards Kiyomizu-dera among curved roofs, and at one bend the Yasaka pagoda appears. The city's most photographed scene.",
+   "h": "Calles siempre accesibles; tiendas aprox. 10:00-18:00.",
+   "h_en": "Streets always accessible; shops roughly 10:00-18:00.",
+   "i": "Ve temprano para fotos sin gente. Cuidado con los escalones, resbalan con lluvia.",
+   "i_en": "Go early for people-free photos. Mind the steps; they are slippery in the rain."
+  },
+  "w_kio_toei_studio": {
+   "id": "w_kio_toei_studio",
+   "d": "Estudio de cine en activo convertido en parque temático que recrea una ciudad del periodo Edo. Entre calles de época se ruedan películas y series de samuráis mientras los visitantes ven espectáculos de ninjas, shows de espada, casas encantadas y pueden disfrazarse de samurái, geisha o ninja. Muy divertido en familia.",
+   "d_en": "A working film studio turned theme park recreating an Edo-period town. Amid the period streets, samurai films and series are shot while visitors enjoy ninja shows, sword performances, haunted houses and can dress up as samurai, geisha or ninja. Great fun for families.",
+   "h": "Aprox. 9:00-17:00; horarios variables por temporada.",
+   "h_en": "Roughly 9:00-17:00; hours vary by season.",
+   "i": "Entrada unos 2.400 ¥. Consulta los horarios de los espectáculos al entrar.",
+   "i_en": "Admission about 2,400 yen. Check the show timetable on arrival."
+  },
+  "w_kio_nishiki": {
+   "id": "w_kio_nishiki",
+   "d": "Conocido como 'la cocina de Kioto', es un mercado cubierto de 400 m con más de un centenar de puestos que llevan siglos vendiendo pescado, verduras encurtidas (tsukemono), tofu, dulces wagashi, cuchillos y té. Perfecto para picar de puesto en puesto: brochetas, tempura, pulpo con huevo de codorniz y sashimi fresco.",
+   "d_en": "Known as 'Kyoto's kitchen', it is a 400-m covered market with over a hundred stalls that have sold fish, pickled vegetables (tsukemono), tofu, wagashi sweets, knives and tea for centuries. Perfect for grazing stall to stall: skewers, tempura, octopus with a quail egg and fresh sashimi.",
+   "h": "Aprox. 9:00-18:00; algunos puestos cierran miércoles o domingo.",
+   "h_en": "Roughly 9:00-18:00; some stalls close Wednesday or Sunday.",
+   "i": "Come mientras caminas está mal visto: párate junto al puesto. Lleva efectivo.",
+   "i_en": "Eating while walking is frowned upon: stand by the stall. Carry cash."
+  },
+  "w_kio_pontocho": {
+   "id": "w_kio_pontocho",
+   "d": "Uno de los rincones más atmosféricos de Kioto: un callejón peatonal de apenas dos metros, paralelo al río Kamo, alumbrado por farolillos y repleto de restaurantes tradicionales, desde exclusivos kaiseki hasta yakitori. En verano, muchos locales abren sus terrazas kawadoko sobre el agua para cenar con la brisa del río.",
+   "d_en": "One of Kyoto's most atmospheric corners: a barely two-metre pedestrian alley parallel to the Kamo River, lit by lanterns and packed with traditional restaurants, from exclusive kaiseki to yakitori. In summer, many open their kawadoko terraces over the water for riverside dining in the breeze.",
+   "h": "La mayoría de locales abren para cenar, aprox. 17:00-23:00.",
+   "h_en": "Most venues open for dinner, roughly 17:00-23:00.",
+   "i": "Muchos locales solo aceptan reserva o clientela habitual; busca los que muestran precios.",
+   "i_en": "Many venues take reservations or regulars only; look for those showing prices."
+  },
+  "w_kio_ramen_koji": {
+   "id": "w_kio_ramen_koji",
+   "d": "En la última planta del gran complejo de la estación de Kioto, esta 'calle del ramen' reúne una selección rotativa de los mejores locales de distintas regiones de Japón, cada uno con su estilo de caldo: tonkotsu, shoyu, miso o el ligero ramen de Kioto. Se pide por máquina expendedora de tickets y se come en la barra.",
+   "d_en": "On the top floor of the huge Kyoto Station complex, this 'ramen street' gathers a rotating pick of the best shops from across Japan, each with its own broth style: tonkotsu, shoyu, miso or the light Kyoto ramen. You order from a ticket vending machine and eat at the counter.",
+   "h": "Todos los días, aprox. 11:00-22:00.",
+   "h_en": "Daily, roughly 11:00-22:00.",
+   "i": "Sube por las escaleras mecánicas hasta la planta 10. Hay una terraza con vistas al lado.",
+   "i_en": "Take the escalators up to the 10th floor. There is a viewing terrace alongside."
+  },
+  "w_kio_yudofu": {
+   "id": "w_kio_yudofu",
+   "d": "La zona de Nanzen-ji es célebre por el yudofu, tofu de suave textura hervido en caldo ligero de alga kombu que se moja en salsa y condimentos. Es un plato de origen budista zen, sencillo y refinado, servido en restaurantes centenarios con jardín como Okutan. Una experiencia serena de la cocina vegetariana de templo (shojin).",
+   "d_en": "The Nanzen-ji area is famous for yudofu, silky tofu simmered in a light kombu-seaweed broth and dipped in sauce and condiments. A dish of Zen Buddhist origin, simple and refined, served in centuries-old garden restaurants such as Okutan. A serene taste of temple vegetarian cuisine (shojin).",
+   "h": "Aprox. 11:00-16:00; suele cerrar por la tarde.",
+   "h_en": "Roughly 11:00-16:00; usually closed in late afternoon.",
+   "i": "Resérvalo como almuerzo tras visitar Nanzen-ji. Es vegetariano y muy ligero.",
+   "i_en": "Best as lunch after visiting Nanzen-ji. It is vegetarian and very light."
+  },
+  "w_kio_matcha": {
+   "id": "w_kio_matcha",
+   "d": "Kioto es la capital del té verde: la vecina Uji produce el matcha más apreciado de Japón. En las casas de té de Gion se sirve el matcha batido con la tradicional escobilla de bambú, acompañado de dulces wagashi de temporada, así como parfaits, helados y postres de intenso sabor a té. Una pausa dulce muy kiotense.",
+   "d_en": "Kyoto is the capital of green tea: nearby Uji grows Japan's most prized matcha. In Gion's teahouses, matcha is whisked with the traditional bamboo whisk and served with seasonal wagashi sweets, alongside parfaits, ice cream and desserts of intense tea flavour. A sweet, quintessentially Kyoto break.",
+   "h": "Aprox. 10:00-18:00 según local.",
+   "h_en": "Roughly 10:00-18:00 depending on venue.",
+   "i": "Prueba el parfait de matcha. Compra té de Uji en hojas como recuerdo.",
+   "i_en": "Try the matcha parfait. Buy loose-leaf Uji tea as a souvenir."
+  },
+  "w_kio_nishin_soba": {
+   "id": "w_kio_nishin_soba",
+   "d": "El nishin soba, fideos de trigo sarraceno en caldo caliente coronados con arenque seco cocido en salsa dulce, es un plato emblemático de Kioto. Casas históricas como Honke Owariya, fundada en 1465 como confitería, llevan siglos sirviéndolo. La soba, elaborada a mano, es fina y aromática; el arenque, tierno y sabroso.",
+   "d_en": "Nishin soba, buckwheat noodles in hot broth topped with dried herring simmered in sweet sauce, is an emblematic Kyoto dish. Historic houses such as Honke Owariya, founded in 1465 as a confectioner, have served it for centuries. The hand-made soba is fine and fragrant; the herring tender and savoury.",
+   "h": "Aprox. 11:00-19:00 (varía por local).",
+   "h_en": "Roughly 11:00-19:00 (varies by venue).",
+   "i": "Prueba también el 'houraisoba' por capas. Puede haber cola a la hora de comer.",
+   "i_en": "Try the layered 'houraisoba' too. Expect a queue at lunchtime."
+  }
+ },
+ "food": {
+  "w_kio_nishiki": {
+   "cuisine": "Mercado / tapeo callejero de Kioto",
+   "price": "5–15 €",
+   "hours": "Aprox. 9:00-18:00"
+  },
+  "w_kio_pontocho": {
+   "cuisine": "Cocina japonesa tradicional y kaiseki",
+   "price": "20–80 €",
+   "hours": "Cena aprox. 17:00-23:00"
+  },
+  "w_kio_ramen_koji": {
+   "cuisine": "Ramen japonés",
+   "price": "8–15 €",
+   "hours": "Todos los días 11:00-22:00"
+  },
+  "w_kio_yudofu": {
+   "cuisine": "Cocina zen vegetariana (tofu)",
+   "price": "15–40 €",
+   "hours": "Aprox. 11:00-16:00"
+  },
+  "w_kio_matcha": {
+   "cuisine": "Té matcha y repostería japonesa (wagashi)",
+   "price": "5–18 €",
+   "hours": "Aprox. 10:00-18:00"
+  },
+  "w_kio_nishin_soba": {
+   "cuisine": "Fideos soba de Kioto",
+   "price": "8–20 €",
+   "hours": "Aprox. 11:00-19:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Kioto",
+   "items": [
+    {
+     "name": "Matcha y té verde de Uji",
+     "price": "8–30 €",
+     "desc": "El té verde en polvo más apreciado de Japón, en hojas o listo para batir."
+    },
+    {
+     "name": "Yatsuhashi",
+     "price": "5–15 €",
+     "desc": "Dulce típico de Kioto, láminas de masa de arroz con canela rellenas de pasta de judía."
+    },
+    {
+     "name": "Abanicos (sensu y uchiwa)",
+     "price": "10–50 €",
+     "desc": "Abanicos plegables y rígidos artesanos, símbolo de la elegancia kiotense."
+    },
+    {
+     "name": "Cerámica Kiyomizu-yaki",
+     "price": "15–80 €",
+     "desc": "Loza y porcelana pintada a mano, tradición alfarera de la zona de Kiyomizu."
+    },
+    {
+     "name": "Furoshiki y tenugui",
+     "price": "8–30 €",
+     "desc": "Pañuelos y telas de algodón teñidos para envolver, secar o decorar."
+    },
+    {
+     "name": "Incienso de Kioto",
+     "price": "6–25 €",
+     "desc": "Varillas y conos aromáticos de fabricantes centenarios de la ciudad."
+    }
+   ],
+   "shops": [
+    "Mercado de Nishiki",
+    "Calles Sannenzaka y Ninenzaka",
+    "Galerías Teramachi y Shinkyogoku",
+    "Ippodo (té)",
+    "Kyoto Handicraft Center"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Compra una tarjeta ICOCA recargable para autobuses, metro y trenes: es la forma más cómoda de moverse por la ciudad.",
+   "Los templos más famosos (Fushimi Inari, Kiyomizu, Arashiyama) se masifican: visítalos al amanecer o a última hora.",
+   "Primavera (cerezos, finales de marzo-abril) y otoño (arces rojos, noviembre) son las temporadas más bellas y concurridas.",
+   "Respeta a las geishas de Gion: no las fotografíes ni las persigas; hay callejones donde está expresamente prohibido.",
+   "Lleva calcetines limpios y sin agujeros: en muchos templos y restaurantes hay que descalzarse para entrar."
+  ],
+  "en": [
+   "Buy a rechargeable ICOCA card for buses, subway and trains: it is the easiest way to get around the city.",
+   "The most famous temples (Fushimi Inari, Kiyomizu, Arashiyama) get packed: visit them at dawn or late in the day.",
+   "Spring (cherry blossom, late March-April) and autumn (red maples, November) are the loveliest and busiest seasons.",
+   "Respect the geisha in Gion: do not photograph or follow them; some lanes expressly forbid it.",
+   "Wear clean, hole-free socks: many temples and restaurants require you to remove your shoes to enter."
+  ]
+ },
+ "climate": {
+  "hi": [
+   9,
+   10,
+   14,
+   20,
+   25,
+   28,
+   32,
+   34,
+   29,
+   23,
+   17,
+   11
+  ],
+  "lo": [
+   1,
+   1,
+   4,
+   9,
+   14,
+   19,
+   23,
+   24,
+   20,
+   13,
+   7,
+   3
+  ]
+ },
+ "tr": {
+  "Santuario sintoísta con miles de toriis rojos por la montaña.": "Shinto shrine with thousands of red torii gates up the mountain.",
+  "Templo zen recubierto de pan de oro sobre un estanque.": "Zen temple covered in gold leaf beside a mirror pond.",
+  "Templo de madera con gran terraza sobre la ladera.": "Wooden temple with a vast terrace over the hillside.",
+  "Villa zen con exquisito jardín seco y de musgo.": "Zen villa with an exquisite dry and moss garden.",
+  "Castillo del shogunato con suelos 'ruiseñor' y jardines.": "Shogunate castle with nightingale floors and gardens.",
+  "Sala budista con 1.001 estatuas doradas de Kannon.": "Buddhist hall with 1,001 gilded Kannon statues.",
+  "Templo zen en Arashiyama con jardín paisajístico clásico.": "Zen temple in Arashiyama with a classic landscape garden.",
+  "Antigua residencia imperial en un vasto parque central.": "Former imperial residence in a vast central park.",
+  "Templo con la pagoda de madera más alta de Japón.": "Temple with Japan's tallest wooden pagoda.",
+  "Célebre jardín seco zen de quince rocas y grava.": "Famous Zen dry garden of fifteen rocks and gravel.",
+  "Gran templo zen con puerta monumental y acueducto.": "Grand Zen temple with a monumental gate and aqueduct.",
+  "Santuario de vivo color con enorme torii y jardín.": "Vivid vermilion shrine with a huge torii and garden.",
+  "Santuario animado entre Gion y el parque Maruyama.": "Lively shrine between Gion and Maruyama Park.",
+  "Sendero mágico entre altísimos bambúes verdes.": "Magical path through towering green bamboo.",
+  "Sendero junto a un canal bordeado de cerezos.": "Canal-side path lined with cherry trees.",
+  "Parque histórico famoso por su cerezo llorón.": "Historic park famed for its weeping cherry.",
+  "Amplio jardín botánico junto al río Kamo.": "Spacious botanical garden by the Kamo River.",
+  "Ribera para pasear, correr y sentarse en la ciudad.": "Riverbank for strolling, running and sitting in town.",
+  "Puente icónico sobre el río en Arashiyama.": "Iconic river bridge in Arashiyama.",
+  "Monos salvajes en libertad con vistas de la ciudad.": "Free-roaming wild monkeys with city views.",
+  "Distrito histórico de geishas, teatros y casas de té.": "Historic geisha district of teahouses and theatres.",
+  "Mirador de 131 m frente a la estación central.": "131-m observation tower opposite the main station.",
+  "Gran museo con locomotoras y simuladores.": "Large museum with locomotives and simulators.",
+  "Museo-biblioteca con 300.000 mangas para leer.": "Museum-library with 300,000 manga to read.",
+  "Calles empedradas históricas camino de Kiyomizu.": "Historic stone lanes on the way to Kiyomizu.",
+  "Parque temático y plató de cine de época samurái.": "Theme park and working set of samurai-era films.",
+  "La 'cocina de Kioto': calle-mercado de 400 puestos.": "'Kyoto's kitchen': a market street of 400 stalls.",
+  "Estrecho callejón de restaurantes junto al río.": "Narrow dining alley beside the river.",
+  "Calle de ramen con chefs de todo Japón.": "Ramen street gathering chefs from across Japan.",
+  "Tofu hervido, plato zen histórico de la zona.": "Boiled tofu, the area's historic Zen dish.",
+  "Té verde matcha y dulces wagashi en Gion.": "Matcha green tea and wagashi sweets in Gion.",
+  "Fideos soba con arenque, plato típico kiotense.": "Soba noodles with herring, a Kyoto classic.",
+  "Kioto": "Kioto"
+ }
+}

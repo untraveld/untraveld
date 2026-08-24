@@ -1,0 +1,603 @@
+{
+ "id": "zanzibar",
+ "name": "Zanzíbar",
+ "country": "WORLD",
+ "center": [
+  -6.164,
+  39.1985
+ ],
+ "pois": [
+  {
+   "id": "w_zan_casa_maravillas",
+   "cat": "monuments",
+   "name": "Casa de las Maravillas",
+   "icon": "🏛️",
+   "lat": -6.16091,
+   "lng": 39.18959,
+   "desc": "Palacio del s. XIX, símbolo de Stone Town frente al mar."
+  },
+  {
+   "id": "w_zan_fuerte_arabe",
+   "cat": "monuments",
+   "name": "Fuerte Árabe (Old Fort)",
+   "icon": "🏰",
+   "lat": -6.16148,
+   "lng": 39.18928,
+   "desc": "La fortaleza más antigua de Stone Town, hoy centro cultural."
+  },
+  {
+   "id": "w_zan_darajani",
+   "cat": "monuments",
+   "name": "Mercado de Darajani",
+   "icon": "🛒",
+   "lat": -6.1649,
+   "lng": 39.1924,
+   "desc": "El bullicioso mercado central de Stone Town."
+  },
+  {
+   "id": "w_zan_catedral_anglicana",
+   "cat": "monuments",
+   "name": "Catedral Anglicana (Christ Church)",
+   "icon": "⛪",
+   "lat": -6.1633,
+   "lng": 39.1906,
+   "desc": "Catedral construida sobre el antiguo mercado de esclavos."
+  },
+  {
+   "id": "w_zan_mercado_esclavos",
+   "cat": "monuments",
+   "name": "Antiguo Mercado de Esclavos",
+   "icon": "⛓️",
+   "lat": -6.16345,
+   "lng": 39.19075,
+   "desc": "Memorial y cámaras de la esclavitud junto a la catedral."
+  },
+  {
+   "id": "w_zan_freddie_mercury",
+   "cat": "monuments",
+   "name": "Casa de Freddie Mercury",
+   "icon": "🎤",
+   "lat": -6.1625,
+   "lng": 39.1879,
+   "desc": "Casa natal del cantante de Queen, hoy pequeño museo."
+  },
+  {
+   "id": "w_zan_nungwi",
+   "cat": "nature",
+   "name": "Playa de Nungwi",
+   "icon": "🏖️",
+   "lat": -5.7264,
+   "lng": 39.2938,
+   "desc": "Playa estrella del norte, arena blanca y ambiente animado."
+  },
+  {
+   "id": "w_zan_kendwa",
+   "cat": "nature",
+   "name": "Playa de Kendwa",
+   "icon": "🏖️",
+   "lat": -5.7432,
+   "lng": 39.2965,
+   "desc": "Playa tranquila al sur de Nungwi, famosa por sus atardeceres."
+  },
+  {
+   "id": "w_zan_paje",
+   "cat": "nature",
+   "name": "Playa de Paje",
+   "icon": "🪁",
+   "lat": -6.2655,
+   "lng": 39.5387,
+   "desc": "Meca del kitesurf en la costa este de la isla."
+  },
+  {
+   "id": "w_zan_jambiani",
+   "cat": "nature",
+   "name": "Playa de Jambiani",
+   "icon": "🏖️",
+   "lat": -6.2997,
+   "lng": 39.5534,
+   "desc": "Pueblo pesquero auténtico y playa serena al sur de Paje."
+  },
+  {
+   "id": "w_zan_changuu",
+   "cat": "nature",
+   "name": "Isla Prisión (Changuu)",
+   "icon": "🐢",
+   "lat": -6.1193,
+   "lng": 39.1672,
+   "desc": "Islote con tortugas gigantes y una antigua prisión."
+  },
+  {
+   "id": "w_zan_jozani",
+   "cat": "nature",
+   "name": "Bosque de Jozani",
+   "icon": "🐒",
+   "lat": -6.2446,
+   "lng": 39.4129,
+   "desc": "Parque nacional del raro mono colobo rojo de Zanzíbar."
+  },
+  {
+   "id": "w_zan_mnemba",
+   "cat": "nature",
+   "name": "Atolón de Mnemba",
+   "icon": "🐠",
+   "lat": -5.8209,
+   "lng": 39.3855,
+   "desc": "El mejor arrecife de coral para snorkel y buceo."
+  },
+  {
+   "id": "w_zan_kizimkazi",
+   "cat": "nature",
+   "name": "Kizimkazi (delfines)",
+   "icon": "🐬",
+   "lat": -6.4362,
+   "lng": 39.4703,
+   "desc": "Pueblo del sur famoso por avistar delfines."
+  },
+  {
+   "id": "w_zan_matemwe",
+   "cat": "nature",
+   "name": "Playa de Matemwe",
+   "icon": "🏝️",
+   "lat": -5.8666,
+   "lng": 39.3547,
+   "desc": "Playa tranquila del noreste frente a Mnemba."
+  },
+  {
+   "id": "w_zan_kiwengwa",
+   "cat": "nature",
+   "name": "Playa de Kiwengwa",
+   "icon": "🌴",
+   "lat": -5.995,
+   "lng": 39.384,
+   "desc": "Amplia playa de resorts en la costa este."
+  },
+  {
+   "id": "w_zan_granjas_especias",
+   "cat": "ocio",
+   "name": "Granjas de Especias",
+   "icon": "🌿",
+   "lat": -6.1303,
+   "lng": 39.2738,
+   "desc": "Tour por las plantaciones que dieron fama a la isla."
+  },
+  {
+   "id": "w_zan_mnarani_tortugas",
+   "cat": "ocio",
+   "name": "Acuario de Tortugas de Mnarani",
+   "icon": "🐢",
+   "lat": -5.7247,
+   "lng": 39.2997,
+   "desc": "Laguna natural de conservación de tortugas marinas en Nungwi."
+  },
+  {
+   "id": "w_zan_nakupenda",
+   "cat": "ocio",
+   "name": "Banco de Arena de Nakupenda",
+   "icon": "⛵",
+   "lat": -6.148,
+   "lng": 39.149,
+   "desc": "Islote de arena que aflora con la marea baja frente a Stone Town."
+  },
+  {
+   "id": "w_zan_kuza_cave",
+   "cat": "ocio",
+   "name": "Cueva de Kuza",
+   "icon": "🕳️",
+   "lat": -6.2743,
+   "lng": 39.5355,
+   "desc": "Cenote de agua dulce turquesa cerca de Jambiani."
+  },
+  {
+   "id": "w_zan_the_rock",
+   "cat": "food",
+   "name": "The Rock Restaurant",
+   "icon": "🍽️",
+   "lat": -6.1497,
+   "lng": 39.5168,
+   "desc": "Icónico restaurante sobre una roca en el mar de Pingwe."
+  },
+  {
+   "id": "w_zan_lukmaan",
+   "cat": "food",
+   "name": "Lukmaan Restaurant",
+   "icon": "🍛",
+   "lat": -6.1642,
+   "lng": 39.191,
+   "desc": "Institución de la auténtica cocina suajili en Stone Town."
+  },
+  {
+   "id": "w_zan_emerson_spice",
+   "cat": "food",
+   "name": "Emerson Spice Tea House",
+   "icon": "🫖",
+   "lat": -6.1649,
+   "lng": 39.1901,
+   "desc": "Cena romántica en la azotea más alta de Stone Town."
+  },
+  {
+   "id": "w_zan_forodhani",
+   "cat": "food",
+   "name": "Mercado Nocturno de Forodhani",
+   "icon": "🍢",
+   "lat": -6.1622,
+   "lng": 39.1884,
+   "desc": "Puestos de comida callejera junto al mar cada noche."
+  },
+  {
+   "id": "w_zan_upendo_paje",
+   "cat": "food",
+   "name": "Upendo Beach Restaurant",
+   "icon": "🍹",
+   "lat": -6.261,
+   "lng": 39.5392,
+   "desc": "Restaurante y beach bar frente al mar en Paje."
+  }
+ ],
+ "extra": {
+  "w_zan_casa_maravillas": {
+   "id": "w_zan_casa_maravillas",
+   "d": "Beit-al-Ajaib, el 'Palacio de las Maravillas', fue el edificio más grande y moderno de Zanzíbar: el primero de la isla con electricidad y ascensor. Sus galerías porticadas y su torre del reloj dominan el paseo marítimo. Ha albergado el museo de historia y cultura suajili.",
+   "d_en": "Beit-al-Ajaib, the 'House of Wonders', was Zanzibar's largest and most modern building, the first on the island with electricity and a lift. Its tiered verandas and clock tower dominate the seafront. It has housed the museum of Swahili history and culture.",
+   "h": "Junto a los Jardines de Forodhani, en pleno paseo marítimo de Stone Town.",
+   "h_en": "Next to Forodhani Gardens, on Stone Town's main seafront promenade.",
+   "i": "Parte de su fachada se derrumbó en 2020 y ha estado en restauración; consulta si está abierto al público.",
+   "i_en": "Part of its facade collapsed in 2020 and it has been under restoration; check whether it is open to visitors."
+  },
+  "w_zan_fuerte_arabe": {
+   "id": "w_zan_fuerte_arabe",
+   "d": "Ngome Kongwe, levantado por los omaníes hacia 1700 sobre una antigua iglesia portuguesa, es el edificio más antiguo de Stone Town. Sus recios muros de coral encierran hoy un anfiteatro, tiendas de artesanía, un café y sede de festivales como el de cine ZIFF.",
+   "d_en": "Ngome Kongwe, built by the Omanis around 1700 over an old Portuguese church, is Stone Town's oldest building. Its thick coral-stone walls now enclose an amphitheatre, craft shops, a cafe and the venue for festivals such as the ZIFF film festival.",
+   "h": "En el paseo marítimo, junto a la Casa de las Maravillas y los Jardines de Forodhani.",
+   "h_en": "On the seafront, beside the House of Wonders and Forodhani Gardens.",
+   "i": "La entrada al patio suele ser gratuita; por la tarde hay espectáculos de música y danza tradicional.",
+   "i_en": "Entry to the courtyard is usually free; traditional music and dance shows are held in the evenings."
+  },
+  "w_zan_darajani": {
+   "id": "w_zan_darajani",
+   "d": "El principal mercado de la ciudad, abierto en 1904, es un torbellino de puestos de especias, frutas tropicales, pescado, carne, telas y objetos de todo tipo. Es el corazón comercial de Stone Town y el mejor lugar para sumergirse en la vida local y el aroma de las especias.",
+   "d_en": "The city's main market, opened in 1904, is a whirl of stalls selling spices, tropical fruit, fish, meat, fabrics and all manner of goods. It is the commercial heart of Stone Town and the best place to dive into local life and the scent of spices.",
+   "h": "Sobre Creek Road, borde este del casco antiguo; más animado por la mañana.",
+   "h_en": "On Creek Road, at the eastern edge of the old town; liveliest in the morning.",
+   "i": "Ve temprano para ver el mercado de pescado en plena acción y regatea siempre con calma y sonrisa.",
+   "i_en": "Go early to catch the fish market in full swing, and always haggle calmly and with a smile."
+  },
+  "w_zan_catedral_anglicana": {
+   "id": "w_zan_catedral_anglicana",
+   "d": "La Christ Church Cathedral se erigió a partir de 1873 sobre el emplazamiento del mayor mercado de esclavos de África Oriental, como símbolo del fin de la esclavitud. El altar se sitúa donde estaba el poste de los azotes y una cruz de madera recuerda al explorador David Livingstone.",
+   "d_en": "Christ Church Cathedral was begun in 1873 on the site of East Africa's largest slave market, as a symbol of the end of slavery. The altar stands where the whipping post once was, and a wooden cross commemorates the explorer David Livingstone.",
+   "h": "En Mkunazini Road, centro de Stone Town. Abre a diario; hay entrada de pago combinada con el memorial.",
+   "h_en": "On Mkunazini Road in central Stone Town. Open daily; a paid ticket is combined with the memorial.",
+   "i": "La entrada incluye el acceso a las antiguas cámaras de esclavos y al monumento; conserva el billete.",
+   "i_en": "The ticket includes access to the old slave chambers and the monument; keep your stub."
+  },
+  "w_zan_mercado_esclavos": {
+   "id": "w_zan_mercado_esclavos",
+   "d": "El conjunto memorial conserva las lóbregas cámaras subterráneas donde se hacinaban los esclavos antes de ser vendidos, un museo sobre la trata y el conmovedor monumento escultórico 'Slave Memorial' de Clara Sörnäs, con figuras encadenadas en un foso. Un lugar imprescindible para entender la historia de la isla.",
+   "d_en": "This memorial complex preserves the grim underground chambers where enslaved people were held before sale, a museum on the slave trade, and Clara Sörnäs's moving 'Slave Memorial' sculpture of chained figures in a pit. An essential site for understanding the island's history.",
+   "h": "En el recinto de la Catedral Anglicana (Mkunazini). Abierto a diario con guías.",
+   "h_en": "Within the Anglican Cathedral grounds (Mkunazini). Open daily with guides.",
+   "i": "Un guía local ayuda mucho a comprender el contexto; el recorrido es duro emocionalmente.",
+   "i_en": "A local guide greatly helps you grasp the context; the visit is emotionally heavy."
+  },
+  "w_zan_freddie_mercury": {
+   "id": "w_zan_freddie_mercury",
+   "d": "Farrokh Bulsara, el legendario Freddie Mercury, nació en Zanzíbar en 1946. El edificio de Kenyatta Road donde vivió de niño luce una placa y alberga un modesto museo con fotografías, discos y recuerdos de la vida y la carrera del icono de Queen.",
+   "d_en": "Farrokh Bulsara, the legendary Freddie Mercury, was born in Zanzibar in 1946. The building on Kenyatta Road where he lived as a child bears a plaque and houses a modest museum with photos, records and memorabilia from the Queen icon's life and career.",
+   "h": "En Kenyatta Road, cerca del paseo marítimo. Abierto a diario con pequeña entrada.",
+   "h_en": "On Kenyatta Road, near the seafront. Open daily with a small entrance fee.",
+   "i": "La visita es breve; interesa sobre todo a fans de Queen. La fachada y placa ya son una foto clásica.",
+   "i_en": "The visit is short; mainly of interest to Queen fans. The facade and plaque alone make a classic photo."
+  },
+  "w_zan_nungwi": {
+   "id": "w_zan_nungwi",
+   "d": "En el extremo norte de la isla, Nungwi combina arena blanca fina, aguas turquesa poco afectadas por las mareas y un ambiente vibrante de chiringuitos, hoteles y vida nocturna. Es punto de partida para snorkel, buceo y salidas en dhow al atardecer.",
+   "d_en": "At the island's northern tip, Nungwi combines fine white sand, turquoise water little affected by tides, and a buzzing scene of beach bars, hotels and nightlife. It's a launch point for snorkelling, diving and sunset dhow cruises.",
+   "h": "Extremo norte de Unguja, a 1–1,5 h de Stone Town por carretera.",
+   "h_en": "Northern tip of Unguja, 1–1.5 h from Stone Town by road.",
+   "i": "A diferencia de la costa este, aquí puedes nadar a cualquier hora del día pese a la marea.",
+   "i_en": "Unlike the east coast, you can swim here at any time of day despite the tide."
+  },
+  "w_zan_kendwa": {
+   "id": "w_zan_kendwa",
+   "d": "Vecina de Nungwi pero algo más relajada, Kendwa ofrece una amplia franja de arena blanca orientada al oeste, ideal para ver la puesta de sol y bañarse sin las restricciones de las mareas. Es célebre por sus 'Full Moon Parties' mensuales en la playa.",
+   "d_en": "Neighbouring Nungwi but a touch more laid-back, Kendwa offers a broad west-facing stretch of white sand, ideal for sunsets and tide-free swimming. It's famous for its monthly beachfront Full Moon Parties.",
+   "h": "Costa noroeste, a pocos minutos al sur de Nungwi.",
+   "h_en": "Northwest coast, a few minutes south of Nungwi.",
+   "i": "Su orientación al oeste la convierte en el mejor punto del norte para el atardecer.",
+   "i_en": "Its west-facing aspect makes it the north's best spot for sunset."
+  },
+  "w_zan_paje": {
+   "id": "w_zan_paje",
+   "d": "Playa amplísima de arena blanca y laguna turquesa protegida por un arrecife, Paje es la capital del kitesurf de Zanzíbar gracias a sus vientos constantes y aguas poco profundas. Ambiente joven y relajado con escuelas de kite, beach bars y alojamientos boho.",
+   "d_en": "A vast white-sand beach with a turquoise reef-protected lagoon, Paje is Zanzibar's kitesurfing capital thanks to its steady winds and shallow water. A young, laid-back vibe with kite schools, beach bars and boho lodgings.",
+   "h": "Costa sureste, a unos 50 km (1 h) de Stone Town.",
+   "h_en": "Southeast coast, about 50 km (1 h) from Stone Town.",
+   "i": "Con marea baja el mar se retira mucho; consulta las tablas de mareas para bañarte o hacer kite.",
+   "i_en": "At low tide the sea retreats far; check the tide tables before swimming or kiting."
+  },
+  "w_zan_jambiani": {
+   "id": "w_zan_jambiani",
+   "d": "Al sur de Paje, Jambiani conserva el encanto de un pueblo pesquero tradicional, con casas de coral, algueras trabajando la marea baja y dhows varados en la arena. Su larga playa de arena blanca y aguas cristalinas invita a la calma y al contacto con la vida local suajili.",
+   "d_en": "South of Paje, Jambiani retains the charm of a traditional fishing village, with coral houses, seaweed farmers working the low tide and dhows beached on the sand. Its long white beach and crystalline water invite calm and contact with local Swahili life.",
+   "h": "Costa sureste, contigua a Paje por el sur.",
+   "h_en": "Southeast coast, adjoining Paje to the south.",
+   "i": "Ideal para ver las algueras y el cultivo de algas, una actividad femenina muy arraigada.",
+   "i_en": "Great for watching the women's deeply rooted seaweed-farming at low tide."
+  },
+  "w_zan_changuu": {
+   "id": "w_zan_changuu",
+   "d": "A un corto trayecto en barco de Stone Town, Changuu debe su apodo a la cárcel construida en 1893 que nunca llegó a usarse como tal (sirvió de estación de cuarentena). Hoy su gran atractivo es el santuario de tortugas gigantes de Aldabra, algunas centenarias, además de playa y snorkel.",
+   "d_en": "A short boat ride from Stone Town, Changuu owes its nickname to an 1893 prison that was never used as such (it served as a quarantine station). Today its main draw is the sanctuary of giant Aldabra tortoises, some over a century old, plus a beach and snorkelling.",
+   "h": "Frente a Stone Town; barcos desde el paseo marítimo (unos 30 min).",
+   "h_en": "Off Stone Town; boats leave from the waterfront (about 30 min).",
+   "i": "Se paga entrada al santuario; puedes tocar y alimentar a las tortugas bajo supervisión.",
+   "i_en": "There's an entrance fee to the sanctuary; you can touch and feed the tortoises under supervision."
+  },
+  "w_zan_jozani": {
+   "id": "w_zan_jozani",
+   "d": "El Parque Nacional de Jozani-Chwaka Bay es el mayor bosque nativo de la isla y el único hogar del colobo rojo de Zanzíbar, un mono endémico y amenazado. Senderos entre árboles milenarios y una pasarela de madera sobre el manglar completan la visita a este pulmón verde.",
+   "d_en": "Jozani-Chwaka Bay National Park is the island's largest native forest and the only home of the Zanzibar red colobus, an endemic and endangered monkey. Trails among ancient trees and a boardwalk over the mangroves round out a visit to this green lung.",
+   "h": "Centro-sur de la isla, a unos 35 km (45 min) de Stone Town.",
+   "h_en": "South-central island, about 35 km (45 min) from Stone Town.",
+   "i": "Se accede con guía obligatorio; mantén distancia con los colobos y no los alimentes.",
+   "i_en": "Access is with a compulsory guide; keep your distance from the colobus and don't feed them."
+  },
+  "w_zan_mnemba": {
+   "id": "w_zan_mnemba",
+   "d": "Este pequeño atolón privado frente a la costa noreste está rodeado por el arrecife más espectacular de Zanzíbar, un área marina protegida con corales, peces de colores, tortugas y delfines. La isla es un exclusivo resort, pero sus aguas son el destino estrella de snorkel y submarinismo.",
+   "d_en": "This small private atoll off the northeast coast is ringed by Zanzibar's most spectacular reef, a protected marine area with corals, colourful fish, turtles and dolphins. The island itself is an exclusive resort, but its waters are the top snorkelling and diving destination.",
+   "h": "Frente a Matemwe (costa noreste); salidas en barco desde Nungwi o Matemwe.",
+   "h_en": "Off Matemwe (northeast coast); boat trips depart from Nungwi or Matemwe.",
+   "i": "Se paga tasa de área marina protegida; no se puede desembarcar en la isla privada.",
+   "i_en": "A marine-protected-area fee applies; landing on the private island is not allowed."
+  },
+  "w_zan_kizimkazi": {
+   "id": "w_zan_kizimkazi",
+   "d": "En el extremo sur de la isla, Kizimkazi es el punto de partida clásico para salir en barco a ver delfines mulares y giradores en su medio natural. Alberga además la mezquita de Kizimkazi, del s. XII, la más antigua de África Oriental que se conserva.",
+   "d_en": "At the island's southern tip, Kizimkazi is the classic launch point for boat trips to see bottlenose and spinner dolphins in the wild. It's also home to the 12th-century Kizimkazi Mosque, the oldest surviving in East Africa.",
+   "h": "Extremo sur de Unguja, a unos 55 km (1,5 h) de Stone Town.",
+   "h_en": "Southern tip of Unguja, about 55 km (1.5 h) from Stone Town.",
+   "i": "Elige operadores que no persigan a los delfines; sal temprano para mejores avistamientos.",
+   "i_en": "Choose operators that don't chase the dolphins; go early for the best sightings."
+  },
+  "w_zan_matemwe": {
+   "id": "w_zan_matemwe",
+   "d": "Matemwe es una larga y apacible playa de arena blanca en la costa noreste, frente al atolón de Mnemba. Con menos multitudes que Nungwi, conserva un ambiente de pueblo pesquero y es base perfecta para excursiones de snorkel al arrecife de Mnemba.",
+   "d_en": "Matemwe is a long, peaceful white-sand beach on the northeast coast, facing Mnemba Atoll. Less crowded than Nungwi, it keeps a fishing-village feel and is the perfect base for snorkelling trips to the Mnemba reef.",
+   "h": "Costa noreste, a algo más de 1 h de Stone Town.",
+   "h_en": "Northeast coast, just over 1 h from Stone Town.",
+   "i": "La marea marca mucho el baño; los amaneceres sobre el océano aquí son espectaculares.",
+   "i_en": "Tides strongly shape the swimming; sunrises over the ocean here are spectacular."
+  },
+  "w_zan_kiwengwa": {
+   "id": "w_zan_kiwengwa",
+   "d": "Kiwengwa es una extensa playa de arena blanca respaldada por dunas y palmeras en la costa noreste, donde se concentran muchos de los grandes resorts de la isla. Ofrece aguas turquesa, arrecife para snorkel y todos los servicios, con un ambiente más internacional.",
+   "d_en": "Kiwengwa is a sweeping white-sand beach backed by dunes and palms on the northeast coast, where many of the island's large resorts cluster. It offers turquoise water, a reef for snorkelling and full amenities, with a more international vibe.",
+   "h": "Costa noreste, a unos 45 km (1 h) de Stone Town.",
+   "h_en": "Northeast coast, about 45 km (1 h) from Stone Town.",
+   "i": "Buena opción si buscas resort todo incluido; explora las cuevas de Kiwengwa cercanas.",
+   "i_en": "A good pick for an all-inclusive resort; explore the nearby Kiwengwa caves."
+  },
+  "w_zan_granjas_especias": {
+   "id": "w_zan_granjas_especias",
+   "d": "El 'Spice Tour' recorre las plantaciones del interior (zona de Kizimbani/Tangawizi) donde crecen clavo, canela, nuez moscada, cardamomo, vainilla y frutas tropicales. Un guía muestra cómo se cultivan y se usan las especias, con degustaciones y aromas que explican el apodo de 'Isla de las Especias'.",
+   "d_en": "The Spice Tour visits the inland plantations (Kizimbani/Tangawizi area) where cloves, cinnamon, nutmeg, cardamom, vanilla and tropical fruits grow. A guide shows how spices are cultivated and used, with tastings and aromas that explain the 'Spice Island' nickname.",
+   "h": "Interior de la isla, al noreste de Stone Town (unos 20–30 min).",
+   "h_en": "Island interior, northeast of Stone Town (about 20–30 min).",
+   "i": "Suele incluir degustación de frutas y almuerzo local; lleva efectivo para comprar especias frescas.",
+   "i_en": "Usually includes a fruit tasting and local lunch; bring cash to buy fresh spices."
+  },
+  "w_zan_mnarani_tortugas": {
+   "id": "w_zan_mnarani_tortugas",
+   "d": "El Mnarani Marine Turtles Natural Aquarium es una laguna de marea junto al faro de Nungwi donde se cuidan y recuperan tortugas verdes y carey rescatadas antes de liberarlas. Los visitantes pueden ver e incluso nadar con las tortugas y conocer el trabajo de conservación.",
+   "d_en": "The Mnarani Marine Turtles Natural Aquarium is a tidal lagoon beside Nungwi's lighthouse where rescued green and hawksbill turtles are cared for and rehabilitated before release. Visitors can watch and even swim with the turtles and learn about the conservation work.",
+   "h": "En Nungwi, junto al faro. Abierto a diario con entrada.",
+   "h_en": "In Nungwi, beside the lighthouse. Open daily with an entrance fee.",
+   "i": "Puedes comprar algas para alimentar a las tortugas; parte de la entrada financia su liberación.",
+   "i_en": "You can buy seaweed to feed the turtles; part of the fee funds their release."
+  },
+  "w_zan_nakupenda": {
+   "id": "w_zan_nakupenda",
+   "d": "Nakupenda ('te quiero' en suajili) es un banco de arena blanca que emerge del mar frente a Stone Town con la marea baja, rodeado de aguas turquesa poco profundas. Las excursiones de medio día combinan baño, snorkel y un almuerzo de marisco a la parrilla sobre la propia arena.",
+   "d_en": "Nakupenda ('I love you' in Swahili) is a white sandbar that emerges off Stone Town at low tide, ringed by shallow turquoise water. Half-day trips combine swimming, snorkelling and a grilled-seafood lunch served right on the sand.",
+   "h": "Frente a Stone Town, cerca de Prison Island; solo accesible en barco con marea baja.",
+   "h_en": "Off Stone Town, near Prison Island; reachable only by boat at low tide.",
+   "i": "El islote desaparece al subir la marea; lleva protección solar, no hay sombra.",
+   "i_en": "The sandbar vanishes as the tide rises; bring sun protection, there's no shade."
+  },
+  "w_zan_kuza_cave": {
+   "id": "w_zan_kuza_cave",
+   "d": "Kuza Cave es una gruta de coral con una poza natural de agua dulce cristalina y turquesa, perfecta para un baño refrescante lejos del mar. Es también un centro cultural suajili que ofrece talleres de cocina, música y tradiciones locales en un entorno tranquilo entre Paje y Jambiani.",
+   "d_en": "Kuza Cave is a coral grotto with a natural pool of crystal-clear turquoise freshwater, perfect for a refreshing swim away from the sea. It's also a Swahili cultural centre offering cooking, music and tradition workshops in a peaceful setting between Paje and Jambiani.",
+   "h": "Interior de la costa sureste, entre Paje y Jambiani. Abierto a diario con entrada.",
+   "h_en": "Inland on the southeast coast, between Paje and Jambiani. Open daily with an entrance fee.",
+   "i": "Lleva calzado de agua; la poza es honda. Reserva con antelación los talleres culturales.",
+   "i_en": "Bring water shoes; the pool is deep. Book the cultural workshops in advance."
+  },
+  "w_zan_the_rock": {
+   "id": "w_zan_the_rock",
+   "d": "Encaramado sobre una roca de coral en medio del océano frente a la playa de Pingwe, The Rock es el restaurante más fotografiado de Zanzíbar. Con marea baja se llega andando y con marea alta en barca. Su carta se centra en marisco y pescado fresco con vistas de 360° al Índico.",
+   "d_en": "Perched on a coral rock in the middle of the ocean off Pingwe beach, The Rock is Zanzibar's most photographed restaurant. Reachable on foot at low tide and by boat at high tide, its menu focuses on fresh seafood and fish with 360° Indian Ocean views.",
+   "h": "Frente a la playa de Pingwe, costa sureste, cerca de Michamvi.",
+   "h_en": "Off Pingwe beach, southeast coast, near Michamvi.",
+   "i": "Reserva imprescindible, sobre todo para comer; consulta las mareas para el acceso.",
+   "i_en": "Reservation essential, especially for lunch; check the tides for access."
+  },
+  "w_zan_lukmaan": {
+   "id": "w_zan_lukmaan",
+   "d": "Uno de los restaurantes locales más queridos de Stone Town, Lukmaan ofrece cocina suajili casera servida tipo bufé: curris, pescado, biryani, chapati, verduras y zumos frescos a precios muy asequibles. Ambiente sencillo y bullicioso, frecuentado tanto por zanzibaríes como por viajeros.",
+   "d_en": "One of Stone Town's best-loved local eateries, Lukmaan serves home-style Swahili food buffet-style: curries, fish, biryani, chapati, vegetables and fresh juices at very affordable prices. A simple, buzzing spot popular with both Zanzibaris and travellers.",
+   "h": "Cerca del mercado de Darajani, en el centro de Stone Town.",
+   "h_en": "Near Darajani Market, in central Stone Town.",
+   "i": "Ideal para probar platos típicos a buen precio; señalas lo que quieres en el mostrador.",
+   "i_en": "Great for trying typical dishes cheaply; point at what you want at the counter."
+  },
+  "w_zan_emerson_spice": {
+   "id": "w_zan_emerson_spice",
+   "d": "El restaurante Tea House Rooftop del hotel Emerson Spice sirve un menú degustación de cocina zanzibarí de autor en una de las azoteas más altas de Stone Town, con cojines, faroles y vistas a los tejados y al mar al atardecer. Cena única, a menudo con música en directo.",
+   "d_en": "The Tea House Rooftop restaurant at the Emerson Spice hotel serves a tasting menu of refined Zanzibari cuisine on one of Stone Town's highest rooftops, with cushions, lanterns and views over the rooftops and sea at sunset. A unique dinner, often with live music.",
+   "h": "En Tharia Street, corazón de Stone Town. Solo cenas, con reserva.",
+   "h_en": "On Tharia Street, in the heart of Stone Town. Dinner only, by reservation.",
+   "i": "Reserva con antelación; el menú es fijo de varios platos y llega temprano para el atardecer.",
+   "i_en": "Book ahead; the menu is a fixed multi-course and arrive early for the sunset."
+  },
+  "w_zan_forodhani": {
+   "id": "w_zan_forodhani",
+   "d": "Al caer la noche, los Jardines de Forodhani frente al mar se llenan de puestos de comida callejera: brochetas de marisco, 'pizza zanzibarí', samosas, urojo (sopa Zanzibar mix) y el dulce zumo de caña de azúcar con jengibre y lima. Un festín popular con el mar y Stone Town de fondo.",
+   "d_en": "At nightfall, the seafront Forodhani Gardens fill with street-food stalls: seafood skewers, 'Zanzibar pizza', samosas, urojo (Zanzibar mix soup) and the sweet sugarcane juice with ginger and lime. A lively feast with the sea and Stone Town as a backdrop.",
+   "h": "Jardines de Forodhani, paseo marítimo de Stone Town. Cada noche desde el atardecer.",
+   "h_en": "Forodhani Gardens, Stone Town seafront. Every evening from sunset.",
+   "i": "Paga en efectivo y en chelines; elige puestos concurridos y con la comida bien hecha.",
+   "i_en": "Pay cash in shillings; pick busy stalls with food cooked through."
+  },
+  "w_zan_upendo_paje": {
+   "id": "w_zan_upendo_paje",
+   "d": "En primera línea de la playa de Paje, Upendo es un elegante beach club y restaurante con mesas sobre la arena, hamacas y columpios en el agua. Sirve marisco fresco, pizzas, ensaladas y cócteles al ritmo del kitesurf, ideal para almorzar o ver el atardecer con los pies en la arena.",
+   "d_en": "Right on Paje beach, Upendo is a stylish beach club and restaurant with tables on the sand, loungers and swings in the water. It serves fresh seafood, pizzas, salads and cocktails to the rhythm of the kitesurfers, ideal for lunch or a barefoot sunset.",
+   "h": "Primera línea de playa en Paje, costa sureste.",
+   "h_en": "Beachfront in Paje, southeast coast.",
+   "i": "Buen sitio para combinar baño, comida y cócteles; muy animado con viento de kite.",
+   "i_en": "A good spot to combine swimming, food and cocktails; buzzing when the kite wind is up."
+  }
+ },
+ "food": {
+  "w_zan_the_rock": {
+   "cuisine": "Marisco / pescado, cocina internacional",
+   "price": "25–50 €",
+   "hours": "12:00–22:00"
+  },
+  "w_zan_lukmaan": {
+   "cuisine": "Suajili / zanzibarí tradicional",
+   "price": "4–10 €",
+   "hours": "08:00–22:00"
+  },
+  "w_zan_emerson_spice": {
+   "cuisine": "Zanzibarí de autor, menú degustación",
+   "price": "35–55 €",
+   "hours": "18:00–22:00"
+  },
+  "w_zan_forodhani": {
+   "cuisine": "Comida callejera zanzibarí, marisco",
+   "price": "3–12 €",
+   "hours": "18:00–23:00"
+  },
+  "w_zan_upendo_paje": {
+   "cuisine": "Internacional, marisco, pizzas",
+   "price": "10–25 €",
+   "hours": "09:00–23:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Zanzíbar",
+   "items": [
+    {
+     "name": "Especias (clavo, cardamomo, vainilla)",
+     "price": "3–15 €",
+     "desc": "La 'Isla de las Especias' produce clavo, nuez moscada, canela, cardamomo y vainilla; se venden en bolsitas y kits de regalo."
+    },
+    {
+     "name": "Cuadro Tingatinga",
+     "price": "10–60 €",
+     "desc": "Pintura naíf de vivos colores típica de Tanzania, con animales y escenas de la vida isleña."
+    },
+    {
+     "name": "Kanga / Kitenge",
+     "price": "5–20 €",
+     "desc": "Telas estampadas de algodón con proverbios suajili, usadas como pareo, vestido o decoración."
+    },
+    {
+     "name": "Puerta o cofre tallado en miniatura",
+     "price": "15–80 €",
+     "desc": "Réplicas de las célebres puertas de madera de Stone Town y de los cofres árabes con tachones de latón."
+    },
+    {
+     "name": "Jabones y aceites de especias",
+     "price": "3–12 €",
+     "desc": "Jabones artesanales, aceite de coco y ungüentos aromáticos elaborados con productos locales."
+    }
+   ],
+   "shops": [
+    "Mercado de Darajani (Stone Town)",
+    "Memories of Zanzibar (Kenyatta Rd)",
+    "Puestos de Forodhani Gardens",
+    "Granjas de especias (Kizimbani/Tangawizi)",
+    "Talleres de Tingatinga en Gizenga St"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Zanzíbar es de mayoría musulmana: fuera de las playas y resorts viste con los hombros y las rodillas cubiertos, sobre todo en Stone Town y los pueblos.",
+   "La mejor época seca es de junio a octubre y de diciembre a febrero; las lluvias fuertes caen en abril y mayo.",
+   "Lleva efectivo en chelines tanzanos y algún dólar; muchos sitios no aceptan tarjeta y los cajeros escasean fuera de Stone Town.",
+   "Contrata excursiones (Prison Island, delfines de Kizimkazi, Mnemba) con operadores responsables y respeta la distancia con la fauna marina.",
+   "Ten en cuenta las mareas en la costa este (Paje, Jambiani): con marea baja el mar se retira cientos de metros y no se puede nadar."
+  ],
+  "en": [
+   "Zanzibar is mostly Muslim: away from beaches and resorts, cover shoulders and knees, especially in Stone Town and the villages.",
+   "The best dry seasons run June–October and December–February; the heavy rains fall in April and May.",
+   "Carry cash in Tanzanian shillings plus a few US dollars; many places don't take cards and ATMs are scarce outside Stone Town.",
+   "Book tours (Prison Island, Kizimkazi dolphins, Mnemba) with responsible operators and keep your distance from marine wildlife.",
+   "Mind the tides on the east coast (Paje, Jambiani): at low tide the sea retreats hundreds of metres and swimming isn't possible."
+  ]
+ },
+ "climate": {
+  "hi": [
+   33,
+   33,
+   33,
+   32,
+   30,
+   29,
+   29,
+   29,
+   30,
+   31,
+   32,
+   32
+  ],
+  "lo": [
+   24,
+   24,
+   25,
+   25,
+   24,
+   23,
+   22,
+   22,
+   22,
+   23,
+   24,
+   24
+  ]
+ },
+ "tr": {
+  "Palacio del s. XIX, símbolo de Stone Town frente al mar.": "19th-century palace and icon of Stone Town's seafront.",
+  "La fortaleza más antigua de Stone Town, hoy centro cultural.": "Stone Town's oldest fortress, now a cultural hub.",
+  "El bullicioso mercado central de Stone Town.": "Stone Town's bustling central market.",
+  "Catedral construida sobre el antiguo mercado de esclavos.": "Cathedral built over the former slave market.",
+  "Memorial y cámaras de la esclavitud junto a la catedral.": "Slavery memorial and holding chambers by the cathedral.",
+  "Casa natal del cantante de Queen, hoy pequeño museo.": "Birthplace of Queen's singer, now a small museum.",
+  "Playa estrella del norte, arena blanca y ambiente animado.": "The north's star beach: white sand and a lively scene.",
+  "Playa tranquila al sur de Nungwi, famosa por sus atardeceres.": "Calmer beach south of Nungwi, famed for its sunsets.",
+  "Meca del kitesurf en la costa este de la isla.": "Kitesurfing mecca on the island's east coast.",
+  "Pueblo pesquero auténtico y playa serena al sur de Paje.": "Authentic fishing village and serene beach south of Paje.",
+  "Islote con tortugas gigantes y una antigua prisión.": "Islet with giant tortoises and an old prison.",
+  "Parque nacional del raro mono colobo rojo de Zanzíbar.": "National park of the rare Zanzibar red colobus monkey.",
+  "El mejor arrecife de coral para snorkel y buceo.": "The best coral reef for snorkelling and diving.",
+  "Pueblo del sur famoso por avistar delfines.": "Southern village famed for dolphin watching.",
+  "Playa tranquila del noreste frente a Mnemba.": "Peaceful northeast beach opposite Mnemba.",
+  "Amplia playa de resorts en la costa este.": "Broad resort beach on the east coast.",
+  "Tour por las plantaciones que dieron fama a la isla.": "Tour of the plantations that made the island famous.",
+  "Laguna natural de conservación de tortugas marinas en Nungwi.": "Natural sea-turtle conservation lagoon in Nungwi.",
+  "Islote de arena que aflora con la marea baja frente a Stone Town.": "Sandbar that surfaces at low tide off Stone Town.",
+  "Cenote de agua dulce turquesa cerca de Jambiani.": "Turquoise freshwater cenote near Jambiani.",
+  "Icónico restaurante sobre una roca en el mar de Pingwe.": "Iconic restaurant on a rock in the sea at Pingwe.",
+  "Institución de la auténtica cocina suajili en Stone Town.": "An institution of authentic Swahili food in Stone Town.",
+  "Cena romántica en la azotea más alta de Stone Town.": "Romantic dinner on Stone Town's highest rooftop.",
+  "Puestos de comida callejera junto al mar cada noche.": "Seafront street-food stalls every evening.",
+  "Restaurante y beach bar frente al mar en Paje.": "Beachfront restaurant and bar in Paje.",
+  "Zanzíbar": "Zanzíbar"
+ }
+}

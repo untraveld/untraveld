@@ -1,0 +1,741 @@
+{
+ "id": "lisboa",
+ "name": "Lisboa",
+ "country": "WORLD",
+ "center": [
+  38.7223,
+  -9.1393
+ ],
+ "pois": [
+  {
+   "id": "w_lis_torre_belem",
+   "cat": "monuments",
+   "name": "Torre de Belém",
+   "icon": "🗼",
+   "lat": 38.69157,
+   "lng": -9.21599,
+   "desc": "Torre fortificada manuelina junto al Tajo, icono de Lisboa."
+  },
+  {
+   "id": "w_lis_jeronimos",
+   "cat": "monuments",
+   "name": "Monasterio de los Jerónimos",
+   "icon": "⛪",
+   "lat": 38.69766,
+   "lng": -9.20648,
+   "desc": "Obra maestra del gótico manuelino en Belém."
+  },
+  {
+   "id": "w_lis_descubrimientos",
+   "cat": "monuments",
+   "name": "Monumento a los Descubrimientos",
+   "icon": "⛵",
+   "lat": 38.69378,
+   "lng": -9.20579,
+   "desc": "Gran monumento con forma de carabela junto al río."
+  },
+  {
+   "id": "w_lis_castelo_sao_jorge",
+   "cat": "monuments",
+   "name": "Castillo de San Jorge",
+   "icon": "🏰",
+   "lat": 38.71393,
+   "lng": -9.13355,
+   "desc": "Castillo morisco con vistas de toda la ciudad."
+  },
+  {
+   "id": "w_lis_praca_comercio",
+   "cat": "monuments",
+   "name": "Plaza del Comercio",
+   "icon": "🏛️",
+   "lat": 38.70766,
+   "lng": -9.13645,
+   "desc": "Gran plaza junto al río abierta al Tajo."
+  },
+  {
+   "id": "w_lis_santa_justa",
+   "cat": "monuments",
+   "name": "Elevador de Santa Justa",
+   "icon": "🛗",
+   "lat": 38.71204,
+   "lng": -9.13938,
+   "desc": "Ascensor de hierro neogótico de 1902."
+  },
+  {
+   "id": "w_lis_se_catedral",
+   "cat": "monuments",
+   "name": "Catedral de Lisboa (Sé)",
+   "icon": "⛪",
+   "lat": 38.70982,
+   "lng": -9.13314,
+   "desc": "La catedral más antigua de la ciudad, del siglo XII."
+  },
+  {
+   "id": "w_lis_arco_rua_augusta",
+   "cat": "monuments",
+   "name": "Arco da Rua Augusta",
+   "icon": "🏛️",
+   "lat": 38.70862,
+   "lng": -9.13674,
+   "desc": "Arco triunfal de acceso a la Plaza del Comercio."
+  },
+  {
+   "id": "w_lis_igreja_sao_roque",
+   "cat": "monuments",
+   "name": "Iglesia de San Roque",
+   "icon": "⛪",
+   "lat": 38.71375,
+   "lng": -9.14411,
+   "desc": "Iglesia jesuita con interiores barrocos deslumbrantes."
+  },
+  {
+   "id": "w_lis_panteao",
+   "cat": "monuments",
+   "name": "Panteão Nacional",
+   "icon": "🏛️",
+   "lat": 38.71198,
+   "lng": -9.12489,
+   "desc": "Iglesia barroca de cúpula blanca, panteón nacional."
+  },
+  {
+   "id": "w_lis_convento_carmo",
+   "cat": "monuments",
+   "name": "Convento do Carmo",
+   "icon": "⛪",
+   "lat": 38.71171,
+   "lng": -9.14033,
+   "desc": "Ruinas góticas sin techo, símbolo del terremoto de 1755."
+  },
+  {
+   "id": "w_lis_aqueduto",
+   "cat": "monuments",
+   "name": "Aqueduto das Águas Livres",
+   "icon": "🌉",
+   "lat": 38.72408,
+   "lng": -9.16182,
+   "desc": "Acueducto del siglo XVIII con enormes arcos de piedra."
+  },
+  {
+   "id": "w_lis_basilica_estrela",
+   "cat": "monuments",
+   "name": "Basílica da Estrela",
+   "icon": "⛪",
+   "lat": 38.71349,
+   "lng": -9.16003,
+   "desc": "Basílica de gran cúpula blanca del siglo XVIII."
+  },
+  {
+   "id": "w_lis_mirador_sao_pedro",
+   "cat": "nature",
+   "name": "Miradouro de São Pedro de Alcântara",
+   "icon": "🌇",
+   "lat": 38.71534,
+   "lng": -9.14424,
+   "desc": "Mirador ajardinado con vistas al castillo y la Baixa."
+  },
+  {
+   "id": "w_lis_mirador_senhora_monte",
+   "cat": "nature",
+   "name": "Miradouro da Senhora do Monte",
+   "icon": "🌒",
+   "lat": 38.71889,
+   "lng": -9.13045,
+   "desc": "El mirador más alto de Lisboa, vistas de 180 grados."
+  },
+  {
+   "id": "w_lis_mirador_santa_luzia",
+   "cat": "nature",
+   "name": "Miradouro de Santa Luzia",
+   "icon": "🌸",
+   "lat": 38.71161,
+   "lng": -9.13001,
+   "desc": "Terraza con azulejos y buganvillas sobre Alfama."
+  },
+  {
+   "id": "w_lis_parque_eduardo_vii",
+   "cat": "nature",
+   "name": "Parque Eduardo VII",
+   "icon": "🌳",
+   "lat": 38.72806,
+   "lng": -9.15258,
+   "desc": "Gran parque en pendiente con vistas hasta el río."
+  },
+  {
+   "id": "w_lis_jardim_botanico_tropical",
+   "cat": "nature",
+   "name": "Jardim Botânico Tropical",
+   "icon": "🌴",
+   "lat": 38.697,
+   "lng": -9.20083,
+   "desc": "Jardín tropical con palmeras y pavos reales en Belém."
+  },
+  {
+   "id": "w_lis_sintra",
+   "cat": "nature",
+   "name": "Sintra",
+   "icon": "🏔️",
+   "lat": 38.79768,
+   "lng": -9.39068,
+   "desc": "Sierra con palacios de cuento a 30 km de Lisboa."
+  },
+  {
+   "id": "w_lis_alfama",
+   "cat": "ocio",
+   "name": "Alfama",
+   "icon": "🏘️",
+   "lat": 38.71182,
+   "lng": -9.12907,
+   "desc": "El barrio más antiguo, laberinto de callejones y fado."
+  },
+  {
+   "id": "w_lis_bairro_alto",
+   "cat": "ocio",
+   "name": "Barrio Alto",
+   "icon": "🍸",
+   "lat": 38.71272,
+   "lng": -9.1464,
+   "desc": "Barrio bohemio, epicentro de la vida nocturna."
+  },
+  {
+   "id": "w_lis_tranvia_28",
+   "cat": "ocio",
+   "name": "Tranvía 28 (Elétrico 28)",
+   "icon": "🚋",
+   "lat": 38.7183,
+   "lng": -9.1357,
+   "desc": "Tranvía amarillo histórico por las colinas de la ciudad."
+  },
+  {
+   "id": "w_lis_lx_factory",
+   "cat": "ocio",
+   "name": "LX Factory",
+   "icon": "🏭",
+   "lat": 38.70334,
+   "lng": -9.17869,
+   "desc": "Antigua fábrica reconvertida en hub creativo y de ocio."
+  },
+  {
+   "id": "w_lis_oceanario",
+   "cat": "ocio",
+   "name": "Oceanário de Lisboa",
+   "icon": "🐟",
+   "lat": 38.76353,
+   "lng": -9.09385,
+   "desc": "Uno de los mayores acuarios de Europa."
+  },
+  {
+   "id": "w_lis_elevador_bica",
+   "cat": "ocio",
+   "name": "Elevador da Bica",
+   "icon": "🚞",
+   "lat": 38.70907,
+   "lng": -9.14709,
+   "desc": "Funicular histórico por una cuesta pintoresca."
+  },
+  {
+   "id": "w_lis_feira_da_ladra",
+   "cat": "ocio",
+   "name": "Feira da Ladra",
+   "icon": "🛍️",
+   "lat": 38.71536,
+   "lng": -9.12468,
+   "desc": "Mercadillo de segunda mano y antigüedades."
+  },
+  {
+   "id": "w_lis_time_out_market",
+   "cat": "food",
+   "name": "Time Out Market",
+   "icon": "🍽️",
+   "lat": 38.70691,
+   "lng": -9.14603,
+   "desc": "Mercado gastronómico con lo mejor de la cocina lisboeta."
+  },
+  {
+   "id": "w_lis_pasteis_belem",
+   "cat": "food",
+   "name": "Pastéis de Belém",
+   "icon": "🥧",
+   "lat": 38.69747,
+   "lng": -9.20325,
+   "desc": "La pastelería original del pastel de nata desde 1837."
+  },
+  {
+   "id": "w_lis_cervejaria_ramiro",
+   "cat": "food",
+   "name": "Cervejaria Ramiro",
+   "icon": "🦞",
+   "lat": 38.72033,
+   "lng": -9.13571,
+   "desc": "Templo del marisco fresco lisboeta."
+  },
+  {
+   "id": "w_lis_manteigaria",
+   "cat": "food",
+   "name": "Manteigaria",
+   "icon": "🧁",
+   "lat": 38.71013,
+   "lng": -9.14411,
+   "desc": "Los pastéis de nata más aclamados del centro."
+  },
+  {
+   "id": "w_lis_ginjinha",
+   "cat": "food",
+   "name": "A Ginjinha",
+   "icon": "🍒",
+   "lat": 38.71453,
+   "lng": -9.13857,
+   "desc": "Bar histórico del licor de guinda desde 1840."
+  },
+  {
+   "id": "w_lis_solar_presuntos",
+   "cat": "food",
+   "name": "Solar dos Presuntos",
+   "icon": "🍖",
+   "lat": 38.71736,
+   "lng": -9.14203,
+   "desc": "Clásico de cocina portuguesa tradicional."
+  }
+ ],
+ "extra": {
+  "w_lis_torre_belem": {
+   "id": "w_lis_torre_belem",
+   "d": "Construida entre 1514 y 1520 como fortaleza defensiva y puerta ceremonial de la ciudad, es Patrimonio de la Humanidad y máximo símbolo de la era de los Descubrimientos.",
+   "d_en": "Built 1514–1520 as a defensive fortress and ceremonial gateway, a UNESCO World Heritage site and the great symbol of the Age of Discovery.",
+   "h": "Tue-Sun 09:30-18:00 (cerrado lunes)",
+   "h_en": "Tue-Sun 09:30-18:00 (closed Mon)",
+   "i": "Entrada ~8 €; llega temprano por las colas.",
+   "i_en": "Entry ~€8; arrive early to beat the queues."
+  },
+  "w_lis_jeronimos": {
+   "id": "w_lis_jeronimos",
+   "d": "Monasterio del siglo XVI financiado con las riquezas de las especias, alberga el claustro más bello de Portugal y la tumba de Vasco da Gama. Patrimonio de la Humanidad.",
+   "d_en": "16th-century monastery funded by the spice trade, home to Portugal's finest cloister and Vasco da Gama's tomb. UNESCO World Heritage.",
+   "h": "Tue-Sun 09:30-18:00 (cerrado lunes)",
+   "h_en": "Tue-Sun 09:30-18:00 (closed Mon)",
+   "i": "Entrada ~10 €; la iglesia es gratuita.",
+   "i_en": "Entry ~€10; the church is free."
+  },
+  "w_lis_descubrimientos": {
+   "id": "w_lis_descubrimientos",
+   "d": "Padrão dos Descobrimentos, erigido en 1960, celebra a los navegantes portugueses liderados por Enrique el Navegante. Mirador panorámico en lo alto.",
+   "d_en": "Padrão dos Descobrimentos, built 1960, honours Portuguese navigators led by Henry the Navigator. Panoramic viewpoint on top.",
+   "h": "Tue-Sun 10:00-19:00",
+   "h_en": "Tue-Sun 10:00-19:00",
+   "i": "Subida al mirador ~6 €; abajo la rosa de los vientos.",
+   "i_en": "Viewpoint access ~€6; the compass rose is at its base."
+  },
+  "w_lis_castelo_sao_jorge": {
+   "id": "w_lis_castelo_sao_jorge",
+   "d": "Fortaleza de origen morisco sobre la colina más alta de Lisboa. Murallas, pavos reales y las mejores vistas panorámicas del casco antiguo y el Tajo.",
+   "d_en": "Moorish-origin fortress atop Lisbon's highest hill. Ramparts, peacocks and the best panoramic views of the old town and Tagus.",
+   "h": "Diario 09:00-21:00 (verano)",
+   "h_en": "Daily 09:00-21:00 (summer)",
+   "i": "Entrada ~15 €; sube en el tranvía 28 o en tuk-tuk.",
+   "i_en": "Entry ~€15; reach it by tram 28 or tuk-tuk."
+  },
+  "w_lis_praca_comercio": {
+   "id": "w_lis_praca_comercio",
+   "d": "Praça do Comércio, la plaza principal reconstruida tras el terremoto de 1755. Rodeada de arcadas amarillas, con la estatua de José I y salida al río.",
+   "d_en": "Praça do Comércio, the main square rebuilt after the 1755 earthquake. Framed by yellow arcades, with the statue of José I opening onto the river.",
+   "h": "Abierto 24 h",
+   "h_en": "Open 24 h",
+   "i": "Gratis; ideal al atardecer junto al agua.",
+   "i_en": "Free; lovely at sunset by the water."
+  },
+  "w_lis_santa_justa": {
+   "id": "w_lis_santa_justa",
+   "d": "Elevador de hierro forjado diseñado por un discípulo de Eiffel que conecta la Baixa con el Chiado. Su terraza superior regala vistas de 360 grados.",
+   "d_en": "Wrought-iron lift by a pupil of Eiffel linking the Baixa to the Chiado. Its upper terrace offers 360-degree views.",
+   "h": "Diario 07:00-23:00",
+   "h_en": "Daily 07:00-23:00",
+   "i": "Incluido en el billete de transporte; sube por el Convento do Carmo para evitar cola.",
+   "i_en": "Included in transit ticket; access the top via Convento do Carmo to skip the line."
+  },
+  "w_lis_se_catedral": {
+   "id": "w_lis_se_catedral",
+   "d": "La Sé, fundada en 1147 tras la reconquista cristiana. Fachada románica con dos torres almenadas, claustro gótico y excavaciones arqueológicas en su interior.",
+   "d_en": "The Sé, founded in 1147 after the Christian reconquest. Romanesque facade with two crenellated towers, Gothic cloister and archaeological digs inside.",
+   "h": "Diario 09:00-19:00",
+   "h_en": "Daily 09:00-19:00",
+   "i": "Iglesia gratis; claustro ~4 €. Pasa el tranvía 28 delante.",
+   "i_en": "Church free; cloister ~€4. Tram 28 passes in front."
+  },
+  "w_lis_arco_rua_augusta": {
+   "id": "w_lis_arco_rua_augusta",
+   "d": "Arco monumental del siglo XIX coronado por esculturas alegóricas. Su mirador superior ofrece vistas de la Baixa cuadriculada y el río.",
+   "d_en": "19th-century monumental arch crowned with allegorical statues. Its rooftop viewpoint overlooks the grid of the Baixa and the river.",
+   "h": "Diario 10:00-19:00",
+   "h_en": "Daily 10:00-19:00",
+   "i": "Subida ~4 €; entrada a pie por la Rua Augusta.",
+   "i_en": "Rooftop ~€4; enter on foot from Rua Augusta."
+  },
+  "w_lis_igreja_sao_roque": {
+   "id": "w_lis_igreja_sao_roque",
+   "d": "Fachada sobria que esconde uno de los interiores más ricos de Europa, con la Capela de São João Baptista chapada en oro, lapislázuli y mármoles.",
+   "d_en": "A plain facade hides one of Europe's richest interiors, with the Chapel of St John the Baptist clad in gold, lapis lazuli and marble.",
+   "h": "Diario 09:00-18:00",
+   "h_en": "Daily 09:00-18:00",
+   "i": "Iglesia gratis; museo anexo ~2,50 €.",
+   "i_en": "Church free; adjoining museum ~€2.50."
+  },
+  "w_lis_panteao": {
+   "id": "w_lis_panteao",
+   "d": "Antigua iglesia de Santa Engrácia, hoy panteón de figuras ilustres como Amália Rodrigues. Su terraza sobre la cúpula ofrece vistas de Alfama y el río.",
+   "d_en": "The former Santa Engrácia church, now a pantheon of notable figures such as Amália Rodrigues. Its dome terrace overlooks Alfama and the river.",
+   "h": "Tue-Sun 10:00-18:00",
+   "h_en": "Tue-Sun 10:00-18:00",
+   "i": "Entrada ~4 €; junto a la Feira da Ladra.",
+   "i_en": "Entry ~€4; next to the Feira da Ladra flea market."
+  },
+  "w_lis_convento_carmo": {
+   "id": "w_lis_convento_carmo",
+   "d": "Convento carmelita cuya nave gótica quedó a cielo abierto tras el terremoto de 1755. Alberga un museo arqueológico entre sus arcos esqueléticos.",
+   "d_en": "Carmelite convent whose Gothic nave was left open to the sky after the 1755 earthquake. It houses an archaeological museum among its skeletal arches.",
+   "h": "Mon-Sat 10:00-18:00",
+   "h_en": "Mon-Sat 10:00-18:00",
+   "i": "Entrada ~7 €; conecta con el Elevador de Santa Justa.",
+   "i_en": "Entry ~€7; connects to the Santa Justa Lift."
+  },
+  "w_lis_aqueduto": {
+   "id": "w_lis_aqueduto",
+   "d": "Impresionante obra de ingeniería que llevaba agua a Lisboa cruzando el valle de Alcântara con arcos de hasta 65 m. Sobrevivió al terremoto de 1755.",
+   "d_en": "Impressive feat of engineering that carried water into Lisbon across the Alcântara valley on arches up to 65 m high. It survived the 1755 quake.",
+   "h": "Tue-Sat 10:00-17:30",
+   "h_en": "Tue-Sat 10:00-17:30",
+   "i": "Paseo por los arcos ~4 €; algo alejado del centro.",
+   "i_en": "Walk atop the arches ~€4; a bit away from the centre."
+  },
+  "w_lis_basilica_estrela": {
+   "id": "w_lis_basilica_estrela",
+   "d": "Iglesia neoclásica y barroca coronada por una gran cúpula visible desde toda la ciudad. Interior de mármoles rosados y grises y un famoso belén de terracota.",
+   "d_en": "Neoclassical-Baroque church topped by a large dome visible across the city. Interior of pink and grey marble and a famous terracotta nativity scene.",
+   "h": "Diario 09:00-19:00",
+   "h_en": "Daily 09:00-19:00",
+   "i": "Gratis; frente al Jardim da Estrela.",
+   "i_en": "Free; facing the Estrela Garden."
+  },
+  "w_lis_mirador_sao_pedro": {
+   "id": "w_lis_mirador_sao_pedro",
+   "d": "Terraza escalonada en el Barrio Alto con jardín, quioscos y una panorámica frontal del castillo de San Jorge y las colinas de Lisboa.",
+   "d_en": "Tiered terrace in Bairro Alto with a garden, kiosks and a head-on panorama of São Jorge castle and Lisbon's hills.",
+   "h": "Abierto 24 h",
+   "h_en": "Open 24 h",
+   "i": "Gratis; llega en el Elevador da Glória.",
+   "i_en": "Free; reachable by the Glória funicular."
+  },
+  "w_lis_mirador_senhora_monte": {
+   "id": "w_lis_mirador_senhora_monte",
+   "d": "Situado en la Graça, ofrece la vista más amplia de la ciudad, del castillo al puente 25 de Abril. Punto favorito para el atardecer entre pinos.",
+   "d_en": "In Graça, it offers the widest view in the city, from the castle to the 25 de Abril bridge. A favourite sunset spot among the pines.",
+   "h": "Abierto 24 h",
+   "h_en": "Open 24 h",
+   "i": "Gratis; algo apartado pero muy tranquilo.",
+   "i_en": "Free; a little out of the way but very peaceful."
+  },
+  "w_lis_mirador_santa_luzia": {
+   "id": "w_lis_mirador_santa_luzia",
+   "d": "Romántico mirador cubierto de azulejos y flores desde el que se ven los tejados de Alfama descendiendo hasta el Tajo. Suele haber música en vivo.",
+   "d_en": "Romantic viewpoint covered in tiles and flowers, overlooking the rooftops of Alfama tumbling down to the Tagus. Often live music.",
+   "h": "Abierto 24 h",
+   "h_en": "Open 24 h",
+   "i": "Gratis; a un paso de la catedral y el tranvía 28.",
+   "i_en": "Free; steps from the cathedral and tram 28."
+  },
+  "w_lis_parque_eduardo_vii": {
+   "id": "w_lis_parque_eduardo_vii",
+   "d": "Amplio jardín geométrico en la parte alta de la Avenida da Liberdade, con setos recortados, un invernadero tropical (Estufa Fria) y vistas en eje hasta el Tajo.",
+   "d_en": "Broad formal garden above Avenida da Liberdade, with clipped hedges, a tropical greenhouse (Estufa Fria) and an axial view down to the Tagus.",
+   "h": "Abierto 24 h; Estufa 10:00-17:00",
+   "h_en": "Open 24 h; greenhouse 10:00-17:00",
+   "i": "Parque gratis; Estufa Fria ~3 €.",
+   "i_en": "Park free; Estufa Fria greenhouse ~€3."
+  },
+  "w_lis_jardim_botanico_tropical": {
+   "id": "w_lis_jardim_botanico_tropical",
+   "d": "Oasis botánico del siglo XX con más de 600 especies tropicales, palmeras, un jardín asiático y pavos reales, junto al Monasterio de los Jerónimos.",
+   "d_en": "20th-century botanical oasis with over 600 tropical species, palms, an Asian garden and peacocks, next to the Jerónimos Monastery.",
+   "h": "Diario 10:00-18:00",
+   "h_en": "Daily 10:00-18:00",
+   "i": "Entrada ~5 €; refugio tranquilo en Belém.",
+   "i_en": "Entry ~€5; a quiet retreat in Belém."
+  },
+  "w_lis_sintra": {
+   "id": "w_lis_sintra",
+   "d": "Villa Patrimonio de la Humanidad enclavada en una sierra boscosa, con el colorido Palácio da Pena, el Castelo dos Mouros y la enigmática Quinta da Regaleira.",
+   "d_en": "UNESCO World Heritage town set in wooded hills, home to the colourful Pena Palace, the Moorish Castle and the enigmatic Quinta da Regaleira.",
+   "h": "Palacios 09:30-18:30 aprox.",
+   "h_en": "Palaces approx. 09:30-18:30",
+   "i": "Tren desde Rossio ~40 min; reserva Pena online.",
+   "i_en": "Train from Rossio ~40 min; book Pena online."
+  },
+  "w_lis_alfama": {
+   "id": "w_lis_alfama",
+   "d": "Barrio medieval que sobrevivió al terremoto, con calles empinadas, ropa tendida, patios escondidos y casas de fado donde suena la música del alma portuguesa.",
+   "d_en": "Medieval quarter that survived the earthquake, with steep lanes, hanging laundry, hidden courtyards and fado houses playing Portugal's soul music.",
+   "h": "Abierto 24 h",
+   "h_en": "Open 24 h",
+   "i": "Piérdete a pie; el tranvía 28 lo atraviesa.",
+   "i_en": "Get lost on foot; tram 28 runs through it."
+  },
+  "w_lis_bairro_alto": {
+   "id": "w_lis_bairro_alto",
+   "d": "De día tranquilo y de tiendas de diseño, de noche se llena de bares, fado y gente en la calle. El mejor sitio para salir hasta la madrugada en Lisboa.",
+   "d_en": "Quiet and full of design shops by day, at night it fills with bars, fado and crowds spilling into the streets. Lisbon's best spot for a night out.",
+   "h": "Bares hasta las 02:00-03:00",
+   "h_en": "Bars until 02:00-03:00",
+   "i": "Empieza por la Rua da Atalaia y la Rua do Diário de Notícias.",
+   "i_en": "Start on Rua da Atalaia and Rua do Diário de Notícias."
+  },
+  "w_lis_tranvia_28": {
+   "id": "w_lis_tranvia_28",
+   "d": "Ruta icónica en tranvías Remodelado de madera que serpentea entre Graça, Alfama, la Baixa y Estrela, subiendo cuestas imposibles junto a monumentos.",
+   "d_en": "Iconic route on vintage wooden Remodelado trams winding through Graça, Alfama, the Baixa and Estrela, climbing impossible hills past monuments.",
+   "h": "Diario 06:00-23:00 aprox.",
+   "h_en": "Daily approx. 06:00-23:00",
+   "i": "Sube en Martim Moniz temprano; cuidado con carteristas.",
+   "i_en": "Board at Martim Moniz early; watch for pickpockets."
+  },
+  "w_lis_lx_factory": {
+   "id": "w_lis_lx_factory",
+   "d": "Complejo industrial bajo el puente 25 de Abril lleno de tiendas independientes, estudios, restaurantes, arte urbano y la célebre librería Ler Devagar.",
+   "d_en": "Industrial complex under the 25 de Abril bridge packed with independent shops, studios, restaurants, street art and the famed Ler Devagar bookshop.",
+   "h": "Diario 08:00-24:00 (varía por local)",
+   "h_en": "Daily 08:00-24:00 (varies by venue)",
+   "i": "Gratis pasear; mercado dominical muy animado.",
+   "i_en": "Free to wander; lively Sunday market."
+  },
+  "w_lis_oceanario": {
+   "id": "w_lis_oceanario",
+   "d": "En el Parque das Nações, gira en torno a un gigantesco tanque central con tiburones, mantas y peces luna, rodeado de recreaciones de los océanos del mundo.",
+   "d_en": "In the Parque das Nações, built around a vast central tank with sharks, rays and sunfish, ringed by recreations of the world's oceans.",
+   "h": "Diario 10:00-20:00",
+   "h_en": "Daily 10:00-20:00",
+   "i": "Entrada ~25 €; ideal con niños, reserva online.",
+   "i_en": "Entry ~€25; great with kids, book online."
+  },
+  "w_lis_elevador_bica": {
+   "id": "w_lis_elevador_bica",
+   "d": "Funicular amarillo de 1892 que sube la empinada Rua da Bica entre casas de colores; uno de los rincones más fotografiados de Lisboa.",
+   "d_en": "Yellow 1892 funicular climbing the steep Rua da Bica between colourful houses; one of Lisbon's most photographed corners.",
+   "h": "Mon-Sat 07:00-21:00, Sun 09:00-21:00",
+   "h_en": "Mon-Sat 07:00-21:00, Sun 09:00-21:00",
+   "i": "Billete ~4 €; incluido en el pase de transporte.",
+   "i_en": "Ticket ~€4; included in the transit pass."
+  },
+  "w_lis_feira_da_ladra": {
+   "id": "w_lis_feira_da_ladra",
+   "d": "El rastro más antiguo de Lisboa, en Campo de Santa Clara, junto al Panteão. Antigüedades, azulejos, discos, ropa y objetos curiosos entre puestos al aire libre.",
+   "d_en": "Lisbon's oldest flea market, at Campo de Santa Clara by the Pantheon. Antiques, tiles, records, clothes and curios across open-air stalls.",
+   "h": "Tue y Sat 09:00-18:00",
+   "h_en": "Tue & Sat 09:00-18:00",
+   "i": "Gratis; regatea y vigila la cartera.",
+   "i_en": "Free; haggle and mind your wallet."
+  },
+  "w_lis_time_out_market": {
+   "id": "w_lis_time_out_market",
+   "d": "En el histórico Mercado da Ribeira, reúne bajo un mismo techo puestos de chefs premiados y clásicos locales, con largas mesas comunes.",
+   "d_en": "In the historic Mercado da Ribeira, it brings award-winning chefs and local classics under one roof, with long shared tables.",
+   "h": "Diario 10:00-24:00",
+   "h_en": "Daily 10:00-24:00",
+   "i": "Ve fuera de las horas punta para encontrar sitio.",
+   "i_en": "Go off-peak to find a seat."
+  },
+  "w_lis_pasteis_belem": {
+   "id": "w_lis_pasteis_belem",
+   "d": "Casa fundada en 1837 que guarda la receta secreta del Pastel de Belém, servido caliente con canela y azúcar glas. Una institución imprescindible.",
+   "d_en": "Founded in 1837, it keeps the secret recipe of the Pastel de Belém, served warm with cinnamon and icing sugar. An essential institution.",
+   "h": "Diario 08:00-23:00",
+   "h_en": "Daily 08:00-23:00",
+   "i": "Entra al salón interior para evitar la cola de la calle.",
+   "i_en": "Enter the inner rooms to skip the street queue."
+  },
+  "w_lis_cervejaria_ramiro": {
+   "id": "w_lis_cervejaria_ramiro",
+   "d": "Marisquería mítica desde 1956, famosa por sus gambas al ajillo, percebes, buey de mar y el prego (bocadillo de ternera) de postre.",
+   "d_en": "Legendary seafood house since 1956, famed for its garlic prawns, goose barnacles, brown crab and the prego steak sandwich for dessert.",
+   "h": "Tue-Sun 12:00-24:00 (cerrado lunes)",
+   "h_en": "Tue-Sun 12:00-24:00 (closed Mon)",
+   "i": "No reserva; espera cola o ve pronto.",
+   "i_en": "No reservations; expect a queue or go early."
+  },
+  "w_lis_manteigaria": {
+   "id": "w_lis_manteigaria",
+   "d": "Obrador donde se ven hornear los pastéis de nata tras el cristal, servidos calientes y crujientes. Rivaliza con los de Belém entre los locales.",
+   "d_en": "A workshop where you watch the custard tarts baked behind glass, served warm and crisp. It rivals Belém's among locals.",
+   "h": "Diario 08:00-24:00",
+   "h_en": "Daily 08:00-24:00",
+   "i": "Tómalo en la barra con un café; suena una campana al salir del horno.",
+   "i_en": "Enjoy it at the counter with a coffee; a bell rings for fresh batches."
+  },
+  "w_lis_ginjinha": {
+   "id": "w_lis_ginjinha",
+   "d": "Diminuto local junto al Rossio que sirve desde 1840 el tradicional licor de guinda en chupito, con o sin fruta, servido en la calle de pie.",
+   "d_en": "Tiny spot by Rossio serving the traditional ginja cherry liqueur since 1840, with or without fruit, downed standing in the street.",
+   "h": "Diario 09:00-22:00",
+   "h_en": "Daily 09:00-22:00",
+   "i": "Pide 'com elas' para incluir las guindas.",
+   "i_en": "Ask 'com elas' to get the cherries included."
+  },
+  "w_lis_solar_presuntos": {
+   "id": "w_lis_solar_presuntos",
+   "d": "Restaurante familiar cerca del Rossio célebre por su bacalao, marisco, arroces y jamones del Miño, con paredes cubiertas de fotos de famosos.",
+   "d_en": "Family restaurant near Rossio famed for its salt cod, seafood, rice dishes and Minho hams, its walls covered in celebrity photos.",
+   "h": "Mon-Sat 12:00-15:00 y 19:00-23:00 (cerrado domingo)",
+   "h_en": "Mon-Sat 12:00-15:00 & 19:00-23:00 (closed Sun)",
+   "i": "Reserva recomendada; porciones muy generosas.",
+   "i_en": "Booking recommended; very generous portions."
+  }
+ },
+ "food": {
+  "w_lis_time_out_market": {
+   "cuisine": "Portuguesa / mercado gastronómico",
+   "price": "10–25 €",
+   "hours": "Diario 10:00-24:00"
+  },
+  "w_lis_pasteis_belem": {
+   "cuisine": "Pastelería / repostería",
+   "price": "1,50–8 €",
+   "hours": "Diario 08:00-23:00"
+  },
+  "w_lis_cervejaria_ramiro": {
+   "cuisine": "Marisco",
+   "price": "20–45 €",
+   "hours": "Tue-Sun 12:00-24:00"
+  },
+  "w_lis_manteigaria": {
+   "cuisine": "Pastelería / repostería",
+   "price": "1,40–5 €",
+   "hours": "Diario 08:00-24:00"
+  },
+  "w_lis_ginjinha": {
+   "cuisine": "Bar / licores",
+   "price": "1,50–4 €",
+   "hours": "Diario 09:00-22:00"
+  },
+  "w_lis_solar_presuntos": {
+   "cuisine": "Portuguesa tradicional",
+   "price": "25–50 €",
+   "hours": "Mon-Sat 12:00-15:00, 19:00-23:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Lisboa",
+   "items": [
+    {
+     "name": "Azulejos",
+     "price": "5–40 €",
+     "desc": "Baldosas de cerámica pintada, símbolo del arte portugués."
+    },
+    {
+     "name": "Lata de conservas (sardinas)",
+     "price": "3–12 €",
+     "desc": "Sardinas y bacalao en lata con diseños vintage."
+    },
+    {
+     "name": "Ginjinha",
+     "price": "8–15 €",
+     "desc": "Licor de guinda tradicional, dulce y aromático."
+    },
+    {
+     "name": "Corcho (bolsos, carteras)",
+     "price": "10–60 €",
+     "desc": "Productos de corcho, materia prima estrella de Portugal."
+    },
+    {
+     "name": "Gallo de Barcelos",
+     "price": "5–25 €",
+     "desc": "Figura del gallo, amuleto de la suerte portugués."
+    }
+   ],
+   "shops": [
+    "A Vida Portuguesa",
+    "Conserveira de Lisboa",
+    "Cork & Co",
+    "Fábrica Sant'Anna",
+    "Feira da Ladra"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Compra la tarjeta Viva Viagem y recárgala en 'zapping' para tranvías, metro y autobuses.",
+   "Lleva calzado cómodo: las calles son empinadas y adoquinadas (calçada portuguesa) y resbalan con lluvia.",
+   "Sube al tranvía 28 a primera hora para evitar aglomeraciones y carteristas.",
+   "Reserva Sintra y la Torre de Belém con antelación online para saltarte las colas.",
+   "Los miradores son gratis y ofrecen las mejores vistas al atardecer; lleva agua."
+  ],
+  "en": [
+   "Buy a Viva Viagem card and top it up with 'zapping' for trams, metro and buses.",
+   "Wear comfy shoes: streets are steep and cobbled (calçada) and get slippery in rain.",
+   "Ride tram 28 early in the morning to avoid crowds and pickpockets.",
+   "Book Sintra and Belém Tower online in advance to skip the queues.",
+   "Miradouros (viewpoints) are free and best at sunset; bring water."
+  ]
+ },
+ "climate": {
+  "hi": [
+   15,
+   16,
+   19,
+   20,
+   23,
+   26,
+   28,
+   29,
+   27,
+   22,
+   18,
+   15
+  ],
+  "lo": [
+   8,
+   9,
+   11,
+   12,
+   14,
+   17,
+   18,
+   19,
+   18,
+   15,
+   11,
+   9
+  ]
+ },
+ "tr": {
+  "Torre fortificada manuelina junto al Tajo, icono de Lisboa.": "Manueline fortified tower by the Tagus, Lisbon's icon.",
+  "Obra maestra del gótico manuelino en Belém.": "Masterpiece of Manueline Gothic in Belém.",
+  "Gran monumento con forma de carabela junto al río.": "Giant caravel-shaped monument by the river.",
+  "Castillo morisco con vistas de toda la ciudad.": "Moorish castle overlooking the whole city.",
+  "Gran plaza junto al río abierta al Tajo.": "Grand riverside square open to the Tagus.",
+  "Ascensor de hierro neogótico de 1902.": "Neo-Gothic iron lift from 1902.",
+  "La catedral más antigua de la ciudad, del siglo XII.": "The city's oldest cathedral, from the 12th century.",
+  "Arco triunfal de acceso a la Plaza del Comercio.": "Triumphal arch leading to Praça do Comércio.",
+  "Iglesia jesuita con interiores barrocos deslumbrantes.": "Jesuit church with dazzling Baroque interiors.",
+  "Iglesia barroca de cúpula blanca, panteón nacional.": "White-domed Baroque church, the national pantheon.",
+  "Ruinas góticas sin techo, símbolo del terremoto de 1755.": "Roofless Gothic ruins, symbol of the 1755 quake.",
+  "Acueducto del siglo XVIII con enormes arcos de piedra.": "18th-century aqueduct with huge stone arches.",
+  "Basílica de gran cúpula blanca del siglo XVIII.": "18th-century basilica with a large white dome.",
+  "Mirador ajardinado con vistas al castillo y la Baixa.": "Garden viewpoint over the castle and Baixa.",
+  "El mirador más alto de Lisboa, vistas de 180 grados.": "Lisbon's highest viewpoint, 180-degree views.",
+  "Terraza con azulejos y buganvillas sobre Alfama.": "Tiled terrace with bougainvillea over Alfama.",
+  "Gran parque en pendiente con vistas hasta el río.": "Large sloping park with views down to the river.",
+  "Jardín tropical con palmeras y pavos reales en Belém.": "Tropical garden with palms and peacocks in Belém.",
+  "Sierra con palacios de cuento a 30 km de Lisboa.": "Fairytale palaces in the hills, 30 km from Lisbon.",
+  "El barrio más antiguo, laberinto de callejones y fado.": "The oldest quarter, a maze of alleys and fado.",
+  "Barrio bohemio, epicentro de la vida nocturna.": "Bohemian quarter, the heart of nightlife.",
+  "Tranvía amarillo histórico por las colinas de la ciudad.": "Historic yellow tram through the city's hills.",
+  "Antigua fábrica reconvertida en hub creativo y de ocio.": "Old factory turned creative and leisure hub.",
+  "Uno de los mayores acuarios de Europa.": "One of Europe's largest aquariums.",
+  "Funicular histórico por una cuesta pintoresca.": "Historic funicular up a picturesque slope.",
+  "Mercadillo de segunda mano y antigüedades.": "Flea market of second-hand goods and antiques.",
+  "Mercado gastronómico con lo mejor de la cocina lisboeta.": "Food hall gathering Lisbon's best cooking.",
+  "La pastelería original del pastel de nata desde 1837.": "The original custard-tart bakery since 1837.",
+  "Templo del marisco fresco lisboeta.": "Temple of fresh Lisbon seafood.",
+  "Los pastéis de nata más aclamados del centro.": "The most acclaimed custard tarts in the centre.",
+  "Bar histórico del licor de guinda desde 1840.": "Historic sour-cherry liqueur bar since 1840.",
+  "Clásico de cocina portuguesa tradicional.": "Classic of traditional Portuguese cooking.",
+  "Lisboa": "Lisboa"
+ }
+}

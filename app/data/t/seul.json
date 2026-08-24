@@ -1,0 +1,764 @@
+{
+ "id": "seul",
+ "name": "Seúl",
+ "country": "WORLD",
+ "center": [
+  37.5665,
+  126.978
+ ],
+ "pois": [
+  {
+   "id": "w_seo_gyeongbokgung",
+   "cat": "monuments",
+   "name": "Palacio Gyeongbokgung",
+   "icon": "🏯",
+   "lat": 37.57961,
+   "lng": 126.97704,
+   "desc": "El mayor y más majestuoso de los cinco grandes palacios de Seúl."
+  },
+  {
+   "id": "w_seo_bukchon",
+   "cat": "monuments",
+   "name": "Aldea Hanok de Bukchon",
+   "icon": "🏘️",
+   "lat": 37.58267,
+   "lng": 126.98389,
+   "desc": "Barrio histórico de casas tradicionales hanok entre dos palacios."
+  },
+  {
+   "id": "w_seo_changdeokgung",
+   "cat": "monuments",
+   "name": "Palacio Changdeokgung",
+   "icon": "🏯",
+   "lat": 37.57946,
+   "lng": 126.99101,
+   "desc": "Palacio Patrimonio de la Humanidad, el mejor conservado de Joseon."
+  },
+  {
+   "id": "w_seo_huwon",
+   "cat": "monuments",
+   "name": "Huwon (Jardín Secreto)",
+   "icon": "🌳",
+   "lat": 37.58306,
+   "lng": 126.995,
+   "desc": "El jardín real oculto tras el palacio Changdeokgung."
+  },
+  {
+   "id": "w_seo_deoksugung",
+   "cat": "monuments",
+   "name": "Palacio Deoksugung",
+   "icon": "🏯",
+   "lat": 37.56591,
+   "lng": 126.97512,
+   "desc": "Palacio del centro que mezcla arquitectura coreana y occidental."
+  },
+  {
+   "id": "w_seo_changgyeonggung",
+   "cat": "monuments",
+   "name": "Palacio Changgyeonggung",
+   "icon": "🏯",
+   "lat": 37.57889,
+   "lng": 126.99472,
+   "desc": "Palacio tranquilo con estanques, invernadero y amplios jardines."
+  },
+  {
+   "id": "w_seo_jongmyo",
+   "cat": "monuments",
+   "name": "Santuario Jongmyo",
+   "icon": "⛩️",
+   "lat": 37.57444,
+   "lng": 126.99417,
+   "desc": "Templo confuciano real, Patrimonio de la Humanidad."
+  },
+  {
+   "id": "w_seo_jogyesa",
+   "cat": "monuments",
+   "name": "Templo Jogyesa",
+   "icon": "🛕",
+   "lat": 37.57389,
+   "lng": 126.98167,
+   "desc": "Templo budista principal del centro de Seúl."
+  },
+  {
+   "id": "w_seo_namdaemun_gate",
+   "cat": "monuments",
+   "name": "Puerta Sungnyemun (Namdaemun)",
+   "icon": "🚪",
+   "lat": 37.55997,
+   "lng": 126.97528,
+   "desc": "La gran puerta sur, Tesoro Nacional nº 1 de Corea."
+  },
+  {
+   "id": "w_seo_dongdaemun_gate",
+   "cat": "monuments",
+   "name": "Puerta Heunginjimun (Dongdaemun)",
+   "icon": "🚪",
+   "lat": 37.57119,
+   "lng": 127.00944,
+   "desc": "La histórica puerta este de la muralla de Seúl."
+  },
+  {
+   "id": "w_seo_gwanghwamun",
+   "cat": "monuments",
+   "name": "Plaza Gwanghwamun",
+   "icon": "🗿",
+   "lat": 37.57204,
+   "lng": 126.97668,
+   "desc": "Gran plaza cívica con las estatuas del rey Sejong y el almirante Yi."
+  },
+  {
+   "id": "w_seo_insadong",
+   "cat": "monuments",
+   "name": "Insadong",
+   "icon": "🎎",
+   "lat": 37.57389,
+   "lng": 126.98556,
+   "desc": "Calle del arte tradicional, la caligrafía y las casas de té."
+  },
+  {
+   "id": "w_seo_seodaemun",
+   "cat": "monuments",
+   "name": "Prisión de Seodaemun",
+   "icon": "🏛️",
+   "lat": 37.57444,
+   "lng": 126.95611,
+   "desc": "Antigua cárcel colonial, hoy museo de la independencia."
+  },
+  {
+   "id": "w_seo_nseoultower",
+   "cat": "nature",
+   "name": "Torre N de Seúl (Namsan)",
+   "icon": "🗼",
+   "lat": 37.55127,
+   "lng": 126.98805,
+   "desc": "Torre mirador en la cima de la montaña Namsan."
+  },
+  {
+   "id": "w_seo_hangang",
+   "cat": "nature",
+   "name": "Río Han (Parque de Yeouido)",
+   "icon": "🌊",
+   "lat": 37.52833,
+   "lng": 126.93361,
+   "desc": "El gran río de Seúl y sus parques ribereños de ocio."
+  },
+  {
+   "id": "w_seo_cheonggyecheon",
+   "cat": "nature",
+   "name": "Arroyo Cheonggyecheon",
+   "icon": "💧",
+   "lat": 37.56917,
+   "lng": 126.97806,
+   "desc": "Riachuelo restaurado que cruza el centro de la ciudad."
+  },
+  {
+   "id": "w_seo_bukhansan",
+   "cat": "nature",
+   "name": "Parque Nacional Bukhansan",
+   "icon": "⛰️",
+   "lat": 37.65889,
+   "lng": 126.97722,
+   "desc": "Montañas de granito y rutas de senderismo al norte de Seúl."
+  },
+  {
+   "id": "w_seo_seoulforest",
+   "cat": "nature",
+   "name": "Bosque de Seúl (Seoul Forest)",
+   "icon": "🌲",
+   "lat": 37.54444,
+   "lng": 127.0375,
+   "desc": "Gran parque urbano con ciervos, humedales y jardines."
+  },
+  {
+   "id": "w_seo_naksan",
+   "cat": "nature",
+   "name": "Parque Naksan y muralla",
+   "icon": "🧱",
+   "lat": 37.58028,
+   "lng": 127.00722,
+   "desc": "Colina con un tramo restaurado de la muralla de Seúl."
+  },
+  {
+   "id": "w_seo_inwangsan",
+   "cat": "nature",
+   "name": "Montaña Inwangsan",
+   "icon": "🏔️",
+   "lat": 37.58472,
+   "lng": 126.95861,
+   "desc": "Montaña chamánica con roca, muralla y vistas al palacio."
+  },
+  {
+   "id": "w_seo_myeongdong",
+   "cat": "ocio",
+   "name": "Myeongdong",
+   "icon": "🛍️",
+   "lat": 37.56361,
+   "lng": 126.98556,
+   "desc": "El distrito comercial y de cosmética más animado de Seúl."
+  },
+  {
+   "id": "w_seo_hongdae",
+   "cat": "ocio",
+   "name": "Hongdae",
+   "icon": "🎸",
+   "lat": 37.55694,
+   "lng": 126.92389,
+   "desc": "Barrio joven, universitario y de vida nocturna e indie."
+  },
+  {
+   "id": "w_seo_gangnam",
+   "cat": "ocio",
+   "name": "Gangnam",
+   "icon": "🏙️",
+   "lat": 37.49792,
+   "lng": 127.02764,
+   "desc": "El moderno y lujoso distrito al sur del río Han."
+  },
+  {
+   "id": "w_seo_ddp",
+   "cat": "ocio",
+   "name": "Dongdaemun Design Plaza (DDP)",
+   "icon": "🏢",
+   "lat": 37.56658,
+   "lng": 127.00944,
+   "desc": "Edificio futurista de Zaha Hadid dedicado al diseño."
+  },
+  {
+   "id": "w_seo_lotteworld",
+   "cat": "ocio",
+   "name": "Lotte World",
+   "icon": "🎢",
+   "lat": 37.51139,
+   "lng": 127.09806,
+   "desc": "Enorme parque de atracciones cubierto y al aire libre."
+  },
+  {
+   "id": "w_seo_seoulsky",
+   "cat": "ocio",
+   "name": "Lotte World Tower (Seoul Sky)",
+   "icon": "🏙️",
+   "lat": 37.5125,
+   "lng": 127.1025,
+   "desc": "El rascacielos más alto de Corea, con mirador de cristal."
+  },
+  {
+   "id": "w_seo_coex",
+   "cat": "ocio",
+   "name": "COEX Mall y Biblioteca Starfield",
+   "icon": "📚",
+   "lat": 37.51278,
+   "lng": 127.05889,
+   "desc": "Centro comercial gigante con la fotogénica biblioteca abierta."
+  },
+  {
+   "id": "w_seo_gwangjang",
+   "cat": "food",
+   "name": "Mercado Gwangjang",
+   "icon": "🥘",
+   "lat": 37.57,
+   "lng": 126.99972,
+   "desc": "El mercado de comida callejera más famoso de Seúl."
+  },
+  {
+   "id": "w_seo_namdaemun_mkt",
+   "cat": "food",
+   "name": "Mercado de Namdaemun",
+   "icon": "🍜",
+   "lat": 37.55917,
+   "lng": 126.9775,
+   "desc": "El mayor mercado tradicional de Corea, con comida y de todo."
+  },
+  {
+   "id": "w_seo_tongin",
+   "cat": "food",
+   "name": "Mercado Tongin",
+   "icon": "🍱",
+   "lat": 37.58028,
+   "lng": 126.97028,
+   "desc": "Mercado de barrio con el simpático almuerzo de monedas."
+  },
+  {
+   "id": "w_seo_noryangjin",
+   "cat": "food",
+   "name": "Mercado de Pescado de Noryangjin",
+   "icon": "🦑",
+   "lat": 37.51523,
+   "lng": 126.94106,
+   "desc": "Gran lonja de marisco donde comer lo que eliges vivo."
+  },
+  {
+   "id": "w_seo_euljiro",
+   "cat": "food",
+   "name": "Euljiro (callejón Nogari)",
+   "icon": "🍺",
+   "lat": 37.56639,
+   "lng": 126.99139,
+   "desc": "Barrio retro de cervecerías y frituras al aire libre."
+  },
+  {
+   "id": "w_seo_ikseondong",
+   "cat": "food",
+   "name": "Ikseon-dong",
+   "icon": "☕",
+   "lat": 37.57417,
+   "lng": 126.99,
+   "desc": "Callejones hanok reconvertidos en cafés y restaurantes de moda."
+  }
+ ],
+ "extra": {
+  "w_seo_gyeongbokgung": {
+   "id": "w_seo_gyeongbokgung",
+   "d": "Construido en 1395 como sede de la dinastía Joseon, fue arrasado y reconstruido varias veces. Sus enormes patios, el trono de Geunjeongjeon y el pabellón Gyeonghoeru sobre un lago resumen la arquitectura real coreana. Al fondo se alza la montaña Bugaksan.",
+   "d_en": "Built in 1395 as the seat of the Joseon dynasty, it was destroyed and rebuilt several times. Its vast courtyards, the Geunjeongjeon throne hall and the Gyeonghoeru pavilion over a lake epitomise Korean royal architecture, framed by Bugaksan mountain behind.",
+   "h": "Abierto 09:00–18:00 (cerrado los martes). Cambio de guardia a las 10:00 y 14:00.",
+   "h_en": "Open 09:00–18:00 (closed Tuesdays). Changing of the guard at 10:00 and 14:00.",
+   "i": "Si llegas vestido con hanbok la entrada es gratuita; hay alquileres junto a la puerta Gwanghwamun.",
+   "i_en": "Wearing a rented hanbok gets you in free; rental shops line the street by Gwanghwamun Gate."
+  },
+  "w_seo_bukchon": {
+   "id": "w_seo_bukchon",
+   "d": "Enclavado entre Gyeongbokgung y Changdeokgung, Bukchon conserva cientos de casas hanok de época en callejones empinados donde aún vive gente. Sus tejados curvos y vistas de la ciudad lo han convertido en el rincón más fotografiado de Seúl.",
+   "d_en": "Set between Gyeongbokgung and Changdeokgung, Bukchon preserves hundreds of period hanok houses along steep lanes where residents still live. Its curved tiled roofs and skyline views make it Seoul's most photographed corner.",
+   "h": "Calles abiertas siempre; se pide silencio de 10:00 a 17:00 por respeto a los vecinos.",
+   "h_en": "Streets open at all hours; quiet is requested 10:00–17:00 out of respect for residents.",
+   "i": "Es una zona residencial: baja la voz y no entres en patios privados.",
+   "i_en": "It's a residential area: keep your voice down and don't enter private courtyards."
+  },
+  "w_seo_changdeokgung": {
+   "id": "w_seo_changdeokgung",
+   "d": "Levantado en 1405 como palacio secundario, acabó siendo el favorito de los reyes por su armonía con el entorno natural. Declarado Patrimonio de la Humanidad, destaca por integrar edificios y colinas sin imponer una rígida simetría.",
+   "d_en": "Built in 1405 as a secondary palace, it became the kings' favourite for its harmony with the landscape. A UNESCO World Heritage Site, it stands out for blending buildings and hills rather than forcing rigid symmetry.",
+   "h": "Abierto 09:00–18:00 (cerrado los lunes).",
+   "h_en": "Open 09:00–18:00 (closed Mondays).",
+   "i": "Reserva online la visita al Huwon (jardín secreto): las plazas son limitadas y con hora fija.",
+   "i_en": "Book the Huwon (Secret Garden) tour online: places are limited and timed."
+  },
+  "w_seo_huwon": {
+   "id": "w_seo_huwon",
+   "d": "Reservado durante siglos a la familia real, este jardín de 78 hectáreas esconde pabellones, estanques de loto y un arroyo entre bosque. El estanque Buyeongji con su pabellón cuadrado y el arco natural de árboles centenarios son su imagen más célebre.",
+   "d_en": "Reserved for centuries to the royal family, this 78-hectare garden hides pavilions, lotus ponds and a stream amid woodland. The Buyeongji pond with its square pavilion and the arch of ancient trees are its most famous sights.",
+   "h": "Solo con visita guiada con hora asignada; horarios según temporada.",
+   "h_en": "Access by timed guided tour only; times vary by season.",
+   "i": "Ve en otoño: los arces del jardín se tiñen de rojo y es cuando luce más espectacular.",
+   "i_en": "Go in autumn: the garden's maples turn red and it looks at its most spectacular."
+  },
+  "w_seo_deoksugung": {
+   "id": "w_seo_deoksugung",
+   "d": "Rodeado de rascacielos junto al ayuntamiento, Deoksugung fue residencia real a finales del siglo XIX. Es único por combinar pabellones de madera tradicionales con edificios de estilo occidental de piedra, reflejo de la apertura de Corea al mundo moderno.",
+   "d_en": "Ringed by skyscrapers next to City Hall, Deoksugung was a royal residence in the late 19th century. It is unique for combining traditional wooden pavilions with Western-style stone buildings, mirroring Korea's opening to the modern world.",
+   "h": "Abierto 09:00–21:00 (cerrado los lunes).",
+   "h_en": "Open 09:00–21:00 (closed Mondays).",
+   "i": "Pasea de noche por el muro de piedra (Deoksugung-gil), uno de los caminos más románticos de Seúl.",
+   "i_en": "Stroll the stone-wall road (Deoksugung-gil) after dark, one of Seoul's most romantic walks."
+  },
+  "w_seo_changgyeonggung": {
+   "id": "w_seo_changgyeonggung",
+   "d": "Construido originalmente para las reinas viudas, Changgyeonggung fue escenario de dramas dinásticos. Durante la ocupación japonesa se convirtió en zoo y jardín botánico; hoy conserva un elegante invernadero de cristal de 1909 y estanques rodeados de arbolado.",
+   "d_en": "Originally built for dowager queens, Changgyeonggung witnessed royal dramas. Under Japanese rule it became a zoo and botanical garden; today it keeps an elegant 1909 glass greenhouse and tree-fringed ponds.",
+   "h": "Abierto 09:00–21:00 (cerrado los lunes).",
+   "h_en": "Open 09:00–21:00 (closed Mondays).",
+   "i": "Está unido a Changdeokgung por una puerta interior: puedes visitar ambos palacios seguidos.",
+   "i_en": "It connects to Changdeokgung by an inner gate, so you can visit both palaces in one go."
+  },
+  "w_seo_jongmyo": {
+   "id": "w_seo_jongmyo",
+   "d": "Erigido en 1394, guarda las tablillas ancestrales de los reyes de Joseon. Sus larguísimos pabellones de madera oscura, de una sobriedad casi monástica, acogen aún el rito Jongmyo Jerye, ceremonia con música y danza declarada Patrimonio Inmaterial.",
+   "d_en": "Erected in 1394, it houses the ancestral tablets of the Joseon kings. Its extremely long, dark wooden halls, of near-monastic austerity, still host the Jongmyo Jerye rite, a ceremony with music and dance listed as Intangible Heritage.",
+   "h": "Visita guiada en días laborables; los sábados y festivos, entrada libre.",
+   "h_en": "Guided tours on weekdays; free access on Saturdays and public holidays.",
+   "i": "El primer domingo de mayo se celebra el gran rito ancestral con trajes de época.",
+   "i_en": "On the first Sunday of May the grand ancestral rite is performed in period costume."
+  },
+  "w_seo_jogyesa": {
+   "id": "w_seo_jogyesa",
+   "d": "Sede de la orden Jogye, es el corazón del budismo coreano en la capital. Su sala principal alberga tres grandes budas dorados y un árbol de langostas centenario preside el patio. En primavera se cubre de miles de faroles de loto de colores.",
+   "d_en": "Head temple of the Jogye order, it is the heart of Korean Buddhism in the capital. Its main hall holds three great gilded Buddhas and an ancient locust tree presides over the courtyard, hung with thousands of colourful lotus lanterns in spring.",
+   "h": "Abierto todo el día; salas de culto de 04:00 a 21:00.",
+   "h_en": "Open all day; worship halls 04:00–21:00.",
+   "i": "Coincide con el festival de faroles de loto (mayo) para ver el templo en su máximo esplendor.",
+   "i_en": "Time your visit with the Lotus Lantern Festival (May) to see the temple at its finest."
+  },
+  "w_seo_namdaemun_gate": {
+   "id": "w_seo_namdaemun_gate",
+   "d": "Construida en 1398, era la principal entrada a la ciudad amurallada de Joseon. Su base de piedra y su pabellón de doble tejado de madera la convierten en un icono. Un incendio la destruyó en 2008 y fue reconstruida con técnicas tradicionales en 2013.",
+   "d_en": "Built in 1398, it was the main gate into the walled Joseon capital. Its stone base and double-roofed wooden pavilion make it an icon. Destroyed by fire in 2008, it was rebuilt using traditional techniques in 2013.",
+   "h": "Exterior visible siempre; recinto abierto en horario diurno.",
+   "h_en": "Exterior visible at all times; enclosure open during daylight hours.",
+   "i": "Está pegada al mercado de Namdaemun: combina la visita con un paseo entre sus puestos.",
+   "i_en": "It sits right by Namdaemun Market: pair the visit with a wander through its stalls."
+  },
+  "w_seo_dongdaemun_gate": {
+   "id": "w_seo_dongdaemun_gate",
+   "d": "Levantada en 1398 y reconstruida en 1869, marcaba la entrada oriental a la ciudad. Se distingue por su barbacana semicircular de piedra que protegía la puerta. Rodeada hoy de tráfico y rascacielos, ilumina de noche el bullicioso distrito de Dongdaemun.",
+   "d_en": "Raised in 1398 and rebuilt in 1869, it marked the eastern entrance to the city. It is distinguished by the semicircular stone barbican that shielded the gate. Now ringed by traffic and towers, it is floodlit at night in the busy Dongdaemun district.",
+   "h": "Exterior visible las 24 horas; no se puede subir al pabellón.",
+   "h_en": "Exterior visible 24 hours; the pavilion cannot be climbed.",
+   "i": "De aquí parte un tramo restaurado de la muralla que sube al parque Naksan.",
+   "i_en": "A restored stretch of the city wall climbs from here up to Naksan Park."
+  },
+  "w_seo_gwanghwamun": {
+   "id": "w_seo_gwanghwamun",
+   "d": "Eje ceremonial de la ciudad, frente a la puerta principal de Gyeongbokgung, la plaza rinde homenaje a dos héroes nacionales: el rey Sejong, creador del alfabeto hangul, y el almirante Yi Sun-sin. Es punto habitual de conciertos, mercados y manifestaciones.",
+   "d_en": "The city's ceremonial axis, facing the main gate of Gyeongbokgung, the square honours two national heroes: King Sejong, creator of the hangul alphabet, and Admiral Yi Sun-sin. It regularly hosts concerts, markets and rallies.",
+   "h": "Espacio abierto las 24 horas; museos subterráneos con horario propio.",
+   "h_en": "Open space 24 hours; underground museums keep their own hours.",
+   "i": "Bajo la estatua de Sejong hay un museo gratuito dedicado al rey y al hangul.",
+   "i_en": "Beneath the Sejong statue lies a free museum devoted to the king and to hangul."
+  },
+  "w_seo_insadong": {
+   "id": "w_seo_insadong",
+   "d": "Antiguo barrio de anticuarios, Insadong concentra galerías, tiendas de papel hanji, pinceles, cerámica y casas de té escondidas en patios. Su callejón principal, peatonal, es el mejor sitio para comprar artesanía y recuerdos con alma coreana.",
+   "d_en": "A former antiques quarter, Insadong is packed with galleries, shops selling hanji paper, brushes and ceramics, and tea houses tucked in courtyards. Its pedestrian main lane is the best place to buy crafts and soulful Korean souvenirs.",
+   "h": "Tiendas abiertas 10:00–20:00; calle peatonal los fines de semana.",
+   "h_en": "Shops open 10:00–20:00; the main street goes car-free at weekends.",
+   "i": "Piérdete por el complejo Ssamziegil, una galería en espiral llena de tiendas de diseño.",
+   "i_en": "Get lost in Ssamziegil, a spiralling complex full of quirky design shops."
+  },
+  "w_seo_seodaemun": {
+   "id": "w_seo_seodaemun",
+   "d": "Construida por los japoneses en 1908, encerró y torturó a miles de patriotas coreanos durante la ocupación. Convertida en museo histórico, sus celdas de ladrillo rojo, la sala de ejecuciones y los testimonios recuerdan la lucha por la independencia.",
+   "d_en": "Built by the Japanese in 1908, it jailed and tortured thousands of Korean patriots during the occupation. Now a history museum, its red-brick cells, execution room and survivor testimonies commemorate the struggle for independence.",
+   "h": "Abierto 09:30–18:00 (cerrado los lunes).",
+   "h_en": "Open 09:30–18:00 (closed Mondays).",
+   "i": "Reserva al menos hora y media; es una visita intensa y muy conmovedora.",
+   "i_en": "Allow at least an hour and a half; it is an intense and very moving visit."
+  },
+  "w_seo_nseoultower": {
+   "id": "w_seo_nseoultower",
+   "d": "En lo alto del monte Namsan, en pleno centro, la torre de 236 m ofrece las vistas panorámicas más completas de Seúl. Se sube en teleférico o por senderos entre bosque, y sus barandillas se cubren de miles de candados del amor de las parejas.",
+   "d_en": "Crowning central Namsan mountain, the 236 m tower offers Seoul's most complete panoramic views. Reach it by cable car or wooded trails, and its railings are smothered in thousands of couples' love padlocks.",
+   "h": "Mirador abierto a diario, normalmente 10:00–23:00.",
+   "h_en": "Observation deck open daily, usually 10:00–23:00.",
+   "i": "Sube al atardecer para ver la ciudad de día y encenderse de noche desde el mismo sitio.",
+   "i_en": "Go up at sunset to see the city by day and lit up by night from the same spot."
+  },
+  "w_seo_hangang": {
+   "id": "w_seo_hangang",
+   "d": "El Han parte la ciudad en dos y sus orillas se han transformado en 11 parques con carriles bici, campos, piscinas y embarcaderos. El tramo de Yeouido es el más animado: pícnics de ramyeon, alquiler de bici y cruceros que pasan bajo puentes iluminados.",
+   "d_en": "The Han splits the city in two and its banks have become 11 parks with bike lanes, sports fields, pools and jetties. The Yeouido stretch is the liveliest: ramyeon picnics, bike rentals and cruises passing under floodlit bridges.",
+   "h": "Parques abiertos las 24 horas; alquileres y cruceros en horario diurno y de tarde.",
+   "h_en": "Parks open 24 hours; rentals and cruises run daytime and evening.",
+   "i": "Al anochecer no te pierdas el puente-fuente arcoíris de Banpo, un espectáculo de agua y luz.",
+   "i_en": "At dusk catch the Banpo Bridge rainbow fountain, a show of water and light."
+  },
+  "w_seo_cheonggyecheon": {
+   "id": "w_seo_cheonggyecheon",
+   "d": "Enterrado bajo una autopista durante décadas, este arroyo de 11 km fue recuperado en 2005 como paseo verde hundido bajo el nivel de las calles. Puentes, cascadas y murales acompañan a peatones que buscan frescor entre los rascacielos.",
+   "d_en": "Buried under a motorway for decades, this 11 km stream was restored in 2005 as a sunken green walk below street level. Bridges, waterfalls and murals accompany walkers seeking cool air among the skyscrapers.",
+   "h": "Paseo abierto siempre; iluminado por la noche.",
+   "h_en": "Walkway open at all times; illuminated at night.",
+   "i": "Empieza en la plaza Cheonggye, junto a la gran caracola de colores, y camina hacia el este.",
+   "i_en": "Start at Cheonggye Plaza by the giant colourful shell sculpture and walk east."
+  },
+  "w_seo_bukhansan": {
+   "id": "w_seo_bukhansan",
+   "d": "A las puertas de la ciudad, Bukhansan protege picos de granito, templos y una fortaleza de montaña. Sus cimas afiladas, como Baegundae (836 m), regalan panorámicas de todo Seúl y lo hacen uno de los parques nacionales más visitados del mundo por su cercanía urbana.",
+   "d_en": "On the city's doorstep, Bukhansan protects granite peaks, temples and a mountain fortress. Its sharp summits, such as Baegundae (836 m), reward hikers with views over all of Seoul, making it one of the world's most visited national parks thanks to its urban proximity.",
+   "h": "Senderos abiertos del amanecer al atardecer; algunas rutas cierran en temporada de incendios.",
+   "h_en": "Trails open dawn to dusk; some routes close during fire season.",
+   "i": "Lleva calzado de montaña de verdad: la roca de granito resbala y las rutas son exigentes.",
+   "i_en": "Wear proper hiking boots: the granite rock is slippery and the trails are demanding."
+  },
+  "w_seo_seoulforest": {
+   "id": "w_seo_seoulforest",
+   "d": "Inspirado en el Hyde Park londinense, este parque junto al río Han combina un bosque cultural, un cercado de ciervos en libertad, jardines de flores y antiguas instalaciones de filtrado de agua reconvertidas. Es el pulmón favorito de los seulitas jóvenes los fines de semana.",
+   "d_en": "Inspired by London's Hyde Park, this riverside park combines a cultural forest, a free-roaming deer enclosure, flower gardens and repurposed old water-filtration works. It is young Seoulites' favourite green escape at weekends.",
+   "h": "Abierto las 24 horas; recinto de ciervos con horario diurno.",
+   "h_en": "Open 24 hours; deer enclosure open in daylight hours.",
+   "i": "Alquila una bici a la entrada para recorrer el parque y enlazar con el carril del río Han.",
+   "i_en": "Rent a bike at the entrance to tour the park and link up with the Han River path."
+  },
+  "w_seo_naksan": {
+   "id": "w_seo_naksan",
+   "d": "Sobre una loma al este del centro, el parque Naksan sigue un tramo muy bien conservado de la antigua muralla de la ciudad. El paseo junto a las almenas, sobre todo de noche, ofrece vistas espectaculares de Seúl iluminado y enlaza con el colorido pueblo mural de Ihwa.",
+   "d_en": "On a ridge east of downtown, Naksan Park follows a beautifully preserved stretch of the old city wall. The walk beside the battlements, especially at night, offers spectacular views of illuminated Seoul and links to the colourful Ihwa Mural Village.",
+   "h": "Parque abierto siempre; muralla iluminada de noche.",
+   "h_en": "Park open at all times; wall floodlit at night.",
+   "i": "Sube al atardecer y baja por el pueblo mural de Ihwa, lleno de arte callejero.",
+   "i_en": "Walk up at sunset and descend through Ihwa Mural Village, full of street art."
+  },
+  "w_seo_inwangsan": {
+   "id": "w_seo_inwangsan",
+   "d": "Al oeste de Gyeongbokgung, Inwangsan es una montaña de rocas curiosas cargada de leyendas y santuarios chamánicos como Guksadang. Un sendero sigue la muralla hasta la cima (338 m), desde donde se ve el palacio, la Casa Azul y el skyline entre bosque.",
+   "d_en": "West of Gyeongbokgung, Inwangsan is a mountain of curious crags steeped in legend and shamanic shrines such as Guksadang. A trail follows the city wall to the summit (338 m), with views over the palace, the Blue House and the skyline amid woodland.",
+   "h": "Senderos abiertos del amanecer al atardecer.",
+   "h_en": "Trails open dawn to dusk.",
+   "i": "La roca Seonbawi, con forma de dos monjes, es un lugar de rezo chamánico muy fotogénico.",
+   "i_en": "Seonbawi rock, shaped like two monks, is a photogenic shamanic prayer spot."
+  },
+  "w_seo_myeongdong": {
+   "id": "w_seo_myeongdong",
+   "d": "Meca de las compras, Myeongdong es un laberinto de tiendas de moda, grandes almacenes y sobre todo cosmética coreana (K-beauty). Al caer la tarde sus calles se llenan de puestos de comida callejera con humeantes brochetas, tteokbokki y gambas a la parrilla.",
+   "d_en": "A shopping mecca, Myeongdong is a maze of fashion stores, department stores and above all Korean cosmetics (K-beauty). By evening its streets fill with street-food stalls of steaming skewers, tteokbokki and grilled prawns.",
+   "h": "Tiendas 10:00–22:00; puestos de comida de tarde y noche.",
+   "h_en": "Shops 10:00–22:00; food stalls in the afternoon and evening.",
+   "i": "Muchas tiendas de cosmética ofrecen muestras gratis y descuentos para turistas con pasaporte.",
+   "i_en": "Many cosmetics shops give free samples and tourist discounts if you show your passport."
+  },
+  "w_seo_hongdae": {
+   "id": "w_seo_hongdae",
+   "d": "En torno a la universidad de arte Hongik, Hongdae rebosa creatividad: músicos callejeros, clubes, salas de conciertos, cafés temáticos y tiendas independientes. Es el epicentro de la cultura joven y del K-indie, con las calles más animadas de la ciudad hasta la madrugada.",
+   "d_en": "Around Hongik art university, Hongdae brims with creativity: buskers, clubs, live-music venues, themed cafes and indie shops. It is the epicentre of youth culture and K-indie, with the city's liveliest streets running until dawn.",
+   "h": "Comercios de día; ocio nocturno hasta la madrugada.",
+   "h_en": "Shops by day; nightlife into the small hours.",
+   "i": "Los fines de semana hay actuaciones callejeras gratuitas frente al parque del Playground.",
+   "i_en": "At weekends there are free street performances by the Hongdae Playground park."
+  },
+  "w_seo_gangnam": {
+   "id": "w_seo_gangnam",
+   "d": "Sinónimo de riqueza y modernidad gracias a la canción de PSY, Gangnam es un despliegue de avenidas anchas, rascacielos, clínicas de estética, tiendas de lujo y clubes. La zona de Sinsa y su calle Garosu-gil, arbolada y con boutiques, resumen su glamour.",
+   "d_en": "A byword for wealth and modernity thanks to PSY's song, Gangnam is all wide avenues, skyscrapers, cosmetic clinics, luxury shops and clubs. The Sinsa area and its tree-lined boutique street Garosu-gil sum up its glamour.",
+   "h": "Comercios 10:30–22:00; ocio nocturno hasta tarde.",
+   "h_en": "Shops 10:30–22:00; nightlife until late.",
+   "i": "En la salida de la estación de Gangnam verás el punto donde se grabó parte del videoclip de PSY.",
+   "i_en": "By Gangnam Station exit you'll find the spot linked to PSY's famous music video."
+  },
+  "w_seo_ddp": {
+   "id": "w_seo_ddp",
+   "d": "Obra de la arquitecta Zaha Hadid, el DDP es una nave espacial de curvas plateadas sin una sola línea recta. Acoge exposiciones, desfiles de moda, tiendas de diseño y un mercado nocturno. Rodeado de gigantescos centros comerciales, el barrio de Dongdaemun no duerme.",
+   "d_en": "Designed by Zaha Hadid, the DDP is a silver spaceship of curves without a single straight line. It hosts exhibitions, fashion shows, design shops and a night market. Surrounded by vast wholesale malls, the Dongdaemun district never sleeps.",
+   "h": "Espacios comunes abiertos 10:00–24:00; exposiciones con horario propio.",
+   "h_en": "Public areas open 10:00–24:00; exhibitions keep their own hours.",
+   "i": "Vuelve de noche para ver los 25.000 tulipanes LED que iluminan la plaza (LED Rose Garden).",
+   "i_en": "Come back after dark for the 25,000 LED roses lighting the plaza (LED Rose Garden)."
+  },
+  "w_seo_lotteworld": {
+   "id": "w_seo_lotteworld",
+   "d": "Récord Guinness al mayor parque temático cubierto del mundo, Lotte World combina una zona interior bajo una gran cúpula de cristal y la isla Magic Island sobre un lago con un castillo de cuento. Montañas rusas, patinaje sobre hielo y desfiles lo hacen ideal en familia.",
+   "d_en": "A Guinness record holder as the world's largest indoor theme park, Lotte World combines an interior zone under a huge glass dome and Magic Island on a lake with a fairy-tale castle. Roller coasters, ice skating and parades make it a family favourite.",
+   "h": "Abierto normalmente 10:00–22:00.",
+   "h_en": "Usually open 10:00–22:00.",
+   "i": "Ve entre semana y compra la entrada online: las colas de fin de semana son enormes.",
+   "i_en": "Go on a weekday and buy tickets online: weekend queues are enormous."
+  },
+  "w_seo_seoulsky": {
+   "id": "w_seo_seoulsky",
+   "d": "Con 555 m y 123 plantas, la Lotte World Tower es el edificio más alto de Corea y uno de los mayores del mundo. Su mirador Seoul Sky, entre las plantas 117 y 123, incluye suelos de cristal transparente y uno de los ascensores más rápidos del planeta.",
+   "d_en": "At 555 m and 123 floors, Lotte World Tower is Korea's tallest building and one of the world's highest. Its Seoul Sky observatory, on floors 117 to 123, features transparent glass floors and one of the planet's fastest lifts.",
+   "h": "Mirador abierto normalmente 10:00–22:00.",
+   "h_en": "Observatory usually open 10:00–22:00.",
+   "i": "Sube justo antes del atardecer para ver Seúl de día, en penumbra y de noche en una sola visita.",
+   "i_en": "Go up just before sunset to catch Seoul by day, dusk and night in a single visit."
+  },
+  "w_seo_coex": {
+   "id": "w_seo_coex",
+   "d": "El mayor centro comercial subterráneo de Asia esconde tiendas, cines, un acuario y el megatemplo Bongeunsa enfrente. Su joya es la Biblioteca Starfield: dos plazas con estanterías de 13 metros de altura repletas de libros, uno de los rincones más fotografiados de Seúl.",
+   "d_en": "Asia's largest underground mall hides shops, cinemas, an aquarium, with the great Bongeunsa temple opposite. Its jewel is the Starfield Library: two plazas with 13-metre-high shelves crammed with books, one of Seoul's most photographed spots.",
+   "h": "Centro comercial abierto 10:30–22:00; biblioteca de acceso libre.",
+   "h_en": "Mall open 10:30–22:00; library free to enter.",
+   "i": "La biblioteca es gratis y con wifi: buen refugio con aire acondicionado en pleno verano.",
+   "i_en": "The library is free with wifi: a good air-conditioned refuge in high summer."
+  },
+  "w_seo_gwangjang": {
+   "id": "w_seo_gwangjang",
+   "d": "Fundado en 1905, es el mercado tradicional más antiguo de la ciudad y un paraíso gastronómico. Sus pasillos rebosan de puestos donde probar bindaetteok (tortitas de judía mungo), tteokbokki, gimbap y el crudo de mano (yukhoe), sentado en taburetes entre el bullicio.",
+   "d_en": "Founded in 1905, it is the city's oldest traditional market and a food paradise. Its aisles overflow with stalls serving bindaetteok (mung-bean pancakes), tteokbokki, gimbap and hand-cut raw beef (yukhoe), eaten on stools amid the bustle.",
+   "h": "Puestos de comida abiertos aprox. 09:00–23:00.",
+   "h_en": "Food stalls open roughly 09:00–23:00.",
+   "i": "El bindaetteok recién frito y el mandu son las estrellas: sigue las colas más largas.",
+   "i_en": "Freshly fried bindaetteok and mandu are the stars: follow the longest queues."
+  },
+  "w_seo_namdaemun_mkt": {
+   "id": "w_seo_namdaemun_mkt",
+   "d": "Con más de 10.000 comercios, este laberinto junto a la puerta sur vende desde ropa hasta artesanía, pero su alma son los callejones de comida: la calle de la olla de galtori, el kalguksu (sopa de fideos cortados a mano) y las hotteok rellenas de azúcar caliente.",
+   "d_en": "With over 10,000 shops, this maze by the south gate sells everything from clothes to crafts, but its soul is the food alleys: the hairtail-fish stew street, kalguksu (hand-cut noodle soup) and hotteok filled with hot sugar.",
+   "h": "Callejones de comida abiertos casi todo el día; muchos puestos ya de madrugada.",
+   "h_en": "Food alleys open most of the day; many stalls from before dawn.",
+   "i": "Busca la 'calle del galchi jorim': varios puestos sirven guiso de pescado espada picante.",
+   "i_en": "Seek out 'galchi jorim alley', where several stalls serve spicy hairtail stew."
+  },
+  "w_seo_tongin": {
+   "id": "w_seo_tongin",
+   "d": "Pequeño mercado tradicional junto al palacio, famoso por su sistema 'dosirak café': compras monedas de latón antiguas y las cambias por raciones en los puestos, montando tu propia fiambrera coreana con tteokbokki, tortillas, verduras y frituras.",
+   "d_en": "A small traditional market near the palace, famous for its 'dosirak cafe' system: you buy old brass coins and swap them for portions at the stalls, building your own Korean lunch box with tteokbokki, omelette, vegetables and fritters.",
+   "h": "Mercado abierto 07:00–21:00; sistema de monedas 11:00–16:00 aprox.",
+   "h_en": "Market open 07:00–21:00; coin system roughly 11:00–16:00.",
+   "i": "Compra las monedas en el centro de atención del mercado antes de recorrer los puestos.",
+   "i_en": "Buy the coins at the market's info centre before touring the stalls."
+  },
+  "w_seo_noryangjin": {
+   "id": "w_seo_noryangjin",
+   "d": "La mayor lonja de pescado de Seúl reúne cientos de puestos con marisco vivo: pulpo, cangrejo real, abulón, vieiras y peces de todo tipo. Eliges tu producto y en los restaurantes de arriba te lo preparan al momento, en crudo (hoe) o a la parrilla.",
+   "d_en": "Seoul's largest fish market gathers hundreds of stalls of live seafood: octopus, king crab, abalone, scallops and fish of every kind. You pick your catch and the restaurants upstairs prepare it on the spot, raw (hoe) or grilled.",
+   "h": "Abierto casi 24 horas; subasta de madrugada hacia las 01:00–03:00.",
+   "h_en": "Open almost 24 hours; the auction runs around 01:00–03:00.",
+   "i": "Regatea el precio del marisco y acuerda antes cuánto cobran por cocinártelo arriba.",
+   "i_en": "Haggle over the seafood price and agree upfront the upstairs cooking fee."
+  },
+  "w_seo_euljiro": {
+   "id": "w_seo_euljiro",
+   "d": "Antiguo distrito de talleres e imprentas, Euljiro (apodado 'Hipjiro') se ha vuelto de moda por sus tabernas vintage. En el callejón Nogari, decenas de mesas llenan la calle al anochecer para beber cerveza barata acompañada de nogari (cría de abadejo seco) a la brasa.",
+   "d_en": "A former district of workshops and print shops, Euljiro (nicknamed 'Hipjiro') has become fashionable for its vintage taverns. On Nogari Alley, dozens of tables fill the street at dusk for cheap beer with grilled nogari (dried young pollack).",
+   "h": "Tabernas abiertas de tarde y noche, aprox. 17:00–24:00.",
+   "h_en": "Taverns open afternoon and evening, roughly 17:00–24:00.",
+   "i": "Llega temprano para pillar mesa en la calle: al caer la noche se llena en minutos.",
+   "i_en": "Arrive early to grab a street table: it fills within minutes after dark."
+  },
+  "w_seo_ikseondong": {
+   "id": "w_seo_ikseondong",
+   "d": "El barrio hanok más antiguo de Seúl ha resurgido como uno de los rincones gastronómicos más de moda. En sus estrechos callejones, viejas casas tradicionales albergan cafés de diseño, coctelerías y restaurantes fusión que mezclan lo antiguo y lo moderno con encanto.",
+   "d_en": "Seoul's oldest hanok quarter has re-emerged as one of its trendiest food corners. In its narrow lanes, old traditional houses hold design cafes, cocktail bars and fusion restaurants blending old and new with real charm.",
+   "h": "Locales abiertos aprox. 11:00–23:00; muy concurrido los fines de semana.",
+   "h_en": "Venues open roughly 11:00–23:00; very busy at weekends.",
+   "i": "Ve entre semana para disfrutar los callejones sin las largas colas de los cafés.",
+   "i_en": "Go on a weekday to enjoy the lanes without the cafes' long queues."
+  }
+ },
+ "food": {
+  "w_seo_gwangjang": {
+   "cuisine": "Comida callejera coreana",
+   "price": "5–15 €",
+   "hours": "Aprox. 09:00–23:00"
+  },
+  "w_seo_namdaemun_mkt": {
+   "cuisine": "Cocina tradicional coreana",
+   "price": "6–15 €",
+   "hours": "Aprox. 08:00–22:00"
+  },
+  "w_seo_tongin": {
+   "cuisine": "Banchan y platos caseros coreanos",
+   "price": "5–10 €",
+   "hours": "07:00–21:00"
+  },
+  "w_seo_noryangjin": {
+   "cuisine": "Marisco y pescado crudo (hoe)",
+   "price": "20–50 €",
+   "hours": "Casi 24 h"
+  },
+  "w_seo_euljiro": {
+   "cuisine": "Anju coreano y cerveza",
+   "price": "10–20 €",
+   "hours": "Aprox. 17:00–24:00"
+  },
+  "w_seo_ikseondong": {
+   "cuisine": "Cafés y cocina fusión coreana",
+   "price": "10–25 €",
+   "hours": "Aprox. 11:00–23:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Seúl",
+   "items": [
+    {
+     "name": "Cosmética coreana (K-beauty)",
+     "price": "5–40 €",
+     "desc": "Mascarillas, sérums y cremas de las marcas surcoreanas más famosas."
+    },
+    {
+     "name": "Set de té e infusiones",
+     "price": "5–20 €",
+     "desc": "Té de cebada, yuja (yuzu) y ginseng en cajas para regalar."
+    },
+    {
+     "name": "Artesanía en papel hanji",
+     "price": "3–25 €",
+     "desc": "Abanicos, cuadernos y lámparas de papel tradicional coreano."
+    },
+    {
+     "name": "Ginseng coreano",
+     "price": "10–60 €",
+     "desc": "Raíz, cápsulas o caramelos del célebre ginseng rojo de Corea."
+    },
+    {
+     "name": "Cerámica celadón",
+     "price": "15–80 €",
+     "desc": "Piezas vidriadas en verde jade, un clásico de la artesanía coreana."
+    },
+    {
+     "name": "Souvenirs de K-pop",
+     "price": "5–30 €",
+     "desc": "Photocards, álbumes y merchandising de los grupos del momento."
+    }
+   ],
+   "shops": [
+    "Insadong y Ssamziegil",
+    "Myeongdong (cosmética)",
+    "Mercado de Namdaemun",
+    "Tiendas duty-free de Lotte y Shilla"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Cómprate una tarjeta T-money y úsala en metro, autobús y hasta en tiendas: viajar sin ella sale más caro.",
+   "El metro de Seúl es enorme, limpio y barato; descarga una app como KakaoMetro para moverte sin perderte.",
+   "Descálzate al entrar en templos, casas hanok y muchos restaurantes tradicionales con suelo de tarima.",
+   "Alquila un hanbok junto a los palacios: vestido con él la entrada es gratuita y las fotos son inmejorables.",
+   "Evita usar Google Maps para rutas a pie o coche: en Corea funcionan mejor Naver Map y KakaoMap."
+  ],
+  "en": [
+   "Get a T-money card and use it on metro, buses and even in shops: travelling without one costs more.",
+   "Seoul's metro is huge, clean and cheap; download an app like KakaoMetro so you never get lost.",
+   "Take off your shoes when entering temples, hanok houses and many traditional floor-seating restaurants.",
+   "Rent a hanbok to enter the royal palaces for free and take the best photos.",
+   "Avoid Google Maps for walking or driving directions: in Korea, Naver Map and KakaoMap work far better."
+  ]
+ },
+ "climate": {
+  "hi": [
+   2,
+   5,
+   11,
+   18,
+   23,
+   27,
+   29,
+   30,
+   26,
+   20,
+   12,
+   4
+  ],
+  "lo": [
+   -6,
+   -3,
+   2,
+   8,
+   13,
+   18,
+   22,
+   22,
+   17,
+   10,
+   3,
+   -3
+  ]
+ },
+ "tr": {
+  "El mayor y más majestuoso de los cinco grandes palacios de Seúl.": "The largest and grandest of Seoul's five royal palaces.",
+  "Barrio histórico de casas tradicionales hanok entre dos palacios.": "Historic neighbourhood of traditional hanok houses between two palaces.",
+  "Palacio Patrimonio de la Humanidad, el mejor conservado de Joseon.": "UNESCO World Heritage palace, the best preserved of the Joseon era.",
+  "El jardín real oculto tras el palacio Changdeokgung.": "The hidden royal garden behind Changdeokgung Palace.",
+  "Palacio del centro que mezcla arquitectura coreana y occidental.": "Downtown palace blending Korean and Western architecture.",
+  "Palacio tranquilo con estanques, invernadero y amplios jardines.": "Peaceful palace with ponds, a greenhouse and wide gardens.",
+  "Templo confuciano real, Patrimonio de la Humanidad.": "Royal Confucian shrine and UNESCO World Heritage Site.",
+  "Templo budista principal del centro de Seúl.": "Main downtown Buddhist temple of Seoul.",
+  "La gran puerta sur, Tesoro Nacional nº 1 de Corea.": "The great south gate, Korea's National Treasure No. 1.",
+  "La histórica puerta este de la muralla de Seúl.": "The historic east gate of Seoul's city wall.",
+  "Gran plaza cívica con las estatuas del rey Sejong y el almirante Yi.": "Grand civic square with statues of King Sejong and Admiral Yi.",
+  "Calle del arte tradicional, la caligrafía y las casas de té.": "Street of traditional art, calligraphy and tea houses.",
+  "Antigua cárcel colonial, hoy museo de la independencia.": "Former colonial prison, now an independence museum.",
+  "Torre mirador en la cima de la montaña Namsan.": "Observation tower atop Namsan mountain.",
+  "El gran río de Seúl y sus parques ribereños de ocio.": "Seoul's great river and its riverside leisure parks.",
+  "Riachuelo restaurado que cruza el centro de la ciudad.": "Restored stream cutting through the city centre.",
+  "Montañas de granito y rutas de senderismo al norte de Seúl.": "Granite peaks and hiking trails north of Seoul.",
+  "Gran parque urbano con ciervos, humedales y jardines.": "Large urban park with deer, wetlands and gardens.",
+  "Colina con un tramo restaurado de la muralla de Seúl.": "Hilltop with a restored stretch of the Seoul City Wall.",
+  "Montaña chamánica con roca, muralla y vistas al palacio.": "Shamanic mountain with crags, city wall and palace views.",
+  "El distrito comercial y de cosmética más animado de Seúl.": "Seoul's busiest shopping and cosmetics district.",
+  "Barrio joven, universitario y de vida nocturna e indie.": "Young, student neighbourhood of nightlife and indie culture.",
+  "El moderno y lujoso distrito al sur del río Han.": "The modern, upscale district south of the Han River.",
+  "Edificio futurista de Zaha Hadid dedicado al diseño.": "Futuristic Zaha Hadid landmark devoted to design.",
+  "Enorme parque de atracciones cubierto y al aire libre.": "Huge indoor-and-outdoor amusement park.",
+  "El rascacielos más alto de Corea, con mirador de cristal.": "Korea's tallest skyscraper, with a glass-floored observatory.",
+  "Centro comercial gigante con la fotogénica biblioteca abierta.": "Giant mall with the photogenic open Starfield Library.",
+  "El mercado de comida callejera más famoso de Seúl.": "Seoul's most famous street-food market.",
+  "El mayor mercado tradicional de Corea, con comida y de todo.": "Korea's largest traditional market, with food and everything else.",
+  "Mercado de barrio con el simpático almuerzo de monedas.": "Neighbourhood market with the fun 'coin lunch box'.",
+  "Gran lonja de marisco donde comer lo que eliges vivo.": "Huge seafood market where you eat your live pick.",
+  "Barrio retro de cervecerías y frituras al aire libre.": "Retro district of open-air beer joints and fried snacks.",
+  "Callejones hanok reconvertidos en cafés y restaurantes de moda.": "Hanok alleys turned into trendy cafes and restaurants.",
+  "Seúl": "Seúl"
+ }
+}

@@ -1,0 +1,765 @@
+{
+ "id": "singapur",
+ "name": "Singapur",
+ "country": "WORLD",
+ "center": [
+  1.29,
+  103.85
+ ],
+ "pois": [
+  {
+   "id": "w_sin_marina_bay_sands",
+   "cat": "monuments",
+   "name": "Marina Bay Sands",
+   "icon": "🏨",
+   "lat": 1.28345,
+   "lng": 103.86067,
+   "desc": "Complejo de tres torres coronadas por el SkyPark y su piscina infinita."
+  },
+  {
+   "id": "w_sin_merlion",
+   "cat": "monuments",
+   "name": "Merlion Park",
+   "icon": "🦁",
+   "lat": 1.28684,
+   "lng": 103.8545,
+   "desc": "Estatua del león-pez, símbolo nacional que escupe agua a la bahía."
+  },
+  {
+   "id": "w_sin_gardens_by_the_bay",
+   "cat": "nature",
+   "name": "Gardens by the Bay",
+   "icon": "🌳",
+   "lat": 1.2816,
+   "lng": 103.8638,
+   "desc": "Jardín futurista con los Supertrees y dos invernaderos abovedados."
+  },
+  {
+   "id": "w_sin_singapore_flyer",
+   "cat": "monuments",
+   "name": "Singapore Flyer",
+   "icon": "🎡",
+   "lat": 1.28926,
+   "lng": 103.86311,
+   "desc": "Noria gigante de 165 m con vistas de la bahía y la ciudad."
+  },
+  {
+   "id": "w_sin_artscience_museum",
+   "cat": "monuments",
+   "name": "ArtScience Museum",
+   "icon": "🪷",
+   "lat": 1.2862,
+   "lng": 103.8592,
+   "desc": "Museo con forma de flor de loto junto a Marina Bay Sands."
+  },
+  {
+   "id": "w_sin_chinatown",
+   "cat": "monuments",
+   "name": "Chinatown",
+   "icon": "🏮",
+   "lat": 1.2823,
+   "lng": 103.8448,
+   "desc": "Barrio histórico chino con shophouses, templos y mercados."
+  },
+  {
+   "id": "w_sin_buddha_tooth",
+   "cat": "monuments",
+   "name": "Templo de la Reliquia del Diente de Buda",
+   "icon": "🛕",
+   "lat": 1.2816,
+   "lng": 103.8444,
+   "desc": "Templo budista de estilo Tang con una reliquia sagrada."
+  },
+  {
+   "id": "w_sin_sri_mariamman",
+   "cat": "monuments",
+   "name": "Templo Sri Mariamman",
+   "icon": "🛕",
+   "lat": 1.28226,
+   "lng": 103.84503,
+   "desc": "El templo hindú más antiguo de Singapur, en Chinatown."
+  },
+  {
+   "id": "w_sin_thian_hock_keng",
+   "cat": "monuments",
+   "name": "Templo Thian Hock Keng",
+   "icon": "⛩️",
+   "lat": 1.2808,
+   "lng": 103.8477,
+   "desc": "El templo taoísta más antiguo de la ciudad, dedicado a Mazu."
+  },
+  {
+   "id": "w_sin_little_india",
+   "cat": "monuments",
+   "name": "Little India",
+   "icon": "🪔",
+   "lat": 1.3067,
+   "lng": 103.8498,
+   "desc": "Barrio indio vibrante lleno de color, aromas y templos."
+  },
+  {
+   "id": "w_sin_sultan_mosque",
+   "cat": "monuments",
+   "name": "Mezquita del Sultán (Kampong Glam)",
+   "icon": "🕌",
+   "lat": 1.3024,
+   "lng": 103.8593,
+   "desc": "Gran mezquita dorada en el histórico barrio malayo-árabe."
+  },
+  {
+   "id": "w_sin_raffles_hotel",
+   "cat": "monuments",
+   "name": "Raffles Hotel",
+   "icon": "🍸",
+   "lat": 1.2946,
+   "lng": 103.8544,
+   "desc": "Hotel colonial legendario, cuna del cóctel Singapore Sling."
+  },
+  {
+   "id": "w_sin_national_gallery",
+   "cat": "monuments",
+   "name": "National Gallery Singapore",
+   "icon": "🖼️",
+   "lat": 1.2904,
+   "lng": 103.8515,
+   "desc": "Mayor museo de arte del país en dos edificios coloniales."
+  },
+  {
+   "id": "w_sin_st_andrews",
+   "cat": "monuments",
+   "name": "Catedral de San Andrés",
+   "icon": "⛪",
+   "lat": 1.2925,
+   "lng": 103.8516,
+   "desc": "Catedral anglicana neogótica de blanco reluciente."
+  },
+  {
+   "id": "w_sin_jewel_changi",
+   "cat": "monuments",
+   "name": "Jewel Changi Airport",
+   "icon": "💧",
+   "lat": 1.3602,
+   "lng": 103.9896,
+   "desc": "Complejo con la cascada interior más alta del mundo."
+  },
+  {
+   "id": "w_sin_botanic_gardens",
+   "cat": "nature",
+   "name": "Jardín Botánico de Singapur",
+   "icon": "🌺",
+   "lat": 1.3151,
+   "lng": 103.8162,
+   "desc": "Jardín tropical Patrimonio de la Humanidad con jardín de orquídeas."
+  },
+  {
+   "id": "w_sin_fort_canning",
+   "cat": "nature",
+   "name": "Fort Canning Park",
+   "icon": "🌿",
+   "lat": 1.2938,
+   "lng": 103.8463,
+   "desc": "Colina histórica con jardines y el fotogénico túnel de árboles."
+  },
+  {
+   "id": "w_sin_macritchie",
+   "cat": "nature",
+   "name": "Embalse de MacRitchie",
+   "icon": "🌲",
+   "lat": 1.3409,
+   "lng": 103.8325,
+   "desc": "Reserva natural con senderos y una pasarela entre las copas."
+  },
+  {
+   "id": "w_sin_henderson_waves",
+   "cat": "nature",
+   "name": "Henderson Waves (Southern Ridges)",
+   "icon": "🌉",
+   "lat": 1.277,
+   "lng": 103.8183,
+   "desc": "El puente peatonal más alto de Singapur, de madera ondulada."
+  },
+  {
+   "id": "w_sin_singapore_zoo",
+   "cat": "nature",
+   "name": "Zoo de Singapur",
+   "icon": "🦧",
+   "lat": 1.4043,
+   "lng": 103.793,
+   "desc": "Zoo de conceptos abiertos, referente mundial en bienestar animal."
+  },
+  {
+   "id": "w_sin_night_safari",
+   "cat": "nature",
+   "name": "Night Safari",
+   "icon": "🦌",
+   "lat": 1.40226,
+   "lng": 103.78789,
+   "desc": "El primer parque nocturno de fauna del mundo."
+  },
+  {
+   "id": "w_sin_sentosa",
+   "cat": "ocio",
+   "name": "Isla de Sentosa",
+   "icon": "🏝️",
+   "lat": 1.2494,
+   "lng": 103.8303,
+   "desc": "Isla de ocio con playas, parques temáticos y resorts."
+  },
+  {
+   "id": "w_sin_universal_studios",
+   "cat": "ocio",
+   "name": "Universal Studios Singapore",
+   "icon": "🎢",
+   "lat": 1.254,
+   "lng": 103.8239,
+   "desc": "Parque temático de cine con montañas rusas y espectáculos."
+  },
+  {
+   "id": "w_sin_sea_aquarium",
+   "cat": "ocio",
+   "name": "S.E.A. Aquarium",
+   "icon": "🐠",
+   "lat": 1.2583,
+   "lng": 103.8207,
+   "desc": "Uno de los mayores acuarios del mundo, en Sentosa."
+  },
+  {
+   "id": "w_sin_cable_car",
+   "cat": "ocio",
+   "name": "Teleférico de Singapur (Mount Faber)",
+   "icon": "🚠",
+   "lat": 1.2711,
+   "lng": 103.8178,
+   "desc": "Teleférico con vistas del puerto que enlaza con Sentosa."
+  },
+  {
+   "id": "w_sin_clarke_quay",
+   "cat": "ocio",
+   "name": "Clarke Quay",
+   "icon": "🌃",
+   "lat": 1.2906,
+   "lng": 103.8467,
+   "desc": "Muelle histórico convertido en zona de ocio nocturno."
+  },
+  {
+   "id": "w_sin_orchard_road",
+   "cat": "ocio",
+   "name": "Orchard Road",
+   "icon": "🛍️",
+   "lat": 1.3036,
+   "lng": 103.8318,
+   "desc": "La gran avenida comercial de Singapur."
+  },
+  {
+   "id": "w_sin_maxwell_food_centre",
+   "cat": "food",
+   "name": "Maxwell Food Centre",
+   "icon": "🍚",
+   "lat": 1.2806,
+   "lng": 103.8447,
+   "desc": "Hawker centre famoso por el arroz con pollo de Hainan."
+  },
+  {
+   "id": "w_sin_lau_pa_sat",
+   "cat": "food",
+   "name": "Lau Pa Sat",
+   "icon": "🍢",
+   "lat": 1.2806,
+   "lng": 103.8504,
+   "desc": "Mercado victoriano de hierro con satay callejero al anochecer."
+  },
+  {
+   "id": "w_sin_newton_food_centre",
+   "cat": "food",
+   "name": "Newton Food Centre",
+   "icon": "🦐",
+   "lat": 1.3117,
+   "lng": 103.8387,
+   "desc": "Hawker al aire libre célebre por su marisco y el chili crab."
+  },
+  {
+   "id": "w_sin_tekka_centre",
+   "cat": "food",
+   "name": "Tekka Centre",
+   "icon": "🍛",
+   "lat": 1.3063,
+   "lng": 103.8503,
+   "desc": "Mercado y hawker de Little India con cocina india."
+  },
+  {
+   "id": "w_sin_chinatown_complex",
+   "cat": "food",
+   "name": "Chinatown Complex Food Centre",
+   "icon": "🍜",
+   "lat": 1.2823,
+   "lng": 103.8433,
+   "desc": "El mayor hawker centre de la ciudad, con cientos de puestos."
+  },
+  {
+   "id": "w_sin_old_airport_road",
+   "cat": "food",
+   "name": "Old Airport Road Food Centre",
+   "icon": "🥢",
+   "lat": 1.3083,
+   "lng": 103.8856,
+   "desc": "Hawker legendario, favorito de los locales por su calidad."
+  }
+ ],
+ "extra": {
+  "w_sin_marina_bay_sands": {
+   "id": "w_sin_marina_bay_sands",
+   "d": "El resort más icónico de Singapur reúne hotel, casino, centro comercial de lujo y un observatorio en la azotea con vistas panorámicas de la bahía. Al atardecer ofrece el espectáculo de luces y agua Spectra frente a la bahía.",
+   "d_en": "Singapore's most iconic resort combines a hotel, casino, luxury mall and a rooftop observation deck with panoramic bay views. At dusk it hosts the free Spectra light-and-water show along the waterfront.",
+   "h": "SkyPark abierto a diario, aprox. 11:00–21:00; espectáculo Spectra al anochecer.",
+   "h_en": "SkyPark open daily, roughly 11:00–21:00; Spectra show at nightfall.",
+   "i": "Sube al SkyPark al atardecer para las mejores vistas; entrada de pago al mirador.",
+   "i_en": "Go up to the SkyPark at sunset for the best views; paid entry to the observation deck."
+  },
+  "w_sin_merlion": {
+   "id": "w_sin_merlion",
+   "d": "El Merlion, con cabeza de león y cuerpo de pez, es el emblema de Singapur. Desde su parque junto al río se obtiene una de las postales clásicas de la ciudad, con Marina Bay Sands al fondo.",
+   "d_en": "The Merlion, with a lion's head and a fish's body, is Singapore's emblem. Its riverside park offers one of the city's classic postcard views, with Marina Bay Sands in the background.",
+   "h": "Parque público abierto 24 horas.",
+   "h_en": "Public park open 24 hours.",
+   "i": "Visítalo temprano o de noche para evitar las multitudes; ideal para fotos con la bahía.",
+   "i_en": "Come early or at night to avoid crowds; great for photos across the bay."
+  },
+  "w_sin_gardens_by_the_bay": {
+   "id": "w_sin_gardens_by_the_bay",
+   "d": "Este parque de 101 hectáreas alberga los Supertrees iluminados, la Cloud Forest con su cascada interior y el Flower Dome, el mayor invernadero de cristal del mundo. Cada noche ofrece el espectáculo gratuito Garden Rhapsody.",
+   "d_en": "This 101-hectare park is home to the lit Supertrees, the Cloud Forest with its indoor waterfall and the Flower Dome, the world's largest glass greenhouse. Every night it stages the free Garden Rhapsody light show.",
+   "h": "Jardines exteriores 05:00–02:00; invernaderos 09:00–21:00.",
+   "h_en": "Outdoor gardens 05:00–02:00; conservatories 09:00–21:00.",
+   "i": "El espectáculo de luces de los Supertrees es gratuito hacia las 19:45 y 20:45.",
+   "i_en": "The Supertree light show is free, around 19:45 and 20:45."
+  },
+  "w_sin_singapore_flyer": {
+   "id": "w_sin_singapore_flyer",
+   "d": "Una de las norias de observación más altas de Asia. Su vuelta completa dura unos 30 minutos y, en días claros, permite ver hasta Malasia e Indonesia desde sus cápsulas con aire acondicionado.",
+   "d_en": "One of Asia's tallest observation wheels. A full rotation lasts about 30 minutes and, on clear days, lets you see as far as Malaysia and Indonesia from its air-conditioned capsules.",
+   "h": "Abierto a diario aprox. 14:00–22:00.",
+   "h_en": "Open daily, roughly 14:00–22:00.",
+   "i": "Compra la entrada online para ahorrar; vistas óptimas al atardecer.",
+   "i_en": "Buy tickets online to save; best views at sunset."
+  },
+  "w_sin_artscience_museum": {
+   "id": "w_sin_artscience_museum",
+   "d": "Diseñado por Moshe Safdie con forma de loto, combina arte, ciencia y tecnología. Alberga la instalación digital permanente Future World de teamLab, muy popular entre familias y amantes de la fotografía.",
+   "d_en": "Designed by Moshe Safdie in the shape of a lotus, it blends art, science and technology. It houses teamLab's permanent digital installation Future World, hugely popular with families and photographers.",
+   "h": "Abierto a diario 10:00–19:00.",
+   "h_en": "Open daily 10:00–19:00.",
+   "i": "Reserva Future World con antelación; las salas inmersivas se llenan rápido.",
+   "i_en": "Book Future World in advance; the immersive rooms fill up fast."
+  },
+  "w_sin_chinatown": {
+   "id": "w_sin_chinatown",
+   "d": "Un enclave lleno de coloridas shophouses, tiendas de medicina tradicional, puestos callejeros y templos. Es ideal para pasear entre farolillos rojos, probar comida local y comprar recuerdos en su mercado.",
+   "d_en": "A district full of colourful shophouses, traditional medicine stores, street stalls and temples. Perfect for strolling among red lanterns, tasting local food and buying souvenirs at its market.",
+   "h": "Calles abiertas siempre; tiendas y mercado aprox. 10:00–22:00.",
+   "h_en": "Streets always open; shops and market roughly 10:00–22:00.",
+   "i": "Visita el mercado nocturno y prueba los hawkers del Chinatown Complex.",
+   "i_en": "Visit the night market and try the hawkers at Chinatown Complex."
+  },
+  "w_sin_buddha_tooth": {
+   "id": "w_sin_buddha_tooth",
+   "d": "Imponente templo de cuatro plantas en Chinatown que, según la tradición, custodia un diente de Buda en una estupa de oro. Incluye un museo budista y un tranquilo jardín en la azotea.",
+   "d_en": "An imposing four-storey temple in Chinatown that, according to tradition, holds a tooth of the Buddha in a golden stupa. It includes a Buddhist museum and a peaceful rooftop garden.",
+   "h": "Abierto a diario aprox. 07:00–17:00.",
+   "h_en": "Open daily, roughly 07:00–17:00.",
+   "i": "Cubre hombros y rodillas; entrada gratuita con donativo opcional.",
+   "i_en": "Cover shoulders and knees; free entry with optional donation."
+  },
+  "w_sin_sri_mariamman": {
+   "id": "w_sin_sri_mariamman",
+   "d": "Fundado en 1827, destaca por su colorida torre gopuram cubierta de figuras de dioses hindúes. Es escenario del festival Theemithi, la caminata sobre brasas, cada otoño.",
+   "d_en": "Founded in 1827, it is famed for its colourful gopuram tower covered in figures of Hindu deities. It hosts the Theemithi fire-walking festival each autumn.",
+   "h": "Abierto a diario aprox. 07:00–12:00 y 18:00–21:00.",
+   "h_en": "Open daily, roughly 07:00–12:00 and 18:00–21:00.",
+   "i": "Descálzate al entrar; se cobra una pequeña tasa por hacer fotos.",
+   "i_en": "Remove your shoes to enter; a small photography fee applies."
+  },
+  "w_sin_thian_hock_keng": {
+   "id": "w_sin_thian_hock_keng",
+   "d": "Construido en 1839 sin un solo clavo, este bello templo dedicado a la diosa del mar Mazu era el primer lugar de gracias de los inmigrantes que llegaban por barco. Destaca su decoración de dragones y azulejos.",
+   "d_en": "Built in 1839 without a single nail, this beautiful temple to the sea goddess Mazu was the first place of thanks for immigrants arriving by boat. It stands out for its dragon and tile decoration.",
+   "h": "Abierto a diario aprox. 07:30–17:30.",
+   "h_en": "Open daily, roughly 07:30–17:30.",
+   "i": "Situado en Telok Ayer Street; entrada gratuita.",
+   "i_en": "Located on Telok Ayer Street; free entry."
+  },
+  "w_sin_little_india": {
+   "id": "w_sin_little_india",
+   "d": "El corazón de la comunidad india de Singapur, con calles animadas, guirnaldas de flores, tiendas de saris y especias, y templos como el Sri Veeramakaliamman. Es especialmente vistoso durante Deepavali.",
+   "d_en": "The heart of Singapore's Indian community, with lively streets, flower garlands, sari and spice shops, and temples such as Sri Veeramakaliamman. It is especially colourful during Deepavali.",
+   "h": "Calles abiertas siempre; tiendas aprox. 09:00–22:00.",
+   "h_en": "Streets always open; shops roughly 09:00–22:00.",
+   "i": "No te pierdas el enorme centro comercial Mustafa, abierto 24 horas.",
+   "i_en": "Don't miss the huge Mustafa Centre, open 24 hours."
+  },
+  "w_sin_sultan_mosque": {
+   "id": "w_sin_sultan_mosque",
+   "d": "La mezquita más importante de Singapur, con su enorme cúpula dorada, preside el barrio de Kampong Glam. Alrededor, Arab Street y Haji Lane rebosan de cafés, boutiques y murales callejeros.",
+   "d_en": "Singapore's most important mosque, with its huge golden dome, presides over the Kampong Glam district. Around it, Arab Street and Haji Lane brim with cafes, boutiques and street murals.",
+   "h": "Visitas no musulmanas aprox. 10:00–12:00 y 14:00–16:00.",
+   "h_en": "Non-Muslim visiting hours roughly 10:00–12:00 and 14:00–16:00.",
+   "i": "Viste con recato; hay túnicas prestadas en la entrada.",
+   "i_en": "Dress modestly; robes are lent at the entrance."
+  },
+  "w_sin_raffles_hotel": {
+   "id": "w_sin_raffles_hotel",
+   "d": "Icono de la Singapur colonial inaugurado en 1887, con su elegante fachada blanca y jardines tropicales. En su Long Bar nació el cóctel Singapore Sling, que aún se sirve entre cáscaras de cacahuete.",
+   "d_en": "An icon of colonial Singapore opened in 1887, with its elegant white facade and tropical gardens. Its Long Bar is where the Singapore Sling cocktail was created, still served amid peanut shells.",
+   "h": "Zonas públicas y arcada de tiendas a diario; bares por la tarde-noche.",
+   "h_en": "Public areas and shopping arcade daily; bars afternoon to night.",
+   "i": "Puedes pasear por el lobby y la arcada; el Long Bar es de pago.",
+   "i_en": "You can stroll the lobby and arcade; the Long Bar is paid."
+  },
+  "w_sin_national_gallery": {
+   "id": "w_sin_national_gallery",
+   "d": "Ocupa el antiguo Tribunal Supremo y el Ayuntamiento, unidos por una espectacular estructura de cristal. Reúne la mayor colección pública de arte moderno del Sudeste Asiático y una azotea con excelentes vistas.",
+   "d_en": "It occupies the former Supreme Court and City Hall, joined by a striking glass structure. It holds the largest public collection of modern Southeast Asian art and a rooftop with excellent views.",
+   "h": "Abierto a diario 10:00–19:00.",
+   "h_en": "Open daily 10:00–19:00.",
+   "i": "Sube a la azotea al atardecer; hay bares y restaurantes con vistas.",
+   "i_en": "Head to the rooftop at sunset; there are bars and restaurants with views."
+  },
+  "w_sin_st_andrews": {
+   "id": "w_sin_st_andrews",
+   "d": "La mayor catedral de Singapur, terminada en 1861 con un característico blanco obtenido mezclando cal, clara de huevo y azúcar. Rodeada de césped, es un remanso de calma en el distrito cívico.",
+   "d_en": "Singapore's largest cathedral, completed in 1861 with its characteristic white finish made from lime, egg white and sugar. Surrounded by lawns, it is a calm oasis in the civic district.",
+   "h": "Abierta a diario aprox. 09:00–17:00.",
+   "h_en": "Open daily, roughly 09:00–17:00.",
+   "i": "Entrada gratuita; junto a la estación de MRT City Hall.",
+   "i_en": "Free entry; next to City Hall MRT station."
+  },
+  "w_sin_jewel_changi": {
+   "id": "w_sin_jewel_changi",
+   "d": "Junto al aeropuerto de Changi, este deslumbrante domo de cristal alberga el Rain Vortex, una cascada de 40 m rodeada de un bosque tropical, jardines, tiendas y atracciones. Un destino en sí mismo.",
+   "d_en": "Beside Changi Airport, this dazzling glass dome houses the Rain Vortex, a 40 m waterfall surrounded by a tropical forest, gardens, shops and attractions. A destination in its own right.",
+   "h": "Abierto a diario; cascada iluminada al anochecer con espectáculo de luces.",
+   "h_en": "Open daily; waterfall lit at nightfall with a light show.",
+   "i": "Conectado con las terminales; ideal antes de un vuelo o como visita propia.",
+   "i_en": "Linked to the terminals; great before a flight or as a standalone visit."
+  },
+  "w_sin_botanic_gardens": {
+   "id": "w_sin_botanic_gardens",
+   "d": "Fundado en 1859 y primer sitio Patrimonio de la Humanidad de Singapur, ofrece 82 hectáreas de vegetación tropical, lagos y el famoso National Orchid Garden, con miles de orquídeas de todo el mundo.",
+   "d_en": "Founded in 1859 and Singapore's first UNESCO World Heritage Site, it offers 82 hectares of tropical greenery, lakes and the famous National Orchid Garden, with thousands of orchids from around the world.",
+   "h": "Jardines abiertos a diario 05:00–24:00; Orchid Garden 08:30–19:00.",
+   "h_en": "Gardens open daily 05:00–24:00; Orchid Garden 08:30–19:00.",
+   "i": "La entrada al jardín es gratuita; el Orchid Garden es de pago.",
+   "i_en": "Garden entry is free; the Orchid Garden is paid."
+  },
+  "w_sin_fort_canning": {
+   "id": "w_sin_fort_canning",
+   "d": "Colina cargada de historia, antiguo emplazamiento de reyes malayos y de un búnker de la Segunda Guerra Mundial. Hoy es un frondoso parque con jardines temáticos y el famoso Tree Tunnel, muy fotografiado.",
+   "d_en": "A history-laden hill, former seat of Malay kings and site of a WWII bunker. Today it is a leafy park with themed gardens and the famous, much-photographed Tree Tunnel.",
+   "h": "Parque abierto 24 horas.",
+   "h_en": "Park open 24 hours.",
+   "i": "Ve temprano al Tree Tunnel para hacer fotos sin gente.",
+   "i_en": "Go early to the Tree Tunnel for crowd-free photos."
+  },
+  "w_sin_macritchie": {
+   "id": "w_sin_macritchie",
+   "d": "El embalse más antiguo de Singapur, rodeado de selva primaria. Sus senderos llevan al TreeTop Walk, un puente colgante entre las copas de los árboles donde se ven monos, ardillas y aves.",
+   "d_en": "Singapore's oldest reservoir, surrounded by primary rainforest. Its trails lead to the TreeTop Walk, a suspension bridge through the canopy where monkeys, squirrels and birds can be spotted.",
+   "h": "Senderos abiertos a diario 07:00–19:00; TreeTop Walk cierra los lunes.",
+   "h_en": "Trails open daily 07:00–19:00; TreeTop Walk closed on Mondays.",
+   "i": "Lleva agua y repelente; el circuito completo dura varias horas.",
+   "i_en": "Bring water and repellent; the full loop takes several hours."
+  },
+  "w_sin_henderson_waves": {
+   "id": "w_sin_henderson_waves",
+   "d": "Puente escultórico de 36 m de altura con forma de olas de madera, parte de la ruta Southern Ridges que conecta parques boscosos entre Mount Faber y Kent Ridge. Espectacular al atardecer, cuando se ilumina.",
+   "d_en": "A sculptural 36 m-high bridge shaped like timber waves, part of the Southern Ridges trail linking wooded parks between Mount Faber and Kent Ridge. Spectacular at dusk, when it is lit.",
+   "h": "Abierto 24 horas; iluminado 19:00–02:00.",
+   "h_en": "Open 24 hours; lit 19:00–02:00.",
+   "i": "Combínalo con un paseo por los puentes de la Southern Ridges.",
+   "i_en": "Combine it with a walk along the Southern Ridges bridges."
+  },
+  "w_sin_singapore_zoo": {
+   "id": "w_sin_singapore_zoo",
+   "d": "Considerado uno de los mejores zoos del mundo, presenta a los animales en recintos naturales sin barreras visibles. Destaca por sus orangutanes en libertad y sus hábitats de selva tropical cuidadosamente recreados.",
+   "d_en": "Regarded as one of the world's best zoos, it presents animals in naturalistic enclosures without visible barriers. It is famed for its free-ranging orangutans and carefully recreated rainforest habitats.",
+   "h": "Abierto a diario 08:30–18:00.",
+   "h_en": "Open daily 08:30–18:00.",
+   "i": "Ve pronto para ver el desayuno con orangutanes; combina con Night Safari.",
+   "i_en": "Arrive early for breakfast with the orangutans; pair it with the Night Safari."
+  },
+  "w_sin_night_safari": {
+   "id": "w_sin_night_safari",
+   "d": "Un recorrido en tranvía y a pie bajo una tenue iluminación permite observar animales nocturnos como leones, elefantes y tigres en su hábitat. Incluye espectáculos de fauna y ambiente de selva tras el anochecer.",
+   "d_en": "A tram ride and walking trails under soft lighting let you observe nocturnal animals such as lions, elephants and tigers in their habitats. It includes wildlife shows and a jungle atmosphere after dark.",
+   "h": "Abierto a diario 19:15–24:00.",
+   "h_en": "Open daily 19:15–24:00.",
+   "i": "Reserva online y llega temprano; las colas del tranvía se alargan.",
+   "i_en": "Book online and arrive early; tram queues get long."
+  },
+  "w_sin_sentosa": {
+   "id": "w_sin_sentosa",
+   "d": "El gran parque de diversiones de Singapur: playas artificiales, atracciones, campos de golf, tirolinas, acuario y el complejo Resorts World. Se llega en teleférico, monorraíl, coche o a pie por una pasarela.",
+   "d_en": "Singapore's big playground: man-made beaches, attractions, golf courses, ziplines, an aquarium and the Resorts World complex. Reachable by cable car, monorail, car or a walking boardwalk.",
+   "h": "Isla accesible a diario; atracciones con horarios propios.",
+   "h_en": "Island accessible daily; attractions have their own hours.",
+   "i": "Planifica el día por zonas; el monorraíl Sentosa Express es cómodo.",
+   "i_en": "Plan the day by area; the Sentosa Express monorail is handy."
+  },
+  "w_sin_universal_studios": {
+   "id": "w_sin_universal_studios",
+   "d": "En Resorts World Sentosa, reúne siete zonas temáticas inspiradas en películas, desde Ciudad Perdida y Ancient Egypt hasta Sci-Fi City con su doble montaña rusa Battlestar Galactica. Diversión para toda la familia.",
+   "d_en": "At Resorts World Sentosa, it gathers seven movie-themed zones, from The Lost World and Ancient Egypt to Sci-Fi City with its dual Battlestar Galactica coaster. Fun for the whole family.",
+   "h": "Abierto a diario aprox. 10:00–19:00.",
+   "h_en": "Open daily, roughly 10:00–19:00.",
+   "i": "Compra Express Pass en días concurridos para saltar colas.",
+   "i_en": "Buy an Express Pass on busy days to skip queues."
+  },
+  "w_sin_sea_aquarium": {
+   "id": "w_sin_sea_aquarium",
+   "d": "Alberga más de 100.000 animales marinos de mil especies. Su Open Ocean, un ventanal gigante de casi 36 m, permite ver mantas y tiburones deslizándose, uno de los paneles de acuario más grandes del planeta.",
+   "d_en": "Home to over 100,000 marine animals across a thousand species. Its Open Ocean, a giant viewing panel nearly 36 m wide, lets you watch manta rays and sharks glide by, one of the largest aquarium panels on earth.",
+   "h": "Abierto a diario aprox. 10:00–17:00.",
+   "h_en": "Open daily, roughly 10:00–17:00.",
+   "i": "Entra a media tarde para evitar los grupos escolares.",
+   "i_en": "Visit mid-afternoon to avoid school groups."
+  },
+  "w_sin_cable_car": {
+   "id": "w_sin_cable_car",
+   "d": "Desde Mount Faber, este teleférico sobrevuela el puerto hasta la isla de Sentosa, ofreciendo vistas panorámicas de la ciudad, los barcos y la vegetación tropical. Al anochecer las cabinas se iluminan.",
+   "d_en": "From Mount Faber, this cable car glides over the harbour to Sentosa island, offering panoramic views of the city, ships and tropical greenery. At night the cabins are lit.",
+   "h": "Abierto a diario aprox. 08:45–22:00.",
+   "h_en": "Open daily, roughly 08:45–22:00.",
+   "i": "Sube desde Mount Faber para las mejores vistas; billete de ida y vuelta.",
+   "i_en": "Board at Mount Faber for the best views; round-trip ticket."
+  },
+  "w_sin_clarke_quay": {
+   "id": "w_sin_clarke_quay",
+   "d": "Antiguos almacenes ribereños de vivos colores hoy repletos de restaurantes, bares y discotecas junto al río Singapur. Es el epicentro de la vida nocturna y punto de partida de los cruceros por el río.",
+   "d_en": "Brightly coloured former riverside warehouses now packed with restaurants, bars and clubs along the Singapore River. It is the epicentre of nightlife and the departure point for river cruises.",
+   "h": "Restaurantes desde mediodía; bares y ocio hasta la madrugada.",
+   "h_en": "Restaurants from midday; bars and clubs until late.",
+   "i": "Toma un crucero por el río al atardecer desde sus embarcaderos.",
+   "i_en": "Take a river cruise at sunset from its jetties."
+  },
+  "w_sin_orchard_road": {
+   "id": "w_sin_orchard_road",
+   "d": "Más de dos kilómetros de centros comerciales, boutiques de lujo, cines y restaurantes. Es el paraíso de las compras de la ciudad, especialmente espectacular con su iluminación navideña a fin de año.",
+   "d_en": "Over two kilometres of malls, luxury boutiques, cinemas and restaurants. It is the city's shopping paradise, especially spectacular with its Christmas lights at year's end.",
+   "h": "Tiendas y centros comerciales a diario aprox. 10:00–22:00.",
+   "h_en": "Shops and malls daily, roughly 10:00–22:00.",
+   "i": "Los centros comerciales están conectados; ideal en días de calor.",
+   "i_en": "The malls are interconnected; great on hot days."
+  },
+  "w_sin_maxwell_food_centre": {
+   "id": "w_sin_maxwell_food_centre",
+   "d": "Uno de los hawker centres más queridos de Chinatown, con decenas de puestos de comida local. Su estrella es el Tian Tian Hainanese Chicken Rice, plato nacional oficioso de Singapur.",
+   "d_en": "One of Chinatown's best-loved hawker centres, with dozens of local food stalls. Its star is Tian Tian Hainanese Chicken Rice, Singapore's unofficial national dish.",
+   "h": "A diario aprox. 08:00–22:00, según el puesto.",
+   "h_en": "Daily, roughly 08:00–22:00, depending on the stall.",
+   "i": "Llega a media mañana o pronto para evitar las colas del pollo Tian Tian.",
+   "i_en": "Come mid-morning or early to skip the Tian Tian chicken queue."
+  },
+  "w_sin_lau_pa_sat": {
+   "id": "w_sin_lau_pa_sat",
+   "d": "Elegante pabellón de hierro fundido de estilo victoriano en pleno distrito financiero. Al anochecer, la calle adyacente se cierra al tráfico y se llena de puestos de satay a la brasa, todo un ritual local.",
+   "d_en": "An elegant Victorian cast-iron pavilion in the heart of the financial district. At night the adjacent street closes to traffic and fills with charcoal satay stalls, a beloved local ritual.",
+   "h": "Abierto 24 horas; la Satay Street empieza hacia las 19:00.",
+   "h_en": "Open 24 hours; Satay Street starts around 19:00.",
+   "i": "Ve a partir de las 19:00 para la experiencia del satay a la brasa.",
+   "i_en": "Go after 19:00 for the charcoal satay experience."
+  },
+  "w_sin_newton_food_centre": {
+   "id": "w_sin_newton_food_centre",
+   "d": "Popular centro de hawkers al aire libre, conocido internacionalmente tras aparecer en la película Crazy Rich Asians. Es ideal para cenar marisco, chili crab, satay y ostras BBQ bajo las estrellas.",
+   "d_en": "A popular open-air hawker centre, known worldwide after featuring in the film Crazy Rich Asians. Great for a dinner of seafood, chili crab, satay and BBQ oysters under the stars.",
+   "h": "A diario aprox. 12:00–02:00.",
+   "h_en": "Daily, roughly 12:00–02:00.",
+   "i": "Confirma el precio del marisco (por 100 g) antes de pedir.",
+   "i_en": "Confirm the seafood price (per 100 g) before ordering."
+  },
+  "w_sin_tekka_centre": {
+   "id": "w_sin_tekka_centre",
+   "d": "En el corazón de Little India, combina un bullicioso mercado húmedo con un hawker centre especializado en cocina india: biryani, dosa, roti prata y curries. También hay tiendas de telas en la planta alta.",
+   "d_en": "In the heart of Little India, it combines a bustling wet market with a hawker centre specialising in Indian cuisine: biryani, dosa, roti prata and curries. There are also fabric shops upstairs.",
+   "h": "A diario aprox. 07:00–21:00; mercado más activo por la mañana.",
+   "h_en": "Daily, roughly 07:00–21:00; market busiest in the morning.",
+   "i": "Prueba el biryani y el teh tarik; muchos puestos son halal.",
+   "i_en": "Try the biryani and teh tarik; many stalls are halal."
+  },
+  "w_sin_chinatown_complex": {
+   "id": "w_sin_chinatown_complex",
+   "d": "Con más de 200 puestos, es el hawker centre más grande de Singapur y alberga uno de los puestos con estrella Michelin más baratos del mundo, el Hawker Chan de pollo con salsa de soja.",
+   "d_en": "With over 200 stalls, it is Singapore's largest hawker centre and home to one of the world's cheapest Michelin-starred stalls, Hawker Chan's soy-sauce chicken.",
+   "h": "A diario aprox. 08:00–20:00, según el puesto.",
+   "h_en": "Daily, roughly 08:00–20:00, depending on the stall.",
+   "i": "Explora la planta superior; los precios son de los más bajos de la ciudad.",
+   "i_en": "Explore the upper floor; prices are among the lowest in the city."
+  },
+  "w_sin_old_airport_road": {
+   "id": "w_sin_old_airport_road",
+   "d": "Uno de los hawker centres más respetados por los propios singapurenses, con puestos veteranos premiados. Es una parada obligada para probar clásicos como char kway teow, laksa y rojak fuera del circuito turístico.",
+   "d_en": "One of the hawker centres most respected by Singaporeans themselves, with award-winning veteran stalls. A must for classics such as char kway teow, laksa and rojak away from the tourist trail.",
+   "h": "A diario aprox. 08:00–21:00, según el puesto.",
+   "h_en": "Daily, roughly 08:00–21:00, depending on the stall.",
+   "i": "Algunos puestos famosos cierran pronto; ve con hambre a la hora de comer.",
+   "i_en": "Some famous stalls close early; arrive hungry at mealtime."
+  }
+ },
+ "food": {
+  "w_sin_maxwell_food_centre": {
+   "cuisine": "Comida callejera singapurense, china y del Sudeste Asiático",
+   "price": "3–8 €",
+   "hours": "A diario aprox. 08:00–22:00 (según puesto)"
+  },
+  "w_sin_lau_pa_sat": {
+   "cuisine": "Hawker singapurense; satay, marisco y fideos",
+   "price": "4–12 €",
+   "hours": "Abierto 24 h; Satay Street desde las 19:00"
+  },
+  "w_sin_newton_food_centre": {
+   "cuisine": "Marisco y hawker singapurense",
+   "price": "6–18 €",
+   "hours": "A diario aprox. 12:00–02:00"
+  },
+  "w_sin_tekka_centre": {
+   "cuisine": "India, del sur y del norte; halal",
+   "price": "3–8 €",
+   "hours": "A diario aprox. 07:00–21:00 (mercado por la mañana)"
+  },
+  "w_sin_chinatown_complex": {
+   "cuisine": "Hawker chino y singapurense variado",
+   "price": "2–7 €",
+   "hours": "A diario aprox. 08:00–20:00 (según puesto)"
+  },
+  "w_sin_old_airport_road": {
+   "cuisine": "Hawker singapurense tradicional",
+   "price": "3–8 €",
+   "hours": "A diario aprox. 08:00–21:00 (según puesto)"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Singapur",
+   "items": [
+    {
+     "name": "Figura del Merlion",
+     "price": "5–20 €",
+     "desc": "Icono nacional en imán, llavero o estatuilla."
+    },
+    {
+     "name": "Mermelada Kaya",
+     "price": "4–8 €",
+     "desc": "Dulce de coco y huevo, para untar en tostadas."
+    },
+    {
+     "name": "Tiger Balm",
+     "price": "3–7 €",
+     "desc": "Bálsamo mentolado clásico, muy popular como regalo."
+    },
+    {
+     "name": "Bak kwa",
+     "price": "8–18 €",
+     "desc": "Lonchas de cerdo dulce a la brasa, típico de Chinatown."
+    },
+    {
+     "name": "Café kopi",
+     "price": "5–12 €",
+     "desc": "Café local tostado con azúcar y mantequilla."
+    },
+    {
+     "name": "Artesanía peranakan",
+     "price": "10–40 €",
+     "desc": "Azulejos, porcelana y cuentas de estilo nyonya."
+    }
+   ],
+   "shops": [
+    "Mustafa Centre (Little India)",
+    "Bugis Street Market",
+    "Chinatown Street Market",
+    "Raffles Hotel Arcade",
+    "Takashimaya (Orchard Road)"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "El transporte público MRT es rápido, barato y con aire acondicionado; compra una tarjeta EZ-Link o usa contactless.",
+   "Está prohibido comer, beber y masticar chicle en el metro; las multas por tirar basura son elevadas.",
+   "El clima es cálido y húmedo todo el año con lluvias breves; lleva agua, protector solar y un paraguas plegable.",
+   "Come en los hawker centres: comida excelente y muy económica, mucho más barata que en restaurantes.",
+   "Muchos templos exigen hombros y rodillas cubiertos; descálzate al entrar en mezquitas y templos hindúes."
+  ],
+  "en": [
+   "The MRT metro is fast, cheap and air-conditioned; buy an EZ-Link card or just tap a contactless card.",
+   "Eating, drinking and chewing gum are banned on the metro, and littering fines are steep.",
+   "The weather is hot and humid year-round with short downpours; carry water, sunscreen and a folding umbrella.",
+   "Eat at the hawker centres: excellent food at very low prices, far cheaper than restaurants.",
+   "Many temples require covered shoulders and knees; remove your shoes before entering mosques and Hindu temples."
+  ]
+ },
+ "climate": {
+  "hi": [
+   30,
+   31,
+   32,
+   32,
+   32,
+   31,
+   31,
+   31,
+   31,
+   31,
+   31,
+   30
+  ],
+  "lo": [
+   23,
+   24,
+   24,
+   25,
+   25,
+   25,
+   25,
+   25,
+   24,
+   24,
+   24,
+   23
+  ]
+ },
+ "tr": {
+  "Complejo de tres torres coronadas por el SkyPark y su piscina infinita.": "Three-tower resort crowned by the SkyPark and its infinity pool.",
+  "Estatua del león-pez, símbolo nacional que escupe agua a la bahía.": "The lion-fish statue, national symbol spouting water into the bay.",
+  "Jardín futurista con los Supertrees y dos invernaderos abovedados.": "Futuristic garden with the Supertrees and two domed conservatories.",
+  "Noria gigante de 165 m con vistas de la bahía y la ciudad.": "165 m giant observation wheel with views of the bay and city.",
+  "Museo con forma de flor de loto junto a Marina Bay Sands.": "Lotus-shaped museum next to Marina Bay Sands.",
+  "Barrio histórico chino con shophouses, templos y mercados.": "Historic Chinese quarter of shophouses, temples and markets.",
+  "Templo budista de estilo Tang con una reliquia sagrada.": "Tang-style Buddhist temple housing a sacred relic.",
+  "El templo hindú más antiguo de Singapur, en Chinatown.": "Singapore's oldest Hindu temple, in Chinatown.",
+  "El templo taoísta más antiguo de la ciudad, dedicado a Mazu.": "The city's oldest Taoist temple, dedicated to Mazu.",
+  "Barrio indio vibrante lleno de color, aromas y templos.": "Vibrant Indian quarter full of colour, aromas and temples.",
+  "Gran mezquita dorada en el histórico barrio malayo-árabe.": "Grand golden mosque in the historic Malay-Arab quarter.",
+  "Hotel colonial legendario, cuna del cóctel Singapore Sling.": "Legendary colonial hotel, birthplace of the Singapore Sling.",
+  "Mayor museo de arte del país en dos edificios coloniales.": "The country's largest art museum in two colonial landmarks.",
+  "Catedral anglicana neogótica de blanco reluciente.": "Gleaming white neo-Gothic Anglican cathedral.",
+  "Complejo con la cascada interior más alta del mundo.": "Complex with the world's tallest indoor waterfall.",
+  "Jardín tropical Patrimonio de la Humanidad con jardín de orquídeas.": "UNESCO World Heritage tropical garden with an orchid garden.",
+  "Colina histórica con jardines y el fotogénico túnel de árboles.": "Historic hilltop park with gardens and the photogenic tree tunnel.",
+  "Reserva natural con senderos y una pasarela entre las copas.": "Nature reserve with trails and a treetop walkway.",
+  "El puente peatonal más alto de Singapur, de madera ondulada.": "Singapore's highest pedestrian bridge, with an undulating timber form.",
+  "Zoo de conceptos abiertos, referente mundial en bienestar animal.": "Open-concept zoo, a world reference for animal welfare.",
+  "El primer parque nocturno de fauna del mundo.": "The world's first nocturnal wildlife park.",
+  "Isla de ocio con playas, parques temáticos y resorts.": "Leisure island with beaches, theme parks and resorts.",
+  "Parque temático de cine con montañas rusas y espectáculos.": "Movie theme park with roller coasters and shows.",
+  "Uno de los mayores acuarios del mundo, en Sentosa.": "One of the world's largest aquariums, on Sentosa.",
+  "Teleférico con vistas del puerto que enlaza con Sentosa.": "Cable car with harbour views linking to Sentosa.",
+  "Muelle histórico convertido en zona de ocio nocturno.": "Historic quay turned nightlife hub.",
+  "La gran avenida comercial de Singapur.": "Singapore's premier shopping avenue.",
+  "Hawker centre famoso por el arroz con pollo de Hainan.": "Hawker centre famous for Hainanese chicken rice.",
+  "Mercado victoriano de hierro con satay callejero al anochecer.": "Victorian iron market with street satay after dark.",
+  "Hawker al aire libre célebre por su marisco y el chili crab.": "Open-air hawker famous for seafood and chili crab.",
+  "Mercado y hawker de Little India con cocina india.": "Little India market and hawker with Indian cuisine.",
+  "El mayor hawker centre de la ciudad, con cientos de puestos.": "The city's largest hawker centre, with hundreds of stalls.",
+  "Hawker legendario, favorito de los locales por su calidad.": "Legendary hawker, a local favourite for its quality.",
+  "Singapur": "Singapur"
+ }
+}

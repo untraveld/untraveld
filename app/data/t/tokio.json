@@ -1,0 +1,804 @@
+{
+ "id": "tokio",
+ "name": "Tokio",
+ "country": "WORLD",
+ "center": [
+  35.68124,
+  139.76712
+ ],
+ "pois": [
+  {
+   "id": "w_tok_sensoji",
+   "cat": "monuments",
+   "name": "Templo Senso-ji",
+   "icon": "⛩️",
+   "lat": 35.71476,
+   "lng": 139.79665,
+   "desc": "El templo budista más antiguo de Tokio, en el corazón de Asakusa."
+  },
+  {
+   "id": "w_tok_kaminarimon",
+   "cat": "monuments",
+   "name": "Kaminarimon",
+   "icon": "🏮",
+   "lat": 35.71105,
+   "lng": 139.79641,
+   "desc": "La puerta del Trueno con su enorme linterna roja, entrada a Asakusa."
+  },
+  {
+   "id": "w_tok_nakamise",
+   "cat": "monuments",
+   "name": "Nakamise-dori",
+   "icon": "🛍️",
+   "lat": 35.71209,
+   "lng": 139.79656,
+   "desc": "Calle comercial histórica que une Kaminarimon con el Senso-ji."
+  },
+  {
+   "id": "w_tok_tokyo_tower",
+   "cat": "monuments",
+   "name": "Torre de Tokio",
+   "icon": "🗼",
+   "lat": 35.65858,
+   "lng": 139.74544,
+   "desc": "Icónica torre roja y blanca inspirada en la Torre Eiffel."
+  },
+  {
+   "id": "w_tok_skytree",
+   "cat": "monuments",
+   "name": "Tokyo Skytree",
+   "icon": "🗼",
+   "lat": 35.71006,
+   "lng": 139.81069,
+   "desc": "La estructura más alta de Japón con miradores panorámicos."
+  },
+  {
+   "id": "w_tok_meiji_jingu",
+   "cat": "monuments",
+   "name": "Santuario Meiji Jingu",
+   "icon": "⛩️",
+   "lat": 35.6764,
+   "lng": 139.69932,
+   "desc": "Santuario sintoísta rodeado de un bosque de 100.000 árboles."
+  },
+  {
+   "id": "w_tok_imperial_palace",
+   "cat": "monuments",
+   "name": "Palacio Imperial",
+   "icon": "🏯",
+   "lat": 35.68518,
+   "lng": 139.75281,
+   "desc": "Residencia del Emperador de Japón sobre el antiguo castillo Edo."
+  },
+  {
+   "id": "w_tok_zojoji",
+   "cat": "monuments",
+   "name": "Templo Zojo-ji",
+   "icon": "🛕",
+   "lat": 35.6576,
+   "lng": 139.74838,
+   "desc": "Templo budista a los pies de la Torre de Tokio."
+  },
+  {
+   "id": "w_tok_yasukuni",
+   "cat": "monuments",
+   "name": "Santuario Yasukuni",
+   "icon": "⛩️",
+   "lat": 35.69406,
+   "lng": 139.7439,
+   "desc": "Santuario sintoísta con un imponente torii de acero."
+  },
+  {
+   "id": "w_tok_nezu",
+   "cat": "monuments",
+   "name": "Santuario Nezu",
+   "icon": "⛩️",
+   "lat": 35.72031,
+   "lng": 139.76073,
+   "desc": "Antiguo santuario con un túnel de toriis rojos."
+  },
+  {
+   "id": "w_tok_kanda_myojin",
+   "cat": "monuments",
+   "name": "Santuario Kanda Myojin",
+   "icon": "⛩️",
+   "lat": 35.70166,
+   "lng": 139.7678,
+   "desc": "Santuario protector cerca de Akihabara, patrón de la tecnología."
+  },
+  {
+   "id": "w_tok_hie",
+   "cat": "monuments",
+   "name": "Santuario Hie",
+   "icon": "⛩️",
+   "lat": 35.6747,
+   "lng": 139.7399,
+   "desc": "Santuario elevado con una escalera de toriis en Akasaka."
+  },
+  {
+   "id": "w_tok_tokyo_station",
+   "cat": "monuments",
+   "name": "Estación de Tokio",
+   "icon": "🚉",
+   "lat": 35.68123,
+   "lng": 139.76671,
+   "desc": "Emblemática estación de ladrillo rojo de estilo europeo."
+  },
+  {
+   "id": "w_tok_rainbow_bridge",
+   "cat": "monuments",
+   "name": "Rainbow Bridge",
+   "icon": "🌉",
+   "lat": 35.63626,
+   "lng": 139.7636,
+   "desc": "Puente colgante iluminado que une la ciudad con Odaiba."
+  },
+  {
+   "id": "w_tok_shinjuku_gyoen",
+   "cat": "nature",
+   "name": "Jardín Shinjuku Gyoen",
+   "icon": "🌳",
+   "lat": 35.68516,
+   "lng": 139.71006,
+   "desc": "Gran parque con jardines japonés, inglés y francés."
+  },
+  {
+   "id": "w_tok_ueno_park",
+   "cat": "nature",
+   "name": "Parque de Ueno",
+   "icon": "🌸",
+   "lat": 35.71529,
+   "lng": 139.77389,
+   "desc": "Extenso parque con museos, un zoo y un estanque de lotos."
+  },
+  {
+   "id": "w_tok_yoyogi_park",
+   "cat": "nature",
+   "name": "Parque Yoyogi",
+   "icon": "🌳",
+   "lat": 35.67199,
+   "lng": 139.69485,
+   "desc": "Amplio parque de césped junto a Harajuku y Meiji Jingu."
+  },
+  {
+   "id": "w_tok_hamarikyu",
+   "cat": "nature",
+   "name": "Jardines Hamarikyu",
+   "icon": "🌳",
+   "lat": 35.65977,
+   "lng": 139.76353,
+   "desc": "Jardín de un antiguo señor feudal junto a la bahía."
+  },
+  {
+   "id": "w_tok_rikugien",
+   "cat": "nature",
+   "name": "Jardín Rikugien",
+   "icon": "🍁",
+   "lat": 35.7332,
+   "lng": 139.74665,
+   "desc": "Elegante jardín paisajístico de la era Edo."
+  },
+  {
+   "id": "w_tok_korakuen",
+   "cat": "nature",
+   "name": "Jardín Koishikawa Korakuen",
+   "icon": "🌳",
+   "lat": 35.7057,
+   "lng": 139.74964,
+   "desc": "Uno de los jardines japoneses más antiguos de Tokio."
+  },
+  {
+   "id": "w_tok_sumida_park",
+   "cat": "nature",
+   "name": "Parque Sumida",
+   "icon": "🌸",
+   "lat": 35.71387,
+   "lng": 139.8019,
+   "desc": "Parque ribereño con vistas al Skytree y a los cerezos."
+  },
+  {
+   "id": "w_tok_shibuya_crossing",
+   "cat": "ocio",
+   "name": "Cruce de Shibuya",
+   "icon": "🚦",
+   "lat": 35.65946,
+   "lng": 139.70057,
+   "desc": "El paso de peatones más famoso y transitado del mundo."
+  },
+  {
+   "id": "w_tok_shibuya_sky",
+   "cat": "ocio",
+   "name": "Shibuya Sky",
+   "icon": "🌆",
+   "lat": 35.65814,
+   "lng": 139.70241,
+   "desc": "Mirador al aire libre en lo alto de Shibuya Scramble."
+  },
+  {
+   "id": "w_tok_takeshita",
+   "cat": "ocio",
+   "name": "Takeshita-dori (Harajuku)",
+   "icon": "🌈",
+   "lat": 35.67147,
+   "lng": 139.70517,
+   "desc": "Calle peatonal cuna de la moda juvenil y kawaii."
+  },
+  {
+   "id": "w_tok_akihabara",
+   "cat": "ocio",
+   "name": "Akihabara",
+   "icon": "🎮",
+   "lat": 35.69908,
+   "lng": 139.77129,
+   "desc": "Barrio de la electrónica, el anime y los videojuegos."
+  },
+  {
+   "id": "w_tok_teamlab",
+   "cat": "ocio",
+   "name": "teamLab Planets",
+   "icon": "🎨",
+   "lat": 35.64951,
+   "lng": 139.78967,
+   "desc": "Museo digital inmersivo de arte y luz en Toyosu."
+  },
+  {
+   "id": "w_tok_ginza",
+   "cat": "ocio",
+   "name": "Ginza",
+   "icon": "🛍️",
+   "lat": 35.67157,
+   "lng": 139.76454,
+   "desc": "El barrio más elegante de tiendas de lujo y galerías."
+  },
+  {
+   "id": "w_tok_odaiba",
+   "cat": "ocio",
+   "name": "Odaiba",
+   "icon": "🤖",
+   "lat": 35.62569,
+   "lng": 139.77374,
+   "desc": "Isla artificial de ocio con centros comerciales y vistas."
+  },
+  {
+   "id": "w_tok_kabukicho",
+   "cat": "ocio",
+   "name": "Kabukicho",
+   "icon": "🌃",
+   "lat": 35.69451,
+   "lng": 139.70232,
+   "desc": "Barrio de neón y vida nocturna en Shinjuku."
+  },
+  {
+   "id": "w_tok_tsukiji",
+   "cat": "food",
+   "name": "Mercado exterior de Tsukiji",
+   "icon": "🍣",
+   "lat": 35.6654,
+   "lng": 139.77045,
+   "desc": "Mercado callejero de marisco fresco y comida a pie de calle."
+  },
+  {
+   "id": "w_tok_toyosu",
+   "cat": "food",
+   "name": "Mercado de Toyosu",
+   "icon": "🐟",
+   "lat": 35.64333,
+   "lng": 139.78167,
+   "desc": "El mayor mercado de pescado del mundo con subastas de atún."
+  },
+  {
+   "id": "w_tok_omoide_yokocho",
+   "cat": "food",
+   "name": "Omoide Yokocho",
+   "icon": "🍢",
+   "lat": 35.69377,
+   "lng": 139.69962,
+   "desc": "Callejón nostálgico de puestos de yakitori en Shinjuku."
+  },
+  {
+   "id": "w_tok_golden_gai",
+   "cat": "food",
+   "name": "Golden Gai",
+   "icon": "🍶",
+   "lat": 35.69434,
+   "lng": 139.70481,
+   "desc": "Laberinto de diminutos bares temáticos en Shinjuku."
+  },
+  {
+   "id": "w_tok_ameyoko",
+   "cat": "food",
+   "name": "Mercado Ameyoko",
+   "icon": "🍜",
+   "lat": 35.70882,
+   "lng": 139.77448,
+   "desc": "Bullicioso mercado callejero de comida y gangas en Ueno."
+  },
+  {
+   "id": "w_tok_kappabashi",
+   "cat": "food",
+   "name": "Kappabashi Dougu-gai",
+   "icon": "🔪",
+   "lat": 35.71311,
+   "lng": 139.78864,
+   "desc": "Calle de utensilios de cocina y comida de plástico."
+  }
+ ],
+ "extra": {
+  "w_tok_sensoji": {
+   "id": "w_tok_sensoji",
+   "d": "Fundado en el año 645, el Senso-ji está dedicado a Kannon, diosa de la misericordia. Su gran linterna roja y el humo purificador del incensario lo convierten en el templo más visitado de Japón.",
+   "d_en": "Founded in 645, Senso-ji is dedicated to Kannon, the goddess of mercy. Its giant red lantern and the purifying incense smoke make it the most visited temple in Japan.",
+   "h": "Recinto abierto siempre; el salón principal de 6:00 a 17:00 (desde 6:30 en invierno).",
+   "h_en": "Grounds always open; main hall 6:00-17:00 (from 6:30 in winter).",
+   "i": "Prueba tu suerte con el omikuji: si sale malo, átalo en la barra metálica para dejar atrás la mala fortuna.",
+   "i_en": "Try your fortune with an omikuji; if it's bad, tie it to the metal rack to leave the bad luck behind."
+  },
+  "w_tok_kaminarimon": {
+   "id": "w_tok_kaminarimon",
+   "d": "Esta puerta monumental marca el acceso al Senso-ji. Su linterna de casi 4 metros y 700 kg está flanqueada por los dioses del viento (Fujin) y del trueno (Raijin).",
+   "d_en": "This monumental gate marks the entrance to Senso-ji. Its nearly 4-metre, 700 kg lantern is flanked by the gods of wind (Fujin) and thunder (Raijin).",
+   "h": "Visible las 24 horas, iluminada por la noche.",
+   "h_en": "Visible 24 hours, lit at night.",
+   "i": "Levanta la linterna con la mirada: en su base tallada hay un dragón de madera oculto.",
+   "i_en": "Look under the lantern: a carved wooden dragon hides on its base."
+  },
+  "w_tok_nakamise": {
+   "id": "w_tok_nakamise",
+   "d": "Uno de los mercados de calle más antiguos de Japón, con unos 90 puestos que venden dulces tradicionales, abanicos, kimonos y recuerdos desde hace siglos.",
+   "d_en": "One of Japan's oldest street markets, with around 90 stalls selling traditional sweets, fans, kimonos and souvenirs for centuries.",
+   "h": "Puestos aprox. de 9:00 a 19:00, según comercio.",
+   "h_en": "Stalls roughly 9:00-19:00, varies by shop.",
+   "i": "Prueba un ningyo-yaki recién hecho o unos senbei tostados al momento.",
+   "i_en": "Try a freshly made ningyo-yaki cake or senbei crackers toasted on the spot."
+  },
+  "w_tok_tokyo_tower": {
+   "id": "w_tok_tokyo_tower",
+   "d": "Inaugurada en 1958 y con 333 metros, sigue siendo un símbolo de Tokio. Cuenta con dos miradores, el principal a 150 m y el Top Deck a 250 m.",
+   "d_en": "Opened in 1958 and standing 333 metres tall, it remains a symbol of Tokyo. It has two observatories, the main one at 150 m and the Top Deck at 250 m.",
+   "h": "Mirador principal de 9:00 a 22:30 (última entrada 22:00).",
+   "h_en": "Main deck 9:00-22:30 (last entry 22:00).",
+   "i": "De noche cambia de color según la temporada; en verano luce en blanco para reflejar frescor.",
+   "i_en": "At night it changes colour by season; in summer it glows white to feel cooler."
+  },
+  "w_tok_skytree": {
+   "id": "w_tok_skytree",
+   "d": "Con 634 metros, esta torre de telecomunicaciones abrió en 2012. Sus miradores Tembo Deck (350 m) y Tembo Galleria (450 m) ofrecen vistas de todo el Kanto y del Monte Fuji en días claros.",
+   "d_en": "At 634 metres, this broadcasting tower opened in 2012. Its Tembo Deck (350 m) and Tembo Galleria (450 m) offer views over the whole Kanto plain and Mt. Fuji on clear days.",
+   "h": "De 10:00 a 22:00 (última entrada 21:00).",
+   "h_en": "10:00-22:00 (last entry 21:00).",
+   "i": "Su altura de 634 m se lee 'mu-sa-shi', el antiguo nombre de la región de Tokio.",
+   "i_en": "Its 634 m height reads 'mu-sa-shi', the old name for the Tokyo region."
+  },
+  "w_tok_meiji_jingu": {
+   "id": "w_tok_meiji_jingu",
+   "d": "Dedicado al emperador Meiji y a la emperatriz Shoken, se inauguró en 1920. Sus enormes toriis de ciprés y su bosque plantado a mano ofrecen un remanso de paz junto a Harajuku.",
+   "d_en": "Dedicated to Emperor Meiji and Empress Shoken, it opened in 1920. Its huge cypress torii gates and hand-planted forest offer a peaceful haven next to Harajuku.",
+   "h": "De amanecer a atardecer; horarios varían cada mes.",
+   "h_en": "Sunrise to sunset; hours change monthly.",
+   "i": "Si tienes suerte, podrás ver una boda sintoísta tradicional cruzando el patio principal.",
+   "i_en": "If you're lucky, you may see a traditional Shinto wedding crossing the main courtyard."
+  },
+  "w_tok_imperial_palace": {
+   "id": "w_tok_imperial_palace",
+   "d": "Rodeado de fosos y murallas de piedra, ocupa el terreno del castillo de Edo. El interior solo abre dos días al año, pero sus jardines y el famoso puente Nijubashi se pueden admirar libremente.",
+   "d_en": "Ringed by moats and stone walls, it sits on the grounds of Edo Castle. The inner palace opens only two days a year, but its gardens and the famous Nijubashi bridge can be admired freely.",
+   "h": "Exteriores siempre accesibles; visitas guiadas con reserva previa.",
+   "h_en": "Exterior always accessible; guided tours by prior booking.",
+   "i": "El puente Nijubashi es uno de los rincones más fotografiados de Tokio al amanecer.",
+   "i_en": "The Nijubashi bridge is one of Tokyo's most photographed spots at dawn."
+  },
+  "w_tok_zojoji": {
+   "id": "w_tok_zojoji",
+   "d": "Templo principal de la escuela Jodo y mausoleo de la familia Tokugawa. Su gran puerta Sangedatsumon de 1622 sobrevivió a guerras y terremotos, y ofrece una postal perfecta con la torre detrás.",
+   "d_en": "Head temple of the Jodo sect and mausoleum of the Tokugawa clan. Its great Sangedatsumon gate from 1622 survived wars and earthquakes, framing a perfect shot with the tower behind.",
+   "h": "Recinto de 9:00 a 17:00 aprox.",
+   "h_en": "Grounds roughly 9:00-17:00.",
+   "i": "Las hileras de pequeñas estatuas Jizo con gorritos rojos honran a los niños fallecidos.",
+   "i_en": "The rows of small Jizo statues with red caps honour deceased children."
+  },
+  "w_tok_yasukuni": {
+   "id": "w_tok_yasukuni",
+   "d": "Fundado en 1869, honra a los caídos por Japón. Su avenida arbolada es uno de los puntos oficiales para anunciar la floración de los cerezos de Tokio.",
+   "d_en": "Founded in 1869, it honours Japan's war dead. Its tree-lined avenue is one of the official spots for announcing Tokyo's cherry blossom bloom.",
+   "h": "De 6:00 a 18:00 (varía por temporada).",
+   "h_en": "6:00-18:00 (varies seasonally).",
+   "i": "El árbol de referencia de la agencia meteorológica marca aquí el inicio del hanami.",
+   "i_en": "The meteorological agency's reference tree here marks the start of hanami."
+  },
+  "w_tok_nezu": {
+   "id": "w_tok_nezu",
+   "d": "Con más de 1.900 años de historia según la leyenda, conserva edificios de 1706. Su pasillo de toriis bermellón y su festival de azaleas en primavera lo hacen inolvidable.",
+   "d_en": "Legend dates it back over 1,900 years, and it keeps buildings from 1706. Its vermilion torii corridor and spring azalea festival make it unforgettable.",
+   "h": "De 6:00 a 17:00 aprox. (varía por estación).",
+   "h_en": "Roughly 6:00-17:00 (varies by season).",
+   "i": "A finales de abril, más de 3.000 azaleas de un centenar de variedades tiñen la ladera.",
+   "i_en": "In late April over 3,000 azaleas of a hundred varieties colour the hillside."
+  },
+  "w_tok_kanda_myojin": {
+   "id": "w_tok_kanda_myojin",
+   "d": "Con 1.300 años de historia, mezcla tradición y modernidad: aquí se bendicen aparatos electrónicos y se venden amuletos con motivos de anime. Su edificio bermellón resplandece junto a Akihabara.",
+   "d_en": "With 1,300 years of history, it blends tradition and modernity: electronics are blessed here and anime-themed charms are sold. Its vermilion hall gleams beside Akihabara.",
+   "h": "Recinto abierto siempre; oficina de 9:00 a 17:00.",
+   "h_en": "Grounds always open; office 9:00-17:00.",
+   "i": "Es la sede de uno de los tres grandes festivales de Tokio, el Kanda Matsuri.",
+   "i_en": "It hosts one of Tokyo's three great festivals, the Kanda Matsuri."
+  },
+  "w_tok_hie": {
+   "id": "w_tok_hie",
+   "d": "Protector de la vieja Edo, destaca por su escalinata bordeada de toriis rojos que recuerda a Fushimi Inari, rodeada de rascacielos. Sus mensajeros sagrados son los monos, símbolo de armonía familiar.",
+   "d_en": "Guardian of old Edo, it is famed for its red torii staircase reminiscent of Fushimi Inari, surrounded by skyscrapers. Its sacred messengers are monkeys, a symbol of family harmony.",
+   "h": "De 6:00 a 17:00 aprox.",
+   "h_en": "Roughly 6:00-17:00.",
+   "i": "Busca las estatuas de monos: la madre con su cría atrae la fertilidad y la buena crianza.",
+   "i_en": "Look for the monkey statues: the mother with her baby draws fertility and good parenting."
+  },
+  "w_tok_tokyo_station": {
+   "id": "w_tok_tokyo_station",
+   "d": "Inaugurada en 1914 y restaurada con esmero, su fachada Marunouchi de ladrillo y sus cúpulas son un icono arquitectónico. Bajo tierra esconde calles enteras de tiendas y restaurantes.",
+   "d_en": "Opened in 1914 and carefully restored, its Marunouchi brick facade and domes are an architectural icon. Underground it hides whole streets of shops and restaurants.",
+   "h": "Accesible las 24 horas; comercios según horario.",
+   "h_en": "Accessible 24 hours; shops per their own hours.",
+   "i": "En Character Street encontrarás tiendas oficiales de Pokémon, Ghibli y la NHK.",
+   "i_en": "Character Street hosts official Pokémon, Ghibli and NHK shops."
+  },
+  "w_tok_rainbow_bridge": {
+   "id": "w_tok_rainbow_bridge",
+   "d": "Con 798 metros, cruza la bahía de Tokio y se ilumina de colores al anochecer. Se puede recorrer a pie por su paseo peatonal para disfrutar de las vistas del skyline.",
+   "d_en": "Spanning 798 metres, it crosses Tokyo Bay and lights up in colour at dusk. A pedestrian walkway lets you cross on foot for skyline views.",
+   "h": "Paseo peatonal aprox. de 9:00 a 21:00 (según temporada).",
+   "h_en": "Pedestrian walkway roughly 9:00-21:00 (seasonal).",
+   "i": "Las mejores fotos se toman desde la playa de Odaiba con la torre y la ciudad al fondo.",
+   "i_en": "The best photos are from Odaiba beach with the tower and city behind."
+  },
+  "w_tok_shinjuku_gyoen": {
+   "id": "w_tok_shinjuku_gyoen",
+   "d": "Uno de los parques más bellos de Tokio, con 58 hectáreas que combinan tres estilos de jardín, un invernadero tropical y más de mil cerezos que lo convierten en un punto clave del hanami.",
+   "d_en": "One of Tokyo's most beautiful parks, its 58 hectares combine three garden styles, a tropical greenhouse and over a thousand cherry trees, making it a key hanami spot.",
+   "h": "De 9:00 a 18:00 (cerrado los lunes).",
+   "h_en": "9:00-18:00 (closed Mondays).",
+   "i": "Es de pago pero muy tranquilo; ideal para un pícnic lejos del bullicio de Shinjuku.",
+   "i_en": "It charges admission but is very quiet; ideal for a picnic away from Shinjuku's bustle."
+  },
+  "w_tok_ueno_park": {
+   "id": "w_tok_ueno_park",
+   "d": "El primer parque público de Japón concentra los grandes museos nacionales, el zoo más antiguo del país y el estanque Shinobazu. En primavera sus avenidas de cerezos son de las más animadas de Tokio.",
+   "d_en": "Japan's first public park gathers the great national museums, the country's oldest zoo and Shinobazu Pond. In spring its cherry avenues are among Tokyo's liveliest.",
+   "h": "Parque de 5:00 a 23:00; museos y zoo con horario propio.",
+   "h_en": "Park 5:00-23:00; museums and zoo have their own hours.",
+   "i": "En verano el estanque Shinobazu se cubre por completo de flores de loto gigantes.",
+   "i_en": "In summer Shinobazu Pond is fully covered in giant lotus flowers."
+  },
+  "w_tok_yoyogi_park": {
+   "id": "w_tok_yoyogi_park",
+   "d": "Antigua villa olímpica de 1964, hoy es un pulmón verde donde los tokiotas hacen pícnic, deporte y música. Los domingos se llena de músicos, bailarines de rockabilly y grupos culturales.",
+   "d_en": "The former 1964 Olympic village is now a green lung where Tokyoites picnic, exercise and play music. On Sundays it fills with buskers, rockabilly dancers and cultural groups.",
+   "h": "Abierto las 24 horas.",
+   "h_en": "Open 24 hours.",
+   "i": "Combínalo con la visita a Meiji Jingu, ya que comparten la misma zona boscosa.",
+   "i_en": "Combine it with Meiji Jingu, as they share the same wooded area."
+  },
+  "w_tok_hamarikyu": {
+   "id": "w_tok_hamarikyu",
+   "d": "Jardín de paseo de la era Edo con estanques de agua salada que suben y bajan con la marea. En el centro, una casa de té sobre el agua sirve matcha entre rascacielos.",
+   "d_en": "An Edo-era strolling garden with saltwater ponds that rise and fall with the tide. At its centre a teahouse over the water serves matcha amid skyscrapers.",
+   "h": "De 9:00 a 17:00 (última entrada 16:30).",
+   "h_en": "9:00-17:00 (last entry 16:30).",
+   "i": "Puedes llegar en barco por el río Sumida desde Asakusa, una forma preciosa de entrar.",
+   "i_en": "You can arrive by boat along the Sumida River from Asakusa, a lovely way in."
+  },
+  "w_tok_rikugien": {
+   "id": "w_tok_rikugien",
+   "d": "Considerado uno de los jardines más bellos de Tokio, recrea 88 escenas de poemas clásicos alrededor de un gran estanque. Es especialmente famoso por sus arces rojos iluminados en otoño.",
+   "d_en": "Regarded as one of Tokyo's finest gardens, it recreates 88 scenes from classical poems around a large pond. It is especially famed for its illuminated red maples in autumn.",
+   "h": "De 9:00 a 17:00 (última entrada 16:30).",
+   "h_en": "9:00-17:00 (last entry 16:30).",
+   "i": "En temporada de otoño abre por la noche con iluminaciones espectaculares del arboledo.",
+   "i_en": "In autumn it opens at night with spectacular illuminations of the foliage."
+  },
+  "w_tok_korakuen": {
+   "id": "w_tok_korakuen",
+   "d": "Creado en el siglo XVII por el clan Mito, mezcla paisajes japoneses y chinos con puentes, colinas y estanques que reproducen escenas famosas. Un oasis histórico junto al estadio Tokyo Dome.",
+   "d_en": "Created in the 17th century by the Mito clan, it blends Japanese and Chinese scenery with bridges, hills and ponds recreating famous scenes. A historic oasis beside Tokyo Dome.",
+   "h": "De 9:00 a 17:00 (última entrada 16:30).",
+   "h_en": "9:00-17:00 (last entry 16:30).",
+   "i": "El puente de Luna Llena forma un círculo perfecto al reflejarse en el agua.",
+   "i_en": "The Full Moon Bridge forms a perfect circle when reflected in the water."
+  },
+  "w_tok_sumida_park": {
+   "id": "w_tok_sumida_park",
+   "d": "A ambas orillas del río Sumida junto a Asakusa, ofrece uno de los paseos de cerezos más famosos de la ciudad y una vista privilegiada del Tokyo Skytree reflejado en el agua.",
+   "d_en": "Along both banks of the Sumida River next to Asakusa, it offers one of the city's most famous cherry-tree promenades and a prime view of the Tokyo Skytree mirrored in the water.",
+   "h": "Abierto las 24 horas.",
+   "h_en": "Open 24 hours.",
+   "i": "A finales de julio acoge el gran festival de fuegos artificiales del río Sumida.",
+   "i_en": "In late July it hosts the great Sumida River fireworks festival."
+  },
+  "w_tok_shibuya_crossing": {
+   "id": "w_tok_shibuya_crossing",
+   "d": "En cada cambio de semáforo, hasta 3.000 personas cruzan en todas direcciones bajo pantallas gigantes y luces de neón. Es la imagen por excelencia del Tokio moderno y frenético.",
+   "d_en": "At each light change, up to 3,000 people cross in all directions beneath giant screens and neon lights. It is the quintessential image of modern, frenetic Tokyo.",
+   "h": "Accesible las 24 horas.",
+   "h_en": "Accessible 24 hours.",
+   "i": "Mira el cruce desde arriba en el Starbucks de Tsutaya o en el mirador Shibuya Sky.",
+   "i_en": "Watch the crossing from above at the Tsutaya Starbucks or the Shibuya Sky deck."
+  },
+  "w_tok_shibuya_sky": {
+   "id": "w_tok_shibuya_sky",
+   "d": "A 229 metros de altura, su azotea abierta ofrece vistas de 360º sobre el mar de rascacielos de Tokio, con el Monte Fuji al fondo en días despejados y un ambiente inolvidable al atardecer.",
+   "d_en": "At 229 metres, its open rooftop gives 360º views over Tokyo's sea of skyscrapers, with Mt. Fuji in the distance on clear days and an unforgettable sunset atmosphere.",
+   "h": "De 10:00 a 22:30 (última entrada 21:20).",
+   "h_en": "10:00-22:30 (last entry 21:20).",
+   "i": "Reserva la entrada online para la franja del atardecer; se agota con antelación.",
+   "i_en": "Book online for the sunset slot; it sells out in advance."
+  },
+  "w_tok_takeshita": {
+   "id": "w_tok_takeshita",
+   "d": "El epicentro de la cultura juvenil de Tokio, repleto de tiendas de moda alternativa, crepes gigantes, algodón de azúcar arcoíris y cosplay. Un festín de color y excentricidad en Harajuku.",
+   "d_en": "The epicentre of Tokyo's youth culture, packed with alternative fashion shops, giant crepes, rainbow cotton candy and cosplay. A feast of colour and eccentricity in Harajuku.",
+   "h": "Tiendas aprox. de 10:00 a 20:00.",
+   "h_en": "Shops roughly 10:00-20:00.",
+   "i": "Evita el fin de semana si no te gustan las multitudes: es una de las calles más abarrotadas.",
+   "i_en": "Avoid weekends if you dislike crowds: it's one of the most packed streets."
+  },
+  "w_tok_akihabara": {
+   "id": "w_tok_akihabara",
+   "d": "Conocido como Electric Town, es el paraíso otaku: tiendas de varios pisos de manga y figuras, salones recreativos, maid cafés y la mayor concentración de electrónica de Tokio.",
+   "d_en": "Known as Electric Town, it's an otaku paradise: multi-floor manga and figure shops, arcades, maid cafes and Tokyo's densest concentration of electronics.",
+   "h": "Tiendas aprox. de 10:00 a 20:00; recreativos hasta más tarde.",
+   "h_en": "Shops roughly 10:00-20:00; arcades open later.",
+   "i": "Los domingos por la tarde la calle principal se cierra al tráfico y se vuelve peatonal.",
+   "i_en": "On Sunday afternoons the main street closes to traffic and becomes pedestrian."
+  },
+  "w_tok_teamlab": {
+   "id": "w_tok_teamlab",
+   "d": "Un museo para recorrer descalzo, cruzando salas de agua, jardines de flores proyectadas y espacios de luz infinita. El arte digital de teamLab envuelve al visitante en una experiencia sensorial única.",
+   "d_en": "A museum to explore barefoot, wading through water rooms, gardens of projected flowers and infinite light spaces. teamLab's digital art immerses visitors in a unique sensory experience.",
+   "h": "De 9:00 a 22:00 aprox. (varía; última entrada una hora antes).",
+   "h_en": "Roughly 9:00-22:00 (varies; last entry one hour before).",
+   "i": "Ve con ropa corta o remangable: cruzarás salas con agua hasta las rodillas.",
+   "i_en": "Wear shorts or rollable trousers: you'll wade through knee-deep water rooms."
+  },
+  "w_tok_ginza": {
+   "id": "w_tok_ginza",
+   "d": "La respuesta de Tokio a la Quinta Avenida: grandes almacenes históricos, boutiques de lujo, teatros kabuki y arquitectura vanguardista. Los fines de semana la avenida principal se peatonaliza.",
+   "d_en": "Tokyo's answer to Fifth Avenue: historic department stores, luxury boutiques, kabuki theatres and avant-garde architecture. On weekends the main avenue turns pedestrian.",
+   "h": "Comercios aprox. de 10:00 a 20:00.",
+   "h_en": "Shops roughly 10:00-20:00.",
+   "i": "No te pierdas el teatro Kabukiza, con funciones cortas de un solo acto para principiantes.",
+   "i_en": "Don't miss the Kabukiza theatre, with short single-act shows for beginners."
+  },
+  "w_tok_odaiba": {
+   "id": "w_tok_odaiba",
+   "d": "Zona futurista en la bahía de Tokio con centros comerciales, una réplica de la Estatua de la Libertad, la estatua gigante del Unicorn Gundam y vistas del Rainbow Bridge y el skyline.",
+   "d_en": "A futuristic area on Tokyo Bay with malls, a replica Statue of Liberty, the giant Unicorn Gundam statue and views of the Rainbow Bridge and skyline.",
+   "h": "Zona abierta siempre; centros comerciales de 10:00 a 21:00 aprox.",
+   "h_en": "Area always open; malls roughly 10:00-21:00.",
+   "i": "La estatua del Gundam de 20 metros se transforma e ilumina en pases programados al día.",
+   "i_en": "The 20-metre Gundam statue transforms and lights up at scheduled times each day."
+  },
+  "w_tok_kabukicho": {
+   "id": "w_tok_kabukicho",
+   "d": "El mayor distrito de entretenimiento nocturno de Japón, un laberinto de neones, izakayas, karaokes y restaurantes que no duerme. Presidido por la famosa cabeza de Godzilla asomando entre los edificios.",
+   "d_en": "Japan's largest nightlife district, a maze of neon, izakayas, karaoke and restaurants that never sleeps. Watched over by the famous Godzilla head peering between buildings.",
+   "h": "Cobra vida a partir del atardecer.",
+   "h_en": "Comes alive after dark.",
+   "i": "Busca la cabeza de Godzilla sobre el edificio Toho; ruge a ciertas horas del día.",
+   "i_en": "Spot the Godzilla head atop the Toho building; it roars at certain times of day."
+  },
+  "w_tok_tsukiji": {
+   "id": "w_tok_tsukiji",
+   "d": "Aunque el mercado mayorista se mudó a Toyosu, el mercado exterior de Tsukiji sigue lleno de vida con puestos de sushi, tamagoyaki, brochetas de marisco y cuchillería tradicional.",
+   "d_en": "Although the wholesale market moved to Toyosu, Tsukiji's outer market is still buzzing with sushi stalls, tamagoyaki, seafood skewers and traditional knife shops.",
+   "h": "De 5:00 a 14:00 aprox.; muchos puestos cierran a mediodía.",
+   "h_en": "Roughly 5:00-14:00; many stalls close by midday.",
+   "i": "Ve temprano y con hambre: los mejores puestos de sushi se agotan antes del mediodía.",
+   "i_en": "Go early and hungry: the best sushi stalls sell out before noon."
+  },
+  "w_tok_toyosu": {
+   "id": "w_tok_toyosu",
+   "d": "Sucesor del mítico Tsukiji, este moderno mercado alberga las famosas subastas de atún al amanecer, visibles desde galerías acristaladas, y restaurantes de sushi que sirven el pescado más fresco.",
+   "d_en": "Successor to the legendary Tsukiji, this modern market hosts the famous dawn tuna auctions, viewable from glass galleries, and sushi restaurants serving the freshest fish.",
+   "h": "De 5:00 a 15:00 aprox.; subastas hacia las 5:30.",
+   "h_en": "Roughly 5:00-15:00; auctions around 5:30.",
+   "i": "Para ver la subasta de atún de cerca hay que reservar plaza con antelación en la web oficial.",
+   "i_en": "To watch the tuna auction up close you must book a slot in advance on the official site."
+  },
+  "w_tok_omoide_yokocho": {
+   "id": "w_tok_omoide_yokocho",
+   "d": "Apodado el 'callejón de los recuerdos' o 'Piss Alley', este estrecho pasaje conserva el ambiente del Tokio de posguerra con diminutos bares donde se sirven brochetas a la parrilla y cerveza entre humo.",
+   "d_en": "Nicknamed 'Memory Lane' or 'Piss Alley', this narrow passage keeps the atmosphere of postwar Tokyo with tiny bars serving grilled skewers and beer amid the smoke.",
+   "h": "Locales aprox. de 17:00 a 24:00.",
+   "h_en": "Venues roughly 17:00-24:00.",
+   "i": "Los locales son minúsculos, de apenas 6-8 asientos; ve pronto para encontrar sitio.",
+   "i_en": "Venues are tiny, just 6-8 seats; go early to get a spot."
+  },
+  "w_tok_golden_gai": {
+   "id": "w_tok_golden_gai",
+   "d": "Seis callejones con más de 200 bares minúsculos, cada uno con su propia temática y personalidad. Un rincón bohemio y auténtico que sobrevive al paso del tiempo entre los rascacielos de Shinjuku.",
+   "d_en": "Six alleys with over 200 tiny bars, each with its own theme and personality. A bohemian, authentic corner surviving the passage of time amid Shinjuku's skyscrapers.",
+   "h": "Bares aprox. de 20:00 a 5:00.",
+   "h_en": "Bars roughly 20:00-5:00.",
+   "i": "Algunos bares cobran una pequeña tarifa de asiento; busca los que dan la bienvenida a turistas.",
+   "i_en": "Some bars charge a small seating fee; look for those that welcome tourists."
+  },
+  "w_tok_ameyoko": {
+   "id": "w_tok_ameyoko",
+   "d": "Antiguo mercado negro de la posguerra, hoy es un animado bazar bajo las vías del tren con puestos de marisco, brochetas, fruta, dulces y ropa a precios de ganga. Un festín para los sentidos.",
+   "d_en": "A former postwar black market, today it's a lively bazaar under the train tracks with stalls of seafood, skewers, fruit, sweets and clothing at bargain prices. A feast for the senses.",
+   "h": "Puestos aprox. de 10:00 a 20:00.",
+   "h_en": "Stalls roughly 10:00-20:00.",
+   "i": "Regatear está aceptado, sobre todo en las tiendas de dulces y frutos secos por peso.",
+   "i_en": "Haggling is accepted, especially at sweet and dried-fruit shops sold by weight."
+  },
+  "w_tok_kappabashi": {
+   "id": "w_tok_kappabashi",
+   "d": "La calle de suministros de restauración de Tokio, con tiendas de cuchillos artesanos, vajilla, moldes y las curiosas réplicas de comida de plástico (sampuru) que decoran los escaparates japoneses.",
+   "d_en": "Tokyo's restaurant-supply street, with shops of artisan knives, tableware, moulds and the curious plastic food replicas (sampuru) that decorate Japanese storefronts.",
+   "h": "Tiendas aprox. de 9:00 a 17:00.",
+   "h_en": "Shops roughly 9:00-17:00.",
+   "i": "Un cuchillo japonés forjado a mano es uno de los mejores recuerdos que puedes llevarte.",
+   "i_en": "A hand-forged Japanese knife is one of the best souvenirs you can take home."
+  }
+ },
+ "food": {
+  "w_tok_tsukiji": {
+   "cuisine": "Marisco y comida callejera japonesa",
+   "price": "8–30 €",
+   "hours": "De 5:00 a 14:00 aprox. (mejor por la mañana; cerrado algunos domingos)"
+  },
+  "w_tok_toyosu": {
+   "cuisine": "Sushi y pescado fresco",
+   "price": "15–60 €",
+   "hours": "De 5:00 a 15:00 aprox.; subastas de atún hacia las 5:30 (cerrado domingos y algunos miércoles)"
+  },
+  "w_tok_omoide_yokocho": {
+   "cuisine": "Yakitori e izakaya",
+   "price": "10–30 €",
+   "hours": "Locales aprox. de 17:00 a 24:00 (algunos abren a mediodía)"
+  },
+  "w_tok_golden_gai": {
+   "cuisine": "Bares e izakaya",
+   "price": "8–25 €",
+   "hours": "Bares aprox. de 20:00 a 5:00"
+  },
+  "w_tok_ameyoko": {
+   "cuisine": "Comida callejera variada",
+   "price": "5–20 €",
+   "hours": "Puestos aprox. de 10:00 a 20:00"
+  },
+  "w_tok_kappabashi": {
+   "cuisine": "Menaje y souvenirs gastronómicos",
+   "price": "5–150 €",
+   "hours": "Tiendas aprox. de 9:00 a 17:00 (muchas cierran domingos)"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Tokio",
+   "items": [
+    {
+     "name": "Maneki-neko",
+     "price": "8–30 €",
+     "desc": "Gato de la suerte de cerámica, símbolo de fortuna y prosperidad."
+    },
+    {
+     "name": "Kit Kat sabores japoneses",
+     "price": "3–12 €",
+     "desc": "Ediciones exclusivas: matcha, sake, wasabi, boniato morado."
+    },
+    {
+     "name": "Furoshiki",
+     "price": "6–25 €",
+     "desc": "Pañuelo de tela tradicional para envolver regalos u objetos."
+    },
+    {
+     "name": "Omamori",
+     "price": "5–15 €",
+     "desc": "Amuleto protector de santuarios como Senso-ji o Meiji Jingu."
+    },
+    {
+     "name": "Sellos hanko",
+     "price": "10–40 €",
+     "desc": "Sello personal grabado con tu nombre en kanji o katakana."
+    },
+    {
+     "name": "Cerámica y palillos",
+     "price": "5–35 €",
+     "desc": "Vajilla y hashi lacados, muy vendidos en Kappabashi y Asakusa."
+    }
+   ],
+   "shops": [
+    "Nakamise-dori (Asakusa)",
+    "Don Quijote",
+    "Tokyu Hands",
+    "Kappabashi Dougu-gai",
+    "Oriental Bazaar (Omotesando)",
+    "Character Street (Estación de Tokio)"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Compra una tarjeta Suica o Pasmo recargable para moverte sin complicaciones por metro, tren y autobuses.",
+   "Si viajas mucho en tren de larga distancia, valora el Japan Rail Pass antes de llegar; para la ciudad no compensa.",
+   "El efectivo sigue siendo clave: lleva yenes y usa los cajeros de 7-Eleven, que aceptan tarjetas extranjeras.",
+   "Respeta las normas: no se come ni se habla alto en el metro y las colas se hacen en orden marcado en el suelo.",
+   "Evita el metro en hora punta (7:30-9:00) y descarga Google Maps o Japan Transit Planner para las conexiones."
+  ],
+  "en": [
+   "Buy a rechargeable Suica or Pasmo card to ride the metro, trains and buses without buying single tickets.",
+   "Consider a Japan Rail Pass before arrival only if you take many long-distance trains; it rarely pays off within the city.",
+   "Cash is still essential: carry yen and use 7-Eleven ATMs, which reliably accept foreign cards.",
+   "Mind the etiquette: no eating or loud talking on trains, and queue neatly along the floor markings.",
+   "Avoid rush hour (7:30-9:00) and use Google Maps or Japan Transit Planner to plan connections."
+  ]
+ },
+ "climate": {
+  "hi": [
+   10,
+   11,
+   14,
+   19,
+   23,
+   26,
+   30,
+   31,
+   27,
+   22,
+   17,
+   12
+  ],
+  "lo": [
+   2,
+   3,
+   5,
+   10,
+   15,
+   19,
+   23,
+   24,
+   21,
+   15,
+   9,
+   4
+  ]
+ },
+ "tr": {
+  "El templo budista más antiguo de Tokio, en el corazón de Asakusa.": "Tokyo's oldest Buddhist temple, in the heart of Asakusa.",
+  "La puerta del Trueno con su enorme linterna roja, entrada a Asakusa.": "The Thunder Gate with its huge red lantern, gateway to Asakusa.",
+  "Calle comercial histórica que une Kaminarimon con el Senso-ji.": "Historic shopping street linking Kaminarimon to Senso-ji.",
+  "Icónica torre roja y blanca inspirada en la Torre Eiffel.": "Iconic red-and-white tower inspired by the Eiffel Tower.",
+  "La estructura más alta de Japón con miradores panorámicos.": "Japan's tallest structure with panoramic observation decks.",
+  "Santuario sintoísta rodeado de un bosque de 100.000 árboles.": "Shinto shrine surrounded by a forest of 100,000 trees.",
+  "Residencia del Emperador de Japón sobre el antiguo castillo Edo.": "Residence of Japan's Emperor on the site of the old Edo Castle.",
+  "Templo budista a los pies de la Torre de Tokio.": "Buddhist temple at the foot of Tokyo Tower.",
+  "Santuario sintoísta con un imponente torii de acero.": "Shinto shrine with an imposing steel torii gate.",
+  "Antiguo santuario con un túnel de toriis rojos.": "Ancient shrine with a tunnel of red torii gates.",
+  "Santuario protector cerca de Akihabara, patrón de la tecnología.": "Guardian shrine near Akihabara, patron of technology.",
+  "Santuario elevado con una escalera de toriis en Akasaka.": "Hilltop shrine with a torii staircase in Akasaka.",
+  "Emblemática estación de ladrillo rojo de estilo europeo.": "Iconic red-brick station in European style.",
+  "Puente colgante iluminado que une la ciudad con Odaiba.": "Illuminated suspension bridge linking the city to Odaiba.",
+  "Gran parque con jardines japonés, inglés y francés.": "Large park with Japanese, English and French gardens.",
+  "Extenso parque con museos, un zoo y un estanque de lotos.": "Sprawling park with museums, a zoo and a lotus pond.",
+  "Amplio parque de césped junto a Harajuku y Meiji Jingu.": "Wide grassy park next to Harajuku and Meiji Jingu.",
+  "Jardín de un antiguo señor feudal junto a la bahía.": "Former feudal lord's garden beside the bay.",
+  "Elegante jardín paisajístico de la era Edo.": "Elegant landscape garden from the Edo era.",
+  "Uno de los jardines japoneses más antiguos de Tokio.": "One of Tokyo's oldest Japanese gardens.",
+  "Parque ribereño con vistas al Skytree y a los cerezos.": "Riverside park with views of the Skytree and cherry trees.",
+  "El paso de peatones más famoso y transitado del mundo.": "The world's most famous and busiest pedestrian crossing.",
+  "Mirador al aire libre en lo alto de Shibuya Scramble.": "Open-air observation deck atop Shibuya Scramble.",
+  "Calle peatonal cuna de la moda juvenil y kawaii.": "Pedestrian street, cradle of youth and kawaii fashion.",
+  "Barrio de la electrónica, el anime y los videojuegos.": "District of electronics, anime and video games.",
+  "Museo digital inmersivo de arte y luz en Toyosu.": "Immersive digital art and light museum in Toyosu.",
+  "El barrio más elegante de tiendas de lujo y galerías.": "The most elegant district of luxury shops and galleries.",
+  "Isla artificial de ocio con centros comerciales y vistas.": "Man-made leisure island with malls and bay views.",
+  "Barrio de neón y vida nocturna en Shinjuku.": "Neon nightlife district in Shinjuku.",
+  "Mercado callejero de marisco fresco y comida a pie de calle.": "Street market of fresh seafood and street food.",
+  "El mayor mercado de pescado del mundo con subastas de atún.": "The world's largest fish market with tuna auctions.",
+  "Callejón nostálgico de puestos de yakitori en Shinjuku.": "Nostalgic alley of yakitori stalls in Shinjuku.",
+  "Laberinto de diminutos bares temáticos en Shinjuku.": "Maze of tiny themed bars in Shinjuku.",
+  "Bullicioso mercado callejero de comida y gangas en Ueno.": "Bustling street market of food and bargains in Ueno.",
+  "Calle de utensilios de cocina y comida de plástico.": "Street of kitchenware and plastic food replicas.",
+  "Tokio": "Tokio"
+ }
+}

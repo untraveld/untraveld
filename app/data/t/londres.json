@@ -1,0 +1,748 @@
+{
+ "id": "londres",
+ "name": "Londres",
+ "country": "WORLD",
+ "center": [
+  51.5074,
+  -0.1278
+ ],
+ "pois": [
+  {
+   "id": "w_lon_big_ben",
+   "cat": "monuments",
+   "name": "Big Ben y Parlamento",
+   "icon": "🕰️",
+   "lat": 51.50072,
+   "lng": -0.12456,
+   "desc": "Icónica torre del reloj junto al Parlamento a orillas del Támesis."
+  },
+  {
+   "id": "w_lon_london_eye",
+   "cat": "monuments",
+   "name": "London Eye",
+   "icon": "🎡",
+   "lat": 51.50333,
+   "lng": -0.11957,
+   "desc": "Gran noria panorámica con vistas de 360° sobre la ciudad."
+  },
+  {
+   "id": "w_lon_tower_london",
+   "cat": "monuments",
+   "name": "Torre de Londres",
+   "icon": "🏰",
+   "lat": 51.50811,
+   "lng": -0.07603,
+   "desc": "Fortaleza medieval que custodia las Joyas de la Corona."
+  },
+  {
+   "id": "w_lon_tower_bridge",
+   "cat": "monuments",
+   "name": "Tower Bridge",
+   "icon": "🌉",
+   "lat": 51.50553,
+   "lng": -0.07539,
+   "desc": "Emblemático puente levadizo victoriano sobre el Támesis."
+  },
+  {
+   "id": "w_lon_buckingham",
+   "cat": "monuments",
+   "name": "Palacio de Buckingham",
+   "icon": "👑",
+   "lat": 51.50141,
+   "lng": -0.14186,
+   "desc": "Residencia oficial del monarca británico y su cambio de guardia."
+  },
+  {
+   "id": "w_lon_british_museum",
+   "cat": "monuments",
+   "name": "British Museum",
+   "icon": "🏛️",
+   "lat": 51.5194,
+   "lng": -0.127,
+   "desc": "Museo universal con tesoros de todas las civilizaciones."
+  },
+  {
+   "id": "w_lon_st_paul",
+   "cat": "monuments",
+   "name": "Catedral de San Pablo",
+   "icon": "⛪",
+   "lat": 51.51385,
+   "lng": -0.09836,
+   "desc": "Catedral barroca de gran cúpula obra de Christopher Wren."
+  },
+  {
+   "id": "w_lon_westminster_abbey",
+   "cat": "monuments",
+   "name": "Abadía de Westminster",
+   "icon": "⛪",
+   "lat": 51.4994,
+   "lng": -0.12724,
+   "desc": "Iglesia gótica de coronaciones y bodas reales."
+  },
+  {
+   "id": "w_lon_national_gallery",
+   "cat": "monuments",
+   "name": "National Gallery",
+   "icon": "🖼️",
+   "lat": 51.5089,
+   "lng": -0.1283,
+   "desc": "Gran pinacoteca europea en Trafalgar Square."
+  },
+  {
+   "id": "w_lon_tate_modern",
+   "cat": "monuments",
+   "name": "Tate Modern",
+   "icon": "🎨",
+   "lat": 51.50758,
+   "lng": -0.09938,
+   "desc": "Museo de arte moderno en una antigua central eléctrica."
+  },
+  {
+   "id": "w_lon_trafalgar",
+   "cat": "monuments",
+   "name": "Trafalgar Square",
+   "icon": "🦁",
+   "lat": 51.50801,
+   "lng": -0.12799,
+   "desc": "Plaza central con la columna de Nelson y sus leones."
+  },
+  {
+   "id": "w_lon_piccadilly",
+   "cat": "monuments",
+   "name": "Piccadilly Circus",
+   "icon": "🚦",
+   "lat": 51.50999,
+   "lng": -0.13429,
+   "desc": "Bulliciosa plaza de luces de neón y la estatua de Eros."
+  },
+  {
+   "id": "w_lon_shard",
+   "cat": "monuments",
+   "name": "The Shard",
+   "icon": "🏙️",
+   "lat": 51.50448,
+   "lng": -0.08653,
+   "desc": "El rascacielos más alto de la UE con mirador panorámico."
+  },
+  {
+   "id": "w_lon_hyde_park",
+   "cat": "nature",
+   "name": "Hyde Park",
+   "icon": "🌳",
+   "lat": 51.5073,
+   "lng": -0.16571,
+   "desc": "Gran parque real con lago, praderas y Speakers' Corner."
+  },
+  {
+   "id": "w_lon_regents_park",
+   "cat": "nature",
+   "name": "Regent's Park",
+   "icon": "🌹",
+   "lat": 51.53135,
+   "lng": -0.15641,
+   "desc": "Parque real con rosaleda, teatro al aire libre y zoo."
+  },
+  {
+   "id": "w_lon_st_james_park",
+   "cat": "nature",
+   "name": "St James's Park",
+   "icon": "🦢",
+   "lat": 51.50257,
+   "lng": -0.13407,
+   "desc": "El parque real más antiguo, con lago, pelícanos y vistas al palacio."
+  },
+  {
+   "id": "w_lon_kensington_gardens",
+   "cat": "nature",
+   "name": "Kensington Gardens",
+   "icon": "⛲",
+   "lat": 51.50697,
+   "lng": -0.17966,
+   "desc": "Jardines reales con el palacio de Kensington y la estatua de Peter Pan."
+  },
+  {
+   "id": "w_lon_greenwich_park",
+   "cat": "nature",
+   "name": "Greenwich Park",
+   "icon": "🌲",
+   "lat": 51.47669,
+   "lng": 0.00013,
+   "desc": "Parque real en colina con vistas al Támesis y Canary Wharf."
+  },
+  {
+   "id": "w_lon_hampstead_heath",
+   "cat": "nature",
+   "name": "Hampstead Heath",
+   "icon": "🏞️",
+   "lat": 51.55965,
+   "lng": -0.1641,
+   "desc": "Extenso brezal natural con estanques y vistas del skyline."
+  },
+  {
+   "id": "w_lon_covent_garden",
+   "cat": "ocio",
+   "name": "Covent Garden",
+   "icon": "🎭",
+   "lat": 51.51166,
+   "lng": -0.123,
+   "desc": "Mercado cubierto con tiendas, artistas callejeros y ambiente."
+  },
+  {
+   "id": "w_lon_camden",
+   "cat": "ocio",
+   "name": "Camden Market",
+   "icon": "🛍️",
+   "lat": 51.54148,
+   "lng": -0.1465,
+   "desc": "Mercados alternativos junto al canal con moda y comida del mundo."
+  },
+  {
+   "id": "w_lon_notting_hill",
+   "cat": "ocio",
+   "name": "Notting Hill y Portobello Road",
+   "icon": "🏘️",
+   "lat": 51.517,
+   "lng": -0.2059,
+   "desc": "Barrio de casas de colores y el mercado de antigüedades Portobello."
+  },
+  {
+   "id": "w_lon_soho",
+   "cat": "ocio",
+   "name": "Soho",
+   "icon": "🌃",
+   "lat": 51.5133,
+   "lng": -0.13158,
+   "desc": "Barrio bohemio de vida nocturna, teatros y restaurantes."
+  },
+  {
+   "id": "w_lon_leicester_square",
+   "cat": "ocio",
+   "name": "Leicester Square",
+   "icon": "🎬",
+   "lat": 51.51043,
+   "lng": -0.13065,
+   "desc": "Plaza de los cines y los grandes estrenos de Londres."
+  },
+  {
+   "id": "w_lon_royal_observatory",
+   "cat": "ocio",
+   "name": "Observatorio Real de Greenwich",
+   "icon": "🔭",
+   "lat": 51.4778,
+   "lng": -0.00147,
+   "desc": "Cuna del meridiano cero y del tiempo universal."
+  },
+  {
+   "id": "w_lon_sky_garden",
+   "cat": "ocio",
+   "name": "Sky Garden",
+   "icon": "🌿",
+   "lat": 51.51139,
+   "lng": -0.08361,
+   "desc": "Jardín tropical y mirador gratuito en lo alto de la City."
+  },
+  {
+   "id": "w_lon_borough_market",
+   "cat": "food",
+   "name": "Borough Market",
+   "icon": "🧀",
+   "lat": 51.50548,
+   "lng": -0.09082,
+   "desc": "Histórico mercado gastronómico con productos de todo el mundo."
+  },
+  {
+   "id": "w_lon_brick_lane",
+   "cat": "food",
+   "name": "Brick Lane",
+   "icon": "🍛",
+   "lat": 51.52134,
+   "lng": -0.07177,
+   "desc": "Calle multicultural del curry, los bagels y el arte urbano."
+  },
+  {
+   "id": "w_lon_dishoom",
+   "cat": "food",
+   "name": "Dishoom Covent Garden",
+   "icon": "🍽️",
+   "lat": 51.51252,
+   "lng": -0.12691,
+   "desc": "Icónico restaurante indio inspirado en los cafés de Bombay."
+  },
+  {
+   "id": "w_lon_harrods_food",
+   "cat": "food",
+   "name": "Harrods Food Hall",
+   "icon": "🛒",
+   "lat": 51.49942,
+   "lng": -0.16337,
+   "desc": "Lujosas salas gastronómicas de los grandes almacenes Harrods."
+  },
+  {
+   "id": "w_lon_sketch",
+   "cat": "food",
+   "name": "Sketch",
+   "icon": "🫖",
+   "lat": 51.51349,
+   "lng": -0.1417,
+   "desc": "Restaurante de diseño famoso por su rosa Gallery y su té."
+  },
+  {
+   "id": "w_lon_the_ivy",
+   "cat": "food",
+   "name": "The Ivy",
+   "icon": "🍸",
+   "lat": 51.51341,
+   "lng": -0.12776,
+   "desc": "Restaurante clásico del West End frecuentado por celebridades."
+  }
+ ],
+ "extra": {
+  "w_lon_big_ben": {
+   "id": "w_lon_big_ben",
+   "d": "La Torre Elizabeth, popularmente Big Ben por su gran campana, corona el Palacio de Westminster, sede neogótica del Parlamento del Reino Unido. Su silueta reflejada en el Támesis es el símbolo por excelencia de Londres y una de las estampas más fotografiadas del mundo.",
+   "d_en": "The Elizabeth Tower, popularly Big Ben after its great bell, crowns the Palace of Westminster, the neo-Gothic seat of the UK Parliament. Its silhouette mirrored in the Thames is London's quintessential symbol and one of the world's most photographed views.",
+   "h": "Exterior visible 24 h; visitas guiadas al Parlamento con reserva (Sáb y periodos de receso)",
+   "h_en": "Exterior viewable 24h; guided Parliament tours by booking (Sat and recess periods)",
+   "i": "la historia, la política y la arquitectura victoriana",
+   "i_en": "history, politics and Victorian architecture"
+  },
+  "w_lon_london_eye": {
+   "id": "w_lon_london_eye",
+   "d": "Inaugurada en el año 2000, esta noria de 135 metros a orillas del Támesis es uno de los miradores más populares de Londres. Sus cápsulas de cristal giran lentamente durante 30 minutos y ofrecen vistas del Big Ben, el Parlamento y toda la City.",
+   "d_en": "Opened in 2000, this 135-metre wheel on the South Bank is one of London's most popular viewpoints. Its glass capsules rotate slowly over 30 minutes, offering views of Big Ben, Parliament and the whole City skyline.",
+   "h": "Todos los días 11:00-18:00 (amplía horario en verano; reserva recomendada)",
+   "h_en": "Daily 11:00-18:00 (extended in summer; booking recommended)",
+   "i": "las vistas panorámicas, la fotografía y los planes en familia",
+   "i_en": "panoramic views, photography and family outings"
+  },
+  "w_lon_tower_london": {
+   "id": "w_lon_tower_london",
+   "d": "Fortaleza real fundada por Guillermo el Conquistador en 1066 que ha sido palacio, prisión y lugar de ejecuciones. Hoy custodia las deslumbrantes Joyas de la Corona, la guardan los Beefeaters y la habitan los famosos cuervos. Patrimonio de la Humanidad.",
+   "d_en": "A royal fortress founded by William the Conqueror in 1066 that has served as palace, prison and place of execution. Today it guards the dazzling Crown Jewels, is watched over by the Beefeaters and home to the famous ravens. A World Heritage Site.",
+   "h": "Mar-Sáb 9:00-17:30, Dom-Lun 10:00-17:30 (última entrada 15:30; reserva recomendada)",
+   "h_en": "Tue-Sat 9:00-17:30, Sun-Mon 10:00-17:30 (last entry 15:30; booking recommended)",
+   "i": "la historia medieval, las joyas y los castillos",
+   "i_en": "medieval history, jewels and castles"
+  },
+  "w_lon_tower_bridge": {
+   "id": "w_lon_tower_bridge",
+   "d": "Terminado en 1894, es el puente más famoso de Londres, con sus dos torres neogóticas y su mecanismo basculante que aún se eleva para dejar pasar barcos. Se puede recorrer su pasarela superior con suelo de cristal y visitar las salas de máquinas de vapor.",
+   "d_en": "Completed in 1894, it is London's most famous bridge, with its two neo-Gothic towers and a bascule mechanism that still lifts to let ships through. You can walk its high-level glass-floored walkways and visit the Victorian steam engine rooms.",
+   "h": "Exterior 24 h; exposición y pasarelas todos los días 9:30-18:00 (última entrada 17:00)",
+   "h_en": "Exterior 24h; exhibition and walkways daily 9:30-18:00 (last entry 17:00)",
+   "i": "la ingeniería, la arquitectura victoriana y la fotografía",
+   "i_en": "engineering, Victorian architecture and photography"
+  },
+  "w_lon_buckingham": {
+   "id": "w_lon_buckingham",
+   "d": "Residencia oficial londinense del rey del Reino Unido desde 1837, con 775 estancias. Su famoso Cambio de Guardia frente a la verja reúne a multitudes, y en verano se pueden visitar los suntuosos State Rooms. La bandera indica si el monarca está presente.",
+   "d_en": "The London official residence of the UK monarch since 1837, with 775 rooms. Its famous Changing of the Guard at the railings draws crowds, and in summer the sumptuous State Rooms open to visitors. The flag shows whether the monarch is in residence.",
+   "h": "Exterior 24 h; Cambio de Guardia varios días 10:45-11:30; State Rooms en verano 9:30-19:30",
+   "h_en": "Exterior 24h; Changing of the Guard select days 10:45-11:30; State Rooms in summer 9:30-19:30",
+   "i": "la monarquía, los palacios y las ceremonias",
+   "i_en": "royalty, palaces and ceremonies"
+  },
+  "w_lon_british_museum": {
+   "id": "w_lon_british_museum",
+   "d": "Fundado en 1753, es uno de los museos más importantes del mundo, con ocho millones de piezas que abarcan toda la historia humana. Alberga la Piedra de Rosetta, los mármoles del Partenón y momias egipcias bajo el espectacular Great Court cubierto. Entrada gratuita.",
+   "d_en": "Founded in 1753, it is one of the world's greatest museums, with eight million objects spanning all of human history. It holds the Rosetta Stone, the Parthenon Marbles and Egyptian mummies beneath the spectacular covered Great Court. Free admission.",
+   "h": "Todos los días 10:00-17:00, Vie hasta 20:30 (última entrada antes del cierre)",
+   "h_en": "Daily 10:00-17:00, Fri until 20:30 (last entry before closing)",
+   "i": "la arqueología, la historia antigua y los grandes museos",
+   "i_en": "archaeology, ancient history and great museums"
+  },
+  "w_lon_st_paul": {
+   "id": "w_lon_st_paul",
+   "d": "Obra maestra de Christopher Wren levantada tras el Gran Incendio de 1666, su imponente cúpula domina la City. Alberga la Whispering Gallery de curiosa acústica y ofrece vistas desde lo alto. Aquí se casaron Carlos y Diana y reposan Nelson y Wellington.",
+   "d_en": "Christopher Wren's masterpiece, rebuilt after the Great Fire of 1666, its imposing dome dominates the City. It holds the acoustically curious Whispering Gallery and offers views from the top. Charles and Diana married here; Nelson and Wellington are buried within.",
+   "h": "Lun-Sáb 8:30-16:30 (turismo); cerrado a visitas turísticas los domingos por culto",
+   "h_en": "Mon-Sat 8:30-16:30 (sightseeing); closed to tourism on Sundays for worship",
+   "i": "las catedrales, la arquitectura barroca y las vistas",
+   "i_en": "cathedrals, Baroque architecture and views"
+  },
+  "w_lon_westminster_abbey": {
+   "id": "w_lon_westminster_abbey",
+   "d": "Iglesia gótica donde se coronan y entierran los monarcas británicos desde hace casi mil años. Escenario de coronaciones y bodas reales, guarda las tumbas de reyes, poetas y científicos como Newton y Darwin en el célebre Rincón de los Poetas. Patrimonio de la Humanidad.",
+   "d_en": "A Gothic church where British monarchs have been crowned and buried for nearly a thousand years. The setting of coronations and royal weddings, it holds the tombs of kings, poets and scientists such as Newton and Darwin in the famous Poets' Corner. A World Heritage Site.",
+   "h": "Lun-Sáb 9:30-15:30 (Sáb solo mañana); cerrado a turismo los domingos por culto",
+   "h_en": "Mon-Sat 9:30-15:30 (Sat mornings only); closed to tourism on Sundays for worship",
+   "i": "la historia, las catedrales góticas y la monarquía",
+   "i_en": "history, Gothic cathedrals and royalty"
+  },
+  "w_lon_national_gallery": {
+   "id": "w_lon_national_gallery",
+   "d": "Presidiendo Trafalgar Square, reúne más de 2.300 pinturas europeas desde el siglo XIII al XX. Cuelgan de sus salas obras maestras de Van Gogh, Leonardo, Vermeer, Turner y Velázquez. Una de las mejores colecciones de arte del mundo y de entrada gratuita.",
+   "d_en": "Presiding over Trafalgar Square, it holds over 2,300 European paintings from the 13th to the 20th century. Its rooms display masterpieces by Van Gogh, Leonardo, Vermeer, Turner and Velázquez. One of the world's finest art collections, with free admission.",
+   "h": "Todos los días 10:00-18:00, Vie hasta 21:00",
+   "h_en": "Daily 10:00-18:00, Fri until 21:00",
+   "i": "el arte, la pintura clásica y los museos",
+   "i_en": "art, classical painting and museums"
+  },
+  "w_lon_tate_modern": {
+   "id": "w_lon_tate_modern",
+   "d": "Instalada en la antigua central eléctrica de Bankside, es el gran museo londinense de arte moderno y contemporáneo, con obras de Picasso, Dalí, Warhol y Rothko. Su enorme Sala de Turbinas acoge instalaciones monumentales y la terraza regala vistas del Támesis. Gratis.",
+   "d_en": "Housed in the former Bankside Power Station, it is London's great museum of modern and contemporary art, with works by Picasso, Dalí, Warhol and Rothko. Its vast Turbine Hall hosts monumental installations and the terrace offers Thames views. Free.",
+   "h": "Todos los días 10:00-18:00",
+   "h_en": "Daily 10:00-18:00",
+   "i": "el arte moderno, la arquitectura industrial y las vistas",
+   "i_en": "modern art, industrial architecture and views"
+  },
+  "w_lon_trafalgar": {
+   "id": "w_lon_trafalgar",
+   "d": "El corazón simbólico de Londres, dedicado a la victoria naval de Trafalgar de 1805. La columna de Nelson, custodiada por cuatro grandes leones de bronce, preside una plaza de fuentes rodeada por la National Gallery. Escenario de celebraciones y actos multitudinarios.",
+   "d_en": "London's symbolic heart, commemorating the 1805 naval victory at Trafalgar. Nelson's Column, guarded by four great bronze lions, presides over a fountain-filled square framed by the National Gallery. A stage for celebrations and mass gatherings.",
+   "h": "Plaza abierta siempre",
+   "h_en": "Square always open",
+   "i": "los paseos urbanos, la historia y la fotografía",
+   "i_en": "city strolls, history and photography"
+  },
+  "w_lon_piccadilly": {
+   "id": "w_lon_piccadilly",
+   "d": "El cruce más animado del West End, famoso por sus enormes pantallas publicitarias iluminadas y la fuente conmemorativa coronada por la estatua alada de Eros. Punto de encuentro clásico, es la puerta de entrada a los teatros, tiendas y luces del centro londinense.",
+   "d_en": "The West End's liveliest junction, famous for its huge illuminated advertising screens and the memorial fountain topped by the winged Eros statue. A classic meeting point and gateway to the theatres, shops and lights of central London.",
+   "h": "Zona abierta siempre",
+   "h_en": "Area always open",
+   "i": "el ambiente urbano, las luces y las compras",
+   "i_en": "the urban buzz, lights and shopping"
+  },
+  "w_lon_shard": {
+   "id": "w_lon_shard",
+   "d": "Diseñado por Renzo Piano y terminado en 2012, este rascacielos de cristal de 310 metros es el edificio más alto de Europa occidental. Su mirador The View from The Shard, en las plantas 68 a 72, ofrece las mejores vistas de 360° de todo Londres.",
+   "d_en": "Designed by Renzo Piano and completed in 2012, this 310-metre glass skyscraper is Western Europe's tallest building. Its viewing gallery, The View from The Shard on floors 68-72, offers the best 360° views over all of London.",
+   "h": "Mirador todos los días 10:00-22:00 (varía por temporada; reserva recomendada)",
+   "h_en": "Viewing gallery daily 10:00-22:00 (varies by season; booking recommended)",
+   "i": "las vistas panorámicas, la arquitectura moderna y la fotografía",
+   "i_en": "panoramic views, modern architecture and photography"
+  },
+  "w_lon_hyde_park": {
+   "id": "w_lon_hyde_park",
+   "d": "Uno de los mayores parques reales de Londres, con 142 hectáreas de praderas, avenidas arboladas y el lago Serpentine, donde se puede remar o nadar. Alberga el famoso Speakers' Corner de libre expresión y acoge conciertos y el mercado navideño Winter Wonderland.",
+   "d_en": "One of London's largest royal parks, with 142 hectares of lawns, tree-lined avenues and the Serpentine lake, where you can row or swim. It is home to the famous free-speech Speakers' Corner and hosts concerts and the Winter Wonderland Christmas market.",
+   "h": "Todos los días 5:00-24:00",
+   "h_en": "Daily 5:00-24:00",
+   "i": "los parques, los picnics y relajarte al aire libre",
+   "i_en": "parks, picnics and relaxing outdoors"
+  },
+  "w_lon_regents_park": {
+   "id": "w_lon_regents_park",
+   "d": "Elegante parque diseñado por John Nash, célebre por los Queen Mary's Gardens y su espectacular rosaleda con más de 12.000 rosales. Incluye un teatro al aire libre, canales, campos deportivos y, en su extremo norte, el histórico Zoo de Londres. Vistas desde Primrose Hill.",
+   "d_en": "An elegant park designed by John Nash, famous for Queen Mary's Gardens and their spectacular rose garden with over 12,000 roses. It includes an open-air theatre, canals, sports fields and, at its northern edge, the historic London Zoo. Great views from Primrose Hill.",
+   "h": "Todos los días desde 5:00 hasta el anochecer",
+   "h_en": "Daily from 5:00 until dusk",
+   "i": "los jardines, las flores y los paseos tranquilos",
+   "i_en": "gardens, flowers and quiet walks"
+  },
+  "w_lon_st_james_park": {
+   "id": "w_lon_st_james_park",
+   "d": "El más antiguo de los parques reales, un remanso ajardinado entre Buckingham y Westminster. Su lago central alberga aves acuáticas y los célebres pelícanos, y desde el Blue Bridge se disfruta de una de las vistas más románticas del palacio de Buckingham.",
+   "d_en": "The oldest of the royal parks, a landscaped haven between Buckingham and Westminster. Its central lake is home to waterfowl and the famous pelicans, and the Blue Bridge offers one of the most romantic views of Buckingham Palace.",
+   "h": "Todos los días 5:00-24:00",
+   "h_en": "Daily 5:00-24:00",
+   "i": "los parques, la fauna y los paseos románticos",
+   "i_en": "parks, wildlife and romantic strolls"
+  },
+  "w_lon_kensington_gardens": {
+   "id": "w_lon_kensington_gardens",
+   "d": "Elegantes jardines reales contiguos a Hyde Park que rodean el palacio de Kensington, residencia de la realeza. Guardan el memorial Albert de estilo victoriano, la estatua de Peter Pan junto al lago Long Water y el jardín conmemorativo dedicado a la princesa Diana.",
+   "d_en": "Elegant royal gardens adjoining Hyde Park that surround Kensington Palace, a royal residence. They hold the Victorian Albert Memorial, the Peter Pan statue beside the Long Water lake and the memorial garden dedicated to Princess Diana.",
+   "h": "Todos los días desde 6:00 hasta el anochecer",
+   "h_en": "Daily from 6:00 until dusk",
+   "i": "los jardines, los palacios y los paseos con historia",
+   "i_en": "gardens, palaces and history-rich walks"
+  },
+  "w_lon_greenwich_park": {
+   "id": "w_lon_greenwich_park",
+   "d": "El parque real cerrado más antiguo de Londres, en una ladera que baja hacia el Támesis. Desde su cima, junto al Observatorio Real, se disfruta de una de las mejores panorámicas de la ciudad, con Canary Wharf y el meandro del río. Tiene ciervos, avenidas y jardines.",
+   "d_en": "London's oldest enclosed royal park, on a slope running down to the Thames. From its summit, beside the Royal Observatory, you get one of the city's finest panoramas, with Canary Wharf and the river's bend. It has deer, avenues and gardens.",
+   "h": "Todos los días desde 6:00 hasta el anochecer",
+   "h_en": "Daily from 6:00 until dusk",
+   "i": "las vistas, los paseos y la naturaleza urbana",
+   "i_en": "views, walks and urban nature"
+  },
+  "w_lon_hampstead_heath": {
+   "id": "w_lon_hampstead_heath",
+   "d": "Un vasto y agreste espacio verde al norte de la ciudad, muy querido por los londinenses. Ofrece bosques, praderas y estanques donde bañarse en verano. Desde Parliament Hill se contempla una de las mejores vistas del skyline de Londres, con la City a lo lejos.",
+   "d_en": "A vast, wild green space north of the city, much loved by Londoners. It offers woods, meadows and bathing ponds for summer swimming. From Parliament Hill you get one of the finest views of London's skyline, with the City in the distance.",
+   "h": "Abierto 24 horas",
+   "h_en": "Open 24 hours",
+   "i": "la naturaleza salvaje, el senderismo y las vistas",
+   "i_en": "wild nature, hiking and views"
+  },
+  "w_lon_covent_garden": {
+   "id": "w_lon_covent_garden",
+   "d": "Antiguo mercado de frutas convertido en uno de los rincones más animados de Londres. Bajo su elegante estructura de hierro y cristal se agolpan tiendas, cafés y puestos artesanos, mientras artistas callejeros actúan en la plaza. Junto a la Royal Opera House.",
+   "d_en": "A former fruit market turned into one of London's liveliest spots. Beneath its elegant iron-and-glass structure crowd shops, cafés and craft stalls, while street performers entertain in the piazza. Right beside the Royal Opera House.",
+   "h": "Mercado y tiendas todos los días 10:00-20:00 (Dom horario reducido); plaza siempre abierta",
+   "h_en": "Market and shops daily 10:00-20:00 (Sun reduced hours); piazza always open",
+   "i": "las compras, los artistas callejeros y el ambiente",
+   "i_en": "shopping, street performers and atmosphere"
+  },
+  "w_lon_camden": {
+   "id": "w_lon_camden",
+   "d": "El barrio más alternativo y bohemio de Londres, cuna del movimiento punk y rock. Sus laberínticos mercados junto al Regent's Canal ofrecen moda vintage, artesanía, música y decenas de puestos de comida callejera internacional en un ambiente vibrante y desenfadado.",
+   "d_en": "London's most alternative, bohemian quarter, a cradle of the punk and rock scene. Its labyrinthine markets beside Regent's Canal offer vintage fashion, crafts, music and dozens of international street-food stalls in a vibrant, laid-back setting.",
+   "h": "Mercados todos los días 10:00-19:00 (comida hasta más tarde)",
+   "h_en": "Markets daily 10:00-19:00 (food stalls later)",
+   "i": "la moda vintage, la música alternativa y la comida callejera",
+   "i_en": "vintage fashion, alternative music and street food"
+  },
+  "w_lon_notting_hill": {
+   "id": "w_lon_notting_hill",
+   "d": "Elegante y colorido barrio de casas georgianas en tonos pastel, popularizado por el cine. Su Portobello Road acoge el mayor mercado de antigüedades del mundo, especialmente los sábados, y en agosto el barrio estalla con el multitudinario Carnaval de Notting Hill.",
+   "d_en": "An elegant, colourful district of pastel Georgian houses made famous by the movies. Its Portobello Road hosts the world's largest antiques market, especially on Saturdays, and each August the area erupts with the huge Notting Hill Carnival.",
+   "h": "Barrio abierto siempre; mercado Portobello Lun-Sáb, gran día Sáb 9:00-19:00",
+   "h_en": "Neighbourhood always open; Portobello market Mon-Sat, main day Sat 9:00-19:00",
+   "i": "los mercados, las casas con encanto y los paseos fotogénicos",
+   "i_en": "markets, charming houses and photogenic strolls"
+  },
+  "w_lon_soho": {
+   "id": "w_lon_soho",
+   "d": "El barrio más cosmopolita y noctámbulo del West End, con calles llenas de bares, teatros, restaurantes y locales de música. Incluye la animada Chinatown de Londres y Carnaby Street, y es el epicentro del ambiente LGTBI y de la vida nocturna londinense.",
+   "d_en": "The West End's most cosmopolitan, night-owl quarter, with streets full of bars, theatres, restaurants and music venues. It takes in London's lively Chinatown and Carnaby Street, and is the epicentre of the city's LGBTQ scene and nightlife.",
+   "h": "Zona abierta siempre; bares y locales hasta la madrugada",
+   "h_en": "Area always open; bars and venues until late",
+   "i": "la vida nocturna, los restaurantes y el ambiente urbano",
+   "i_en": "nightlife, restaurants and the urban scene"
+  },
+  "w_lon_leicester_square": {
+   "id": "w_lon_leicester_square",
+   "d": "El corazón del entretenimiento londinense, rodeado de grandes cines donde se celebran las premieres mundiales con alfombra roja. Muy animada de día y de noche, reúne teatros, taquillas de última hora, restaurantes y la conocida tienda M&M's y Lego.",
+   "d_en": "The heart of London entertainment, ringed by grand cinemas that host red-carpet world premieres. Lively day and night, it gathers theatres, last-minute ticket booths, restaurants and the well-known M&M's and Lego stores.",
+   "h": "Plaza abierta siempre",
+   "h_en": "Square always open",
+   "i": "el cine, el ambiente y el ocio nocturno",
+   "i_en": "cinema, atmosphere and evening entertainment"
+  },
+  "w_lon_royal_observatory": {
+   "id": "w_lon_royal_observatory",
+   "d": "Fundado en 1675, es el punto de referencia del meridiano de Greenwich (longitud 0°), donde se puede posar con un pie en cada hemisferio. Alberga el planetario, relojes históricos y la bola del tiempo, y desde su colina se contempla el Támesis y Canary Wharf.",
+   "d_en": "Founded in 1675, it is the reference point of the Greenwich Meridian (longitude 0°), where you can stand with a foot in each hemisphere. It houses the planetarium, historic clocks and the time ball, and its hill overlooks the Thames and Canary Wharf.",
+   "h": "Todos los días 10:00-17:00 (última entrada 16:15)",
+   "h_en": "Daily 10:00-17:00 (last entry 16:15)",
+   "i": "la ciencia, la astronomía y la historia marítima",
+   "i_en": "science, astronomy and maritime history"
+  },
+  "w_lon_sky_garden": {
+   "id": "w_lon_sky_garden",
+   "d": "En la cima del rascacielos 'Walkie-Talkie' de 20 Fenchurch Street, este jardín tropical de tres plantas es el jardín público más alto de Londres. Ofrece vistas gratuitas de 360° sobre el Támesis, el Shard y la Torre, además de bares y restaurantes. Reserva gratuita.",
+   "d_en": "Atop the 'Walkie-Talkie' skyscraper at 20 Fenchurch Street, this three-storey tropical garden is London's highest public garden. It offers free 360° views over the Thames, the Shard and the Tower, plus bars and restaurants. Free booking required.",
+   "h": "Lun-Vie 10:00-18:00, Sáb-Dom 11:00-21:00 (reserva gratuita obligatoria)",
+   "h_en": "Mon-Fri 10:00-18:00, Sat-Sun 11:00-21:00 (free booking required)",
+   "i": "las vistas panorámicas, los jardines y los rincones singulares",
+   "i_en": "panoramic views, gardens and unique spots"
+  },
+  "w_lon_borough_market": {
+   "id": "w_lon_borough_market",
+   "d": "Uno de los mercados de comida más antiguos y famosos de Londres, con más de mil años de historia bajo estructuras victorianas junto a la catedral de Southwark. Reúne quesos, embutidos, panes, dulces y puestos de street food que atraen a foodies de toda la ciudad.",
+   "d_en": "One of London's oldest and most famous food markets, with over a thousand years of history beneath Victorian ironwork beside Southwark Cathedral. It brings together cheeses, charcuterie, breads, sweets and street-food stalls that draw foodies from across the city.",
+   "h": "Lun-Sáb 10:00-17:00 (puestos completos Mié-Sáb); Dom cerrado",
+   "h_en": "Mon-Sat 10:00-17:00 (full stalls Wed-Sat); closed Sun",
+   "i": "la gastronomía, los mercados y la comida callejera",
+   "i_en": "gastronomy, markets and street food"
+  },
+  "w_lon_brick_lane": {
+   "id": "w_lon_brick_lane",
+   "d": "El corazón de la comunidad bangladesí de Londres, célebre por su hilera de restaurantes de curry y sus bagel shops abiertas 24 horas. Los domingos su mercado se llena de vintage, comida callejera y arte urbano, con murales de artistas como Banksy en las paredes.",
+   "d_en": "The heart of London's Bangladeshi community, famous for its row of curry houses and 24-hour bagel shops. On Sundays its market fills with vintage, street food and urban art, with murals by artists such as Banksy on the walls.",
+   "h": "Restaurantes 12:00-23:30; mercado Dom 10:00-17:00",
+   "h_en": "Restaurants 12:00-23:30; Sunday market 10:00-17:00",
+   "i": "la comida india, los mercados y el arte urbano",
+   "i_en": "Indian food, markets and street art"
+  },
+  "w_lon_dishoom": {
+   "id": "w_lon_dishoom",
+   "d": "El restaurante indio más popular de Londres, que recrea el ambiente de los antiguos cafés iraníes de Bombay. Su bacon naan roll del desayuno, el pollo al chili y el dhal negro cocinado 24 horas han creado colas legendarias. Decoración vintage y ambiente vibrante.",
+   "d_en": "London's most popular Indian restaurant, recreating the atmosphere of old Irani cafés in Bombay. Its breakfast bacon naan roll, chilli chicken and 24-hour black dhal have created legendary queues. Vintage decor and a vibrant buzz.",
+   "h": "Lun-Vie 8:00-23:00, Sáb-Dom 9:00-23:00",
+   "h_en": "Mon-Fri 8:00-23:00, Sat-Sun 9:00-23:00",
+   "i": "la cocina india, los sabores intensos y los restaurantes con encanto",
+   "i_en": "Indian cuisine, bold flavours and characterful restaurants"
+  },
+  "w_lon_harrods_food": {
+   "id": "w_lon_harrods_food",
+   "d": "Las legendarias Food Halls de Harrods, en Knightsbridge, son un festín para los sentidos: mostradores modernistas de azulejos con mariscos, quesos, chocolates, pastelería y delicatessen del mundo entero. Un lugar imprescindible para picar, comprar o simplemente mirar.",
+   "d_en": "The legendary Harrods Food Halls in Knightsbridge are a feast for the senses: Art Nouveau tiled counters with seafood, cheeses, chocolates, patisserie and delicatessen from around the world. A must for grazing, buying or simply browsing.",
+   "h": "Lun-Sáb 10:00-21:00, Dom 11:30-18:00",
+   "h_en": "Mon-Sat 10:00-21:00, Sun 11:30-18:00",
+   "i": "la gastronomía gourmet, el lujo y las compras selectas",
+   "i_en": "gourmet food, luxury and fine shopping"
+  },
+  "w_lon_sketch": {
+   "id": "w_lon_sketch",
+   "d": "Uno de los locales más fotografiados de Londres, en Mayfair. Su sala The Gallery, íntegramente rosa y decorada con dibujos de David Shrigley, y sus icónicos aseos con forma de cápsula lo han hecho viral. Célebre por su exquisito afternoon tea y su cocina creativa.",
+   "d_en": "One of London's most photographed venues, in Mayfair. Its all-pink Gallery room, decorated with David Shrigley drawings, and its iconic pod-shaped toilets have made it go viral. Renowned for its exquisite afternoon tea and creative cuisine.",
+   "h": "Todos los días 9:00-24:00 (reserva imprescindible)",
+   "h_en": "Daily 9:00-24:00 (booking essential)",
+   "i": "el diseño, el afternoon tea y los espacios instagrameables",
+   "i_en": "design, afternoon tea and instagrammable spaces"
+  },
+  "w_lon_the_ivy": {
+   "id": "w_lon_the_ivy",
+   "d": "Institución londinense abierta en 1917 en pleno Theatreland, célebre por su clientela de actores y estrellas. Sirve cocina británica moderna e internacional bajo sus icónicas vidrieras. Un clásico para cenar antes o después del teatro en un ambiente elegante.",
+   "d_en": "A London institution opened in 1917 in the heart of Theatreland, famous for its clientele of actors and stars. It serves modern British and international cuisine beneath its iconic stained-glass windows. A classic for dining before or after the theatre in an elegant setting.",
+   "h": "Todos los días 12:00-23:30 (reserva recomendada)",
+   "h_en": "Daily 12:00-23:30 (booking recommended)",
+   "i": "la alta cocina, el ambiente elegante y el mundo del teatro",
+   "i_en": "fine dining, elegant atmosphere and the theatre world"
+  }
+ },
+ "food": {
+  "w_lon_borough_market": {
+   "cuisine": "Mercado gastronómico / street food internacional",
+   "price": "6–20 €",
+   "hours": "Lun-Sáb 10:00-17:00 (comida caliente hasta media tarde), Dom cerrado el mercado completo"
+  },
+  "w_lon_brick_lane": {
+   "cuisine": "India / bangladesí / bagels / street food",
+   "price": "10–25 €",
+   "hours": "Restaurantes todos los días 12:00-23:30; mercado dominical 10:00-17:00"
+  },
+  "w_lon_dishoom": {
+   "cuisine": "India / Bombay",
+   "price": "20–40 €",
+   "hours": "Lun-Vie 8:00-23:00, Sáb-Dom 9:00-23:00 (no reservan para grupos pequeños)"
+  },
+  "w_lon_harrods_food": {
+   "cuisine": "Delicatessen / gourmet internacional",
+   "price": "12–40 €",
+   "hours": "Lun-Sáb 10:00-21:00, Dom 11:30-18:00"
+  },
+  "w_lon_sketch": {
+   "cuisine": "Afternoon tea / cocina creativa",
+   "price": "40–80 €",
+   "hours": "Todos los días 9:00-24:00 (afternoon tea por franjas; reserva imprescindible)"
+  },
+  "w_lon_the_ivy": {
+   "cuisine": "Británica moderna / internacional",
+   "price": "40–75 €",
+   "hours": "Todos los días 12:00-23:30 (reserva recomendada)"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Londres",
+   "items": [
+    {
+     "name": "Té inglés (Fortnum & Mason, Twinings)",
+     "price": "8–25 €",
+     "desc": "Lata o caja de English Breakfast o Earl Grey, un clásico regalo británico."
+    },
+    {
+     "name": "Artículos con la Union Jack",
+     "price": "8–25 €",
+     "desc": "Camisetas, tazas y bolsas con la bandera del Reino Unido."
+    },
+    {
+     "name": "Miniatura de autobús rojo o cabina telefónica",
+     "price": "5–20 €",
+     "desc": "El icónico double-decker o la red phone box en versión souvenir."
+    },
+    {
+     "name": "Figura de guardia real o Beefeater",
+     "price": "10–30 €",
+     "desc": "Muñeco del guardia del gorro de piel o del alabardero de la Torre."
+    },
+    {
+     "name": "Merchandising de la familia real",
+     "price": "5–30 €",
+     "desc": "Tazas, imanes y postales con la Corona y los palacios reales."
+    },
+    {
+     "name": "Galletas shortbread de lata",
+     "price": "6–20 €",
+     "desc": "Lata decorada de mantequilla shortbread, típica para llevar."
+    }
+   ],
+   "shops": [
+    "Harrods (Knightsbridge)",
+    "Fortnum & Mason (Piccadilly)",
+    "Hamleys (Regent Street)",
+    "Selfridges (Oxford Street)",
+    "Liberty London (Great Marlborough St)",
+    "Tiendas de souvenirs de Covent Garden y Piccadilly",
+    "Camden Market"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Usa tarjeta contactless u Oyster en metro y autobuses; el pago contactless aplica un tope diario automático que sale más barato que los billetes sueltos.",
+   "Los grandes museos nacionales (British Museum, National Gallery, Tate Modern) son gratuitos; reserva online los de pago como la Torre de Londres o el London Eye para evitar colas.",
+   "En Reino Unido se circula por la izquierda: mira primero a tu derecha al cruzar; en muchos pasos hay avisos 'Look Right' pintados en el suelo.",
+   "Lleva siempre un paraguas plegable o chubasquero ligero: el tiempo cambia rápido en cualquier estación y momento del día.",
+   "Evita el metro en hora punta (8:00-9:30 y 17:00-18:30); en el centro muchas distancias se cubren antes andando y disfrutas más de la ciudad."
+  ],
+  "en": [
+   "Use a contactless card or Oyster on the Tube and buses; contactless has an automatic daily cap that works out cheaper than single tickets.",
+   "The big national museums (British Museum, National Gallery, Tate Modern) are free; book paid sights like the Tower of London or the London Eye online to skip queues.",
+   "The UK drives on the left: look right first when crossing; many crossings have 'Look Right' painted on the road.",
+   "Always carry a compact umbrella or light rain jacket: the weather changes fast in any season and at any time of day.",
+   "Avoid the Tube at rush hour (8:00-9:30 and 17:00-18:30); in the centre many distances are quicker on foot and you enjoy the city more."
+  ]
+ },
+ "climate": {
+  "hi": [
+   8,
+   9,
+   12,
+   15,
+   18,
+   21,
+   24,
+   23,
+   20,
+   16,
+   11,
+   8
+  ],
+  "lo": [
+   3,
+   3,
+   4,
+   6,
+   9,
+   12,
+   14,
+   14,
+   11,
+   8,
+   5,
+   3
+  ]
+ },
+ "tr": {
+  "Icónica torre del reloj junto al Parlamento a orillas del Támesis.": "Iconic clock tower beside Parliament on the Thames.",
+  "Gran noria panorámica con vistas de 360° sobre la ciudad.": "Giant observation wheel with 360° views over the city.",
+  "Fortaleza medieval que custodia las Joyas de la Corona.": "Medieval fortress guarding the Crown Jewels.",
+  "Emblemático puente levadizo victoriano sobre el Támesis.": "Emblematic Victorian bascule bridge over the Thames.",
+  "Residencia oficial del monarca británico y su cambio de guardia.": "The British monarch's official residence and Changing of the Guard.",
+  "Museo universal con tesoros de todas las civilizaciones.": "Universal museum with treasures of every civilisation.",
+  "Catedral barroca de gran cúpula obra de Christopher Wren.": "Baroque cathedral with a great dome by Christopher Wren.",
+  "Iglesia gótica de coronaciones y bodas reales.": "Gothic church of royal coronations and weddings.",
+  "Gran pinacoteca europea en Trafalgar Square.": "Major European art gallery on Trafalgar Square.",
+  "Museo de arte moderno en una antigua central eléctrica.": "Modern art museum in a former power station.",
+  "Plaza central con la columna de Nelson y sus leones.": "Central square with Nelson's Column and its lions.",
+  "Bulliciosa plaza de luces de neón y la estatua de Eros.": "Bustling junction of neon lights and the Eros statue.",
+  "El rascacielos más alto de la UE con mirador panorámico.": "Western Europe's tallest tower with a viewing gallery.",
+  "Gran parque real con lago, praderas y Speakers' Corner.": "Large royal park with a lake, lawns and Speakers' Corner.",
+  "Parque real con rosaleda, teatro al aire libre y zoo.": "Royal park with a rose garden, open-air theatre and zoo.",
+  "El parque real más antiguo, con lago, pelícanos y vistas al palacio.": "The oldest royal park, with a lake, pelicans and palace views.",
+  "Jardines reales con el palacio de Kensington y la estatua de Peter Pan.": "Royal gardens with Kensington Palace and the Peter Pan statue.",
+  "Parque real en colina con vistas al Támesis y Canary Wharf.": "Hilltop royal park with views of the Thames and Canary Wharf.",
+  "Extenso brezal natural con estanques y vistas del skyline.": "Vast wild heath with bathing ponds and skyline views.",
+  "Mercado cubierto con tiendas, artistas callejeros y ambiente.": "Covered market with shops, street performers and buzz.",
+  "Mercados alternativos junto al canal con moda y comida del mundo.": "Alternative markets by the canal with fashion and world food.",
+  "Barrio de casas de colores y el mercado de antigüedades Portobello.": "Neighbourhood of pastel houses and Portobello antiques market.",
+  "Barrio bohemio de vida nocturna, teatros y restaurantes.": "Bohemian quarter of nightlife, theatres and restaurants.",
+  "Plaza de los cines y los grandes estrenos de Londres.": "London's cinema square and home of film premieres.",
+  "Cuna del meridiano cero y del tiempo universal.": "Home of the Prime Meridian and universal time.",
+  "Jardín tropical y mirador gratuito en lo alto de la City.": "Tropical garden and free viewpoint atop the City.",
+  "Histórico mercado gastronómico con productos de todo el mundo.": "Historic food market with produce from around the world.",
+  "Calle multicultural del curry, los bagels y el arte urbano.": "Multicultural street of curry houses, bagels and street art.",
+  "Icónico restaurante indio inspirado en los cafés de Bombay.": "Iconic Indian restaurant inspired by old Bombay cafés.",
+  "Lujosas salas gastronómicas de los grandes almacenes Harrods.": "Luxurious food halls of the Harrods department store.",
+  "Restaurante de diseño famoso por su rosa Gallery y su té.": "Design restaurant famous for its pink Gallery and afternoon tea.",
+  "Restaurante clásico del West End frecuentado por celebridades.": "Classic West End restaurant frequented by celebrities.",
+  "Londres": "Londres"
+ }
+}

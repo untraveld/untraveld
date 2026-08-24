@@ -1,0 +1,708 @@
+{
+ "id": "hanoi",
+ "name": "Hanói",
+ "country": "WORLD",
+ "center": [
+  21.0285,
+  105.8542
+ ],
+ "pois": [
+  {
+   "id": "w_han_ngoc_son",
+   "cat": "monuments",
+   "name": "Templo Ngoc Son",
+   "icon": "⛩️",
+   "lat": 21.03105,
+   "lng": 105.85248,
+   "desc": "Templo del siglo XVIII sobre un islote del lago Hoan Kiem, unido por el puente rojo Huc."
+  },
+  {
+   "id": "w_han_old_quarter",
+   "cat": "monuments",
+   "name": "Barrio Antiguo",
+   "icon": "🏘️",
+   "lat": 21.034,
+   "lng": 105.8497,
+   "desc": "Laberinto milenario de calles gremiales, casas tubo y vida callejera frenética."
+  },
+  {
+   "id": "w_han_hcm_mausoleum",
+   "cat": "monuments",
+   "name": "Mausoleo de Ho Chi Minh",
+   "icon": "🏛️",
+   "lat": 21.03668,
+   "lng": 105.83472,
+   "desc": "Imponente mausoleo de granito donde reposa embalsamado el líder Ho Chi Minh."
+  },
+  {
+   "id": "w_han_temple_literature",
+   "cat": "monuments",
+   "name": "Templo de la Literatura",
+   "icon": "📜",
+   "lat": 21.02861,
+   "lng": 105.83556,
+   "desc": "Primera universidad de Vietnam (1070), un remanso de patios y estelas de piedra."
+  },
+  {
+   "id": "w_han_one_pillar",
+   "cat": "monuments",
+   "name": "Pagoda del Pilar Único",
+   "icon": "🪷",
+   "lat": 21.03583,
+   "lng": 105.83361,
+   "desc": "Diminuta pagoda de madera sobre un solo pilar que imita una flor de loto."
+  },
+  {
+   "id": "w_han_opera_house",
+   "cat": "monuments",
+   "name": "Ópera de Hanói",
+   "icon": "🎭",
+   "lat": 21.0245,
+   "lng": 105.85778,
+   "desc": "Elegante teatro de la ópera de estilo colonial francés inaugurado en 1911."
+  },
+  {
+   "id": "w_han_st_joseph",
+   "cat": "monuments",
+   "name": "Catedral de San José",
+   "icon": "⛪",
+   "lat": 21.02889,
+   "lng": 105.84917,
+   "desc": "Catedral neogótica de 1886, la iglesia más antigua de Hanói."
+  },
+  {
+   "id": "w_han_tran_quoc",
+   "cat": "monuments",
+   "name": "Pagoda Tran Quoc",
+   "icon": "🛕",
+   "lat": 21.04778,
+   "lng": 105.83778,
+   "desc": "La pagoda budista más antigua de Hanói, sobre un islote del Lago del Oeste."
+  },
+  {
+   "id": "w_han_thang_long_citadel",
+   "cat": "monuments",
+   "name": "Ciudadela Imperial de Thang Long",
+   "icon": "🏯",
+   "lat": 21.03556,
+   "lng": 105.84028,
+   "desc": "Antigua sede del poder imperial vietnamita, Patrimonio de la Humanidad."
+  },
+  {
+   "id": "w_han_quan_thanh",
+   "cat": "monuments",
+   "name": "Templo Quan Thanh",
+   "icon": "🗿",
+   "lat": 21.045,
+   "lng": 105.83694,
+   "desc": "Templo taoísta del siglo XI con una colosal estatua de bronce negro."
+  },
+  {
+   "id": "w_han_long_bien",
+   "cat": "monuments",
+   "name": "Puente Long Bien",
+   "icon": "🌉",
+   "lat": 21.043,
+   "lng": 105.854,
+   "desc": "Histórico puente ferroviario de hierro de 1902 sobre el río Rojo."
+  },
+  {
+   "id": "w_han_hcm_stilt_house",
+   "cat": "monuments",
+   "name": "Casa sobre Pilotes de Ho Chi Minh",
+   "icon": "🏚️",
+   "lat": 21.03806,
+   "lng": 105.83389,
+   "desc": "Sencilla casa de madera donde vivió Ho Chi Minh, entre jardines y un estanque."
+  },
+  {
+   "id": "w_han_hoan_kiem_lake",
+   "cat": "nature",
+   "name": "Lago Hoan Kiem",
+   "icon": "🌳",
+   "lat": 21.02861,
+   "lng": 105.8525,
+   "desc": "El lago-corazón de Hanói, epicentro de paseos, leyendas y vida social."
+  },
+  {
+   "id": "w_han_west_lake",
+   "cat": "nature",
+   "name": "Lago del Oeste (Tay Ho)",
+   "icon": "🌊",
+   "lat": 21.055,
+   "lng": 105.818,
+   "desc": "El mayor lago de la ciudad, rodeado de templos, cafés y puestas de sol."
+  },
+  {
+   "id": "w_han_halong_bay",
+   "cat": "nature",
+   "name": "Bahía de Ha Long (excursión)",
+   "icon": "⛰️",
+   "lat": 20.9,
+   "lng": 107.18333,
+   "desc": "Miles de islotes kársticos sobre aguas esmeralda, Patrimonio de la Humanidad."
+  },
+  {
+   "id": "w_han_trang_an",
+   "cat": "nature",
+   "name": "Trang An - Ninh Binh (excursión)",
+   "icon": "🚣",
+   "lat": 20.25,
+   "lng": 105.90556,
+   "desc": "Ríos entre montañas kársticas y cuevas, la 'Ha Long terrestre'."
+  },
+  {
+   "id": "w_han_truc_bach",
+   "cat": "nature",
+   "name": "Lago Truc Bach",
+   "icon": "🦆",
+   "lat": 21.04528,
+   "lng": 105.84278,
+   "desc": "Tranquilo lago histórico junto al del Oeste, famoso por sus cafés y el caracol."
+  },
+  {
+   "id": "w_han_thong_nhat_park",
+   "cat": "nature",
+   "name": "Parque Thong Nhat",
+   "icon": "🌲",
+   "lat": 21.015,
+   "lng": 105.845,
+   "desc": "El gran parque urbano de Hanói, con lago, arboledas y vida local."
+  },
+  {
+   "id": "w_han_train_street",
+   "cat": "ocio",
+   "name": "Calle del Tren",
+   "icon": "🚂",
+   "lat": 21.02472,
+   "lng": 105.84472,
+   "desc": "Estrecho corredor donde el tren roza las casas y los cafés a diario."
+  },
+  {
+   "id": "w_han_water_puppets",
+   "cat": "ocio",
+   "name": "Teatro de Marionetas de Agua Thang Long",
+   "icon": "🪆",
+   "lat": 21.03139,
+   "lng": 105.85417,
+   "desc": "Arte milenario de marionetas que danzan sobre el agua con música en vivo."
+  },
+  {
+   "id": "w_han_dong_xuan",
+   "cat": "ocio",
+   "name": "Mercado Dong Xuan",
+   "icon": "🛍️",
+   "lat": 21.03833,
+   "lng": 105.84944,
+   "desc": "El mayor mercado cubierto de Hanói, un hervidero de comercio y comida."
+  },
+  {
+   "id": "w_han_ta_hien",
+   "cat": "ocio",
+   "name": "Calle Ta Hien (Beer Street)",
+   "icon": "🍺",
+   "lat": 21.03444,
+   "lng": 105.85167,
+   "desc": "La calle de la cerveza del Barrio Antiguo, taburetes y bia hoi a raudales."
+  },
+  {
+   "id": "w_han_ethnology_museum",
+   "cat": "ocio",
+   "name": "Museo de Etnología de Vietnam",
+   "icon": "🏛️",
+   "lat": 21.04083,
+   "lng": 105.8025,
+   "desc": "El mejor museo del país sobre sus 54 grupos étnicos, con casas al aire libre."
+  },
+  {
+   "id": "w_han_night_market",
+   "cat": "ocio",
+   "name": "Mercado Nocturno de Hang Dao",
+   "icon": "🏮",
+   "lat": 21.03556,
+   "lng": 105.85056,
+   "desc": "Bullicioso mercado callejero de fin de semana desde el lago hasta Dong Xuan."
+  },
+  {
+   "id": "w_han_bun_cha_huong_lien",
+   "cat": "food",
+   "name": "Bun Cha Huong Lien",
+   "icon": "🍜",
+   "lat": 21.0156,
+   "lng": 105.8513,
+   "desc": "El bun cha que hizo famoso Obama, cerdo a la brasa con fideos y caldo."
+  },
+  {
+   "id": "w_han_cafe_giang",
+   "cat": "food",
+   "name": "Cafe Giang (café con huevo)",
+   "icon": "☕",
+   "lat": 21.03444,
+   "lng": 105.8525,
+   "desc": "La cuna del cà phê trung, el famoso café vietnamita con crema de huevo."
+  },
+  {
+   "id": "w_han_cha_ca_thang_long",
+   "cat": "food",
+   "name": "Cha Ca Thang Long",
+   "icon": "🐟",
+   "lat": 21.03294,
+   "lng": 105.84615,
+   "desc": "Pescado a la brasa con cúrcuma y eneldo que se cocina en tu propia mesa."
+  },
+  {
+   "id": "w_han_pho_thin",
+   "cat": "food",
+   "name": "Pho Thin Lo Duc",
+   "icon": "🍲",
+   "lat": 21.01528,
+   "lng": 105.85333,
+   "desc": "Legendario pho de ternera salteada, sin tenedor y con décadas de fama."
+  },
+  {
+   "id": "w_han_banh_mi_25",
+   "cat": "food",
+   "name": "Banh Mi 25",
+   "icon": "🥖",
+   "lat": 21.03583,
+   "lng": 105.85028,
+   "desc": "El bocadillo vietnamita más querido del Barrio Antiguo, crujiente y fresco."
+  },
+  {
+   "id": "w_han_quan_an_ngon",
+   "cat": "food",
+   "name": "Quan An Ngon",
+   "icon": "🍽️",
+   "lat": 21.02472,
+   "lng": 105.84361,
+   "desc": "Puestos de cocina callejera de todo Vietnam reunidos en un patio colonial."
+  }
+ ],
+ "extra": {
+  "w_han_ngoc_son": {
+   "id": "w_han_ngoc_son",
+   "d": "Dedicado al general Tran Hung Dao y al erudito Van Xuong, es uno de los rincones más fotografiados de Hanói. Se llega cruzando el luminoso puente rojo Huc, y en su interior se conserva el ejemplar embalsamado de una gigantesca tortuga del lago, símbolo de la leyenda de la espada devuelta.",
+   "d_en": "Dedicated to general Tran Hung Dao and the scholar Van Xuong, it is one of Hanoi's most photographed spots. You reach it by crossing the bright red The Huc bridge, and inside it preserves the embalmed specimen of a giant lake turtle, symbol of the returned-sword legend.",
+   "h": "Abierto a diario, aprox. 7:00–18:00. Entrada 30.000 VND (~1,10 €). Mejor a primera hora o al atardecer.",
+   "h_en": "Open daily, approx. 7:00–18:00. Entry 30,000 VND (~€1.10). Best early morning or at sunset.",
+   "i": "El puente Huc ('donde se posa la luz del sol') es el punto perfecto para fotos con el lago de fondo.",
+   "i_en": "The The Huc bridge ('where the sunlight rests') is the perfect spot for photos with the lake behind."
+  },
+  "w_han_old_quarter": {
+   "id": "w_han_old_quarter",
+   "d": "El corazón histórico y comercial de Hanói, organizado en 36 calles que tomaron nombre del gremio que allí vendía (seda, plata, hojalata, bambú...). Entre farolillos, terrazas diminutas y motos por doquier, es el mejor lugar para perderse a pie, comer en la calle y sentir el pulso de la ciudad.",
+   "d_en": "The historic and commercial heart of Hanoi, laid out in 36 streets that took their names from the guild that traded there (silk, silver, tin, bamboo...). Amid lanterns, tiny terraces and scooters everywhere, it is the best place to get lost on foot, eat on the street and feel the city's pulse.",
+   "h": "Abierto siempre; las calles se peatonalizan los fines de semana por la noche. Muchas tiendas cierran hacia las 21:00–22:00.",
+   "h_en": "Always open; streets go pedestrian on weekend nights. Many shops close around 21:00–22:00.",
+   "i": "Recorre a pie las calles Hang Bac, Hang Ma y Ta Hien para captar su esencia gremial.",
+   "i_en": "Walk Hang Bac, Hang Ma and Ta Hien streets to capture the guild atmosphere."
+  },
+  "w_han_hcm_mausoleum": {
+   "id": "w_han_hcm_mausoleum",
+   "d": "Situado en la histórica plaza Ba Dinh, donde Ho Chi Minh declaró la independencia de Vietnam en 1945, este monumento monumental de granito gris alberga su cuerpo embalsamado. La visita se hace en fila y silencio, con estricto código de vestimenta, y forma parte de un complejo con el Palacio Presidencial y la casa sobre pilotes.",
+   "d_en": "Set on the historic Ba Dinh Square, where Ho Chi Minh declared Vietnam's independence in 1945, this monumental grey-granite building holds his embalmed body. The visit is made in line and in silence, with a strict dress code, and is part of a complex with the Presidential Palace and the stilt house.",
+   "h": "Mar–jue y sáb–dom, aprox. 8:00–11:00 (cierra lun y vie; suele cerrar en oct–nov por mantenimiento). Gratis.",
+   "h_en": "Tue–Thu and Sat–Sun, approx. 8:00–11:00 (closed Mon and Fri; usually closed Oct–Nov for maintenance). Free.",
+   "i": "Hombros y rodillas cubiertos, prohibido fotografiar dentro y dejar bolsos y cámaras en consigna.",
+   "i_en": "Shoulders and knees covered, no photos inside, and bags and cameras must be left at the counter."
+  },
+  "w_han_temple_literature": {
+   "id": "w_han_temple_literature",
+   "d": "Fundado en 1070 en honor a Confucio, alberga el Quoc Tu Giam, la primera universidad nacional del país. Sus cinco patios sucesivos, estanques y pabellones culminan en las famosas estelas sobre tortugas de piedra que registran a los doctores graduados. Es un oasis de calma y el monumento que aparece en el billete de 100.000 dong.",
+   "d_en": "Founded in 1070 in honour of Confucius, it houses the Quoc Tu Giam, the country's first national university. Its five successive courtyards, ponds and pavilions culminate in the famous stelae on stone turtles recording the graduated doctors. It is an oasis of calm and the monument shown on the 100,000-dong banknote.",
+   "h": "Abierto a diario, aprox. 8:00–17:00 (hasta 18:00 en verano). Entrada 70.000 VND (~2,60 €).",
+   "h_en": "Open daily, approx. 8:00–17:00 (until 18:00 in summer). Entry 70,000 VND (~€2.60).",
+   "i": "Los estudiantes acuden aquí a graduarse; verás sesiones de fotos con ao dai en temporada.",
+   "i_en": "Students come here to celebrate graduation; you'll see ao dai photo shoots in season."
+  },
+  "w_han_one_pillar": {
+   "id": "w_han_one_pillar",
+   "d": "Construida en 1049 por el emperador Ly Thai Tong, esta singular pagoda se alza sobre un único pilar de piedra en medio de un estanque, evocando una flor de loto que emerge del agua. Símbolo de pureza en el budismo, es uno de los emblemas de Hanói y queda junto al complejo del Mausoleo.",
+   "d_en": "Built in 1049 by emperor Ly Thai Tong, this unique pagoda stands on a single stone pillar in the middle of a pond, evoking a lotus flower rising from the water. A Buddhist symbol of purity, it is one of Hanoi's emblems and sits next to the Mausoleum complex.",
+   "h": "Abierto a diario, aprox. 7:00–18:00. Entrada gratuita.",
+   "h_en": "Open daily, approx. 7:00–18:00. Free entry.",
+   "i": "Se visita en la misma salida que el Mausoleo y la casa sobre pilotes; reserva 15 minutos.",
+   "i_en": "Visit it on the same outing as the Mausoleum and stilt house; allow about 15 minutes."
+  },
+  "w_han_opera_house": {
+   "id": "w_han_opera_house",
+   "d": "Inspirada en la Ópera Garnier de París, esta joya colonial de 1911 preside una plaza señorial con su fachada de columnas amarillas y su cúpula. Sigue siendo la principal sala de conciertos y ópera de la ciudad, y su interior de terciopelo rojo y arañas de cristal solo se ve asistiendo a una función o en visitas guiadas puntuales.",
+   "d_en": "Inspired by the Palais Garnier in Paris, this 1911 colonial gem presides over a stately square with its yellow columned façade and dome. It remains the city's main concert and opera hall, and its red-velvet interior with crystal chandeliers can only be seen by attending a performance or occasional guided tours.",
+   "h": "Exterior visible siempre; el interior solo con entrada a un espectáculo o tour programado.",
+   "h_en": "Exterior visible anytime; interior only with a show ticket or scheduled tour.",
+   "i": "El espectáculo 'My Village' de acrobacia y bambú es una gran forma de ver el interior.",
+   "i_en": "The bamboo-and-acrobatics show 'My Village' is a great way to see the interior."
+  },
+  "w_han_st_joseph": {
+   "id": "w_han_st_joseph",
+   "d": "Con sus dos torres gemelas y su piedra ennegrecida por el tiempo, esta catedral de 1886 recuerda a Notre-Dame de París en versión tropical. Es el centro de la comunidad católica de la ciudad y su plaza, rodeada de cafés y heladerías, es un punto de encuentro animado a cualquier hora.",
+   "d_en": "With its twin towers and time-blackened stone, this 1886 cathedral recalls a tropical version of Notre-Dame de Paris. It is the centre of the city's Catholic community and its square, lined with cafés and ice-cream shops, is a lively meeting point at any hour.",
+   "h": "Abierta a diario; interior accesible sobre todo en horas de misa (mañana y tarde). Entrada gratuita.",
+   "h_en": "Open daily; interior mainly accessible around mass times (morning and evening). Free entry.",
+   "i": "Prueba el té de limón (tra chanh) en las terrazas de la plaza frente a la fachada.",
+   "i_en": "Try lemon tea (tra chanh) on the terraces of the square facing the façade."
+  },
+  "w_han_tran_quoc": {
+   "id": "w_han_tran_quoc",
+   "d": "Con más de 1.500 años de historia, Tran Quoc se alza sobre una pequeña península del Lago del Oeste, unida por una calzada. Su esbelta torre roja de once pisos, cada uno con un Buda de piedra, se refleja en el agua y ofrece una de las estampas más serenas y espirituales de la ciudad, especialmente al atardecer.",
+   "d_en": "With over 1,500 years of history, Tran Quoc rises on a small peninsula of West Lake, linked by a causeway. Its slender red eleven-storey tower, each level with a stone Buddha, reflects in the water and offers one of the city's most serene and spiritual scenes, especially at sunset.",
+   "h": "Abierta a diario, aprox. 8:00–16:00. Entrada gratuita (respeta el código de templo).",
+   "h_en": "Open daily, approx. 8:00–16:00. Free entry (observe temple dress code).",
+   "i": "Combínala con un paseo por la calzada entre el Lago del Oeste y el lago Truc Bach.",
+   "i_en": "Combine it with a stroll along the causeway between West Lake and Truc Bach Lake."
+  },
+  "w_han_thang_long_citadel": {
+   "id": "w_han_thang_long_citadel",
+   "d": "Centro político de Vietnam durante trece siglos, esta ciudadela declarada Patrimonio de la Humanidad conserva puertas monumentales, el pabellón de la bandera, restos arqueológicos de palacios y los búnkeres subterráneos usados durante la guerra de Vietnam. Un recorrido que abarca desde las dinastías antiguas hasta el siglo XX.",
+   "d_en": "Vietnam's political centre for thirteen centuries, this World Heritage citadel preserves monumental gates, the flag tower, archaeological palace remains and the underground bunkers used during the Vietnam War. A tour spanning from ancient dynasties to the 20th century.",
+   "h": "Mar–dom, aprox. 8:00–17:00 (cerrado lun). Entrada 70.000 VND (~2,60 €).",
+   "h_en": "Tue–Sun, approx. 8:00–17:00 (closed Mon). Entry 70,000 VND (~€2.60).",
+   "i": "No te pierdas el búnker D67, sala de mando militar durante la guerra.",
+   "i_en": "Don't miss bunker D67, the military command room during the war."
+  },
+  "w_han_quan_thanh": {
+   "id": "w_han_quan_thanh",
+   "d": "Uno de los cuatro templos guardianes de la antigua Thang Long, dedicado a Tran Vu, dios del norte. Su tesoro es una imponente estatua de bronce negro de casi cuatro metros y unas cuatro toneladas, fundida en 1677. Situado junto al lago Truc Bach, es una visita tranquila cargada de historia taoísta.",
+   "d_en": "One of the four guardian temples of ancient Thang Long, dedicated to Tran Vu, god of the north. Its treasure is an imposing black bronze statue nearly four metres tall and about four tonnes, cast in 1677. Located beside Truc Bach Lake, it is a quiet visit steeped in Taoist history.",
+   "h": "Abierto a diario, aprox. 8:00–17:00. Entrada 10.000 VND (~0,40 €).",
+   "h_en": "Open daily, approx. 8:00–17:00. Entry 10,000 VND (~€0.40).",
+   "i": "Queda de camino a la pagoda Tran Quoc; ambas se ven en la misma zona del lago.",
+   "i_en": "It's on the way to Tran Quoc pagoda; both can be seen in the same lakeside area."
+  },
+  "w_han_long_bien": {
+   "id": "w_han_long_bien",
+   "d": "Diseñado en la era colonial francesa e inaugurado en 1902, este largo puente de hierro cruza el río Rojo y sobrevivió a intensos bombardeos durante la guerra. Hoy lo usan trenes, motos, bicis y peatones, y caminar por sus pasarelas al atardecer, con vistas a los bancos de arena y los cultivos ribereños, es una experiencia muy local.",
+   "d_en": "Designed in the French colonial era and opened in 1902, this long iron bridge crosses the Red River and survived heavy bombing during the war. Today it carries trains, scooters, bikes and pedestrians, and walking its footways at sunset, overlooking the sandbanks and riverside crops, is a very local experience.",
+   "h": "Accesible siempre; mejor de día o al atardecer. Gratuito.",
+   "h_en": "Accessible anytime; best by day or at sunset. Free.",
+   "i": "Cruza a pie hasta los huertos de la isla del río para vistas del puente y la ciudad.",
+   "i_en": "Walk across to the river-island gardens for views of the bridge and the city."
+  },
+  "w_han_hcm_stilt_house": {
+   "id": "w_han_hcm_stilt_house",
+   "d": "Dentro del recinto del Palacio Presidencial, esta modesta casa de madera sobre pilotes fue la residencia de Ho Chi Minh entre 1958 y 1969. Rodeada de mangos, un estanque de carpas y jardines cuidados, refleja la austeridad que cultivaba el líder y contrasta con el vecino palacio amarillo de época colonial.",
+   "d_en": "Within the Presidential Palace grounds, this modest wooden stilt house was Ho Chi Minh's residence between 1958 and 1969. Surrounded by mango trees, a carp pond and tended gardens, it reflects the austerity the leader cultivated and contrasts with the neighbouring yellow colonial-era palace.",
+   "h": "Mar–dom, aprox. 8:00–11:00 y 14:00–16:00. Entrada 40.000 VND (~1,50 €).",
+   "h_en": "Tue–Sun, approx. 8:00–11:00 and 14:00–16:00. Entry 40,000 VND (~€1.50).",
+   "i": "Se visita tras el Mausoleo, en el mismo recorrido peatonal del complejo Ba Dinh.",
+   "i_en": "Visited after the Mausoleum, on the same walking route through the Ba Dinh complex."
+  },
+  "w_han_hoan_kiem_lake": {
+   "id": "w_han_hoan_kiem_lake",
+   "d": "Llamado 'lago de la Espada Restituida', es el alma verde de Hanói: sus orillas arboladas se llenan al amanecer de tai chi y corredores, y al atardecer de familias, parejas y músicos. En el centro emerge la pequeña Torre de la Tortuga, y una leyenda cuenta cómo una tortuga divina reclamó aquí la espada mágica de un emperador.",
+   "d_en": "Called the 'Lake of the Returned Sword', it is Hanoi's green soul: its tree-lined shores fill at dawn with tai chi and joggers, and at dusk with families, couples and musicians. The small Turtle Tower rises at its centre, and legend tells how a divine turtle reclaimed an emperor's magic sword here.",
+   "h": "Accesible siempre; el perímetro es peatonal los fines de semana por la tarde y noche.",
+   "h_en": "Accessible anytime; the perimeter is pedestrianised on weekend afternoons and evenings.",
+   "i": "Ven al amanecer para ver el tai chi o el sábado noche por el ambiente festivo del paseo.",
+   "i_en": "Come at dawn for the tai chi or on Saturday night for the festive promenade atmosphere."
+  },
+  "w_han_west_lake": {
+   "id": "w_han_west_lake",
+   "d": "Con unos 17 km de perímetro, el Lago del Oeste es el mayor de Hanói y el corazón del cosmopolita barrio de Tay Ho. Sus orillas concentran templos como Tran Quoc, restaurantes con vistas, cafés de moda y jardines de loto. Recorrerlo en bici o pararse a ver el atardecer sobre el agua es un plan clásico entre locales y expatriados.",
+   "d_en": "About 17 km around, West Lake is Hanoi's largest and the heart of the cosmopolitan Tay Ho district. Its shores gather temples like Tran Quoc, restaurants with views, trendy cafés and lotus gardens. Cycling around it or stopping to watch the sunset over the water is a classic plan among locals and expats.",
+   "h": "Accesible siempre; los cafés de la orilla suelen abrir de la mañana a la noche.",
+   "h_en": "Accessible anytime; the lakeside cafés generally open from morning to night.",
+   "i": "En verano florecen los estanques de loto de Tay Ho, ideales para fotos al amanecer.",
+   "i_en": "In summer the Tay Ho lotus ponds bloom, ideal for photos at dawn."
+  },
+  "w_han_halong_bay": {
+   "id": "w_han_halong_bay",
+   "d": "A unas 2,5–3 horas de Hanói, la Bahía de Ha Long despliega casi 2.000 islas e islotes de piedra caliza que brotan de un mar color esmeralda, con cuevas, grutas y aldeas flotantes. Es una de las excursiones estrella desde la capital, ideal en crucero de un día o con noche a bordo de un junco tradicional.",
+   "d_en": "About 2.5–3 hours from Hanoi, Ha Long Bay unfolds nearly 2,000 limestone islands and islets rising from an emerald sea, with caves, grottoes and floating villages. It is one of the star excursions from the capital, best done on a day cruise or an overnight aboard a traditional junk.",
+   "h": "Excursión de día completo o 2 días/1 noche desde Hanói; salidas de mañana en autobús o coche.",
+   "h_en": "Full-day or 2-day/1-night excursion from Hanoi; morning departures by bus or car.",
+   "i": "Si tienes tiempo, elige el crucero con noche a bordo para ver la bahía sin multitudes.",
+   "i_en": "If you have time, choose the overnight cruise to see the bay without the crowds."
+  },
+  "w_han_trang_an": {
+   "id": "w_han_trang_an",
+   "d": "En la provincia de Ninh Binh, a unas 2 horas al sur de Hanói, Trang An es un complejo paisajístico Patrimonio de la Humanidad donde barcas de remo se deslizan entre arrozales, acantilados de piedra caliza, templos y cuevas inundadas. Junto con Tam Coc y la antigua capital Hoa Lu, forma una escapada de naturaleza espectacular.",
+   "d_en": "In Ninh Binh province, about 2 hours south of Hanoi, Trang An is a World Heritage scenic complex where rowing boats glide among rice paddies, limestone cliffs, temples and flooded caves. Together with Tam Coc and the ancient capital Hoa Lu, it makes a spectacular nature getaway.",
+   "h": "Excursión de día completo desde Hanói; los embarcaderos abren aprox. 7:00–16:00.",
+   "h_en": "Full-day excursion from Hanoi; the boat piers open approx. 7:00–16:00.",
+   "i": "El paseo en barca de Trang An dura unas 3 horas y atraviesa varias cuevas; lleva agua y sombrero.",
+   "i_en": "The Trang An boat trip lasts about 3 hours through several caves; bring water and a hat."
+  },
+  "w_han_truc_bach": {
+   "id": "w_han_truc_bach",
+   "d": "Separado del Lago del Oeste por la calzada de Thanh Nien, este lago más íntimo tiene un aire retro con cafés flotantes y patines con forma de cisne. Aquí se estrelló el avión del piloto John McCain en 1967, hecho que recuerda un pequeño monumento en la orilla. Al anochecer es un buen sitio para probar el famoso caracol de Hanói.",
+   "d_en": "Separated from West Lake by the Thanh Nien causeway, this more intimate lake has a retro feel with floating cafés and swan pedal boats. Pilot John McCain's plane crashed here in 1967, recalled by a small memorial on the shore. At dusk it's a good place to try Hanoi's famous snail dishes.",
+   "h": "Accesible siempre; los cafés y puestos de caracol animan la tarde-noche.",
+   "h_en": "Accessible anytime; the cafés and snail stalls liven up the evening.",
+   "i": "Busca el monumento a McCain en la orilla suroeste, junto a la calzada.",
+   "i_en": "Look for the McCain memorial on the southwest shore, by the causeway."
+  },
+  "w_han_thong_nhat_park": {
+   "id": "w_han_thong_nhat_park",
+   "d": "También conocido como parque de la Reunificación, es el mayor pulmón verde del centro de Hanói, organizado en torno al lago Bay Mau. Amplias avenidas arboladas, islas, embarcaderos y zonas de juegos lo convierten en el lugar favorito de los hanoenses para hacer deporte al amanecer, pasear en familia o escapar del bullicio.",
+   "d_en": "Also known as Reunification Park, it is the largest green space in central Hanoi, laid out around Bay Mau Lake. Wide tree-lined avenues, islands, jetties and play areas make it the favourite place for Hanoians to exercise at dawn, stroll with family or escape the bustle.",
+   "h": "Abierto a diario, aprox. 5:00–22:00. Entrada gratuita.",
+   "h_en": "Open daily, approx. 5:00–22:00. Free entry.",
+   "i": "Ideal al amanecer para ver a los locales practicar tai chi, aeróbic y bádminton.",
+   "i_en": "Great at dawn to watch locals doing tai chi, aerobics and badminton."
+  },
+  "w_han_train_street": {
+   "id": "w_han_train_street",
+   "d": "Una vía férrea centenaria atraviesa un callejón residencial tan estrecho que el tren pasa a centímetros de las puertas, terrazas y coladas. Los vecinos han abierto cafés a ambos lados y, minutos antes del paso del convoy, retiran mesas y sillas en una coreografía única. Un espectáculo urbano tan fotogénico como surrealista.",
+   "d_en": "A century-old railway runs through a residential alley so narrow that the train passes centimetres from doors, terraces and laundry. Residents have opened cafés on both sides and, minutes before the train comes, pull tables and chairs back in a unique choreography. An urban spectacle as photogenic as it is surreal.",
+   "h": "El acceso depende de las autoridades y los horarios de tren varían; consulta los pasos del día en un café.",
+   "h_en": "Access depends on the authorities and train times vary; check the day's passing times at a café.",
+   "i": "Solo se accede consumiendo en un café; respeta las señales y aléjate de la vía al pasar el tren.",
+   "i_en": "Access is only by ordering at a café; obey the signs and step back from the track as the train passes."
+  },
+  "w_han_water_puppets": {
+   "id": "w_han_water_puppets",
+   "d": "El teatro de marionetas de agua nació hace mil años en los arrozales del delta del río Rojo. En el Thang Long, junto al lago Hoan Kiem, los titiriteros manejan las figuras ocultos tras una cortina, sobre un estanque, mientras una orquesta tradicional y cantantes acompañan escenas de leyendas, cosechas y dragones. Un espectáculo familiar muy vietnamita.",
+   "d_en": "Water puppetry was born a thousand years ago in the rice paddies of the Red River delta. At the Thang Long theatre, beside Hoan Kiem Lake, puppeteers work the figures hidden behind a screen over a pool, while a traditional orchestra and singers accompany scenes of legends, harvests and dragons. A very Vietnamese family show.",
+   "h": "Varias funciones diarias (aprox. 16:00–20:00). Entrada 100.000–200.000 VND (~3,70–7,40 €).",
+   "h_en": "Several daily shows (approx. 16:00–20:00). Tickets 100,000–200,000 VND (~€3.70–7.40).",
+   "i": "Reserva con antelación; los mejores asientos son los de las filas centrales.",
+   "i_en": "Book in advance; the best seats are in the central rows."
+  },
+  "w_han_dong_xuan": {
+   "id": "w_han_dong_xuan",
+   "d": "Alojado en un edificio colonial de tres plantas en el norte del Barrio Antiguo, Dong Xuan es el mercado mayorista y minorista más grande de la ciudad. Textiles, ropa, souvenirs, electrónica y toda clase de productos se apilan en pasillos abarrotados, mientras el perímetro y la parte trasera se llenan de puestos de comida callejera.",
+   "d_en": "Housed in a three-storey colonial building in the north of the Old Quarter, Dong Xuan is the city's largest wholesale and retail market. Textiles, clothing, souvenirs, electronics and all kinds of goods pile up in crowded aisles, while the perimeter and rear fill with street-food stalls.",
+   "h": "Abierto a diario, aprox. 6:00–18:00; mercado nocturno los fines de semana.",
+   "h_en": "Open daily, approx. 6:00–18:00; night market on weekends.",
+   "i": "Rodea el mercado por detrás para encontrar los mejores puestos de fideos y caracol.",
+   "i_en": "Go around the back of the market for the best noodle and snail stalls."
+  },
+  "w_han_ta_hien": {
+   "id": "w_han_ta_hien",
+   "d": "Al caer la noche, esta esquina del Barrio Antiguo se transforma en un mar de taburetes de plástico, luces de neón y jarras de bia hoi, la cerveza artesanal ligera y baratísima que se sirve fresca cada día. Punto de encuentro de viajeros y jóvenes locales, es el epicentro de la vida nocturna más animada y económica de Hanói.",
+   "d_en": "At nightfall, this Old Quarter corner turns into a sea of plastic stools, neon lights and jugs of bia hoi, the light, dirt-cheap draught beer served fresh each day. A meeting point for travellers and young locals, it is the epicentre of Hanoi's liveliest, cheapest nightlife.",
+   "h": "Ambiente sobre todo de 18:00 a medianoche; los fines de semana la calle se peatonaliza.",
+   "h_en": "Buzzing mainly from 18:00 to midnight; the street goes pedestrian on weekends.",
+   "i": "Una jarra de bia hoi cuesta apenas unos céntimos; ideal para empezar la noche.",
+   "i_en": "A glass of bia hoi costs just a few cents; perfect to start the night."
+  },
+  "w_han_ethnology_museum": {
+   "id": "w_han_ethnology_museum",
+   "d": "Considerado el museo más completo de Vietnam, expone trajes, herramientas, instrumentos y rituales de los 54 grupos étnicos del país. Su gran atractivo es el jardín exterior, donde se han reconstruido a tamaño real casas comunales, viviendas largas y tumbas de distintas etnias, permitiendo entrar y recorrerlas. Muy didáctico y familiar.",
+   "d_en": "Regarded as Vietnam's most complete museum, it displays costumes, tools, instruments and rituals of the country's 54 ethnic groups. Its main draw is the outdoor garden, where communal houses, longhouses and tombs of different ethnicities have been rebuilt at full scale, so you can walk inside them. Very educational and family-friendly.",
+   "h": "Mar–dom, aprox. 8:30–17:30 (cerrado lun). Entrada 40.000 VND (~1,50 €).",
+   "h_en": "Tue–Sun, approx. 8:30–17:30 (closed Mon). Entry 40,000 VND (~€1.50).",
+   "i": "Está algo alejado del centro; reserva media jornada e incluye el jardín de casas.",
+   "i_en": "It's a bit far from the centre; allow half a day and include the house garden."
+  },
+  "w_han_night_market": {
+   "id": "w_han_night_market",
+   "d": "Los viernes, sábados y domingos por la noche, la calle Hang Dao y sus continuaciones se peatonalizan y se llenan de puestos que van desde el lago Hoan Kiem hasta el mercado Dong Xuan. Ropa, souvenirs, juguetes y, sobre todo, comida callejera convierten este recorrido de casi un kilómetro en un paseo festivo bajo los farolillos.",
+   "d_en": "On Friday, Saturday and Sunday nights, Hang Dao street and its continuations go pedestrian and fill with stalls running from Hoan Kiem Lake up to Dong Xuan market. Clothing, souvenirs, toys and above all street food turn this almost one-kilometre stretch into a festive walk under the lanterns.",
+   "h": "Vie–dom por la noche, aprox. 18:00–23:00.",
+   "h_en": "Fri–Sun evenings, approx. 18:00–23:00.",
+   "i": "Ve con hambre: es perfecto para picar de puesto en puesto mientras paseas.",
+   "i_en": "Go hungry: it's perfect for snacking from stall to stall as you wander."
+  },
+  "w_han_bun_cha_huong_lien": {
+   "id": "w_han_bun_cha_huong_lien",
+   "d": "Este bullicioso local saltó a la fama mundial en 2016, cuando Barack Obama cenó aquí con el chef Anthony Bourdain. Su especialidad es el bun cha: albóndigas y panceta de cerdo a la brasa servidas en un caldo agridulce con fideos de arroz y hierbas frescas. El popular 'combo Obama' incluye además un rollito de marisco.",
+   "d_en": "This busy eatery shot to global fame in 2016 when Barack Obama dined here with chef Anthony Bourdain. Its speciality is bun cha: grilled pork patties and belly served in a sweet-and-sour broth with rice noodles and fresh herbs. The popular 'Obama combo' also includes a seafood spring roll.",
+   "h": "Todos los días, aprox. 8:00–20:30. Plato principal desde ~60.000 VND (~2,20 €).",
+   "h_en": "Daily, approx. 8:00–20:30. Main dish from ~60,000 VND (~€2.20).",
+   "i": "Pide el 'combo Obama' (bun cha + rollito) para la experiencia completa.",
+   "i_en": "Order the 'Obama combo' (bun cha + spring roll) for the full experience."
+  },
+  "w_han_cafe_giang": {
+   "id": "w_han_cafe_giang",
+   "d": "Fundado en 1946, este café escondido al fondo de un pasaje es el inventor del cà phê trung, el café con huevo: una crema batida de yema y leche condensada sobre café caliente que sabe a tiramisú líquido. Sentarse en sus taburetes bajos y probar esta especialidad hanoense es casi un rito de paso en la ciudad.",
+   "d_en": "Founded in 1946, this café hidden at the end of a passage is the inventor of ca phe trung, egg coffee: a whipped cream of yolk and condensed milk over hot coffee that tastes like liquid tiramisu. Sitting on its low stools to try this Hanoian speciality is almost a rite of passage in the city.",
+   "h": "Todos los días, aprox. 7:00–22:00. Café con huevo desde ~30.000 VND (~1,10 €).",
+   "h_en": "Daily, approx. 7:00–22:00. Egg coffee from ~30,000 VND (~€1.10).",
+   "i": "Está al fondo de un estrecho pasaje en el 39 de Nguyen Huu Huan; no te rindas al buscarlo.",
+   "i_en": "It's at the end of a narrow passage at 39 Nguyen Huu Huan; don't give up looking for it."
+  },
+  "w_han_cha_ca_thang_long": {
+   "id": "w_han_cha_ca_thang_long",
+   "d": "El cha ca es un plato emblemático de Hanói: tacos de pescado marinados en cúrcuma que se terminan de freír en una sartén sobre brasas en la mesa, junto a montañas de eneldo y cebolleta. Se sirve con fideos de arroz, cacahuetes y salsa de gambas fermentadas. Thang Long es uno de los restaurantes más reputados para probarlo.",
+   "d_en": "Cha ca is an iconic Hanoi dish: turmeric-marinated fish chunks finished off in a pan over coals at your table, with mounds of dill and spring onion. It's served with rice noodles, peanuts and fermented shrimp sauce. Thang Long is one of the most reputed restaurants to try it.",
+   "h": "Todos los días, aprox. 10:00–22:00. Ración desde ~130.000 VND (~4,80 €).",
+   "h_en": "Daily, approx. 10:00–22:00. Portion from ~130,000 VND (~€4.80).",
+   "i": "Es prácticamente un plato único; deja que el camarero te enseñe a mezclarlo la primera vez.",
+   "i_en": "It's essentially a single dish; let the waiter show you how to mix it the first time."
+  },
+  "w_han_pho_thin": {
+   "id": "w_han_pho_thin",
+   "d": "Abierto desde 1979, Pho Thin es una institución hanoense famosa por su versión particular del pho: la ternera se saltea con ajo y jengibre antes de sumergirla en el caldo, y el cuenco llega coronado de cebolleta picada. Local sencillo, colas frecuentes y una sola cosa que pedir hecha a la perfección.",
+   "d_en": "Open since 1979, Pho Thin is a Hanoi institution famous for its distinctive take on pho: the beef is stir-fried with garlic and ginger before going into the broth, and the bowl arrives crowned with chopped spring onion. Plain setting, frequent queues and just one thing to order, done to perfection.",
+   "h": "Todos los días, aprox. 6:00–20:30. Cuenco desde ~60.000 VND (~2,20 €).",
+   "h_en": "Daily, approx. 6:00–20:30. Bowl from ~60,000 VND (~€2.20).",
+   "i": "Solo sirven pho de ternera; siéntate donde puedas y comparte mesa, es lo normal.",
+   "i_en": "They only serve beef pho; sit where you can and share a table, it's the norm."
+  },
+  "w_han_banh_mi_25": {
+   "id": "w_han_banh_mi_25",
+   "d": "Este puesto convertido en pequeño local es una de las paradas de comida callejera más populares de Hanói. Su banh mi combina el pan crujiente de herencia francesa con paté, carnes, verduras encurtidas, cilantro y salsas, en variantes de cerdo, pollo o vegetariana. Rápido, barato y siempre recién hecho.",
+   "d_en": "This stall-turned-small-shop is one of Hanoi's most popular street-food stops. Its banh mi combines the French-legacy crusty bread with pâté, meats, pickled vegetables, coriander and sauces, in pork, chicken or vegetarian versions. Fast, cheap and always freshly made.",
+   "h": "Todos los días, aprox. 7:00–21:00. Bocadillo desde ~30.000 VND (~1,10 €).",
+   "h_en": "Daily, approx. 7:00–21:00. Sandwich from ~30,000 VND (~€1.10).",
+   "i": "Hay mesas al otro lado de la calle; pide el banh mi de cerdo si dudas.",
+   "i_en": "There's seating across the street; order the pork banh mi if unsure."
+  },
+  "w_han_quan_an_ngon": {
+   "id": "w_han_quan_an_ngon",
+   "d": "Instalado en una elegante villa colonial con patio, este popular restaurante reúne bajo un mismo techo decenas de puestos que cocinan especialidades de todo el país: nem, banh xeo, bun, pho, mariscos y postres. Es una forma cómoda y muy sabrosa de probar de golpe la enorme variedad de la cocina vietnamita.",
+   "d_en": "Set in an elegant colonial villa with a courtyard, this popular restaurant gathers dozens of stalls under one roof cooking specialities from across the country: nem, banh xeo, bun, pho, seafood and desserts. It's a comfortable and delicious way to sample the huge variety of Vietnamese cuisine at once.",
+   "h": "Todos los días, aprox. 7:00–22:00. Platos desde ~60.000 VND (~2,20 €).",
+   "h_en": "Daily, approx. 7:00–22:00. Dishes from ~60,000 VND (~€2.20).",
+   "i": "Perfecto para grupos: pedid varios platos para compartir y probar de todo.",
+   "i_en": "Great for groups: order several dishes to share and taste a bit of everything."
+  }
+ },
+ "food": {
+  "w_han_bun_cha_huong_lien": {
+   "cuisine": "Vietnamita - bun cha",
+   "price": "3–6 €",
+   "hours": "Todos los días, aprox. 8:00–20:30."
+  },
+  "w_han_cafe_giang": {
+   "cuisine": "Cafetería - café con huevo",
+   "price": "1–3 €",
+   "hours": "Todos los días, aprox. 7:00–22:00."
+  },
+  "w_han_cha_ca_thang_long": {
+   "cuisine": "Vietnamita - cha ca (pescado)",
+   "price": "5–10 €",
+   "hours": "Todos los días, aprox. 10:00–22:00."
+  },
+  "w_han_pho_thin": {
+   "cuisine": "Vietnamita - pho",
+   "price": "2–4 €",
+   "hours": "Todos los días, aprox. 6:00–20:30."
+  },
+  "w_han_banh_mi_25": {
+   "cuisine": "Vietnamita - banh mi",
+   "price": "1–3 €",
+   "hours": "Todos los días, aprox. 7:00–21:00."
+  },
+  "w_han_quan_an_ngon": {
+   "cuisine": "Vietnamita - variada",
+   "price": "5–12 €",
+   "hours": "Todos los días, aprox. 7:00–22:00."
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Hanói",
+   "items": [
+    {
+     "name": "Café vietnamita y filtro phin",
+     "price": "3–12 €",
+     "desc": "Café robusta molido con el clásico filtro metálico phin para prepararlo en casa."
+    },
+    {
+     "name": "Seda y ao dai",
+     "price": "10–60 €",
+     "desc": "Pañuelos, blusas y el traje tradicional ao dai, especialidad de la calle Hang Gai."
+    },
+    {
+     "name": "Laca vietnamita (son mai)",
+     "price": "5–40 €",
+     "desc": "Cuencos, bandejas y cuadros de laca brillante hechos a mano."
+    },
+    {
+     "name": "Marionetas de agua",
+     "price": "4–15 €",
+     "desc": "Figuras de madera pintada inspiradas en el teatro tradicional acuático."
+    },
+    {
+     "name": "Sombrero cónico (non la)",
+     "price": "2–6 €",
+     "desc": "El icónico sombrero de hoja de palma, ligero y muy fotogénico."
+    },
+    {
+     "name": "Té y especias",
+     "price": "3–15 €",
+     "desc": "Té de loto, té verde y canela de Vietnam en presentaciones de regalo."
+    }
+   ],
+   "shops": [
+    "Calle Hang Gai (seda)",
+    "Mercado Dong Xuan",
+    "Barrio Antiguo (Hang Bac, Hang Ma)",
+    "Craft Link (cerca del Templo de la Literatura)",
+    "Mercado nocturno de fin de semana"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Cruza siempre con paso firme y constante: el tráfico de motos te esquiva si eres predecible; no te detengas de golpe.",
+   "Regatea con una sonrisa en mercados como Dong Xuan; pagar la mitad del primer precio suele ser justo.",
+   "Lleva efectivo en dong (VND) para puestos de comida y taxis pequeños; muchos no aceptan tarjeta.",
+   "Usa apps como Grab para taxis y motos con precio cerrado y evitar sorpresas.",
+   "Prueba la comida callejera en puestos concurridos y con rotación alta: suelen ser los más frescos y seguros."
+  ],
+  "en": [
+   "Cross the street at a steady, predictable pace: the scooter traffic flows around you if you don't stop suddenly.",
+   "Haggle with a smile at markets like Dong Xuan; paying about half the first price is usually fair.",
+   "Carry cash in dong (VND) for street food and small taxis; many don't take cards.",
+   "Use apps like Grab for taxis and motorbikes with a fixed price and no surprises.",
+   "Eat street food at busy stalls with high turnover: they tend to be the freshest and safest."
+  ]
+ },
+ "climate": {
+  "hi": [
+   20,
+   21,
+   24,
+   28,
+   32,
+   33,
+   33,
+   32,
+   31,
+   29,
+   26,
+   22
+  ],
+  "lo": [
+   14,
+   15,
+   18,
+   21,
+   24,
+   26,
+   26,
+   26,
+   25,
+   22,
+   18,
+   15
+  ]
+ },
+ "tr": {
+  "Templo del siglo XVIII sobre un islote del lago Hoan Kiem, unido por el puente rojo Huc.": "18th-century temple on an islet of Hoan Kiem Lake, reached by the red The Huc bridge.",
+  "Laberinto milenario de calles gremiales, casas tubo y vida callejera frenética.": "Thousand-year-old maze of guild streets, tube houses and frantic street life.",
+  "Imponente mausoleo de granito donde reposa embalsamado el líder Ho Chi Minh.": "Imposing granite mausoleum where the embalmed leader Ho Chi Minh rests.",
+  "Primera universidad de Vietnam (1070), un remanso de patios y estelas de piedra.": "Vietnam's first university (1070), a haven of courtyards and stone stelae.",
+  "Diminuta pagoda de madera sobre un solo pilar que imita una flor de loto.": "Tiny wooden pagoda on a single pillar imitating a lotus flower.",
+  "Elegante teatro de la ópera de estilo colonial francés inaugurado en 1911.": "Elegant French colonial-style opera house opened in 1911.",
+  "Catedral neogótica de 1886, la iglesia más antigua de Hanói.": "Neo-Gothic cathedral from 1886, the oldest church in Hanoi.",
+  "La pagoda budista más antigua de Hanói, sobre un islote del Lago del Oeste.": "Hanoi's oldest Buddhist pagoda, on an islet of West Lake.",
+  "Antigua sede del poder imperial vietnamita, Patrimonio de la Humanidad.": "Former seat of Vietnamese imperial power, a UNESCO World Heritage Site.",
+  "Templo taoísta del siglo XI con una colosal estatua de bronce negro.": "11th-century Taoist temple with a colossal black bronze statue.",
+  "Histórico puente ferroviario de hierro de 1902 sobre el río Rojo.": "Historic 1902 iron railway bridge over the Red River.",
+  "Sencilla casa de madera donde vivió Ho Chi Minh, entre jardines y un estanque.": "Simple wooden house where Ho Chi Minh lived, amid gardens and a pond.",
+  "El lago-corazón de Hanói, epicentro de paseos, leyendas y vida social.": "Hanoi's heart-lake, the epicentre of strolls, legends and social life.",
+  "El mayor lago de la ciudad, rodeado de templos, cafés y puestas de sol.": "The city's largest lake, ringed by temples, cafés and sunsets.",
+  "Miles de islotes kársticos sobre aguas esmeralda, Patrimonio de la Humanidad.": "Thousands of karst islets over emerald waters, a UNESCO World Heritage Site.",
+  "Ríos entre montañas kársticas y cuevas, la 'Ha Long terrestre'.": "Rivers among karst mountains and caves, the 'Ha Long on land'.",
+  "Tranquilo lago histórico junto al del Oeste, famoso por sus cafés y el caracol.": "Quiet historic lake next to West Lake, known for its cafés and snail dishes.",
+  "El gran parque urbano de Hanói, con lago, arboledas y vida local.": "Hanoi's large urban park, with a lake, groves and local life.",
+  "Estrecho corredor donde el tren roza las casas y los cafés a diario.": "Narrow corridor where the train grazes the houses and cafés daily.",
+  "Arte milenario de marionetas que danzan sobre el agua con música en vivo.": "Ancient art of puppets dancing on water with live music.",
+  "El mayor mercado cubierto de Hanói, un hervidero de comercio y comida.": "Hanoi's largest covered market, a hive of trade and food.",
+  "La calle de la cerveza del Barrio Antiguo, taburetes y bia hoi a raudales.": "The Old Quarter's beer street, full of stools and bia hoi.",
+  "El mejor museo del país sobre sus 54 grupos étnicos, con casas al aire libre.": "The country's best museum on its 54 ethnic groups, with open-air houses.",
+  "Bullicioso mercado callejero de fin de semana desde el lago hasta Dong Xuan.": "Bustling weekend street market from the lake up to Dong Xuan.",
+  "El bun cha que hizo famoso Obama, cerdo a la brasa con fideos y caldo.": "The bun cha made famous by Obama: grilled pork with noodles and broth.",
+  "La cuna del cà phê trung, el famoso café vietnamita con crema de huevo.": "Birthplace of ca phe trung, the famous Vietnamese egg coffee.",
+  "Pescado a la brasa con cúrcuma y eneldo que se cocina en tu propia mesa.": "Turmeric-and-dill grilled fish cooked at your own table.",
+  "Legendario pho de ternera salteada, sin tenedor y con décadas de fama.": "Legendary stir-fried beef pho, decades-famous and utterly no-frills.",
+  "El bocadillo vietnamita más querido del Barrio Antiguo, crujiente y fresco.": "The Old Quarter's most beloved Vietnamese sandwich, crisp and fresh.",
+  "Puestos de cocina callejera de todo Vietnam reunidos en un patio colonial.": "Street-food stalls from all over Vietnam gathered in a colonial courtyard.",
+  "Hanói": "Hanói"
+ }
+}

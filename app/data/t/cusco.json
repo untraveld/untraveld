@@ -1,0 +1,664 @@
+{
+ "id": "cusco",
+ "name": "Cusco",
+ "country": "WORLD",
+ "center": [
+  -13.51625,
+  -71.97853
+ ],
+ "pois": [
+  {
+   "id": "w_cus_machu_picchu",
+   "cat": "monuments",
+   "name": "Machu Picchu",
+   "icon": "🏛️",
+   "lat": -13.16311,
+   "lng": -72.54487,
+   "desc": "Ciudadela inca del siglo XV en lo alto de los Andes, la maravilla más célebre de Perú."
+  },
+  {
+   "id": "w_cus_plaza_armas",
+   "cat": "monuments",
+   "name": "Plaza de Armas de Cusco",
+   "icon": "🏛️",
+   "lat": -13.51625,
+   "lng": -71.97853,
+   "desc": "Corazón histórico de la ciudad, rodeado de arcadas coloniales, la Catedral y la iglesia de la Compañía."
+  },
+  {
+   "id": "w_cus_sacsayhuaman",
+   "cat": "monuments",
+   "name": "Sacsayhuamán",
+   "icon": "🗿",
+   "lat": -13.50778,
+   "lng": -71.98222,
+   "desc": "Colosal fortaleza ceremonial inca de muros ciclópeos sobre la ciudad de Cusco."
+  },
+  {
+   "id": "w_cus_qorikancha",
+   "cat": "monuments",
+   "name": "Qorikancha",
+   "icon": "☀️",
+   "lat": -13.52,
+   "lng": -71.97556,
+   "desc": "Templo del Sol inca, el más sagrado del imperio, hoy bajo el convento de Santo Domingo."
+  },
+  {
+   "id": "w_cus_catedral",
+   "cat": "monuments",
+   "name": "Catedral del Cusco",
+   "icon": "⛪",
+   "lat": -13.51597,
+   "lng": -71.97814,
+   "desc": "Catedral renacentista y barroca del siglo XVI que preside la Plaza de Armas."
+  },
+  {
+   "id": "w_cus_san_blas",
+   "cat": "monuments",
+   "name": "Barrio de San Blas",
+   "icon": "🎨",
+   "lat": -13.51431,
+   "lng": -71.97558,
+   "desc": "Barrio bohemio de callejuelas empedradas, talleres de artesanos y miradores sobre la ciudad."
+  },
+  {
+   "id": "w_cus_doce_angulos",
+   "cat": "monuments",
+   "name": "Piedra de los Doce Ángulos",
+   "icon": "🪨",
+   "lat": -13.51603,
+   "lng": -71.97686,
+   "desc": "Famoso sillar inca de doce ángulos perfectamente encajado en la calle Hatun Rumiyoc."
+  },
+  {
+   "id": "w_cus_cristo_blanco",
+   "cat": "monuments",
+   "name": "Cristo Blanco",
+   "icon": "✝️",
+   "lat": -13.50633,
+   "lng": -71.98008,
+   "desc": "Estatua blanca de Cristo de 8 m que vela sobre Cusco junto a Sacsayhuamán."
+  },
+  {
+   "id": "w_cus_pisac",
+   "cat": "monuments",
+   "name": "Parque Arqueológico de Pisac",
+   "icon": "⛰️",
+   "lat": -13.41639,
+   "lng": -71.84611,
+   "desc": "Impresionante ciudadela inca de terrazas colgadas sobre el Valle Sagrado."
+  },
+  {
+   "id": "w_cus_ollantaytambo",
+   "cat": "monuments",
+   "name": "Ollantaytambo",
+   "icon": "🏰",
+   "lat": -13.25806,
+   "lng": -72.26389,
+   "desc": "Fortaleza y pueblo inca vivo, puerta de entrada en tren a Machu Picchu."
+  },
+  {
+   "id": "w_cus_moray",
+   "cat": "monuments",
+   "name": "Moray",
+   "icon": "⭕",
+   "lat": -13.32986,
+   "lng": -72.19472,
+   "desc": "Terrazas concéntricas incas usadas como laboratorio agrícola de altura."
+  },
+  {
+   "id": "w_cus_compania_jesus",
+   "cat": "monuments",
+   "name": "Iglesia de la Compañía de Jesús",
+   "icon": "⛪",
+   "lat": -13.51689,
+   "lng": -71.97783,
+   "desc": "Joya del barroco andino en la Plaza de Armas, con una fachada de piedra tallada."
+  },
+  {
+   "id": "w_cus_tambomachay",
+   "cat": "monuments",
+   "name": "Tambomachay",
+   "icon": "💧",
+   "lat": -13.48083,
+   "lng": -71.96472,
+   "desc": "Conjunto de fuentes y canales incas conocido como el 'Baño del Inca'."
+  },
+  {
+   "id": "w_cus_vinicunca",
+   "cat": "nature",
+   "name": "Montaña de Siete Colores (Vinicunca)",
+   "icon": "🌈",
+   "lat": -13.86972,
+   "lng": -71.30278,
+   "desc": "Montaña arcoíris cuyas franjas minerales tiñen la cima a más de 5.000 m."
+  },
+  {
+   "id": "w_cus_humantay",
+   "cat": "nature",
+   "name": "Laguna Humantay",
+   "icon": "🏞️",
+   "lat": -13.36389,
+   "lng": -72.59472,
+   "desc": "Laguna glaciar de aguas turquesa al pie del nevado Humantay, a 4.200 m."
+  },
+  {
+   "id": "w_cus_salineras_maras",
+   "cat": "nature",
+   "name": "Salineras de Maras",
+   "icon": "🧂",
+   "lat": -13.32944,
+   "lng": -72.15611,
+   "desc": "Miles de pozas de sal escalonadas en la ladera, en uso desde tiempos preincas."
+  },
+  {
+   "id": "w_cus_palccoyo",
+   "cat": "nature",
+   "name": "Montaña de Palccoyo",
+   "icon": "⛰️",
+   "lat": -14.04425,
+   "lng": -71.31723,
+   "desc": "Alternativa tranquila a Vinicunca, con tres montañas de colores y un bosque de piedras."
+  },
+  {
+   "id": "w_cus_waqrapukara",
+   "cat": "nature",
+   "name": "Waqrapukara",
+   "icon": "🏔️",
+   "lat": -14.02286,
+   "lng": -71.69361,
+   "desc": "Fortaleza inca encaramada en un acantilado con formaciones rocosas en forma de cuernos."
+  },
+  {
+   "id": "w_cus_piuray",
+   "cat": "nature",
+   "name": "Laguna Piuray",
+   "icon": "🚣",
+   "lat": -13.41,
+   "lng": -72.05,
+   "desc": "Serena laguna andina en la meseta de Chinchero, ideal para kayak y paisaje."
+  },
+  {
+   "id": "w_cus_mirador_taray",
+   "cat": "nature",
+   "name": "Mirador de Taray (Valle Sagrado)",
+   "icon": "🌄",
+   "lat": -13.44861,
+   "lng": -71.87528,
+   "desc": "Balcón panorámico sobre las curvas del río Vilcanota y el Valle Sagrado."
+  },
+  {
+   "id": "w_cus_aguas_calientes",
+   "cat": "ocio",
+   "name": "Aguas Calientes (Machu Picchu Pueblo)",
+   "icon": "🚆",
+   "lat": -13.15472,
+   "lng": -72.52528,
+   "desc": "Pueblo de montaña junto al río Urubamba, base para subir a Machu Picchu."
+  },
+  {
+   "id": "w_cus_mercado_san_pedro",
+   "cat": "ocio",
+   "name": "Mercado Central de San Pedro",
+   "icon": "🛍️",
+   "lat": -13.52056,
+   "lng": -71.98361,
+   "desc": "Mercado tradicional cusqueño de productos, comida y artesanía, diseñado por Eiffel."
+  },
+  {
+   "id": "w_cus_chocomuseo",
+   "cat": "ocio",
+   "name": "ChocoMuseo Cusco",
+   "icon": "🍫",
+   "lat": -13.51611,
+   "lng": -71.97906,
+   "desc": "Museo y taller del cacao donde aprender a hacer chocolate desde el grano."
+  },
+  {
+   "id": "w_cus_cicciolina",
+   "cat": "food",
+   "name": "Cicciolina",
+   "icon": "🍽️",
+   "lat": -13.51556,
+   "lng": -71.97583,
+   "desc": "Restaurante y tapas bar de culto en un patio colonial cerca de la Plaza de Armas."
+  },
+  {
+   "id": "w_cus_chicha",
+   "cat": "food",
+   "name": "Chicha por Gastón Acurio",
+   "icon": "🍲",
+   "lat": -13.51722,
+   "lng": -71.98139,
+   "desc": "Cocina regional cusqueña reinterpretada por el chef Gastón Acurio."
+  },
+  {
+   "id": "w_cus_pachapapa",
+   "cat": "food",
+   "name": "Pachapapa",
+   "icon": "🍖",
+   "lat": -13.51417,
+   "lng": -71.97528,
+   "desc": "Cocina andina de horno de barro en un patio de San Blas, famosa por el cuy."
+  },
+  {
+   "id": "w_cus_greenpoint",
+   "cat": "food",
+   "name": "Green Point Vegan",
+   "icon": "🥗",
+   "lat": -13.51361,
+   "lng": -71.97528,
+   "desc": "Restaurante vegano de referencia en San Blas, con menús y brunch de mercado."
+  },
+  {
+   "id": "w_cus_morena",
+   "cat": "food",
+   "name": "Morena Peruvian Kitchen",
+   "icon": "🌮",
+   "lat": -13.51639,
+   "lng": -71.97972,
+   "desc": "Cocina peruana moderna y ceviches en una calle animada junto a la plaza."
+  }
+ ],
+ "extra": {
+  "w_cus_machu_picchu": {
+   "id": "w_cus_machu_picchu",
+   "d": "Construida hacia 1450 bajo el inca Pachacútec y abandonada tras la conquista, permaneció oculta a la selva hasta que Hiram Bingham la dio a conocer en 1911. Sus templos, terrazas agrícolas y el Intihuatana forman un conjunto de ingeniería y astronomía extraordinario, hoy Patrimonio de la Humanidad y una de las Nuevas Siete Maravillas del Mundo.",
+   "d_en": "Built around 1450 under the Inca Pachacutec and abandoned after the conquest, it lay hidden by jungle until Hiram Bingham brought it to world attention in 1911. Its temples, agricultural terraces and the Intihuatana stone form an extraordinary feat of engineering and astronomy, today a UNESCO World Heritage Site and one of the New Seven Wonders of the World.",
+   "h": "Se llega en tren desde Ollantaytambo hasta Aguas Calientes y luego en bus. Entrada con horario y circuito asignados; conviene reservar guía. Abre todo el año, mejor de mayo a septiembre (estación seca).",
+   "h_en": "Reached by train from Ollantaytambo to Aguas Calientes, then by bus. Entry is by assigned time slot and circuit; a guide is recommended. Open year-round, best May to September (dry season).",
+   "i": "El nombre quechua significa 'montaña vieja'; la ciudadela nunca fue encontrada por los conquistadores españoles.",
+   "i_en": "The Quechua name means 'old mountain'; the citadel was never found by the Spanish conquistadors."
+  },
+  "w_cus_plaza_armas": {
+   "id": "w_cus_plaza_armas",
+   "d": "Sobre la antigua Huacaypata inca, plaza ceremonial del imperio, los españoles levantaron una plaza colonial de portales de piedra y balcones tallados. Es el punto de encuentro de la ciudad, con fuente central, jardines y templos que combinan cimientos incas y fachadas barrocas.",
+   "d_en": "On the former Inca Huacaypata, the empire's ceremonial square, the Spanish built a colonial plaza of stone arcades and carved balconies. It is the city's meeting point, with a central fountain, gardens and churches that blend Inca foundations with Baroque façades.",
+   "h": "Abierta las 24 horas y siempre animada; especialmente vistosa de noche iluminada. Punto de partida de casi todos los tours por el centro histórico.",
+   "h_en": "Open 24 hours and always lively; especially striking floodlit at night. Starting point for nearly every tour of the historic centre.",
+   "i": "Aquí fue ejecutado en 1572 Túpac Amaru I, el último líder inca de Vilcabamba.",
+   "i_en": "This is where Túpac Amaru I, the last Inca leader of Vilcabamba, was executed in 1572."
+  },
+  "w_cus_sacsayhuaman": {
+   "id": "w_cus_sacsayhuaman",
+   "d": "Complejo de terrazas en zigzag formadas por bloques de piedra de hasta 120 toneladas, encajados sin mortero con una precisión asombrosa. Sirvió como recinto militar y religioso; cada 24 de junio acoge el Inti Raymi, la fiesta del sol más importante de los Andes.",
+   "d_en": "A complex of zigzag terraces built from stone blocks of up to 120 tonnes, fitted without mortar with astonishing precision. It served as a military and religious site; every 24 June it hosts Inti Raymi, the most important sun festival of the Andes.",
+   "h": "A 2 km del centro, accesible a pie (subida exigente por la altura) o en taxi. Incluido en el Boleto Turístico; abre de 07:00 a 18:00.",
+   "h_en": "2 km from the centre, reachable on foot (a steep climb at altitude) or by taxi. Included in the Tourist Ticket; open 07:00 to 18:00.",
+   "i": "Su nombre quechua se suele traducir como 'halcón satisfecho'; los turistas juegan con su parecido fonético a 'sexy woman'.",
+   "i_en": "Its Quechua name is often translated as 'satisfied falcon'; visitors joke about its phonetic likeness to 'sexy woman'."
+  },
+  "w_cus_qorikancha": {
+   "id": "w_cus_qorikancha",
+   "d": "Sus muros estuvieron recubiertos de láminas de oro y albergaron un jardín de plantas y animales de metales preciosos. Tras la conquista, los dominicos construyeron encima su convento, creando un impactante diálogo entre la sillería inca perfecta y la arquitectura colonial.",
+   "d_en": "Its walls were once sheathed in gold plates and it held a garden of plants and animals crafted in precious metals. After the conquest the Dominicans built their convent on top, creating a striking dialogue between flawless Inca masonry and colonial architecture.",
+   "h": "En la Av. El Sol, a pocos minutos de la Plaza de Armas. Entrada de pago aparte; abre de lunes a sábado 08:30–17:30 y domingos por la mañana.",
+   "h_en": "On Av. El Sol, minutes from the Plaza de Armas. Separate paid entry; open Monday to Saturday 08:30–17:30 and Sunday mornings.",
+   "i": "La cantería inca resistió intacta varios terremotos que dañaron gravemente las estructuras coloniales superiores.",
+   "i_en": "The Inca stonework survived intact through several earthquakes that badly damaged the colonial structures above it."
+  },
+  "w_cus_catedral": {
+   "id": "w_cus_catedral",
+   "d": "Levantada sobre el palacio del inca Wiracocha con piedras traídas de Sacsayhuamán, tardó casi un siglo en completarse. Custodia altares dorados, coro tallado y obras de la Escuela Cusqueña, entre ellas una célebre Última Cena en la que Jesús comparte cuy y chicha.",
+   "d_en": "Raised over the palace of the Inca Wiracocha with stones hauled from Sacsayhuamán, it took nearly a century to complete. It holds gilded altars, a carved choir and works of the Cusco School, including a famous Last Supper in which Jesus shares guinea pig and chicha.",
+   "h": "En el lado noreste de la plaza. Incluida en el boleto religioso de la Arquidiócesis; abre de 10:00 a 18:00. No se permite fotografiar el interior.",
+   "h_en": "On the north-east side of the plaza. Included in the Archdiocese religious ticket; open 10:00 to 18:00. Interior photography is not allowed.",
+   "i": "Su campana María Angola, de las mayores de América, se dice que se oye a más de 30 km a la redonda.",
+   "i_en": "Its María Angola bell, one of the largest in the Americas, is said to be heard more than 30 km away."
+  },
+  "w_cus_san_blas": {
+   "id": "w_cus_san_blas",
+   "d": "El antiguo barrio de los artesanos (T'oqokachi) conserva casas blancas de balcones azules escalonadas por la ladera. Su plazoleta alberga una de las iglesias más antiguas del Cusco, famosa por su púlpito de cedro tallado, y hoy concentra galerías, cafés y tiendas de diseño.",
+   "d_en": "The old artisans' quarter (T'oqokachi) preserves white houses with blue balconies stepped up the hillside. Its little square holds one of Cusco's oldest churches, famed for its carved cedar pulpit, and today it brims with galleries, cafés and design shops.",
+   "h": "A pocas cuadras cuesta arriba desde la Plaza de Armas. Se recorre a pie; el mejor momento es al atardecer desde el mirador de San Blas.",
+   "h_en": "A few blocks uphill from the Plaza de Armas. Best explored on foot; sunset from the San Blas viewpoint is the highlight.",
+   "i": "El púlpito de su iglesia está tallado en una sola pieza de madera y es considerado una joya del arte colonial americano.",
+   "i_en": "The church's pulpit is carved from a single piece of wood and is regarded as a masterpiece of colonial American art."
+  },
+  "w_cus_doce_angulos": {
+   "id": "w_cus_doce_angulos",
+   "d": "Este bloque de diorita forma parte del muro del antiguo palacio del inca Roca, hoy Palacio Arzobispal. Sus doce ángulos encajan a la perfección con las piedras vecinas sin argamasa, símbolo del dominio de la cantería inca y una de las imágenes más fotografiadas del Cusco.",
+   "d_en": "This diorite block is part of the wall of the former palace of the Inca Roca, today the Archbishop's Palace. Its twelve angles interlock flawlessly with the surrounding stones without mortar, a symbol of Inca stonemasonry and one of Cusco's most photographed sights.",
+   "h": "En la calle Hatun Rumiyoc, de camino a San Blas. Visita libre y gratuita desde la calle; suele haber cola para la foto.",
+   "h_en": "On Hatun Rumiyoc street, on the way to San Blas. Free to view from the street; expect a queue for the photo.",
+   "i": "En el mismo muro hay piedras aún más complejas, como una de catorce ángulos algo menos conocida.",
+   "i_en": "The same wall holds even more complex stones, including a less famous fourteen-angled one."
+  },
+  "w_cus_cristo_blanco": {
+   "id": "w_cus_cristo_blanco",
+   "d": "Inaugurada en 1945, fue un regalo de un grupo de palestinos refugiados y cristianos árabes agradecidos a la ciudad. Con los brazos abiertos sobre el valle, ofrece uno de los mejores miradores panorámicos del Cusco, sobre todo al anochecer cuando la ciudad se ilumina.",
+   "d_en": "Unveiled in 1945, it was a gift from a group of Palestinian refugees and Arab Christians grateful to the city. Arms open over the valley, it offers one of the best panoramic viewpoints of Cusco, especially at dusk when the city lights up.",
+   "h": "Junto a Sacsayhuamán, a 3 km del centro; se llega en taxi, caminando o en tour. Acceso libre; ideal al atardecer.",
+   "h_en": "Next to Sacsayhuamán, 3 km from the centre; reached by taxi, on foot or on a tour. Free access; best at sunset.",
+   "i": "De noche se ilumina y es visible desde gran parte del casco histórico, como un pequeño Cristo del Corcovado andino.",
+   "i_en": "Floodlit at night, it is visible from much of the old town, like a small Andean version of Rio's Christ."
+  },
+  "w_cus_pisac": {
+   "id": "w_cus_pisac",
+   "d": "En lo alto de una montaña, Pisac combina andenes agrícolas curvos, torreones defensivos, canales de agua y un sector religioso con el Intihuatana. En la ladera se conserva uno de los mayores cementerios incas, con cientos de nichos excavados en la roca. El pueblo de abajo es célebre por su mercado artesanal.",
+   "d_en": "High on a mountaintop, Pisac combines curved agricultural terraces, defensive towers, water channels and a religious sector with an Intihuatana. On the hillside lies one of the largest Inca cemeteries, with hundreds of niches carved into the rock. The town below is famous for its craft market.",
+   "h": "A 33 km de Cusco. Incluido en el Boleto Turístico; abre de 07:00 a 18:00. Combina bien con Ollantaytambo en un tour del Valle Sagrado.",
+   "h_en": "33 km from Cusco. Included in the Tourist Ticket; open 07:00 to 18:00. Pairs well with Ollantaytambo on a Sacred Valley tour.",
+   "i": "El mercado de Pisac es más grande y animado los domingos, cuando bajan comunidades de las alturas a comerciar.",
+   "i_en": "Pisac's market is largest and liveliest on Sundays, when highland communities come down to trade."
+  },
+  "w_cus_ollantaytambo": {
+   "id": "w_cus_ollantaytambo",
+   "d": "Su templo escalonado, con el Templo del Sol de seis monolitos de pórfido rosa, domina un pueblo cuyo trazado inca original aún se habita. Fue escenario de una gran victoria de Manco Inca sobre los españoles. Desde su estación parten los trenes hacia Aguas Calientes.",
+   "d_en": "Its terraced temple, crowned by the Sun Temple of six pink-porphyry monoliths, overlooks a town whose original Inca layout is still inhabited. It was the scene of Manco Inca's great victory over the Spanish. Trains to Aguas Calientes depart from its station.",
+   "h": "A 72 km de Cusco. Ruinas incluidas en el Boleto Turístico, abren de 07:00 a 18:00. Llega temprano para evitar los grupos del mediodía.",
+   "h_en": "72 km from Cusco. Ruins included in the Tourist Ticket, open 07:00 to 18:00. Arrive early to beat the midday groups.",
+   "i": "Se considera el mejor ejemplo de urbanismo inca aún habitado; muchos vecinos viven en casas de origen prehispánico.",
+   "i_en": "It is considered the finest surviving example of an inhabited Inca town; many residents live in pre-Hispanic houses."
+  },
+  "w_cus_moray": {
+   "id": "w_cus_moray",
+   "d": "Sus andenes circulares descienden como un anfiteatro y generan microclimas: entre el nivel superior y el fondo hay diferencias de temperatura de hasta 15 °C. Los incas los habrían usado para experimentar con cultivos y aclimatar semillas de distintas regiones del imperio.",
+   "d_en": "Its circular terraces descend like an amphitheatre and create microclimates: temperatures can differ by up to 15 °C between the top and the bottom. The Incas are thought to have used them to experiment with crops and acclimatize seeds from across the empire.",
+   "h": "En la meseta de Maras, a 50 km de Cusco. Incluido en el Boleto Turístico; abre de 07:00 a 18:00. Se combina con las Salineras.",
+   "h_en": "On the Maras plateau, 50 km from Cusco. Included in the Tourist Ticket; open 07:00 to 18:00. Combined with the salt pans.",
+   "i": "El drenaje de las terrazas es tan bueno que nunca se inundan, ni siquiera en la temporada de lluvias.",
+   "i_en": "The terraces drain so well that they never flood, even during the rainy season."
+  },
+  "w_cus_compania_jesus": {
+   "id": "w_cus_compania_jesus",
+   "d": "Construida por los jesuitas sobre el palacio del inca Huayna Cápac, su portada de sillar labrado y sus retablos dorados rivalizaron en esplendor con la propia Catedral, provocando un célebre conflicto con el obispado. En su interior destacan lienzos coloniales y un altar mayor cubierto de pan de oro.",
+   "d_en": "Built by the Jesuits over the palace of the Inca Huayna Cápac, its carved stone portal and gilded altarpieces rivalled the Cathedral itself in splendour, sparking a famous dispute with the bishopric. Inside, colonial canvases and a gold-leaf high altar stand out.",
+   "h": "En el lado sureste de la Plaza de Armas. Entrada de pago; abre de 09:00 a 18:00. Se puede subir al coro para ver la plaza.",
+   "h_en": "On the south-east side of the Plaza de Armas. Paid entry; open 09:00 to 18:00. You can climb to the choir for a view over the square.",
+   "i": "Guarda dos grandes lienzos de las bodas del capitán Martín de Loyola con la ñusta inca Beatriz, retrato del mestizaje colonial.",
+   "i_en": "It houses two large canvases of the wedding of Captain Martín de Loyola to the Inca princess Beatriz, portraits of colonial mixing."
+  },
+  "w_cus_tambomachay": {
+   "id": "w_cus_tambomachay",
+   "d": "Formado por muros de terrazas y acueductos que aún hoy distribuyen agua de manantial en cascadas perfectas, se cree que fue un lugar ceremonial dedicado al culto del agua. Su ingeniería hidráulica, activa siglos después, revela el papel sagrado del agua en la cosmovisión inca.",
+   "d_en": "Made up of terraced walls and aqueducts that still channel spring water into perfect cascades, it is believed to have been a ceremonial site devoted to the cult of water. Its hydraulic engineering, still working centuries later, reveals water's sacred role in the Inca worldview.",
+   "h": "A 8 km de Cusco, junto a la carretera a Pisac. Incluido en el Boleto Turístico; abre de 07:00 a 18:00. Se visita con Q'enqo y Puca Pucara.",
+   "h_en": "8 km from Cusco, beside the road to Pisac. Included in the Tourist Ticket; open 07:00 to 18:00. Visited alongside Q'enqo and Puca Pucara.",
+   "i": "El caudal de sus fuentes se mantiene constante todo el año, un misterio para hidrólogos e ingenieros modernos.",
+   "i_en": "The flow of its fountains stays constant all year, a puzzle for modern hydrologists and engineers."
+  },
+  "w_cus_vinicunca": {
+   "id": "w_cus_vinicunca",
+   "d": "Sus vetas de colores se deben a distintos sedimentos y óxidos minerales acumulados durante millones de años, revelados al retroceder los glaciares. La caminata cruza altiplanos habitados por alpacas y comunidades quechuas, con la Cordillera del Vilcanota y el nevado Ausangate de fondo.",
+   "d_en": "Its coloured stripes come from different sediments and mineral oxides laid down over millions of years, revealed as the glaciers retreated. The hike crosses high plains grazed by alpacas and Quechua communities, with the Vilcanota range and Mount Ausangate behind.",
+   "h": "A unas 3 horas en coche de Cusco más 1,5 h de caminata a 5.000 m. Se hace en tour de día completo saliendo de madrugada; hay caballos de apoyo.",
+   "h_en": "About 3 hours' drive from Cusco plus a 1.5 h hike at 5,000 m. Done as a full-day tour leaving before dawn; support horses are available.",
+   "i": "Permaneció cubierta de hielo y desconocida para el turismo hasta alrededor de 2015, cuando el deshielo la reveló.",
+   "i_en": "It stayed ice-covered and unknown to tourism until around 2015, when melting snow revealed it."
+  },
+  "w_cus_humantay": {
+   "id": "w_cus_humantay",
+   "d": "Alimentada por el deshielo del glaciar, su intenso color turquesa contrasta con las cumbres nevadas del Salkantay. Es un lugar de ofrendas y pagos a la tierra para las comunidades andinas, y una de las excursiones de un día más espectaculares desde Cusco.",
+   "d_en": "Fed by glacial meltwater, its intense turquoise contrasts with the snow-capped peaks of the Salkantay range. It is a place of offerings to the earth for Andean communities and one of the most spectacular day trips from Cusco.",
+   "h": "A unas 3 horas de Cusco hasta Soraypampa y luego 1–1,5 h de subida empinada a 4.200 m. Tour de día completo con salida muy temprano.",
+   "h_en": "About 3 hours from Cusco to Soraypampa, then a steep 1–1.5 h climb to 4,200 m. Full-day tour with a very early start.",
+   "i": "Está en la ruta del trekking del Salkantay, una alternativa al Camino Inca clásico hacia Machu Picchu.",
+   "i_en": "It lies on the Salkantay trek, an alternative to the classic Inca Trail to Machu Picchu."
+  },
+  "w_cus_salineras_maras": {
+   "id": "w_cus_salineras_maras",
+   "d": "Un manantial de agua salada brota de la montaña y se conduce por canales a más de 4.000 pozas donde el sol evapora el agua y deja cristalizar la sal. Las familias de Maras heredan y explotan cada poza, manteniendo una técnica ancestral y un paisaje blanco impresionante.",
+   "d_en": "A salty spring emerges from the mountain and is channelled into more than 4,000 pans where the sun evaporates the water and the salt crystallizes. Maras families inherit and work each pan, keeping an ancestral technique alive amid a striking white landscape.",
+   "h": "A 40 km de Cusco, cerca de Moray. Entrada gestionada por la comunidad (aparte del Boleto Turístico); abre de 08:00 a 16:30.",
+   "h_en": "40 km from Cusco, near Moray. Community-managed entry (separate from the Tourist Ticket); open 08:00 to 16:30.",
+   "i": "La 'sal rosada de Maras', rica en minerales, se exporta hoy como producto gourmet a todo el mundo.",
+   "i_en": "The mineral-rich 'pink salt of Maras' is now exported worldwide as a gourmet product."
+  },
+  "w_cus_palccoyo": {
+   "id": "w_cus_palccoyo",
+   "d": "Ofrece paisajes de franjas minerales muy similares a los de Vinicunca pero con una caminata mucho más corta y suave, ideal para quienes sufren la altura. Incluye un curioso 'bosque de piedras' de formaciones rocosas verticales y vistas del nevado Ausangate.",
+   "d_en": "It offers mineral-striped scenery much like Vinicunca's but with a far shorter, gentler walk, ideal for those affected by altitude. It also features a curious 'stone forest' of vertical rock formations and views of Mount Ausangate.",
+   "h": "A unas 3,5 horas de Cusco; la caminata dura apenas 30–45 minutos a unos 4.900 m. Tour de día completo con salida de madrugada.",
+   "h_en": "About 3.5 hours from Cusco; the walk takes just 30–45 minutes at around 4,900 m. Full-day tour with an early-morning start.",
+   "i": "Al recibir muchos menos visitantes que Vinicunca, es la opción preferida para fotografiar el paisaje sin multitudes.",
+   "i_en": "Receiving far fewer visitors than Vinicunca, it is the favourite for photographing the landscape without crowds."
+  },
+  "w_cus_waqrapukara": {
+   "id": "w_cus_waqrapukara",
+   "d": "Su nombre significa 'fortaleza con cuernos' por los pináculos rocosos que la coronan. Combina andenes y muros incas con un entorno natural imponente sobre el cañón del río Apurímac, en un mirador vertiginoso todavía poco frecuentado por el turismo masivo.",
+   "d_en": "Its name means 'horned fortress', after the rocky pinnacles that crown it. It blends Inca terraces and walls with a dramatic natural setting above the Apurímac canyon, a vertiginous lookout still off the mass-tourism radar.",
+   "h": "A unas 3,5 horas de Cusco más 2–3 h de caminata de ida. Tour de día completo exigente; llevar agua, comida y buen calzado.",
+   "h_en": "About 3.5 hours from Cusco plus a 2–3 h hike each way. A demanding full-day tour; bring water, food and good footwear.",
+   "i": "Se cree que fue un santuario ceremonial más que una fortaleza militar, por su difícil acceso y su valor astronómico.",
+   "i_en": "It is thought to have been a ceremonial sanctuary rather than a military fort, given its difficult access and astronomical value."
+  },
+  "w_cus_piuray": {
+   "id": "w_cus_piuray",
+   "d": "Rodeada de comunidades quechuas y campos de cultivo, sus aguas tranquilas reflejan las montañas del Valle Sagrado. Además de abastecer parte del agua de Cusco, ofrece paseos en kayak, gastronomía local y un ambiente rural sereno lejos de las multitudes.",
+   "d_en": "Ringed by Quechua communities and farmland, its calm waters mirror the mountains of the Sacred Valley. As well as supplying part of Cusco's water, it offers kayaking, local cuisine and a peaceful rural atmosphere away from the crowds.",
+   "h": "A unos 30 km de Cusco, cerca de Chinchero. Acceso libre; hay operadores de kayak y comedores comunitarios en la orilla.",
+   "h_en": "About 30 km from Cusco, near Chinchero. Free access; kayak operators and community eateries sit on the shore.",
+   "i": "Su nombre quechua alude a la abundancia de agua; es una de las principales reservas hídricas de la ciudad.",
+   "i_en": "Its Quechua name refers to abundant water; it is one of the city's main water reserves."
+  },
+  "w_cus_mirador_taray": {
+   "id": "w_cus_mirador_taray",
+   "d": "En la carretera de Cusco a Pisac, este mirador ofrece la vista clásica del Valle Sagrado de los Incas: el río serpenteando entre andenes, pueblos y montañas. Es una parada habitual de los tours para fotografiar el valle y comprar artesanía local.",
+   "d_en": "On the road from Cusco to Pisac, this viewpoint gives the classic vista of the Sacred Valley of the Incas: the river winding between terraces, villages and mountains. It is a common tour stop to photograph the valley and buy local crafts.",
+   "h": "A unos 28 km de Cusco, camino a Pisac. Parada libre junto a la carretera; mejor con luz de la mañana.",
+   "h_en": "About 28 km from Cusco, on the way to Pisac. A free roadside stop; best in morning light.",
+   "i": "Desde aquí se aprecia por qué los incas eligieron este valle fértil y templado como corazón agrícola del imperio.",
+   "i_en": "From here you can see why the Incas chose this fertile, temperate valley as the agricultural heart of the empire."
+  },
+  "w_cus_aguas_calientes": {
+   "id": "w_cus_aguas_calientes",
+   "d": "Encajonado entre montañas de selva nubosa, es el punto final del tren y el arranque de los buses a la ciudadela. Ofrece hoteles, restaurantes, un mercado artesanal y baños termales que dan nombre al pueblo, perfectos para relajarse tras la visita.",
+   "d_en": "Hemmed in by cloud-forest mountains, it is the end of the train line and the departure point for buses to the citadel. It offers hotels, restaurants, a craft market and the hot springs that give the town its name, perfect for relaxing after the visit.",
+   "h": "Se llega solo en tren desde Ollantaytambo (1,5–2 h) o a pie; no hay carretera. Conviene pernoctar para subir a Machu Picchu a primera hora.",
+   "h_en": "Reachable only by train from Ollantaytambo (1.5–2 h) or on foot; there is no road. Staying overnight helps you reach Machu Picchu at opening.",
+   "i": "Su estación y su calle principal se inundan de vendedores y turistas; el zumbido del río acompaña todo el pueblo.",
+   "i_en": "Its station and main street teem with vendors and travellers, with the roar of the river running through the whole town."
+  },
+  "w_cus_mercado_san_pedro": {
+   "id": "w_cus_mercado_san_pedro",
+   "d": "Bajo una estructura de hierro de finales del siglo XIX, es el mercado más auténtico de la ciudad: puestos de frutas exóticas, quesos, panes, hierbas medicinales, jugos, textiles y comederos populares donde probar caldo de gallina o platos criollos a precio local.",
+   "d_en": "Under a late-19th-century iron structure, it is the city's most authentic market: stalls of exotic fruit, cheeses, breads, medicinal herbs, juices, textiles and food counters where you can try chicken broth or Creole dishes at local prices.",
+   "h": "A pocas cuadras de la Plaza de Armas. Abre de 07:00 a 18:00; mejor por la mañana. Vigila tus pertenencias en las horas punta.",
+   "h_en": "A few blocks from the Plaza de Armas. Open 07:00 to 18:00; best in the morning. Watch your belongings at peak times.",
+   "i": "La estructura metálica se atribuye al taller de Gustave Eiffel, el mismo de la célebre torre parisina.",
+   "i_en": "The iron structure is attributed to the workshop of Gustave Eiffel, of Paris tower fame."
+  },
+  "w_cus_chocomuseo": {
+   "id": "w_cus_chocomuseo",
+   "d": "Espacio gratuito dedicado a la historia del cacao peruano y su transformación en chocolate. Ofrece talleres prácticos para elaborar tu propia tableta, catas y una tienda con productos de comercio justo; una actividad amena, especialmente con niños o en un día de lluvia.",
+   "d_en": "A free space devoted to the history of Peruvian cacao and its journey into chocolate. It runs hands-on workshops to make your own bar, tastings and a fair-trade shop; a fun activity, especially with children or on a rainy day.",
+   "h": "En pleno centro, cerca de la Plaza de Armas. Entrada libre; abre de 09:00 a 18:30. Los talleres se reservan aparte.",
+   "h_en": "In the centre, near the Plaza de Armas. Free entry; open 09:00 to 18:30. Workshops are booked separately.",
+   "i": "El cacao se domesticó en la Amazonía peruana hace miles de años, mucho antes de llegar a Europa.",
+   "i_en": "Cacao was domesticated in the Peruvian Amazon thousands of years ago, long before it reached Europe."
+  },
+  "w_cus_cicciolina": {
+   "id": "w_cus_cicciolina",
+   "d": "Uno de los referentes gastronómicos del Cusco, fusiona ingredientes andinos con técnica mediterránea. Su barra de tapas y su comedor de vigas de madera y candelabros son perpetuo lugar de encuentro; la carta va de la trucha y el cordero a pastas caseras y postres memorables.",
+   "d_en": "One of Cusco's dining landmarks, it fuses Andean ingredients with Mediterranean technique. Its tapas bar and beamed, candlelit dining room are a perennial meeting spot; the menu runs from trout and lamb to homemade pastas and memorable desserts.",
+   "h": "En Calle Triunfo 393, primer piso. Muy popular: conviene reservar para la cena. Aceptan tarjeta.",
+   "h_en": "At Calle Triunfo 393, first floor. Very popular: booking is advisable for dinner. Cards accepted.",
+   "i": "Su barra de tapas suele llenarse sin reserva; es una buena opción para cenar bien sin esperar mesa.",
+   "i_en": "Its tapas bar often fills without reservations; a good option for a fine meal without waiting for a table."
+  },
+  "w_cus_chicha": {
+   "id": "w_cus_chicha",
+   "d": "En una casona sobre la Plaza Regocijo, el célebre chef peruano rescata recetas andinas con producto local: cuy, alpaca, trucha, adobos y ajíes autóctonos preparados con técnica contemporánea. Un lugar ideal para descubrir la despensa cusqueña en versión refinada.",
+   "d_en": "In a mansion above Plaza Regocijo, the celebrated Peruvian chef revives Andean recipes with local produce: guinea pig, alpaca, trout, adobos and native chillies prepared with contemporary technique. An ideal place to discover the Cusco pantry in refined form.",
+   "h": "En Plaza Regocijo 261, segundo piso. Recomendable reservar; buenos menús de mediodía. Aceptan tarjeta.",
+   "h_en": "At Plaza Regocijo 261, second floor. Booking recommended; good lunch menus. Cards accepted.",
+   "i": "Forma parte del grupo de Gastón Acurio, figura clave del auge internacional de la gastronomía peruana.",
+   "i_en": "It belongs to the group of Gastón Acurio, a key figure in the global rise of Peruvian cuisine."
+  },
+  "w_cus_pachapapa": {
+   "id": "w_cus_pachapapa",
+   "d": "Frente a la plazoleta de San Blas, sirve platos tradicionales cusqueños en un amplio patio con parrilla y horno de barro. Su especialidad es el cuy al horno, junto a alpaca, trucha y tamales; un lugar para probar la cocina regional en ambiente típico.",
+   "d_en": "Facing the San Blas square, it serves traditional Cusco dishes in a spacious patio with a grill and clay oven. Its specialty is oven-roasted guinea pig, alongside alpaca, trout and tamales; a place to try regional cooking in a classic setting.",
+   "h": "En Plazoleta San Blas 120. El cuy conviene encargarlo con antelación. Aceptan tarjeta; agradable al mediodía con sol.",
+   "h_en": "At Plazoleta San Blas 120. It is best to order the cuy in advance. Cards accepted; pleasant at midday in the sun.",
+   "i": "El cuy (conejillo de indias) es un plato ceremonial andino consumido desde tiempos preincaicos.",
+   "i_en": "Cuy (guinea pig) is a ceremonial Andean dish eaten since pre-Inca times."
+  },
+  "w_cus_greenpoint": {
+   "id": "w_cus_greenpoint",
+   "d": "Con huerto propio y panadería, ofrece cocina vegana creativa a precios muy razonables: menús ejecutivos, hamburguesas vegetales, curris, postres y un brunch muy celebrado. Ambiente joven y relajado en el corazón bohemio de San Blas.",
+   "d_en": "With its own vegetable garden and bakery, it offers creative vegan food at very reasonable prices: set lunches, plant-based burgers, curries, desserts and a much-loved brunch. A young, laid-back vibe in the bohemian heart of San Blas.",
+   "h": "En Carmen Bajo 235, San Blas. El menú del mediodía es muy popular; conviene llegar temprano. Aceptan tarjeta.",
+   "h_en": "At Carmen Bajo 235, San Blas. The lunch menu is very popular; arrive early. Cards accepted.",
+   "i": "Es una parada habitual de viajeros de mochila y digital nomads por su relación calidad-precio.",
+   "i_en": "It is a regular stop for backpackers and digital nomads thanks to its value for money."
+  },
+  "w_cus_morena": {
+   "id": "w_cus_morena",
+   "d": "Local desenfadado que reinterpreta clásicos peruanos con producto fresco: ceviches, lomo saltado, ají de gallina, sándwiches y bowls, además de pisco sours bien preparados. Buen punto medio entre la comida callejera y el restaurante de autor.",
+   "d_en": "A relaxed spot reworking Peruvian classics with fresh produce: ceviches, lomo saltado, ají de gallina, sandwiches and bowls, plus well-made pisco sours. A good middle ground between street food and fine dining.",
+   "h": "En Calle Plateros 348B, cerca de la Plaza de Armas. Ideal para almuerzo; en temporada alta puede haber espera. Aceptan tarjeta.",
+   "h_en": "At Calle Plateros 348B, near the Plaza de Armas. Great for lunch; expect a wait in high season. Cards accepted.",
+   "i": "El pisco sour, cóctel bandera del Perú, se prepara con pisco, limón, clara de huevo y amargo de angostura.",
+   "i_en": "The pisco sour, Peru's flagship cocktail, is made with pisco, lime, egg white and Angostura bitters."
+  }
+ },
+ "food": {
+  "w_cus_cicciolina": {
+   "cuisine": "Novoandina y mediterránea",
+   "price": "20–40 €",
+   "hours": "Lun–Dom 08:00–23:00"
+  },
+  "w_cus_chicha": {
+   "cuisine": "Peruana y cusqueña de autor",
+   "price": "25–45 €",
+   "hours": "Lun–Dom 12:00–22:00"
+  },
+  "w_cus_pachapapa": {
+   "cuisine": "Andina tradicional (cocina al horno)",
+   "price": "18–35 €",
+   "hours": "Lun–Dom 11:30–22:00"
+  },
+  "w_cus_greenpoint": {
+   "cuisine": "Vegana y vegetariana",
+   "price": "10–20 €",
+   "hours": "Lun–Dom 08:00–22:00"
+  },
+  "w_cus_morena": {
+   "cuisine": "Peruana contemporánea",
+   "price": "12–28 €",
+   "hours": "Lun–Dom 11:00–22:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Cusco",
+   "items": [
+    {
+     "name": "Textil andino tejido a mano",
+     "price": "20–120 €",
+     "desc": "Mantas, caminos de mesa y chalinas de lana de alpaca con iconografía inca teñida con tintes naturales."
+    },
+    {
+     "name": "Chal o poncho de alpaca",
+     "price": "15–60 €",
+     "desc": "Prendas suaves y abrigadas de alpaca baby; cuidado con las imitaciones de acrílico."
+    },
+    {
+     "name": "Chullo andino",
+     "price": "8–25 €",
+     "desc": "Gorro de lana con orejeras y motivos de colores, típico de las comunidades altoandinas."
+    },
+    {
+     "name": "Cerámica de Pucará (toritos)",
+     "price": "10–40 €",
+     "desc": "Toritos de la suerte y vasijas pintadas a mano, símbolo de protección del hogar."
+    },
+    {
+     "name": "Retablo ayacuchano",
+     "price": "15–70 €",
+     "desc": "Cajas de madera con escenas andinas modeladas en pasta, artesanía religiosa y costumbrista."
+    },
+    {
+     "name": "Chocolate y café de altura",
+     "price": "5–20 €",
+     "desc": "Cacao y café peruano de origen, además de productos derivados de la hoja de coca."
+    }
+   ],
+   "shops": [
+    "Mercado Central de San Pedro",
+    "Centro Artesanal Cusco (Av. El Sol)",
+    "Talleres del Barrio de San Blas",
+    "Mercado artesanal de Pisac"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Aclimatízate a la altura (3.400 m): descansa el primer día, bebe mate de coca e hidrátate antes de subir a Machu Picchu o Vinicunca.",
+   "Compra el Boleto Turístico del Cusco (BTG) para entrar a Sacsayhuamán, Pisac, Ollantaytambo, Moray, Tambomachay y varios museos con un solo pase.",
+   "Reserva las entradas a Machu Picchu y el tren Ollantaytambo–Aguas Calientes con semanas de antelación; hay cupos limitados por franja horaria.",
+   "Para Vinicunca y Humantay sal muy temprano (04:00–05:00) y lleva ropa de abrigo, protector solar, gorro y agua; se camina por encima de los 4.500 m.",
+   "Lleva soles en efectivo para mercados, taxis y propinas; regatea con respeto en Pisac y San Pedro y evita cambiar dinero en la calle."
+  ],
+  "en": [
+   "Acclimatize to the altitude (3,400 m): rest on your first day, drink coca tea and hydrate well before hiking Machu Picchu or Vinicunca.",
+   "Buy the Cusco Tourist Ticket (BTG) to enter Sacsayhuamán, Pisac, Ollantaytambo, Moray, Tambomachay and several museums with a single pass.",
+   "Book Machu Picchu entry and the Ollantaytambo–Aguas Calientes train weeks ahead; time-slot capacity is strictly limited.",
+   "For Vinicunca and Humantay leave very early (04:00–05:00) and bring warm layers, sunscreen, a hat and water; you walk above 4,500 m.",
+   "Carry cash in soles for markets, taxis and tips; bargain respectfully in Pisac and San Pedro and avoid changing money on the street."
+  ]
+ },
+ "climate": {
+  "hi": [
+   19,
+   19,
+   19,
+   20,
+   20,
+   20,
+   20,
+   21,
+   21,
+   21,
+   21,
+   20
+  ],
+  "lo": [
+   7,
+   7,
+   7,
+   5,
+   3,
+   1,
+   0,
+   2,
+   4,
+   6,
+   6,
+   6
+  ]
+ },
+ "tr": {
+  "Ciudadela inca del siglo XV en lo alto de los Andes, la maravilla más célebre de Perú.": "15th-century Inca citadel high in the Andes, Peru's most famous wonder.",
+  "Corazón histórico de la ciudad, rodeado de arcadas coloniales, la Catedral y la iglesia de la Compañía.": "The city's historic heart, ringed by colonial arcades, the Cathedral and the Compañía church.",
+  "Colosal fortaleza ceremonial inca de muros ciclópeos sobre la ciudad de Cusco.": "Colossal Inca ceremonial fortress of cyclopean walls above the city of Cusco.",
+  "Templo del Sol inca, el más sagrado del imperio, hoy bajo el convento de Santo Domingo.": "The Inca Temple of the Sun, the empire's holiest, now beneath the Santo Domingo convent.",
+  "Catedral renacentista y barroca del siglo XVI que preside la Plaza de Armas.": "16th-century Renaissance and Baroque cathedral presiding over the Plaza de Armas.",
+  "Barrio bohemio de callejuelas empedradas, talleres de artesanos y miradores sobre la ciudad.": "Bohemian quarter of cobbled lanes, artisan workshops and viewpoints over the city.",
+  "Famoso sillar inca de doce ángulos perfectamente encajado en la calle Hatun Rumiyoc.": "Famous twelve-angled Inca stone perfectly fitted into Hatun Rumiyoc street.",
+  "Estatua blanca de Cristo de 8 m que vela sobre Cusco junto a Sacsayhuamán.": "8 m white statue of Christ watching over Cusco beside Sacsayhuamán.",
+  "Impresionante ciudadela inca de terrazas colgadas sobre el Valle Sagrado.": "Impressive Inca citadel of terraces hanging over the Sacred Valley.",
+  "Fortaleza y pueblo inca vivo, puerta de entrada en tren a Machu Picchu.": "Living Inca fortress and town, the rail gateway to Machu Picchu.",
+  "Terrazas concéntricas incas usadas como laboratorio agrícola de altura.": "Concentric Inca terraces used as a high-altitude agricultural laboratory.",
+  "Joya del barroco andino en la Plaza de Armas, con una fachada de piedra tallada.": "Andean Baroque gem on the Plaza de Armas, with an intricately carved stone façade.",
+  "Conjunto de fuentes y canales incas conocido como el 'Baño del Inca'.": "Complex of Inca fountains and channels known as the 'Bath of the Inca'.",
+  "Montaña arcoíris cuyas franjas minerales tiñen la cima a más de 5.000 m.": "Rainbow mountain whose mineral bands streak the summit above 5,000 m.",
+  "Laguna glaciar de aguas turquesa al pie del nevado Humantay, a 4.200 m.": "Turquoise glacial lake at the foot of the Humantay peak, at 4,200 m.",
+  "Miles de pozas de sal escalonadas en la ladera, en uso desde tiempos preincas.": "Thousands of stepped salt pans on the hillside, worked since pre-Inca times.",
+  "Alternativa tranquila a Vinicunca, con tres montañas de colores y un bosque de piedras.": "A calmer alternative to Vinicunca, with three rainbow ridges and a stone forest.",
+  "Fortaleza inca encaramada en un acantilado con formaciones rocosas en forma de cuernos.": "Inca fortress perched on a cliff crowned by horn-shaped rock formations.",
+  "Serena laguna andina en la meseta de Chinchero, ideal para kayak y paisaje.": "Serene Andean lake on the Chinchero plateau, great for kayaking and scenery.",
+  "Balcón panorámico sobre las curvas del río Vilcanota y el Valle Sagrado.": "Panoramic balcony over the bends of the Vilcanota river and the Sacred Valley.",
+  "Pueblo de montaña junto al río Urubamba, base para subir a Machu Picchu.": "Mountain town by the Urubamba river, the base for visiting Machu Picchu.",
+  "Mercado tradicional cusqueño de productos, comida y artesanía, diseñado por Eiffel.": "Cusco's traditional market of produce, food and crafts, in a hall attributed to Eiffel.",
+  "Museo y taller del cacao donde aprender a hacer chocolate desde el grano.": "Cacao museum and workshop where you learn to make chocolate from the bean.",
+  "Restaurante y tapas bar de culto en un patio colonial cerca de la Plaza de Armas.": "Cult restaurant and tapas bar in a colonial courtyard near the Plaza de Armas.",
+  "Cocina regional cusqueña reinterpretada por el chef Gastón Acurio.": "Regional Cusco cooking reimagined by chef Gastón Acurio.",
+  "Cocina andina de horno de barro en un patio de San Blas, famosa por el cuy.": "Andean clay-oven cooking in a San Blas courtyard, famous for its cuy.",
+  "Restaurante vegano de referencia en San Blas, con menús y brunch de mercado.": "Leading vegan restaurant in San Blas, with market-fresh menus and brunch.",
+  "Cocina peruana moderna y ceviches en una calle animada junto a la plaza.": "Modern Peruvian cooking and ceviches on a lively street near the plaza.",
+  "Cusco": "Cusco"
+ }
+}

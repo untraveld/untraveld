@@ -1,0 +1,703 @@
+{
+ "id": "sidney",
+ "name": "Sídney",
+ "country": "WORLD",
+ "center": [
+  -33.8688,
+  151.2093
+ ],
+ "pois": [
+  {
+   "id": "w_syd_opera_house",
+   "cat": "monuments",
+   "name": "Ópera de Sídney",
+   "icon": "🎭",
+   "lat": -33.85679,
+   "lng": 151.2153,
+   "desc": "Emblema mundial de velas blancas junto al puerto."
+  },
+  {
+   "id": "w_syd_harbour_bridge",
+   "cat": "monuments",
+   "name": "Harbour Bridge",
+   "icon": "🌉",
+   "lat": -33.85231,
+   "lng": 151.21094,
+   "desc": "El gran arco de acero que cruza la bahía."
+  },
+  {
+   "id": "w_syd_the_rocks",
+   "cat": "monuments",
+   "name": "The Rocks",
+   "icon": "🏘️",
+   "lat": -33.85936,
+   "lng": 151.2088,
+   "desc": "Barrio histórico de calles empedradas."
+  },
+  {
+   "id": "w_syd_tower_eye",
+   "cat": "monuments",
+   "name": "Sydney Tower Eye",
+   "icon": "🗼",
+   "lat": -33.8707,
+   "lng": 151.20896,
+   "desc": "La torre más alta con mirador 360°."
+  },
+  {
+   "id": "w_syd_qvb",
+   "cat": "monuments",
+   "name": "Queen Victoria Building",
+   "icon": "🏛️",
+   "lat": -33.87175,
+   "lng": 151.20666,
+   "desc": "Galería comercial victoriana con gran cúpula."
+  },
+  {
+   "id": "w_syd_st_marys",
+   "cat": "monuments",
+   "name": "Catedral de Santa María",
+   "icon": "⛪",
+   "lat": -33.87126,
+   "lng": 151.21331,
+   "desc": "Catedral gótica de arenisca junto a Hyde Park."
+  },
+  {
+   "id": "w_syd_town_hall",
+   "cat": "monuments",
+   "name": "Sydney Town Hall",
+   "icon": "🏛️",
+   "lat": -33.8733,
+   "lng": 151.20686,
+   "desc": "Ayuntamiento victoriano de arenisca."
+  },
+  {
+   "id": "w_syd_hyde_park_barracks",
+   "cat": "monuments",
+   "name": "Hyde Park Barracks",
+   "icon": "🧱",
+   "lat": -33.86901,
+   "lng": 151.21243,
+   "desc": "Antiguo cuartel de convictos, Patrimonio Mundial."
+  },
+  {
+   "id": "w_syd_customs_house",
+   "cat": "monuments",
+   "name": "Customs House",
+   "icon": "🏛️",
+   "lat": -33.86185,
+   "lng": 151.21005,
+   "desc": "Edificio histórico frente a Circular Quay."
+  },
+  {
+   "id": "w_syd_cadmans_cottage",
+   "cat": "monuments",
+   "name": "Cadmans Cottage",
+   "icon": "🏚️",
+   "lat": -33.85805,
+   "lng": 151.20876,
+   "desc": "La casa más antigua que sobrevive en Sídney."
+  },
+  {
+   "id": "w_syd_bondi_beach",
+   "cat": "nature",
+   "name": "Bondi Beach",
+   "icon": "🏖️",
+   "lat": -33.89094,
+   "lng": 151.27739,
+   "desc": "La playa urbana más famosa de Australia."
+  },
+  {
+   "id": "w_syd_botanic_garden",
+   "cat": "nature",
+   "name": "Royal Botanic Garden",
+   "icon": "🌳",
+   "lat": -33.86414,
+   "lng": 151.21665,
+   "desc": "Jardín botánico junto a la bahía."
+  },
+  {
+   "id": "w_syd_mrs_macquaries_chair",
+   "cat": "nature",
+   "name": "Mrs Macquarie's Chair",
+   "icon": "🪨",
+   "lat": -33.85917,
+   "lng": 151.22258,
+   "desc": "Mirador tallado con la vista clásica del puerto."
+  },
+  {
+   "id": "w_syd_manly_beach",
+   "cat": "nature",
+   "name": "Manly Beach",
+   "icon": "🏄",
+   "lat": -33.7969,
+   "lng": 151.2881,
+   "desc": "Playa de surf al norte, ideal por ferri."
+  },
+  {
+   "id": "w_syd_bondi_coogee_walk",
+   "cat": "nature",
+   "name": "Paseo Bondi a Coogee",
+   "icon": "🚶",
+   "lat": -33.902,
+   "lng": 151.2706,
+   "desc": "Sendero costero entre playas y acantilados."
+  },
+  {
+   "id": "w_syd_blue_mountains",
+   "cat": "nature",
+   "name": "Blue Mountains",
+   "icon": "⛰️",
+   "lat": -33.73242,
+   "lng": 150.3122,
+   "desc": "Excursión a montañas y las Tres Hermanas."
+  },
+  {
+   "id": "w_syd_hyde_park",
+   "cat": "nature",
+   "name": "Hyde Park",
+   "icon": "🌲",
+   "lat": -33.8734,
+   "lng": 151.2112,
+   "desc": "El parque urbano más antiguo del país."
+  },
+  {
+   "id": "w_syd_coogee_beach",
+   "cat": "nature",
+   "name": "Coogee Beach",
+   "icon": "🌊",
+   "lat": -33.9206,
+   "lng": 151.2583,
+   "desc": "Playa familiar al final del paseo costero."
+  },
+  {
+   "id": "w_syd_watsons_bay",
+   "cat": "nature",
+   "name": "Watsons Bay y The Gap",
+   "icon": "🧭",
+   "lat": -33.8413,
+   "lng": 151.2819,
+   "desc": "Pueblo pesquero con acantilados oceánicos."
+  },
+  {
+   "id": "w_syd_darling_harbour",
+   "cat": "ocio",
+   "name": "Darling Harbour",
+   "icon": "🎡",
+   "lat": -33.8736,
+   "lng": 151.201,
+   "desc": "Zona de ocio junto al agua con atracciones."
+  },
+  {
+   "id": "w_syd_sea_life_aquarium",
+   "cat": "ocio",
+   "name": "Sea Life Aquarium",
+   "icon": "🐠",
+   "lat": -33.86963,
+   "lng": 151.202,
+   "desc": "Gran acuario con túneles submarinos."
+  },
+  {
+   "id": "w_syd_taronga_zoo",
+   "cat": "ocio",
+   "name": "Taronga Zoo",
+   "icon": "🦁",
+   "lat": -33.8433,
+   "lng": 151.2414,
+   "desc": "Zoo con vistas a la bahía y fauna australiana."
+  },
+  {
+   "id": "w_syd_luna_park",
+   "cat": "ocio",
+   "name": "Luna Park",
+   "icon": "🎢",
+   "lat": -33.8477,
+   "lng": 151.2106,
+   "desc": "Parque de atracciones histórico junto al puente."
+  },
+  {
+   "id": "w_syd_madame_tussauds",
+   "cat": "ocio",
+   "name": "Madame Tussauds",
+   "icon": "🕴️",
+   "lat": -33.8702,
+   "lng": 151.2018,
+   "desc": "Museo de figuras de cera en Darling Harbour."
+  },
+  {
+   "id": "w_syd_fish_market",
+   "cat": "food",
+   "name": "Sydney Fish Market",
+   "icon": "🦐",
+   "lat": -33.8718,
+   "lng": 151.1923,
+   "desc": "Mercado de pescado y marisco fresco."
+  },
+  {
+   "id": "w_syd_chinatown",
+   "cat": "food",
+   "name": "Chinatown",
+   "icon": "🥟",
+   "lat": -33.8793,
+   "lng": 151.2043,
+   "desc": "Barrio asiático de Dixon Street."
+  },
+  {
+   "id": "w_syd_paddys_markets",
+   "cat": "food",
+   "name": "Paddy's Markets",
+   "icon": "🧺",
+   "lat": -33.8796,
+   "lng": 151.2033,
+   "desc": "Mercado cubierto de comida y souvenirs."
+  },
+  {
+   "id": "w_syd_grounds_alexandria",
+   "cat": "food",
+   "name": "The Grounds of Alexandria",
+   "icon": "☕",
+   "lat": -33.91086,
+   "lng": 151.19391,
+   "desc": "Café-jardín en un antiguo almacén industrial."
+  },
+  {
+   "id": "w_syd_quay_restaurant",
+   "cat": "food",
+   "name": "Quay Restaurant",
+   "icon": "🍽️",
+   "lat": -33.8579,
+   "lng": 151.2096,
+   "desc": "Alta cocina con vistas a la Ópera."
+  },
+  {
+   "id": "w_syd_bourke_street_bakery",
+   "cat": "food",
+   "name": "Bourke Street Bakery",
+   "icon": "🥐",
+   "lat": -33.89073,
+   "lng": 151.21367,
+   "desc": "Panadería artesanal icónica de Surry Hills."
+  }
+ ],
+ "extra": {
+  "w_syd_opera_house": {
+   "id": "w_syd_opera_house",
+   "d": "Obra maestra de Jørn Utzon inaugurada en 1973 y Patrimonio de la Humanidad, sus conchas de cerámica albergan varias salas de conciertos y teatro.",
+   "d_en": "Jørn Utzon's masterpiece opened in 1973 and a World Heritage Site, its ceramic shells house several concert and theatre halls.",
+   "h": "Visitas guiadas diarias; espectáculos según programación.",
+   "h_en": "Daily guided tours; performances by schedule.",
+   "i": "Reserva la visita guiada interior y disfruta las vistas desde los escalones.",
+   "i_en": "Book the interior guided tour and enjoy the views from the steps."
+  },
+  "w_syd_harbour_bridge": {
+   "id": "w_syd_harbour_bridge",
+   "d": "Inaugurado en 1932 y apodado 'the Coathanger', une el centro con la costa norte; se puede escalar su arco con BridgeClimb o subir al pilón.",
+   "d_en": "Opened in 1932 and nicknamed 'the Coathanger', it links downtown with the north shore; you can climb its arch with BridgeClimb or the pylon lookout.",
+   "h": "Peatonal siempre abierto; BridgeClimb con reserva.",
+   "h_en": "Pedestrian walkway always open; BridgeClimb by booking.",
+   "i": "Cruza a pie por el lado este para fotos de la Ópera.",
+   "i_en": "Walk across the eastern side for photos of the Opera House."
+  },
+  "w_syd_the_rocks": {
+   "id": "w_syd_the_rocks",
+   "d": "Cuna de la colonia europea de 1788, conserva callejones, pubs antiguos y almacenes de arenisca; sus mercados de fin de semana son muy populares.",
+   "d_en": "Birthplace of the 1788 European colony, it keeps laneways, old pubs and sandstone warehouses; its weekend markets are very popular.",
+   "h": "Calles abiertas; mercados fin de semana 10:00–17:00.",
+   "h_en": "Streets open; markets weekends 10:00–17:00.",
+   "i": "Visita los mercados de sábado y domingo para artesanía local.",
+   "i_en": "Visit the Saturday and Sunday markets for local crafts."
+  },
+  "w_syd_tower_eye": {
+   "id": "w_syd_tower_eye",
+   "d": "Con 309 m es el edificio más alto de la ciudad; su plataforma acristalada ofrece vistas panorámicas y el mirador exterior Skywalk.",
+   "d_en": "At 309 m it is the city's tallest building; its glass platform offers panoramic views and the open-air Skywalk.",
+   "h": "Todos los días 10:00–20:00 (varía por temporada).",
+   "h_en": "Daily 10:00–20:00 (varies by season).",
+   "i": "Sube al atardecer para ver la ciudad iluminarse.",
+   "i_en": "Go up at sunset to watch the city light up."
+  },
+  "w_syd_qvb": {
+   "id": "w_syd_qvb",
+   "d": "Edificio romanesco de 1898 restaurado con vidrieras, mosaicos y un famoso reloj colgante; alberga boutiques y cafés bajo su cúpula central.",
+   "d_en": "An 1898 Romanesque building restored with stained glass, mosaics and a famous hanging clock; it houses boutiques and cafés under its central dome.",
+   "h": "Lun–sáb 09:00–18:00, dom 11:00–17:00.",
+   "h_en": "Mon–Sat 09:00–18:00, Sun 11:00–17:00.",
+   "i": "Observa el reloj real animado en la hora en punto.",
+   "i_en": "Watch the animated Royal Clock on the hour."
+  },
+  "w_syd_st_marys": {
+   "id": "w_syd_st_marys",
+   "d": "Sede católica de Sídney, es una de las mayores iglesias góticas del mundo; destaca su suelo con mosaicos y sus gemelas agujas.",
+   "d_en": "Sydney's Catholic seat, one of the largest Gothic churches in the world; its mosaic crypt floor and twin spires stand out.",
+   "h": "Todos los días 06:30–18:30; misas frecuentes.",
+   "h_en": "Daily 06:30–18:30; frequent Masses.",
+   "i": "Entra a ver la cripta con su suelo de mosaico terrazzo.",
+   "i_en": "Step inside to see the crypt's terrazzo mosaic floor."
+  },
+  "w_syd_town_hall": {
+   "id": "w_syd_town_hall",
+   "d": "Edificio de estilo segundo imperio de 1889 con un gran órgano de tubos histórico y salones ornamentados; es punto de encuentro clásico del centro.",
+   "d_en": "An 1889 Second Empire building with a great historic pipe organ and ornate halls; a classic downtown meeting point.",
+   "h": "Exterior siempre visible; interior según eventos.",
+   "h_en": "Exterior always visible; interior by events.",
+   "i": "Sus escalones son el punto de encuentro más popular del centro.",
+   "i_en": "Its steps are the city's most popular meeting spot."
+  },
+  "w_syd_hyde_park_barracks": {
+   "id": "w_syd_hyde_park_barracks",
+   "d": "Diseñado por el arquitecto convicto Francis Greenway en 1819, alojó a presos deportados; hoy es un museo sobre la historia penal de Australia.",
+   "d_en": "Designed by convict architect Francis Greenway in 1819, it housed transported prisoners; today a museum on Australia's convict history.",
+   "h": "Todos los días 10:00–17:00.",
+   "h_en": "Daily 10:00–17:00.",
+   "i": "La audioguía inmersiva recrea la vida de los convictos.",
+   "i_en": "The immersive audio guide recreates convict life."
+  },
+  "w_syd_customs_house": {
+   "id": "w_syd_customs_house",
+   "d": "Antigua aduana de arenisca de 1845 reconvertida en biblioteca y espacio cultural; bajo su vestíbulo hay una maqueta a escala de la ciudad.",
+   "d_en": "An 1845 sandstone former customs house turned library and cultural space; a scale model of the city lies under its foyer floor.",
+   "h": "Lun–vie 08:00–24:00, fines de semana horario reducido.",
+   "h_en": "Mon–Fri 08:00–24:00, reduced hours weekends.",
+   "i": "Mira la maqueta de Sídney bajo el suelo de cristal.",
+   "i_en": "Look at the Sydney model under the glass floor."
+  },
+  "w_syd_cadmans_cottage": {
+   "id": "w_syd_cadmans_cottage",
+   "d": "Construida en 1816 para los barqueros del gobierno, esta pequeña vivienda de arenisca en The Rocks es la edificación doméstica más antigua de la ciudad.",
+   "d_en": "Built in 1816 for government boatmen, this small sandstone cottage in The Rocks is the city's oldest domestic building.",
+   "h": "Exterior visible siempre; interior según programación.",
+   "h_en": "Exterior always visible; interior by schedule.",
+   "i": "Combínala con un paseo por los callejones de The Rocks.",
+   "i_en": "Combine it with a stroll through The Rocks laneways."
+  },
+  "w_syd_bondi_beach": {
+   "id": "w_syd_bondi_beach",
+   "d": "Un kilómetro de arena dorada rodeado de cafés, surfistas y la histórica piscina de olas de Bondi Icebergs; ambiente vibrante todo el año.",
+   "d_en": "A kilometre of golden sand ringed by cafés, surfers and the historic Bondi Icebergs ocean pool; a lively scene all year.",
+   "h": "Playa abierta 24 h; socorristas en horario diurno.",
+   "h_en": "Beach open 24h; lifeguards during daylight.",
+   "i": "Báñate entre las banderas rojas y amarillas por seguridad.",
+   "i_en": "Swim between the red and yellow flags for safety."
+  },
+  "w_syd_botanic_garden": {
+   "id": "w_syd_botanic_garden",
+   "d": "Fundado en 1816, es el jardín científico más antiguo de Australia con colecciones de plantas nativas y tropicales y vistas directas a la Ópera.",
+   "d_en": "Founded in 1816, Australia's oldest scientific garden with native and tropical plant collections and direct views of the Opera House.",
+   "h": "Todos los días desde 07:00 hasta el atardecer.",
+   "h_en": "Daily from 07:00 to sunset.",
+   "i": "Recorre el sendero costero hasta Mrs Macquarie's Chair.",
+   "i_en": "Follow the shoreline path to Mrs Macquarie's Chair."
+  },
+  "w_syd_mrs_macquaries_chair": {
+   "id": "w_syd_mrs_macquaries_chair",
+   "d": "Banco de arenisca esculpido en 1810 para la esposa del gobernador Macquarie; ofrece el ángulo perfecto para fotografiar la Ópera y el puente juntos.",
+   "d_en": "A sandstone bench carved in 1810 for Governor Macquarie's wife; it gives the perfect angle to photograph the Opera House and bridge together.",
+   "h": "Acceso libre a toda hora.",
+   "h_en": "Open access at all hours.",
+   "i": "Ven al amanecer para la mejor luz sobre la bahía.",
+   "i_en": "Come at sunrise for the best light over the bay."
+  },
+  "w_syd_manly_beach": {
+   "id": "w_syd_manly_beach",
+   "d": "Amplia playa oceánica bordeada de pinos de Norfolk y el paseo del Corso; punto clave del surf australiano con travesía en ferri muy panorámica.",
+   "d_en": "A broad ocean beach lined with Norfolk pines and the Corso promenade; a key spot for Australian surfing with a scenic ferry crossing.",
+   "h": "Playa abierta 24 h; ferris frecuentes desde Circular Quay.",
+   "h_en": "Beach open 24h; frequent ferries from Circular Quay.",
+   "i": "Camina el sendero Manly a Spit Bridge entre bahías.",
+   "i_en": "Walk the Manly to Spit Bridge trail between coves."
+  },
+  "w_syd_bondi_coogee_walk": {
+   "id": "w_syd_bondi_coogee_walk",
+   "d": "Ruta de 6 km por acantilados que enlaza Bondi, Tamarama, Bronte, Clovelly y Coogee, con piscinas de roca, calas y arte al aire libre.",
+   "d_en": "A 6 km clifftop route linking Bondi, Tamarama, Bronte, Clovelly and Coogee, with rock pools, coves and open-air art.",
+   "h": "Sendero abierto todo el día; mejor de mañana.",
+   "h_en": "Trail open all day; best in the morning.",
+   "i": "En noviembre coincide con la muestra Sculpture by the Sea.",
+   "i_en": "In November it coincides with Sculpture by the Sea."
+  },
+  "w_syd_blue_mountains": {
+   "id": "w_syd_blue_mountains",
+   "d": "Parque nacional Patrimonio de la Humanidad de bosques de eucaliptos, cañones y miradores; su icono son las Tres Hermanas vistas desde Echo Point en Katoomba.",
+   "d_en": "A World Heritage national park of eucalyptus forests, canyons and lookouts; its icon is the Three Sisters seen from Echo Point in Katoomba.",
+   "h": "Parque abierto siempre; Scenic World 09:00–17:00.",
+   "h_en": "Park always open; Scenic World 09:00–17:00.",
+   "i": "Toma el tren a Katoomba y dedica el día completo.",
+   "i_en": "Take the train to Katoomba and set aside a full day."
+  },
+  "w_syd_hyde_park": {
+   "id": "w_syd_hyde_park",
+   "d": "Pulmón verde del centro con una avenida de higueras, la fuente Archibald y el memorial ANZAC de guerra; ideal para pasear y descansar.",
+   "d_en": "A green heart of downtown with an avenue of fig trees, the Archibald Fountain and the ANZAC War Memorial; ideal for a stroll and a rest.",
+   "h": "Abierto todo el día.",
+   "h_en": "Open all day.",
+   "i": "Pasea bajo la avenida de higueras hacia el memorial ANZAC.",
+   "i_en": "Walk under the fig-tree avenue toward the ANZAC memorial."
+  },
+  "w_syd_coogee_beach": {
+   "id": "w_syd_coogee_beach",
+   "d": "Cala resguardada con césped, piscinas de roca como el Ross Jones Memorial Pool y ambiente relajado; cierra el paseo desde Bondi.",
+   "d_en": "A sheltered cove with lawns, rock pools like the Ross Jones Memorial Pool and a laid-back vibe; it ends the walk from Bondi.",
+   "h": "Playa abierta 24 h; socorristas de día.",
+   "h_en": "Beach open 24h; lifeguards by day.",
+   "i": "Báñate en la piscina de roca Wylie's Baths cercana.",
+   "i_en": "Swim at the nearby Wylie's Baths rock pool."
+  },
+  "w_syd_watsons_bay": {
+   "id": "w_syd_watsons_bay",
+   "d": "Antigua villa de pescadores a la entrada del puerto, con el espectacular mirador de acantilados The Gap, faros y famosos locales de pescado y marisco.",
+   "d_en": "A former fishing village at the harbour mouth, with the dramatic The Gap clifftop lookout, lighthouses and famous seafood spots.",
+   "h": "Miradores abiertos siempre; ferri desde Circular Quay.",
+   "h_en": "Lookouts always open; ferry from Circular Quay.",
+   "i": "Llega en ferri y come pescado frente al mar.",
+   "i_en": "Arrive by ferry and eat fish by the sea."
+  },
+  "w_syd_darling_harbour": {
+   "id": "w_syd_darling_harbour",
+   "d": "Antiguo puerto reconvertido en paseo de restaurantes, museos, el acuario y el parque infantil; escenario de fuegos artificiales y eventos.",
+   "d_en": "A former dock reborn as a promenade of restaurants, museums, the aquarium and a playground; a stage for fireworks and events.",
+   "h": "Paseo abierto siempre; atracciones con horarios propios.",
+   "h_en": "Promenade always open; attractions have own hours.",
+   "i": "Los sábados suele haber fuegos artificiales nocturnos.",
+   "i_en": "Saturdays often feature evening fireworks."
+  },
+  "w_syd_sea_life_aquarium": {
+   "id": "w_syd_sea_life_aquarium",
+   "d": "Alberga tiburones, dugongos y la mayor colección de especies australianas de agua; sus túneles de cristal permiten caminar bajo los tanques.",
+   "d_en": "Home to sharks, dugongs and the largest collection of Australian aquatic species; glass tunnels let you walk beneath the tanks.",
+   "h": "Todos los días 10:00–18:00 (última entrada 17:00).",
+   "h_en": "Daily 10:00–18:00 (last entry 17:00).",
+   "i": "Compra las entradas online para evitar colas.",
+   "i_en": "Buy tickets online to skip the queues."
+  },
+  "w_syd_taronga_zoo": {
+   "id": "w_syd_taronga_zoo",
+   "d": "Sobre una ladera frente al puerto, reúne koalas, canguros, jirafas y un teleférico; se llega en un pintoresco ferri desde Circular Quay.",
+   "d_en": "On a hillside facing the harbour, it gathers koalas, kangaroos, giraffes and a cable car; reached by a scenic ferry from Circular Quay.",
+   "h": "Todos los días 09:30–17:00.",
+   "h_en": "Daily 09:30–17:00.",
+   "i": "Llega en ferri y baja en el teleférico desde la cima.",
+   "i_en": "Arrive by ferry and ride the cable car down from the top."
+  },
+  "w_syd_luna_park": {
+   "id": "w_syd_luna_park",
+   "d": "Parque de diversiones de 1935 con su icónica cara sonriente de entrada, norias y atracciones vintage frente al Harbour Bridge.",
+   "d_en": "A 1935 amusement park with its iconic smiling face entrance, Ferris wheel and vintage rides facing the Harbour Bridge.",
+   "h": "Horario variable; suele abrir tardes y fines de semana.",
+   "h_en": "Hours vary; usually open afternoons and weekends.",
+   "i": "Entrar es gratis; pagas solo por las atracciones.",
+   "i_en": "Entry is free; you pay only for the rides."
+  },
+  "w_syd_madame_tussauds": {
+   "id": "w_syd_madame_tussauds",
+   "d": "Réplicas de cera de estrellas del cine, deporte y música australianos e internacionales, con escenografías interactivas para fotos.",
+   "d_en": "Wax replicas of Australian and international film, sport and music stars, with interactive sets for photos.",
+   "h": "Todos los días 10:00–17:00.",
+   "h_en": "Daily 10:00–17:00.",
+   "i": "Entrada combinada con el acuario y Wild Life sale a cuenta.",
+   "i_en": "A combo ticket with the aquarium and Wild Life is good value."
+  },
+  "w_syd_fish_market": {
+   "id": "w_syd_fish_market",
+   "d": "El mayor mercado de pescado del hemisferio sur, donde puedes comprar y comer ostras, langostinos y sashimi recién sacados del agua.",
+   "d_en": "The largest fish market in the Southern Hemisphere, where you can buy and eat oysters, prawns and sashimi straight from the water.",
+   "h": "Todos los días 07:00–16:00.",
+   "h_en": "Daily 07:00–16:00.",
+   "i": "Ve temprano y come marisco frente al puerto de Blackwattle.",
+   "i_en": "Go early and eat seafood by Blackwattle Bay."
+  },
+  "w_syd_chinatown": {
+   "id": "w_syd_chinatown",
+   "d": "Calle peatonal con arcos, restaurantes de dim sum, ramen y hot pot, y el bullicioso mercado nocturno de los viernes con puestos de comida callejera.",
+   "d_en": "A pedestrian street with arches, dim sum, ramen and hot pot restaurants, and the bustling Friday night market with street food stalls.",
+   "h": "Locales abiertos hasta tarde; mercado nocturno viernes.",
+   "h_en": "Venues open late; night market on Fridays.",
+   "i": "Prueba los bollos al vapor en el mercado del viernes.",
+   "i_en": "Try the steamed buns at the Friday night market."
+  },
+  "w_syd_paddys_markets": {
+   "id": "w_syd_paddys_markets",
+   "d": "Histórico mercado de Haymarket con cientos de puestos de fruta fresca, marisco, recuerdos y comida asiática económica bajo un mismo techo.",
+   "d_en": "A historic Haymarket market with hundreds of stalls of fresh fruit, seafood, souvenirs and cheap Asian food under one roof.",
+   "h": "Mié–dom 10:00–18:00.",
+   "h_en": "Wed–Sun 10:00–18:00.",
+   "i": "Regatea por souvenirs en los puestos del fondo.",
+   "i_en": "Haggle for souvenirs at the back stalls."
+  },
+  "w_syd_grounds_alexandria": {
+   "id": "w_syd_grounds_alexandria",
+   "d": "Complejo gastronómico con cafetería, panadería, huerto y animales de granja en un almacén restaurado; muy popular por su ambiente floral y su brunch.",
+   "d_en": "A dining complex with café, bakery, garden and farm animals in a restored warehouse; hugely popular for its floral setting and brunch.",
+   "h": "Todos los días 07:00–16:00.",
+   "h_en": "Daily 07:00–16:00.",
+   "i": "Ve entre semana temprano para evitar las largas esperas.",
+   "i_en": "Go early on a weekday to avoid the long waits."
+  },
+  "w_syd_quay_restaurant": {
+   "id": "w_syd_quay_restaurant",
+   "d": "Uno de los restaurantes más laureados de Australia, del chef Peter Gilmore, con menú degustación de temporada y vistas panorámicas al puerto.",
+   "d_en": "One of Australia's most awarded restaurants, by chef Peter Gilmore, with a seasonal tasting menu and panoramic harbour views.",
+   "h": "Cenas mié–dom; comidas fin de semana.",
+   "h_en": "Dinner Wed–Sun; lunch on weekends.",
+   "i": "Reserva con semanas de antelación y pide mesa con vistas.",
+   "i_en": "Book weeks ahead and request a window table."
+  },
+  "w_syd_bourke_street_bakery": {
+   "id": "w_syd_bourke_street_bakery",
+   "d": "Pequeña panadería fundada en 2004 famosa por sus rollos de salchicha, tartas y pan de masa madre; germen de una cadena muy querida en la ciudad.",
+   "d_en": "A small bakery founded in 2004 famed for its sausage rolls, tarts and sourdough; the seed of a much-loved city chain.",
+   "h": "Todos los días 07:00–17:00.",
+   "h_en": "Daily 07:00–17:00.",
+   "i": "Prueba el rollo de salchicha y la tarta de limón.",
+   "i_en": "Try the sausage roll and the lemon curd tart."
+  }
+ },
+ "food": {
+  "w_syd_fish_market": {
+   "cuisine": "Marisco",
+   "price": "15–40 €",
+   "hours": "Todos los días 07:00–16:00"
+  },
+  "w_syd_chinatown": {
+   "cuisine": "Asiática",
+   "price": "10–30 €",
+   "hours": "Locales abiertos hasta tarde; mercado nocturno vie"
+  },
+  "w_syd_paddys_markets": {
+   "cuisine": "Mercado",
+   "price": "5–20 €",
+   "hours": "Mié–dom 10:00–18:00"
+  },
+  "w_syd_grounds_alexandria": {
+   "cuisine": "Café",
+   "price": "15–35 €",
+   "hours": "Todos los días 07:00–16:00"
+  },
+  "w_syd_quay_restaurant": {
+   "cuisine": "Contemporánea",
+   "price": "180–260 €",
+   "hours": "Cenas mié–dom; comidas fin de semana"
+  },
+  "w_syd_bourke_street_bakery": {
+   "cuisine": "Panadería",
+   "price": "5–20 €",
+   "hours": "Todos los días 07:00–17:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Sídney",
+   "items": [
+    {
+     "name": "Bumerán aborigen pintado",
+     "price": "20–60 €",
+     "desc": "Bumerán de madera con arte punteado aborigen, símbolo cultural australiano."
+    },
+    {
+     "name": "Ópalo australiano",
+     "price": "30–300 €",
+     "desc": "Piedra nacional de Australia, en joyas o suelta; el ópalo boulder es típico."
+    },
+    {
+     "name": "Botas UGG",
+     "price": "80–200 €",
+     "desc": "Botas de piel de oveja originarias de Australia, cálidas y muy populares."
+    },
+    {
+     "name": "Productos de Vegemite",
+     "price": "5–15 €",
+     "desc": "Icónica pasta untable salada, un clásico del desayuno australiano."
+    },
+    {
+     "name": "Miel y macadamias",
+     "price": "10–30 €",
+     "desc": "Miel de eucalipto y nueces de macadamia, sabores autóctonos australianos."
+    }
+   ],
+   "shops": [
+    "The Rocks Markets",
+    "Queen Victoria Building",
+    "Paddy's Markets",
+    "Australian Opal Cutters",
+    "Strand Arcade"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Compra una tarjeta Opal para trenes, autobuses, ferris y tranvías; los domingos hay tope diario de tarifa.",
+   "El ferry a Manly desde Circular Quay ofrece las mejores vistas del puerto por precio de transporte público.",
+   "Protégete del sol: el índice UV es extremo; usa protector solar, sombrero y gafas incluso en días nublados.",
+   "Reserva con antelación las visitas guiadas a la Ópera y la subida al Harbour Bridge (BridgeClimb).",
+   "Para las Blue Mountains reserva un tour o toma el tren a Katoomba; dedica un día completo a la excursión."
+  ],
+  "en": [
+   "Get an Opal card for trains, buses, ferries and light rail; Sundays have a daily fare cap.",
+   "The Manly ferry from Circular Quay gives the best harbour views for the price of public transport.",
+   "Guard against the sun: UV is extreme; use sunscreen, a hat and sunglasses even on cloudy days.",
+   "Book Opera House tours and the Harbour Bridge climb (BridgeClimb) well in advance.",
+   "For the Blue Mountains book a tour or take the train to Katoomba; set aside a full day for the trip."
+  ]
+ },
+ "climate": {
+  "hi": [
+   26,
+   26,
+   25,
+   22,
+   19,
+   17,
+   16,
+   18,
+   20,
+   22,
+   24,
+   25
+  ],
+  "lo": [
+   19,
+   19,
+   17,
+   14,
+   11,
+   9,
+   8,
+   9,
+   11,
+   13,
+   16,
+   18
+  ]
+ },
+ "tr": {
+  "Emblema mundial de velas blancas junto al puerto.": "World-famous white-sailed icon on the harbour.",
+  "El gran arco de acero que cruza la bahía.": "The great steel arch spanning the bay.",
+  "Barrio histórico de calles empedradas.": "Historic district of cobbled lanes.",
+  "La torre más alta con mirador 360°.": "The tallest tower with a 360° lookout.",
+  "Galería comercial victoriana con gran cúpula.": "Victorian shopping arcade with a grand dome.",
+  "Catedral gótica de arenisca junto a Hyde Park.": "Gothic sandstone cathedral by Hyde Park.",
+  "Ayuntamiento victoriano de arenisca.": "Victorian sandstone town hall.",
+  "Antiguo cuartel de convictos, Patrimonio Mundial.": "Former convict barracks, World Heritage.",
+  "Edificio histórico frente a Circular Quay.": "Historic building facing Circular Quay.",
+  "La casa más antigua que sobrevive en Sídney.": "Sydney's oldest surviving house.",
+  "La playa urbana más famosa de Australia.": "Australia's most famous city beach.",
+  "Jardín botánico junto a la bahía.": "Botanic garden beside the harbour.",
+  "Mirador tallado con la vista clásica del puerto.": "Carved lookout with the classic harbour view.",
+  "Playa de surf al norte, ideal por ferri.": "Northern surf beach, best reached by ferry.",
+  "Sendero costero entre playas y acantilados.": "Coastal path between beaches and cliffs.",
+  "Excursión a montañas y las Tres Hermanas.": "Day trip to mountains and the Three Sisters.",
+  "El parque urbano más antiguo del país.": "The country's oldest public park.",
+  "Playa familiar al final del paseo costero.": "Family beach at the end of the coastal walk.",
+  "Pueblo pesquero con acantilados oceánicos.": "Fishing village with ocean cliffs.",
+  "Zona de ocio junto al agua con atracciones.": "Waterside leisure zone with attractions.",
+  "Gran acuario con túneles submarinos.": "Large aquarium with underwater tunnels.",
+  "Zoo con vistas a la bahía y fauna australiana.": "Zoo with harbour views and Aussie wildlife.",
+  "Parque de atracciones histórico junto al puente.": "Historic amusement park by the bridge.",
+  "Museo de figuras de cera en Darling Harbour.": "Wax museum in Darling Harbour.",
+  "Mercado de pescado y marisco fresco.": "Fresh fish and seafood market.",
+  "Barrio asiático de Dixon Street.": "Asian quarter around Dixon Street.",
+  "Mercado cubierto de comida y souvenirs.": "Covered market of food and souvenirs.",
+  "Café-jardín en un antiguo almacén industrial.": "Garden café in a former industrial warehouse.",
+  "Alta cocina con vistas a la Ópera.": "Fine dining with Opera House views.",
+  "Panadería artesanal icónica de Surry Hills.": "Iconic artisan bakery in Surry Hills.",
+  "Sídney": "Sídney"
+ }
+}

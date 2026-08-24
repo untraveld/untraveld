@@ -1,0 +1,703 @@
+{
+ "id": "praga",
+ "name": "Praga",
+ "country": "WORLD",
+ "center": [
+  50.08749,
+  14.42076
+ ],
+ "pois": [
+  {
+   "id": "w_pra_puente_carlos",
+   "cat": "monuments",
+   "name": "Puente de Carlos",
+   "icon": "🌉",
+   "lat": 50.08639,
+   "lng": 14.41139,
+   "desc": "Puente gótico del s. XIV sobre el Moldava, jalonado de estatuas barrocas."
+  },
+  {
+   "id": "w_pra_castillo",
+   "cat": "monuments",
+   "name": "Castillo de Praga",
+   "icon": "🏰",
+   "lat": 50.09083,
+   "lng": 14.40056,
+   "desc": "El mayor complejo de castillo del mundo, sede presidencial y del poder milenario."
+  },
+  {
+   "id": "w_pra_san_vito",
+   "cat": "monuments",
+   "name": "Catedral de San Vito",
+   "icon": "⛪",
+   "lat": 50.09083,
+   "lng": 14.40083,
+   "desc": "Catedral gótica dentro del castillo, corazón espiritual de Chequia."
+  },
+  {
+   "id": "w_pra_callejon_oro",
+   "cat": "monuments",
+   "name": "Callejón de Oro",
+   "icon": "🏘️",
+   "lat": 50.09169,
+   "lng": 14.40456,
+   "desc": "Pintoresca hilera de casitas de colores dentro del castillo."
+  },
+  {
+   "id": "w_pra_reloj_astronomico",
+   "cat": "monuments",
+   "name": "Reloj Astronómico",
+   "icon": "🕰️",
+   "lat": 50.08694,
+   "lng": 14.42083,
+   "desc": "Reloj medieval de 1410, el más antiguo del mundo aún en marcha."
+  },
+  {
+   "id": "w_pra_plaza_ciudad_vieja",
+   "cat": "monuments",
+   "name": "Plaza de la Ciudad Vieja",
+   "icon": "🏛️",
+   "lat": 50.08775,
+   "lng": 14.42096,
+   "desc": "Plaza histórica rodeada de fachadas góticas, barrocas y coloridas."
+  },
+  {
+   "id": "w_pra_iglesia_tyn",
+   "cat": "monuments",
+   "name": "Iglesia de Týn",
+   "icon": "⛪",
+   "lat": 50.08778,
+   "lng": 14.42222,
+   "desc": "Templo gótico de dobles torres puntiagudas sobre la plaza."
+  },
+  {
+   "id": "w_pra_barrio_judio",
+   "cat": "monuments",
+   "name": "Barrio Judío (Josefov)",
+   "icon": "🕎",
+   "lat": 50.09,
+   "lng": 14.41806,
+   "desc": "Antiguo gueto con sinagogas y el conmovedor cementerio judío."
+  },
+  {
+   "id": "w_pra_plaza_wenceslao",
+   "cat": "monuments",
+   "name": "Plaza de Wenceslao",
+   "icon": "🐎",
+   "lat": 50.08194,
+   "lng": 14.42778,
+   "desc": "Gran bulevar comercial y escenario clave de la historia checa."
+  },
+  {
+   "id": "w_pra_casa_danzante",
+   "cat": "monuments",
+   "name": "Casa Danzante",
+   "icon": "🏢",
+   "lat": 50.07528,
+   "lng": 14.41417,
+   "desc": "Icónico edificio deconstructivista con forma de pareja bailando."
+  },
+  {
+   "id": "w_pra_lennon",
+   "cat": "monuments",
+   "name": "Muro de John Lennon",
+   "icon": "🎨",
+   "lat": 50.08611,
+   "lng": 14.40667,
+   "desc": "Muro cubierto de grafitis de paz e inspiración lennoniana."
+  },
+  {
+   "id": "w_pra_vysehrad",
+   "cat": "monuments",
+   "name": "Vyšehrad",
+   "icon": "🏰",
+   "lat": 50.06444,
+   "lng": 14.41694,
+   "desc": "Fortaleza legendaria sobre el río con vistas y panteón nacional."
+  },
+  {
+   "id": "w_pra_petrin",
+   "cat": "nature",
+   "name": "Colina de Petřín",
+   "icon": "🌳",
+   "lat": 50.08306,
+   "lng": 14.395,
+   "desc": "Colina verde con jardines, rosaledas y un funicular clásico."
+  },
+  {
+   "id": "w_pra_kampa",
+   "cat": "nature",
+   "name": "Isla Kampa",
+   "icon": "🏝️",
+   "lat": 50.08472,
+   "lng": 14.40806,
+   "desc": "Apacible isla-jardín junto al Puente de Carlos, la 'Venecia de Praga'."
+  },
+  {
+   "id": "w_pra_jardin_wallenstein",
+   "cat": "nature",
+   "name": "Jardín Wallenstein",
+   "icon": "⛲",
+   "lat": 50.09,
+   "lng": 14.40639,
+   "desc": "Jardín barroco con pavos reales, grutas y una gran logia."
+  },
+  {
+   "id": "w_pra_letna",
+   "cat": "nature",
+   "name": "Parque Letná",
+   "icon": "🌲",
+   "lat": 50.09556,
+   "lng": 14.41667,
+   "desc": "Parque en alto con miradores sobre los puentes del Moldava."
+  },
+  {
+   "id": "w_pra_strelecky",
+   "cat": "nature",
+   "name": "Isla Střelecký",
+   "icon": "🏞️",
+   "lat": 50.08167,
+   "lng": 14.41111,
+   "desc": "Islote arbolado bajo el puente Legií con vistas al río."
+  },
+  {
+   "id": "w_pra_riegrovy",
+   "cat": "nature",
+   "name": "Riegrovy sady",
+   "icon": "🌿",
+   "lat": 50.07833,
+   "lng": 14.44139,
+   "desc": "Parque local en Vinohrady famoso por su beer garden y su puesta de sol."
+  },
+  {
+   "id": "w_pra_torre_petrin",
+   "cat": "ocio",
+   "name": "Torre mirador de Petřín",
+   "icon": "🗼",
+   "lat": 50.08361,
+   "lng": 14.39139,
+   "desc": "Miniatura de la Torre Eiffel con vistas de 360º de la ciudad."
+  },
+  {
+   "id": "w_pra_crucero_moldava",
+   "cat": "ocio",
+   "name": "Crucero por el Moldava",
+   "icon": "⛴️",
+   "lat": 50.09,
+   "lng": 14.41472,
+   "desc": "Paseo en barco por el río con el castillo y los puentes de fondo."
+  },
+  {
+   "id": "w_pra_naplavka",
+   "cat": "ocio",
+   "name": "Náplavka",
+   "icon": "🍻",
+   "lat": 50.06889,
+   "lng": 14.41639,
+   "desc": "Paseo ribereño con bares, mercado de granjeros y ambiente joven."
+  },
+  {
+   "id": "w_pra_zoo",
+   "cat": "ocio",
+   "name": "Zoo de Praga",
+   "icon": "🦁",
+   "lat": 50.11694,
+   "lng": 14.40611,
+   "desc": "Uno de los mejores zoológicos del mundo, ideal en familia."
+  },
+  {
+   "id": "w_pra_museo_nacional",
+   "cat": "ocio",
+   "name": "Museo Nacional",
+   "icon": "🏛️",
+   "lat": 50.07889,
+   "lng": 14.43056,
+   "desc": "Majestuoso museo neorrenacentista al final de la plaza de Wenceslao."
+  },
+  {
+   "id": "w_pra_torre_zizkov",
+   "cat": "ocio",
+   "name": "Torre de Televisión de Žižkov",
+   "icon": "📡",
+   "lat": 50.08083,
+   "lng": 14.45028,
+   "desc": "Torre futurista de 216 m con bebés trepadores y mirador panorámico."
+  },
+  {
+   "id": "w_pra_u_fleku",
+   "cat": "food",
+   "name": "U Fleků",
+   "icon": "🍺",
+   "lat": 50.07806,
+   "lng": 14.41917,
+   "desc": "Cervecería histórica de 1499 con su propia cerveza negra."
+  },
+  {
+   "id": "w_pra_lokal_dlouha",
+   "cat": "food",
+   "name": "Lokál Dlouhá",
+   "icon": "🍽️",
+   "lat": 50.09028,
+   "lng": 14.42556,
+   "desc": "Taberna checa moderna con Pilsner fresquísima de tanque."
+  },
+  {
+   "id": "w_pra_cafe_louvre",
+   "cat": "food",
+   "name": "Café Louvre",
+   "icon": "☕",
+   "lat": 50.082,
+   "lng": 14.41879,
+   "desc": "Café histórico de 1902 frecuentado por Kafka y Einstein."
+  },
+  {
+   "id": "w_pra_cafe_savoy",
+   "cat": "food",
+   "name": "Café Savoy",
+   "icon": "🍰",
+   "lat": 50.08096,
+   "lng": 14.40722,
+   "desc": "Café de techos neorrenacentistas con repostería de alta gama."
+  },
+  {
+   "id": "w_pra_kantyna",
+   "cat": "food",
+   "name": "Kantýna",
+   "icon": "🥩",
+   "lat": 50.08337,
+   "lng": 14.42869,
+   "desc": "Carnicería-cantina de estilo checo con carnes a la brasa al peso."
+  },
+  {
+   "id": "w_pra_nase_maso",
+   "cat": "food",
+   "name": "Naše maso",
+   "icon": "🥪",
+   "lat": 50.08972,
+   "lng": 14.42528,
+   "desc": "Carnicería gourmet con bocadillos y hamburguesas para llevar."
+  }
+ ],
+ "extra": {
+  "w_pra_puente_carlos": {
+   "id": "w_pra_puente_carlos",
+   "d": "Encargado por Carlos IV en 1357, une la Ciudad Vieja con Malá Strana. Sus 30 estatuas de santos, la más famosa la de San Juan Nepomuceno, y sus torres góticas lo convierten en el símbolo de Praga y en un desfile constante de músicos y retratistas.",
+   "d_en": "Commissioned by Charles IV in 1357, it joins the Old Town with Malá Strana. Its 30 saintly statues, most famously St John of Nepomuk, and its Gothic towers make it Prague's emblem and a constant parade of buskers and portraitists.",
+   "h": "Abierto 24 h; las torres cierran sobre las 21:00–22:00.",
+   "h_en": "Open 24 h; the bridge towers close around 21:00–22:00.",
+   "i": "Ve al amanecer para evitar el gentío. Toca la placa de San Juan Nepomuceno para tener suerte.",
+   "i_en": "Come at dawn to beat the crowds. Touch the St John of Nepomuk plaque for good luck."
+  },
+  "w_pra_castillo": {
+   "id": "w_pra_castillo",
+   "d": "Fundado hacia el año 880, este vasto recinto reúne palacios, iglesias, jardines y la Catedral de San Vito. Ha sido residencia de reyes de Bohemia, emperadores del Sacro Imperio y hoy del presidente checo. El cambio de guardia al mediodía es todo un espectáculo.",
+   "d_en": "Founded around 880, this vast compound gathers palaces, churches, gardens and St Vitus Cathedral. It has housed Bohemian kings, Holy Roman emperors and today the Czech president. The noon changing of the guard is a real spectacle.",
+   "h": "Recinto 06:00–22:00; edificios 09:00–17:00 (invierno hasta 16:00).",
+   "h_en": "Grounds 06:00–22:00; buildings 09:00–17:00 (winter until 16:00).",
+   "i": "Compra el circuito combinado y llega temprano. Sube en el tranvía 22 hasta Pražský hrad.",
+   "i_en": "Buy the combined circuit and arrive early. Take tram 22 to Pražský hrad."
+  },
+  "w_pra_san_vito": {
+   "id": "w_pra_san_vito",
+   "d": "Tardó casi 600 años en completarse (1344–1929). Alberga las tumbas reales, las joyas de la corona de Bohemia, la capilla de San Wenceslao recubierta de piedras semipreciosas y una deslumbrante vidriera Art Nouveau de Alfons Mucha.",
+   "d_en": "It took nearly 600 years to finish (1344–1929). It holds royal tombs, the Bohemian crown jewels, the gem-encrusted Chapel of St Wenceslas and a dazzling Art Nouveau window by Alfons Mucha.",
+   "h": "Lun-sáb 09:00–17:00, dom 12:00–17:00 (invierno hasta 16:00).",
+   "h_en": "Mon-Sat 09:00–17:00, Sun 12:00–17:00 (winter until 16:00).",
+   "i": "Requiere entrada del circuito del castillo. Sube los 287 escalones de la torre para tener vistas.",
+   "i_en": "Requires a castle circuit ticket. Climb the 287 tower steps for the views."
+  },
+  "w_pra_callejon_oro": {
+   "id": "w_pra_callejon_oro",
+   "d": "Estrecha calle del s. XVI construida para los guardias y luego habitada por orfebres, de ahí su nombre. Franz Kafka vivió y escribió en la casa nº 22. Hoy las casitas albergan tiendas de artesanía y una exposición de armaduras.",
+   "d_en": "A narrow 16th-century lane built for castle guards and later home to goldsmiths, hence its name. Franz Kafka lived and wrote in house no. 22. Today the cottages hold craft shops and an armour display.",
+   "h": "09:00–17:00 (invierno hasta 16:00); por la tarde-noche acceso libre.",
+   "h_en": "09:00–17:00 (winter until 16:00); free access in the late evening.",
+   "i": "Incluido en el circuito del castillo. Tras el cierre de taquillas se puede pasear gratis.",
+   "i_en": "Included in the castle circuit. After ticket offices close you can stroll it free."
+  },
+  "w_pra_reloj_astronomico": {
+   "id": "w_pra_reloj_astronomico",
+   "d": "En la fachada del Ayuntamiento Viejo, este orloj muestra el movimiento del sol, la luna y el zodiaco. Cada hora en punto los Doce Apóstoles desfilan por las ventanillas mientras la Muerte hace sonar su campana ante la multitud.",
+   "d_en": "On the Old Town Hall façade, this orloj tracks the sun, moon and zodiac. Every hour the Twelve Apostles parade through the windows while Death rings its bell before the crowd.",
+   "h": "El espectáculo suena cada hora 09:00–23:00; torre 09:00–22:00.",
+   "h_en": "The show chimes hourly 09:00–23:00; tower 09:00–22:00.",
+   "i": "Colócate unos minutos antes de la hora. Sube a la torre del Ayuntamiento para vistas de la plaza.",
+   "i_en": "Get in place a few minutes before the hour. Climb the Town Hall tower for square views."
+  },
+  "w_pra_plaza_ciudad_vieja": {
+   "id": "w_pra_plaza_ciudad_vieja",
+   "d": "Corazón de la Praga medieval desde el s. X. Reúne el Reloj Astronómico, la iglesia de Týn, el barroco San Nicolás y el monumento a Jan Hus. Escenario de mercados, conciertos y del célebre mercado navideño.",
+   "d_en": "The heart of medieval Prague since the 10th century. It gathers the Astronomical Clock, the Týn Church, Baroque St Nicholas and the Jan Hus monument. It hosts markets, concerts and the famous Christmas market.",
+   "h": "Abierta 24 h; mercadillos según temporada.",
+   "h_en": "Open 24 h; markets by season.",
+   "i": "Visítala de noche con menos gente. En diciembre acoge uno de los mejores mercados de Europa.",
+   "i_en": "Visit at night with fewer people. In December it holds one of Europe's best markets."
+  },
+  "w_pra_iglesia_tyn": {
+   "id": "w_pra_iglesia_tyn",
+   "d": "Sus dos torres de 80 m y aguja erizada dominan el perfil de la Ciudad Vieja desde el s. XIV. En su interior barroco descansa el astrónomo Tycho Brahe y se conserva el órgano más antiguo de Praga.",
+   "d_en": "Its two 80 m towers with bristling spires have dominated the Old Town skyline since the 14th century. Its Baroque interior holds the tomb of astronomer Tycho Brahe and Prague's oldest organ.",
+   "h": "Mar-sáb 10:00–13:00 y 15:00–17:00, dom 10:30–12:00.",
+   "h_en": "Tue-Sat 10:00–13:00 and 15:00–17:00, Sun 10:30–12:00.",
+   "i": "El acceso es por un pasaje entre las casas de la plaza. Se agradece un donativo.",
+   "i_en": "Entry is through a passage between the houses on the square. A donation is appreciated."
+  },
+  "w_pra_barrio_judio": {
+   "id": "w_pra_barrio_judio",
+   "d": "Josefov conserva uno de los conjuntos judíos mejor preservados de Europa: la Sinagoga Vieja-Nueva del s. XIII, la Española de estilo morisco y el viejo cementerio, donde se apilan miles de lápidas en varias capas. Un recorrido esencial por la memoria hebrea de la ciudad.",
+   "d_en": "Josefov preserves one of Europe's best-kept Jewish quarters: the 13th-century Old-New Synagogue, the Moorish-style Spanish Synagogue and the old cemetery, where thousands of tombstones lie stacked in layers. An essential walk through the city's Hebrew memory.",
+   "h": "Dom-vie 09:00–18:00 (invierno hasta 16:30); cerrado sábados y festivos judíos.",
+   "h_en": "Sun-Fri 09:00–18:00 (winter until 16:30); closed Saturdays and Jewish holidays.",
+   "i": "La entrada combinada cubre sinagogas y cementerio. Cúbrete la cabeza en la Vieja-Nueva.",
+   "i_en": "The combined ticket covers synagogues and cemetery. Cover your head in the Old-New Synagogue."
+  },
+  "w_pra_plaza_wenceslao": {
+   "id": "w_pra_plaza_wenceslao",
+   "d": "Más avenida que plaza, se extiende 750 m hasta el Museo Nacional, presidida por la estatua ecuestre de San Wenceslao. Fue epicentro de la Revolución de Terciopelo de 1989 y late hoy con tiendas, hoteles y vida nocturna.",
+   "d_en": "More avenue than square, it runs 750 m up to the National Museum, presided over by the equestrian statue of St Wenceslas. It was the epicentre of the 1989 Velvet Revolution and today pulses with shops, hotels and nightlife.",
+   "h": "Abierta 24 h.",
+   "h_en": "Open 24 h.",
+   "i": "Sube hasta la estatua para la mejor perspectiva. De noche extrema la precaución con carteristas.",
+   "i_en": "Walk up to the statue for the best perspective. At night watch out for pickpockets."
+  },
+  "w_pra_casa_danzante": {
+   "id": "w_pra_casa_danzante",
+   "d": "Diseñada por Frank Gehry y Vlado Milunić en 1996, sus dos torres onduladas evocan a los bailarines Fred Astaire y Ginger Rogers. Un audaz contraste con la Praga histórica que hoy alberga oficinas, un hotel y una terraza mirador.",
+   "d_en": "Designed by Frank Gehry and Vlado Milunić in 1996, its two rippling towers evoke dancers Fred Astaire and Ginger Rogers. A bold contrast to historic Prague, it now houses offices, a hotel and a rooftop terrace.",
+   "h": "Exterior 24 h; terraza-bar del ático 10:00–00:00.",
+   "h_en": "Exterior 24 h; rooftop bar 10:00–00:00.",
+   "i": "Sube a la terraza Glass Bar para vistas del río. Mejor foto desde la orilla opuesta.",
+   "i_en": "Head up to the Glass Bar terrace for river views. Best photo from the opposite bank."
+  },
+  "w_pra_lennon": {
+   "id": "w_pra_lennon",
+   "d": "Tras el asesinato de John Lennon en 1980, este muro de Malá Strana se llenó de letras de los Beatles y mensajes de libertad, convirtiéndose en símbolo de resistencia pacífica frente al régimen comunista. Se repinta y renueva constantemente.",
+   "d_en": "After John Lennon's murder in 1980, this Malá Strana wall filled with Beatles lyrics and freedom messages, becoming a symbol of peaceful resistance to the Communist regime. It is constantly repainted and renewed.",
+   "h": "Abierto 24 h.",
+   "h_en": "Open 24 h.",
+   "i": "Está en la plaza Velkopřevorské, junto a Kampa. Puedes dejar tu propio mensaje.",
+   "i_en": "It's on Velkopřevorské square, next to Kampa. You can add your own message."
+  },
+  "w_pra_vysehrad": {
+   "id": "w_pra_vysehrad",
+   "d": "Cuna mítica de Praga según la leyenda de la princesa Libuše. Esta ciudadela sobre el Moldava reúne la rotonda románica de San Martín, la neogótica basílica de San Pedro y San Pablo y el cementerio de Slavín, donde reposan Dvořák y Smetana. Tranquila y con vistas soberbias.",
+   "d_en": "Prague's mythical cradle per the legend of Princess Libuše. This citadel above the Vltava gathers the Romanesque St Martin rotunda, the neo-Gothic Basilica of St Peter and Paul and the Slavín cemetery, resting place of Dvořák and Smetana. Peaceful, with superb views.",
+   "h": "Parque 24 h; casamatas y galería 09:30–18:00.",
+   "h_en": "Park 24 h; casemates and gallery 09:30–18:00.",
+   "i": "Menos turística que el centro. Ideal al atardecer para ver la ciudad desde las murallas.",
+   "i_en": "Less touristy than the centre. Ideal at sunset to see the city from the ramparts."
+  },
+  "w_pra_petrin": {
+   "id": "w_pra_petrin",
+   "d": "El pulmón verde más querido de Praga se eleva sobre Malá Strana con senderos, huertos, un laberinto de espejos y una rosaleda. Un funicular histórico salva la pendiente hasta la torre mirador. Perfecta para pasear y hacer picnic.",
+   "d_en": "Prague's best-loved green lung rises over Malá Strana with paths, orchards, a mirror maze and a rose garden. A historic funicular climbs the slope to the lookout tower. Perfect for strolls and picnics.",
+   "h": "Parque 24 h; funicular 09:00–23:20.",
+   "h_en": "Park 24 h; funicular 09:00–23:20.",
+   "i": "El funicular acepta el billete normal de transporte. Sube en primavera para la floración.",
+   "i_en": "The funicular takes the standard transit ticket. Come in spring for the blossom."
+  },
+  "w_pra_kampa": {
+   "id": "w_pra_kampa",
+   "d": "Separada de Malá Strana por el estrecho canal Čertovka con sus molinos de agua, esta isla combina un parque a orillas del río, plazoletas empedradas, el museo de arte Kampa y los inquietantes bebés gateantes de David Černý. Un remanso de calma en pleno centro.",
+   "d_en": "Split from Malá Strana by the narrow Čertovka canal and its water mills, this island blends a riverside park, cobbled squares, the Kampa art museum and David Černý's eerie crawling babies. An oasis of calm in the very centre.",
+   "h": "Abierta 24 h; museo Kampa 10:00–18:00.",
+   "h_en": "Open 24 h; Kampa Museum 10:00–18:00.",
+   "i": "Baja desde el Puente de Carlos por la escalera lateral. Busca la esclusa y la noria del Čertovka.",
+   "i_en": "Descend from Charles Bridge via the side staircase. Look for the Čertovka mill wheel."
+  },
+  "w_pra_jardin_wallenstein": {
+   "id": "w_pra_jardin_wallenstein",
+   "d": "Anexo al palacio que hoy alberga el Senado checo, este jardín del s. XVII deslumbra con su sala terrena, un estanque, una pared de estalactitas artificiales y copias de bronce de esculturas de Adriaen de Vries. Los pavos reales pasean entre los setos.",
+   "d_en": "Attached to the palace that now houses the Czech Senate, this 17th-century garden dazzles with its sala terrena, a pond, an artificial stalactite wall and bronze copies of Adriaen de Vries sculptures. Peacocks roam among the hedges.",
+   "h": "Abr-oct 07:00/10:00–18:00 (verano hasta 19:00); cerrado en invierno.",
+   "h_en": "Apr-Oct 07:00/10:00–18:00 (summer until 19:00); closed in winter.",
+   "i": "Entrada gratuita junto al metro Malostranská. Busca al búho real en la pajarera.",
+   "i_en": "Free entry next to Malostranská metro. Spot the eagle owl in the aviary."
+  },
+  "w_pra_letna": {
+   "id": "w_pra_letna",
+   "d": "Sobre un promontorio al norte del río, Letná ofrece las mejores panorámicas de los puentes de Praga, un beer garden muy popular en verano, el gigantesco metrónomo donde se alzaba la estatua de Stalin y amplios prados para el ocio local.",
+   "d_en": "On a bluff north of the river, Letná offers the finest panoramas of Prague's bridges, a popular summer beer garden, the giant metronome where a Stalin statue once stood and broad lawns for local leisure.",
+   "h": "Abierto 24 h; beer garden en temporada 11:00–23:00.",
+   "h_en": "Open 24 h; beer garden in season 11:00–23:00.",
+   "i": "Súbete al beer garden al atardecer. El metrónomo es punto de reunión de patinadores.",
+   "i_en": "Head to the beer garden at sunset. The metronome is a skateboarders' hangout."
+  },
+  "w_pra_strelecky": {
+   "id": "w_pra_strelecky",
+   "d": "Accesible por unas escaleras desde el puente Legií, esta pequeña isla ofrece césped, castaños y una terraza con vistas al Puente de Carlos y al castillo. Acoge conciertos al aire libre y es un plan tranquilo para escapar del bullicio.",
+   "d_en": "Reached by stairs from Legion Bridge, this small island offers lawns, chestnut trees and a terrace looking to Charles Bridge and the castle. It hosts open-air concerts and is a quiet escape from the bustle.",
+   "h": "Abierta 24 h.",
+   "h_en": "Open 24 h.",
+   "i": "Perfecta para un picnic al atardecer. En verano hay proyecciones de cine al aire libre.",
+   "i_en": "Perfect for a sunset picnic. In summer there are open-air film screenings."
+  },
+  "w_pra_riegrovy": {
+   "id": "w_pra_riegrovy",
+   "d": "En el barrio bohemio de Vinohrady, este parque de laderas onduladas es donde los praguenses se tumban en la hierba, juegan y ven la puesta de sol sobre el castillo. Su enorme beer garden es una institución en las noches de verano.",
+   "d_en": "In the hip Vinohrady district, this park of rolling slopes is where Prague locals sprawl on the grass, play and watch the sun set over the castle. Its huge beer garden is a summer-night institution.",
+   "h": "Abierto 24 h; beer garden en temporada 12:00–23:00.",
+   "h_en": "Open 24 h; beer garden in season 12:00–23:00.",
+   "i": "Ve al mirador oeste al atardecer. Ambiente más local que en el centro turístico.",
+   "i_en": "Head to the western viewpoint at sunset. A more local vibe than the tourist centre."
+  },
+  "w_pra_torre_petrin": {
+   "id": "w_pra_torre_petrin",
+   "d": "Construida en 1891 inspirada en la torre parisina, se eleva 63,5 m en lo alto de Petřín. Sus 299 escalones (o un ascensor) llevan a una plataforma con panorámicas de toda Praga y, en días claros, de los bosques de Bohemia.",
+   "d_en": "Built in 1891 in imitation of the Paris tower, it rises 63.5 m atop Petřín. Its 299 steps (or a lift) lead to a platform with panoramas over all Prague and, on clear days, the Bohemian woods.",
+   "h": "10:00–22:00 en verano; 10:00–18:00 en invierno.",
+   "h_en": "10:00–22:00 in summer; 10:00–18:00 in winter.",
+   "i": "Combina la visita con el funicular. Sube en día despejado para ver hasta el horizonte.",
+   "i_en": "Combine it with the funicular. Go on a clear day to see to the horizon."
+  },
+  "w_pra_crucero_moldava": {
+   "id": "w_pra_crucero_moldava",
+   "d": "Los cruceros parten de varios embarcaderos cerca de Čechův most y del Puente de Carlos, ofreciendo desde travesías de una hora hasta cenas con música. Es la mejor forma de ver el perfil de Praga desde el agua y cruzar las esclusas históricas.",
+   "d_en": "Cruises depart from several piers near Čech Bridge and Charles Bridge, from one-hour trips to dinner-and-music sailings. It's the finest way to see Prague's skyline from the water and pass through the historic locks.",
+   "h": "Salidas frecuentes 10:00–22:00 según operador y temporada.",
+   "h_en": "Frequent departures 10:00–22:00 depending on operator and season.",
+   "i": "Reserva el crucero del atardecer para la mejor luz. Los barcos pequeños entran al canal Čertovka.",
+   "i_en": "Book the sunset cruise for the best light. Small boats enter the Čertovka canal."
+  },
+  "w_pra_naplavka": {
+   "id": "w_pra_naplavka",
+   "d": "El malecón de Rašínovo nábřeží se ha convertido en el epicentro de la vida social praguense: bares en barcos y en cuevas del muro, música en directo y, los sábados por la mañana, uno de los mejores mercados de productores de la ciudad.",
+   "d_en": "The Rašínovo nábřeží embankment has become the epicentre of Prague social life: bars on boats and in vaults along the wall, live music and, on Saturday mornings, one of the city's best farmers' markets.",
+   "h": "Bares 12:00–00:00; mercado sábados 08:00–14:00.",
+   "h_en": "Bars 12:00–00:00; market Saturdays 08:00–14:00.",
+   "i": "Ve un viernes o sábado por la tarde para el mejor ambiente. Prueba los vinos moravos.",
+   "i_en": "Come Friday or Saturday evening for the best atmosphere. Try the Moravian wines."
+  },
+  "w_pra_zoo": {
+   "id": "w_pra_zoo",
+   "d": "Situado en Troja junto al río, alberga más de 4.000 animales en amplios recintos escalonados por la ladera, con un teleférico interno. Reconocido por su labor de conservación, destaca por el caballo de Przewalski, los gorilas y el pabellón indonesio.",
+   "d_en": "Set in Troja by the river, it holds over 4,000 animals in spacious enclosures terraced up the hillside, with an internal chairlift. Renowned for conservation work, its highlights are the Przewalski's horse, the gorillas and the Indonesian pavilion.",
+   "h": "09:00–19:00 en verano; 09:00–16:00 en invierno.",
+   "h_en": "09:00–19:00 in summer; 09:00–16:00 in winter.",
+   "i": "Llega en barco por el río para un plan completo. Dedícale al menos medio día.",
+   "i_en": "Arrive by river boat for a full outing. Allow at least half a day."
+  },
+  "w_pra_museo_nacional": {
+   "id": "w_pra_museo_nacional",
+   "d": "Inaugurado en 1891, su grandioso edificio corona la plaza de Wenceslao. Reúne colecciones de historia natural, mineralogía, prehistoria y numismática, además de un espectacular vestíbulo con escalinata de mármol y su célebre panteón nacional.",
+   "d_en": "Opened in 1891, its grand building crowns Wenceslas Square. It gathers natural history, mineralogy, prehistory and numismatics collections, plus a spectacular marble-staircase hall and its famous national pantheon.",
+   "h": "10:00–18:00; cerrado el primer martes de mes.",
+   "h_en": "10:00–18:00; closed the first Tuesday of the month.",
+   "i": "Sube a la cúpula para vistas de la plaza. La fachada aún muestra marcas de 1968.",
+   "i_en": "Climb to the dome for square views. The façade still bears marks from 1968."
+  },
+  "w_pra_torre_zizkov": {
+   "id": "w_pra_torre_zizkov",
+   "d": "El edificio más alto de Praga (1992) divide opiniones por su estética espacial. Por sus columnas trepan los inquietantes bebés de bronce de David Černý. Alberga un mirador, un restaurante y hasta una habitación de hotel a 70 m de altura.",
+   "d_en": "Prague's tallest building (1992) divides opinion with its space-age look. David Černý's eerie bronze babies crawl up its pillars. It holds an observation deck, a restaurant and even a hotel room 70 m up.",
+   "h": "Mirador 09:00–00:00.",
+   "h_en": "Observation deck 09:00–00:00.",
+   "i": "Sube al atardecer para ver el skyline iluminado. Está en el animado barrio de Žižkov.",
+   "i_en": "Go up at sunset to see the illuminated skyline. It's in the lively Žižkov district."
+  },
+  "w_pra_u_fleku": {
+   "id": "w_pra_u_fleku",
+   "d": "La cervecería en activo más antigua de Praga elabora desde hace siglos su inconfundible cerveza oscura Flekovský ležák, servida en salones con arte y un patio animado por música de acordeón. Cocina checa contundente: codillo, goulash y knedlíky.",
+   "d_en": "Prague's oldest working brewery has for centuries made its unmistakable dark Flekovský lager, served in art-filled halls and a courtyard lively with accordion music. Hearty Czech fare: pork knuckle, goulash and dumplings.",
+   "h": "10:00–23:00.",
+   "h_en": "10:00–23:00.",
+   "i": "Te sirven la cerveza sin pedirla; rechaza los chupitos de Becherovka si no los quieres pagar.",
+   "i_en": "Beer is brought unasked; decline the Becherovka shots unless you want to pay for them."
+  },
+  "w_pra_lokal_dlouha": {
+   "id": "w_pra_lokal_dlouha",
+   "d": "Referencia de la cocina checa bien hecha a precio justo: pizarra de platos del día, schnitzel, carne en salsa de nata (svíčková) y una Pilsner Urquell servida directamente de tanque. Ambiente ruidoso, largas mesas y camareros veloces.",
+   "d_en": "A benchmark for well-made Czech cooking at fair prices: a daily blackboard, schnitzel, beef in cream sauce (svíčková) and Pilsner Urquell poured straight from the tank. Noisy atmosphere, long tables and swift waiters.",
+   "h": "11:00–00:00.",
+   "h_en": "11:00–00:00.",
+   "i": "Reserva o llega pronto; se llena. Pide la cerveza 'šnyt' o 'mlíko' para probar estilos de tiraje.",
+   "i_en": "Book or arrive early; it fills up. Order a 'šnyt' or 'mlíko' pour to sample beer styles."
+  },
+  "w_pra_cafe_louvre": {
+   "id": "w_pra_cafe_louvre",
+   "d": "Elegante café de la Belle Époque en la avenida Národní, con salones rosados, mesas de billar y una larga tradición literaria. Sirve desayunos, tartas caseras, schnitzel y un chocolate caliente célebre en un ambiente de otra época.",
+   "d_en": "An elegant Belle Époque café on Národní avenue, with rose-hued rooms, billiard tables and a long literary tradition. It serves breakfasts, homemade cakes, schnitzel and a famous hot chocolate in an old-world setting.",
+   "h": "08:00–23:30.",
+   "h_en": "08:00–23:30.",
+   "i": "Sube a la primera planta para el ambiente clásico. Ideal para el desayuno o la merienda.",
+   "i_en": "Head up to the first floor for the classic ambience. Great for breakfast or afternoon tea."
+  },
+  "w_pra_cafe_savoy": {
+   "id": "w_pra_cafe_savoy",
+   "d": "Bajo un espectacular techo dorado de 1893, este café de Malá Strana sirve uno de los mejores desayunos de Praga, croissants de mantequilla, tartas de la vitrina y platos checos y franceses refinados. Un clásico para darse un capricho.",
+   "d_en": "Beneath a spectacular gilded 1893 ceiling, this Malá Strana café serves one of Prague's finest breakfasts, buttery croissants, cakes from the counter and refined Czech and French dishes. A classic for a treat.",
+   "h": "08:00–22:30.",
+   "h_en": "08:00–22:30.",
+   "i": "Reserva para el brunch de fin de semana. No te pierdas el 'Savoy věneček' de la pastelería.",
+   "i_en": "Book for weekend brunch. Don't miss the 'Savoy věneček' pastry."
+  },
+  "w_pra_kantyna": {
+   "id": "w_pra_kantyna",
+   "d": "Concepto de carnicería y comedor donde eliges cortes de vacuno checo en el mostrador y te los preparan a la parrilla, junto a tartar, guisos y guarniciones tradicionales. Ambiente informal de fichas y bandeja, con cerveza Pilsner de tanque.",
+   "d_en": "A butcher-and-canteen concept where you pick Czech beef cuts at the counter and have them grilled, alongside tartare, stews and traditional sides. A casual token-and-tray setup with tank Pilsner beer.",
+   "h": "11:00–23:00.",
+   "h_en": "11:00–23:00.",
+   "i": "Pagas con una tarjeta que sellan en cada puesto. Llega fuera de horas punta para evitar cola.",
+   "i_en": "You pay with a card stamped at each station. Come off-peak to avoid the queue."
+  },
+  "w_pra_nase_maso": {
+   "id": "w_pra_nase_maso",
+   "d": "Pequeña carnicería artesanal en el pasaje de Dlouhá, famosa por sus embutidos, su hamburguesa Prague Burger y sus salchichas párek a la parrilla, que se comen de pie en el mostrador. Producto de máxima calidad a precio accesible.",
+   "d_en": "A small artisan butcher in the Dlouhá passage, famed for its cured meats, its Prague Burger and grilled párek sausages, eaten standing at the counter. Top-quality produce at an accessible price.",
+   "h": "10:30–20:00.",
+   "h_en": "10:30–20:00.",
+   "i": "Come de pie o pídelo para llevar; hay cola pero avanza rápido. Prueba el tartar de ternera.",
+   "i_en": "Eat standing or take it away; there's a queue but it moves fast. Try the beef tartare."
+  }
+ },
+ "food": {
+  "w_pra_u_fleku": {
+   "cuisine": "Checa / Cervecería",
+   "price": "12–25 €",
+   "hours": "10:00–23:00"
+  },
+  "w_pra_lokal_dlouha": {
+   "cuisine": "Checa",
+   "price": "8–18 €",
+   "hours": "11:00–00:00"
+  },
+  "w_pra_cafe_louvre": {
+   "cuisine": "Café / Europea",
+   "price": "8–20 €",
+   "hours": "08:00–23:30"
+  },
+  "w_pra_cafe_savoy": {
+   "cuisine": "Café / Francesa-Checa",
+   "price": "10–25 €",
+   "hours": "08:00–22:30"
+  },
+  "w_pra_kantyna": {
+   "cuisine": "Carnes / Checa",
+   "price": "10–30 €",
+   "hours": "11:00–23:00"
+  },
+  "w_pra_nase_maso": {
+   "cuisine": "Carnicería / Bocadillos",
+   "price": "6–15 €",
+   "hours": "10:30–20:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Praga",
+   "items": [
+    {
+     "name": "Marioneta checa",
+     "price": "15–120 €",
+     "desc": "Títeres de madera tallados y pintados a mano, oficio tradicional bohemio."
+    },
+    {
+     "name": "Cristal de Bohemia",
+     "price": "20–200 €",
+     "desc": "Copas, jarrones y figuras de cristal tallado, símbolo de la artesanía checa."
+    },
+    {
+     "name": "Granate de Bohemia",
+     "price": "30–300 €",
+     "desc": "Joyería con el característico granate rojo oscuro extraído en Chequia."
+    },
+    {
+     "name": "Becherovka",
+     "price": "8–20 €",
+     "desc": "Licor de hierbas herbal-especiado, digestivo nacional de Karlovy Vary."
+    },
+    {
+     "name": "Trdelník",
+     "price": "3–6 €",
+     "desc": "Dulce cilíndrico de masa asada al carbón con azúcar y canela."
+    }
+   ],
+   "shops": [
+    "Havelské tržiště (mercado)",
+    "Manufaktura",
+    "Botanicus",
+    "Cristalerías de Celetná y Nerudova",
+    "Tiendas de Malá Strana"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "El tranvía histórico 22 conecta el Castillo, Malá Strana y el centro; súbete por Malostranská para subir sin cansarte.",
+   "Cruza el Puente de Carlos al amanecer para evitar multitudes y hacer fotos con buena luz.",
+   "Paga siempre en coronas checas (CZK); rechaza el pago en euros de los datáfonos por el tipo de cambio abusivo.",
+   "Evita las casas de cambio del centro con carteles llamativos; usa cajeros o oficinas sin comisión como en la zona de Kaprova.",
+   "Reserva online la entrada al Castillo y a la Catedral de San Vito para saltar colas, sobre todo en temporada alta."
+  ],
+  "en": [
+   "The historic tram 22 links the Castle, Malá Strana and the centre; board at Malostranská to reach the top without climbing.",
+   "Cross Charles Bridge at dawn to avoid the crowds and catch the best light for photos.",
+   "Always pay in Czech crowns (CZK); decline the card terminal's euro conversion, which uses a poor rate.",
+   "Avoid flashy currency exchanges downtown; use ATMs or fee-free offices such as those near Kaprova street.",
+   "Book Castle and St Vitus Cathedral tickets online to skip queues, especially in high season."
+  ]
+ },
+ "climate": {
+  "hi": [
+   1,
+   3,
+   8,
+   14,
+   19,
+   22,
+   24,
+   24,
+   19,
+   13,
+   6,
+   2
+  ],
+  "lo": [
+   -3,
+   -2,
+   1,
+   4,
+   9,
+   12,
+   14,
+   13,
+   10,
+   5,
+   1,
+   -2
+  ]
+ },
+ "tr": {
+  "Puente gótico del s. XIV sobre el Moldava, jalonado de estatuas barrocas.": "14th-century Gothic bridge over the Vltava lined with Baroque statues.",
+  "El mayor complejo de castillo del mundo, sede presidencial y del poder milenario.": "The world's largest castle complex, seat of the presidency and a millennium of power.",
+  "Catedral gótica dentro del castillo, corazón espiritual de Chequia.": "Gothic cathedral inside the castle, the spiritual heart of Czechia.",
+  "Pintoresca hilera de casitas de colores dentro del castillo.": "Picturesque row of tiny coloured houses within the castle.",
+  "Reloj medieval de 1410, el más antiguo del mundo aún en marcha.": "Medieval clock from 1410, the oldest still-working one in the world.",
+  "Plaza histórica rodeada de fachadas góticas, barrocas y coloridas.": "Historic square ringed with Gothic, Baroque and colourful façades.",
+  "Templo gótico de dobles torres puntiagudas sobre la plaza.": "Gothic church with twin spiky towers overlooking the square.",
+  "Antiguo gueto con sinagogas y el conmovedor cementerio judío.": "Former ghetto with synagogues and the moving old Jewish cemetery.",
+  "Gran bulevar comercial y escenario clave de la historia checa.": "Grand commercial boulevard and key stage of Czech history.",
+  "Icónico edificio deconstructivista con forma de pareja bailando.": "Iconic deconstructivist building shaped like a dancing couple.",
+  "Muro cubierto de grafitis de paz e inspiración lennoniana.": "Wall covered in graffiti of peace and Lennon-inspired art.",
+  "Fortaleza legendaria sobre el río con vistas y panteón nacional.": "Legendary hilltop fortress over the river with views and national cemetery.",
+  "Colina verde con jardines, rosaledas y un funicular clásico.": "Green hill with gardens, rose beds and a classic funicular.",
+  "Apacible isla-jardín junto al Puente de Carlos, la 'Venecia de Praga'.": "Peaceful garden island by Charles Bridge, the 'Venice of Prague'.",
+  "Jardín barroco con pavos reales, grutas y una gran logia.": "Baroque garden with peacocks, grottoes and a grand loggia.",
+  "Parque en alto con miradores sobre los puentes del Moldava.": "Hilltop park with viewpoints over the Vltava bridges.",
+  "Islote arbolado bajo el puente Legií con vistas al río.": "Wooded islet beneath Legion Bridge with river views.",
+  "Parque local en Vinohrady famoso por su beer garden y su puesta de sol.": "Local Vinohrady park famed for its beer garden and sunsets.",
+  "Miniatura de la Torre Eiffel con vistas de 360º de la ciudad.": "Mini Eiffel Tower with 360º views of the city.",
+  "Paseo en barco por el río con el castillo y los puentes de fondo.": "Boat cruise on the river past the castle and bridges.",
+  "Paseo ribereño con bares, mercado de granjeros y ambiente joven.": "Riverside promenade with bars, a farmers' market and a young crowd.",
+  "Uno de los mejores zoológicos del mundo, ideal en familia.": "One of the world's best zoos, ideal for families.",
+  "Majestuoso museo neorrenacentista al final de la plaza de Wenceslao.": "Majestic neo-Renaissance museum at the top of Wenceslas Square.",
+  "Torre futurista de 216 m con bebés trepadores y mirador panorámico.": "Futuristic 216 m tower with crawling babies and a panoramic deck.",
+  "Cervecería histórica de 1499 con su propia cerveza negra.": "Historic 1499 brewery with its own dark lager.",
+  "Taberna checa moderna con Pilsner fresquísima de tanque.": "Modern Czech tavern with ultra-fresh tank Pilsner.",
+  "Café histórico de 1902 frecuentado por Kafka y Einstein.": "Historic 1902 café once frequented by Kafka and Einstein.",
+  "Café de techos neorrenacentistas con repostería de alta gama.": "Café with a neo-Renaissance ceiling and top-tier pastries.",
+  "Carnicería-cantina de estilo checo con carnes a la brasa al peso.": "Czech-style butcher-canteen serving grilled meats by weight.",
+  "Carnicería gourmet con bocadillos y hamburguesas para llevar.": "Gourmet butcher with sandwiches and burgers to go.",
+  "Praga": "Praga"
+ }
+}

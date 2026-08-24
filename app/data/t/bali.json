@@ -1,0 +1,708 @@
+{
+ "id": "bali",
+ "name": "Bali",
+ "country": "WORLD",
+ "center": [
+  -8.4095,
+  115.1889
+ ],
+ "pois": [
+  {
+   "id": "w_bali_tanah_lot",
+   "cat": "monuments",
+   "name": "Tanah Lot",
+   "icon": "🛕",
+   "lat": -8.62124,
+   "lng": 115.08682,
+   "desc": "Templo hindú sobre una roca en el mar, icono de Bali al atardecer."
+  },
+  {
+   "id": "w_bali_uluwatu",
+   "cat": "monuments",
+   "name": "Templo de Uluwatu",
+   "icon": "🛕",
+   "lat": -8.82918,
+   "lng": 115.08488,
+   "desc": "Templo sobre un acantilado de 70 m con danza kecak al atardecer."
+  },
+  {
+   "id": "w_bali_besakih",
+   "cat": "monuments",
+   "name": "Templo Besakih",
+   "icon": "🛕",
+   "lat": -8.37411,
+   "lng": 115.45106,
+   "desc": "El 'Templo Madre' de Bali en las faldas del volcán Agung."
+  },
+  {
+   "id": "w_bali_tirta_empul",
+   "cat": "monuments",
+   "name": "Tirta Empul",
+   "icon": "⛲",
+   "lat": -8.41556,
+   "lng": 115.31556,
+   "desc": "Templo del agua sagrada con piscinas de purificación (melukat)."
+  },
+  {
+   "id": "w_bali_ulun_danu_beratan",
+   "cat": "monuments",
+   "name": "Ulun Danu Beratan",
+   "icon": "🛕",
+   "lat": -8.27528,
+   "lng": 115.16639,
+   "desc": "Templo lacustre que parece flotar sobre el lago Bratan."
+  },
+  {
+   "id": "w_bali_lempuyang",
+   "cat": "monuments",
+   "name": "Puerta del Cielo (Lempuyang)",
+   "icon": "⛩️",
+   "lat": -8.39146,
+   "lng": 115.63131,
+   "desc": "Las 'Puertas del Cielo' con el monte Agung enmarcado al fondo."
+  },
+  {
+   "id": "w_bali_handara",
+   "cat": "monuments",
+   "name": "Puerta de Handara",
+   "icon": "⛩️",
+   "lat": -8.1985,
+   "lng": 115.15833,
+   "desc": "Icónica puerta balinesa con montañas verdes de fondo."
+  },
+  {
+   "id": "w_bali_taman_ayun",
+   "cat": "monuments",
+   "name": "Templo Taman Ayun",
+   "icon": "🛕",
+   "lat": -8.54153,
+   "lng": 115.1725,
+   "desc": "Templo real de Mengwi rodeado de fosos y jardines."
+  },
+  {
+   "id": "w_bali_goa_gajah",
+   "cat": "monuments",
+   "name": "Goa Gajah (Cueva del Elefante)",
+   "icon": "🕳️",
+   "lat": -8.52333,
+   "lng": 115.28722,
+   "desc": "Cueva-santuario del siglo XI con fachada tallada."
+  },
+  {
+   "id": "w_bali_ubud_palace",
+   "cat": "monuments",
+   "name": "Palacio de Ubud",
+   "icon": "🏛️",
+   "lat": -8.50693,
+   "lng": 115.26308,
+   "desc": "Puri Saren, residencia real y escenario de danza balinesa."
+  },
+  {
+   "id": "w_bali_gunung_kawi",
+   "cat": "monuments",
+   "name": "Gunung Kawi",
+   "icon": "🗿",
+   "lat": -8.42472,
+   "lng": 115.31361,
+   "desc": "Santuarios reales tallados en la roca junto al río Pakerisan."
+  },
+  {
+   "id": "w_bali_tegallalang",
+   "cat": "nature",
+   "name": "Arrozales de Tegallalang",
+   "icon": "🌾",
+   "lat": -8.43167,
+   "lng": 115.27861,
+   "desc": "Terrazas de arroz escalonadas con el sistema de riego subak."
+  },
+  {
+   "id": "w_bali_monkey_forest",
+   "cat": "nature",
+   "name": "Bosque de los Monos (Ubud)",
+   "icon": "🐒",
+   "lat": -8.51861,
+   "lng": 115.25889,
+   "desc": "Selva sagrada con templos y cientos de macacos en libertad."
+  },
+  {
+   "id": "w_bali_nusa_penida",
+   "cat": "nature",
+   "name": "Nusa Penida (Kelingking)",
+   "icon": "🏝️",
+   "lat": -8.75064,
+   "lng": 115.47469,
+   "desc": "Isla salvaje con el acantilado 'T-Rex' de Kelingking Beach."
+  },
+  {
+   "id": "w_bali_tegenungan",
+   "cat": "nature",
+   "name": "Cascada Tegenungan",
+   "icon": "💦",
+   "lat": -8.57521,
+   "lng": 115.29042,
+   "desc": "Cascada ancha y accesible entre selva, cerca de Ubud."
+  },
+  {
+   "id": "w_bali_batur",
+   "cat": "nature",
+   "name": "Monte Batur",
+   "icon": "🌋",
+   "lat": -8.24222,
+   "lng": 115.37528,
+   "desc": "Volcán activo con caldera y lago; ascenso al amanecer."
+  },
+  {
+   "id": "w_bali_sekumpul",
+   "cat": "nature",
+   "name": "Cascada Sekumpul",
+   "icon": "🏞️",
+   "lat": -8.17711,
+   "lng": 115.182,
+   "desc": "Conjunto de altas cataratas en la selva del norte de Bali."
+  },
+  {
+   "id": "w_bali_jatiluwih",
+   "cat": "nature",
+   "name": "Arrozales de Jatiluwih",
+   "icon": "🌾",
+   "lat": -8.36389,
+   "lng": 115.13222,
+   "desc": "Vastas terrazas de arroz Patrimonio de la Humanidad Unesco."
+  },
+  {
+   "id": "w_bali_campuhan",
+   "cat": "nature",
+   "name": "Campuhan Ridge Walk",
+   "icon": "🥾",
+   "lat": -8.50472,
+   "lng": 115.25444,
+   "desc": "Sendero panorámico por una loma verde junto a Ubud."
+  },
+  {
+   "id": "w_bali_tibumana",
+   "cat": "nature",
+   "name": "Cascada Tibumana",
+   "icon": "💧",
+   "lat": -8.50683,
+   "lng": 115.33051,
+   "desc": "Cascada única y serena con poza para bañarse, poco masificada."
+  },
+  {
+   "id": "w_bali_kuta",
+   "cat": "ocio",
+   "name": "Playa de Kuta",
+   "icon": "🏖️",
+   "lat": -8.71786,
+   "lng": 115.1685,
+   "desc": "Larga playa de arena, cuna del surf y la vida nocturna de Bali."
+  },
+  {
+   "id": "w_bali_seminyak",
+   "cat": "ocio",
+   "name": "Seminyak",
+   "icon": "🍹",
+   "lat": -8.69083,
+   "lng": 115.15694,
+   "desc": "Zona chic de playa con beach clubs, boutiques y gastronomía."
+  },
+  {
+   "id": "w_bali_waterbom",
+   "cat": "ocio",
+   "name": "Waterbom Bali",
+   "icon": "🎢",
+   "lat": -8.72858,
+   "lng": 115.16929,
+   "desc": "Parque acuático de primer nivel entre jardines tropicales."
+  },
+  {
+   "id": "w_bali_safari",
+   "cat": "ocio",
+   "name": "Bali Safari & Marine Park",
+   "icon": "🦁",
+   "lat": -8.59083,
+   "lng": 115.34944,
+   "desc": "Parque safari con fauna asiática y espectáculos, para familias."
+  },
+  {
+   "id": "w_bali_ibu_oka",
+   "cat": "food",
+   "name": "Babi Guling Ibu Oka",
+   "icon": "🐷",
+   "lat": -8.50694,
+   "lng": 115.26222,
+   "desc": "Célebre casa de cerdo asado balinés (babi guling) en Ubud."
+  },
+  {
+   "id": "w_bali_bebek_bengil",
+   "cat": "food",
+   "name": "Bebek Bengil (Dirty Duck)",
+   "icon": "🦆",
+   "lat": -8.51806,
+   "lng": 115.26472,
+   "desc": "Restaurante icónico del pato crujiente entre arrozales."
+  },
+  {
+   "id": "w_bali_jimbaran",
+   "cat": "food",
+   "name": "Marisco en Jimbaran Bay",
+   "icon": "🦞",
+   "lat": -8.78389,
+   "lng": 115.16583,
+   "desc": "Cena de marisco a la brasa con los pies en la arena al atardecer."
+  },
+  {
+   "id": "w_bali_locavore",
+   "cat": "food",
+   "name": "Locavore Ubud",
+   "icon": "🍽️",
+   "lat": -8.50778,
+   "lng": 115.26361,
+   "desc": "Alta cocina de autor con producto local de Indonesia."
+  },
+  {
+   "id": "w_bali_la_favela",
+   "cat": "food",
+   "name": "La Favela Seminyak",
+   "icon": "🍸",
+   "lat": -8.68386,
+   "lng": 115.16288,
+   "desc": "Restaurante-bar de ambiente bohemio y noche animada."
+  },
+  {
+   "id": "w_bali_naughty_nuris",
+   "cat": "food",
+   "name": "Naughty Nuri's Warung",
+   "icon": "🍖",
+   "lat": -8.49528,
+   "lng": 115.26139,
+   "desc": "Warung famoso por sus costillas a la brasa y martinis."
+  }
+ ],
+ "extra": {
+  "w_bali_tanah_lot": {
+   "id": "w_bali_tanah_lot",
+   "d": "Uno de los templos marinos más venerados de Bali, construido sobre una formación rocosa que queda rodeada por el mar durante la marea alta. Data del siglo XVI y forma parte de la cadena de templos costeros de la isla. Al atardecer la silueta del santuario recortada contra el cielo naranja es la imagen más fotografiada de Bali.",
+   "d_en": "One of Bali's most revered sea temples, built on a rock formation surrounded by the sea at high tide. Dating from the 16th century, it belongs to the island's chain of coastal temples. At sunset the shrine's silhouette against the orange sky is Bali's most photographed sight.",
+   "h": "Abierto a diario 7:00-19:00. Mejor al atardecer.",
+   "h_en": "Open daily 7:00-19:00. Best at sunset.",
+   "i": "Entrada aprox. 60.000 IDR. Solo los fieles hindúes acceden al templo; los visitantes lo admiran desde la costa. Marea baja permite acercarse a la base.",
+   "i_en": "Entry approx. 60,000 IDR. Only Hindu worshippers may enter the temple; visitors admire it from the shore. Low tide lets you reach the base."
+  },
+  "w_bali_uluwatu": {
+   "id": "w_bali_uluwatu",
+   "d": "Pura Luhur Uluwatu se alza en el extremo suroeste de la península de Bukit, sobre un acantilado de unos 70 metros sobre el océano Índico. Es uno de los seis templos principales considerados pilares espirituales de Bali. Cada tarde se representa la danza kecak con el sol poniéndose sobre el mar.",
+   "d_en": "Pura Luhur Uluwatu stands on the south-western tip of the Bukit Peninsula, atop a cliff about 70 metres above the Indian Ocean. It is one of the six key temples regarded as spiritual pillars of Bali. Every evening the kecak fire dance is performed as the sun sets over the sea.",
+   "h": "Abierto 9:00-19:00. Danza kecak sobre las 18:00.",
+   "h_en": "Open 9:00-19:00. Kecak dance around 18:00.",
+   "i": "Entrada aprox. 50.000 IDR; danza aparte ~150.000 IDR. Vigila tus gafas y objetos: los monos residentes los roban. Se prestan sarongs.",
+   "i_en": "Entry approx. 50,000 IDR; dance extra ~150,000 IDR. Watch your glasses and belongings: resident monkeys snatch them. Sarongs provided."
+  },
+  "w_bali_besakih": {
+   "id": "w_bali_besakih",
+   "d": "Pura Besakih es el complejo de templos más grande y sagrado de Bali, situado a casi 1.000 m de altitud en las laderas del monte Agung. Reúne más de veinte santuarios en terrazas ascendentes y ha sido el centro espiritual de la isla durante más de mil años, sobreviviendo a varias erupciones del volcán.",
+   "d_en": "Pura Besakih is Bali's largest and holiest temple complex, sitting nearly 1,000 m up the slopes of Mount Agung. It gathers more than twenty sanctuaries on ascending terraces and has been the island's spiritual centre for over a thousand years, surviving several eruptions of the volcano.",
+   "h": "Abierto 8:00-17:00.",
+   "h_en": "Open 8:00-17:00.",
+   "i": "Entrada aprox. 150.000 IDR (incluye acceso y sarong). Rechaza 'guías' que exigen propina obligatoria. Viste con respeto.",
+   "i_en": "Entry approx. 150,000 IDR (includes access and sarong). Decline 'guides' demanding mandatory tips. Dress respectfully."
+  },
+  "w_bali_tirta_empul": {
+   "id": "w_bali_tirta_empul",
+   "d": "Fundado en el siglo X, Tirta Empul es célebre por sus manantiales sagrados que alimentan una serie de estanques con caños donde los fieles realizan el ritual de purificación melukat. El agua brota de un manantial natural considerado creado por el dios Indra. Los visitantes pueden participar en el baño ritual.",
+   "d_en": "Founded in the 10th century, Tirta Empul is famed for its sacred springs feeding a series of pools with water spouts where worshippers perform the melukat purification ritual. The water rises from a natural spring believed to have been created by the god Indra. Visitors may take part in the ritual bathing.",
+   "h": "Abierto 8:00-18:00.",
+   "h_en": "Open 8:00-18:00.",
+   "i": "Entrada aprox. 75.000 IDR. Para el baño ritual necesitas sarong especial (se alquila) y guardar objetos en taquilla. Llega temprano.",
+   "i_en": "Entry approx. 75,000 IDR. For the ritual bath you need a special sarong (rental) and a locker for belongings. Arrive early."
+  },
+  "w_bali_ulun_danu_beratan": {
+   "id": "w_bali_ulun_danu_beratan",
+   "d": "Situado a orillas del lago Bratan, en las tierras altas de Bedugul a unos 1.200 m de altitud, este templo dedicado a la diosa del agua Dewi Danu parece flotar cuando sube el nivel del lago. Sus pagodas de varios tejados reflejadas en el agua, con el fondo montañoso brumoso, componen una de las estampas clásicas de Bali.",
+   "d_en": "On the shore of Lake Bratan in the Bedugul highlands at about 1,200 m altitude, this temple dedicated to the water goddess Dewi Danu appears to float when the lake rises. Its multi-tiered pagodas mirrored in the water against misty mountains form one of Bali's classic scenes.",
+   "h": "Abierto 7:00-18:00. Clima fresco en altura.",
+   "h_en": "Open 7:00-18:00. Cool highland climate.",
+   "i": "Entrada aprox. 75.000 IDR. Lleva una capa de abrigo: hace más fresco que en la costa. Jardines muy cuidados alrededor.",
+   "i_en": "Entry approx. 75,000 IDR. Bring a light layer: it is cooler than the coast. Beautifully kept gardens around it."
+  },
+  "w_bali_lempuyang": {
+   "id": "w_bali_lempuyang",
+   "d": "Pura Penataran Agung Lempuyang, en el este de Bali, es uno de los templos más antiguos y venerados de la isla. Su famosa candi bentar (puerta partida) enmarca de forma perfecta el cono del volcán Agung, creando una de las fotografías más icónicas de Bali. Es el punto de partida de un ascenso de 1.700 escalones a los santuarios superiores.",
+   "d_en": "Pura Penataran Agung Lempuyang in east Bali is one of the island's oldest and most revered temples. Its famous split gate (candi bentar) perfectly frames the cone of Mount Agung, creating one of Bali's most iconic photos. It is the start of a 1,700-step climb to the upper sanctuaries.",
+   "h": "Abierto 6:00-18:00. Ve muy temprano.",
+   "h_en": "Open 6:00-18:00. Go very early.",
+   "i": "Entrada aprox. 100.000 IDR con transporte lanzadera. Largas colas para la foto en la puerta; el 'espejo' es un truco del fotógrafo local. Viste sarong.",
+   "i_en": "Entry approx. 100,000 IDR incl. shuttle. Long queues for the gate photo; the 'reflection' is a local photographer's trick. Wear a sarong."
+  },
+  "w_bali_handara": {
+   "id": "w_bali_handara",
+   "d": "La puerta de Handara es la entrada a un resort y campo de golf en las tierras altas de Bedugul, pero se ha vuelto célebre por sí misma: una monumental candi bentar tradicional balinesa que enmarca un paisaje de montañas cubiertas de selva. Es uno de los fondos fotográficos más populares de la isla, sin templo detrás.",
+   "d_en": "The Handara Gate is the entrance to a resort and golf course in the Bedugul highlands, but has become famous in its own right: a monumental traditional Balinese split gate framing jungle-clad mountains. It is one of the island's most popular photo backdrops, with no temple behind it.",
+   "h": "Acceso para foto 7:00-19:00.",
+   "h_en": "Photo access 7:00-19:00.",
+   "i": "Tarifa para la foto aprox. 30.000 IDR. No hay templo detrás, solo el resort. Combínalo con el lago Bratan y Handara está de camino.",
+   "i_en": "Photo fee approx. 30,000 IDR. No temple behind, just the resort. Combine with Lake Bratan, which is on the way."
+  },
+  "w_bali_taman_ayun": {
+   "id": "w_bali_taman_ayun",
+   "d": "Construido en 1634 como templo real del reino de Mengwi, Taman Ayun ('jardín hermoso') está rodeado por un amplio foso de agua y extensos jardines. Sus elegantes torres meru de tejados escalonados se alinean en el patio interior. Forma parte del paisaje cultural de Bali declarado Patrimonio de la Humanidad por la Unesco.",
+   "d_en": "Built in 1634 as the royal temple of the Mengwi kingdom, Taman Ayun ('beautiful garden') is surrounded by a wide water moat and extensive gardens. Its elegant tiered meru towers line the inner courtyard. It is part of Bali's cultural landscape inscribed by UNESCO as World Heritage.",
+   "h": "Abierto 8:00-18:00.",
+   "h_en": "Open 8:00-18:00.",
+   "i": "Entrada aprox. 30.000 IDR. Menos concurrido que otros templos; ideal para pasear con calma por los jardines. Se recorre en 45 min.",
+   "i_en": "Entry approx. 30,000 IDR. Less crowded than other temples; great for a calm garden stroll. Takes about 45 min."
+  },
+  "w_bali_goa_gajah": {
+   "id": "w_bali_goa_gajah",
+   "d": "La 'Cueva del Elefante', del siglo XI, es un santuario excavado en la roca cuya entrada está tallada con un rostro monstruoso de rasgos amenazantes. En el interior hay hornacinas con estatuas hindúes y un lingam. Frente a la cueva, unas piscinas de purificación con fuentes en forma de ninfas fueron desenterradas en los años 50.",
+   "d_en": "The 11th-century 'Elephant Cave' is a rock-cut sanctuary whose entrance is carved with a menacing monstrous face. Inside are niches with Hindu statues and a lingam. In front of the cave, bathing pools with nymph-shaped fountains were excavated in the 1950s.",
+   "h": "Abierto 8:00-16:30.",
+   "h_en": "Open 8:00-16:30.",
+   "i": "Entrada aprox. 50.000 IDR, sarong incluido. Combínalo con Ubud, está muy cerca. Un sendero baja a arrozales y pequeñas cascadas.",
+   "i_en": "Entry approx. 50,000 IDR, sarong included. Combine with Ubud nearby. A trail descends to rice fields and small waterfalls."
+  },
+  "w_bali_ubud_palace": {
+   "id": "w_bali_ubud_palace",
+   "d": "Puri Saren Agung, el palacio real de Ubud, fue la sede de la familia gobernante local y sigue habitado por sus descendientes. Su arquitectura tradicional balinesa, con pabellones tallados, portones de piedra y jardines, ocupa el corazón de Ubud. Cada noche se celebran representaciones de danza tradicional en su patio.",
+   "d_en": "Puri Saren Agung, the royal palace of Ubud, was the seat of the local ruling family and is still inhabited by their descendants. Its traditional Balinese architecture, with carved pavilions, stone gateways and gardens, sits at the heart of Ubud. Traditional dance performances are held in its courtyard each evening.",
+   "h": "Visita libre 8:00-18:00. Danza sobre las 19:30.",
+   "h_en": "Free entry 8:00-18:00. Dance around 19:30.",
+   "i": "Acceso gratuito al patio; entradas de danza ~100.000 IDR. Está frente al mercado de arte de Ubud, ideal para combinar.",
+   "i_en": "Free courtyard access; dance tickets ~100,000 IDR. Opposite Ubud art market, ideal to combine."
+  },
+  "w_bali_gunung_kawi": {
+   "id": "w_bali_gunung_kawi",
+   "d": "Gunung Kawi es un complejo funerario del siglo XI formado por diez enormes candi (santuarios conmemorativos) tallados directamente en las paredes de roca de un desfiladero, a orillas del río sagrado Pakerisan. Se llega bajando unos 300 escalones entre arrozales, en uno de los enclaves arqueológicos más impresionantes de Bali.",
+   "d_en": "Gunung Kawi is an 11th-century funerary complex of ten huge candi (memorial shrines) carved directly into the rock walls of a river gorge beside the sacred Pakerisan River. You reach it down about 300 steps through rice fields, in one of Bali's most striking archaeological sites.",
+   "h": "Abierto 8:00-17:00.",
+   "h_en": "Open 8:00-17:00.",
+   "i": "Entrada aprox. 50.000 IDR, sarong incluido. La bajada y subida de escalones cansa; lleva agua y calzado cómodo.",
+   "i_en": "Entry approx. 50,000 IDR, sarong included. The stairs down and up are tiring; bring water and comfortable shoes."
+  },
+  "w_bali_tegallalang": {
+   "id": "w_bali_tegallalang",
+   "d": "Al norte de Ubud, las terrazas de Tegallalang despliegan curvas escalonadas de arrozales verdes irrigados por el subak, el sistema tradicional balinés de gestión del agua reconocido por la Unesco. Senderos entre las parcelas permiten adentrarse en el paisaje, salpicado de palmeras, cabañas y modernos columpios sobre el valle.",
+   "d_en": "North of Ubud, the Tegallalang terraces unfold stepped curves of green rice paddies irrigated by the subak, the traditional Balinese water system recognised by UNESCO. Paths between the plots let you walk into the landscape, dotted with palms, huts and modern swings over the valley.",
+   "h": "Mejor por la mañana temprano, 7:00-10:00.",
+   "h_en": "Best early morning, 7:00-10:00.",
+   "i": "Entrada/donación aprox. 25.000 IDR; algunos tramos cobran propina extra a los campesinos. Los columpios (swing) se pagan aparte, 100.000-350.000 IDR.",
+   "i_en": "Entry/donation approx. 25,000 IDR; some sections ask extra tips for farmers. Swings are separate, 100,000-350,000 IDR."
+  },
+  "w_bali_monkey_forest": {
+   "id": "w_bali_monkey_forest",
+   "d": "El Sacred Monkey Forest Sanctuary es una reserva natural y complejo de templos en el corazón de Ubud, hogar de más de 1.000 macacos de cola larga que viven en libertad entre árboles centenarios. Senderos empedrados atraviesan la selva junto a tres templos hindúes cubiertos de musgo, estatuas y un barranco con un arroyo.",
+   "d_en": "The Sacred Monkey Forest Sanctuary is a nature reserve and temple complex in the heart of Ubud, home to over 1,000 free-roaming long-tailed macaques living among ancient trees. Stone paths cross the jungle past three moss-covered Hindu temples, statues and a stream-filled ravine.",
+   "h": "Abierto 9:00-18:00.",
+   "h_en": "Open 9:00-18:00.",
+   "i": "Entrada aprox. 80.000 IDR. No lleves comida ni bolsas abiertas: los monos son atrevidos. Evita el contacto visual directo y no los toques.",
+   "i_en": "Entry approx. 80,000 IDR. Do not carry food or open bags: the monkeys are bold. Avoid direct eye contact and do not touch them."
+  },
+  "w_bali_nusa_penida": {
+   "id": "w_bali_nusa_penida",
+   "d": "Nusa Penida es una isla escarpada al sureste de Bali famosa por sus acantilados espectaculares y playas turquesa. Su mirador estrella es Kelingking Beach, un promontorio con forma de cabeza de dinosaurio que cae en vertical sobre una cala de arena blanca. La isla ofrece también snorkel con mantas y puntos como Broken Beach y Angel's Billabong.",
+   "d_en": "Nusa Penida is a rugged island south-east of Bali famed for dramatic cliffs and turquoise beaches. Its star viewpoint is Kelingking Beach, a dinosaur-head-shaped headland dropping sheer to a white-sand cove. The island also offers snorkelling with manta rays and spots like Broken Beach and Angel's Billabong.",
+   "h": "Excursión de día completo desde Bali.",
+   "h_en": "Full-day trip from Bali.",
+   "i": "Ferry rápido desde Sanur (~30-45 min). Alquila coche con conductor: las carreteras son malas. La bajada a la playa de Kelingking es muy exigente.",
+   "i_en": "Fast boat from Sanur (~30-45 min). Hire a car with driver: roads are rough. The descent to Kelingking beach is very strenuous."
+  },
+  "w_bali_tegenungan": {
+   "id": "w_bali_tegenungan",
+   "d": "Tegenungan es una de las cascadas más accesibles de Bali, una cortina ancha de agua que cae unos 15 metros sobre una poza rodeada de vegetación tropical, en un valle al sur de Ubud. A diferencia de otras cascadas de montaña, está a baja altitud y se puede uno bañar en su base. Miradores y cafés se asoman desde lo alto.",
+   "d_en": "Tegenungan is one of Bali's most accessible waterfalls, a wide curtain of water dropping about 15 metres into a pool ringed by tropical greenery, in a valley south of Ubud. Unlike other mountain falls it sits at low elevation and you can swim at its base. Viewpoints and cafes overlook it from above.",
+   "h": "Abierto 6:30-18:00.",
+   "h_en": "Open 6:30-18:00.",
+   "i": "Entrada aprox. 20.000 IDR. Hay que bajar bastantes escalones hasta la poza. Llega temprano para evitar multitudes y agua más limpia.",
+   "i_en": "Entry approx. 20,000 IDR. Many steps down to the pool. Arrive early for fewer crowds and cleaner water."
+  },
+  "w_bali_batur": {
+   "id": "w_bali_batur",
+   "d": "El monte Batur es un volcán activo de 1.717 m situado dentro de una enorme caldera con un lago del mismo nombre. Su ascenso al amanecer es una de las experiencias más populares de Bali: se sube de noche por sendero volcánico para contemplar la salida del sol sobre el mar de nubes y el vecino monte Agung, con vistas a la caldera.",
+   "d_en": "Mount Batur is an active 1,717 m volcano set inside a vast caldera holding a lake of the same name. Its sunrise climb is one of Bali's most popular experiences: you hike up at night on volcanic trails to watch the sun rise over a sea of clouds and neighbouring Mount Agung, overlooking the caldera.",
+   "h": "Trekking de amanecer: salida sobre las 3:30-4:00.",
+   "h_en": "Sunrise trek: start around 3:30-4:00.",
+   "i": "Guía obligatorio; paquete ~350.000-600.000 IDR con desayuno en la cima. Lleva capa de abrigo, frontal y calzado de montaña.",
+   "i_en": "Guide required; package ~350,000-600,000 IDR with breakfast at the summit. Bring a warm layer, headlamp and hiking shoes."
+  },
+  "w_bali_sekumpul": {
+   "id": "w_bali_sekumpul",
+   "d": "Considerada por muchos la cascada más bella de Bali, Sekumpul es en realidad un grupo de siete cataratas que se precipitan desde unos 80 metros en un valle selvático del norte de la isla. Llegar a su base exige una caminata con descensos empinados y el vadeo de un río, recompensada por un anfiteatro natural de agua y jungla.",
+   "d_en": "Regarded by many as Bali's most beautiful waterfall, Sekumpul is actually a cluster of seven cascades plunging from around 80 metres in a jungle valley in the north of the island. Reaching its base requires a hike with steep descents and a river crossing, rewarded by a natural amphitheatre of water and jungle.",
+   "h": "Abierto 8:00-17:00.",
+   "h_en": "Open 8:00-17:00.",
+   "i": "Entrada aprox. 125.000 IDR, a veces con guía obligatorio. Caminata exigente de 1-2 h ida y vuelta; calzado con agarre imprescindible.",
+   "i_en": "Entry approx. 125,000 IDR, sometimes with mandatory guide. Demanding 1-2 h round-trip hike; grippy footwear essential."
+  },
+  "w_bali_jatiluwih": {
+   "id": "w_bali_jatiluwih",
+   "d": "Los arrozales de Jatiluwih, en las faldas del monte Batukaru, forman un mar de terrazas verdes que se extiende por más de 600 hectáreas, mucho más amplias y tranquilas que las de Tegallalang. Son el mejor ejemplo del sistema de riego subak reconocido por la Unesco, con senderos señalizados para caminar entre los campos.",
+   "d_en": "The Jatiluwih rice terraces on the slopes of Mount Batukaru form a sea of green terraces spreading over more than 600 hectares, far broader and quieter than Tegallalang. They are the finest example of the UNESCO-recognised subak irrigation system, with marked trails for walking among the fields.",
+   "h": "Abierto 8:00-18:00.",
+   "h_en": "Open 8:00-18:00.",
+   "i": "Entrada aprox. 40.000 IDR. Hay varias rutas a pie de 1 a 3 h. Menos turístico; ideal combinar con templos de Bedugul.",
+   "i_en": "Entry approx. 40,000 IDR. Several walking loops from 1 to 3 h. Less touristy; ideal to combine with Bedugul temples."
+  },
+  "w_bali_campuhan": {
+   "id": "w_bali_campuhan",
+   "d": "El Campuhan Ridge Walk es un agradable paseo por la cresta de una colina cubierta de hierba alta que discurre entre dos ríos, a un paso del centro de Ubud. El camino pavimentado ofrece vistas abiertas a valles verdes y palmeras, ideal para recorrer al amanecer o al atardecer, cuando la luz es más suave y hace menos calor.",
+   "d_en": "The Campuhan Ridge Walk is a pleasant stroll along a grassy hilltop ridge running between two rivers, a short walk from central Ubud. The paved path offers open views over green valleys and palms, ideal at sunrise or sunset when the light is softer and the heat lower.",
+   "h": "Abierto todo el día; mejor amanecer/atardecer.",
+   "h_en": "Open all day; best at sunrise/sunset.",
+   "i": "Acceso gratuito. Unos 2 km de ida; lleva agua y gorra, hay poca sombra. Al final hay cafés con vistas.",
+   "i_en": "Free access. About 2 km one way; bring water and a hat, little shade. Cafes with views at the end."
+  },
+  "w_bali_tibumana": {
+   "id": "w_bali_tibumana",
+   "d": "Tibumana es una cascada elegante y tranquila al este de Ubud: una única caída de unos 20 metros que desciende sobre un telón de helechos hasta una poza redonda de aguas apacibles, perfecta para nadar. Su entorno íntimo y su fácil acceso, con menos gente que otras cascadas, la han convertido en favorita de quienes buscan calma.",
+   "d_en": "Tibumana is an elegant, tranquil waterfall east of Ubud: a single drop of about 20 metres falling over a curtain of ferns into a round, calm pool perfect for swimming. Its intimate setting and easy access, with fewer people than other falls, make it a favourite for those seeking calm.",
+   "h": "Abierto 7:00-18:00.",
+   "h_en": "Open 7:00-18:00.",
+   "i": "Entrada aprox. 20.000 IDR. Corta bajada de escalones. Lleva bañador y toalla; el agua es fresca pero apta para el baño.",
+   "i_en": "Entry approx. 20,000 IDR. Short flight of steps down. Bring swimwear and towel; the water is cool but swimmable."
+  },
+  "w_bali_kuta": {
+   "id": "w_bali_kuta",
+   "d": "Kuta es la playa más famosa y animada de Bali, una amplia franja de arena dorada de varios kilómetros con olas constantes ideales para aprender a surfear. Su paseo concentra tiendas, bares y hoteles, y es el mejor lugar para ver la puesta de sol sobre el mar. Fue el primer gran foco turístico de la isla.",
+   "d_en": "Kuta is Bali's most famous and lively beach, a wide strip of golden sand several kilometres long with steady waves ideal for learning to surf. Its promenade is packed with shops, bars and hotels, and it is the best spot to watch the sunset over the sea. It was the island's first major tourist hub.",
+   "h": "Playa abierta todo el día; atardecer imprescindible.",
+   "h_en": "Beach open all day; sunset is a must.",
+   "i": "Acceso libre. Clases de surf y tablas de alquiler por todas partes (~150.000 IDR). Cuidado con las corrientes; báñate entre banderas.",
+   "i_en": "Free access. Surf lessons and board rentals everywhere (~150,000 IDR). Beware of currents; swim between the flags."
+  },
+  "w_bali_seminyak": {
+   "id": "w_bali_seminyak",
+   "d": "Seminyak es la cara sofisticada del sur de Bali: al norte de Kuta, combina una playa amplia para el atardecer con una densa oferta de beach clubs, boutiques de diseño, spas y restaurantes de moda. Es el destino preferido de quienes buscan un ambiente más elegante y relajado, con cócteles frente al mar al caer la tarde.",
+   "d_en": "Seminyak is the sophisticated face of southern Bali: north of Kuta, it pairs a wide sunset beach with a dense scene of beach clubs, designer boutiques, spas and fashionable restaurants. It is the favourite for those seeking a more elegant, relaxed vibe, with seaside cocktails as evening falls.",
+   "h": "Beach clubs y tiendas hasta tarde.",
+   "h_en": "Beach clubs and shops until late.",
+   "i": "Reserva mesa en los beach clubs para el atardecer. Precios más altos que en Kuta. Buenas boutiques en Jl. Kayu Aya (Eat Street).",
+   "i_en": "Book beach-club tables for sunset. Pricier than Kuta. Good boutiques along Jl. Kayu Aya (Eat Street)."
+  },
+  "w_bali_waterbom": {
+   "id": "w_bali_waterbom",
+   "d": "Waterbom Bali, en Kuta, es uno de los parques acuáticos mejor valorados de Asia. Reúne toboganes de todo tipo, desde caídas casi verticales hasta ríos lentos, repartidos entre exuberantes jardines tropicales. Cuenta con zonas para niños, áreas de descanso, restaurantes y spa, lo que lo hace ideal para un día en familia.",
+   "d_en": "Waterbom Bali in Kuta is one of Asia's highest-rated water parks. It gathers slides of every kind, from near-vertical drops to lazy rivers, spread through lush tropical gardens. With kids' zones, lounging areas, restaurants and a spa, it makes an ideal family day out.",
+   "h": "Abierto 9:00-18:00.",
+   "h_en": "Open 9:00-18:00.",
+   "i": "Entrada aprox. 535.000 IDR adultos, menos niños. Compra online más barato. Alquiler de taquillas y toallas disponible.",
+   "i_en": "Entry approx. 535,000 IDR adults, less for children. Cheaper online. Locker and towel rental available."
+  },
+  "w_bali_safari": {
+   "id": "w_bali_safari",
+   "d": "El Bali Safari & Marine Park, en Gianyar, permite recorrer en tram amplios recintos donde leones, cebras, elefantes, orangutanes y otras especies de Asia y África viven en entornos semiabiertos. Ofrece además espectáculos culturales con animales, zona acuática, un parque de atracciones y encuentros cercanos con la fauna, pensado para toda la familia.",
+   "d_en": "Bali Safari & Marine Park in Gianyar lets you ride a tram through large enclosures where lions, zebras, elephants, orangutans and other Asian and African species live in semi-open settings. It also offers cultural animal shows, a water zone, a fun park and close wildlife encounters, designed for the whole family.",
+   "h": "Abierto 9:00-17:00.",
+   "h_en": "Open 9:00-17:00.",
+   "i": "Entradas desde ~550.000 IDR según paquete. Reserva online. Combínalo de camino entre Ubud y la costa este.",
+   "i_en": "Tickets from ~550,000 IDR depending on package. Book online. Fits on the way between Ubud and the east coast."
+  },
+  "w_bali_ibu_oka": {
+   "id": "w_bali_ibu_oka",
+   "d": "Ibu Oka es la dirección más famosa de Ubud para probar el babi guling, el cerdo asado relleno de especias que es un plato ceremonial balinés. Se sirve en platos combinados con arroz, piel crujiente, embutido, verduras y una guarnición picante. Popularizado por chefs y guías, sigue siendo una parada obligada de la cocina local.",
+   "d_en": "Ibu Oka is Ubud's most famous address for babi guling, the spice-stuffed roast pig that is a Balinese ceremonial dish. It is served in mixed plates with rice, crispy skin, sausage, vegetables and a spicy side. Popularised by chefs and guides, it remains an essential stop for local cuisine.",
+   "h": "Suele agotarse a media tarde: ve al mediodía.",
+   "h_en": "Often sells out mid-afternoon: go at midday.",
+   "i": "Muy concurrido a la hora de comer. Plato de babi guling desde ~60.000 IDR. Frente al palacio de Ubud.",
+   "i_en": "Very busy at lunchtime. Babi guling plate from ~60,000 IDR. Opposite Ubud Palace."
+  },
+  "w_bali_bebek_bengil": {
+   "id": "w_bali_bebek_bengil",
+   "d": "Bebek Bengil, el 'Pato Sucio', es una institución de Ubud famosa por su pato crujiente: marinado con especias, cocido al vapor y frito hasta quedar dorado y tierno. Se disfruta en pabellones y gazebos tradicionales rodeados de jardines y vistas a los arrozales, en un ambiente relajado que mezcla cocina balinesa e internacional.",
+   "d_en": "Bebek Bengil, the 'Dirty Duck', is an Ubud institution famous for its crispy duck: spice-marinated, steamed and fried until golden and tender. It is enjoyed in traditional pavilions and gazebos surrounded by gardens and rice-field views, in a relaxed setting mixing Balinese and international cuisine.",
+   "h": "Comidas y cenas; reserva en temporada alta.",
+   "h_en": "Lunch and dinner; book in high season.",
+   "i": "Pato crujiente sobre ~130.000 IDR. Pide un gazebo junto a los arrozales. Ambiente turístico pero muy agradable.",
+   "i_en": "Crispy duck around ~130,000 IDR. Ask for a gazebo by the rice fields. Touristy but very pleasant setting."
+  },
+  "w_bali_jimbaran": {
+   "id": "w_bali_jimbaran",
+   "d": "La bahía de Jimbaran es célebre por sus restaurantes de marisco a pie de playa, donde las mesas se colocan sobre la arena al caer el sol. Se elige el pescado, gambas, langosta o calamares fresquísimos, que se asan sobre brasas de cáscara de coco y se sirven con salsa sambal, arroz y verduras, mientras el cielo se tiñe de naranja.",
+   "d_en": "Jimbaran Bay is famed for its beachfront seafood restaurants, where tables are set out on the sand at sunset. You pick your fresh fish, prawns, lobster or squid, grilled over coconut-husk coals and served with sambal, rice and vegetables, while the sky turns orange.",
+   "h": "Mejor para cenar al atardecer.",
+   "h_en": "Best for a sunset dinner.",
+   "i": "Precio según peso del marisco; confirma tarifa antes de pedir. Reserva mesa en primera línea para el atardecer.",
+   "i_en": "Priced by weight of seafood; confirm the rate before ordering. Book a front-row table for sunset."
+  },
+  "w_bali_locavore": {
+   "id": "w_bali_locavore",
+   "d": "Locavore es el restaurante de alta cocina más reconocido de Bali, con menús degustación creativos que reinterpretan ingredientes y técnicas indonesias con productos de proximidad. Ha figurado entre los mejores de Asia y ofrece una experiencia gastronómica moderna, con opciones omnívoras y vegetarianas, en el corazón de Ubud.",
+   "d_en": "Locavore is Bali's most acclaimed fine-dining restaurant, with creative tasting menus reinterpreting Indonesian ingredients and techniques using local produce. It has ranked among Asia's best and offers a modern culinary experience, with omnivore and vegetarian options, in the heart of Ubud.",
+   "h": "Solo con reserva; plazas muy limitadas.",
+   "h_en": "Reservation only; seats very limited.",
+   "i": "Reserva con semanas de antelación. Menús degustación largos; ideal para una noche especial. Precio elevado para Bali.",
+   "i_en": "Book weeks ahead. Long tasting menus; ideal for a special night. High price by Bali standards."
+  },
+  "w_bali_la_favela": {
+   "id": "w_bali_la_favela",
+   "d": "La Favela es uno de los locales más emblemáticos de Seminyak, un laberinto de salas decoradas con estilo vintage y bohemio, jardines y rincones sorprendentes. Funciona como restaurante de cocina internacional al anochecer y se transforma en uno de los bares y pistas de baile más animados de Bali a medida que avanza la noche.",
+   "d_en": "La Favela is one of Seminyak's most iconic venues, a maze of vintage, bohemian-styled rooms, gardens and surprising corners. It works as an international restaurant in the early evening and turns into one of Bali's liveliest bars and dance floors as the night goes on.",
+   "h": "Cena y copas; ambiente de fiesta de noche.",
+   "h_en": "Dinner and drinks; party atmosphere late.",
+   "i": "Sin reserva puede haber cola de noche. Código de vestimenta arreglado-informal. Ideal para combinar cena y salida.",
+   "i_en": "Without a booking there may be a queue at night. Smart-casual dress code. Great to combine dinner and night out."
+  },
+  "w_bali_naughty_nuris": {
+   "id": "w_bali_naughty_nuris",
+   "d": "Naughty Nuri's es un warung legendario de Ubud que se hizo célebre por sus costillas de cerdo a la barbacoa, jugosas y ahumadas, asadas en una parrilla a la entrada. El ambiente es informal y bullicioso, con bancos de madera, y completan la fama de la casa sus contundentes martinis. Un clásico imprescindible de la comida carnívora en Bali.",
+   "d_en": "Naughty Nuri's is a legendary Ubud warung that became famous for its barbecue pork ribs, juicy and smoky, grilled at the entrance. The atmosphere is casual and bustling, with wooden benches, and its potent martinis round off the house's fame. A must-visit classic of carnivorous eating in Bali.",
+   "h": "Muy concurrido a la hora de comer.",
+   "h_en": "Very busy at lunchtime.",
+   "i": "Ración de costillas sobre ~110.000 IDR. Puede haber espera; no aceptan reservas. Llega pronto para asegurar mesa.",
+   "i_en": "Rack of ribs around ~110,000 IDR. Expect a wait; no reservations. Come early to get a table."
+  }
+ },
+ "food": {
+  "w_bali_ibu_oka": {
+   "cuisine": "Balinesa · cerdo asado",
+   "price": "4–9 €",
+   "hours": "11:00-18:00"
+  },
+  "w_bali_bebek_bengil": {
+   "cuisine": "Balinesa · pato crujiente",
+   "price": "8–18 €",
+   "hours": "10:00-22:00"
+  },
+  "w_bali_jimbaran": {
+   "cuisine": "Marisco a la brasa",
+   "price": "15–35 €",
+   "hours": "11:00-23:00"
+  },
+  "w_bali_locavore": {
+   "cuisine": "Autor · indonesia moderna",
+   "price": "60–110 €",
+   "hours": "12:00-14:00, 18:30-22:00"
+  },
+  "w_bali_la_favela": {
+   "cuisine": "Internacional · cócteles",
+   "price": "12–25 €",
+   "hours": "18:00-01:00"
+  },
+  "w_bali_naughty_nuris": {
+   "cuisine": "Barbacoa · costillas",
+   "price": "8–16 €",
+   "hours": "11:00-22:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Bali",
+   "items": [
+    {
+     "name": "Pareo / sarong batik",
+     "price": "4–15 €",
+     "desc": "Telas de algodón teñidas a mano, prenda típica también para entrar a los templos."
+    },
+    {
+     "name": "Tallas de madera",
+     "price": "8–60 €",
+     "desc": "Figuras y máscaras talladas a mano, especialidad del pueblo artesano de Mas."
+    },
+    {
+     "name": "Joyería de plata de Celuk",
+     "price": "15–120 €",
+     "desc": "Filigrana de plata trabajada en el pueblo orfebre de Celuk, cerca de Ubud."
+    },
+    {
+     "name": "Café Kopi Luwak",
+     "price": "10–40 €",
+     "desc": "El famoso y caro café de civeta, además de mezclas de café balinés más asequibles."
+    },
+    {
+     "name": "Aceites y jabones aromáticos",
+     "price": "3–12 €",
+     "desc": "Productos naturales de spa: aceites de masaje, incienso y jabones artesanales."
+    },
+    {
+     "name": "Cazador de sueños / cestería",
+     "price": "5–25 €",
+     "desc": "Atrapasueños, bolsos de ratán y cestería tejida a mano muy de moda."
+    }
+   ],
+   "shops": [
+    "Mercado de arte de Ubud (Ubud Art Market)",
+    "Pueblo de Celuk (plata)",
+    "Pueblo de Mas (talla de madera)",
+    "Krisna Oleh-Oleh (souvenirs, varias sedes)",
+    "Seminyak (boutiques de diseño en Jl. Kayu Aya)"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Alquila un scooter solo si tienes experiencia y permiso internacional; para distancias largas contrata coche con conductor por día (~500.000-700.000 IDR).",
+   "Para entrar a los templos hay que cubrirse con sarong y faja; en los principales los prestan, pero llevar uno propio ahorra tiempo.",
+   "Evita el tráfico del sur (Kuta-Seminyak-Canggu) a primera hora de la mañana y al atardecer; las distancias cortas llevan mucho tiempo.",
+   "Bebe solo agua embotellada y ten cuidado con el hielo y las ensaladas en puestos poco fiables para evitar el 'Bali belly'.",
+   "Lleva efectivo (rupias) para entradas, mercados y warungs; regatea con respeto en los mercados y saca dinero en cajeros de bancos."
+  ],
+  "en": [
+   "Rent a scooter only if experienced and holding an international licence; for long distances hire a car with driver per day (~500,000-700,000 IDR).",
+   "To enter temples you must wear a sarong and sash; major sites lend them, but bringing your own saves time.",
+   "Avoid the southern traffic (Kuta-Seminyak-Canggu) in the early morning and at sunset; short distances take a long time.",
+   "Drink only bottled water and be careful with ice and salads at unreliable stalls to avoid 'Bali belly'.",
+   "Carry cash (rupiah) for entrance fees, markets and warungs; bargain respectfully at markets and withdraw money at bank ATMs."
+  ]
+ },
+ "climate": {
+  "hi": [
+   31,
+   31,
+   31,
+   32,
+   31,
+   30,
+   29,
+   29,
+   30,
+   31,
+   31,
+   31
+  ],
+  "lo": [
+   24,
+   24,
+   24,
+   24,
+   24,
+   23,
+   23,
+   23,
+   23,
+   24,
+   24,
+   24
+  ]
+ },
+ "tr": {
+  "Templo hindú sobre una roca en el mar, icono de Bali al atardecer.": "Hindu temple perched on a sea rock, Bali's sunset icon.",
+  "Templo sobre un acantilado de 70 m con danza kecak al atardecer.": "Clifftop temple 70 m above the sea with sunset kecak dance.",
+  "El 'Templo Madre' de Bali en las faldas del volcán Agung.": "Bali's 'Mother Temple' on the slopes of Mount Agung.",
+  "Templo del agua sagrada con piscinas de purificación (melukat).": "Holy spring temple with purification bathing pools (melukat).",
+  "Templo lacustre que parece flotar sobre el lago Bratan.": "Lakeside temple that seems to float on Lake Bratan.",
+  "Las 'Puertas del Cielo' con el monte Agung enmarcado al fondo.": "The 'Gates of Heaven' framing Mount Agung behind.",
+  "Icónica puerta balinesa con montañas verdes de fondo.": "Iconic Balinese gate framed by green mountains.",
+  "Templo real de Mengwi rodeado de fosos y jardines.": "Royal Mengwi temple surrounded by moats and gardens.",
+  "Cueva-santuario del siglo XI con fachada tallada.": "11th-century cave sanctuary with a carved facade.",
+  "Puri Saren, residencia real y escenario de danza balinesa.": "Puri Saren, royal residence and Balinese dance venue.",
+  "Santuarios reales tallados en la roca junto al río Pakerisan.": "Royal shrines carved into rock by the Pakerisan River.",
+  "Terrazas de arroz escalonadas con el sistema de riego subak.": "Stepped rice terraces using the traditional subak system.",
+  "Selva sagrada con templos y cientos de macacos en libertad.": "Sacred jungle with temples and hundreds of free-roaming macaques.",
+  "Isla salvaje con el acantilado 'T-Rex' de Kelingking Beach.": "Wild island with the 'T-Rex' cliff of Kelingking Beach.",
+  "Cascada ancha y accesible entre selva, cerca de Ubud.": "Wide, accessible jungle waterfall near Ubud.",
+  "Volcán activo con caldera y lago; ascenso al amanecer.": "Active volcano with caldera and lake; sunrise trek.",
+  "Conjunto de altas cataratas en la selva del norte de Bali.": "Cluster of tall falls in the northern Bali jungle.",
+  "Vastas terrazas de arroz Patrimonio de la Humanidad Unesco.": "Vast UNESCO World Heritage rice terraces.",
+  "Sendero panorámico por una loma verde junto a Ubud.": "Scenic ridge trail along a green hill beside Ubud.",
+  "Cascada única y serena con poza para bañarse, poco masificada.": "Single serene waterfall with a swimming pool, uncrowded.",
+  "Larga playa de arena, cuna del surf y la vida nocturna de Bali.": "Long sandy beach, cradle of Bali's surf and nightlife.",
+  "Zona chic de playa con beach clubs, boutiques y gastronomía.": "Chic beach area with beach clubs, boutiques and dining.",
+  "Parque acuático de primer nivel entre jardines tropicales.": "Top-rated water park set in tropical gardens.",
+  "Parque safari con fauna asiática y espectáculos, para familias.": "Safari park with Asian wildlife and shows, family-friendly.",
+  "Célebre casa de cerdo asado balinés (babi guling) en Ubud.": "Famous Balinese roast suckling pig (babi guling) in Ubud.",
+  "Restaurante icónico del pato crujiente entre arrozales.": "Iconic crispy-duck restaurant set among rice fields.",
+  "Cena de marisco a la brasa con los pies en la arena al atardecer.": "Grilled-seafood dinner on the sand at sunset.",
+  "Alta cocina de autor con producto local de Indonesia.": "Fine-dining tasting menus built on local Indonesian produce.",
+  "Restaurante-bar de ambiente bohemio y noche animada.": "Bohemian restaurant-bar with a lively late-night scene.",
+  "Warung famoso por sus costillas a la brasa y martinis.": "Warung famous for BBQ pork ribs and martinis.",
+  "Bali": "Bali"
+ }
+}

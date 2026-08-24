@@ -1,0 +1,783 @@
+{
+ "id": "estambul",
+ "name": "Estambul",
+ "country": "WORLD",
+ "center": [
+  41.0082,
+  28.9784
+ ],
+ "pois": [
+  {
+   "id": "w_ist_hagia_sophia",
+   "cat": "monuments",
+   "name": "Santa Sofía (Ayasofya)",
+   "icon": "🕌",
+   "lat": 41.00863,
+   "lng": 28.98002,
+   "desc": "Basílica bizantina convertida en mezquita, símbolo de Estambul."
+  },
+  {
+   "id": "w_ist_blue_mosque",
+   "cat": "monuments",
+   "name": "Mezquita Azul (Sultanahmet)",
+   "icon": "🕌",
+   "lat": 41.00548,
+   "lng": 28.97684,
+   "desc": "Mezquita imperial de seis minaretes y azulejos azules."
+  },
+  {
+   "id": "w_ist_topkapi",
+   "cat": "monuments",
+   "name": "Palacio Topkapi",
+   "icon": "🏛️",
+   "lat": 41.01151,
+   "lng": 28.98334,
+   "desc": "Residencia de los sultanes otomanos con harén y tesoros."
+  },
+  {
+   "id": "w_ist_basilica_cistern",
+   "cat": "monuments",
+   "name": "Cisterna Basílica (Yerebatan)",
+   "icon": "🏛️",
+   "lat": 41.00844,
+   "lng": 28.97783,
+   "desc": "Depósito de agua bizantino con 336 columnas iluminadas."
+  },
+  {
+   "id": "w_ist_galata_tower",
+   "cat": "monuments",
+   "name": "Torre de Gálata",
+   "icon": "🗼",
+   "lat": 41.02576,
+   "lng": 28.97417,
+   "desc": "Torre medieval genovesa con mirador de 360º."
+  },
+  {
+   "id": "w_ist_suleymaniye",
+   "cat": "monuments",
+   "name": "Mezquita de Solimán (Süleymaniye)",
+   "icon": "🕌",
+   "lat": 41.01611,
+   "lng": 28.96389,
+   "desc": "Obra maestra del arquitecto Sinan sobre el Cuerno de Oro."
+  },
+  {
+   "id": "w_ist_dolmabahce",
+   "cat": "monuments",
+   "name": "Palacio Dolmabahçe",
+   "icon": "🏰",
+   "lat": 41.03917,
+   "lng": 29.00069,
+   "desc": "Palacio otomano de estilo europeo a orillas del Bósforo."
+  },
+  {
+   "id": "w_ist_chora",
+   "cat": "monuments",
+   "name": "Iglesia de Chora (Kariye)",
+   "icon": "⛪",
+   "lat": 41.03119,
+   "lng": 28.94194,
+   "desc": "Joya bizantina con los mejores mosaicos y frescos."
+  },
+  {
+   "id": "w_ist_rustem_pasha",
+   "cat": "monuments",
+   "name": "Mezquita de Rüstem Pasha",
+   "icon": "🕌",
+   "lat": 41.01722,
+   "lng": 28.96944,
+   "desc": "Pequeña mezquita cubierta de espectaculares azulejos de Iznik."
+  },
+  {
+   "id": "w_ist_yeni_cami",
+   "cat": "monuments",
+   "name": "Mezquita Nueva (Yeni Cami)",
+   "icon": "🕌",
+   "lat": 41.01669,
+   "lng": 28.97056,
+   "desc": "Gran mezquita imperial junto al puente de Gálata."
+  },
+  {
+   "id": "w_ist_maidens_tower",
+   "cat": "monuments",
+   "name": "Torre de la Doncella (Kız Kulesi)",
+   "icon": "🗼",
+   "lat": 41.0211,
+   "lng": 29.00417,
+   "desc": "Torreón sobre un islote en plena boca del Bósforo."
+  },
+  {
+   "id": "w_ist_rumeli_hisari",
+   "cat": "monuments",
+   "name": "Fortaleza de Rumeli (Rumeli Hisarı)",
+   "icon": "🏰",
+   "lat": 41.08472,
+   "lng": 29.05639,
+   "desc": "Fortaleza otomana que decidió la caída de Constantinopla."
+  },
+  {
+   "id": "w_ist_ortakoy_mosque",
+   "cat": "monuments",
+   "name": "Mezquita de Ortaköy",
+   "icon": "🕌",
+   "lat": 41.04722,
+   "lng": 29.02694,
+   "desc": "Mezquita barroca junto al agua bajo el puente del Bósforo."
+  },
+  {
+   "id": "w_ist_bosphorus",
+   "cat": "nature",
+   "name": "Estrecho del Bósforo",
+   "icon": "🌊",
+   "lat": 41.09,
+   "lng": 29.04,
+   "desc": "El canal que separa Europa de Asia, mejor en crucero."
+  },
+  {
+   "id": "w_ist_golden_horn",
+   "cat": "nature",
+   "name": "Cuerno de Oro (Haliç)",
+   "icon": "🌊",
+   "lat": 41.026,
+   "lng": 28.949,
+   "desc": "Ría histórica que parte en dos la orilla europea."
+  },
+  {
+   "id": "w_ist_gulhane_park",
+   "cat": "nature",
+   "name": "Parque Gülhane",
+   "icon": "🌳",
+   "lat": 41.01361,
+   "lng": 28.98139,
+   "desc": "El parque histórico más antiguo, junto a Topkapi."
+  },
+  {
+   "id": "w_ist_pierre_loti_hill",
+   "cat": "nature",
+   "name": "Colina de Pierre Loti",
+   "icon": "🌅",
+   "lat": 41.05028,
+   "lng": 28.93361,
+   "desc": "Mirador sobre el Cuerno de Oro con teleférico."
+  },
+  {
+   "id": "w_ist_emirgan_park",
+   "cat": "nature",
+   "name": "Parque Emirgan",
+   "icon": "🌷",
+   "lat": 41.10944,
+   "lng": 29.05389,
+   "desc": "Gran parque del Bósforo, capital de los tulipanes."
+  },
+  {
+   "id": "w_ist_princes_islands",
+   "cat": "nature",
+   "name": "Islas Príncipe (Büyükada)",
+   "icon": "🏝️",
+   "lat": 40.85778,
+   "lng": 29.12083,
+   "desc": "Archipiélago sin coches en el mar de Mármara."
+  },
+  {
+   "id": "w_ist_belgrad_forest",
+   "cat": "nature",
+   "name": "Bosque de Belgrado",
+   "icon": "🌲",
+   "lat": 41.185,
+   "lng": 28.985,
+   "desc": "Gran bosque para senderismo al norte de la ciudad."
+  },
+  {
+   "id": "w_ist_grand_bazaar",
+   "cat": "ocio",
+   "name": "Gran Bazar (Kapalıçarşı)",
+   "icon": "🛍️",
+   "lat": 41.01067,
+   "lng": 28.96806,
+   "desc": "Uno de los mercados cubiertos más grandes y antiguos."
+  },
+  {
+   "id": "w_ist_spice_bazaar",
+   "cat": "ocio",
+   "name": "Bazar de las Especias (Mısır Çarşısı)",
+   "icon": "🌶️",
+   "lat": 41.01639,
+   "lng": 28.97056,
+   "desc": "Mercado aromático de especias, dulces y té."
+  },
+  {
+   "id": "w_ist_balat",
+   "cat": "ocio",
+   "name": "Barrio de Balat",
+   "icon": "🏘️",
+   "lat": 41.02917,
+   "lng": 28.94861,
+   "desc": "Casas de colores, cafés y ambiente bohemio."
+  },
+  {
+   "id": "w_ist_taksim_square",
+   "cat": "ocio",
+   "name": "Plaza Taksim",
+   "icon": "🏙️",
+   "lat": 41.03694,
+   "lng": 28.98528,
+   "desc": "Plaza central y corazón de la ciudad moderna."
+  },
+  {
+   "id": "w_ist_istiklal",
+   "cat": "ocio",
+   "name": "Calle Istiklal",
+   "icon": "🚋",
+   "lat": 41.0335,
+   "lng": 28.9775,
+   "desc": "Avenida peatonal con tiendas, cafés y tranvía histórico."
+  },
+  {
+   "id": "w_ist_karakoy",
+   "cat": "ocio",
+   "name": "Barrio de Karaköy",
+   "icon": "☕",
+   "lat": 41.02472,
+   "lng": 28.97444,
+   "desc": "Antiguo puerto reconvertido en barrio de moda."
+  },
+  {
+   "id": "w_ist_kadikoy",
+   "cat": "ocio",
+   "name": "Barrio de Kadıköy",
+   "icon": "🍢",
+   "lat": 40.99028,
+   "lng": 29.02694,
+   "desc": "El lado asiático más gastronómico y auténtico."
+  },
+  {
+   "id": "w_ist_cemberlitas_hamam",
+   "cat": "ocio",
+   "name": "Hamam Çemberlitaş",
+   "icon": "🛁",
+   "lat": 41.00854,
+   "lng": 28.97162,
+   "desc": "Baño turco histórico de 1584 diseñado por Sinan."
+  },
+  {
+   "id": "w_ist_hamdi",
+   "cat": "food",
+   "name": "Hamdi Restaurant",
+   "icon": "🍖",
+   "lat": 41.01694,
+   "lng": 28.97139,
+   "desc": "Kebabs de pistacho con vistas al Cuerno de Oro."
+  },
+  {
+   "id": "w_ist_balik_ekmek",
+   "cat": "food",
+   "name": "Balık Ekmek de Eminönü",
+   "icon": "🐟",
+   "lat": 41.0175,
+   "lng": 28.97306,
+   "desc": "El clásico bocadillo de pescado a la brasa junto al puerto."
+  },
+  {
+   "id": "w_ist_karakoy_gulluoglu",
+   "cat": "food",
+   "name": "Karaköy Güllüoğlu",
+   "icon": "🍯",
+   "lat": 41.02444,
+   "lng": 28.97694,
+   "desc": "La baklava más famosa de la ciudad desde 1949."
+  },
+  {
+   "id": "w_ist_ciya_sofrasi",
+   "cat": "food",
+   "name": "Çiya Sofrası",
+   "icon": "🍲",
+   "lat": 40.98972,
+   "lng": 29.02722,
+   "desc": "Recetas anatolias caseras en el mercado de Kadıköy."
+  },
+  {
+   "id": "w_ist_pandeli",
+   "cat": "food",
+   "name": "Pandeli",
+   "icon": "🍽️",
+   "lat": 41.01639,
+   "lng": 28.97139,
+   "desc": "Histórico restaurante otomano de azulejos turquesa."
+  },
+  {
+   "id": "w_ist_mikla",
+   "cat": "food",
+   "name": "Mikla",
+   "icon": "🍷",
+   "lat": 41.03139,
+   "lng": 28.97833,
+   "desc": "Alta cocina de autor con vistas panorámicas de la ciudad."
+  }
+ ],
+ "extra": {
+  "w_ist_hagia_sophia": {
+   "id": "w_ist_hagia_sophia",
+   "d": "Levantada en el año 537 por Justiniano, fue la mayor iglesia del mundo durante mil años. Su enorme cúpula, los mosaicos dorados y la mezcla de caligrafía islámica y arte cristiano la hacen única. Fue museo y desde 2020 vuelve a ser mezquita en activo.",
+   "d_en": "Built in 537 by Justinian, it was the world's largest church for a thousand years. Its huge dome, golden mosaics and blend of Islamic calligraphy and Christian art make it unique. A museum for decades, since 2020 it is again a working mosque.",
+   "h": "Abierta a diario; cerrada al turismo durante los cinco rezos y el viernes al mediodía.",
+   "h_en": "Open daily; closed to tourists during the five prayer times and Friday midday.",
+   "i": "Entra por la planta alta para ver los mejores mosaicos y ve temprano para evitar aglomeraciones.",
+   "i_en": "Head to the upper gallery for the best mosaics and go early to beat the crowds."
+  },
+  "w_ist_blue_mosque": {
+   "id": "w_ist_blue_mosque",
+   "d": "Construida entre 1609 y 1616 por el sultán Ahmed I, debe su apodo a los más de 20.000 azulejos de Iznik que revisten su interior. Sus seis minaretes y la cascada de cúpulas dominan la plaza de Sultanahmet, frente a Santa Sofía.",
+   "d_en": "Built between 1609 and 1616 for Sultan Ahmed I, it owes its nickname to the 20,000-plus Iznik tiles lining its interior. Its six minarets and cascade of domes dominate Sultanahmet Square, facing Hagia Sophia.",
+   "h": "Gratuita; cerrada al turismo durante los rezos, unos 90 minutos cada vez.",
+   "h_en": "Free entry; closed to tourists during prayers, about 90 minutes each time.",
+   "i": "Descálzate a la entrada y aprovecha para admirar el patio y la fuente de abluciones.",
+   "i_en": "Remove your shoes at the door and take time to admire the courtyard and ablution fountain."
+  },
+  "w_ist_topkapi": {
+   "id": "w_ist_topkapi",
+   "d": "Durante cuatro siglos fue el centro del poder otomano. Sus patios ajardinados, el Harén, el Tesoro con el diamante Kaşıkçı y las reliquias sagradas del islam se asoman sobre el Bósforo y el Cuerno de Oro con vistas espectaculares.",
+   "d_en": "For four centuries the heart of Ottoman power. Its garden courtyards, the Harem, the Treasury with the Spoonmaker's diamond and the sacred relics of Islam overlook the Bosphorus and Golden Horn with spectacular views.",
+   "h": "Miércoles a lunes; cerrado los martes. El Harén requiere entrada aparte.",
+   "h_en": "Wednesday to Monday; closed Tuesdays. The Harem needs a separate ticket.",
+   "i": "Reserva media jornada y no te pierdas el Harén ni la terraza sobre el mar.",
+   "i_en": "Allow half a day and don't miss the Harem or the seaside terrace."
+  },
+  "w_ist_basilica_cistern": {
+   "id": "w_ist_basilica_cistern",
+   "d": "Este palacio subterráneo del agua, construido en el siglo VI, almacenaba el suministro de Constantinopla. Un bosque de 336 columnas se refleja en el agua bajo una luz teatral; en el fondo, dos cabezas de Medusa reutilizadas hacen de base y son la gran atracción.",
+   "d_en": "This underground water palace, built in the 6th century, stored Constantinople's supply. A forest of 336 columns reflects in the water under theatrical lighting; at the far end, two reused Medusa heads serve as bases and are the star draw.",
+   "h": "Abierta a diario, con sesiones diurnas y nocturnas.",
+   "h_en": "Open daily, with daytime and evening sessions.",
+   "i": "Compra la entrada online para evitar la larga cola de la puerta.",
+   "i_en": "Buy tickets online to skip the long line at the door."
+  },
+  "w_ist_galata_tower": {
+   "id": "w_ist_galata_tower",
+   "d": "Erigida por los genoveses en 1348, esta torre de piedra de casi 67 metros domina el barrio de Gálata. Su mirador ofrece la panorámica más completa de la ciudad vieja, el Cuerno de Oro y el Bósforo, especialmente mágica al atardecer.",
+   "d_en": "Raised by the Genoese in 1348, this near 67-metre stone tower crowns the Galata district. Its viewing gallery offers the most complete panorama of the old city, the Golden Horn and the Bosphorus, especially magical at sunset.",
+   "h": "Abierta a diario; suele haber cola para subir al ascensor.",
+   "h_en": "Open daily; expect a queue for the lift up.",
+   "i": "Sube justo antes del ocaso para ver la ciudad de día y con las luces encendidas.",
+   "i_en": "Go up just before sunset to see the city by day and lit up."
+  },
+  "w_ist_suleymaniye": {
+   "id": "w_ist_suleymaniye",
+   "d": "La mayor mezquita otomana de la ciudad, terminada en 1557 por el gran arquitecto Sinan para Solimán el Magnífico. De proporciones armoniosas y luz serena, su terraza ofrece una de las mejores vistas panorámicas del Cuerno de Oro y suele estar mucho menos concurrida que la Azul.",
+   "d_en": "The city's largest Ottoman mosque, finished in 1557 by the great architect Sinan for Suleiman the Magnificent. Harmonious and serenely lit, its terrace offers one of the best panoramas of the Golden Horn and is usually far less crowded than the Blue Mosque.",
+   "h": "Gratuita; cerrada al turismo durante los rezos.",
+   "h_en": "Free entry; closed to tourists during prayer times.",
+   "i": "Pasea por el cementerio y los jardines traseros para las vistas al agua.",
+   "i_en": "Wander the cemetery and rear gardens for the water views."
+  },
+  "w_ist_dolmabahce": {
+   "id": "w_ist_dolmabahce",
+   "d": "Inaugurado en 1856, sustituyó a Topkapi como sede de los sultanes. Mezcla barroco, rococó y neoclásico con un lujo desbordante: la mayor lámpara de araña de cristal de Bohemia del mundo y escaleras de cristal. Aquí murió Atatürk, y todos sus relojes marcan esa hora.",
+   "d_en": "Opened in 1856, it replaced Topkapi as the sultans' seat. It blends baroque, rococo and neoclassical with lavish excess: the world's largest Bohemian crystal chandelier and crystal staircases. Atatürk died here, and all its clocks are stopped at that hour.",
+   "h": "Martes a domingo; cerrado los lunes. Visita guiada obligatoria.",
+   "h_en": "Tuesday to Sunday; closed Mondays. Guided visit is compulsory.",
+   "i": "Está algo apartado del casco viejo; llega en tranvía T1 hasta Kabataş.",
+   "i_en": "It sits away from the old town; take the T1 tram to Kabataş."
+  },
+  "w_ist_chora": {
+   "id": "w_ist_chora",
+   "d": "Escondida en el barrio de Edirnekapı, esta antigua iglesia conserva el conjunto de mosaicos y frescos bizantinos del siglo XIV mejor preservado del mundo, con escenas de la vida de Cristo y la Virgen de un dorado deslumbrante. Recientemente reconvertida en mezquita.",
+   "d_en": "Tucked into the Edirnekapı district, this former church holds the world's best-preserved 14th-century Byzantine mosaics and frescoes, with dazzling gilded scenes from the lives of Christ and the Virgin. Recently reconverted into a mosque.",
+   "h": "Abierta la mayoría de días; cerrada al turismo durante los rezos.",
+   "h_en": "Open most days; closed to tourists during prayer times.",
+   "i": "Queda lejos del centro; combínalo con un taxi o con el paseo por Balat.",
+   "i_en": "It's far from the centre; combine it with a taxi or a Balat stroll."
+  },
+  "w_ist_rustem_pasha": {
+   "id": "w_ist_rustem_pasha",
+   "d": "Escondida sobre los talleres del barrio de Eminönü, esta joya de Sinan es célebre por revestir prácticamente cada muro con azulejos de Iznik en tonos rojo tomate, azul y verde. Íntima y poco visitada, es una de las sorpresas más bellas de la ciudad.",
+   "d_en": "Hidden above the workshops of Eminönü, this Sinan gem is famous for covering nearly every wall with Iznik tiles in tomato-red, blue and green. Intimate and little-visited, it is one of the city's most beautiful surprises.",
+   "h": "Gratuita; cerrada al turismo durante los rezos.",
+   "h_en": "Free entry; closed to tourists during prayer times.",
+   "i": "Busca la escalera discreta entre las tiendas para subir al patio elevado.",
+   "i_en": "Look for the discreet stairway among the shops to reach the raised courtyard."
+  },
+  "w_ist_yeni_cami": {
+   "id": "w_ist_yeni_cami",
+   "d": "Terminada en 1665, preside la orilla de Eminönü junto al embarcadero de los ferris y el Bazar de las Especias. Sus cúpulas escalonadas y las bandadas de palomas en su explanada forman una de las estampas más clásicas del Cuerno de Oro.",
+   "d_en": "Completed in 1665, it presides over the Eminönü waterfront beside the ferry docks and the Spice Bazaar. Its stepped domes and the flocks of pigeons on its forecourt make one of the classic images of the Golden Horn.",
+   "h": "Gratuita; cerrada al turismo durante los rezos.",
+   "h_en": "Free entry; closed to tourists during prayer times.",
+   "i": "Combínala con el Bazar de las Especias, que está a un paso.",
+   "i_en": "Pair it with the Spice Bazaar right next door."
+  },
+  "w_ist_maidens_tower": {
+   "id": "w_ist_maidens_tower",
+   "d": "Sobre un pequeño islote frente a Üsküdar, esta torre envuelta en leyendas ha sido faro, aduana y cuarentena. Hoy alberga un café y mirador al que se llega en barquito, con vistas de postal a la silueta de la ciudad vieja.",
+   "d_en": "On a small islet off Üsküdar, this legend-wrapped tower has served as lighthouse, customs post and quarantine. Today it holds a café and viewpoint reached by small boat, with postcard views of the old city skyline.",
+   "h": "Abierta a diario; acceso solo en la lancha desde Üsküdar o Kabataş.",
+   "h_en": "Open daily; reached only by the shuttle boat from Üsküdar or Kabataş.",
+   "i": "Ve al atardecer para ver la torre iluminada sobre el estrecho.",
+   "i_en": "Go at dusk to see the tower lit up over the strait."
+  },
+  "w_ist_rumeli_hisari": {
+   "id": "w_ist_rumeli_hisari",
+   "d": "Mehmed II la levantó en apenas cuatro meses en 1452 para cortar el Bósforo antes del asedio final a Constantinopla. Sus tres grandes torres y murallas trepan por la ladera junto al agua; hoy se pueden recorrer sus adarves con vistas al segundo puente del Bósforo.",
+   "d_en": "Mehmed II raised it in just four months in 1452 to choke the Bosphorus before the final siege of Constantinople. Its three great towers and walls climb the hillside by the water; today you can walk its ramparts with views of the second Bosphorus bridge.",
+   "h": "Abierta la mayoría de días; suele cerrar los lunes.",
+   "h_en": "Open most days; usually closed on Mondays.",
+   "i": "Está lejos del centro; llega en autobús o combínala con un crucero por el Bósforo.",
+   "i_en": "It's far from the centre; come by bus or combine it with a Bosphorus cruise."
+  },
+  "w_ist_ortakoy_mosque": {
+   "id": "w_ist_ortakoy_mosque",
+   "d": "Situada al pie del gran puente del Bósforo, esta grácil mezquita neobarroca de 1856 se asoma directamente al estrecho. Su plaza es uno de los rincones más fotografiados de la ciudad, animada con cafés y puestos del típico kumpir (patata rellena).",
+   "d_en": "Set at the foot of the great Bosphorus bridge, this graceful neo-baroque mosque of 1856 looks straight onto the strait. Its square is one of the city's most photographed spots, lively with cafés and stalls of the classic kumpir (stuffed baked potato).",
+   "h": "Gratuita; cerrada al turismo durante los rezos.",
+   "h_en": "Free entry; closed to tourists during prayer times.",
+   "i": "Prueba un kumpir en la plaza y fotografía la mezquita con el puente detrás.",
+   "i_en": "Try a kumpir in the square and photograph the mosque with the bridge behind."
+  },
+  "w_ist_bosphorus": {
+   "id": "w_ist_bosphorus",
+   "d": "Este estrecho de unos 30 km une el mar Negro con el de Mármara y separa dos continentes. Un crucero desdibuja las mansiones de madera (yalıs), palacios, fortalezas y pueblos pesqueros que jalonan sus orillas; es la experiencia imprescindible para entender la geografía de la ciudad.",
+   "d_en": "This roughly 30 km strait links the Black Sea to the Sea of Marmara and separates two continents. A cruise unspools the wooden waterside mansions (yalıs), palaces, fortresses and fishing villages along its shores; it is the essential experience for grasping the city's geography.",
+   "h": "Cruceros públicos y privados durante todo el día desde Eminönü.",
+   "h_en": "Public and private cruises run all day from Eminönü.",
+   "i": "Coge el ferri público del atardecer: barato y con las mismas vistas que los turísticos.",
+   "i_en": "Take the public sunset ferry: cheap, with the same views as the tourist boats."
+  },
+  "w_ist_golden_horn": {
+   "id": "w_ist_golden_horn",
+   "d": "Este entrante de agua en forma de cuerno fue el puerto natural de Constantinopla y el motivo de su riqueza. Hoy lo bordean parques, museos y el teleférico de Pierre Loti, y ofrece atardeceres dorados que le dieron su nombre, con la silueta de mezquitas al fondo.",
+   "d_en": "This horn-shaped inlet was Constantinople's natural harbour and the source of its wealth. Today it is lined with parks, museums and the Pierre Loti cable car, offering the golden sunsets that gave it its name, with a skyline of mosques behind.",
+   "h": "Orillas y paseos accesibles a cualquier hora.",
+   "h_en": "Shores and walkways accessible any time.",
+   "i": "Cruza el puente de Gálata a pie entre pescadores y puestos de balık ekmek.",
+   "i_en": "Cross the Galata Bridge on foot among anglers and balık ekmek stalls."
+  },
+  "w_ist_gulhane_park": {
+   "id": "w_ist_gulhane_park",
+   "d": "Antiguo jardín exterior del Palacio Topkapi, es un refugio verde en pleno casco antiguo. Sus avenidas arboladas se cubren de tulipanes en primavera y desembocan en un mirador sobre el punto donde se encuentran el Bósforo, el Cuerno de Oro y el mar de Mármara.",
+   "d_en": "The former outer garden of Topkapi Palace, it is a green refuge in the heart of the old town. Its tree-lined avenues fill with tulips in spring and lead to a terrace overlooking where the Bosphorus, Golden Horn and Sea of Marmara meet.",
+   "h": "Abierto a diario desde el amanecer hasta el anochecer.",
+   "h_en": "Open daily from dawn to dusk.",
+   "i": "Visítalo en abril, durante el Festival del Tulipán, para ver los mantos de flores.",
+   "i_en": "Visit in April, during the Tulip Festival, for the carpets of flowers."
+  },
+  "w_ist_pierre_loti_hill": {
+   "id": "w_ist_pierre_loti_hill",
+   "d": "En lo alto del barrio de Eyüp, esta colina lleva el nombre del escritor francés que se enamoró de sus vistas. Se sube en teleférico sobre un cementerio otomano y arriba espera un café tradicional con una de las panorámicas más románticas de todo el Cuerno de Oro.",
+   "d_en": "High above the Eyüp district, this hill bears the name of the French writer who fell for its views. A cable car climbs over an Ottoman cemetery to a traditional café at the top, with one of the most romantic panoramas of the whole Golden Horn.",
+   "h": "Colina y café abiertos a diario; teleférico en horario diurno.",
+   "h_en": "Hill and café open daily; cable car runs during daytime.",
+   "i": "Combina la subida con la visita a la mezquita de Eyüp Sultan al pie de la colina.",
+   "i_en": "Pair the climb with a visit to the Eyüp Sultan Mosque at the foot of the hill."
+  },
+  "w_ist_emirgan_park": {
+   "id": "w_ist_emirgan_park",
+   "d": "Uno de los parques más bonitos de la ciudad, escalonado sobre la orilla europea del Bósforo. Combina bosque, estanques y tres pabellones otomanos históricos, y cada primavera se convierte en el epicentro del Festival del Tulipán con millones de bulbos en flor.",
+   "d_en": "One of the city's prettiest parks, terraced above the European shore of the Bosphorus. It blends woodland, ponds and three historic Ottoman pavilions, and each spring becomes the epicentre of the Tulip Festival with millions of bulbs in bloom.",
+   "h": "Abierto a diario desde primera hora hasta el anochecer.",
+   "h_en": "Open daily from early morning until dusk.",
+   "i": "Ideal para un pícnic; los pabellones albergan cafeterías con encanto.",
+   "i_en": "Great for a picnic; the pavilions house charming cafés."
+  },
+  "w_ist_princes_islands": {
+   "id": "w_ist_princes_islands",
+   "d": "A una hora en ferri, este grupo de islas ofrece una escapada tranquila sin tráfico motorizado. Büyükada, la mayor, se recorre en bici o coche eléctrico entre pinares, playas y mansiones victorianas de madera; un respiro perfecto del bullicio de la ciudad.",
+   "d_en": "An hour away by ferry, this cluster of islands offers a calm escape free of motor traffic. Büyükada, the largest, is explored by bike or electric cart among pine woods, beaches and Victorian wooden mansions; a perfect break from the city's bustle.",
+   "h": "Ferris frecuentes desde Kabataş y Kadıköy durante todo el día.",
+   "h_en": "Frequent ferries from Kabataş and Kadıköy throughout the day.",
+   "i": "Dedícale el día entero y coge un ferri temprano para evitar las colas de verano.",
+   "i_en": "Set aside a full day and catch an early ferry to dodge the summer queues."
+  },
+  "w_ist_belgrad_forest": {
+   "id": "w_ist_belgrad_forest",
+   "d": "El pulmón verde de Estambul, un extenso bosque de hayas y robles con antiguos acueductos otomanos y embalses. Sus rutas señalizadas, zonas de pícnic y aire fresco lo hacen el refugio favorito de los locales para correr, pasear o hacer un barbacoa el fin de semana.",
+   "d_en": "Istanbul's green lung, a sprawling forest of beech and oak dotted with old Ottoman aqueducts and reservoirs. Its marked trails, picnic areas and fresh air make it the locals' favourite retreat for running, walking or a weekend barbecue.",
+   "h": "Abierto a diario; mejor con luz de día para las rutas.",
+   "h_en": "Open daily; best in daylight for the trails.",
+   "i": "Necesitarás taxi o coche; combínalo con la presa de Belgrad y sus acueductos.",
+   "i_en": "You'll need a taxi or car; combine it with the Belgrad dam and its aqueducts."
+  },
+  "w_ist_grand_bazaar": {
+   "id": "w_ist_grand_bazaar",
+   "d": "Un laberinto de más de 60 calles y 4.000 tiendas bajo bóvedas pintadas, en activo desde el siglo XV. Alfombras, joyas de oro, cerámica, lámparas y cuero se apilan entre regateos y tés de cortesía; perderse en él es media diversión.",
+   "d_en": "A maze of over 60 streets and 4,000 shops under painted vaults, trading since the 15th century. Carpets, gold jewellery, ceramics, lamps and leather pile up amid haggling and courtesy teas; getting lost in it is half the fun.",
+   "h": "Lunes a sábado, en horario comercial; cerrado los domingos.",
+   "h_en": "Monday to Saturday, shop hours; closed Sundays.",
+   "i": "Regatea con calma y compara precios en varias tiendas antes de comprar.",
+   "i_en": "Haggle calmly and compare prices across several shops before buying."
+  },
+  "w_ist_spice_bazaar": {
+   "id": "w_ist_spice_bazaar",
+   "d": "Construido en el siglo XVII con las rentas de El Cairo, este mercado en forma de L desborda color y aroma: montañas de azafrán, pimentón y zumaque, delicias turcas, frutos secos, quesos y té de manzana. Un festín para los sentidos junto a la Mezquita Nueva.",
+   "d_en": "Built in the 17th century on revenues from Cairo, this L-shaped market overflows with colour and aroma: mounds of saffron, paprika and sumac, Turkish delight, dried fruit, cheeses and apple tea. A feast for the senses beside the New Mosque.",
+   "h": "Abierto a diario en horario comercial.",
+   "h_en": "Open daily during shop hours.",
+   "i": "Pide probar antes de comprar; el lokum y el té se degustan sin compromiso.",
+   "i_en": "Ask to taste before buying; delight and tea are sampled freely."
+  },
+  "w_ist_balat": {
+   "id": "w_ist_balat",
+   "d": "El antiguo barrio judío y griego del Cuerno de Oro se ha convertido en el rincón más fotogénico y de moda de la ciudad. Sus cuestas empinadas alinean casas de colores, escaparates vintage, cafés de especialidad y murales, con iglesias y sinagogas centenarias entre medias.",
+   "d_en": "The old Jewish and Greek quarter of the Golden Horn has become the city's most photogenic and fashionable corner. Its steep lanes line up colourful houses, vintage shopfronts, specialty cafés and murals, with centuries-old churches and synagogues in between.",
+   "h": "Barrio abierto; tiendas y cafés más animados por la tarde.",
+   "h_en": "Open neighbourhood; shops and cafés liveliest in the afternoon.",
+   "i": "Piérdete a pie con calzado cómodo; las calles empedradas son empinadas.",
+   "i_en": "Wander on foot in comfy shoes; the cobbled streets are steep."
+  },
+  "w_ist_taksim_square": {
+   "id": "w_ist_taksim_square",
+   "d": "El gran punto de encuentro de la Estambul contemporánea, presidido por el Monumento a la República y la moderna mezquita de Taksim. De aquí arranca la calle Istiklal y confluyen el metro, el funicular y decenas de líneas de autobús; siempre bulle de gente a cualquier hora.",
+   "d_en": "The great meeting point of contemporary Istanbul, presided over by the Republic Monument and the modern Taksim mosque. It is the start of Istiklal Street and the hub where metro, funicular and dozens of bus lines converge; always buzzing at any hour.",
+   "h": "Plaza abierta las 24 horas.",
+   "h_en": "Open square, 24 hours.",
+   "i": "Úsala como base para recorrer Istiklal y la vida nocturna de Beyoğlu.",
+   "i_en": "Use it as a base to explore Istiklal and Beyoğlu's nightlife."
+  },
+  "w_ist_istiklal": {
+   "id": "w_ist_istiklal",
+   "d": "La arteria peatonal más famosa de la ciudad, de casi 1,5 km, recorre edificios de época entre Taksim y Tünel. Por ella circula el nostálgico tranvía rojo, y a los lados se suceden tiendas, pastelerías, pasajes históricos, cines y música callejera hasta la madrugada.",
+   "d_en": "The city's most famous pedestrian artery, nearly 1.5 km long, runs past period buildings between Taksim and Tünel. The nostalgic red tram trundles down it, flanked by shops, patisseries, historic arcades, cinemas and street music into the small hours.",
+   "h": "Calle abierta siempre; tiendas y locales muy animados de tarde y noche.",
+   "h_en": "Open street any time; shops and venues busiest afternoon and night.",
+   "i": "Explora los pasajes laterales, como el Çiçek Pasajı, llenos de tabernas.",
+   "i_en": "Explore the side arcades, like Çiçek Pasajı, full of taverns."
+  },
+  "w_ist_karakoy": {
+   "id": "w_ist_karakoy",
+   "d": "A los pies de Gálata y junto al Cuerno de Oro, este viejo distrito portuario se ha reinventado como epicentro creativo: galerías de arte, cafés de especialidad, restaurantes de autor y baklava legendaria conviven con talleres tradicionales y vistas al agua.",
+   "d_en": "At the foot of Galata and beside the Golden Horn, this old harbour district has reinvented itself as a creative hub: art galleries, specialty cafés, chef-driven restaurants and legendary baklava sit alongside traditional workshops and water views.",
+   "h": "Barrio abierto; locales activos de día y de noche.",
+   "h_en": "Open neighbourhood; venues active day and night.",
+   "i": "Toma un café frente al agua y sube andando a la Torre de Gálata.",
+   "i_en": "Have a waterside coffee and walk up to the Galata Tower."
+  },
+  "w_ist_kadikoy": {
+   "id": "w_ist_kadikoy",
+   "d": "Al otro lado del Bósforo, Kadıköy es el corazón vibrante de la ciudad asiática, con un mercado repleto de puestos de pescado, quesos y dulces, calles de murales, bares de rakı y una vida local mucho más genuina y relajada que la de la orilla turística.",
+   "d_en": "Across the Bosphorus, Kadıköy is the vibrant heart of the Asian side, with a market packed with fish, cheese and sweet stalls, mural-covered streets, rakı bars and a local life far more genuine and relaxed than the tourist shore.",
+   "h": "Mercado y calles activos todo el día; noche animada de bares.",
+   "h_en": "Market and streets busy all day; lively bar scene at night.",
+   "i": "Llega en el ferri desde Eminönü y piérdete por el mercado (Çarşı).",
+   "i_en": "Arrive by ferry from Eminönü and get lost in the market (Çarşı)."
+  },
+  "w_ist_cemberlitas_hamam": {
+   "id": "w_ist_cemberlitas_hamam",
+   "d": "Uno de los hamams más antiguos y bellos en funcionamiento, obra del arquitecto Sinan en 1584. Bajo su cúpula perforada por estrellas de luz, el ritual del baño de vapor, el exfoliado y el masaje con espuma es una experiencia relajante muy arraigada en la tradición otomana.",
+   "d_en": "One of the oldest and most beautiful hamams still working, built by the architect Sinan in 1584. Under its dome pierced with star-shaped lights, the ritual of steam, scrub and foam massage is a relaxing experience deeply rooted in Ottoman tradition.",
+   "h": "Abierto a diario, con secciones separadas para hombres y mujeres.",
+   "h_en": "Open daily, with separate sections for men and women.",
+   "i": "Reserva el paquete con exfoliado (kese) y masaje de espuma para la experiencia completa.",
+   "i_en": "Book the package with scrub (kese) and foam massage for the full experience."
+  },
+  "w_ist_hamdi": {
+   "id": "w_ist_hamdi",
+   "d": "Institución junto al Bazar de las Especias famosa por sus kebabs de Urfa y sus especialidades de Gaziantep, como el kebab de pistacho. Su terraza en la última planta ofrece una de las mejores vistas del Cuerno de Oro y el puente de Gálata mientras se cena.",
+   "d_en": "An institution beside the Spice Bazaar famous for its Urfa kebabs and Gaziantep specialities like the pistachio kebab. Its top-floor terrace offers one of the best views of the Golden Horn and Galata Bridge while you dine.",
+   "h": "Muy concurrido a la hora de la cena; conviene reservar mesa en la terraza.",
+   "h_en": "Very busy at dinner; it's wise to book a terrace table.",
+   "i": "Pide mesa arriba al atardecer y prueba el kebab de pistacho de la casa.",
+   "i_en": "Ask for an upstairs table at sunset and try the house pistachio kebab."
+  },
+  "w_ist_balik_ekmek": {
+   "id": "w_ist_balik_ekmek",
+   "d": "En los embarcaderos de Eminönü, coloridos barcos-cocina balancean sobre el agua mientras asan caballa que sirven en pan con cebolla y limón. Es la comida callejera más emblemática y barata de Estambul, que se come de pie mirando pasar los ferris.",
+   "d_en": "At the Eminönü docks, colourful boat-kitchens rock on the water while grilling mackerel served in bread with onion and lemon. It is Istanbul's most iconic and cheap street food, eaten standing while the ferries drift by.",
+   "h": "Puestos y barcos activos durante todo el día junto al puente de Gálata.",
+   "h_en": "Stalls and boats active all day beside the Galata Bridge.",
+   "i": "Acompáñalo con un vaso de şalgam (zumo de nabo encurtido) como los locales.",
+   "i_en": "Pair it with a glass of şalgam (pickled turnip juice) like the locals."
+  },
+  "w_ist_karakoy_gulluoglu": {
+   "id": "w_ist_karakoy_gulluoglu",
+   "d": "Referencia absoluta de la baklava en Estambul, con recetas de Gaziantep transmitidas por generaciones. Se pide al peso en el mostrador y se degusta en el momento: hojaldre crujiente, pistacho verde y almíbar justo, en una decena de variedades acompañadas de un té turco.",
+   "d_en": "The absolute reference for baklava in Istanbul, with Gaziantep recipes passed down over generations. Ordered by weight at the counter and eaten on the spot: crisp pastry, green pistachio and just enough syrup, in a dozen varieties with a Turkish tea.",
+   "h": "Mostrador de venta al peso; suele haber cola pero avanza rápido.",
+   "h_en": "Buy by weight at the counter; there's often a queue but it moves fast.",
+   "i": "Pide la clásica de pistacho (fıstıklı) recién hecha y acompáñala de té.",
+   "i_en": "Order the classic pistachio (fıstıklı) fresh and pair it with tea."
+  },
+  "w_ist_ciya_sofrasi": {
+   "id": "w_ist_ciya_sofrasi",
+   "d": "En el corazón del mercado de Kadıköy, este restaurante rescata platos regionales de toda Anatolia que difícilmente se encuentran en otro lugar. Se elige en la vitrina entre guisos, kebabs de temporada y verduras rellenas; una lección de la auténtica y variada cocina turca.",
+   "d_en": "In the heart of Kadıköy market, this restaurant revives regional dishes from across Anatolia rarely found elsewhere. You choose from the display among stews, seasonal kebabs and stuffed vegetables; a lesson in authentic, varied Turkish cooking.",
+   "h": "Servicio continuo al mediodía y por la noche; se pide señalando en la vitrina.",
+   "h_en": "Continuous service at lunch and dinner; order by pointing at the display.",
+   "i": "Prueba varios guisos pequeños y termina con su postre de calabaza o aceituna.",
+   "i_en": "Try several small stews and finish with their pumpkin or olive dessert."
+  },
+  "w_ist_pandeli": {
+   "id": "w_ist_pandeli",
+   "d": "Sobre la puerta del Bazar de las Especias, este comedor de 1901 revestido de azulejos turquesa ha servido a sultanes, reyes y estrellas. Su cocina otomana clásica —berenjena ahumada al horno, pescado en papel, cordero— se saborea en un ambiente cargado de historia.",
+   "d_en": "Above the entrance to the Spice Bazaar, this 1901 dining room clad in turquoise tiles has served sultans, kings and stars. Its classic Ottoman cuisine, from oven-baked smoked aubergine to fish in paper and lamb, is savoured in a setting steeped in history.",
+   "h": "Solo abre al mediodía; cerrado los domingos, conviene reservar.",
+   "h_en": "Open only at midday; closed Sundays, booking advised.",
+   "i": "Reserva y pide la berenjena ahumada al horno, su plato más célebre.",
+   "i_en": "Book ahead and order the oven-baked smoked aubergine, its most famous dish."
+  },
+  "w_ist_mikla": {
+   "id": "w_ist_mikla",
+   "d": "En la azotea de un hotel de Beyoğlu, el chef Mehmet Gürs firma una cocina de vanguardia que fusiona raíces anatolias y técnica nórdica. Su menú degustación, entre los mejores restaurantes de Turquía, se disfruta con una vista de 360º sobre el Cuerno de Oro y el Bósforo.",
+   "d_en": "On the rooftop of a Beyoğlu hotel, chef Mehmet Gürs delivers cutting-edge cooking fusing Anatolian roots and Nordic technique. Its tasting menu, among Turkey's finest restaurants, is enjoyed with a 360º view over the Golden Horn and Bosphorus.",
+   "h": "Solo cenas; cerrado los domingos y en temporada baja, reserva imprescindible.",
+   "h_en": "Dinner only; closed Sundays and low season, booking essential.",
+   "i": "Toma antes una copa en el bar de la azotea para disfrutar del atardecer.",
+   "i_en": "Have a drink first at the rooftop bar to enjoy the sunset."
+  }
+ },
+ "food": {
+  "w_ist_hamdi": {
+   "cuisine": "Kebab del sureste de Anatolia",
+   "price": "20–35 €",
+   "hours": "Todos los días 12:00–24:00"
+  },
+  "w_ist_balik_ekmek": {
+   "cuisine": "Comida callejera / pescado",
+   "price": "3–8 €",
+   "hours": "Todos los días 10:00–22:00"
+  },
+  "w_ist_karakoy_gulluoglu": {
+   "cuisine": "Pastelería / baklava",
+   "price": "5–15 €",
+   "hours": "Todos los días 7:00–24:00"
+  },
+  "w_ist_ciya_sofrasi": {
+   "cuisine": "Cocina anatolia tradicional",
+   "price": "12–25 €",
+   "hours": "Todos los días 11:00–22:00"
+  },
+  "w_ist_pandeli": {
+   "cuisine": "Cocina otomana clásica",
+   "price": "25–45 €",
+   "hours": "Lunes a sábado 11:30–17:00"
+  },
+  "w_ist_mikla": {
+   "cuisine": "Alta cocina anatolia-nórdica",
+   "price": "80–140 €",
+   "hours": "Lunes a sábado 18:00–24:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Estambul",
+   "items": [
+    {
+     "name": "Delicias turcas (lokum)",
+     "price": "5–20 €",
+     "desc": "Dulces gelatinosos con pistacho, rosa o nuez; caja surtida ideal para regalar."
+    },
+    {
+     "name": "Nazar boncuğu (ojo turco)",
+     "price": "2–15 €",
+     "desc": "Amuleto azul contra el mal de ojo, en llaveros, colgantes o imanes."
+    },
+    {
+     "name": "Cerámica de Iznik",
+     "price": "15–80 €",
+     "desc": "Platos y azulejos pintados a mano con motivos florales otomanos."
+    },
+    {
+     "name": "Lámpara de mosaico",
+     "price": "20–90 €",
+     "desc": "Farol de cristales de colores que proyecta luz caleidoscópica."
+    },
+    {
+     "name": "Té y especias",
+     "price": "3–15 €",
+     "desc": "Té de manzana, azafrán, zumaque y mezclas del Bazar de las Especias."
+    },
+    {
+     "name": "Café turco y cezve",
+     "price": "5–15 €",
+     "desc": "Café molido fino con su cazo de cobre tradicional para prepararlo."
+    }
+   ],
+   "shops": [
+    "Gran Bazar (Kapalıçarşı)",
+    "Bazar de las Especias (Mısır Çarşısı)",
+    "Karaköy Güllüoğlu",
+    "Tiendas de diseño de Balat y Karaköy"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Compra la Museum Pass Istanbul para ahorrar en los grandes monumentos y saltarte las colas.",
+   "En las mezquitas cubre hombros y rodillas; las mujeres deben taparse el pelo y todos descalzarse.",
+   "Usa la tarjeta Istanbulkart para tranvías, metro y ferris: es mucho más barata que pagar suelto.",
+   "Regatea siempre en el Gran Bazar y el Bazar de las Especias; empieza por la mitad del precio.",
+   "Cruza en ferri al lado asiático (Kadıköy) al atardecer para las mejores vistas del Bósforo."
+  ],
+  "en": [
+   "Buy the Museum Pass Istanbul to save money on the main monuments and skip the queues.",
+   "In mosques cover shoulders and knees; women must cover their hair and everyone removes their shoes.",
+   "Use an Istanbulkart card for trams, metro and ferries: far cheaper than paying per ride.",
+   "Always haggle in the Grand Bazaar and Spice Bazaar; start at about half the asking price.",
+   "Take the ferry to the Asian side (Kadıköy) at sunset for the best Bosphorus views."
+  ]
+ },
+ "climate": {
+  "hi": [
+   9,
+   9,
+   12,
+   17,
+   22,
+   27,
+   29,
+   29,
+   25,
+   20,
+   15,
+   11
+  ],
+  "lo": [
+   3,
+   3,
+   5,
+   8,
+   12,
+   16,
+   19,
+   19,
+   16,
+   12,
+   8,
+   5
+  ]
+ },
+ "tr": {
+  "Basílica bizantina convertida en mezquita, símbolo de Estambul.": "Byzantine basilica turned mosque, the symbol of Istanbul.",
+  "Mezquita imperial de seis minaretes y azulejos azules.": "Imperial mosque with six minarets and blue tiles.",
+  "Residencia de los sultanes otomanos con harén y tesoros.": "Home of the Ottoman sultans, with harem and treasures.",
+  "Depósito de agua bizantino con 336 columnas iluminadas.": "Byzantine water cistern with 336 lit columns.",
+  "Torre medieval genovesa con mirador de 360º.": "Medieval Genoese tower with 360º viewpoint.",
+  "Obra maestra del arquitecto Sinan sobre el Cuerno de Oro.": "Architect Sinan's masterpiece over the Golden Horn.",
+  "Palacio otomano de estilo europeo a orillas del Bósforo.": "European-style Ottoman palace on the Bosphorus shore.",
+  "Joya bizantina con los mejores mosaicos y frescos.": "Byzantine gem with the finest mosaics and frescoes.",
+  "Pequeña mezquita cubierta de espectaculares azulejos de Iznik.": "Small mosque clad in stunning Iznik tiles.",
+  "Gran mezquita imperial junto al puente de Gálata.": "Grand imperial mosque beside the Galata Bridge.",
+  "Torreón sobre un islote en plena boca del Bósforo.": "Tower on a tiny islet at the mouth of the Bosphorus.",
+  "Fortaleza otomana que decidió la caída de Constantinopla.": "Ottoman fortress that sealed Constantinople's fall.",
+  "Mezquita barroca junto al agua bajo el puente del Bósforo.": "Baroque waterside mosque beneath the Bosphorus bridge.",
+  "El canal que separa Europa de Asia, mejor en crucero.": "The channel dividing Europe and Asia, best by boat.",
+  "Ría histórica que parte en dos la orilla europea.": "Historic inlet splitting the European shore in two.",
+  "El parque histórico más antiguo, junto a Topkapi.": "The oldest historic park, next to Topkapi.",
+  "Mirador sobre el Cuerno de Oro con teleférico.": "Hilltop viewpoint over the Golden Horn, with cable car.",
+  "Gran parque del Bósforo, capital de los tulipanes.": "Large Bosphorus park, capital of the tulips.",
+  "Archipiélago sin coches en el mar de Mármara.": "Car-free archipelago in the Sea of Marmara.",
+  "Gran bosque para senderismo al norte de la ciudad.": "Vast forest for hiking north of the city.",
+  "Uno de los mercados cubiertos más grandes y antiguos.": "One of the largest and oldest covered markets.",
+  "Mercado aromático de especias, dulces y té.": "Fragrant market of spices, sweets and tea.",
+  "Casas de colores, cafés y ambiente bohemio.": "Colourful houses, cafés and a bohemian vibe.",
+  "Plaza central y corazón de la ciudad moderna.": "Central square and heart of the modern city.",
+  "Avenida peatonal con tiendas, cafés y tranvía histórico.": "Pedestrian avenue with shops, cafés and vintage tram.",
+  "Antiguo puerto reconvertido en barrio de moda.": "Old port turned into a trendy district.",
+  "El lado asiático más gastronómico y auténtico.": "The most foodie and authentic Asian side.",
+  "Baño turco histórico de 1584 diseñado por Sinan.": "Historic Turkish bath of 1584 designed by Sinan.",
+  "Kebabs de pistacho con vistas al Cuerno de Oro.": "Pistachio kebabs with Golden Horn views.",
+  "El clásico bocadillo de pescado a la brasa junto al puerto.": "The classic grilled fish sandwich by the harbour.",
+  "La baklava más famosa de la ciudad desde 1949.": "The city's most famous baklava since 1949.",
+  "Recetas anatolias caseras en el mercado de Kadıköy.": "Home-style Anatolian recipes in Kadıköy market.",
+  "Histórico restaurante otomano de azulejos turquesa.": "Historic Ottoman restaurant of turquoise tiles.",
+  "Alta cocina de autor con vistas panorámicas de la ciudad.": "Fine dining tasting menu with panoramic city views.",
+  "Estambul": "Estambul"
+ }
+}

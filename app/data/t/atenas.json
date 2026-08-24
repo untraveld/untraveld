@@ -1,0 +1,721 @@
+{
+ "id": "atenas",
+ "name": "Atenas",
+ "country": "WORLD",
+ "center": [
+  37.9755,
+  23.7348
+ ],
+ "pois": [
+  {
+   "id": "w_ate_acropolis",
+   "cat": "monuments",
+   "name": "Acrópolis de Atenas",
+   "icon": "🏛️",
+   "lat": 37.97153,
+   "lng": 23.72581,
+   "desc": "Ciudadela sagrada sobre la roca, símbolo de la Grecia clásica."
+  },
+  {
+   "id": "w_ate_partenon",
+   "cat": "monuments",
+   "name": "Partenón",
+   "icon": "🏛️",
+   "lat": 37.97153,
+   "lng": 23.72664,
+   "desc": "Templo dórico dedicado a Atenea, cumbre de la arquitectura griega."
+  },
+  {
+   "id": "w_ate_museo_acropolis",
+   "cat": "monuments",
+   "name": "Museo de la Acrópolis",
+   "icon": "🏺",
+   "lat": 37.96849,
+   "lng": 23.72864,
+   "desc": "Museo moderno con las esculturas originales de la Acrópolis."
+  },
+  {
+   "id": "w_ate_agora_antigua",
+   "cat": "monuments",
+   "name": "Ágora Antigua",
+   "icon": "🏛️",
+   "lat": 37.97472,
+   "lng": 23.72278,
+   "desc": "Corazón político y comercial de la antigua Atenas."
+  },
+  {
+   "id": "w_ate_templo_zeus",
+   "cat": "monuments",
+   "name": "Templo de Zeus Olímpico",
+   "icon": "🏛️",
+   "lat": 37.96917,
+   "lng": 23.73306,
+   "desc": "Colosal templo del que sobreviven imponentes columnas corintias."
+  },
+  {
+   "id": "w_ate_sintagma",
+   "cat": "monuments",
+   "name": "Plaza Sintagma y cambio de guardia",
+   "icon": "💂",
+   "lat": 37.97556,
+   "lng": 23.73472,
+   "desc": "Plaza central con el Parlamento y el relevo de los evzones."
+  },
+  {
+   "id": "w_ate_panatenaico",
+   "cat": "monuments",
+   "name": "Estadio Panatenaico",
+   "icon": "🏟️",
+   "lat": 37.96806,
+   "lng": 23.74111,
+   "desc": "Estadio de mármol de los primeros Juegos Olímpicos modernos."
+  },
+  {
+   "id": "w_ate_erecteion",
+   "cat": "monuments",
+   "name": "Erecteión",
+   "icon": "🏛️",
+   "lat": 37.97194,
+   "lng": 23.72611,
+   "desc": "Templo jónico famoso por su pórtico de las Cariátides."
+  },
+  {
+   "id": "w_ate_herodes_atico",
+   "cat": "monuments",
+   "name": "Odeón de Herodes Ático",
+   "icon": "🎭",
+   "lat": 37.97083,
+   "lng": 23.72472,
+   "desc": "Teatro romano en la ladera sur, aún en uso para conciertos."
+  },
+  {
+   "id": "w_ate_agora_romana",
+   "cat": "monuments",
+   "name": "Ágora Romana y Torre de los Vientos",
+   "icon": "🗼",
+   "lat": 37.97444,
+   "lng": 23.72611,
+   "desc": "Foro romano con el reloj-anemoscopio octogonal más antiguo."
+  },
+  {
+   "id": "w_ate_arco_adriano",
+   "cat": "monuments",
+   "name": "Arco de Adriano",
+   "icon": "🏛️",
+   "lat": 37.97008,
+   "lng": 23.73114,
+   "desc": "Puerta monumental romana entre la ciudad vieja y la nueva."
+  },
+  {
+   "id": "w_ate_museo_arqueologico",
+   "cat": "monuments",
+   "name": "Museo Arqueológico Nacional",
+   "icon": "🏺",
+   "lat": 37.98897,
+   "lng": 23.73261,
+   "desc": "La mayor colección de arte de la antigua Grecia del mundo."
+  },
+  {
+   "id": "w_ate_sunion",
+   "cat": "monuments",
+   "name": "Cabo Sunión (Templo de Poseidón)",
+   "icon": "🌅",
+   "lat": 37.65028,
+   "lng": 24.02456,
+   "desc": "Templo dórico sobre un acantilado, célebre por sus atardeceres."
+  },
+  {
+   "id": "w_ate_licabeto",
+   "cat": "nature",
+   "name": "Colina de Licabeto",
+   "icon": "⛰️",
+   "lat": 37.98361,
+   "lng": 23.74389,
+   "desc": "El punto más alto de Atenas, con vistas de 360°."
+  },
+  {
+   "id": "w_ate_jardin_nacional",
+   "cat": "nature",
+   "name": "Jardín Nacional",
+   "icon": "🌳",
+   "lat": 37.97333,
+   "lng": 23.7375,
+   "desc": "Parque histórico y sombreado junto al Parlamento."
+  },
+  {
+   "id": "w_ate_filopappou",
+   "cat": "nature",
+   "name": "Colina de Filopappo",
+   "icon": "⛰️",
+   "lat": 37.96639,
+   "lng": 23.71833,
+   "desc": "Colina boscosa con la mejor vista frontal de la Acrópolis."
+  },
+  {
+   "id": "w_ate_areopago",
+   "cat": "nature",
+   "name": "Colina del Areópago",
+   "icon": "🪨",
+   "lat": 37.97222,
+   "lng": 23.72333,
+   "desc": "Roca histórica al pie de la Acrópolis con vistas al Ágora."
+  },
+  {
+   "id": "w_ate_pnyx",
+   "cat": "nature",
+   "name": "Colina de la Pnyx",
+   "icon": "🌿",
+   "lat": 37.97139,
+   "lng": 23.72,
+   "desc": "Cuna de la democracia, donde se reunía la asamblea ateniense."
+  },
+  {
+   "id": "w_ate_stavros_niarchos",
+   "cat": "nature",
+   "name": "Parque Stavros Niarchos (SNFCC)",
+   "icon": "🌳",
+   "lat": 37.94028,
+   "lng": 23.6925,
+   "desc": "Parque cultural moderno de Renzo Piano junto al mar."
+  },
+  {
+   "id": "w_ate_plaka",
+   "cat": "ocio",
+   "name": "Barrio de Plaka",
+   "icon": "🏘️",
+   "lat": 37.9725,
+   "lng": 23.73,
+   "desc": "El casco antiguo laberíntico bajo la Acrópolis."
+  },
+  {
+   "id": "w_ate_monastiraki",
+   "cat": "ocio",
+   "name": "Plaza y mercadillo de Monastiraki",
+   "icon": "🛍️",
+   "lat": 37.97611,
+   "lng": 23.72556,
+   "desc": "Plaza bulliciosa con mercadillo, vistas y ambiente."
+  },
+  {
+   "id": "w_ate_anafiotika",
+   "cat": "ocio",
+   "name": "Anafiótika",
+   "icon": "🏘️",
+   "lat": 37.97278,
+   "lng": 23.72806,
+   "desc": "Rincón de casas cicládicas encaramado a la Acrópolis."
+  },
+  {
+   "id": "w_ate_ermou",
+   "cat": "ocio",
+   "name": "Calle Ermou",
+   "icon": "🛒",
+   "lat": 37.97583,
+   "lng": 23.73139,
+   "desc": "Principal arteria comercial peatonal de Atenas."
+  },
+  {
+   "id": "w_ate_psyrri",
+   "cat": "ocio",
+   "name": "Barrio de Psyrri",
+   "icon": "🎨",
+   "lat": 37.97833,
+   "lng": 23.72556,
+   "desc": "Barrio de moda con arte urbano, bares y vida nocturna."
+  },
+  {
+   "id": "w_ate_kolonaki",
+   "cat": "ocio",
+   "name": "Barrio de Kolonaki",
+   "icon": "☕",
+   "lat": 37.97889,
+   "lng": 23.74306,
+   "desc": "Barrio chic de boutiques, galerías y cafés de moda."
+  },
+  {
+   "id": "w_ate_mercado_central",
+   "cat": "food",
+   "name": "Mercado Central de Varvakios",
+   "icon": "🐟",
+   "lat": 37.98083,
+   "lng": 23.72694,
+   "desc": "El gran mercado de abastos, carne y pescado de Atenas."
+  },
+  {
+   "id": "w_ate_kostas_souvlaki",
+   "cat": "food",
+   "name": "Kostas (souvlaki)",
+   "icon": "🥙",
+   "lat": 37.97722,
+   "lng": 23.72683,
+   "desc": "Diminuto local histórico de los mejores souvlaki de la ciudad."
+  },
+  {
+   "id": "w_ate_o_thanasis",
+   "cat": "food",
+   "name": "O Thanasis (kebab de Monastiraki)",
+   "icon": "🍖",
+   "lat": 37.97694,
+   "lng": 23.72694,
+   "desc": "Clásica taberna de kebab y souvlaki en Monastiraki."
+  },
+  {
+   "id": "w_ate_diporto",
+   "cat": "food",
+   "name": "Diporto Agoras",
+   "icon": "🍷",
+   "lat": 37.98,
+   "lng": 23.72611,
+   "desc": "Taberna-sótano sin carta, auténtica y de otra época."
+  },
+  {
+   "id": "w_ate_krinos",
+   "cat": "food",
+   "name": "Krinos (loukoumades)",
+   "icon": "🍩",
+   "lat": 37.98167,
+   "lng": 23.72778,
+   "desc": "Histórica pastelería de loukoumades desde 1922."
+  },
+  {
+   "id": "w_ate_taverna_plaka",
+   "cat": "food",
+   "name": "Taberna Geros tou Moria (Plaka)",
+   "icon": "🍽️",
+   "lat": 37.97194,
+   "lng": 23.72972,
+   "desc": "Taberna tradicional de Plaka con cocina griega casera."
+  }
+ ],
+ "extra": {
+  "w_ate_acropolis": {
+   "id": "w_ate_acropolis",
+   "d": "La Acrópolis es el conjunto monumental más importante de Occidente, coronando una roca caliza a 156 m sobre Atenas. Alberga el Partenón, los Propileos, el templo de Atenea Niké y el Erecteión, levantados en el siglo V a.C. bajo Pericles. Patrimonio de la Humanidad de la UNESCO.",
+   "d_en": "The Acropolis is the most important monumental complex of the Western world, crowning a limestone rock 156 m above Athens. It holds the Parthenon, the Propylaea, the temple of Athena Nike and the Erechtheion, built in the 5th century BC under Pericles. A UNESCO World Heritage Site.",
+   "h": "Abierto todos los días; en verano aprox. 8:00–20:00, en invierno hasta las 17:00.",
+   "h_en": "Open daily; roughly 8:00–20:00 in summer, until 17:00 in winter.",
+   "i": "Entra por la puerta principal (oeste) o la sur junto al museo; entrada combinada disponible. Sombra escasa: lleva agua y gorra.",
+   "i_en": "Enter via the main (west) gate or the south gate next to the museum; combined ticket available. Little shade: bring water and a hat."
+  },
+  "w_ate_partenon": {
+   "id": "w_ate_partenon",
+   "d": "El Partenón, construido entre 447 y 432 a.C. por Ictino y Calícrates bajo la dirección de Fidias, es el templo dórico más perfecto jamás edificado. Sus sutiles correcciones ópticas (columnas ligeramente curvadas) crean una armonía perfecta. Fue templo, iglesia, mezquita y polvorín.",
+   "d_en": "The Parthenon, built between 447 and 432 BC by Ictinus and Callicrates under Phidias, is the most perfect Doric temple ever raised. Its subtle optical refinements (slightly curved columns) create flawless harmony. It served as temple, church, mosque and powder magazine.",
+   "h": "Se visita dentro del recinto de la Acrópolis, con su mismo horario.",
+   "h_en": "Visited within the Acropolis enclosure, following its same hours.",
+   "i": "No se puede entrar en su interior; se rodea por el exterior. Los frisos originales (mármoles) están en el Museo de la Acrópolis y el Museo Británico.",
+   "i_en": "You cannot go inside; you walk around it. The original friezes (marbles) are in the Acropolis Museum and the British Museum."
+  },
+  "w_ate_museo_acropolis": {
+   "id": "w_ate_museo_acropolis",
+   "d": "Inaugurado en 2009 y diseñado por Bernard Tschumi, este museo de vidrio alberga hallazgos de la roca sagrada. Su galería superior reproduce a escala real las dimensiones del Partenón para exponer sus frisos. Bajo el edificio se ven excavaciones de un barrio antiguo.",
+   "d_en": "Opened in 2009 and designed by Bernard Tschumi, this glass museum holds finds from the sacred rock. Its top gallery reproduces the Parthenon's real dimensions to display its friezes. Excavations of an ancient neighbourhood are visible beneath the building.",
+   "h": "Todos los días excepto algún festivo; suele abrir 9:00–17:00 y con horario ampliado los viernes.",
+   "h_en": "Daily except some holidays; usually 9:00–17:00, with extended hours on Fridays.",
+   "i": "El restaurante de la 2ª planta tiene vistas directas a la Acrópolis. Ideal visitarlo después de subir a la roca.",
+   "i_en": "The 2nd-floor restaurant has direct Acropolis views. Best visited after climbing the rock."
+  },
+  "w_ate_agora_antigua": {
+   "id": "w_ate_agora_antigua",
+   "d": "El Ágora fue el centro de la vida pública ateniense: aquí debatían Sócrates y los filósofos, se celebraban asambleas y mercados. Conserva el excepcional templo de Hefesto (el mejor preservado de Grecia) y la reconstruida Estoa de Átalo, hoy museo del yacimiento.",
+   "d_en": "The Agora was the centre of Athenian public life: Socrates and the philosophers debated here, assemblies and markets were held. It preserves the exceptional Temple of Hephaestus (the best-preserved in Greece) and the reconstructed Stoa of Attalos, now the site museum.",
+   "h": "Abierto todos los días; verano hasta 20:00, invierno hasta 15:00–17:00.",
+   "h_en": "Open daily; until 20:00 in summer, 15:00–17:00 in winter.",
+   "i": "Incluido en la entrada combinada. Camina por la antigua Vía Panatenaica hacia la Acrópolis.",
+   "i_en": "Included in the combined ticket. Walk along the ancient Panathenaic Way towards the Acropolis."
+  },
+  "w_ate_templo_zeus": {
+   "id": "w_ate_templo_zeus",
+   "d": "El Olimpieion fue el mayor templo de Grecia, iniciado en el siglo VI a.C. y terminado por el emperador Adriano en el 131 d.C. De sus 104 columnas corintias de 17 m quedan 15 en pie y una derribada por una tormenta en 1852, que muestra su construcción por tambores.",
+   "d_en": "The Olympieion was the largest temple in Greece, begun in the 6th century BC and finished by Emperor Hadrian in AD 131. Of its 104 Corinthian columns 17 m tall, 15 still stand plus one toppled by an 1852 storm, revealing its drum construction.",
+   "h": "Abierto todos los días; verano hasta 20:00, invierno hasta 17:00.",
+   "h_en": "Open daily; until 20:00 in summer, 17:00 in winter.",
+   "i": "Junto al Arco de Adriano; incluido en la entrada combinada. Buenas vistas de la Acrópolis al fondo.",
+   "i_en": "Next to Hadrian's Arch; included in the combined ticket. Fine views of the Acropolis behind."
+  },
+  "w_ate_sintagma": {
+   "id": "w_ate_sintagma",
+   "d": "La plaza Sintagma (de la Constitución) es el punto neurálgico de Atenas, frente al Parlamento y la Tumba del Soldado Desconocido. Cada hora se celebra el cambio de la guardia presidencial: los evzones, con faldellín (fustanella) y zuecos de pompón, ejecutan un lento y ceremonioso relevo.",
+   "d_en": "Syntagma (Constitution) Square is the nerve centre of Athens, facing Parliament and the Tomb of the Unknown Soldier. Every hour the presidential guard change takes place: the evzones, in kilt (fustanella) and pom-pom clogs, perform a slow, ceremonious relief.",
+   "h": "Cambio de guardia cada hora en punto; ceremonia solemne domingos a las 11:00.",
+   "h_en": "Guard change every hour on the hour; the grand ceremony is Sundays at 11:00.",
+   "i": "Llega unos minutos antes para coger sitio. La plaza tiene metro y es el mejor punto de partida para pasear.",
+   "i_en": "Arrive a few minutes early for a spot. The square has a metro station and is the best starting point for a walk."
+  },
+  "w_ate_panatenaico": {
+   "id": "w_ate_panatenaico",
+   "d": "El Kallimarmaro ('bello mármol') es el único estadio del mundo construido enteramente en mármol pentélico. Sobre un estadio antiguo del siglo IV a.C., fue reconstruido para los primeros Juegos Olímpicos modernos de 1896. Tiene forma de U con capacidad para unos 50.000 espectadores.",
+   "d_en": "The Kallimarmaro ('beautiful marble') is the only stadium in the world built entirely of Pentelic marble. On the site of a 4th-century BC stadium, it was rebuilt for the first modern Olympic Games in 1896. It is U-shaped and seats around 50,000.",
+   "h": "Abierto casi todos los días; verano 8:00–19:00, invierno 8:00–17:00 aprox.",
+   "h_en": "Open most days; roughly 8:00–19:00 in summer, 8:00–17:00 in winter.",
+   "i": "La entrada incluye audioguía y acceso a la pista. Puedes correr en la recta y subir a las gradas superiores.",
+   "i_en": "Ticket includes audio guide and track access. You can run on the straight and climb to the upper tiers."
+  },
+  "w_ate_erecteion": {
+   "id": "w_ate_erecteion",
+   "d": "El Erecteión, terminado hacia el 406 a.C., es el templo más sagrado de la Acrópolis, dedicado a Atenea y Poseidón. Su asimetría se adapta al terreno irregular y a los cultos que albergaba. Su joya es el pórtico sur, sostenido por seis Cariátides (las originales, en el museo).",
+   "d_en": "The Erechtheion, completed around 406 BC, is the holiest temple of the Acropolis, dedicated to Athena and Poseidon. Its asymmetry adapts to the uneven ground and the cults it housed. Its jewel is the south porch, held up by six Caryatids (the originals are in the museum).",
+   "h": "Dentro del recinto de la Acrópolis, mismo horario.",
+   "h_en": "Within the Acropolis enclosure, same hours.",
+   "i": "Las Cariátides que ves son copias; cinco originales están en el Museo de la Acrópolis y una en Londres.",
+   "i_en": "The Caryatids you see are copies; five originals are in the Acropolis Museum and one in London."
+  },
+  "w_ate_herodes_atico": {
+   "id": "w_ate_herodes_atico",
+   "d": "Construido en el 161 d.C. por Herodes Ático en memoria de su esposa, este odeón de piedra tenía capacidad para 5.000 espectadores bajo un techo de cedro. Restaurado en los años 50, es el escenario estrella del Festival de Atenas y Epidauro cada verano.",
+   "d_en": "Built in AD 161 by Herodes Atticus in memory of his wife, this stone odeon seated 5,000 under a cedar roof. Restored in the 1950s, it is the star venue of the Athens & Epidaurus Festival each summer.",
+   "h": "Se ve desde el recorrido de la ladera sur de la Acrópolis; el interior solo con entrada a un espectáculo.",
+   "h_en": "Seen from the Acropolis south-slope walk; interior only accessible with a show ticket.",
+   "i": "Asistir a un concierto o representación bajo la Acrópolis iluminada es una experiencia inolvidable.",
+   "i_en": "Attending a concert or play beneath the floodlit Acropolis is an unforgettable experience."
+  },
+  "w_ate_agora_romana": {
+   "id": "w_ate_agora_romana",
+   "d": "Levantada por donación de Julio César y Augusto, el Ágora Romana desplazó el centro comercial de la ciudad en época imperial. Domina el conjunto la Torre de los Vientos, un ingenioso reloj hidráulico y solar octogonal del siglo I a.C. con relieves de los ocho vientos.",
+   "d_en": "Funded by Julius Caesar and Augustus, the Roman Agora shifted the city's commercial centre in imperial times. It is dominated by the Tower of the Winds, an ingenious octagonal water and sun clock from the 1st century BC with reliefs of the eight winds.",
+   "h": "Abierto todos los días; verano hasta 20:00, invierno hasta 17:00.",
+   "h_en": "Open daily; until 20:00 in summer, 17:00 in winter.",
+   "i": "Incluido en la entrada combinada. Está en el borde de Plaka, entre callejuelas con encanto.",
+   "i_en": "Included in the combined ticket. It sits on the edge of Plaka, among charming lanes."
+  },
+  "w_ate_arco_adriano": {
+   "id": "w_ate_arco_adriano",
+   "d": "Este arco de mármol de 18 m se erigió hacia el 131 d.C. para honrar al emperador Adriano. Sus dos inscripciones marcaban simbólicamente la frontera entre la antigua Atenas de Teseo y la ciudad nueva de Adriano, junto al Templo de Zeus Olímpico.",
+   "d_en": "This 18 m marble arch was raised around AD 131 to honour Emperor Hadrian. Its two inscriptions symbolically marked the border between the ancient Athens of Theseus and Hadrian's new city, beside the Temple of Olympian Zeus.",
+   "h": "Visible libremente las 24 horas desde la calle.",
+   "h_en": "Freely visible 24 hours from the street.",
+   "i": "Se contempla gratis desde la avenida Amalias; combínalo con la visita al Templo de Zeus.",
+   "i_en": "Viewed for free from Amalias Avenue; combine it with the Temple of Zeus."
+  },
+  "w_ate_museo_arqueologico": {
+   "id": "w_ate_museo_arqueologico",
+   "d": "Es el museo más importante de Grecia y uno de los grandes del mundo. Reúne tesoros como la máscara de Agamenón, el mecanismo de Anticitera (primer 'ordenador' analógico), el jinete del Artemisio y el Poseidón de bronce. Un recorrido por el arte cicládico, minoico, micénico y clásico.",
+   "d_en": "It is the most important museum in Greece and one of the greatest in the world. It gathers treasures such as the Mask of Agamemnon, the Antikythera mechanism (the first analogue 'computer'), the Artemision Jockey and the bronze Poseidon. A journey through Cycladic, Minoan, Mycenaean and Classical art.",
+   "h": "Cerrado algunos lunes; suele abrir 8:30–15:30 o 20:00 según temporada.",
+   "h_en": "Closed some Mondays; usually open 8:30–15:30 or 20:00 depending on season.",
+   "i": "Está algo alejado del centro histórico, en Exarchia; llega en metro (Victoria u Omonia) o a pie desde Omonia.",
+   "i_en": "It is a bit away from the historic centre, in Exarchia; reach it by metro (Victoria or Omonia) or on foot from Omonia."
+  },
+  "w_ate_sunion": {
+   "id": "w_ate_sunion",
+   "d": "En el extremo sur del Ática, a unos 70 km de Atenas, se alza el templo de Poseidón (444 a.C.) sobre un acantilado de 60 m frente al mar Egeo. Es uno de los lugares más románticos de Grecia al atardecer; en una de sus columnas se conserva grabado el nombre del poeta Lord Byron.",
+   "d_en": "At the southern tip of Attica, some 70 km from Athens, the Temple of Poseidon (444 BC) rises on a 60 m cliff above the Aegean Sea. It is one of the most romantic spots in Greece at sunset; the poet Lord Byron carved his name on one of its columns.",
+   "h": "Abierto todos los días desde media mañana hasta la puesta de sol.",
+   "h_en": "Open daily from mid-morning until sunset.",
+   "i": "Excursión de medio día desde Atenas en coche o bus KTEL por la costa; ve para el atardecer y lleva algo de abrigo por el viento.",
+   "i_en": "A half-day trip from Athens by car or KTEL bus along the coast; go for sunset and bring a layer for the wind."
+  },
+  "w_ate_licabeto": {
+   "id": "w_ate_licabeto",
+   "d": "Con 277 m, el Licabeto es la colina más alta del centro de Atenas. En su cima, la capilla blanca de San Jorge, un teatro al aire libre y un café-mirador ofrecen la mejor panorámica de la ciudad, con la Acrópolis y el mar al fondo. La leyenda dice que la creó la diosa Atenea.",
+   "d_en": "At 277 m, Lycabettus is the tallest hill in central Athens. At its summit, the white chapel of St George, an open-air theatre and a viewpoint café offer the best panorama of the city, with the Acropolis and the sea beyond. Legend says the goddess Athena created it.",
+   "h": "Accesible siempre; el funicular funciona aprox. 9:00–2:00 (madrugada).",
+   "h_en": "Accessible anytime; the funicular runs roughly 9:00–02:00.",
+   "i": "Sube en el funicular desde Kolonaki o a pie por el sendero. Ideal para el atardecer, pero prepárate para las multitudes.",
+   "i_en": "Take the funicular from Kolonaki or hike the path. Great for sunset, but expect crowds."
+  },
+  "w_ate_jardin_nacional": {
+   "id": "w_ate_jardin_nacional",
+   "d": "Creado en 1839 por la reina Amalia como jardín real, este oasis verde de 15 ha esconde estanques, un pequeño zoo, ruinas romanas, palmeras y senderos umbríos. Es el refugio perfecto para escapar del calor del centro, entre Sintagma y el Estadio Panatenaico.",
+   "d_en": "Created in 1839 by Queen Amalia as a royal garden, this 15-ha green oasis hides ponds, a small zoo, Roman ruins, palm trees and shady paths. It is the perfect refuge from the city-centre heat, between Syntagma and the Panathenaic Stadium.",
+   "h": "Abierto del amanecer al atardecer, todos los días; entrada gratuita.",
+   "h_en": "Open sunrise to sunset, daily; free entry.",
+   "i": "Cruza el jardín para ir de Sintagma al Estadio o al Zappeion. Buen sitio para un picnic a la sombra.",
+   "i_en": "Cross the garden to walk from Syntagma to the Stadium or the Zappeion. A good spot for a shady picnic."
+  },
+  "w_ate_filopappou": {
+   "id": "w_ate_filopappou",
+   "d": "Conocida como la Colina de las Musas, está coronada por el Monumento a Filopappo, mausoleo romano del 116 d.C. Sus pinares, senderos empedrados por el arquitecto Pikionis e iglesias bizantinas la convierten en un paseo delicioso y en el mirador clásico para fotografiar la Acrópolis de frente.",
+   "d_en": "Known as the Hill of the Muses, it is crowned by the Philopappos Monument, a Roman mausoleum of AD 116. Its pine woods, stone paths laid by architect Pikionis and Byzantine churches make it a lovely walk and the classic viewpoint to photograph the Acropolis head-on.",
+   "h": "Colina abierta siempre; acceso libre y gratuito.",
+   "h_en": "Hill open at all times; free access.",
+   "i": "El atardecer aquí es más tranquilo que en el Licabeto. Lleva calzado con agarre por las rocas pulidas.",
+   "i_en": "Sunset here is quieter than on Lycabettus. Wear shoes with grip for the polished rocks."
+  },
+  "w_ate_areopago": {
+   "id": "w_ate_areopago",
+   "d": "El Areópago fue el antiguo tribunal supremo de Atenas y, según los Hechos de los Apóstoles, el lugar donde San Pablo predicó a los atenienses. Hoy es una roca de mármol pulido, muy resbaladiza, con vistas privilegiadas al Ágora antigua y a la ciudad.",
+   "d_en": "The Areopagus was the ancient supreme court of Athens and, according to the Acts of the Apostles, the place where St Paul preached to the Athenians. Today it is a slab of polished, very slippery marble with privileged views of the Ancient Agora and the city.",
+   "h": "Acceso libre las 24 horas; gratuito.",
+   "h_en": "Free access 24 hours; no charge.",
+   "i": "El mármol es peligrosamente resbaladizo: usa las escaleras metálicas y ve con cuidado. Popular al atardecer.",
+   "i_en": "The marble is dangerously slippery: use the metal stairs and take care. Popular at sunset."
+  },
+  "w_ate_pnyx": {
+   "id": "w_ate_pnyx",
+   "d": "En esta colina se reunía la Ekklesía, la asamblea popular de la Atenas clásica, considerada el lugar de nacimiento de la democracia. Aún se ve la tribuna de piedra (bema) desde donde hablaban Pericles y Demóstenes. Rodeada de pinos, forma parte del cinturón verde de las colinas del oeste.",
+   "d_en": "On this hill met the Ekklesia, the popular assembly of classical Athens, considered the birthplace of democracy. The stone speaker's platform (bema) from which Pericles and Demosthenes spoke is still visible. Ringed by pines, it is part of the green belt of the western hills.",
+   "h": "Espacio abierto siempre; acceso libre y gratuito.",
+   "h_en": "Open space at all times; free access.",
+   "i": "Menos visitada y muy tranquila; combínala con Filopappo y el Areópago en un mismo paseo.",
+   "i_en": "Less visited and very peaceful; combine it with Philopappos and the Areopagus in one walk."
+  },
+  "w_ate_stavros_niarchos": {
+   "id": "w_ate_stavros_niarchos",
+   "d": "El Centro Cultural Fundación Stavros Niarchos, diseñado por Renzo Piano e inaugurado en 2016, alberga la Ópera Nacional y la Biblioteca Nacional bajo un techo verde. Su enorme parque mediterráneo, canal, zonas de deporte y actividades gratuitas lo han convertido en el gran pulmón moderno de Atenas.",
+   "d_en": "The Stavros Niarchos Foundation Cultural Center, designed by Renzo Piano and opened in 2016, houses the National Opera and National Library under a green roof. Its vast Mediterranean park, canal, sports areas and free activities have made it the great modern lung of Athens.",
+   "h": "Parque abierto a diario, generalmente 6:00–24:00; muchas actividades gratuitas.",
+   "h_en": "Park open daily, generally 6:00–24:00; many free activities.",
+   "i": "Algo alejado del centro (zona de Faliro); llega en tranvía o bus. Combínalo con un paseo por la costa.",
+   "i_en": "A bit away from the centre (Faliro area); reach it by tram or bus. Combine it with a seafront stroll."
+  },
+  "w_ate_plaka": {
+   "id": "w_ate_plaka",
+   "d": "Plaka es el barrio más antiguo y pintoresco de Atenas, un dédalo de callejuelas peatonales con casas neoclásicas, buganvillas, tabernas, tiendas de souvenirs y pequeñas ruinas. Construido sobre la ciudad antigua, es el lugar ideal para perderse paseando entre el aroma clásico de Atenas.",
+   "d_en": "Plaka is the oldest and most picturesque neighbourhood in Athens, a maze of pedestrian lanes with neoclassical houses, bougainvillea, tavernas, souvenir shops and small ruins. Built over the ancient city, it is the ideal place to wander and soak up classical Athens.",
+   "h": "Calles abiertas siempre; comercios y tabernas de mañana a noche.",
+   "h_en": "Streets open at all times; shops and tavernas from morning to night.",
+   "i": "Evita las tabernas con reclamo en la puerta y busca las calles más tranquilas hacia Anafiótika.",
+   "i_en": "Avoid tavernas with touts at the door and seek the quieter lanes towards Anafiotika."
+  },
+  "w_ate_monastiraki": {
+   "id": "w_ate_monastiraki",
+   "d": "Monastiraki es el corazón animado y castizo de Atenas, con su plaza dominada por la mezquita Tzistarakis y la vista de la Acrópolis al fondo. Sus calles, sobre todo la de Ifestou y la plaza de Avissynias, forman el famoso mercadillo (rastro) de antigüedades, ropa vintage y curiosidades.",
+   "d_en": "Monastiraki is the lively, characterful heart of Athens, its square dominated by the Tzistarakis Mosque with the Acropolis rising behind. Its streets, especially Ifestou and Avissynias Square, form the famous flea market of antiques, vintage clothes and curios.",
+   "h": "Plaza siempre abierta; el mercadillo es más animado los domingos por la mañana.",
+   "h_en": "Square always open; the flea market is liveliest on Sunday mornings.",
+   "i": "Sube a una azotea-bar de la zona para ver la Acrópolis con una copa. Cuidado con los carteristas en el gentío.",
+   "i_en": "Head to a rooftop bar nearby for Acropolis views with a drink. Watch for pickpockets in the crowds."
+  },
+  "w_ate_anafiotika": {
+   "id": "w_ate_anafiotika",
+   "d": "Escondido en la ladera norte de la Acrópolis, Anafiótika parece un pueblecito de las islas Cícladas trasplantado a Atenas. Lo construyeron en el siglo XIX obreros de la isla de Anafi, con casitas encaladas, callejones estrechos, gatos y flores. Un remanso de paz sorprendente en pleno centro.",
+   "d_en": "Tucked on the north slope of the Acropolis, Anafiotika looks like a little Cycladic island village transplanted into Athens. It was built in the 19th century by workers from the island of Anafi, with whitewashed cottages, narrow alleys, cats and flowers. A surprising haven of peace in the heart of the city.",
+   "h": "Barrio residencial abierto siempre; visita con respeto.",
+   "h_en": "Residential quarter open at all times; visit respectfully.",
+   "i": "Es un barrio habitado: baja la voz y no molestes en las casas. Se llega paseando desde Plaka cuesta arriba.",
+   "i_en": "It is a lived-in neighbourhood: keep your voice down and respect the homes. Reached on foot uphill from Plaka."
+  },
+  "w_ate_ermou": {
+   "id": "w_ate_ermou",
+   "d": "Ermou es la gran calle comercial peatonal de Atenas, que une la plaza Sintagma con Monastiraki. Reúne las principales cadenas internacionales, tiendas locales y músicos callejeros. A mitad de camino, la pequeña iglesia bizantina de Kapnikarea (siglo XI) se alza en medio de la calzada.",
+   "d_en": "Ermou is the great pedestrian shopping street of Athens, linking Syntagma Square with Monastiraki. It gathers the main international chains, local shops and street musicians. Halfway along, the little Byzantine church of Kapnikarea (11th century) sits in the middle of the street.",
+   "h": "Tiendas normalmente 9:00/10:00–21:00; muchas cierran los domingos.",
+   "h_en": "Shops usually 9:00/10:00–21:00; many close on Sundays.",
+   "i": "Ideal para compras a medio camino entre los dos grandes centros turísticos. Muy transitada al atardecer.",
+   "i_en": "Great for shopping midway between the two main tourist hubs. Very busy in the early evening."
+  },
+  "w_ate_psyrri": {
+   "id": "w_ate_psyrri",
+   "d": "Psyrri es el barrio bohemio y de moda de Atenas, antaño de talleres y hoy repleto de bares, tabernas de meze, cafés, murales de arte urbano y una vibrante vida nocturna. De día es tranquilo y auténtico; de noche se llena de atenienses y música hasta la madrugada.",
+   "d_en": "Psyrri is the bohemian, fashionable quarter of Athens, once full of workshops and now packed with bars, meze tavernas, cafés, street-art murals and vibrant nightlife. Quiet and authentic by day, it fills with Athenians and music into the small hours.",
+   "h": "Ambiente de tarde y noche; los bares se animan a partir de las 21:00.",
+   "h_en": "Afternoon and night atmosphere; bars liven up after 21:00.",
+   "i": "El mejor sitio para cenar meze y salir de copas como los locales. A un paso de Monastiraki.",
+   "i_en": "The best area for meze dinners and drinks like the locals. A step away from Monastiraki."
+  },
+  "w_ate_kolonaki": {
+   "id": "w_ate_kolonaki",
+   "d": "Kolonaki es el barrio más elegante de Atenas, a los pies del Licabeto. Sus calles reúnen boutiques de diseño, galerías de arte, joyerías y cafés donde se ve y se deja ver la sociedad ateniense. La plaza Kolonaki, con sus terrazas, es el punto perfecto para tomar un café griego observando la vida local.",
+   "d_en": "Kolonaki is the most elegant district in Athens, at the foot of Lycabettus. Its streets gather designer boutiques, art galleries, jewellers and cafés where Athenian society sees and is seen. Kolonaki Square, with its terraces, is the perfect spot for a Greek coffee while watching local life.",
+   "h": "Comercios y galerías por el día; cafés y bares de mañana a noche.",
+   "h_en": "Shops and galleries by day; cafés and bars from morning to night.",
+   "i": "Ideal para compras de calidad y para empezar la subida al Licabeto en funicular. Precios más altos que el resto del centro.",
+   "i_en": "Great for quality shopping and for starting the Lycabettus funicular climb. Prices higher than the rest of the centre."
+  },
+  "w_ate_mercado_central": {
+   "id": "w_ate_mercado_central",
+   "d": "El Mercado Central de Atenas (Varvakios Agora), del siglo XIX, es un espectáculo de olores, colores y voces. Sus naves reúnen puestos de pescado, carne, especias, quesos, aceitunas y frutos secos. Alrededor, tabernas históricas sirven la mítica sopa de callos (patsás) a los trasnochadores.",
+   "d_en": "The 19th-century Central Market of Athens (Varvakios Agora) is a spectacle of smells, colours and voices. Its halls gather stalls of fish, meat, spices, cheeses, olives and nuts. Around it, historic tavernas serve the legendary tripe soup (patsas) to night owls.",
+   "h": "Lunes a sábado, aprox. 7:00–18:00; cerrado domingos.",
+   "h_en": "Monday to Saturday, roughly 7:00–18:00; closed Sundays.",
+   "i": "Ve por la mañana para el máximo ambiente. Prueba las aceitunas y compra especias y té de montaña.",
+   "i_en": "Go in the morning for the fullest atmosphere. Try the olives and buy spices and mountain tea."
+  },
+  "w_ate_kostas_souvlaki": {
+   "id": "w_ate_kostas_souvlaki",
+   "d": "Fundado en 1946 junto a la plaza de Agia Irini, Kostas es una institución: apenas un mostrador donde se sirven souvlakis de cerdo en pan de pita con su salsa de tomate picante secreta. Sencillez, calidad y tradición en cada bocado, con cola casi permanente en la puerta.",
+   "d_en": "Founded in 1946 by Agia Irini square, Kostas is an institution: barely a counter serving pork souvlaki in pita with its secret spicy tomato sauce. Simplicity, quality and tradition in every bite, with an almost permanent queue at the door.",
+   "h": "Suele abrir a mediodía hasta agotar existencias; cerrado domingos.",
+   "h_en": "Usually opens at midday until sold out; closed Sundays.",
+   "i": "Llega temprano porque cierra al acabarse la carne. Perfecto para un almuerzo rápido y barato.",
+   "i_en": "Arrive early as it closes when the meat runs out. Perfect for a quick, cheap lunch."
+  },
+  "w_ate_o_thanasis": {
+   "id": "w_ate_o_thanasis",
+   "d": "En plena plaza de Monastiraki, O Thanasis es famoso desde hace décadas por su kebab de cordero especiado servido sobre pan de pita caliente con tomate, cebolla y yogur. Un bullicioso templo del souvlaki donde comen atenienses y turistas por igual, con terraza y servicio rápido.",
+   "d_en": "Right on Monastiraki square, O Thanasis has been famous for decades for its spiced lamb kebab served on warm pita with tomato, onion and yogurt. A bustling souvlaki temple where Athenians and tourists eat alike, with a terrace and quick service.",
+   "h": "Abierto todos los días, aprox. 9:00–1:00.",
+   "h_en": "Open daily, roughly 9:00–01:00.",
+   "i": "Pide el kebab especial de la casa. Terraza ruidosa pero con ambiente muy local.",
+   "i_en": "Order the special house kebab. Noisy terrace but a very local vibe."
+  },
+  "w_ate_diporto": {
+   "id": "w_ate_diporto",
+   "d": "Escondida en un sótano sin letrero junto al mercado central, Diporto es una taberna legendaria y sin cambios desde hace un siglo. No hay carta: se come lo que hay (garbanzos guisados, pescadito frito, ensalada) y se bebe vino a granel de las enormes barricas. Una joya de la Atenas más auténtica.",
+   "d_en": "Hidden in an unmarked cellar next to the central market, Diporto is a legendary taverna unchanged for a century. There is no menu: you eat what there is (stewed chickpeas, fried little fish, salad) and drink barrel wine from the huge casks. A gem of the most authentic Athens.",
+   "h": "Lunes a sábado, mediodía hasta la tarde; cerrado domingos.",
+   "h_en": "Monday to Saturday, midday into the afternoon; closed Sundays.",
+   "i": "Sin reservas ni carta: déjate llevar por lo que traigan. Efectivo. Cierra en agosto.",
+   "i_en": "No bookings or menu: go with whatever they bring. Cash only. Closed in August."
+  },
+  "w_ate_krinos": {
+   "id": "w_ate_krinos",
+   "d": "Krinos, en la calle Eolou, es la pastelería más famosa de Atenas para probar los loukoumades: buñuelos esponjosos bañados en miel, canela y nueces, servidos calientes desde 1922. Un local retro con mármol y azulejos donde también se toma bougatsa y café griego.",
+   "d_en": "Krinos, on Aiolou Street, is the most famous shop in Athens for loukoumades: fluffy dough balls drenched in honey, cinnamon and walnuts, served hot since 1922. A retro spot with marble and tiles where you can also have bougatsa and Greek coffee.",
+   "h": "Lunes a sábado, aprox. 8:00–19:00; cerrado domingos.",
+   "h_en": "Monday to Saturday, roughly 8:00–19:00; closed Sundays.",
+   "i": "El postre griego por excelencia; una ración se comparte fácilmente. Ideal para una parada dulce de tarde.",
+   "i_en": "The quintessential Greek dessert; one portion is easy to share. Ideal for an afternoon sweet stop."
+  },
+  "w_ate_taverna_plaka": {
+   "id": "w_ate_taverna_plaka",
+   "d": "En una casa histórica del corazón de Plaka, esta veterana taberna sirve los grandes clásicos de la cocina griega: moussaka, souvlaki, cordero al horno, dolmades y ensalada griega, a menudo con música tradicional en vivo por la noche. El ejemplo del ambiente cálido y familiar de las tabernas atenienses.",
+   "d_en": "In a historic house in the heart of Plaka, this long-standing taverna serves the great classics of Greek cuisine: moussaka, souvlaki, oven-baked lamb, dolmades and Greek salad, often with live traditional music at night. A fine example of the warm, family atmosphere of Athenian tavernas.",
+   "h": "Abierto todos los días para comida y cena, aprox. 12:00–24:00.",
+   "h_en": "Open daily for lunch and dinner, roughly 12:00–24:00.",
+   "i": "Reserva mesa en temporada alta y en las noches con música. Prueba la moussaka y el vino de la casa.",
+   "i_en": "Book a table in high season and on music nights. Try the moussaka and the house wine."
+  }
+ },
+ "food": {
+  "w_ate_mercado_central": {
+   "cuisine": "Mercado / productos frescos griegos",
+   "price": "5–15 €",
+   "hours": "Lun–Sáb 7:00–18:00"
+  },
+  "w_ate_kostas_souvlaki": {
+   "cuisine": "Souvlaki / comida callejera griega",
+   "price": "3–8 €",
+   "hours": "Mar–Sáb 12:00 hasta agotar"
+  },
+  "w_ate_o_thanasis": {
+   "cuisine": "Kebab / souvlaki griego",
+   "price": "8–15 €",
+   "hours": "Todos los días 9:00–1:00"
+  },
+  "w_ate_diporto": {
+   "cuisine": "Taberna tradicional griega",
+   "price": "10–18 €",
+   "hours": "Lun–Sáb 12:00–18:00"
+  },
+  "w_ate_krinos": {
+   "cuisine": "Dulces / loukoumades",
+   "price": "4–8 €",
+   "hours": "Lun–Sáb 8:00–19:00"
+  },
+  "w_ate_taverna_plaka": {
+   "cuisine": "Cocina tradicional griega",
+   "price": "15–30 €",
+   "hours": "Todos los días 12:00–24:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Atenas",
+   "items": [
+    {
+     "name": "Aceite de oliva griego (AOVE)",
+     "price": "8–25 €",
+     "desc": "Aceite de oliva virgen extra de altísima calidad, base de la dieta mediterránea."
+    },
+    {
+     "name": "Komboloi (rosario griego)",
+     "price": "5–30 €",
+     "desc": "Sarta de cuentas para las manos, típico souvenir tradicional griego."
+    },
+    {
+     "name": "Ojo turco / mati",
+     "price": "2–15 €",
+     "desc": "Amuleto azul contra el mal de ojo, muy popular en toda Grecia."
+    },
+    {
+     "name": "Miel del monte Himeto y hierbas",
+     "price": "6–18 €",
+     "desc": "Miel aromática y orégano, tomillo y té de montaña griegos."
+    },
+    {
+     "name": "Réplicas de cerámica y estatuillas",
+     "price": "8–40 €",
+     "desc": "Ánforas, figuras de dioses y motivos de la cerámica ática."
+    }
+   ],
+   "shops": [
+    "Mercado de Monastiraki (mercadillo de Avissynias)",
+    "Calle Adrianou (Plaka)",
+    "Mercado Central de Varvakios",
+    "Tiendas del barrio de Plaka"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Compra la entrada combinada de los yacimientos arqueológicos: incluye Acrópolis, Ágora antigua, Ágora romana, Templo de Zeus y más, y evita colas.",
+   "Sube a la Acrópolis a primera hora o al atardecer: en verano el calor y las multitudes al mediodía son agotadores.",
+   "Usa el metro: es limpio, barato y conecta el aeropuerto, El Pireo y el centro; valida siempre el billete.",
+   "El cambio de guardia (evzones) frente al Parlamento es cada hora en punto; el grande es el domingo a las 11:00.",
+   "Lleva calzado cómodo con suela: el mármol de la Acrópolis y las calles de Plaka son muy resbaladizos."
+  ],
+  "en": [
+   "Buy the combined archaeological sites ticket: it covers the Acropolis, Ancient Agora, Roman Agora, Temple of Zeus and more, and skips queues.",
+   "Visit the Acropolis early morning or at sunset: midday heat and crowds in summer are exhausting.",
+   "Use the metro: it is clean, cheap and links the airport, Piraeus and the centre; always validate your ticket.",
+   "The changing of the guard (evzones) at Parliament happens every hour on the hour; the grand one is Sunday at 11:00.",
+   "Wear comfortable shoes with grip: the Acropolis marble and Plaka streets are very slippery."
+  ]
+ },
+ "climate": {
+  "hi": [
+   13,
+   14,
+   16,
+   20,
+   26,
+   31,
+   34,
+   34,
+   29,
+   23,
+   18,
+   14
+  ],
+  "lo": [
+   7,
+   7,
+   8,
+   11,
+   16,
+   20,
+   23,
+   23,
+   19,
+   15,
+   11,
+   8
+  ]
+ },
+ "tr": {
+  "Ciudadela sagrada sobre la roca, símbolo de la Grecia clásica.": "Sacred citadel on the rock, symbol of classical Greece.",
+  "Templo dórico dedicado a Atenea, cumbre de la arquitectura griega.": "Doric temple dedicated to Athena, pinnacle of Greek architecture.",
+  "Museo moderno con las esculturas originales de la Acrópolis.": "Modern museum housing the original Acropolis sculptures.",
+  "Corazón político y comercial de la antigua Atenas.": "Political and commercial heart of ancient Athens.",
+  "Colosal templo del que sobreviven imponentes columnas corintias.": "Colossal temple with towering surviving Corinthian columns.",
+  "Plaza central con el Parlamento y el relevo de los evzones.": "Central square with Parliament and the evzones' guard change.",
+  "Estadio de mármol de los primeros Juegos Olímpicos modernos.": "Marble stadium of the first modern Olympic Games.",
+  "Templo jónico famoso por su pórtico de las Cariátides.": "Ionic temple famed for its Porch of the Caryatids.",
+  "Teatro romano en la ladera sur, aún en uso para conciertos.": "Roman theatre on the south slope, still used for concerts.",
+  "Foro romano con el reloj-anemoscopio octogonal más antiguo.": "Roman forum with the oldest octagonal weather clock tower.",
+  "Puerta monumental romana entre la ciudad vieja y la nueva.": "Monumental Roman gateway between the old and new city.",
+  "La mayor colección de arte de la antigua Grecia del mundo.": "The world's greatest collection of ancient Greek art.",
+  "Templo dórico sobre un acantilado, célebre por sus atardeceres.": "Doric temple on a cliff, famous for its sunsets.",
+  "El punto más alto de Atenas, con vistas de 360°.": "The highest point in Athens, with 360° views.",
+  "Parque histórico y sombreado junto al Parlamento.": "Historic, shady park next to Parliament.",
+  "Colina boscosa con la mejor vista frontal de la Acrópolis.": "Wooded hill with the best frontal view of the Acropolis.",
+  "Roca histórica al pie de la Acrópolis con vistas al Ágora.": "Historic rock below the Acropolis overlooking the Agora.",
+  "Cuna de la democracia, donde se reunía la asamblea ateniense.": "Cradle of democracy, where the Athenian assembly met.",
+  "Parque cultural moderno de Renzo Piano junto al mar.": "Modern cultural park by Renzo Piano beside the sea.",
+  "El casco antiguo laberíntico bajo la Acrópolis.": "The labyrinthine old town beneath the Acropolis.",
+  "Plaza bulliciosa con mercadillo, vistas y ambiente.": "Bustling square with a flea market, views and buzz.",
+  "Rincón de casas cicládicas encaramado a la Acrópolis.": "Corner of Cycladic houses clinging to the Acropolis.",
+  "Principal arteria comercial peatonal de Atenas.": "Main pedestrian shopping street of Athens.",
+  "Barrio de moda con arte urbano, bares y vida nocturna.": "Trendy quarter with street art, bars and nightlife.",
+  "Barrio chic de boutiques, galerías y cafés de moda.": "Chic quarter of boutiques, galleries and stylish cafés.",
+  "El gran mercado de abastos, carne y pescado de Atenas.": "The great fresh-food, meat and fish market of Athens.",
+  "Diminuto local histórico de los mejores souvlaki de la ciudad.": "Tiny historic joint serving the city's best souvlaki.",
+  "Clásica taberna de kebab y souvlaki en Monastiraki.": "Classic kebab and souvlaki taverna in Monastiraki.",
+  "Taberna-sótano sin carta, auténtica y de otra época.": "Cellar taverna with no menu, authentic and timeless.",
+  "Histórica pastelería de loukoumades desde 1922.": "Historic loukoumades pastry shop since 1922.",
+  "Taberna tradicional de Plaka con cocina griega casera.": "Traditional Plaka taverna with home-style Greek cooking.",
+  "Atenas": "Atenas"
+ }
+}

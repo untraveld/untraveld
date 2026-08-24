@@ -1,0 +1,655 @@
+{
+ "id": "doha",
+ "name": "Doha",
+ "country": "WORLD",
+ "center": [
+  25.2854,
+  51.531
+ ],
+ "pois": [
+  {
+   "id": "w_doh_mia",
+   "cat": "monuments",
+   "name": "Museo de Arte Islámico",
+   "icon": "🕌",
+   "lat": 25.29506,
+   "lng": 51.53916,
+   "desc": "Obra maestra de I. M. Pei sobre una isla artificial con la mayor colección de arte islámico."
+  },
+  {
+   "id": "w_doh_national_museum",
+   "cat": "monuments",
+   "name": "Museo Nacional de Catar",
+   "icon": "🏛️",
+   "lat": 25.28611,
+   "lng": 51.55111,
+   "desc": "Espectacular edificio de Jean Nouvel inspirado en la rosa del desierto."
+  },
+  {
+   "id": "w_doh_katara",
+   "cat": "monuments",
+   "name": "Katara Cultural Village",
+   "icon": "🎭",
+   "lat": 25.35944,
+   "lng": 51.52611,
+   "desc": "Aldea cultural con anfiteatro, mezquitas de mosaico, galerías y playa."
+  },
+  {
+   "id": "w_doh_westbay",
+   "cat": "monuments",
+   "name": "Torres de West Bay",
+   "icon": "🏙️",
+   "lat": 25.32167,
+   "lng": 51.53083,
+   "desc": "Skyline futurista de rascacielos que define la imagen moderna de Doha."
+  },
+  {
+   "id": "w_doh_torch",
+   "cat": "monuments",
+   "name": "Aspire Tower (The Torch)",
+   "icon": "🔥",
+   "lat": 25.26247,
+   "lng": 51.44483,
+   "desc": "Torre-antorcha de 300 m, símbolo de los Juegos Asiáticos de 2006."
+  },
+  {
+   "id": "w_doh_zubarah",
+   "cat": "monuments",
+   "name": "Fuerte de Al Zubarah",
+   "icon": "🏯",
+   "lat": 25.97917,
+   "lng": 51.02639,
+   "desc": "Fuerte de 1938 junto a la ciudad perlera Patrimonio de la Humanidad."
+  },
+  {
+   "id": "w_doh_msheireb",
+   "cat": "monuments",
+   "name": "Msheireb Downtown Doha",
+   "icon": "🏘️",
+   "lat": 25.28806,
+   "lng": 51.52528,
+   "desc": "Barrio histórico regenerado como distrito sostenible con museos."
+  },
+  {
+   "id": "w_doh_mathaf",
+   "cat": "monuments",
+   "name": "Mathaf: Museo Árabe de Arte Moderno",
+   "icon": "🖼️",
+   "lat": 25.31556,
+   "lng": 51.43917,
+   "desc": "Referente del arte moderno y contemporáneo árabe en Education City."
+  },
+  {
+   "id": "w_doh_grand_mosque",
+   "cat": "monuments",
+   "name": "Mezquita Imam Muhammad ibn Abd al-Wahhab",
+   "icon": "🕌",
+   "lat": 25.30306,
+   "lng": 51.495,
+   "desc": "La Gran Mezquita del Estado, con 90 cúpulas y capacidad para 30.000 fieles."
+  },
+  {
+   "id": "w_doh_al_koot",
+   "cat": "monuments",
+   "name": "Fuerte Al Koot (Fuerte de Doha)",
+   "icon": "🏰",
+   "lat": 25.28833,
+   "lng": 51.52889,
+   "desc": "Fortaleza otomana de 1880 junto al Souq Waqif."
+  },
+  {
+   "id": "w_doh_barzan",
+   "cat": "monuments",
+   "name": "Torres Barzan",
+   "icon": "🗼",
+   "lat": 25.41802,
+   "lng": 51.41309,
+   "desc": "Atalayas del siglo XIX usadas para observar la luna y el agua."
+  },
+  {
+   "id": "w_doh_corniche",
+   "cat": "nature",
+   "name": "Corniche de Doha",
+   "icon": "🌊",
+   "lat": 25.30806,
+   "lng": 51.52556,
+   "desc": "Paseo marítimo de 7 km en media luna frente a la bahía y el skyline."
+  },
+  {
+   "id": "w_doh_aspire_park",
+   "cat": "nature",
+   "name": "Aspire Park",
+   "icon": "🌳",
+   "lat": 25.26139,
+   "lng": 51.44306,
+   "desc": "El mayor parque de Doha, con lago, zonas verdes y la Torch al fondo."
+  },
+  {
+   "id": "w_doh_khor_al_adaid",
+   "cat": "nature",
+   "name": "Khor Al Adaid (Mar Interior)",
+   "icon": "🏜️",
+   "lat": 24.63,
+   "lng": 51.296,
+   "desc": "Mar interior rodeado de dunas, reserva natural Unesco al sur del país."
+  },
+  {
+   "id": "w_doh_al_thakira",
+   "cat": "nature",
+   "name": "Manglares de Al Thakira",
+   "icon": "🛶",
+   "lat": 25.73611,
+   "lng": 51.54861,
+   "desc": "Bosque de manglares cerca de Al Khor, ideal para kayak y aves."
+  },
+  {
+   "id": "w_doh_oxygen_park",
+   "cat": "nature",
+   "name": "Oxygen Park",
+   "icon": "🌿",
+   "lat": 25.31694,
+   "lng": 51.43389,
+   "desc": "Parque paisajístico de Education City para correr y pasear."
+  },
+  {
+   "id": "w_doh_katara_beach",
+   "cat": "nature",
+   "name": "Playa de Katara",
+   "icon": "🏖️",
+   "lat": 25.36194,
+   "lng": 51.53167,
+   "desc": "Playa urbana junto a la aldea cultural con deportes acuáticos."
+  },
+  {
+   "id": "w_doh_the_pearl",
+   "cat": "ocio",
+   "name": "The Pearl-Qatar",
+   "icon": "🏝️",
+   "lat": 25.3678,
+   "lng": 51.5509,
+   "desc": "Isla artificial de lujo con marina, boutiques y ambiente mediterráneo."
+  },
+  {
+   "id": "w_doh_villaggio",
+   "cat": "ocio",
+   "name": "Villaggio Mall",
+   "icon": "🛍️",
+   "lat": 25.2563,
+   "lng": 51.4392,
+   "desc": "Centro comercial temático de Venecia con canal y góndolas."
+  },
+  {
+   "id": "w_doh_falcon_souq",
+   "cat": "ocio",
+   "name": "Souq de los Halcones (Falcon Souq)",
+   "icon": "🦅",
+   "lat": 25.28806,
+   "lng": 51.53194,
+   "desc": "Mercado de halcones de cetrería junto al Souq Waqif."
+  },
+  {
+   "id": "w_doh_souq_waqif",
+   "cat": "ocio",
+   "name": "Souq Waqif",
+   "icon": "🏮",
+   "lat": 25.2875,
+   "lng": 51.53361,
+   "desc": "Zoco tradicional restaurado con especias, artesanía y cafés."
+  },
+  {
+   "id": "w_doh_lusail_marina",
+   "cat": "ocio",
+   "name": "Lusail Marina y Boulevard",
+   "icon": "⛵",
+   "lat": 25.42861,
+   "lng": 51.49222,
+   "desc": "Ciudad futurista con paseo marítimo, boulevard y rascacielos."
+  },
+  {
+   "id": "w_doh_festival_city",
+   "cat": "ocio",
+   "name": "Doha Festival City",
+   "icon": "🎡",
+   "lat": 25.40417,
+   "lng": 51.44083,
+   "desc": "Mayor centro comercial y de ocio de Catar con parques temáticos."
+  },
+  {
+   "id": "w_doh_mall_of_qatar",
+   "cat": "ocio",
+   "name": "Mall of Qatar",
+   "icon": "🎠",
+   "lat": 25.32694,
+   "lng": 51.42444,
+   "desc": "Gran centro comercial con teatro central y espectáculos."
+  },
+  {
+   "id": "w_doh_idam",
+   "cat": "food",
+   "name": "IDAM by Alain Ducasse",
+   "icon": "🍽️",
+   "lat": 25.29528,
+   "lng": 51.53944,
+   "desc": "Restaurante de alta cocina de Alain Ducasse en la cima del MIA."
+  },
+  {
+   "id": "w_doh_al_mourjan",
+   "cat": "food",
+   "name": "Al Mourjan Restaurant",
+   "icon": "🥙",
+   "lat": 25.31722,
+   "lng": 51.53056,
+   "desc": "Clásico restaurante libanés en la Corniche con vistas a la bahía."
+  },
+  {
+   "id": "w_doh_parisa",
+   "cat": "food",
+   "name": "Parisa Souq Waqif",
+   "icon": "🍢",
+   "lat": 25.28722,
+   "lng": 51.53306,
+   "desc": "Restaurante persa deslumbrante por su decoración de espejos."
+  },
+  {
+   "id": "w_doh_shay_al_shomos",
+   "cat": "food",
+   "name": "Shay Al Shomos",
+   "icon": "🫓",
+   "lat": 25.28694,
+   "lng": 51.5325,
+   "desc": "Casa de comidas qatarí auténtica escondida en el Souq Waqif."
+  }
+ ],
+ "extra": {
+  "w_doh_mia": {
+   "id": "w_doh_mia",
+   "d": "Diseñado por I. M. Pei e inspirado en la fuente de la mezquita de Ibn Tulun de El Cairo, el MIA alberga trece siglos de arte islámico procedente de tres continentes: manuscritos, cerámica, textiles, marfiles y joyas. Su volumetría geométrica de piedra caliza y su parque frente al skyline lo convierten en el icono cultural de Doha.",
+   "d_en": "Designed by I. M. Pei and inspired by the fountain of Cairo's Ibn Tulun Mosque, the MIA holds thirteen centuries of Islamic art from three continents: manuscripts, ceramics, textiles, ivories and jewellery. Its geometric limestone volumes and waterfront park make it Doha's cultural icon.",
+   "h": "Sáb-Jue 9:00-19:00, Vie 13:30-19:00. Entrada gratuita.",
+   "h_en": "Sat-Thu 9:00-19:00, Fri 13:30-19:00. Free admission.",
+   "i": "Dedica al menos 2 horas; al atardecer las vistas del skyline desde el parque son espectaculares.",
+   "i_en": "Allow at least 2 hours; at sunset the skyline views from the park are spectacular."
+  },
+  "w_doh_national_museum": {
+   "id": "w_doh_national_museum",
+   "d": "Diseñado por Jean Nouvel, sus 316 grandes discos entrelazados evocan la rosa del desierto. Envuelve el palacio histórico del jeque Abdullah bin Jassim y narra la historia natural, humana y moderna de Catar mediante galerías inmersivas de gran formato, proyecciones envolventes y objetos únicos como la alfombra de perlas Baroda.",
+   "d_en": "Designed by Jean Nouvel, its 316 interlocking discs evoke the desert rose. It wraps the historic palace of Sheikh Abdullah bin Jassim and tells Qatar's natural, human and modern story through large-scale immersive galleries, wrap-around films and unique pieces such as the Baroda pearl carpet.",
+   "h": "Sáb-Jue 9:00-19:00, Vie 13:30-19:00.",
+   "h_en": "Sat-Thu 9:00-19:00, Fri 13:30-19:00.",
+   "i": "Compra la entrada online; el recorrido de 1,5 km es de sentido único y dura unas 2 horas.",
+   "i_en": "Buy tickets online; the 1.5 km route is one-way and takes about 2 hours."
+  },
+  "w_doh_katara": {
+   "id": "w_doh_katara",
+   "d": "Katara reúne la vida cultural de Doha en un conjunto de arquitectura tradicional catarí: un anfiteatro griego junto al mar, la Mezquita Dorada y la Mezquita Azul de Fatima, salas de conciertos, galerías de arte, un palomar y decenas de restaurantes. Acoge festivales de cine, música y el famoso festival del dhow tradicional.",
+   "d_en": "Katara gathers Doha's cultural life in a complex of traditional Qatari architecture: a seaside Greek amphitheatre, the Golden Mosque and Fatima's Blue Mosque, concert halls, art galleries, a pigeon tower and dozens of restaurants. It hosts film, music and the famous traditional dhow festivals.",
+   "h": "Recintos exteriores abiertos 24 h; galerías y tiendas 10:00-22:00 aprox.",
+   "h_en": "Outdoor grounds open 24 h; galleries and shops around 10:00-22:00.",
+   "i": "Combina la visita con la puesta de sol en la playa y una cena en sus restaurantes junto al mar.",
+   "i_en": "Combine your visit with sunset on the beach and dinner at its seaside restaurants."
+  },
+  "w_doh_westbay": {
+   "id": "w_doh_westbay",
+   "d": "West Bay concentra los rascacielos más audaces de Doha: la Doha Tower (Torre Burj Qatar) de Jean Nouvel, la Tornado Tower, la Al Bidda o la World Trade Center. De noche, las fachadas iluminadas se reflejan en la bahía y ofrecen una de las estampas urbanas más fotografiadas del Golfo.",
+   "d_en": "West Bay concentrates Doha's boldest skyscrapers: Jean Nouvel's Doha Tower (Burj Qatar), the Tornado Tower, Al Bidda and the World Trade Center. At night the illuminated facades reflect over the bay, offering one of the Gulf's most photographed cityscapes.",
+   "h": "Distrito abierto 24 h; mejores vistas al anochecer.",
+   "h_en": "District open 24 h; best views at dusk.",
+   "i": "La mejor panorámica del skyline se obtiene desde el paseo de la Corniche o desde un dhow en la bahía.",
+   "i_en": "The best skyline panorama is from the Corniche promenade or a dhow on the bay."
+  },
+  "w_doh_torch": {
+   "id": "w_doh_torch",
+   "d": "La Aspire Tower o The Torch, de 300 metros, se construyó como pebetero de los Juegos Asiáticos de 2006 y preside la Aspire Zone deportiva. Alberga un hotel de lujo, una piscina panorámica y un restaurante giratorio con vistas de 360° sobre la ciudad y el desierto.",
+   "d_en": "The 300-metre Aspire Tower, or The Torch, was built as the cauldron of the 2006 Asian Games and presides over the Aspire Zone sports complex. It houses a luxury hotel, a panoramic pool and a revolving restaurant with 360° views over the city and desert.",
+   "h": "Restaurante y miradores según reserva del hotel.",
+   "h_en": "Restaurant and viewpoints subject to hotel booking.",
+   "i": "Sube al restaurante giratorio Three Sixty para las mejores vistas; reserva con antelación.",
+   "i_en": "Head up to the Three Sixty revolving restaurant for the best views; book ahead."
+  },
+  "w_doh_zubarah": {
+   "id": "w_doh_zubarah",
+   "d": "A unos 105 km al noroeste de Doha, el fuerte de Al Zubarah (1938) es la puerta al mayor yacimiento de una ciudad perlera y comercial del siglo XVIII, declarada Patrimonio de la Humanidad por la Unesco. Sus muros de barro albergan un pequeño museo sobre la vida del desierto y las excavaciones de la antigua urbe.",
+   "d_en": "About 105 km north-west of Doha, Al Zubara Fort (1938) is the gateway to the largest surviving 18th-century pearling and trading town, a UNESCO World Heritage site. Its mud-brick walls hold a small museum on desert life and the excavations of the ancient city.",
+   "h": "Sáb-Jue 9:00-17:00 aprox.; conviene ir en coche propio o excursión.",
+   "h_en": "Roughly Sat-Thu 9:00-17:00; best reached by car or a tour.",
+   "i": "Excursión de día completo; combínala con las playas del norte y lleva agua y protección solar.",
+   "i_en": "A full-day trip; combine it with the northern beaches and bring water and sun protection."
+  },
+  "w_doh_msheireb": {
+   "id": "w_doh_msheireb",
+   "d": "Msheireb es el corazón antiguo de Doha reconstruido como uno de los distritos más sostenibles del mundo, con arquitectura contemporánea de inspiración qatarí. Alberga los Msheireb Museums, cuatro casas patrimoniales que narran la esclavitud, la historia de la familia y los orígenes de la ciudad, además de calles peatonales, tranvía y plazas frescas.",
+   "d_en": "Msheireb is Doha's old heart rebuilt as one of the world's most sustainable districts, with contemporary Qatari-inspired architecture. It houses the Msheireb Museums, four heritage houses telling of slavery, family history and the city's origins, plus pedestrian streets, a tram and shaded squares.",
+   "h": "Museos Sáb-Jue 9:00-17:00, Vie 15:00-21:00; entrada gratuita.",
+   "h_en": "Museums Sat-Thu 9:00-17:00, Fri 15:00-21:00; free admission.",
+   "i": "Recorre a pie el barrio al atardecer; está junto al Souq Waqif y bien comunicado por metro.",
+   "i_en": "Walk the district at dusk; it sits next to Souq Waqif and is well served by the metro."
+  },
+  "w_doh_mathaf": {
+   "id": "w_doh_mathaf",
+   "d": "Ubicado en Education City, el Mathaf reúne más de 9.000 obras que trazan la evolución del arte moderno y contemporáneo del mundo árabe desde mediados del siglo XIX. Con exposiciones temporales muy cuidadas, es una parada esencial para entender la creación artística de la región más allá de lo tradicional.",
+   "d_en": "Located in Education City, Mathaf gathers over 9,000 works tracing the evolution of modern and contemporary Arab art from the mid-19th century. With carefully curated temporary shows, it is an essential stop to understand the region's art beyond tradition.",
+   "h": "Sáb-Jue 9:00-19:00, Vie 13:30-19:00.",
+   "h_en": "Sat-Thu 9:00-19:00, Fri 13:30-19:00.",
+   "i": "Combínalo con la Biblioteca Nacional y el Oxygen Park de Education City.",
+   "i_en": "Combine it with the National Library and Education City's Oxygen Park."
+  },
+  "w_doh_grand_mosque": {
+   "id": "w_doh_grand_mosque",
+   "d": "Inaugurada en 2011, la Gran Mezquita del Estado es la mayor de Catar, con 90 cúpulas de arenisca, amplios patios y capacidad para unos 30.000 fieles. Su sobria arquitectura de inspiración wahabí y sus interiores luminosos la convierten en un lugar sereno para conocer la vida religiosa del país.",
+   "d_en": "Opened in 2011, the State Grand Mosque is Qatar's largest, with 90 sandstone domes, vast courtyards and room for around 30,000 worshippers. Its austere Wahhabi-inspired architecture and luminous interiors make it a serene place to learn about the country's religious life.",
+   "h": "Abierta fuera de horas de oración; vestimenta recatada obligatoria.",
+   "h_en": "Open outside prayer times; modest dress required.",
+   "i": "Cubre hombros, brazos y piernas; se prestan abayas en la entrada para las visitantes.",
+   "i_en": "Cover shoulders, arms and legs; abayas are lent to female visitors at the entrance."
+  },
+  "w_doh_al_koot": {
+   "id": "w_doh_al_koot",
+   "d": "Construido hacia 1880 durante el dominio otomano, el fuerte Al Koot vigilaba el zoco y protegía la ciudad. Con sus torreones de esquina y su patio central restaurado, es uno de los edificios históricos mejor conservados de Doha y ofrece una parada perfecta para entender el origen defensivo de la capital.",
+   "d_en": "Built around 1880 during Ottoman rule, Al Koot Fort watched over the souq and protected the town. With its corner towers and restored central courtyard, it is one of Doha's best-preserved historic buildings and a perfect stop to grasp the capital's defensive origins.",
+   "h": "Horario variable según exposiciones; consultar in situ.",
+   "h_en": "Hours vary with exhibitions; check on site.",
+   "i": "Está a un paso del Souq Waqif, ideal para encadenar ambas visitas al atardecer.",
+   "i_en": "It stands right by Souq Waqif, ideal to pair both visits at dusk."
+  },
+  "w_doh_barzan": {
+   "id": "w_doh_barzan",
+   "d": "En el barrio de Umm Salal Mohammed, las torres Barzan (finales del siglo XIX) servían como atalayas para vigilar el horizonte, calcular el calendario lunar y proteger los valiosos pozos y aljibes de agua de lluvia. Restauradas, sus altas siluetas de barro son un raro testimonio de la arquitectura defensiva qatarí.",
+   "d_en": "In the Umm Salal Mohammed district, the Barzan Towers (late 19th century) served as watchtowers to survey the horizon, calculate the lunar calendar and protect the precious wells and rainwater cisterns. Restored, their tall mud silhouettes are a rare witness of Qatari defensive architecture.",
+   "h": "Recinto exterior visitable de día; acceso libre.",
+   "h_en": "Outdoor site visitable by day; free access.",
+   "i": "Están a las afueras, al norte; ve en coche y combínalas con Al Zubarah.",
+   "i_en": "They lie on the northern outskirts; go by car and combine with Al Zubarah."
+  },
+  "w_doh_corniche": {
+   "id": "w_doh_corniche",
+   "d": "La Corniche traza una elegante media luna de siete kilómetros entre el Museo de Arte Islámico y West Bay. Es el gran paseo de Doha: jardines, palmeras, dhows tradicionales meciéndose en la bahía y vistas continuas del skyline. Al amanecer y al atardecer se llena de corredores, familias y fotógrafos.",
+   "d_en": "The Corniche draws an elegant seven-kilometre crescent between the Museum of Islamic Art and West Bay. It is Doha's great promenade: gardens, palm trees, traditional dhows rocking in the bay and continuous skyline views. At dawn and dusk it fills with runners, families and photographers.",
+   "h": "Abierta 24 h; mejor al amanecer o al atardecer.",
+   "h_en": "Open 24 h; best at dawn or dusk.",
+   "i": "Alquila un paseo en dhow desde el muelle para ver el skyline desde el agua.",
+   "i_en": "Hire a dhow ride from the pier to see the skyline from the water."
+  },
+  "w_doh_aspire_park": {
+   "id": "w_doh_aspire_park",
+   "d": "Con 88 hectáreas, Aspire Park es el mayor pulmón verde de Doha: praderas, un lago artificial, cascadas, áreas de juego y senderos para caminar y correr, todo bajo la silueta de la Aspire Tower. Muy popular entre familias, cobra vida al caer la tarde cuando baja el calor.",
+   "d_en": "At 88 hectares, Aspire Park is Doha's largest green lung: lawns, an artificial lake, waterfalls, playgrounds and trails for walking and running, all beneath the Aspire Tower. Hugely popular with families, it comes alive in the evening as the heat drops.",
+   "h": "Abierto 24 h; ambiente familiar al atardecer.",
+   "h_en": "Open 24 h; family atmosphere at dusk.",
+   "i": "Junto al Villaggio Mall; ideal para pasear cuando refresca tras la puesta de sol.",
+   "i_en": "Next to Villaggio Mall; ideal for a stroll once it cools after sunset."
+  },
+  "w_doh_khor_al_adaid": {
+   "id": "w_doh_khor_al_adaid",
+   "d": "Khor Al Adaid, el legendario mar interior, es uno de los pocos lugares del mundo donde el mar penetra tierra adentro entre altas dunas móviles. Reconocido por la Unesco, solo es accesible en 4x4 y ofrece dune bashing, campamentos beduinos, baño en aguas cálidas y noches estrelladas en pleno desierto junto a la frontera saudí.",
+   "d_en": "Khor Al Adaid, the legendary inland sea, is one of the few places on Earth where the sea reaches deep inland among tall shifting dunes. Recognised by UNESCO, it is reachable only by 4x4 and offers dune bashing, Bedouin camps, swims in warm water and starry desert nights near the Saudi border.",
+   "h": "Solo con excursión guiada en 4x4 (medio día o día completo).",
+   "h_en": "Only via a guided 4x4 tour (half or full day).",
+   "i": "Reserva un tour con conductor experto; no intentes conducir por las dunas por tu cuenta.",
+   "i_en": "Book a tour with an expert driver; never attempt to drive the dunes on your own."
+  },
+  "w_doh_al_thakira": {
+   "id": "w_doh_al_thakira",
+   "d": "Al norte de Doha, cerca de Al Khor, los manglares de Al Thakira forman un laberinto verde de canales donde se puede navegar en kayak entre garzas, flamencos y cangrejos. Es un ecosistema costero único en un país desértico y un plan tranquilo, sobre todo al amanecer y con la marea alta.",
+   "d_en": "North of Doha, near Al Khor, the Al Thakira mangroves form a green maze of channels you can paddle by kayak among herons, flamingos and crabs. It is a unique coastal ecosystem in a desert country and a peaceful outing, best at dawn and high tide.",
+   "h": "Accesible de día; tours de kayak según mareas.",
+   "h_en": "Accessible by day; kayak tours depend on the tides.",
+   "i": "Reserva el kayak con marea alta y lleva calzado de agua y repelente.",
+   "i_en": "Book the kayak at high tide and bring water shoes and repellent."
+  },
+  "w_doh_oxygen_park": {
+   "id": "w_doh_oxygen_park",
+   "d": "En el corazón de Education City, Oxygen Park combina jardines ondulados, senderos de tartán, pérgolas de sombra y arte público en un diseño paisajístico premiado. Es un oasis pensado para el deporte y el descanso, muy usado por estudiantes y familias que buscan verde y aire fresco en la ciudad.",
+   "d_en": "In the heart of Education City, Oxygen Park blends rolling gardens, tartan running tracks, shaded pergolas and public art in an award-winning landscape design. It is an oasis made for sport and rest, popular with students and families seeking greenery and fresh air in the city.",
+   "h": "Abierto de día; pistas iluminadas por la tarde.",
+   "h_en": "Open by day; tracks lit in the evening.",
+   "i": "Combínalo con el Mathaf y la Biblioteca Nacional de Catar, muy cerca.",
+   "i_en": "Combine it with Mathaf and the Qatar National Library, both nearby."
+  },
+  "w_doh_katara_beach": {
+   "id": "w_doh_katara_beach",
+   "d": "Junto a la aldea cultural, la playa de Katara ofrece arena cuidada, aguas tranquilas y una amplia oferta de deportes acuáticos: kayak, paddle surf, banana y motos de agua. Con vistas al skyline de West Bay a lo lejos, es una de las playas más accesibles y familiares de Doha.",
+   "d_en": "Beside the cultural village, Katara Beach offers groomed sand, calm waters and a wide range of water sports: kayak, paddleboard, banana boat and jet skis. With West Bay's skyline in the distance, it is one of Doha's most accessible and family-friendly beaches.",
+   "h": "Diaria, con alquiler de deportes acuáticos por horas.",
+   "h_en": "Daily, with hourly water-sports rentals.",
+   "i": "Hay zona de pago con hamacas; ve temprano en fin de semana para coger sitio.",
+   "i_en": "There is a paid area with sun loungers; go early on weekends to get a spot."
+  },
+  "w_doh_the_pearl": {
+   "id": "w_doh_the_pearl",
+   "d": "The Pearl-Qatar es una isla artificial de cuatro millones de metros cuadrados construida sobre antiguos bancos de perlas. Su zona más fotogénica, Porto Arabia, alinea yates de lujo, torres residenciales y un paseo lleno de boutiques de firmas internacionales, cafés y restaurantes con aire de Riviera mediterránea.",
+   "d_en": "The Pearl-Qatar is a four-million-square-metre artificial island built over former pearl banks. Its most photogenic quarter, Porto Arabia, lines up luxury yachts, residential towers and a promenade full of international designer boutiques, cafes and restaurants with a Mediterranean Riviera air.",
+   "h": "Tiendas y restaurantes 10:00-23:00 aprox.; paseo abierto 24 h.",
+   "h_en": "Shops and restaurants around 10:00-23:00; promenade open 24 h.",
+   "i": "Ve al atardecer, pasea por la marina de Porto Arabia y cena con vistas al puerto.",
+   "i_en": "Go at sunset, stroll Porto Arabia's marina and dine with harbour views."
+  },
+  "w_doh_villaggio": {
+   "id": "w_doh_villaggio",
+   "d": "Inspirado en Venecia, el Villaggio Mall recrea calles italianas bajo un cielo pintado, con un canal interior por el que navegan góndolas. Reúne cientos de tiendas, cines, una gran pista de patinaje sobre hielo y el parque de atracciones Gondolania, siendo uno de los centros comerciales más populares y familiares del país.",
+   "d_en": "Inspired by Venice, Villaggio Mall recreates Italian streets under a painted sky, with an indoor canal plied by gondolas. It gathers hundreds of shops, cinemas, a large ice-skating rink and the Gondolania theme park, making it one of the country's most popular and family-friendly malls.",
+   "h": "Diario 10:00-22:00, Jue-Vie hasta 23:00.",
+   "h_en": "Daily 10:00-22:00, Thu-Fri until 23:00.",
+   "i": "Junto a Aspire Park; ideal para escapar del calor del mediodía con niños.",
+   "i_en": "Next to Aspire Park; ideal to escape the midday heat with children."
+  },
+  "w_doh_falcon_souq": {
+   "id": "w_doh_falcon_souq",
+   "d": "Anexo al Souq Waqif, el Falcon Souq es un mercado especializado donde se compran, venden y equipan halcones de caza, una tradición muy arraigada en el Golfo. Entre tiendas de capirotes, guantes y perchas se puede ver de cerca a estas aves y visitar el hospital de halcones contiguo. Una experiencia cultural única y gratuita.",
+   "d_en": "Adjoining Souq Waqif, the Falcon Souq is a specialised market where hunting falcons are bought, sold and equipped, a deeply rooted Gulf tradition. Among shops of hoods, gloves and perches you can see these birds up close and visit the neighbouring falcon hospital. A unique, free cultural experience.",
+   "h": "Sáb-Jue 9:00-13:00 y 16:00-21:00 aprox.",
+   "h_en": "Roughly Sat-Thu 9:00-13:00 and 16:00-21:00.",
+   "i": "Pregunta con respeto antes de fotografiar las aves; el hospital de halcones se visita al lado.",
+   "i_en": "Ask respectfully before photographing the birds; the falcon hospital is next door."
+  },
+  "w_doh_souq_waqif": {
+   "id": "w_doh_souq_waqif",
+   "d": "Souq Waqif es el zoco histórico de Doha, restaurado con su arquitectura de barro y madera. Sus callejones laberínticos rebosan de especias, telas, perfumes, oud, artesanía y souvenirs, mientras que sus terrazas de shisha y restaurantes de todo el mundo árabe lo convierten en el corazón social y nocturno de la ciudad.",
+   "d_en": "Souq Waqif is Doha's historic bazaar, restored with its mud-and-timber architecture. Its labyrinthine alleys brim with spices, fabrics, perfumes, oud, crafts and souvenirs, while its shisha terraces and restaurants from across the Arab world make it the city's social and night-time heart.",
+   "h": "Tiendas 9:00-13:00 y 16:00-22:00; cafés hasta tarde.",
+   "h_en": "Shops 9:00-13:00 and 16:00-22:00; cafes until late.",
+   "i": "Regatea con simpatía y ve al anochecer, cuando el zoco cobra más vida.",
+   "i_en": "Haggle good-naturedly and go after dark, when the souq is most alive."
+  },
+  "w_doh_lusail_marina": {
+   "id": "w_doh_lusail_marina",
+   "d": "Lusail es la ciudad planificada más nueva de Catar, levantada al norte de Doha para el Mundial de 2022. Su marina y el Lusail Boulevard, con palmeras iluminadas, fuentes y tiendas, se combinan con rascacielos vanguardistas como las torres Katara. Un paseo nocturno muestra la cara más futurista del país.",
+   "d_en": "Lusail is Qatar's newest planned city, raised north of Doha for the 2022 World Cup. Its marina and the Lusail Boulevard, with lit palm trees, fountains and shops, blend with avant-garde skyscrapers such as the Katara Towers. An evening walk reveals the country's most futuristic face.",
+   "h": "Boulevard y paseos abiertos 24 h; tiendas por la tarde-noche.",
+   "h_en": "Boulevard and promenades open 24 h; shops in the afternoon-evening.",
+   "i": "Llega en metro (línea roja hasta Lusail) y recórrelo de noche con las luces encendidas.",
+   "i_en": "Arrive by metro (Red Line to Lusail) and walk it at night with the lights on."
+  },
+  "w_doh_festival_city": {
+   "id": "w_doh_festival_city",
+   "d": "Doha Festival City es el mayor complejo comercial y de ocio del país, con más de 500 tiendas, hipermercado, cines y una gran oferta de restauración. Alberga parques temáticos cubiertos como Angry Birds World y Virtuocity, además de la escultura Miraculous Journey de Damien Hirst en el hospital cercano.",
+   "d_en": "Doha Festival City is the country's largest shopping and leisure complex, with over 500 shops, a hypermarket, cinemas and a vast dining offer. It houses indoor theme parks such as Angry Birds World and Virtuocity, plus Damien Hirst's Miraculous Journey sculpture at the nearby hospital.",
+   "h": "Diario 10:00-22:00, Jue-Vie hasta 24:00.",
+   "h_en": "Daily 10:00-22:00, Thu-Fri until midnight.",
+   "i": "Cerca del aeropuerto; buena opción para las últimas horas antes de un vuelo.",
+   "i_en": "Close to the airport; a good option for the last hours before a flight."
+  },
+  "w_doh_mall_of_qatar": {
+   "id": "w_doh_mall_of_qatar",
+   "d": "Junto al estadio Ahmad Bin Ali, el Mall of Qatar destaca por su Oasis central, un escenario giratorio donde se celebran espectáculos y actuaciones diarias. Reúne cientos de tiendas, una amplia zona de restauración, cines y el parque de atracciones cubierto Juman Park, ideal para un día completo con niños.",
+   "d_en": "Beside Ahmad Bin Ali Stadium, Mall of Qatar stands out for its central Oasis, a revolving stage hosting daily shows and performances. It gathers hundreds of shops, a large food court, cinemas and the indoor Juman Park amusement park, ideal for a full day with children.",
+   "h": "Diario 10:00-22:00, Jue-Vie hasta 24:00.",
+   "h_en": "Daily 10:00-22:00, Thu-Fri until midnight.",
+   "i": "Conectado por metro (línea verde); consulta el horario de los shows del Oasis.",
+   "i_en": "Connected by metro (Green Line); check the schedule of the Oasis shows."
+  },
+  "w_doh_idam": {
+   "id": "w_doh_idam",
+   "d": "Situado en lo alto del Museo de Arte Islámico, IDAM es el primer restaurante de Alain Ducasse en Oriente Medio. Fusiona la técnica francesa con sabores mediterráneos y árabes en un interior de diseño firmado por Philippe Starck, con vistas espectaculares del skyline y el golfo. Una experiencia gastronómica de gala.",
+   "d_en": "Perched atop the Museum of Islamic Art, IDAM is Alain Ducasse's first restaurant in the Middle East. It fuses French technique with Mediterranean and Arab flavours in a Philippe Starck interior, with spectacular views of the skyline and the gulf. A gala dining experience.",
+   "h": "Reserva imprescindible; código de vestimenta formal.",
+   "h_en": "Reservation essential; formal dress code.",
+   "i": "Pide mesa junto al ventanal al anochecer para la mejor vista del skyline.",
+   "i_en": "Ask for a window table at dusk for the best skyline view."
+  },
+  "w_doh_al_mourjan": {
+   "id": "w_doh_al_mourjan",
+   "d": "Institución de la Corniche desde hace décadas, Al Mourjan sirve cocina libanesa y árabe en un elegante salón y una terraza volada sobre la bahía. Sus mezze, parrilladas y postres se disfrutan con una de las mejores panorámicas del skyline de West Bay, especialmente al atardecer.",
+   "d_en": "A Corniche institution for decades, Al Mourjan serves Lebanese and Arab cuisine in an elegant dining room and a terrace projecting over the bay. Its mezze, grills and desserts come with one of the best panoramas of the West Bay skyline, especially at sunset.",
+   "h": "Terraza muy solicitada; reserva al atardecer.",
+   "h_en": "Terrace much in demand; book for sunset.",
+   "i": "Empieza con una selección de mezze fríos y calientes para compartir.",
+   "i_en": "Start with a selection of cold and hot mezze to share."
+  },
+  "w_doh_parisa": {
+   "id": "w_doh_parisa",
+   "d": "En pleno Souq Waqif, Parisa es famoso por su interior cubierto de mosaicos de espejo al estilo de los palacios de Isfahán, un festín visual. Su carta persa brilla con kebabs de cordero, arroces perfumados con azafrán, khoresh y postres tradicionales. Cenar aquí es sumergirse en la opulencia de Persia.",
+   "d_en": "In the heart of Souq Waqif, Parisa is famed for its interior clad in mirror mosaics in the style of Isfahan's palaces, a visual feast. Its Persian menu shines with lamb kebabs, saffron-scented rice, khoresh stews and traditional desserts. Dining here means immersing yourself in Persian opulence.",
+   "h": "Reserva recomendada los fines de semana.",
+   "h_en": "Booking recommended at weekends.",
+   "i": "Pide la mesa del salón de espejos y prueba el kebab de cordero con arroz de azafrán.",
+   "i_en": "Ask for the mirror-hall room and try the lamb kebab with saffron rice."
+  },
+  "w_doh_shay_al_shomos": {
+   "id": "w_doh_shay_al_shomos",
+   "d": "Regentado por la conocida cocinera Shams Al Qassabi, Shay Al Shomos es uno de los pocos lugares para probar auténtica cocina catarí casera en el Souq Waqif. Su desayuno tradicional con balaleet, chebab, huevos con tomate y karak (té con leche especiado) es una inmersión deliciosa en los sabores locales.",
+   "d_en": "Run by the well-known cook Shams Al Qassabi, Shay Al Shomos is one of the few places to try authentic home-style Qatari cuisine in Souq Waqif. Its traditional breakfast of balaleet, chebab, tomato eggs and karak (spiced milk tea) is a delicious immersion in local flavours.",
+   "h": "Popular a la hora del desayuno; puede haber espera.",
+   "h_en": "Popular at breakfast; expect a possible wait.",
+   "i": "No te vayas sin probar el karak y el chebab (tortita qatarí) recién hechos.",
+   "i_en": "Do not leave without trying freshly made karak and chebab (Qatari pancake)."
+  }
+ },
+ "food": {
+  "w_doh_idam": {
+   "cuisine": "Alta cocina francesa con toque árabe",
+   "price": "120–220 €",
+   "hours": "Mar-Sáb 19:00-23:00"
+  },
+  "w_doh_al_mourjan": {
+   "cuisine": "Libanesa y árabe",
+   "price": "25–55 €",
+   "hours": "Diario 12:00-24:00"
+  },
+  "w_doh_parisa": {
+   "cuisine": "Persa",
+   "price": "30–60 €",
+   "hours": "Diario 12:00-23:30"
+  },
+  "w_doh_shay_al_shomos": {
+   "cuisine": "Catarí tradicional",
+   "price": "10–25 €",
+   "hours": "Diario 7:00-22:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Doha",
+   "items": [
+    {
+     "name": "Perlas del Golfo",
+     "price": "40–400 €",
+     "desc": "Perlas naturales y cultivadas, símbolo histórico de Catar antes del petróleo."
+    },
+    {
+     "name": "Dallah (cafetera árabe)",
+     "price": "15–90 €",
+     "desc": "Cafetera de latón para el café con cardamomo, icono de la hospitalidad qatarí."
+    },
+    {
+     "name": "Oud y bujur",
+     "price": "20–150 €",
+     "desc": "Maderas e inciensos aromáticos muy apreciados en el Golfo."
+    },
+    {
+     "name": "Dátiles y dulces árabes",
+     "price": "8–35 €",
+     "desc": "Dátiles rellenos, baklava y luqaimat, ideales para regalar."
+    },
+    {
+     "name": "Pashminas y textiles bordados",
+     "price": "12–60 €",
+     "desc": "Chales y telas con bordados tradicionales del Souq Waqif."
+    }
+   ],
+   "shops": [
+    "Souq Waqif",
+    "The Pearl-Qatar",
+    "Villaggio Mall",
+    "Msheireb Downtown",
+    "Katara Cultural Village"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Evita el verano (junio-septiembre): supera los 42 °C; la mejor época es de noviembre a marzo.",
+   "Viste con recato: hombros y rodillas cubiertos, sobre todo en zocos y mezquitas.",
+   "El metro de Doha es moderno, barato y con aire acondicionado; conecta aeropuerto, West Bay y museos.",
+   "Reserva con antelación el tour 4x4 a las dunas de Khor Al Adaid (mar interior); no se llega en coche normal.",
+   "El fin de semana es viernes y sábado; muchos comercios abren tarde el viernes por la oración."
+  ],
+  "en": [
+   "Avoid summer (June-September): temperatures top 42 °C; the best season runs November to March.",
+   "Dress modestly: cover shoulders and knees, especially in souqs and mosques.",
+   "Doha Metro is modern, cheap and air-conditioned, linking the airport, West Bay and the museums.",
+   "Book the 4x4 tour to the Khor Al Adaid dunes (inland sea) ahead; you cannot reach it in a regular car.",
+   "The weekend is Friday and Saturday; many shops open late on Friday due to prayers."
+  ]
+ },
+ "climate": {
+  "hi": [
+   22,
+   24,
+   28,
+   34,
+   40,
+   42,
+   42,
+   41,
+   39,
+   35,
+   30,
+   25
+  ],
+  "lo": [
+   14,
+   15,
+   18,
+   22,
+   27,
+   30,
+   31,
+   31,
+   28,
+   24,
+   20,
+   16
+  ]
+ },
+ "tr": {
+  "Obra maestra de I. M. Pei sobre una isla artificial con la mayor colección de arte islámico.": "I. M. Pei masterpiece on an artificial island holding the finest Islamic art collection.",
+  "Espectacular edificio de Jean Nouvel inspirado en la rosa del desierto.": "Spectacular Jean Nouvel building inspired by the desert rose crystal.",
+  "Aldea cultural con anfiteatro, mezquitas de mosaico, galerías y playa.": "Cultural village with an amphitheatre, mosaic mosques, galleries and a beach.",
+  "Skyline futurista de rascacielos que define la imagen moderna de Doha.": "Futuristic skyline of skyscrapers defining Doha's modern image.",
+  "Torre-antorcha de 300 m, símbolo de los Juegos Asiáticos de 2006.": "300 m torch-shaped tower, symbol of the 2006 Asian Games.",
+  "Fuerte de 1938 junto a la ciudad perlera Patrimonio de la Humanidad.": "1938 fort beside the pearling town, a UNESCO World Heritage site.",
+  "Barrio histórico regenerado como distrito sostenible con museos.": "Historic quarter regenerated as a sustainable district with museums.",
+  "Referente del arte moderno y contemporáneo árabe en Education City.": "Leading museum of modern and contemporary Arab art in Education City.",
+  "La Gran Mezquita del Estado, con 90 cúpulas y capacidad para 30.000 fieles.": "The State Grand Mosque, with 90 domes and room for 30,000 worshippers.",
+  "Fortaleza otomana de 1880 junto al Souq Waqif.": "1880 Ottoman fortress next to Souq Waqif.",
+  "Atalayas del siglo XIX usadas para observar la luna y el agua.": "19th-century watchtowers used to observe the moon and water.",
+  "Paseo marítimo de 7 km en media luna frente a la bahía y el skyline.": "7 km crescent seafront promenade facing the bay and the skyline.",
+  "El mayor parque de Doha, con lago, zonas verdes y la Torch al fondo.": "Doha's largest park, with a lake, lawns and the Torch as backdrop.",
+  "Mar interior rodeado de dunas, reserva natural Unesco al sur del país.": "Inland sea ringed by dunes, a UNESCO reserve in the far south.",
+  "Bosque de manglares cerca de Al Khor, ideal para kayak y aves.": "Mangrove forest near Al Khor, ideal for kayaking and birdwatching.",
+  "Parque paisajístico de Education City para correr y pasear.": "Landscaped Education City park for running and strolling.",
+  "Playa urbana junto a la aldea cultural con deportes acuáticos.": "Urban beach beside the cultural village with water sports.",
+  "Isla artificial de lujo con marina, boutiques y ambiente mediterráneo.": "Luxury artificial island with a marina, boutiques and Riviera vibe.",
+  "Centro comercial temático de Venecia con canal y góndolas.": "Venice-themed mall with an indoor canal and gondolas.",
+  "Mercado de halcones de cetrería junto al Souq Waqif.": "Falconry market beside Souq Waqif.",
+  "Zoco tradicional restaurado con especias, artesanía y cafés.": "Restored traditional souq with spices, crafts and cafes.",
+  "Ciudad futurista con paseo marítimo, boulevard y rascacielos.": "Futuristic city with a seaside promenade, boulevard and skyscrapers.",
+  "Mayor centro comercial y de ocio de Catar con parques temáticos.": "Qatar's largest mall and leisure hub with theme parks.",
+  "Gran centro comercial con teatro central y espectáculos.": "Large mall with a central theatre and live shows.",
+  "Restaurante de alta cocina de Alain Ducasse en la cima del MIA.": "Alain Ducasse fine-dining restaurant atop the MIA.",
+  "Clásico restaurante libanés en la Corniche con vistas a la bahía.": "Classic Lebanese restaurant on the Corniche with bay views.",
+  "Restaurante persa deslumbrante por su decoración de espejos.": "Persian restaurant dazzling for its mirror-mosaic decor.",
+  "Casa de comidas qatarí auténtica escondida en el Souq Waqif.": "Authentic Qatari eatery tucked inside Souq Waqif.",
+  "Doha": "Doha"
+ }
+}

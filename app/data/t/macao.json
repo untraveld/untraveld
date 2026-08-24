@@ -1,0 +1,660 @@
+{
+ "id": "macao",
+ "name": "Macao",
+ "country": "WORLD",
+ "center": [
+  22.167,
+  113.549
+ ],
+ "pois": [
+  {
+   "id": "w_mac_ruinas_san_pablo",
+   "cat": "monuments",
+   "name": "Ruinas de San Pablo",
+   "icon": "⛪",
+   "lat": 22.19758,
+   "lng": 113.54056,
+   "desc": "La fachada de la antigua iglesia jesuita de San Pablo, símbolo de Macao."
+  },
+  {
+   "id": "w_mac_largo_senado",
+   "cat": "monuments",
+   "name": "Largo do Senado",
+   "icon": "🏛️",
+   "lat": 22.19388,
+   "lng": 113.5398,
+   "desc": "Plaza histórica con suelo de mosaico ondulado portugués."
+  },
+  {
+   "id": "w_mac_fortaleza_monte",
+   "cat": "monuments",
+   "name": "Fortaleza do Monte",
+   "icon": "🏰",
+   "lat": 22.1975,
+   "lng": 113.54167,
+   "desc": "Fortaleza del siglo XVII con vistas panorámicas de Macao."
+  },
+  {
+   "id": "w_mac_templo_ama",
+   "cat": "monuments",
+   "name": "Templo A-Ma",
+   "icon": "🛕",
+   "lat": 22.18631,
+   "lng": 113.53139,
+   "desc": "El templo más antiguo de Macao, dedicado a la diosa del mar."
+  },
+  {
+   "id": "w_mac_casa_mandarim",
+   "cat": "monuments",
+   "name": "Casa do Mandarim",
+   "icon": "🏯",
+   "lat": 22.18927,
+   "lng": 113.53489,
+   "desc": "Mansión histórica china del influyente Zheng Guanying."
+  },
+  {
+   "id": "w_mac_igreja_sao_domingos",
+   "cat": "monuments",
+   "name": "Iglesia de San Domingos",
+   "icon": "⛪",
+   "lat": 22.19417,
+   "lng": 113.53944,
+   "desc": "Iglesia barroca de fachada amarilla junto al Senado."
+  },
+  {
+   "id": "w_mac_fortaleza_guia",
+   "cat": "monuments",
+   "name": "Fortaleza y Faro de Guia",
+   "icon": "🚨",
+   "lat": 22.19694,
+   "lng": 113.54889,
+   "desc": "Faro colonial más antiguo de China sobre la colina de Guia."
+  },
+  {
+   "id": "w_mac_igreja_sao_lourenco",
+   "cat": "monuments",
+   "name": "Iglesia de San Lorenzo",
+   "icon": "⛪",
+   "lat": 22.18889,
+   "lng": 113.53472,
+   "desc": "Una de las iglesias más antiguas y bellas de Macao."
+  },
+  {
+   "id": "w_mac_templo_na_tcha",
+   "cat": "monuments",
+   "name": "Templo Na Tcha",
+   "icon": "🛕",
+   "lat": 22.19778,
+   "lng": 113.54083,
+   "desc": "Pequeño templo taoísta junto a las Ruinas de San Pablo."
+  },
+  {
+   "id": "w_mac_casas_taipa",
+   "cat": "monuments",
+   "name": "Casas-Museo de Taipa",
+   "icon": "🏠",
+   "lat": 22.15361,
+   "lng": 113.55694,
+   "desc": "Cinco villas coloniales verdes junto a los humedales de Taipa."
+  },
+  {
+   "id": "w_mac_leal_senado",
+   "cat": "monuments",
+   "name": "Edificio del Leal Senado",
+   "icon": "🏛️",
+   "lat": 22.19361,
+   "lng": 113.53944,
+   "desc": "Antigua sede del gobierno municipal frente al Senado."
+  },
+  {
+   "id": "w_mac_coloane",
+   "cat": "nature",
+   "name": "Coloane",
+   "icon": "🌴",
+   "lat": 22.1175,
+   "lng": 113.55611,
+   "desc": "Aldea costera tradicional, el lado tranquilo y verde de Macao."
+  },
+  {
+   "id": "w_mac_praia_hac_sa",
+   "cat": "nature",
+   "name": "Playa de Hac Sá",
+   "icon": "🏖️",
+   "lat": 22.11694,
+   "lng": 113.56972,
+   "desc": "La mayor playa natural de Macao, de arena oscura."
+  },
+  {
+   "id": "w_mac_praia_cheoc_van",
+   "cat": "nature",
+   "name": "Playa de Cheoc Van",
+   "icon": "🏖️",
+   "lat": 22.10861,
+   "lng": 113.55833,
+   "desc": "Cala tranquila y protegida en el sur de Coloane."
+  },
+  {
+   "id": "w_mac_jardim_camoes",
+   "cat": "nature",
+   "name": "Jardín de Luís de Camões",
+   "icon": "🌳",
+   "lat": 22.19889,
+   "lng": 113.5375,
+   "desc": "Frondoso jardín dedicado al gran poeta portugués."
+  },
+  {
+   "id": "w_mac_seac_pai_van",
+   "cat": "nature",
+   "name": "Parque de Seac Pai Van",
+   "icon": "🐼",
+   "lat": 22.13139,
+   "lng": 113.55389,
+   "desc": "Gran parque natural con pabellón de pandas gigantes."
+  },
+  {
+   "id": "w_mac_colina_guia",
+   "cat": "nature",
+   "name": "Colina de Guia",
+   "icon": "🌲",
+   "lat": 22.19722,
+   "lng": 113.54806,
+   "desc": "Colina verde con senderos en el centro de la península."
+  },
+  {
+   "id": "w_mac_torre_macao",
+   "cat": "ocio",
+   "name": "Torre de Macao",
+   "icon": "🗼",
+   "lat": 22.17459,
+   "lng": 113.53528,
+   "desc": "Torre de 338 m con mirador y bungee jumping."
+  },
+  {
+   "id": "w_mac_venetian",
+   "cat": "ocio",
+   "name": "The Venetian Macao",
+   "icon": "🎰",
+   "lat": 22.1425,
+   "lng": 113.5563,
+   "desc": "Colosal casino-resort con canales y góndolas venecianas."
+  },
+  {
+   "id": "w_mac_cotai_strip",
+   "cat": "ocio",
+   "name": "Cotai Strip",
+   "icon": "🌃",
+   "lat": 22.14556,
+   "lng": 113.56,
+   "desc": "Avenida de megacasinos y resorts entre Taipa y Coloane."
+  },
+  {
+   "id": "w_mac_grand_lisboa",
+   "cat": "ocio",
+   "name": "Grand Lisboa",
+   "icon": "🌟",
+   "lat": 22.18944,
+   "lng": 113.5425,
+   "desc": "Rascacielos-casino con forma de flor de loto dorada."
+  },
+  {
+   "id": "w_mac_city_of_dreams",
+   "cat": "ocio",
+   "name": "City of Dreams",
+   "icon": "💧",
+   "lat": 22.14889,
+   "lng": 113.56222,
+   "desc": "Resort de Cotai famoso por el espectáculo acuático."
+  },
+  {
+   "id": "w_mac_taipa_village",
+   "cat": "ocio",
+   "name": "Taipa Village",
+   "icon": "🏘️",
+   "lat": 22.1525,
+   "lng": 113.55583,
+   "desc": "Casco antiguo de Taipa con calles coloniales y tiendas."
+  },
+  {
+   "id": "w_mac_rua_cunha",
+   "cat": "food",
+   "name": "Rua do Cunha",
+   "icon": "🍢",
+   "lat": 22.15306,
+   "lng": 113.55639,
+   "desc": "Célebre calle peatonal de comida callejera en Taipa."
+  },
+  {
+   "id": "w_mac_lord_stow",
+   "cat": "food",
+   "name": "Lord Stow's Bakery",
+   "icon": "🥧",
+   "lat": 22.11722,
+   "lng": 113.55611,
+   "desc": "Cuna de la tarta de huevo estilo macaense en Coloane."
+  },
+  {
+   "id": "w_mac_restaurante_litoral",
+   "cat": "food",
+   "name": "Restaurante Litoral",
+   "icon": "🍤",
+   "lat": 22.18806,
+   "lng": 113.535,
+   "desc": "Referente de auténtica cocina macaense tradicional."
+  },
+  {
+   "id": "w_mac_wong_chi_kei",
+   "cat": "food",
+   "name": "Wong Chi Kei",
+   "icon": "🍜",
+   "lat": 22.19361,
+   "lng": 113.53972,
+   "desc": "Clásica casa de fideos y wonton junto al Senado."
+  },
+  {
+   "id": "w_mac_margaret_cafe",
+   "cat": "food",
+   "name": "Margaret's Café e Nata",
+   "icon": "🍮",
+   "lat": 22.19167,
+   "lng": 113.54028,
+   "desc": "Café céntrico famoso por sus tartas de huevo y bocadillos."
+  }
+ ],
+ "extra": {
+  "w_mac_ruinas_san_pablo": {
+   "id": "w_mac_ruinas_san_pablo",
+   "d": "Es lo único que quedó en pie tras el incendio de 1835 de la iglesia de la Madre de Dios y su colegio jesuita del siglo XVII. Su fachada de piedra, tallada con imágenes cristianas y motivos orientales, es Patrimonio de la Humanidad y el icono más fotografiado de la ciudad.",
+   "d_en": "The only survivor of the 1835 fire that destroyed the 17th-century Church of Mater Dei and its Jesuit college. The stone facade, carved with Christian imagery and Oriental motifs, is a UNESCO World Heritage Site and the city's most photographed icon.",
+   "h": "Sube la gran escalinata al atardecer y visita la cripta y el museo de arte sacro tras la fachada.",
+   "h_en": "Climb the grand staircase at sunset and visit the crypt and sacred art museum behind the facade.",
+   "i": "Acceso gratuito; llega temprano para fotos sin multitudes. Combínala con la Fortaleza do Monte, justo al lado.",
+   "i_en": "Free access; arrive early for crowd-free photos. Combine it with Mount Fortress, right next door."
+  },
+  "w_mac_largo_senado": {
+   "id": "w_mac_largo_senado",
+   "d": "Corazón del casco antiguo desde hace siglos, esta plaza peatonal está rodeada de edificios coloniales de colores pastel y pavimentada con la característica calçada portuguesa en olas. Forma parte del Centro Histórico de Macao, Patrimonio de la Humanidad.",
+   "d_en": "The heart of the old town for centuries, this pedestrian square is ringed by pastel-colored colonial buildings and paved with the characteristic wave-patterned Portuguese calçada. It is part of the UNESCO-listed Historic Centre of Macao.",
+   "h": "Fíjate en la iglesia de San Domingos, la fuente central y el edificio del Leal Senado en el extremo sur.",
+   "h_en": "Look for St. Dominic's Church, the central fountain and the Leal Senado building at the south end.",
+   "i": "Punto de partida ideal para recorrer a pie el casco histórico; muy animado y decorado en fiestas.",
+   "i_en": "Ideal starting point for a walking tour of the historic center; lively and decorated during festivals."
+  },
+  "w_mac_fortaleza_monte": {
+   "id": "w_mac_fortaleza_monte",
+   "d": "Construida por los jesuitas entre 1617 y 1626 para defender la ciudad, sus murallas y cañones repelieron el ataque holandés de 1622. Hoy alberga jardines y el Museo de Macao, y ofrece una de las mejores vistas de la ciudad junto a las Ruinas de San Pablo.",
+   "d_en": "Built by the Jesuits between 1617 and 1626 to defend the city, its walls and cannons repelled the Dutch attack of 1622. Today it houses gardens and the Macao Museum, offering one of the best views in the city beside the Ruins of St. Paul's.",
+   "h": "Recorre las murallas con sus cañones apuntando al horizonte y visita el Museo de Macao en su interior.",
+   "h_en": "Walk the walls with cannons pointing to the horizon and visit the Macao Museum inside.",
+   "i": "Acceso gratuito a la fortaleza (el museo es de pago). Se llega en escaleras mecánicas desde el museo.",
+   "i_en": "Free access to the fortress (the museum charges admission). Reached by escalators from the museum."
+  },
+  "w_mac_templo_ama": {
+   "id": "w_mac_templo_ama",
+   "d": "Anterior a la llegada de los portugueses (existe desde 1488), este templo dedicado a Mazu, diosa de los marineros, dio nombre a Macao: los portugueses oyeron 'A-Ma-Gao' (bahía de A-Ma). Sus pabellones trepan por la ladera entre incienso, rocas talladas y jardines.",
+   "d_en": "Predating the Portuguese arrival (it dates from 1488), this temple to Mazu, goddess of seafarers, gave Macao its name: the Portuguese heard 'A-Ma-Gao' (Bay of A-Ma). Its pavilions climb the hillside amid incense, carved rocks and gardens.",
+   "h": "Sube entre los pabellones escalonados y busca los grabados de barcos en las rocas.",
+   "h_en": "Climb among the terraced pavilions and look for the ship carvings on the rocks.",
+   "i": "Patrimonio de la Humanidad. Muy concurrido durante el Año Nuevo Chino y el festival de A-Ma.",
+   "i_en": "A World Heritage Site. Very busy during Chinese New Year and the A-Ma festival."
+  },
+  "w_mac_casa_mandarim": {
+   "id": "w_mac_casa_mandarim",
+   "d": "Construida hacia 1869, esta amplia residencia tradicional fue el hogar del reformista y pensador Zheng Guanying. Con más de 4.000 m² de patios, salones y detalles que fusionan estilos chino y occidental, es uno de los conjuntos residenciales históricos más notables de Macao.",
+   "d_en": "Built around 1869, this sprawling traditional residence was the home of reformist thinker Zheng Guanying. With over 4,000 m² of courtyards, halls and details blending Chinese and Western styles, it is one of Macao's most remarkable historic residential complexes.",
+   "h": "Recorre sus patios interiores y las celosías que mezclan influencia portuguesa e india.",
+   "h_en": "Wander its inner courtyards and the latticework blending Portuguese and Indian influence.",
+   "i": "Entrada gratuita, parte del Centro Histórico. Escondida en un callejón cerca de la iglesia de San Lorenzo.",
+   "i_en": "Free entry, part of the Historic Centre. Tucked in an alley near St. Lawrence's Church."
+  },
+  "w_mac_igreja_sao_domingos": {
+   "id": "w_mac_igreja_sao_domingos",
+   "d": "Fundada por dominicos españoles en 1587, su elegante fachada amarilla y blanca preside un lateral del Largo do Senado. En su interior alberga un museo de arte sacro con más de 300 piezas repartidas en el antiguo campanario.",
+   "d_en": "Founded by Spanish Dominicans in 1587, its elegant yellow-and-white facade presides over one side of Senado Square. Inside it houses a sacred art museum with over 300 pieces displayed in the former bell tower.",
+   "h": "Entra a ver el altar barroco y sube al pequeño museo del Tesoro de Arte Sacro.",
+   "h_en": "Step in to see the Baroque altar and climb to the small Treasury of Sacred Art museum.",
+   "i": "Acceso gratuito. A pocos pasos del Senado y de las Ruinas de San Pablo.",
+   "i_en": "Free access. A few steps from Senado Square and the Ruins of St. Paul's."
+  },
+  "w_mac_fortaleza_guia": {
+   "id": "w_mac_fortaleza_guia",
+   "d": "En lo alto de la colina de Guia, esta fortaleza del siglo XVII corona el punto más elevado de la península. Su faro, de 1865, fue el primero de estilo occidental en la costa china, y la capilla contiene frescos que combinan motivos cristianos y chinos.",
+   "d_en": "Atop Guia Hill, this 17th-century fortress crowns the peninsula's highest point. Its 1865 lighthouse was the first Western-style beacon on the Chinese coast, and the chapel holds frescoes blending Christian and Chinese motifs.",
+   "h": "Sube en el teleférico de Guia y disfruta de vistas de 360° sobre Macao y el mar.",
+   "h_en": "Ride the Guia cable car up and enjoy 360° views over Macao and the sea.",
+   "i": "Parte del Centro Histórico. El teleférico es muy barato pero de horario limitado.",
+   "i_en": "Part of the Historic Centre. The cable car is very cheap but runs limited hours."
+  },
+  "w_mac_igreja_sao_lourenco": {
+   "id": "w_mac_igreja_sao_lourenco",
+   "d": "Fundada por los jesuitas en el siglo XVI, la iglesia de San Lorenzo se alza entre jardines y escalinatas de piedra. Las familias de marineros portugueses rezaban aquí por el regreso seguro de sus barcos, de ahí su antiguo nombre en cantonés 'Fung Shun Tong' (salón del viento propicio).",
+   "d_en": "Founded by the Jesuits in the 16th century, St. Lawrence's Church rises amid gardens and stone staircases. Portuguese sailors' families prayed here for the safe return of their ships, hence its old Cantonese name 'Fung Shun Tong' (Hall of the Soothing Winds).",
+   "h": "Admira su techo de artesonado y las vidrieras; entorno tranquilo lejos del bullicio.",
+   "h_en": "Admire its coffered ceiling and stained glass; a peaceful setting away from the bustle.",
+   "i": "Acceso gratuito. En la ruta hacia el Templo A-Ma y la Casa do Mandarim.",
+   "i_en": "Free access. On the route toward A-Ma Temple and the Mandarin's House."
+  },
+  "w_mac_templo_na_tcha": {
+   "id": "w_mac_templo_na_tcha",
+   "d": "Erigido en 1888 y dedicado al dios-niño Na Tcha, este diminuto templo se levanta justo detrás de la fachada de San Pablo, símbolo de la convivencia entre culturas china y occidental en Macao. Está incluido en el Patrimonio de la Humanidad junto a un tramo de la antigua muralla.",
+   "d_en": "Built in 1888 and dedicated to the child-god Na Tcha, this tiny temple stands right behind the St. Paul's facade, a symbol of the coexistence of Chinese and Western cultures in Macao. It is part of the World Heritage listing alongside a stretch of the old city wall.",
+   "h": "Observa el contraste entre el templo chino y la iglesia cristiana a pocos metros.",
+   "h_en": "Note the contrast between the Chinese temple and the Christian church just meters away.",
+   "i": "Acceso gratuito. Alberga un pequeño museo dedicado a la tradición del culto a Na Tcha.",
+   "i_en": "Free access. It hosts a small museum devoted to the Na Tcha worship tradition."
+  },
+  "w_mac_casas_taipa": {
+   "id": "w_mac_casas_taipa",
+   "d": "Estas cinco residencias de estilo portugués de color verde menta, construidas en 1921, alojaban a funcionarios y familias macaenses. Restauradas como museos, muestran cómo se vivía en el Macao colonial y se asoman a la avenida de la Praia y sus humedales.",
+   "d_en": "These five mint-green Portuguese-style residences, built in 1921, once housed civil servants and Macanese families. Restored as museums, they show how people lived in colonial Macao and overlook the Avenida da Praia and its wetlands.",
+   "h": "Pasea por la avenida arbolada y entra en la Casa Macaense para ver el mobiliario de época.",
+   "h_en": "Stroll the tree-lined avenue and step into the Macanese House to see period furniture.",
+   "i": "Entrada gratuita. A un paseo del casco de Taipa y sus calles de tapas.",
+   "i_en": "Free entry. A short walk from Taipa Village and its food streets."
+  },
+  "w_mac_leal_senado": {
+   "id": "w_mac_leal_senado",
+   "d": "Inaugurado en 1784, este edificio neoclásico blanco fue el centro del poder civil portugués en Macao. Alberga un elegante patio con azulejos, un jardín y una biblioteca histórica, y su nombre 'Leal' se lo concedió el rey de Portugal por la lealtad de la ciudad.",
+   "d_en": "Opened in 1784, this white neoclassical building was the center of Portuguese civil power in Macao. It houses an elegant azulejo-tiled courtyard, a garden and a historic library, and its name 'Leal' (Loyal) was granted by the King of Portugal for the city's loyalty.",
+   "h": "Cruza al patio interior con sus azulejos azules y sube a la sala del antiguo senado.",
+   "h_en": "Cross into the inner courtyard with its blue azulejos and visit the old senate chamber.",
+   "i": "Acceso gratuito al patio y jardín. Justo enfrente del Largo do Senado.",
+   "i_en": "Free access to the courtyard and garden. Directly opposite Senado Square."
+  },
+  "w_mac_coloane": {
+   "id": "w_mac_coloane",
+   "d": "La isla más meridional conserva el ambiente pausado del antiguo Macao pesquero: casas bajas, la capilla de San Francisco Javier, muelles de madera y colinas boscosas. Es el contrapunto perfecto al brillo de los casinos de Cotai.",
+   "d_en": "The southernmost island preserves the unhurried feel of old fishing-village Macao: low houses, the chapel of St. Francis Xavier, wooden piers and forested hills. It is the perfect counterpoint to the glitz of the Cotai casinos.",
+   "h": "Pasea por la plaza Eduardo Marques, prueba una tarta de huevo y sube al sendero de Coloane.",
+   "h_en": "Wander Eduardo Marques square, try an egg tart and hike the Coloane trail.",
+   "i": "Se llega en autobús desde Taipa o Cotai. Ideal para medio día relajado.",
+   "i_en": "Reached by bus from Taipa or Cotai. Ideal for a relaxed half-day."
+  },
+  "w_mac_praia_hac_sa": {
+   "id": "w_mac_praia_hac_sa",
+   "d": "Su nombre significa 'arena negra' por el tono grisáceo de su costa. Bordeada de pinos y con un paseo marítimo, es la playa más popular de la ciudad para bañarse, pasear o comer en sus restaurantes junto al mar.",
+   "d_en": "Its name means 'black sand' for the grayish tone of its shore. Fringed by pines and lined with a promenade, it is the city's most popular beach for swimming, strolling or dining at its seaside restaurants.",
+   "h": "Relájate en la arena, alquila una barca o cena en el famoso restaurante Fernando.",
+   "h_en": "Relax on the sand, rent a boat or dine at the famous Restaurante Fernando.",
+   "i": "Hay parque acuático y zona de barbacoas. Acceso gratuito; agua a veces turbia.",
+   "i_en": "There is a water park and barbecue area. Free access; water is sometimes murky."
+  },
+  "w_mac_praia_cheoc_van": {
+   "id": "w_mac_praia_cheoc_van",
+   "d": "Más pequeña y recogida que Hac Sá, la playa de Cheoc Van ('bahía del bambú') está enmarcada por colinas verdes y ofrece una piscina pública junto al mar. Es un rincón sereno, popular entre familias locales.",
+   "d_en": "Smaller and more secluded than Hac Sa, Cheoc Van ('bamboo bay') beach is framed by green hills and offers a public seaside swimming pool. It is a serene spot popular with local families.",
+   "h": "Date un baño en la piscina pública o toma algo en la histórica posada de Coloane.",
+   "h_en": "Take a dip in the public pool or have a drink at the historic Coloane inn.",
+   "i": "Acceso gratuito. Zona de aparcamiento limitada; mejor llegar en autobús.",
+   "i_en": "Free access. Parking is limited; better to arrive by bus."
+  },
+  "w_mac_jardim_camoes": {
+   "id": "w_mac_jardim_camoes",
+   "d": "Uno de los jardines más antiguos y queridos de Macao, con senderos sombreados, banianos centenarios y una gruta con el busto del poeta Luís de Camões, autor de 'Os Lusíadas'. Es punto de encuentro de vecinos que juegan al ajedrez chino y practican tai chi.",
+   "d_en": "One of Macao's oldest and best-loved gardens, with shaded paths, century-old banyan trees and a grotto holding the bust of poet Luís de Camões, author of 'The Lusiads'. It is a gathering place for locals playing Chinese chess and practicing tai chi.",
+   "h": "Pasea entre los banianos y visita la contigua Casa Garden y el cementerio protestante.",
+   "h_en": "Walk among the banyans and visit the adjacent Casa Garden and Protestant Cemetery.",
+   "i": "Acceso gratuito. Ambiente muy local por la mañana temprano.",
+   "i_en": "Free access. A very local atmosphere in the early morning."
+  },
+  "w_mac_seac_pai_van": {
+   "id": "w_mac_seac_pai_van",
+   "d": "Extendido por la ladera de Coloane, este parque combina bosque, senderos y un pequeño zoo. Su gran atractivo es el Pabellón de los Pandas Gigantes, donde viven ejemplares regalados por China, además de pandas rojos, aves y un jardín de flores.",
+   "d_en": "Spread across the slopes of Coloane, this park combines forest, trails and a small zoo. Its main draw is the Giant Panda Pavilion, home to bears gifted by mainland China, plus red pandas, birds and a flower garden.",
+   "h": "Reserva la visita a los pandas gigantes y recorre el aviario y el jardín botánico.",
+   "h_en": "Book the giant panda visit and explore the aviary and botanical garden.",
+   "i": "Entrada al parque gratuita; el pabellón de pandas tiene una tarifa simbólica.",
+   "i_en": "Park entry is free; the panda pavilion charges a token fee."
+  },
+  "w_mac_colina_guia": {
+   "id": "w_mac_colina_guia",
+   "d": "El pulmón verde de la península de Macao, coronado por la fortaleza y el faro de Guia. Sus senderos boscosos rodean el cerro y son muy frecuentados por corredores y paseantes que buscan escapar del asfalto sin salir de la ciudad.",
+   "d_en": "The green lung of the Macao peninsula, crowned by the Guia fortress and lighthouse. Its wooded trails circle the hill and are popular with runners and walkers seeking an escape from the pavement without leaving the city.",
+   "h": "Recorre el sendero circular y sube en teleférico hasta la cima para ahorrar la cuesta.",
+   "h_en": "Walk the circular trail and take the cable car to the top to skip the climb.",
+   "i": "Acceso gratuito. Combínala con la fortaleza y el faro en la cumbre.",
+   "i_en": "Free access. Combine it with the fortress and lighthouse at the summit."
+  },
+  "w_mac_torre_macao": {
+   "id": "w_mac_torre_macao",
+   "d": "Inaugurada en 2001, esta torre de telecomunicaciones y ocio de 338 metros ofrece miradores acristalados, un suelo de cristal y experiencias de adrenalina como el 'skywalk' por el borde o el salto de bungee más alto del mundo desde una plataforma comercial.",
+   "d_en": "Opened in 2001, this 338-meter telecommunications and leisure tower offers glass-walled observation decks, a glass floor and adrenaline experiences such as the edge 'skywalk' and the world's highest commercial bungee jump.",
+   "h": "Sube al mirador del piso 58 y, si te atreves, camina por el borde exterior sin barandilla.",
+   "h_en": "Head to the level 58 observation deck and, if you dare, walk the railing-free outer edge.",
+   "i": "Entrada de pago; las actividades extremas se reservan aparte. Mejores vistas al atardecer.",
+   "i_en": "Paid admission; extreme activities booked separately. Best views at sunset."
+  },
+  "w_mac_venetian": {
+   "id": "w_mac_venetian",
+   "d": "Uno de los mayores edificios del mundo, este megaresort recrea Venecia con canales interiores, góndolas, un cielo pintado y cientos de tiendas. Junto a su enorme casino, cuenta con una arena para espectáculos y miles de habitaciones, símbolo del Cotai como 'Las Vegas de Asia'.",
+   "d_en": "One of the largest buildings in the world, this megaresort recreates Venice with indoor canals, gondolas, a painted sky and hundreds of shops. Alongside its vast casino, it has an arena for shows and thousands of rooms, epitomizing Cotai as the 'Las Vegas of Asia'.",
+   "h": "Navega en góndola por el Gran Canal interior y recorre la plaza de San Marcos recreada.",
+   "h_en": "Ride a gondola along the indoor Grand Canal and stroll the recreated St. Mark's Square.",
+   "i": "Acceso libre a las galerías comerciales; casino solo para mayores de 21 años.",
+   "i_en": "Free access to the shopping galleries; casino for over-21s only."
+  },
+  "w_mac_cotai_strip": {
+   "id": "w_mac_cotai_strip",
+   "d": "Sobre terreno ganado al mar entre Taipa y Coloane, el Cotai Strip concentra los resorts más espectaculares de Macao: The Venetian, City of Dreams, Galaxy, Parisian con su Torre Eiffel o el Londoner. Es el epicentro del ocio, los espectáculos y las compras de lujo.",
+   "d_en": "Built on land reclaimed between Taipa and Coloane, the Cotai Strip concentrates Macao's most spectacular resorts: The Venetian, City of Dreams, Galaxy, the Parisian with its Eiffel Tower and the Londoner. It is the epicenter of entertainment, shows and luxury shopping.",
+   "h": "Camina de resort en resort al anochecer para ver fuentes, réplicas y fachadas iluminadas.",
+   "h_en": "Walk from resort to resort after dark to see fountains, replicas and lit-up facades.",
+   "i": "Autobuses gratuitos conectan todos los resorts. Ideal para recorrer sin coste de noche.",
+   "i_en": "Free shuttle buses connect all the resorts. Ideal for a free evening tour."
+  },
+  "w_mac_grand_lisboa": {
+   "id": "w_mac_grand_lisboa",
+   "d": "Con sus 261 metros y su llamativa silueta de loto dorado, el Grand Lisboa es el edificio más reconocible del horizonte de la península. Además del casino, alberga restaurantes con estrellas Michelin y una espectacular colección de arte y joyas expuesta en su vestíbulo.",
+   "d_en": "At 261 meters with its striking golden lotus silhouette, the Grand Lisboa is the most recognizable building on the peninsula skyline. Beyond the casino, it houses Michelin-starred restaurants and a spectacular collection of art and jewels displayed in its lobby.",
+   "h": "Admira su iluminación nocturna y busca las piezas de jade y el diamante gigante del lobby.",
+   "h_en": "Admire its nighttime lighting and seek out the jade pieces and giant diamond in the lobby.",
+   "i": "Acceso libre al vestíbulo y tiendas; casino solo para mayores de 21 años.",
+   "i_en": "Free access to the lobby and shops; casino for over-21s only."
+  },
+  "w_mac_city_of_dreams": {
+   "id": "w_mac_city_of_dreams",
+   "d": "Complejo de ocio en pleno Cotai que reúne casino, hoteles de diseño (incluida la torre Morpheus de Zaha Hadid) y tiendas de lujo. Su gran reclamo fue durante años 'The House of Dancing Water', uno de los espectáculos acuáticos más impresionantes del mundo.",
+   "d_en": "A leisure complex in the heart of Cotai bringing together a casino, designer hotels (including Zaha Hadid's Morpheus tower) and luxury shops. For years its headline draw was 'The House of Dancing Water', one of the most spectacular water shows in the world.",
+   "h": "Admira la arquitectura de la torre Morpheus y consulta la cartelera de espectáculos.",
+   "h_en": "Admire the architecture of the Morpheus tower and check the show schedule.",
+   "i": "Galerías y hoteles de acceso libre; los espectáculos requieren entrada.",
+   "i_en": "Galleries and hotels are free to enter; shows require a ticket."
+  },
+  "w_mac_taipa_village": {
+   "id": "w_mac_taipa_village",
+   "d": "Un laberinto de callejuelas empedradas, casas pastel y templos que conserva el encanto del Macao portugués a la sombra de los rascacielos de Cotai. Reúne tiendas de recuerdos, galerías, bares y la mayor concentración de puestos de comida callejera de la ciudad.",
+   "d_en": "A maze of cobbled lanes, pastel houses and temples that preserves the charm of Portuguese Macao in the shadow of Cotai's skyscrapers. It gathers souvenir shops, galleries, bars and the city's greatest concentration of street-food stalls.",
+   "h": "Piérdete por la Rua do Cunha y sus alrededores probando bocados a cada paso.",
+   "h_en": "Get lost along Rua do Cunha and its surroundings, sampling bites at every turn.",
+   "i": "Muy animado por la tarde-noche. A pocos minutos a pie de los resorts de Cotai.",
+   "i_en": "Very lively in the late afternoon and evening. A few minutes' walk from the Cotai resorts."
+  },
+  "w_mac_rua_cunha": {
+   "id": "w_mac_rua_cunha",
+   "d": "Estrecha calle peatonal en el corazón de Taipa Village, es el paraíso del picoteo macaense: galletas de almendra recién horneadas, brochetas de gambas, jerky de cerdo, bolas de curry, helados exóticos y las famosas tartas de huevo se suceden puesto tras puesto.",
+   "d_en": "A narrow pedestrian street at the heart of Taipa Village, it is a paradise for Macanese snacking: freshly baked almond cookies, prawn skewers, pork jerky, curry fish balls, exotic ice creams and the famous egg tarts line stall after stall.",
+   "h": "Prueba las galletas de almendra recién hechas y las láminas de carne asada a la parrilla.",
+   "h_en": "Try the freshly made almond cookies and the grilled sheets of barbecued meat.",
+   "i": "Lleva efectivo y ve con hambre; algunos puestos ofrecen muestras gratis.",
+   "i_en": "Bring cash and come hungry; some stalls offer free samples."
+  },
+  "w_mac_lord_stow": {
+   "id": "w_mac_lord_stow",
+   "d": "Fundada en 1989 por el británico Andrew Stow en la aldea de Coloane, esta pequeña pastelería creó la tarta de huevo de Macao, con crema caramelizada y hojaldre crujiente. Se ha convertido en peregrinación gastronómica obligada para cualquier visitante.",
+   "d_en": "Founded in 1989 by Briton Andrew Stow in Coloane village, this small bakery created the Macao egg tart, with caramelized custard and crisp puff pastry. It has become an essential culinary pilgrimage for any visitor.",
+   "h": "Cómete la tarta caliente recién salida del horno; suelen agotarse a media tarde.",
+   "h_en": "Eat the tart warm, straight from the oven; they often sell out by mid-afternoon.",
+   "i": "Pequeña y muy concurrida; hay un café hermano a pocos metros con más asientos.",
+   "i_en": "Small and very busy; a sister café a few meters away has more seating."
+  },
+  "w_mac_restaurante_litoral": {
+   "id": "w_mac_restaurante_litoral",
+   "d": "En la Rua do Almirante Sérgio, cerca del Templo A-Ma, este restaurante de decoración colonial es una de las mejores mesas para descubrir la cocina macaense, fusión única de sabores portugueses, africanos, indios y chinos. Su galinha à africana y el minchi son clásicos imprescindibles.",
+   "d_en": "On Rua do Almirante Sérgio near A-Ma Temple, this colonial-decorated restaurant is one of the best places to discover Macanese cuisine, a unique fusion of Portuguese, African, Indian and Chinese flavors. Its African chicken and minchi are must-try classics.",
+   "h": "Pide la galinha à africana (pollo a la africana) y el minchi, plato nacional macaense.",
+   "h_en": "Order the African chicken and the minchi, the Macanese national dish.",
+   "i": "Conviene reservar en fin de semana. Raciones generosas para compartir.",
+   "i_en": "Booking is advisable on weekends. Generous portions made for sharing."
+  },
+  "w_mac_wong_chi_kei": {
+   "id": "w_mac_wong_chi_kei",
+   "d": "Fundada en 1946, esta veterana casa de fideos junto al Largo do Senado sirve sopas de wonton, fideos de gamba y fideos secos con gambas al estilo cantonés que atraen tanto a locales como a viajeros. Sencilla, económica y siempre llena.",
+   "d_en": "Founded in 1946, this veteran noodle house beside Senado Square serves wonton soups, shrimp-roe noodles and Cantonese-style dried shrimp noodles that draw locals and travelers alike. Simple, affordable and always busy.",
+   "h": "Prueba la sopa de wonton con gambas y los fideos secos con huevas de gamba.",
+   "h_en": "Try the shrimp wonton soup and the dried noodles with shrimp roe.",
+   "i": "Parada perfecta para comer barato en pleno casco histórico.",
+   "i_en": "A perfect stop for a cheap meal in the middle of the historic center."
+  },
+  "w_mac_margaret_cafe": {
+   "id": "w_mac_margaret_cafe",
+   "d": "Escondido en un callejón cerca del Grand Lisboa, este pequeño café es rival directo de Lord Stow's por el título de la mejor tarta de huevo de Macao. Además de las natas, es muy popular por sus sándwiches en pan portugués y sus zumos.",
+   "d_en": "Tucked in an alley near the Grand Lisboa, this small café is Lord Stow's direct rival for the title of Macao's best egg tart. Beyond the natas, it is popular for its sandwiches on Portuguese bread and its juices.",
+   "h": "Combina una nata caliente con un café o un bocadillo de cerdo en pan portugués.",
+   "h_en": "Pair a warm nata with a coffee or a pork sandwich on Portuguese bread.",
+   "i": "Suele haber cola; cierra los miércoles. Solo efectivo en muchas ocasiones.",
+   "i_en": "Expect a queue; closed on Wednesdays. Often cash only."
+  }
+ },
+ "food": {
+  "w_mac_rua_cunha": {
+   "cuisine": "Comida callejera macaense",
+   "price": "3–12 €",
+   "hours": "10:00–22:00"
+  },
+  "w_mac_lord_stow": {
+   "cuisine": "Pastelería / tartas de huevo",
+   "price": "2–8 €",
+   "hours": "07:00–22:00"
+  },
+  "w_mac_restaurante_litoral": {
+   "cuisine": "Macaense",
+   "price": "18–40 €",
+   "hours": "12:00–15:00, 18:00–22:30"
+  },
+  "w_mac_wong_chi_kei": {
+   "cuisine": "Cantonesa / fideos",
+   "price": "6–15 €",
+   "hours": "08:30–23:30"
+  },
+  "w_mac_margaret_cafe": {
+   "cuisine": "Café / pastelería",
+   "price": "3–10 €",
+   "hours": "08:30–18:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Macao",
+   "items": [
+    {
+     "name": "Tartas de huevo (pastéis de nata)",
+     "price": "1–2 €",
+     "desc": "La versión macaense de la tarta portuguesa, con base hojaldrada y crema caramelizada; el souvenir gastronómico por excelencia."
+    },
+    {
+     "name": "Galletas de almendra",
+     "price": "5–12 €",
+     "desc": "Crujientes galletas de almendra prensada vendidas recién horneadas en las tiendas de la Rua de São Paulo."
+    },
+    {
+     "name": "Carne seca (jerky)",
+     "price": "8–20 €",
+     "desc": "Láminas de cerdo o buey asadas a la parrilla, típicas de las tiendas junto a las Ruinas de San Pablo."
+    },
+    {
+     "name": "Vino de Oporto y licores portugueses",
+     "price": "10–40 €",
+     "desc": "Herencia lusa de Macao: oportos, ginjinha y vinho verde a buen precio."
+    },
+    {
+     "name": "Azulejos y cerámica portuguesa",
+     "price": "6–25 €",
+     "desc": "Baldosas decorativas e imanes inspirados en el patrimonio colonial portugués."
+    }
+   ],
+   "shops": [
+    "Rua de São Paulo (tiendas de dulces)",
+    "Koi Kei Bakery",
+    "Choi Heong Yuen Bakery",
+    "Rua do Cunha (Taipa)",
+    "Senado Square y alrededores"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Macao es compacto: el casco histórico se recorre a pie, pero usa los autobuses gratuitos de los casinos para cruzar entre la península, Taipa y Cotai.",
+   "Lleva efectivo en patacas (MOP); los dólares de Hong Kong se aceptan casi en todas partes a la par.",
+   "Visita las Ruinas de San Pablo y Senado a primera hora de la mañana para evitar las multitudes de excursionistas.",
+   "El clima es subtropical y húmedo: entre mayo y septiembre hay tifones y calor intenso, lleva paraguas y agua.",
+   "Combina lo histórico (península) con lo moderno (Cotai) en el mismo día usando el metro ligero LRT de Taipa."
+  ],
+  "en": [
+   "Macao is compact: explore the historic center on foot, but use the free casino shuttle buses to move between the peninsula, Taipa and Cotai.",
+   "Carry cash in patacas (MOP); Hong Kong dollars are accepted almost everywhere at par.",
+   "Visit the Ruins of St. Paul's and Senado Square early in the morning to beat the day-tripper crowds.",
+   "The climate is subtropical and humid: typhoons and intense heat hit from May to September, so bring an umbrella and water.",
+   "Combine the historic peninsula with modern Cotai in one day using the Taipa LRT light rail."
+  ]
+ },
+ "climate": {
+  "hi": [
+   18,
+   18,
+   21,
+   25,
+   29,
+   31,
+   32,
+   32,
+   31,
+   28,
+   24,
+   20
+  ],
+  "lo": [
+   12,
+   13,
+   16,
+   20,
+   24,
+   26,
+   26,
+   26,
+   25,
+   22,
+   18,
+   14
+  ]
+ },
+ "tr": {
+  "La fachada de la antigua iglesia jesuita de San Pablo, símbolo de Macao.": "The facade of the former Jesuit church of St. Paul, Macao's emblem.",
+  "Plaza histórica con suelo de mosaico ondulado portugués.": "Historic square with a wavy Portuguese mosaic pavement.",
+  "Fortaleza del siglo XVII con vistas panorámicas de Macao.": "17th-century fortress with panoramic views over Macao.",
+  "El templo más antiguo de Macao, dedicado a la diosa del mar.": "Macao's oldest temple, dedicated to the sea goddess.",
+  "Mansión histórica china del influyente Zheng Guanying.": "Historic Chinese mansion of the influential Zheng Guanying.",
+  "Iglesia barroca de fachada amarilla junto al Senado.": "Baroque church with a yellow facade beside Senado Square.",
+  "Faro colonial más antiguo de China sobre la colina de Guia.": "The oldest colonial lighthouse in China atop Guia Hill.",
+  "Una de las iglesias más antiguas y bellas de Macao.": "One of Macao's oldest and most beautiful churches.",
+  "Pequeño templo taoísta junto a las Ruinas de San Pablo.": "Small Taoist temple beside the Ruins of St. Paul's.",
+  "Cinco villas coloniales verdes junto a los humedales de Taipa.": "Five green colonial villas by the Taipa wetlands.",
+  "Antigua sede del gobierno municipal frente al Senado.": "Former seat of the municipal government facing Senado Square.",
+  "Aldea costera tradicional, el lado tranquilo y verde de Macao.": "Traditional coastal village, Macao's quiet green side.",
+  "La mayor playa natural de Macao, de arena oscura.": "Macao's largest natural beach, with dark sand.",
+  "Cala tranquila y protegida en el sur de Coloane.": "Quiet, sheltered cove in southern Coloane.",
+  "Frondoso jardín dedicado al gran poeta portugués.": "Leafy garden dedicated to the great Portuguese poet.",
+  "Gran parque natural con pabellón de pandas gigantes.": "Large nature park with a giant panda pavilion.",
+  "Colina verde con senderos en el centro de la península.": "Green hill with walking trails in the heart of the peninsula.",
+  "Torre de 338 m con mirador y bungee jumping.": "338 m tower with observation deck and bungee jumping.",
+  "Colosal casino-resort con canales y góndolas venecianas.": "Colossal casino-resort with Venetian canals and gondolas.",
+  "Avenida de megacasinos y resorts entre Taipa y Coloane.": "Avenue of megacasinos and resorts between Taipa and Coloane.",
+  "Rascacielos-casino con forma de flor de loto dorada.": "Skyscraper-casino shaped like a golden lotus flower.",
+  "Resort de Cotai famoso por el espectáculo acuático.": "Cotai resort famous for its water spectacular.",
+  "Casco antiguo de Taipa con calles coloniales y tiendas.": "Old town of Taipa with colonial lanes and shops.",
+  "Célebre calle peatonal de comida callejera en Taipa.": "Celebrated pedestrian street-food lane in Taipa.",
+  "Cuna de la tarta de huevo estilo macaense en Coloane.": "Birthplace of the Macanese-style egg tart in Coloane.",
+  "Referente de auténtica cocina macaense tradicional.": "A benchmark for authentic traditional Macanese cuisine.",
+  "Clásica casa de fideos y wonton junto al Senado.": "Classic noodle and wonton house beside Senado Square.",
+  "Café céntrico famoso por sus tartas de huevo y bocadillos.": "Central café famous for its egg tarts and sandwiches.",
+  "Macao": "Macao"
+ }
+}

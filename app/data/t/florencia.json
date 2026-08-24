@@ -1,0 +1,703 @@
+{
+ "id": "florencia",
+ "name": "Florencia",
+ "country": "WORLD",
+ "center": [
+  43.7696,
+  11.2558
+ ],
+ "pois": [
+  {
+   "id": "w_flo_duomo",
+   "cat": "monuments",
+   "name": "Catedral de Santa Maria del Fiore (Duomo)",
+   "icon": "⛪",
+   "lat": 43.7731,
+   "lng": 11.256,
+   "desc": "Catedral gótica coronada por la célebre cúpula de Brunelleschi."
+  },
+  {
+   "id": "w_flo_uffizi",
+   "cat": "monuments",
+   "name": "Galería de los Uffizi",
+   "icon": "🖼️",
+   "lat": 43.76785,
+   "lng": 11.25528,
+   "desc": "Uno de los museos de arte más importantes del mundo."
+  },
+  {
+   "id": "w_flo_accademia",
+   "cat": "monuments",
+   "name": "Galería de la Academia (David)",
+   "icon": "🗿",
+   "lat": 43.7767,
+   "lng": 11.2589,
+   "desc": "Hogar del David original de Miguel Ángel."
+  },
+  {
+   "id": "w_flo_palazzo_vecchio",
+   "cat": "monuments",
+   "name": "Palazzo Vecchio",
+   "icon": "🏛️",
+   "lat": 43.76935,
+   "lng": 11.25626,
+   "desc": "Ayuntamiento histórico y museo con la torre de Arnolfo."
+  },
+  {
+   "id": "w_flo_battistero",
+   "cat": "monuments",
+   "name": "Baptisterio de San Juan",
+   "icon": "⛪",
+   "lat": 43.773,
+   "lng": 11.255,
+   "desc": "Baptisterio románico famoso por sus puertas de bronce."
+  },
+  {
+   "id": "w_flo_campanile",
+   "cat": "monuments",
+   "name": "Campanile de Giotto",
+   "icon": "🔔",
+   "lat": 43.77266,
+   "lng": 11.25545,
+   "desc": "Torre campanario gótica junto al Duomo."
+  },
+  {
+   "id": "w_flo_santa_croce",
+   "cat": "monuments",
+   "name": "Basílica de Santa Croce",
+   "icon": "⛪",
+   "lat": 43.76853,
+   "lng": 11.26221,
+   "desc": "Iglesia franciscana con tumbas de grandes genios."
+  },
+  {
+   "id": "w_flo_pitti",
+   "cat": "monuments",
+   "name": "Palacio Pitti",
+   "icon": "🏰",
+   "lat": 43.765,
+   "lng": 11.25004,
+   "desc": "Vasto palacio renacentista con varios museos."
+  },
+  {
+   "id": "w_flo_san_lorenzo",
+   "cat": "monuments",
+   "name": "Basílica de San Lorenzo",
+   "icon": "⛪",
+   "lat": 43.77503,
+   "lng": 11.2539,
+   "desc": "Iglesia de los Médici con fachada inacabada."
+  },
+  {
+   "id": "w_flo_santa_maria_novella",
+   "cat": "monuments",
+   "name": "Basílica de Santa Maria Novella",
+   "icon": "⛪",
+   "lat": 43.77469,
+   "lng": 11.24902,
+   "desc": "Iglesia dominica con fachada renacentista de mármol."
+  },
+  {
+   "id": "w_flo_cappelle_medicee",
+   "cat": "monuments",
+   "name": "Capillas de los Médici",
+   "icon": "⚰️",
+   "lat": 43.77545,
+   "lng": 11.2536,
+   "desc": "Mausoleo de la dinastía Médici con esculturas de Miguel Ángel."
+  },
+  {
+   "id": "w_flo_bargello",
+   "cat": "monuments",
+   "name": "Museo Nacional del Bargello",
+   "icon": "🗿",
+   "lat": 43.7703,
+   "lng": 11.25843,
+   "desc": "Museo de escultura en un antiguo palacio-cárcel."
+  },
+  {
+   "id": "w_flo_boboli",
+   "cat": "nature",
+   "name": "Jardines de Boboli",
+   "icon": "🌳",
+   "lat": 43.76241,
+   "lng": 11.24815,
+   "desc": "Jardín renacentista tras el Palacio Pitti."
+  },
+  {
+   "id": "w_flo_piazzale_michelangelo",
+   "cat": "nature",
+   "name": "Piazzale Michelangelo",
+   "icon": "🌇",
+   "lat": 43.76287,
+   "lng": 11.26507,
+   "desc": "Mirador panorámico sobre toda Florencia."
+  },
+  {
+   "id": "w_flo_giardino_bardini",
+   "cat": "nature",
+   "name": "Jardín Bardini",
+   "icon": "🌸",
+   "lat": 43.7634,
+   "lng": 11.2587,
+   "desc": "Jardín histórico con glicinas y vistas."
+  },
+  {
+   "id": "w_flo_giardino_rose",
+   "cat": "nature",
+   "name": "Jardín de las Rosas",
+   "icon": "🌹",
+   "lat": 43.76399,
+   "lng": 11.26195,
+   "desc": "Rosaleda gratuita bajo el Piazzale Michelangelo."
+  },
+  {
+   "id": "w_flo_cascine",
+   "cat": "nature",
+   "name": "Parque de las Cascine",
+   "icon": "🌲",
+   "lat": 43.7768,
+   "lng": 11.223,
+   "desc": "El mayor parque público de Florencia."
+  },
+  {
+   "id": "w_flo_forte_belvedere",
+   "cat": "nature",
+   "name": "Forte di Belvedere",
+   "icon": "🏞️",
+   "lat": 43.76237,
+   "lng": 11.2523,
+   "desc": "Fortaleza del siglo XVI con vistas de 360°."
+  },
+  {
+   "id": "w_flo_ponte_vecchio",
+   "cat": "ocio",
+   "name": "Ponte Vecchio",
+   "icon": "🌉",
+   "lat": 43.76797,
+   "lng": 11.25315,
+   "desc": "Puente medieval con joyerías sobre el Arno."
+  },
+  {
+   "id": "w_flo_piazza_signoria",
+   "cat": "ocio",
+   "name": "Piazza della Signoria",
+   "icon": "🏛️",
+   "lat": 43.7696,
+   "lng": 11.25581,
+   "desc": "Plaza monumental, corazón político de la ciudad."
+  },
+  {
+   "id": "w_flo_piazza_repubblica",
+   "cat": "ocio",
+   "name": "Piazza della Repubblica",
+   "icon": "🎠",
+   "lat": 43.7714,
+   "lng": 11.2543,
+   "desc": "Plaza elegante con cafés históricos y tiovivo."
+  },
+  {
+   "id": "w_flo_corridoio_vasariano",
+   "cat": "ocio",
+   "name": "Corredor Vasariano",
+   "icon": "🚶",
+   "lat": 43.7678,
+   "lng": 11.254,
+   "desc": "Pasadizo elevado de los Médici sobre la ciudad."
+  },
+  {
+   "id": "w_flo_santo_spirito",
+   "cat": "ocio",
+   "name": "Piazza Santo Spirito (Oltrarno)",
+   "icon": "🍷",
+   "lat": 43.7668,
+   "lng": 11.2479,
+   "desc": "Plaza bohemia del barrio artesano del Oltrarno."
+  },
+  {
+   "id": "w_flo_loggia_lanzi",
+   "cat": "ocio",
+   "name": "Loggia dei Lanzi",
+   "icon": "🗿",
+   "lat": 43.76907,
+   "lng": 11.25563,
+   "desc": "Galería abierta de esculturas en la Signoria."
+  },
+  {
+   "id": "w_flo_mercato_centrale",
+   "cat": "food",
+   "name": "Mercato Centrale",
+   "icon": "🍝",
+   "lat": 43.7767,
+   "lng": 11.2536,
+   "desc": "Mercado gastronómico en un edificio de hierro de 1874."
+  },
+  {
+   "id": "w_flo_antico_vinaio",
+   "cat": "food",
+   "name": "All'Antico Vinaio",
+   "icon": "🥪",
+   "lat": 43.7689,
+   "lng": 11.25758,
+   "desc": "El panini toscano más famoso de la ciudad."
+  },
+  {
+   "id": "w_flo_trattoria_mario",
+   "cat": "food",
+   "name": "Trattoria Mario",
+   "icon": "🍖",
+   "lat": 43.7764,
+   "lng": 11.2535,
+   "desc": "Trattoria familiar clásica junto a San Lorenzo."
+  },
+  {
+   "id": "w_flo_gelateria_neri",
+   "cat": "food",
+   "name": "Gelateria dei Neri",
+   "icon": "🍨",
+   "lat": 43.7687,
+   "lng": 11.2599,
+   "desc": "Heladería artesanal muy apreciada por los locales."
+  },
+  {
+   "id": "w_flo_ristoro_cambi",
+   "cat": "food",
+   "name": "Antico Ristoro di Cambi",
+   "icon": "🥩",
+   "lat": 43.7712,
+   "lng": 11.2423,
+   "desc": "Osteria toscana histórica en el Oltrarno."
+  },
+  {
+   "id": "w_flo_mercato_sant_ambrogio",
+   "cat": "food",
+   "name": "Mercato di Sant'Ambrogio",
+   "icon": "🧀",
+   "lat": 43.7699,
+   "lng": 11.2658,
+   "desc": "Mercado de barrio auténtico y sin turistas."
+  }
+ ],
+ "extra": {
+  "w_flo_duomo": {
+   "id": "w_flo_duomo",
+   "d": "Símbolo de Florencia, su cúpula de ladrillo rojo de Filippo Brunelleschi (1436) fue la mayor de su tiempo. La fachada de mármol policromado y el interior con frescos del Juicio Final impresionan. Se puede subir a la cúpula por 463 escalones.",
+   "d_en": "Symbol of Florence, its red-brick dome by Filippo Brunelleschi (1436) was the largest of its era. The polychrome marble facade and the Last Judgement frescoes inside are striking. You can climb the dome's 463 steps.",
+   "h": "Catedral gratis; cúpula con entrada combinada, reserva obligatoria de horario.",
+   "h_en": "Cathedral free; dome requires a combined ticket with timed reservation.",
+   "i": "Reserva la subida a la cúpula con semanas de antelación.",
+   "i_en": "Book the dome climb weeks ahead."
+  },
+  "w_flo_uffizi": {
+   "id": "w_flo_uffizi",
+   "d": "En el palacio diseñado por Vasari se guarda la mayor colección de arte renacentista: 'El Nacimiento de Venus' y 'La Primavera' de Botticelli, obras de Leonardo, Miguel Ángel, Rafael, Caravaggio y Tiziano.",
+   "d_en": "Housed in Vasari's palazzo, it holds the greatest Renaissance collection: Botticelli's 'Birth of Venus' and 'Primavera', plus works by Leonardo, Michelangelo, Raphael, Caravaggio and Titian.",
+   "h": "Mar a dom, aprox. 8:15–18:30; lunes cerrado.",
+   "h_en": "Tue to Sun, approx 8:15am–6:30pm; closed Mondays.",
+   "i": "Compra entrada con hora reservada para evitar largas colas.",
+   "i_en": "Buy a timed-entry ticket to avoid long lines."
+  },
+  "w_flo_accademia": {
+   "id": "w_flo_accademia",
+   "d": "Alberga el 'David' (1504), obra maestra de Miguel Ángel de más de 5 metros, además de sus inacabados 'Prigioni' y una colección de pintura gótica y renacentista florentina.",
+   "d_en": "Holds Michelangelo's 'David' (1504), a masterpiece over 5 metres tall, along with his unfinished 'Prigioni' and a collection of Florentine Gothic and Renaissance painting.",
+   "h": "Mar a dom, aprox. 8:15–18:30; lunes cerrado.",
+   "h_en": "Tue to Sun, approx 8:15am–6:30pm; closed Mondays.",
+   "i": "Reserva imprescindible; es de los museos más visitados.",
+   "i_en": "Booking essential; one of the busiest museums."
+  },
+  "w_flo_palazzo_vecchio": {
+   "id": "w_flo_palazzo_vecchio",
+   "d": "Fortaleza medieval del siglo XIV en la Piazza della Signoria, sede del gobierno de Florencia. Destacan el majestuoso Salone dei Cinquecento con frescos de Vasari y las vistas desde la torre.",
+   "d_en": "A 14th-century medieval fortress on Piazza della Signoria, seat of Florence's government. Highlights include the grand Salone dei Cinquecento with Vasari frescoes and the views from the tower.",
+   "h": "Abierto casi a diario; horario ampliado en temporada alta.",
+   "h_en": "Open almost daily; extended hours in high season.",
+   "i": "Sube a la torre para vistas de la Piazza y el Duomo.",
+   "i_en": "Climb the tower for views over the piazza and Duomo."
+  },
+  "w_flo_battistero": {
+   "id": "w_flo_battistero",
+   "d": "Uno de los edificios más antiguos de la ciudad, con planta octogonal y mármol blanco y verde. Sus 'Puertas del Paraíso' de Ghiberti y los mosaicos dorados del techo son obras cumbre del arte medieval.",
+   "d_en": "One of the city's oldest buildings, octagonal in white and green marble. Ghiberti's 'Gates of Paradise' and the golden ceiling mosaics are masterpieces of medieval art.",
+   "h": "Abierto a diario con horario variable.",
+   "h_en": "Open daily with varying hours.",
+   "i": "Incluido en el pase combinado del complejo del Duomo.",
+   "i_en": "Included in the Duomo complex combined pass."
+  },
+  "w_flo_campanile": {
+   "id": "w_flo_campanile",
+   "d": "Campanario de 84,7 metros diseñado por Giotto en 1334, revestido de mármol policromado. Sus 414 escalones llevan a una terraza con vistas espectaculares de la cúpula de Brunelleschi.",
+   "d_en": "An 84.7-metre bell tower designed by Giotto in 1334, clad in polychrome marble. Its 414 steps lead to a terrace with spectacular views of Brunelleschi's dome.",
+   "h": "Abierto a diario; incluido en el pase del Duomo.",
+   "h_en": "Open daily; included in the Duomo pass.",
+   "i": "Ofrece la mejor foto frontal de la cúpula.",
+   "i_en": "Offers the best head-on photo of the dome."
+  },
+  "w_flo_santa_croce": {
+   "id": "w_flo_santa_croce",
+   "d": "La mayor iglesia franciscana del mundo, panteón de italianos ilustres: aquí reposan Miguel Ángel, Galileo, Maquiavelo y Rossini. Conserva frescos de Giotto y una amplia plaza porticada.",
+   "d_en": "The largest Franciscan church in the world and a pantheon of illustrious Italians: Michelangelo, Galileo, Machiavelli and Rossini rest here. It preserves frescoes by Giotto and a broad piazza.",
+   "h": "Abierto a diario con horario reducido los domingos por la mañana.",
+   "h_en": "Open daily with reduced hours on Sunday mornings.",
+   "i": "No te pierdas la Capilla de los Pazzi de Brunelleschi.",
+   "i_en": "Don't miss Brunelleschi's Pazzi Chapel."
+  },
+  "w_flo_pitti": {
+   "id": "w_flo_pitti",
+   "d": "Antigua residencia de los Médici en el Oltrarno, alberga la Galería Palatina con pinturas de Rafael y Tiziano, el Museo de la Moda y los apartamentos reales. Da acceso a los Jardines de Boboli.",
+   "d_en": "Former Medici residence in the Oltrarno, it houses the Palatine Gallery with Raphael and Titian paintings, the Costume Museum and royal apartments. It gives access to the Boboli Gardens.",
+   "h": "Mar a dom; lunes cerrado.",
+   "h_en": "Tue to Sun; closed Mondays.",
+   "i": "Combina la visita con los Jardines de Boboli en un solo día.",
+   "i_en": "Combine the visit with the Boboli Gardens in one day."
+  },
+  "w_flo_san_lorenzo": {
+   "id": "w_flo_san_lorenzo",
+   "d": "Una de las iglesias más antiguas, parroquia de los Médici, con interior de Brunelleschi y la Biblioteca Laurenciana de Miguel Ángel. Su fachada quedó en piedra desnuda por falta de recursos.",
+   "d_en": "One of the oldest churches, the Medici parish, with an interior by Brunelleschi and Michelangelo's Laurentian Library. Its facade was left as bare stone for lack of funds.",
+   "h": "Abierto casi a diario; consultar horario de la biblioteca.",
+   "h_en": "Open almost daily; check the library's hours.",
+   "i": "Rodeada del animado mercado callejero de San Lorenzo.",
+   "i_en": "Surrounded by the lively San Lorenzo street market."
+  },
+  "w_flo_santa_maria_novella": {
+   "id": "w_flo_santa_maria_novella",
+   "d": "Frente a la estación central, destaca su fachada geométrica de Alberti y la 'Trinidad' de Masaccio, pionera de la perspectiva. Anexa está la histórica farmacia-perfumería de los frailes.",
+   "d_en": "Facing the central station, it stands out for Alberti's geometric facade and Masaccio's 'Trinity', a pioneer of perspective. The friars' historic pharmacy-perfumery adjoins it.",
+   "h": "Abierto a diario con horario variable.",
+   "h_en": "Open daily with varying hours.",
+   "i": "Visita la farmacia de Santa Maria Novella al lado.",
+   "i_en": "Visit the Santa Maria Novella pharmacy next door."
+  },
+  "w_flo_cappelle_medicee": {
+   "id": "w_flo_cappelle_medicee",
+   "d": "Tras la basílica de San Lorenzo, la Capilla de los Príncipes deslumbra con mármoles y piedras duras, y la Sacristía Nueva guarda las tumbas de Miguel Ángel con las alegorías del Día, la Noche, la Aurora y el Crepúsculo.",
+   "d_en": "Behind San Lorenzo, the Chapel of the Princes dazzles with marble and semi-precious stone, while the New Sacristy holds Michelangelo's tombs with the allegories of Day, Night, Dawn and Dusk.",
+   "h": "Abierto casi a diario; algunos cierres a media semana.",
+   "h_en": "Open almost daily; some midweek closures.",
+   "i": "Entrada independiente de la basílica.",
+   "i_en": "Separate ticket from the basilica."
+  },
+  "w_flo_bargello": {
+   "id": "w_flo_bargello",
+   "d": "El museo de escultura renacentista más importante de Italia, con el 'David' de bronce de Donatello, obras de Miguel Ángel, Cellini y Giambologna, en un severo palacio medieval del siglo XIII.",
+   "d_en": "Italy's foremost Renaissance sculpture museum, with Donatello's bronze 'David' and works by Michelangelo, Cellini and Giambologna, set in a stern 13th-century medieval palace.",
+   "h": "Abierto casi a diario en horario de mañana.",
+   "h_en": "Open most days, mornings.",
+   "i": "Alternativa tranquila y sin colas a los grandes museos.",
+   "i_en": "A quiet, queue-free alternative to the big museums."
+  },
+  "w_flo_boboli": {
+   "id": "w_flo_boboli",
+   "d": "Uno de los primeros y más célebres jardines a la italiana, con avenidas de cipreses, fuentes, grutas y esculturas antiguas. Se extiende por la ladera con vistas a la ciudad y al Forte Belvedere.",
+   "d_en": "One of the earliest and most famous Italian-style gardens, with cypress avenues, fountains, grottoes and antique sculptures. It climbs the hillside with views over the city and Forte Belvedere.",
+   "h": "Abierto a diario; cierre según estación.",
+   "h_en": "Open daily; closing time varies by season.",
+   "i": "Sube hasta el Kaffeehaus para una vista despejada.",
+   "i_en": "Walk up to the Kaffeehaus for an open view."
+  },
+  "w_flo_piazzale_michelangelo": {
+   "id": "w_flo_piazzale_michelangelo",
+   "d": "La terraza más famosa de la ciudad, con una copia en bronce del David y una vista incomparable del Duomo, el Ponte Vecchio y las colinas toscanas. Espectacular al atardecer.",
+   "d_en": "The city's most famous terrace, with a bronze copy of the David and an unmatched view of the Duomo, Ponte Vecchio and Tuscan hills. Spectacular at sunset.",
+   "h": "Acceso libre las 24 horas.",
+   "h_en": "Open access 24 hours.",
+   "i": "Sube andando por la Rampa del Poggi entre jardines.",
+   "i_en": "Walk up via the Rampa del Poggi through the gardens."
+  },
+  "w_flo_giardino_bardini": {
+   "id": "w_flo_giardino_bardini",
+   "d": "Un jardín menos conocido y sereno en la ladera del Oltrarno, célebre por su túnel de glicinas en flor en primavera, escalinatas barrocas y terrazas con panorámicas de la ciudad.",
+   "d_en": "A quieter, lesser-known garden on the Oltrarno slope, famed for its wisteria tunnel in spring, Baroque staircases and terraces with sweeping city views.",
+   "h": "Abierto a diario; horario según estación.",
+   "h_en": "Open daily; hours vary by season.",
+   "i": "Visita en abril para ver las glicinas en flor.",
+   "i_en": "Visit in April for the wisteria bloom."
+  },
+  "w_flo_giardino_rose": {
+   "id": "w_flo_giardino_rose",
+   "d": "Un tranquilo jardín en terrazas con cientos de variedades de rosas, esculturas de Jean-Michel Folon y vistas a la ciudad. Entrada gratuita y ambiente relajado.",
+   "d_en": "A tranquil terraced garden with hundreds of rose varieties, sculptures by Jean-Michel Folon and city views. Free entry and a relaxed atmosphere.",
+   "h": "Abierto a diario, entrada gratuita.",
+   "h_en": "Open daily, free entry.",
+   "i": "Perfecto para un descanso de camino al Piazzale.",
+   "i_en": "Perfect for a break on the way up to the Piazzale."
+  },
+  "w_flo_cascine": {
+   "id": "w_flo_cascine",
+   "d": "Extenso parque de 160 hectáreas junto al río Arno, antiguo coto de caza de los Médici. Ideal para pasear, correr o montar en bici, y acoge un gran mercado semanal los martes.",
+   "d_en": "A vast 160-hectare park along the Arno, once a Medici hunting estate. Great for walking, running or cycling, and home to a large weekly market on Tuesdays.",
+   "h": "Acceso libre las 24 horas.",
+   "h_en": "Open access 24 hours.",
+   "i": "Escápate aquí para respirar lejos del centro turístico.",
+   "i_en": "Escape here for fresh air away from the tourist center."
+  },
+  "w_flo_forte_belvedere": {
+   "id": "w_flo_forte_belvedere",
+   "d": "Fortificación defensiva mandada construir por los Médici sobre la colina de Boboli. Sus murallas ofrecen una de las mejores panorámicas de Florencia y acogen exposiciones de arte al aire libre.",
+   "d_en": "A defensive fortification built by the Medici above the Boboli hill. Its ramparts offer one of the finest panoramas of Florence and host open-air art exhibitions.",
+   "h": "Abierto por temporadas según programación.",
+   "h_en": "Open seasonally depending on programming.",
+   "i": "Comprueba si está abierto antes de subir.",
+   "i_en": "Check whether it's open before hiking up."
+  },
+  "w_flo_ponte_vecchio": {
+   "id": "w_flo_ponte_vecchio",
+   "d": "El puente más antiguo y emblemático de la ciudad, único que se salvó en 1944. Sobre él se alinean tiendas de orfebres y joyeros, y lo corona el Corredor Vasariano de los Médici.",
+   "d_en": "The city's oldest and most iconic bridge, the only one spared in 1944. Goldsmiths' and jewelers' shops line it, crowned by the Medici's Vasari Corridor.",
+   "h": "Acceso libre las 24 horas.",
+   "h_en": "Open access 24 hours.",
+   "i": "Visítalo temprano o al anochecer para evitar multitudes.",
+   "i_en": "Visit early or at dusk to avoid the crowds."
+  },
+  "w_flo_piazza_signoria": {
+   "id": "w_flo_piazza_signoria",
+   "d": "Museo al aire libre presidido por el Palazzo Vecchio, con la Fuente de Neptuno, una copia del David y las esculturas de la Loggia dei Lanzi. Centro de la vida cívica desde la Edad Media.",
+   "d_en": "An open-air museum presided over by Palazzo Vecchio, with the Neptune Fountain, a copy of the David and the sculptures of the Loggia dei Lanzi. The hub of civic life since the Middle Ages.",
+   "h": "Acceso libre las 24 horas.",
+   "h_en": "Open access 24 hours.",
+   "i": "Tómate un café en las terrazas para admirar la plaza.",
+   "i_en": "Have a coffee on the terraces to take in the square."
+  },
+  "w_flo_piazza_repubblica": {
+   "id": "w_flo_piazza_repubblica",
+   "d": "Plaza porticada del siglo XIX sobre el antiguo foro romano, con su arco triunfal, cafés literarios como el Gilli y el Paszkowski y un carrusel clásico muy fotografiado.",
+   "d_en": "A 19th-century arcaded square built over the ancient Roman forum, with its triumphal arch, literary cafés like Gilli and Paszkowski, and a much-photographed classic carousel.",
+   "h": "Acceso libre las 24 horas.",
+   "h_en": "Open access 24 hours.",
+   "i": "Ideal para un aperitivo al final de la tarde.",
+   "i_en": "Ideal for a late-afternoon aperitivo."
+  },
+  "w_flo_corridoio_vasariano": {
+   "id": "w_flo_corridoio_vasariano",
+   "d": "Corredor secreto de casi un kilómetro construido por Vasari en 1565 para que los Médici cruzaran del Palazzo Vecchio al Palacio Pitti sin pisar la calle, pasando por encima del Ponte Vecchio.",
+   "d_en": "A secret corridor nearly a kilometre long, built by Vasari in 1565 so the Medici could cross from Palazzo Vecchio to Palazzo Pitti without touching the street, passing over the Ponte Vecchio.",
+   "h": "Visitas según programación; reserva recomendada.",
+   "h_en": "Visits per scheduling; booking recommended.",
+   "i": "Reabrió recientemente; consulta disponibilidad de entradas.",
+   "i_en": "Recently reopened; check ticket availability."
+  },
+  "w_flo_santo_spirito": {
+   "id": "w_flo_santo_spirito",
+   "d": "Corazón del Oltrarno, un barrio auténtico de talleres artesanos, presidido por la sobria fachada de la iglesia de Brunelleschi. De día hay mercado y de noche se llena de vida con bares y música.",
+   "d_en": "The heart of the Oltrarno, an authentic quarter of artisan workshops, watched over by the plain facade of Brunelleschi's church. There's a market by day and lively bars and music by night.",
+   "h": "Acceso libre; ambiente nocturno los fines de semana.",
+   "h_en": "Open access; lively nightlife on weekends.",
+   "i": "Cruza el Arno para descubrir la Florencia más local.",
+   "i_en": "Cross the Arno to discover the most local Florence."
+  },
+  "w_flo_loggia_lanzi": {
+   "id": "w_flo_loggia_lanzi",
+   "d": "Elegante logia gótica del siglo XIV en la Piazza della Signoria que funciona como museo al aire libre gratuito, con obras maestras como el 'Perseo' de Cellini y el 'Rapto de las Sabinas' de Giambologna.",
+   "d_en": "An elegant 14th-century Gothic loggia on Piazza della Signoria that serves as a free open-air museum, with masterpieces such as Cellini's 'Perseus' and Giambologna's 'Rape of the Sabine Women'.",
+   "h": "Acceso libre las 24 horas.",
+   "h_en": "Open access 24 hours.",
+   "i": "Escultura de primer nivel sin pagar entrada.",
+   "i_en": "World-class sculpture with no entry fee."
+  },
+  "w_flo_mercato_centrale": {
+   "id": "w_flo_mercato_centrale",
+   "d": "En la planta baja, un mercado histórico de productos frescos toscanos; en la planta alta, un moderno patio gastronómico con puestos de pasta, pizza, carne, quesos y el clásico lampredotto.",
+   "d_en": "The ground floor is a historic market of fresh Tuscan produce; upstairs, a modern food court with stalls of pasta, pizza, meat, cheese and the classic lampredotto.",
+   "h": "Planta alta abierta a diario hasta tarde.",
+   "h_en": "Upper floor open daily until late.",
+   "i": "Sube arriba para probar de todo en un solo sitio.",
+   "i_en": "Head upstairs to sample a bit of everything in one place."
+  },
+  "w_flo_antico_vinaio": {
+   "id": "w_flo_antico_vinaio",
+   "d": "Institución de Via dei Neri célebre por sus enormes bocadillos de schiacciata rellenos de embutidos, quesos y cremas toscanas. Suele tener cola, pero avanza rápido.",
+   "d_en": "A Via dei Neri institution famous for its huge schiacciata sandwiches filled with cured meats, cheeses and Tuscan spreads. Expect a queue, but it moves fast.",
+   "h": "Abierto a diario, comida para llevar.",
+   "h_en": "Open daily, takeaway food.",
+   "i": "Prueba la 'La Favolosa' y come junto al Arno.",
+   "i_en": "Try 'La Favolosa' and eat by the Arno."
+  },
+  "w_flo_trattoria_mario": {
+   "id": "w_flo_trattoria_mario",
+   "d": "Desde 1953, una taberna sencilla y bulliciosa donde se comparten mesas y se sirve cocina toscana casera: ribollita, pasta al ragú y la célebre bistecca alla fiorentina.",
+   "d_en": "Since 1953, a simple, bustling tavern with shared tables serving home-style Tuscan cooking: ribollita, ragù pasta and the celebrated bistecca alla fiorentina.",
+   "h": "Solo almuerzo; cerrado domingos.",
+   "h_en": "Lunch only; closed Sundays.",
+   "i": "Llega temprano; no aceptan reservas y se llena.",
+   "i_en": "Arrive early; no reservations and it fills up."
+  },
+  "w_flo_gelateria_neri": {
+   "id": "w_flo_gelateria_neri",
+   "d": "Una de las mejores heladerías de Florencia, con gelato cremoso y sabores originales como ricotta con higos, sésamo o crema del Renacimiento, además de opciones veganas.",
+   "d_en": "One of Florence's best gelaterias, with creamy gelato and original flavours like ricotta with figs, sesame or Renaissance cream, plus vegan options.",
+   "h": "Abierto a diario hasta tarde.",
+   "h_en": "Open daily until late.",
+   "i": "A pasos de Santa Croce, ideal tras la cena.",
+   "i_en": "Steps from Santa Croce, ideal after dinner."
+  },
+  "w_flo_ristoro_cambi": {
+   "id": "w_flo_ristoro_cambi",
+   "d": "Fundada en 1946, una osteria de ambiente rústico famosa por su bistecca alla fiorentina a la brasa, sus embutidos y una buena carta de vinos toscanos, lejos del bullicio turístico.",
+   "d_en": "Founded in 1946, a rustic osteria famous for its char-grilled bistecca alla fiorentina, cured meats and a strong list of Tuscan wines, away from the tourist bustle.",
+   "h": "Abierto a diario, comida y cena.",
+   "h_en": "Open daily for lunch and dinner.",
+   "i": "Reserva para probar una auténtica bistecca fiorentina.",
+   "i_en": "Book ahead to try an authentic bistecca fiorentina."
+  },
+  "w_flo_mercato_sant_ambrogio": {
+   "id": "w_flo_mercato_sant_ambrogio",
+   "d": "El mercado favorito de los florentinos, con puestos de fruta, verdura, quesos y flores, y sencillas fondas donde probar platos caseros como la trippa a precios populares.",
+   "d_en": "The Florentines' favourite market, with stalls of fruit, vegetables, cheeses and flowers, and simple eateries serving home cooking like tripe at everyday prices.",
+   "h": "Mañanas; cerrado domingos.",
+   "h_en": "Mornings; closed Sundays.",
+   "i": "Come en las mesas comunes de la Trattoria da Rocco.",
+   "i_en": "Eat at the communal tables of Trattoria da Rocco."
+  }
+ },
+ "food": {
+  "w_flo_mercato_centrale": {
+   "cuisine": "Toscana / mercado",
+   "price": "8–20 €",
+   "hours": "Aprox. 9:00–24:00 (planta alta)"
+  },
+  "w_flo_antico_vinaio": {
+   "cuisine": "Bocadillos / street food",
+   "price": "7–12 €",
+   "hours": "Aprox. 11:00–22:00"
+  },
+  "w_flo_trattoria_mario": {
+   "cuisine": "Toscana tradicional",
+   "price": "12–30 €",
+   "hours": "Lun a sáb, 12:00–15:30"
+  },
+  "w_flo_gelateria_neri": {
+   "cuisine": "Heladería / postres",
+   "price": "3–6 €",
+   "hours": "Aprox. 11:00–24:00"
+  },
+  "w_flo_ristoro_cambi": {
+   "cuisine": "Toscana / carne a la brasa",
+   "price": "20–45 €",
+   "hours": "Aprox. 12:00–14:30 y 19:00–22:30"
+  },
+  "w_flo_mercato_sant_ambrogio": {
+   "cuisine": "Toscana / mercado",
+   "price": "5–15 €",
+   "hours": "Lun a sáb, 7:00–14:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Florencia",
+   "items": [
+    {
+     "name": "Artículos de cuero",
+     "price": "20–300 €",
+     "desc": "Bolsos, chaquetas y carteras de piel curtida a mano, tradición florentina de siglos."
+    },
+    {
+     "name": "Papel marmolado (carta marmorizzata)",
+     "price": "5–40 €",
+     "desc": "Cuadernos y papelería con el característico papel jaspeado hecho a mano."
+    },
+    {
+     "name": "Joyería de oro",
+     "price": "50–1000 €",
+     "desc": "Oro trabajado por orfebres del Ponte Vecchio desde el Renacimiento."
+    },
+    {
+     "name": "Perfumes y jabones de Santa Maria Novella",
+     "price": "15–150 €",
+     "desc": "Fragancias y cosmética de la histórica farmacia-perfumería de 1612."
+    },
+    {
+     "name": "Vino Chianti y aceite de oliva toscano",
+     "price": "8–60 €",
+     "desc": "Vino tinto DOCG y aceite virgen extra de las colinas cercanas."
+    }
+   ],
+   "shops": [
+    "Scuola del Cuoio (Santa Croce)",
+    "Mercato di San Lorenzo",
+    "Officina Profumo-Farmaceutica di Santa Maria Novella",
+    "Orfebrerías del Ponte Vecchio",
+    "Mercato Centrale"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Reserva online con antelación las entradas a los Uffizi, la Galería de la Academia y la cúpula de Brunelleschi para evitar colas de horas.",
+   "El centro histórico es Patrimonio de la Humanidad y se recorre a pie; usa calzado cómodo por el empedrado.",
+   "Sube al Piazzale Michelangelo al atardecer para la mejor panorámica de la ciudad, es gratis.",
+   "Muchas iglesias exigen hombros y rodillas cubiertos; lleva un pañuelo o chal.",
+   "Prueba la comida callejera local: lampredotto y panini en el Mercato Centrale o en Via dei Neri."
+  ],
+  "en": [
+   "Book Uffizi, Accademia and Brunelleschi's dome tickets online well in advance to skip hours-long queues.",
+   "The historic center is a UNESCO site best explored on foot; wear comfy shoes for the cobblestones.",
+   "Head up to Piazzale Michelangelo at sunset for the best free panorama of the city.",
+   "Many churches require covered shoulders and knees; carry a scarf or shawl.",
+   "Try local street food: lampredotto and panini at the Mercato Centrale or along Via dei Neri."
+  ]
+ },
+ "climate": {
+  "hi": [
+   10,
+   12,
+   16,
+   20,
+   25,
+   29,
+   32,
+   32,
+   27,
+   21,
+   15,
+   10
+  ],
+  "lo": [
+   2,
+   3,
+   6,
+   9,
+   13,
+   16,
+   19,
+   19,
+   15,
+   11,
+   6,
+   3
+  ]
+ },
+ "tr": {
+  "Catedral gótica coronada por la célebre cúpula de Brunelleschi.": "Gothic cathedral crowned by Brunelleschi's famous dome.",
+  "Uno de los museos de arte más importantes del mundo.": "One of the world's most important art museums.",
+  "Hogar del David original de Miguel Ángel.": "Home of Michelangelo's original David.",
+  "Ayuntamiento histórico y museo con la torre de Arnolfo.": "Historic town hall and museum with the Arnolfo tower.",
+  "Baptisterio románico famoso por sus puertas de bronce.": "Romanesque baptistery famed for its bronze doors.",
+  "Torre campanario gótica junto al Duomo.": "Gothic bell tower beside the Duomo.",
+  "Iglesia franciscana con tumbas de grandes genios.": "Franciscan church with the tombs of great geniuses.",
+  "Vasto palacio renacentista con varios museos.": "Vast Renaissance palace housing several museums.",
+  "Iglesia de los Médici con fachada inacabada.": "Medici church with an unfinished facade.",
+  "Iglesia dominica con fachada renacentista de mármol.": "Dominican church with a marble Renaissance facade.",
+  "Mausoleo de la dinastía Médici con esculturas de Miguel Ángel.": "Mausoleum of the Medici dynasty with Michelangelo sculptures.",
+  "Museo de escultura en un antiguo palacio-cárcel.": "Sculpture museum in a former palace-prison.",
+  "Jardín renacentista tras el Palacio Pitti.": "Renaissance garden behind Palazzo Pitti.",
+  "Mirador panorámico sobre toda Florencia.": "Panoramic terrace overlooking all of Florence.",
+  "Jardín histórico con glicinas y vistas.": "Historic garden with wisteria and city views.",
+  "Rosaleda gratuita bajo el Piazzale Michelangelo.": "Free rose garden below Piazzale Michelangelo.",
+  "El mayor parque público de Florencia.": "Florence's largest public park.",
+  "Fortaleza del siglo XVI con vistas de 360°.": "16th-century fortress with 360° views.",
+  "Puente medieval con joyerías sobre el Arno.": "Medieval bridge lined with jewelers over the Arno.",
+  "Plaza monumental, corazón político de la ciudad.": "Monumental square, the city's political heart.",
+  "Plaza elegante con cafés históricos y tiovivo.": "Elegant square with historic cafés and a carousel.",
+  "Pasadizo elevado de los Médici sobre la ciudad.": "The Medici's elevated passage over the city.",
+  "Plaza bohemia del barrio artesano del Oltrarno.": "Bohemian square in the artisan Oltrarno district.",
+  "Galería abierta de esculturas en la Signoria.": "Open-air sculpture gallery on the Signoria.",
+  "Mercado gastronómico en un edificio de hierro de 1874.": "Food market in an 1874 cast-iron hall.",
+  "El panini toscano más famoso de la ciudad.": "The city's most famous Tuscan panini.",
+  "Trattoria familiar clásica junto a San Lorenzo.": "Classic family trattoria by San Lorenzo.",
+  "Heladería artesanal muy apreciada por los locales.": "Artisanal gelato loved by locals.",
+  "Osteria toscana histórica en el Oltrarno.": "Historic Tuscan osteria in the Oltrarno.",
+  "Mercado de barrio auténtico y sin turistas.": "Authentic, tourist-free neighbourhood market.",
+  "Florencia": "Florencia"
+ }
+}

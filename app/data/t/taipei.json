@@ -1,0 +1,703 @@
+{
+ "id": "taipei",
+ "name": "Taipéi",
+ "country": "WORLD",
+ "center": [
+  25.0478,
+  121.5319
+ ],
+ "pois": [
+  {
+   "id": "w_tpe_taipei101",
+   "cat": "monuments",
+   "name": "Taipei 101",
+   "icon": "🏙️",
+   "lat": 25.03376,
+   "lng": 121.5645,
+   "desc": "Rascacielos de 508 m, símbolo de la ciudad con mirador panorámico."
+  },
+  {
+   "id": "w_tpe_cks_memorial",
+   "cat": "monuments",
+   "name": "Memorial de Chiang Kai-shek",
+   "icon": "🏛️",
+   "lat": 25.03465,
+   "lng": 121.52186,
+   "desc": "Monumento blanco de mármol con cambio de guardia en la Plaza de la Libertad."
+  },
+  {
+   "id": "w_tpe_longshan",
+   "cat": "monuments",
+   "name": "Templo Longshan",
+   "icon": "⛩️",
+   "lat": 25.03718,
+   "lng": 121.49984,
+   "desc": "Templo de 1738 en Wanhua, el más famoso y animado de Taipéi."
+  },
+  {
+   "id": "w_tpe_palace_museum",
+   "cat": "monuments",
+   "name": "Museo del Palacio Nacional",
+   "icon": "🏺",
+   "lat": 25.10228,
+   "lng": 121.54852,
+   "desc": "Una de las mayores colecciones de arte chino imperial del mundo."
+  },
+  {
+   "id": "w_tpe_dadaocheng",
+   "cat": "monuments",
+   "name": "Dadaocheng y calle Dihua",
+   "icon": "🏮",
+   "lat": 25.05622,
+   "lng": 121.50997,
+   "desc": "Barrio histórico de comercio de té, hierbas y telas del siglo XIX."
+  },
+  {
+   "id": "w_tpe_sunyatsen",
+   "cat": "monuments",
+   "name": "Memorial de Sun Yat-sen",
+   "icon": "🏛️",
+   "lat": 25.04013,
+   "lng": 121.56004,
+   "desc": "Sala conmemorativa del padre de la China moderna, con vistas al 101."
+  },
+  {
+   "id": "w_tpe_baoan",
+   "cat": "monuments",
+   "name": "Templo Baoan",
+   "icon": "⛩️",
+   "lat": 25.07327,
+   "lng": 121.51548,
+   "desc": "Templo taoísta premiado por la Unesco por su restauración."
+  },
+  {
+   "id": "w_tpe_confucius",
+   "cat": "monuments",
+   "name": "Templo de Confucio",
+   "icon": "📜",
+   "lat": 25.07276,
+   "lng": 121.51654,
+   "desc": "Templo sobrio dedicado al filósofo, de tranquila arquitectura minnan."
+  },
+  {
+   "id": "w_tpe_presidential",
+   "cat": "monuments",
+   "name": "Palacio Presidencial",
+   "icon": "🏛️",
+   "lat": 25.04003,
+   "lng": 121.5116,
+   "desc": "Sede del gobierno en un imponente edificio colonial de 1919."
+  },
+  {
+   "id": "w_tpe_xingtian",
+   "cat": "monuments",
+   "name": "Templo Xingtian",
+   "icon": "⛩️",
+   "lat": 25.06322,
+   "lng": 121.53389,
+   "desc": "Popular templo dedicado a Guan Gong, dios de los negocios."
+  },
+  {
+   "id": "w_tpe_beitou_museum",
+   "cat": "monuments",
+   "name": "Museo Termal de Beitou",
+   "icon": "♨️",
+   "lat": 25.1365,
+   "lng": 121.50693,
+   "desc": "Antigua casa de baños japonesa de 1913 convertida en museo."
+  },
+  {
+   "id": "w_tpe_bopiliao",
+   "cat": "monuments",
+   "name": "Bloque histórico Bopiliao",
+   "icon": "🧱",
+   "lat": 25.03687,
+   "lng": 121.50247,
+   "desc": "Calle restaurada de la era Qing y japonesa junto a Longshan."
+  },
+  {
+   "id": "w_tpe_elephant_mtn",
+   "cat": "nature",
+   "name": "Montaña del Elefante",
+   "icon": "🐘",
+   "lat": 25.02735,
+   "lng": 121.57079,
+   "desc": "Corta subida con la mejor vista del skyline y el Taipei 101."
+  },
+  {
+   "id": "w_tpe_yangmingshan",
+   "cat": "nature",
+   "name": "Parque Nacional Yangmingshan",
+   "icon": "🌋",
+   "lat": 25.15556,
+   "lng": 121.55278,
+   "desc": "Montañas volcánicas con fumarolas, prados y campos de flores."
+  },
+  {
+   "id": "w_tpe_beitou_valley",
+   "cat": "nature",
+   "name": "Valle Termal de Beitou",
+   "icon": "♨️",
+   "lat": 25.13634,
+   "lng": 121.51334,
+   "desc": "Lago geotérmico humeante de aguas verdes y calor volcánico."
+  },
+  {
+   "id": "w_tpe_yehliu",
+   "cat": "nature",
+   "name": "Geoparque de Yehliu",
+   "icon": "🪨",
+   "lat": 25.2062,
+   "lng": 121.69041,
+   "desc": "Cabo con curiosas rocas erosionadas como la 'Cabeza de Reina'."
+  },
+  {
+   "id": "w_tpe_daan_park",
+   "cat": "nature",
+   "name": "Parque Forestal Da'an",
+   "icon": "🌳",
+   "lat": 25.02987,
+   "lng": 121.5358,
+   "desc": "El 'pulmón verde' de Taipéi, ideal para pasear y descansar."
+  },
+  {
+   "id": "w_tpe_tamsui_wharf",
+   "cat": "nature",
+   "name": "Muelle del Pescador de Tamsui",
+   "icon": "🌉",
+   "lat": 25.18313,
+   "lng": 121.4106,
+   "desc": "Puerto costero con puente del Amante y famosas puestas de sol."
+  },
+  {
+   "id": "w_tpe_ximending",
+   "cat": "ocio",
+   "name": "Ximending",
+   "icon": "🛍️",
+   "lat": 25.04203,
+   "lng": 121.5076,
+   "desc": "Barrio peatonal de moda joven, cines y cultura pop."
+  },
+  {
+   "id": "w_tpe_maokong",
+   "cat": "ocio",
+   "name": "Teleférico de Maokong",
+   "icon": "🚠",
+   "lat": 24.96805,
+   "lng": 121.5884,
+   "desc": "Teleférico panorámico hacia colinas de té y casas de té."
+  },
+  {
+   "id": "w_tpe_jiufen",
+   "cat": "ocio",
+   "name": "Calle Antigua de Jiufen",
+   "icon": "🏮",
+   "lat": 25.10919,
+   "lng": 121.84479,
+   "desc": "Pueblo minero de montaña con callejones, faroles y casas de té."
+  },
+  {
+   "id": "w_tpe_zoo",
+   "cat": "ocio",
+   "name": "Zoo de Taipéi",
+   "icon": "🐼",
+   "lat": 24.99818,
+   "lng": 121.5812,
+   "desc": "El mayor zoo de Asia, famoso por sus pandas gigantes."
+  },
+  {
+   "id": "w_tpe_huashan1914",
+   "cat": "ocio",
+   "name": "Parque Creativo Huashan 1914",
+   "icon": "🎨",
+   "lat": 25.0443,
+   "lng": 121.5296,
+   "desc": "Antigua destilería reconvertida en centro cultural y de diseño."
+  },
+  {
+   "id": "w_tpe_miramar_wheel",
+   "cat": "ocio",
+   "name": "Noria de Miramar",
+   "icon": "🎡",
+   "lat": 25.0834,
+   "lng": 121.5573,
+   "desc": "Gran noria en la azotea de un centro comercial de Dazhi."
+  },
+  {
+   "id": "w_tpe_shilin_market",
+   "cat": "food",
+   "name": "Mercado Nocturno de Shilin",
+   "icon": "🍢",
+   "lat": 25.08795,
+   "lng": 121.524,
+   "desc": "El mercado nocturno más grande y famoso de Taipéi."
+  },
+  {
+   "id": "w_tpe_raohe_market",
+   "cat": "food",
+   "name": "Mercado Nocturno de Raohe",
+   "icon": "🥟",
+   "lat": 25.05098,
+   "lng": 121.57734,
+   "desc": "Mercado nocturno compacto famoso por sus pasteles de pimienta."
+  },
+  {
+   "id": "w_tpe_dintaifung",
+   "cat": "food",
+   "name": "Din Tai Fung (Xinyi)",
+   "icon": "🥟",
+   "lat": 25.0333,
+   "lng": 121.5299,
+   "desc": "Local original de los famosos xiaolongbao con estrella Michelin."
+  },
+  {
+   "id": "w_tpe_yongkang",
+   "cat": "food",
+   "name": "Calle Yongkang",
+   "icon": "🍜",
+   "lat": 25.0323,
+   "lng": 121.5296,
+   "desc": "Calle gastronómica con fideos de ternera, hielo de mango y cafés."
+  },
+  {
+   "id": "w_tpe_ningxia_market",
+   "cat": "food",
+   "name": "Mercado Nocturno de Ningxia",
+   "icon": "🍲",
+   "lat": 25.0568,
+   "lng": 121.5154,
+   "desc": "Mercado tradicional muy valorado por su comida local clásica."
+  },
+  {
+   "id": "w_tpe_fuhang",
+   "cat": "food",
+   "name": "Fuhang Soy Milk",
+   "icon": "🥛",
+   "lat": 25.0443,
+   "lng": 121.5276,
+   "desc": "Legendario desayuno taiwanés con largas colas cada mañana."
+  }
+ ],
+ "extra": {
+  "w_tpe_taipei101": {
+   "id": "w_tpe_taipei101",
+   "d": "Fue el edificio más alto del mundo entre 2004 y 2010. Su diseño evoca una caña de bambú en ocho segmentos y alberga un enorme amortiguador de masa esférico visible para el público. Los miradores de las plantas 88-91 ofrecen vistas de 360°.",
+   "d_en": "It was the world's tallest building from 2004 to 2010. Its design evokes a bamboo stalk in eight segments and houses a giant tuned mass damper open to visitors. The observatories on floors 88-91 offer 360° views.",
+   "h": "Mirador abierto normalmente 11:00-21:00. MRT Taipei 101/World Trade Center (línea roja). Reserva online para evitar colas.",
+   "h_en": "Observatory usually open 11:00-21:00. MRT Taipei 101/World Trade Center (Red line). Book online to skip queues.",
+   "i": "Uno de los ascensores más rápidos del mundo sube a la planta 89 en unos 37 segundos.",
+   "i_en": "One of the world's fastest elevators reaches floor 89 in about 37 seconds."
+  },
+  "w_tpe_cks_memorial": {
+   "id": "w_tpe_cks_memorial",
+   "d": "Erigido en memoria del expresidente de la República de China, es un conjunto monumental con una gran estatua de bronce, 89 escalones y jardines. La plaza integra el Teatro y la Sala de Conciertos Nacionales de estilo tradicional chino.",
+   "d_en": "Built in memory of the former President of the Republic of China, it is a monumental complex with a large bronze statue, 89 steps and gardens. The square also holds the traditional-style National Theater and Concert Hall.",
+   "h": "Explanada abierta 24 h; salón principal aprox. 09:00-18:00. MRT Chiang Kai-shek Memorial Hall. Cambio de guardia cada hora.",
+   "h_en": "Grounds open 24h; main hall approx. 09:00-18:00. MRT Chiang Kai-shek Memorial Hall. Guard change on the hour.",
+   "i": "Los 89 escalones representan la edad a la que murió Chiang Kai-shek.",
+   "i_en": "The 89 steps represent the age at which Chiang Kai-shek died."
+  },
+  "w_tpe_longshan": {
+   "id": "w_tpe_longshan",
+   "d": "Fundado por colonos de Fujian, mezcla budismo, taoísmo y creencias populares. Destacan sus columnas de dragón de bronce, la ornamentación de cerámica cortada y el ambiente de incienso y oraciones. Fue reconstruido varias veces tras terremotos y bombardeos.",
+   "d_en": "Founded by Fujian settlers, it blends Buddhism, Taoism and folk beliefs. Highlights include its bronze dragon columns, cut-ceramic ornamentation and an atmosphere of incense and prayer. It has been rebuilt several times after earthquakes and bombing.",
+   "h": "Abierto aprox. 06:00-22:00, entrada gratuita. MRT Longshan Temple (línea azul). Muy concurrido al atardecer.",
+   "h_en": "Open approx. 06:00-22:00, free entry. MRT Longshan Temple (Blue line). Very busy at dusk.",
+   "i": "Muchos jóvenes vienen a rezar al dios del amor Yue Lao para pedir pareja.",
+   "i_en": "Many young people come to pray to the love god Yue Lao for a partner."
+  },
+  "w_tpe_palace_museum": {
+   "id": "w_tpe_palace_museum",
+   "d": "Reúne casi 700.000 piezas procedentes de la Ciudad Prohibida, trasladadas a Taiwán en 1949. Entre sus tesoros están la 'Col de jade' y la 'Roca con forma de carne'. Las exposiciones rotan por su enorme tamaño.",
+   "d_en": "It holds nearly 700,000 objects from the Forbidden City, moved to Taiwan in 1949. Its treasures include the 'Jadeite Cabbage' and the 'Meat-shaped Stone'. Exhibits rotate because of the vast collection.",
+   "h": "Abierto aprox. 09:00-17:00 (cerrado algunos lunes). MRT Shilin + bus. Reserva entrada online en temporada alta.",
+   "h_en": "Open approx. 09:00-17:00 (closed some Mondays). MRT Shilin + bus. Book tickets online in high season.",
+   "i": "Solo una pequeña fracción del acervo puede exhibirse a la vez.",
+   "i_en": "Only a small fraction of the collection can be displayed at once."
+  },
+  "w_tpe_dadaocheng": {
+   "id": "w_tpe_dadaocheng",
+   "d": "Antiguo puerto fluvial que floreció con el comercio del té. La calle Dihua conserva casas de estilo baroco y minnan con tiendas tradicionales de medicina china, frutos secos y textiles, especialmente animadas antes del Año Nuevo chino.",
+   "d_en": "A former river port that flourished on the tea trade. Dihua Street preserves Baroque and Minnan-style houses with traditional shops of Chinese medicine, dried goods and textiles, especially lively before Chinese New Year.",
+   "h": "Tiendas aprox. 10:00-19:00. MRT Beimen o Daqiaotou. Visita también el templo de Xiahai.",
+   "h_en": "Shops approx. 10:00-19:00. MRT Beimen or Daqiaotou. Also visit Xiahai City God Temple.",
+   "i": "El templo de Xiahai custodia otro popular dios del amor, Yue Lao.",
+   "i_en": "Xiahai Temple houses another popular love god, Yue Lao."
+  },
+  "w_tpe_sunyatsen": {
+   "id": "w_tpe_sunyatsen",
+   "d": "Gran edificio de tejado curvo dedicado a Sun Yat-sen, con museo, sala de exposiciones y un amplio parque muy usado por locales. Alberga una imponente estatua y ofrece uno de los mejores encuadres del Taipei 101.",
+   "d_en": "A large curved-roof building dedicated to Sun Yat-sen, with a museum, exhibition halls and a wide park loved by locals. It holds an imposing statue and offers one of the best framed views of Taipei 101.",
+   "h": "Abierto aprox. 09:00-18:00. MRT Sun Yat-Sen Memorial Hall (línea azul). Cambio de guardia cada hora.",
+   "h_en": "Open approx. 09:00-18:00. MRT Sun Yat-Sen Memorial Hall (Blue line). Guard change on the hour.",
+   "i": "El parque es punto de encuentro de bailarines y practicantes de taichí al amanecer.",
+   "i_en": "The park is a gathering spot for dancers and tai chi practitioners at dawn."
+  },
+  "w_tpe_baoan": {
+   "id": "w_tpe_baoan",
+   "d": "Dedicado al dios de la medicina Baosheng Dadi, es una joya de la arquitectura tradicional con tallas de madera, murales y columnas de dragón. Su restauración recibió un premio de la Unesco Asia-Pacífico en 2003.",
+   "d_en": "Dedicated to the medicine god Baosheng Dadi, it is a gem of traditional architecture with wood carvings, murals and dragon columns. Its restoration won a UNESCO Asia-Pacific award in 2003.",
+   "h": "Abierto aprox. 06:30-22:00, entrada gratuita. MRT Yuanshan. Junto al templo de Confucio.",
+   "h_en": "Open approx. 06:30-22:00, free entry. MRT Yuanshan. Next to the Confucius Temple.",
+   "i": "En primavera celebra el festival Baosheng con óperas y ritos de fuego.",
+   "i_en": "In spring it hosts the Baosheng Cultural Festival with operas and fire rites."
+  },
+  "w_tpe_confucius": {
+   "id": "w_tpe_confucius",
+   "d": "A diferencia de otros templos coloridos, sigue la austeridad confuciana sin imágenes de dioses. Sus patios y salones acogen la solemne ceremonia del cumpleaños de Confucio, con música y danza rituales.",
+   "d_en": "Unlike other colourful temples, it follows Confucian austerity with no god images. Its courtyards and halls host the solemn ceremony for Confucius's birthday, with ritual music and dance.",
+   "h": "Abierto aprox. 08:30-21:00 (cerrado lunes), entrada gratuita. MRT Yuanshan.",
+   "h_en": "Open approx. 08:30-21:00 (closed Mondays), free entry. MRT Yuanshan.",
+   "i": "La ceremonia del 28 de septiembre celebra el nacimiento de Confucio, Día del Maestro.",
+   "i_en": "The 28 September ceremony marks Confucius's birth, celebrated as Teachers' Day."
+  },
+  "w_tpe_presidential": {
+   "id": "w_tpe_presidential",
+   "d": "Construido durante el dominio japonés en estilo renacentista con una torre central de 60 m, alberga la oficina del presidente de Taiwán. Su fachada de ladrillo rojo es un símbolo político y arquitectónico de la ciudad.",
+   "d_en": "Built under Japanese rule in Renaissance style with a 60 m central tower, it houses the office of Taiwan's president. Its red-brick facade is a political and architectural symbol of the city.",
+   "h": "Visita interior gratuita en horario limitado por la mañana (lleva pasaporte). MRT NTU Hospital o Ximen. Exterior visible siempre.",
+   "h_en": "Free interior tours in limited morning hours (bring your passport). MRT NTU Hospital or Ximen. Exterior visible anytime.",
+   "i": "En días señalados se puede visitar el interior de forma gratuita.",
+   "i_en": "On special open days the interior can be visited for free."
+  },
+  "w_tpe_xingtian": {
+   "id": "w_tpe_xingtian",
+   "d": "Uno de los templos más frecuentados de Taipéi, dedicado al general deificado Guan Yu. Es famoso por sus voluntarias vestidas de azul que realizan rituales de purificación (shoujing) y por no aceptar ofrendas de carne ni quema de dinero.",
+   "d_en": "One of Taipei's busiest temples, dedicated to the deified general Guan Yu. It is known for its blue-robed volunteers performing purification rituals (shoujing) and for banning meat offerings and money burning.",
+   "h": "Abierto aprox. 04:00-22:30, entrada gratuita. MRT Xingtian Temple (línea naranja).",
+   "h_en": "Open approx. 04:00-22:30, free entry. MRT Xingtian Temple (Orange line).",
+   "i": "Bajo el paso subterráneo cercano hay adivinos que leen la fortuna.",
+   "i_en": "In the nearby underpass, fortune tellers read visitors' fates."
+  },
+  "w_tpe_beitou_museum": {
+   "id": "w_tpe_beitou_museum",
+   "d": "Edificio de estilo japonés con planta baja de baños de ladrillo y vidrieras y una segunda planta de tatami. Narra la historia termal de Beitou desde la época colonial. Rodeado del bonito Parque de Beitou y el arroyo humeante.",
+   "d_en": "A Japanese-style building with a brick-and-stained-glass bath hall downstairs and a tatami floor upstairs. It tells the hot-spring history of Beitou from colonial times. Set in pretty Beitou Park by the steaming stream.",
+   "h": "Abierto aprox. 09:00-17:00 (cerrado lunes), gratuito. MRT Xinbeitou. Descálzate al entrar.",
+   "h_en": "Open approx. 09:00-17:00 (closed Mondays), free. MRT Xinbeitou. Remove your shoes at the entrance.",
+   "i": "Tuvo la mayor casa de baños públicos del este de Asia en su época.",
+   "i_en": "In its day it held the largest public bathhouse in East Asia."
+  },
+  "w_tpe_bopiliao": {
+   "id": "w_tpe_bopiliao",
+   "d": "Conjunto de casas-tienda de más de 150 años con arcadas, ladrillo y madera que muestran la evolución arquitectónica de Taipéi. Hoy acoge exposiciones culturales y sirvió de escenario para películas históricas.",
+   "d_en": "A cluster of 150-year-old shophouses with arcades, brick and timber showing Taipei's architectural evolution. Today it hosts cultural exhibitions and has served as a set for historical films.",
+   "h": "Abierto aprox. 09:00-18:00 (cerrado lunes), gratuito. MRT Longshan Temple. Junto al templo Longshan.",
+   "h_en": "Open approx. 09:00-18:00 (closed Mondays), free. MRT Longshan Temple. Beside Longshan Temple.",
+   "i": "El nombre alude a la antigua descortezado de troncos para hacer barcos.",
+   "i_en": "The name refers to the old bark-stripping of logs for building boats."
+  },
+  "w_tpe_elephant_mtn": {
+   "id": "w_tpe_elephant_mtn",
+   "d": "Sendero de escaleras (Xiangshan) que en 15-20 minutos de subida exigente lleva a miradores y a las famosas 'rocas' desde donde fotografiar el Taipei 101. Es el atardecer más popular de la ciudad.",
+   "d_en": "A staircase trail (Xiangshan) that in a demanding 15-20 minute climb reaches viewpoints and the famous 'boulder' rocks for photographing Taipei 101. It is the city's most popular sunset spot.",
+   "h": "Abierto 24 h, gratuito. MRT Xiangshan (línea roja). Lleva agua; llega antes del ocaso por la afluencia.",
+   "h_en": "Open 24h, free. MRT Xiangshan (Red line). Bring water; arrive before sunset as it gets crowded.",
+   "i": "Forma parte de las 'Cuatro Bestias', cuatro colinas con nombres de animales.",
+   "i_en": "It is part of the 'Four Beasts', four hills named after animals."
+  },
+  "w_tpe_yangmingshan": {
+   "id": "w_tpe_yangmingshan",
+   "d": "Gran parque de origen volcánico con senderos, aguas termales, la fumarola de Xiaoyoukeng y el pico Qixing, el más alto de Taipéi. En primavera se llena de cerezos, azaleas y calas; en invierno, de niebla y vapor sulfúrico.",
+   "d_en": "A large volcanic park with trails, hot springs, the Xiaoyoukeng fumarole and Qixing peak, Taipei's highest. In spring it fills with cherry blossoms, azaleas and calla lilies; in winter, with mist and sulphur steam.",
+   "h": "Parque abierto todo el día; centros de visitantes aprox. 09:00-16:30. MRT Jiantan + bus, o bus desde el centro.",
+   "h_en": "Park open all day; visitor centers approx. 09:00-16:30. MRT Jiantan + bus, or bus from downtown.",
+   "i": "El vapor y el olor a azufre delatan la actividad volcánica bajo el parque.",
+   "i_en": "Steam and a sulphur smell reveal the volcanic activity beneath the park."
+  },
+  "w_tpe_beitou_valley": {
+   "id": "w_tpe_beitou_valley",
+   "d": "Manantial de azufre conocido como 'Valle del Infierno', con aguas que rondan los 80-100 °C y una nube de vapor constante. Sus aguas alimentan los balnearios de Beitou; no está permitido bañarse aquí pero sí pasear alrededor.",
+   "d_en": "A sulphur spring known as 'Hell Valley', with waters around 80-100 °C and a constant cloud of steam. Its waters feed Beitou's spas; bathing here is not allowed but you can walk around it.",
+   "h": "Abierto aprox. 09:00-17:00 (cerrado lunes), gratuito. MRT Xinbeitou. No metas objetos en el agua hirviendo.",
+   "h_en": "Open approx. 09:00-17:00 (closed Mondays), free. MRT Xinbeitou. Do not dip objects in the boiling water.",
+   "i": "De aquí procede la 'hokutolita', mineral radiactivo raro que da nombre al lugar.",
+   "i_en": "It is the source of 'hokutolite', a rare radioactive mineral named after the area."
+  },
+  "w_tpe_yehliu": {
+   "id": "w_tpe_yehliu",
+   "d": "Promontorio costero de arenisca esculpido por el mar y el viento en formas de hongo, panal y setas. Su roca más célebre, la 'Cabeza de la Reina', se ha adelgazado tanto que se teme por su cuello. Excursión habitual desde Taipéi.",
+   "d_en": "A sandstone coastal cape carved by sea and wind into mushroom, honeycomb and toadstool shapes. Its most famous rock, the 'Queen's Head', has thinned so much its neck is at risk. A common day trip from Taipei.",
+   "h": "Abierto aprox. 08:00-17:00, entrada de pago. Bus desde Taipéi Main Station (aprox. 1 h). No cruces las cuerdas de seguridad.",
+   "h_en": "Open approx. 08:00-17:00, paid entry. Bus from Taipei Main Station (approx. 1h). Do not cross the safety ropes.",
+   "i": "La 'Cabeza de la Reina' tardó unos 4.000 años en formarse.",
+   "i_en": "The 'Queen's Head' took around 4,000 years to form."
+  },
+  "w_tpe_daan_park": {
+   "id": "w_tpe_daan_park",
+   "d": "Amplio parque urbano con estanque ecológico, anfiteatro al aire libre, zonas de juego y miles de árboles. Es refugio de garcetas y otras aves, y punto de encuentro para deporte, conciertos y familias.",
+   "d_en": "A large urban park with an ecological pond, open-air amphitheater, playgrounds and thousands of trees. It shelters egrets and other birds and is a hub for exercise, concerts and families.",
+   "h": "Abierto 24 h, gratuito. MRT Daan Park (línea roja). Ideal a primera hora o al atardecer.",
+   "h_en": "Open 24h, free. MRT Daan Park (Red line). Best early morning or at dusk.",
+   "i": "Su estanque acoge una colonia de garcetas fácil de observar al anochecer.",
+   "i_en": "Its pond hosts a colony of egrets easy to spot at dusk."
+  },
+  "w_tpe_tamsui_wharf": {
+   "id": "w_tpe_tamsui_wharf",
+   "d": "En la desembocadura del río Tamsui, este muelle reconvertido ofrece un paseo marítimo, el peatonal 'Puente del Amante' y barcos hacia Bali. Sus atardeceres sobre el estuario son de los más celebrados de Taiwán.",
+   "d_en": "At the mouth of the Tamsui River, this converted wharf offers a seaside promenade, the pedestrian 'Lover's Bridge' and ferries to Bali. Its sunsets over the estuary are among Taiwan's most celebrated.",
+   "h": "Abierto todo el día. MRT Tamsui + bus/paseo, o barco. Combínalo con la Calle Antigua de Tamsui.",
+   "h_en": "Open all day. MRT Tamsui + bus/walk, or ferry. Combine it with Tamsui Old Street.",
+   "i": "El puente se ilumina de colores al caer la noche.",
+   "i_en": "The bridge lights up in colors after nightfall."
+  },
+  "w_tpe_ximending": {
+   "id": "w_tpe_ximending",
+   "d": "Considerado el 'Shibuya de Taipéi', es un laberinto de calles peatonales con tiendas de ropa, karaokes, salones de tatuaje, street food y actuaciones callejeras. Centro de la moda juvenil y de la comunidad LGBT.",
+   "d_en": "Dubbed the 'Shibuya of Taipei', it is a maze of pedestrian streets with clothing shops, karaoke, tattoo parlors, street food and busking. A hub of youth fashion and the LGBT community.",
+   "h": "Tiendas aprox. 11:00-22:00; más animado por la tarde-noche. MRT Ximen (líneas azul y verde).",
+   "h_en": "Shops approx. 11:00-22:00; liveliest in the evening. MRT Ximen (Blue and Green lines).",
+   "i": "En su plaza está la histórica Casa Roja (Red House), teatro octogonal de 1908.",
+   "i_en": "Its square holds the historic octagonal Red House theater from 1908."
+  },
+  "w_tpe_maokong": {
+   "id": "w_tpe_maokong",
+   "d": "Un teleférico de 4 km asciende desde el zoo hasta Maokong, antigua zona productora de té Tieguanyin. Arriba esperan casas de té con vistas de la ciudad, senderos y templos. Algunas cabinas 'Crystal' tienen suelo de cristal.",
+   "d_en": "A 4 km gondola rises from the zoo to Maokong, a former Tieguanyin tea-growing area. At the top await tea houses with city views, trails and temples. Some 'Crystal' cabins have glass floors.",
+   "h": "Aprox. 09:00-21:00 (cerrado lunes). MRT Taipei Zoo (línea marrón) para la base. Usa EasyCard.",
+   "h_en": "Approx. 09:00-21:00 (closed Mondays). MRT Taipei Zoo (Brown line) for the base. Use your EasyCard.",
+   "i": "Al atardecer las casas de té ofrecen una de las mejores vistas nocturnas.",
+   "i_en": "At dusk the tea houses offer one of the best night views."
+  },
+  "w_tpe_jiufen": {
+   "id": "w_tpe_jiufen",
+   "d": "Antiguo pueblo del oro encaramado a la ladera, con callejones escalonados repletos de faroles rojos, puestos de comida y casas de té con vistas al mar. Su ambiente inspira comparaciones con el cine de animación japonés.",
+   "d_en": "A former gold town clinging to the hillside, with stepped alleys full of red lanterns, food stalls and tea houses overlooking the sea. Its atmosphere invites comparisons with Japanese animation.",
+   "h": "Tiendas aprox. 09:00-20:00; entre semana hay menos gente. Bus o tren+bus desde Taipéi (aprox. 1-1,5 h).",
+   "h_en": "Shops approx. 09:00-20:00; weekdays are less crowded. Bus or train+bus from Taipei (approx. 1-1.5h).",
+   "i": "Está en Nueva Taipéi, muy cerca de la capital, ideal como excursión de un día.",
+   "i_en": "It sits in New Taipei, very close to the capital, ideal as a day trip."
+  },
+  "w_tpe_zoo": {
+   "id": "w_tpe_zoo",
+   "d": "Extenso parque zoológico con áreas por ecosistemas, casa de pandas gigantes, koalas, pingüinos y una gran casa de mariposas. Es una salida familiar clásica y punto de partida del teleférico de Maokong.",
+   "d_en": "A vast zoo with ecosystem-themed areas, a giant panda house, koalas, penguins and a large butterfly house. It is a classic family outing and the starting point of the Maokong gondola.",
+   "h": "Abierto aprox. 09:00-17:00. MRT Taipei Zoo (línea marrón). Entrada económica; lleva calzado cómodo.",
+   "h_en": "Open approx. 09:00-17:00. MRT Taipei Zoo (Brown line). Cheap entry; wear comfortable shoes.",
+   "i": "Los pandas Tuan Tuan y Yuan Yuan fueron un regalo diplomático de China.",
+   "i_en": "The pandas Tuan Tuan and Yuan Yuan were a diplomatic gift from China."
+  },
+  "w_tpe_huashan1914": {
+   "id": "w_tpe_huashan1914",
+   "d": "Complejo de naves industriales de la época japonesa transformado en galerías, tiendas de diseño, cafés, cines independientes y espacios para conciertos, mercadillos y exposiciones. Uno de los focos creativos de la ciudad.",
+   "d_en": "A complex of Japanese-era industrial warehouses transformed into galleries, design shops, cafés, indie cinemas and venues for concerts, markets and exhibitions. One of the city's creative hotspots.",
+   "h": "Recinto abierto todo el día; locales aprox. 11:00-21:00. MRT Zhongxiao Xinsheng o Shandao Temple.",
+   "h_en": "Grounds open all day; venues approx. 11:00-21:00. MRT Zhongxiao Xinsheng or Shandao Temple.",
+   "i": "Su nombre recuerda el año de fundación de la antigua fábrica de sake.",
+   "i_en": "Its name recalls the founding year of the old sake factory."
+  },
+  "w_tpe_miramar_wheel": {
+   "id": "w_tpe_miramar_wheel",
+   "d": "Noria de unos 100 m de altura sobre el techo del centro comercial Miramar, con cabinas iluminadas de colores al anochecer. Ofrece vistas del norte de la ciudad y es una parada divertida combinada con cine y compras.",
+   "d_en": "A roughly 100 m Ferris wheel atop the Miramar shopping mall, with cabins lit in colors at night. It offers views of the northern city and makes a fun stop combined with cinema and shopping.",
+   "h": "Aprox. 11:00-22:00 (más tarde en fin de semana). MRT Jiannan Road (línea marrón).",
+   "h_en": "Approx. 11:00-22:00 (later at weekends). MRT Jiannan Road (Brown line).",
+   "i": "Cada vuelta completa dura unos 17 minutos.",
+   "i_en": "Each full rotation takes about 17 minutes."
+  },
+  "w_tpe_shilin_market": {
+   "id": "w_tpe_shilin_market",
+   "d": "Laberinto de puestos de street food y tiendas donde probar los clásicos taiwaneses: pollo frito gigante, ostras en tortilla, tofu apestoso, brochetas y bubble tea. Tiene un patio gastronómico subterráneo junto al mercado.",
+   "d_en": "A maze of street-food stalls and shops for Taiwanese classics: giant fried chicken, oyster omelette, stinky tofu, skewers and bubble tea. It has an underground food court next to the market.",
+   "h": "Mejor a partir de las 18:00. MRT Jiantan (línea roja), no Shilin.",
+   "h_en": "Best from 18:00. MRT Jiantan (Red line), not Shilin station.",
+   "i": "El 'pollo frito XXL' de Hot-Star nació aquí y es del tamaño de una cara.",
+   "i_en": "Hot-Star's XXL fried chicken was born here and is the size of a face."
+  },
+  "w_tpe_raohe_market": {
+   "id": "w_tpe_raohe_market",
+   "d": "Una de las calles-mercado más antiguas y auténticas, de un solo eje junto al templo Ciyou. Su puesto estrella, Fuzhou, hornea pasteles de cerdo y pimienta en horno de barro; también hay fideos, sopas y postres.",
+   "d_en": "One of the oldest and most authentic market streets, a single lane by Ciyou Temple. Its star stall, Fuzhou, bakes pork-and-pepper buns in a clay oven; there are also noodles, soups and desserts.",
+   "h": "Entra por el arco junto al templo Ciyou. MRT Songshan (línea verde).",
+   "h_en": "Enter through the arch by Ciyou Temple. MRT Songshan (Green line).",
+   "i": "El puesto de pasteles de pimienta ha recibido mención en la guía Michelin.",
+   "i_en": "The pepper-bun stall has been mentioned in the Michelin guide."
+  },
+  "w_tpe_dintaifung": {
+   "id": "w_tpe_dintaifung",
+   "d": "La casa madre de la cadena mundialmente conocida por sus 'xiaolongbao', delicados dumplings rellenos de caldo y cerdo plegados con 18 pliegues. Cocina abierta tras cristal y servicio de altísima precisión.",
+   "d_en": "The flagship of the chain world-famous for its 'xiaolongbao', delicate soup-filled pork dumplings folded with 18 pleats. Open kitchen behind glass and highly precise service.",
+   "h": "Local original en Xinyi Road. MRT Dongmen (líneas roja y naranja). Espera cola o reserva.",
+   "h_en": "Original branch on Xinyi Road. MRT Dongmen (Red and Orange lines). Expect a queue or book ahead.",
+   "i": "Cada xiaolongbao se hace con exactamente 18 pliegues por norma de la casa.",
+   "i_en": "Each xiaolongbao is made with exactly 18 pleats by house rule."
+  },
+  "w_tpe_yongkang": {
+   "id": "w_tpe_yongkang",
+   "d": "Uno de los mejores enclaves para comer de la ciudad, con restaurantes de fideos de ternera premiados, casas de hielo raspado con mango, dumplings, salones de té y cafeterías de moda en un ambiente tranquilo y arbolado.",
+   "d_en": "One of the city's best eating enclaves, with award-winning beef-noodle restaurants, mango shaved-ice houses, dumplings, tea rooms and trendy cafés in a calm, tree-lined setting.",
+   "h": "MRT Dongmen (líneas roja y naranja), salida 5. Ideal para almorzar y merendar.",
+   "h_en": "MRT Dongmen (Red and Orange lines), exit 5. Great for lunch and afternoon snacks.",
+   "i": "El hielo de mango con leche condensada es su postre estrella en verano.",
+   "i_en": "Mango shaved ice with condensed milk is its star summer dessert."
+  },
+  "w_tpe_ningxia_market": {
+   "id": "w_tpe_ningxia_market",
+   "d": "Mercado nocturno compacto y muy querido por los taipeianos por su cocina tradicional: tortilla de ostras, taro con huevo, sopa de albóndigas de pescado y postres antiguos. Menos turístico y con puestos de décadas de historia.",
+   "d_en": "A compact night market beloved by locals for its traditional cooking: oyster omelette, taro with egg, fish-ball soup and old-style desserts. Less touristy, with stalls decades old.",
+   "h": "Cerca de Dadaocheng. MRT Shuanglian o Zhongshan. Lleva efectivo.",
+   "h_en": "Near Dadaocheng. MRT Shuanglian or Zhongshan. Bring cash.",
+   "i": "Es de los mercados favoritos de los propios habitantes de Taipéi.",
+   "i_en": "It is one of Taipei residents' own favorite markets."
+  },
+  "w_tpe_fuhang": {
+   "id": "w_tpe_fuhang",
+   "d": "Institución del desayuno taiwanés en la segunda planta de un mercado. Sirve leche de soja caliente o fría, tortitas 'shaobing' con crullers, empanadas y huevo. Las colas dan la vuelta a la escalera desde primera hora.",
+   "d_en": "A Taiwanese breakfast institution on the second floor of a market. It serves hot or cold soy milk, 'shaobing' flatbreads with crullers, savory pastries and egg. Queues wind down the stairs from early morning.",
+   "h": "En el Huashan Market. MRT Shandao Temple (línea azul), salida 5. Ve temprano.",
+   "h_en": "In Huashan Market. MRT Shandao Temple (Blue line), exit 5. Go early.",
+   "i": "Cierra a mediodía: es estrictamente un local de desayunos.",
+   "i_en": "It closes at midday: strictly a breakfast spot."
+  }
+ },
+ "food": {
+  "w_tpe_shilin_market": {
+   "cuisine": "Comida callejera taiwanesa",
+   "price": "3–12 €",
+   "hours": "Aprox. 16:00-00:00"
+  },
+  "w_tpe_raohe_market": {
+   "cuisine": "Comida callejera taiwanesa",
+   "price": "2–10 €",
+   "hours": "Aprox. 17:00-00:00"
+  },
+  "w_tpe_dintaifung": {
+   "cuisine": "Dumplings / cocina taiwanesa",
+   "price": "12–30 €",
+   "hours": "Aprox. 11:00-21:00"
+  },
+  "w_tpe_yongkang": {
+   "cuisine": "Cocina taiwanesa variada",
+   "price": "6–20 €",
+   "hours": "Aprox. 11:00-22:00"
+  },
+  "w_tpe_ningxia_market": {
+   "cuisine": "Comida callejera taiwanesa",
+   "price": "2–10 €",
+   "hours": "Aprox. 17:30-00:00"
+  },
+  "w_tpe_fuhang": {
+   "cuisine": "Desayuno taiwanés",
+   "price": "2–6 €",
+   "hours": "Aprox. 05:30-12:30 (cerrado lunes)"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Taipéi",
+   "items": [
+    {
+     "name": "Pastel de piña (鳳梨酥)",
+     "price": "8–20 €",
+     "desc": "Dulce icónico de masa mantecosa con relleno de piña; se vende en cajas de regalo."
+    },
+    {
+     "name": "Té Oolong de alta montaña",
+     "price": "15–40 €",
+     "desc": "Té semifermentado taiwanés de gran calidad; ideal comprarlo en Dihua Street o Maokong."
+    },
+    {
+     "name": "Mascarillas faciales y cosmética",
+     "price": "4–15 €",
+     "desc": "Sheet masks taiwanesas muy populares y baratas; se encuentran en Watsons y Cosmed."
+    },
+    {
+     "name": "Kit de té de burbujas (bubble tea)",
+     "price": "6–14 €",
+     "desc": "Set con perlas de tapioca y té para preparar en casa el famoso boba taiwanés."
+    },
+    {
+     "name": "Turrón de cacahuete y galletas de sol",
+     "price": "5–15 €",
+     "desc": "Nougat blando y 'sun cakes' (太陽餅), dulces tradicionales muy vendidos como regalo."
+    }
+   ],
+   "shops": [
+    "SunnyHills (pasteles de piña)",
+    "Chia Te Bakery",
+    "Tiendas de té de Dihua Street (Dadaocheng)",
+    "Eslite Spectrum Songyan",
+    "Centro comercial de Taipei 101"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Compra una tarjeta EasyCard: sirve para metro (MRT), autobuses, YouBike, tren y muchas tiendas de conveniencia.",
+   "En el MRT está prohibido comer y beber (incluido agua), con multas; hazlo antes de entrar.",
+   "Lleva efectivo para los mercados nocturnos: la mayoría de puestos no aceptan tarjeta.",
+   "En las aguas termales de Beitou dúchate antes de entrar y respeta las zonas por bañador/desnudo según el baño.",
+   "De mayo a octubre puede haber tifones y lluvias intensas; consulta el tiempo y lleva paraguas plegable."
+  ],
+  "en": [
+   "Get an EasyCard: it works on the MRT metro, buses, YouBike, trains and most convenience stores.",
+   "Eating and drinking (even water) is banned inside the MRT and fined; finish it before you enter.",
+   "Carry cash for the night markets: most stalls do not take cards.",
+   "At Beitou hot springs, shower before entering and follow each pool's swimsuit or nude rule.",
+   "Typhoons and heavy rain are possible from May to October; check the forecast and pack a foldable umbrella."
+  ]
+ },
+ "climate": {
+  "hi": [
+   19,
+   20,
+   23,
+   27,
+   30,
+   32,
+   34,
+   34,
+   32,
+   28,
+   25,
+   21
+  ],
+  "lo": [
+   14,
+   14,
+   16,
+   20,
+   23,
+   25,
+   26,
+   26,
+   25,
+   22,
+   19,
+   15
+  ]
+ },
+ "tr": {
+  "Rascacielos de 508 m, símbolo de la ciudad con mirador panorámico.": "508 m skyscraper, the city's icon with a panoramic observatory.",
+  "Monumento blanco de mármol con cambio de guardia en la Plaza de la Libertad.": "White marble monument with a guard change on Liberty Square.",
+  "Templo de 1738 en Wanhua, el más famoso y animado de Taipéi.": "1738 temple in Wanhua, Taipei's most famous and lively shrine.",
+  "Una de las mayores colecciones de arte chino imperial del mundo.": "One of the world's greatest collections of imperial Chinese art.",
+  "Barrio histórico de comercio de té, hierbas y telas del siglo XIX.": "Historic 19th-century district of tea, herb and fabric trade.",
+  "Sala conmemorativa del padre de la China moderna, con vistas al 101.": "Memorial hall to the father of modern China, facing Taipei 101.",
+  "Templo taoísta premiado por la Unesco por su restauración.": "Taoist temple awarded by UNESCO for its restoration.",
+  "Templo sobrio dedicado al filósofo, de tranquila arquitectura minnan.": "Understated temple to the philosopher, in calm Minnan architecture.",
+  "Sede del gobierno en un imponente edificio colonial de 1919.": "Seat of government in an imposing 1919 colonial building.",
+  "Popular templo dedicado a Guan Gong, dios de los negocios.": "Popular temple to Guan Gong, god of business and loyalty.",
+  "Antigua casa de baños japonesa de 1913 convertida en museo.": "Former 1913 Japanese bathhouse turned into a museum.",
+  "Calle restaurada de la era Qing y japonesa junto a Longshan.": "Restored Qing- and Japanese-era street next to Longshan.",
+  "Corta subida con la mejor vista del skyline y el Taipei 101.": "Short climb with the best view of the skyline and Taipei 101.",
+  "Montañas volcánicas con fumarolas, prados y campos de flores.": "Volcanic mountains with fumaroles, meadows and flower fields.",
+  "Lago geotérmico humeante de aguas verdes y calor volcánico.": "Steaming geothermal lake of green waters and volcanic heat.",
+  "Cabo con curiosas rocas erosionadas como la 'Cabeza de Reina'.": "Cape with quirky eroded rocks like the 'Queen's Head'.",
+  "El 'pulmón verde' de Taipéi, ideal para pasear y descansar.": "Taipei's 'green lung', great for strolling and relaxing.",
+  "Puerto costero con puente del Amante y famosas puestas de sol.": "Coastal harbor with the Lover's Bridge and famous sunsets.",
+  "Barrio peatonal de moda joven, cines y cultura pop.": "Pedestrian district of youth fashion, cinemas and pop culture.",
+  "Teleférico panorámico hacia colinas de té y casas de té.": "Scenic gondola up to tea hills and traditional tea houses.",
+  "Pueblo minero de montaña con callejones, faroles y casas de té.": "Mountain mining village with alleys, lanterns and tea houses.",
+  "El mayor zoo de Asia, famoso por sus pandas gigantes.": "Asia's largest zoo, famous for its giant pandas.",
+  "Antigua destilería reconvertida en centro cultural y de diseño.": "Former winery turned into a culture and design hub.",
+  "Gran noria en la azotea de un centro comercial de Dazhi.": "Large Ferris wheel on the roof of a Dazhi shopping mall.",
+  "El mercado nocturno más grande y famoso de Taipéi.": "Taipei's largest and most famous night market.",
+  "Mercado nocturno compacto famoso por sus pasteles de pimienta.": "Compact night market famous for its pepper buns.",
+  "Local original de los famosos xiaolongbao con estrella Michelin.": "Original home of the famous Michelin-starred xiaolongbao.",
+  "Calle gastronómica con fideos de ternera, hielo de mango y cafés.": "Foodie street with beef noodles, mango ice and cafés.",
+  "Mercado tradicional muy valorado por su comida local clásica.": "Traditional market prized for its classic local food.",
+  "Legendario desayuno taiwanés con largas colas cada mañana.": "Legendary Taiwanese breakfast with long morning queues.",
+  "Taipéi": "Taipéi"
+ }
+}

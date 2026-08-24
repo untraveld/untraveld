@@ -1,0 +1,708 @@
+{
+ "id": "amsterdam",
+ "name": "Ámsterdam",
+ "country": "WORLD",
+ "center": [
+  52.37403,
+  4.88969
+ ],
+ "pois": [
+  {
+   "id": "w_ams_rijksmuseum",
+   "cat": "monuments",
+   "name": "Rijksmuseum",
+   "icon": "🖼️",
+   "lat": 52.35998,
+   "lng": 4.88516,
+   "desc": "El museo nacional con la mejor colección de arte holandés."
+  },
+  {
+   "id": "w_ams_van_gogh",
+   "cat": "monuments",
+   "name": "Museo Van Gogh",
+   "icon": "🌻",
+   "lat": 52.3584,
+   "lng": 4.88112,
+   "desc": "La mayor colección del mundo de Vincent van Gogh."
+  },
+  {
+   "id": "w_ams_anne_frank",
+   "cat": "monuments",
+   "name": "Casa de Ana Frank",
+   "icon": "📖",
+   "lat": 52.37519,
+   "lng": 4.88401,
+   "desc": "La casa-museo donde Ana Frank escribió su diario."
+  },
+  {
+   "id": "w_ams_dam",
+   "cat": "monuments",
+   "name": "Plaza Dam",
+   "icon": "🏛️",
+   "lat": 52.37305,
+   "lng": 4.89327,
+   "desc": "La plaza central e histórica corazón de la ciudad."
+  },
+  {
+   "id": "w_ams_palacio_real",
+   "cat": "monuments",
+   "name": "Palacio Real",
+   "icon": "👑",
+   "lat": 52.37319,
+   "lng": 4.89124,
+   "desc": "El palacio real en la plaza Dam, del Siglo de Oro."
+  },
+  {
+   "id": "w_ams_begijnhof",
+   "cat": "monuments",
+   "name": "Begijnhof",
+   "icon": "⛪",
+   "lat": 52.36889,
+   "lng": 4.89013,
+   "desc": "Un tranquilo patio medieval de casas beguinas."
+  },
+  {
+   "id": "w_ams_nieuwe_kerk",
+   "cat": "monuments",
+   "name": "Nieuwe Kerk",
+   "icon": "⛪",
+   "lat": 52.37361,
+   "lng": 4.89083,
+   "desc": "Iglesia gótica de la plaza Dam, hoy sala de exposiciones."
+  },
+  {
+   "id": "w_ams_oude_kerk",
+   "cat": "monuments",
+   "name": "Oude Kerk",
+   "icon": "🕰️",
+   "lat": 52.37444,
+   "lng": 4.89806,
+   "desc": "El edificio más antiguo de Ámsterdam, en pleno Barrio Rojo."
+  },
+  {
+   "id": "w_ams_rembrandt",
+   "cat": "monuments",
+   "name": "Casa de Rembrandt",
+   "icon": "🎨",
+   "lat": 52.36944,
+   "lng": 4.90139,
+   "desc": "La casa donde vivió y trabajó Rembrandt."
+  },
+  {
+   "id": "w_ams_westerkerk",
+   "cat": "monuments",
+   "name": "Westerkerk",
+   "icon": "🔔",
+   "lat": 52.37472,
+   "lng": 4.88389,
+   "desc": "Iglesia protestante con la torre más alta de la ciudad."
+  },
+  {
+   "id": "w_ams_scheepvaartmuseum",
+   "cat": "monuments",
+   "name": "Museo Marítimo Nacional",
+   "icon": "⚓",
+   "lat": 52.37139,
+   "lng": 4.91639,
+   "desc": "Historia naval holandesa en un antiguo almacén de la Armada."
+  },
+  {
+   "id": "w_ams_moco",
+   "cat": "monuments",
+   "name": "Moco Museum",
+   "icon": "🎭",
+   "lat": 52.35836,
+   "lng": 4.88172,
+   "desc": "Museo de arte moderno y urbano junto al Rijksmuseum."
+  },
+  {
+   "id": "w_ams_vondelpark",
+   "cat": "nature",
+   "name": "Vondelpark",
+   "icon": "🌳",
+   "lat": 52.35806,
+   "lng": 4.86861,
+   "desc": "El parque urbano más grande y popular de Ámsterdam."
+  },
+  {
+   "id": "w_ams_canales",
+   "cat": "nature",
+   "name": "Canales (Grachtengordel)",
+   "icon": "🛶",
+   "lat": 52.36667,
+   "lng": 4.885,
+   "desc": "El cinturón de canales del siglo XVII, Patrimonio Mundial."
+  },
+  {
+   "id": "w_ams_jordaan",
+   "cat": "nature",
+   "name": "Jordaan",
+   "icon": "🏘️",
+   "lat": 52.37417,
+   "lng": 4.88056,
+   "desc": "Barrio bohemio de callejuelas, galerías y patios."
+  },
+  {
+   "id": "w_ams_hortus",
+   "cat": "nature",
+   "name": "Hortus Botanicus",
+   "icon": "🌿",
+   "lat": 52.36667,
+   "lng": 4.90833,
+   "desc": "Uno de los jardines botánicos más antiguos del mundo."
+  },
+  {
+   "id": "w_ams_artis",
+   "cat": "nature",
+   "name": "Zoo Artis",
+   "icon": "🦁",
+   "lat": 52.36639,
+   "lng": 4.91556,
+   "desc": "El zoo histórico de la ciudad, de 1838."
+  },
+  {
+   "id": "w_ams_bloemenmarkt",
+   "cat": "nature",
+   "name": "Mercado de flores (Bloemenmarkt)",
+   "icon": "🌷",
+   "lat": 52.36722,
+   "lng": 4.89139,
+   "desc": "El único mercado de flores flotante del mundo."
+  },
+  {
+   "id": "w_ams_red_light",
+   "cat": "ocio",
+   "name": "Barrio Rojo (De Wallen)",
+   "icon": "🌃",
+   "lat": 52.37417,
+   "lng": 4.89778,
+   "desc": "El histórico y llamativo distrito rojo de la ciudad."
+  },
+  {
+   "id": "w_ams_heineken",
+   "cat": "ocio",
+   "name": "Heineken Experience",
+   "icon": "🍺",
+   "lat": 52.35778,
+   "lng": 4.89139,
+   "desc": "Cervecería-museo interactivo en la fábrica original."
+  },
+  {
+   "id": "w_ams_nemo",
+   "cat": "ocio",
+   "name": "NEMO Science Museum",
+   "icon": "🔬",
+   "lat": 52.37389,
+   "lng": 4.91222,
+   "desc": "Museo de ciencia interactivo con azotea panorámica."
+  },
+  {
+   "id": "w_ams_adam_lookout",
+   "cat": "ocio",
+   "name": "A'DAM Lookout",
+   "icon": "🎡",
+   "lat": 52.38389,
+   "lng": 4.90222,
+   "desc": "Mirador con el columpio más alto de Europa."
+  },
+  {
+   "id": "w_ams_leidseplein",
+   "cat": "ocio",
+   "name": "Leidseplein",
+   "icon": "🎭",
+   "lat": 52.36417,
+   "lng": 4.88139,
+   "desc": "La plaza del ocio nocturno, teatros y terrazas."
+  },
+  {
+   "id": "w_ams_zaanse_schans",
+   "cat": "ocio",
+   "name": "Zaanse Schans",
+   "icon": "🌬️",
+   "lat": 52.47444,
+   "lng": 4.81639,
+   "desc": "Pueblo de molinos de viento históricos cerca de la ciudad."
+  },
+  {
+   "id": "w_ams_foodhallen",
+   "cat": "food",
+   "name": "Foodhallen",
+   "icon": "🍽️",
+   "lat": 52.36667,
+   "lng": 4.86917,
+   "desc": "Mercado gastronómico cubierto en un antiguo depósito de tranvías."
+  },
+  {
+   "id": "w_ams_albert_cuyp",
+   "cat": "food",
+   "name": "Albert Cuyp Markt",
+   "icon": "🧀",
+   "lat": 52.35583,
+   "lng": 4.89167,
+   "desc": "El mercado callejero más grande y famoso de la ciudad."
+  },
+  {
+   "id": "w_ams_winkel43",
+   "cat": "food",
+   "name": "Winkel 43",
+   "icon": "🥧",
+   "lat": 52.37903,
+   "lng": 4.88622,
+   "desc": "Famoso por la mejor tarta de manzana de Ámsterdam."
+  },
+  {
+   "id": "w_ams_pancake_bakery",
+   "cat": "food",
+   "name": "The Pancake Bakery",
+   "icon": "🥞",
+   "lat": 52.37806,
+   "lng": 4.88472,
+   "desc": "Clásico de los panqueques holandeses junto al canal."
+  },
+  {
+   "id": "w_ams_cafe_de_klos",
+   "cat": "food",
+   "name": "Café de Klos",
+   "icon": "🍖",
+   "lat": 52.36536,
+   "lng": 4.88569,
+   "desc": "Café marrón célebre por sus costillas a la parrilla."
+  },
+  {
+   "id": "w_ams_greetje",
+   "cat": "food",
+   "name": "Restaurant Greetje",
+   "icon": "🍲",
+   "lat": 52.37083,
+   "lng": 4.90889,
+   "desc": "Alta cocina holandesa tradicional reinventada."
+  }
+ ],
+ "extra": {
+  "w_ams_rijksmuseum": {
+   "id": "w_ams_rijksmuseum",
+   "d": "Alberga obras maestras del Siglo de Oro como 'La ronda de noche' de Rembrandt y lienzos de Vermeer, en un imponente edificio de 1885 de Pierre Cuypers.",
+   "d_en": "Home to Golden Age masterpieces like Rembrandt's 'The Night Watch' and Vermeer canvases, in Pierre Cuypers' grand 1885 building.",
+   "h": "Todos los días 9:00–17:00.",
+   "h_en": "Daily 9:00–17:00.",
+   "i": "Reserva franja horaria online; la biblioteca y los jardines son gratuitos.",
+   "i_en": "Book a timed slot online; the library and gardens are free."
+  },
+  "w_ams_van_gogh": {
+   "id": "w_ams_van_gogh",
+   "d": "Más de 200 pinturas y 500 dibujos recorren la vida y evolución del artista, de 'Los comedores de patatas' a 'Los girasoles'.",
+   "d_en": "Over 200 paintings and 500 drawings trace the artist's life and evolution, from 'The Potato Eaters' to 'Sunflowers'.",
+   "h": "Todos los días 9:00–18:00 (viernes hasta 21:00).",
+   "h_en": "Daily 9:00–18:00 (Fri until 21:00).",
+   "i": "Solo venta online con hora asignada; no se venden entradas en taquilla.",
+   "i_en": "Online timed tickets only; none sold at the door."
+  },
+  "w_ams_anne_frank": {
+   "id": "w_ams_anne_frank",
+   "d": "En este edificio de Prinsengracht la familia Frank se escondió durante la ocupación nazi; se visita el anexo secreto tras la estantería giratoria.",
+   "d_en": "In this Prinsengracht building the Frank family hid during the Nazi occupation; you tour the Secret Annex behind the swinging bookcase.",
+   "h": "Todos los días 9:00–22:00 (varía por temporada).",
+   "h_en": "Daily 9:00–22:00 (varies by season).",
+   "i": "Entradas SOLO online y con fecha fija; agotan semanas antes.",
+   "i_en": "Tickets ONLY online for a fixed date; they sell out weeks ahead."
+  },
+  "w_ams_dam": {
+   "id": "w_ams_dam",
+   "d": "Punto de origen de Ámsterdam junto a la presa del Amstel, reúne el Palacio Real, la Nieuwe Kerk y el Monumento Nacional a las víctimas de la guerra.",
+   "d_en": "Amsterdam's birthplace by the Amstel dam, it gathers the Royal Palace, the Nieuwe Kerk and the National Monument to war victims.",
+   "h": "Abierta 24 horas.",
+   "h_en": "Open 24 hours.",
+   "i": "Siempre animada con artistas callejeros; vigila carteristas.",
+   "i_en": "Always lively with street performers; watch for pickpockets."
+  },
+  "w_ams_palacio_real": {
+   "id": "w_ams_palacio_real",
+   "d": "Construido en el siglo XVII como ayuntamiento sobre 13.659 pilotes, hoy es residencia oficial de recepciones de la familia real con lujosos salones de mármol.",
+   "d_en": "Built in the 17th century as a town hall on 13,659 wooden piles, today it is the royal family's ceremonial palace with lavish marble halls.",
+   "h": "Suele abrir 10:00–17:00 cuando no hay actos oficiales.",
+   "h_en": "Usually 10:00–17:00 when no official events.",
+   "i": "Comprueba el calendario: cierra sin aviso por actos de Estado.",
+   "i_en": "Check the calendar: it closes without notice for state events."
+  },
+  "w_ams_begijnhof": {
+   "id": "w_ams_begijnhof",
+   "d": "Oasis de paz del siglo XIV con jardines, la casa de madera más antigua de la ciudad (Het Houten Huys) y una capilla clandestina católica.",
+   "d_en": "A 14th-century haven of peace with gardens, the city's oldest wooden house (Het Houten Huys) and a hidden Catholic chapel.",
+   "h": "Todos los días 9:00–17:00.",
+   "h_en": "Daily 9:00–17:00.",
+   "i": "Es zona residencial: entra en silencio y respeta a los vecinos.",
+   "i_en": "It is residential: enter quietly and respect the residents."
+  },
+  "w_ams_nieuwe_kerk": {
+   "id": "w_ams_nieuwe_kerk",
+   "d": "Escenario de coronaciones y bodas reales holandesas; sin culto regular, acoge grandes exposiciones de arte y fotografía bajo sus bóvedas.",
+   "d_en": "Setting of Dutch royal coronations and weddings; with no regular services, it hosts major art and photo exhibitions under its vaults.",
+   "h": "Según exposición, aprox. 10:00–17:00.",
+   "h_en": "Per exhibition, approx. 10:00–17:00.",
+   "i": "El precio depende de la muestra; consulta la programación.",
+   "i_en": "Price depends on the show; check the programme."
+  },
+  "w_ams_oude_kerk": {
+   "id": "w_ams_oude_kerk",
+   "d": "Iglesia de 1306 con un techo de madera medieval y lápidas ilustres en el suelo, rodeada hoy por los escaparates del De Wallen.",
+   "d_en": "A 1306 church with a medieval wooden ceiling and notable gravestones in the floor, now ringed by the windows of De Wallen.",
+   "h": "Lun–sáb 10:00–18:00; dom 13:00–17:30.",
+   "h_en": "Mon–Sat 10:00–18:00; Sun 13:00–17:30.",
+   "i": "Sube a la torre en visita guiada para vistas del casco viejo.",
+   "i_en": "Climb the tower on a guided tour for old-town views."
+  },
+  "w_ams_rembrandt": {
+   "id": "w_ams_rembrandt",
+   "d": "Reconstruida con su mobiliario del siglo XVII, muestra su taller, su colección de curiosidades y demostraciones de grabado y preparación de pinturas.",
+   "d_en": "Restored with its 17th-century furnishings, it shows his studio, his cabinet of curiosities and demonstrations of etching and paint-making.",
+   "h": "Todos los días 10:00–18:00.",
+   "h_en": "Daily 10:00–18:00.",
+   "i": "Incluye audioguía; las demostraciones son varias veces al día.",
+   "i_en": "Includes an audio guide; demonstrations run several times daily."
+  },
+  "w_ams_westerkerk": {
+   "id": "w_ams_westerkerk",
+   "d": "Su torre Westertoren de 85 m, coronada por la corona imperial, domina el barrio junto a los canales; se cree que Rembrandt está enterrado aquí.",
+   "d_en": "Its 85 m Westertoren, crowned with the imperial crown, towers over the canal district; Rembrandt is believed to be buried here.",
+   "h": "Iglesia lun–sáb 10:00–15:00; torre con visita guiada.",
+   "h_en": "Church Mon–Sat 10:00–15:00; tower by guided tour.",
+   "i": "Sube a la torre (temporada) para una panorámica del Jordaan.",
+   "i_en": "Climb the tower (seasonal) for a panorama of the Jordaan."
+  },
+  "w_ams_scheepvaartmuseum": {
+   "id": "w_ams_scheepvaartmuseum",
+   "d": "En el arsenal de 1656, exhibe mapas, globos y arte marítimo, y a su muelle está amarcada una réplica navegable del navío 'Amsterdam' de la VOC.",
+   "d_en": "In the 1656 arsenal it shows maps, globes and maritime art, with a sailable replica of the VOC ship 'Amsterdam' moored at its quay.",
+   "h": "Todos los días 10:00–17:00.",
+   "h_en": "Daily 10:00–17:00.",
+   "i": "Ideal con niños; sube a bordo del barco histórico.",
+   "i_en": "Great with kids; climb aboard the historic ship."
+  },
+  "w_ams_moco": {
+   "id": "w_ams_moco",
+   "d": "En una villa de 1904 reúne obra de Banksy, Basquiat, Warhol, Haring y KAWS, además de instalaciones inmersivas de arte digital.",
+   "d_en": "In a 1904 townhouse it gathers work by Banksy, Basquiat, Warhol, Haring and KAWS, plus immersive digital-art installations.",
+   "h": "Todos los días 9:00–20:00 (fines de semana hasta más tarde).",
+   "h_en": "Daily 9:00–20:00 (later at weekends).",
+   "i": "Compra online para ahorrar; ubicación perfecta en Museumplein.",
+   "i_en": "Buy online to save; perfect Museumplein location."
+  },
+  "w_ams_vondelpark": {
+   "id": "w_ams_vondelpark",
+   "d": "47 hectáreas de estilo paisajista inglés con estanques, rosaleda, teatro al aire libre y cafés; el pulmón verde donde patina y pasea todo el mundo.",
+   "d_en": "47 hectares in English landscape style with ponds, a rose garden, an open-air theatre and cafés; the green lung where everyone strolls and skates.",
+   "h": "Abierto 24 horas.",
+   "h_en": "Open 24 hours.",
+   "i": "Entrada libre; en verano hay conciertos gratuitos en el teatro.",
+   "i_en": "Free entry; free concerts at the theatre in summer."
+  },
+  "w_ams_canales": {
+   "id": "w_ams_canales",
+   "d": "Herengracht, Keizersgracht y Prinsengracht dibujan semicírculos concéntricos con casas estrechas de gablete y más de 1.500 puentes.",
+   "d_en": "Herengracht, Keizersgracht and Prinsengracht draw concentric half-rings lined with narrow gabled houses and over 1,500 bridges.",
+   "h": "Accesibles siempre; cruceros durante el día y la noche.",
+   "h_en": "Always accessible; canal cruises day and night.",
+   "i": "Un paseo en barco al atardecer es la mejor forma de verlos.",
+   "i_en": "A sunset boat trip is the best way to see them."
+  },
+  "w_ams_jordaan": {
+   "id": "w_ams_jordaan",
+   "d": "Antiguo barrio obrero hoy elegante, con canales pintorescos, tiendas de diseño, cafés marrones y los tranquilos hofjes (patios ajardinados).",
+   "d_en": "A former working-class quarter, now chic, with picturesque canals, design shops, brown cafés and quiet hofjes (garden courtyards).",
+   "h": "Barrio abierto; mercados los lunes y sábados.",
+   "h_en": "Open neighbourhood; markets on Mondays and Saturdays.",
+   "i": "Piérdete por De 9 Straatjes para las mejores boutiques.",
+   "i_en": "Get lost in De 9 Straatjes for the best boutiques."
+  },
+  "w_ams_hortus": {
+   "id": "w_ams_hortus",
+   "d": "Fundado en 1638 como jardín de plantas medicinales, conserva árboles centenarios, un invernadero de tres climas y una colección de mariposas.",
+   "d_en": "Founded in 1638 as a medicinal-plant garden, it keeps centuries-old trees, a three-climate glasshouse and a butterfly collection.",
+   "h": "Todos los días 10:00–17:00.",
+   "h_en": "Daily 10:00–17:00.",
+   "i": "El café del invernadero es una parada perfecta en día lluvioso.",
+   "i_en": "The glasshouse café is a perfect stop on a rainy day."
+  },
+  "w_ams_artis": {
+   "id": "w_ams_artis",
+   "d": "El zoológico más antiguo de los Países Bajos combina animales, un acuario, planetario y jardines-monumento arbolados en pleno centro.",
+   "d_en": "The oldest zoo in the Netherlands combines animals, an aquarium, a planetarium and tree-lined heritage gardens in the city centre.",
+   "h": "Todos los días 9:00–17:00 (verano hasta más tarde).",
+   "h_en": "Daily 9:00–17:00 (later in summer).",
+   "i": "Incluye el planetario y el Micropia; reserva un par de horas.",
+   "i_en": "Includes the planetarium and Micropia; allow a couple of hours."
+  },
+  "w_ams_bloemenmarkt": {
+   "id": "w_ams_bloemenmarkt",
+   "d": "Sobre el canal Singel, sus puestos montados en barcazas venden tulipanes, bulbos, semillas y souvenirs florales desde 1862.",
+   "d_en": "On the Singel canal, its stalls built on barges have sold tulips, bulbs, seeds and floral souvenirs since 1862.",
+   "h": "Lun–sáb 9:00–17:30; dom 11:00–17:30.",
+   "h_en": "Mon–Sat 9:00–17:30; Sun 11:00–17:30.",
+   "i": "Pide bulbos con certificado si vas a exportarlos a tu país.",
+   "i_en": "Ask for certified bulbs if you plan to take them home."
+  },
+  "w_ams_red_light": {
+   "id": "w_ams_red_light",
+   "d": "Un laberinto de callejones junto a canales medievales con escaparates de neón rojo, coffeeshops, bares y el museo del barrio; muy animado de noche.",
+   "d_en": "A maze of alleys along medieval canals with red-neon windows, coffeeshops, bars and the district museum; very lively after dark.",
+   "h": "Zona abierta; más ambiente a partir del anochecer.",
+   "h_en": "Open area; busiest from nightfall.",
+   "i": "Prohibido fotografiar a las trabajadoras; respeta las normas.",
+   "i_en": "Photographing the workers is forbidden; respect the rules."
+  },
+  "w_ams_heineken": {
+   "id": "w_ams_heineken",
+   "d": "En la antigua fábrica de 1867 recorres el proceso de elaboración con atracciones inmersivas y catas, terminando con cervezas incluidas en la entrada.",
+   "d_en": "In the original 1867 brewery you follow the brewing process through immersive rides and tastings, ending with beers included in the ticket.",
+   "h": "Todos los días 10:30–19:30 (fines de semana hasta más tarde).",
+   "h_en": "Daily 10:30–19:30 (later at weekends).",
+   "i": "Compra online con hora; la visita dura 1,5–2 horas.",
+   "i_en": "Buy timed tickets online; the tour lasts 1.5–2 hours."
+  },
+  "w_ams_nemo": {
+   "id": "w_ams_nemo",
+   "d": "En un edificio verde con forma de casco de barco de Renzo Piano, ofrece cinco plantas de experimentos prácticos y una terraza escalonada con vistas.",
+   "d_en": "In Renzo Piano's green ship-hull building, it offers five floors of hands-on experiments and a stepped rooftop terrace with views.",
+   "h": "Mar–dom 10:00–17:30 (diario en vacaciones).",
+   "h_en": "Tue–Sun 10:00–17:30 (daily in holidays).",
+   "i": "La azotea es gratuita y abre aunque el museo cierre.",
+   "i_en": "The rooftop is free and opens even when the museum is closed."
+  },
+  "w_ams_adam_lookout": {
+   "id": "w_ams_adam_lookout",
+   "d": "En lo alto de la torre A'DAM, al otro lado del IJ, brinda vistas de 360º de la ciudad y el columpio 'Over the Edge' suspendido a 100 metros.",
+   "d_en": "Atop the A'DAM Tower across the IJ, it delivers 360º city views and the 'Over the Edge' swing suspended 100 metres up.",
+   "h": "Todos los días 10:00–22:00.",
+   "h_en": "Daily 10:00–22:00.",
+   "i": "Cruza gratis en el ferry desde detrás de Ámsterdam Centraal.",
+   "i_en": "Cross free on the ferry from behind Amsterdam Centraal."
+  },
+  "w_ams_leidseplein": {
+   "id": "w_ams_leidseplein",
+   "d": "Epicentro de la vida nocturna con el teatro municipal, cines, salas de conciertos, casinos, bares y terrazas siempre llenas de música callejera.",
+   "d_en": "Nightlife hub with the city theatre, cinemas, concert halls, casinos, bars and terraces always full of street music.",
+   "h": "Ambiente todo el día, máxima actividad de noche.",
+   "h_en": "Lively all day, busiest at night.",
+   "i": "Punto de partida ideal para clubs y locales de música en vivo.",
+   "i_en": "Ideal starting point for clubs and live-music venues."
+  },
+  "w_ams_zaanse_schans": {
+   "id": "w_ams_zaanse_schans",
+   "d": "A 20 km, este museo al aire libre reúne molinos funcionantes, casas verdes de madera del siglo XVIII, queserías y una fábrica de zuecos junto al río Zaan.",
+   "d_en": "Some 20 km away, this open-air museum gathers working windmills, green 18th-century wooden houses, cheese farms and a clog workshop by the river Zaan.",
+   "h": "Recinto abierto siempre; molinos aprox. 9:00–17:00.",
+   "h_en": "Site always open; windmills approx. 9:00–17:00.",
+   "i": "Tren desde Centraal a Zaandijk Zaanse Schans (17 min) y 10 min a pie.",
+   "i_en": "Train from Centraal to Zaandijk Zaanse Schans (17 min) then a 10-min walk."
+  },
+  "w_ams_foodhallen": {
+   "id": "w_ams_foodhallen",
+   "d": "Más de 20 puestos sirven desde dim sum y bitterballen hasta tacos y quesos, con bares centrales, todo en el ambiente de moda del barrio De Hallen.",
+   "d_en": "Over 20 stalls serve everything from dim sum and bitterballen to tacos and cheese, with central bars, all in the trendy De Hallen complex.",
+   "h": "Ideal para probar mucho en una sola parada.",
+   "h_en": "Great for sampling lots in one stop.",
+   "i": "Ve fuera de horas punta; los fines de semana se llena mucho.",
+   "i_en": "Go off-peak; it gets very busy at weekends."
+  },
+  "w_ams_albert_cuyp": {
+   "id": "w_ams_albert_cuyp",
+   "d": "En el barrio De Pijp, sus cientos de puestos ofrecen stroopwafels recién hechos, arenque, quesos, flores y ropa a lo largo de casi un kilómetro.",
+   "d_en": "In the De Pijp district, its hundreds of stalls offer fresh stroopwafels, herring, cheese, flowers and clothes along almost a kilometre.",
+   "h": "Prueba el stroopwafel caliente y el haring con cebolla.",
+   "h_en": "Try the warm stroopwafel and herring with onion.",
+   "i": "Lleva efectivo; muchos puestos pequeños no aceptan tarjeta.",
+   "i_en": "Bring cash; many small stalls don't take cards."
+  },
+  "w_ams_winkel43": {
+   "id": "w_ams_winkel43",
+   "d": "Café de esquina en el Jordaan cuya legendaria appeltaart, alta y especiada, se sirve con nata montada; imprescindible los días de mercado en la Noordermarkt.",
+   "d_en": "A corner café in the Jordaan whose legendary tall, spiced appeltaart is served with whipped cream; a must on market days at the Noordermarkt.",
+   "h": "Junto al mercado de la Noordermarkt (sábados).",
+   "h_en": "Next to the Noordermarkt market (Saturdays).",
+   "i": "Suele haber cola; llega temprano para conseguir mesa.",
+   "i_en": "Expect a queue; arrive early to get a table."
+  },
+  "w_ams_pancake_bakery": {
+   "id": "w_ams_pancake_bakery",
+   "d": "En un sótano de almacén del siglo XVII en Prinsengracht, sirve enormes pannenkoeken dulces y salados con decenas de rellenos tradicionales e internacionales.",
+   "d_en": "In a 17th-century warehouse cellar on Prinsengracht, it serves huge sweet and savoury pannenkoeken with dozens of traditional and international toppings.",
+   "h": "Muy cerca de la Casa de Ana Frank.",
+   "h_en": "Very close to the Anne Frank House.",
+   "i": "Reserva o ve pronto; es muy popular entre turistas.",
+   "i_en": "Book or go early; it's very popular with tourists."
+  },
+  "w_ams_cafe_de_klos": {
+   "id": "w_ams_cafe_de_klos",
+   "d": "Un acogedor café marrón cerca de Leidseplein donde las abundantes costillas con salsa barbacoa, pan y ajo son toda una institución local.",
+   "d_en": "A cosy brown café near Leidseplein where the generous barbecue spare ribs with bread and garlic are a local institution.",
+   "h": "Ambiente informal y raciones muy generosas.",
+   "h_en": "Casual vibe and very generous portions.",
+   "i": "No reservan; ve nada más abrir para evitar la cola.",
+   "i_en": "No reservations; arrive at opening to skip the queue."
+  },
+  "w_ams_greetje": {
+   "id": "w_ams_greetje",
+   "d": "Junto a los canales orientales, recupera recetas históricas de los Países Bajos con producto de temporada; su menú 'Big Beginning' es lo más pedido.",
+   "d_en": "By the eastern canals it revives historic Dutch recipes with seasonal produce; its 'Big Beginning' sharing starter is the signature order.",
+   "h": "Cena únicamente; imprescindible reservar.",
+   "h_en": "Dinner only; booking essential.",
+   "i": "Uno de los mejores sitios para probar cocina holandesa de autor.",
+   "i_en": "One of the best places to try upscale Dutch cooking."
+  }
+ },
+ "food": {
+  "w_ams_foodhallen": {
+   "cuisine": "Mercado gastronómico internacional",
+   "price": "8–20 €",
+   "hours": "Dom–jue 11:00–23:30; vie–sáb hasta 01:00"
+  },
+  "w_ams_albert_cuyp": {
+   "cuisine": "Mercado callejero y comida holandesa",
+   "price": "2–12 €",
+   "hours": "Lun–sáb 9:00–17:00"
+  },
+  "w_ams_winkel43": {
+   "cuisine": "Café holandés y tarta de manzana",
+   "price": "5–15 €",
+   "hours": "Lun 7:00–13:00; mar–dom 8:00–22:00 aprox."
+  },
+  "w_ams_pancake_bakery": {
+   "cuisine": "Panqueques holandeses (pannenkoeken)",
+   "price": "10–18 €",
+   "hours": "Todos los días 12:00–21:30"
+  },
+  "w_ams_cafe_de_klos": {
+   "cuisine": "Costillas y parrilla holandesa",
+   "price": "12–22 €",
+   "hours": "Todos los días 16:00–22:30 aprox."
+  },
+  "w_ams_greetje": {
+   "cuisine": "Cocina holandesa moderna",
+   "price": "25–45 €",
+   "hours": "Mar–dom 18:00–22:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Ámsterdam",
+   "items": [
+    {
+     "name": "Tulipanes y bulbos",
+     "price": "5–20 €",
+     "desc": "Bulbos certificados para exportar y flores de tela."
+    },
+    {
+     "name": "Zuecos de madera (klompen)",
+     "price": "8–35 €",
+     "desc": "Los tradicionales clogs holandeses, decorativos o de uso."
+    },
+    {
+     "name": "Delft azul (Delfts Blauw)",
+     "price": "10–60 €",
+     "desc": "Cerámica pintada a mano en azul y blanco."
+    },
+    {
+     "name": "Stroopwafels",
+     "price": "3–8 €",
+     "desc": "Galletas de caramelo, recién hechas o en caja."
+    },
+    {
+     "name": "Queso Gouda y Edam",
+     "price": "6–25 €",
+     "desc": "Ruedas y cuñas curadas, ideales para llevar."
+    },
+    {
+     "name": "Ginebra Jenever",
+     "price": "15–40 €",
+     "desc": "La ginebra holandesa original, en botella de gres."
+    }
+   ],
+   "shops": [
+    "Albert Cuyp Markt",
+    "Bloemenmarkt",
+    "De Kaaskamer (quesos)",
+    "Tienda del Rijksmuseum",
+    "Nine Streets (De 9 Straatjes)"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Compra la I amsterdam City Card o una OV-chipkaart para tranvías, metro y buses ilimitados.",
+   "Reserva online con antelación la Casa de Ana Frank, el Van Gogh y el Rijksmuseum: vuelan las entradas.",
+   "Muévete en bici, pero respeta los carriles: la bici manda y los peatones deben mirar dos veces.",
+   "Muchos museos abren hasta tarde algún día a la semana; consulta horarios nocturnos para evitar colas.",
+   "Lleva calzado cómodo e impermeable: llueve a menudo y el centro se recorre mejor a pie."
+  ],
+  "en": [
+   "Get the I amsterdam City Card or an OV-chipkaart for unlimited trams, metro and buses.",
+   "Book Anne Frank House, Van Gogh and the Rijksmuseum online well ahead: tickets sell out fast.",
+   "Cycle to get around, but respect the lanes: bikes rule and pedestrians must look twice.",
+   "Many museums stay open late one evening a week; check night hours to skip the queues.",
+   "Wear comfortable waterproof shoes: it rains often and the centre is best explored on foot."
+  ]
+ },
+ "climate": {
+  "hi": [
+   6,
+   7,
+   10,
+   14,
+   18,
+   20,
+   22,
+   22,
+   19,
+   14,
+   9,
+   6
+  ],
+  "lo": [
+   1,
+   1,
+   3,
+   5,
+   8,
+   11,
+   13,
+   13,
+   11,
+   8,
+   4,
+   2
+  ]
+ },
+ "tr": {
+  "El museo nacional con la mejor colección de arte holandés.": "The national museum with the finest Dutch art collection.",
+  "La mayor colección del mundo de Vincent van Gogh.": "The world's largest collection of Vincent van Gogh.",
+  "La casa-museo donde Ana Frank escribió su diario.": "The house-museum where Anne Frank wrote her diary.",
+  "La plaza central e histórica corazón de la ciudad.": "The central square and historic heart of the city.",
+  "El palacio real en la plaza Dam, del Siglo de Oro.": "The royal palace on Dam Square, from the Golden Age.",
+  "Un tranquilo patio medieval de casas beguinas.": "A tranquil medieval courtyard of Beguine houses.",
+  "Iglesia gótica de la plaza Dam, hoy sala de exposiciones.": "Gothic church on Dam Square, now an exhibition hall.",
+  "El edificio más antiguo de Ámsterdam, en pleno Barrio Rojo.": "Amsterdam's oldest building, in the heart of the Red Light District.",
+  "La casa donde vivió y trabajó Rembrandt.": "The house where Rembrandt lived and worked.",
+  "Iglesia protestante con la torre más alta de la ciudad.": "Protestant church with the city's tallest tower.",
+  "Historia naval holandesa en un antiguo almacén de la Armada.": "Dutch naval history in a former Admiralty warehouse.",
+  "Museo de arte moderno y urbano junto al Rijksmuseum.": "Modern and street-art museum next to the Rijksmuseum.",
+  "El parque urbano más grande y popular de Ámsterdam.": "Amsterdam's largest and most popular city park.",
+  "El cinturón de canales del siglo XVII, Patrimonio Mundial.": "The 17th-century canal ring, a World Heritage site.",
+  "Barrio bohemio de callejuelas, galerías y patios.": "Bohemian district of alleys, galleries and courtyards.",
+  "Uno de los jardines botánicos más antiguos del mundo.": "One of the world's oldest botanical gardens.",
+  "El zoo histórico de la ciudad, de 1838.": "The city's historic zoo, dating from 1838.",
+  "El único mercado de flores flotante del mundo.": "The world's only floating flower market.",
+  "El histórico y llamativo distrito rojo de la ciudad.": "The city's famous and colourful red-light district.",
+  "Cervecería-museo interactivo en la fábrica original.": "Interactive brewery-museum in the original factory.",
+  "Museo de ciencia interactivo con azotea panorámica.": "Interactive science museum with a panoramic rooftop.",
+  "Mirador con el columpio más alto de Europa.": "Observation deck with Europe's highest swing.",
+  "La plaza del ocio nocturno, teatros y terrazas.": "The nightlife square of theatres and terraces.",
+  "Pueblo de molinos de viento históricos cerca de la ciudad.": "Village of historic windmills near the city.",
+  "Mercado gastronómico cubierto en un antiguo depósito de tranvías.": "Indoor food market in a former tram depot.",
+  "El mercado callejero más grande y famoso de la ciudad.": "The city's largest and most famous street market.",
+  "Famoso por la mejor tarta de manzana de Ámsterdam.": "Famous for the best apple pie in Amsterdam.",
+  "Clásico de los panqueques holandeses junto al canal.": "A classic for Dutch pancakes by the canal.",
+  "Café marrón célebre por sus costillas a la parrilla.": "Brown café famous for its grilled spare ribs.",
+  "Alta cocina holandesa tradicional reinventada.": "Traditional Dutch cuisine, refined and reinvented.",
+  "Ámsterdam": "Ámsterdam"
+ }
+}

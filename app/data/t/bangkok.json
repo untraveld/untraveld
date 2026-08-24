@@ -1,0 +1,760 @@
+{
+ "id": "bangkok",
+ "name": "Bangkok",
+ "country": "WORLD",
+ "center": [
+  13.7563,
+  100.5018
+ ],
+ "pois": [
+  {
+   "id": "w_bkk_grand_palace",
+   "cat": "monuments",
+   "name": "Gran Palacio",
+   "icon": "🏛️",
+   "lat": 13.75002,
+   "lng": 100.49167,
+   "desc": "Antigua residencia real y símbolo de Bangkok, con tejados dorados deslumbrantes."
+  },
+  {
+   "id": "w_bkk_wat_pho",
+   "cat": "monuments",
+   "name": "Wat Pho",
+   "icon": "🛕",
+   "lat": 13.74657,
+   "lng": 100.49302,
+   "desc": "Templo del gigantesco Buda reclinado dorado de 46 metros y cuna del masaje tailandés."
+  },
+  {
+   "id": "w_bkk_wat_arun",
+   "cat": "monuments",
+   "name": "Wat Arun",
+   "icon": "🌅",
+   "lat": 13.74373,
+   "lng": 100.48878,
+   "desc": "El Templo del Amanecer, con su torre kmer cubierta de porcelana sobre el río."
+  },
+  {
+   "id": "w_bkk_golden_mount",
+   "cat": "monuments",
+   "name": "Golden Mount (Wat Saket)",
+   "icon": "⛰️",
+   "lat": 13.75374,
+   "lng": 100.50678,
+   "desc": "Colina artificial coronada por una estupa dorada con vistas panorámicas de la ciudad."
+  },
+  {
+   "id": "w_bkk_wat_traimit",
+   "cat": "monuments",
+   "name": "Wat Traimit",
+   "icon": "🟡",
+   "lat": 13.73779,
+   "lng": 100.51345,
+   "desc": "Templo del Buda de Oro macizo de 5,5 toneladas, a las puertas de Chinatown."
+  },
+  {
+   "id": "w_bkk_wat_benchamabophit",
+   "cat": "monuments",
+   "name": "Wat Benchamabophit",
+   "icon": "⚪",
+   "lat": 13.76641,
+   "lng": 100.51442,
+   "desc": "El Templo de Mármol, elegante joya blanca de estilo tailandés moderno."
+  },
+  {
+   "id": "w_bkk_wat_suthat",
+   "cat": "monuments",
+   "name": "Wat Suthat y Columpio Gigante",
+   "icon": "🔴",
+   "lat": 13.75139,
+   "lng": 100.50111,
+   "desc": "Templo real solemne junto al icónico Columpio Gigante de teca roja."
+  },
+  {
+   "id": "w_bkk_erawan_shrine",
+   "cat": "monuments",
+   "name": "Santuario de Erawan",
+   "icon": "🙏",
+   "lat": 13.74417,
+   "lng": 100.54056,
+   "desc": "Concurrido altar hindú de Brahma entre rascacielos, lleno de flores e incienso."
+  },
+  {
+   "id": "w_bkk_loha_prasat",
+   "cat": "monuments",
+   "name": "Loha Prasat",
+   "icon": "🗼",
+   "lat": 13.75394,
+   "lng": 100.50472,
+   "desc": "Insólito 'castillo de metal' con 37 agujas negras, único en el mundo."
+  },
+  {
+   "id": "w_bkk_national_museum",
+   "cat": "monuments",
+   "name": "Museo Nacional",
+   "icon": "🏺",
+   "lat": 13.75778,
+   "lng": 100.49222,
+   "desc": "El mayor museo del Sudeste Asiático, con arte e historia de Tailandia."
+  },
+  {
+   "id": "w_bkk_wat_mahathat",
+   "cat": "monuments",
+   "name": "Wat Mahathat",
+   "icon": "🧘",
+   "lat": 13.75694,
+   "lng": 100.49139,
+   "desc": "Templo de meditación y centro de estudios budistas junto a Sanam Luang."
+  },
+  {
+   "id": "w_bkk_wat_ratchabophit",
+   "cat": "monuments",
+   "name": "Wat Ratchabophit",
+   "icon": "🎨",
+   "lat": 13.74889,
+   "lng": 100.49694,
+   "desc": "Templo real de fachada de cerámica pintada y un interior gótico sorprendente."
+  },
+  {
+   "id": "w_bkk_democracy_monument",
+   "cat": "monuments",
+   "name": "Monumento a la Democracia",
+   "icon": "🗽",
+   "lat": 13.75667,
+   "lng": 100.50139,
+   "desc": "Emblemático monumento art déco en el corazón de la avenida Ratchadamnoen."
+  },
+  {
+   "id": "w_bkk_chao_phraya",
+   "cat": "nature",
+   "name": "Río Chao Phraya",
+   "icon": "🚤",
+   "lat": 13.725,
+   "lng": 100.50694,
+   "desc": "La gran arteria fluvial de Bangkok, llena de barcos, templos y vida."
+  },
+  {
+   "id": "w_bkk_lumpini_park",
+   "cat": "nature",
+   "name": "Parque Lumpini",
+   "icon": "🌳",
+   "lat": 13.73056,
+   "lng": 100.54139,
+   "desc": "El gran pulmón verde del centro, con lago, varanos y ambiente local."
+  },
+  {
+   "id": "w_bkk_benjakitti_park",
+   "cat": "nature",
+   "name": "Parque Benjakitti",
+   "icon": "🌿",
+   "lat": 13.7294,
+   "lng": 100.5586,
+   "desc": "Moderno parque forestal con pasarelas sobre humedales y skyline de fondo."
+  },
+  {
+   "id": "w_bkk_bang_krachao",
+   "cat": "nature",
+   "name": "Bang Krachao",
+   "icon": "🚲",
+   "lat": 13.69389,
+   "lng": 100.55389,
+   "desc": "El 'pulmón verde' de Bangkok, una isla selvática para recorrer en bici."
+  },
+  {
+   "id": "w_bkk_chatuchak_park",
+   "cat": "nature",
+   "name": "Parque Chatuchak",
+   "icon": "🦆",
+   "lat": 13.80722,
+   "lng": 100.55139,
+   "desc": "Amplio parque con lago junto al famoso mercado de fin de semana."
+  },
+  {
+   "id": "w_bkk_santichaiprakan",
+   "cat": "nature",
+   "name": "Parque Santichaiprakan",
+   "icon": "🏰",
+   "lat": 13.76389,
+   "lng": 100.49556,
+   "desc": "Pequeño parque ribereño junto al histórico fuerte Phra Sumen."
+  },
+  {
+   "id": "w_bkk_saranrom_park",
+   "cat": "nature",
+   "name": "Parque Saranrom",
+   "icon": "🌸",
+   "lat": 13.74722,
+   "lng": 100.49472,
+   "desc": "Jardín histórico de estilo europeo junto al Gran Palacio."
+  },
+  {
+   "id": "w_bkk_chinatown_yaowarat",
+   "cat": "ocio",
+   "name": "Chinatown / Yaowarat",
+   "icon": "🏮",
+   "lat": 13.74028,
+   "lng": 100.51028,
+   "desc": "Barrio chino vibrante, con neones, oro, templos y comida callejera."
+  },
+  {
+   "id": "w_bkk_khao_san",
+   "cat": "ocio",
+   "name": "Khao San Road",
+   "icon": "🎒",
+   "lat": 13.75861,
+   "lng": 100.4975,
+   "desc": "La famosa calle mochilera, epicentro de fiesta, puestos y vida nocturna."
+  },
+  {
+   "id": "w_bkk_chatuchak_market",
+   "cat": "ocio",
+   "name": "Mercado de Chatuchak",
+   "icon": "🛍️",
+   "lat": 13.79972,
+   "lng": 100.55028,
+   "desc": "Uno de los mayores mercados del mundo, con más de 15.000 puestos."
+  },
+  {
+   "id": "w_bkk_jim_thompson",
+   "cat": "ocio",
+   "name": "Casa de Jim Thompson",
+   "icon": "🏡",
+   "lat": 13.74944,
+   "lng": 100.53389,
+   "desc": "Elegante casa-museo de teca del magnate de la seda tailandesa."
+  },
+  {
+   "id": "w_bkk_asiatique",
+   "cat": "ocio",
+   "name": "Asiatique The Riverfront",
+   "icon": "🎡",
+   "lat": 13.70417,
+   "lng": 100.50333,
+   "desc": "Mercado nocturno junto al río con noria, tiendas y espectáculos."
+  },
+  {
+   "id": "w_bkk_damnoen_saduak",
+   "cat": "ocio",
+   "name": "Mercado flotante Damnoen Saduak",
+   "icon": "🛶",
+   "lat": 13.51972,
+   "lng": 99.955,
+   "desc": "El mercado flotante más famoso, con barcas cargadas de fruta y comida."
+  },
+  {
+   "id": "w_bkk_siam_paragon",
+   "cat": "ocio",
+   "name": "Siam y Siam Paragon",
+   "icon": "🏬",
+   "lat": 13.74639,
+   "lng": 100.53472,
+   "desc": "El corazón comercial moderno de Bangkok, con centros y acuario."
+  },
+  {
+   "id": "w_bkk_thip_samai",
+   "cat": "food",
+   "name": "Thip Samai Pad Thai",
+   "icon": "🍜",
+   "lat": 13.7525,
+   "lng": 100.50639,
+   "desc": "El pad thai más legendario de Bangkok, envuelto en tortilla fina."
+  },
+  {
+   "id": "w_bkk_jay_fai",
+   "cat": "food",
+   "name": "Jay Fai",
+   "icon": "🦀",
+   "lat": 13.75389,
+   "lng": 100.50361,
+   "desc": "Puesto callejero con estrella Michelin, famoso por su tortilla de cangrejo."
+  },
+  {
+   "id": "w_bkk_or_tor_kor",
+   "cat": "food",
+   "name": "Mercado Or Tor Kor",
+   "icon": "🥭",
+   "lat": 13.79713,
+   "lng": 100.54758,
+   "desc": "Mercado gourmet de productos frescos, frutas y platos preparados."
+  },
+  {
+   "id": "w_bkk_wang_lang",
+   "cat": "food",
+   "name": "Mercado de Wang Lang",
+   "icon": "🍢",
+   "lat": 13.75917,
+   "lng": 100.48583,
+   "desc": "Bullicioso mercado local de comida callejera junto al río en Thonburi."
+  },
+  {
+   "id": "w_bkk_sky_bar",
+   "cat": "food",
+   "name": "Sky Bar (Lebua)",
+   "icon": "🍸",
+   "lat": 13.72222,
+   "lng": 100.51611,
+   "desc": "Icónico bar en altura sobre el río, con vistas de vértigo al skyline."
+  },
+  {
+   "id": "w_bkk_somboon_seafood",
+   "cat": "food",
+   "name": "Somboon Seafood",
+   "icon": "🍛",
+   "lat": 13.72806,
+   "lng": 100.52694,
+   "desc": "Restaurante clásico famoso por su cangrejo al curry amarillo."
+  }
+ ],
+ "extra": {
+  "w_bkk_grand_palace": {
+   "id": "w_bkk_grand_palace",
+   "d": "Complejo amurallado levantado en 1782 que fue sede de los reyes de Siam. Reúne salones de coronación, pabellones y el venerado Wat Phra Kaew, templo del Buda Esmeralda tallado en jade.",
+   "d_en": "Walled complex built in 1782 that served as the seat of the kings of Siam. It gathers coronation halls, pavilions and the revered Wat Phra Kaew, home of the jade Emerald Buddha.",
+   "h": "Abre a diario 8:30–15:30; código de vestimenta estricto (hombros y rodillas cubiertos). Llega temprano para evitar calor y multitudes.",
+   "h_en": "Open daily 8:30–15:30; strict dress code (shoulders and knees covered). Arrive early to beat the heat and crowds.",
+   "i": "Ideal si te gusta la historia real, la arquitectura dorada y los grandes iconos imprescindibles de una ciudad.",
+   "i_en": "Ideal if you like royal history, golden architecture and a city's great unmissable landmarks."
+  },
+  "w_bkk_wat_pho": {
+   "id": "w_bkk_wat_pho",
+   "d": "Uno de los templos más antiguos y grandes de Bangkok, junto al Gran Palacio. Alberga el imponente Buda reclinado con pies de nácar y la escuela de masaje tradicional más prestigiosa del país.",
+   "d_en": "One of Bangkok's oldest and largest temples, next to the Grand Palace. It holds the imposing reclining Buddha with mother-of-pearl feet and the country's most prestigious traditional massage school.",
+   "h": "Abierto 8:00–18:30. Puedes reservar un masaje tailandés en la escuela del propio recinto para descansar los pies.",
+   "h_en": "Open 8:00–18:30. You can book a Thai massage at the on-site school to rest your feet.",
+   "i": "Ideal si te gusta el arte budista monumental, el bienestar y descubrir tradiciones milenarias.",
+   "i_en": "Ideal if you like monumental Buddhist art, wellness and discovering age-old traditions."
+  },
+  "w_bkk_wat_arun": {
+   "id": "w_bkk_wat_arun",
+   "d": "Situado en la orilla de Thonburi, su prang central de 70 metros está decorado con fragmentos de porcelana china que brillan al sol. Se cruza en barca desde Wat Pho y ofrece vistas al Chao Phraya.",
+   "d_en": "Set on the Thonburi bank, its 70-metre central prang is decorated with fragments of Chinese porcelain that glitter in the sun. Reached by boat from Wat Pho, it offers views over the Chao Phraya.",
+   "h": "Abierto 8:00–18:00. Visítalo al atardecer y crúzalo con el ferry para verlo iluminado desde la otra orilla.",
+   "h_en": "Open 8:00–18:00. Visit at sunset and take the ferry across to see it lit up from the far bank.",
+   "i": "Ideal si te gustan las vistas fotogénicas, los atardeceres sobre el río y la arquitectura ornamental.",
+   "i_en": "Ideal if you like photogenic views, sunsets over the river and ornate architecture."
+  },
+  "w_bkk_golden_mount": {
+   "id": "w_bkk_golden_mount",
+   "d": "Se sube por una escalera en espiral de 344 peldaños entre campanas y vegetación hasta la cima, donde una reluciente estupa dorada guarda reliquias de Buda y regala el mejor mirador del casco antiguo.",
+   "d_en": "You climb a spiral staircase of 344 steps among bells and greenery to the top, where a gleaming golden chedi enshrines Buddha relics and offers the best viewpoint over the old town.",
+   "h": "Abierto 8:00–18:00. En noviembre acoge una animada feria del templo alrededor del monte.",
+   "h_en": "Open 8:00–18:00. In November it hosts a lively temple fair around the mount.",
+   "i": "Ideal si te gustan los miradores, subir a las alturas y las estupas doradas con encanto.",
+   "i_en": "Ideal if you like viewpoints, climbing to high places and charming golden chedis."
+  },
+  "w_bkk_wat_traimit": {
+   "id": "w_bkk_wat_traimit",
+   "d": "Custodia el mayor Buda de oro macizo del mundo, oculto durante siglos bajo una capa de yeso hasta descubrirse por accidente en 1955. Un pequeño museo cuenta la historia del barrio chino.",
+   "d_en": "It guards the world's largest solid gold Buddha, hidden for centuries under a plaster coating until accidentally revealed in 1955. A small museum tells the story of the Chinese quarter.",
+   "h": "Abierto 8:00–17:00. Combínalo con un paseo por Yaowarat, justo al lado.",
+   "h_en": "Open 8:00–17:00. Combine it with a stroll through Yaowarat, right next door.",
+   "i": "Ideal si te gustan las historias sorprendentes, el arte sacro y los tesoros ocultos.",
+   "i_en": "Ideal if you like surprising stories, sacred art and hidden treasures."
+  },
+  "w_bkk_wat_benchamabophit": {
+   "id": "w_bkk_wat_benchamabophit",
+   "d": "Construido a principios del siglo XX en mármol de Carrara, combina líneas tailandesas con influencias europeas. Su patio reúne una galería de 52 imágenes de Buda de todo el mundo budista.",
+   "d_en": "Built in the early 20th century from Carrara marble, it blends Thai lines with European influences. Its courtyard gathers a gallery of 52 Buddha images from across the Buddhist world.",
+   "h": "Abierto 8:00–17:30. Aparece en la moneda de 5 baht; ve por la mañana para ver a los monjes recibir ofrendas.",
+   "h_en": "Open 8:00–17:30. It features on the 5-baht coin; go in the morning to see monks receive alms.",
+   "i": "Ideal si te gusta la arquitectura refinada, la simetría y los rincones tranquilos.",
+   "i_en": "Ideal if you like refined architecture, symmetry and peaceful corners."
+  },
+  "w_bkk_wat_suthat": {
+   "id": "w_bkk_wat_suthat",
+   "d": "Uno de los templos más majestuosos y tranquilos de la ciudad, con un enorme Buda de bronce y murales interiores. Frente a él, el Columpio Gigante rojo recuerda antiguas ceremonias brahmánicas.",
+   "d_en": "One of the city's most majestic and calm temples, with a huge bronze Buddha and interior murals. Facing it, the red Giant Swing recalls ancient Brahman ceremonies.",
+   "h": "Abierto 8:30–21:00. Zona menos turística, ideal para pasear entre tiendas de artículos religiosos.",
+   "h_en": "Open 8:30–21:00. A less touristy area, great for wandering among shops selling religious items.",
+   "i": "Ideal si te gusta huir de las multitudes y descubrir templos con historia y atmósfera.",
+   "i_en": "Ideal if you like escaping the crowds and discovering temples with history and atmosphere."
+  },
+  "w_bkk_erawan_shrine": {
+   "id": "w_bkk_erawan_shrine",
+   "d": "En plena zona comercial de Ratchaprasong, este santuario dedicado al dios Brahma atrae a devotos que piden deseos y agradecen con guirnaldas, incienso y danzas tradicionales contratadas para la ocasión.",
+   "d_en": "In the heart of the Ratchaprasong shopping district, this shrine to the god Brahma draws devotees who make wishes and give thanks with garlands, incense and traditional dances hired for the occasion.",
+   "h": "Abierto 6:00–22:00, acceso libre. Un contraste fascinante entre fe y modernidad urbana.",
+   "h_en": "Open 6:00–22:00, free access. A fascinating contrast between faith and urban modernity.",
+   "i": "Ideal si te gusta la cultura viva, los rituales cotidianos y los contrastes de la gran ciudad.",
+   "i_en": "Ideal if you like living culture, everyday rituals and big-city contrasts."
+  },
+  "w_bkk_loha_prasat": {
+   "id": "w_bkk_loha_prasat",
+   "d": "Parte del Wat Ratchanatdaram, es la única estructura de este tipo que se conserva. Sus pasillos laberínticos suben hasta una terraza superior con vistas sobre el casco antiguo y el Golden Mount.",
+   "d_en": "Part of Wat Ratchanatdaram, it is the only surviving structure of its kind. Its labyrinthine corridors climb to an upper terrace with views over the old town and the Golden Mount.",
+   "h": "Abierto 8:00–17:00. Al lado hay un mercado de amuletos budistas muy popular entre los locales.",
+   "h_en": "Open 8:00–17:00. Beside it lies an amulet market very popular with locals.",
+   "i": "Ideal si te gustan los edificios singulares, la arquitectura poco común y los rincones fotogénicos.",
+   "i_en": "Ideal if you like singular buildings, unusual architecture and photogenic spots."
+  },
+  "w_bkk_national_museum": {
+   "id": "w_bkk_national_museum",
+   "d": "Instalado en un antiguo palacio, recorre milenios de historia tailandesa: esculturas de Buda, tronos reales, carrozas funerarias doradas y objetos de las distintas eras del país en amplias galerías.",
+   "d_en": "Housed in a former palace, it traces millennia of Thai history: Buddha sculptures, royal thrones, gilded funeral chariots and objects from the country's different eras across spacious galleries.",
+   "h": "Abierto miércoles a domingo 9:00–16:00. Ofrece visitas guiadas gratuitas en varios idiomas ciertos días.",
+   "h_en": "Open Wednesday to Sunday 9:00–16:00. Free guided tours in several languages are offered on certain days.",
+   "i": "Ideal si te gusta profundizar en la historia, el arte antiguo y comprender la cultura local.",
+   "i_en": "Ideal if you like delving into history, ancient art and understanding local culture."
+  },
+  "w_bkk_wat_mahathat": {
+   "id": "w_bkk_wat_mahathat",
+   "d": "Uno de los templos más antiguos de la ciudad y sede de una universidad monástica. Ofrece clases de meditación vipassana para visitantes y alberga un mercado de amuletos muy concurrido los fines de semana.",
+   "d_en": "One of the city's oldest temples and home to a monastic university. It offers vipassana meditation classes for visitors and hosts a busy amulet market at weekends.",
+   "h": "Abierto 7:00–17:00. Consulta los horarios de las sesiones de meditación abiertas al público.",
+   "h_en": "Open 7:00–17:00. Check the schedule for meditation sessions open to the public.",
+   "i": "Ideal si te gusta la espiritualidad, la calma interior y las experiencias auténticas.",
+   "i_en": "Ideal if you like spirituality, inner calm and authentic experiences."
+  },
+  "w_bkk_wat_ratchabophit": {
+   "id": "w_bkk_wat_ratchabophit",
+   "d": "Joya poco visitada del siglo XIX que combina exteriores cubiertos de azulejos florales con un interior inesperado de estilo neogótico europeo. Su chedi dorada centra un recinto circular único.",
+   "d_en": "A little-visited 19th-century gem combining exteriors covered in floral tiles with an unexpected European neo-Gothic interior. Its golden chedi centres a unique circular precinct.",
+   "h": "Abierto 8:00–17:00. Muy cerca del Gran Palacio pero casi siempre en silencio.",
+   "h_en": "Open 8:00–17:00. Very close to the Grand Palace yet almost always quiet.",
+   "i": "Ideal si te gusta descubrir joyas escondidas, la mezcla de estilos y los detalles decorativos.",
+   "i_en": "Ideal if you like discovering hidden gems, blended styles and decorative details."
+  },
+  "w_bkk_democracy_monument": {
+   "id": "w_bkk_democracy_monument",
+   "d": "Erigido en 1939 para conmemorar el fin de la monarquía absoluta, sus cuatro alas simbolizan la constitución. Es un punto de referencia del centro histórico y escenario de importantes actos ciudadanos.",
+   "d_en": "Erected in 1939 to mark the end of absolute monarchy, its four wings symbolise the constitution. It is a landmark of the historic centre and the setting for major civic events.",
+   "h": "Rotonda visible a cualquier hora; se ilumina de noche. Punto de partida ideal para explorar el barrio.",
+   "h_en": "Roundabout visible at any hour; lit at night. A handy starting point to explore the neighbourhood.",
+   "i": "Ideal si te gusta la historia contemporánea, la arquitectura simbólica y pasear por avenidas emblemáticas.",
+   "i_en": "Ideal if you like contemporary history, symbolic architecture and strolling grand avenues."
+  },
+  "w_bkk_chao_phraya": {
+   "id": "w_bkk_chao_phraya",
+   "d": "Conocido como el 'río de los reyes', vertebra la ciudad y sus canales. Recorrerlo en los barcos exprés o en un crucero al atardecer permite ver templos, hoteles históricos y la vida ribereña desde el agua.",
+   "d_en": "Known as the 'river of kings', it structures the city and its canals. Riding the express boats or a sunset cruise lets you see temples, historic hotels and riverside life from the water.",
+   "h": "Barcos exprés operan de día hasta el anochecer; cruceros con cena por la noche. Usa el muelle Sathorn como enlace con el BTS.",
+   "h_en": "Express boats run from day until dusk; dinner cruises at night. Use Sathorn pier as a link to the BTS.",
+   "i": "Ideal si te gustan los paseos en barco, las estampas de agua y ver la ciudad desde otro ángulo.",
+   "i_en": "Ideal if you like boat rides, waterside scenes and seeing the city from another angle."
+  },
+  "w_bkk_lumpini_park": {
+   "id": "w_bkk_lumpini_park",
+   "d": "Oasis de calma rodeado de rascacielos donde los habitantes hacen taichí al amanecer, corren o reman en el lago. Sus enormes varanos de agua son famosos habitantes del parque.",
+   "d_en": "A calm oasis ringed by skyscrapers where locals do tai chi at dawn, jog or paddle on the lake. Its huge water monitor lizards are famous residents of the park.",
+   "h": "Abierto 4:30–21:00, entrada gratuita. Ve al amanecer o al atardecer para ver la ciudad hacer ejercicio.",
+   "h_en": "Open 4:30–21:00, free entry. Go at dawn or dusk to watch the city work out.",
+   "i": "Ideal si te gusta la naturaleza urbana, observar la vida local y desconectar del bullicio.",
+   "i_en": "Ideal if you like urban nature, watching local life and unwinding from the bustle."
+  },
+  "w_bkk_benjakitti_park": {
+   "id": "w_bkk_benjakitti_park",
+   "d": "Antiguo terreno industrial transformado en un extenso parque con bosque urbano, lagunas y pasarelas elevadas. Conecta con el parque Lumpini por una pasarela peatonal y ofrece vistas espectaculares al atardecer.",
+   "d_en": "A former industrial site transformed into a large park with urban forest, lagoons and elevated walkways. It connects to Lumpini Park via a footbridge and offers spectacular sunset views.",
+   "h": "Abierto 5:00–21:00, gratis. Popular para correr, pasear y fotografiar los rascacielos reflejados en el agua.",
+   "h_en": "Open 5:00–21:00, free. Popular for running, strolling and photographing skyscrapers mirrored in the water.",
+   "i": "Ideal si te gustan los espacios verdes modernos, los paseos y la fotografía urbana.",
+   "i_en": "Ideal if you like modern green spaces, walks and urban photography."
+  },
+  "w_bkk_bang_krachao": {
+   "id": "w_bkk_bang_krachao",
+   "d": "Península fluvial cubierta de selva, plantaciones y caminos elevados donde alquilar una bicicleta y pedalear entre canales. Alberga un mercado flotante de fin de semana y un parque botánico muy tranquilo.",
+   "d_en": "A river peninsula covered in jungle, plantations and raised paths where you can rent a bike and pedal among canals. It has a weekend floating market and a very peaceful botanical park.",
+   "h": "Se cruza en barca desde Klong Toey o Bang Na. Mejor por la mañana; alquila bici junto al embarcadero.",
+   "h_en": "Reached by boat from Klong Toey or Bang Na. Best in the morning; rent a bike near the pier.",
+   "i": "Ideal si te gusta el ciclismo, la naturaleza tropical y escaparte de la ciudad sin ir lejos.",
+   "i_en": "Ideal if you like cycling, tropical nature and escaping the city without going far."
+  },
+  "w_bkk_chatuchak_park": {
+   "id": "w_bkk_chatuchak_park",
+   "d": "Zona verde ideal para descansar tras recorrer el mercado de Chatuchak. Cuenta con un lago con patinetes acuáticos, jardines, carriles para correr y un ambiente familiar muy local.",
+   "d_en": "A green space ideal for a rest after browsing Chatuchak market. It has a lake with pedal boats, gardens, running lanes and a very local, family atmosphere.",
+   "h": "Abierto 4:30–21:00, gratis. Perfecto para combinar con una jornada de compras el fin de semana.",
+   "h_en": "Open 4:30–21:00, free. Perfect to combine with a weekend shopping day.",
+   "i": "Ideal si te gusta relajarte al aire libre, los planes en familia y equilibrar compras y descanso.",
+   "i_en": "Ideal if you like relaxing outdoors, family plans and balancing shopping with rest."
+  },
+  "w_bkk_santichaiprakan": {
+   "id": "w_bkk_santichaiprakan",
+   "d": "Acogedor parque a orillas del Chao Phraya que rodea uno de los antiguos fuertes octogonales de la ciudad. Al atardecer se llena de gente que hace ejercicio, come y disfruta de la brisa del río.",
+   "d_en": "A cosy park on the banks of the Chao Phraya surrounding one of the city's old octagonal forts. At dusk it fills with people exercising, eating and enjoying the river breeze.",
+   "h": "Abierto todo el día, gratis. Muy cerca de Khao San, ideal para un respiro junto al agua.",
+   "h_en": "Open all day, free. Very close to Khao San, ideal for a break by the water.",
+   "i": "Ideal si te gusta pasear junto al río, la historia local y los atardeceres tranquilos.",
+   "i_en": "Ideal if you like riverside walks, local history and quiet sunsets."
+  },
+  "w_bkk_saranrom_park": {
+   "id": "w_bkk_saranrom_park",
+   "d": "Antiguo jardín palaciego del siglo XIX con estanques, pabellones y árboles centenarios. Un remanso de paz apenas conocido por los turistas a pocos pasos de los grandes templos del casco antiguo.",
+   "d_en": "A former 19th-century palace garden with ponds, pavilions and century-old trees. A haven of peace barely known to tourists, just steps from the old town's great temples.",
+   "h": "Abierto 5:00–21:00, gratis. Perfecto para descansar a la sombra entre visitas a templos.",
+   "h_en": "Open 5:00–21:00, free. Perfect for a shady rest between temple visits.",
+   "i": "Ideal si te gustan los jardines tranquilos, la sombra y los rincones poco turísticos.",
+   "i_en": "Ideal if you like quiet gardens, shade and untouristy corners."
+  },
+  "w_bkk_chinatown_yaowarat": {
+   "id": "w_bkk_chinatown_yaowarat",
+   "d": "La avenida Yaowarat es el corazón de uno de los barrios chinos más grandes del mundo. De día bulle con tiendas de oro y hierbas; de noche estalla en luces de neón y puestos de comida por todas partes.",
+   "d_en": "Yaowarat Avenue is the heart of one of the world's largest Chinatowns. By day it buzzes with gold and herb shops; by night it erupts in neon lights and food stalls everywhere.",
+   "h": "El ambiente callejero despega al anochecer, sobre todo de jueves a domingo. Ve con hambre y explora los callejones.",
+   "h_en": "The street scene takes off after dark, especially Thursday to Sunday. Go hungry and explore the alleys.",
+   "i": "Ideal si te gusta la energía nocturna, los mercados caóticos y la mejor comida callejera.",
+   "i_en": "Ideal if you like nighttime energy, chaotic markets and the best street food."
+  },
+  "w_bkk_khao_san": {
+   "id": "w_bkk_khao_san",
+   "d": "Corta calle mítica entre viajeros de todo el mundo, con bares, masajes, tatuajes, ropa y puestos de comida exótica como insectos fritos. De noche se transforma en una fiesta ruidosa y multicolor.",
+   "d_en": "A short street legendary among travellers worldwide, with bars, massages, tattoos, clothes and stalls selling exotic snacks like fried insects. At night it turns into a loud, multicoloured party.",
+   "h": "Máximo ambiente de 20:00 a la madrugada. De día es tranquila y buena para desayunar y comprar.",
+   "h_en": "Liveliest from 20:00 into the early hours. By day it's calm and good for breakfast and shopping.",
+   "i": "Ideal si te gusta el ambiente mochilero, salir de fiesta y conocer viajeros de todo el mundo.",
+   "i_en": "Ideal if you like the backpacker vibe, partying and meeting travellers from all over."
+  },
+  "w_bkk_chatuchak_market": {
+   "id": "w_bkk_chatuchak_market",
+   "d": "Un laberinto colosal de fin de semana donde encontrar de todo: ropa, artesanía, antigüedades, plantas, mascotas, arte y comida. Se organiza en secciones y puede llevar un día entero recorrerlo.",
+   "d_en": "A colossal weekend maze where you can find everything: clothes, crafts, antiques, plants, pets, art and food. Organised into sections, it can take a whole day to explore.",
+   "h": "Sábados y domingos 9:00–18:00. Ve temprano para evitar el calor y lleva agua y billetes pequeños.",
+   "h_en": "Saturdays and Sundays 9:00–18:00. Go early to beat the heat and bring water and small notes.",
+   "i": "Ideal si te gustan las compras, regatear y perderte entre puestos de todo tipo.",
+   "i_en": "Ideal if you like shopping, haggling and getting lost among stalls of every kind."
+  },
+  "w_bkk_jim_thompson": {
+   "id": "w_bkk_jim_thompson",
+   "d": "Conjunto de seis casas tradicionales de teca reunidas por el estadounidense que revivió la industria de la seda y desapareció misteriosamente en 1967. Guarda su colección de arte asiático entre jardines frondosos.",
+   "d_en": "A set of six traditional teak houses assembled by the American who revived the silk industry and mysteriously vanished in 1967. It holds his Asian art collection amid lush gardens.",
+   "h": "Abierto 10:00–18:00 con visitas guiadas. Tiene tienda de seda y un café junto al canal.",
+   "h_en": "Open 10:00–18:00 with guided tours. It has a silk shop and a café by the canal.",
+   "i": "Ideal si te gustan las historias intrigantes, la artesanía de la seda y las casas con encanto.",
+   "i_en": "Ideal if you like intriguing stories, silk craftsmanship and charming houses."
+  },
+  "w_bkk_asiatique": {
+   "id": "w_bkk_asiatique",
+   "d": "Antiguos almacenes portuarios reconvertidos en un gran paseo comercial y de ocio a orillas del Chao Phraya. Combina tiendas, restaurantes, una noria iluminada y teatros de marionetas y cabaret.",
+   "d_en": "Former port warehouses turned into a large shopping and leisure promenade on the banks of the Chao Phraya. It blends shops, restaurants, an illuminated Ferris wheel and puppet and cabaret theatres.",
+   "h": "Abierto 16:00–24:00. Llega en el barco lanzadera gratuito desde el muelle Sathorn.",
+   "h_en": "Open 16:00–24:00. Arrive on the free shuttle boat from Sathorn pier.",
+   "i": "Ideal si te gustan los planes nocturnos junto al río, las compras y el ambiente familiar.",
+   "i_en": "Ideal if you like evening plans by the river, shopping and a family atmosphere."
+  },
+  "w_bkk_damnoen_saduak": {
+   "id": "w_bkk_damnoen_saduak",
+   "d": "En los canales de Ratchaburi, decenas de barcas repletas de frutas tropicales, sombreros y comida recién cocinada se cruzan entre puentes. Una estampa icónica y colorida a unos 100 km de Bangkok.",
+   "d_en": "On the canals of Ratchaburi, dozens of boats brimming with tropical fruit, hats and freshly cooked food weave between bridges. An iconic, colourful scene about 100 km from Bangkok.",
+   "h": "Más animado 7:00–11:00; conviene madrugar. Suele visitarse en excursión de día desde la ciudad.",
+   "h_en": "Busiest 7:00–11:00; go early. Usually visited on a day trip from the city.",
+   "i": "Ideal si te gusta la fotografía colorida, las experiencias tradicionales y los paseos en barca.",
+   "i_en": "Ideal if you like colourful photography, traditional experiences and boat rides."
+  },
+  "w_bkk_siam_paragon": {
+   "id": "w_bkk_siam_paragon",
+   "d": "Nudo de grandes centros comerciales conectados por pasarelas: Siam Paragon, Siam Center y Siam Discovery. Reúne moda, tecnología, cines, restaurantes y el enorme acuario Sea Life en el subsuelo.",
+   "d_en": "A hub of huge malls linked by skywalks: Siam Paragon, Siam Center and Siam Discovery. It gathers fashion, tech, cinemas, restaurants and the vast Sea Life aquarium in the basement.",
+   "h": "Centros abiertos 10:00–22:00. Bien comunicado por el BTS (estación Siam); ideal para escapar del calor.",
+   "h_en": "Malls open 10:00–22:00. Well served by the BTS (Siam station); ideal for escaping the heat.",
+   "i": "Ideal si te gustan las compras modernas, la climatización y los planes urbanos con aire acondicionado.",
+   "i_en": "Ideal if you like modern shopping, air conditioning and cool indoor city plans."
+  },
+  "w_bkk_thip_samai": {
+   "id": "w_bkk_thip_samai",
+   "d": "Institución desde 1966 cerca del Columpio Gigante, famosa por su pad thai salteado con leña y su versión envuelta en huevo. Suele haber cola, pero avanza rápido y merece la espera.",
+   "d_en": "An institution since 1966 near the Giant Swing, famous for its wood-fire pad thai and its egg-wrapped version. Queues are common but move fast and are worth the wait.",
+   "h": "Cena típica; acompáñalo con su zumo de naranja fresco recién exprimido.",
+   "h_en": "A classic dinner; pair it with their freshly squeezed orange juice.",
+   "i": "Ideal si te gusta la comida callejera icónica, los platos con historia y los sabores auténticos.",
+   "i_en": "Ideal if you like iconic street food, dishes with history and authentic flavours."
+  },
+  "w_bkk_jay_fai": {
+   "id": "w_bkk_jay_fai",
+   "d": "La cocinera Jay Fai, con sus icónicas gafas de esquí, prepara al wok sobre carbón platos como la tortilla de cangrejo y el drunken noodles. Un fenómeno mundial de la comida callejera de alta cocina.",
+   "d_en": "Chef Jay Fai, in her iconic ski goggles, cooks over charcoal woks dishes like the crab omelette and drunken noodles. A global phenomenon of high-end street food.",
+   "h": "Espera larga y precios altos para ser un puesto; ve pronto o reserva con mucha antelación.",
+   "h_en": "Long waits and high prices for a stall; arrive early or book well ahead.",
+   "i": "Ideal si te gusta la alta cocina informal, los sabores intensos y las experiencias únicas.",
+   "i_en": "Ideal if you like casual fine dining, bold flavours and one-of-a-kind experiences."
+  },
+  "w_bkk_or_tor_kor": {
+   "id": "w_bkk_or_tor_kor",
+   "d": "Considerado uno de los mejores mercados de alimentación del mundo, destaca por su fruta tropical perfecta, currys, dulces y marisco. Limpio y ordenado, es ideal para probar de todo sin agobios.",
+   "d_en": "Rated among the world's best food markets, it stands out for perfect tropical fruit, curries, sweets and seafood. Clean and orderly, it's ideal for tasting a bit of everything without the crush.",
+   "h": "Frente al mercado de Chatuchak; combínalos el mismo día. Prueba el durian si te atreves.",
+   "h_en": "Opposite Chatuchak market; combine them the same day. Try durian if you dare.",
+   "i": "Ideal si te gusta la gastronomía local, la fruta tropical y los mercados cómodos de recorrer.",
+   "i_en": "Ideal if you like local gastronomy, tropical fruit and markets that are easy to browse."
+  },
+  "w_bkk_wang_lang": {
+   "id": "w_bkk_wang_lang",
+   "d": "Un mercado auténtico y muy poco turístico, frecuentado por estudiantes y trabajadores del hospital cercano. Callejones repletos de puestos de curry, brochetas, dulces tailandeses y frutas a precios bajos.",
+   "d_en": "An authentic, barely touristy market frequented by students and workers from the nearby hospital. Alleys packed with stalls of curry, skewers, Thai sweets and fruit at low prices.",
+   "h": "Junto al muelle Wang Lang, ideal antes o después de cruzar a Wat Arun y el Gran Palacio.",
+   "h_en": "Beside Wang Lang pier, great before or after crossing to Wat Arun and the Grand Palace.",
+   "i": "Ideal si te gusta comer como los locales, los precios bajos y los rincones auténticos.",
+   "i_en": "Ideal if you like eating like a local, low prices and authentic corners."
+  },
+  "w_bkk_sky_bar": {
+   "id": "w_bkk_sky_bar",
+   "d": "En lo alto de la torre Lebua State Tower, este bar al aire libre se hizo mundialmente famoso por la película 'Resacón 2'. Sus cócteles y su cúpula dorada sobre el Chao Phraya ofrecen un atardecer inolvidable.",
+   "d_en": "Atop the Lebua State Tower, this open-air bar became world-famous through the film 'The Hangover Part II'. Its cocktails and golden dome over the Chao Phraya deliver an unforgettable sunset.",
+   "h": "Código de vestimenta elegante (nada de pantalón corto ni chanclas). Ve al atardecer para las mejores vistas.",
+   "h_en": "Smart dress code (no shorts or flip-flops). Go at sunset for the best views.",
+   "i": "Ideal si te gustan las vistas panorámicas, la coctelería y las noches con glamour.",
+   "i_en": "Ideal if you like panoramic views, cocktails and glamorous nights out."
+  },
+  "w_bkk_somboon_seafood": {
+   "id": "w_bkk_somboon_seafood",
+   "d": "Cadena tradicional con décadas de historia cuyo plato estrella es el cangrejo salteado en curry con huevo, cremoso y aromático. Ambiente animado y perfecto para compartir platos de marisco en grupo.",
+   "d_en": "A traditional chain with decades of history whose signature dish is stir-fried crab in creamy, aromatic egg curry. A lively spot, perfect for sharing seafood dishes in a group.",
+   "h": "Reserva en horas punta. Pide también los langostinos y el pescado al vapor con lima.",
+   "h_en": "Book at peak hours. Also order the prawns and the steamed fish with lime.",
+   "i": "Ideal si te gusta el marisco, las cenas para compartir y los sabores tailandeses intensos.",
+   "i_en": "Ideal if you like seafood, sharing dinners and bold Thai flavours."
+  }
+ },
+ "food": {
+  "w_bkk_thip_samai": {
+   "cuisine": "Tailandesa (Pad Thai)",
+   "price": "3–8 €",
+   "hours": "9:00–24:00 (cerrado algunos días)"
+  },
+  "w_bkk_jay_fai": {
+   "cuisine": "Tailandesa (marisco wok)",
+   "price": "25–60 €",
+   "hours": "Mar–Sáb 14:00–20:00"
+  },
+  "w_bkk_or_tor_kor": {
+   "cuisine": "Mercado gastronómico tailandés",
+   "price": "3–12 €",
+   "hours": "6:00–20:00"
+  },
+  "w_bkk_wang_lang": {
+   "cuisine": "Comida callejera tailandesa",
+   "price": "2–6 €",
+   "hours": "8:00–19:00"
+  },
+  "w_bkk_sky_bar": {
+   "cuisine": "Bar de coctelería / internacional",
+   "price": "20–45 €",
+   "hours": "17:00–24:00"
+  },
+  "w_bkk_somboon_seafood": {
+   "cuisine": "Marisco tailandés",
+   "price": "12–30 €",
+   "hours": "16:00–23:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Bangkok",
+   "items": [
+    {
+     "name": "Seda tailandesa",
+     "price": "15–80 €",
+     "desc": "Pañuelos, corbatas y telas de seda Jim Thompson, símbolo del país."
+    },
+    {
+     "name": "Pantalones elefante",
+     "price": "3–8 €",
+     "desc": "Cómodos y coloridos, el recuerdo estrella de Khao San."
+    },
+    {
+     "name": "Amuleto o Buda pequeño",
+     "price": "5–30 €",
+     "desc": "Figuras y amuletos budistas de latón o resina."
+    },
+    {
+     "name": "Especias y curry",
+     "price": "3–10 €",
+     "desc": "Pastas de curry, leche de coco y hierbas para cocinar tailandés."
+    },
+    {
+     "name": "Artesanía en teca",
+     "price": "10–50 €",
+     "desc": "Cuencos, cubiertos y tallas de madera y bambú."
+    }
+   ],
+   "shops": [
+    "Chatuchak Weekend Market",
+    "MBK Center",
+    "Jim Thompson (Surawong)",
+    "Yaowarat (Chinatown)",
+    "Asiatique The Riverfront"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Vístete con hombros y rodillas cubiertos para entrar en templos como el Gran Palacio; hay controles estrictos.",
+   "Muévete en los barcos exprés del Chao Phraya y el BTS/MRT para evitar los famosos atascos.",
+   "Regatea con simpatía en mercados como Chatuchak: se espera y el precio inicial suele estar inflado.",
+   "Bebe solo agua embotellada y prueba la comida callejera en puestos concurridos, señal de rotación y frescura.",
+   "Lleva billetes pequeños para taxis, tuk-tuks y puestos; exige el taxímetro o acuerda el precio antes de subir."
+  ],
+  "en": [
+   "Cover shoulders and knees to enter temples like the Grand Palace; dress codes are strictly enforced.",
+   "Use the Chao Phraya express boats and the BTS/MRT to skip Bangkok's notorious traffic jams.",
+   "Haggle with a smile at markets like Chatuchak: it's expected and first prices are usually inflated.",
+   "Drink only bottled water and eat street food at busy stalls, a sign of fast turnover and freshness.",
+   "Carry small notes for taxis, tuk-tuks and stalls; insist on the meter or agree a price before getting in."
+  ]
+ },
+ "climate": {
+  "hi": [
+   32,
+   33,
+   34,
+   35,
+   34,
+   33,
+   32,
+   32,
+   32,
+   31,
+   31,
+   31
+  ],
+  "lo": [
+   22,
+   24,
+   25,
+   26,
+   26,
+   25,
+   25,
+   25,
+   24,
+   24,
+   23,
+   21
+  ]
+ },
+ "tr": {
+  "Antigua residencia real y símbolo de Bangkok, con tejados dorados deslumbrantes.": "Former royal residence and icon of Bangkok, with dazzling golden roofs.",
+  "Templo del gigantesco Buda reclinado dorado de 46 metros y cuna del masaje tailandés.": "Temple of the giant 46-metre reclining golden Buddha and cradle of Thai massage.",
+  "El Templo del Amanecer, con su torre kmer cubierta de porcelana sobre el río.": "The Temple of Dawn, its Khmer-style spire clad in porcelain rising over the river.",
+  "Colina artificial coronada por una estupa dorada con vistas panorámicas de la ciudad.": "Artificial hill crowned by a golden chedi with panoramic views of the city.",
+  "Templo del Buda de Oro macizo de 5,5 toneladas, a las puertas de Chinatown.": "Temple of the solid gold Buddha weighing 5.5 tonnes, at the gate of Chinatown.",
+  "El Templo de Mármol, elegante joya blanca de estilo tailandés moderno.": "The Marble Temple, an elegant white gem of modern Thai style.",
+  "Templo real solemne junto al icónico Columpio Gigante de teca roja.": "Solemn royal temple beside the iconic red teak Giant Swing.",
+  "Concurrido altar hindú de Brahma entre rascacielos, lleno de flores e incienso.": "Busy Hindu shrine to Brahma amid skyscrapers, full of flowers and incense.",
+  "Insólito 'castillo de metal' con 37 agujas negras, único en el mundo.": "Unusual 'metal castle' with 37 black spires, unique in the world.",
+  "El mayor museo del Sudeste Asiático, con arte e historia de Tailandia.": "The largest museum in Southeast Asia, with Thai art and history.",
+  "Templo de meditación y centro de estudios budistas junto a Sanam Luang.": "Meditation temple and centre of Buddhist studies beside Sanam Luang.",
+  "Templo real de fachada de cerámica pintada y un interior gótico sorprendente.": "Royal temple with painted ceramic façade and a surprising Gothic interior.",
+  "Emblemático monumento art déco en el corazón de la avenida Ratchadamnoen.": "Emblematic art deco monument at the heart of Ratchadamnoen Avenue.",
+  "La gran arteria fluvial de Bangkok, llena de barcos, templos y vida.": "Bangkok's great river artery, teeming with boats, temples and life.",
+  "El gran pulmón verde del centro, con lago, varanos y ambiente local.": "The city centre's great green lung, with a lake, monitor lizards and local life.",
+  "Moderno parque forestal con pasarelas sobre humedales y skyline de fondo.": "Modern forest park with walkways over wetlands and a skyline backdrop.",
+  "El 'pulmón verde' de Bangkok, una isla selvática para recorrer en bici.": "Bangkok's 'green lung', a jungle-like island to explore by bike.",
+  "Amplio parque con lago junto al famoso mercado de fin de semana.": "Spacious park with a lake next to the famous weekend market.",
+  "Pequeño parque ribereño junto al histórico fuerte Phra Sumen.": "Small riverside park beside the historic Phra Sumen fort.",
+  "Jardín histórico de estilo europeo junto al Gran Palacio.": "Historic European-style garden next to the Grand Palace.",
+  "Barrio chino vibrante, con neones, oro, templos y comida callejera.": "Vibrant Chinatown with neon signs, gold shops, temples and street food.",
+  "La famosa calle mochilera, epicentro de fiesta, puestos y vida nocturna.": "The famous backpacker street, epicentre of parties, stalls and nightlife.",
+  "Uno de los mayores mercados del mundo, con más de 15.000 puestos.": "One of the world's largest markets, with over 15,000 stalls.",
+  "Elegante casa-museo de teca del magnate de la seda tailandesa.": "Elegant teak house-museum of the Thai silk magnate.",
+  "Mercado nocturno junto al río con noria, tiendas y espectáculos.": "Riverside night market with a Ferris wheel, shops and shows.",
+  "El mercado flotante más famoso, con barcas cargadas de fruta y comida.": "The most famous floating market, with boats laden with fruit and food.",
+  "El corazón comercial moderno de Bangkok, con centros y acuario.": "Bangkok's modern shopping heart, with malls and an aquarium.",
+  "El pad thai más legendario de Bangkok, envuelto en tortilla fina.": "Bangkok's most legendary pad thai, wrapped in a thin omelette.",
+  "Puesto callejero con estrella Michelin, famoso por su tortilla de cangrejo.": "Street stall with a Michelin star, famous for its crab omelette.",
+  "Mercado gourmet de productos frescos, frutas y platos preparados.": "Gourmet market of fresh produce, fruit and ready-made dishes.",
+  "Bullicioso mercado local de comida callejera junto al río en Thonburi.": "Bustling local street-food market by the river in Thonburi.",
+  "Icónico bar en altura sobre el río, con vistas de vértigo al skyline.": "Iconic rooftop bar over the river, with dizzying skyline views.",
+  "Restaurante clásico famoso por su cangrejo al curry amarillo.": "Classic restaurant famous for its yellow curry crab.",
+  "Bangkok": "Bangkok"
+ }
+}

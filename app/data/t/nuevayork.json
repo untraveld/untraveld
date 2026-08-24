@@ -1,0 +1,779 @@
+{
+ "id": "nuevayork",
+ "name": "Nueva York",
+ "country": "WORLD",
+ "center": [
+  40.75797,
+  -73.98553
+ ],
+ "pois": [
+  {
+   "id": "w_nyc_estatua_libertad",
+   "cat": "monuments",
+   "name": "Estatua de la Libertad",
+   "icon": "🗽",
+   "lat": 40.68925,
+   "lng": -74.0445,
+   "desc": "El símbolo mundial de la libertad, regalo de Francia en 1886."
+  },
+  {
+   "id": "w_nyc_empire_state",
+   "cat": "monuments",
+   "name": "Empire State Building",
+   "icon": "🏙️",
+   "lat": 40.74844,
+   "lng": -73.98566,
+   "desc": "El rascacielos art déco más famoso del mundo."
+  },
+  {
+   "id": "w_nyc_top_of_the_rock",
+   "cat": "ocio",
+   "name": "Top of the Rock",
+   "icon": "🌆",
+   "lat": 40.75935,
+   "lng": -73.97932,
+   "desc": "Mirador con la mejor vista del Empire State y Central Park."
+  },
+  {
+   "id": "w_nyc_grand_central",
+   "cat": "monuments",
+   "name": "Estación Grand Central",
+   "icon": "🚉",
+   "lat": 40.75273,
+   "lng": -73.9771,
+   "desc": "La estación de tren más bella y monumental del mundo."
+  },
+  {
+   "id": "w_nyc_puente_brooklyn",
+   "cat": "monuments",
+   "name": "Puente de Brooklyn",
+   "icon": "🌉",
+   "lat": 40.70611,
+   "lng": -73.99686,
+   "desc": "Puente colgante histórico entre Manhattan y Brooklyn."
+  },
+  {
+   "id": "w_nyc_one_world_memorial",
+   "cat": "monuments",
+   "name": "One World y Memorial 9/11",
+   "icon": "🕊️",
+   "lat": 40.71263,
+   "lng": -74.01308,
+   "desc": "Rascacielos más alto de EE.UU. y memorial de las torres."
+  },
+  {
+   "id": "w_nyc_rockefeller_center",
+   "cat": "monuments",
+   "name": "Rockefeller Center",
+   "icon": "⛸️",
+   "lat": 40.75873,
+   "lng": -73.97869,
+   "desc": "Complejo art déco con su famosa pista de patinaje."
+  },
+  {
+   "id": "w_nyc_wall_street_bull",
+   "cat": "monuments",
+   "name": "Wall Street y Charging Bull",
+   "icon": "🐂",
+   "lat": 40.70552,
+   "lng": -74.0134,
+   "desc": "El corazón financiero mundial y su famoso toro de bronce."
+  },
+  {
+   "id": "w_nyc_flatiron",
+   "cat": "monuments",
+   "name": "Edificio Flatiron",
+   "icon": "🏢",
+   "lat": 40.74106,
+   "lng": -73.98974,
+   "desc": "El icónico rascacielos triangular con forma de plancha."
+  },
+  {
+   "id": "w_nyc_st_patrick",
+   "cat": "monuments",
+   "name": "Catedral de San Patricio",
+   "icon": "⛪",
+   "lat": 40.75855,
+   "lng": -73.97621,
+   "desc": "Gran catedral neogótica en plena Quinta Avenida."
+  },
+  {
+   "id": "w_nyc_met",
+   "cat": "monuments",
+   "name": "Museo Metropolitano (MET)",
+   "icon": "🏛️",
+   "lat": 40.77943,
+   "lng": -73.96324,
+   "desc": "Uno de los mayores museos de arte del mundo."
+  },
+  {
+   "id": "w_nyc_moma",
+   "cat": "monuments",
+   "name": "MoMA",
+   "icon": "🎨",
+   "lat": 40.76149,
+   "lng": -73.97764,
+   "desc": "El gran museo de arte moderno y contemporáneo."
+  },
+  {
+   "id": "w_nyc_natural_history",
+   "cat": "monuments",
+   "name": "Museo de Historia Natural",
+   "icon": "🦕",
+   "lat": 40.7813,
+   "lng": -73.974,
+   "desc": "Dinosaurios, ballenas y la famosa 'Noche en el museo'."
+  },
+  {
+   "id": "w_nyc_chrysler",
+   "cat": "monuments",
+   "name": "Edificio Chrysler",
+   "icon": "🏙️",
+   "lat": 40.75165,
+   "lng": -73.97529,
+   "desc": "La joya art déco de corona plateada del skyline."
+  },
+  {
+   "id": "w_nyc_ellis_island",
+   "cat": "monuments",
+   "name": "Ellis Island",
+   "icon": "⚓",
+   "lat": 40.69976,
+   "lng": -74.03955,
+   "desc": "La histórica puerta de entrada de la inmigración a EE.UU."
+  },
+  {
+   "id": "w_nyc_central_park",
+   "cat": "nature",
+   "name": "Central Park",
+   "icon": "🌳",
+   "lat": 40.78259,
+   "lng": -73.96536,
+   "desc": "El gran pulmón verde en el corazón de Manhattan."
+  },
+  {
+   "id": "w_nyc_high_line",
+   "cat": "nature",
+   "name": "High Line",
+   "icon": "🌿",
+   "lat": 40.74795,
+   "lng": -74.00478,
+   "desc": "Parque elevado sobre una antigua vía de tren."
+  },
+  {
+   "id": "w_nyc_little_island",
+   "cat": "nature",
+   "name": "Little Island",
+   "icon": "🏝️",
+   "lat": 40.74283,
+   "lng": -74.01099,
+   "desc": "Parque flotante futurista sobre el río Hudson."
+  },
+  {
+   "id": "w_nyc_bryant_park",
+   "cat": "nature",
+   "name": "Bryant Park",
+   "icon": "🌲",
+   "lat": 40.75366,
+   "lng": -73.98325,
+   "desc": "Plaza verde junto a la Biblioteca Pública."
+  },
+  {
+   "id": "w_nyc_brooklyn_bridge_park",
+   "cat": "nature",
+   "name": "Brooklyn Bridge Park",
+   "icon": "🏞️",
+   "lat": 40.70029,
+   "lng": -73.99664,
+   "desc": "Parque ribereño con las mejores vistas del skyline."
+  },
+  {
+   "id": "w_nyc_battery_park",
+   "cat": "nature",
+   "name": "Battery Park",
+   "icon": "🌊",
+   "lat": 40.70329,
+   "lng": -74.017,
+   "desc": "Parque en la punta sur de Manhattan frente al puerto."
+  },
+  {
+   "id": "w_nyc_washington_square",
+   "cat": "nature",
+   "name": "Washington Square Park",
+   "icon": "⛲",
+   "lat": 40.73082,
+   "lng": -73.99733,
+   "desc": "Plaza bohemia con su arco y ambiente universitario."
+  },
+  {
+   "id": "w_nyc_times_square",
+   "cat": "ocio",
+   "name": "Times Square",
+   "icon": "🌃",
+   "lat": 40.75798,
+   "lng": -73.98554,
+   "desc": "El cruce más famoso del mundo, un mar de pantallas."
+  },
+  {
+   "id": "w_nyc_quinta_avenida",
+   "cat": "ocio",
+   "name": "Quinta Avenida",
+   "icon": "🛍️",
+   "lat": 40.7636,
+   "lng": -73.9735,
+   "desc": "La avenida comercial más lujosa de la ciudad."
+  },
+  {
+   "id": "w_nyc_soho",
+   "cat": "ocio",
+   "name": "SoHo",
+   "icon": "🏬",
+   "lat": 40.7233,
+   "lng": -74.0018,
+   "desc": "Barrio de moda con fachadas de hierro fundido."
+  },
+  {
+   "id": "w_nyc_chinatown",
+   "cat": "ocio",
+   "name": "Chinatown",
+   "icon": "🏮",
+   "lat": 40.7157,
+   "lng": -73.997,
+   "desc": "Uno de los barrios chinos más grandes de Occidente."
+  },
+  {
+   "id": "w_nyc_broadway",
+   "cat": "ocio",
+   "name": "Broadway y Theater District",
+   "icon": "🎭",
+   "lat": 40.759,
+   "lng": -73.987,
+   "desc": "La meca mundial de los musicales y el teatro."
+  },
+  {
+   "id": "w_nyc_edge_hudson_yards",
+   "cat": "ocio",
+   "name": "Edge Hudson Yards",
+   "icon": "🔭",
+   "lat": 40.75367,
+   "lng": -74.00105,
+   "desc": "El mirador exterior más alto del hemisferio occidental."
+  },
+  {
+   "id": "w_nyc_chelsea_market",
+   "cat": "food",
+   "name": "Chelsea Market",
+   "icon": "🍜",
+   "lat": 40.74247,
+   "lng": -74.00611,
+   "desc": "Mercado gastronómico en una antigua fábrica de galletas."
+  },
+  {
+   "id": "w_nyc_little_italy",
+   "cat": "food",
+   "name": "Little Italy",
+   "icon": "🍝",
+   "lat": 40.7193,
+   "lng": -73.9973,
+   "desc": "El histórico barrio italiano de trattorias y cafés."
+  },
+  {
+   "id": "w_nyc_katz_deli",
+   "cat": "food",
+   "name": "Katz's Delicatessen",
+   "icon": "🥪",
+   "lat": 40.72222,
+   "lng": -73.98735,
+   "desc": "El deli más famoso de la ciudad y su sándwich de pastrami."
+  },
+  {
+   "id": "w_nyc_eataly",
+   "cat": "food",
+   "name": "Eataly Flatiron",
+   "icon": "🧀",
+   "lat": 40.7418,
+   "lng": -73.9896,
+   "desc": "Gran mercado y restaurantes italianos junto al Flatiron."
+  },
+  {
+   "id": "w_nyc_joes_pizza",
+   "cat": "food",
+   "name": "Joe's Pizza",
+   "icon": "🍕",
+   "lat": 40.73044,
+   "lng": -74.0028,
+   "desc": "La pizza al corte neoyorquina más querida."
+  },
+  {
+   "id": "w_nyc_smorgasburg",
+   "cat": "food",
+   "name": "Smorgasburg (Williamsburg)",
+   "icon": "🌮",
+   "lat": 40.72175,
+   "lng": -73.9613,
+   "desc": "El mayor mercado de comida al aire libre de EE.UU."
+  }
+ ],
+ "extra": {
+  "w_nyc_estatua_libertad": {
+   "id": "w_nyc_estatua_libertad",
+   "d": "Coloso de cobre de 93 m sobre Liberty Island que dio la bienvenida a millones de inmigrantes. Se puede subir al pedestal e incluso a la corona con reserva previa, con vistas espectaculares del puerto y el skyline.",
+   "d_en": "A 93 m copper colossus on Liberty Island that welcomed millions of immigrants. You can climb to the pedestal or even the crown with an advance reservation, enjoying spectacular views of the harbor and skyline.",
+   "h": "Solo se llega en ferry desde Battery Park; reserva con semanas de antelación si quieres subir a la corona.",
+   "h_en": "Reachable only by ferry from Battery Park; book weeks ahead if you want to climb to the crown.",
+   "i": "Ideal si te gusta la historia de la inmigración, los grandes iconos y las vistas desde el agua.",
+   "i_en": "Ideal if you like immigration history, great icons and views from the water."
+  },
+  "w_nyc_empire_state": {
+   "id": "w_nyc_empire_state",
+   "d": "Inaugurado en 1931, este icono de 381 m (443 con antena) ofrece miradores en las plantas 86 y 102. Sus vistas de 360° sobre Manhattan y su iluminación nocturna cambiante lo han hecho legendario en el cine.",
+   "d_en": "Opened in 1931, this 381 m icon (443 m with antenna) offers observatories on the 86th and 102nd floors. Its 360° views over Manhattan and shifting nighttime lighting have made it a movie legend.",
+   "h": "Sube al atardecer para ver la ciudad de día y de noche; reserva online para evitar colas.",
+   "h_en": "Go at sunset to see the city by day and night; book online to avoid queues.",
+   "i": "Ideal si te gusta el art déco, los miradores clásicos y las panorámicas urbanas.",
+   "i_en": "Ideal if you like art deco, classic observation decks and city panoramas."
+  },
+  "w_nyc_top_of_the_rock": {
+   "id": "w_nyc_top_of_the_rock",
+   "d": "Situado en lo alto del Rockefeller Center, este mirador en varias plantas ofrece vistas abiertas hacia Central Park al norte y el Empire State al sur, considerado por muchos el mejor panorama de la ciudad.",
+   "d_en": "At the top of Rockefeller Center, this multi-level deck offers open views toward Central Park to the north and the Empire State to the south, considered by many the city's best panorama.",
+   "h": "Elige un pase para el atardecer; las terrazas al aire libre son perfectas para fotos sin cristales.",
+   "h_en": "Pick a sunset time slot; the open-air terraces are perfect for glass-free photos.",
+   "i": "Ideal si te gusta la fotografía urbana y las vistas del skyline con el Empire State de frente.",
+   "i_en": "Ideal if you like urban photography and skyline views facing the Empire State."
+  },
+  "w_nyc_grand_central": {
+   "id": "w_nyc_grand_central",
+   "d": "Terminal de 1913 con un vestíbulo principal de techos verdes decorados con constelaciones doradas. Sus escaleras de mármol, el reloj de cuatro caras y la galería de los susurros la convierten en una joya arquitectónica viva.",
+   "d_en": "A 1913 terminal with a main concourse crowned by a green ceiling painted with golden constellations. Its marble staircases, four-faced clock and whispering gallery make it a living architectural gem.",
+   "h": "Prueba la 'galería de los susurros' junto al Oyster Bar y visita el mercado gourmet del nivel inferior.",
+   "h_en": "Try the whispering gallery near the Oyster Bar and browse the gourmet market on the lower level.",
+   "i": "Ideal si te gusta la arquitectura, la fotografía de interiores y el bullicio de la ciudad.",
+   "i_en": "Ideal if you like architecture, interior photography and the city's bustle."
+  },
+  "w_nyc_puente_brooklyn": {
+   "id": "w_nyc_puente_brooklyn",
+   "d": "Inaugurado en 1883, fue el puente colgante más largo del mundo. Su pasarela peatonal de madera, elevada sobre el tráfico y flanqueada por torres neogóticas, ofrece vistas inolvidables del río Este y el skyline.",
+   "d_en": "Opened in 1883, it was once the world's longest suspension bridge. Its raised wooden pedestrian walkway, framed by neo-Gothic towers, offers unforgettable views of the East River and skyline.",
+   "h": "Cruza a primera hora de la mañana desde el lado de Brooklyn para evitar multitudes y tener el sol de espaldas.",
+   "h_en": "Cross early in the morning from the Brooklyn side to beat crowds and keep the sun behind you.",
+   "i": "Ideal si te gusta caminar, la fotografía del skyline y la ingeniería histórica.",
+   "i_en": "Ideal if you like walking, skyline photography and historic engineering."
+  },
+  "w_nyc_one_world_memorial": {
+   "id": "w_nyc_one_world_memorial",
+   "d": "El One World Trade Center (541 m) se alza junto a las dos enormes fuentes cuadradas del Memorial, construidas en las huellas de las Torres Gemelas. El museo subterráneo narra el 11-S con objetos y testimonios conmovedores.",
+   "d_en": "One World Trade Center (541 m) rises beside the two vast square reflecting pools of the Memorial, set in the footprints of the Twin Towers. The underground museum recounts 9/11 with moving objects and testimonies.",
+   "h": "El memorial exterior es gratuito; reserva aparte para el museo y el mirador One World Observatory.",
+   "h_en": "The outdoor memorial is free; book separately for the museum and One World Observatory deck.",
+   "i": "Ideal si te gusta la historia reciente, los espacios de memoria y la arquitectura contemporánea.",
+   "i_en": "Ideal if you like recent history, memorial spaces and contemporary architecture."
+  },
+  "w_nyc_rockefeller_center": {
+   "id": "w_nyc_rockefeller_center",
+   "d": "Conjunto de edificios de los años 30 en torno a una plaza hundida que en invierno se convierte en pista de patinaje y acoge el gigantesco árbol de Navidad. Alberga tiendas, el Radio City Music Hall y el mirador Top of the Rock.",
+   "d_en": "A cluster of 1930s buildings around a sunken plaza that becomes an ice rink in winter and hosts the giant Christmas tree. It houses shops, Radio City Music Hall and the Top of the Rock deck.",
+   "h": "En diciembre ve temprano para ver el árbol y la pista sin aglomeraciones.",
+   "h_en": "In December, arrive early to see the tree and rink without the crowds.",
+   "i": "Ideal si te gusta el ambiente navideño, el art déco y el patinaje sobre hielo.",
+   "i_en": "Ideal if you like festive atmosphere, art deco and ice skating."
+  },
+  "w_nyc_wall_street_bull": {
+   "id": "w_nyc_wall_street_bull",
+   "d": "Wall Street concentra la Bolsa de Nueva York y el Federal Hall, entre estrechas calles del Bajo Manhattan. A unos pasos, el Charging Bull de bronce y la Fearless Girl simbolizan el pujante espíritu de los mercados.",
+   "d_en": "Wall Street concentrates the New York Stock Exchange and Federal Hall among the narrow streets of Lower Manhattan. Nearby, the bronze Charging Bull and Fearless Girl symbolize the market's bullish spirit.",
+   "h": "Ve muy temprano si quieres una foto con el toro sin colas de turistas.",
+   "h_en": "Go very early for a photo with the bull without tourist queues.",
+   "i": "Ideal si te gusta la historia financiera, la arquitectura clásica y las curiosidades urbanas.",
+   "i_en": "Ideal if you like financial history, classical architecture and urban curiosities."
+  },
+  "w_nyc_flatiron": {
+   "id": "w_nyc_flatiron",
+   "d": "Terminado en 1902, este edificio de 22 plantas y afilada forma de cuña se alza en la confluencia de Broadway y la Quinta Avenida. Su silueta única lo ha convertido en uno de los rascacielos más fotografiados del mundo.",
+   "d_en": "Completed in 1902, this 22-story wedge-shaped building stands where Broadway meets Fifth Avenue. Its unique silhouette has made it one of the most photographed skyscrapers in the world.",
+   "h": "La mejor foto se toma desde Madison Square Park, justo enfrente.",
+   "h_en": "The best photo is taken from Madison Square Park, right across the street.",
+   "i": "Ideal si te gusta la arquitectura histórica y los rincones fotogénicos.",
+   "i_en": "Ideal if you like historic architecture and photogenic corners."
+  },
+  "w_nyc_st_patrick": {
+   "id": "w_nyc_st_patrick",
+   "d": "Catedral católica de mármol blanco terminada en 1878, con dos agujas de 100 m que contrastan con los rascacielos vecinos. Su interior de vidrieras, capillas y la gran rosetón es una parada serena en pleno centro.",
+   "d_en": "A white marble Catholic cathedral completed in 1878, its 100 m spires contrast with the surrounding skyscrapers. Its interior of stained glass, chapels and a great rose window is a serene stop downtown.",
+   "h": "La entrada es gratuita; respeta el silencio si hay misa en curso.",
+   "h_en": "Entry is free; keep quiet if a mass is in progress.",
+   "i": "Ideal si te gusta la arquitectura religiosa, las vidrieras y los remansos de paz.",
+   "i_en": "Ideal if you like religious architecture, stained glass and peaceful retreats."
+  },
+  "w_nyc_met": {
+   "id": "w_nyc_met",
+   "d": "El MET reúne más de dos millones de obras que abarcan 5.000 años de historia, desde templos egipcios y armaduras medievales hasta maestros europeos e impresionistas. Su fachada y escalinata sobre la Quinta Avenida son un icono en sí mismas.",
+   "d_en": "The MET holds over two million works spanning 5,000 years of history, from Egyptian temples and medieval armor to European masters and Impressionists. Its facade and steps on Fifth Avenue are an icon in themselves.",
+   "h": "Es enorme: elige dos o tres alas y no intentes verlo todo en un día.",
+   "h_en": "It is huge: pick two or three wings and don't try to see it all in one day.",
+   "i": "Ideal si te gusta el arte, la historia y las grandes colecciones enciclopédicas.",
+   "i_en": "Ideal if you like art, history and great encyclopedic collections."
+  },
+  "w_nyc_moma": {
+   "id": "w_nyc_moma",
+   "d": "El Museo de Arte Moderno alberga obras maestras del siglo XX y XXI, con piezas de Van Gogh, Picasso, Warhol o Dalí. Su 'Noche estrellada' es un imán de visitantes y sus salas repasan la evolución del arte contemporáneo.",
+   "d_en": "The Museum of Modern Art holds masterpieces of the 20th and 21st centuries, with works by Van Gogh, Picasso, Warhol and Dalí. Its 'Starry Night' is a visitor magnet and its galleries trace the evolution of contemporary art.",
+   "h": "Los viernes por la tarde suele haber entrada gratuita; reserva franja horaria online.",
+   "h_en": "Friday evenings often offer free admission; reserve a time slot online.",
+   "i": "Ideal si te gusta el arte moderno, el diseño y las vanguardias del siglo XX.",
+   "i_en": "Ideal if you like modern art, design and 20th-century avant-garde."
+  },
+  "w_nyc_natural_history": {
+   "id": "w_nyc_natural_history",
+   "d": "Uno de los museos de ciencias naturales más grandes del mundo, junto a Central Park. Destacan sus esqueletos de dinosaurio, la ballena azul a tamaño real, el planetario y los dioramas de fauna que inspiraron la película 'Noche en el museo'.",
+   "d_en": "One of the world's largest natural history museums, next to Central Park. Highlights include its dinosaur skeletons, a full-size blue whale, the planetarium and the wildlife dioramas that inspired the film 'Night at the Museum'.",
+   "h": "Dedícale medio día; el nuevo centro Gilder de ciencia merece la visita.",
+   "h_en": "Allow half a day; the new Gilder science center is worth the visit.",
+   "i": "Ideal si te gusta la ciencia, los dinosaurios y viajar en familia.",
+   "i_en": "Ideal if you like science, dinosaurs and family travel."
+  },
+  "w_nyc_chrysler": {
+   "id": "w_nyc_chrysler",
+   "d": "Rascacielos de 319 m terminado en 1930, célebre por su brillante corona escalonada de acero inoxidable y sus gárgolas inspiradas en los coches Chrysler. Su vestíbulo de mármol y maderas es una obra maestra del art déco.",
+   "d_en": "A 319 m skyscraper completed in 1930, famed for its gleaming stepped stainless-steel crown and gargoyles inspired by Chrysler cars. Its marble and wood lobby is an art deco masterpiece.",
+   "h": "No tiene mirador, pero puedes admirar su vestíbulo en horario de oficina.",
+   "h_en": "It has no observation deck, but you can admire its lobby during office hours.",
+   "i": "Ideal si te gusta el art déco, la arquitectura de los años 30 y los detalles del skyline.",
+   "i_en": "Ideal if you like art deco, 1930s architecture and skyline details."
+  },
+  "w_nyc_ellis_island": {
+   "id": "w_nyc_ellis_island",
+   "d": "Entre 1892 y 1954, más de doce millones de inmigrantes pasaron por esta isla antes de entrar en Estados Unidos. Hoy alberga un emotivo museo de la inmigración en el gran vestíbulo de registro restaurado.",
+   "d_en": "Between 1892 and 1954, more than twelve million immigrants passed through this island before entering the United States. Today it houses a moving immigration museum in the restored great registry hall.",
+   "h": "El mismo ferry de la Estatua de la Libertad para aquí; combina ambas visitas en medio día.",
+   "h_en": "The same Statue of Liberty ferry stops here; combine both visits in half a day.",
+   "i": "Ideal si te gusta la historia de la inmigración y las raíces familiares.",
+   "i_en": "Ideal if you like immigration history and family roots."
+  },
+  "w_nyc_central_park": {
+   "id": "w_nyc_central_park",
+   "d": "Enorme parque de 340 hectáreas con lagos, praderas, puentes y rincones icónicos como Bethesda Terrace, Bow Bridge o Strawberry Fields. Refugio de neoyorquinos para correr, remar, hacer picnic o simplemente pasear.",
+   "d_en": "A vast 340-hectare park with lakes, meadows, bridges and iconic spots like Bethesda Terrace, Bow Bridge and Strawberry Fields. A refuge for New Yorkers to run, row, picnic or simply stroll.",
+   "h": "Alquila una bici o rema en el lago; en otoño los colores son espectaculares.",
+   "h_en": "Rent a bike or row on the lake; in autumn the colors are spectacular.",
+   "i": "Ideal si te gusta la naturaleza urbana, el deporte al aire libre y los paseos tranquilos.",
+   "i_en": "Ideal if you like urban nature, outdoor sport and relaxed walks."
+  },
+  "w_nyc_high_line": {
+   "id": "w_nyc_high_line",
+   "d": "Antigua línea de ferrocarril de mercancías reconvertida en un jardín lineal elevado de 2,3 km sobre el West Side. Combina vegetación silvestre, arte público y miradores urbanos con vistas al río Hudson y a Chelsea.",
+   "d_en": "A former freight railway transformed into an elevated 2.3 km linear garden above the West Side. It blends wild planting, public art and urban viewpoints overlooking the Hudson River and Chelsea.",
+   "h": "Recórrela de norte a sur y baja a Chelsea Market o Little Island al final.",
+   "h_en": "Walk it north to south and drop down to Chelsea Market or Little Island at the end.",
+   "i": "Ideal si te gusta el diseño urbano, el paisajismo y pasear con vistas.",
+   "i_en": "Ideal if you like urban design, landscaping and walks with a view."
+  },
+  "w_nyc_little_island": {
+   "id": "w_nyc_little_island",
+   "d": "Parque público inaugurado en 2021 que se alza sobre pilotes con forma de tulipán en el río Hudson. Sus colinas ajardinadas, senderos y anfiteatro ofrecen vistas del agua y el skyline en un entorno de diseño único.",
+   "d_en": "A public park opened in 2021, raised over the Hudson River on tulip-shaped concrete piles. Its landscaped hills, paths and amphitheater offer water and skyline views in a uniquely designed setting.",
+   "h": "El acceso es gratuito; ve al atardecer para ver la puesta de sol sobre el Hudson.",
+   "h_en": "Access is free; go at dusk to catch the sunset over the Hudson.",
+   "i": "Ideal si te gusta la arquitectura innovadora, los parques modernos y las vistas del río.",
+   "i_en": "Ideal if you like innovative architecture, modern parks and river views."
+  },
+  "w_nyc_bryant_park": {
+   "id": "w_nyc_bryant_park",
+   "d": "Elegante parque rodeado de rascacielos, con césped central, sillas de bistró y quioscos. En invierno acoge una pista de patinaje y un mercado navideño, y en verano cine al aire libre y clases gratuitas.",
+   "d_en": "An elegant park surrounded by skyscrapers, with a central lawn, bistro chairs and kiosks. In winter it hosts an ice rink and holiday market; in summer, outdoor movies and free classes.",
+   "h": "Buen sitio para descansar con un café entre visitas; el wifi es gratuito.",
+   "h_en": "A good spot to rest with a coffee between sights; the wifi is free.",
+   "i": "Ideal si te gusta el ambiente local, los descansos verdes y los eventos de temporada.",
+   "i_en": "Ideal if you like local atmosphere, green breaks and seasonal events."
+  },
+  "w_nyc_brooklyn_bridge_park": {
+   "id": "w_nyc_brooklyn_bridge_park",
+   "d": "Parque de 34 hectáreas a lo largo del río Este en Brooklyn, con jardines, muelles, zonas deportivas y el histórico carrusel Jane's. Sus vistas de Manhattan y de los puentes de Brooklyn y Manhattan son inmejorables.",
+   "d_en": "A 34-hectare park along the East River in Brooklyn, with gardens, piers, sports areas and the historic Jane's Carousel. Its views of Manhattan and the Brooklyn and Manhattan bridges are unbeatable.",
+   "h": "Combínalo con un paseo por el barrio adoquinado de DUMBO, justo al lado.",
+   "h_en": "Combine it with a walk through the cobbled DUMBO neighborhood next door.",
+   "i": "Ideal si te gusta la fotografía del skyline, los paseos junto al agua y el ambiente de Brooklyn.",
+   "i_en": "Ideal if you like skyline photography, waterfront walks and Brooklyn's vibe."
+  },
+  "w_nyc_battery_park": {
+   "id": "w_nyc_battery_park",
+   "d": "Zona verde en el extremo sur de Manhattan desde donde salen los ferris a la Estatua de la Libertad y Ellis Island. Alberga jardines, monumentos y el histórico Castle Clinton, con vistas abiertas a la bahía.",
+   "d_en": "A green area at Manhattan's southern tip, departure point for ferries to the Statue of Liberty and Ellis Island. It holds gardens, monuments and the historic Castle Clinton, with open bay views.",
+   "h": "Punto de partida ideal para el ferry; llega pronto para las salidas de la mañana.",
+   "h_en": "An ideal ferry departure point; arrive early for morning sailings.",
+   "i": "Ideal si te gusta pasear frente al mar, la historia y las vistas del puerto.",
+   "i_en": "Ideal if you like seaside strolls, history and harbor views."
+  },
+  "w_nyc_washington_square": {
+   "id": "w_nyc_washington_square",
+   "d": "Corazón de Greenwich Village, presidido por un arco de mármol inspirado en el de Triunfo de París. Su fuente central reúne a músicos, ajedrecistas, estudiantes de la NYU y artistas callejeros en un ambiente siempre animado.",
+   "d_en": "The heart of Greenwich Village, presided over by a marble arch inspired by Paris's Arc de Triomphe. Its central fountain draws musicians, chess players, NYU students and street artists in an always lively atmosphere.",
+   "h": "Ve por la tarde para disfrutar de músicos callejeros y el ambiente del Village.",
+   "h_en": "Go in the afternoon to enjoy street musicians and the Village atmosphere.",
+   "i": "Ideal si te gusta el ambiente bohemio, la música en vivo y observar la vida local.",
+   "i_en": "Ideal if you like a bohemian vibe, live music and people-watching."
+  },
+  "w_nyc_times_square": {
+   "id": "w_nyc_times_square",
+   "d": "Epicentro del entretenimiento neoyorquino, con gigantescas pantallas LED, teatros de Broadway, tiendas y un flujo incesante de gente. De noche brilla como si fuera de día y es escenario de la mítica cuenta atrás de Fin de Año.",
+   "d_en": "The epicenter of New York entertainment, with giant LED screens, Broadway theaters, shops and an endless flow of people. At night it shines as bright as day and hosts the legendary New Year's Eve countdown.",
+   "h": "Vívelo de noche para el máximo impacto; cuidado con carteristas entre la multitud.",
+   "h_en": "Experience it at night for maximum impact; watch for pickpockets in the crowd.",
+   "i": "Ideal si te gusta el bullicio, las luces, los espectáculos y la energía urbana.",
+   "i_en": "Ideal if you like buzz, lights, shows and urban energy."
+  },
+  "w_nyc_quinta_avenida": {
+   "id": "w_nyc_quinta_avenida",
+   "d": "Arteria elegante que reúne las grandes firmas de lujo, grandes almacenes históricos y escaparates deslumbrantes, especialmente entre las calles 49 y 60. Pasa junto a St. Patrick, Rockefeller Center y la esquina de Central Park.",
+   "d_en": "An elegant avenue lined with major luxury brands, historic department stores and dazzling window displays, especially between 49th and 60th streets. It passes St. Patrick's, Rockefeller Center and the corner of Central Park.",
+   "h": "En diciembre los escaparates navideños de los grandes almacenes son todo un espectáculo.",
+   "h_en": "In December the department stores' Christmas window displays are quite a show.",
+   "i": "Ideal si te gusta el shopping, el lujo y pasear entre escaparates.",
+   "i_en": "Ideal if you like shopping, luxury and strolling past storefronts."
+  },
+  "w_nyc_soho": {
+   "id": "w_nyc_soho",
+   "d": "Barrio de calles adoquinadas famoso por sus edificios de hierro fundido del siglo XIX, hoy repletos de boutiques de diseño, galerías de arte y cafés de moda. Un lugar perfecto para pasear, comprar y observar el estilo neoyorquino.",
+   "d_en": "A cobblestone neighborhood famous for its 19th-century cast-iron buildings, now full of design boutiques, art galleries and trendy cafes. A perfect place to stroll, shop and observe New York style.",
+   "h": "Combina la visita con el vecino barrio de Nolita y sus cafeterías.",
+   "h_en": "Combine your visit with neighboring Nolita and its cafes.",
+   "i": "Ideal si te gusta la moda, las galerías de arte y la arquitectura de hierro fundido.",
+   "i_en": "Ideal if you like fashion, art galleries and cast-iron architecture."
+  },
+  "w_nyc_chinatown": {
+   "id": "w_nyc_chinatown",
+   "d": "Barrio vibrante y bullicioso con calles llenas de puestos, mercados de pescado y verdura, templos, farolillos rojos y restaurantes auténticos. Un festín para los sentidos y una inmersión cultural en pleno Bajo Manhattan.",
+   "d_en": "A vibrant, bustling neighborhood with streets full of stalls, fish and vegetable markets, temples, red lanterns and authentic restaurants. A feast for the senses and a cultural immersion in Lower Manhattan.",
+   "h": "Ve con hambre y prueba los dumplings; los precios son de los más bajos de la ciudad.",
+   "h_en": "Go hungry and try the dumplings; prices are among the lowest in the city.",
+   "i": "Ideal si te gusta la gastronomía asiática, los mercados y el ambiente multicultural.",
+   "i_en": "Ideal if you like Asian food, markets and multicultural atmosphere."
+  },
+  "w_nyc_broadway": {
+   "id": "w_nyc_broadway",
+   "d": "El Theater District concentra decenas de teatros históricos donde se estrenan y representan los grandes musicales y obras de Broadway. Ver un espectáculo aquí es una de las experiencias imprescindibles de Nueva York.",
+   "d_en": "The Theater District concentrates dozens of historic theaters where the great Broadway musicals and plays premiere and run. Seeing a show here is one of New York's must-do experiences.",
+   "h": "Busca entradas de última hora con descuento en las taquillas TKTS de Times Square.",
+   "h_en": "Look for discounted last-minute tickets at the TKTS booths in Times Square.",
+   "i": "Ideal si te gusta el teatro, los musicales y las noches de espectáculo.",
+   "i_en": "Ideal if you like theater, musicals and show nights."
+  },
+  "w_nyc_edge_hudson_yards": {
+   "id": "w_nyc_edge_hudson_yards",
+   "d": "Plataforma triangular de cristal suspendida a 335 m de altura sobre el barrio de Hudson Yards. Cuenta con un suelo de vidrio y vistas de 360°, y para los más atrevidos, la experiencia de escalada 'City Climb' en el exterior.",
+   "d_en": "A triangular glass platform suspended 335 m high over the Hudson Yards district. It features a glass floor and 360° views, and for the daring, the outdoor 'City Climb' experience.",
+   "h": "Reserva franja al atardecer; el suelo de cristal no apto para quien teme a las alturas.",
+   "h_en": "Book a sunset slot; the glass floor is not for those afraid of heights.",
+   "i": "Ideal si te gusta la adrenalina, los miradores y las vistas panorámicas.",
+   "i_en": "Ideal if you like adrenaline, observation decks and panoramic views."
+  },
+  "w_nyc_chelsea_market": {
+   "id": "w_nyc_chelsea_market",
+   "d": "Antigua fábrica Nabisco reconvertida en un animado mercado cubierto con decenas de puestos de comida internacional, desde marisco y tacos hasta pasteles y ramen. Un imprescindible para foodies, a los pies de la High Line.",
+   "d_en": "A former Nabisco factory turned into a lively covered market with dozens of international food stalls, from seafood and tacos to pastries and ramen. A must for foodies, at the foot of the High Line.",
+   "h": "Evita la hora punta del almuerzo si quieres mesa; combina la visita con la High Line.",
+   "h_en": "Avoid the lunch rush if you want a table; combine it with the High Line.",
+   "i": "Ideal si te gusta la gastronomía variada, los mercados y probar un poco de todo.",
+   "i_en": "Ideal if you like varied food, markets and tasting a bit of everything."
+  },
+  "w_nyc_little_italy": {
+   "id": "w_nyc_little_italy",
+   "d": "En torno a Mulberry Street sobreviven las trattorias, pastelerías y cafés de la comunidad italiana que dio fama al barrio. Perfecto para una pasta casera, un cannolo o un café mientras se pasea entre banderas tricolores.",
+   "d_en": "Around Mulberry Street survive the trattorias, pastry shops and cafes of the Italian community that made the neighborhood famous. Perfect for homemade pasta, a cannolo or a coffee while strolling among tricolor flags.",
+   "h": "En septiembre la fiesta de San Gennaro llena las calles de puestos de comida.",
+   "h_en": "In September the San Gennaro feast fills the streets with food stalls.",
+   "i": "Ideal si te gusta la cocina italiana, los cafés con encanto y el ambiente de barrio.",
+   "i_en": "Ideal if you like Italian cuisine, charming cafes and neighborhood atmosphere."
+  },
+  "w_nyc_katz_deli": {
+   "id": "w_nyc_katz_deli",
+   "d": "Institución del Lower East Side desde 1888, célebre por sus enormes sándwiches de pastrami y carne en conserva cortada a mano. Su comedor histórico apareció en la mítica escena de 'Cuando Harry encontró a Sally'.",
+   "d_en": "A Lower East Side institution since 1888, famed for its huge hand-cut pastrami and corned beef sandwiches. Its historic dining room featured in the legendary scene from 'When Harry Met Sally'.",
+   "h": "Conserva el tique que te dan al entrar; sin él no podrás pagar al salir.",
+   "h_en": "Keep the ticket you get on entry; you can't pay without it on the way out.",
+   "i": "Ideal si te gusta la comida contundente, los clásicos americanos y la historia local.",
+   "i_en": "Ideal if you like hearty food, American classics and local history."
+  },
+  "w_nyc_eataly": {
+   "id": "w_nyc_eataly",
+   "d": "Enorme espacio dedicado a la gastronomía italiana, con mercado de productos, panadería, mostradores de pasta y queso, y varios restaurantes temáticos. Una experiencia inmersiva para comer y comprar delicatessen de Italia.",
+   "d_en": "A vast space devoted to Italian gastronomy, with a produce market, bakery, pasta and cheese counters, and several themed restaurants. An immersive experience to eat and buy Italian delicacies.",
+   "h": "Sube a la terraza SERRA para cenar con ambiente de invernadero según la temporada.",
+   "h_en": "Head up to the SERRA rooftop for a seasonal greenhouse-style dinner.",
+   "i": "Ideal si te gusta la cocina italiana, los mercados gourmet y comprar productos delicatessen.",
+   "i_en": "Ideal if you like Italian cuisine, gourmet markets and buying delicacies."
+  },
+  "w_nyc_joes_pizza": {
+   "id": "w_nyc_joes_pizza",
+   "d": "Pizzería de Greenwich Village abierta desde 1975 y considerada una de las mejores porciones clásicas de la ciudad. Masa fina y crujiente, salsa equilibrada y mozzarella, servida rápido para comer de pie o al paso.",
+   "d_en": "A Greenwich Village pizzeria open since 1975 and considered one of the city's best classic slices. Thin, crispy crust, balanced sauce and mozzarella, served fast to eat standing or on the go.",
+   "h": "Es comida rápida de calidad: pide una porción y cómela por la calle como un local.",
+   "h_en": "It's quality fast food: grab a slice and eat it on the street like a local.",
+   "i": "Ideal si te gusta la pizza clásica, la comida callejera y las paradas rápidas.",
+   "i_en": "Ideal if you like classic pizza, street food and quick stops."
+  },
+  "w_nyc_smorgasburg": {
+   "id": "w_nyc_smorgasburg",
+   "d": "Mercado de comida callejera que reúne cada fin de semana a decenas de puestos con las últimas tendencias gastronómicas, desde platos fusión hasta postres virales. Ambiente joven en Williamsburg con vistas al skyline.",
+   "d_en": "A street-food market gathering dozens of vendors every weekend with the latest food trends, from fusion dishes to viral desserts. A young atmosphere in Williamsburg with skyline views.",
+   "h": "Solo abre fines de semana de primavera a otoño; ve con hambre y efectivo.",
+   "h_en": "Open only on weekends from spring to autumn; go hungry and bring cash.",
+   "i": "Ideal si te gusta la comida callejera, las tendencias gastronómicas y el ambiente de Brooklyn.",
+   "i_en": "Ideal if you like street food, food trends and Brooklyn's atmosphere."
+  }
+ },
+ "food": {
+  "w_nyc_chelsea_market": {
+   "cuisine": "Internacional / mercado gourmet",
+   "price": "12–30 €",
+   "hours": "07:00–22:00 (dom hasta 20:00)"
+  },
+  "w_nyc_little_italy": {
+   "cuisine": "Italiana",
+   "price": "18–40 €",
+   "hours": "11:00–23:00"
+  },
+  "w_nyc_katz_deli": {
+   "cuisine": "Delicatessen judía / americana",
+   "price": "20–35 €",
+   "hours": "08:00–22:45 (vie-sáb 24 h)"
+  },
+  "w_nyc_eataly": {
+   "cuisine": "Italiana / mercado gourmet",
+   "price": "15–45 €",
+   "hours": "09:00–23:00"
+  },
+  "w_nyc_joes_pizza": {
+   "cuisine": "Pizza / italoamericana",
+   "price": "4–12 €",
+   "hours": "10:00–04:00"
+  },
+  "w_nyc_smorgasburg": {
+   "cuisine": "Comida callejera internacional",
+   "price": "8–20 €",
+   "hours": "11:00–18:00 (solo fines de semana, temporada)"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Nueva York",
+   "items": [
+    {
+     "name": "Gorra o sudadera 'I ♥ NY'",
+     "price": "15–35 €",
+     "desc": "El recuerdo más icónico de la ciudad, en mil variantes de camisetas, gorras y tazas."
+    },
+    {
+     "name": "Imán o miniatura de la Estatua de la Libertad",
+     "price": "5–15 €",
+     "desc": "Réplicas de la Estatua y del skyline, clásico souvenir de puestos callejeros."
+    },
+    {
+     "name": "Camiseta o pelota de los Yankees / Knicks",
+     "price": "25–60 €",
+     "desc": "Merchandising oficial de los equipos deportivos neoyorquinos."
+    },
+    {
+     "name": "Bagel y productos gourmet locales",
+     "price": "8–20 €",
+     "desc": "Mezclas de café, salsas picantes y dulces artesanos de mercados como Chelsea Market."
+    },
+    {
+     "name": "Póster o lámina del metro / skyline",
+     "price": "10–30 €",
+     "desc": "Ilustraciones del mapa del metro o de los rascacielos, ideales para enmarcar."
+    }
+   ],
+   "shops": [
+    "Chelsea Market",
+    "Macy's Herald Square",
+    "Grand Central Market",
+    "The Shops at Columbus Circle",
+    "Tiendas de souvenirs de Times Square"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Compra una MetroCard o usa OMNY (pago contactless) para moverte en metro; es la forma más rápida y barata de cruzar la ciudad.",
+   "Reserva online y con antelación las entradas a miradores (Empire State, Top of the Rock, Edge) y al ferry de la Estatua de la Libertad para evitar largas colas.",
+   "En restaurantes y bares se espera una propina del 15–20%; muchos precios no incluyen impuestos, que se suman al pagar.",
+   "Camina mucho: Manhattan es una cuadrícula fácil de entender, con avenidas de norte a sur y calles de este a oeste.",
+   "Aprovecha los días o tardes de entrada gratuita o 'paga lo que quieras' de algunos museos (MoMA los viernes por la tarde, entre otros)."
+  ],
+  "en": [
+   "Buy a MetroCard or use OMNY (contactless payment) for the subway; it is the fastest and cheapest way to cross the city.",
+   "Book observation decks (Empire State, Top of the Rock, Edge) and the Statue of Liberty ferry online in advance to skip long lines.",
+   "A 15–20% tip is expected in restaurants and bars; many listed prices exclude sales tax, which is added at checkout.",
+   "Walk a lot: Manhattan is an easy-to-read grid, with avenues running north–south and streets east–west.",
+   "Take advantage of free or 'pay-what-you-wish' museum times (MoMA on Friday evenings, among others)."
+  ]
+ },
+ "climate": {
+  "hi": [
+   4,
+   6,
+   10,
+   16,
+   22,
+   27,
+   29,
+   28,
+   24,
+   18,
+   12,
+   6
+  ],
+  "lo": [
+   -3,
+   -2,
+   2,
+   7,
+   12,
+   18,
+   21,
+   20,
+   16,
+   10,
+   5,
+   0
+  ]
+ },
+ "tr": {
+  "El símbolo mundial de la libertad, regalo de Francia en 1886.": "The world symbol of freedom, a gift from France in 1886.",
+  "El rascacielos art déco más famoso del mundo.": "The world's most famous art deco skyscraper.",
+  "Mirador con la mejor vista del Empire State y Central Park.": "Observation deck with the best view of the Empire State and Central Park.",
+  "La estación de tren más bella y monumental del mundo.": "The world's most beautiful and monumental train station.",
+  "Puente colgante histórico entre Manhattan y Brooklyn.": "Historic suspension bridge linking Manhattan and Brooklyn.",
+  "Rascacielos más alto de EE.UU. y memorial de las torres.": "Tallest skyscraper in the USA and memorial to the towers.",
+  "Complejo art déco con su famosa pista de patinaje.": "Art deco complex with its famous ice-skating rink.",
+  "El corazón financiero mundial y su famoso toro de bronce.": "The world's financial heart and its famous bronze bull.",
+  "El icónico rascacielos triangular con forma de plancha.": "The iconic triangular skyscraper shaped like a flat iron.",
+  "Gran catedral neogótica en plena Quinta Avenida.": "Grand neo-Gothic cathedral on Fifth Avenue.",
+  "Uno de los mayores museos de arte del mundo.": "One of the largest art museums in the world.",
+  "El gran museo de arte moderno y contemporáneo.": "The great museum of modern and contemporary art.",
+  "Dinosaurios, ballenas y la famosa 'Noche en el museo'.": "Dinosaurs, whales and the famous 'Night at the Museum'.",
+  "La joya art déco de corona plateada del skyline.": "The silver-crowned art deco jewel of the skyline.",
+  "La histórica puerta de entrada de la inmigración a EE.UU.": "The historic gateway of immigration to the USA.",
+  "El gran pulmón verde en el corazón de Manhattan.": "The great green lung in the heart of Manhattan.",
+  "Parque elevado sobre una antigua vía de tren.": "Elevated park built on a former railway line.",
+  "Parque flotante futurista sobre el río Hudson.": "Futuristic floating park over the Hudson River.",
+  "Plaza verde junto a la Biblioteca Pública.": "Green square next to the Public Library.",
+  "Parque ribereño con las mejores vistas del skyline.": "Waterfront park with the best skyline views.",
+  "Parque en la punta sur de Manhattan frente al puerto.": "Park at Manhattan's southern tip facing the harbor.",
+  "Plaza bohemia con su arco y ambiente universitario.": "Bohemian square with its arch and student atmosphere.",
+  "El cruce más famoso del mundo, un mar de pantallas.": "The world's most famous crossroads, a sea of screens.",
+  "La avenida comercial más lujosa de la ciudad.": "The city's most luxurious shopping avenue.",
+  "Barrio de moda con fachadas de hierro fundido.": "Trendy neighborhood with cast-iron facades.",
+  "Uno de los barrios chinos más grandes de Occidente.": "One of the largest Chinatowns in the Western world.",
+  "La meca mundial de los musicales y el teatro.": "The world mecca of musicals and theater.",
+  "El mirador exterior más alto del hemisferio occidental.": "The highest outdoor sky deck in the Western Hemisphere.",
+  "Mercado gastronómico en una antigua fábrica de galletas.": "Food market in a former biscuit factory.",
+  "El histórico barrio italiano de trattorias y cafés.": "The historic Italian quarter of trattorias and cafes.",
+  "El deli más famoso de la ciudad y su sándwich de pastrami.": "The city's most famous deli and its pastrami sandwich.",
+  "Gran mercado y restaurantes italianos junto al Flatiron.": "Large Italian market and restaurants next to the Flatiron.",
+  "La pizza al corte neoyorquina más querida.": "New York's most beloved pizza by the slice.",
+  "El mayor mercado de comida al aire libre de EE.UU.": "The largest open-air food market in the USA.",
+  "Nueva York": "Nueva York"
+ }
+}

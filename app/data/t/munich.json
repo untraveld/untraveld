@@ -1,0 +1,703 @@
+{
+ "id": "munich",
+ "name": "Múnich",
+ "country": "WORLD",
+ "center": [
+  48.13714,
+  11.57549
+ ],
+ "pois": [
+  {
+   "id": "w_mun_marienplatz",
+   "cat": "monuments",
+   "name": "Marienplatz y Neues Rathaus",
+   "icon": "🏛️",
+   "lat": 48.13714,
+   "lng": 11.57549,
+   "desc": "Plaza central de Múnich, dominada por el neogótico Nuevo Ayuntamiento y su carillón."
+  },
+  {
+   "id": "w_mun_frauenkirche",
+   "cat": "monuments",
+   "name": "Frauenkirche",
+   "icon": "⛪",
+   "lat": 48.13866,
+   "lng": 11.57376,
+   "desc": "Catedral gótica de ladrillo con sus dos torres de cúpula verde, emblema de la ciudad."
+  },
+  {
+   "id": "w_mun_residenz",
+   "cat": "monuments",
+   "name": "Residenz de Múnich",
+   "icon": "🏰",
+   "lat": 48.14169,
+   "lng": 11.57804,
+   "desc": "Antiguo palacio urbano de los reyes de Baviera, con salas suntuosas y tesoro real."
+  },
+  {
+   "id": "w_mun_nymphenburg",
+   "cat": "monuments",
+   "name": "Palacio de Nymphenburg",
+   "icon": "🏰",
+   "lat": 48.15831,
+   "lng": 11.50331,
+   "desc": "Palacio barroco de verano de los Wittelsbach rodeado de amplios jardines."
+  },
+  {
+   "id": "w_mun_neuschwanstein",
+   "cat": "monuments",
+   "name": "Castillo de Neuschwanstein",
+   "icon": "🏰",
+   "lat": 47.55758,
+   "lng": 10.7498,
+   "desc": "Castillo de cuento del rey Luis II sobre los Alpes, a unas 2 h de Múnich."
+  },
+  {
+   "id": "w_mun_dachau",
+   "cat": "monuments",
+   "name": "Memorial de Dachau",
+   "icon": "🕯️",
+   "lat": 48.2688,
+   "lng": 11.4675,
+   "desc": "Sitio conmemorativo del primer campo de concentración nazi, al norte de Múnich."
+  },
+  {
+   "id": "w_mun_asamkirche",
+   "cat": "monuments",
+   "name": "Asamkirche",
+   "icon": "⛪",
+   "lat": 48.13537,
+   "lng": 11.56922,
+   "desc": "Pequeña iglesia rococó de exuberante decoración, obra de los hermanos Asam."
+  },
+  {
+   "id": "w_mun_peterskirche",
+   "cat": "monuments",
+   "name": "Iglesia de San Pedro (Alter Peter)",
+   "icon": "⛪",
+   "lat": 48.13649,
+   "lng": 11.57611,
+   "desc": "La iglesia más antigua de Múnich, con una torre mirador sobre la Marienplatz."
+  },
+  {
+   "id": "w_mun_theatinerkirche",
+   "cat": "monuments",
+   "name": "Theatinerkirche",
+   "icon": "⛪",
+   "lat": 48.14198,
+   "lng": 11.57712,
+   "desc": "Iglesia barroca de fachada amarilla y cúpulas, junto a Odeonsplatz."
+  },
+  {
+   "id": "w_mun_siegestor",
+   "cat": "monuments",
+   "name": "Siegestor",
+   "icon": "🏛️",
+   "lat": 48.15147,
+   "lng": 11.582,
+   "desc": "Arco triunfal de tres arcos que separa Schwabing del barrio universitario."
+  },
+  {
+   "id": "w_mun_feldherrnhalle",
+   "cat": "monuments",
+   "name": "Feldherrnhalle",
+   "icon": "🏛️",
+   "lat": 48.14184,
+   "lng": 11.57735,
+   "desc": "Logia monumental en Odeonsplatz inspirada en la Loggia dei Lanzi florentina."
+  },
+  {
+   "id": "w_mun_karlstor",
+   "cat": "monuments",
+   "name": "Karlsplatz (Stachus) y Karlstor",
+   "icon": "⛲",
+   "lat": 48.1394,
+   "lng": 11.566,
+   "desc": "Puerta medieval y plaza con fuente que abre la calle comercial del centro."
+  },
+  {
+   "id": "w_mun_englischergarten",
+   "cat": "nature",
+   "name": "Englischer Garten",
+   "icon": "🌳",
+   "lat": 48.1598,
+   "lng": 11.6025,
+   "desc": "Uno de los mayores parques urbanos del mundo, con praderas, río y biergarten."
+  },
+  {
+   "id": "w_mun_olympiapark",
+   "cat": "nature",
+   "name": "Olympiapark",
+   "icon": "🌳",
+   "lat": 48.1734,
+   "lng": 11.5516,
+   "desc": "Parque de los Juegos de 1972 con colinas verdes, lago y arquitectura icónica."
+  },
+  {
+   "id": "w_mun_hofgarten",
+   "cat": "nature",
+   "name": "Hofgarten",
+   "icon": "🌷",
+   "lat": 48.1432,
+   "lng": 11.5792,
+   "desc": "Jardín renacentista de trazado geométrico junto a la Residenz."
+  },
+  {
+   "id": "w_mun_hellabrunn",
+   "cat": "nature",
+   "name": "Tierpark Hellabrunn",
+   "icon": "🦁",
+   "lat": 48.09794,
+   "lng": 11.557,
+   "desc": "Zoo geográfico junto al río Isar, pionero en agrupar animales por continentes."
+  },
+  {
+   "id": "w_mun_eisbachwelle",
+   "cat": "nature",
+   "name": "Ola del Eisbach",
+   "icon": "🏄",
+   "lat": 48.1436,
+   "lng": 11.5868,
+   "desc": "Ola artificial de río donde los surfistas cabalgan en pleno centro."
+  },
+  {
+   "id": "w_mun_botanischergarten",
+   "cat": "nature",
+   "name": "Jardín Botánico de Múnich-Nymphenburg",
+   "icon": "🌺",
+   "lat": 48.1636,
+   "lng": 11.5006,
+   "desc": "Jardín botánico junto a Nymphenburg con invernaderos y 14.000 especies."
+  },
+  {
+   "id": "w_mun_viktualienmarkt",
+   "cat": "ocio",
+   "name": "Viktualienmarkt",
+   "icon": "🧺",
+   "lat": 48.13531,
+   "lng": 11.57614,
+   "desc": "Mercado gourmet al aire libre con puestos de comida, flores y biergarten."
+  },
+  {
+   "id": "w_mun_bmwwelt",
+   "cat": "ocio",
+   "name": "BMW Welt y Museo BMW",
+   "icon": "🚗",
+   "lat": 48.177,
+   "lng": 11.5564,
+   "desc": "Espectacular centro de exposición de la marca BMW junto al Olympiapark."
+  },
+  {
+   "id": "w_mun_deutschesmuseum",
+   "cat": "ocio",
+   "name": "Deutsches Museum",
+   "icon": "🔬",
+   "lat": 48.12986,
+   "lng": 11.58347,
+   "desc": "El mayor museo de ciencia y tecnología del mundo, en una isla del Isar."
+  },
+  {
+   "id": "w_mun_altepinakothek",
+   "cat": "ocio",
+   "name": "Alte Pinakothek",
+   "icon": "🖼️",
+   "lat": 48.14828,
+   "lng": 11.57,
+   "desc": "Pinacoteca con maestros europeos del siglo XIV al XVIII."
+  },
+  {
+   "id": "w_mun_allianzarena",
+   "cat": "ocio",
+   "name": "Allianz Arena",
+   "icon": "⚽",
+   "lat": 48.2188,
+   "lng": 11.6247,
+   "desc": "Estadio del Bayern de Múnich, célebre por su fachada iluminada de color."
+  },
+  {
+   "id": "w_mun_olympiaturm",
+   "cat": "ocio",
+   "name": "Olympiaturm",
+   "icon": "🗼",
+   "lat": 48.173,
+   "lng": 11.5486,
+   "desc": "Torre de 291 m del Olympiapark con mirador y restaurante giratorio."
+  },
+  {
+   "id": "w_mun_hofbrauhaus",
+   "cat": "food",
+   "name": "Hofbräuhaus am Platzl",
+   "icon": "🍺",
+   "lat": 48.13744,
+   "lng": 11.57991,
+   "desc": "La cervecería más famosa del mundo, con música bávara y jarras de litro."
+  },
+  {
+   "id": "w_mun_augustinerkeller",
+   "cat": "food",
+   "name": "Augustiner-Keller",
+   "icon": "🍺",
+   "lat": 48.14353,
+   "lng": 11.5516,
+   "desc": "Histórico biergarten a la sombra de castaños con la cerveza más querida."
+  },
+  {
+   "id": "w_mun_lowenbraukeller",
+   "cat": "food",
+   "name": "Löwenbräukeller",
+   "icon": "🍺",
+   "lat": 48.1481,
+   "lng": 11.5582,
+   "desc": "Gran cervecería tradicional con salón de fiestas y biergarten."
+  },
+  {
+   "id": "w_mun_ratskeller",
+   "cat": "food",
+   "name": "Ratskeller München",
+   "icon": "🍽️",
+   "lat": 48.13707,
+   "lng": 11.5762,
+   "desc": "Restaurante bávaro en los sótanos abovedados del Nuevo Ayuntamiento."
+  },
+  {
+   "id": "w_mun_schneiderbrauhaus",
+   "cat": "food",
+   "name": "Schneider Bräuhaus",
+   "icon": "🍺",
+   "lat": 48.1356,
+   "lng": 11.5769,
+   "desc": "Taberna histórica famosa por su cerveza de trigo y platos caseros bávaros."
+  },
+  {
+   "id": "w_mun_chinesischerturm",
+   "cat": "food",
+   "name": "Biergarten Chinesischer Turm",
+   "icon": "🍺",
+   "lat": 48.1525,
+   "lng": 11.5923,
+   "desc": "Biergarten bajo una pagoda de madera en pleno Jardín Inglés."
+  }
+ ],
+ "extra": {
+  "w_mun_marienplatz": {
+   "id": "w_mun_marienplatz",
+   "d": "Corazón de la ciudad desde 1158, la Marienplatz reúne la columna de la Virgen (Mariensäule), el Antiguo y el Nuevo Ayuntamiento. El Neues Rathaus, de fachada neogótica, alberga el famoso Glockenspiel con 32 figuras que representan escenas históricas bávaras.",
+   "d_en": "The heart of the city since 1158, Marienplatz gathers the Marian column, the Old and the New Town Halls. The neo-Gothic New Town Hall houses the famous Glockenspiel, whose 32 figures reenact scenes from Bavarian history.",
+   "h": "Plaza abierta 24 h; carillón a las 11:00 y 12:00 (y 17:00 en verano). Torre del ayuntamiento con mirador.",
+   "h_en": "Square open 24h; glockenspiel at 11:00 and 12:00 (plus 17:00 in summer). Town-hall tower with viewpoint.",
+   "i": "Punto de partida ideal; sube a la torre del Neues Rathaus para vistas del casco antiguo.",
+   "i_en": "The ideal starting point; ride up the New Town Hall tower for old-town views."
+  },
+  "w_mun_frauenkirche": {
+   "id": "w_mun_frauenkirche",
+   "d": "La Catedral de Nuestra Señora, terminada en 1488, es el mayor templo del casco antiguo y símbolo del perfil urbano de Múnich. Sus cúpulas 'de cebolla' inspiraron incontables iglesias bávaras. En el suelo se ve la 'huella del Diablo', una marca legendaria.",
+   "d_en": "The Cathedral of Our Lady, completed in 1488, is the old town's largest church and a symbol of Munich's skyline. Its onion domes inspired countless Bavarian churches. Inside, the legendary 'Devil's Footprint' is set in the floor.",
+   "h": "Aprox. 8:00–20:00; entrada gratuita a la nave. Consulta horarios de la torre sur.",
+   "h_en": "Approx. 8:00–20:00; free entry to the nave. Check south-tower opening times.",
+   "i": "Por ordenanza municipal ningún edificio del centro puede superar la altura de sus torres (99 m).",
+   "i_en": "By a city rule, no building downtown may rise above its 99 m towers."
+  },
+  "w_mun_residenz": {
+   "id": "w_mun_residenz",
+   "d": "Residencia de los Wittelsbach durante más de 400 años, es uno de los mayores palacios urbanos de Europa. Reúne diez patios y un museo de 130 salas con el Antiquarium renacentista, la Cámara del Tesoro y el teatro rococó Cuvilliés.",
+   "d_en": "Home of the Wittelsbach dynasty for over 400 years, it is one of Europe's largest city palaces. It comprises ten courtyards and a 130-room museum with the Renaissance Antiquarium, the Treasury and the Rococo Cuvilliés Theatre.",
+   "h": "Museo aprox. 9:00 o 10:00–17:00 (verano hasta 18:00); consulta cierres.",
+   "h_en": "Museum approx. 9:00 or 10:00–17:00 (until 18:00 in summer); check closures.",
+   "i": "Reserva al menos 2 horas; el Antiquarium es la sala renacentista más larga al norte de los Alpes.",
+   "i_en": "Allow at least 2 hours; the Antiquarium is the longest Renaissance hall north of the Alps."
+  },
+  "w_mun_nymphenburg": {
+   "id": "w_mun_nymphenburg",
+   "d": "Construido desde 1664 como residencia estival, deslumbra con su Gran Salón de estilo rococó y la 'Galería de las Bellezas' de Luis I. Su parque de 180 ha incluye canales, pabellones como la Amalienburg y el jardín botánico contiguo.",
+   "d_en": "Built from 1664 as a summer residence, it dazzles with its Rococo Great Hall and Ludwig I's 'Gallery of Beauties'. Its 180-hectare park features canals, pavilions such as the Amalienburg and the adjacent botanical garden.",
+   "h": "Palacio aprox. 9:00–18:00 (verano) / 10:00–16:00 (invierno); parque de acceso libre.",
+   "h_en": "Palace approx. 9:00–18:00 (summer) / 10:00–16:00 (winter); park free to enter.",
+   "i": "Aquí nació el rey Luis II; combina la visita con un paseo por los canales del parque.",
+   "i_en": "King Ludwig II was born here; combine the visit with a stroll along the park canals."
+  },
+  "w_mun_neuschwanstein": {
+   "id": "w_mun_neuschwanstein",
+   "d": "Encargado por Luis II de Baviera en 1869 e inspirado en las óperas de Wagner, este castillo neorrománico sobre un desfiladero inspiró el castillo de Disney. Ofrece vistas espectaculares desde el puente Marienbrücke sobre las montañas de Schwangau.",
+   "d_en": "Commissioned by Ludwig II of Bavaria in 1869 and inspired by Wagner's operas, this Romanesque Revival castle above a gorge inspired the Disney castle. It offers spectacular views from the Marienbrücke bridge over the Schwangau mountains.",
+   "h": "Aprox. 9:00–18:00 (verano) / 10:00–16:00 (invierno); solo visita guiada con reserva.",
+   "h_en": "Approx. 9:00–18:00 (summer) / 10:00–16:00 (winter); guided tour by reservation only.",
+   "i": "Reserva la entrada con antelación online; llega en tren a Füssen y luego bus a Hohenschwangau.",
+   "i_en": "Book tickets online in advance; take the train to Füssen, then a bus to Hohenschwangau."
+  },
+  "w_mun_dachau": {
+   "id": "w_mun_dachau",
+   "d": "Abierto en 1933, Dachau fue el primer campo de concentración del régimen nazi y modelo de los demás. Hoy es un lugar de memoria con barracones reconstruidos, el museo en el antiguo edificio de mantenimiento y monumentos religiosos a las víctimas.",
+   "d_en": "Opened in 1933, Dachau was the Nazi regime's first concentration camp and a model for the others. Today it is a memorial with reconstructed barracks, a museum in the former maintenance building and religious monuments to the victims.",
+   "h": "Recinto aprox. 9:00–17:00 todos los días; entrada gratuita, audioguía de pago.",
+   "h_en": "Grounds approx. 9:00–17:00 daily; free entry, paid audio guide.",
+   "i": "Visita respetuosa; llega en S-Bahn S2 hasta Dachau y bus 726 al memorial.",
+   "i_en": "Visit respectfully; take S-Bahn S2 to Dachau, then bus 726 to the memorial."
+  },
+  "w_mun_asamkirche": {
+   "id": "w_mun_asamkirche",
+   "d": "Construida entre 1733 y 1746 por los hermanos Asam como capilla privada, la iglesia de San Juan Nepomuceno es una joya del rococó bávaro. Su estrecho interior está cubierto de frescos, oro, estucos y mármoles en un derroche de teatralidad barroca.",
+   "d_en": "Built between 1733 and 1746 by the Asam brothers as a private chapel, the Church of St. John Nepomuk is a gem of Bavarian Rococo. Its narrow interior is covered in frescoes, gold, stucco and marble in a burst of Baroque theatricality.",
+   "h": "Aprox. 9:00–18:00, con pausas por culto; entrada gratuita.",
+   "h_en": "Approx. 9:00–18:00, with pauses for services; free entry.",
+   "i": "Pequeña pero impresionante; entra con luz de tarde para apreciar los dorados.",
+   "i_en": "Small but stunning; visit in afternoon light to appreciate the gilding."
+  },
+  "w_mun_peterskirche": {
+   "id": "w_mun_peterskirche",
+   "d": "Conocida cariñosamente como 'Alter Peter', es la parroquia más antigua de la ciudad, de origen románico y remodelada en barroco. Su torre de 91 m, con 306 escalones, ofrece la mejor panorámica del casco antiguo y, en días claros, de los Alpes.",
+   "d_en": "Affectionately called 'Alter Peter', it is the city's oldest parish, Romanesque in origin and remodeled in Baroque. Its 91 m tower, with 306 steps, offers the best panorama of the old town and, on clear days, the Alps.",
+   "h": "Torre aprox. 9:00–18:30 (verano hasta 19:30); iglesia con acceso libre.",
+   "h_en": "Tower approx. 9:00–18:30 (until 19:30 in summer); church free to enter.",
+   "i": "Sube los 306 escalones al atardecer para la mejor foto de la Frauenkirche.",
+   "i_en": "Climb the 306 steps at sunset for the best photo of the Frauenkirche."
+  },
+  "w_mun_theatinerkirche": {
+   "id": "w_mun_theatinerkirche",
+   "d": "Fundada en 1663 para celebrar el nacimiento del heredero al trono, esta iglesia de estilo barroco italiano destaca por su vibrante fachada amarilla, su gran cúpula y su blanco interior. Alberga la cripta de la dinastía Wittelsbach.",
+   "d_en": "Founded in 1663 to celebrate the birth of the heir to the throne, this Italian Baroque church stands out for its vibrant yellow facade, large dome and white interior. It holds the crypt of the Wittelsbach dynasty.",
+   "h": "Aprox. 8:00–20:00; entrada gratuita a la iglesia.",
+   "h_en": "Approx. 8:00–20:00; free entry to the church.",
+   "i": "Su color amarillo caracteriza Odeonsplatz; ideal para fotos junto a la Feldherrnhalle.",
+   "i_en": "Its yellow color defines Odeonsplatz; great for photos beside the Feldherrnhalle."
+  },
+  "w_mun_siegestor": {
+   "id": "w_mun_siegestor",
+   "d": "Inspirado en el Arco de Constantino de Roma y coronado por una cuadriga con leones, el Siegestor se erigió en 1852 como monumento al ejército bávaro. Tras la guerra se reconvirtió en un memorial a la paz, con una inscripción evocadora.",
+   "d_en": "Inspired by Rome's Arch of Constantine and crowned by a lion-drawn quadriga, the Siegestor was erected in 1852 as a monument to the Bavarian army. After the war it was rededicated as a memorial to peace, with an evocative inscription.",
+   "h": "Monumento al aire libre, visible 24 h.",
+   "h_en": "Open-air monument, visible 24h.",
+   "i": "Marca el eje monumental de la Ludwigstraße; paséala hasta la Feldherrnhalle.",
+   "i_en": "It marks the monumental axis of Ludwigstraße; walk it down to the Feldherrnhalle."
+  },
+  "w_mun_feldherrnhalle": {
+   "id": "w_mun_feldherrnhalle",
+   "d": "Levantada entre 1841 y 1844 para honrar a los generales bávaros, esta logia de tres arcos preside la Odeonsplatz. Custodiada por leones de piedra, fue escenario de episodios históricos y hoy es uno de los rincones más fotografiados del centro.",
+   "d_en": "Built between 1841 and 1844 to honor Bavarian generals, this three-arched loggia presides over Odeonsplatz. Guarded by stone lions, it was the scene of historic episodes and is now one of the most photographed corners downtown.",
+   "h": "Monumento al aire libre, visible 24 h.",
+   "h_en": "Open-air monument, visible 24h.",
+   "i": "Cierra el eje sur de la Ludwigstraße, frente a la Theatinerkirche.",
+   "i_en": "It closes the southern axis of Ludwigstraße, facing the Theatinerkirche."
+  },
+  "w_mun_karlstor": {
+   "id": "w_mun_karlstor",
+   "d": "El Karlstor es una de las tres puertas medievales conservadas de la antigua muralla. Da paso al Karlsplatz, popularmente 'Stachus', una gran plaza con fuente muy concurrida en verano y pista de patinaje en invierno, puerta de entrada a la zona peatonal.",
+   "d_en": "The Karlstor is one of three surviving medieval gates of the old city wall. It leads to Karlsplatz, popularly 'Stachus', a large fountain square packed in summer and turned into an ice rink in winter, gateway to the pedestrian zone.",
+   "h": "Plaza y puerta accesibles 24 h.",
+   "h_en": "Square and gate accessible 24h.",
+   "i": "Desde aquí arranca la calle peatonal hacia Marienplatz; buen punto para compras.",
+   "i_en": "From here the pedestrian street runs to Marienplatz; a good spot for shopping."
+  },
+  "w_mun_englischergarten": {
+   "id": "w_mun_englischergarten",
+   "d": "Creado en 1789 y más extenso que Central Park, el Jardín Inglés es el gran pulmón de Múnich. Ofrece praderas para el sol, el arroyo Eisbach, la Torre China con su biergarten, el templete Monopteros y kilómetros de senderos para pasear y montar en bici.",
+   "d_en": "Created in 1789 and larger than Central Park, the English Garden is Munich's great green lung. It offers sunbathing meadows, the Eisbach stream, the Chinese Tower with its beer garden, the Monopteros temple and miles of walking and cycling paths.",
+   "h": "Parque abierto 24 h; biergarten aprox. 10:00–23:00 en temporada.",
+   "h_en": "Park open 24h; beer gardens approx. 10:00–23:00 in season.",
+   "i": "No te pierdas a los surfistas del Eisbach ni una cerveza bajo la Torre China.",
+   "i_en": "Don't miss the Eisbach surfers or a beer under the Chinese Tower."
+  },
+  "w_mun_olympiapark": {
+   "id": "w_mun_olympiapark",
+   "d": "Construido para los Juegos Olímpicos de 1972, combina zonas verdes onduladas, un lago y las famosas cubiertas de tienda de campaña del estadio. Acoge conciertos, eventos deportivos y la torre Olympiaturm de 291 m con mirador y restaurante giratorio.",
+   "d_en": "Built for the 1972 Olympic Games, it blends rolling green areas, a lake and the stadium's famous tent-like roofs. It hosts concerts, sports events and the 291 m Olympiaturm tower with a viewpoint and revolving restaurant.",
+   "h": "Parque abierto 24 h; torre y atracciones con horarios propios.",
+   "h_en": "Park open 24h; tower and attractions have their own hours.",
+   "i": "Sube al Olympiaturm en días claros para ver los Alpes en el horizonte.",
+   "i_en": "Ride the Olympiaturm on clear days to see the Alps on the horizon."
+  },
+  "w_mun_hofgarten": {
+   "id": "w_mun_hofgarten",
+   "d": "Diseñado hacia 1613 en estilo renacentista italiano, el Hofgarten es un tranquilo jardín de setos y parterres simétricos con un templete central dedicado a Diana. Rodeado de arcadas, es un remanso de paz entre la Residenz y el Jardín Inglés.",
+   "d_en": "Laid out around 1613 in Italian Renaissance style, the Hofgarten is a quiet garden of symmetric hedges and parterres with a central pavilion dedicated to Diana. Surrounded by arcades, it is a peaceful haven between the Residenz and the English Garden.",
+   "h": "Jardín abierto 24 h; entrada libre.",
+   "h_en": "Garden open 24h; free entry.",
+   "i": "En verano suele haber gente bailando tango bajo el templete de Diana.",
+   "i_en": "In summer people often dance tango under the Diana pavilion."
+  },
+  "w_mun_hellabrunn": {
+   "id": "w_mun_hellabrunn",
+   "d": "Inaugurado en 1911, Hellabrunn fue el primer 'geo-zoo' del mundo, ordenando sus animales según su región de origen. Ubicado en la reserva natural del Isar, alberga más de 15.000 animales entre amplios recintos, un aviario y un acuario.",
+   "d_en": "Opened in 1911, Hellabrunn was the world's first 'geo-zoo', arranging its animals by region of origin. Set in the Isar nature reserve, it is home to over 15,000 animals across spacious enclosures, an aviary and an aquarium.",
+   "h": "Aprox. 9:00–18:00 (verano) / 9:00–17:00 (invierno).",
+   "h_en": "Approx. 9:00–18:00 (summer) / 9:00–17:00 (winter).",
+   "i": "Ideal en familia; combínalo con un paseo por la ribera del Isar.",
+   "i_en": "Great for families; pair it with a walk along the Isar riverbank."
+  },
+  "w_mun_eisbachwelle": {
+   "id": "w_mun_eisbachwelle",
+   "d": "A la entrada sur del Jardín Inglés, el arroyo Eisbach forma una ola permanente de casi un metro sobre la que los surfistas practican todo el año, incluso en invierno. Es una de las estampas más singulares y fotografiadas de Múnich.",
+   "d_en": "At the southern entrance of the English Garden, the Eisbach stream forms a permanent wave of nearly a meter where surfers ride year-round, even in winter. It is one of Munich's most singular and photographed sights.",
+   "h": "Accesible 24 h desde el puente; surf bajo responsabilidad propia.",
+   "h_en": "Accessible 24h from the bridge; surfing at your own risk.",
+   "i": "Solo para surfistas expertos; el resto disfruta del espectáculo desde el puente.",
+   "i_en": "For expert surfers only; everyone else enjoys the show from the bridge."
+  },
+  "w_mun_botanischergarten": {
+   "id": "w_mun_botanischergarten",
+   "d": "Contiguo al parque de Nymphenburg, este jardín botánico reúne unas 14.000 especies vegetales en 21 ha de arriates, estanques y arboretos, más grandes invernaderos con orquídeas, cactus y una casa tropical de mariposas en primavera.",
+   "d_en": "Adjacent to Nymphenburg park, this botanical garden gathers some 14,000 plant species across 21 hectares of beds, ponds and arboretums, plus large greenhouses with orchids, cacti and a tropical butterfly house in spring.",
+   "h": "Aprox. 9:00–18:00 (verano) / 9:00–16:30 (invierno).",
+   "h_en": "Approx. 9:00–18:00 (summer) / 9:00–16:30 (winter).",
+   "i": "Combínalo con la visita a Nymphenburg; los invernaderos merecen tiempo aparte.",
+   "i_en": "Combine it with Nymphenburg; the greenhouses deserve extra time."
+  },
+  "w_mun_viktualienmarkt": {
+   "id": "w_mun_viktualienmarkt",
+   "d": "Desde 1807, este mercado permanente junto a la Marienplatz reúne más de 100 puestos de frutas, quesos, embutidos, especias y flores. En el centro, un biergarten a la sombra del mayo (Maibaum) invita a degustar productos locales con una cerveza.",
+   "d_en": "Since 1807, this permanent market next to Marienplatz has gathered over 100 stalls of fruit, cheese, cured meats, spices and flowers. At its center, a beer garden in the shade of the maypole invites you to sample local produce with a beer.",
+   "h": "Aprox. lun–sáb 8:00–20:00 (puestos varían); cerrado domingos.",
+   "h_en": "Approx. Mon–Sat 8:00–20:00 (stalls vary); closed Sundays.",
+   "i": "Perfecto para almorzar de pie; prueba una Weißwurst con pretzel y mostaza dulce.",
+   "i_en": "Perfect for a standing lunch; try a Weisswurst with a pretzel and sweet mustard."
+  },
+  "w_mun_bmwwelt": {
+   "id": "w_mun_bmwwelt",
+   "d": "BMW Welt es un edificio de arquitectura futurista donde se exponen y entregan los modelos más recientes de la marca muniquesa. Junto a él, el Museo BMW, en su icónico edificio con forma de cuenco, repasa la historia de coches y motos desde 1916.",
+   "d_en": "BMW Welt is a futuristic building where the brand's newest models are displayed and delivered. Beside it, the BMW Museum, in its iconic bowl-shaped building, traces the history of the marque's cars and motorcycles since 1916.",
+   "h": "BMW Welt aprox. 7:30–24:00 (exposición hasta 18:00); museo aprox. 10:00–18:00, cerrado lunes.",
+   "h_en": "BMW Welt approx. 7:30–24:00 (exhibition until 18:00); museum approx. 10:00–18:00, closed Mondays.",
+   "i": "La entrada a BMW Welt es gratuita; el museo tiene entrada de pago.",
+   "i_en": "Entry to BMW Welt is free; the museum charges admission."
+  },
+  "w_mun_deutschesmuseum": {
+   "id": "w_mun_deutschesmuseum",
+   "d": "Fundado en 1903 y situado en una isla del río Isar, es el mayor museo de ciencia y tecnología del planeta. Sus decenas de salas cubren aeronáutica, náutica, minería, electricidad, astronomía y más, con máquinas originales y demostraciones en vivo.",
+   "d_en": "Founded in 1903 and set on an island in the Isar, it is the largest science and technology museum on the planet. Its dozens of halls cover aviation, seafaring, mining, electricity, astronomy and more, with original machines and live demonstrations.",
+   "h": "Aprox. 9:00–17:00 todos los días.",
+   "h_en": "Approx. 9:00–17:00 daily.",
+   "i": "Es enorme: prioriza secciones; los rayos de la demostración eléctrica son un clásico.",
+   "i_en": "It's huge: prioritize sections; the electric-arc demonstration is a classic."
+  },
+  "w_mun_altepinakothek": {
+   "id": "w_mun_altepinakothek",
+   "d": "Una de las galerías de pintura más antiguas del mundo, reúne obras maestras de Durero, Rubens, Rembrandt, Rafael, Tiziano o Leonardo. Forma parte del 'Kunstareal', el barrio de los museos de Múnich, junto a la Neue y la Moderne Pinakothek.",
+   "d_en": "One of the world's oldest painting galleries, it gathers masterpieces by Dürer, Rubens, Rembrandt, Raphael, Titian and Leonardo. It is part of the 'Kunstareal', Munich's museum quarter, alongside the Neue and Moderne Pinakothek.",
+   "h": "Aprox. 10:00–18:00 (mar hasta 20:30); cerrado lunes.",
+   "h_en": "Approx. 10:00–18:00 (Tue until 20:30); closed Mondays.",
+   "i": "Los domingos la entrada suele costar solo 1 €; conserva la agenda del Kunstareal.",
+   "i_en": "On Sundays admission is often just 1 €; keep the Kunstareal in mind."
+  },
+  "w_mun_allianzarena": {
+   "id": "w_mun_allianzarena",
+   "d": "Inaugurada en 2005, es la casa del FC Bayern y uno de los estadios más modernos de Europa. Su fachada de cojines inflables se ilumina de rojo, azul o blanco. Ofrece visitas guiadas, museo del club y experiencia de vestuarios y túnel de jugadores.",
+   "d_en": "Opened in 2005, it is the home of FC Bayern and one of Europe's most modern stadiums. Its inflatable-cushion facade lights up red, blue or white. It offers guided tours, a club museum and a locker-room and players'-tunnel experience.",
+   "h": "Tours y museo aprox. 10:00–18:00; sin visitas los días de partido.",
+   "h_en": "Tours and museum approx. 10:00–18:00; no visits on match days.",
+   "i": "Llega en U-Bahn U6 hasta Fröttmaning; de noche disfrutarás la fachada iluminada.",
+   "i_en": "Take U-Bahn U6 to Fröttmaning; at night you'll enjoy the illuminated facade."
+  },
+  "w_mun_olympiaturm": {
+   "id": "w_mun_olympiaturm",
+   "d": "Con 291 metros, la Torre Olímpica es la estructura más alta de Múnich. Sus dos miradores, a 185 y 190 m, ofrecen vistas de 360° sobre la ciudad y, en días despejados, los Alpes. Cuenta con un restaurante giratorio y un pequeño museo del rock.",
+   "d_en": "At 291 meters, the Olympic Tower is Munich's tallest structure. Its two observation decks, at 185 and 190 m, offer 360° views over the city and, on clear days, the Alps. It features a revolving restaurant and a small rock-and-roll museum.",
+   "h": "Aprox. 9:00–23:00 todos los días.",
+   "h_en": "Approx. 9:00–23:00 daily.",
+   "i": "Sube al atardecer para ver la ciudad de día y de noche desde un mismo punto.",
+   "i_en": "Go at sunset to see the city by day and night from the same spot."
+  },
+  "w_mun_hofbrauhaus": {
+   "id": "w_mun_hofbrauhaus",
+   "d": "Fundada como cervecería real en 1589, la Hofbräuhaus es la taberna cervecera más célebre del planeta. Su gran salón abovedado, con bandas de música en directo, sirve Maß (jarras de un litro) junto a especialidades bávaras como codillo, salchichas y pretzels.",
+   "d_en": "Founded as a royal brewery in 1589, the Hofbräuhaus is the most celebrated beer hall on the planet. Its great vaulted hall, with live bands, serves Maß (liter steins) alongside Bavarian specialties such as pork knuckle, sausages and pretzels.",
+   "h": "Aprox. 11:00–23:30 todos los días; suele llenarse por la noche.",
+   "h_en": "Approx. 11:00–23:30 daily; usually packed in the evening.",
+   "i": "Muy turística pero imprescindible; llega temprano para conseguir mesa en el salón principal.",
+   "i_en": "Very touristy but a must; arrive early to get a table in the main hall."
+  },
+  "w_mun_augustinerkeller": {
+   "id": "w_mun_augustinerkeller",
+   "d": "Uno de los biergarten más queridos de Múnich, con más de 5.000 plazas bajo viejos castaños. Sirve la apreciada Augustiner, la cerveza más antigua de la ciudad (1328), directamente de barriles de madera, junto a clásicos bávaros de temporada.",
+   "d_en": "One of Munich's most beloved beer gardens, with over 5,000 seats under old chestnut trees. It serves the cherished Augustiner, the city's oldest beer (1328), straight from wooden barrels, alongside seasonal Bavarian classics.",
+   "h": "Aprox. 10:00–24:00 todos los días; biergarten según el tiempo.",
+   "h_en": "Approx. 10:00–24:00 daily; beer garden weather-dependent.",
+   "i": "En la zona de biergarten puedes llevar tu propia comida si compras la bebida allí.",
+   "i_en": "In the beer-garden area you may bring your own food if you buy the drinks there."
+  },
+  "w_mun_lowenbraukeller": {
+   "id": "w_mun_lowenbraukeller",
+   "d": "Inaugurada en 1883, la Löwenbräukeller es una institución cervecera reconocible por su torre. Combina un imponente salón de fiestas, salas históricas y un amplio biergarten donde se sirve la cerveza Löwenbräu con contundentes platos bávaros.",
+   "d_en": "Opened in 1883, the Löwenbräukeller is a beer institution recognizable by its tower. It combines an imposing festival hall, historic rooms and a large beer garden where Löwenbräu beer is served with hearty Bavarian dishes.",
+   "h": "Aprox. 11:00–23:00 todos los días.",
+   "h_en": "Approx. 11:00–23:00 daily.",
+   "i": "Menos turística que la Hofbräuhaus; buen ambiente local con música en directo.",
+   "i_en": "Less touristy than the Hofbräuhaus; good local atmosphere with live music."
+  },
+  "w_mun_ratskeller": {
+   "id": "w_mun_ratskeller",
+   "d": "Ubicado bajo el Neues Rathaus de la Marienplatz, el Ratskeller ofrece cocina bávara tradicional en un laberinto de bóvedas de ladrillo con rincones íntimos. Es un lugar clásico para probar codillo, Schweinsbraten y pescado con un ambiente histórico.",
+   "d_en": "Set beneath the New Town Hall on Marienplatz, the Ratskeller offers traditional Bavarian cuisine in a maze of brick vaults with intimate nooks. It is a classic place to try pork knuckle, roast pork and fish in a historic setting.",
+   "h": "Aprox. 11:00–24:00 todos los días; conviene reservar.",
+   "h_en": "Approx. 11:00–24:00 daily; reservations recommended.",
+   "i": "Céntrico y muy típico; pide mesa en alguna de las bóvedas más recogidas.",
+   "i_en": "Central and very typical; ask for a table in one of the cozier vaults."
+  },
+  "w_mun_schneiderbrauhaus": {
+   "id": "w_mun_schneiderbrauhaus",
+   "d": "En la animada calle Tal, esta taberna tradicional es el hogar de la afamada cerveza de trigo Schneider Weisse. En un ambiente rústico y bullicioso sirve especialidades como el 'Kronfleisch', callos, salchichas blancas y otros platos caseros bávaros.",
+   "d_en": "On lively Tal street, this traditional tavern is home to the renowned Schneider Weisse wheat beer. In a rustic, bustling atmosphere it serves specialties such as 'Kronfleisch', tripe, white sausages and other homemade Bavarian dishes.",
+   "h": "Aprox. 9:00–23:30 todos los días.",
+   "h_en": "Approx. 9:00–23:30 daily.",
+   "i": "El mejor sitio para una Weissbier auténtica; prueba la Weißwurst antes del mediodía.",
+   "i_en": "The best spot for an authentic Weissbier; try the Weisswurst before noon."
+  },
+  "w_mun_chinesischerturm": {
+   "id": "w_mun_chinesischerturm",
+   "d": "Alrededor de la Torre China, una pagoda de madera del siglo XVIII, se extiende uno de los biergarten más grandes y famosos de la ciudad, con unas 7.000 plazas. Sirve cerveza, pretzels gigantes, pollo asado (Hendl) y platos bávaros al aire libre.",
+   "d_en": "Around the Chinese Tower, an 18th-century wooden pagoda, sprawls one of the city's largest and most famous beer gardens, with around 7,000 seats. It serves beer, giant pretzels, roast chicken (Hendl) and Bavarian dishes in the open air.",
+   "h": "Aprox. 10:00–23:00 según el tiempo (temporada cálida).",
+   "h_en": "Approx. 10:00–23:00 weather-dependent (warm season).",
+   "i": "Autoservicio en las mesas sin mantel; a veces suena una banda desde la pagoda.",
+   "i_en": "Self-service at the tables without cloths; a band sometimes plays from the pagoda."
+  }
+ },
+ "food": {
+  "w_mun_hofbrauhaus": {
+   "cuisine": "Bávara / Cervecería",
+   "price": "15–35 €",
+   "hours": "Aprox. 11:00–23:30 todos los días"
+  },
+  "w_mun_augustinerkeller": {
+   "cuisine": "Bávara / Biergarten",
+   "price": "12–30 €",
+   "hours": "Aprox. 10:00–24:00 todos los días"
+  },
+  "w_mun_lowenbraukeller": {
+   "cuisine": "Bávara / Cervecería",
+   "price": "14–32 €",
+   "hours": "Aprox. 11:00–23:00 todos los días"
+  },
+  "w_mun_ratskeller": {
+   "cuisine": "Bávara tradicional",
+   "price": "18–40 €",
+   "hours": "Aprox. 11:00–24:00 todos los días"
+  },
+  "w_mun_schneiderbrauhaus": {
+   "cuisine": "Bávara / Cervecería",
+   "price": "13–30 €",
+   "hours": "Aprox. 9:00–23:30 todos los días"
+  },
+  "w_mun_chinesischerturm": {
+   "cuisine": "Bávara / Biergarten",
+   "price": "10–25 €",
+   "hours": "Aprox. 10:00–23:00 (temporada)"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Múnich",
+   "items": [
+    {
+     "name": "Jarra de cerveza (Maßkrug)",
+     "price": "15–45 €",
+     "desc": "Jarra de gres o vidrio de un litro, símbolo de la cultura cervecera bávara."
+    },
+    {
+     "name": "Corazón de Lebkuchen (Lebkuchenherz)",
+     "price": "5–15 €",
+     "desc": "Galleta de jengibre en forma de corazón con mensajes de azúcar, típica del Oktoberfest."
+    },
+    {
+     "name": "Lederhosen y Dirndl",
+     "price": "60–300 €",
+     "desc": "Traje tradicional bávaro; muy popular durante la temporada del Oktoberfest."
+    },
+    {
+     "name": "Camiseta del FC Bayern",
+     "price": "40–100 €",
+     "desc": "Equipación oficial del club de fútbol más laureado de Alemania."
+    },
+    {
+     "name": "Miniatura BMW",
+     "price": "20–80 €",
+     "desc": "Modelo a escala de coches BMW, marca nacida y fabricada en Múnich."
+    }
+   ],
+   "shops": [
+    "Viktualienmarkt",
+    "Marienplatz y Kaufingerstraße",
+    "Ludwig Beck (Marienplatz)",
+    "Tienda oficial FC Bayern (Neuhauser Str.)",
+    "BMW Welt Shop"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "El billete de transporte MVV cubre metro (U-Bahn), tren (S-Bahn), tranvía y bus; valida siempre antes de subir para evitar multas.",
+   "El carillón (Glockenspiel) del Neues Rathaus suena a las 11:00 y 12:00 (y a las 17:00 en verano); llega unos minutos antes para coger sitio.",
+   "El Oktoberfest se celebra de mediados de septiembre a primeros de octubre en la explanada de Theresienwiese; reserva alojamiento con mucha antelación.",
+   "Neuschwanstein y Dachau quedan fuera de la ciudad: reserva entradas de Neuschwanstein online y dedica medio día a cada uno.",
+   "Muchos museos estatales cuestan solo 1 € los domingos; los biergarten permiten llevar tu propia comida si pides la bebida allí."
+  ],
+  "en": [
+   "One MVV ticket covers subway (U-Bahn), train (S-Bahn), tram and bus; always validate it before boarding to avoid fines.",
+   "The Glockenspiel at the Neues Rathaus chimes at 11:00 and 12:00 (plus 17:00 in summer); arrive a few minutes early for a good spot.",
+   "Oktoberfest runs from mid-September to early October at the Theresienwiese grounds; book accommodation far in advance.",
+   "Neuschwanstein and Dachau lie outside the city: book Neuschwanstein tickets online and set aside half a day for each.",
+   "Many state museums cost just 1 € on Sundays, and beer gardens let you bring your own food if you buy the drinks there."
+  ]
+ },
+ "climate": {
+  "hi": [
+   3,
+   5,
+   10,
+   14,
+   19,
+   22,
+   24,
+   24,
+   19,
+   14,
+   7,
+   4
+  ],
+  "lo": [
+   -4,
+   -3,
+   0,
+   3,
+   8,
+   11,
+   13,
+   13,
+   9,
+   5,
+   1,
+   -3
+  ]
+ },
+ "tr": {
+  "Plaza central de Múnich, dominada por el neogótico Nuevo Ayuntamiento y su carillón.": "Munich's central square, dominated by the neo-Gothic New Town Hall and its glockenspiel.",
+  "Catedral gótica de ladrillo con sus dos torres de cúpula verde, emblema de la ciudad.": "Gothic brick cathedral with its twin green-domed towers, the city's emblem.",
+  "Antiguo palacio urbano de los reyes de Baviera, con salas suntuosas y tesoro real.": "Former city palace of the kings of Bavaria, with lavish halls and a royal treasury.",
+  "Palacio barroco de verano de los Wittelsbach rodeado de amplios jardines.": "Baroque summer palace of the Wittelsbachs surrounded by extensive gardens.",
+  "Castillo de cuento del rey Luis II sobre los Alpes, a unas 2 h de Múnich.": "King Ludwig II's fairy-tale castle above the Alps, about 2h from Munich.",
+  "Sitio conmemorativo del primer campo de concentración nazi, al norte de Múnich.": "Memorial site of the first Nazi concentration camp, north of Munich.",
+  "Pequeña iglesia rococó de exuberante decoración, obra de los hermanos Asam.": "Small Rococo church with lavish decoration, built by the Asam brothers.",
+  "La iglesia más antigua de Múnich, con una torre mirador sobre la Marienplatz.": "Munich's oldest church, with a viewpoint tower over Marienplatz.",
+  "Iglesia barroca de fachada amarilla y cúpulas, junto a Odeonsplatz.": "Baroque church with a yellow facade and domes, next to Odeonsplatz.",
+  "Arco triunfal de tres arcos que separa Schwabing del barrio universitario.": "Three-arched triumphal gate separating Schwabing from the university quarter.",
+  "Logia monumental en Odeonsplatz inspirada en la Loggia dei Lanzi florentina.": "Monumental loggia on Odeonsplatz inspired by Florence's Loggia dei Lanzi.",
+  "Puerta medieval y plaza con fuente que abre la calle comercial del centro.": "Medieval gate and fountain square opening the downtown shopping street.",
+  "Uno de los mayores parques urbanos del mundo, con praderas, río y biergarten.": "One of the world's largest urban parks, with meadows, a river and beer gardens.",
+  "Parque de los Juegos de 1972 con colinas verdes, lago y arquitectura icónica.": "Park of the 1972 Games with green hills, a lake and iconic architecture.",
+  "Jardín renacentista de trazado geométrico junto a la Residenz.": "Renaissance garden with a geometric layout next to the Residenz.",
+  "Zoo geográfico junto al río Isar, pionero en agrupar animales por continentes.": "Geo-zoo by the Isar river, a pioneer in grouping animals by continent.",
+  "Ola artificial de río donde los surfistas cabalgan en pleno centro.": "Artificial river wave where surfers ride in the middle of the city.",
+  "Jardín botánico junto a Nymphenburg con invernaderos y 14.000 especies.": "Botanical garden next to Nymphenburg with greenhouses and 14,000 species.",
+  "Mercado gourmet al aire libre con puestos de comida, flores y biergarten.": "Open-air gourmet market with food stalls, flowers and a beer garden.",
+  "Espectacular centro de exposición de la marca BMW junto al Olympiapark.": "Spectacular BMW brand showroom next to the Olympiapark.",
+  "El mayor museo de ciencia y tecnología del mundo, en una isla del Isar.": "The world's largest science and technology museum, on an island in the Isar.",
+  "Pinacoteca con maestros europeos del siglo XIV al XVIII.": "Picture gallery with European masters from the 14th to 18th centuries.",
+  "Estadio del Bayern de Múnich, célebre por su fachada iluminada de color.": "Home stadium of Bayern Munich, famous for its color-lit facade.",
+  "Torre de 291 m del Olympiapark con mirador y restaurante giratorio.": "291 m tower in the Olympiapark with a viewpoint and revolving restaurant.",
+  "La cervecería más famosa del mundo, con música bávara y jarras de litro.": "The world's most famous beer hall, with Bavarian music and liter steins.",
+  "Histórico biergarten a la sombra de castaños con la cerveza más querida.": "Historic beer garden shaded by chestnut trees serving the city's beloved beer.",
+  "Gran cervecería tradicional con salón de fiestas y biergarten.": "Grand traditional beer hall with a festival room and beer garden.",
+  "Restaurante bávaro en los sótanos abovedados del Nuevo Ayuntamiento.": "Bavarian restaurant in the vaulted cellars of the New Town Hall.",
+  "Taberna histórica famosa por su cerveza de trigo y platos caseros bávaros.": "Historic tavern famous for its wheat beer and homemade Bavarian dishes.",
+  "Biergarten bajo una pagoda de madera en pleno Jardín Inglés.": "Beer garden beneath a wooden pagoda in the heart of the English Garden.",
+  "Múnich": "Múnich"
+ }
+}

@@ -1,0 +1,722 @@
+{
+ "id": "milan",
+ "name": "Milán",
+ "country": "WORLD",
+ "center": [
+  45.4642,
+  9.19
+ ],
+ "pois": [
+  {
+   "id": "w_mil_duomo",
+   "cat": "monuments",
+   "name": "Duomo de Milán",
+   "icon": "⛪",
+   "lat": 45.46417,
+   "lng": 9.19194,
+   "desc": "La colosal catedral gótica de mármol, símbolo de Milán."
+  },
+  {
+   "id": "w_mil_galleria",
+   "cat": "monuments",
+   "name": "Galería Vittorio Emanuele II",
+   "icon": "🏛️",
+   "lat": 45.46556,
+   "lng": 9.18972,
+   "desc": "Elegante galería comercial cubierta de hierro y cristal."
+  },
+  {
+   "id": "w_mil_scala",
+   "cat": "monuments",
+   "name": "Teatro alla Scala",
+   "icon": "🎭",
+   "lat": 45.46722,
+   "lng": 9.18944,
+   "desc": "El templo mundial de la ópera y el ballet."
+  },
+  {
+   "id": "w_mil_smgrazie",
+   "cat": "monuments",
+   "name": "Santa Maria delle Grazie y La Última Cena",
+   "icon": "🖼️",
+   "lat": 45.46583,
+   "lng": 9.17111,
+   "desc": "Iglesia renacentista con el mural de Leonardo da Vinci."
+  },
+  {
+   "id": "w_mil_sforzesco",
+   "cat": "monuments",
+   "name": "Castillo Sforzesco",
+   "icon": "🏰",
+   "lat": 45.47028,
+   "lng": 9.17944,
+   "desc": "Fortaleza renacentista con museos y arte de Miguel Ángel."
+  },
+  {
+   "id": "w_mil_pinacoteca",
+   "cat": "monuments",
+   "name": "Pinacoteca de Brera",
+   "icon": "🖼️",
+   "lat": 45.47194,
+   "lng": 9.18778,
+   "desc": "Gran pinacoteca de arte italiano en el corazón de Brera."
+  },
+  {
+   "id": "w_mil_cimitero",
+   "cat": "monuments",
+   "name": "Cementerio Monumental",
+   "icon": "🪦",
+   "lat": 45.48583,
+   "lng": 9.17917,
+   "desc": "Cementerio-museo al aire libre lleno de esculturas."
+  },
+  {
+   "id": "w_mil_santambrogio",
+   "cat": "monuments",
+   "name": "Basílica de Sant'Ambrogio",
+   "icon": "⛪",
+   "lat": 45.46222,
+   "lng": 9.17556,
+   "desc": "Joya románica dedicada al patrón de la ciudad."
+  },
+  {
+   "id": "w_mil_sanlorenzo",
+   "cat": "monuments",
+   "name": "Basílica de San Lorenzo y las Columnas",
+   "icon": "🏛️",
+   "lat": 45.45833,
+   "lng": 9.18222,
+   "desc": "Basílica paleocristiana ante columnas romanas."
+  },
+  {
+   "id": "w_mil_arcopace",
+   "cat": "monuments",
+   "name": "Arco della Pace",
+   "icon": "🏛️",
+   "lat": 45.47556,
+   "lng": 9.17222,
+   "desc": "Arco triunfal neoclásico al final del Parco Sempione."
+  },
+  {
+   "id": "w_mil_sanmaurizio",
+   "cat": "monuments",
+   "name": "San Maurizio al Monastero Maggiore",
+   "icon": "⛪",
+   "lat": 45.46528,
+   "lng": 9.18,
+   "desc": "La 'Capilla Sixtina de Milán', cubierta de frescos."
+  },
+  {
+   "id": "w_mil_novecento",
+   "cat": "monuments",
+   "name": "Museo del Novecento",
+   "icon": "🖼️",
+   "lat": 45.46333,
+   "lng": 9.19083,
+   "desc": "Arte italiano del siglo XX con vistas al Duomo."
+  },
+  {
+   "id": "w_mil_sempione",
+   "cat": "nature",
+   "name": "Parco Sempione",
+   "icon": "🌳",
+   "lat": 45.4725,
+   "lng": 9.175,
+   "desc": "El gran parque romántico junto al Castello."
+  },
+  {
+   "id": "w_mil_giardinimontanelli",
+   "cat": "nature",
+   "name": "Giardini Pubblici Indro Montanelli",
+   "icon": "🌳",
+   "lat": 45.47417,
+   "lng": 9.2,
+   "desc": "El parque público histórico de Porta Venezia."
+  },
+  {
+   "id": "w_mil_ortobotanico",
+   "cat": "nature",
+   "name": "Orto Botanico di Brera",
+   "icon": "🌿",
+   "lat": 45.47222,
+   "lng": 9.18694,
+   "desc": "Jardín botánico escondido tras el palacio de Brera."
+  },
+  {
+   "id": "w_mil_bam",
+   "cat": "nature",
+   "name": "Biblioteca degli Alberi",
+   "icon": "🌱",
+   "lat": 45.48472,
+   "lng": 9.19167,
+   "desc": "Parque contemporáneo entre los rascacielos de Porta Nuova."
+  },
+  {
+   "id": "w_mil_citylife",
+   "cat": "nature",
+   "name": "Parque CityLife",
+   "icon": "🌳",
+   "lat": 45.47833,
+   "lng": 9.15611,
+   "desc": "Amplio parque peatonal entre las Tres Torres."
+  },
+  {
+   "id": "w_mil_guastalla",
+   "cat": "nature",
+   "name": "Giardino della Guastalla",
+   "icon": "🌿",
+   "lat": 45.45944,
+   "lng": 9.19722,
+   "desc": "El jardín histórico más antiguo de Milán."
+  },
+  {
+   "id": "w_mil_navigli",
+   "cat": "ocio",
+   "name": "Navigli",
+   "icon": "🛶",
+   "lat": 45.45222,
+   "lng": 9.17389,
+   "desc": "Canales históricos con bares, ocio y aperitivo."
+  },
+  {
+   "id": "w_mil_brera",
+   "cat": "ocio",
+   "name": "Barrio de Brera",
+   "icon": "🎨",
+   "lat": 45.47194,
+   "lng": 9.18806,
+   "desc": "Barrio bohemio de calles empedradas y arte."
+  },
+  {
+   "id": "w_mil_corsocomo",
+   "cat": "ocio",
+   "name": "Corso Como",
+   "icon": "🛍️",
+   "lat": 45.48083,
+   "lng": 9.18694,
+   "desc": "Calle peatonal de moda, diseño y vida nocturna."
+  },
+  {
+   "id": "w_mil_gaeaulenti",
+   "cat": "ocio",
+   "name": "Piazza Gae Aulenti y Porta Nuova",
+   "icon": "🏙️",
+   "lat": 45.48389,
+   "lng": 9.19,
+   "desc": "Plaza futurista rodeada de rascacielos."
+  },
+  {
+   "id": "w_mil_montenapoleone",
+   "cat": "ocio",
+   "name": "Quadrilatero della Moda",
+   "icon": "👗",
+   "lat": 45.46833,
+   "lng": 9.19556,
+   "desc": "El distrito del lujo y la alta costura."
+  },
+  {
+   "id": "w_mil_sansiro",
+   "cat": "ocio",
+   "name": "Estadio San Siro (Giuseppe Meazza)",
+   "icon": "⚽",
+   "lat": 45.47806,
+   "lng": 9.12389,
+   "desc": "El mítico estadio de Milan e Inter."
+  },
+  {
+   "id": "w_mil_fondazioneprada",
+   "cat": "ocio",
+   "name": "Fondazione Prada",
+   "icon": "🖼️",
+   "lat": 45.44396,
+   "lng": 9.20516,
+   "desc": "Centro de arte contemporáneo con la Torre dorada."
+  },
+  {
+   "id": "w_mil_luini",
+   "cat": "food",
+   "name": "Luini",
+   "icon": "🥟",
+   "lat": 45.46556,
+   "lng": 9.19056,
+   "desc": "Legendaria panzerottería junto al Duomo."
+  },
+  {
+   "id": "w_mil_peck",
+   "cat": "food",
+   "name": "Peck",
+   "icon": "🧀",
+   "lat": 45.46389,
+   "lng": 9.18639,
+   "desc": "Templo gourmet histórico de la ciudad."
+  },
+  {
+   "id": "w_mil_camparino",
+   "cat": "food",
+   "name": "Camparino in Galleria",
+   "icon": "🍸",
+   "lat": 45.465,
+   "lng": 9.18972,
+   "desc": "El bar histórico donde nació el aperitivo Campari."
+  },
+  {
+   "id": "w_mil_marchesi",
+   "cat": "food",
+   "name": "Pasticceria Marchesi 1824",
+   "icon": "🍰",
+   "lat": 45.46861,
+   "lng": 9.19472,
+   "desc": "Elegante pastelería histórica de Montenapoleone."
+  },
+  {
+   "id": "w_mil_mercatometropolitano",
+   "cat": "food",
+   "name": "Mercato Metropolitano",
+   "icon": "🍝",
+   "lat": 45.4523,
+   "lng": 9.16985,
+   "desc": "Gran mercado gastronómico de productos italianos."
+  },
+  {
+   "id": "w_mil_ratana",
+   "cat": "food",
+   "name": "Ratanà",
+   "icon": "🍲",
+   "lat": 45.48583,
+   "lng": 9.19167,
+   "desc": "Cocina milanesa tradicional junto a Porta Nuova."
+  }
+ ],
+ "extra": {
+  "w_mil_duomo": {
+   "id": "w_mil_duomo",
+   "d": "Levantada durante casi seis siglos, es la mayor iglesia gótica de Italia, erizada de 135 agujas y coronada por la dorada Madonnina. Sus terrazas permiten pasear sobre el mármol de Candoglia con vistas a la ciudad y, en días claros, a los Alpes.",
+   "d_en": "Built over nearly six centuries, it is Italy's largest Gothic church, bristling with 135 spires and crowned by the golden Madonnina. Its terraces let you stroll over Candoglia marble with views across the city and, on clear days, the Alps.",
+   "h": "Iniciado en 1386 y consagrado siglos después, mezcla gótico, renacimiento y neogótico napoleónico.",
+   "h_en": "Begun in 1386 and consecrated centuries later, it blends Gothic, Renaissance and Napoleonic neo-Gothic styles.",
+   "i": "Compra la entrada combinada catedral+terrazas online; sube a la azotea por la tarde para la mejor luz.",
+   "i_en": "Buy the combined cathedral+rooftop ticket online; go up late afternoon for the best light."
+  },
+  "w_mil_galleria": {
+   "id": "w_mil_galleria",
+   "d": "Conocida como 'el salón de Milán', une la plaza del Duomo con La Scala bajo una espectacular cúpula de cristal. Alberga cafés históricos, boutiques de lujo y el mosaico del toro donde la tradición dice que hay que girar sobre el talón para tener suerte.",
+   "d_en": "Known as 'Milan's drawing room', it links the Duomo square to La Scala beneath a spectacular glass dome. It houses historic cafes, luxury boutiques and the bull mosaic where tradition says you should spin on your heel for luck.",
+   "h": "Inaugurada en 1877 y diseñada por Giuseppe Mengoni, es una de las galerías comerciales más antiguas del mundo.",
+   "h_en": "Opened in 1877 and designed by Giuseppe Mengoni, it is one of the world's oldest shopping galleries.",
+   "i": "Entra al amanecer para fotografiarla sin gentío; el mosaico del toro está bajo la cúpula central.",
+   "i_en": "Come at dawn to photograph it without crowds; the bull mosaic sits under the central dome."
+  },
+  "w_mil_scala": {
+   "id": "w_mil_scala",
+   "d": "De fachada sobria y sala interior de terciopelo rojo y oro, La Scala ha estrenado obras de Verdi, Puccini y Rossini. Su museo exhibe partituras, instrumentos y retratos, y permite asomarse a los palcos cuando no hay ensayo.",
+   "d_en": "With a sober facade and a red-and-gold velvet auditorium, La Scala has premiered works by Verdi, Puccini and Rossini. Its museum displays scores, instruments and portraits, and lets you peek into the boxes when no rehearsal is on.",
+   "h": "Inaugurado en 1778 sobre el solar de la iglesia de Santa Maria alla Scala, de donde toma el nombre.",
+   "h_en": "Opened in 1778 on the site of the church of Santa Maria alla Scala, from which it takes its name.",
+   "i": "Consulta entradas de última hora el mismo día; visita el museo para ver la sala sin comprar función.",
+   "i_en": "Check same-day last-minute tickets; visit the museum to see the auditorium without a performance."
+  },
+  "w_mil_smgrazie": {
+   "id": "w_mil_smgrazie",
+   "d": "En el refectorio de este convento dominico Leonardo pintó entre 1495 y 1498 'La Última Cena', obra maestra frágil y restaurada durante décadas. La iglesia, con ábside de Bramante, es Patrimonio de la Humanidad.",
+   "d_en": "In the refectory of this Dominican convent Leonardo painted 'The Last Supper' between 1495 and 1498, a fragile masterpiece restored over decades. The church, with its Bramante apse, is a World Heritage Site.",
+   "h": "Iglesia terminada en 1490; el mural y el conjunto son Patrimonio de la Humanidad desde 1980.",
+   "h_en": "Church completed in 1490; the mural and complex are a UNESCO World Heritage Site since 1980.",
+   "i": "Reserva la Última Cena con semanas de antelación; solo entran grupos pequeños cada 15 minutos.",
+   "i_en": "Book the Last Supper weeks ahead; only small groups enter every 15 minutes."
+  },
+  "w_mil_sforzesco": {
+   "id": "w_mil_sforzesco",
+   "d": "Residencia de los duques Sforza, este vasto castillo de ladrillo alberga hoy varios museos con la inacabada 'Piedad Rondanini' de Miguel Ángel y frescos de Leonardo. Sus patios abren directamente al Parco Sempione.",
+   "d_en": "Residence of the Sforza dukes, this vast brick castle now houses several museums including Michelangelo's unfinished 'Rondanini Pieta' and frescoes by Leonardo. Its courtyards open directly onto Parco Sempione.",
+   "h": "Construido en el siglo XV sobre una fortaleza previa; reconstruido y restaurado tras los daños napoleónicos.",
+   "h_en": "Built in the 15th century over an earlier fortress; rebuilt and restored after Napoleonic damage.",
+   "i": "El acceso a los patios es gratuito; una sola entrada combina todos los museos del castillo.",
+   "i_en": "Courtyard access is free; a single ticket covers all the castle museums."
+  },
+  "w_mil_pinacoteca": {
+   "id": "w_mil_pinacoteca",
+   "d": "Una de las colecciones de pintura más importantes de Italia, con obras maestras de Rafael, Caravaggio, Mantegna, Piero della Francesca y Hayez. Ocupa un palacio barroco compartido con la academia de bellas artes.",
+   "d_en": "One of Italy's most important painting collections, with masterpieces by Raphael, Caravaggio, Mantegna, Piero della Francesca and Hayez. It occupies a Baroque palace shared with the fine arts academy.",
+   "h": "Fundada por Napoleón en 1809 para reunir obras del norte de Italia en un único museo público.",
+   "h_en": "Founded by Napoleon in 1809 to gather works from northern Italy into a single public museum.",
+   "i": "No te pierdas 'El beso' de Hayez ni el 'Cristo muerto' de Mantegna; cierra los lunes.",
+   "i_en": "Don't miss Hayez's 'The Kiss' and Mantegna's 'Dead Christ'; closed on Mondays."
+  },
+  "w_mil_cimitero": {
+   "id": "w_mil_cimitero",
+   "d": "Más que un camposanto, es una galería de escultura funeraria monumental con panteones art nouveau, liberty y modernos. Aquí reposan figuras como el escritor Alessandro Manzoni, homenajeado en el Famedio de la entrada.",
+   "d_en": "More than a graveyard, it is a gallery of monumental funerary sculpture with Art Nouveau, Liberty and modern tombs. Figures such as writer Alessandro Manzoni rest here, honored in the Famedio at the entrance.",
+   "h": "Inaugurado en 1866 según el proyecto neomedieval de Carlo Maciachini.",
+   "h_en": "Opened in 1866 to Carlo Maciachini's neo-medieval design.",
+   "i": "Coge un plano en la entrada para localizar las tumbas más artísticas; la visita es gratuita.",
+   "i_en": "Grab a map at the entrance to find the most artistic tombs; admission is free."
+  },
+  "w_mil_santambrogio": {
+   "id": "w_mil_santambrogio",
+   "d": "Fundada por san Ambrosio en el siglo IV, es uno de los templos más antiguos de Milán y modelo del románico lombardo, con su atrio porticado y dos campanarios. Bajo el altar de oro reposan los restos del santo.",
+   "d_en": "Founded by St Ambrose in the 4th century, it is one of Milan's oldest churches and a model of Lombard Romanesque, with its porticoed atrium and two bell towers. The saint's remains lie beneath the golden altar.",
+   "h": "Consagrada en 386 y reconstruida en su forma actual entre los siglos XI y XII.",
+   "h_en": "Consecrated in 386 and rebuilt in its current form between the 11th and 12th centuries.",
+   "i": "Está a pocos pasos de la parada de metro homónima; entra en silencio si hay misa.",
+   "i_en": "It's steps from the metro stop of the same name; enter quietly if a mass is on."
+  },
+  "w_mil_sanlorenzo": {
+   "id": "w_mil_sanlorenzo",
+   "d": "Frente a la basílica se alza la mayor columnata romana de Milán, dieciséis columnas del siglo II reutilizadas como pórtico. La zona es hoy punto de encuentro juvenil y epicentro del aperitivo al atardecer.",
+   "d_en": "Facing the basilica stands Milan's largest Roman colonnade, sixteen 2nd-century columns reused as a portico. The area is now a youthful meeting point and hub of sunset aperitivo.",
+   "h": "Basílica de origen paleocristiano (siglo IV) reconstruida tras varios derrumbes hasta el siglo XVI.",
+   "h_en": "An early Christian basilica (4th century) rebuilt after several collapses up to the 16th century.",
+   "i": "Ideal al anochecer: siéntate en las escalinatas de las columnas con un aperitivo.",
+   "i_en": "Best at dusk: sit on the steps by the columns with an aperitivo."
+  },
+  "w_mil_arcopace": {
+   "id": "w_mil_arcopace",
+   "d": "Coronado por una cuadriga de bronce, este arco de mármol cierra el eje que va desde el Castello a través del Parco Sempione. La plaza que lo rodea concentra terrazas muy animadas al atardecer.",
+   "d_en": "Crowned by a bronze chariot, this marble arch closes the axis running from the Castello through Parco Sempione. The surrounding square fills with lively terraces at dusk.",
+   "h": "Iniciado en 1807 en honor a Napoleón y terminado en 1838 como Arco de la Paz.",
+   "h_en": "Begun in 1807 in Napoleon's honor and completed in 1838 as the Arch of Peace.",
+   "i": "Combínalo con un paseo por el parque; de noche queda iluminado y muy fotogénico.",
+   "i_en": "Combine it with a park walk; it is floodlit and very photogenic at night."
+  },
+  "w_mil_sanmaurizio": {
+   "id": "w_mil_sanmaurizio",
+   "d": "De fachada discreta, su interior deslumbra con frescos renacentistas de Bernardino Luini y su escuela que cubren cada muro. Anexa al museo arqueológico, es una de las visitas gratuitas más sorprendentes de la ciudad.",
+   "d_en": "With a plain facade, its interior dazzles with Renaissance frescoes by Bernardino Luini and his school covering every wall. Attached to the archaeological museum, it is one of the city's most surprising free visits.",
+   "h": "Construida en el siglo XVI para un convento benedictino femenino, hoy desamortizado.",
+   "h_en": "Built in the 16th century for a Benedictine nunnery, later secularized.",
+   "i": "Entrada gratuita; suele estar tranquila, perfecta para contemplar los frescos con calma.",
+   "i_en": "Free entry; usually quiet, perfect for taking in the frescoes at leisure."
+  },
+  "w_mil_novecento": {
+   "id": "w_mil_novecento",
+   "d": "Instalado en el Palazzo dell'Arengario, reúne futurismo, obras de Boccioni, Modigliani, Morandi y Fontana. Su rampa en espiral y los ventanales sobre la plaza del Duomo son parte del atractivo.",
+   "d_en": "Set in the Palazzo dell'Arengario, it gathers Futurism and works by Boccioni, Modigliani, Morandi and Fontana. Its spiral ramp and windows over the Duomo square are part of the appeal.",
+   "h": "Inaugurado en 2010 en un edificio de época fascista reconvertido en museo.",
+   "h_en": "Opened in 2010 in a Fascist-era building converted into a museum.",
+   "i": "Sube a la última sala para fotografiar el Duomo enmarcado por la obra de Fontana.",
+   "i_en": "Head to the top room to photograph the Duomo framed by Fontana's work."
+  },
+  "w_mil_sempione": {
+   "id": "w_mil_sempione",
+   "d": "Un pulmón verde de estilo inglés con estanques, puentes y prados que se extiende entre el Castello Sforzesco y el Arco della Pace. Alberga la Torre Branca, el acuario liberty y el Palazzo dell'Arte (Triennale).",
+   "d_en": "An English-style green lung with ponds, bridges and lawns stretching between the Castello Sforzesco and the Arco della Pace. It holds the Branca Tower, the Liberty-style aquarium and the Palazzo dell'Arte (Triennale).",
+   "h": "Diseñado a finales del siglo XIX sobre las antiguas plazas de armas napoleónicas.",
+   "h_en": "Laid out in the late 19th century over former Napoleonic parade grounds.",
+   "i": "Sube a la Torre Branca al atardecer para una panorámica de la ciudad y los Alpes.",
+   "i_en": "Ride up the Branca Tower at sunset for a panorama of the city and the Alps."
+  },
+  "w_mil_giardinimontanelli": {
+   "id": "w_mil_giardinimontanelli",
+   "d": "El primer jardín público de Milán, con avenidas arboladas, un pequeño museo de historia natural, un planetario y espacios de juego. Un refugio familiar entre los palacios liberty de Porta Venezia.",
+   "d_en": "Milan's first public garden, with tree-lined avenues, a small natural history museum, a planetarium and play areas. A family-friendly refuge among the Liberty mansions of Porta Venezia.",
+   "h": "Creado en 1784 y ampliado en el siglo XIX; dedicado al periodista Indro Montanelli.",
+   "h_en": "Created in 1784 and expanded in the 19th century; dedicated to journalist Indro Montanelli.",
+   "i": "Combínalo con un paseo por los edificios modernistas de Corso Venezia.",
+   "i_en": "Pair it with a walk past the Art Nouveau buildings of Corso Venezia."
+  },
+  "w_mil_ortobotanico": {
+   "id": "w_mil_ortobotanico",
+   "d": "Un pequeño oasis histórico oculto en pleno barrio de Brera, con parterres de plantas medicinales, dos enormes ginkgos del siglo XVIII y estanques. Un remanso de calma inesperado a pocos pasos de la Pinacoteca.",
+   "d_en": "A small historic oasis hidden in the heart of Brera, with beds of medicinal plants, two huge 18th-century ginkgos and ponds. An unexpected haven of calm steps from the Pinacoteca.",
+   "h": "Fundado en 1774 por María Teresa de Austria con fines didácticos.",
+   "h_en": "Founded in 1774 by Maria Theresa of Austria for teaching purposes.",
+   "i": "Entrada gratuita; los ginkgos se tiñen de dorado en otoño, la mejor época para verlo.",
+   "i_en": "Free entry; the ginkgos turn golden in autumn, the best time to visit."
+  },
+  "w_mil_bam": {
+   "id": "w_mil_bam",
+   "d": "Un parque de diseño con senderos geométricos, círculos de árboles y praderas al pie del Bosco Verticale y la torre Unicredit. Escenario perfecto para ver el contraste entre naturaleza y arquitectura vanguardista.",
+   "d_en": "A design park with geometric paths, tree circles and meadows at the foot of the Bosco Verticale and the Unicredit tower. A perfect setting to see nature meet cutting-edge architecture.",
+   "h": "Inaugurado en 2018 como parte de la regeneración urbana de Porta Nuova.",
+   "h_en": "Opened in 2018 as part of the Porta Nuova urban regeneration.",
+   "i": "Ve al atardecer para fotografiar el Bosco Verticale con luz cálida.",
+   "i_en": "Go at sunset to photograph the Bosco Verticale in warm light."
+  },
+  "w_mil_citylife": {
+   "id": "w_mil_citylife",
+   "d": "Uno de los mayores espacios peatonales de Milán, rodeado por los rascacielos de Zaha Hadid, Isozaki y Libeskind. Combina paseos verdes, obras de arte al aire libre y un centro comercial de diseño.",
+   "d_en": "One of Milan's largest pedestrian spaces, ringed by the skyscrapers of Zaha Hadid, Isozaki and Libeskind. It blends green walks, outdoor artworks and a design-led shopping mall.",
+   "h": "Desarrollado desde 2010 sobre el antiguo recinto de la Fiera de Milán.",
+   "h_en": "Developed from 2010 over the former Milan trade fair grounds.",
+   "i": "Alquila una bici o patina por sus amplios paseos; hay mercado de agricultores algunos días.",
+   "i_en": "Rent a bike or skate along its wide promenades; a farmers' market runs some days."
+  },
+  "w_mil_guastalla": {
+   "id": "w_mil_guastalla",
+   "d": "Un jardín barroco íntimo con un estanque de peces de estilo veneciano, una capilla neoclásica y una gruta. Poco concurrido, es un rincón sereno cerca de la Universidad Estatal y el Duomo.",
+   "d_en": "An intimate Baroque garden with a Venetian-style fish pond, a neoclassical chapel and a grotto. Rarely crowded, it is a serene corner near the State University and the Duomo.",
+   "h": "Creado en 1555, es considerado el jardín público más antiguo de la ciudad.",
+   "h_en": "Created in 1555, it is regarded as the city's oldest public garden.",
+   "i": "Perfecto para un descanso tranquilo tras visitar el centro histórico.",
+   "i_en": "Perfect for a quiet break after touring the historic center."
+  },
+  "w_mil_navigli": {
+   "id": "w_mil_navigli",
+   "d": "El barrio de los antiguos canales diseñados en parte por Leonardo, hoy la zona de vida nocturna más popular de Milán. Sus riberas se llenan de restaurantes, terrazas y anticuarios, con mercado el último domingo de mes.",
+   "d_en": "The district of the old canals, partly engineered by Leonardo, is now Milan's most popular nightlife area. Its banks fill with restaurants, terraces and antique shops, with a market on the last Sunday of the month.",
+   "h": "Los canales datan de la Edad Media y sirvieron para transportar el mármol del Duomo.",
+   "h_en": "The canals date from the Middle Ages and once carried the Duomo's marble.",
+   "i": "Llega hacia las 18:00 para el aperitivo y pasea por el Naviglio Grande y la Vicolo dei Lavandai.",
+   "i_en": "Arrive around 6pm for aperitivo and stroll the Naviglio Grande and Vicolo dei Lavandai."
+  },
+  "w_mil_brera": {
+   "id": "w_mil_brera",
+   "d": "El corazón artístico de Milán, con callejuelas adoquinadas, galerías, anticuarios, cafés con encanto y adivinos. Alrededor de la Pinacoteca y la academia se respira un ambiente romántico y elegante, ideal para pasear.",
+   "d_en": "Milan's artistic heart, with cobbled lanes, galleries, antique dealers, charming cafes and fortune-tellers. Around the Pinacoteca and the academy the mood is romantic and elegant, ideal for wandering.",
+   "h": "Barrio de origen medieval que floreció como distrito de artistas desde el siglo XIX.",
+   "h_en": "A medieval district that flourished as an artists' quarter from the 19th century.",
+   "i": "Piérdete sin rumbo por sus callejuelas y toma algo en una terraza al caer la tarde.",
+   "i_en": "Wander its lanes aimlessly and grab a drink on a terrace in the early evening."
+  },
+  "w_mil_corsocomo": {
+   "id": "w_mil_corsocomo",
+   "d": "Una animada calle peatonal entre Porta Garibaldi y Porta Nuova, célebre por el concept store 10 Corso Como, bares de coctelería y locales de moda. Punto de partida perfecto hacia los rascacielos de Gae Aulenti.",
+   "d_en": "A lively pedestrian street between Porta Garibaldi and Porta Nuova, famous for the 10 Corso Como concept store, cocktail bars and fashionable venues. A perfect starting point toward the Gae Aulenti skyscrapers.",
+   "h": "Se consolidó como eje de moda y ocio a finales del siglo XX.",
+   "h_en": "It established itself as a fashion and nightlife hub in the late 20th century.",
+   "i": "Combina las compras de día con copas de noche; enlaza a pie con Piazza Gae Aulenti.",
+   "i_en": "Mix daytime shopping with evening drinks; walk on to Piazza Gae Aulenti."
+  },
+  "w_mil_gaeaulenti": {
+   "id": "w_mil_gaeaulenti",
+   "d": "El símbolo del Milán moderno: una plaza circular elevada con fuentes, dominada por la torre Unicredit y cercana al Bosco Verticale. Zona de tiendas, cafés y arquitectura vanguardista muy fotografiada.",
+   "d_en": "The symbol of modern Milan: a raised circular square with fountains, dominated by the Unicredit tower and close to the Bosco Verticale. A much-photographed area of shops, cafes and avant-garde architecture.",
+   "h": "Inaugurada en 2012 dentro del proyecto de regeneración de Porta Nuova.",
+   "h_en": "Inaugurated in 2012 as part of the Porta Nuova regeneration project.",
+   "i": "Ven de noche cuando las torres y fuentes se iluminan; sube a algún bar con terraza.",
+   "i_en": "Come at night when the towers and fountains light up; find a rooftop bar."
+  },
+  "w_mil_montenapoleone": {
+   "id": "w_mil_montenapoleone",
+   "d": "El rectángulo de oro de las compras milanesas, con Via Montenapoleone, Via della Spiga y calles vecinas repletas de firmas de lujo, joyerías y ateliers. Escaparate del prestigio de Milán como capital de la moda.",
+   "d_en": "Milan's golden shopping rectangle, with Via Montenapoleone, Via della Spiga and neighboring streets full of luxury houses, jewelers and ateliers. A showcase of Milan's prestige as a fashion capital.",
+   "h": "Consolidado como distrito de moda a lo largo del siglo XX sobre calles de trazado antiguo.",
+   "h_en": "Established as a fashion district through the 20th century over old street layouts.",
+   "i": "Aunque no compres, merece un paseo por sus escaparates y palacios históricos.",
+   "i_en": "Even without buying, it's worth a stroll past the windows and historic palazzi."
+  },
+  "w_mil_sansiro": {
+   "id": "w_mil_sansiro",
+   "d": "Uno de los templos del fútbol europeo, con capacidad para más de 75.000 espectadores y sus características rampas helicoidales y torres. Alberga los partidos del AC Milan y el Inter, además de grandes conciertos.",
+   "d_en": "One of European football's cathedrals, seating over 75,000 with its distinctive helical ramps and towers. It hosts AC Milan and Inter matches as well as major concerts.",
+   "h": "Inaugurado en 1926 y ampliado varias veces, especialmente para el Mundial de 1990.",
+   "h_en": "Opened in 1926 and expanded several times, notably for the 1990 World Cup.",
+   "i": "Reserva el tour con museo si no hay partido; se llega en metro hasta San Siro Stadio.",
+   "i_en": "Book the stadium tour with museum on non-match days; reach it by metro to San Siro Stadio."
+  },
+  "w_mil_fondazioneprada": {
+   "id": "w_mil_fondazioneprada",
+   "d": "Un audaz complejo cultural diseñado por Rem Koolhaas sobre una antigua destilería, con la llamativa 'Haunted House' recubierta de pan de oro. Reúne exposiciones vanguardistas y el retro Bar Luce ideado por Wes Anderson.",
+   "d_en": "A bold cultural complex designed by Rem Koolhaas in a former distillery, with the striking gold-leaf 'Haunted House'. It gathers avant-garde exhibitions and the retro Bar Luce conceived by Wes Anderson.",
+   "h": "Inaugurada en su sede actual en 2015 como fundación de arte de la casa Prada.",
+   "h_en": "Opened at its current site in 2015 as the Prada house's art foundation.",
+   "i": "Toma un café en el Bar Luce de Wes Anderson aunque no visites las exposiciones.",
+   "i_en": "Have a coffee at Wes Anderson's Bar Luce even if you skip the exhibitions."
+  },
+  "w_mil_luini": {
+   "id": "w_mil_luini",
+   "d": "Una institución milanesa desde 1949, famosa por sus panzerotti, empanadas fritas u horneadas rellenas de tomate y mozzarella. Se come de pie y siempre hay cola, señal de su popularidad imbatible.",
+   "d_en": "A Milanese institution since 1949, famous for its panzerotti, fried or baked turnovers filled with tomato and mozzarella. Eaten standing up, with a permanent queue that proves its unbeatable popularity.",
+   "h": "Abierta en 1949 por una familia de origen pullés, a un paso de la plaza del Duomo.",
+   "h_en": "Opened in 1949 by a family of Apulian origin, steps from the Duomo square.",
+   "i": "Pide el panzerotto clásico de tomate y mozzarella; ten a mano efectivo y paciencia para la cola.",
+   "i_en": "Order the classic tomato-and-mozzarella panzerotto; bring cash and patience for the queue."
+  },
+  "w_mil_peck": {
+   "id": "w_mil_peck",
+   "d": "Una casa de delicatessen fundada en 1883, con quesos, embutidos, vinos, trufas y pastelería de altísima calidad. Cuenta con charcutería, bar y restaurante, perfecta para probar o comprar lo mejor de la despensa italiana.",
+   "d_en": "A delicatessen founded in 1883, with cheeses, cured meats, wines, truffles and top-quality pastries. It has a deli counter, bar and restaurant, perfect to taste or buy the best of the Italian pantry.",
+   "h": "Fundada en 1883 por Francesco Peck, es una de las tiendas gourmet más antiguas de Milán.",
+   "h_en": "Founded in 1883 by Francesco Peck, it is one of Milan's oldest gourmet shops.",
+   "i": "Ideal para comprar souvenirs gastronómicos; el bar sirve un buen aperitivo al mediodía.",
+   "i_en": "Great for edible souvenirs; the bar serves a good midday aperitivo."
+  },
+  "w_mil_camparino": {
+   "id": "w_mil_camparino",
+   "d": "Un café-bar liberty de 1915 en la esquina de la Galleria, cuna del rito del aperitivo milanés. Con sus mosaicos, barras de latón y un piso superior gastronómico, es el lugar clásico para un Negroni o un Campari Soda.",
+   "d_en": "A 1915 Liberty-style cafe-bar on the corner of the Galleria, cradle of the Milanese aperitivo ritual. With its mosaics, brass counters and an upstairs dining room, it is the classic spot for a Negroni or Campari Soda.",
+   "h": "Abierto en 1915 por la familia Campari y restaurado conservando su decoración modernista.",
+   "h_en": "Opened in 1915 by the Campari family and restored preserving its Art Nouveau decor.",
+   "i": "Toma un Campari en la barra de pie para vivir el aperitivo como los milaneses.",
+   "i_en": "Have a Campari standing at the bar to experience aperitivo like the locals."
+  },
+  "w_mil_marchesi": {
+   "id": "w_mil_marchesi",
+   "d": "Una refinada pastelería fundada en 1824, hoy vinculada a Prada, célebre por sus bombones, panettone y su salón de té de estilo art déco. La sucursal de Via Montenapoleone es la más elegante para una pausa dulce.",
+   "d_en": "A refined patisserie founded in 1824, now linked to Prada, celebrated for its chocolates, panettone and Art Deco tea room. The Via Montenapoleone branch is the most elegant spot for a sweet break.",
+   "h": "Fundada en 1824, es una de las pastelerías más antiguas y prestigiosas de Milán.",
+   "h_en": "Founded in 1824, it is one of Milan's oldest and most prestigious patisseries.",
+   "i": "Sube al salón de té para un capuchino con pastelería en un ambiente de época.",
+   "i_en": "Go up to the tea room for a cappuccino and pastries in a period setting."
+  },
+  "w_mil_mercatometropolitano": {
+   "id": "w_mil_mercatometropolitano",
+   "d": "Un animado mercado de comida en la antigua estación de Porta Genova, con puestos de pasta fresca, pizza, quesos, cerveza artesana y productos regionales. Perfecto para picar entre varios sabores en un ambiente informal.",
+   "d_en": "A lively food market in the former Porta Genova station, with stalls of fresh pasta, pizza, cheeses, craft beer and regional products. Perfect for grazing across many flavors in a casual setting.",
+   "h": "Abierto en 2015 como mercado urbano dedicado al producto local y artesano.",
+   "h_en": "Opened in 2015 as an urban market devoted to local and artisan produce.",
+   "i": "Ve con hambre y comparte varios platos; queda cerca de Navigli para seguir la noche.",
+   "i_en": "Go hungry and share several dishes; it's near Navigli to continue the evening."
+  },
+  "w_mil_ratana": {
+   "id": "w_mil_ratana",
+   "d": "Un restaurante muy valorado por su versión moderna de los clásicos lombardos: risotto alla milanese, ossobuco y cotoletta. Ocupa un edificio liberty con jardín, a la sombra de los rascacielos de Porta Nuova.",
+   "d_en": "A highly regarded restaurant serving a modern take on Lombard classics: risotto alla milanese, ossobuco and cotoletta. It occupies a Liberty building with a garden in the shadow of the Porta Nuova towers.",
+   "h": "Ubicado en un antiguo pabellón de principios del siglo XX rehabilitado como restaurante.",
+   "h_en": "Set in a restored early-20th-century pavilion turned restaurant.",
+   "i": "Reserva con antelación y pide el risotto azafranado con ossobuco, plato estrella de la casa.",
+   "i_en": "Book ahead and order the saffron risotto with ossobuco, the house signature."
+  }
+ },
+ "food": {
+  "w_mil_luini": {
+   "cuisine": "Comida callejera / panzerotti",
+   "price": "3–6 €",
+   "hours": "Lun–Sáb 10:00–20:00, Dom cerrado"
+  },
+  "w_mil_peck": {
+   "cuisine": "Delicatessen / italiana gourmet",
+   "price": "15–50 €",
+   "hours": "Lun–Sáb 9:00–20:00, Dom 10:00–17:00"
+  },
+  "w_mil_camparino": {
+   "cuisine": "Aperitivos / coctelería",
+   "price": "10–20 €",
+   "hours": "Todos los días 7:30–24:00"
+  },
+  "w_mil_marchesi": {
+   "cuisine": "Pastelería / cafetería",
+   "price": "8–20 €",
+   "hours": "Todos los días 7:30–20:30"
+  },
+  "w_mil_mercatometropolitano": {
+   "cuisine": "Mercado gastronómico / italiana variada",
+   "price": "8–25 €",
+   "hours": "Todos los días 8:00–24:00"
+  },
+  "w_mil_ratana": {
+   "cuisine": "Milanesa / lombarda tradicional",
+   "price": "35–60 €",
+   "hours": "Todos los días 12:30–14:30 y 19:30–23:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Milán",
+   "items": [
+    {
+     "name": "Panettone artesano",
+     "price": "20–45 €",
+     "desc": "El bizcocho dulce navideño nacido en Milán, con pasas y fruta confitada."
+    },
+    {
+     "name": "Campari",
+     "price": "12–20 €",
+     "desc": "El icónico aperitivo rojo milanés, base del Negroni y el Americano."
+    },
+    {
+     "name": "Miniatura del Duomo",
+     "price": "5–25 €",
+     "desc": "Réplica de la catedral gótica, el recuerdo más clásico de la ciudad."
+    },
+    {
+     "name": "Accesorios de moda",
+     "price": "30–300 €",
+     "desc": "Bufandas, corbatas y bolsos de la capital mundial del diseño."
+    },
+    {
+     "name": "Gorgonzola y quesos lombardos",
+     "price": "8–25 €",
+     "desc": "Quesos DOP de la región, ideales al vacío para el viaje."
+    }
+   ],
+   "shops": [
+    "Peck",
+    "Galleria Vittorio Emanuele II",
+    "Quadrilatero della Moda (Via Montenapoleone)",
+    "Corso Como",
+    "Mercado de Navigli"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Reserva la entrada a la Última Cena de Leonardo con semanas de antelación: las plazas se agotan enseguida.",
+   "Sube a las terrazas del Duomo (a pie o en ascensor) para caminar entre las agujas góticas con vistas a los Alpes.",
+   "El metro es rápido y práctico; compra un billete diario si vas a moverte mucho entre barrios.",
+   "Vive el 'aperitivo' entre las 18:00 y 20:00 en Navigli o Brera: una bebida incluye picoteo abundante.",
+   "Muchos museos cierran los lunes; planifica el Castello, la Pinacoteca y el Novecento en otros días."
+  ],
+  "en": [
+   "Book Leonardo's Last Supper weeks ahead: timed slots sell out almost immediately.",
+   "Climb the Duomo rooftop (stairs or lift) to walk among the Gothic spires with Alpine views.",
+   "The metro is fast and easy; a day pass pays off if you hop between neighborhoods.",
+   "Enjoy 'aperitivo' from 6–8pm in Navigli or Brera: one drink comes with generous snacks.",
+   "Many museums close on Mondays; save the Castello, Pinacoteca and Novecento for other days."
+  ]
+ },
+ "climate": {
+  "hi": [
+   6,
+   9,
+   14,
+   18,
+   23,
+   27,
+   30,
+   29,
+   25,
+   18,
+   11,
+   6
+  ],
+  "lo": [
+   0,
+   2,
+   5,
+   9,
+   13,
+   17,
+   19,
+   19,
+   15,
+   10,
+   5,
+   1
+  ]
+ },
+ "tr": {
+  "La colosal catedral gótica de mármol, símbolo de Milán.": "The colossal Gothic marble cathedral, symbol of Milan.",
+  "Elegante galería comercial cubierta de hierro y cristal.": "Elegant iron-and-glass covered shopping arcade.",
+  "El templo mundial de la ópera y el ballet.": "The world's temple of opera and ballet.",
+  "Iglesia renacentista con el mural de Leonardo da Vinci.": "Renaissance church with Leonardo da Vinci's mural.",
+  "Fortaleza renacentista con museos y arte de Miguel Ángel.": "Renaissance fortress with museums and Michelangelo art.",
+  "Gran pinacoteca de arte italiano en el corazón de Brera.": "Major gallery of Italian art in the heart of Brera.",
+  "Cementerio-museo al aire libre lleno de esculturas.": "Open-air cemetery-museum full of sculptures.",
+  "Joya románica dedicada al patrón de la ciudad.": "Romanesque gem dedicated to the city's patron.",
+  "Basílica paleocristiana ante columnas romanas.": "Early Christian basilica facing Roman columns.",
+  "Arco triunfal neoclásico al final del Parco Sempione.": "Neoclassical triumphal arch at the end of Parco Sempione.",
+  "La 'Capilla Sixtina de Milán', cubierta de frescos.": "The 'Sistine Chapel of Milan', covered in frescoes.",
+  "Arte italiano del siglo XX con vistas al Duomo.": "20th-century Italian art with Duomo views.",
+  "El gran parque romántico junto al Castello.": "The large romantic park beside the Castello.",
+  "El parque público histórico de Porta Venezia.": "Porta Venezia's historic public park.",
+  "Jardín botánico escondido tras el palacio de Brera.": "Botanical garden hidden behind the Brera palace.",
+  "Parque contemporáneo entre los rascacielos de Porta Nuova.": "Contemporary park among the Porta Nuova skyscrapers.",
+  "Amplio parque peatonal entre las Tres Torres.": "Large pedestrian park among the Three Towers.",
+  "El jardín histórico más antiguo de Milán.": "Milan's oldest historic garden.",
+  "Canales históricos con bares, ocio y aperitivo.": "Historic canals lined with bars, nightlife and aperitivo.",
+  "Barrio bohemio de calles empedradas y arte.": "Bohemian district of cobbled streets and art.",
+  "Calle peatonal de moda, diseño y vida nocturna.": "Pedestrian street of fashion, design and nightlife.",
+  "Plaza futurista rodeada de rascacielos.": "Futuristic square ringed by skyscrapers.",
+  "El distrito del lujo y la alta costura.": "The luxury and haute couture district.",
+  "El mítico estadio de Milan e Inter.": "The legendary home of Milan and Inter.",
+  "Centro de arte contemporáneo con la Torre dorada.": "Contemporary art center with the golden Haunted House.",
+  "Legendaria panzerottería junto al Duomo.": "Legendary panzerotti shop near the Duomo.",
+  "Templo gourmet histórico de la ciudad.": "The city's historic gourmet temple.",
+  "El bar histórico donde nació el aperitivo Campari.": "The historic bar where the Campari aperitivo was born.",
+  "Elegante pastelería histórica de Montenapoleone.": "Elegant historic patisserie on Montenapoleone.",
+  "Gran mercado gastronómico de productos italianos.": "Large food hall of Italian producers.",
+  "Cocina milanesa tradicional junto a Porta Nuova.": "Traditional Milanese cuisine near Porta Nuova.",
+  "Milán": "Milán"
+ }
+}

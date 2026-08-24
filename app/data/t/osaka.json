@@ -1,0 +1,703 @@
+{
+ "id": "osaka",
+ "name": "Osaka",
+ "country": "WORLD",
+ "center": [
+  34.69376,
+  135.50218
+ ],
+ "pois": [
+  {
+   "id": "w_osa_castle",
+   "cat": "monuments",
+   "name": "Castillo de Osaka",
+   "icon": "🏯",
+   "lat": 34.68758,
+   "lng": 135.52594,
+   "desc": "Emblemático castillo del siglo XVI rodeado de fosos y murallas."
+  },
+  {
+   "id": "w_osa_sumiyoshi",
+   "cat": "monuments",
+   "name": "Sumiyoshi Taisha",
+   "icon": "⛩️",
+   "lat": 34.61245,
+   "lng": 135.49327,
+   "desc": "Uno de los santuarios sintoístas más antiguos de Japón."
+  },
+  {
+   "id": "w_osa_shitennoji",
+   "cat": "monuments",
+   "name": "Shitenno-ji",
+   "icon": "🛕",
+   "lat": 34.65449,
+   "lng": 135.51654,
+   "desc": "El primer templo budista oficial de Japón, del año 593."
+  },
+  {
+   "id": "w_osa_tsutenkaku",
+   "cat": "monuments",
+   "name": "Torre Tsutenkaku",
+   "icon": "🗼",
+   "lat": 34.65253,
+   "lng": 135.50637,
+   "desc": "Torre retro de 1956, símbolo del barrio de Shinsekai."
+  },
+  {
+   "id": "w_osa_umeda_sky",
+   "cat": "monuments",
+   "name": "Umeda Sky Building",
+   "icon": "🏙️",
+   "lat": 34.7053,
+   "lng": 135.49034,
+   "desc": "Rascacielos con mirador circular flotante 'Jardín Flotante'."
+  },
+  {
+   "id": "w_osa_abeno_harukas",
+   "cat": "monuments",
+   "name": "Abeno Harukas",
+   "icon": "🌆",
+   "lat": 34.64588,
+   "lng": 135.51368,
+   "desc": "El rascacielos más alto de Japón por altura de edificio."
+  },
+  {
+   "id": "w_osa_hozenji",
+   "cat": "monuments",
+   "name": "Hozenji Yokocho",
+   "icon": "🏮",
+   "lat": 34.66838,
+   "lng": 135.50231,
+   "desc": "Callejón empedrado con el templo del Buda cubierto de musgo."
+  },
+  {
+   "id": "w_osa_tenmangu",
+   "cat": "monuments",
+   "name": "Osaka Tenmangu",
+   "icon": "⛩️",
+   "lat": 34.69642,
+   "lng": 135.5128,
+   "desc": "Santuario dedicado al dios de los estudios y protagonista del Tenjin Matsuri."
+  },
+  {
+   "id": "w_osa_namba_yasaka",
+   "cat": "monuments",
+   "name": "Santuario Namba Yasaka",
+   "icon": "🦁",
+   "lat": 34.66156,
+   "lng": 135.4967,
+   "desc": "Santuario famoso por su enorme cabeza de león que engulle la mala suerte."
+  },
+  {
+   "id": "w_osa_central_hall",
+   "cat": "monuments",
+   "name": "Salón Público Central de Nakanoshima",
+   "icon": "🏛️",
+   "lat": 34.69306,
+   "lng": 135.50611,
+   "desc": "Elegante edificio neorrenacentista de ladrillo de 1918."
+  },
+  {
+   "id": "w_osa_isshinji",
+   "cat": "monuments",
+   "name": "Templo Isshin-ji",
+   "icon": "🛕",
+   "lat": 34.6571,
+   "lng": 135.5136,
+   "desc": "Templo conocido por sus estatuas de Buda hechas con cenizas."
+  },
+  {
+   "id": "w_osa_ohatsu",
+   "cat": "monuments",
+   "name": "Santuario Ohatsu Tenjin",
+   "icon": "⛩️",
+   "lat": 34.69988,
+   "lng": 135.50177,
+   "desc": "Santuario del amor ligado a una famosa tragedia teatral."
+  },
+  {
+   "id": "w_osa_castle_park",
+   "cat": "nature",
+   "name": "Parque del Castillo de Osaka",
+   "icon": "🌸",
+   "lat": 34.68606,
+   "lng": 135.5229,
+   "desc": "Gran parque urbano con cerezos y el jardín Nishinomaru."
+  },
+  {
+   "id": "w_osa_nakanoshima_park",
+   "cat": "nature",
+   "name": "Parque de Nakanoshima",
+   "icon": "🌹",
+   "lat": 34.69255,
+   "lng": 135.51073,
+   "desc": "Parque fluvial con rosaledas entre dos ríos."
+  },
+  {
+   "id": "w_osa_expo_park",
+   "cat": "nature",
+   "name": "Parque Conmemorativo de la Expo '70",
+   "icon": "🌳",
+   "lat": 34.80656,
+   "lng": 135.53178,
+   "desc": "Enorme parque con la icónica Torre del Sol de Taro Okamoto."
+  },
+  {
+   "id": "w_osa_minoo",
+   "cat": "nature",
+   "name": "Parque de Minoo y su cascada",
+   "icon": "🍁",
+   "lat": 34.85398,
+   "lng": 135.4712,
+   "desc": "Valle boscoso con una cascada de 33 m, célebre en otoño."
+  },
+  {
+   "id": "w_osa_tennoji_park",
+   "cat": "nature",
+   "name": "Parque de Tennoji",
+   "icon": "🦒",
+   "lat": 34.65137,
+   "lng": 135.51013,
+   "desc": "Parque histórico con zoo, jardín japonés y museo de arte."
+  },
+  {
+   "id": "w_osa_utsubo_park",
+   "cat": "nature",
+   "name": "Parque Utsubo",
+   "icon": "🌷",
+   "lat": 34.68558,
+   "lng": 135.49075,
+   "desc": "Oasis urbano con rosaleda y avenidas de árboles."
+  },
+  {
+   "id": "w_osa_usj",
+   "cat": "ocio",
+   "name": "Universal Studios Japan",
+   "icon": "🎢",
+   "lat": 34.66546,
+   "lng": 135.43247,
+   "desc": "Gran parque temático con Super Nintendo World y Harry Potter."
+  },
+  {
+   "id": "w_osa_kaiyukan",
+   "cat": "ocio",
+   "name": "Acuario Kaiyukan",
+   "icon": "🐋",
+   "lat": 34.6549,
+   "lng": 135.4288,
+   "desc": "Uno de los mayores acuarios del mundo, con tiburón ballena."
+  },
+  {
+   "id": "w_osa_dotonbori",
+   "cat": "ocio",
+   "name": "Dotonbori y el cartel de Glico",
+   "icon": "🌃",
+   "lat": 34.66889,
+   "lng": 135.50128,
+   "desc": "Canal lleno de neones, restaurantes y el mítico corredor Glico."
+  },
+  {
+   "id": "w_osa_shinsekai",
+   "cat": "ocio",
+   "name": "Shinsekai",
+   "icon": "🏮",
+   "lat": 34.65192,
+   "lng": 135.50556,
+   "desc": "Barrio retro y bullicioso a los pies de la Tsutenkaku."
+  },
+  {
+   "id": "w_osa_amerikamura",
+   "cat": "ocio",
+   "name": "Amerikamura",
+   "icon": "🛹",
+   "lat": 34.67169,
+   "lng": 135.49781,
+   "desc": "Barrio juvenil de moda urbana, tiendas vintage y arte callejero."
+  },
+  {
+   "id": "w_osa_namba",
+   "cat": "ocio",
+   "name": "Namba",
+   "icon": "🛍️",
+   "lat": 34.66174,
+   "lng": 135.50065,
+   "desc": "Corazón comercial y de ocio del sur de Osaka (Minami)."
+  },
+  {
+   "id": "w_osa_kuromon",
+   "cat": "food",
+   "name": "Mercado Kuromon Ichiba",
+   "icon": "🦐",
+   "lat": 34.6649,
+   "lng": 135.50649,
+   "desc": "La 'cocina de Osaka': mercado callejero de marisco y comida."
+  },
+  {
+   "id": "w_osa_kushikatsu_daruma",
+   "cat": "food",
+   "name": "Kushikatsu Daruma (Shinsekai)",
+   "icon": "🍢",
+   "lat": 34.65199,
+   "lng": 135.50623,
+   "desc": "Cuna del kushikatsu, brochetas rebozadas y fritas."
+  },
+  {
+   "id": "w_osa_chibo",
+   "cat": "food",
+   "name": "Okonomiyaki Chibo (Dotonbori)",
+   "icon": "🍳",
+   "lat": 34.66862,
+   "lng": 135.50145,
+   "desc": "Clásico del okonomiyaki, la 'tortilla' salada de Osaka."
+  },
+  {
+   "id": "w_osa_wanaka",
+   "cat": "food",
+   "name": "Takoyaki Wanaka (Sennichimae)",
+   "icon": "🐙",
+   "lat": 34.66524,
+   "lng": 135.50353,
+   "desc": "Takoyaki, las bolitas de pulpo emblema de Osaka."
+  },
+  {
+   "id": "w_osa_551_horai",
+   "cat": "food",
+   "name": "551 Horai (Namba)",
+   "icon": "🥟",
+   "lat": 34.6656,
+   "lng": 135.5013,
+   "desc": "Famosos butaman, bollos al vapor rellenos de cerdo."
+  },
+  {
+   "id": "w_osa_tsurutontan",
+   "cat": "food",
+   "name": "Tsurutontan (Soemoncho)",
+   "icon": "🍜",
+   "lat": 34.6706,
+   "lng": 135.50156,
+   "desc": "Udon de autor en cuencos gigantes junto a Dotonbori."
+  }
+ ],
+ "extra": {
+  "w_osa_castle": {
+   "id": "w_osa_castle",
+   "d": "Construido por Toyotomi Hideyoshi en 1583, el castillo es el gran símbolo de Osaka. La torre principal, reconstruida en hormigón, alberga un museo sobre la historia de la ciudad y ofrece vistas panorámicas desde su mirador superior. Sus imponentes murallas de piedra y anchos fosos son de las mayores de Japón.",
+   "d_en": "Built by Toyotomi Hideyoshi in 1583, the castle is Osaka's great symbol. The reconstructed main keep houses a museum on the city's history and offers panoramic views from its top-floor observation deck. Its massive stone walls and wide moats rank among the largest in Japan.",
+   "h": "9:00–17:00 (última entrada 16:30)",
+   "h_en": "9:00–17:00 (last entry 16:30)",
+   "i": "La torre está a unos 15 min a pie desde la estación de metro Tanimachi 4-chome; el parque es gratuito.",
+   "i_en": "The keep is about a 15-min walk from Tanimachi 4-chome subway station; the park itself is free."
+  },
+  "w_osa_sumiyoshi": {
+   "id": "w_osa_sumiyoshi",
+   "d": "Fundado en el siglo III, Sumiyoshi Taisha da nombre a un estilo arquitectónico propio (Sumiyoshi-zukuri) anterior a la influencia budista. Es famoso por su Sorihashi, el empinado puente arqueado rojo sobre el estanque, y por reunir a miles de fieles en Año Nuevo.",
+   "d_en": "Founded in the 3rd century, Sumiyoshi Taisha gives its name to its own architectural style (Sumiyoshi-zukuri) predating Buddhist influence. It is famous for the Sorihashi, the steep red arched bridge over the pond, and draws thousands of worshippers at New Year.",
+   "h": "6:00–17:00 (abierto todo el día)",
+   "h_en": "6:00–17:00 (grounds open daily)",
+   "i": "Justo al lado de la estación Sumiyoshitaisha del tranvía Hankai; entrada gratuita.",
+   "i_en": "Right beside Sumiyoshitaisha station on the Hankai tram line; free entry."
+  },
+  "w_osa_shitennoji": {
+   "id": "w_osa_shitennoji",
+   "d": "Fundado por el príncipe Shotoku en 593, Shitenno-ji es considerado el templo budista más antiguo administrado por el Estado en Japón. Su recinto central, de pago, conserva una pagoda de cinco pisos y un salón principal alineados en el clásico trazado 'estilo Shitennoji'. El mercadillo del día 21 de cada mes es muy popular.",
+   "d_en": "Founded by Prince Shotoku in 593, Shitenno-ji is regarded as the oldest state-administered Buddhist temple in Japan. Its paid inner precinct preserves a five-story pagoda and main hall aligned in the classic 'Shitennoji layout'. The flea market on the 21st of each month is very popular.",
+   "h": "8:30–16:30 (recinto central)",
+   "h_en": "8:30–16:30 (inner precinct)",
+   "i": "A pocos minutos de la estación Shitennoji-mae Yuhigaoka; el recinto exterior es gratuito.",
+   "i_en": "A few minutes from Shitennoji-mae Yuhigaoka station; the outer grounds are free."
+  },
+  "w_osa_tsutenkaku": {
+   "id": "w_osa_tsutenkaku",
+   "d": "La Tsutenkaku, cuyo nombre significa 'torre que llega al cielo', es el corazón nostálgico de Shinsekai. Su mirador ofrece vistas del sur de Osaka y en su interior habita Billiken, el dios de la buena suerte cuyos pies se frotan para pedir deseos. De noche se ilumina con colores que anuncian el tiempo.",
+   "d_en": "The Tsutenkaku, whose name means 'tower reaching heaven', is the nostalgic heart of Shinsekai. Its observation deck gives views over southern Osaka, and inside lives Billiken, the god of good luck whose feet are rubbed for wishes. At night it lights up in colors that forecast the weather.",
+   "h": "10:00–20:00 (última entrada 19:30)",
+   "h_en": "10:00–20:00 (last entry 19:30)",
+   "i": "A 5 min de la estación Ebisucho; combina la visita con un paseo por Shinsekai.",
+   "i_en": "5 min from Ebisucho station; pair the visit with a stroll through Shinsekai."
+  },
+  "w_osa_umeda_sky": {
+   "id": "w_osa_umeda_sky",
+   "d": "Dos torres de 173 m unidas en lo alto por el Floating Garden Observatory, un anillo abierto al aire libre con vistas de 360º sobre Osaka. Diseñado por Hiroshi Hara, es uno de los edificios más reconocibles de la ciudad y un punto perfecto para el atardecer. En su sótano recrea una calle comercial de la era Showa.",
+   "d_en": "Two 173 m towers joined at the top by the Floating Garden Observatory, an open-air ring with 360º views over Osaka. Designed by Hiroshi Hara, it is one of the city's most recognizable buildings and a perfect sunset spot. Its basement recreates a Showa-era shopping street.",
+   "h": "9:30–22:30 (última entrada 22:00)",
+   "h_en": "9:30–22:30 (last entry 22:00)",
+   "i": "Unos 9 min a pie desde la estación de Osaka/Umeda por el paso subterráneo.",
+   "i_en": "About a 9-min walk from Osaka/Umeda station via the underground passage."
+  },
+  "w_osa_abeno_harukas": {
+   "id": "w_osa_abeno_harukas",
+   "d": "Con 300 m, Abeno Harukas fue durante años el edificio más alto de Japón. Alberga grandes almacenes, un museo de arte, un hotel y el mirador Harukas 300, que ocupa las tres plantas superiores con paredes de cristal y vistas espectaculares de Osaka y, en días claros, hasta Kioto y Kobe.",
+   "d_en": "At 300 m, Abeno Harukas was for years Japan's tallest building. It houses a department store, an art museum, a hotel and the Harukas 300 observatory, which spans the top three floors with glass walls and sweeping views of Osaka and, on clear days, as far as Kyoto and Kobe.",
+   "h": "9:00–22:00 (mirador)",
+   "h_en": "9:00–22:00 (observatory)",
+   "i": "Conectado directamente con la estación de Tennoji; entrada de pago al mirador.",
+   "i_en": "Directly linked to Tennoji station; paid entry to the observatory."
+  },
+  "w_osa_hozenji": {
+   "id": "w_osa_hozenji",
+   "d": "A pocos pasos del bullicio de Dotonbori, Hozenji Yokocho es un estrecho callejón de piedra con farolillos y pequeños restaurantes tradicionales. Preside la escena el templo Hozenji, donde los visitantes echan agua sobre la estatua de Fudo Myoo, cubierta de musgo por siglos de plegarias.",
+   "d_en": "Steps from bustling Dotonbori, Hozenji Yokocho is a narrow stone alley lined with lanterns and small traditional restaurants. The Hozenji temple presides over it, where visitors splash water on the moss-covered statue of Fudo Myoo, green from centuries of prayers.",
+   "h": "Templo abierto todo el día; restaurantes por la noche",
+   "h_en": "Temple open all day; restaurants busiest at night",
+   "i": "Escondido entre Dotonbori y Namba; ideal para una copa tras la cena.",
+   "i_en": "Tucked between Dotonbori and Namba; ideal for a drink after dinner."
+  },
+  "w_osa_tenmangu": {
+   "id": "w_osa_tenmangu",
+   "d": "Dedicado a Sugawara no Michizane, deificado como Tenjin, dios de la erudición, este santuario atrae a estudiantes que rezan por aprobar sus exámenes. Cada julio es el escenario del Tenjin Matsuri, uno de los tres grandes festivales de Japón, con procesión fluvial de barcas y fuegos artificiales.",
+   "d_en": "Dedicated to Sugawara no Michizane, deified as Tenjin, god of scholarship, this shrine draws students praying to pass their exams. Each July it hosts the Tenjin Matsuri, one of Japan's three great festivals, with a river procession of boats and fireworks.",
+   "h": "9:00–17:00",
+   "h_en": "9:00–17:00",
+   "i": "Junto a la larga galería comercial Tenjinbashisuji, la más larga de Japón.",
+   "i_en": "Beside the Tenjinbashisuji arcade, the longest shopping street in Japan."
+  },
+  "w_osa_namba_yasaka": {
+   "id": "w_osa_namba_yasaka",
+   "d": "Namba Yasaka es célebre por su espectacular escenario en forma de gigantesca cabeza de león (Ema-den) de 12 metros, cuyas fauces abiertas se dice que devoran los malos espíritus y atraen la buena fortuna. Es un lugar muy fotografiado y sorprendentemente tranquilo pese a estar en pleno centro.",
+   "d_en": "Namba Yasaka is famous for its striking stage shaped like a giant 12-meter lion head (Ema-den), whose open jaws are said to devour evil spirits and draw good fortune. It is a highly photogenic and surprisingly quiet spot despite sitting in the heart of the city.",
+   "h": "6:30–17:00",
+   "h_en": "6:30–17:00",
+   "i": "Unos 6 min a pie al oeste de la estación de Namba; entrada gratuita.",
+   "i_en": "About a 6-min walk west of Namba station; free entry."
+  },
+  "w_osa_central_hall": {
+   "id": "w_osa_central_hall",
+   "d": "Situado en la isla fluvial de Nakanoshima, este salón de ladrillo rojo y cúpula de estilo neorrenacentista es un Bien Cultural Importante de Japón. Inaugurado en 1918 gracias a la donación de un corredor de bolsa local, sigue acogiendo conciertos y actos, y es especialmente bello iluminado al anochecer.",
+   "d_en": "Set on the river island of Nakanoshima, this red-brick, domed neo-Renaissance hall is an Important Cultural Property of Japan. Opened in 1918 thanks to a local stockbroker's donation, it still hosts concerts and events and looks especially beautiful lit up at dusk.",
+   "h": "Exterior siempre visible; interior según eventos",
+   "h_en": "Exterior always visible; interior depends on events",
+   "i": "Rodeado por el parque de Nakanoshima, perfecto para pasear junto al río.",
+   "i_en": "Surrounded by Nakanoshima Park, perfect for a riverside stroll."
+  },
+  "w_osa_isshinji": {
+   "id": "w_osa_isshinji",
+   "d": "Isshin-ji sorprende por su contraste entre lo antiguo y lo contemporáneo: una puerta de entrada de arquitectura moderna y metálica da paso a un templo célebre por sus Okotsu-butsu, estatuas de Amida Buda moldeadas con las cenizas de decenas de miles de difuntos donadas por las familias.",
+   "d_en": "Isshin-ji surprises with its contrast between old and contemporary: a strikingly modern metal gate leads to a temple famous for its Okotsu-butsu, statues of Amida Buddha molded from the cremated ashes of tens of thousands of the deceased donated by families.",
+   "h": "5:00–18:00",
+   "h_en": "5:00–18:00",
+   "i": "Junto al parque de Tennoji, entre Shitennoji y Shinsekai; entrada gratuita.",
+   "i_en": "Beside Tennoji Park, between Shitennoji and Shinsekai; free entry."
+  },
+  "w_osa_ohatsu": {
+   "id": "w_osa_ohatsu",
+   "d": "Oficialmente Tsuyunoten, es conocido como Ohatsu Tenjin por la protagonista de 'Sonezaki Shinju', un drama de doble suicidio por amor de Chikamatsu. Escondido entre los rascacielos de Umeda, se ha convertido en un santuario popular para las parejas que buscan suerte en el amor.",
+   "d_en": "Officially Tsuyunoten, it is known as Ohatsu Tenjin after the heroine of 'Sonezaki Shinju', Chikamatsu's love-suicide drama. Hidden among Umeda's skyscrapers, it has become a popular shrine for couples seeking luck in love.",
+   "h": "6:00–24:00",
+   "h_en": "6:00–24:00",
+   "i": "A pocos minutos al sur de la estación de Umeda; mercadillo de antigüedades algunos días.",
+   "i_en": "A few minutes south of Umeda station; antique flea market on some days."
+  },
+  "w_osa_castle_park": {
+   "id": "w_osa_castle_park",
+   "d": "Los amplios jardines que rodean el castillo son uno de los espacios verdes más queridos de Osaka. El jardín Nishinomaru, de pago, reúne unos 600 cerezos que en primavera crean un espectáculo de flores con el torreón al fondo. En otoño destacan los arces y ciruelos del bosquecillo de ciruelos.",
+   "d_en": "The sprawling gardens around the castle are one of Osaka's most beloved green spaces. The paid Nishinomaru garden gathers some 600 cherry trees that in spring create a blossom spectacle with the keep behind. In autumn the maples and the plum grove stand out.",
+   "h": "Parque abierto siempre; Nishinomaru 9:00–17:00",
+   "h_en": "Park always open; Nishinomaru garden 9:00–17:00",
+   "i": "Ideal en temporada de sakura (finales de marzo a principios de abril).",
+   "i_en": "Best during cherry-blossom season (late March to early April)."
+  },
+  "w_osa_nakanoshima_park": {
+   "id": "w_osa_nakanoshima_park",
+   "d": "El primer parque público de Osaka ocupa el extremo oriental de la isla de Nakanoshima, entre los ríos Dojima y Tosabori. Sus paseos arbolados y su rosaleda con cientos de variedades lo convierten en un refugio verde en pleno distrito financiero, muy agradable al atardecer y con vistas a los puentes.",
+   "d_en": "Osaka's first public park occupies the eastern tip of Nakanoshima island, between the Dojima and Tosabori rivers. Its tree-lined paths and rose garden with hundreds of varieties make it a green refuge in the middle of the financial district, lovely at dusk with views of the bridges.",
+   "h": "Abierto todo el día",
+   "h_en": "Open all day",
+   "i": "La rosaleda florece con más fuerza en mayo y octubre; entrada gratuita.",
+   "i_en": "The roses bloom most vividly in May and October; free entry."
+  },
+  "w_osa_expo_park": {
+   "id": "w_osa_expo_park",
+   "d": "En el recinto de la Exposición Universal de 1970, este vasto parque conserva la Torre del Sol, la extravagante escultura de Taro Okamoto convertida en símbolo de la región. Alberga jardines japoneses, praderas, un museo de etnología y el complejo comercial y noria Expocity en las inmediaciones.",
+   "d_en": "On the grounds of the 1970 World Expo, this vast park preserves the Tower of the Sun, Taro Okamoto's extravagant sculpture turned regional symbol. It holds Japanese gardens, meadows, an ethnology museum, and the Expocity mall and Ferris wheel nearby.",
+   "h": "9:30–17:00 (cerrado miércoles)",
+   "h_en": "9:30–17:00 (closed Wednesdays)",
+   "i": "Al norte de la ciudad, junto a la estación Bampaku-kinen-koen del monorraíl.",
+   "i_en": "North of the city, by Bampaku-kinen-koen monorail station."
+  },
+  "w_osa_minoo": {
+   "id": "w_osa_minoo",
+   "d": "A las afueras de Osaka, el parque de Minoo (Minoh) ofrece un sendero de unos 3 km que remonta un valle boscoso hasta una cascada de 33 metros. Es uno de los mejores lugares de la zona para ver los colores del otoño, y por el camino se venden momiji tempura, hojas de arce fritas y crujientes.",
+   "d_en": "On the outskirts of Osaka, Minoo (Minoh) Park offers a roughly 3 km trail up a wooded valley to a 33-meter waterfall. It is one of the area's best spots for autumn colors, and along the way vendors sell momiji tempura, crisp fried maple leaves.",
+   "h": "Sendero accesible todo el día",
+   "h_en": "Trail accessible all day",
+   "i": "A unos 30 min en tren Hankyu desde Umeda hasta la estación de Minoo.",
+   "i_en": "About 30 min by Hankyu train from Umeda to Minoo station."
+  },
+  "w_osa_tennoji_park": {
+   "id": "w_osa_tennoji_park",
+   "d": "Uno de los parques más antiguos de Osaka, entre Shinsekai y la estación de Tennoji. Reúne el zoo de Tennoji, el jardín Keitakuen, el Museo de Arte de la ciudad y la zona ajardinada Ten-Shiba con césped, cafeterías y espacios para familias. Un pulmón verde muy activo en el sur de la ciudad.",
+   "d_en": "One of Osaka's oldest parks, between Shinsekai and Tennoji station. It gathers Tennoji Zoo, the Keitakuen garden, the city Art Museum and the Ten-Shiba lawn area with cafes and family spaces. A lively green lung in the south of the city.",
+   "h": "Parque abierto; zoo 9:30–17:00 (cerrado lunes)",
+   "h_en": "Park open; zoo 9:30–17:00 (closed Mondays)",
+   "i": "Salida directa desde la estación de Tennoji; el zoo tiene entrada de pago.",
+   "i_en": "Direct exit from Tennoji station; the zoo charges admission."
+  },
+  "w_osa_utsubo_park": {
+   "id": "w_osa_utsubo_park",
+   "d": "En pleno distrito de oficinas de Osaka, Utsubo es un parque alargado y elegante, con una rosaleda que reúne más de 150 variedades y frondosas avenidas de olmos. Antiguo mercado y luego aeródromo tras la guerra, hoy es un tranquilo espacio de descanso muy apreciado por los vecinos.",
+   "d_en": "In the middle of Osaka's business district, Utsubo is a long, elegant park with a rose garden of over 150 varieties and leafy elm avenues. Once a market, then a postwar airfield, today it is a peaceful retreat much loved by locals.",
+   "h": "Abierto todo el día",
+   "h_en": "Open all day",
+   "i": "Cerca de la estación de Hommachi; la rosaleda brilla en mayo y octubre.",
+   "i_en": "Near Hommachi station; the rose garden peaks in May and October."
+  },
+  "w_osa_usj": {
+   "id": "w_osa_usj",
+   "d": "Uno de los parques temáticos más visitados del mundo, USJ combina atracciones de cine con áreas dedicadas a Super Nintendo World, El Mundo Mágico de Harry Potter, Minions y Jurassic Park. Sus montañas rusas, espectáculos y desfiles lo hacen imprescindible para familias y fans, especialmente en temporadas temáticas.",
+   "d_en": "One of the world's most visited theme parks, USJ blends movie rides with areas dedicated to Super Nintendo World, The Wizarding World of Harry Potter, Minions and Jurassic Park. Its roller coasters, shows and parades make it a must for families and fans, especially during seasonal events.",
+   "h": "Suele abrir 9:00–21:00 (horario variable)",
+   "h_en": "Typically 9:00–21:00 (hours vary)",
+   "i": "Estación Universal City (línea JR Yumesaki); compra la entrada y el Express Pass online.",
+   "i_en": "Universal City station (JR Yumesaki line); buy tickets and Express Pass online."
+  },
+  "w_osa_kaiyukan": {
+   "id": "w_osa_kaiyukan",
+   "d": "El Kaiyukan recrea los ecosistemas del anillo de fuego del Pacífico en torno a un colosal tanque central de 9 metros de profundidad donde nada un tiburón ballena. El recorrido desciende en espiral pasando por medusas, nutrias, pingüinos y focas, en uno de los acuarios más espectaculares y visitados de Japón.",
+   "d_en": "Kaiyukan recreates the ecosystems of the Pacific Ring of Fire around a colossal 9-meter-deep central tank where a whale shark swims. The route spirals downward past jellyfish, otters, penguins and seals, in one of Japan's most spectacular and popular aquariums.",
+   "h": "10:00–20:00 (última entrada 19:00)",
+   "h_en": "10:00–20:00 (last entry 19:00)",
+   "i": "En Tempozan Harbor Village, junto a la estación Osakako; entrada de pago.",
+   "i_en": "In Tempozan Harbor Village, by Osakako station; paid entry."
+  },
+  "w_osa_dotonbori": {
+   "id": "w_osa_dotonbori",
+   "d": "Dotonbori es la calle más vibrante de Osaka: un canal flanqueado por gigantescos carteles luminosos, cangrejos mecánicos y restaurantes ruidosos. Junto al puente Ebisubashi brilla el legendario cartel de Glico, el atleta que corre desde 1935 y punto de foto obligado. De noche concentra la mejor comida callejera de la ciudad.",
+   "d_en": "Dotonbori is Osaka's most vibrant street: a canal lined with giant illuminated signs, mechanical crabs and boisterous restaurants. By the Ebisubashi bridge glows the legendary Glico sign, the runner racing since 1935 and an obligatory photo spot. At night it holds the city's best street food.",
+   "h": "Calle siempre abierta; máximo ambiente por la noche",
+   "h_en": "Street always open; liveliest at night",
+   "i": "Junto a la estación de Namba; los paseos en barco por el canal salen del puente Tazaemonbashi.",
+   "i_en": "Beside Namba station; canal boat tours depart from Tazaemonbashi bridge."
+  },
+  "w_osa_shinsekai": {
+   "id": "w_osa_shinsekai",
+   "d": "Diseñado a principios del siglo XX inspirándose en París y Coney Island, Shinsekai ('nuevo mundo') es hoy un barrio nostálgico de neones chillones, tabernas y locales de kushikatsu. Con la torre Tsutenkaku como faro, ofrece la estampa más castiza y popular de Osaka, algo desgastada pero llena de carácter.",
+   "d_en": "Designed in the early 20th century inspired by Paris and Coney Island, Shinsekai ('new world') is today a nostalgic district of garish neon, taverns and kushikatsu joints. With the Tsutenkaku tower as its beacon, it offers Osaka's most down-to-earth, characterful scene, a little worn but full of life.",
+   "h": "Barrio siempre abierto; locales activos día y noche",
+   "h_en": "District always open; venues busy day and night",
+   "i": "Estación Ebisucho o Dobutsuen-mae; prueba el kushikatsu, la fritura estrella del barrio.",
+   "i_en": "Ebisucho or Dobutsuen-mae stations; try kushikatsu, the district's signature fried food."
+  },
+  "w_osa_amerikamura": {
+   "id": "w_osa_amerikamura",
+   "d": "Amerikamura, o 'Amemura', es el epicentro de la cultura juvenil y alternativa de Osaka. Sus callejones concentran tiendas de ropa vintage y streetwear, discos, cafés, murales y una réplica en miniatura de la Estatua de la Libertad. La plaza Sankaku es el punto de encuentro de músicos y jóvenes a todas horas.",
+   "d_en": "Amerikamura, or 'Amemura', is the epicenter of Osaka's youth and alternative culture. Its lanes are packed with vintage and streetwear shops, record stores, cafes, murals and a miniature replica of the Statue of Liberty. Sankaku Park is a round-the-clock gathering spot for musicians and young people.",
+   "h": "Tiendas aprox. 11:00–20:00; ambiente hasta tarde",
+   "h_en": "Shops roughly 11:00–20:00; scene runs late",
+   "i": "Justo al oeste de Shinsaibashi, entre las estaciones de Shinsaibashi y Namba.",
+   "i_en": "Just west of Shinsaibashi, between Shinsaibashi and Namba stations."
+  },
+  "w_osa_namba": {
+   "id": "w_osa_namba",
+   "d": "Namba es el gran nudo del sur de Osaka, conocido como Minami. Combina las estaciones de Nankai y del metro con galerías comerciales, grandes almacenes como Namba Parks y Takashimaya, teatros de rakugo y una vida nocturna intensa. Desde aquí arrancan Dotonbori, Shinsaibashi y Amerikamura, todos a pie.",
+   "d_en": "Namba is the great hub of southern Osaka, known as Minami. It combines the Nankai and subway stations with shopping arcades, department stores like Namba Parks and Takashimaya, rakugo theaters and intense nightlife. Dotonbori, Shinsaibashi and Amerikamura all radiate from here on foot.",
+   "h": "Comercios aprox. 10:00–21:00; ocio hasta tarde",
+   "h_en": "Shops roughly 10:00–21:00; nightlife runs late",
+   "i": "Gran nudo de transporte: metro, Nankai (aeropuerto de Kansai) y JR cercano.",
+   "i_en": "Major transport hub: subway, Nankai (Kansai Airport) and nearby JR."
+  },
+  "w_osa_kuromon": {
+   "id": "w_osa_kuromon",
+   "d": "Con casi 600 metros de galería cubierta, Kuromon Ichiba es conocido como 'la cocina de Osaka'. Sus puestos venden y cocinan al momento vieiras, ostras, atún, erizo de mar, wagyu a la parrilla, tempura y fruta fresca. Un paraíso para comer de pie e ir picando de puesto en puesto.",
+   "d_en": "With nearly 600 meters of covered arcade, Kuromon Ichiba is known as 'Osaka's kitchen'. Its stalls sell and grill scallops, oysters, tuna, sea urchin, grilled wagyu, tempura and fresh fruit on the spot. A paradise for eating standing up and grazing stall to stall.",
+   "h": "9:00–18:00 (varía según puesto)",
+   "h_en": "9:00–18:00 (varies by stall)",
+   "i": "A pocos minutos de la estación Nippombashi; mejor ir a media mañana.",
+   "i_en": "A few minutes from Nippombashi station; best visited mid-morning."
+  },
+  "w_osa_kushikatsu_daruma": {
+   "id": "w_osa_kushikatsu_daruma",
+   "d": "Fundada en 1929 en Shinsekai, Daruma es la casa más famosa del kushikatsu, brochetas de carne, verdura y marisco rebozadas y fritas que se mojan en una salsa comunitaria. La regla de oro, repetida en carteles por todo el barrio, es no mojar dos veces la brocheta en la salsa.",
+   "d_en": "Founded in 1929 in Shinsekai, Daruma is the most famous kushikatsu house, serving battered and fried skewers of meat, vegetables and seafood dipped in a shared sauce. The golden rule, posted on signs across the district, is never to double-dip your skewer in the sauce.",
+   "h": "11:00–22:30",
+   "h_en": "11:00–22:30",
+   "i": "Tiene varias sucursales en Shinsekai, Dotonbori y Namba; suele haber cola.",
+   "i_en": "Has several branches in Shinsekai, Dotonbori and Namba; expect a queue."
+  },
+  "w_osa_chibo": {
+   "id": "w_osa_chibo",
+   "d": "Chibo es una de las cadenas de okonomiyaki más conocidas de Osaka, con un local emblemático asomado al canal de Dotonbori. El okonomiyaki, mezcla de col, masa y los ingredientes que elijas cocinada en plancha y coronada con salsa, mayonesa y bonito seco, es el plato casero por excelencia de la ciudad.",
+   "d_en": "Chibo is one of Osaka's best-known okonomiyaki chains, with a flagship overlooking the Dotonbori canal. Okonomiyaki, a griddled mix of cabbage, batter and your chosen ingredients topped with sauce, mayo and dried bonito, is the city's quintessential comfort dish.",
+   "h": "11:00–24:00",
+   "h_en": "11:00–24:00",
+   "i": "Pide mesa con vistas al canal; también preparan yakisoba y teppanyaki.",
+   "i_en": "Ask for a canal-view table; they also make yakisoba and teppanyaki."
+  },
+  "w_osa_wanaka": {
+   "id": "w_osa_wanaka",
+   "d": "Wanaka es una de las takoyakerías más veteranas y queridas de Osaka, junto al mercadillo de Sennichimae. El takoyaki, bolitas de masa con trozos de pulpo hechas en moldes de hierro y bañadas en salsa, mayonesa, alga y bonito, nació precisamente aquí, en Osaka, en los años treinta.",
+   "d_en": "Wanaka is one of Osaka's most veteran and beloved takoyaki shops, next to the Sennichimae arcade. Takoyaki, batter balls with pieces of octopus cooked in iron molds and coated in sauce, mayo, seaweed and bonito, was in fact born right here in Osaka in the 1930s.",
+   "h": "10:00–22:00",
+   "h_en": "10:00–22:00",
+   "i": "Muy cerca de Namba y Dotonbori; ideal para comer de pie sobre la marcha.",
+   "i_en": "Very close to Namba and Dotonbori; ideal for eating standing on the go."
+  },
+  "w_osa_551_horai": {
+   "id": "w_osa_551_horai",
+   "d": "551 Horai es una institución de Osaka desde 1945, célebre por sus butaman, jugosos bollos al vapor rellenos de cerdo y cebolla que se venden recién hechos. Las colas ante su mostrador y el vapor humeante son parte del paisaje de Namba; muchos osaqueños los llevan como regalo al viajar.",
+   "d_en": "551 Horai has been an Osaka institution since 1945, famous for its butaman, juicy steamed buns filled with pork and onion sold freshly made. The queues at its counter and the billowing steam are part of the Namba streetscape; many locals take them as gifts when traveling.",
+   "h": "10:00–22:00",
+   "h_en": "10:00–22:00",
+   "i": "Mostradores en las estaciones de Namba y Umeda; también gyoza y shumai.",
+   "i_en": "Counters at Namba and Umeda stations; also gyoza and shumai."
+  },
+  "w_osa_tsurutontan": {
+   "id": "w_osa_tsurutontan",
+   "d": "Tsurutontan sirve udon fresco, grueso y sedoso, en enormes cuencos y con decenas de combinaciones, desde el caldo clásico hasta versiones con trufa o curry. Su local de Soemoncho, cerca de Dotonbori, es un buen sitio para descubrir por qué el udon es uno de los platos reconfortantes favoritos de Osaka.",
+   "d_en": "Tsurutontan serves fresh, thick, silky udon in enormous bowls with dozens of combinations, from the classic broth to versions with truffle or curry. Its Soemoncho branch, near Dotonbori, is a great place to discover why udon is one of Osaka's favorite comfort foods.",
+   "h": "11:00–24:00",
+   "h_en": "11:00–24:00",
+   "i": "Puedes elegir el tamaño de la ración de udon sin coste extra.",
+   "i_en": "You can choose your udon portion size at no extra charge."
+  }
+ },
+ "food": {
+  "w_osa_kuromon": {
+   "cuisine": "Marisco y comida callejera japonesa",
+   "price": "10–30 €",
+   "hours": "9:00–18:00 (varía según puesto)"
+  },
+  "w_osa_kushikatsu_daruma": {
+   "cuisine": "Kushikatsu (brochetas fritas)",
+   "price": "10–20 €",
+   "hours": "11:00–22:30"
+  },
+  "w_osa_chibo": {
+   "cuisine": "Okonomiyaki y teppanyaki",
+   "price": "12–28 €",
+   "hours": "11:00–24:00"
+  },
+  "w_osa_wanaka": {
+   "cuisine": "Takoyaki (bolitas de pulpo)",
+   "price": "5–12 €",
+   "hours": "10:00–22:00"
+  },
+  "w_osa_551_horai": {
+   "cuisine": "Butaman y gyoza (dim sum al estilo Osaka)",
+   "price": "5–15 €",
+   "hours": "10:00–22:00"
+  },
+  "w_osa_tsurutontan": {
+   "cuisine": "Udon",
+   "price": "10–22 €",
+   "hours": "11:00–24:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Osaka",
+   "items": [
+    {
+     "name": "Takoyaki snacks y moldes",
+     "price": "8–25 €",
+     "desc": "Sartén de hierro para takoyaki y mezclas listas; el recuerdo gastronómico más típico de la ciudad."
+    },
+    {
+     "name": "Dulces Glico (Pocky, Pretz)",
+     "price": "3–12 €",
+     "desc": "Golosinas de la marca del icónico cartel de Dotonbori, con ediciones locales de Osaka."
+    },
+    {
+     "name": "551 Horai butaman",
+     "price": "5–15 €",
+     "desc": "Bollos al vapor rellenos de cerdo, un clásico que los osaqueños llevan como regalo comestible."
+    },
+    {
+     "name": "Kuidaore Taro y figuras Kuishinbo",
+     "price": "6–20 €",
+     "desc": "Llaveros y figuras del muñeco tamborilero, símbolo del espíritu comilón de Osaka."
+    },
+    {
+     "name": "Cerámica y cuchillos de Sakai",
+     "price": "20–120 €",
+     "desc": "Cuchillos forjados y cerámica artesanal de la región, apreciados por chefs de todo el mundo."
+    }
+   ],
+   "shops": [
+    "Dotonbori y Shinsaibashi-suji",
+    "Mercado Kuromon Ichiba",
+    "Grandes almacenes de Umeda (Hankyu, Daimaru)",
+    "Namba CITY y Namba Walk",
+    "Tienda 551 Horai (estación de Namba)"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Compra una tarjeta ICOCA para metro, tren y autobuses; funciona también en tiendas y máquinas.",
+   "El Osaka Amazing Pass incluye transporte ilimitado y entrada gratis a muchas atracciones; rentable si visitas varios sitios al día.",
+   "En Osaka se camina por la derecha en las escaleras mecánicas, al contrario que en Tokio.",
+   "Reserva las entradas de Universal Studios Japan y del Express Pass online con antelación para evitar largas colas.",
+   "Cena en Dotonbori y Shinsekai probando kushikatsu, takoyaki y okonomiyaki; recuerda no mojar dos veces el kushikatsu en la salsa comunitaria."
+  ],
+  "en": [
+   "Get an ICOCA card for subway, trains and buses; it also works in shops and vending machines.",
+   "The Osaka Amazing Pass covers unlimited transport plus free entry to many attractions; worth it if you visit several sites a day.",
+   "In Osaka people stand on the right side of escalators, the opposite of Tokyo.",
+   "Book Universal Studios Japan tickets and the Express Pass online in advance to avoid long queues.",
+   "Eat your way through Dotonbori and Shinsekai with kushikatsu, takoyaki and okonomiyaki; never double-dip your kushikatsu in the shared sauce."
+  ]
+ },
+ "climate": {
+  "hi": [
+   9,
+   10,
+   14,
+   20,
+   25,
+   28,
+   32,
+   34,
+   30,
+   24,
+   18,
+   12
+  ],
+  "lo": [
+   3,
+   3,
+   6,
+   11,
+   16,
+   20,
+   25,
+   26,
+   22,
+   16,
+   9,
+   4
+  ]
+ },
+ "tr": {
+  "Emblemático castillo del siglo XVI rodeado de fosos y murallas.": "Iconic 16th-century castle ringed by moats and stone walls.",
+  "Uno de los santuarios sintoístas más antiguos de Japón.": "One of Japan's oldest Shinto shrines.",
+  "El primer templo budista oficial de Japón, del año 593.": "Japan's first official Buddhist temple, from the year 593.",
+  "Torre retro de 1956, símbolo del barrio de Shinsekai.": "Retro 1956 tower, symbol of the Shinsekai district.",
+  "Rascacielos con mirador circular flotante 'Jardín Flotante'.": "Skyscraper with the circular 'Floating Garden' observatory.",
+  "El rascacielos más alto de Japón por altura de edificio.": "One of Japan's tallest skyscrapers by building height.",
+  "Callejón empedrado con el templo del Buda cubierto de musgo.": "Cobblestone alley with the moss-covered Buddha temple.",
+  "Santuario dedicado al dios de los estudios y protagonista del Tenjin Matsuri.": "Shrine to the deity of learning, host of the Tenjin Matsuri.",
+  "Santuario famoso por su enorme cabeza de león que engulle la mala suerte.": "Shrine famed for its giant lion head that swallows bad luck.",
+  "Elegante edificio neorrenacentista de ladrillo de 1918.": "Elegant 1918 neo-Renaissance red-brick landmark.",
+  "Templo conocido por sus estatuas de Buda hechas con cenizas.": "Temple known for its Buddha statues made from ashes.",
+  "Santuario del amor ligado a una famosa tragedia teatral.": "Shrine of love tied to a famous theatrical tragedy.",
+  "Gran parque urbano con cerezos y el jardín Nishinomaru.": "Large urban park with cherry trees and the Nishinomaru garden.",
+  "Parque fluvial con rosaledas entre dos ríos.": "Riverside park with rose gardens between two rivers.",
+  "Enorme parque con la icónica Torre del Sol de Taro Okamoto.": "Huge park with Taro Okamoto's iconic Tower of the Sun.",
+  "Valle boscoso con una cascada de 33 m, célebre en otoño.": "Forested valley with a 33 m waterfall, famous in autumn.",
+  "Parque histórico con zoo, jardín japonés y museo de arte.": "Historic park with a zoo, Japanese garden and art museum.",
+  "Oasis urbano con rosaleda y avenidas de árboles.": "Urban oasis with a rose garden and tree-lined avenues.",
+  "Gran parque temático con Super Nintendo World y Harry Potter.": "Major theme park with Super Nintendo World and Harry Potter.",
+  "Uno de los mayores acuarios del mundo, con tiburón ballena.": "One of the world's largest aquariums, home to a whale shark.",
+  "Canal lleno de neones, restaurantes y el mítico corredor Glico.": "Canal packed with neon, restaurants and the famous Glico runner.",
+  "Barrio retro y bullicioso a los pies de la Tsutenkaku.": "Retro, boisterous district at the foot of the Tsutenkaku.",
+  "Barrio juvenil de moda urbana, tiendas vintage y arte callejero.": "Youthful district of urban fashion, vintage shops and street art.",
+  "Corazón comercial y de ocio del sur de Osaka (Minami).": "Shopping and entertainment heart of southern Osaka (Minami).",
+  "La 'cocina de Osaka': mercado callejero de marisco y comida.": "'Osaka's kitchen': a street market of seafood and food.",
+  "Cuna del kushikatsu, brochetas rebozadas y fritas.": "Home of kushikatsu, battered and deep-fried skewers.",
+  "Clásico del okonomiyaki, la 'tortilla' salada de Osaka.": "A classic for okonomiyaki, Osaka's savory griddle pancake.",
+  "Takoyaki, las bolitas de pulpo emblema de Osaka.": "Takoyaki, the octopus balls that symbolize Osaka.",
+  "Famosos butaman, bollos al vapor rellenos de cerdo.": "Famous butaman, steamed buns filled with pork.",
+  "Udon de autor en cuencos gigantes junto a Dotonbori.": "Creative udon in giant bowls next to Dotonbori.",
+  "Osaka": "Osaka"
+ }
+}

@@ -1,0 +1,683 @@
+{
+ "id": "antalya",
+ "name": "Antalya",
+ "country": "WORLD",
+ "center": [
+  36.8969,
+  30.7133
+ ],
+ "pois": [
+  {
+   "id": "w_ant_kaleici",
+   "cat": "monuments",
+   "name": "Casco antiguo de Kaleiçi",
+   "icon": "🏘️",
+   "lat": 36.88472,
+   "lng": 30.70556,
+   "desc": "Barrio histórico amurallado con calles empedradas y casas otomanas."
+  },
+  {
+   "id": "w_ant_hadrian_gate",
+   "cat": "monuments",
+   "name": "Puerta de Adriano",
+   "icon": "🏛️",
+   "lat": 36.88576,
+   "lng": 30.70796,
+   "desc": "Arco triunfal romano de mármol con tres vanos, la entrada monumental a Kaleiçi."
+  },
+  {
+   "id": "w_ant_yivli_minare",
+   "cat": "monuments",
+   "name": "Yivli Minare",
+   "icon": "🕌",
+   "lat": 36.88727,
+   "lng": 30.70389,
+   "desc": "Minarete acanalado de ladrillo del siglo XIII, símbolo de Antalya."
+  },
+  {
+   "id": "w_ant_old_harbour",
+   "cat": "monuments",
+   "name": "Puerto viejo",
+   "icon": "⚓",
+   "lat": 36.88472,
+   "lng": 30.7025,
+   "desc": "Antiguo puerto romano al pie de Kaleiçi, hoy marina de yates y barcos turísticos."
+  },
+  {
+   "id": "w_ant_museum",
+   "cat": "monuments",
+   "name": "Museo de Antalya",
+   "icon": "🏺",
+   "lat": 36.88797,
+   "lng": 30.67917,
+   "desc": "Uno de los mejores museos arqueológicos de Turquía, con hallazgos de la región."
+  },
+  {
+   "id": "w_ant_perge",
+   "cat": "monuments",
+   "name": "Ruinas de Perge",
+   "icon": "🏛️",
+   "lat": 37.01194,
+   "lng": 30.85389,
+   "desc": "Extensa ciudad grecorromana con estadio, ágora y una gran calle columnada."
+  },
+  {
+   "id": "w_ant_aspendos",
+   "cat": "monuments",
+   "name": "Aspendos",
+   "icon": "🎭",
+   "lat": 36.93917,
+   "lng": 31.17222,
+   "desc": "El teatro romano mejor conservado del mundo antiguo, aún en uso."
+  },
+  {
+   "id": "w_ant_side_apollo",
+   "cat": "monuments",
+   "name": "Side (templo de Apolo)",
+   "icon": "🏛️",
+   "lat": 36.76583,
+   "lng": 31.38889,
+   "desc": "Antigua ciudad portuaria con un templo de Apolo junto al mar."
+  },
+  {
+   "id": "w_ant_termessos",
+   "cat": "monuments",
+   "name": "Termessos",
+   "icon": "⛰️",
+   "lat": 36.98361,
+   "lng": 30.46583,
+   "desc": "Ciudad fortaleza en la montaña con un teatro de vistas espectaculares."
+  },
+  {
+   "id": "w_ant_clock_tower",
+   "cat": "monuments",
+   "name": "Torre del Reloj",
+   "icon": "🕰️",
+   "lat": 36.88694,
+   "lng": 30.70472,
+   "desc": "Torre de piedra otomana que marca la entrada al casco antiguo."
+  },
+  {
+   "id": "w_ant_hidirlik_tower",
+   "cat": "monuments",
+   "name": "Torre de Hıdırlık",
+   "icon": "🗼",
+   "lat": 36.88167,
+   "lng": 30.70389,
+   "desc": "Torre romana circular sobre los acantilados, ideal al atardecer."
+  },
+  {
+   "id": "w_ant_kesik_minare",
+   "cat": "monuments",
+   "name": "Kesik Minare (Minarete Roto)",
+   "icon": "🕌",
+   "lat": 36.88361,
+   "lng": 30.70528,
+   "desc": "Ruina que fue templo romano, iglesia y mezquita a lo largo de los siglos."
+  },
+  {
+   "id": "w_ant_duden_upper",
+   "cat": "nature",
+   "name": "Cascadas del Düden (alta)",
+   "icon": "💧",
+   "lat": 36.96361,
+   "lng": 30.726694,
+   "desc": "Salto de agua rodeado de parque, con una cueva tras la cortina."
+  },
+  {
+   "id": "w_ant_duden_lower",
+   "cat": "nature",
+   "name": "Cascadas del Düden (baja)",
+   "icon": "🌊",
+   "lat": 36.851,
+   "lng": 30.783361,
+   "desc": "Cascada que se precipita al mar Mediterráneo desde un acantilado."
+  },
+  {
+   "id": "w_ant_kursunlu",
+   "cat": "nature",
+   "name": "Cascada de Kurşunlu",
+   "icon": "💦",
+   "lat": 37.003,
+   "lng": 30.821,
+   "desc": "Cascada tranquila dentro de un parque natural de pinares y estanques."
+  },
+  {
+   "id": "w_ant_konyaalti_beach",
+   "cat": "nature",
+   "name": "Playa de Konyaaltı",
+   "icon": "🏖️",
+   "lat": 36.86,
+   "lng": 30.63833,
+   "desc": "Larga playa de guijarros con los montes Tauro de fondo."
+  },
+  {
+   "id": "w_ant_lara_beach",
+   "cat": "nature",
+   "name": "Playa de Lara",
+   "icon": "🏖️",
+   "lat": 36.85472,
+   "lng": 30.79806,
+   "desc": "Amplia playa de arena dorada, zona de grandes hoteles resort."
+  },
+  {
+   "id": "w_ant_yanartas",
+   "cat": "nature",
+   "name": "Yanartaş (Quimera)",
+   "icon": "🔥",
+   "lat": 36.4325,
+   "lng": 30.47389,
+   "desc": "Llamas naturales eternas que brotan de las rocas de la montaña."
+  },
+  {
+   "id": "w_ant_phaselis",
+   "cat": "nature",
+   "name": "Phaselis",
+   "icon": "🌅",
+   "lat": 36.5225,
+   "lng": 30.55222,
+   "desc": "Ruinas antiguas entre tres calas de aguas turquesa y pinares."
+  },
+  {
+   "id": "w_ant_karaalioglu_park",
+   "cat": "ocio",
+   "name": "Parque Karaalioğlu",
+   "icon": "🌳",
+   "lat": 36.88167,
+   "lng": 30.70611,
+   "desc": "Parque histórico sobre los acantilados con jardines y miradores."
+  },
+  {
+   "id": "w_ant_aquarium",
+   "cat": "ocio",
+   "name": "Antalya Aquarium",
+   "icon": "🐠",
+   "lat": 36.86306,
+   "lng": 30.64028,
+   "desc": "Uno de los mayores acuarios del mundo, con un túnel submarino gigante."
+  },
+  {
+   "id": "w_ant_land_of_legends",
+   "cat": "ocio",
+   "name": "The Land of Legends",
+   "icon": "🎢",
+   "lat": 36.86278,
+   "lng": 31.07361,
+   "desc": "Gran parque temático y acuático en Belek, con montañas rusas y espectáculos."
+  },
+  {
+   "id": "w_ant_tunektepe",
+   "cat": "ocio",
+   "name": "Teleférico de Tünektepe",
+   "icon": "🚡",
+   "lat": 36.83389,
+   "lng": 30.58083,
+   "desc": "Cabina panorámica que sube a una cima con vistas de toda la bahía."
+  },
+  {
+   "id": "w_ant_7mehmet",
+   "cat": "food",
+   "name": "7 Mehmet",
+   "icon": "🍽️",
+   "lat": 36.88944,
+   "lng": 30.68389,
+   "desc": "Restaurante clásico de alta cocina turca junto al parque de la cultura."
+  },
+  {
+   "id": "w_ant_seraser",
+   "cat": "food",
+   "name": "Seraser Fine Dining",
+   "icon": "🍷",
+   "lat": 36.88361,
+   "lng": 30.70639,
+   "desc": "Alta cocina en una mansión otomana restaurada de Kaleiçi."
+  },
+  {
+   "id": "w_ant_club_arma",
+   "cat": "food",
+   "name": "Club Arma",
+   "icon": "🐟",
+   "lat": 36.88472,
+   "lng": 30.70167,
+   "desc": "Marisco y pescado con vistas al puerto viejo desde un antiguo depósito."
+  },
+  {
+   "id": "w_ant_vanilla_lounge",
+   "cat": "food",
+   "name": "Vanilla Lounge",
+   "icon": "🍴",
+   "lat": 36.88472,
+   "lng": 30.70694,
+   "desc": "Cocina internacional moderna en pleno casco antiguo."
+  },
+  {
+   "id": "w_ant_can_can_pide",
+   "cat": "food",
+   "name": "Can Can Pide ve Kebap",
+   "icon": "🥙",
+   "lat": 36.88806,
+   "lng": 30.70306,
+   "desc": "Local popular de pide, lahmacun y kebabs a buen precio."
+  },
+  {
+   "id": "w_ant_castle_cafe",
+   "cat": "food",
+   "name": "Castle Café & Restaurant",
+   "icon": "☕",
+   "lat": 36.88389,
+   "lng": 30.70806,
+   "desc": "Terraza sobre el acantilado ideal para una comida con vistas al mar."
+  }
+ ],
+ "extra": {
+  "w_ant_kaleici": {
+   "id": "w_ant_kaleici",
+   "d": "Kaleiçi es el corazón antiguo de Antalya, un laberinto de callejuelas con casas de madera restauradas, boutique hotels, patios con naranjos y tramos de la muralla romana y selyúcida. Concentra los principales monumentos de la ciudad.",
+   "d_en": "Kaleiçi is Antalya's ancient core, a maze of alleys with restored timber houses, boutique hotels, orange-tree courtyards and stretches of the Roman and Seljuk walls. It gathers the city's main monuments.",
+   "h": "Habitado desde la época romana, floreció bajo bizantinos, selyúcidas y otomanos, cuyas capas se ven en sus muros y minaretes.",
+   "h_en": "Inhabited since Roman times, it flourished under Byzantines, Seljuks and Ottomans, whose layers show in its walls and minarets.",
+   "i": "Piérdete sin mapa; casi cada esquina lleva a una plaza, una vista al puerto o un café con encanto.",
+   "i_en": "Wander without a map; nearly every corner leads to a square, a harbour view or a charming café."
+  },
+  "w_ant_hadrian_gate": {
+   "id": "w_ant_hadrian_gate",
+   "d": "Elegante puerta de mármol blanco con tres arcos y columnas corintias, considerada la entrada más bella de Antalya. Sus relieves y las torres flanqueantes se conservan notablemente bien.",
+   "d_en": "Elegant white-marble gate with three arches and Corinthian columns, regarded as Antalya's finest entrance. Its reliefs and flanking towers are remarkably well preserved.",
+   "h": "Construida en el año 130 d.C. para conmemorar la visita del emperador Adriano a la ciudad, entonces llamada Attaleia.",
+   "h_en": "Built in 130 AD to commemorate Emperor Hadrian's visit to the city, then called Attaleia.",
+   "i": "Fíjate en los surcos de las ruedas de carro grabados en el pavimento de mármol original.",
+   "i_en": "Look for the cart-wheel ruts carved into the original marble pavement."
+  },
+  "w_ant_yivli_minare": {
+   "id": "w_ant_yivli_minare",
+   "d": "El Minarete Acanalado, de ladrillo rojo con azulejos turquesa, se eleva 38 metros junto a su mezquita. Es el emblema visual de la ciudad y una obra maestra del arte selyúcida.",
+   "d_en": "The Fluted Minaret, of red brick with turquoise tiles, rises 38 metres beside its mosque. It is the city's visual emblem and a masterpiece of Seljuk art.",
+   "h": "Erigido a comienzos del siglo XIII bajo el sultán selyúcida Alaeddin Keykubad I.",
+   "h_en": "Raised in the early 13th century under the Seljuk sultan Alaeddin Keykubad I.",
+   "i": "Los ocho fustes semicirculares que le dan las 'acanaladuras' hacen único a este minarete en Turquía.",
+   "i_en": "The eight semicircular shafts that form its 'flutes' make this minaret unique in Turkey."
+  },
+  "w_ant_old_harbour": {
+   "id": "w_ant_old_harbour",
+   "d": "Refugio natural resguardado por acantilados, fue el motor comercial de Antalya durante siglos. Restaurado en los años 80, hoy es un pintoresco puerto deportivo desde el que salen cruceros por la costa.",
+   "d_en": "A natural haven sheltered by cliffs, it was Antalya's commercial engine for centuries. Restored in the 1980s, it is now a picturesque marina from which coastal cruises depart.",
+   "h": "Puerto principal desde la época helenística y romana hasta el siglo XX, cuando se construyeron los muelles modernos.",
+   "h_en": "The main port from Hellenistic and Roman times until the 20th century, when modern docks were built.",
+   "i": "Embarca en un paseo en barco para ver las cascadas del Düden caer directamente al mar.",
+   "i_en": "Take a boat trip to see the Düden waterfalls plunge straight into the sea."
+  },
+  "w_ant_museum": {
+   "id": "w_ant_museum",
+   "d": "Trece salas y un jardín de esculturas exhiben estatuas romanas de dioses procedentes de Perge, sarcófagos, mosaicos, iconos y piezas que abarcan desde la prehistoria hasta el periodo otomano.",
+   "d_en": "Thirteen halls and a sculpture garden display Roman statues of gods from Perge, sarcophagi, mosaics, icons and pieces spanning prehistory to the Ottoman era.",
+   "h": "Fundado en 1922 para proteger el patrimonio local; su edificio actual data de 1972.",
+   "h_en": "Founded in 1922 to protect local heritage; its current building dates from 1972.",
+   "i": "No te pierdas la Galería de los Dioses, con estatuas monumentales de mármol casi intactas.",
+   "i_en": "Don't miss the Gallery of the Gods, with almost intact monumental marble statues."
+  },
+  "w_ant_perge": {
+   "id": "w_ant_perge",
+   "d": "A 18 km de Antalya, Perge conserva un teatro, un estadio para 12.000 espectadores, termas, un ágora y una espectacular avenida columnada con canal de agua. Muchas de sus esculturas están en el Museo de Antalya.",
+   "d_en": "Some 18 km from Antalya, Perge preserves a theatre, a 12,000-seat stadium, baths, an agora and a spectacular colonnaded avenue with a water channel. Many of its sculptures are in the Antalya Museum.",
+   "h": "Ciudad de Panfilia habitada desde la Edad del Bronce; alcanzó su esplendor bajo Roma en los siglos II y III d.C.",
+   "h_en": "A Pamphylian city inhabited since the Bronze Age; it peaked under Rome in the 2nd and 3rd centuries AD.",
+   "i": "El apóstol Pablo predicó aquí, según los Hechos de los Apóstoles.",
+   "i_en": "The apostle Paul preached here, according to the Acts of the Apostles."
+  },
+  "w_ant_aspendos": {
+   "id": "w_ant_aspendos",
+   "d": "Su teatro del siglo II, con capacidad para 15.000 personas, conserva intacta la escena, las gradas y una acústica prodigiosa. Cerca sobreviven un acueducto y restos de la ciudad alta.",
+   "d_en": "Its 2nd-century theatre, seating 15,000, keeps its stage building, tiers and prodigious acoustics intact. Nearby survive an aqueduct and remains of the upper city.",
+   "h": "Construido hacia el 160 d.C. por el arquitecto Zenón bajo el emperador Marco Aurelio.",
+   "h_en": "Built around 160 AD by the architect Zeno under Emperor Marcus Aurelius.",
+   "i": "Cada verano acoge el Festival Internacional de Ópera y Ballet de Aspendos.",
+   "i_en": "Every summer it hosts the Aspendos International Opera and Ballet Festival."
+  },
+  "w_ant_side_apollo": {
+   "id": "w_ant_side_apollo",
+   "d": "Side es una península repleta de ruinas grecorromanas: teatro, ágora y termas rodean un pueblo animado. Sus columnas de mármol junto al mar, iluminadas al atardecer, son la imagen más famosa.",
+   "d_en": "Side is a peninsula packed with Greco-Roman ruins: a theatre, agora and baths surround a lively town. Its seaside marble columns, lit at sunset, are its most famous image.",
+   "h": "Colonia griega desde el siglo VII a.C. y próspero puerto comercial romano; el templo de Apolo es del siglo II d.C.",
+   "h_en": "A Greek colony from the 7th century BC and a thriving Roman trading port; the Temple of Apollo dates from the 2nd century AD.",
+   "i": "Llega al templo justo antes de la puesta de sol para ver las columnas recortadas contra el cielo.",
+   "i_en": "Arrive at the temple just before sunset to see the columns silhouetted against the sky."
+  },
+  "w_ant_termessos": {
+   "id": "w_ant_termessos",
+   "d": "Encaramada a más de 1.000 m en el parque nacional del Güllük Dağı, Termessos ofrece un teatro colgado sobre un precipicio, necrópolis con sarcófagos volcados y murallas entre pinos. Requiere una caminata exigente.",
+   "d_en": "Perched above 1,000 m in the Güllük Dağı national park, Termessos offers a theatre hanging over a precipice, necropolises with toppled sarcophagi and walls among pines. It requires a demanding hike.",
+   "h": "Ciudad pisidia que resistió el asedio de Alejandro Magno en el 333 a.C., nunca conquistada por él.",
+   "h_en": "A Pisidian city that withstood Alexander the Great's siege in 333 BC, never conquered by him.",
+   "i": "Lleva agua y buen calzado: la subida al teatro es empinada pero la vista lo compensa.",
+   "i_en": "Bring water and good shoes: the climb to the theatre is steep but the view rewards it."
+  },
+  "w_ant_clock_tower": {
+   "id": "w_ant_clock_tower",
+   "d": "La Saat Kulesi, en la plaza Kalekapısı, es una robusta torre de piedra que formó parte de las antiguas murallas. Su reloj fue añadido en época otomana y hoy es punto de encuentro y foto obligada.",
+   "d_en": "The Saat Kulesi, on Kalekapısı square, is a sturdy stone tower that was part of the old walls. Its clock was added in Ottoman times and it is now a meeting point and a must-photo spot.",
+   "h": "La base es medieval, parte del sistema defensivo; el mecanismo del reloj se instaló a finales del siglo XIX.",
+   "h_en": "The base is medieval, part of the defensive system; the clock mechanism was installed in the late 19th century.",
+   "i": "Justo detrás comienza el bazar y las calles que bajan hacia Yivli Minare.",
+   "i_en": "Just behind it begin the bazaar and the streets descending towards the Yivli Minare."
+  },
+  "w_ant_hidirlik_tower": {
+   "id": "w_ant_hidirlik_tower",
+   "d": "Torreón de piedra de 14 metros al borde del acantilado, en el extremo del parque Karaalioğlu. Pudo ser una tumba monumental o un faro, y hoy es uno de los mejores miradores de la ciudad.",
+   "d_en": "A 14-metre stone tower on the cliff edge, at the end of Karaalioğlu park. It may have been a monumental tomb or a lighthouse, and is now one of the city's best viewpoints.",
+   "h": "Datada en el siglo II d.C., de época romana; su función exacta sigue siendo objeto de debate.",
+   "h_en": "Dated to the 2nd century AD, of Roman origin; its exact function is still debated.",
+   "i": "Es el punto favorito de los antalyenses para ver caer el sol sobre el Mediterráneo.",
+   "i_en": "It is the locals' favourite spot to watch the sun set over the Mediterranean."
+  },
+  "w_ant_kesik_minare": {
+   "id": "w_ant_kesik_minare",
+   "d": "El 'Minarete Roto' resume la historia de Antalya en un solo edificio: templo romano del siglo II, basílica bizantina, mezquita selyúcida y de nuevo iglesia, arrasado por un incendio que dejó su minarete truncado.",
+   "d_en": "The 'Broken Minaret' sums up Antalya's history in one building: a 2nd-century Roman temple, a Byzantine basilica, a Seljuk mosque and again a church, ravaged by a fire that left its minaret truncated.",
+   "h": "Sus fases abarcan casi dos milenios; el incendio que lo dañó ocurrió en el siglo XIX.",
+   "h_en": "Its phases span almost two millennia; the fire that damaged it occurred in the 19th century.",
+   "i": "Observa cómo se superponen mármoles romanos, arcos bizantinos y piedra otomana en un mismo muro.",
+   "i_en": "Notice how Roman marble, Byzantine arches and Ottoman stone overlap in a single wall."
+  },
+  "w_ant_duden_upper": {
+   "id": "w_ant_duden_upper",
+   "d": "La cascada superior del Düden (Düdenbaşı) cae en un frondoso parque donde un sendero permite pasar por detrás del agua a través de una cueva. Es un refugio fresco y verde a las afueras de la ciudad.",
+   "d_en": "The upper Düden waterfall (Düdenbaşı) tumbles in a leafy park where a path lets you walk behind the water through a cave. It is a cool, green retreat on the city's outskirts.",
+   "h": "El río Düden nace de manantiales kársticos de los montes Tauro y ha esculpido estas cascadas durante milenios.",
+   "h_en": "The Düden river rises from karst springs in the Taurus mountains and has carved these falls over millennia.",
+   "i": "El camino tras la cascada es resbaladizo pero ofrece la mejor vista de la cortina de agua.",
+   "i_en": "The path behind the waterfall is slippery but gives the best view of the water curtain."
+  },
+  "w_ant_duden_lower": {
+   "id": "w_ant_duden_lower",
+   "d": "La cascada inferior del Düden se lanza unos 40 metros por un acantilado directamente al mar, en la zona de Lara. Se admira desde un mirador ajardinado o, mejor aún, desde un barco.",
+   "d_en": "The lower Düden waterfall drops some 40 metres off a cliff straight into the sea, in the Lara area. It is best admired from a landscaped viewpoint or, even better, from a boat.",
+   "h": "Es la desembocadura final del río Düden tras atravesar la llanura de Antalya.",
+   "h_en": "It is the final outlet of the Düden river after crossing the Antalya plain.",
+   "i": "Los paseos en barco desde el puerto viejo se acercan a la base de la cascada.",
+   "i_en": "Boat trips from the old harbour approach the base of the waterfall."
+  },
+  "w_ant_kursunlu": {
+   "id": "w_ant_kursunlu",
+   "d": "En un cañón boscoso a las afueras, la cascada de Kurşunlu forma una serie de estanques turquesa entre pinos, ideales para pasear por senderos sombreados. Es menos concurrida y muy fotogénica.",
+   "d_en": "In a wooded canyon on the outskirts, Kurşunlu waterfall forms a chain of turquoise pools among pines, ideal for strolling shaded trails. It is quieter and very photogenic.",
+   "h": "El parque natural fue protegido en 1986 por su rica flora y fauna mediterráneas.",
+   "h_en": "The nature park was protected in 1986 for its rich Mediterranean flora and fauna.",
+   "i": "Atento a las tortugas y a los martines pescadores en los estanques inferiores.",
+   "i_en": "Watch for turtles and kingfishers in the lower pools."
+  },
+  "w_ant_konyaalti_beach": {
+   "id": "w_ant_konyaalti_beach",
+   "d": "Konyaaltı se extiende varios kilómetros al oeste de la ciudad, con agua limpia, paseo marítimo, chiringuitos y las montañas nevadas al fondo. Es la playa urbana más popular de Antalya.",
+   "d_en": "Konyaaltı stretches several kilometres west of the city, with clean water, a promenade, beach bars and snow-capped mountains behind. It is Antalya's most popular urban beach.",
+   "h": "Su paseo fue remodelado en las últimas décadas para convertirla en el gran espacio de ocio costero de la ciudad.",
+   "h_en": "Its promenade was redeveloped in recent decades to make it the city's great coastal leisure space.",
+   "i": "El teleférico de Tünektepe parte del extremo oeste de la playa.",
+   "i_en": "The Tünektepe cable car departs from the western end of the beach."
+  },
+  "w_ant_lara_beach": {
+   "id": "w_ant_lara_beach",
+   "d": "Al este de la ciudad, Lara es una extensa playa de arena fina flanqueada por hoteles de lujo, muchos con arquitecturas temáticas. Ofrece deportes acuáticos, clubes de playa y ambiente animado.",
+   "d_en": "East of the city, Lara is an extensive fine-sand beach lined with luxury hotels, many with themed architecture. It offers water sports, beach clubs and a lively atmosphere.",
+   "h": "Se desarrolló como zona turística de resorts a partir de los años 2000.",
+   "h_en": "It developed as a resort tourism zone from the 2000s onwards.",
+   "i": "A diferencia de Konyaaltı, aquí la orilla es de arena, más cómoda para los niños.",
+   "i_en": "Unlike Konyaaltı, here the shore is sandy, more comfortable for children."
+  },
+  "w_ant_yanartas": {
+   "id": "w_ant_yanartas",
+   "d": "En la ladera cerca de Çıralı, gases naturales emergen del suelo y arden en pequeñas llamas permanentes entre las piedras. La subida por un sendero pinariego culmina en este fenómeno mejor visto al anochecer.",
+   "d_en": "On the hillside near Çıralı, natural gases seep from the ground and burn in small permanent flames among the stones. The pine-trail climb ends at this phenomenon, best seen at dusk.",
+   "h": "Estas llamas inspiraron el mito de la Quimera, el monstruo que exhalaba fuego derrotado por Belerofonte.",
+   "h_en": "These flames inspired the myth of the Chimera, the fire-breathing monster slain by Bellerophon.",
+   "i": "Lleva linterna y algo para asar: es tradición hacer té o marshmallows en las llamas.",
+   "i_en": "Bring a torch and something to roast: it is tradition to make tea or marshmallows over the flames."
+  },
+  "w_ant_phaselis": {
+   "id": "w_ant_phaselis",
+   "d": "Phaselis combina historia y baño: una ciudad portuaria en ruinas con avenida columnada y teatro repartida entre tres bahías de aguas cristalinas donde se puede nadar rodeado de pinos.",
+   "d_en": "Phaselis blends history and swimming: a ruined port city with a colonnaded avenue and theatre spread across three bays of crystal-clear water where you can swim surrounded by pines.",
+   "h": "Fundada por colonos de Rodas en el siglo VII a.C., fue un importante puerto lidio, persa, griego y romano.",
+   "h_en": "Founded by Rhodian settlers in the 7th century BC, it was an important Lydian, Persian, Greek and Roman port.",
+   "i": "Trae bañador: nadar en la bahía junto a las columnas antiguas es la mejor experiencia del lugar.",
+   "i_en": "Bring swimwear: swimming in the bay beside the ancient columns is the site's best experience."
+  },
+  "w_ant_karaalioglu_park": {
+   "id": "w_ant_karaalioglu_park",
+   "d": "Amplio parque ajardinado al borde del acantilado, con palmeras, fuentes, estatuas y terrazas de café. Sus paseos ofrecen vistas panorámicas del mar y de los montes Tauro, y conecta con la torre de Hıdırlık.",
+   "d_en": "A large landscaped clifftop park with palm trees, fountains, statues and café terraces. Its walkways offer panoramic views of the sea and Taurus mountains, and it links to the Hıdırlık tower.",
+   "h": "Diseñado en el siglo XX como el gran parque público de la ciudad.",
+   "h_en": "Laid out in the 20th century as the city's great public park.",
+   "i": "Busca el árbol centenario y el mirador desde el que se ve toda la bahía.",
+   "i_en": "Find the centuries-old tree and the viewpoint overlooking the whole bay."
+  },
+  "w_ant_aquarium": {
+   "id": "w_ant_aquarium",
+   "d": "Cerca de la playa de Konyaaltı, alberga un túnel de 131 metros, decenas de temáticas y atracciones como una sala de nieve. Ideal para familias y para un día caluroso.",
+   "d_en": "Near Konyaaltı beach, it features a 131-metre tunnel, dozens of themed tanks and attractions such as a snow room. Ideal for families and for a hot day.",
+   "h": "Inaugurado en 2012, presume de uno de los túneles acuáticos más largos del planeta.",
+   "h_en": "Opened in 2012, it boasts one of the longest aquarium tunnels on the planet.",
+   "i": "La entrada suele incluir varias secciones; reserva un par de horas para verlo con calma.",
+   "i_en": "Tickets usually cover several sections; allow a couple of hours to see it at leisure."
+  },
+  "w_ant_land_of_legends": {
+   "id": "w_ant_land_of_legends",
+   "d": "Enorme complejo de ocio en Belek con atracciones, toboganes acuáticos, un canal navegable, tiendas y espectáculos nocturnos de luz y agua. Es el mayor parque de diversiones de la región.",
+   "d_en": "A huge leisure complex in Belek with rides, water slides, a navigable canal, shops and nightly light-and-water shows. It is the region's largest amusement park.",
+   "h": "Abrió en 2016 y se ha convertido en la principal atracción para familias de la Riviera turca.",
+   "h_en": "It opened in 2016 and has become the Turkish Riviera's main family attraction.",
+   "i": "Está a unos 40 km de Antalya; conviene ir en coche o con traslado del hotel.",
+   "i_en": "It is about 40 km from Antalya; best reached by car or hotel transfer."
+  },
+  "w_ant_tunektepe": {
+   "id": "w_ant_tunektepe",
+   "d": "Desde el extremo oeste de Konyaaltí, el teleférico asciende a la cima del Tünektepe (605 m), donde una terraza-restaurante regala vistas de 360° sobre la ciudad, la bahía y las montañas.",
+   "d_en": "From the western end of Konyaaltı, the cable car rises to the top of Tünektepe (605 m), where a restaurant terrace offers 360° views over the city, the bay and the mountains.",
+   "h": "Inaugurado en 2017 para dar acceso turístico a este mirador natural.",
+   "h_en": "Opened in 2017 to give tourist access to this natural viewpoint.",
+   "i": "Sube al atardecer para ver las luces de la ciudad encenderse sobre el mar.",
+   "i_en": "Ride up at sunset to watch the city lights come on over the sea."
+  },
+  "w_ant_7mehmet": {
+   "id": "w_ant_7mehmet",
+   "d": "Institución gastronómica de Antalya desde hace décadas, célebre por sus mezze, carnes a la brasa y postres regionales, servidos en una amplia terraza con vistas verdes.",
+   "d_en": "A dining institution in Antalya for decades, famous for its mezze, grilled meats and regional desserts, served on a large terrace with green views.",
+   "h": "Fundado por la familia Mehmet, es referencia de la cocina antalyense tradicional.",
+   "h_en": "Founded by the Mehmet family, it is a benchmark of traditional Antalya cuisine.",
+   "i": "Prueba el hibeş, un mezze local de sésamo y comino típico de la región.",
+   "i_en": "Try hibeş, a local sesame-and-cumin mezze typical of the region."
+  },
+  "w_ant_seraser": {
+   "id": "w_ant_seraser",
+   "d": "Ubicado en un boutique hotel del casco antiguo, ofrece cocina mediterránea contemporánea de autor con toques turcos, en un elegante patio a la luz de las velas.",
+   "d_en": "Set in an old-town boutique hotel, it serves contemporary Mediterranean signature cuisine with Turkish touches, in an elegant candle-lit courtyard.",
+   "h": "Ocupa una casa señorial otomana rehabilitada como hotel de lujo.",
+   "h_en": "It occupies an Ottoman mansion restored as a luxury hotel.",
+   "i": "Reserva mesa: es una de las opciones más románticas de Kaleiçi.",
+   "i_en": "Book a table: it is one of the most romantic options in Kaleiçi."
+  },
+  "w_ant_club_arma": {
+   "id": "w_ant_club_arma",
+   "d": "Sobre el acantilado del puerto viejo, sirve pescado fresco, meze de mar y platos mediterráneos en una gran terraza panorámica que domina la marina y el mar.",
+   "d_en": "On the old-harbour cliff, it serves fresh fish, seafood meze and Mediterranean dishes on a large panoramic terrace overlooking the marina and sea.",
+   "h": "El edificio fue un depósito de aceite portuario reconvertido en restaurante y club.",
+   "h_en": "The building was a harbour oil depot converted into a restaurant and club.",
+   "i": "La vista al atardecer sobre el puerto es de las mejores de la ciudad.",
+   "i_en": "The sunset view over the harbour is among the best in the city."
+  },
+  "w_ant_vanilla_lounge": {
+   "id": "w_ant_vanilla_lounge",
+   "d": "Restaurante de estilo contemporáneo dirigido por un chef, con platos internacionales y europeos cuidados, ambiente elegante y relajado a pocos pasos de la Puerta de Adriano.",
+   "d_en": "A contemporary chef-led restaurant with refined international and European dishes, in an elegant relaxed setting a few steps from Hadrian's Gate.",
+   "h": "Abierto por un chef con experiencia británica que introdujo cocina de autor en Kaleiçi.",
+   "h_en": "Opened by a chef with British experience who brought signature cuisine to Kaleiçi.",
+   "i": "Buena opción si buscas un descanso de los sabores puramente turcos.",
+   "i_en": "A good choice if you want a break from purely Turkish flavours."
+  },
+  "w_ant_can_can_pide": {
+   "id": "w_ant_can_can_pide",
+   "d": "Sencillo y muy concurrido, sirve las clásicas 'pizzas' turcas pide recién horneadas, lahmacun y kebabs, un almuerzo rápido, sabroso y económico cerca del bazar.",
+   "d_en": "Simple and busy, it serves classic freshly baked pide 'pizzas', lahmacun and kebabs, a quick, tasty and cheap lunch near the bazaar.",
+   "h": "Es uno de los pideci tradicionales que abastecen a locales y visitantes del centro.",
+   "h_en": "It is one of the traditional pideci feeding locals and visitors in the centre.",
+   "i": "Pide el pide con kaşar (queso) y huevo, un favorito para desayunar tarde.",
+   "i_en": "Order the pide with kaşar cheese and egg, a favourite for a late breakfast."
+  },
+  "w_ant_castle_cafe": {
+   "id": "w_ant_castle_cafe",
+   "d": "Café-restaurante encaramado al borde del acantilado de Kaleiçi, popular por su terraza colgante con vistas a la bahía y a las montañas, perfecta para una bebida al atardecer o un almuerzo largo.",
+   "d_en": "A café-restaurant perched on the edge of the Kaleiçi cliff, popular for its hanging terrace overlooking the bay and mountains, perfect for a sunset drink or a long lunch.",
+   "h": "Ocupa una de las mejores posiciones panorámicas del borde amurallado de la ciudad vieja.",
+   "h_en": "It occupies one of the best panoramic positions on the old town's walled edge.",
+   "i": "Llega temprano para conseguir una mesa en primera fila junto a la barandilla.",
+   "i_en": "Arrive early to grab a front-row table by the railing."
+  }
+ },
+ "food": {
+  "w_ant_7mehmet": {
+   "cuisine": "Turca",
+   "price": "20–40 €",
+   "hours": "12:00–24:00"
+  },
+  "w_ant_seraser": {
+   "cuisine": "Mediterránea",
+   "price": "30–40 €",
+   "hours": "18:00–24:00"
+  },
+  "w_ant_club_arma": {
+   "cuisine": "Pescado y marisco",
+   "price": "25–40 €",
+   "hours": "12:00–01:00"
+  },
+  "w_ant_vanilla_lounge": {
+   "cuisine": "Internacional",
+   "price": "15–30 €",
+   "hours": "11:00–23:00"
+  },
+  "w_ant_can_can_pide": {
+   "cuisine": "Turca casual",
+   "price": "8–15 €",
+   "hours": "10:00–23:00"
+  },
+  "w_ant_castle_cafe": {
+   "cuisine": "Turca e internacional",
+   "price": "12–25 €",
+   "hours": "09:00–24:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Antalya",
+   "items": [
+    {
+     "name": "Ojo turco (Nazar boncuğu)",
+     "price": "2–15 €",
+     "desc": "Amuleto de cristal azul contra el mal de ojo, símbolo de Turquía."
+    },
+    {
+     "name": "Delicias turcas (lokum)",
+     "price": "5–20 €",
+     "desc": "Dulces de gelatina con rosa, granada o pistacho, en cajas surtidas."
+    },
+    {
+     "name": "Cerámica de Kütahya",
+     "price": "8–60 €",
+     "desc": "Platos y azulejos pintados a mano con motivos florales otomanos."
+    },
+    {
+     "name": "Té de manzana y juego de vasos",
+     "price": "5–25 €",
+     "desc": "Té turco de manzana con vasos tulipán tradicionales."
+    },
+    {
+     "name": "Toallas de algodón (peştemal)",
+     "price": "10–30 €",
+     "desc": "Pañuelos de baño finos tejidos, típicos del hamam."
+    }
+   ],
+   "shops": [
+    "Bazar de Kaleiçi",
+    "Zona comercial de la Puerta de Adriano",
+    "Işıklar Caddesi",
+    "Tienda del Museo de Antalya"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "El casco antiguo Kaleiçi se recorre a pie; lleva calzado cómodo por las calles empedradas.",
+   "Compra una AntalyaKart para el tranvía y autobuses; es más barato que pagar cada viaje.",
+   "Los sitios lejanos (Aspendos, Side, Termessos, Phaselis) requieren coche o excursión organizada.",
+   "El verano es muy caluroso (34 °C); visita las ruinas a primera hora o al atardecer.",
+   "Regatea con calma en el bazar y compara precios antes de comprar recuerdos."
+  ],
+  "en": [
+   "Explore the Kaleiçi old town on foot; wear comfortable shoes for the cobbled streets.",
+   "Buy an AntalyaKart for the tram and buses; it is cheaper than paying per ride.",
+   "Distant sites (Aspendos, Side, Termessos, Phaselis) need a car or an organised tour.",
+   "Summers are very hot (34 °C); visit the ruins early morning or near sunset.",
+   "Haggle calmly in the bazaar and compare prices before buying souvenirs."
+  ]
+ },
+ "climate": {
+  "hi": [
+   15,
+   15,
+   18,
+   21,
+   26,
+   31,
+   34,
+   34,
+   31,
+   26,
+   21,
+   16
+  ],
+  "lo": [
+   6,
+   6,
+   8,
+   11,
+   15,
+   20,
+   23,
+   23,
+   19,
+   15,
+   11,
+   8
+  ]
+ },
+ "tr": {
+  "Barrio histórico amurallado con calles empedradas y casas otomanas.": "Walled historic quarter of cobbled lanes and Ottoman houses.",
+  "Arco triunfal romano de mármol con tres vanos, la entrada monumental a Kaleiçi.": "Roman triple-arched marble triumphal gate, the monumental entrance to Kaleiçi.",
+  "Minarete acanalado de ladrillo del siglo XIII, símbolo de Antalya.": "Fluted 13th-century brick minaret, the symbol of Antalya.",
+  "Antiguo puerto romano al pie de Kaleiçi, hoy marina de yates y barcos turísticos.": "Ancient Roman harbour below Kaleiçi, now a marina of yachts and tour boats.",
+  "Uno de los mejores museos arqueológicos de Turquía, con hallazgos de la región.": "One of Turkey's finest archaeological museums, with finds from the region.",
+  "Extensa ciudad grecorromana con estadio, ágora y una gran calle columnada.": "Vast Greco-Roman city with a stadium, agora and a great colonnaded street.",
+  "El teatro romano mejor conservado del mundo antiguo, aún en uso.": "The best-preserved Roman theatre of the ancient world, still in use.",
+  "Antigua ciudad portuaria con un templo de Apolo junto al mar.": "Ancient port town with a seaside Temple of Apollo.",
+  "Ciudad fortaleza en la montaña con un teatro de vistas espectaculares.": "Mountain fortress city with a theatre of spectacular views.",
+  "Torre de piedra otomana que marca la entrada al casco antiguo.": "Ottoman stone tower marking the entrance to the old town.",
+  "Torre romana circular sobre los acantilados, ideal al atardecer.": "Circular Roman tower on the cliffs, ideal at sunset.",
+  "Ruina que fue templo romano, iglesia y mezquita a lo largo de los siglos.": "Ruin that was a Roman temple, church and mosque across the centuries.",
+  "Salto de agua rodeado de parque, con una cueva tras la cortina.": "Waterfall set in a park, with a cave behind the curtain of water.",
+  "Cascada que se precipita al mar Mediterráneo desde un acantilado.": "Waterfall plunging into the Mediterranean Sea from a cliff.",
+  "Cascada tranquila dentro de un parque natural de pinares y estanques.": "Peaceful waterfall inside a nature park of pine woods and pools.",
+  "Larga playa de guijarros con los montes Tauro de fondo.": "Long pebble beach with the Taurus mountains as backdrop.",
+  "Amplia playa de arena dorada, zona de grandes hoteles resort.": "Wide golden-sand beach, home to large resort hotels.",
+  "Llamas naturales eternas que brotan de las rocas de la montaña.": "Eternal natural flames rising from the mountain rocks.",
+  "Ruinas antiguas entre tres calas de aguas turquesa y pinares.": "Ancient ruins nestled among three turquoise coves and pine woods.",
+  "Parque histórico sobre los acantilados con jardines y miradores.": "Historic clifftop park with gardens and viewpoints.",
+  "Uno de los mayores acuarios del mundo, con un túnel submarino gigante.": "One of the world's largest aquariums, with a giant underwater tunnel.",
+  "Gran parque temático y acuático en Belek, con montañas rusas y espectáculos.": "Large theme and water park in Belek, with roller coasters and shows.",
+  "Cabina panorámica que sube a una cima con vistas de toda la bahía.": "Panoramic cable car climbing to a summit overlooking the whole bay.",
+  "Restaurante clásico de alta cocina turca junto al parque de la cultura.": "Classic upscale Turkish restaurant beside the culture park.",
+  "Alta cocina en una mansión otomana restaurada de Kaleiçi.": "Fine dining in a restored Ottoman mansion in Kaleiçi.",
+  "Marisco y pescado con vistas al puerto viejo desde un antiguo depósito.": "Seafood and fish with old-harbour views from a former warehouse.",
+  "Cocina internacional moderna en pleno casco antiguo.": "Modern international cuisine in the heart of the old town.",
+  "Local popular de pide, lahmacun y kebabs a buen precio.": "Popular spot for pide, lahmacun and kebabs at good prices.",
+  "Terraza sobre el acantilado ideal para una comida con vistas al mar.": "Clifftop terrace ideal for a meal with sea views.",
+  "Antalya": "Antalya"
+ }
+}

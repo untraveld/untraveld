@@ -1,0 +1,703 @@
+{
+ "id": "sanfrancisco",
+ "name": "San Francisco",
+ "country": "WORLD",
+ "center": [
+  37.7749,
+  -122.4194
+ ],
+ "pois": [
+  {
+   "id": "w_sfo_golden_gate_bridge",
+   "cat": "monuments",
+   "name": "Golden Gate Bridge",
+   "icon": "🌉",
+   "lat": 37.8199,
+   "lng": -122.4783,
+   "desc": "Icónico puente colgante rojo de 1937."
+  },
+  {
+   "id": "w_sfo_alcatraz",
+   "cat": "monuments",
+   "name": "Alcatraz Island",
+   "icon": "🏝️",
+   "lat": 37.827,
+   "lng": -122.423,
+   "desc": "Antigua prisión federal en una isla de la bahía."
+  },
+  {
+   "id": "w_sfo_lombard_street",
+   "cat": "monuments",
+   "name": "Lombard Street",
+   "icon": "🛣️",
+   "lat": 37.8021,
+   "lng": -122.4187,
+   "desc": "La calle más sinuosa del mundo, con ocho curvas."
+  },
+  {
+   "id": "w_sfo_painted_ladies",
+   "cat": "monuments",
+   "name": "Painted Ladies / Alamo Square",
+   "icon": "🏘️",
+   "lat": 37.7763,
+   "lng": -122.4326,
+   "desc": "Casas victorianas coloridas frente al skyline."
+  },
+  {
+   "id": "w_sfo_coit_tower",
+   "cat": "monuments",
+   "name": "Coit Tower",
+   "icon": "🗼",
+   "lat": 37.8024,
+   "lng": -122.4058,
+   "desc": "Torre art déco en Telegraph Hill con murales."
+  },
+  {
+   "id": "w_sfo_palace_fine_arts",
+   "cat": "monuments",
+   "name": "Palace of Fine Arts",
+   "icon": "🏛️",
+   "lat": 37.8029,
+   "lng": -122.4485,
+   "desc": "Rotonda neoclásica junto a una laguna."
+  },
+  {
+   "id": "w_sfo_ferry_building",
+   "cat": "monuments",
+   "name": "Ferry Building",
+   "icon": "🕰️",
+   "lat": 37.7955,
+   "lng": -122.3937,
+   "desc": "Terminal de ferris de 1898 con torre del reloj."
+  },
+  {
+   "id": "w_sfo_cable_cars",
+   "cat": "monuments",
+   "name": "Cable Cars (Powell–Hyde)",
+   "icon": "🚋",
+   "lat": 37.7809,
+   "lng": -122.4104,
+   "desc": "Tranvías históricos de tracción por cable."
+  },
+  {
+   "id": "w_sfo_city_hall",
+   "cat": "monuments",
+   "name": "City Hall",
+   "icon": "🏛️",
+   "lat": 37.7793,
+   "lng": -122.4193,
+   "desc": "Ayuntamiento beaux-arts de gran cúpula dorada."
+  },
+  {
+   "id": "w_sfo_grace_cathedral",
+   "cat": "monuments",
+   "name": "Grace Cathedral",
+   "icon": "⛪",
+   "lat": 37.7919,
+   "lng": -122.4127,
+   "desc": "Catedral neogótica en Nob Hill con laberintos."
+  },
+  {
+   "id": "w_sfo_mission_dolores",
+   "cat": "monuments",
+   "name": "Mission Dolores",
+   "icon": "🕍",
+   "lat": 37.7643,
+   "lng": -122.4269,
+   "desc": "El edificio más antiguo de San Francisco."
+  },
+  {
+   "id": "w_sfo_golden_gate_park",
+   "cat": "nature",
+   "name": "Golden Gate Park",
+   "icon": "🌳",
+   "lat": 37.7694,
+   "lng": -122.4862,
+   "desc": "Gran parque urbano con jardines y museos."
+  },
+  {
+   "id": "w_sfo_twin_peaks",
+   "cat": "nature",
+   "name": "Twin Peaks",
+   "icon": "⛰️",
+   "lat": 37.7544,
+   "lng": -122.4477,
+   "desc": "Dos cimas con el mejor mirador de la ciudad."
+  },
+  {
+   "id": "w_sfo_muir_woods",
+   "cat": "nature",
+   "name": "Muir Woods (excursión)",
+   "icon": "🌲",
+   "lat": 37.8916,
+   "lng": -122.5719,
+   "desc": "Bosque de secuoyas gigantes al norte de la bahía."
+  },
+  {
+   "id": "w_sfo_lands_end",
+   "cat": "nature",
+   "name": "Lands End",
+   "icon": "🌊",
+   "lat": 37.7853,
+   "lng": -122.5058,
+   "desc": "Sendero costero con acantilados y vistas al puente."
+  },
+  {
+   "id": "w_sfo_baker_beach",
+   "cat": "nature",
+   "name": "Baker Beach",
+   "icon": "🏖️",
+   "lat": 37.7936,
+   "lng": -122.4836,
+   "desc": "Playa con vistas frontales al Golden Gate."
+  },
+  {
+   "id": "w_sfo_ocean_beach",
+   "cat": "nature",
+   "name": "Ocean Beach",
+   "icon": "🌅",
+   "lat": 37.7594,
+   "lng": -122.5107,
+   "desc": "Larga playa del Pacífico al oeste de la ciudad."
+  },
+  {
+   "id": "w_sfo_japanese_tea_garden",
+   "cat": "nature",
+   "name": "Japanese Tea Garden",
+   "icon": "🍵",
+   "lat": 37.7702,
+   "lng": -122.4703,
+   "desc": "Jardín japonés histórico en Golden Gate Park."
+  },
+  {
+   "id": "w_sfo_fishermans_wharf",
+   "cat": "ocio",
+   "name": "Fisherman's Wharf / Pier 39",
+   "icon": "🦭",
+   "lat": 37.8087,
+   "lng": -122.4098,
+   "desc": "Muelle turístico con leones marinos y tiendas."
+  },
+  {
+   "id": "w_sfo_chinatown",
+   "cat": "ocio",
+   "name": "Chinatown",
+   "icon": "🏮",
+   "lat": 37.7941,
+   "lng": -122.4078,
+   "desc": "El Chinatown más antiguo de Norteamérica."
+  },
+  {
+   "id": "w_sfo_union_square",
+   "cat": "ocio",
+   "name": "Union Square",
+   "icon": "🛍️",
+   "lat": 37.788,
+   "lng": -122.4074,
+   "desc": "Plaza central de compras y teatros."
+  },
+  {
+   "id": "w_sfo_cal_academy_sciences",
+   "cat": "ocio",
+   "name": "California Academy of Sciences",
+   "icon": "🔬",
+   "lat": 37.7699,
+   "lng": -122.4661,
+   "desc": "Museo de ciencias con acuario y planetario."
+  },
+  {
+   "id": "w_sfo_sfmoma",
+   "cat": "ocio",
+   "name": "SFMOMA",
+   "icon": "🎨",
+   "lat": 37.7857,
+   "lng": -122.4011,
+   "desc": "Museo de arte moderno y contemporáneo."
+  },
+  {
+   "id": "w_sfo_de_young_museum",
+   "cat": "ocio",
+   "name": "de Young Museum",
+   "icon": "🖼️",
+   "lat": 37.7715,
+   "lng": -122.4687,
+   "desc": "Museo de bellas artes con torre mirador."
+  },
+  {
+   "id": "w_sfo_swan_oyster_depot",
+   "cat": "food",
+   "name": "Swan Oyster Depot",
+   "icon": "🦪",
+   "lat": 37.7906,
+   "lng": -122.422,
+   "desc": "Barra de marisco legendaria de 1912."
+  },
+  {
+   "id": "w_sfo_boudin_bakery",
+   "cat": "food",
+   "name": "Boudin Bakery",
+   "icon": "🍞",
+   "lat": 37.8083,
+   "lng": -122.4157,
+   "desc": "Cuna del pan de masa madre de San Francisco."
+  },
+  {
+   "id": "w_sfo_la_taqueria",
+   "cat": "food",
+   "name": "La Taqueria",
+   "icon": "🌮",
+   "lat": 37.7509,
+   "lng": -122.4181,
+   "desc": "Templo del burrito de estilo Mission."
+  },
+  {
+   "id": "w_sfo_tartine_bakery",
+   "cat": "food",
+   "name": "Tartine Bakery",
+   "icon": "🥐",
+   "lat": 37.7614,
+   "lng": -122.4241,
+   "desc": "Panadería y pastelería de culto en Mission."
+  },
+  {
+   "id": "w_sfo_ghirardelli_square",
+   "cat": "food",
+   "name": "Ghirardelli Square",
+   "icon": "🍫",
+   "lat": 37.8058,
+   "lng": -122.4229,
+   "desc": "Plaza histórica de la chocolatera Ghirardelli."
+  },
+  {
+   "id": "w_sfo_rg_lounge",
+   "cat": "food",
+   "name": "R&G Lounge",
+   "icon": "🦀",
+   "lat": 37.7946,
+   "lng": -122.4045,
+   "desc": "Cocina cantonesa clásica en pleno Chinatown."
+  }
+ ],
+ "extra": {
+  "w_sfo_golden_gate_bridge": {
+   "id": "w_sfo_golden_gate_bridge",
+   "d": "El símbolo indiscutible de San Francisco, un puente colgante de 2,7 km inaugurado en 1937 y pintado en su característico color 'international orange'. Une la ciudad con el condado de Marin sobre el estrecho de la Golden Gate.",
+   "d_en": "San Francisco's undisputed symbol, a 2.7 km suspension bridge opened in 1937 and painted its signature 'international orange'. It links the city with Marin County across the Golden Gate strait.",
+   "h": "Se cruza a pie o en bici; miradores en Battery Spencer y el Welcome Center.",
+   "h_en": "Cross on foot or by bike; viewpoints at Battery Spencer and the Welcome Center.",
+   "i": "La niebla suele envolver las torres a media mañana y al atardecer.",
+   "i_en": "Fog often shrouds the towers in late morning and at sunset."
+  },
+  "w_sfo_alcatraz": {
+   "id": "w_sfo_alcatraz",
+   "d": "'La Roca' fue la prisión de máxima seguridad más temida de EE. UU. entre 1934 y 1963, hogar de reclusos como Al Capone. Hoy es un parque nacional con una célebre audioguía narrada por antiguos guardias y presos.",
+   "d_en": "'The Rock' was the most feared maximum-security prison in the U.S. from 1934 to 1963, home to inmates like Al Capone. Today it is a national park with a famous audio tour narrated by former guards and prisoners.",
+   "h": "Solo se llega en ferri desde Pier 33; reserva con antelación.",
+   "h_en": "Reachable only by ferry from Pier 33; book in advance.",
+   "i": "El tour nocturno ofrece una atmósfera especialmente sobrecogedora.",
+   "i_en": "The night tour offers an especially eerie atmosphere."
+  },
+  "w_sfo_lombard_street": {
+   "id": "w_sfo_lombard_street",
+   "d": "Un tramo de una manzana en Russian Hill famoso por sus ocho pronunciadas curvas en zigzag, rodeadas de setos y hortensias, creadas en 1922 para suavizar una pendiente del 27 %.",
+   "d_en": "A one-block stretch in Russian Hill famed for its eight sharp switchback curves, framed by hedges and hydrangeas, built in 1922 to tame a 27% grade.",
+   "h": "Bájala a pie o en coche; mejores vistas desde la base en Leavenworth St.",
+   "h_en": "Walk or drive down it; best views from the base on Leavenworth St.",
+   "i": "Las hortensias florecen espectaculares a finales de primavera.",
+   "i_en": "The hydrangeas bloom spectacularly in late spring."
+  },
+  "w_sfo_painted_ladies": {
+   "id": "w_sfo_painted_ladies",
+   "d": "Hilera de casas victorianas de estilo 'Queen Anne' conocidas como las 'Seven Sisters', enmarcadas por los rascacielos del centro desde el parque de Alamo Square. Inmortalizadas en la serie 'Full House'.",
+   "d_en": "A row of Queen Anne Victorian houses known as the 'Seven Sisters', framed by the downtown skyline from Alamo Square park. Made famous by the sitcom 'Full House'.",
+   "h": "Fotografía clásica desde la ladera este del parque de Alamo Square.",
+   "h_en": "Classic photo from the eastern slope of Alamo Square park.",
+   "i": "El contraste entre casas de 1890 y torres modernas es único.",
+   "i_en": "The contrast of 1890s houses and modern towers is unique."
+  },
+  "w_sfo_coit_tower": {
+   "id": "w_sfo_coit_tower",
+   "d": "Torre cilíndrica de hormigón de 64 m erigida en 1933 en la cima de Telegraph Hill. Su interior alberga murales del New Deal y su mirador ofrece panorámicas de 360° de la bahía.",
+   "d_en": "A 64 m cylindrical concrete tower built in 1933 atop Telegraph Hill. Inside are New Deal murals, and its observation deck offers 360° views of the bay.",
+   "h": "Sube en ascensor de pago; alrededor viven loros salvajes.",
+   "h_en": "Ride the paid elevator; wild parrots live nearby.",
+   "i": "Las famosas cotorras de Telegraph Hill anidan en los árboles cercanos.",
+   "i_en": "The famed wild parrots of Telegraph Hill nest in nearby trees."
+  },
+  "w_sfo_palace_fine_arts": {
+   "id": "w_sfo_palace_fine_arts",
+   "d": "Monumental rotonda de estilo grecorromano construida para la Exposición Panamá-Pacífico de 1915. Rodeada de una laguna con cisnes, es uno de los rincones más románticos de la ciudad.",
+   "d_en": "A monumental Greco-Roman rotunda built for the 1915 Panama–Pacific Exposition. Surrounded by a swan-filled lagoon, it is one of the city's most romantic spots.",
+   "h": "Acceso libre a los jardines; muy fotografiado en bodas.",
+   "h_en": "Free access to the grounds; a popular wedding photo spot.",
+   "i": "Se reconstruyó en hormigón en los años 60 tras deteriorarse.",
+   "i_en": "It was rebuilt in concrete in the 1960s after decaying."
+  },
+  "w_sfo_ferry_building": {
+   "id": "w_sfo_ferry_building",
+   "d": "Emblemática terminal de 1898 en el Embarcadero, coronada por una torre del reloj de 75 m inspirada en la Giralda de Sevilla. Hoy alberga un célebre mercado gourmet.",
+   "d_en": "An iconic 1898 terminal on the Embarcadero, crowned by a 75 m clock tower inspired by the Giralda of Seville. Today it houses a celebrated gourmet marketplace.",
+   "h": "Aún operan ferris a Sausalito y Oakland desde su parte trasera.",
+   "h_en": "Ferries to Sausalito and Oakland still run from the rear.",
+   "i": "Los martes, jueves y sábados hay mercado de granjeros al aire libre.",
+   "i_en": "An outdoor farmers market runs Tuesdays, Thursdays and Saturdays."
+  },
+  "w_sfo_cable_cars": {
+   "id": "w_sfo_cable_cars",
+   "d": "El único sistema de tranvías de cable en funcionamiento del mundo, operando desde 1873. La línea Powell–Hyde sube y baja empinadas colinas con vistas a la bahía y termina junto a Ghirardelli Square.",
+   "d_en": "The world's only manually operated cable car system, running since 1873. The Powell–Hyde line climbs and drops steep hills with bay views, ending near Ghirardelli Square.",
+   "h": "Plataforma giratoria en Powell & Market; cómprate el billete antes.",
+   "h_en": "Turntable at Powell & Market; buy your ticket beforehand.",
+   "i": "Son Monumento Histórico Nacional en movimiento desde 1964.",
+   "i_en": "They have been a moving National Historic Landmark since 1964."
+  },
+  "w_sfo_city_hall": {
+   "id": "w_sfo_city_hall",
+   "d": "Majestuoso edificio Beaux-Arts de 1915 cuya cúpula, de 93 m, es más alta que la del Capitolio de Washington. Escenario de bodas históricas y sedes de protestas y celebraciones.",
+   "d_en": "A majestic 1915 Beaux-Arts building whose 93 m dome is taller than the U.S. Capitol's. It has hosted historic weddings, protests and celebrations.",
+   "h": "Visitas guiadas gratuitas entre semana por su gran escalinata.",
+   "h_en": "Free guided tours on weekdays around its grand staircase.",
+   "i": "Se ilumina de colores según festividades y causas.",
+   "i_en": "It lights up in colors for holidays and causes."
+  },
+  "w_sfo_grace_cathedral": {
+   "id": "w_sfo_grace_cathedral",
+   "d": "Catedral episcopal neogótica en lo alto de Nob Hill, con puertas de bronce réplicas de las 'Puertas del Paraíso' de Florencia, vidrieras modernas y dos laberintos para meditar.",
+   "d_en": "A neo-Gothic Episcopal cathedral atop Nob Hill, with bronze doors replicating Florence's 'Gates of Paradise', modern stained glass and two meditation labyrinths.",
+   "h": "Entrada libre; consulta horarios de conciertos de órgano.",
+   "h_en": "Free entry; check the schedule for organ concerts.",
+   "i": "Su laberinto exterior está abierto las 24 horas.",
+   "i_en": "Its outdoor labyrinth is open 24 hours a day."
+  },
+  "w_sfo_mission_dolores": {
+   "id": "w_sfo_mission_dolores",
+   "d": "Fundada en 1776, esta misión española de adobe es la construcción más antigua de la ciudad. Su modesta capilla original sobrevivió a los terremotos y da nombre al barrio de Mission.",
+   "d_en": "Founded in 1776, this Spanish adobe mission is the city's oldest building. Its modest original chapel survived the earthquakes and gave the Mission district its name.",
+   "h": "Incluye un pequeño cementerio y museo; entrada económica.",
+   "h_en": "Includes a small cemetery and museum; low-cost entry.",
+   "i": "Aparece en la película 'Vértigo' de Alfred Hitchcock.",
+   "i_en": "It appears in Alfred Hitchcock's film 'Vertigo'."
+  },
+  "w_sfo_golden_gate_park": {
+   "id": "w_sfo_golden_gate_park",
+   "d": "Enorme parque de 4 km² —mayor que Central Park— con lagos, molinos de viento holandeses, praderas, un jardín botánico y algunas de las principales instituciones culturales de la ciudad.",
+   "d_en": "A huge 4 km² park —larger than Central Park— with lakes, Dutch windmills, meadows, a botanical garden and some of the city's leading cultural institutions.",
+   "h": "Los domingos JFK Drive se cierra al tráfico; ideal en bici.",
+   "h_en": "On Sundays JFK Drive closes to traffic; great by bike.",
+   "i": "Alberga un rebaño de bisontes en un recinto desde 1891.",
+   "i_en": "It has kept a herd of bison in a paddock since 1891."
+  },
+  "w_sfo_twin_peaks": {
+   "id": "w_sfo_twin_peaks",
+   "d": "Dos colinas gemelas de unos 280 m casi en el centro geográfico de la ciudad, ofreciendo la panorámica más completa de San Francisco, la bahía y sus puentes.",
+   "d_en": "Two twin hills around 280 m near the city's geographic center, offering the most complete panorama of San Francisco, the bay and its bridges.",
+   "h": "Sube en coche o taxi; el viento arriba puede ser intenso.",
+   "h_en": "Drive or take a taxi up; the wind at the top can be fierce.",
+   "i": "Al anochecer se ve el trazado en cuadrícula iluminado.",
+   "i_en": "At dusk the illuminated street grid stretches below."
+  },
+  "w_sfo_muir_woods": {
+   "id": "w_sfo_muir_woods",
+   "d": "Monumento nacional en el condado de Marin que protege un frondoso bosque de secuoyas costeras de hasta 80 m y más de 1.000 años. Senderos entablados recorren el valle sombrío.",
+   "d_en": "A national monument in Marin County protecting a lush grove of coast redwoods up to 80 m tall and over 1,000 years old. Boardwalk trails wind through the shady valley.",
+   "h": "Reserva obligatoria de aparcamiento o lanzadera con antelación.",
+   "h_en": "Parking or shuttle reservations are required in advance.",
+   "i": "A unos 30 min en coche cruzando el Golden Gate.",
+   "i_en": "About 30 min by car across the Golden Gate."
+  },
+  "w_sfo_lands_end": {
+   "id": "w_sfo_lands_end",
+   "d": "Tramo salvaje de costa en el extremo noroeste de la ciudad, con un sendero entre cipreses y acantilados que asoma al océano Pacífico, restos de naufragios y un laberinto de piedras.",
+   "d_en": "A wild stretch of coast at the city's northwest tip, with a trail through cypress and cliffs overlooking the Pacific, shipwreck remains and a stone labyrinth.",
+   "h": "Empieza en el Lands End Lookout; calzado cómodo.",
+   "h_en": "Start at the Lands End Lookout; wear comfortable shoes.",
+   "i": "Con marea baja se ven restos oxidados de barcos hundidos.",
+   "i_en": "At low tide you can spot rusted shipwreck remains."
+  },
+  "w_sfo_baker_beach": {
+   "id": "w_sfo_baker_beach",
+   "d": "Amplia playa de arena en el Presidio con una de las vistas más espectaculares del Golden Gate Bridge. El oleaje es fuerte y el agua fría, pero el paisaje es inmejorable.",
+   "d_en": "A wide sandy beach in the Presidio with one of the most spectacular views of the Golden Gate Bridge. The surf is strong and the water cold, but the scenery is unbeatable.",
+   "h": "No apta para el baño por corrientes; ideal para pasear.",
+   "h_en": "Not for swimming due to currents; ideal for strolling.",
+   "i": "Fue el lugar donde nació el festival Burning Man en 1986.",
+   "i_en": "It was where the Burning Man festival began in 1986."
+  },
+  "w_sfo_ocean_beach": {
+   "id": "w_sfo_ocean_beach",
+   "d": "Extensa playa de más de 5 km que bordea todo el flanco occidental de San Francisco frente al Pacífico. Popular entre surfistas y para hogueras al atardecer.",
+   "d_en": "A sweeping beach over 5 km long lining the entire western edge of San Francisco facing the Pacific. Popular with surfers and for sunset bonfires.",
+   "h": "Junto al histórico Cliff House y las ruinas de Sutro Baths.",
+   "h_en": "Beside the historic Cliff House and the Sutro Baths ruins.",
+   "i": "Las corrientes de resaca la hacen peligrosa para nadar.",
+   "i_en": "Rip currents make it dangerous for swimming."
+  },
+  "w_sfo_japanese_tea_garden": {
+   "id": "w_sfo_japanese_tea_garden",
+   "d": "El jardín japonés público más antiguo de EE. UU., creado en 1894, con puentes en arco, pagodas, estanques de carpas koi, cerezos en flor y una casa de té tradicional.",
+   "d_en": "The oldest public Japanese garden in the U.S., created in 1894, with arched bridges, pagodas, koi ponds, cherry blossoms and a traditional tea house.",
+   "h": "Entrada gratis para residentes a primera hora ciertos días.",
+   "h_en": "Free early-morning entry for residents on certain days.",
+   "i": "Se dice que aquí se popularizó la galleta de la fortuna.",
+   "i_en": "The fortune cookie is said to have been popularized here."
+  },
+  "w_sfo_fishermans_wharf": {
+   "id": "w_sfo_fishermans_wharf",
+   "d": "Animado frente marítimo con tiendas, atracciones, puestos de marisco y el célebre Pier 39, donde decenas de leones marinos toman el sol sobre pontones flotantes desde 1989.",
+   "d_en": "A lively waterfront with shops, attractions, seafood stands and the famous Pier 39, where dozens of sea lions have basked on floating docks since 1989.",
+   "h": "Muy concurrido; combina con un paseo hasta Ghirardelli Square.",
+   "h_en": "Very busy; combine with a walk to Ghirardelli Square.",
+   "i": "Los leones marinos aparecieron misteriosamente tras un terremoto.",
+   "i_en": "The sea lions mysteriously arrived after an earthquake."
+  },
+  "w_sfo_chinatown": {
+   "id": "w_sfo_chinatown",
+   "d": "Fundado en 1848, es el barrio chino más antiguo de Norteamérica y uno de los más grandes fuera de Asia. Sus calles rebosan templos, herbolarios, farolillos y restaurantes de dim sum.",
+   "d_en": "Founded in 1848, it is the oldest Chinatown in North America and one of the largest outside Asia. Its streets brim with temples, herbal shops, lanterns and dim sum restaurants.",
+   "h": "Entra por la Dragon Gate en Grant Ave y Bush St.",
+   "h_en": "Enter through the Dragon Gate at Grant Ave and Bush St.",
+   "i": "Visita la fábrica de galletas de la fortuna en Ross Alley.",
+   "i_en": "Visit the fortune cookie factory in Ross Alley."
+  },
+  "w_sfo_union_square": {
+   "id": "w_sfo_union_square",
+   "d": "El corazón comercial de la ciudad, una plaza rodeada de grandes almacenes, hoteles de lujo, galerías y teatros del distrito de Union Square, con una columna de la victoria en el centro.",
+   "d_en": "The city's shopping heart, a plaza ringed by department stores, luxury hotels, galleries and the Union Square theater district, with a victory column at its center.",
+   "h": "Nudo de líneas de cable car; muy iluminado en Navidad.",
+   "h_en": "A cable car hub; beautifully lit at Christmas.",
+   "i": "Debe su nombre a mítines pro-Unión antes de la Guerra Civil.",
+   "i_en": "It is named after pro-Union rallies before the Civil War."
+  },
+  "w_sfo_cal_academy_sciences": {
+   "id": "w_sfo_cal_academy_sciences",
+   "d": "Museo de historia natural en Golden Gate Park que reúne bajo un mismo techo verde viviente un acuario, un planetario, un museo y una selva tropical de cuatro pisos.",
+   "d_en": "A natural history museum in Golden Gate Park combining an aquarium, planetarium, museum and a four-story rainforest under one living green roof.",
+   "h": "Los jueves 'NightLife' es solo para adultos con música.",
+   "h_en": "Thursday 'NightLife' is an adults-only evening with music.",
+   "i": "Su tejado ondulado está cubierto de plantas autóctonas.",
+   "i_en": "Its undulating roof is covered in native plants."
+  },
+  "w_sfo_sfmoma": {
+   "id": "w_sfo_sfmoma",
+   "d": "Uno de los mayores museos de arte moderno de EE. UU., con obras de Matisse, Warhol, Rothko y Kahlo, ampliado en 2016 con un espectacular edificio de fachada ondulante blanca.",
+   "d_en": "One of the largest modern art museums in the U.S., with works by Matisse, Warhol, Rothko and Kahlo, expanded in 2016 with a striking rippling white façade.",
+   "h": "Tiene un jardín vertical de plantas vivas en la terraza.",
+   "h_en": "It features a living plant wall on the terrace.",
+   "i": "Fue el primer museo de la costa oeste dedicado al arte del siglo XX.",
+   "i_en": "It was the West Coast's first museum devoted to 20th-century art."
+  },
+  "w_sfo_de_young_museum": {
+   "id": "w_sfo_de_young_museum",
+   "d": "Museo de bellas artes en Golden Gate Park con colecciones de arte americano, africano y de Oceanía, envuelto en una fachada de cobre y coronado por una torre-mirador gratuita.",
+   "d_en": "A fine arts museum in Golden Gate Park with American, African and Oceanic collections, wrapped in a copper façade and topped by a free observation tower.",
+   "h": "Sube gratis a la torre para ver el parque y la ciudad.",
+   "h_en": "Ride the tower for free to view the park and city.",
+   "i": "El cobre de su fachada se oscurece con el tiempo a propósito.",
+   "i_en": "Its copper façade is meant to darken over time."
+  },
+  "w_sfo_swan_oyster_depot": {
+   "id": "w_sfo_swan_oyster_depot",
+   "d": "Diminuta marisquería familiar abierta en 1912, con solo una barra de mármol y taburetes. Sirve ostras fresquísimas, cangrejo Dungeness y almejas entre largas colas de fieles.",
+   "d_en": "A tiny family-run seafood spot open since 1912, with just a marble counter and stools. It serves ultra-fresh oysters, Dungeness crab and clams amid long lines of devotees.",
+   "h": "No acepta reservas; llega temprano para evitar la cola.",
+   "h_en": "No reservations; arrive early to beat the line.",
+   "i": "Solo efectivo y trato cercano de los hermanos Sancimino.",
+   "i_en": "Cash only, with warm service from the Sancimino brothers."
+  },
+  "w_sfo_boudin_bakery": {
+   "id": "w_sfo_boudin_bakery",
+   "d": "Panadería fundada en 1849 que popularizó el pan de masa madre de San Francisco. Su sede en Fisherman's Wharf ofrece un mirador sobre el obrador y sopa de almejas en hogaza.",
+   "d_en": "A bakery founded in 1849 that popularized San Francisco sourdough. Its Fisherman's Wharf flagship has a bakery viewing area and clam chowder served in a bread bowl.",
+   "h": "Prueba la clam chowder en cuenco de pan de masa madre.",
+   "h_en": "Try the clam chowder in a sourdough bread bowl.",
+   "i": "Conservan la misma 'madre' original desde el siglo XIX.",
+   "i_en": "They keep the same original 'mother' starter since the 1800s."
+  },
+  "w_sfo_la_taqueria": {
+   "id": "w_sfo_la_taqueria",
+   "d": "Taquería del barrio de Mission célebre por sus burritos y tacos premiados, con carne a la parrilla, frijoles y su distintiva ausencia de arroz. Un clásico imprescindible de la ciudad.",
+   "d_en": "A Mission district taquería famed for its award-winning burritos and tacos, with grilled meat, beans and its signature lack of rice. An essential city classic.",
+   "h": "Pide el burrito 'dorado' pasado por la plancha.",
+   "h_en": "Order the 'dorado' burrito, crisped on the griddle.",
+   "i": "Fue nombrada mejor burrito de EE. UU. por FiveThirtyEight.",
+   "i_en": "It was named the best burrito in the U.S. by FiveThirtyEight."
+  },
+  "w_sfo_tartine_bakery": {
+   "id": "w_sfo_tartine_bakery",
+   "d": "Icónica panadería del barrio de Mission, ganadora de premios James Beard, célebre por su pan de campo, sus 'morning buns' y sus tartas. Suele haber cola en la puerta.",
+   "d_en": "An iconic Mission district bakery, a James Beard Award winner, famed for its country bread, morning buns and tarts. Expect a line at the door.",
+   "h": "Ve por la mañana antes de que se agoten los bollos.",
+   "h_en": "Go in the morning before the pastries sell out.",
+   "i": "Su hogaza de masa madre se hornea en tandas limitadas.",
+   "i_en": "Its sourdough loaf is baked in limited batches."
+  },
+  "w_sfo_ghirardelli_square": {
+   "id": "w_sfo_ghirardelli_square",
+   "d": "Antigua fábrica de chocolate de ladrillo reconvertida en plaza con tiendas y restaurantes. Su heladería sirve enormes sundaes con salsa de chocolate caliente de la casa.",
+   "d_en": "A former brick chocolate factory turned into a square with shops and restaurants. Its ice cream parlor serves huge sundaes with warm house-made hot fudge.",
+   "h": "Recoge una muestra gratis de chocolate al entrar.",
+   "h_en": "Grab a free chocolate sample on your way in.",
+   "i": "El rótulo luminoso de Ghirardelli es un icono del waterfront.",
+   "i_en": "The Ghirardelli neon sign is a waterfront icon."
+  },
+  "w_sfo_rg_lounge": {
+   "id": "w_sfo_rg_lounge",
+   "d": "Restaurante cantonés muy popular en Chinatown, famoso por su cangrejo Dungeness frito con sal y pimienta y sus platos de marisco fresco de la pecera. Ambiente bullicioso y auténtico.",
+   "d_en": "A hugely popular Cantonese restaurant in Chinatown, famed for its salt-and-pepper Dungeness crab and fresh live-tank seafood. Bustling and authentic.",
+   "h": "Reserva para cenar; pide el cangrejo con sal y pimienta.",
+   "h_en": "Reserve for dinner; order the salt-and-pepper crab.",
+   "i": "Es un habitual de las listas de mejores marisquerías de SF.",
+   "i_en": "It regularly tops lists of SF's best seafood spots."
+  }
+ },
+ "food": {
+  "w_sfo_swan_oyster_depot": {
+   "cuisine": "Marisco / seafood",
+   "price": "20–45 €",
+   "hours": "Lun–Sáb 10:30–17:30, Dom cerrado"
+  },
+  "w_sfo_boudin_bakery": {
+   "cuisine": "Panadería / bakery",
+   "price": "10–20 €",
+   "hours": "Todos los días 8:00–20:00"
+  },
+  "w_sfo_la_taqueria": {
+   "cuisine": "Mexicana / Mexican",
+   "price": "10–18 €",
+   "hours": "Mar–Dom 11:00–20:45, Lun cerrado"
+  },
+  "w_sfo_tartine_bakery": {
+   "cuisine": "Panadería-café / bakery-café",
+   "price": "8–20 €",
+   "hours": "Todos los días 8:00–17:00"
+  },
+  "w_sfo_ghirardelli_square": {
+   "cuisine": "Postres / desserts",
+   "price": "8–18 €",
+   "hours": "Todos los días 10:00–21:00"
+  },
+  "w_sfo_rg_lounge": {
+   "cuisine": "China cantonesa / Cantonese",
+   "price": "20–40 €",
+   "hours": "Todos los días 11:00–21:30"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "San Francisco",
+   "items": [
+    {
+     "name": "Miniatura del Golden Gate",
+     "price": "8–25 €",
+     "desc": "Réplica en metal del puente rojo, en varios tamaños."
+    },
+    {
+     "name": "Camiseta 'I Left My Heart in SF'",
+     "price": "15–30 €",
+     "desc": "Clásica camiseta turística con motivos de la ciudad."
+    },
+    {
+     "name": "Chocolate Ghirardelli",
+     "price": "5–20 €",
+     "desc": "Cajas y tabletas de la histórica chocolatera local."
+    },
+    {
+     "name": "Pan de masa madre (sourdough)",
+     "price": "6–12 €",
+     "desc": "Hogaza de Boudin Bakery, símbolo gastronómico de SF."
+    },
+    {
+     "name": "Postal y campanilla de cable car",
+     "price": "4–15 €",
+     "desc": "Recuerdos del tranvía histórico de la ciudad."
+    }
+   ],
+   "shops": [
+    "Fisherman's Wharf y Pier 39",
+    "Ghirardelli Square",
+    "Ferry Building Marketplace",
+    "Union Square",
+    "Chinatown (Grant Avenue)"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Compra el Alcatraz con semanas de antelación: las entradas se agotan rápido.",
+   "Lleva siempre una capa de abrigo: la niebla y el viento enfrían incluso en verano.",
+   "Usa el pase MuniMobile o Clipper para cable cars, buses y tranvías.",
+   "Sube al mirador de Twin Peaks al atardecer para las mejores vistas.",
+   "El barrio de Tenderloin conviene evitarlo de noche; muévete por zonas concurridas."
+  ],
+  "en": [
+   "Book Alcatraz weeks ahead: tickets sell out fast.",
+   "Always carry a layer: fog and wind chill the city even in summer.",
+   "Use a Clipper card or MuniMobile for cable cars, buses and streetcars.",
+   "Head to the Twin Peaks overlook at sunset for the best views.",
+   "Avoid the Tenderloin at night; stick to busy, well-lit areas."
+  ]
+ },
+ "climate": {
+  "hi": [
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   19,
+   20,
+   21,
+   20,
+   17,
+   14
+  ],
+  "lo": [
+   8,
+   9,
+   9,
+   10,
+   11,
+   12,
+   12,
+   13,
+   13,
+   12,
+   10,
+   8
+  ]
+ },
+ "tr": {
+  "Icónico puente colgante rojo de 1937.": "Iconic 1937 red suspension bridge.",
+  "Antigua prisión federal en una isla de la bahía.": "Former federal prison on a bay island.",
+  "La calle más sinuosa del mundo, con ocho curvas.": "The world's crookedest street, with eight bends.",
+  "Casas victorianas coloridas frente al skyline.": "Colorful Victorian houses against the skyline.",
+  "Torre art déco en Telegraph Hill con murales.": "Art déco tower on Telegraph Hill with murals.",
+  "Rotonda neoclásica junto a una laguna.": "Neoclassical rotunda beside a lagoon.",
+  "Terminal de ferris de 1898 con torre del reloj.": "1898 ferry terminal with a clock tower.",
+  "Tranvías históricos de tracción por cable.": "Historic cable-hauled streetcars.",
+  "Ayuntamiento beaux-arts de gran cúpula dorada.": "Beaux-Arts city hall with a gilded dome.",
+  "Catedral neogótica en Nob Hill con laberintos.": "Neo-Gothic cathedral on Nob Hill with labyrinths.",
+  "El edificio más antiguo de San Francisco.": "The oldest building in San Francisco.",
+  "Gran parque urbano con jardines y museos.": "Vast urban park with gardens and museums.",
+  "Dos cimas con el mejor mirador de la ciudad.": "Twin summits with the city's best overlook.",
+  "Bosque de secuoyas gigantes al norte de la bahía.": "Ancient redwood forest north of the bay.",
+  "Sendero costero con acantilados y vistas al puente.": "Coastal trail with cliffs and bridge views.",
+  "Playa con vistas frontales al Golden Gate.": "Beach with head-on Golden Gate views.",
+  "Larga playa del Pacífico al oeste de la ciudad.": "Long Pacific beach on the city's west edge.",
+  "Jardín japonés histórico en Golden Gate Park.": "Historic Japanese garden in Golden Gate Park.",
+  "Muelle turístico con leones marinos y tiendas.": "Tourist waterfront with sea lions and shops.",
+  "El Chinatown más antiguo de Norteamérica.": "The oldest Chinatown in North America.",
+  "Plaza central de compras y teatros.": "Central plaza for shopping and theaters.",
+  "Museo de ciencias con acuario y planetario.": "Science museum with aquarium and planetarium.",
+  "Museo de arte moderno y contemporáneo.": "Museum of modern and contemporary art.",
+  "Museo de bellas artes con torre mirador.": "Fine arts museum with an observation tower.",
+  "Barra de marisco legendaria de 1912.": "Legendary 1912 seafood counter.",
+  "Cuna del pan de masa madre de San Francisco.": "Home of San Francisco sourdough bread.",
+  "Templo del burrito de estilo Mission.": "Temple of the Mission-style burrito.",
+  "Panadería y pastelería de culto en Mission.": "Cult bakery and pastry shop in the Mission.",
+  "Plaza histórica de la chocolatera Ghirardelli.": "Historic square of the Ghirardelli chocolate maker.",
+  "Cocina cantonesa clásica en pleno Chinatown.": "Classic Cantonese cooking in the heart of Chinatown.",
+  "San Francisco": "San Francisco"
+ }
+}

@@ -1,0 +1,703 @@
+{
+ "id": "ciudaddelcabo",
+ "name": "Ciudad del Cabo",
+ "country": "WORLD",
+ "center": [
+  -33.9249,
+  18.4241
+ ],
+ "pois": [
+  {
+   "id": "w_cpt_table_mountain",
+   "cat": "nature",
+   "name": "Table Mountain (teleférico)",
+   "icon": "🚡",
+   "lat": -33.9577,
+   "lng": 18.4032,
+   "desc": "Icónica montaña plana que domina la ciudad, accesible en teleférico giratorio."
+  },
+  {
+   "id": "w_cpt_cape_point",
+   "cat": "nature",
+   "name": "Cape Point",
+   "icon": "🗺️",
+   "lat": -34.3543,
+   "lng": 18.4918,
+   "desc": "Espectacular promontorio con faro y acantilados en el extremo de la península."
+  },
+  {
+   "id": "w_cpt_cabo_buena_esperanza",
+   "cat": "nature",
+   "name": "Cabo de Buena Esperanza",
+   "icon": "🌊",
+   "lat": -34.357,
+   "lng": 18.4773,
+   "desc": "Legendario cabo, el punto más suroccidental del continente africano."
+  },
+  {
+   "id": "w_cpt_boulders_beach",
+   "cat": "nature",
+   "name": "Boulders Beach (pingüinos)",
+   "icon": "🐧",
+   "lat": -34.197,
+   "lng": 18.451,
+   "desc": "Playa protegida entre rocas donde vive una colonia de pingüinos africanos."
+  },
+  {
+   "id": "w_cpt_kirstenbosch",
+   "cat": "nature",
+   "name": "Jardín Botánico de Kirstenbosch",
+   "icon": "🌿",
+   "lat": -33.988,
+   "lng": 18.4325,
+   "desc": "Jardín botánico de flora autóctona al pie oriental de Table Mountain."
+  },
+  {
+   "id": "w_cpt_lions_head",
+   "cat": "nature",
+   "name": "Lion's Head",
+   "icon": "⛰️",
+   "lat": -33.9355,
+   "lng": 18.3893,
+   "desc": "Pico cónico con un popular sendero en espiral y vistas de 360°."
+  },
+  {
+   "id": "w_cpt_signal_hill",
+   "cat": "nature",
+   "name": "Signal Hill",
+   "icon": "🌅",
+   "lat": -33.9176,
+   "lng": 18.4032,
+   "desc": "Colina mirador famosa por sus atardeceres y el cañón de mediodía."
+  },
+  {
+   "id": "w_cpt_chapmans_peak",
+   "cat": "nature",
+   "name": "Chapman's Peak Drive",
+   "icon": "🛣️",
+   "lat": -34.0934,
+   "lng": 18.3615,
+   "desc": "Espectacular carretera de peaje tallada en acantilados sobre el mar."
+  },
+  {
+   "id": "w_cpt_camps_bay",
+   "cat": "nature",
+   "name": "Playa de Camps Bay",
+   "icon": "🏖️",
+   "lat": -33.9508,
+   "lng": 18.3777,
+   "desc": "Elegante playa de arena blanca al pie de los Doce Apóstoles."
+  },
+  {
+   "id": "w_cpt_clifton_beach",
+   "cat": "nature",
+   "name": "Playas de Clifton",
+   "icon": "🏝️",
+   "lat": -33.939,
+   "lng": 18.3765,
+   "desc": "Cuatro calas de arena resguardadas del viento por rocas de granito."
+  },
+  {
+   "id": "w_cpt_robben_island",
+   "cat": "monuments",
+   "name": "Robben Island",
+   "icon": "⛓️",
+   "lat": -33.8069,
+   "lng": 18.3668,
+   "desc": "Isla-prisión donde Mandela pasó 18 años, hoy museo Patrimonio Mundial."
+  },
+  {
+   "id": "w_cpt_bo_kaap",
+   "cat": "monuments",
+   "name": "Bo-Kaap",
+   "icon": "🏘️",
+   "lat": -33.9211,
+   "lng": 18.4143,
+   "desc": "Barrio histórico de casas de colores y raíces cabo-malayas."
+  },
+  {
+   "id": "w_cpt_district_six",
+   "cat": "monuments",
+   "name": "Museo del Distrito Seis",
+   "icon": "🏛️",
+   "lat": -33.9279,
+   "lng": 18.4246,
+   "desc": "Museo que rememora el barrio arrasado por los desalojos del apartheid."
+  },
+  {
+   "id": "w_cpt_castle_good_hope",
+   "cat": "monuments",
+   "name": "Castillo de Buena Esperanza",
+   "icon": "🏰",
+   "lat": -33.9258,
+   "lng": 18.4275,
+   "desc": "Fortaleza pentagonal del siglo XVII, el edificio colonial más antiguo del país."
+  },
+  {
+   "id": "w_cpt_company_garden",
+   "cat": "monuments",
+   "name": "Company's Garden",
+   "icon": "🌳",
+   "lat": -33.9264,
+   "lng": 18.4156,
+   "desc": "Jardín histórico del siglo XVII rodeado de museos y edificios coloniales."
+  },
+  {
+   "id": "w_cpt_rhodes_memorial",
+   "cat": "monuments",
+   "name": "Rhodes Memorial",
+   "icon": "🏛️",
+   "lat": -33.9527,
+   "lng": 18.4569,
+   "desc": "Monumento neoclásico en la ladera de Devil's Peak con amplias vistas."
+  },
+  {
+   "id": "w_cpt_city_hall",
+   "cat": "monuments",
+   "name": "City Hall de Ciudad del Cabo",
+   "icon": "🏛️",
+   "lat": -33.9256,
+   "lng": 18.4234,
+   "desc": "Elegante ayuntamiento eduardiano donde Mandela habló al salir de prisión."
+  },
+  {
+   "id": "w_cpt_st_george_cathedral",
+   "cat": "monuments",
+   "name": "Catedral de San Jorge",
+   "icon": "⛪",
+   "lat": -33.9245,
+   "lng": 18.4187,
+   "desc": "Catedral anglicana neogótica, símbolo de la resistencia antiapartheid."
+  },
+  {
+   "id": "w_cpt_groot_constantia",
+   "cat": "monuments",
+   "name": "Groot Constantia",
+   "icon": "🍇",
+   "lat": -34.0311,
+   "lng": 18.4189,
+   "desc": "La bodega más antigua de Sudáfrica, con casa solariega Cape Dutch de 1685."
+  },
+  {
+   "id": "w_cpt_va_waterfront",
+   "cat": "ocio",
+   "name": "V&A Waterfront",
+   "icon": "⚓",
+   "lat": -33.9052,
+   "lng": 18.4203,
+   "desc": "Puerto histórico reconvertido en zona de ocio, tiendas y restaurantes."
+  },
+  {
+   "id": "w_cpt_two_oceans_aquarium",
+   "cat": "ocio",
+   "name": "Two Oceans Aquarium",
+   "icon": "🐠",
+   "lat": -33.9079,
+   "lng": 18.4172,
+   "desc": "Acuario del Waterfront dedicado a la fauna de los océanos Atlántico e Índico."
+  },
+  {
+   "id": "w_cpt_cape_wheel",
+   "cat": "ocio",
+   "name": "Cape Wheel",
+   "icon": "🎡",
+   "lat": -33.9048,
+   "lng": 18.4188,
+   "desc": "Gran noria en el Waterfront con vistas panorámicas de la bahía."
+  },
+  {
+   "id": "w_cpt_constantia_wines",
+   "cat": "ocio",
+   "name": "Ruta del vino de Constantia",
+   "icon": "🍷",
+   "lat": -34.029,
+   "lng": 18.418,
+   "desc": "El valle vinícola más antiguo del país, entre montaña y océano."
+  },
+  {
+   "id": "w_cpt_long_street",
+   "cat": "ocio",
+   "name": "Long Street",
+   "icon": "🍸",
+   "lat": -33.9244,
+   "lng": 18.4163,
+   "desc": "Calle bohemia de balcones victorianos, bares, música y vida nocturna."
+  },
+  {
+   "id": "w_cpt_va_food_market",
+   "cat": "food",
+   "name": "V&A Food Market",
+   "icon": "🍲",
+   "lat": -33.9081,
+   "lng": 18.4213,
+   "desc": "Mercado cubierto de puestos con cocina del mundo en el Waterfront."
+  },
+  {
+   "id": "w_cpt_oranjezicht_market",
+   "cat": "food",
+   "name": "Oranjezicht City Farm Market",
+   "icon": "🥬",
+   "lat": -33.9028,
+   "lng": 18.4129,
+   "desc": "Mercado de productores junto al mar en Granger Bay."
+  },
+  {
+   "id": "w_cpt_old_biscuit_mill",
+   "cat": "food",
+   "name": "The Old Biscuit Mill",
+   "icon": "🥐",
+   "lat": -33.9275,
+   "lng": 18.4569,
+   "desc": "Antigua fábrica en Woodstock con mercado gourmet de los sábados."
+  },
+  {
+   "id": "w_cpt_gold_restaurant",
+   "cat": "food",
+   "name": "Gold Restaurant",
+   "icon": "🥘",
+   "lat": -33.9087,
+   "lng": 18.4106,
+   "desc": "Menú degustación panafricano con música, tambores y baile."
+  },
+  {
+   "id": "w_cpt_kalk_bay",
+   "cat": "food",
+   "name": "Puerto de Kalk Bay",
+   "icon": "🐟",
+   "lat": -34.1277,
+   "lng": 18.4487,
+   "desc": "Pintoresco puerto pesquero famoso por su pescado fresco y focas."
+  },
+  {
+   "id": "w_cpt_mzolis",
+   "cat": "food",
+   "name": "Mzoli's Place",
+   "icon": "🍖",
+   "lat": -33.9725,
+   "lng": 18.5685,
+   "desc": "Célebre braai en el township de Gugulethu con carnes y música."
+  }
+ ],
+ "extra": {
+  "w_cpt_table_mountain": {
+   "id": "w_cpt_table_mountain",
+   "d": "La cumbre plana de Table Mountain, a más de 1.000 m, ofrece vistas de 360° sobre la ciudad, el océano y los Doce Apóstoles. El teleférico giratorio sube en cinco minutos y arriba hay senderos, un restaurante y fauna como los damanes de El Cabo.",
+   "d_en": "Table Mountain's flat summit, over 1,000 m high, gives 360° views of the city, ocean and the Twelve Apostles. The rotating cable car climbs in five minutes; up top there are trails, a café and wildlife like the rock hyrax.",
+   "h": "Teleférico aprox. 08:30–18:00 según temporada; cierra con viento fuerte.",
+   "h_en": "Cableway approx. 08:30–18:00 by season; closes in high wind.",
+   "i": "Compra el billete online y sube temprano para evitar colas y el 'mantel' de nubes.",
+   "i_en": "Buy tickets online and go early to beat queues and the cloud 'tablecloth'."
+  },
+  "w_cpt_cape_point": {
+   "id": "w_cpt_cape_point",
+   "d": "Cape Point es un vertiginoso cabo rocoso dentro del Parque Nacional de Table Mountain, con acantilados que caen al mar y un antiguo faro alcanzable a pie o en el funicular Flying Dutchman. Desde el mirador se abarca el encuentro de dos océanos.",
+   "d_en": "Cape Point is a soaring rocky cape inside Table Mountain National Park, with cliffs plunging to the sea and an old lighthouse reached on foot or via the Flying Dutchman funicular. The viewpoint takes in where two oceans seem to meet.",
+   "h": "Parque aprox. 07:00–17:00 (más tarde en verano austral).",
+   "h_en": "Park approx. 07:00–17:00 (later in southern summer).",
+   "i": "Combínalo con el Cabo de Buena Esperanza; cuidado con los babuinos, no lleves comida a la vista.",
+   "i_en": "Pair it with the Cape of Good Hope; watch for baboons and keep food out of sight."
+  },
+  "w_cpt_cabo_buena_esperanza": {
+   "id": "w_cpt_cabo_buena_esperanza",
+   "d": "El Cabo de Buena Esperanza es un hito histórico de la navegación, temido por los marineros y rodeado de fynbos, avestruces y antílopes. Su cartel señala el punto más suroeste de África y sus playas azotadas por el viento son inmensas.",
+   "d_en": "The Cape of Good Hope is a historic navigation landmark, feared by sailors and surrounded by fynbos, ostriches and antelope. Its sign marks Africa's south-westernmost point, with vast wind-swept beaches.",
+   "h": "Dentro del parque, mismo horario que Cape Point.",
+   "h_en": "Inside the park, same hours as Cape Point.",
+   "i": "Hazte la foto en el cartel temprano; el viento y las multitudes aumentan al mediodía.",
+   "i_en": "Take the sign photo early; wind and crowds build up by midday."
+  },
+  "w_cpt_boulders_beach": {
+   "id": "w_cpt_boulders_beach",
+   "d": "Boulders Beach, cerca de Simon's Town, alberga miles de pingüinos africanos que anidan entre enormes rocas de granito. Pasarelas de madera permiten observarlos de cerca sin molestarlos, y en calas contiguas se puede nadar en aguas tranquilas.",
+   "d_en": "Boulders Beach, near Simon's Town, hosts thousands of African penguins nesting among huge granite boulders. Wooden boardwalks let you watch them up close without disturbing them, and nearby coves offer calm swimming.",
+   "h": "Aprox. 08:00–17:00, ampliado en verano austral.",
+   "h_en": "Approx. 08:00–17:00, extended in southern summer.",
+   "i": "Entra por la pasarela oficial de Boulders; no toques ni alimentes a los pingüinos.",
+   "i_en": "Use the official Boulders boardwalk; never touch or feed the penguins."
+  },
+  "w_cpt_kirstenbosch": {
+   "id": "w_cpt_kirstenbosch",
+   "d": "Kirstenbosch es uno de los grandes jardines botánicos del mundo, dedicado a la flora del Cabo como el fynbos y las proteas. Su pasarela elevada 'Boomslang' serpentea entre las copas y en verano acoge conciertos al aire libre sobre el césped.",
+   "d_en": "Kirstenbosch is one of the world's great botanical gardens, devoted to Cape flora such as fynbos and proteas. Its raised 'Boomslang' walkway winds through the canopy, and summer brings open-air concerts on the lawns.",
+   "h": "Aprox. 08:00–19:00 en verano; hasta 18:00 en invierno.",
+   "h_en": "Approx. 08:00–19:00 in summer; to 18:00 in winter.",
+   "i": "Los conciertos dominicales de verano se llenan; lleva manta y pícnic.",
+   "i_en": "Summer Sunday concerts fill up; bring a blanket and picnic."
+  },
+  "w_cpt_lions_head": {
+   "id": "w_cpt_lions_head",
+   "d": "Lion's Head es una cumbre puntiaguda entre Table Mountain y Signal Hill, muy querida por su sendero en espiral que asciende con tramos de escaleras y cadenas. Es célebre por sus caminatas al amanecer, al atardecer y bajo la luna llena.",
+   "d_en": "Lion's Head is a pointed peak between Table Mountain and Signal Hill, beloved for its spiralling trail with ladders and chains. It's famous for sunrise, sunset and full-moon hikes.",
+   "h": "Acceso libre; se recomienda de día por seguridad.",
+   "h_en": "Free access; daytime recommended for safety.",
+   "i": "Lleva frontal para la caminata de luna llena y calzado con buen agarre.",
+   "i_en": "Bring a headlamp for the full-moon hike and grippy shoes."
+  },
+  "w_cpt_signal_hill": {
+   "id": "w_cpt_signal_hill",
+   "d": "Signal Hill se eleva junto a Lion's Head y ofrece uno de los mejores miradores accesibles en coche sobre la bahía y la ciudad. Cada día a mediodía se dispara el histórico Noon Gun, tradición que data del siglo XIX.",
+   "d_en": "Signal Hill rises beside Lion's Head and offers one of the best drive-up viewpoints over the bay and city. Each day at noon the historic Noon Gun is fired, a tradition dating to the 19th century.",
+   "h": "Acceso libre durante el día.",
+   "h_en": "Free access during the day.",
+   "i": "Llega pronto al atardecer para aparcar; abrígate porque refresca con el viento.",
+   "i_en": "Arrive early for sunset parking; dress warm as the wind chills."
+  },
+  "w_cpt_chapmans_peak": {
+   "id": "w_cpt_chapmans_peak",
+   "d": "Chapman's Peak Drive une Hout Bay y Noordhoek con 9 km de curvas excavadas en la ladera, con miradores vertiginosos sobre el Atlántico. Es una de las rutas costeras más bellas del mundo, ideal al atardecer.",
+   "d_en": "Chapman's Peak Drive links Hout Bay and Noordhoek with 9 km of bends cut into the mountainside and dizzying Atlantic viewpoints. It's one of the world's most scenic coastal drives, superb at sunset.",
+   "h": "Abierta 24 h salvo cierres por clima; peaje para vehículos.",
+   "h_en": "Open 24 h except weather closures; toll for vehicles.",
+   "i": "Comprueba si está abierta tras lluvias fuertes; hay miradores para detenerse.",
+   "i_en": "Check it's open after heavy rain; use the pull-in viewpoints."
+  },
+  "w_cpt_camps_bay": {
+   "id": "w_cpt_camps_bay",
+   "d": "Camps Bay es la playa más glamurosa del Cabo, con arena blanca, palmeras y un paseo lleno de bares y restaurantes frente a la cadena montañosa de los Doce Apóstoles. El agua atlántica es fría pero el ambiente al atardecer es inigualable.",
+   "d_en": "Camps Bay is the Cape's most glamorous beach, with white sand, palm trees and a strip of bars and restaurants facing the Twelve Apostles range. The Atlantic water is cold but the sunset scene is unbeatable.",
+   "h": "Playa de acceso libre todo el día.",
+   "h_en": "Free-access beach all day.",
+   "i": "El agua es helada; ve a bañarte al mediodía y reserva mesa para el atardecer.",
+   "i_en": "The water is icy; swim at midday and book a table for sunset."
+  },
+  "w_cpt_clifton_beach": {
+   "id": "w_cpt_clifton_beach",
+   "d": "Clifton reúne cuatro playas numeradas separadas por afloramientos de granito que las protegen del viento del sureste. Son las más exclusivas de la ciudad, con aguas cristalinas y un ambiente relajado de tumbonas y sombrillas.",
+   "d_en": "Clifton comprises four numbered beaches separated by granite outcrops that shield them from the south-easter wind. They're the city's most exclusive, with clear water and a laid-back scene of loungers and umbrellas.",
+   "h": "Acceso libre; bajada por escaleras desde la carretera.",
+   "h_en": "Free access; reached by steps down from the road.",
+   "i": "Aparcar es difícil; llega temprano y baja provisiones porque no hay tiendas.",
+   "i_en": "Parking is tough; arrive early and bring supplies as there are no shops."
+  },
+  "w_cpt_robben_island": {
+   "id": "w_cpt_robben_island",
+   "d": "Robben Island, frente a la bahía de la Mesa, fue durante décadas la prisión de presos políticos del apartheid, entre ellos Nelson Mandela. Hoy es museo y Patrimonio Mundial; las visitas guiadas las conducen a menudo antiguos reclusos.",
+   "d_en": "Robben Island, off Table Bay, was for decades the prison for apartheid-era political prisoners, including Nelson Mandela. Now a museum and World Heritage Site, tours are often led by former inmates.",
+   "h": "Salidas en ferry desde el Nelson Mandela Gateway, aprox. 09:00–15:00.",
+   "h_en": "Ferries from the Nelson Mandela Gateway, approx. 09:00–15:00.",
+   "i": "Reserva online con días de antelación; el ferry se cancela con mala mar.",
+   "i_en": "Book online days ahead; ferries are cancelled in rough seas."
+  },
+  "w_cpt_bo_kaap": {
+   "id": "w_cpt_bo_kaap",
+   "d": "El Bo-Kaap, en la ladera de Signal Hill, es célebre por sus casas pintadas en colores vivos y sus calles empedradas. Cuna de la comunidad cabo-malaya musulmana, conserva mezquitas antiguas, un museo y una rica tradición culinaria de especias.",
+   "d_en": "Bo-Kaap, on Signal Hill's slopes, is famed for its vividly painted houses and cobbled streets. Heartland of the Muslim Cape Malay community, it keeps historic mosques, a museum and a rich spice-driven food tradition.",
+   "h": "Barrio abierto; museo aprox. 10:00–17:00.",
+   "h_en": "Neighbourhood open; museum approx. 10:00–17:00.",
+   "i": "Es zona residencial: pide permiso antes de fotografiar a la gente o sus casas.",
+   "i_en": "It's residential: ask permission before photographing people or homes."
+  },
+  "w_cpt_district_six": {
+   "id": "w_cpt_district_six",
+   "d": "El District Six Museum honra la memoria del vibrante barrio multirracial cuyos 60.000 habitantes fueron desalojados y sus casas demolidas bajo el apartheid. A través de mapas, testimonios y objetos, cuenta una historia clave para entender Sudáfrica.",
+   "d_en": "The District Six Museum honours the vibrant multiracial neighbourhood whose 60,000 residents were forcibly removed and homes demolished under apartheid. Through maps, testimonies and objects it tells a story key to understanding South Africa.",
+   "h": "Aprox. lun–sáb 09:00–16:00; cerrado domingos.",
+   "h_en": "Approx. Mon–Sat 09:00–16:00; closed Sundays.",
+   "i": "Contrata un guía que fuera vecino del barrio para una visita mucho más viva.",
+   "i_en": "Hire a guide who was a former resident for a far richer visit."
+  },
+  "w_cpt_castle_good_hope": {
+   "id": "w_cpt_castle_good_hope",
+   "d": "El Castillo de Buena Esperanza, construido por la Compañía Holandesa de las Indias Orientales entre 1666 y 1679, es la edificación colonial más antigua de Sudáfrica. De planta pentagonal, alberga museos militares, ceremonias de cambio de guardia y la Campana original.",
+   "d_en": "The Castle of Good Hope, built by the Dutch East India Company between 1666 and 1679, is South Africa's oldest colonial building. Pentagonal in plan, it houses military museums, key-ceremony reenactments and the original bell.",
+   "h": "Aprox. 09:00–16:00 todos los días.",
+   "h_en": "Approx. 09:00–16:00 daily.",
+   "i": "Coincide con la ceremonia de las llaves y el cañón para verlo en acción.",
+   "i_en": "Time your visit with the key ceremony and cannon firing."
+  },
+  "w_cpt_company_garden": {
+   "id": "w_cpt_company_garden",
+   "d": "Los Company's Garden nacieron como huerto de la Compañía de las Indias para abastecer a los barcos y hoy son un parque frondoso en pleno centro. A su alrededor se alinean el Parlamento, la Galería Nacional, el Museo Sudafricano y avenidas de robles.",
+   "d_en": "The Company's Garden began as the Dutch East India Company's vegetable plot to supply passing ships and is now a leafy downtown park. Around it stand Parliament, the National Gallery, the South African Museum and oak-lined avenues.",
+   "h": "Aprox. 07:00–19:00 según temporada.",
+   "h_en": "Approx. 07:00–19:00 by season.",
+   "i": "Buen punto de partida para recorrer a pie los museos del centro histórico.",
+   "i_en": "A good base for walking the historic centre's museums."
+  },
+  "w_cpt_rhodes_memorial": {
+   "id": "w_cpt_rhodes_memorial",
+   "d": "El Rhodes Memorial, de granito y estilo templo griego, se alza en la ladera de Devil's Peak dedicado al magnate Cecil Rhodes. Sus escalinatas, leones de bronce y columnas ofrecen vistas panorámicas hacia los llanos del Cabo, con un café junto al bosque.",
+   "d_en": "The granite, Greek-temple-style Rhodes Memorial stands on Devil's Peak's slopes, dedicated to magnate Cecil Rhodes. Its steps, bronze lions and columns frame panoramic views over the Cape Flats, with a café by the forest.",
+   "h": "Acceso libre durante el día.",
+   "h_en": "Free access during the day.",
+   "i": "Es figura polémica por su legado colonial; el mirador y el café merecen la parada.",
+   "i_en": "A controversial figure for his colonial legacy; the viewpoint and café still merit a stop."
+  },
+  "w_cpt_city_hall": {
+   "id": "w_cpt_city_hall",
+   "d": "El City Hall, de piedra caliza dorada y estilo neorrenacentista eduardiano, se inauguró en 1905 frente a la Grand Parade. Desde su balcón Nelson Mandela pronunció su primer discurso tras 27 años de cárcel, en febrero de 1990.",
+   "d_en": "The Edwardian neo-Renaissance City Hall, in golden limestone, opened in 1905 opposite the Grand Parade. From its balcony Nelson Mandela gave his first speech after 27 years in prison, in February 1990.",
+   "h": "Exterior visible siempre; interior según eventos.",
+   "h_en": "Exterior always visible; interior by event.",
+   "i": "Los sábados hay mercadillo en la Grand Parade frente al edificio.",
+   "i_en": "On Saturdays a market fills the Grand Parade in front."
+  },
+  "w_cpt_st_george_cathedral": {
+   "id": "w_cpt_st_george_cathedral",
+   "d": "La Catedral de San Jorge, de estilo neogótico, fue el púlpito del arzobispo Desmond Tutu y se conoce como la 'Catedral del Pueblo' por acoger marchas y refugio durante la lucha antiapartheid. Destaca por sus vidrieras y su órgano.",
+   "d_en": "St George's Cathedral, in neo-Gothic style, was Archbishop Desmond Tutu's pulpit and is known as the 'People's Cathedral' for hosting marches and shelter during the anti-apartheid struggle. Its stained glass and organ stand out.",
+   "h": "Aprox. 07:00–17:00; respeta los oficios.",
+   "h_en": "Approx. 07:00–17:00; respect services.",
+   "i": "Aquí arranca el Arch for Arch; entra a escuchar el coro si coincide.",
+   "i_en": "The Arch for Arch stands here; step in for the choir if timing allows."
+  },
+  "w_cpt_groot_constantia": {
+   "id": "w_cpt_groot_constantia",
+   "d": "Groot Constantia, fundada en 1685, es la finca vinícola más antigua del país y un conjunto de arquitectura Cape Dutch de blancos hastiales. Ofrece catas, un museo del vino, restaurantes y jardines históricos rodeados de viñedos y robles.",
+   "d_en": "Groot Constantia, founded in 1685, is the country's oldest wine estate and a showcase of white-gabled Cape Dutch architecture. It offers tastings, a wine museum, restaurants and historic gardens amid vineyards and oaks.",
+   "h": "Aprox. 09:00–18:00; catas en horario reducido.",
+   "h_en": "Approx. 09:00–18:00; tastings on shorter hours.",
+   "i": "Prueba su histórico vino dulce Grand Constance, adorado en la corte europea.",
+   "i_en": "Try its historic sweet Grand Constance, once adored in European courts."
+  },
+  "w_cpt_va_waterfront": {
+   "id": "w_cpt_va_waterfront",
+   "d": "El Victoria & Alfred Waterfront es el corazón turístico del Cabo: un puerto en activo rodeado de centros comerciales, mercados, museos, la noria y muelles con focas. Es el punto de embarque a Robben Island y ofrece vistas a Table Mountain.",
+   "d_en": "The Victoria & Alfred Waterfront is the Cape's tourist heart: a working harbour ringed by malls, markets, museums, the wheel and quays with seals. It's the departure point for Robben Island and frames Table Mountain.",
+   "h": "Tiendas aprox. 09:00–21:00; restaurantes hasta tarde.",
+   "h_en": "Shops approx. 09:00–21:00; restaurants later.",
+   "i": "Base ideal y segura para pasear de noche; no te pierdas el museo Zeitz MOCAA.",
+   "i_en": "A safe base for evening strolls; don't miss the Zeitz MOCAA museum."
+  },
+  "w_cpt_two_oceans_aquarium": {
+   "id": "w_cpt_two_oceans_aquarium",
+   "d": "El Two Oceans Aquarium exhibe la vida marina del punto donde se encuentran los océanos Atlántico e Índico, con tiburones, tortugas, un bosque de kelp y un túnel submarino. Muy familiar, combina divulgación, conservación y rehabilitación de fauna.",
+   "d_en": "The Two Oceans Aquarium displays marine life from where the Atlantic and Indian Oceans meet, with sharks, turtles, a kelp forest and an underwater tunnel. Family-friendly, it blends education, conservation and wildlife rehab.",
+   "h": "Aprox. 09:30–18:00 a diario.",
+   "h_en": "Approx. 09:30–18:00 daily.",
+   "i": "Consulta la hora de alimentación de los peces y del túnel de tiburones.",
+   "i_en": "Check feeding times for the fish and the shark tunnel."
+  },
+  "w_cpt_cape_wheel": {
+   "id": "w_cpt_cape_wheel",
+   "d": "La Cape Wheel es una noria panorámica de cabinas cerradas y climatizadas junto al agua del V&A Waterfront. Cada vuelta ofrece vistas de 360° sobre el puerto, la ciudad, Table Mountain y el océano, especialmente bonitas al atardecer.",
+   "d_en": "The Cape Wheel is a panoramic Ferris wheel with enclosed, climate-controlled cabins beside the V&A Waterfront's water. Each rotation gives 360° views over the harbour, city, Table Mountain and ocean, lovely at sunset.",
+   "h": "Aprox. 11:00–21:00, ampliado en temporada alta.",
+   "h_en": "Approx. 11:00–21:00, extended in high season.",
+   "i": "Sube al caer la tarde para ver la ciudad iluminarse desde las cabinas.",
+   "i_en": "Ride at dusk to watch the city light up from the cabins."
+  },
+  "w_cpt_constantia_wines": {
+   "id": "w_cpt_constantia_wines",
+   "d": "El valle de Constantia, a solo minutos de la ciudad, reúne fincas históricas como Klein Constantia, Buitenverwachting o Constantia Glen entre laderas verdes. Es célebre por sus blancos frescos y sus vinos dulces, con catas y restaurantes con vistas.",
+   "d_en": "The Constantia valley, minutes from the city, gathers historic estates like Klein Constantia, Buitenverwachting and Constantia Glen across green slopes. It's famed for its crisp whites and sweet wines, with tastings and view-filled restaurants.",
+   "h": "Bodegas aprox. 10:00–17:00; varía por finca.",
+   "h_en": "Estates approx. 10:00–17:00; varies by estate.",
+   "i": "Contrata un conductor o tour para catar sin preocuparte de conducir.",
+   "i_en": "Hire a driver or tour so you can taste without driving."
+  },
+  "w_cpt_long_street": {
+   "id": "w_cpt_long_street",
+   "d": "Long Street es la arteria más animada del centro, con edificios victorianos de balcones de hierro forjado que albergan librerías, cafés, tiendas vintage, bares y clubes. De día es paseo cultural y de noche el epicentro de la marcha capetoniana.",
+   "d_en": "Long Street is downtown's liveliest artery, with Victorian buildings and wrought-iron balconies housing bookshops, cafés, vintage stores, bars and clubs. By day a cultural stroll, by night the hub of Cape Town nightlife.",
+   "h": "Comercios de día; bares hasta la madrugada.",
+   "h_en": "Shops by day; bars until late.",
+   "i": "Diviértete pero vigila tus pertenencias y vuelve en taxi de noche.",
+   "i_en": "Have fun but watch your belongings and taxi back at night."
+  },
+  "w_cpt_va_food_market": {
+   "id": "w_cpt_va_food_market",
+   "d": "El V&A Food Market ocupa una antigua central eléctrica del Waterfront y reúne decenas de puestos con cocina sudafricana, africana e internacional, desde bunny chow hasta dulces y cervezas artesanas. Ambiente animado y mesas compartidas.",
+   "d_en": "The V&A Food Market fills a former Waterfront power station with dozens of stalls serving South African, African and international food, from bunny chow to pastries and craft beer. Lively atmosphere and shared tables.",
+   "h": "Aprox. 10:00–20:00 a diario.",
+   "h_en": "Approx. 10:00–20:00 daily.",
+   "i": "Ideal para probar muchos platos a la vez; llega con hambre.",
+   "i_en": "Great for sampling many dishes at once; come hungry."
+  },
+  "w_cpt_oranjezicht_market": {
+   "id": "w_cpt_oranjezicht_market",
+   "d": "El OZCF Market es un mercado de fin de semana frente al mar en Granger Bay, con productos de temporada, panadería, quesos, café y puestos de comida caliente. Muy popular entre locales por su ambiente y sus vistas al océano.",
+   "d_en": "The OZCF Market is a seaside weekend market at Granger Bay, with seasonal produce, bakery, cheese, coffee and hot-food stalls. Hugely popular with locals for its vibe and ocean views.",
+   "h": "Sáb y dom aprox. 08:15–14:00.",
+   "h_en": "Sat and Sun approx. 08:15–14:00.",
+   "i": "Ve temprano el sábado; se llena y el aparcamiento es limitado.",
+   "i_en": "Go early on Saturday; it gets busy and parking is limited."
+  },
+  "w_cpt_old_biscuit_mill": {
+   "id": "w_cpt_old_biscuit_mill",
+   "d": "The Old Biscuit Mill, en el barrio creativo de Woodstock, es un complejo de talleres de diseño, galerías y restaurantes que los sábados acoge el Neighbourgoods Market, con comida artesanal, café de especialidad y productos locales.",
+   "d_en": "The Old Biscuit Mill, in creative Woodstock, is a complex of design studios, galleries and restaurants that hosts the Saturday Neighbourgoods Market with artisan food, specialty coffee and local goods.",
+   "h": "Mercado sáb aprox. 09:00–14:00; tiendas entre semana.",
+   "h_en": "Market Sat approx. 09:00–14:00; shops on weekdays.",
+   "i": "Aquí está el célebre restaurante La Colombe cercano; reserva con antelación.",
+   "i_en": "The acclaimed La Colombe is nearby; book well ahead."
+  },
+  "w_cpt_gold_restaurant": {
+   "id": "w_cpt_gold_restaurant",
+   "d": "Gold Restaurant ofrece un menú degustación de 14 platos con recetas de todo el continente africano, servido en un ambiente festivo con espectáculo de tambores djembé, marionetas mali y bailarines. Una experiencia cultural además de gastronómica.",
+   "d_en": "Gold Restaurant serves a 14-course tasting menu of recipes from across Africa in a festive setting with djembe drumming, Mali puppets and dancers. A cultural experience as much as a meal.",
+   "h": "Cena a diario, aprox. desde 18:30.",
+   "h_en": "Dinner daily, approx. from 18:30.",
+   "i": "Llega para el taller de tambores previo a la cena; reserva imprescindible.",
+   "i_en": "Arrive for the pre-dinner drumming workshop; booking essential."
+  },
+  "w_cpt_kalk_bay": {
+   "id": "w_cpt_kalk_bay",
+   "d": "Kalk Bay es un encantador pueblo costero de la falsa bahía con un puerto pesquero donde se subasta el pescado del día entre focas curiosas. Sus tabernas como Kalky's sirven fish and chips recién hecho y el pueblo rebosa cafés y anticuarios.",
+   "d_en": "Kalk Bay is a charming False Bay coastal village with a fishing harbour where the day's catch is sold amid curious seals. Eateries like Kalky's serve fresh fish and chips, and the village brims with cafés and antique shops.",
+   "h": "Aprox. 09:00–20:00; varía por local.",
+   "h_en": "Approx. 09:00–20:00; varies by venue.",
+   "i": "Come fish and chips en Kalky's junto al muelle y explora sus tiendas.",
+   "i_en": "Grab fish and chips at Kalky's by the pier and browse the shops."
+  },
+  "w_cpt_mzolis": {
+   "id": "w_cpt_mzolis",
+   "d": "Mzoli's Place es una carnicería-parrilla legendaria en el township de Gugulethu donde eliges la carne cruda y la asan al momento, entre música, baile y ambiente festivo. Es una inmersión en la cultura kasi del braai sudafricano.",
+   "d_en": "Mzoli's Place is a legendary butcher-braai in Gugulethu township where you pick raw meat and have it grilled on the spot, amid music, dancing and a party vibe. It's an immersion in South African kasi braai culture.",
+   "h": "Aprox. 09:00–18:00; ambiente máximo domingos.",
+   "h_en": "Approx. 09:00–18:00; peak vibe on Sundays.",
+   "i": "Ve con un tour o guía local, sobre todo el domingo, para vivirlo con seguridad.",
+   "i_en": "Go with a tour or local guide, especially on Sunday, to enjoy it safely."
+  }
+ },
+ "food": {
+  "w_cpt_va_food_market": {
+   "cuisine": "Mercado gastronómico internacional y sudafricano",
+   "price": "6–18 €",
+   "hours": "Aprox. 10:00–20:00 a diario"
+  },
+  "w_cpt_oranjezicht_market": {
+   "cuisine": "Mercado de productores, ecológico y artesanal",
+   "price": "5–15 €",
+   "hours": "Sáb y dom aprox. 08:15–14:00"
+  },
+  "w_cpt_old_biscuit_mill": {
+   "cuisine": "Mercado gastronómico y neighbourgoods, cocina de autor",
+   "price": "6–20 €",
+   "hours": "Mercado sáb aprox. 09:00–14:00; tiendas entre semana"
+  },
+  "w_cpt_gold_restaurant": {
+   "cuisine": "Cocina panafricana con espectáculo y tambores",
+   "price": "35–55 €",
+   "hours": "Cena a diario, aprox. desde 18:30"
+  },
+  "w_cpt_kalk_bay": {
+   "cuisine": "Pescado y marisco fresco, fish and chips",
+   "price": "8–22 €",
+   "hours": "Aprox. 09:00–20:00; varía por local"
+  },
+  "w_cpt_mzolis": {
+   "cuisine": "Braai sudafricano de township, carnes a la parrilla",
+   "price": "8–18 €",
+   "hours": "Aprox. 09:00–18:00; ambiente máximo domingos"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Ciudad del Cabo",
+   "items": [
+    {
+     "name": "Vino de Constantia y Stellenbosch",
+     "price": "8–30 €",
+     "desc": "Tintos, blancos y el histórico vino dulce de Constantia; la joya enológica del Cabo."
+    },
+    {
+     "name": "Té rooibos",
+     "price": "3–8 €",
+     "desc": "Infusión roja sin cafeína originaria de la región del Cederberg, un clásico sudafricano."
+    },
+    {
+     "name": "Abalorios y arte ndebele",
+     "price": "5–40 €",
+     "desc": "Cuentas de colores, pulseras y figuras de alambre hechas a mano por artesanos locales."
+    },
+    {
+     "name": "Biltong y droëwors",
+     "price": "5–15 €",
+     "desc": "Carne seca especiada, el snack sudafricano por excelencia, ideal para llevar."
+    },
+    {
+     "name": "Licor Amarula",
+     "price": "12–20 €",
+     "desc": "Crema de licor elaborada con el fruto del árbol marula, dulce y cremosa."
+    }
+   ],
+   "shops": [
+    "V&A Waterfront",
+    "Greenmarket Square",
+    "Pan African Market (Long Street)",
+    "The Watershed (V&A Waterfront)",
+    "Bo-Kaap"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Reserva online el teleférico de Table Mountain y Robben Island con antelación; ambos se agotan y dependen del clima.",
+   "El sol austral es intenso: usa protector solar, gorra y agua incluso en días nublados o ventosos.",
+   "Alquila coche para Cabo de Buena Esperanza, Chapman's Peak y Constantia; el transporte público es limitado.",
+   "Evita caminar solo de noche por el centro; usa apps de taxi como Uber o Bolt para moverte con seguridad.",
+   "La temporada alta es de diciembre a febrero (verano austral); reserva alojamiento y tours con meses de margen."
+  ],
+  "en": [
+   "Book the Table Mountain cableway and Robben Island online in advance; both sell out and depend on the weather.",
+   "The southern sun is fierce: wear sunscreen, a hat and carry water even on cloudy or windy days.",
+   "Rent a car for Cape of Good Hope, Chapman's Peak and Constantia; public transport is limited.",
+   "Avoid walking alone downtown at night; use ride apps like Uber or Bolt to get around safely.",
+   "High season runs December to February (southern summer); book lodging and tours months ahead."
+  ]
+ },
+ "climate": {
+  "hi": [
+   27,
+   27,
+   26,
+   23,
+   20,
+   18,
+   17,
+   18,
+   19,
+   21,
+   24,
+   25
+  ],
+  "lo": [
+   16,
+   16,
+   14,
+   12,
+   10,
+   8,
+   7,
+   8,
+   9,
+   11,
+   13,
+   15
+  ]
+ },
+ "tr": {
+  "Icónica montaña plana que domina la ciudad, accesible en teleférico giratorio.": "Iconic flat-topped mountain over the city, reached by a rotating cableway.",
+  "Espectacular promontorio con faro y acantilados en el extremo de la península.": "Dramatic headland with a lighthouse and cliffs at the peninsula's tip.",
+  "Legendario cabo, el punto más suroccidental del continente africano.": "Legendary cape, the most south-westerly point of the African continent.",
+  "Playa protegida entre rocas donde vive una colonia de pingüinos africanos.": "Sheltered boulder-strewn beach home to a colony of African penguins.",
+  "Jardín botánico de flora autóctona al pie oriental de Table Mountain.": "Botanical garden of native flora on Table Mountain's eastern slopes.",
+  "Pico cónico con un popular sendero en espiral y vistas de 360°.": "Cone-shaped peak with a popular spiral trail and 360° views.",
+  "Colina mirador famosa por sus atardeceres y el cañón de mediodía.": "Viewpoint hill famous for its sunsets and the noon gun.",
+  "Espectacular carretera de peaje tallada en acantilados sobre el mar.": "Spectacular toll road carved into cliffs above the sea.",
+  "Elegante playa de arena blanca al pie de los Doce Apóstoles.": "Chic white-sand beach beneath the Twelve Apostles.",
+  "Cuatro calas de arena resguardadas del viento por rocas de granito.": "Four sandy coves sheltered from the wind by granite boulders.",
+  "Isla-prisión donde Mandela pasó 18 años, hoy museo Patrimonio Mundial.": "Prison island where Mandela spent 18 years, now a World Heritage museum.",
+  "Barrio histórico de casas de colores y raíces cabo-malayas.": "Historic neighbourhood of brightly painted houses with Cape Malay roots.",
+  "Museo que rememora el barrio arrasado por los desalojos del apartheid.": "Museum recalling the district razed by apartheid forced removals.",
+  "Fortaleza pentagonal del siglo XVII, el edificio colonial más antiguo del país.": "17th-century pentagonal fort, the country's oldest colonial building.",
+  "Jardín histórico del siglo XVII rodeado de museos y edificios coloniales.": "Historic 17th-century garden ringed by museums and colonial buildings.",
+  "Monumento neoclásico en la ladera de Devil's Peak con amplias vistas.": "Neoclassical memorial on Devil's Peak with sweeping views.",
+  "Elegante ayuntamiento eduardiano donde Mandela habló al salir de prisión.": "Elegant Edwardian city hall where Mandela spoke on his release.",
+  "Catedral anglicana neogótica, símbolo de la resistencia antiapartheid.": "Neo-Gothic Anglican cathedral, symbol of anti-apartheid resistance.",
+  "La bodega más antigua de Sudáfrica, con casa solariega Cape Dutch de 1685.": "South Africa's oldest wine estate, with a 1685 Cape Dutch manor.",
+  "Puerto histórico reconvertido en zona de ocio, tiendas y restaurantes.": "Historic working harbour turned leisure, shopping and dining hub.",
+  "Acuario del Waterfront dedicado a la fauna de los océanos Atlántico e Índico.": "Waterfront aquarium showcasing Atlantic and Indian Ocean marine life.",
+  "Gran noria en el Waterfront con vistas panorámicas de la bahía.": "Giant Ferris wheel at the Waterfront with panoramic bay views.",
+  "El valle vinícola más antiguo del país, entre montaña y océano.": "The country's oldest wine valley, between mountain and ocean.",
+  "Calle bohemia de balcones victorianos, bares, música y vida nocturna.": "Bohemian street of Victorian balconies, bars, music and nightlife.",
+  "Mercado cubierto de puestos con cocina del mundo en el Waterfront.": "Indoor market of world-food stalls at the Waterfront.",
+  "Mercado de productores junto al mar en Granger Bay.": "Farmers' market by the sea at Granger Bay.",
+  "Antigua fábrica en Woodstock con mercado gourmet de los sábados.": "Old Woodstock mill with a Saturday gourmet market.",
+  "Menú degustación panafricano con música, tambores y baile.": "Pan-African tasting menu with music, drumming and dance.",
+  "Pintoresco puerto pesquero famoso por su pescado fresco y focas.": "Picturesque fishing harbour famed for fresh fish and seals.",
+  "Célebre braai en el township de Gugulethu con carnes y música.": "Famous braai in Gugulethu township with grilled meat and music.",
+  "Ciudad del Cabo": "Ciudad del Cabo"
+ }
+}

@@ -1,0 +1,784 @@
+{
+ "id": "losangeles",
+ "name": "Los Ángeles",
+ "country": "WORLD",
+ "center": [
+  34.0522,
+  -118.2437
+ ],
+ "pois": [
+  {
+   "id": "w_lax_hollywood_sign",
+   "cat": "monuments",
+   "name": "Letrero de Hollywood",
+   "icon": "🔤",
+   "lat": 34.13414,
+   "lng": -118.32167,
+   "desc": "El icónico letrero blanco sobre el monte Lee, símbolo mundial del cine."
+  },
+  {
+   "id": "w_lax_walk_of_fame",
+   "cat": "monuments",
+   "name": "Paseo de la Fama",
+   "icon": "⭐",
+   "lat": 34.10164,
+   "lng": -118.3269,
+   "desc": "Aceras con más de 2.700 estrellas dedicadas a celebridades del espectáculo."
+  },
+  {
+   "id": "w_lax_tcl_chinese",
+   "cat": "monuments",
+   "name": "TCL Chinese Theatre",
+   "icon": "🎬",
+   "lat": 34.10236,
+   "lng": -118.34089,
+   "desc": "Histórico cine de 1927 con las huellas de las estrellas en su patio."
+  },
+  {
+   "id": "w_lax_dolby_theatre",
+   "cat": "monuments",
+   "name": "Dolby Theatre",
+   "icon": "🏆",
+   "lat": 34.10225,
+   "lng": -118.34018,
+   "desc": "Sede de la gala de los Óscar desde 2002."
+  },
+  {
+   "id": "w_lax_disney_hall",
+   "cat": "monuments",
+   "name": "Walt Disney Concert Hall",
+   "icon": "🎼",
+   "lat": 34.05553,
+   "lng": -118.24983,
+   "desc": "Auditorio de acero ondulado diseñado por Frank Gehry."
+  },
+  {
+   "id": "w_lax_getty_center",
+   "cat": "monuments",
+   "name": "Getty Center",
+   "icon": "🏛️",
+   "lat": 34.07799,
+   "lng": -118.47517,
+   "desc": "Museo de arte gratuito sobre una colina con jardines y vistas."
+  },
+  {
+   "id": "w_lax_lacma",
+   "cat": "monuments",
+   "name": "LACMA",
+   "icon": "🖼️",
+   "lat": 34.0639,
+   "lng": -118.35935,
+   "desc": "El mayor museo de arte del oeste de EE. UU., famoso por sus farolas."
+  },
+  {
+   "id": "w_lax_broad",
+   "cat": "monuments",
+   "name": "The Broad",
+   "icon": "🎨",
+   "lat": 34.05457,
+   "lng": -118.25065,
+   "desc": "Museo de arte contemporáneo con entrada gratuita en el centro."
+  },
+  {
+   "id": "w_lax_rodeo_drive",
+   "cat": "monuments",
+   "name": "Rodeo Drive / Beverly Hills",
+   "icon": "💎",
+   "lat": 34.06779,
+   "lng": -118.40108,
+   "desc": "La calle de lujo más famosa, corazón de Beverly Hills."
+  },
+  {
+   "id": "w_lax_union_station",
+   "cat": "monuments",
+   "name": "Union Station",
+   "icon": "🚉",
+   "lat": 34.0561,
+   "lng": -118.23453,
+   "desc": "Espléndida estación de 1939 de estilo art déco y misión española."
+  },
+  {
+   "id": "w_lax_cathedral",
+   "cat": "monuments",
+   "name": "Catedral de Nuestra Señora de los Ángeles",
+   "icon": "⛪",
+   "lat": 34.05868,
+   "lng": -118.2466,
+   "desc": "Moderna catedral de 2002 diseñada por Rafael Moneo."
+  },
+  {
+   "id": "w_lax_watts_towers",
+   "cat": "monuments",
+   "name": "Watts Towers",
+   "icon": "🗼",
+   "lat": 33.93878,
+   "lng": -118.24122,
+   "desc": "Torres de arte popular construidas a mano por Simon Rodia."
+  },
+  {
+   "id": "w_lax_griffith_observatory",
+   "cat": "nature",
+   "name": "Observatorio Griffith",
+   "icon": "🔭",
+   "lat": 34.11856,
+   "lng": -118.30047,
+   "desc": "Observatorio art déco con vistas de la ciudad y el letrero de Hollywood."
+  },
+  {
+   "id": "w_lax_griffith_park",
+   "cat": "nature",
+   "name": "Griffith Park",
+   "icon": "🌲",
+   "lat": 34.13683,
+   "lng": -118.29408,
+   "desc": "Enorme parque urbano con senderos, zoo y vistas al letrero."
+  },
+  {
+   "id": "w_lax_runyon_canyon",
+   "cat": "nature",
+   "name": "Runyon Canyon",
+   "icon": "🥾",
+   "lat": 34.11342,
+   "lng": -118.3496,
+   "desc": "Popular cañón de senderismo con vistas sobre Hollywood."
+  },
+  {
+   "id": "w_lax_echo_park_lake",
+   "cat": "nature",
+   "name": "Echo Park Lake",
+   "icon": "🦢",
+   "lat": 34.0729,
+   "lng": -118.2606,
+   "desc": "Lago urbano con lotos, barcas de cisne y vistas al centro."
+  },
+  {
+   "id": "w_lax_la_brea_tar_pits",
+   "cat": "nature",
+   "name": "La Brea Tar Pits",
+   "icon": "🦣",
+   "lat": 34.06377,
+   "lng": -118.35563,
+   "desc": "Pozos de asfalto natural con fósiles de la Edad de Hielo."
+  },
+  {
+   "id": "w_lax_malibu_pier",
+   "cat": "nature",
+   "name": "Malibú",
+   "icon": "🏄",
+   "lat": 34.03694,
+   "lng": -118.67766,
+   "desc": "Costa de surf y playas de celebridades al noroeste de la ciudad."
+  },
+  {
+   "id": "w_lax_el_matador",
+   "cat": "nature",
+   "name": "El Matador State Beach",
+   "icon": "🌅",
+   "lat": 34.03816,
+   "lng": -118.87611,
+   "desc": "Playa escarpada de Malibú con arcos rocosos y cuevas."
+  },
+  {
+   "id": "w_lax_universal_studios",
+   "cat": "ocio",
+   "name": "Universal Studios Hollywood",
+   "icon": "🎢",
+   "lat": 34.13811,
+   "lng": -118.3534,
+   "desc": "Parque temático y estudio de cine con atracciones inmersivas."
+  },
+  {
+   "id": "w_lax_santa_monica_pier",
+   "cat": "ocio",
+   "name": "Santa Monica Pier",
+   "icon": "🎡",
+   "lat": 34.00949,
+   "lng": -118.49751,
+   "desc": "Muelle icónico con parque de atracciones y el fin de la Ruta 66."
+  },
+  {
+   "id": "w_lax_venice_beach",
+   "cat": "ocio",
+   "name": "Venice Beach",
+   "icon": "🛼",
+   "lat": 33.98505,
+   "lng": -118.47303,
+   "desc": "Paseo marítimo bohemio con Muscle Beach y artistas callejeros."
+  },
+  {
+   "id": "w_lax_the_grove",
+   "cat": "ocio",
+   "name": "The Grove",
+   "icon": "🛍️",
+   "lat": 34.07217,
+   "lng": -118.3577,
+   "desc": "Centro comercial al aire libre con tranvía y fuente danzante."
+  },
+  {
+   "id": "w_lax_hollywood_blvd",
+   "cat": "ocio",
+   "name": "Hollywood Boulevard",
+   "icon": "🌟",
+   "lat": 34.10166,
+   "lng": -118.33549,
+   "desc": "Bulliciosa avenida del entretenimiento con teatros y museos."
+  },
+  {
+   "id": "w_lax_manhattan_beach",
+   "cat": "ocio",
+   "name": "Manhattan Beach Pier",
+   "icon": "🌊",
+   "lat": 33.8842,
+   "lng": -118.41123,
+   "desc": "Playa relajada del South Bay con muelle y ambiente surfero."
+  },
+  {
+   "id": "w_lax_science_center",
+   "cat": "ocio",
+   "name": "California Science Center",
+   "icon": "🚀",
+   "lat": 34.01571,
+   "lng": -118.2864,
+   "desc": "Museo de ciencia gratuito con el transbordador Endeavour."
+  },
+  {
+   "id": "w_lax_angels_flight",
+   "cat": "ocio",
+   "name": "Angels Flight",
+   "icon": "🚋",
+   "lat": 34.05127,
+   "lng": -118.25012,
+   "desc": "Diminuto funicular histórico de 1901 en el centro."
+  },
+  {
+   "id": "w_lax_grand_central_market",
+   "cat": "food",
+   "name": "Grand Central Market",
+   "icon": "🍜",
+   "lat": 34.0507,
+   "lng": -118.24893,
+   "desc": "Histórico mercado de 1917 con puestos de comida de todo el mundo."
+  },
+  {
+   "id": "w_lax_farmers_market",
+   "cat": "food",
+   "name": "Original Farmers Market",
+   "icon": "🧺",
+   "lat": 34.072,
+   "lng": -118.3611,
+   "desc": "Mercado clásico de 1934 con puestos de comida y productos frescos."
+  },
+  {
+   "id": "w_lax_philippe",
+   "cat": "food",
+   "name": "Philippe the Original",
+   "icon": "🥪",
+   "lat": 34.05972,
+   "lng": -118.23653,
+   "desc": "Institución de 1908 cuna del sándwich 'French Dip'."
+  },
+  {
+   "id": "w_lax_guelaguetza",
+   "cat": "food",
+   "name": "Guelaguetza",
+   "icon": "🌮",
+   "lat": 34.04891,
+   "lng": -118.29405,
+   "desc": "Templo de la cocina oaxaqueña, célebre por sus moles."
+  },
+  {
+   "id": "w_lax_bottega_louie",
+   "cat": "food",
+   "name": "Bottega Louie",
+   "icon": "🧁",
+   "lat": 34.04667,
+   "lng": -118.25583,
+   "desc": "Elegante restaurante y pastelería italiana en el centro."
+  },
+  {
+   "id": "w_lax_in_n_out",
+   "cat": "food",
+   "name": "In-N-Out Burger",
+   "icon": "🍔",
+   "lat": 34.09811,
+   "lng": -118.32549,
+   "desc": "Cadena californiana de culto famosa por sus hamburguesas frescas."
+  },
+  {
+   "id": "w_lax_langers",
+   "cat": "food",
+   "name": "Langer's Delicatessen",
+   "icon": "🥯",
+   "lat": 34.05787,
+   "lng": -118.27506,
+   "desc": "Delicatessen histórico de 1947 célebre por su sándwich de pastrami."
+  }
+ ],
+ "extra": {
+  "w_lax_hollywood_sign": {
+   "id": "w_lax_hollywood_sign",
+   "d": "Instalado en 1923 como anuncio inmobiliario ('Hollywoodland'), sus letras de casi 14 metros se convirtieron en el emblema de la industria del cine. Se ve desde numerosos puntos de la ciudad y varias rutas de senderismo llevan hasta sus proximidades.",
+   "d_en": "Erected in 1923 as a real-estate ad ('Hollywoodland'), its nearly 14-metre letters became the emblem of the film industry. It is visible from many spots across the city and several hiking trails lead to its vicinity.",
+   "h": "Visible siempre; miradores desde Griffith Park, Lake Hollywood Park y rutas de senderismo.",
+   "h_en": "Always visible; viewpoints from Griffith Park, Lake Hollywood Park and hiking trails.",
+   "i": "No se puede llegar directamente a las letras; los mejores accesos son a pie por senderos.",
+   "i_en": "You cannot reach the letters directly; the best access is on foot via trails."
+  },
+  "w_lax_walk_of_fame": {
+   "id": "w_lax_walk_of_fame",
+   "d": "El Hollywood Walk of Fame se extiende a lo largo de unos 2 km de Hollywood Boulevard y Vine Street. Sus estrellas de terrazo y latón homenajean a figuras del cine, la música, la televisión, la radio y el teatro desde 1960.",
+   "d_en": "The Hollywood Walk of Fame stretches about 2 km along Hollywood Boulevard and Vine Street. Its terrazzo-and-brass stars have honored figures from film, music, TV, radio and theatre since 1960.",
+   "h": "Acceso libre las 24 horas en la vía pública.",
+   "h_en": "Free public access 24 hours.",
+   "i": "Zona muy concurrida; vigila tus pertenencias y evita los actores disfrazados que cobran por fotos.",
+   "i_en": "Very busy area; watch your belongings and avoid costumed performers who charge for photos."
+  },
+  "w_lax_tcl_chinese": {
+   "id": "w_lax_tcl_chinese",
+   "d": "Inaugurado como Grauman's Chinese Theatre, este palacio de estilo chino es célebre por su patio con huellas de manos y pies de estrellas de Hollywood. Sigue siendo una sala de cine activa y sede de grandes estrenos.",
+   "d_en": "Opened as Grauman's Chinese Theatre, this Chinese-style movie palace is famous for its forecourt with Hollywood stars' hand and foot prints. It remains an active cinema and premiere venue.",
+   "h": "Patio de libre acceso; funciones de cine según cartelera.",
+   "h_en": "Forecourt free to access; screenings per schedule.",
+   "i": "El patio de huellas es gratuito; para ver la sala IMAX hay que comprar entrada de cine.",
+   "i_en": "The handprint forecourt is free; to see the IMAX auditorium you must buy a ticket."
+  },
+  "w_lax_dolby_theatre": {
+   "id": "w_lax_dolby_theatre",
+   "d": "Este moderno teatro dentro del complejo Ovation Hollywood acoge cada año la ceremonia de los Premios de la Academia. Ofrece visitas guiadas donde se muestra la sala, la escalera de los nominados y la estatuilla del Óscar.",
+   "d_en": "This modern theatre inside the Ovation Hollywood complex hosts the Academy Awards ceremony each year. Guided tours show the auditorium, the nominees' staircase and an Oscar statuette.",
+   "h": "Visitas guiadas diarias, aprox. 10:30-16:00 (consultar).",
+   "h_en": "Daily guided tours, approx. 10:30am-4:00pm (check ahead).",
+   "i": "Solo se accede al interior con visita guiada de pago; reserva con antelación.",
+   "i_en": "The interior is accessible only via a paid guided tour; book ahead."
+  },
+  "w_lax_disney_hall": {
+   "id": "w_lax_disney_hall",
+   "d": "Sede de la Filarmónica de Los Ángeles desde 2003, su espectacular fachada de acero inoxidable es una obra maestra de la arquitectura deconstructivista de Frank Gehry. Su interior de madera destaca por una acústica excepcional.",
+   "d_en": "Home of the Los Angeles Philharmonic since 2003, its dramatic stainless-steel façade is a masterpiece of Frank Gehry's deconstructivist architecture. Its wood-lined interior is prized for exceptional acoustics.",
+   "h": "Exterior siempre accesible; conciertos y visitas según programación.",
+   "h_en": "Exterior always accessible; concerts and tours per schedule.",
+   "i": "Sube al jardín público de la azotea para ver la 'rosa' de piedra y vistas del centro.",
+   "i_en": "Go up to the public rooftop garden to see the stone 'rose' and downtown views."
+  },
+  "w_lax_getty_center": {
+   "id": "w_lax_getty_center",
+   "d": "Diseñado por Richard Meier, este complejo de travertino alberga pintura europea, esculturas y artes decorativas, incluyendo obras de Van Gogh, Rembrandt y Monet. Sus jardines y las vistas panorámicas de la ciudad y el océano son excepcionales.",
+   "d_en": "Designed by Richard Meier, this travertine complex holds European paintings, sculpture and decorative arts, including works by Van Gogh, Rembrandt and Monet. Its gardens and panoramic city and ocean views are exceptional.",
+   "h": "Mar-Dom 10:00-17:30; cerrado lunes.",
+   "h_en": "Tue-Sun 10:00am-5:30pm; closed Mondays.",
+   "i": "Entrada gratuita pero el aparcamiento se paga; se sube en un tranvía automático.",
+   "i_en": "Admission is free but parking is paid; an automated tram takes you up."
+  },
+  "w_lax_lacma": {
+   "id": "w_lax_lacma",
+   "d": "El Los Angeles County Museum of Art reúne más de 140.000 obras de todas las épocas y culturas. Su instalación exterior 'Urban Light', un bosque de 202 farolas antiguas, se ha convertido en un icono fotográfico de la ciudad.",
+   "d_en": "The Los Angeles County Museum of Art holds over 140,000 works from all eras and cultures. Its outdoor installation 'Urban Light', a forest of 202 vintage lampposts, has become a photographic icon of the city.",
+   "h": "Lun, Mar, Jue 11:00-18:00; Vie 11:00-20:00; Sáb-Dom 10:00-19:00; cerrado miércoles.",
+   "h_en": "Mon, Tue, Thu 11:00am-6:00pm; Fri 11:00am-8:00pm; Sat-Sun 10:00am-7:00pm; closed Wednesdays.",
+   "i": "'Urban Light' es gratuito y de libre acceso; especialmente fotogénico al anochecer.",
+   "i_en": "'Urban Light' is free and open-access; especially photogenic at dusk."
+  },
+  "w_lax_broad": {
+   "id": "w_lax_broad",
+   "d": "Inaugurado en 2015, su distintiva fachada 'velo y bóveda' envuelve una colección de arte contemporáneo con obras de Warhol, Basquiat, Koons y las salas de espejos infinitos de Yayoi Kusama, muy solicitadas.",
+   "d_en": "Opened in 2015, its distinctive 'veil and vault' façade wraps a contemporary art collection with works by Warhol, Basquiat, Koons and Yayoi Kusama's sought-after infinity mirror rooms.",
+   "h": "Mar-Dom 11:00-17:00; cerrado lunes.",
+   "h_en": "Tue-Sun 11:00am-5:00pm; closed Mondays.",
+   "i": "Entrada gratuita, pero reserva online; las salas de Kusama requieren turno aparte.",
+   "i_en": "Free admission but reserve online; Kusama's rooms need a separate timed entry."
+  },
+  "w_lax_rodeo_drive": {
+   "id": "w_lax_rodeo_drive",
+   "d": "Tres manzanas de boutiques de alta costura (Gucci, Chanel, Dior) que definen el glamour de Beverly Hills. Su arquitectura elegante, palmeras y escaparates la han convertido en escenario de cine y símbolo del lujo angelino.",
+   "d_en": "Three blocks of haute couture boutiques (Gucci, Chanel, Dior) that define Beverly Hills glamour. Its elegant architecture, palm trees and storefronts have made it a movie backdrop and symbol of Angeleno luxury.",
+   "h": "Tiendas aprox. 10:00-19:00; calle de acceso libre.",
+   "h_en": "Shops approx. 10:00am-7:00pm; street free to access.",
+   "i": "El paseo es gratuito aunque no compres; la escalinata de Two Rodeo es muy fotogénica.",
+   "i_en": "Strolling is free even without shopping; the Two Rodeo steps are very photogenic."
+  },
+  "w_lax_union_station": {
+   "id": "w_lax_union_station",
+   "d": "Considerada la última gran estación ferroviaria de Estados Unidos, combina el estilo misión española con el art déco. Sus techos de madera, suelos de mármol y patios ajardinados aparecen en numerosas películas.",
+   "d_en": "Regarded as the last of the great American railway stations, it blends Spanish Mission with art déco. Its wood ceilings, marble floors and garden courtyards feature in many films.",
+   "h": "Abierta a diario; principal nudo de trenes y metro.",
+   "h_en": "Open daily; main rail and metro hub.",
+   "i": "Entrada libre para admirar la arquitectura aunque no viajes; buen punto de partida del metro.",
+   "i_en": "Free to enter and admire the architecture even without traveling; a good metro starting point."
+  },
+  "w_lax_cathedral": {
+   "id": "w_lax_cathedral",
+   "d": "Sede de la archidiócesis católica, esta imponente obra del arquitecto español Rafael Moneo destaca por sus ángulos posmodernos, la luz de alabastro y los tapices de la Comunión de los Santos que recorren la nave.",
+   "d_en": "Seat of the Catholic archdiocese, this striking work by Spanish architect Rafael Moneo stands out for its postmodern angles, alabaster light and the Communion of Saints tapestries along the nave.",
+   "h": "Lun-Vie 06:30-18:00; Sáb 09:00-18:00; Dom horario de misas.",
+   "h_en": "Mon-Fri 6:30am-6:00pm; Sat 9:00am-6:00pm; Sun mass hours.",
+   "i": "Entrada gratuita; la plaza y la cafetería ofrecen un respiro tranquilo en el centro.",
+   "i_en": "Free entry; the plaza and café offer a quiet break downtown."
+  },
+  "w_lax_watts_towers": {
+   "id": "w_lax_watts_towers",
+   "d": "Durante 33 años, el italoamericano Simon Rodia levantó sin planos ni andamios estas torres de acero, cemento y mosaicos de cerámica, cristal y conchas. Son un monumento nacional y una obra maestra del arte marginal.",
+   "d_en": "Over 33 years, Italian-American Simon Rodia built these towers of steel, cement and mosaics of ceramic, glass and shells without plans or scaffolding. They are a national landmark and a masterpiece of outsider art.",
+   "h": "Visitas guiadas Jue-Dom (consultar); centro de arte adyacente.",
+   "h_en": "Guided tours Thu-Sun (check ahead); adjacent arts center.",
+   "i": "El barrio es humilde; ve de día y consulta los horarios de visita antes de ir.",
+   "i_en": "The neighborhood is modest; go by day and check tour times before visiting."
+  },
+  "w_lax_griffith_observatory": {
+   "id": "w_lax_griffith_observatory",
+   "d": "Inaugurado en 1935 en las laderas del monte Hollywood, ofrece telescopios públicos, un planetario y exposiciones de astronomía gratuitas. Sus terrazas brindan las mejores panorámicas del skyline, el letrero de Hollywood y el atardecer.",
+   "d_en": "Opened in 1935 on the slopes of Mount Hollywood, it offers public telescopes, a planetarium and free astronomy exhibits. Its terraces provide the best panoramas of the skyline, the Hollywood Sign and the sunset.",
+   "h": "Mar-Vie 12:00-22:00; Sáb-Dom 10:00-22:00; cerrado lunes.",
+   "h_en": "Tue-Fri 12:00pm-10:00pm; Sat-Sun 10:00am-10:00pm; closed Mondays.",
+   "i": "Entrada gratuita (planetario de pago); aparca temprano o toma el autobús, se llena.",
+   "i_en": "Free admission (planetarium ticketed); park early or take the bus, it gets crowded."
+  },
+  "w_lax_griffith_park": {
+   "id": "w_lax_griffith_park",
+   "d": "Uno de los mayores parques urbanos de Norteamérica, con más de 17 km² de colinas y bosque. Alberga el observatorio, el zoo, un museo del oeste, teatros al aire libre y kilómetros de senderos con acceso al letrero de Hollywood.",
+   "d_en": "One of North America's largest urban parks, over 17 km² of hills and woodland. It contains the observatory, the zoo, a Western museum, open-air theatres and miles of trails leading toward the Hollywood Sign.",
+   "h": "Rutas 05:00-22:30; zonas de vehículos hasta el anochecer.",
+   "h_en": "Trails 5:00am-10:30pm; vehicle areas until dusk.",
+   "i": "Lleva agua y calzado cómodo; algunas rutas ofrecen las mejores fotos del letrero.",
+   "i_en": "Bring water and comfortable shoes; some trails offer the best Hollywood Sign photos."
+  },
+  "w_lax_runyon_canyon": {
+   "id": "w_lax_runyon_canyon",
+   "d": "Un parque de senderismo muy frecuentado justo detrás de Hollywood, apreciado por sus rutas accesibles, la posibilidad de pasear perros sin correa y las panorámicas del skyline y el letrero desde sus crestas.",
+   "d_en": "A well-loved hiking park right behind Hollywood, prized for its accessible loops, off-leash dog areas and skyline and sign panoramas from its ridges.",
+   "h": "Diario del amanecer al anochecer.",
+   "h_en": "Daily, sunrise to sunset.",
+   "i": "Poca sombra; ve temprano, lleva agua y protección solar.",
+   "i_en": "Little shade; go early, bring water and sun protection."
+  },
+  "w_lax_echo_park_lake": {
+   "id": "w_lax_echo_park_lake",
+   "d": "Un tranquilo parque acuático cerca del centro, célebre por su campo de flores de loto que florece en verano, sus fuentes y las barcas con forma de cisne. Ofrece un reflejo del skyline muy fotografiado.",
+   "d_en": "A peaceful lakeside park near downtown, famous for its summer-blooming lotus bed, fountains and swan-shaped pedal boats. It offers a much-photographed reflection of the skyline.",
+   "h": "Parque 05:00-22:30; alquiler de barcas por horario.",
+   "h_en": "Park 5:00am-10:30pm; boat rental per schedule.",
+   "i": "El festival del loto es en julio; alquila una barca de cisne al atardecer.",
+   "i_en": "The lotus festival is in July; rent a swan boat at sunset."
+  },
+  "w_lax_la_brea_tar_pits": {
+   "id": "w_lax_la_brea_tar_pits",
+   "d": "En pleno centro de la ciudad, estos pozos de brea burbujeante han atrapado durante milenios a mamuts, tigres dientes de sable y lobos. El museo adyacente exhibe los fósiles excavados y un laboratorio de paleontología a la vista.",
+   "d_en": "Right in the city, these bubbling asphalt pits have trapped mammoths, saber-toothed cats and dire wolves for millennia. The adjacent museum displays excavated fossils and a working paleontology lab.",
+   "h": "Parque de libre acceso; museo 09:30-17:00 (consultar).",
+   "h_en": "Park free to access; museum 9:30am-5:00pm (check ahead).",
+   "i": "El parque exterior con los mamuts es gratuito; el museo tiene entrada de pago.",
+   "i_en": "The outdoor park with the mammoths is free; the museum charges admission."
+  },
+  "w_lax_malibu_pier": {
+   "id": "w_lax_malibu_pier",
+   "d": "Franja costera de 34 km famosa por sus olas, sus mansiones de estrellas y playas como Surfrider y Zuma. El histórico muelle de Malibú de 1905 es el corazón del pueblo, con restaurantes y vistas del Pacífico.",
+   "d_en": "A 34-km stretch of coast famous for its waves, celebrity mansions and beaches like Surfrider and Zuma. The historic 1905 Malibu Pier is the heart of town, with restaurants and Pacific views.",
+   "h": "Playas del amanecer al anochecer; muelle acceso libre.",
+   "h_en": "Beaches sunrise to sunset; pier free to access.",
+   "i": "Queda a 45-60 min en coche; combina el muelle con las playas de Zuma o Surfrider.",
+   "i_en": "It is 45-60 min by car; combine the pier with Zuma or Surfrider beaches."
+  },
+  "w_lax_el_matador": {
+   "id": "w_lax_el_matador",
+   "d": "La más pintoresca de las calas de Malibú, con espectaculares formaciones rocosas, arcos naturales y cuevas marinas. Se baja por una escalera desde el acantilado y es un lugar muy buscado para atardeceres y fotografía.",
+   "d_en": "The most scenic of Malibu's coves, with dramatic rock formations, natural arches and sea caves. Reached by a staircase down the cliff, it is a sought-after spot for sunsets and photography.",
+   "h": "Diario del amanecer al anochecer; aparcamiento de pago.",
+   "h_en": "Daily, sunrise to sunset; paid parking.",
+   "i": "Consulta la marea: con marea alta la playa casi desaparece. Ve al atardecer.",
+   "i_en": "Check the tide: at high tide the beach nearly vanishes. Go at sunset."
+  },
+  "w_lax_universal_studios": {
+   "id": "w_lax_universal_studios",
+   "d": "Combina un parque de atracciones con un estudio de cine en activo. Ofrece el famoso Studio Tour por sets reales, mundos temáticos como el de Harry Potter y Super Nintendo World, además de atracciones basadas en grandes películas.",
+   "d_en": "It combines an amusement park with a working film studio. It offers the famous Studio Tour through real backlots, themed worlds like Harry Potter and Super Nintendo World, plus rides based on blockbuster films.",
+   "h": "Diario, aprox. 09:00-19:00 (varía por temporada).",
+   "h_en": "Daily, approx. 9:00am-7:00pm (varies by season).",
+   "i": "Compra la entrada online y llega al abrir; el pase Express ahorra mucha cola.",
+   "i_en": "Buy tickets online and arrive at opening; the Express pass saves a lot of queuing."
+  },
+  "w_lax_santa_monica_pier": {
+   "id": "w_lax_santa_monica_pier",
+   "d": "Este muelle de 1909 alberga Pacific Park, con su noria solar frente al mar, además de puestos, artistas callejeros y el cartel del final de la Ruta 66. Es uno de los rincones más fotografiados de la costa angelina.",
+   "d_en": "This 1909 pier hosts Pacific Park, with its solar-powered oceanfront Ferris wheel, plus stalls, street performers and the sign marking the end of Route 66. It is one of the most photographed spots on the LA coast.",
+   "h": "Muelle abierto a diario; atracciones aprox. 11:00-22:00.",
+   "h_en": "Pier open daily; rides approx. 11:00am-10:00pm.",
+   "i": "Pasear por el muelle es gratis; las atracciones se pagan por ticket o pase.",
+   "i_en": "Walking the pier is free; rides are paid per ticket or wristband."
+  },
+  "w_lax_venice_beach": {
+   "id": "w_lax_venice_beach",
+   "d": "El animado Ocean Front Walk reúne músicos, artistas, tiendas excéntricas y el legendario gimnasio al aire libre Muscle Beach. Sus canales de estilo veneciano y el skate park junto al mar completan su ambiente contracultural.",
+   "d_en": "The lively Ocean Front Walk brings together musicians, artists, quirky shops and the legendary open-air Muscle Beach gym. Its Venetian-style canals and beachfront skate park round out its countercultural vibe.",
+   "h": "Paseo abierto a diario; más ambiente de día.",
+   "h_en": "Boardwalk open daily; livelier by day.",
+   "i": "Vigila tus cosas y evita la zona de noche; no te pierdas los canales de Venice.",
+   "i_en": "Watch your belongings and avoid the area at night; don't miss the Venice canals."
+  },
+  "w_lax_the_grove": {
+   "id": "w_lax_the_grove",
+   "d": "Un elegante complejo comercial al aire libre con calles peatonales, un tranvía de época, una fuente que baila y numerosas tiendas y restaurantes. Junto al histórico Original Farmers Market, es un punto de encuentro muy popular.",
+   "d_en": "A stylish open-air retail complex with pedestrian streets, a vintage trolley, a dancing fountain and many shops and restaurants. Next to the historic Original Farmers Market, it is a very popular gathering spot.",
+   "h": "Lun-Sáb aprox. 10:00-21:00; Dom 11:00-20:00.",
+   "h_en": "Mon-Sat approx. 10:00am-9:00pm; Sun 11:00am-8:00pm.",
+   "i": "Combínalo con el Farmers Market adyacente para comer; ambiente muy navideño en diciembre.",
+   "i_en": "Combine it with the adjacent Farmers Market for a bite; very festive in December."
+  },
+  "w_lax_hollywood_blvd": {
+   "id": "w_lax_hollywood_blvd",
+   "d": "El corazón turístico de Hollywood, donde se concentran el Paseo de la Fama, el TCL Chinese Theatre, el Dolby Theatre y museos como el de cera o Ripley's. Es una avenida vibrante, kitsch y siempre animada.",
+   "d_en": "The tourist heart of Hollywood, packed with the Walk of Fame, the TCL Chinese Theatre, the Dolby Theatre and museums like the wax museum and Ripley's. It is a vibrant, kitschy and always lively avenue.",
+   "h": "Acceso libre a cualquier hora; comercios diurnos y nocturnos.",
+   "h_en": "Free access any time; day and night venues.",
+   "i": "Zona muy turística y algo caótica; ideal para pasear de día y ver los teatros.",
+   "i_en": "Very touristy and a bit chaotic; ideal for a daytime stroll to see the theatres."
+  },
+  "w_lax_manhattan_beach": {
+   "id": "w_lax_manhattan_beach",
+   "d": "Una de las playas más agradables del South Bay, con un muelle de hormigón coronado por un pequeño acuario, amplia arena, carril bici costero y un pueblo con tiendas y cafeterías de ambiente californiano relajado.",
+   "d_en": "One of the nicest South Bay beaches, with a concrete pier topped by a small aquarium, wide sand, a coastal bike path and a town of shops and cafés with a relaxed California vibe.",
+   "h": "Playa y muelle del amanecer al anochecer.",
+   "h_en": "Beach and pier from sunrise to sunset.",
+   "i": "Menos masificada que Venice; alquila una bici y recorre el Strand costero.",
+   "i_en": "Less crowded than Venice; rent a bike and ride the coastal Strand path."
+  },
+  "w_lax_science_center": {
+   "id": "w_lax_science_center",
+   "d": "Un museo interactivo ideal para familias, con exposiciones de ecosistemas, tecnología y espacio. Su gran atractivo es el transbordador espacial Endeavour, uno de los pocos orbitadores reales expuestos al público.",
+   "d_en": "An interactive, family-friendly museum with exhibits on ecosystems, technology and space. Its highlight is the Space Shuttle Endeavour, one of the few real orbiters on public display.",
+   "h": "Diario 10:00-17:00.",
+   "h_en": "Daily 10:00am-5:00pm.",
+   "i": "Entrada general gratuita; reserva franja para ver el Endeavour y el cine IMAX es de pago.",
+   "i_en": "General admission is free; reserve a slot for the Endeavour and the IMAX cinema is ticketed."
+  },
+  "w_lax_angels_flight": {
+   "id": "w_lax_angels_flight",
+   "d": "Apodado 'el ferrocarril más corto del mundo', este pintoresco funicular naranja salva la empinada cuesta de Bunker Hill desde 1901. Conecta Grand Central Market con California Plaza en un breve y nostálgico trayecto.",
+   "d_en": "Nicknamed 'the shortest railway in the world', this quaint orange funicular has climbed steep Bunker Hill since 1901. It links Grand Central Market with California Plaza in a short, nostalgic ride.",
+   "h": "Diario aprox. 06:45-22:00.",
+   "h_en": "Daily approx. 6:45am-10:00pm.",
+   "i": "El billete cuesta apenas 1 dólar; ideal para combinar con Grand Central Market.",
+   "i_en": "The fare is just about 1 dollar; perfect to combine with Grand Central Market."
+  },
+  "w_lax_grand_central_market": {
+   "id": "w_lax_grand_central_market",
+   "d": "Un vibrante mercado cubierto en el centro que reúne desde tacos y pupusas hasta ostras, ramen y café de especialidad. Su ambiente animado y su mezcla de cocinas lo convierten en una parada gastronómica imprescindible.",
+   "d_en": "A vibrant covered market downtown offering everything from tacos and pupusas to oysters, ramen and specialty coffee. Its lively atmosphere and blend of cuisines make it an essential food stop.",
+   "h": "Diario 08:00-22:00.",
+   "h_en": "Daily 8:00am-10:00pm.",
+   "i": "Ve con hambre y prueba varios puestos; muy concurrido a la hora de comer.",
+   "i_en": "Go hungry and try several stalls; very busy at lunchtime."
+  },
+  "w_lax_farmers_market": {
+   "id": "w_lax_farmers_market",
+   "d": "Un querido mercado al aire libre con su icónica torre del reloj, abierto desde 1934. Reúne puestos de comida de todo tipo, tiendas de productos frescos y cafeterías, junto al centro comercial The Grove.",
+   "d_en": "A beloved open-air market with its iconic clock tower, open since 1934. It gathers food stalls of every kind, fresh-produce shops and cafés, right beside The Grove shopping center.",
+   "h": "Lun-Sáb 09:00-21:00; Dom 10:00-19:00.",
+   "h_en": "Mon-Sat 9:00am-9:00pm; Sun 10:00am-7:00pm.",
+   "i": "Ambiente histórico y familiar; combínalo con una visita a The Grove al lado.",
+   "i_en": "Historic, family-friendly atmosphere; combine it with a visit to The Grove next door."
+  },
+  "w_lax_philippe": {
+   "id": "w_lax_philippe",
+   "d": "Uno de los restaurantes más antiguos de la ciudad, que reclama la invención del French Dip: un sándwich de carne asada mojado en su jugo. Conserva el suelo de serrín, las mesas comunales y los precios de café de otra época.",
+   "d_en": "One of the city's oldest restaurants, claiming to have invented the French Dip: a roast-meat sandwich dipped in its own jus. It keeps sawdust floors, communal tables and old-fashioned coffee prices.",
+   "h": "Diario 06:00-22:00.",
+   "h_en": "Daily 6:00am-10:00pm.",
+   "i": "Pide el French Dip de ternera o cerdo con mostaza picante; se paga en efectivo o tarjeta.",
+   "i_en": "Order the beef or pork French Dip with hot mustard; cash or card accepted."
+  },
+  "w_lax_guelaguetza": {
+   "id": "w_lax_guelaguetza",
+   "d": "Un restaurante familiar premiado que ha popularizado la cocina de Oaxaca en Los Ángeles. Destaca por sus siete moles tradicionales, las tlayudas, el mezcal y su animado ambiente con música en directo los fines de semana.",
+   "d_en": "An award-winning family restaurant that popularized Oaxacan cuisine in Los Angeles. It is known for its seven traditional moles, tlayudas, mezcal and lively atmosphere with live music on weekends.",
+   "h": "Diario 10:00-21:00.",
+   "h_en": "Daily 10:00am-9:00pm.",
+   "i": "Prueba el mole negro y una tlayuda; está en Koreatown, algo alejado del centro.",
+   "i_en": "Try the black mole and a tlayuda; it's in Koreatown, a bit away from downtown."
+  },
+  "w_lax_bottega_louie": {
+   "id": "w_lax_bottega_louie",
+   "d": "Un luminoso y bullicioso local de mármol blanco famoso por sus coloridos macarons, sus pizzas y su brunch. Combina restaurante, cafetería y pastelería gourmet en un espacio de techos altos siempre concurrido.",
+   "d_en": "A bright, bustling white-marble venue famous for its colorful macarons, pizzas and brunch. It combines a restaurant, café and gourmet patisserie in a high-ceilinged space that is always busy.",
+   "h": "Diario 08:00-23:00.",
+   "h_en": "Daily 8:00am-11:00pm.",
+   "i": "No aceptan reservas para grupos pequeños; llévate una caja de macarons.",
+   "i_en": "No reservations for small groups; take a box of macarons to go."
+  },
+  "w_lax_in_n_out": {
+   "id": "w_lax_in_n_out",
+   "d": "Fundada en California en 1948, esta cadena es una institución local por sus hamburguesas hechas al momento, sus patatas frescas y su 'menú secreto'. La ubicación de Hollywood es una de las más visitadas por los turistas.",
+   "d_en": "Founded in California in 1948, this chain is a local institution for its made-to-order burgers, fresh-cut fries and 'secret menu'. The Hollywood location is one of the most visited by tourists.",
+   "h": "Diario 10:30-01:00.",
+   "h_en": "Daily 10:30am-1:00am.",
+   "i": "Pide una 'Double-Double animal style' del menú secreto; precios muy asequibles.",
+   "i_en": "Order a 'Double-Double animal style' from the secret menu; very affordable prices."
+  },
+  "w_lax_langers": {
+   "id": "w_lax_langers",
+   "d": "Considerado por muchos el mejor pastrami del país, este delicatessen judío junto al parque MacArthur sirve desde 1947 su legendario sándwich nº 19, con carne curada, ensalada de col y aliño ruso sobre pan de centeno.",
+   "d_en": "Considered by many the best pastrami in the country, this Jewish deli by MacArthur Park has served its legendary #19 sandwich since 1947, with cured meat, coleslaw and Russian dressing on rye bread.",
+   "h": "Lun-Sáb 08:00-16:00; cerrado domingo.",
+   "h_en": "Mon-Sat 8:00am-4:00pm; closed Sunday.",
+   "i": "Pide el nº 19; la zona no es la mejor, ve de día o usa el metro (parada Westlake).",
+   "i_en": "Order the #19; the area isn't the best, go by day or take the metro (Westlake stop)."
+  }
+ },
+ "food": {
+  "w_lax_grand_central_market": {
+   "cuisine": "Mercado gastronómico internacional",
+   "price": "8–20 €",
+   "hours": "Diario 08:00-22:00"
+  },
+  "w_lax_farmers_market": {
+   "cuisine": "Mercado y comida callejera variada",
+   "price": "8–18 €",
+   "hours": "Lun-Sáb 09:00-21:00; Dom 10:00-19:00"
+  },
+  "w_lax_philippe": {
+   "cuisine": "Sándwiches americanos (French Dip)",
+   "price": "10–18 €",
+   "hours": "Diario 06:00-22:00"
+  },
+  "w_lax_guelaguetza": {
+   "cuisine": "Mexicana oaxaqueña",
+   "price": "15–30 €",
+   "hours": "Diario 10:00-21:00"
+  },
+  "w_lax_bottega_louie": {
+   "cuisine": "Italiana y pastelería",
+   "price": "18–35 €",
+   "hours": "Diario 08:00-23:00"
+  },
+  "w_lax_in_n_out": {
+   "cuisine": "Hamburguesas americanas",
+   "price": "6–12 €",
+   "hours": "Diario 10:30-01:00"
+  },
+  "w_lax_langers": {
+   "cuisine": "Delicatessen judío",
+   "price": "15–28 €",
+   "hours": "Lun-Sáb 08:00-16:00; cerrado domingo"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Los Ángeles",
+   "items": [
+    {
+     "name": "Camiseta Hollywood",
+     "price": "12–25 €",
+     "desc": "Camiseta con el icónico letrero de Hollywood o el skyline de la ciudad."
+    },
+    {
+     "name": "Estrella del Paseo de la Fama",
+     "price": "8–18 €",
+     "desc": "Réplica en miniatura de las estrellas rosadas del Walk of Fame."
+    },
+    {
+     "name": "Claqueta de cine",
+     "price": "10–20 €",
+     "desc": "Claqueta decorativa de estudio, guiño a la meca del cine."
+    },
+    {
+     "name": "Imán del Observatorio Griffith",
+     "price": "5–10 €",
+     "desc": "Imán con la cúpula art déco y las vistas de la ciudad."
+    },
+    {
+     "name": "Merchandising de estudios",
+     "price": "15–40 €",
+     "desc": "Productos oficiales de Universal, Warner o Disney."
+    }
+   ],
+   "shops": [
+    "Hollywood Boulevard",
+    "The Grove",
+    "Original Farmers Market",
+    "Santa Monica Third Street Promenade",
+    "tiendas de los estudios"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "El coche es casi imprescindible: las distancias son enormes y el transporte público es limitado.",
+   "Evita conducir en hora punta (7-10h y 15-19h); el tráfico de las autopistas es legendario.",
+   "El sol pega fuerte todo el año: lleva protección solar, gorra y agua.",
+   "Reserva online las entradas de Universal Studios, el Getty y el Broad para ahorrar colas.",
+   "Las propinas del 18-20% son costumbre en restaurantes; casi todo se paga con tarjeta."
+  ],
+  "en": [
+   "A car is almost essential: distances are huge and public transport is limited.",
+   "Avoid driving at rush hour (7-10am and 3-7pm); freeway traffic is legendary.",
+   "The sun is strong year-round: bring sunscreen, a hat and water.",
+   "Book tickets online for Universal Studios, the Getty and the Broad to skip queues.",
+   "Tipping 18-20% is customary in restaurants; almost everything is paid by card."
+  ]
+ },
+ "climate": {
+  "hi": [
+   20,
+   20,
+   21,
+   23,
+   24,
+   26,
+   29,
+   29,
+   28,
+   26,
+   23,
+   20
+  ],
+  "lo": [
+   9,
+   9,
+   11,
+   12,
+   14,
+   16,
+   18,
+   18,
+   17,
+   15,
+   11,
+   9
+  ]
+ },
+ "tr": {
+  "El icónico letrero blanco sobre el monte Lee, símbolo mundial del cine.": "The iconic white sign on Mount Lee, a global symbol of cinema.",
+  "Aceras con más de 2.700 estrellas dedicadas a celebridades del espectáculo.": "Sidewalks with over 2,700 stars honoring entertainment celebrities.",
+  "Histórico cine de 1927 con las huellas de las estrellas en su patio.": "Historic 1927 cinema famous for celebrity handprints in its forecourt.",
+  "Sede de la gala de los Óscar desde 2002.": "Home of the Academy Awards ceremony since 2002.",
+  "Auditorio de acero ondulado diseñado por Frank Gehry.": "Rippling steel concert hall designed by Frank Gehry.",
+  "Museo de arte gratuito sobre una colina con jardines y vistas.": "Free hilltop art museum with gardens and sweeping views.",
+  "El mayor museo de arte del oeste de EE. UU., famoso por sus farolas.": "The largest art museum in the western US, famous for its lampposts.",
+  "Museo de arte contemporáneo con entrada gratuita en el centro.": "Free contemporary art museum in downtown.",
+  "La calle de lujo más famosa, corazón de Beverly Hills.": "The most famous luxury street, heart of Beverly Hills.",
+  "Espléndida estación de 1939 de estilo art déco y misión española.": "Splendid 1939 station blending art déco and Spanish Mission style.",
+  "Moderna catedral de 2002 diseñada por Rafael Moneo.": "Modern 2002 cathedral designed by Rafael Moneo.",
+  "Torres de arte popular construidas a mano por Simon Rodia.": "Folk-art towers hand-built by Simon Rodia.",
+  "Observatorio art déco con vistas de la ciudad y el letrero de Hollywood.": "Art déco observatory with views of the city and the Hollywood Sign.",
+  "Enorme parque urbano con senderos, zoo y vistas al letrero.": "Vast urban park with trails, a zoo and Hollywood Sign views.",
+  "Popular cañón de senderismo con vistas sobre Hollywood.": "Popular hiking canyon with views over Hollywood.",
+  "Lago urbano con lotos, barcas de cisne y vistas al centro.": "Urban lake with lotuses, swan boats and downtown views.",
+  "Pozos de asfalto natural con fósiles de la Edad de Hielo.": "Natural asphalt pits with Ice Age fossils.",
+  "Costa de surf y playas de celebridades al noroeste de la ciudad.": "Surf coast and celebrity beaches northwest of the city.",
+  "Playa escarpada de Malibú con arcos rocosos y cuevas.": "Rugged Malibu beach with sea arches and caves.",
+  "Parque temático y estudio de cine con atracciones inmersivas.": "Theme park and working film studio with immersive rides.",
+  "Muelle icónico con parque de atracciones y el fin de la Ruta 66.": "Iconic pier with an amusement park and the end of Route 66.",
+  "Paseo marítimo bohemio con Muscle Beach y artistas callejeros.": "Bohemian boardwalk with Muscle Beach and street performers.",
+  "Centro comercial al aire libre con tranvía y fuente danzante.": "Open-air shopping center with a trolley and dancing fountain.",
+  "Bulliciosa avenida del entretenimiento con teatros y museos.": "Bustling entertainment avenue with theatres and museums.",
+  "Playa relajada del South Bay con muelle y ambiente surfero.": "Laid-back South Bay beach with a pier and surf vibe.",
+  "Museo de ciencia gratuito con el transbordador Endeavour.": "Free science museum home to the Space Shuttle Endeavour.",
+  "Diminuto funicular histórico de 1901 en el centro.": "Tiny historic 1901 funicular in downtown.",
+  "Histórico mercado de 1917 con puestos de comida de todo el mundo.": "Historic 1917 food hall with stalls from around the world.",
+  "Mercado clásico de 1934 con puestos de comida y productos frescos.": "Classic 1934 market with food stalls and fresh produce.",
+  "Institución de 1908 cuna del sándwich 'French Dip'.": "1908 institution, birthplace of the 'French Dip' sandwich.",
+  "Templo de la cocina oaxaqueña, célebre por sus moles.": "Temple of Oaxacan cuisine, famous for its moles.",
+  "Elegante restaurante y pastelería italiana en el centro.": "Elegant Italian restaurant and patisserie downtown.",
+  "Cadena californiana de culto famosa por sus hamburguesas frescas.": "Cult California chain famous for its fresh burgers.",
+  "Delicatessen histórico de 1947 célebre por su sándwich de pastrami.": "Historic 1947 deli famous for its pastrami sandwich.",
+  "Los Ángeles": "Los Ángeles"
+ }
+}

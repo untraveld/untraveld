@@ -1,0 +1,784 @@
+{
+ "id": "hongkong",
+ "name": "Hong Kong",
+ "country": "WORLD",
+ "center": [
+  22.3193,
+  114.1694
+ ],
+ "pois": [
+  {
+   "id": "w_hkg_wong_tai_sin",
+   "cat": "monuments",
+   "name": "Templo Wong Tai Sin",
+   "icon": "🛕",
+   "lat": 22.3425,
+   "lng": 114.19333,
+   "desc": "Colorido templo taoísta famoso por conceder deseos."
+  },
+  {
+   "id": "w_hkg_man_mo",
+   "cat": "monuments",
+   "name": "Templo Man Mo",
+   "icon": "🏮",
+   "lat": 22.28405,
+   "lng": 114.15009,
+   "desc": "Histórico templo entre grandes espirales de incienso."
+  },
+  {
+   "id": "w_hkg_big_buddha",
+   "cat": "monuments",
+   "name": "Gran Buda (Tian Tan) y Ngong Ping",
+   "icon": "🧘",
+   "lat": 22.25389,
+   "lng": 113.90472,
+   "desc": "Buda de bronce gigante en la montaña de Lantau."
+  },
+  {
+   "id": "w_hkg_po_lin",
+   "cat": "monuments",
+   "name": "Monasterio Po Lin",
+   "icon": "☸️",
+   "lat": 22.25472,
+   "lng": 113.90556,
+   "desc": "Gran monasterio budista frente al Gran Buda."
+  },
+  {
+   "id": "w_hkg_clock_tower",
+   "cat": "monuments",
+   "name": "Torre del Reloj de Tsim Sha Tsui",
+   "icon": "🕰️",
+   "lat": 22.29354,
+   "lng": 114.16897,
+   "desc": "Torre eduardiana junto al puerto, reliquia ferroviaria."
+  },
+  {
+   "id": "w_hkg_chi_lin",
+   "cat": "monuments",
+   "name": "Convento de Monjas Chi Lin",
+   "icon": "🏯",
+   "lat": 22.33967,
+   "lng": 114.20517,
+   "desc": "Convento de madera al estilo Tang, sin un solo clavo."
+  },
+  {
+   "id": "w_hkg_ten_thousand_buddhas",
+   "cat": "monuments",
+   "name": "Monasterio de los Diez Mil Budas",
+   "icon": "🙏",
+   "lat": 22.38472,
+   "lng": 114.18306,
+   "desc": "Sendero cuesta arriba flanqueado por estatuas doradas."
+  },
+  {
+   "id": "w_hkg_st_john",
+   "cat": "monuments",
+   "name": "Catedral de San Juan",
+   "icon": "⛪",
+   "lat": 22.27917,
+   "lng": 114.15972,
+   "desc": "La iglesia anglicana más antigua del Lejano Oriente."
+  },
+  {
+   "id": "w_hkg_bank_china",
+   "cat": "monuments",
+   "name": "Torre del Banco de China",
+   "icon": "🏢",
+   "lat": 22.27958,
+   "lng": 114.16144,
+   "desc": "Icónico rascacielos de vidrio diseñado por I. M. Pei."
+  },
+  {
+   "id": "w_hkg_museum_history",
+   "cat": "monuments",
+   "name": "Museo de Historia de Hong Kong",
+   "icon": "🏛️",
+   "lat": 22.30139,
+   "lng": 114.17583,
+   "desc": "Recorrido por la historia de Hong Kong hasta hoy."
+  },
+  {
+   "id": "w_hkg_tin_hau",
+   "cat": "monuments",
+   "name": "Templo Tin Hau de Yau Ma Tei",
+   "icon": "🀄",
+   "lat": 22.30861,
+   "lng": 114.17028,
+   "desc": "Templo a la diosa del mar junto al mercado de jade."
+  },
+  {
+   "id": "w_hkg_tai_kwun",
+   "cat": "monuments",
+   "name": "Tai Kwun",
+   "icon": "🏛️",
+   "lat": 22.28167,
+   "lng": 114.15417,
+   "desc": "Antigua comisaría y prisión reconvertida en centro cultural."
+  },
+  {
+   "id": "w_hkg_central",
+   "cat": "monuments",
+   "name": "Central (Distrito Financiero)",
+   "icon": "🌆",
+   "lat": 22.28131,
+   "lng": 114.15833,
+   "desc": "Corazón financiero: rascacielos, plazas y tranvías."
+  },
+  {
+   "id": "w_hkg_icc_sky100",
+   "cat": "monuments",
+   "name": "ICC y mirador Sky100",
+   "icon": "🏙️",
+   "lat": 22.30347,
+   "lng": 114.16028,
+   "desc": "El rascacielos más alto, con mirador en la planta 100."
+  },
+  {
+   "id": "w_hkg_victoria_peak",
+   "cat": "nature",
+   "name": "Victoria Peak (The Peak)",
+   "icon": "⛰️",
+   "lat": 22.2711,
+   "lng": 114.1498,
+   "desc": "El mirador más famoso sobre el skyline y el puerto."
+  },
+  {
+   "id": "w_hkg_hong_kong_park",
+   "cat": "nature",
+   "name": "Parque de Hong Kong",
+   "icon": "🌳",
+   "lat": 22.27722,
+   "lng": 114.16139,
+   "desc": "Oasis verde con aviario y cascadas en Central."
+  },
+  {
+   "id": "w_hkg_kowloon_park",
+   "cat": "nature",
+   "name": "Parque de Kowloon",
+   "icon": "🦩",
+   "lat": 22.30056,
+   "lng": 114.16972,
+   "desc": "Amplio parque con flamencos en el corazón de Kowloon."
+  },
+  {
+   "id": "w_hkg_dragons_back",
+   "cat": "nature",
+   "name": "Dragon's Back",
+   "icon": "🥾",
+   "lat": 22.245,
+   "lng": 114.24361,
+   "desc": "Sendero panorámico sobre crestas con vistas al mar."
+  },
+  {
+   "id": "w_hkg_repulse_bay",
+   "cat": "nature",
+   "name": "Playa de Repulse Bay",
+   "icon": "🏖️",
+   "lat": 22.23556,
+   "lng": 114.19556,
+   "desc": "Playa de arena dorada con templo y estatuas."
+  },
+  {
+   "id": "w_hkg_nan_lian",
+   "cat": "nature",
+   "name": "Jardín Nan Lian",
+   "icon": "🌸",
+   "lat": 22.33861,
+   "lng": 114.20194,
+   "desc": "Jardín clásico de estilo Tang, sereno y perfecto."
+  },
+  {
+   "id": "w_hkg_victoria_harbour",
+   "cat": "nature",
+   "name": "Puerto Victoria y Sinfonía de Luces",
+   "icon": "🌊",
+   "lat": 22.29333,
+   "lng": 114.17222,
+   "desc": "El puerto icónico y su espectáculo de luces nocturno."
+  },
+  {
+   "id": "w_hkg_star_ferry",
+   "cat": "ocio",
+   "name": "Star Ferry",
+   "icon": "⛴️",
+   "lat": 22.29361,
+   "lng": 114.16833,
+   "desc": "Ferri histórico que cruza el puerto Victoria."
+  },
+  {
+   "id": "w_hkg_disneyland",
+   "cat": "ocio",
+   "name": "Hong Kong Disneyland",
+   "icon": "🏰",
+   "lat": 22.308,
+   "lng": 114.0393,
+   "desc": "Parque temático Disney en la isla de Lantau."
+  },
+  {
+   "id": "w_hkg_ocean_park",
+   "cat": "ocio",
+   "name": "Ocean Park",
+   "icon": "🐼",
+   "lat": 22.2408,
+   "lng": 114.1722,
+   "desc": "Parque de atracciones y acuario con teleférico."
+  },
+  {
+   "id": "w_hkg_temple_street",
+   "cat": "ocio",
+   "name": "Mercado Nocturno de Temple Street",
+   "icon": "🏮",
+   "lat": 22.3059,
+   "lng": 114.1699,
+   "desc": "Bullicioso mercado nocturno de Kowloon."
+  },
+  {
+   "id": "w_hkg_mong_kok",
+   "cat": "ocio",
+   "name": "Mong Kok y Ladies' Market",
+   "icon": "🛍️",
+   "lat": 22.31889,
+   "lng": 114.17083,
+   "desc": "Barrio densísimo con mercados temáticos y neones."
+  },
+  {
+   "id": "w_hkg_stanley",
+   "cat": "ocio",
+   "name": "Stanley y su mercado",
+   "icon": "🏘️",
+   "lat": 22.21833,
+   "lng": 114.21306,
+   "desc": "Pueblo costero con mercado y paseo marítimo."
+  },
+  {
+   "id": "w_hkg_avenue_stars",
+   "cat": "ocio",
+   "name": "Avenida de las Estrellas",
+   "icon": "⭐",
+   "lat": 22.2892,
+   "lng": 114.1715,
+   "desc": "Paseo marítimo dedicado al cine de Hong Kong."
+  },
+  {
+   "id": "w_hkg_tim_ho_wan",
+   "cat": "food",
+   "name": "Tim Ho Wan",
+   "icon": "🥟",
+   "lat": 22.33028,
+   "lng": 114.1625,
+   "desc": "Dim sum con estrella Michelin a precio popular."
+  },
+  {
+   "id": "w_hkg_australia_dairy",
+   "cat": "food",
+   "name": "Australia Dairy Company",
+   "icon": "🍳",
+   "lat": 22.305,
+   "lng": 114.17111,
+   "desc": "Café clásico famoso por huevos y pudín de leche."
+  },
+  {
+   "id": "w_hkg_maks_noodle",
+   "cat": "food",
+   "name": "Mak's Noodle",
+   "icon": "🍜",
+   "lat": 22.2825,
+   "lng": 114.15472,
+   "desc": "Fideos wonton finos en caldo de gambas."
+  },
+  {
+   "id": "w_hkg_kam_wah",
+   "cat": "food",
+   "name": "Kam Wah Cafe",
+   "icon": "🍞",
+   "lat": 22.32444,
+   "lng": 114.16833,
+   "desc": "El mejor bollo de piña con té con leche."
+  },
+  {
+   "id": "w_hkg_yung_kee",
+   "cat": "food",
+   "name": "Yung Kee Restaurant",
+   "icon": "🦆",
+   "lat": 22.28083,
+   "lng": 114.15556,
+   "desc": "Legendario ganso asado en el centro de Central."
+  },
+  {
+   "id": "w_hkg_lei_yue_mun",
+   "cat": "food",
+   "name": "Lei Yue Mun (aldea de marisco)",
+   "icon": "🦐",
+   "lat": 22.29278,
+   "lng": 114.23694,
+   "desc": "Aldea pesquera donde eliges y cocinan tu marisco."
+  }
+ ],
+ "extra": {
+  "w_hkg_wong_tai_sin": {
+   "id": "w_hkg_wong_tai_sin",
+   "d": "Uno de los templos más animados de Hong Kong, dedicado al monje Wong Tai Sin. Los fieles agitan palillos de la fortuna (kau cim) para conocer su suerte y queman incienso entre pabellones rojos y dorados. Está rodeado de puestos de adivinos y un jardín de estilo chino clásico.",
+   "d_en": "One of Hong Kong's liveliest temples, dedicated to the monk Wong Tai Sin. Worshippers shake fortune sticks (kau cim) to read their luck and burn incense among red-and-gold pavilions. It is surrounded by fortune-tellers' stalls and a classical Chinese garden.",
+   "h": "Abierto a diario, aprox. 8:00–17:00; entrada gratuita, donativo opcional.",
+   "h_en": "Open daily, about 8am–5pm; free entry, optional donation.",
+   "i": "Ve por la mañana temprano y prueba a agitar los palillos de la fortuna.",
+   "i_en": "Go early morning and try shaking the fortune sticks."
+  },
+  "w_hkg_man_mo": {
+   "id": "w_hkg_man_mo",
+   "d": "Levantado hacia 1847 en Hollywood Road, este templo honra al dios de la literatura (Man) y al de la guerra (Mo). Su interior queda envuelto en el humo de enormes espirales de incienso que cuelgan del techo, creando una atmósfera única en pleno barrio de anticuarios de Sheung Wan.",
+   "d_en": "Built around 1847 on Hollywood Road, this temple honours the gods of literature (Man) and war (Mo). Its interior is wreathed in smoke from huge hanging incense coils, creating a unique atmosphere in the heart of the Sheung Wan antiques district.",
+   "h": "Abierto a diario, aprox. 8:00–18:00; entrada gratuita.",
+   "h_en": "Open daily, about 8am–6pm; free entry.",
+   "i": "Combínalo con un paseo por las galerías y anticuarios de Hollywood Road.",
+   "i_en": "Combine it with a stroll through Hollywood Road's galleries and antique shops."
+  },
+  "w_hkg_big_buddha": {
+   "id": "w_hkg_big_buddha",
+   "d": "El Buda Tian Tan, de 34 metros y 250 toneladas de bronce, se alza sobre 268 escalones en la isla de Lantau. Desde la plataforma hay vistas espectaculares de las montañas y el mar. Se llega en el teleférico Ngong Ping 360, que sobrevuela el bosque y la bahía, junto al poblado temático de Ngong Ping.",
+   "d_en": "The Tian Tan Buddha, 34 metres tall and 250 tonnes of bronze, sits atop 268 steps on Lantau Island. The platform offers spectacular views of mountains and sea. It is reached by the Ngong Ping 360 cable car, gliding over forest and bay, beside the Ngong Ping themed village.",
+   "h": "Buda accesible aprox. 10:00–17:30; teleférico con horario variable, cerrado algunos martes.",
+   "h_en": "Buddha open about 10am–5:30pm; cable car hours vary, closed some Tuesdays.",
+   "i": "Reserva el teleférico online y ve temprano para evitar las colas.",
+   "i_en": "Book the cable car online and go early to avoid the queues."
+  },
+  "w_hkg_po_lin": {
+   "id": "w_hkg_po_lin",
+   "d": "Fundado en 1906, es el corazón espiritual de Lantau y el complejo budista más importante de Hong Kong. Sus salones ricamente decorados, el humo del incienso y el imponente Salón de los Diez Mil Budas lo convierten en un lugar de gran recogimiento. Su restaurante vegetariano es muy conocido.",
+   "d_en": "Founded in 1906, it is Lantau's spiritual heart and Hong Kong's most important Buddhist complex. Its richly decorated halls, drifting incense and the grand Hall of Ten Thousand Buddhas make it a place of deep reverence. Its vegetarian restaurant is well known.",
+   "h": "Abierto a diario, aprox. 8:00–18:00; entrada gratuita al recinto.",
+   "h_en": "Open daily, about 8am–6pm; free entry to the grounds.",
+   "i": "Prueba el menú vegetariano de los monjes junto al monasterio.",
+   "i_en": "Try the monks' vegetarian meal beside the monastery."
+  },
+  "w_hkg_clock_tower": {
+   "id": "w_hkg_clock_tower",
+   "d": "Esta torre de ladrillo y granito de 44 metros, terminada en 1915, es lo único que queda de la antigua terminal del Ferrocarril Kowloon-Cantón. Marca la entrada al paseo marítimo de Tsim Sha Tsui y es un punto de encuentro clásico, junto al Centro Cultural y el embarcadero del Star Ferry.",
+   "d_en": "This 44-metre brick-and-granite tower, completed in 1915, is all that remains of the old Kowloon-Canton Railway terminus. It marks the entrance to the Tsim Sha Tsui waterfront and is a classic meeting point, beside the Cultural Centre and the Star Ferry pier.",
+   "h": "Exterior visible las 24 horas; iluminada de noche.",
+   "h_en": "Exterior visible 24 hours; floodlit at night.",
+   "i": "Buen inicio para el paseo por la Avenida de las Estrellas hacia el este.",
+   "i_en": "A good start for the eastward walk along the Avenue of Stars."
+  },
+  "w_hkg_chi_lin": {
+   "id": "w_hkg_chi_lin",
+   "d": "Reconstruido en los años 90 según la arquitectura de la dinastía Tang, este sereno convento budista está hecho de cedro ensamblado sin clavos. Sus patios con estanques de lotos, bonsáis y salones dorados contrastan con los rascacielos que lo rodean. Se une por un puente al vecino Jardín Nan Lian.",
+   "d_en": "Rebuilt in the 1990s in Tang-dynasty style, this serene Buddhist nunnery is made of cypress joined without nails. Its courtyards with lotus ponds, bonsai and gilded halls contrast with the surrounding towers. A bridge links it to the neighbouring Nan Lian Garden.",
+   "h": "Convento aprox. 9:00–16:30; jardines desde las 7:00; entrada gratuita.",
+   "h_en": "Nunnery about 9am–4:30pm; gardens from 7am; free entry.",
+   "i": "Visítalo junto al Jardín Nan Lian: están conectados a pie.",
+   "i_en": "Visit it together with Nan Lian Garden: they are linked on foot."
+  },
+  "w_hkg_ten_thousand_buddhas": {
+   "id": "w_hkg_ten_thousand_buddhas",
+   "d": "En Sha Tin, un camino de unos 430 escalones asciende entre cientos de estatuas doradas de Budas, cada una con un gesto distinto, hasta un complejo con pagoda de nueve pisos y más de 13.000 imágenes. No es un monasterio en activo, sino un santuario pintoresco muy fotografiado.",
+   "d_en": "In Sha Tin, a path of some 430 steps climbs between hundreds of golden Buddha statues, each with a different pose, to a complex with a nine-storey pagoda and over 13,000 images. It is not a working monastery but a picturesque, much-photographed shrine.",
+   "h": "Abierto a diario, aprox. 9:00–17:00; entrada gratuita.",
+   "h_en": "Open daily, about 9am–5pm; free entry.",
+   "i": "Lleva calzado cómodo; la subida por las escaleras es exigente con calor.",
+   "i_en": "Wear comfy shoes; the stair climb is demanding in the heat."
+  },
+  "w_hkg_st_john": {
+   "id": "w_hkg_st_john",
+   "d": "Consagrada en 1849 en pleno corazón de Central, esta catedral de estilo gótico victoriano es uno de los edificios coloniales más antiguos que quedan en pie en Hong Kong. Su interior tranquilo, con vidrieras y madera, ofrece un refugio inesperado entre los rascacielos del distrito financiero.",
+   "d_en": "Consecrated in 1849 in the heart of Central, this Victorian Gothic cathedral is one of the oldest surviving colonial buildings in Hong Kong. Its calm interior of stained glass and timber offers an unexpected refuge among the financial district's towers.",
+   "h": "Abierta a diario, aprox. 7:00–18:00; entrada gratuita.",
+   "h_en": "Open daily, about 7am–6pm; free entry.",
+   "i": "Está a pocos pasos del Peak Tram y del parque de Hong Kong.",
+   "i_en": "It's a short walk from the Peak Tram and Hong Kong Park."
+  },
+  "w_hkg_bank_china": {
+   "id": "w_hkg_bank_china",
+   "d": "Terminada en 1990, esta torre de 367 metros diseñada por I. M. Pei transformó el skyline con su silueta de prismas triangulares inspirada en el bambú que crece. Fue el edificio más alto de Asia en su día y sigue siendo uno de los símbolos arquitectónicos de Hong Kong.",
+   "d_en": "Completed in 1990, this 367-metre tower by I. M. Pei transformed the skyline with its silhouette of triangular prisms inspired by growing bamboo. It was Asia's tallest building in its day and remains one of Hong Kong's architectural symbols.",
+   "h": "Vestíbulo público accesible en horario de oficina; mejor apreciarla desde fuera.",
+   "h_en": "Public lobby open in office hours; best appreciated from outside.",
+   "i": "Fotografíala de noche desde la plaza junto al parque de Hong Kong.",
+   "i_en": "Photograph it at night from the plaza beside Hong Kong Park."
+  },
+  "w_hkg_museum_history": {
+   "id": "w_hkg_museum_history",
+   "d": "Su exposición estrella, 'La historia de Hong Kong', recrea con maquetas a tamaño real la vida desde la prehistoria y las aldeas de pescadores hasta la época colonial y la devolución a China en 1997. Es la mejor introducción para entender la identidad de la ciudad.",
+   "d_en": "Its flagship exhibition, 'The Hong Kong Story', recreates life with full-scale sets from prehistory and fishing villages to the colonial era and the 1997 handover to China. It is the best introduction to understanding the city's identity.",
+   "h": "Cerrado los martes; suele abrir 10:00–18:00; entrada gratuita a la colección permanente.",
+   "h_en": "Closed Tuesdays; usually open 10am–6pm; free entry to the permanent collection.",
+   "i": "Reserva un par de horas; algunas galerías pueden estar en renovación.",
+   "i_en": "Allow a couple of hours; some galleries may be under renovation."
+  },
+  "w_hkg_tin_hau": {
+   "id": "w_hkg_tin_hau",
+   "d": "Este conjunto de templos del siglo XIX está dedicado a Tin Hau, protectora de los pescadores, y a otras deidades. Rodeado de ancianos jugando al ajedrez chino y del mercado de jade, conserva un ambiente de barrio tradicional en pleno Kowloon, a un paso de Temple Street.",
+   "d_en": "This 19th-century cluster of temples is dedicated to Tin Hau, protector of fishermen, and other deities. Ringed by elderly men playing Chinese chess and the jade market, it keeps a traditional neighbourhood feel in the heart of Kowloon, steps from Temple Street.",
+   "h": "Abierto a diario, aprox. 8:00–17:00; entrada gratuita.",
+   "h_en": "Open daily, about 8am–5pm; free entry.",
+   "i": "Pásate antes por el mercado de jade contiguo, abierto de día.",
+   "i_en": "Drop by the adjacent daytime jade market first."
+  },
+  "w_hkg_tai_kwun": {
+   "id": "w_hkg_tai_kwun",
+   "d": "Este complejo patrimonial reúne la antigua Comisaría Central de Policía, la Magistratura y la prisión Victoria, restauradas y reabiertas en 2018. Hoy alberga galerías de arte, patios históricos, tiendas y restaurantes, combinando arquitectura colonial con exposiciones contemporáneas en pleno Central.",
+   "d_en": "This heritage complex brings together the former Central Police Station, Magistracy and Victoria Prison, restored and reopened in 2018. Today it houses art galleries, historic courtyards, shops and restaurants, blending colonial architecture with contemporary exhibitions in the heart of Central.",
+   "h": "Recinto abierto a diario aprox. 10:00–23:00; entrada gratuita.",
+   "h_en": "Grounds open daily about 10am–11pm; free entry.",
+   "i": "Sube por las Escaleras Mecánicas Mid-Levels para llegar caminando.",
+   "i_en": "Ride the Mid-Levels Escalator to reach it on foot."
+  },
+  "w_hkg_central": {
+   "id": "w_hkg_central",
+   "d": "El distrito de Central concentra los grandes rascacielos, la Plaza de las Estatuas, los tranvías de dos pisos y las Escaleras Mecánicas Mid-Levels, las más largas del mundo. Es el pulso económico de Hong Kong y un fascinante contraste entre torres de cristal, templos y callejuelas con puestos de comida.",
+   "d_en": "The Central district packs in the great skyscrapers, Statue Square, double-decker trams and the Mid-Levels Escalator, the world's longest. It is Hong Kong's economic pulse and a fascinating contrast of glass towers, temples and lanes full of food stalls.",
+   "h": "Zona abierta las 24 horas; tiendas y oficinas en horario comercial.",
+   "h_en": "Area open 24 hours; shops and offices during business hours.",
+   "i": "Recórrelo en tranvía 'ding ding' por menos de 1,5 € el trayecto.",
+   "i_en": "Explore it by 'ding ding' tram for under 1.5 EUR a ride."
+  },
+  "w_hkg_icc_sky100": {
+   "id": "w_hkg_icc_sky100",
+   "d": "El International Commerce Centre, de 484 metros, es el edificio más alto de Hong Kong. En su planta 100 se encuentra Sky100, un mirador cerrado con vistas de 360 grados sobre el puerto Victoria, la isla de Hong Kong y Kowloon, especialmente espectaculares al anochecer con la ciudad iluminada.",
+   "d_en": "The International Commerce Centre, 484 metres tall, is Hong Kong's tallest building. On its 100th floor sits Sky100, an indoor observation deck with 360-degree views over Victoria Harbour, Hong Kong Island and Kowloon, especially spectacular at dusk with the city lit up.",
+   "h": "Sky100 suele abrir aprox. 10:00–21:00; entrada de pago, mejor comprar online.",
+   "h_en": "Sky100 usually opens about 10am–9pm; paid entry, best booked online.",
+   "i": "Sube al atardecer para ver de día y de noche en una sola visita.",
+   "i_en": "Go at sunset to catch both day and night views in one visit."
+  },
+  "w_hkg_victoria_peak": {
+   "id": "w_hkg_victoria_peak",
+   "d": "La cima más emblemática de Hong Kong ofrece la vista clásica de los rascacielos, el puerto Victoria y Kowloon al fondo. Se sube en el histórico Peak Tram, un funicular de 1888, hasta la Peak Tower y su Sky Terrace 428. El sendero circular del Peak permite un paseo tranquilo entre vegetación.",
+   "d_en": "Hong Kong's most iconic summit offers the classic view of the skyscrapers, Victoria Harbour and Kowloon beyond. You ride up on the historic Peak Tram, an 1888 funicular, to the Peak Tower and its Sky Terrace 428. The Peak's loop trail makes for a peaceful walk amid greenery.",
+   "h": "Peak Tram y miradores hasta tarde; sube al atardecer para día y noche.",
+   "h_en": "Peak Tram and viewpoints open until late; go at dusk for day and night.",
+   "i": "Compra el billete del tranvía online para evitar largas colas.",
+   "i_en": "Buy the tram ticket online to skip the long queues."
+  },
+  "w_hkg_hong_kong_park": {
+   "id": "w_hkg_hong_kong_park",
+   "d": "En pleno distrito financiero, este parque combina estanques, cascadas y un enorme aviario de malla donde vuelan libres cientos de aves tropicales. Alberga también un invernadero y el Museo del Té, todo rodeado por los rascacielos, lo que ofrece un contraste muy fotogénico entre naturaleza y ciudad.",
+   "d_en": "In the middle of the financial district, this park blends ponds, waterfalls and a huge walk-in aviary where hundreds of tropical birds fly free. It also holds a conservatory and the Tea Museum, all framed by skyscrapers, making a very photogenic contrast of nature and city.",
+   "h": "Abierto a diario, aprox. 6:00–23:00; entrada gratuita.",
+   "h_en": "Open daily, about 6am–11pm; free entry.",
+   "i": "No te pierdas el aviario Edward Youde y las vistas desde la torre-mirador.",
+   "i_en": "Don't miss the Edward Youde Aviary and the views from the lookout tower."
+  },
+  "w_hkg_kowloon_park": {
+   "id": "w_hkg_kowloon_park",
+   "d": "Este gran parque en Tsim Sha Tsui ofrece un respiro entre las calles comerciales de Nathan Road. Tiene jardines chinos, un estanque con flamencos, un laberinto de setos, piscinas y esculturas al aire libre. Los domingos por la mañana acoge sesiones de kung fu abiertas al público.",
+   "d_en": "This large park in Tsim Sha Tsui offers a breather from the shopping streets of Nathan Road. It has Chinese gardens, a flamingo pond, a hedge maze, swimming pools and outdoor sculptures. On Sunday mornings it hosts kung fu sessions open to the public.",
+   "h": "Abierto a diario, aprox. 5:00–24:00; entrada gratuita.",
+   "h_en": "Open daily, about 5am–midnight; free entry.",
+   "i": "Pasa a media tarde, cuando baja el calor y el parque se anima.",
+   "i_en": "Visit in the late afternoon, when it cools down and the park livens up."
+  },
+  "w_hkg_dragons_back": {
+   "id": "w_hkg_dragons_back",
+   "d": "Considerada una de las mejores rutas urbanas de Asia, esta cresta ondulada en el sureste de la isla de Hong Kong regala vistas de playas, bahías y el mar de China Meridional. El sendero, de dificultad media, desciende hasta la playa de Big Wave Bay, ideal para refrescarse al final.",
+   "d_en": "Rated one of Asia's best urban hikes, this undulating ridge in the southeast of Hong Kong Island rewards you with views of beaches, bays and the South China Sea. The moderate trail drops down to Big Wave Bay beach, perfect for a cooling dip at the end.",
+   "h": "Sendero abierto todo el día; camina temprano para evitar el calor.",
+   "h_en": "Trail open all day; hike early to avoid the heat.",
+   "i": "Lleva agua y protección solar; hay poca sombra en la cresta.",
+   "i_en": "Bring water and sun protection; there's little shade on the ridge."
+  },
+  "w_hkg_repulse_bay": {
+   "id": "w_hkg_repulse_bay",
+   "d": "La playa más popular de la costa sur, de arena dorada y aguas tranquilas, es un clásico escape veraniego. En su extremo se alza el templo Kwun Yam, con coloridas estatuas de dioses, el puente de la Longevidad y vistas al mar. Alrededor hay restaurantes y el llamativo edificio residencial con un hueco central.",
+   "d_en": "The most popular beach on the south coast, with golden sand and calm waters, is a classic summer escape. At one end stands the Kwun Yam shrine, with colourful statues of deities, the Longevity Bridge and sea views. Around it are restaurants and the striking apartment block with a hole in its centre.",
+   "h": "Playa abierta todo el año; socorristas en temporada de baño.",
+   "h_en": "Beach open year-round; lifeguards during the swimming season.",
+   "i": "Combínala con Stanley: están en la misma línea de autobús costera.",
+   "i_en": "Combine it with Stanley: they share the same coastal bus route."
+  },
+  "w_hkg_nan_lian": {
+   "id": "w_hkg_nan_lian",
+   "d": "Este jardín público inspirado en la dinastía Tang es una obra de precisión: estanques con carpas, rocas escogidas, pinos moldeados y un pabellón dorado sobre el agua. Diseñado según principios de armonía clásica china, ofrece un remanso de calma junto al convento Chi Lin, entre los edificios de Diamond Hill.",
+   "d_en": "This public garden inspired by the Tang dynasty is a work of precision: carp ponds, hand-picked rocks, shaped pines and a golden pavilion over the water. Designed on classical Chinese principles of harmony, it is a haven of calm beside Chi Lin Nunnery, among the towers of Diamond Hill.",
+   "h": "Abierto a diario, aprox. 7:00–21:00; entrada gratuita.",
+   "h_en": "Open daily, about 7am–9pm; free entry.",
+   "i": "Cruza el puente hasta el convento Chi Lin; forman un solo paseo.",
+   "i_en": "Cross the bridge to Chi Lin Nunnery; they form one walk."
+  },
+  "w_hkg_victoria_harbour": {
+   "id": "w_hkg_victoria_harbour",
+   "d": "El puerto Victoria, uno de los más espectaculares del mundo, separa la isla de Hong Kong de Kowloon y ofrece la mejor postal de la ciudad. Cada noche a las 20:00 la Sinfonía de Luces coordina láseres y focos de decenas de rascacielos al ritmo de la música, visible desde el paseo de Tsim Sha Tsui.",
+   "d_en": "Victoria Harbour, one of the world's most spectacular, separates Hong Kong Island from Kowloon and gives the city's finest postcard. Each night at 8pm the Symphony of Lights coordinates lasers and beams from dozens of skyscrapers to music, best seen from the Tsim Sha Tsui promenade.",
+   "h": "Sinfonía de Luces todas las noches a las 20:00, unos 10 minutos.",
+   "h_en": "Symphony of Lights nightly at 8pm, about 10 minutes.",
+   "i": "Colócate en el paseo de Tsim Sha Tsui hacia las 19:45 para buen sitio.",
+   "i_en": "Get to the Tsim Sha Tsui promenade by 7:45pm for a good spot."
+  },
+  "w_hkg_star_ferry": {
+   "id": "w_hkg_star_ferry",
+   "d": "En funcionamiento desde 1888, el Star Ferry une Tsim Sha Tsui con Central y Wan Chai en una travesía de unos diez minutos. Sus barcos verdes y blancos ofrecen una de las mejores vistas del skyline por un precio simbólico, y siguen siendo un medio de transporte cotidiano además de una atracción.",
+   "d_en": "Running since 1888, the Star Ferry links Tsim Sha Tsui with Central and Wan Chai in a crossing of about ten minutes. Its green-and-white boats give one of the best skyline views for a token fare, and remain an everyday means of transport as well as an attraction.",
+   "h": "Servicio frecuente aprox. 6:30–23:30; billete muy económico.",
+   "h_en": "Frequent service about 6:30am–11:30pm; very cheap fare.",
+   "i": "Viaja en la cubierta inferior al atardecer para las mejores fotos.",
+   "i_en": "Ride the lower deck at sunset for the best photos."
+  },
+  "w_hkg_disneyland": {
+   "id": "w_hkg_disneyland",
+   "d": "El parque Disney de Hong Kong, inaugurado en 2005, combina las zonas clásicas como Fantasyland y Adventureland con áreas propias dedicadas a los superhéroes de Marvel y al mundo de Frozen. Su castillo renovado, los desfiles y los fuegos artificiales nocturnos lo hacen ideal para familias.",
+   "d_en": "Hong Kong's Disney park, opened in 2005, mixes classic lands like Fantasyland and Adventureland with its own areas devoted to Marvel superheroes and the world of Frozen. Its revamped castle, parades and nightly fireworks make it ideal for families.",
+   "h": "Suele abrir aprox. 10:30–20:30; horario variable, mejor consultar online.",
+   "h_en": "Usually open about 10:30am–8:30pm; hours vary, best checked online.",
+   "i": "Compra la entrada con fecha online y llega a la apertura.",
+   "i_en": "Buy a dated ticket online and arrive at opening."
+  },
+  "w_hkg_ocean_park": {
+   "id": "w_hkg_ocean_park",
+   "d": "Este veterano parque de la costa sur combina montañas rusas, un gran acuario, pandas gigantes y un teleférico panorámico entre dos colinas con vistas al mar. Repartido en dos zonas unidas por funicular y cable, mezcla emoción, animales y espectáculos, y es una alternativa muy local a Disneyland.",
+   "d_en": "This long-standing park on the south coast combines roller coasters, a huge aquarium, giant pandas and a scenic cable car strung between two hills over the sea. Spread across two areas linked by funicular and cableway, it blends thrills, animals and shows, a very local alternative to Disneyland.",
+   "h": "Suele abrir aprox. 10:00–18:00; horario variable, mejor consultar online.",
+   "h_en": "Usually open about 10am–6pm; hours vary, best checked online.",
+   "i": "El teleférico ofrece vistas espectaculares; llévalo con buen tiempo.",
+   "i_en": "The cable car offers spectacular views; ride it on a clear day."
+  },
+  "w_hkg_temple_street": {
+   "id": "w_hkg_temple_street",
+   "d": "Al caer la noche, Temple Street se llena de puestos de ropa, electrónica, souvenirs y baratijas, junto a videntes, cantantes de ópera cantonesa y puestos de dai pai dong donde probar cangrejo, ostras y fideos. Es el mercado nocturno más famoso de la ciudad y un clásico ambiente de Kowloon.",
+   "d_en": "As night falls, Temple Street fills with stalls of clothes, electronics, souvenirs and trinkets, alongside fortune-tellers, Cantonese opera singers and dai pai dong stalls serving crab, oysters and noodles. It is the city's most famous night market and a classic slice of Kowloon.",
+   "h": "Mejor ambiente aprox. 18:00–24:00; los puestos abren al anochecer.",
+   "h_en": "Liveliest about 6pm–midnight; stalls open at dusk.",
+   "i": "Regatea el precio y cena en un puesto de marisco al estilo local.",
+   "i_en": "Haggle over prices and dine at a local-style seafood stall."
+  },
+  "w_hkg_mong_kok": {
+   "id": "w_hkg_mong_kok",
+   "d": "Uno de los barrios más densamente poblados del mundo, Mong Kok es un torrente de neones, tiendas y gentío. Aquí están el Ladies' Market, con ropa y souvenirs a regatear, la calle de las flores, el mercado de pájaros y la Sneaker Street. Es la esencia del Hong Kong más callejero y frenético.",
+   "d_en": "One of the world's most densely populated districts, Mong Kok is a torrent of neon, shops and crowds. Here you'll find the Ladies' Market, with clothes and souvenirs to haggle over, the flower street, the bird market and Sneaker Street. It's the essence of the most frenetic, street-level Hong Kong.",
+   "h": "Ladies' Market aprox. 12:00–23:30; más animado a partir de la tarde.",
+   "h_en": "Ladies' Market about noon–11:30pm; busiest from the afternoon.",
+   "i": "Ve de noche para ver los neones y aprovecha para cenar comida callejera.",
+   "i_en": "Go at night for the neon lights and grab some street food for dinner."
+  },
+  "w_hkg_stanley": {
+   "id": "w_hkg_stanley",
+   "d": "En la punta sur de la isla, Stanley conserva un aire de pueblo relajado con su mercado de ropa, souvenirs y arte, un agradable paseo marítimo lleno de restaurantes y el histórico Murray House trasladado piedra a piedra. Sus playas y el templo Tin Hau completan una escapada muy distinta al bullicio urbano.",
+   "d_en": "On the island's southern tip, Stanley keeps a laid-back village air with its market of clothes, souvenirs and art, a pleasant waterfront lined with restaurants and the historic Murray House moved stone by stone. Its beaches and Tin Hau temple round off an escape quite unlike the urban bustle.",
+   "h": "Mercado abierto a diario, aprox. 10:00–19:00; restaurantes hasta tarde.",
+   "h_en": "Market open daily, about 10am–7pm; restaurants until late.",
+   "i": "Llega en el autobús 6 o 6X desde Central por la carretera costera.",
+   "i_en": "Take bus 6 or 6X from Central along the coastal road."
+  },
+  "w_hkg_avenue_stars": {
+   "id": "w_hkg_avenue_stars",
+   "d": "Inspirada en el Paseo de la Fama de Hollywood, esta avenida junto al puerto de Tsim Sha Tsui homenajea a las estrellas del cine de Hong Kong con placas, huellas de manos y una estatua de Bruce Lee. Ofrece la vista frontal del skyline de la isla y es el mejor lugar para ver la Sinfonía de Luces.",
+   "d_en": "Inspired by Hollywood's Walk of Fame, this promenade beside the Tsim Sha Tsui waterfront honours Hong Kong's film stars with plaques, handprints and a Bruce Lee statue. It offers the head-on view of the island skyline and is the best spot to watch the Symphony of Lights.",
+   "h": "Paseo abierto las 24 horas; iluminado de noche.",
+   "h_en": "Promenade open 24 hours; lit up at night.",
+   "i": "Fotografíate con la estatua de Bruce Lee y espera al show de las 20:00.",
+   "i_en": "Pose with the Bruce Lee statue and wait for the 8pm show."
+  },
+  "w_hkg_tim_ho_wan": {
+   "id": "w_hkg_tim_ho_wan",
+   "d": "Nacido como un pequeño local que logró una estrella Michelin, Tim Ho Wan hizo famoso el dim sum asequible. Su plato estrella son los bollos de cerdo char siu con corteza dulce y crujiente, junto a rollitos de gamba y albóndigas al vapor. Hoy tiene varias sucursales por toda la ciudad.",
+   "d_en": "Born as a tiny shop that earned a Michelin star, Tim Ho Wan made affordable dim sum famous. Its signature dish is the baked char siu pork buns with a sweet, crisp crust, alongside prawn rolls and steamed dumplings. It now has several branches across the city.",
+   "h": "Suele haber cola; ve fuera de las horas punta de comida.",
+   "h_en": "Expect a queue; go outside peak meal times.",
+   "i": "No te vayas sin probar los bollos de cerdo char siu al horno.",
+   "i_en": "Don't leave without trying the baked char siu pork buns."
+  },
+  "w_hkg_australia_dairy": {
+   "id": "w_hkg_australia_dairy",
+   "d": "Esta institución de Jordan es el arquetipo del cha chaan teng hongkonés: rápido, ruidoso y siempre lleno. Es célebre por sus huevos revueltos increíblemente cremosos con tostada, sus macarrones en sopa y el suave pudín de leche cocida al vapor. El servicio es legendariamente veloz y directo.",
+   "d_en": "This Jordan institution is the archetypal Hong Kong cha chaan teng: fast, noisy and always packed. It's famous for its impossibly creamy scrambled eggs with toast, macaroni in soup and silky steamed milk pudding. The service is legendarily swift and blunt.",
+   "h": "Cierra los miércoles; suele haber cola a las horas de desayuno.",
+   "h_en": "Closed Wednesdays; expect a queue at breakfast times.",
+   "i": "Pide los huevos revueltos con tostada y el pudín de leche caliente.",
+   "i_en": "Order the scrambled eggs with toast and the warm milk pudding."
+  },
+  "w_hkg_maks_noodle": {
+   "id": "w_hkg_maks_noodle",
+   "d": "Un clásico de Central desde hace décadas, célebre por sus wontons de gamba envueltos en masa fina y servidos con fideos al huevo en un caldo aromático. Las raciones son pequeñas y refinadas, siguiendo la tradición de la auténtica sopa de wonton cantonesa, muy apreciada por los locales.",
+   "d_en": "A Central classic for decades, celebrated for its prawn wontons wrapped in thin dough and served with egg noodles in an aromatic broth. Portions are small and refined, following the tradition of authentic Cantonese wonton soup, much loved by locals.",
+   "h": "Las raciones son pequeñas; pide un par de platos para saciarte.",
+   "h_en": "Portions are small; order a couple of dishes to fill up.",
+   "i": "Prueba también los fideos con salsa de gambas y jengibre en vinagre.",
+   "i_en": "Also try the noodles with prawn sauce and ginger in vinegar."
+  },
+  "w_hkg_kam_wah": {
+   "id": "w_hkg_kam_wah",
+   "d": "Este veterano café de Prince Edward es una parada de peregrinación para probar el bo lo bao o bollo de piña, servido caliente con una gruesa loncha de mantequilla dentro. Se acompaña del clásico té con leche estilo hongkonés y de tartaletas de huevo, en un ambiente auténtico de barrio.",
+   "d_en": "This veteran Prince Edward cafe is a pilgrimage stop for the bo lo bao, or pineapple bun, served warm with a thick slab of butter inside. It's paired with the classic Hong Kong-style milk tea and egg tarts, in an authentic neighbourhood setting.",
+   "h": "Muy concurrido a media mañana; hay servicio para llevar.",
+   "h_en": "Very busy mid-morning; takeaway available.",
+   "i": "Pide el bollo de piña con mantequilla recién hecho y un té con leche.",
+   "i_en": "Order the freshly made buttered pineapple bun with a milk tea."
+  },
+  "w_hkg_yung_kee": {
+   "id": "w_hkg_yung_kee",
+   "d": "Abierto desde 1942, este gran restaurante cantonés es toda una institución famosa por su ganso asado de piel crujiente y carne jugosa. También sirve dim sum, huevos centenarios y otros clásicos de la cocina cantonesa en varias plantas de decoración clásica, muy popular entre familias y visitantes.",
+   "d_en": "Open since 1942, this large Cantonese restaurant is an institution famous for its roast goose with crisp skin and juicy meat. It also serves dim sum, century eggs and other Cantonese classics across several classically decorated floors, popular with families and visitors alike.",
+   "h": "Mejor reservar en fin de semana; el ganso puede agotarse pronto.",
+   "h_en": "Best to book at weekends; the goose can sell out early.",
+   "i": "Pide el ganso asado con ciruela y los huevos centenarios de aperitivo.",
+   "i_en": "Order the roast goose with plum sauce and century eggs to start."
+  },
+  "w_hkg_lei_yue_mun": {
+   "id": "w_hkg_lei_yue_mun",
+   "d": "En esta antigua aldea pesquera del este de Kowloon, junto al estrecho, se alinean pescaderías con tanques de marisco vivo. Eliges gambas, cangrejo, vieiras o pescado y un restaurante cercano te lo cocina al gusto, al vapor o con ajo. El ambiente marinero y las vistas al mar completan la experiencia.",
+   "d_en": "In this old fishing village in eastern Kowloon, by the strait, seafood shops line up with tanks of live catch. You pick prawns, crab, scallops or fish and a nearby restaurant cooks it to order, steamed or with garlic. The seafaring atmosphere and sea views complete the experience.",
+   "h": "Mejor al atardecer o de noche; confirma precios antes de encargar.",
+   "h_en": "Best at dusk or at night; confirm prices before ordering.",
+   "i": "Acuerda el precio por peso antes de que cocinen el marisco.",
+   "i_en": "Agree the price by weight before they cook the seafood."
+  }
+ },
+ "food": {
+  "w_hkg_tim_ho_wan": {
+   "cuisine": "Dim sum cantonés",
+   "price": "10–20 €",
+   "hours": "Todos los días 10:00–21:30"
+  },
+  "w_hkg_australia_dairy": {
+   "cuisine": "Cha chaan teng (café hongkonés)",
+   "price": "6–12 €",
+   "hours": "Jue–Ma 7:30–23:00 (cierra miércoles)"
+  },
+  "w_hkg_maks_noodle": {
+   "cuisine": "Fideos wonton",
+   "price": "8–15 €",
+   "hours": "Todos los días 11:00–20:00"
+  },
+  "w_hkg_kam_wah": {
+   "cuisine": "Panadería cha chaan teng",
+   "price": "5–10 €",
+   "hours": "Todos los días 6:30–23:30"
+  },
+  "w_hkg_yung_kee": {
+   "cuisine": "Cantonesa, ganso asado",
+   "price": "25–45 €",
+   "hours": "Todos los días 11:00–23:00"
+  },
+  "w_hkg_lei_yue_mun": {
+   "cuisine": "Marisco cantonés",
+   "price": "30–60 €",
+   "hours": "Todos los días 11:00–23:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Hong Kong",
+   "items": [
+    {
+     "name": "Bollo de piña (galletas)",
+     "price": "5–15 €",
+     "desc": "Cajas de crujientes galletas con forma de pineapple bun, el dulce más icónico de la ciudad."
+    },
+    {
+     "name": "Té oolong y pu-erh",
+     "price": "8–40 €",
+     "desc": "Tés chinos de calidad en latas decoradas, de las casas de té de Sheung Wan."
+    },
+    {
+     "name": "Amuleto de jade",
+     "price": "10–100 €",
+     "desc": "Colgantes y pulseras de jade verde comprados en el mercado de jade de Yau Ma Tei."
+    },
+    {
+     "name": "Sello chino personalizado",
+     "price": "15–60 €",
+     "desc": "Sello de piedra grabado con tu nombre en caracteres chinos, con su tinta bermellón."
+    },
+    {
+     "name": "Camiseta o imán del skyline",
+     "price": "5–20 €",
+     "desc": "Recuerdos del perfil de rascacielos y del tranvía de dos pisos, en los mercados callejeros."
+    },
+    {
+     "name": "Galletas de mantequilla Jenny Bakery",
+     "price": "12–25 €",
+     "desc": "Famosas latas con el oso; muy solicitadas como regalo comestible."
+    }
+   ],
+   "shops": [
+    "Ladies' Market (Mong Kok)",
+    "Temple Street Night Market",
+    "Stanley Market",
+    "Mercado de jade de Yau Ma Tei",
+    "Centros comerciales de Causeway Bay e IFC"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Compra una tarjeta Octopus nada más llegar: sirve para metro, autobuses, tranvía, Star Ferry y muchas tiendas.",
+   "El Star Ferry es la travesía con vistas más barata; cruza al atardecer para ver el skyline iluminarse.",
+   "A las 20:00 no te pierdas la Sinfonía de Luces sobre el puerto Victoria desde la Avenida de las Estrellas.",
+   "Ve pronto al Gran Buda de Lantau: el teleférico Ngong Ping 360 forma largas colas a media mañana.",
+   "Regatea con educación en los mercados callejeros, pero no en tiendas ni restaurantes con precio fijo."
+  ],
+  "en": [
+   "Buy an Octopus card on arrival: it works on the metro, buses, tram, Star Ferry and many shops.",
+   "The Star Ferry is the cheapest scenic crossing; ride it at dusk to watch the skyline light up.",
+   "At 8pm don't miss the Symphony of Lights over Victoria Harbour from the Avenue of Stars.",
+   "Go early to the Lantau Big Buddha: the Ngong Ping 360 cable car builds long queues by mid-morning.",
+   "Haggle politely at street markets, but never in fixed-price shops or restaurants."
+  ]
+ },
+ "climate": {
+  "hi": [
+   18,
+   18,
+   21,
+   25,
+   29,
+   31,
+   32,
+   32,
+   31,
+   28,
+   24,
+   20
+  ],
+  "lo": [
+   14,
+   15,
+   17,
+   21,
+   25,
+   27,
+   28,
+   28,
+   27,
+   24,
+   20,
+   15
+  ]
+ },
+ "tr": {
+  "Colorido templo taoísta famoso por conceder deseos.": "Colourful Taoist temple famed for granting wishes.",
+  "Histórico templo entre grandes espirales de incienso.": "Historic temple beneath giant incense coils.",
+  "Buda de bronce gigante en la montaña de Lantau.": "Giant bronze Buddha on Lantau's mountains.",
+  "Gran monasterio budista frente al Gran Buda.": "Grand Buddhist monastery facing the Big Buddha.",
+  "Torre eduardiana junto al puerto, reliquia ferroviaria.": "Edwardian clock tower by the harbour, a railway relic.",
+  "Convento de madera al estilo Tang, sin un solo clavo.": "Tang-style wooden nunnery built without a single nail.",
+  "Sendero cuesta arriba flanqueado por estatuas doradas.": "Uphill path lined with golden Buddha statues.",
+  "La iglesia anglicana más antigua del Lejano Oriente.": "The oldest Anglican church in the Far East.",
+  "Icónico rascacielos de vidrio diseñado por I. M. Pei.": "Iconic glass skyscraper designed by I. M. Pei.",
+  "Recorrido por la historia de Hong Kong hasta hoy.": "A journey through Hong Kong's history to today.",
+  "Templo a la diosa del mar junto al mercado de jade.": "Temple to the sea goddess by the jade market.",
+  "Antigua comisaría y prisión reconvertida en centro cultural.": "Former police station and prison turned arts hub.",
+  "Corazón financiero: rascacielos, plazas y tranvías.": "Financial heart: skyscrapers, squares and trams.",
+  "El rascacielos más alto, con mirador en la planta 100.": "The tallest skyscraper, with a 100th-floor observation deck.",
+  "El mirador más famoso sobre el skyline y el puerto.": "The most famous viewpoint over the skyline and harbour.",
+  "Oasis verde con aviario y cascadas en Central.": "Green oasis with an aviary and waterfalls in Central.",
+  "Amplio parque con flamencos en el corazón de Kowloon.": "Large park with flamingos in the heart of Kowloon.",
+  "Sendero panorámico sobre crestas con vistas al mar.": "Scenic ridge trail with sweeping sea views.",
+  "Playa de arena dorada con templo y estatuas.": "Golden-sand beach with a temple and statues.",
+  "Jardín clásico de estilo Tang, sereno y perfecto.": "Serene, immaculate classical Tang-style garden.",
+  "El puerto icónico y su espectáculo de luces nocturno.": "The iconic harbour and its nightly light show.",
+  "Ferri histórico que cruza el puerto Victoria.": "Historic ferry crossing Victoria Harbour.",
+  "Parque temático Disney en la isla de Lantau.": "Disney theme park on Lantau Island.",
+  "Parque de atracciones y acuario con teleférico.": "Amusement park and marine world with a cable car.",
+  "Bullicioso mercado nocturno de Kowloon.": "Bustling night market in Kowloon.",
+  "Barrio densísimo con mercados temáticos y neones.": "Ultra-dense district of themed markets and neon.",
+  "Pueblo costero con mercado y paseo marítimo.": "Coastal town with a market and seaside promenade.",
+  "Paseo marítimo dedicado al cine de Hong Kong.": "Waterfront promenade honouring Hong Kong cinema.",
+  "Dim sum con estrella Michelin a precio popular.": "Michelin-starred dim sum at popular prices.",
+  "Café clásico famoso por huevos y pudín de leche.": "Classic diner famed for eggs and steamed milk pudding.",
+  "Fideos wonton finos en caldo de gambas.": "Delicate wonton noodles in prawn broth.",
+  "El mejor bollo de piña con té con leche.": "The best pineapple bun with milk tea.",
+  "Legendario ganso asado en el centro de Central.": "Legendary roast goose in the heart of Central.",
+  "Aldea pesquera donde eliges y cocinan tu marisco.": "Fishing village where you pick and they cook your seafood.",
+  "Hong Kong": "Hong Kong"
+ }
+}

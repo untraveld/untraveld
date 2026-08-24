@@ -1,0 +1,760 @@
+{
+ "id": "berlin",
+ "name": "Berlín",
+ "country": "WORLD",
+ "center": [
+  52.51704,
+  13.38886
+ ],
+ "pois": [
+  {
+   "id": "w_ber_brandenburger_tor",
+   "cat": "monuments",
+   "name": "Puerta de Brandeburgo",
+   "icon": "🏛️",
+   "lat": 52.51627,
+   "lng": 13.3777,
+   "desc": "El arco neoclásico más famoso de Alemania y símbolo de la reunificación."
+  },
+  {
+   "id": "w_ber_reichstag",
+   "cat": "monuments",
+   "name": "Reichstag",
+   "icon": "🏛️",
+   "lat": 52.51861,
+   "lng": 13.37611,
+   "desc": "Sede del Parlamento alemán con su famosa cúpula de cristal de Norman Foster."
+  },
+  {
+   "id": "w_ber_east_side_gallery",
+   "cat": "monuments",
+   "name": "East Side Gallery",
+   "icon": "🎨",
+   "lat": 52.50536,
+   "lng": 13.43964,
+   "desc": "El tramo más largo conservado del Muro de Berlín, convertido en galería al aire libre."
+  },
+  {
+   "id": "w_ber_checkpoint_charlie",
+   "cat": "monuments",
+   "name": "Checkpoint Charlie",
+   "icon": "🚧",
+   "lat": 52.50745,
+   "lng": 13.39036,
+   "desc": "El paso fronterizo más famoso entre el Berlín Este y Oeste."
+  },
+  {
+   "id": "w_ber_holocaust_mahnmal",
+   "cat": "monuments",
+   "name": "Memorial del Holocausto",
+   "icon": "🕯️",
+   "lat": 52.51392,
+   "lng": 13.37891,
+   "desc": "Campo de 2.711 estelas de hormigón en memoria de los judíos asesinados de Europa."
+  },
+  {
+   "id": "w_ber_berliner_dom",
+   "cat": "monuments",
+   "name": "Catedral de Berlín",
+   "icon": "⛪",
+   "lat": 52.51895,
+   "lng": 13.40105,
+   "desc": "La imponente catedral protestante barroca junto a la Isla de los Museos."
+  },
+  {
+   "id": "w_ber_museumsinsel",
+   "cat": "monuments",
+   "name": "Isla de los Museos",
+   "icon": "🏛️",
+   "lat": 52.51687,
+   "lng": 13.40182,
+   "desc": "Conjunto de cinco museos de fama mundial, Patrimonio de la Humanidad."
+  },
+  {
+   "id": "w_ber_fernsehturm",
+   "cat": "monuments",
+   "name": "Torre de TV (Fernsehturm)",
+   "icon": "📡",
+   "lat": 52.52082,
+   "lng": 13.40941,
+   "desc": "La torre de televisión de 368 m, el edificio más alto de Alemania."
+  },
+  {
+   "id": "w_ber_gendarmenmarkt",
+   "cat": "monuments",
+   "name": "Gendarmenmarkt",
+   "icon": "🏛️",
+   "lat": 52.5137,
+   "lng": 13.3928,
+   "desc": "La plaza más elegante de Berlín, flanqueada por dos catedrales gemelas."
+  },
+  {
+   "id": "w_ber_schloss_charlottenburg",
+   "cat": "monuments",
+   "name": "Palacio de Charlottenburg",
+   "icon": "🏰",
+   "lat": 52.5208,
+   "lng": 13.2954,
+   "desc": "El mayor palacio barroco de Berlín con jardines a la francesa."
+  },
+  {
+   "id": "w_ber_siegessaule",
+   "cat": "monuments",
+   "name": "Columna de la Victoria",
+   "icon": "🗿",
+   "lat": 52.51447,
+   "lng": 13.35009,
+   "desc": "La dorada columna con la 'Goldelse' en el corazón del Tiergarten."
+  },
+  {
+   "id": "w_ber_gedaechtniskirche",
+   "cat": "monuments",
+   "name": "Iglesia Memorial Kaiser Wilhelm",
+   "icon": "⛪",
+   "lat": 52.5048,
+   "lng": 13.335,
+   "desc": "La iglesia con la torre en ruinas que recuerda los horrores de la guerra."
+  },
+  {
+   "id": "w_ber_topographie_terrors",
+   "cat": "monuments",
+   "name": "Topografía del Terror",
+   "icon": "🕯️",
+   "lat": 52.50662,
+   "lng": 13.38315,
+   "desc": "Centro de documentación sobre el terror nazi en el antiguo cuartel de la Gestapo."
+  },
+  {
+   "id": "w_ber_berliner_mauer_bernauer",
+   "cat": "monuments",
+   "name": "Memorial del Muro (Bernauer Str.)",
+   "icon": "🧱",
+   "lat": 52.5351,
+   "lng": 13.3896,
+   "desc": "El memorial oficial que conserva la 'franja de la muerte' del Muro."
+  },
+  {
+   "id": "w_ber_tiergarten",
+   "cat": "nature",
+   "name": "Tiergarten",
+   "icon": "🌳",
+   "lat": 52.51447,
+   "lng": 13.35088,
+   "desc": "El gran pulmón verde del centro, un parque histórico de 210 hectáreas."
+  },
+  {
+   "id": "w_ber_tempelhofer_feld",
+   "cat": "nature",
+   "name": "Tempelhofer Feld",
+   "icon": "🛫",
+   "lat": 52.4734,
+   "lng": 13.4017,
+   "desc": "El antiguo aeropuerto convertido en el mayor parque urbano de Berlín."
+  },
+  {
+   "id": "w_ber_treptower_park",
+   "cat": "nature",
+   "name": "Treptower Park",
+   "icon": "🌳",
+   "lat": 52.4887,
+   "lng": 13.4694,
+   "desc": "Amplio parque junto al Spree con el monumental memorial soviético."
+  },
+  {
+   "id": "w_ber_volkspark_friedrichshain",
+   "cat": "nature",
+   "name": "Volkspark Friedrichshain",
+   "icon": "⛲",
+   "lat": 52.5278,
+   "lng": 13.4335,
+   "desc": "El parque público más antiguo de la ciudad, con la Fuente de los Cuentos."
+  },
+  {
+   "id": "w_ber_mauerpark",
+   "cat": "nature",
+   "name": "Mauerpark",
+   "icon": "🎤",
+   "lat": 52.5406,
+   "lng": 13.4023,
+   "desc": "El parque en la antigua franja del Muro famoso por su mercadillo dominical."
+  },
+  {
+   "id": "w_ber_botanischer_garten",
+   "cat": "nature",
+   "name": "Jardín Botánico",
+   "icon": "🌿",
+   "lat": 52.4512,
+   "lng": 13.305,
+   "desc": "Uno de los jardines botánicos más grandes del mundo, con invernaderos tropicales."
+  },
+  {
+   "id": "w_ber_tierpark_zoo",
+   "cat": "nature",
+   "name": "Zoo de Berlín",
+   "icon": "🦁",
+   "lat": 52.5079,
+   "lng": 13.3378,
+   "desc": "El zoológico más antiguo de Alemania y uno de los más ricos en especies."
+  },
+  {
+   "id": "w_ber_alexanderplatz",
+   "cat": "ocio",
+   "name": "Alexanderplatz",
+   "icon": "🕰️",
+   "lat": 52.52154,
+   "lng": 13.41321,
+   "desc": "La gran plaza del Berlín oriental, centro comercial y de transporte."
+  },
+  {
+   "id": "w_ber_potsdamer_platz",
+   "cat": "ocio",
+   "name": "Potsdamer Platz",
+   "icon": "🏙️",
+   "lat": 52.5096,
+   "lng": 13.3756,
+   "desc": "El moderno distrito de rascacielos surgido sobre la antigua tierra de nadie."
+  },
+  {
+   "id": "w_ber_kurfuerstendamm",
+   "cat": "ocio",
+   "name": "Kurfürstendamm",
+   "icon": "🛍️",
+   "lat": 52.5035,
+   "lng": 13.3272,
+   "desc": "El bulevar comercial más elegante del oeste de Berlín."
+  },
+  {
+   "id": "w_ber_hackesche_hoefe",
+   "cat": "ocio",
+   "name": "Hackesche Höfe",
+   "icon": "🎭",
+   "lat": 52.5252,
+   "lng": 13.4023,
+   "desc": "Un laberinto de patios Art Nouveau lleno de tiendas, bares y cultura."
+  },
+  {
+   "id": "w_ber_kadewe",
+   "cat": "ocio",
+   "name": "KaDeWe",
+   "icon": "🛍️",
+   "lat": 52.5019,
+   "lng": 13.3412,
+   "desc": "Los grandes almacenes más famosos de Europa continental."
+  },
+  {
+   "id": "w_ber_ddr_museum",
+   "cat": "ocio",
+   "name": "DDR Museum",
+   "icon": "🚗",
+   "lat": 52.5193,
+   "lng": 13.4023,
+   "desc": "Museo interactivo sobre la vida cotidiana en la Alemania comunista."
+  },
+  {
+   "id": "w_ber_curry36",
+   "cat": "food",
+   "name": "Curry 36",
+   "icon": "🌭",
+   "lat": 52.4934,
+   "lng": 13.3879,
+   "desc": "El puesto de currywurst más legendario de Berlín, abierto casi día y noche."
+  },
+  {
+   "id": "w_ber_mustafas_gemuese_kebap",
+   "cat": "food",
+   "name": "Mustafa's Gemüse Kebap",
+   "icon": "🥙",
+   "lat": 52.4933,
+   "lng": 13.3876,
+   "desc": "El kebab de verduras más famoso de la ciudad, con colas eternas."
+  },
+  {
+   "id": "w_ber_markthalle_neun",
+   "cat": "food",
+   "name": "Markthalle Neun",
+   "icon": "🍴",
+   "lat": 52.5017,
+   "lng": 13.4317,
+   "desc": "Mercado gastronómico histórico en Kreuzberg, famoso por su Street Food Thursday."
+  },
+  {
+   "id": "w_ber_konnopkes_imbiss",
+   "cat": "food",
+   "name": "Konnopke's Imbiss",
+   "icon": "🌭",
+   "lat": 52.5401,
+   "lng": 13.4125,
+   "desc": "El histórico puesto de currywurst bajo las vías del metro en Prenzlauer Berg."
+  },
+  {
+   "id": "w_ber_zur_letzten_instanz",
+   "cat": "food",
+   "name": "Zur letzten Instanz",
+   "icon": "🍺",
+   "lat": 52.5183,
+   "lng": 13.4136,
+   "desc": "El restaurante más antiguo de Berlín, abierto desde 1621."
+  },
+  {
+   "id": "w_ber_cafe_am_neuen_see",
+   "cat": "food",
+   "name": "Café am Neuen See",
+   "icon": "🍺",
+   "lat": 52.5084,
+   "lng": 13.347,
+   "desc": "Idílico biergarten junto a un lago en pleno Tiergarten."
+  }
+ ],
+ "extra": {
+  "w_ber_brandenburger_tor": {
+   "id": "w_ber_brandenburger_tor",
+   "d": "Levantada en 1791 sobre el modelo de los Propileos de Atenas y coronada por la Cuadriga, fue punto de división durante la Guerra Fría y hoy es el emblema de la ciudad unida.",
+   "d_en": "Built in 1791 after the Athenian Propylaea and crowned by the Quadriga, it stood at the Cold War divide and is now the emblem of the reunited city.",
+   "h": "Monumento al aire libre, visitable las 24 horas.",
+   "h_en": "Open-air monument, accessible 24 hours.",
+   "i": "Acceso gratuito; metro Brandenburger Tor (U5/S1). Espectacular de noche iluminada.",
+   "i_en": "Free access; Brandenburger Tor station (U5/S1). Stunning when lit at night."
+  },
+  "w_ber_reichstag": {
+   "id": "w_ber_reichstag",
+   "d": "Inaugurado en 1894 e incendiado en 1933, fue restaurado tras la reunificación con una cúpula transparente que simboliza la democracia y ofrece vistas de 360° del centro.",
+   "d_en": "Opened in 1894 and burned in 1933, it was rebuilt after reunification with a transparent dome symbolizing democracy and giving 360° views of the centre.",
+   "h": "Cúpula de 8:00 a 24:00 (última entrada 21:45).",
+   "h_en": "Dome open 8:00 to 24:00 (last entry 21:45).",
+   "i": "Entrada gratuita pero con reserva previa online obligatoria y control de seguridad.",
+   "i_en": "Free entry but requires prior online booking and a security check."
+  },
+  "w_ber_east_side_gallery": {
+   "id": "w_ber_east_side_gallery",
+   "d": "1,3 km de muro junto al río Spree pintados en 1990 por artistas de todo el mundo; incluye el célebre 'beso' de Brézhnev y Honecker.",
+   "d_en": "A 1.3 km stretch of wall by the Spree painted in 1990 by artists worldwide, featuring the famous Brezhnev-Honecker kiss.",
+   "h": "Al aire libre, accesible las 24 horas.",
+   "h_en": "Open-air, accessible 24 hours.",
+   "i": "Gratuito; estación Warschauer Straße o Ostbahnhof. Mejor luz por la mañana.",
+   "i_en": "Free; Warschauer Straße or Ostbahnhof station. Best light in the morning."
+  },
+  "w_ber_checkpoint_charlie": {
+   "id": "w_ber_checkpoint_charlie",
+   "d": "Punto de control aliado durante la Guerra Fría, escenario del enfrentamiento de tanques de 1961; hoy una réplica de la caseta y carteles recrean el ambiente.",
+   "d_en": "The Allied checkpoint during the Cold War and site of the 1961 tank standoff; today a replica guardhouse and signs recreate the scene.",
+   "h": "Cruce al aire libre visitable las 24 horas.",
+   "h_en": "Open-air crossing accessible 24 hours.",
+   "i": "Gratuito; metro Kochstraße (U6). Muy concurrido, el Museo del Muro está al lado.",
+   "i_en": "Free; Kochstraße station (U6). Very busy; the Wall Museum is right beside it."
+  },
+  "w_ber_holocaust_mahnmal": {
+   "id": "w_ber_holocaust_mahnmal",
+   "d": "Diseñado por Peter Eisenman en 2005, sus bloques ondulados crean un laberinto sobrecogedor; bajo el campo, un centro de información documenta las víctimas.",
+   "d_en": "Designed by Peter Eisenman in 2005, its undulating blocks form an unsettling maze; a documentation centre lies beneath the field.",
+   "h": "Campo abierto 24 h; centro de información mar-dom 10:00-19:00.",
+   "h_en": "Field open 24h; information centre Tue-Sun 10:00-19:00.",
+   "i": "Acceso gratuito; junto a la Puerta de Brandeburgo. Lugar de respeto, no un parque de juegos.",
+   "i_en": "Free access; next to the Brandenburg Gate. A place of respect, not a playground."
+  },
+  "w_ber_berliner_dom": {
+   "id": "w_ber_berliner_dom",
+   "d": "Terminada en 1905, alberga la cripta de los Hohenzollern, un gran órgano Sauer y una cúpula de 98 m que se puede subir para ver la ciudad.",
+   "d_en": "Completed in 1905, it holds the Hohenzollern crypt, a huge Sauer organ and a 98 m dome you can climb for city views.",
+   "h": "Lun-sáb 9:00-18:00, dom 12:00-17:00 (varía por cultos).",
+   "h_en": "Mon-Sat 9:00-18:00, Sun 12:00-17:00 (varies with services).",
+   "i": "Entrada de pago (~10 €); metro Museumsinsel (U5). Vistas desde la cúpula.",
+   "i_en": "Paid entry (~10 €); Museumsinsel station (U5). Great views from the dome."
+  },
+  "w_ber_museumsinsel": {
+   "id": "w_ber_museumsinsel",
+   "d": "Reúne el Museo de Pérgamo, el Neues Museum con el busto de Nefertiti, la Antigua Galería Nacional, el Altes Museum y el Bode-Museum en la isla del Spree.",
+   "d_en": "It brings together the Pergamon, the Neues Museum with Nefertiti's bust, the Old National Gallery, the Altes Museum and the Bode-Museum on the Spree island.",
+   "h": "Museos mar-dom 10:00-18:00 (Pérgamo parcialmente en obras).",
+   "h_en": "Museums Tue-Sun 10:00-18:00 (Pergamon partly under renovation).",
+   "i": "Entrada por museo o pase combinado; metro Museumsinsel. Reserva online.",
+   "i_en": "Per-museum or combined pass; Museumsinsel station. Book online."
+  },
+  "w_ber_fernsehturm": {
+   "id": "w_ber_fernsehturm",
+   "d": "Construida por la RDA en 1969 en Alexanderplatz, su esfera alberga un mirador y un restaurante giratorio con vistas de toda la ciudad.",
+   "d_en": "Built by the GDR in 1969 at Alexanderplatz, its sphere holds a viewing platform and a revolving restaurant overlooking the whole city.",
+   "h": "Diario 10:00-23:00 (varía por temporada).",
+   "h_en": "Daily 10:00-23:00 (varies by season).",
+   "i": "Entrada de pago; reserva horario para evitar colas. Metro/S-Bahn Alexanderplatz.",
+   "i_en": "Paid entry; book a time slot to skip queues. Alexanderplatz station."
+  },
+  "w_ber_gendarmenmarkt": {
+   "id": "w_ber_gendarmenmarkt",
+   "d": "Enmarcada por la Catedral Alemana, la Catedral Francesa y el Konzerthaus neoclásico, es escenario de conciertos y de un célebre mercado navideño.",
+   "d_en": "Framed by the German Cathedral, the French Cathedral and the neoclassical Konzerthaus, it hosts concerts and a famous Christmas market.",
+   "h": "Plaza abierta 24 h; edificios con horarios propios.",
+   "h_en": "Square open 24h; buildings have their own hours.",
+   "i": "Gratuito; metro Französische Straße o Stadtmitte (U6). Preciosa al atardecer.",
+   "i_en": "Free; Französische Straße or Stadtmitte station (U6). Lovely at dusk."
+  },
+  "w_ber_schloss_charlottenburg": {
+   "id": "w_ber_schloss_charlottenburg",
+   "d": "Residencia de verano de los Hohenzollern desde 1699, deslumbra con la Galería Dorada, el Gabinete de Porcelana y un extenso parque junto al Spree.",
+   "d_en": "A Hohenzollern summer residence since 1699, it dazzles with the Golden Gallery, the Porcelain Cabinet and a sprawling riverside park.",
+   "h": "Mar-dom 10:00-17:30 (invierno hasta 16:30); jardín gratis.",
+   "h_en": "Tue-Sun 10:00-17:30 (winter to 16:30); garden free.",
+   "i": "Entrada de pago al palacio; metro/bus Schloss Charlottenburg. Jardines gratuitos.",
+   "i_en": "Paid palace entry; Schloss Charlottenburg stop. Gardens are free."
+  },
+  "w_ber_siegessaule": {
+   "id": "w_ber_siegessaule",
+   "d": "Erigida en 1873 para celebrar victorias prusianas y coronada por la Victoria alada; una escalera de 285 peldaños lleva a un mirador con vistas al parque.",
+   "d_en": "Erected in 1873 to mark Prussian victories and crowned by winged Victory; 285 steps lead to a viewpoint over the park.",
+   "h": "Lun-vie 9:30-18:30, fin de semana hasta 19:00 (varía).",
+   "h_en": "Mon-Fri 9:30-18:30, weekends to 19:00 (varies).",
+   "i": "Pequeña tarifa para subir; bus 100/106. En medio de una gran rotonda.",
+   "i_en": "Small fee to climb; bus 100/106. Sits in a large roundabout."
+  },
+  "w_ber_gedaechtniskirche": {
+   "id": "w_ber_gedaechtniskirche",
+   "d": "Su campanario dañado en 1943 se conserva como advertencia contra la guerra, junto a una moderna nave octogonal de vidrieras azules.",
+   "d_en": "Its spire, damaged in 1943, is preserved as a warning against war, beside a modern octagonal hall of blue stained glass.",
+   "h": "Iglesia diario 9:00-19:00; sala conmemorativa 10:00-18:00.",
+   "h_en": "Church daily 9:00-19:00; memorial hall 10:00-18:00.",
+   "i": "Entrada gratuita; metro/S-Bahn Zoologischer Garten. En el Kurfürstendamm.",
+   "i_en": "Free entry; Zoologischer Garten station. On the Kurfürstendamm."
+  },
+  "w_ber_topographie_terrors": {
+   "id": "w_ber_topographie_terrors",
+   "d": "Instalado donde estuvieron la Gestapo y las SS, expone el aparato represivo del Tercer Reich junto a un tramo original del Muro de Berlín.",
+   "d_en": "Set where the Gestapo and SS once stood, it documents the Third Reich's repression beside an original stretch of the Berlin Wall.",
+   "h": "Diario 10:00-20:00.",
+   "h_en": "Daily 10:00-20:00.",
+   "i": "Entrada gratuita; metro Potsdamer Platz o Kochstraße. Exposición al aire libre.",
+   "i_en": "Free entry; Potsdamer Platz or Kochstraße station. Outdoor exhibition."
+  },
+  "w_ber_berliner_mauer_bernauer": {
+   "id": "w_ber_berliner_mauer_bernauer",
+   "d": "En la Bernauer Straße se conserva un tramo intacto con torre de vigilancia y franja de la muerte, junto a un centro de documentación y la Capilla de la Reconciliación.",
+   "d_en": "On Bernauer Straße an intact section with watchtower and death strip survives, next to a documentation centre and the Chapel of Reconciliation.",
+   "h": "Exterior 24 h; centro mar-dom 10:00-18:00.",
+   "h_en": "Outdoor area 24h; centre Tue-Sun 10:00-18:00.",
+   "i": "Gratuito; S-Bahn Nordbahnhof o metro Bernauer Straße (U8).",
+   "i_en": "Free; Nordbahnhof S-Bahn or Bernauer Straße station (U8)."
+  },
+  "w_ber_tiergarten": {
+   "id": "w_ber_tiergarten",
+   "d": "Antiguo coto de caza real, hoy ofrece lagos, senderos, jardines ingleses y monumentos entre la Puerta de Brandeburgo y el barrio de Charlottenburg.",
+   "d_en": "A former royal hunting ground, it now offers lakes, paths, English gardens and monuments between the Brandenburg Gate and Charlottenburg.",
+   "h": "Abierto todo el día.",
+   "h_en": "Open all day.",
+   "i": "Gratuito; S-Bahn Tiergarten o Bellevue. Perfecto para bici y pícnic.",
+   "i_en": "Free; Tiergarten or Bellevue S-Bahn. Great for cycling and picnics."
+  },
+  "w_ber_tempelhofer_feld": {
+   "id": "w_ber_tempelhofer_feld",
+   "d": "En las pistas del histórico aeropuerto de Tempelhof los berlineses patinan, vuelan cometas y montan en bici sobre un inmenso espacio abierto.",
+   "d_en": "On the runways of the historic Tempelhof airport Berliners skate, fly kites and cycle across a vast open space.",
+   "h": "Abre al amanecer y cierra al anochecer (horario estacional).",
+   "h_en": "Opens at dawn, closes at dusk (seasonal hours).",
+   "i": "Gratuito; metro Tempelhof (U6) o Boddinstraße. Sin sombra, lleva agua.",
+   "i_en": "Free; Tempelhof (U6) or Boddinstraße station. No shade, bring water."
+  },
+  "w_ber_treptower_park": {
+   "id": "w_ber_treptower_park",
+   "d": "Sus praderas junto al río albergan el impresionante Memorial de Guerra Soviético y ofrecen paseos en barco, jardines de rosas y la isla Insel der Jugend.",
+   "d_en": "Its riverside lawns hold the striking Soviet War Memorial and offer boat rides, rose gardens and the Insel der Jugend island.",
+   "h": "Abierto todo el día.",
+   "h_en": "Open all day.",
+   "i": "Gratuito; S-Bahn Treptower Park. Alquiler de barcas en verano.",
+   "i_en": "Free; Treptower Park S-Bahn. Boat rental in summer."
+  },
+  "w_ber_volkspark_friedrichshain": {
+   "id": "w_ber_volkspark_friedrichshain",
+   "d": "Inaugurado en 1848, combina colinas creadas con escombros de guerra, la romántica Märchenbrunnen, campos de deporte y cine al aire libre en verano.",
+   "d_en": "Opened in 1848, it blends rubble hills from the war, the romantic Märchenbrunnen fountain, sports fields and open-air cinema in summer.",
+   "h": "Abierto todo el día.",
+   "h_en": "Open all day.",
+   "i": "Gratuito; tranvía M4/M10. Popular entre familias y corredores.",
+   "i_en": "Free; tram M4/M10. Popular with families and runners."
+  },
+  "w_ber_mauerpark": {
+   "id": "w_ber_mauerpark",
+   "d": "Cada domingo se llena con un gran mercadillo, comida callejera y el legendario karaoke al aire libre en su anfiteatro de piedra.",
+   "d_en": "Every Sunday it fills with a huge flea market, street food and the legendary open-air karaoke in its stone amphitheatre.",
+   "h": "Parque abierto todo el día; mercadillo domingos 10:00-18:00.",
+   "h_en": "Park open all day; flea market Sundays 10:00-18:00.",
+   "i": "Gratuito; metro Eberswalder Straße (U2). Ambientazo los domingos.",
+   "i_en": "Free; Eberswalder Straße station (U2). Buzzing on Sundays."
+  },
+  "w_ber_botanischer_garten": {
+   "id": "w_ber_botanischer_garten",
+   "d": "43 hectáreas con más de 20.000 especies, un espectacular Gran Invernadero de plantas tropicales y un museo botánico en Berlín-Steglitz.",
+   "d_en": "43 hectares with over 20,000 species, a spectacular Great Pavilion of tropical plants and a botanical museum in Berlin-Steglitz.",
+   "h": "Diario desde 9:00; cierre variable según estación.",
+   "h_en": "Daily from 9:00; closing varies by season.",
+   "i": "Entrada de pago (~6 €); S-Bahn Botanischer Garten. Reserva medio día.",
+   "i_en": "Paid entry (~6 €); Botanischer Garten S-Bahn. Allow half a day."
+  },
+  "w_ber_tierpark_zoo": {
+   "id": "w_ber_tierpark_zoo",
+   "d": "Fundado en 1844 junto al Tiergarten, alberga más de 20.000 animales, un acuario y su famosa Puerta de los Elefantes; los pandas son la gran estrella.",
+   "d_en": "Founded in 1844 beside the Tiergarten, it houses over 20,000 animals, an aquarium and the famous Elephant Gate; the pandas are the star attraction.",
+   "h": "Diario desde 9:00 (cierre estacional, hasta 18:30 en verano).",
+   "h_en": "Daily from 9:00 (seasonal closing, to 18:30 in summer).",
+   "i": "Entrada de pago; S-Bahn Zoologischer Garten. Combinable con el acuario.",
+   "i_en": "Paid entry; Zoologischer Garten S-Bahn. Combine with the aquarium."
+  },
+  "w_ber_alexanderplatz": {
+   "id": "w_ber_alexanderplatz",
+   "d": "Dominada por la Torre de TV, el Reloj Mundial y los grandes almacenes, es punto de encuentro, mercadillos y vida urbana bajo la arquitectura socialista.",
+   "d_en": "Dominated by the TV Tower, the World Clock and department stores, it is a meeting point full of markets and city life under socialist architecture.",
+   "h": "Plaza abierta 24 h; tiendas con horario propio.",
+   "h_en": "Square open 24h; shops keep their own hours.",
+   "i": "Gratuito; gran nudo de metro y S-Bahn Alexanderplatz. Centro comercial Alexa cerca.",
+   "i_en": "Free; major Alexanderplatz U-/S-Bahn hub. Alexa mall nearby."
+  },
+  "w_ber_potsdamer_platz": {
+   "id": "w_ber_potsdamer_platz",
+   "d": "Renacido tras la caída del Muro con el Sony Center, cines, teatros y la sede de la Berlinale; símbolo del Berlín reunificado y de vanguardia.",
+   "d_en": "Reborn after the Wall's fall with the Sony Center, cinemas, theatres and the Berlinale venue; a symbol of reunified, cutting-edge Berlin.",
+   "h": "Zona abierta 24 h; locales con horario propio.",
+   "h_en": "Area open 24h; venues keep their own hours.",
+   "i": "Gratuito; metro/S-Bahn Potsdamer Platz. Restos del Muro en la plaza.",
+   "i_en": "Free; Potsdamer Platz U-/S-Bahn. Wall remnants stand in the square."
+  },
+  "w_ber_kurfuerstendamm": {
+   "id": "w_ber_kurfuerstendamm",
+   "d": "Conocido como Ku'damm, este gran paseo de 3,5 km reúne boutiques de lujo, cafés históricos, teatros y los grandes almacenes de la ciudad.",
+   "d_en": "Known as Ku'damm, this grand 3.5 km avenue gathers luxury boutiques, historic cafés, theatres and the city's flagship department stores.",
+   "h": "Tiendas lun-sáb aprox. 10:00-20:00.",
+   "h_en": "Shops Mon-Sat approx. 10:00-20:00.",
+   "i": "Gratuito pasear; metro Kurfürstendamm o Uhlandstraße. Junto al KaDeWe.",
+   "i_en": "Free to stroll; Kurfürstendamm or Uhlandstraße station. Near KaDeWe."
+  },
+  "w_ber_hackesche_hoefe": {
+   "id": "w_ber_hackesche_hoefe",
+   "d": "Ocho patios interconectados de 1906 con fachadas de azulejos, hoy epicentro de boutiques, cines, cabaret y restaurantes en el barrio de Mitte.",
+   "d_en": "Eight interlinked 1906 courtyards with tiled façades, now a hub of boutiques, cinemas, cabaret and restaurants in Mitte.",
+   "h": "Patios abiertos 24 h; locales con horario propio.",
+   "h_en": "Courtyards open 24h; venues keep their own hours.",
+   "i": "Gratuito; S-Bahn Hackescher Markt. Ambiente nocturno animado.",
+   "i_en": "Free; Hackescher Markt S-Bahn. Lively nightlife scene."
+  },
+  "w_ber_kadewe": {
+   "id": "w_ber_kadewe",
+   "d": "Inaugurado en 1907, sus ocho plantas culminan en una legendaria planta gourmet con delicatessen de todo el mundo y vistas al Ku'damm.",
+   "d_en": "Opened in 1907, its eight floors culminate in a legendary gourmet hall with delicacies from around the world and views over the Ku'damm.",
+   "h": "Lun-sáb 10:00-20:00; cerrado domingos.",
+   "h_en": "Mon-Sat 10:00-20:00; closed Sundays.",
+   "i": "Entrada gratuita; metro Wittenbergplatz (U1/U2/U3). No te pierdas la 6ª planta.",
+   "i_en": "Free entry; Wittenbergplatz station (U1/U2/U3). Don't miss the 6th floor."
+  },
+  "w_ber_ddr_museum": {
+   "id": "w_ber_ddr_museum",
+   "d": "Frente a la catedral, permite conducir un Trabant virtual, entrar en un piso prefabricado de la RDA y descubrir la cultura del socialismo real de forma lúdica.",
+   "d_en": "Facing the cathedral, it lets you drive a virtual Trabant, step into a GDR prefab flat and explore everyday socialist life hands-on.",
+   "h": "Diario 9:00-21:00.",
+   "h_en": "Daily 9:00-21:00.",
+   "i": "Entrada de pago; metro Museumsinsel. Muy entretenido para familias.",
+   "i_en": "Paid entry; Museumsinsel station. Great fun for families."
+  },
+  "w_ber_curry36": {
+   "id": "w_ber_curry36",
+   "d": "En Mehringdamm, este Imbiss sirve la clásica currywurst con salsa de curry y patatas fritas a colas interminables desde 1981.",
+   "d_en": "On Mehringdamm this Imbiss has been serving classic currywurst with curry sauce and fries to endless queues since 1981.",
+   "h": "Diario 9:00-05:00.",
+   "h_en": "Daily 9:00-05:00.",
+   "i": "Sin reserva, para comer de pie; metro Mehringdamm (U6/U7).",
+   "i_en": "No reservations, eat standing; Mehringdamm station (U6/U7)."
+  },
+  "w_ber_mustafas_gemuese_kebap": {
+   "id": "w_ber_mustafas_gemuese_kebap",
+   "d": "Un pequeño puesto en Mehringdamm que revolucionó el döner con verduras asadas, queso feta y un toque de limón; toda una institución berlinesa.",
+   "d_en": "A tiny Mehringdamm stall that revolutionised the döner with roasted vegetables, feta and a squeeze of lemon; a Berlin institution.",
+   "h": "Diario, horario amplio (colas largas a mediodía).",
+   "h_en": "Daily, long hours (big queues at lunch).",
+   "i": "Sin reserva; metro Mehringdamm. Ve temprano para evitar esperas.",
+   "i_en": "No reservations; Mehringdamm station. Go early to avoid the wait."
+  },
+  "w_ber_markthalle_neun": {
+   "id": "w_ber_markthalle_neun",
+   "d": "Mercado cubierto de 1891 con puestos de productores locales, panaderías y cervezas artesanas; los jueves acoge el célebre Street Food Thursday.",
+   "d_en": "An 1891 covered market with local producers, bakeries and craft beers; on Thursdays it hosts the famous Street Food Thursday.",
+   "h": "Mercado mar-sáb; Street Food Thursday jue 17:00-22:00.",
+   "h_en": "Market Tue-Sat; Street Food Thursday Thu 17:00-22:00.",
+   "i": "Entrada libre; metro Görlitzer Bahnhof (U1). Variedad internacional.",
+   "i_en": "Free entry; Görlitzer Bahnhof station (U1). International variety."
+  },
+  "w_ber_konnopkes_imbiss": {
+   "id": "w_ber_konnopkes_imbiss",
+   "d": "Fundado en 1930, es uno de los Imbiss más antiguos de Berlín y sirvió currywurst incluso en tiempos de la RDA; parada obligada bajo el viaducto de Eberswalder Straße.",
+   "d_en": "Founded in 1930, it is one of Berlin's oldest snack stands and served currywurst even in GDR times; a must-stop under the Eberswalder Straße viaduct.",
+   "h": "Lun-vie 10:00-20:00, sáb 11:30-20:00.",
+   "h_en": "Mon-Fri 10:00-20:00, Sat 11:30-20:00.",
+   "i": "Sin reserva; metro Eberswalder Straße (U2). Para comer de pie.",
+   "i_en": "No reservations; Eberswalder Straße station (U2). Eat standing."
+  },
+  "w_ber_zur_letzten_instanz": {
+   "id": "w_ber_zur_letzten_instanz",
+   "d": "Cerca del Nikolaiviertel, sirve cocina berlinesa tradicional como codillo de cerdo y albóndigas en un comedor lleno de historia por el que pasaron Napoleón y Beethoven.",
+   "d_en": "Near the Nikolaiviertel, it serves traditional Berlin fare like pork knuckle and meatballs in a historic dining room once visited by Napoleon and Beethoven.",
+   "h": "Mar-sáb 12:00-23:00; cerrado dom-lun.",
+   "h_en": "Tue-Sat 12:00-23:00; closed Sun-Mon.",
+   "i": "Reserva recomendada; metro Klosterstraße (U2). Cocina alemana clásica.",
+   "i_en": "Reservation recommended; Klosterstraße station (U2). Classic German cuisine."
+  },
+  "w_ber_cafe_am_neuen_see": {
+   "id": "w_ber_cafe_am_neuen_see",
+   "d": "A orillas del Neuer See, ofrece cerveza de barril, pizza y pretzels bajo los árboles, con barcas de remo de alquiler; un clásico del verano berlinés.",
+   "d_en": "On the shore of the Neuer See it serves draught beer, pizza and pretzels under the trees, with rowing boats for hire; a Berlin summer classic.",
+   "h": "Diario desde las 10:00 (según tiempo).",
+   "h_en": "Daily from 10:00 (weather permitting).",
+   "i": "Sin reserva en el biergarten; S-Bahn Tiergarten. Barcas en verano.",
+   "i_en": "No reservations in the beer garden; Tiergarten S-Bahn. Boats in summer."
+  }
+ },
+ "food": {
+  "w_ber_curry36": {
+   "cuisine": "Comida callejera alemana",
+   "price": "3–8 €",
+   "hours": "Diario 9:00-05:00"
+  },
+  "w_ber_mustafas_gemuese_kebap": {
+   "cuisine": "Turca / döner",
+   "price": "5–9 €",
+   "hours": "Diario, horario amplio"
+  },
+  "w_ber_markthalle_neun": {
+   "cuisine": "Mercado / internacional",
+   "price": "5–15 €",
+   "hours": "Mar-sáb; jueves street food"
+  },
+  "w_ber_konnopkes_imbiss": {
+   "cuisine": "Comida callejera alemana",
+   "price": "3–7 €",
+   "hours": "Lun-vie 10:00-20:00, sáb 11:30-20:00"
+  },
+  "w_ber_zur_letzten_instanz": {
+   "cuisine": "Alemana tradicional",
+   "price": "15–30 €",
+   "hours": "Mar-sáb 12:00-23:00"
+  },
+  "w_ber_cafe_am_neuen_see": {
+   "cuisine": "Biergarten / alemana",
+   "price": "8–20 €",
+   "hours": "Diario desde 10:00 (estacional)"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Berlín",
+   "items": [
+    {
+     "name": "Ampelmännchen",
+     "price": "5–25 €",
+     "desc": "Figura del semáforo peatonal del Este, icono pop de Berlín: imanes, tazas y camisetas."
+    },
+    {
+     "name": "Trozo del Muro",
+     "price": "5–20 €",
+     "desc": "Fragmento de hormigón pintado con certificado, recuerdo del Muro de Berlín."
+    },
+    {
+     "name": "Osito de Berlín (Buddy Bär)",
+     "price": "8–30 €",
+     "desc": "Figura del oso, símbolo oficial de la ciudad, en mil diseños."
+    },
+    {
+     "name": "Currywurst gadgets",
+     "price": "5–15 €",
+     "desc": "Delantales, tazas y sets con el plato callejero más berlinés."
+    },
+    {
+     "name": "Sello DDR / recuerdos vintage",
+     "price": "3–20 €",
+     "desc": "Insignias, gorras y objetos de la RDA vendidos en mercadillos."
+    }
+   ],
+   "shops": [
+    "Ampelmann Shop (Hackescher Markt)",
+    "KaDeWe",
+    "Mercadillo de Mauerpark (domingos)",
+    "Tiendas de la Puerta de Brandeburgo",
+    "Alexa (Alexanderplatz)"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Compra la Berlin WelcomeCard: transporte ilimitado y descuentos en museos y atracciones.",
+   "La Isla de los Museos abre gratis las últimas 4 horas de algunos días; reserva la entrada del Pérgamo con antelación.",
+   "Sube gratis a la cúpula del Reichstag reservando online días antes (llevar pasaporte o DNI).",
+   "El transporte público (U-Bahn, S-Bahn, tranvía) es puntual y cubre toda la ciudad; valida siempre el billete.",
+   "Domingos por la mañana visita los mercadillos de Mauerpark y Boxhagener Platz para pulgas y comida callejera."
+  ],
+  "en": [
+   "Get the Berlin WelcomeCard: unlimited transport plus discounts on museums and attractions.",
+   "Museum Island offers free late entry on some days; book Pergamon tickets well in advance.",
+   "Climb the Reichstag dome for free by booking online days ahead (bring your passport or ID).",
+   "Public transport (U-Bahn, S-Bahn, tram) is punctual and covers the whole city; always validate your ticket.",
+   "On Sunday mornings hit the Mauerpark and Boxhagener Platz flea markets for antiques and street food."
+  ]
+ },
+ "climate": {
+  "hi": [
+   3,
+   4,
+   9,
+   15,
+   20,
+   23,
+   25,
+   24,
+   19,
+   14,
+   8,
+   4
+  ],
+  "lo": [
+   -2,
+   -2,
+   1,
+   4,
+   9,
+   12,
+   14,
+   14,
+   10,
+   6,
+   2,
+   -1
+  ]
+ },
+ "tr": {
+  "El arco neoclásico más famoso de Alemania y símbolo de la reunificación.": "Germany's most famous neoclassical arch and symbol of reunification.",
+  "Sede del Parlamento alemán con su famosa cúpula de cristal de Norman Foster.": "Seat of the German Parliament with Norman Foster's famous glass dome.",
+  "El tramo más largo conservado del Muro de Berlín, convertido en galería al aire libre.": "The longest surviving stretch of the Berlin Wall, turned into an open-air gallery.",
+  "El paso fronterizo más famoso entre el Berlín Este y Oeste.": "The most famous crossing point between East and West Berlin.",
+  "Campo de 2.711 estelas de hormigón en memoria de los judíos asesinados de Europa.": "Field of 2,711 concrete slabs commemorating the murdered Jews of Europe.",
+  "La imponente catedral protestante barroca junto a la Isla de los Museos.": "The imposing Baroque Protestant cathedral beside Museum Island.",
+  "Conjunto de cinco museos de fama mundial, Patrimonio de la Humanidad.": "Ensemble of five world-class museums, a UNESCO World Heritage Site.",
+  "La torre de televisión de 368 m, el edificio más alto de Alemania.": "The 368 m TV tower, the tallest building in Germany.",
+  "La plaza más elegante de Berlín, flanqueada por dos catedrales gemelas.": "Berlin's most elegant square, flanked by two twin cathedrals.",
+  "El mayor palacio barroco de Berlín con jardines a la francesa.": "Berlin's largest Baroque palace with French-style gardens.",
+  "La dorada columna con la 'Goldelse' en el corazón del Tiergarten.": "The golden column topped by the 'Goldelse' in the heart of Tiergarten.",
+  "La iglesia con la torre en ruinas que recuerda los horrores de la guerra.": "The church with a ruined spire recalling the horrors of war.",
+  "Centro de documentación sobre el terror nazi en el antiguo cuartel de la Gestapo.": "Documentation centre on Nazi terror on the former Gestapo headquarters site.",
+  "El memorial oficial que conserva la 'franja de la muerte' del Muro.": "The official memorial preserving a section of the Wall's death strip.",
+  "El gran pulmón verde del centro, un parque histórico de 210 hectáreas.": "The city centre's great green lung, a 210-hectare historic park.",
+  "El antiguo aeropuerto convertido en el mayor parque urbano de Berlín.": "The former airport turned into Berlin's largest urban park.",
+  "Amplio parque junto al Spree con el monumental memorial soviético.": "Large riverside park with the monumental Soviet war memorial.",
+  "El parque público más antiguo de la ciudad, con la Fuente de los Cuentos.": "The city's oldest public park, home to the Fairy Tale Fountain.",
+  "El parque en la antigua franja del Muro famoso por su mercadillo dominical.": "The park on the former Wall strip famous for its Sunday flea market.",
+  "Uno de los jardines botánicos más grandes del mundo, con invernaderos tropicales.": "One of the world's largest botanical gardens, with tropical greenhouses.",
+  "El zoológico más antiguo de Alemania y uno de los más ricos en especies.": "Germany's oldest zoo and one of the most species-rich in the world.",
+  "La gran plaza del Berlín oriental, centro comercial y de transporte.": "East Berlin's great square, a shopping and transport hub.",
+  "El moderno distrito de rascacielos surgido sobre la antigua tierra de nadie.": "The modern skyscraper district built over the former no man's land.",
+  "El bulevar comercial más elegante del oeste de Berlín.": "The most elegant shopping boulevard in western Berlin.",
+  "Un laberinto de patios Art Nouveau lleno de tiendas, bares y cultura.": "A maze of Art Nouveau courtyards full of shops, bars and culture.",
+  "Los grandes almacenes más famosos de Europa continental.": "The most famous department store in continental Europe.",
+  "Museo interactivo sobre la vida cotidiana en la Alemania comunista.": "Interactive museum on daily life in communist East Germany.",
+  "El puesto de currywurst más legendario de Berlín, abierto casi día y noche.": "Berlin's most legendary currywurst stand, open almost round the clock.",
+  "El kebab de verduras más famoso de la ciudad, con colas eternas.": "The city's most famous veggie kebab, with never-ending queues.",
+  "Mercado gastronómico histórico en Kreuzberg, famoso por su Street Food Thursday.": "Historic food market in Kreuzberg, famous for its Street Food Thursday.",
+  "El histórico puesto de currywurst bajo las vías del metro en Prenzlauer Berg.": "The historic currywurst stand under the U-Bahn viaduct in Prenzlauer Berg.",
+  "El restaurante más antiguo de Berlín, abierto desde 1621.": "Berlin's oldest restaurant, open since 1621.",
+  "Idílico biergarten junto a un lago en pleno Tiergarten.": "Idyllic beer garden beside a lake in the heart of Tiergarten.",
+  "Berlín": "Berlín"
+ }
+}

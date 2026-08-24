@@ -1,0 +1,708 @@
+{
+ "id": "viena",
+ "name": "Viena",
+ "country": "WORLD",
+ "center": [
+  48.20849,
+  16.37319
+ ],
+ "pois": [
+  {
+   "id": "w_vie_schonbrunn",
+   "cat": "monuments",
+   "name": "Palacio de Schönbrunn",
+   "icon": "🏰",
+   "lat": 48.1849,
+   "lng": 16.3122,
+   "desc": "Palacio imperial barroco de los Habsburgo con 1.441 salas y jardines."
+  },
+  {
+   "id": "w_vie_stephansdom",
+   "cat": "monuments",
+   "name": "Catedral de San Esteban",
+   "icon": "⛪",
+   "lat": 48.20861,
+   "lng": 16.37306,
+   "desc": "Catedral gótica símbolo de Viena, con su icónico tejado de tejas de colores."
+  },
+  {
+   "id": "w_vie_hofburg",
+   "cat": "monuments",
+   "name": "Palacio de Hofburg",
+   "icon": "🏛️",
+   "lat": 48.20661,
+   "lng": 16.3653,
+   "desc": "Antiguo palacio imperial de invierno, hoy sede presidencial y museos."
+  },
+  {
+   "id": "w_vie_belvedere",
+   "cat": "monuments",
+   "name": "Palacio Belvedere",
+   "icon": "🖼️",
+   "lat": 48.19155,
+   "lng": 16.38065,
+   "desc": "Dos palacios barrocos con jardines y 'El Beso' de Gustav Klimt."
+  },
+  {
+   "id": "w_vie_staatsoper",
+   "cat": "monuments",
+   "name": "Ópera Estatal de Viena",
+   "icon": "🎭",
+   "lat": 48.20313,
+   "lng": 16.36892,
+   "desc": "Uno de los teatros de ópera más prestigiosos del mundo, en la Ringstrasse."
+  },
+  {
+   "id": "w_vie_khm",
+   "cat": "monuments",
+   "name": "Museo de Historia del Arte",
+   "icon": "🎨",
+   "lat": 48.20378,
+   "lng": 16.36163,
+   "desc": "Uno de los grandes museos de arte del mundo, con maestros antiguos."
+  },
+  {
+   "id": "w_vie_hundertwasser",
+   "cat": "monuments",
+   "name": "Hundertwasserhaus",
+   "icon": "🏘️",
+   "lat": 48.20744,
+   "lng": 16.3943,
+   "desc": "Colorido edificio residencial de líneas onduladas del artista Hundertwasser."
+  },
+  {
+   "id": "w_vie_karlskirche",
+   "cat": "monuments",
+   "name": "Iglesia de San Carlos (Karlskirche)",
+   "icon": "⛪",
+   "lat": 48.19842,
+   "lng": 16.3717,
+   "desc": "Espectacular iglesia barroca con cúpula y dos columnas triunfales."
+  },
+  {
+   "id": "w_vie_albertina",
+   "cat": "monuments",
+   "name": "Albertina",
+   "icon": "🖼️",
+   "lat": 48.20461,
+   "lng": 16.36838,
+   "desc": "Museo con maestros modernos y una de las mayores colecciones gráficas."
+  },
+  {
+   "id": "w_vie_rathaus",
+   "cat": "monuments",
+   "name": "Ayuntamiento (Rathaus)",
+   "icon": "🏛️",
+   "lat": 48.21095,
+   "lng": 16.35773,
+   "desc": "Imponente ayuntamiento neogótico con torre y plaza de eventos."
+  },
+  {
+   "id": "w_vie_parlament",
+   "cat": "monuments",
+   "name": "Parlamento de Austria",
+   "icon": "🏛️",
+   "lat": 48.20819,
+   "lng": 16.35867,
+   "desc": "Sede parlamentaria de estilo neoclásico griego con la fuente de Palas Atenea."
+  },
+  {
+   "id": "w_vie_votivkirche",
+   "cat": "monuments",
+   "name": "Iglesia Votiva (Votivkirche)",
+   "icon": "⛪",
+   "lat": 48.21622,
+   "lng": 16.35933,
+   "desc": "Elegante iglesia neogótica de dos altas torres gemelas."
+  },
+  {
+   "id": "w_vie_prater",
+   "cat": "nature",
+   "name": "Parque del Prater",
+   "icon": "🌳",
+   "lat": 48.21657,
+   "lng": 16.3959,
+   "desc": "Gran parque verde con el histórico parque de atracciones Wurstelprater."
+  },
+  {
+   "id": "w_vie_gloriette",
+   "cat": "nature",
+   "name": "Jardines de Schönbrunn y Gloriette",
+   "icon": "🌿",
+   "lat": 48.18069,
+   "lng": 16.3124,
+   "desc": "Jardines barrocos con laberinto, fuentes y el mirador de la Gloriette."
+  },
+  {
+   "id": "w_vie_stadtpark",
+   "cat": "nature",
+   "name": "Stadtpark",
+   "icon": "🌳",
+   "lat": 48.20554,
+   "lng": 16.37985,
+   "desc": "Parque urbano con el famoso monumento dorado a Johann Strauss."
+  },
+  {
+   "id": "w_vie_volksgarten",
+   "cat": "nature",
+   "name": "Volksgarten",
+   "icon": "🌹",
+   "lat": 48.2074,
+   "lng": 16.36118,
+   "desc": "Jardín público de rosales junto al Hofburg, con templete clásico."
+  },
+  {
+   "id": "w_vie_burggarten",
+   "cat": "nature",
+   "name": "Burggarten",
+   "icon": "🌿",
+   "lat": 48.20428,
+   "lng": 16.3656,
+   "desc": "Apacible jardín imperial con la estatua de Mozart y una casa de mariposas."
+  },
+  {
+   "id": "w_vie_donauinsel",
+   "cat": "nature",
+   "name": "Donauinsel (Isla del Danubio)",
+   "icon": "🏞️",
+   "lat": 48.2433,
+   "lng": 16.4153,
+   "desc": "Isla recreativa de 21 km entre canales del Danubio, para deporte y baño."
+  },
+  {
+   "id": "w_vie_naschmarkt",
+   "cat": "ocio",
+   "name": "Naschmarkt",
+   "icon": "🛍️",
+   "lat": 48.1986,
+   "lng": 16.3643,
+   "desc": "El mercado más famoso de Viena, con puestos gourmet y restaurantes."
+  },
+  {
+   "id": "w_vie_riesenrad",
+   "cat": "ocio",
+   "name": "Noria Wiener Riesenrad",
+   "icon": "🎡",
+   "lat": 48.21717,
+   "lng": 16.3963,
+   "desc": "Histórica noria de 1897, símbolo de Viena, con vistas de la ciudad."
+  },
+  {
+   "id": "w_vie_ringstrasse",
+   "cat": "ocio",
+   "name": "Ringstrasse",
+   "icon": "🛤️",
+   "lat": 48.208,
+   "lng": 16.365,
+   "desc": "Bulevar circular con los grandes edificios monumentales de Viena."
+  },
+  {
+   "id": "w_vie_museumsquartier",
+   "cat": "ocio",
+   "name": "MuseumsQuartier",
+   "icon": "🎟️",
+   "lat": 48.2033,
+   "lng": 16.3588,
+   "desc": "Uno de los mayores distritos culturales del mundo, con museos y patios."
+  },
+  {
+   "id": "w_vie_hofreitschule",
+   "cat": "ocio",
+   "name": "Escuela Española de Equitación",
+   "icon": "🐎",
+   "lat": 48.2078,
+   "lng": 16.3668,
+   "desc": "Célebre escuela de doma clásica con los caballos lipizanos blancos."
+  },
+  {
+   "id": "w_vie_graben",
+   "cat": "ocio",
+   "name": "Graben y Kärntner Strasse",
+   "icon": "🛍️",
+   "lat": 48.2087,
+   "lng": 16.3701,
+   "desc": "Elegantes calles peatonales comerciales del centro histórico."
+  },
+  {
+   "id": "w_vie_cafe_central",
+   "cat": "food",
+   "name": "Café Central",
+   "icon": "☕",
+   "lat": 48.21024,
+   "lng": 16.36555,
+   "desc": "Legendario café literario de bóvedas neogóticas y tartas clásicas."
+  },
+  {
+   "id": "w_vie_cafe_sacher",
+   "cat": "food",
+   "name": "Café Sacher",
+   "icon": "🍰",
+   "lat": 48.20393,
+   "lng": 16.36956,
+   "desc": "Cuna de la original tarta Sacher, en el lujoso Hotel Sacher."
+  },
+  {
+   "id": "w_vie_demel",
+   "cat": "food",
+   "name": "Demel",
+   "icon": "🧁",
+   "lat": 48.20905,
+   "lng": 16.36681,
+   "desc": "Histórica pastelería imperial famosa por sus vitrinas de dulces."
+  },
+  {
+   "id": "w_vie_figlmuller",
+   "cat": "food",
+   "name": "Figlmüller",
+   "icon": "🍽️",
+   "lat": 48.20845,
+   "lng": 16.3749,
+   "desc": "Templo del Wiener Schnitzel, con escalopes que desbordan el plato."
+  },
+  {
+   "id": "w_vie_landtmann",
+   "cat": "food",
+   "name": "Café Landtmann",
+   "icon": "☕",
+   "lat": 48.21316,
+   "lng": 16.36118,
+   "desc": "Elegante café de 1873 junto al Burgtheater, favorito de Freud."
+  },
+  {
+   "id": "w_vie_plachutta",
+   "cat": "food",
+   "name": "Plachutta",
+   "icon": "🍲",
+   "lat": 48.20755,
+   "lng": 16.37876,
+   "desc": "Restaurante clásico especializado en el Tafelspitz, carne cocida imperial."
+  }
+ ],
+ "extra": {
+  "w_vie_schonbrunn": {
+   "id": "w_vie_schonbrunn",
+   "d": "Antigua residencia de verano de los Habsburgo y uno de los conjuntos barrocos más importantes de Europa, declarado Patrimonio de la Humanidad. Sus salas de gala, los apartamentos imperiales de Francisco José y Sissi, la Galería Grande y los extensos jardines con la Gloriette lo convierten en el monumento más visitado de Austria.",
+   "d_en": "Former summer residence of the Habsburgs and one of Europe's foremost Baroque ensembles, a UNESCO World Heritage Site. Its state rooms, the imperial apartments of Franz Joseph and Sisi, the Great Gallery and the sprawling gardens crowned by the Gloriette make it Austria's most visited monument.",
+   "h": "Palacio abierto todo el año, aprox. 9:00–17:00 (horario ampliado en verano).",
+   "h_en": "Palace open year-round, approx. 9:00–17:00 (extended hours in summer).",
+   "i": "Compra la entrada online con hora asignada para evitar colas; el Grand Tour incluye 40 salas. Metro U4 Schönbrunn.",
+   "i_en": "Buy a timed ticket online to skip queues; the Grand Tour covers 40 rooms. Metro U4 Schönbrunn."
+  },
+  "w_vie_stephansdom": {
+   "id": "w_vie_stephansdom",
+   "d": "Conocida como Stephansdom, es el corazón espiritual de la ciudad y su emblema más reconocible. Destacan la torre sur de 136 m, el tejado de 230.000 tejas vidriadas con el águila imperial, las catacumbas y la campana Pummerin. Subir a la torre ofrece vistas panorámicas del centro histórico.",
+   "d_en": "Known as Stephansdom, it is the spiritual heart of the city and its most recognisable emblem. Highlights include the 136 m south tower, the roof of 230,000 glazed tiles bearing the imperial eagle, the catacombs and the great Pummerin bell. Climbing the tower rewards visitors with sweeping views of the old town.",
+   "h": "Aprox. 6:00–22:00; visitas turísticas y torres con horario propio.",
+   "h_en": "Approx. 6:00–22:00; sightseeing areas and towers have their own hours.",
+   "i": "Entrada al nave gratis; torres, catacumbas y tesoro con ticket. Respeta el silencio durante los oficios. Metro U1/U3 Stephansplatz.",
+   "i_en": "Nave entry free; towers, catacombs and treasury ticketed. Respect silence during services. Metro U1/U3 Stephansplatz."
+  },
+  "w_vie_hofburg": {
+   "id": "w_vie_hofburg",
+   "d": "Complejo palaciego que fue centro del poder de los Habsburgo durante más de seis siglos. Alberga los Apartamentos Imperiales, el Museo Sisi, la Cámara del Tesoro con las joyas de la corona, la Biblioteca Nacional y la Escuela Española de Equitación. Su arquitectura combina estilos desde el gótico al historicismo.",
+   "d_en": "A vast palace complex that was the seat of Habsburg power for over six centuries. It houses the Imperial Apartments, the Sisi Museum, the Treasury with the crown jewels, the National Library and the Spanish Riding School. Its architecture spans styles from Gothic to Historicism.",
+   "h": "Apartamentos Imperiales y museos aprox. 9:00–17:30.",
+   "h_en": "Imperial Apartments and museums approx. 9:00–17:30.",
+   "i": "El Sisi Ticket combina Hofburg y Schönbrunn. No te pierdas la Biblioteca Nacional. Metro U3 Herrengasse.",
+   "i_en": "The Sisi Ticket combines Hofburg and Schönbrunn. Don't miss the State Hall of the National Library. Metro U3 Herrengasse."
+  },
+  "w_vie_belvedere": {
+   "id": "w_vie_belvedere",
+   "d": "Conjunto barroco construido para el príncipe Eugenio de Saboya, formado por el Belvedere Superior e Inferior unidos por jardines simétricos. El Superior alberga la mayor colección de Gustav Klimt del mundo, incluida la célebre obra 'El Beso', junto a piezas de Schiele, Kokoschka y arte medieval.",
+   "d_en": "Baroque ensemble built for Prince Eugene of Savoy, comprising the Upper and Lower Belvedere linked by formal gardens. The Upper Belvedere holds the world's largest Klimt collection, including the famous 'The Kiss', alongside works by Schiele, Kokoschka and medieval art.",
+   "h": "Belvedere Superior aprox. 9:00–18:00.",
+   "h_en": "Upper Belvedere approx. 9:00–18:00.",
+   "i": "Reserva entrada con hora en temporada alta. Los jardines son de acceso libre. Tranvía D/71 Schloss Belvedere.",
+   "i_en": "Book a timed ticket in high season. The gardens are free to enter. Tram D/71 Schloss Belvedere."
+  },
+  "w_vie_staatsoper": {
+   "id": "w_vie_staatsoper",
+   "d": "Inaugurada en 1869, la Wiener Staatsoper es un templo de la ópera y el ballet con una programación de altísimo nivel y más de 350 funciones por temporada. Su fachada neorrenacentista y sus interiores dorados son magníficos; cada febrero acoge el legendario Baile de la Ópera.",
+   "d_en": "Opened in 1869, the Wiener Staatsoper is a temple of opera and ballet with a world-class programme of over 350 performances per season. Its neo-Renaissance façade and gilded interiors are magnificent; each February it hosts the legendary Opera Ball.",
+   "h": "Visitas guiadas diarias; funciones al anochecer según programa.",
+   "h_en": "Daily guided tours; performances in the evening per programme.",
+   "i": "Consigue entradas de pie (Stehplätze) muy baratas el mismo día. Visitas guiadas al edificio disponibles. Metro U1/U2/U4 Karlsplatz.",
+   "i_en": "Grab very cheap standing-room tickets (Stehplätze) on the day. Guided building tours available. Metro U1/U2/U4 Karlsplatz."
+  },
+  "w_vie_khm": {
+   "id": "w_vie_khm",
+   "d": "El Kunsthistorisches Museum, gemelo del Museo de Historia Natural, alberga las colecciones imperiales de los Habsburgo: pinturas de Bruegel (la mayor del mundo), Vermeer, Rafael, Tiziano, Caravaggio y Velázquez, además de antigüedades egipcias y una espectacular cúpula con cafetería.",
+   "d_en": "The Kunsthistorisches Museum, twin of the Natural History Museum, holds the Habsburgs' imperial collections: paintings by Bruegel (the world's largest holding), Vermeer, Raphael, Titian, Caravaggio and Velázquez, plus Egyptian antiquities and a spectacular domed café.",
+   "h": "Aprox. 10:00–18:00; jueves hasta 21:00; cerrado algunos lunes.",
+   "h_en": "Approx. 10:00–18:00; Thursdays until 21:00; closed some Mondays.",
+   "i": "Sube al café bajo la cúpula. Entrada combinada con otros museos imperiales. Metro U2/U3 Volkstheater.",
+   "i_en": "Head up to the café under the dome. Combined ticket with other imperial museums. Metro U2/U3 Volkstheater."
+  },
+  "w_vie_hundertwasser": {
+   "id": "w_vie_hundertwasser",
+   "d": "Edificio de viviendas municipales diseñado por Friedensreich Hundertwasser en 1985, célebre por sus fachadas de colores, suelos ondulados, columnas irregulares y árboles que crecen en las ventanas. Es un manifiesto contra la arquitectura racionalista y un icono del arte urbano vienés.",
+   "d_en": "A municipal housing block designed by Friedensreich Hundertwasser in 1985, famous for its colourful façades, undulating floors, irregular columns and trees growing from the windows. It is a manifesto against rationalist architecture and an icon of Viennese urban art.",
+   "h": "Exterior visible siempre; interior no visitable (viviendas ocupadas).",
+   "h_en": "Exterior always visible; interior not open (occupied residences).",
+   "i": "Enfrente está el Hundertwasser Village con tiendas. Cerca queda el museo Kunst Haus Wien. Tranvía 1 Hetzgasse.",
+   "i_en": "Opposite is Hundertwasser Village with shops. The Kunst Haus Wien museum is nearby. Tram 1 Hetzgasse."
+  },
+  "w_vie_karlskirche": {
+   "id": "w_vie_karlskirche",
+   "d": "Considerada la obra maestra del barroco vienés, fue construida por Fischer von Erlach tras la peste de 1713. Destacan su gran cúpula elíptica, las dos columnas historiadas a imitación de la de Trajano y los frescos interiores, visibles de cerca gracias a un ascensor panorámico.",
+   "d_en": "Regarded as the masterpiece of Viennese Baroque, it was built by Fischer von Erlach after the 1713 plague. Highlights are its great elliptical dome, the two spiralling columns echoing Trajan's Column, and the interior frescoes, viewable up close via a panoramic lift.",
+   "h": "Aprox. 9:00–18:00 (domingos apertura más tarde).",
+   "h_en": "Approx. 9:00–18:00 (later opening on Sundays).",
+   "i": "El ascensor a la cúpula permite ver los frescos de cerca. El estanque frontal ofrece bellos reflejos. Metro U1/U2/U4 Karlsplatz.",
+   "i_en": "The dome lift lets you see the frescoes up close. The reflecting pool in front makes for great photos. Metro U1/U2/U4 Karlsplatz."
+  },
+  "w_vie_albertina": {
+   "id": "w_vie_albertina",
+   "d": "Ubicada en un palacio de los Habsburgo sobre el bastión de la Ringstrasse, la Albertina reúne obras clave del impresionismo al presente (Monet, Picasso, Chagall) y una colección gráfica excepcional con dibujos de Durero, Rafael y Rembrandt. Los salones de gala completan la visita.",
+   "d_en": "Set in a Habsburg palace atop the Ringstrasse bastion, the Albertina brings together key works from Impressionism to the present (Monet, Picasso, Chagall) and an exceptional graphic collection with drawings by Dürer, Raphael and Rembrandt. Its state rooms complete the visit.",
+   "h": "Aprox. 10:00–18:00; miércoles y viernes hasta 21:00.",
+   "h_en": "Approx. 10:00–18:00; Wednesdays and Fridays until 21:00.",
+   "i": "No te pierdas la 'Liebre' de Durero (en exposición temporal). Terraza con vistas a la Ópera. Metro U1/U2/U4 Karlsplatz.",
+   "i_en": "Look out for Dürer's 'Young Hare' (shown periodically). Terrace overlooking the Opera. Metro U1/U2/U4 Karlsplatz."
+  },
+  "w_vie_rathaus": {
+   "id": "w_vie_rathaus",
+   "d": "Sede del gobierno municipal, el Rathaus es un magnífico edificio neogótico de 1883 con una torre central de casi 100 m coronada por el 'Rathausmann'. Su plaza, el Rathausplatz, acoge todo el año eventos populares: mercado navideño, pista de hielo, festival de cine de verano y conciertos.",
+   "d_en": "Seat of the city government, the Rathaus is a magnificent neo-Gothic building of 1883 with a near-100 m central tower topped by the 'Rathausmann'. Its square, the Rathausplatz, hosts year-round events: Christmas market, ice rink, summer film festival and concerts.",
+   "h": "Visitas guiadas gratuitas ciertos días; plaza siempre accesible.",
+   "h_en": "Free guided tours on select days; square always accessible.",
+   "i": "Comprueba el calendario de eventos de la plaza. Interior visitable con tour guiado. Tranvía/Metro U2 Rathaus.",
+   "i_en": "Check the square's events calendar. Interior visitable on a guided tour. Tram/Metro U2 Rathaus."
+  },
+  "w_vie_parlament": {
+   "id": "w_vie_parlament",
+   "d": "Construido entre 1874 y 1883 por Theophil Hansen en estilo neogriego, simboliza la cuna de la democracia. Su fachada de columnas, los frontones esculpidos y la monumental fuente de Palas Atenea son sus señas de identidad. Tras una gran renovación ofrece visitas y una azotea con vistas.",
+   "d_en": "Built between 1874 and 1883 by Theophil Hansen in Greek Revival style, it symbolises the cradle of democracy. Its columned façade, sculpted pediments and the monumental Pallas Athena fountain are its hallmarks. After a major renovation it offers tours and a rooftop with views.",
+   "h": "Visitas y áreas públicas aprox. 8:00–18:00 según jornada.",
+   "h_en": "Tours and public areas approx. 8:00–18:00 depending on the day.",
+   "i": "Visitas guiadas gratuitas o de bajo coste; reserva recomendada. Metro U3 Volkstheater.",
+   "i_en": "Guided tours free or low-cost; booking recommended. Metro U3 Volkstheater."
+  },
+  "w_vie_votivkirche": {
+   "id": "w_vie_votivkirche",
+   "d": "Levantada en agradecimiento por sobrevivir el emperador Francisco José a un atentado en 1853, la Votivkirche es uno de los edificios neogóticos más notables de Europa. Sus dos torres de 99 m, las vidrieras y el interior luminoso destacan junto al campus universitario.",
+   "d_en": "Built in thanksgiving for Emperor Franz Joseph surviving an assassination attempt in 1853, the Votivkirche is one of Europe's most notable neo-Gothic buildings. Its twin 99 m spires, stained glass and luminous interior stand out beside the university campus.",
+   "h": "Aprox. 10:00–18:00, cerrado algunos días; consultar in situ.",
+   "h_en": "Approx. 10:00–18:00, closed some days; check on site.",
+   "i": "Entrada gratuita a la nave. Combínala con un paseo por la Ringstrasse. Metro U2 Schottentor.",
+   "i_en": "Free entry to the nave. Combine with a stroll along the Ringstrasse. Metro U2 Schottentor."
+  },
+  "w_vie_prater": {
+   "id": "w_vie_prater",
+   "d": "Antiguo coto de caza imperial abierto al público en 1766, el Prater es un enorme espacio verde surcado por la avenida Hauptallee, ideal para pasear, correr o ir en bici. En su extremo se encuentra el Wurstelprater, parque de atracciones con la noria Riesenrad como símbolo.",
+   "d_en": "A former imperial hunting ground opened to the public in 1766, the Prater is a huge green space crossed by the Hauptallee avenue, perfect for walking, running or cycling. At its edge lies the Wurstelprater amusement park, symbolised by the Giant Ferris Wheel.",
+   "h": "Parque abierto siempre; atracciones aprox. 10:00–24:00 (marzo–octubre).",
+   "h_en": "Park open at all times; rides approx. 10:00–24:00 (March–October).",
+   "i": "Entrada al parque gratuita; se paga por atracción. Metro U1/U2 Praterstern.",
+   "i_en": "Park entry free; you pay per ride. Metro U1/U2 Praterstern."
+  },
+  "w_vie_gloriette": {
+   "id": "w_vie_gloriette",
+   "d": "Los jardines del palacio de Schönbrunn son un magnífico ejemplo de diseño paisajístico barroco, con parterres, la Fuente de Neptuno, un laberinto, la casa de las palmeras y un zoo. En lo alto de la colina, la Gloriette ofrece la mejor panorámica del palacio y de Viena.",
+   "d_en": "The gardens of Schönbrunn Palace are a superb example of Baroque landscape design, with parterres, the Neptune Fountain, a maze, a palm house and a zoo. Crowning the hill, the Gloriette offers the finest panorama of the palace and Vienna.",
+   "h": "Jardines aprox. 6:30 hasta el anochecer; acceso gratuito.",
+   "h_en": "Gardens approx. 6:30 until dusk; free access.",
+   "i": "Sube a la Gloriette al atardecer para las mejores fotos. Laberinto y zoo con ticket. Metro U4 Schönbrunn.",
+   "i_en": "Climb to the Gloriette at sunset for the best photos. Maze and zoo ticketed. Metro U4 Schönbrunn."
+  },
+  "w_vie_stadtpark": {
+   "id": "w_vie_stadtpark",
+   "d": "Inaugurado en 1862, el Stadtpark fue el primer parque público de Viena. Atravesado por el río Wien, combina zonas ajardinadas de estilo inglés con estatuas de músicos ilustres; la más fotografiada es el monumento dorado a Johann Strauss hijo, rey del vals.",
+   "d_en": "Opened in 1862, the Stadtpark was Vienna's first public park. Crossed by the River Wien, it blends English-style landscaped areas with statues of illustrious musicians; the most photographed is the gilded monument to Johann Strauss II, king of the waltz.",
+   "h": "Abierto todo el día; acceso libre.",
+   "h_en": "Open all day; free access.",
+   "i": "Ideal para un descanso entre visitas. Conciertos de vals en el Kursalon. Metro U4 Stadtpark.",
+   "i_en": "Ideal for a break between sights. Waltz concerts at the Kursalon. Metro U4 Stadtpark."
+  },
+  "w_vie_volksgarten": {
+   "id": "w_vie_volksgarten",
+   "d": "Creado en 1821 sobre las antiguas fortificaciones, el Volksgarten es célebre por sus más de 3.000 rosales de cientos de variedades. Alberga el Templo de Teseo, réplica del de Atenas, y el monumento a la emperatriz Isabel (Sissi), en un entorno perfecto para pasear.",
+   "d_en": "Laid out in 1821 over former fortifications, the Volksgarten is famous for its 3,000-plus rose bushes of hundreds of varieties. It contains the Theseus Temple, a replica of the Athenian original, and the monument to Empress Elisabeth (Sisi), in a setting perfect for strolling.",
+   "h": "Abierto durante el día; acceso libre.",
+   "h_en": "Open during the day; free access.",
+   "i": "La floración de rosas (mayo–junio) es espectacular. Junto al Hofburg y la Ringstrasse. Metro U3 Volkstheater.",
+   "i_en": "The rose bloom (May–June) is spectacular. Next to the Hofburg and Ringstrasse. Metro U3 Volkstheater."
+  },
+  "w_vie_burggarten": {
+   "id": "w_vie_burggarten",
+   "d": "Antiguo jardín privado de los emperadores, hoy abierto al público junto al Hofburg. Es conocido por la estatua de Mozart con una clave de sol de flores a sus pies, la elegante Palmenhaus Art Nouveau (hoy café e invernadero de mariposas) y su ambiente relajado.",
+   "d_en": "Once the emperors' private garden, now open to the public beside the Hofburg. It is known for the Mozart statue with a floral treble clef at its feet, the elegant Art Nouveau Palmenhaus (now a café and butterfly house) and its relaxed atmosphere.",
+   "h": "Abierto durante el día; acceso libre.",
+   "h_en": "Open during the day; free access.",
+   "i": "Entra en la Palmenhaus por un café con encanto. La casa de mariposas tiene ticket. Metro U1/U2/U4 Karlsplatz.",
+   "i_en": "Step into the Palmenhaus for a charming café. The butterfly house is ticketed. Metro U1/U2/U4 Karlsplatz."
+  },
+  "w_vie_donauinsel": {
+   "id": "w_vie_donauinsel",
+   "d": "Larga isla artificial creada como protección contra las crecidas, la Donauinsel se ha convertido en el gran espacio de ocio al aire libre de Viena: playas para el baño, carriles bici, senderos, zonas de barbacoa y bares junto al agua. En verano acoge el Donauinselfest, festival gratuito multitudinario.",
+   "d_en": "A long artificial island created for flood protection, the Donauinsel has become Vienna's great open-air leisure space: swimming beaches, cycle paths, walking trails, barbecue areas and waterside bars. In summer it hosts the Donauinselfest, a huge free festival.",
+   "h": "Acceso libre las 24 horas.",
+   "h_en": "Free access 24 hours.",
+   "i": "Alquila una bici o patines para recorrerla. Zonas de baño gratuitas en verano. Metro U1 Donauinsel.",
+   "i_en": "Rent a bike or skates to explore it. Free swimming areas in summer. Metro U1 Donauinsel."
+  },
+  "w_vie_naschmarkt": {
+   "id": "w_vie_naschmarkt",
+   "d": "Con más de un siglo de historia, el Naschmarkt es el mercado más grande y animado de Viena. Sus casi 1,5 km de puestos ofrecen frutas, especias, quesos, delicias de Oriente Medio y numerosos restaurantes y bares. Los sábados se le suma un popular mercadillo de segunda mano.",
+   "d_en": "With over a century of history, the Naschmarkt is Vienna's largest and liveliest market. Its nearly 1.5 km of stalls offer fruit, spices, cheeses, Middle Eastern delicacies and countless restaurants and bars. On Saturdays a popular flea market joins in.",
+   "h": "Puestos aprox. 6:00–19:00; cerrado los domingos.",
+   "h_en": "Stalls approx. 6:00–19:00; closed on Sundays.",
+   "i": "Ve temprano para evitar multitudes; regatea con moderación. Sábados, mercadillo. Metro U4 Kettenbrückengasse.",
+   "i_en": "Go early to avoid crowds; haggle in moderation. Flea market on Saturdays. Metro U4 Kettenbrückengasse."
+  },
+  "w_vie_riesenrad": {
+   "id": "w_vie_riesenrad",
+   "d": "Construida en 1897 en el Wurstelprater, es una de las norias más antiguas del mundo y todo un icono cinematográfico, inmortalizada en 'El tercer hombre'. Sus grandes cabinas de madera giran a 65 m de altura ofreciendo panorámicas del Danubio y del centro histórico.",
+   "d_en": "Built in 1897 in the Wurstelprater, it is one of the world's oldest Ferris wheels and a cinematic icon, immortalised in 'The Third Man'. Its large wooden cabins rotate at 65 m, offering panoramas of the Danube and the historic centre.",
+   "h": "Aprox. 10:00–22:00 (ampliado en verano).",
+   "h_en": "Approx. 10:00–22:00 (extended in summer).",
+   "i": "Compra la entrada online para evitar cola. Cabinas privadas para cenas románticas. Metro U1/U2 Praterstern.",
+   "i_en": "Buy tickets online to skip the queue. Private cabins available for romantic dinners. Metro U1/U2 Praterstern."
+  },
+  "w_vie_ringstrasse": {
+   "id": "w_vie_ringstrasse",
+   "d": "Construida a partir de 1857 sobre las antiguas murallas, la Ringstrasse es un majestuoso bulevar de 5,3 km que rodea el casco histórico. A lo largo de su trazado se alinean el Parlamento, el Ayuntamiento, la Ópera, los grandes museos y numerosos palacios, en un catálogo de la arquitectura historicista.",
+   "d_en": "Built from 1857 over the former city walls, the Ringstrasse is a majestic 5.3 km boulevard encircling the old town. Along its course stand the Parliament, City Hall, Opera, great museums and numerous palaces, forming a showcase of Historicist architecture.",
+   "h": "Accesible siempre; recorrido a pie, tranvía o bici.",
+   "h_en": "Accessible at all times; explore on foot, by tram or by bike.",
+   "i": "Toma el tranvía 1 o 2 para recorrerla entera, o el Ring Tram turístico. Ideal al atardecer.",
+   "i_en": "Take tram 1 or 2 to ride the full loop, or the tourist Ring Tram. Lovely at dusk."
+  },
+  "w_vie_museumsquartier": {
+   "id": "w_vie_museumsquartier",
+   "d": "Sobre las antiguas caballerizas imperiales, el MuseumsQuartier reúne el Leopold Museum (con la mayor colección de Egon Schiele), el mumok de arte moderno, la Kunsthalle y espacios creativos. Sus patios con los característicos bancos 'Enzi' son un punto de encuentro muy popular.",
+   "d_en": "Set in the former imperial stables, the MuseumsQuartier gathers the Leopold Museum (with the largest Egon Schiele collection), the mumok modern art museum, the Kunsthalle and creative spaces. Its courtyards with the distinctive 'Enzi' benches are a hugely popular meeting point.",
+   "h": "Patios abiertos siempre; museos aprox. 10:00–18:00.",
+   "h_en": "Courtyards always open; museums approx. 10:00–18:00.",
+   "i": "Relájate en los bancos del patio; cafés y ambiente joven. Pases combinados de museos. Metro U2/U3 Volkstheater.",
+   "i_en": "Relax on the courtyard benches; cafés and a young vibe. Combined museum passes available. Metro U2/U3 Volkstheater."
+  },
+  "w_vie_hofreitschule": {
+   "id": "w_vie_hofreitschule",
+   "d": "Fundada en el siglo XVI, la Spanische Hofreitschule es la única institución del mundo que preserva la equitación clásica renacentista en su forma más pura. En la barroca Sala de Invierno del Hofburg, los majestuosos caballos lipizanos ofrecen espectáculos y entrenamientos matinales abiertos al público.",
+   "d_en": "Founded in the 16th century, the Spanish Riding School is the only institution in the world preserving Renaissance classical horsemanship in its purest form. In the Baroque Winter Riding Hall of the Hofburg, the majestic Lipizzaner horses perform shows and public morning exercises.",
+   "h": "Espectáculos y entrenamientos matinales según calendario.",
+   "h_en": "Performances and morning exercises per the calendar.",
+   "i": "Reserva con antelación para los espectáculos; los entrenamientos son más económicos. Metro U3 Herrengasse.",
+   "i_en": "Book ahead for performances; morning exercises are cheaper. Metro U3 Herrengasse."
+  },
+  "w_vie_graben": {
+   "id": "w_vie_graben",
+   "d": "El Graben y la vecina Kärntner Strasse forman el eje comercial y de paseo más elegante de Viena, entre la Ópera y la Catedral. Están flanqueados por edificios señoriales, tiendas de lujo, cafés históricos y la espectacular Columna de la Peste barroca (Pestsäule).",
+   "d_en": "The Graben and the neighbouring Kärntner Strasse form Vienna's most elegant shopping and strolling axis, running between the Opera and the Cathedral. They are lined with stately buildings, luxury shops, historic cafés and the spectacular Baroque Plague Column (Pestsäule).",
+   "h": "Calles accesibles siempre; tiendas aprox. 10:00–19:00.",
+   "h_en": "Streets always accessible; shops approx. 10:00–19:00.",
+   "i": "Zona peatonal ideal para pasear de noche. Fíjate en la Pestsäule. Metro U1/U3 Stephansplatz.",
+   "i_en": "Pedestrian zone lovely for an evening stroll. Look out for the Pestsäule. Metro U1/U3 Stephansplatz."
+  },
+  "w_vie_cafe_central": {
+   "id": "w_vie_cafe_central",
+   "d": "Abierto en 1876 en el Palais Ferstel, el Café Central fue punto de encuentro de intelectuales como Freud, Trotski o el poeta Peter Altenberg, cuya figura recibe a los clientes. Bajo sus arcos se saborean cafés vieneses, la tarta Sachertorte, el Apfelstrudel y repostería de vitrina.",
+   "d_en": "Opened in 1876 in the Palais Ferstel, Café Central was a meeting place for intellectuals such as Freud, Trotsky and the poet Peter Altenberg, whose figure greets guests. Beneath its arches you can enjoy Viennese coffees, Sachertorte, Apfelstrudel and cabinet pastries.",
+   "h": "Aprox. 8:00–21:00 (fines de semana desde las 9:00).",
+   "h_en": "Approx. 8:00–21:00 (from 9:00 at weekends).",
+   "i": "Suele haber cola; ve entre horas. Pide un Melange con Apfelstrudel. Metro U3 Herrengasse.",
+   "i_en": "Expect a queue; go off-peak. Order a Melange with Apfelstrudel. Metro U3 Herrengasse."
+  },
+  "w_vie_cafe_sacher": {
+   "id": "w_vie_cafe_sacher",
+   "d": "En el elegante Hotel Sacher junto a la Ópera se sirve la auténtica Original Sacher-Torte, creada en 1832: bizcocho de chocolate con una fina capa de mermelada de albaricoque y cobertura de chocolate, acompañada de nata sin azúcar. Sus salones de terciopelo rojo evocan la Viena imperial.",
+   "d_en": "In the elegant Hotel Sacher next to the Opera you can taste the authentic Original Sacher-Torte, created in 1832: chocolate sponge with a thin layer of apricot jam and dark chocolate glaze, served with unsweetened whipped cream. Its red-velvet salons evoke imperial Vienna.",
+   "h": "Aprox. 8:00–24:00.",
+   "h_en": "Approx. 8:00–24:00.",
+   "i": "Puede haber espera; también hay tienda para llevar la tarta en caja de madera. Metro U1/U2/U4 Karlsplatz.",
+   "i_en": "There may be a wait; a shop sells the cake to go in a wooden box. Metro U1/U2/U4 Karlsplatz."
+  },
+  "w_vie_demel": {
+   "id": "w_vie_demel",
+   "d": "Fundada en 1786 y antigua proveedora de la corte imperial, Demel es una de las pastelerías más prestigiosas del mundo. Sus escaparates de mazapanes, bombones y tartas son un espectáculo, y desde la sala se ve trabajar a los reposteros. Célebre por su propia versión de la tarta Sacher.",
+   "d_en": "Founded in 1786 and former purveyor to the imperial court, Demel is one of the world's most prestigious confectioners. Its window displays of marzipan, chocolates and cakes are a spectacle, and you can watch the pastry chefs at work. Famous for its own version of the Sachertorte.",
+   "h": "Aprox. 10:00–19:00.",
+   "h_en": "Approx. 10:00–19:00.",
+   "i": "Prueba el Anna Torte o los bombones artesanos. Zona peatonal Kohlmarkt. Metro U3 Herrengasse.",
+   "i_en": "Try the Anna Torte or the handmade chocolates. On the pedestrian Kohlmarkt. Metro U3 Herrengasse."
+  },
+  "w_vie_figlmuller": {
+   "id": "w_vie_figlmuller",
+   "d": "Institución vienesa desde 1905, Figlmüller es célebre por su gigantesco Wiener Schnitzel de cerdo, tan grande que sobresale del plato, empanado y frito a la perfección. En un ambiente tradicional de Beisl, es casi obligada la reserva para probar el escalope más famoso de la ciudad.",
+   "d_en": "A Viennese institution since 1905, Figlmüller is famous for its giant pork Wiener Schnitzel, so large it overhangs the plate, breaded and fried to perfection. In a traditional Beisl setting, a reservation is almost essential to try the city's most famous cutlet.",
+   "h": "Aprox. 11:00–22:30.",
+   "h_en": "Approx. 11:00–22:30.",
+   "i": "Reserva con antelación; el escalope es enorme, se puede compartir. Metro U1/U3 Stephansplatz.",
+   "i_en": "Book ahead; the schnitzel is huge and easy to share. Metro U1/U3 Stephansplatz."
+  },
+  "w_vie_landtmann": {
+   "id": "w_vie_landtmann",
+   "d": "Uno de los cafés vieneses más elegantes, abierto en 1873 en la Ringstrasse junto al Burgtheater. Frecuentado por Sigmund Freud, políticos y actores, ofrece un ambiente refinado, extensa carta de cafés y tartas, además de platos tradicionales austriacos y una agradable terraza.",
+   "d_en": "One of the most elegant Viennese cafés, opened in 1873 on the Ringstrasse beside the Burgtheater. Frequented by Sigmund Freud, politicians and actors, it offers a refined atmosphere, an extensive menu of coffees and cakes, plus traditional Austrian dishes and a pleasant terrace.",
+   "h": "Aprox. 7:30–24:00.",
+   "h_en": "Approx. 7:30–24:00.",
+   "i": "Buena opción para desayunar con vistas al Ayuntamiento. Terraza en verano. Tranvía 1/71 Rathausplatz.",
+   "i_en": "A great spot for breakfast with views of the City Hall. Terrace in summer. Tram 1/71 Rathausplatz."
+  },
+  "w_vie_plachutta": {
+   "id": "w_vie_plachutta",
+   "d": "Referencia de la cocina vienesa tradicional, Plachutta es famoso por su Tafelspitz: ternera cocida en caldo servida en su olla de cobre con médula, patatas rösti, crema de manzana y rábano picante. Era el plato favorito del emperador Francisco José y aquí se prepara de forma magistral.",
+   "d_en": "A benchmark of traditional Viennese cuisine, Plachutta is famous for its Tafelspitz: beef boiled in broth and served in its copper pot with marrow, rösti potatoes, apple cream and horseradish. It was Emperor Franz Joseph's favourite dish and is prepared here to perfection.",
+   "h": "Aprox. 11:30–23:30.",
+   "h_en": "Approx. 11:30–23:30.",
+   "i": "Reserva recomendada; pregunta al camarero cómo se come el Tafelspitz. Metro U3 Stubentor.",
+   "i_en": "Booking recommended; ask the waiter how to eat Tafelspitz. Metro U3 Stubentor."
+  }
+ },
+ "food": {
+  "w_vie_cafe_central": {
+   "cuisine": "Café vienés / Repostería",
+   "price": "10–25 €",
+   "hours": "8:00–21:00"
+  },
+  "w_vie_cafe_sacher": {
+   "cuisine": "Café vienés / Repostería",
+   "price": "12–30 €",
+   "hours": "8:00–24:00"
+  },
+  "w_vie_demel": {
+   "cuisine": "Café vienés / Pastelería",
+   "price": "12–30 €",
+   "hours": "10:00–19:00"
+  },
+  "w_vie_figlmuller": {
+   "cuisine": "Cocina austriaca / Schnitzel",
+   "price": "18–35 €",
+   "hours": "11:00–22:30"
+  },
+  "w_vie_landtmann": {
+   "cuisine": "Café vienés / Cocina austriaca",
+   "price": "12–30 €",
+   "hours": "7:30–24:00"
+  },
+  "w_vie_plachutta": {
+   "cuisine": "Cocina austriaca / Tafelspitz",
+   "price": "25–45 €",
+   "hours": "11:30–23:30"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Viena",
+   "items": [
+    {
+     "name": "Bombones Mozartkugel",
+     "price": "5–15 €",
+     "desc": "Bolas de mazapán, turrón y chocolate con la efigie de Mozart."
+    },
+    {
+     "name": "Original Sacher-Torte (caja de madera)",
+     "price": "25–60 €",
+     "desc": "La auténtica tarta de chocolate y albaricoque en su estuche de madera."
+    },
+    {
+     "name": "Café vienés en grano",
+     "price": "8–20 €",
+     "desc": "Mezclas tostadas de casas históricas como Julius Meinl."
+    },
+    {
+     "name": "Cristal Swarovski",
+     "price": "30–200 €",
+     "desc": "Figuras y joyas de cristal tallado de la firma austriaca."
+    },
+    {
+     "name": "Lámina de Klimt 'El Beso'",
+     "price": "10–40 €",
+     "desc": "Reproducciones, imanes y objetos con la obra más famosa de la ciudad."
+    },
+    {
+     "name": "Ponche de licor de huevo / vino especiado",
+     "price": "10–25 €",
+     "desc": "Licores y Sturm típicos, ideales en época de mercados navideños."
+    }
+   ],
+   "shops": [
+    "Confiserie del Hotel Sacher (Philharmonikerstrasse 4)",
+    "Demel (Kohlmarkt 14)",
+    "Julius Meinl am Graben (Graben 19)",
+    "Tiendas del Graben y Kärntner Strasse",
+    "Mercado de Navidad del Rathausplatz (invierno)"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Compra la Vienna City Card o la Vienna Pass si vas a visitar muchos museos y usar el transporte público.",
+   "Reserva online con hora asignada para Schönbrunn, Belvedere y la noria y evita largas colas.",
+   "El transporte público (metro, tranvía, bus) es excelente; valida siempre el billete y aprovecha los abonos de 24/48/72 h.",
+   "Aprovecha las entradas de pie (Stehplätze) de la Ópera Estatal para disfrutar de una función por pocos euros.",
+   "Dedica una tarde a un café vienés tradicional: forma parte del patrimonio cultural de la ciudad, no lo tomes con prisa."
+  ],
+  "en": [
+   "Buy the Vienna City Card or Vienna Pass if you plan to visit many museums and use public transport.",
+   "Book timed online tickets for Schönbrunn, Belvedere and the Ferris wheel to avoid long queues.",
+   "Public transport (metro, tram, bus) is excellent; always validate your ticket and use the 24/48/72 h passes.",
+   "Take advantage of the State Opera's standing-room tickets (Stehplätze) to enjoy a performance for just a few euros.",
+   "Spend an afternoon in a traditional Viennese café: it is part of the city's cultural heritage, so don't rush it."
+  ]
+ },
+ "climate": {
+  "hi": [
+   3,
+   5,
+   10,
+   15,
+   20,
+   23,
+   26,
+   25,
+   20,
+   14,
+   8,
+   4
+  ],
+  "lo": [
+   -2,
+   -1,
+   2,
+   6,
+   10,
+   13,
+   15,
+   15,
+   11,
+   7,
+   3,
+   -1
+  ]
+ },
+ "tr": {
+  "Palacio imperial barroco de los Habsburgo con 1.441 salas y jardines.": "Baroque Habsburg imperial palace with 1,441 rooms and vast gardens.",
+  "Catedral gótica símbolo de Viena, con su icónico tejado de tejas de colores.": "Gothic cathedral, symbol of Vienna, with its iconic colourful tiled roof.",
+  "Antiguo palacio imperial de invierno, hoy sede presidencial y museos.": "Former imperial winter palace, today the presidential seat and museums.",
+  "Dos palacios barrocos con jardines y 'El Beso' de Gustav Klimt.": "Two Baroque palaces with gardens, home to Klimt's 'The Kiss'.",
+  "Uno de los teatros de ópera más prestigiosos del mundo, en la Ringstrasse.": "One of the world's most prestigious opera houses, on the Ringstrasse.",
+  "Uno de los grandes museos de arte del mundo, con maestros antiguos.": "One of the world's great art museums, rich in Old Masters.",
+  "Colorido edificio residencial de líneas onduladas del artista Hundertwasser.": "Colourful residential building with wavy lines by artist Hundertwasser.",
+  "Espectacular iglesia barroca con cúpula y dos columnas triunfales.": "Spectacular Baroque church with a great dome and two triumphal columns.",
+  "Museo con maestros modernos y una de las mayores colecciones gráficas.": "Museum of modern masters and one of the greatest graphic art collections.",
+  "Imponente ayuntamiento neogótico con torre y plaza de eventos.": "Imposing neo-Gothic city hall with a tower and event square.",
+  "Sede parlamentaria de estilo neoclásico griego con la fuente de Palas Atenea.": "Greek-Revival parliament building with the Pallas Athena fountain.",
+  "Elegante iglesia neogótica de dos altas torres gemelas.": "Elegant neo-Gothic church with two soaring twin spires.",
+  "Gran parque verde con el histórico parque de atracciones Wurstelprater.": "Large green park with the historic Wurstelprater amusement park.",
+  "Jardines barrocos con laberinto, fuentes y el mirador de la Gloriette.": "Baroque gardens with a maze, fountains and the Gloriette viewpoint.",
+  "Parque urbano con el famoso monumento dorado a Johann Strauss.": "City park with the famous gilded monument to Johann Strauss.",
+  "Jardín público de rosales junto al Hofburg, con templete clásico.": "Public rose garden beside the Hofburg, with a classical temple.",
+  "Apacible jardín imperial con la estatua de Mozart y una casa de mariposas.": "Tranquil imperial garden with the Mozart statue and a butterfly house.",
+  "Isla recreativa de 21 km entre canales del Danubio, para deporte y baño.": "21 km recreational island between Danube channels for sport and swimming.",
+  "El mercado más famoso de Viena, con puestos gourmet y restaurantes.": "Vienna's most famous market, with gourmet stalls and restaurants.",
+  "Histórica noria de 1897, símbolo de Viena, con vistas de la ciudad.": "Historic 1897 Ferris wheel, a symbol of Vienna, with city views.",
+  "Bulevar circular con los grandes edificios monumentales de Viena.": "Grand circular boulevard lined with Vienna's monumental buildings.",
+  "Uno de los mayores distritos culturales del mundo, con museos y patios.": "One of the world's largest cultural districts, with museums and courtyards.",
+  "Célebre escuela de doma clásica con los caballos lipizanos blancos.": "Famed classical dressage school with the white Lipizzaner horses.",
+  "Elegantes calles peatonales comerciales del centro histórico.": "Elegant pedestrian shopping streets in the historic centre.",
+  "Legendario café literario de bóvedas neogóticas y tartas clásicas.": "Legendary literary café with neo-Gothic vaults and classic cakes.",
+  "Cuna de la original tarta Sacher, en el lujoso Hotel Sacher.": "Home of the original Sachertorte, in the luxurious Hotel Sacher.",
+  "Histórica pastelería imperial famosa por sus vitrinas de dulces.": "Historic imperial confectioner famed for its cake displays.",
+  "Templo del Wiener Schnitzel, con escalopes que desbordan el plato.": "Temple of the Wiener Schnitzel, with cutlets that overflow the plate.",
+  "Elegante café de 1873 junto al Burgtheater, favorito de Freud.": "Elegant 1873 café by the Burgtheater, a favourite of Freud.",
+  "Restaurante clásico especializado en el Tafelspitz, carne cocida imperial.": "Classic restaurant specialising in Tafelspitz, imperial boiled beef.",
+  "Viena": "Viena"
+ }
+}

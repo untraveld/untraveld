@@ -1,0 +1,708 @@
+{
+ "id": "dublin",
+ "name": "Dublín",
+ "country": "WORLD",
+ "center": [
+  53.34807,
+  -6.26031
+ ],
+ "pois": [
+  {
+   "id": "w_dub_trinity",
+   "cat": "monuments",
+   "name": "Trinity College y Libro de Kells",
+   "icon": "📚",
+   "lat": 53.34438,
+   "lng": -6.2568,
+   "desc": "Universidad histórica que alberga el Libro de Kells y la Long Room."
+  },
+  {
+   "id": "w_dub_guinness",
+   "cat": "monuments",
+   "name": "Guinness Storehouse",
+   "icon": "🍺",
+   "lat": 53.34181,
+   "lng": -6.28679,
+   "desc": "Museo de la cerveza Guinness con bar panorámico Gravity."
+  },
+  {
+   "id": "w_dub_castle",
+   "cat": "monuments",
+   "name": "Castillo de Dublín",
+   "icon": "🏰",
+   "lat": 53.34288,
+   "lng": -6.26739,
+   "desc": "Antiguo centro del poder británico con salas de Estado."
+  },
+  {
+   "id": "w_dub_stpatrick",
+   "cat": "monuments",
+   "name": "Catedral de San Patricio",
+   "icon": "⛪",
+   "lat": 53.33936,
+   "lng": -6.27139,
+   "desc": "La mayor catedral de Irlanda, ligada a San Patricio."
+  },
+  {
+   "id": "w_dub_christchurch",
+   "cat": "monuments",
+   "name": "Catedral de Christ Church",
+   "icon": "⛪",
+   "lat": 53.34349,
+   "lng": -6.27097,
+   "desc": "Catedral medieval con la cripta más antigua de Dublín."
+  },
+  {
+   "id": "w_dub_kilmainham",
+   "cat": "monuments",
+   "name": "Cárcel de Kilmainham",
+   "icon": "⛓️",
+   "lat": 53.34181,
+   "lng": -6.30982,
+   "desc": "Prisión histórica clave en la lucha por la independencia."
+  },
+  {
+   "id": "w_dub_hapenny",
+   "cat": "monuments",
+   "name": "Puente Ha'penny",
+   "icon": "🌉",
+   "lat": 53.34635,
+   "lng": -6.2633,
+   "desc": "Icónico puente peatonal de hierro sobre el río Liffey."
+  },
+  {
+   "id": "w_dub_epic",
+   "cat": "monuments",
+   "name": "EPIC The Irish Emigration Museum",
+   "icon": "🚢",
+   "lat": 53.34793,
+   "lng": -6.24817,
+   "desc": "Museo interactivo sobre la emigración irlandesa al mundo."
+  },
+  {
+   "id": "w_dub_gpo",
+   "cat": "monuments",
+   "name": "GPO (Oficina Central de Correos)",
+   "icon": "🏛️",
+   "lat": 53.34946,
+   "lng": -6.2603,
+   "desc": "Cuartel general del Alzamiento de Pascua de 1916."
+  },
+  {
+   "id": "w_dub_natmuseum",
+   "cat": "monuments",
+   "name": "Museo Nacional de Arqueología",
+   "icon": "🏺",
+   "lat": 53.34034,
+   "lng": -6.25459,
+   "desc": "Tesoros célticos, oro prehistórico y cuerpos de las ciénagas."
+  },
+  {
+   "id": "w_dub_dublinia",
+   "cat": "monuments",
+   "name": "Dublinia",
+   "icon": "🛡️",
+   "lat": 53.3432,
+   "lng": -6.2717,
+   "desc": "Experiencia inmersiva sobre la Dublín vikinga y medieval."
+  },
+  {
+   "id": "w_dub_customhouse",
+   "cat": "monuments",
+   "name": "Custom House",
+   "icon": "🏛️",
+   "lat": 53.34866,
+   "lng": -6.25316,
+   "desc": "Majestuoso edificio neoclásico a orillas del Liffey."
+  },
+  {
+   "id": "w_dub_stephensgreen",
+   "cat": "nature",
+   "name": "St Stephen's Green",
+   "icon": "🌳",
+   "lat": 53.3379,
+   "lng": -6.2589,
+   "desc": "Parque victoriano ajardinado en el corazón de la ciudad."
+  },
+  {
+   "id": "w_dub_phoenix",
+   "cat": "nature",
+   "name": "Phoenix Park",
+   "icon": "🦌",
+   "lat": 53.3559,
+   "lng": -6.3296,
+   "desc": "Uno de los mayores parques urbanos de Europa con ciervos."
+  },
+  {
+   "id": "w_dub_howth",
+   "cat": "nature",
+   "name": "Howth (península y acantilados)",
+   "icon": "🌊",
+   "lat": 53.3875,
+   "lng": -6.0652,
+   "desc": "Pueblo pesquero con ruta de acantilados y vistas al mar."
+  },
+  {
+   "id": "w_dub_merrion",
+   "cat": "nature",
+   "name": "Merrion Square",
+   "icon": "🌷",
+   "lat": 53.3393,
+   "lng": -6.2496,
+   "desc": "Plaza georgiana con jardines y la estatua de Oscar Wilde."
+  },
+  {
+   "id": "w_dub_iveagh",
+   "cat": "nature",
+   "name": "Iveagh Gardens",
+   "icon": "⛲",
+   "lat": 53.3356,
+   "lng": -6.2601,
+   "desc": "Jardín secreto y tranquilo con cascada y fuentes."
+  },
+  {
+   "id": "w_dub_botanic",
+   "cat": "nature",
+   "name": "Jardines Botánicos Nacionales",
+   "icon": "🌿",
+   "lat": 53.3726,
+   "lng": -6.2713,
+   "desc": "Jardines históricos con espectaculares invernaderos victorianos."
+  },
+  {
+   "id": "w_dub_templebar",
+   "cat": "ocio",
+   "name": "Temple Bar (barrio)",
+   "icon": "🎶",
+   "lat": 53.3453,
+   "lng": -6.2644,
+   "desc": "Barrio cultural de callejones empedrados, pubs y música."
+  },
+  {
+   "id": "w_dub_grafton",
+   "cat": "ocio",
+   "name": "Grafton Street",
+   "icon": "🛍️",
+   "lat": 53.3416,
+   "lng": -6.2599,
+   "desc": "Calle comercial peatonal con tiendas y músicos callejeros."
+  },
+  {
+   "id": "w_dub_zoo",
+   "cat": "ocio",
+   "name": "Zoo de Dublín",
+   "icon": "🦁",
+   "lat": 53.3554,
+   "lng": -6.3049,
+   "desc": "Uno de los zoos más antiguos del mundo, dentro de Phoenix Park."
+  },
+  {
+   "id": "w_dub_jameson",
+   "cat": "ocio",
+   "name": "Jameson Distillery Bow St.",
+   "icon": "🥃",
+   "lat": 53.3487,
+   "lng": -6.2775,
+   "desc": "Experiencia guiada sobre el whiskey Jameson con catas."
+  },
+  {
+   "id": "w_dub_oconnell",
+   "cat": "ocio",
+   "name": "O'Connell Street y The Spire",
+   "icon": "🗼",
+   "lat": 53.3497,
+   "lng": -6.2605,
+   "desc": "La gran avenida de Dublín con la aguja de The Spire."
+  },
+  {
+   "id": "w_dub_natgallery",
+   "cat": "ocio",
+   "name": "Galería Nacional de Irlanda",
+   "icon": "🖼️",
+   "lat": 53.3409,
+   "lng": -6.2523,
+   "desc": "Pinacoteca nacional con arte europeo e irlandés."
+  },
+  {
+   "id": "w_dub_brazenhead",
+   "cat": "food",
+   "name": "The Brazen Head",
+   "icon": "🍺",
+   "lat": 53.345,
+   "lng": -6.2768,
+   "desc": "El pub más antiguo de Irlanda, con cocina tradicional."
+  },
+  {
+   "id": "w_dub_thetemplebarpub",
+   "cat": "food",
+   "name": "The Temple Bar Pub",
+   "icon": "🍻",
+   "lat": 53.34547,
+   "lng": -6.26389,
+   "desc": "Icónico pub rojo con música en directo todo el día."
+  },
+  {
+   "id": "w_dub_leoburdock",
+   "cat": "food",
+   "name": "Leo Burdock",
+   "icon": "🍟",
+   "lat": 53.3433,
+   "lng": -6.2706,
+   "desc": "Legendaria pescadería-freiduría de fish and chips desde 1913."
+  },
+  {
+   "id": "w_dub_boxty",
+   "cat": "food",
+   "name": "Gallagher's Boxty House",
+   "icon": "🥔",
+   "lat": 53.3453,
+   "lng": -6.2635,
+   "desc": "Cocina tradicional irlandesa especializada en boxty."
+  },
+  {
+   "id": "w_dub_bewleys",
+   "cat": "food",
+   "name": "Bewley's Grafton Street",
+   "icon": "☕",
+   "lat": 53.3414,
+   "lng": -6.2605,
+   "desc": "Histórico café con vidrieras Art Déco en Grafton Street."
+  },
+  {
+   "id": "w_dub_windingstair",
+   "cat": "food",
+   "name": "The Winding Stair",
+   "icon": "🍽️",
+   "lat": 53.3465,
+   "lng": -6.2648,
+   "desc": "Restaurante de cocina irlandesa moderna sobre una librería."
+  }
+ ],
+ "extra": {
+  "w_dub_trinity": {
+   "id": "w_dub_trinity",
+   "d": "Fundada en 1592, es la universidad más antigua de Irlanda. Su Old Library custodia el Libro de Kells, un evangeliario iluminado del siglo IX, y la espectacular Long Room, una sala de biblioteca con 200.000 volúmenes antiguos bajo bóveda de madera.",
+   "d_en": "Founded in 1592, it is Ireland's oldest university. Its Old Library holds the Book of Kells, a 9th-century illuminated gospel manuscript, and the stunning Long Room, a barrel-vaulted library hall with 200,000 antique volumes.",
+   "h": "Lun-Sáb 9:30-17:00, Dom 9:30-17:00 (reserva recomendada)",
+   "h_en": "Mon-Sat 9:30-17:00, Sun 9:30-17:00 (booking recommended)",
+   "i": "la historia, los libros antiguos y los edificios universitarios",
+   "i_en": "history, ancient books and university architecture"
+  },
+  "w_dub_guinness": {
+   "id": "w_dub_guinness",
+   "d": "En la antigua fábrica de St James's Gate, siete plantas en forma de pinta gigante narran la historia de la cerveza negra más famosa del mundo. La visita termina en el Gravity Bar con una pinta incluida y vistas de 360° sobre Dublín.",
+   "d_en": "Set in the old St James's Gate brewery, seven floors shaped like a giant pint tell the story of the world's most famous stout. The tour ends at the Gravity Bar with an included pint and 360° views over Dublin.",
+   "h": "Todos los días 10:00-19:00 (última entrada 18:00)",
+   "h_en": "Daily 10:00-19:00 (last entry 18:00)",
+   "i": "la cerveza, las vistas panorámicas y la cultura irlandesa",
+   "i_en": "beer, panoramic views and Irish culture"
+  },
+  "w_dub_castle": {
+   "id": "w_dub_castle",
+   "d": "Durante siglos fue el corazón del gobierno británico en Irlanda. Hoy se visitan sus State Apartments, la Torre del Registro medieval y la cripta vikinga subterránea. Sigue usándose para actos oficiales del Estado irlandés.",
+   "d_en": "For centuries the heart of British rule in Ireland. Today you can visit its State Apartments, the medieval Record Tower and the underground Viking excavations. It is still used for official Irish State events.",
+   "h": "Todos los días 9:45-17:45 (última entrada 17:15)",
+   "h_en": "Daily 9:45-17:45 (last entry 17:15)",
+   "i": "la historia, los palacios y la arquitectura medieval",
+   "i_en": "history, palaces and medieval architecture"
+  },
+  "w_dub_stpatrick": {
+   "id": "w_dub_stpatrick",
+   "d": "Construida junto al pozo donde, según la tradición, San Patricio bautizaba conversos. Es la catedral más grande del país y albergó como deán al escritor Jonathan Swift, autor de Los viajes de Gulliver, cuya tumba se encuentra en su interior.",
+   "d_en": "Built beside the well where St Patrick is said to have baptised converts. It is the country's largest cathedral and had writer Jonathan Swift, author of Gulliver's Travels, as its dean; his tomb lies inside.",
+   "h": "Lun-Sáb 9:30-17:00, Dom horario reducido",
+   "h_en": "Mon-Sat 9:30-17:00, Sun reduced hours",
+   "i": "las catedrales góticas, la historia y la literatura",
+   "i_en": "Gothic cathedrals, history and literature"
+  },
+  "w_dub_christchurch": {
+   "id": "w_dub_christchurch",
+   "d": "Fundada en 1030 por el rey vikingo Sitric, es la catedral más antigua de Dublín. Destaca su enorme cripta del siglo XII, una de las más grandes de las islas británicas, donde se exhibe el curioso 'gato y la rata' momificados.",
+   "d_en": "Founded in 1030 by the Viking king Sitric, it is Dublin's oldest cathedral. Its vast 12th-century crypt, one of the largest in the British Isles, houses the curious mummified 'cat and rat'.",
+   "h": "Todos los días 9:30-17:00 (varía por temporada)",
+   "h_en": "Daily 9:30-17:00 (varies by season)",
+   "i": "la arquitectura medieval, las criptas y la historia vikinga",
+   "i_en": "medieval architecture, crypts and Viking history"
+  },
+  "w_dub_kilmainham": {
+   "id": "w_dub_kilmainham",
+   "d": "Prisión abierta en 1796 donde estuvieron encarcelados y fueron ejecutados numerosos líderes republicanos irlandeses, incluidos los del Alzamiento de Pascua de 1916. El emotivo tour guiado recorre celdas y patios cargados de historia nacional.",
+   "d_en": "A prison opened in 1796 where many Irish republican leaders were jailed and executed, including those of the 1916 Easter Rising. The moving guided tour visits cells and yards steeped in national history.",
+   "h": "Todos los días 9:30-17:30 (solo con tour, reserva obligatoria)",
+   "h_en": "Daily 9:30-17:30 (guided tour only, booking required)",
+   "i": "la historia, la política y los relatos de independencia",
+   "i_en": "history, politics and independence stories"
+  },
+  "w_dub_hapenny": {
+   "id": "w_dub_hapenny",
+   "d": "Inaugurado en 1816, es el puente peatonal más querido de la ciudad. Su nombre viene del peaje de medio penique que se cobraba por cruzarlo. Su elegante arco de hierro blanco es una de las estampas más fotografiadas de Dublín.",
+   "d_en": "Opened in 1816, it is the city's best-loved footbridge. Its name comes from the half-penny toll once charged to cross. Its elegant white iron arch is one of Dublin's most photographed sights.",
+   "h": "Abierto 24 horas",
+   "h_en": "Open 24 hours",
+   "i": "los paseos, la fotografía y los rincones con encanto",
+   "i_en": "strolls, photography and charming spots"
+  },
+  "w_dub_epic": {
+   "id": "w_dub_epic",
+   "d": "Museo totalmente digital, varias veces premiado como mejor atracción de Europa. En las bóvedas de los antiguos muelles cuenta cómo 10 millones de irlandeses emigraron y dejaron huella en la música, la política y la cultura del mundo.",
+   "d_en": "A fully digital, multi-award-winning museum voted Europe's leading attraction. In the vaults of the old docklands it tells how 10 million Irish emigrated and shaped music, politics and culture worldwide.",
+   "h": "Todos los días 10:00-18:45 (última entrada 17:00)",
+   "h_en": "Daily 10:00-18:45 (last entry 17:00)",
+   "i": "los museos interactivos, la historia y la genealogía",
+   "i_en": "interactive museums, history and genealogy"
+  },
+  "w_dub_gpo": {
+   "id": "w_dub_gpo",
+   "d": "Majestuoso edificio neoclásico de O'Connell Street que fue el cuartel general de los rebeldes durante el Alzamiento de 1916. Aún conserva impactos de bala en sus columnas y alberga el museo interactivo GPO Witness History.",
+   "d_en": "A majestic neoclassical building on O'Connell Street that served as rebel headquarters during the 1916 Rising. Its columns still bear bullet marks and it houses the interactive GPO Witness History museum.",
+   "h": "Correos Lun-Sáb 9:00-17:30; museo 10:00-17:30",
+   "h_en": "Post office Mon-Sat 9:00-17:30; museum 10:00-17:30",
+   "i": "la historia, la política y los monumentos nacionales",
+   "i_en": "history, politics and national landmarks"
+  },
+  "w_dub_natmuseum": {
+   "id": "w_dub_natmuseum",
+   "d": "Alberga la mayor colección de orfebrería céltica y vikinga del mundo, incluidos el Broche de Tara y el Cáliz de Ardagh. Sus famosos 'cuerpos de las ciénagas', conservados durante milenios, fascinan a los visitantes. Entrada gratuita.",
+   "d_en": "Home to the world's finest collection of Celtic and Viking gold, including the Tara Brooch and the Ardagh Chalice. Its famous 'bog bodies', preserved for millennia, fascinate visitors. Free admission.",
+   "h": "Mar-Sáb 10:00-17:00, Dom 13:00-17:00 (cerrado lunes)",
+   "h_en": "Tue-Sat 10:00-17:00, Sun 13:00-17:00 (closed Monday)",
+   "i": "la arqueología, el arte céltico y la historia antigua",
+   "i_en": "archaeology, Celtic art and ancient history"
+  },
+  "w_dub_dublinia": {
+   "id": "w_dub_dublinia",
+   "d": "Museo de historia viva junto a Christ Church que recrea la vida en la Dublín vikinga y medieval con reconstrucciones a tamaño real, personajes y actividades interactivas. Ideal para familias y muy divertido para los niños.",
+   "d_en": "A living-history museum next to Christ Church recreating life in Viking and medieval Dublin with life-size reconstructions, costumed characters and hands-on activities. Great for families and fun for kids.",
+   "h": "Todos los días 10:00-17:30 (última entrada 16:30)",
+   "h_en": "Daily 10:00-17:30 (last entry 16:30)",
+   "i": "la historia vikinga, los museos interactivos y los planes en familia",
+   "i_en": "Viking history, interactive museums and family outings"
+  },
+  "w_dub_customhouse": {
+   "id": "w_dub_customhouse",
+   "d": "Obra maestra del arquitecto James Gandon terminada en 1791, con su cúpula verde y estatuas alegóricas de los ríos de Irlanda. Es uno de los edificios georgianos más bellos de la ciudad y luce espléndido iluminado de noche.",
+   "d_en": "A masterpiece by architect James Gandon completed in 1791, with its green dome and allegorical statues of Ireland's rivers. It is one of the city's finest Georgian buildings and looks splendid lit up at night.",
+   "h": "Exterior visible 24 h; centro de visitantes con horario variable",
+   "h_en": "Exterior viewable 24h; visitor centre with variable hours",
+   "i": "la arquitectura, la fotografía y los paseos junto al río",
+   "i_en": "architecture, photography and riverside walks"
+  },
+  "w_dub_stephensgreen": {
+   "id": "w_dub_stephensgreen",
+   "d": "Nueve hectáreas de jardines victorianos con lago, fuentes, esculturas y macizos de flores, al final de Grafton Street. Es el pulmón verde favorito de los dublineses para pasear, hacer picnic o descansar entre compras.",
+   "d_en": "Nine hectares of Victorian gardens with a lake, fountains, sculptures and flowerbeds at the end of Grafton Street. It is Dubliners' favourite green lung for strolling, picnicking or resting between shops.",
+   "h": "Lun-Sáb desde 7:30, Dom desde 9:30 hasta el anochecer",
+   "h_en": "Mon-Sat from 7:30, Sun from 9:30 until dusk",
+   "i": "los parques, los picnics y relajarte al aire libre",
+   "i_en": "parks, picnics and relaxing outdoors"
+  },
+  "w_dub_phoenix": {
+   "id": "w_dub_phoenix",
+   "d": "Con más de 700 hectáreas es uno de los mayores parques cerrados de una capital europea. Alberga una manada salvaje de gamos, la residencia del presidente de Irlanda, el zoo de Dublín y el monumento Wellington. Ideal para caminar o pedalear.",
+   "d_en": "At over 700 hectares it is one of Europe's largest enclosed capital-city parks. It is home to a wild fallow deer herd, the Irish president's residence, Dublin Zoo and the Wellington Monument. Perfect for walking or cycling.",
+   "h": "Abierto 24 horas",
+   "h_en": "Open 24 hours",
+   "i": "la naturaleza, la fauna salvaje y el ciclismo",
+   "i_en": "nature, wildlife and cycling"
+  },
+  "w_dub_howth": {
+   "id": "w_dub_howth",
+   "d": "Encantador pueblo pesquero al noreste de Dublín, a 30 minutos en DART. Su famosa ruta de acantilados ofrece vistas espectaculares del mar de Irlanda y la isla de Ireland's Eye. El puerto es célebre por su marisco fresquísimo y sus focas.",
+   "d_en": "A charming fishing village northeast of Dublin, 30 minutes by DART. Its famous cliff walk offers spectacular views of the Irish Sea and Ireland's Eye island. The harbour is renowned for its fresh seafood and resident seals.",
+   "h": "Acceso libre; senderos mejor de día",
+   "h_en": "Free access; trails best during daylight",
+   "i": "el senderismo, la costa y los pueblos pesqueros",
+   "i_en": "hiking, the coast and fishing villages"
+  },
+  "w_dub_merrion": {
+   "id": "w_dub_merrion",
+   "d": "Elegante plaza rodeada de casas georgianas con sus famosas puertas de colores. Sus jardines centrales acogen la colorida estatua reclinada de Oscar Wilde, que vivió enfrente, y una feria de arte al aire libre los domingos.",
+   "d_en": "An elegant square ringed by Georgian houses with their famous colourful doors. Its central gardens feature the colourful reclining statue of Oscar Wilde, who lived opposite, and an open-air art market on Sundays.",
+   "h": "Todos los días del amanecer al anochecer",
+   "h_en": "Daily from dawn to dusk",
+   "i": "la arquitectura georgiana, la literatura y los jardines",
+   "i_en": "Georgian architecture, literature and gardens"
+  },
+  "w_dub_iveagh": {
+   "id": "w_dub_iveagh",
+   "d": "Conocidos como los 'jardines secretos' de Dublín, son un remanso de paz escondido tras St Stephen's Green. Cuentan con una cascada de rocalla, fuentes, un laberinto de setos y un pradera, lejos del bullicio turístico.",
+   "d_en": "Known as Dublin's 'secret gardens', a peaceful haven hidden behind St Stephen's Green. They feature a rockery waterfall, fountains, a yew maze and a lawn, away from the tourist bustle.",
+   "h": "Lun-Sáb 8:00-18:00, Dom 10:00-18:00 (varía por temporada)",
+   "h_en": "Mon-Sat 8:00-18:00, Sun 10:00-18:00 (varies by season)",
+   "i": "los jardines tranquilos, los rincones secretos y la calma",
+   "i_en": "quiet gardens, secret spots and calm"
+  },
+  "w_dub_botanic": {
+   "id": "w_dub_botanic",
+   "d": "Fundados en 1795 en Glasnevin, albergan más de 15.000 especies de plantas y unos magníficos invernaderos de hierro y cristal del siglo XIX. Entrada gratuita y un remanso botánico junto al histórico cementerio de Glasnevin.",
+   "d_en": "Founded in 1795 in Glasnevin, they hold over 15,000 plant species and magnificent 19th-century iron-and-glass glasshouses. Free admission and a botanical haven next to the historic Glasnevin Cemetery.",
+   "h": "Todos los días desde 9:00 (cierre variable, hasta 18:00 en verano)",
+   "h_en": "Daily from 9:00 (variable closing, up to 18:00 in summer)",
+   "i": "la botánica, los invernaderos y los paseos tranquilos",
+   "i_en": "botany, glasshouses and quiet walks"
+  },
+  "w_dub_templebar": {
+   "id": "w_dub_templebar",
+   "d": "El barrio bohemio y más animado de Dublín, con calles empedradas, galerías, mercados y decenas de pubs con música en directo. De día ofrece cultura y mercadillos; de noche se convierte en el epicentro de la vida nocturna.",
+   "d_en": "Dublin's bohemian and liveliest quarter, with cobbled streets, galleries, markets and dozens of pubs with live music. By day it offers culture and markets; by night it becomes the epicentre of nightlife.",
+   "h": "Barrio abierto siempre; pubs hasta la madrugada",
+   "h_en": "Neighbourhood always open; pubs until late",
+   "i": "la vida nocturna, la música en directo y el ambiente",
+   "i_en": "nightlife, live music and atmosphere"
+  },
+  "w_dub_grafton": {
+   "id": "w_dub_grafton",
+   "d": "La principal calle comercial peatonal de Dublín, animada por artistas callejeros que a veces incluyen a futuras estrellas. Reúne grandes marcas, la histórica cafetería Bewley's y la joyería Weir's, entre St Stephen's Green y Trinity.",
+   "d_en": "Dublin's main pedestrian shopping street, alive with buskers who have sometimes included future stars. It brings together big brands, the historic Bewley's café and Weir's jewellers, between St Stephen's Green and Trinity.",
+   "h": "Tiendas Lun-Sáb 9:00-19:00, Dom horario reducido",
+   "h_en": "Shops Mon-Sat 9:00-19:00, Sun reduced hours",
+   "i": "las compras, la música callejera y el ambiente urbano",
+   "i_en": "shopping, street music and city buzz"
+  },
+  "w_dub_zoo": {
+   "id": "w_dub_zoo",
+   "d": "Inaugurado en 1831 dentro de Phoenix Park, es uno de los zoológicos más antiguos y queridos del mundo. Alberga leones, elefantes asiáticos, gorilas y una gran sabana africana. Muy popular entre familias con niños.",
+   "d_en": "Opened in 1831 within Phoenix Park, it is one of the world's oldest and best-loved zoos. It houses lions, Asian elephants, gorillas and a large African savanna. Very popular with families.",
+   "h": "Todos los días desde 9:30 (cierre variable según temporada)",
+   "h_en": "Daily from 9:30 (variable closing by season)",
+   "i": "los animales, los planes en familia y la naturaleza",
+   "i_en": "animals, family outings and nature"
+  },
+  "w_dub_jameson": {
+   "id": "w_dub_jameson",
+   "d": "En la destilería original de Bow Street, donde Jameson elaboró whiskey desde 1780, tours guiados explican el proceso de triple destilación e incluyen catas comparativas. Hay talleres de cócteles y de mezcla de whiskey para los más curiosos.",
+   "d_en": "At the original Bow Street distillery, where Jameson made whiskey from 1780, guided tours explain the triple-distillation process and include comparative tastings. Cocktail and whiskey-blending workshops are on offer too.",
+   "h": "Todos los días 10:00-18:00 (reserva recomendada)",
+   "h_en": "Daily 10:00-18:00 (booking recommended)",
+   "i": "el whiskey, las catas y las experiencias guiadas",
+   "i_en": "whiskey, tastings and guided experiences"
+  },
+  "w_dub_oconnell": {
+   "id": "w_dub_oconnell",
+   "d": "La avenida principal y más ancha de Dublín, jalonada de monumentos y presidida por The Spire, una aguja de acero inoxidable de 120 metros erigida en 2003. Reúne estatuas históricas, grandes almacenes y una intensa vida ciudadana.",
+   "d_en": "Dublin's main and widest boulevard, lined with monuments and crowned by The Spire, a 120-metre stainless-steel needle erected in 2003. It gathers historic statues, department stores and busy city life.",
+   "h": "Avenida abierta siempre",
+   "h_en": "Boulevard always open",
+   "i": "los paseos urbanos, la arquitectura y las compras",
+   "i_en": "city strolls, architecture and shopping"
+  },
+  "w_dub_natgallery": {
+   "id": "w_dub_natgallery",
+   "d": "Alberga la colección nacional de arte, con obras de Caravaggio, Vermeer, Monet y Picasso, junto a la mayor colección del artista irlandés Jack B. Yeats. Su luminoso atrio Millennium Wing es un placer arquitectónico. Entrada gratuita.",
+   "d_en": "Home to the national art collection, with works by Caravaggio, Vermeer, Monet and Picasso, plus the largest collection of Irish artist Jack B. Yeats. Its bright Millennium Wing atrium is an architectural treat. Free admission.",
+   "h": "Lun-Sáb 9:15-17:30, Jue hasta 20:30, Dom 11:00-17:30",
+   "h_en": "Mon-Sat 9:15-17:30, Thu until 20:30, Sun 11:00-17:30",
+   "i": "el arte, la pintura clásica y los museos",
+   "i_en": "art, classical painting and museums"
+  },
+  "w_dub_brazenhead": {
+   "id": "w_dub_brazenhead",
+   "d": "Fundado en 1198, presume de ser el pub más antiguo de Irlanda. Sirve estofados irlandeses, fish and chips y guisos con Guinness en un ambiente lleno de historia, con música tradicional en directo y veladas de cuentacuentos.",
+   "d_en": "Founded in 1198, it claims to be Ireland's oldest pub. It serves Irish stew, fish and chips and Guinness casseroles in a history-filled setting, with live traditional music and storytelling evenings.",
+   "h": "Todos los días 12:00-23:30",
+   "h_en": "Daily 12:00-23:30",
+   "i": "los pubs históricos, la música tradicional y la comida casera",
+   "i_en": "historic pubs, traditional music and hearty food"
+  },
+  "w_dub_thetemplebarpub": {
+   "id": "w_dub_thetemplebarpub",
+   "d": "El pub más fotografiado de Dublín, con su llamativa fachada roja y flores. Ofrece la mayor selección de whiskey de Irlanda, música tradicional en vivo durante todo el día y una carta de platos de pub y marisco. Muy turístico y animado.",
+   "d_en": "Dublin's most photographed pub, with its striking red flower-decked facade. It offers Ireland's largest whiskey selection, live traditional music all day and a menu of pub classics and seafood. Very touristy and lively.",
+   "h": "Todos los días 10:30-01:30",
+   "h_en": "Daily 10:30-01:30",
+   "i": "el ambiente festivo, la música en directo y el whiskey",
+   "i_en": "the party atmosphere, live music and whiskey"
+  },
+  "w_dub_leoburdock": {
+   "id": "w_dub_leoburdock",
+   "d": "Institución dublinesa fundada en 1913 junto a Christ Church, considerada por muchos el mejor fish and chips de la ciudad. Su bacalao rebozado y sus patatas fritas envueltas en papel han conquistado hasta a celebridades. Solo para llevar.",
+   "d_en": "A Dublin institution founded in 1913 by Christ Church, rated by many the city's best fish and chips. Its battered cod and paper-wrapped chips have won over even celebrities. Takeaway only.",
+   "h": "Todos los días 12:00-23:00",
+   "h_en": "Daily 12:00-23:00",
+   "i": "la comida callejera, el fish and chips y los sabores clásicos",
+   "i_en": "street food, fish and chips and classic flavours"
+  },
+  "w_dub_boxty": {
+   "id": "w_dub_boxty",
+   "d": "En pleno Temple Bar, este restaurante rescata la cocina rural irlandesa y su plato estrella, el boxty: una tortita de patata rellena. También sirve estofados, cordero y bacalao con un toque casero en un ambiente acogedor y tradicional.",
+   "d_en": "In the heart of Temple Bar, this restaurant revives rural Irish cooking and its signature dish, boxty: a stuffed potato pancake. It also serves stews, lamb and cod with a homely touch in a cosy, traditional setting.",
+   "h": "Todos los días 12:00-22:00",
+   "h_en": "Daily 12:00-22:00",
+   "i": "la cocina tradicional, los sabores locales y los platos caseros",
+   "i_en": "traditional cooking, local flavours and homely dishes"
+  },
+  "w_dub_bewleys": {
+   "id": "w_dub_bewleys",
+   "d": "Cafetería emblemática abierta en 1927, célebre por sus vidrieras de Harry Clarke, sus techos altos y su repostería. Un clásico de Dublín para tomar café, tarta o un desayuno completo irlandés en un ambiente elegante y literario.",
+   "d_en": "An emblematic café opened in 1927, famous for its Harry Clarke stained-glass windows, high ceilings and pastries. A Dublin classic for coffee, cake or a full Irish breakfast in an elegant, literary setting.",
+   "h": "Todos los días 8:00-19:00",
+   "h_en": "Daily 8:00-19:00",
+   "i": "los cafés históricos, la repostería y los desayunos",
+   "i_en": "historic cafés, pastries and breakfasts"
+  },
+  "w_dub_windingstair": {
+   "id": "w_dub_windingstair",
+   "d": "Encantador restaurante situado sobre una histórica librería, con vistas al puente Ha'penny y el río Liffey. Ofrece cocina irlandesa moderna con productos de temporada de granjas locales, en un ambiente íntimo y literario muy valorado.",
+   "d_en": "A charming restaurant set above a historic bookshop, overlooking the Ha'penny Bridge and the Liffey. It serves modern Irish cuisine with seasonal produce from local farms, in an intimate, literary setting that is highly rated.",
+   "h": "Todos los días 12:00-22:00",
+   "h_en": "Daily 12:00-22:00",
+   "i": "la gastronomía moderna, los productos locales y las vistas al río",
+   "i_en": "modern dining, local produce and river views"
+  }
+ },
+ "food": {
+  "w_dub_brazenhead": {
+   "cuisine": "Irlandesa tradicional / pub",
+   "price": "18–30 €",
+   "hours": "Todos los días 12:00-23:30 (música en directo por la noche)"
+  },
+  "w_dub_thetemplebarpub": {
+   "cuisine": "Pub irlandés / marisco",
+   "price": "20–35 €",
+   "hours": "Todos los días 10:30-01:30 (música en directo continua)"
+  },
+  "w_dub_leoburdock": {
+   "cuisine": "Fish and chips / comida rápida",
+   "price": "9–16 €",
+   "hours": "Todos los días 12:00-23:00"
+  },
+  "w_dub_boxty": {
+   "cuisine": "Irlandesa tradicional",
+   "price": "20–35 €",
+   "hours": "Todos los días 12:00-22:00"
+  },
+  "w_dub_bewleys": {
+   "cuisine": "Café / repostería / desayunos",
+   "price": "8–20 €",
+   "hours": "Todos los días 8:00-19:00"
+  },
+  "w_dub_windingstair": {
+   "cuisine": "Irlandesa moderna / de temporada",
+   "price": "35–55 €",
+   "hours": "Todos los días 12:00-22:00 (reserva recomendada)"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Dublín",
+   "items": [
+    {
+     "name": "Whiskey irlandés (Jameson, Teeling)",
+     "price": "25–60 €",
+     "desc": "Botella de whiskey destilado en Irlanda, ideal como regalo."
+    },
+    {
+     "name": "Jersey de lana de Aran",
+     "price": "50–120 €",
+     "desc": "Prenda tradicional de lana con puntos entrelazados."
+    },
+    {
+     "name": "Merchandising de Guinness",
+     "price": "10–35 €",
+     "desc": "Vasos, camisetas y delantales con el arpa negra."
+    },
+    {
+     "name": "Joyería con símbolo Claddagh",
+     "price": "20–150 €",
+     "desc": "Anillo o colgante con manos, corazón y corona."
+    },
+    {
+     "name": "Té Barry's o Bewley's",
+     "price": "5–15 €",
+     "desc": "Té negro irlandés muy popular para el desayuno."
+    },
+    {
+     "name": "Libro de Kells (réplica/lámina)",
+     "price": "8–40 €",
+     "desc": "Reproducción del célebre manuscrito iluminado."
+    }
+   ],
+   "shops": [
+    "Guinness Storehouse Gift Shop",
+    "Carrolls Irish Gifts (varias en O'Connell y Grafton)",
+    "Avoca (Suffolk St)",
+    "House of Ireland (Nassau St)",
+    "Kilkenny Design (Nassau St)"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "El Leap Card ahorra en autobuses, Luas (tranvía) y DART; imprescindible para llegar a Howth.",
+   "Reserva online el Book of Kells y la Guinness Storehouse con antelación para evitar colas.",
+   "Kilmainham Gaol solo se visita con tour guiado y las entradas vuelan; cómpralas semanas antes.",
+   "Lleva siempre chaqueta impermeable: en Dublín puede llover en cualquier estación y momento.",
+   "El casco histórico es compacto y muy caminable; casi todo se recorre a pie en 20-30 minutos."
+  ],
+  "en": [
+   "The Leap Card saves money on buses, the Luas (tram) and DART; essential for reaching Howth.",
+   "Book the Book of Kells and Guinness Storehouse online in advance to skip the queues.",
+   "Kilmainham Gaol is guided-tour only and sells out fast; buy tickets weeks ahead.",
+   "Always carry a waterproof jacket: Dublin can get rain in any season and at any time.",
+   "The historic core is compact and very walkable; most sights are 20-30 minutes apart on foot."
+  ]
+ },
+ "climate": {
+  "hi": [
+   8,
+   8,
+   10,
+   12,
+   15,
+   18,
+   19,
+   19,
+   17,
+   14,
+   10,
+   8
+  ],
+  "lo": [
+   3,
+   3,
+   4,
+   5,
+   7,
+   10,
+   12,
+   12,
+   10,
+   8,
+   5,
+   4
+  ]
+ },
+ "tr": {
+  "Universidad histórica que alberga el Libro de Kells y la Long Room.": "Historic university home to the Book of Kells and the Long Room.",
+  "Museo de la cerveza Guinness con bar panorámico Gravity.": "Guinness beer experience with the panoramic Gravity Bar.",
+  "Antiguo centro del poder británico con salas de Estado.": "Former seat of British power with grand State Apartments.",
+  "La mayor catedral de Irlanda, ligada a San Patricio.": "Ireland's largest cathedral, linked to St Patrick.",
+  "Catedral medieval con la cripta más antigua de Dublín.": "Medieval cathedral with Dublin's oldest crypt.",
+  "Prisión histórica clave en la lucha por la independencia.": "Historic prison central to the fight for independence.",
+  "Icónico puente peatonal de hierro sobre el río Liffey.": "Iconic cast-iron pedestrian bridge over the Liffey.",
+  "Museo interactivo sobre la emigración irlandesa al mundo.": "Interactive museum on Irish emigration worldwide.",
+  "Cuartel general del Alzamiento de Pascua de 1916.": "Headquarters of the 1916 Easter Rising.",
+  "Tesoros célticos, oro prehistórico y cuerpos de las ciénagas.": "Celtic treasures, prehistoric gold and bog bodies.",
+  "Experiencia inmersiva sobre la Dublín vikinga y medieval.": "Immersive experience of Viking and medieval Dublin.",
+  "Majestuoso edificio neoclásico a orillas del Liffey.": "Majestic neoclassical building on the Liffey quays.",
+  "Parque victoriano ajardinado en el corazón de la ciudad.": "Victorian landscaped park in the heart of the city.",
+  "Uno de los mayores parques urbanos de Europa con ciervos.": "One of Europe's largest urban parks, home to wild deer.",
+  "Pueblo pesquero con ruta de acantilados y vistas al mar.": "Fishing village with a cliff walk and sea views.",
+  "Plaza georgiana con jardines y la estatua de Oscar Wilde.": "Georgian square with gardens and the Oscar Wilde statue.",
+  "Jardín secreto y tranquilo con cascada y fuentes.": "Tranquil secret garden with a waterfall and fountains.",
+  "Jardines históricos con espectaculares invernaderos victorianos.": "Historic gardens with spectacular Victorian glasshouses.",
+  "Barrio cultural de callejones empedrados, pubs y música.": "Cultural quarter of cobbled lanes, pubs and live music.",
+  "Calle comercial peatonal con tiendas y músicos callejeros.": "Pedestrian shopping street with shops and buskers.",
+  "Uno de los zoos más antiguos del mundo, dentro de Phoenix Park.": "One of the world's oldest zoos, inside Phoenix Park.",
+  "Experiencia guiada sobre el whiskey Jameson con catas.": "Guided Jameson whiskey experience with tastings.",
+  "La gran avenida de Dublín con la aguja de The Spire.": "Dublin's grand boulevard with The Spire monument.",
+  "Pinacoteca nacional con arte europeo e irlandés.": "National art gallery with European and Irish art.",
+  "El pub más antiguo de Irlanda, con cocina tradicional.": "Ireland's oldest pub, serving traditional fare.",
+  "Icónico pub rojo con música en directo todo el día.": "Iconic red pub with live music all day.",
+  "Legendaria pescadería-freiduría de fish and chips desde 1913.": "Legendary fish and chips chipper since 1913.",
+  "Cocina tradicional irlandesa especializada en boxty.": "Traditional Irish restaurant specialising in boxty.",
+  "Histórico café con vidrieras Art Déco en Grafton Street.": "Historic Art Deco café with stained glass on Grafton St.",
+  "Restaurante de cocina irlandesa moderna sobre una librería.": "Modern Irish restaurant above a bookshop.",
+  "Dublín": "Dublín"
+ }
+}

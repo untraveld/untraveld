@@ -1,0 +1,708 @@
+{
+ "id": "kualalumpur",
+ "name": "Kuala Lumpur",
+ "country": "WORLD",
+ "center": [
+  3.1478,
+  101.6953
+ ],
+ "pois": [
+  {
+   "id": "w_kul_petronas",
+   "cat": "monuments",
+   "name": "Torres Petronas (KLCC)",
+   "icon": "🏙️",
+   "lat": 3.15785,
+   "lng": 101.71187,
+   "desc": "Rascacielos gemelos de acero y su icónico puente aéreo."
+  },
+  {
+   "id": "w_kul_batu_caves",
+   "cat": "monuments",
+   "name": "Cuevas de Batu (Batu Caves)",
+   "icon": "🛕",
+   "lat": 3.2379,
+   "lng": 101.6839,
+   "desc": "Templo hindú en cuevas de piedra caliza con una escalera de colores."
+  },
+  {
+   "id": "w_kul_kl_tower",
+   "cat": "monuments",
+   "name": "Torre KL (Menara KL)",
+   "icon": "🗼",
+   "lat": 3.15281,
+   "lng": 101.7036,
+   "desc": "Torre de telecomunicaciones con mirador y suelo de cristal."
+  },
+  {
+   "id": "w_kul_merdeka_square",
+   "cat": "monuments",
+   "name": "Plaza Merdeka (Dataran Merdeka)",
+   "icon": "🚩",
+   "lat": 3.1478,
+   "lng": 101.6935,
+   "desc": "Explanada histórica donde se proclamó la independencia de Malasia."
+  },
+  {
+   "id": "w_kul_national_mosque",
+   "cat": "monuments",
+   "name": "Mezquita Nacional (Masjid Negara)",
+   "icon": "🕌",
+   "lat": 3.1418,
+   "lng": 101.6917,
+   "desc": "Mezquita moderna de tejado plegado en forma de estrella."
+  },
+  {
+   "id": "w_kul_sultan_abdul_samad",
+   "cat": "monuments",
+   "name": "Edificio Sultan Abdul Samad",
+   "icon": "🏛️",
+   "lat": 3.1487,
+   "lng": 101.6944,
+   "desc": "Palacio colonial de ladrillo rojo con torre del reloj."
+  },
+  {
+   "id": "w_kul_sri_mahamariamman",
+   "cat": "monuments",
+   "name": "Templo Sri Mahamariamman",
+   "icon": "🛕",
+   "lat": 3.14375,
+   "lng": 101.6964,
+   "desc": "El templo hindú más antiguo de Kuala Lumpur, junto a Chinatown."
+  },
+  {
+   "id": "w_kul_thean_hou",
+   "cat": "monuments",
+   "name": "Templo Thean Hou",
+   "icon": "🏮",
+   "lat": 3.12181,
+   "lng": 101.6877,
+   "desc": "Espectacular templo chino de seis niveles sobre una colina."
+  },
+  {
+   "id": "w_kul_masjid_jamek",
+   "cat": "monuments",
+   "name": "Mezquita Jamek (Masjid Jamek)",
+   "icon": "🕌",
+   "lat": 3.149,
+   "lng": 101.6954,
+   "desc": "Mezquita mogol en la confluencia de los dos ríos de la ciudad."
+  },
+  {
+   "id": "w_kul_merdeka_118",
+   "cat": "monuments",
+   "name": "Merdeka 118",
+   "icon": "🏙️",
+   "lat": 3.1417,
+   "lng": 101.7003,
+   "desc": "El rascacielos más alto de Malasia y segundo del mundo."
+  },
+  {
+   "id": "w_kul_federal_mosque",
+   "cat": "monuments",
+   "name": "Mezquita del Territorio Federal",
+   "icon": "🕌",
+   "lat": 3.1723,
+   "lng": 101.6666,
+   "desc": "Gran mezquita de cúpulas rosadas inspirada en las otomanas."
+  },
+  {
+   "id": "w_kul_petaling_chinatown",
+   "cat": "monuments",
+   "name": "Petaling Street (Chinatown)",
+   "icon": "🏮",
+   "lat": 3.1436,
+   "lng": 101.6983,
+   "desc": "El corazón histórico chino con arco rojo y mercado nocturno."
+  },
+  {
+   "id": "w_kul_klcc_park",
+   "cat": "nature",
+   "name": "Parque KLCC",
+   "icon": "🌳",
+   "lat": 3.1568,
+   "lng": 101.7136,
+   "desc": "Parque urbano a los pies de las Torres Petronas."
+  },
+  {
+   "id": "w_kul_bird_park",
+   "cat": "nature",
+   "name": "Parque de las Aves (KL Bird Park)",
+   "icon": "🦜",
+   "lat": 3.1429,
+   "lng": 101.6883,
+   "desc": "El mayor aviario de vuelo libre cubierto del mundo."
+  },
+  {
+   "id": "w_kul_perdana_gardens",
+   "cat": "nature",
+   "name": "Jardines Botánicos Perdana",
+   "icon": "🌳",
+   "lat": 3.1433,
+   "lng": 101.6868,
+   "desc": "El pulmón verde histórico de la ciudad, antiguos Jardines del Lago."
+  },
+  {
+   "id": "w_kul_butterfly_park",
+   "cat": "nature",
+   "name": "Parque de las Mariposas",
+   "icon": "🦋",
+   "lat": 3.1467,
+   "lng": 101.6857,
+   "desc": "Jardín tropical con miles de mariposas en vuelo libre."
+  },
+  {
+   "id": "w_kul_bukit_nanas",
+   "cat": "nature",
+   "name": "Bosque Ecológico Bukit Nanas",
+   "icon": "🌿",
+   "lat": 3.152,
+   "lng": 101.7013,
+   "desc": "Reserva de selva tropical virgen en pleno centro urbano."
+  },
+  {
+   "id": "w_kul_titiwangsa",
+   "cat": "nature",
+   "name": "Jardines del Lago Titiwangsa",
+   "icon": "🚣",
+   "lat": 3.1772,
+   "lng": 101.7056,
+   "desc": "Lago recreativo con la mejor panorámica del perfil urbano."
+  },
+  {
+   "id": "w_kul_bukit_bintang",
+   "cat": "ocio",
+   "name": "Bukit Bintang",
+   "icon": "🛍️",
+   "lat": 3.1469,
+   "lng": 101.711,
+   "desc": "El barrio de moda: compras, ocio y vida nocturna."
+  },
+  {
+   "id": "w_kul_central_market",
+   "cat": "ocio",
+   "name": "Central Market (Pasar Seni)",
+   "icon": "🎨",
+   "lat": 3.1452,
+   "lng": 101.6957,
+   "desc": "Mercado art déco de artesanía y arte malayo."
+  },
+  {
+   "id": "w_kul_aquaria_klcc",
+   "cat": "ocio",
+   "name": "Aquaria KLCC",
+   "icon": "🐠",
+   "lat": 3.1534,
+   "lng": 101.7136,
+   "desc": "Acuario con túnel submarino bajo el centro de convenciones."
+  },
+  {
+   "id": "w_kul_berjaya_times_square",
+   "cat": "ocio",
+   "name": "Berjaya Times Square",
+   "icon": "🎢",
+   "lat": 3.1426,
+   "lng": 101.7105,
+   "desc": "Centro comercial gigante con parque temático cubierto."
+  },
+  {
+   "id": "w_kul_pavilion",
+   "cat": "ocio",
+   "name": "Pavilion Kuala Lumpur",
+   "icon": "🛍️",
+   "lat": 3.1493,
+   "lng": 101.7134,
+   "desc": "Centro comercial de lujo, referencia de las compras en la ciudad."
+  },
+  {
+   "id": "w_kul_river_of_life",
+   "cat": "ocio",
+   "name": "River of Life",
+   "icon": "💧",
+   "lat": 3.1493,
+   "lng": 101.6951,
+   "desc": "Paseo ribereño iluminado en la confluencia fundacional de KL."
+  },
+  {
+   "id": "w_kul_jalan_alor",
+   "cat": "food",
+   "name": "Jalan Alor",
+   "icon": "🍢",
+   "lat": 3.1457,
+   "lng": 101.7088,
+   "desc": "La calle gastronómica más famosa de Kuala Lumpur."
+  },
+  {
+   "id": "w_kul_lot10_hutong",
+   "cat": "food",
+   "name": "Lot 10 Hutong",
+   "icon": "🍜",
+   "lat": 3.1468,
+   "lng": 101.7104,
+   "desc": "Patio gastronómico con puestos legendarios bajo un solo techo."
+  },
+  {
+   "id": "w_kul_madam_kwans",
+   "cat": "food",
+   "name": "Madam Kwan's (KLCC)",
+   "icon": "🍛",
+   "lat": 3.157,
+   "lng": 101.712,
+   "desc": "Restaurante icónico de cocina malaya casera."
+  },
+  {
+   "id": "w_kul_yut_kee",
+   "cat": "food",
+   "name": "Restaurante Yut Kee",
+   "icon": "🍳",
+   "lat": 3.1569,
+   "lng": 101.6989,
+   "desc": "Cafetería hainanesa de 1928, institución del desayuno en KL."
+  },
+  {
+   "id": "w_kul_nasi_kandar",
+   "cat": "food",
+   "name": "Nasi Kandar (Restoran Yusoof dan Zakhir)",
+   "icon": "🍛",
+   "lat": 3.14505,
+   "lng": 101.69583,
+   "desc": "Casa de arroz al curry indio-musulmán abierta día y noche."
+  },
+  {
+   "id": "w_kul_precious_old_china",
+   "cat": "food",
+   "name": "Precious Old China",
+   "icon": "🍜",
+   "lat": 3.1452,
+   "lng": 101.6956,
+   "desc": "Restaurante nyonya de ambiente vintage en Central Market."
+  }
+ ],
+ "extra": {
+  "w_kul_petronas": {
+   "id": "w_kul_petronas",
+   "d": "Inauguradas en 1998 y diseñadas por César Pelli, con 452 m fueron los edificios más altos del mundo hasta 2004. Su planta en forma de estrella de ocho puntas se inspira en motivos islámicos. Un puente de dos niveles une las torres en las plantas 41 y 42, y un mirador ocupa la 86.",
+   "d_en": "Opened in 1998 and designed by César Pelli, at 452 m they were the world's tallest buildings until 2004. The eight-point-star floor plan draws on Islamic motifs. A two-level skybridge links the towers on floors 41-42, with an observation deck on floor 86.",
+   "h": "Abierto mar-dom 9:00-21:00; cerrado los lunes.",
+   "h_en": "Open Tue-Sun 9:00-21:00; closed Mondays.",
+   "i": "Compra la entrada online con antelación y ve al anochecer para ver las torres iluminadas desde el parque KLCC.",
+   "i_en": "Book tickets online in advance and go at dusk to see the towers lit up from KLCC Park."
+  },
+  "w_kul_batu_caves": {
+   "id": "w_kul_batu_caves",
+   "d": "Complejo de cuevas calizas de 400 millones de años convertido en santuario hindú dedicado a Murugan. La estatua dorada del dios, de 42,7 m, custodia los 272 escalones multicolores que suben a la Cueva del Templo. Es el epicentro del festival Thaipusam, que reúne a más de un millón de peregrinos.",
+   "d_en": "A 400-million-year-old limestone cave complex turned Hindu shrine to Lord Murugan. The 42.7 m golden statue of the deity guards the 272 rainbow-coloured steps up to Temple Cave. It is the heart of the Thaipusam festival, which draws over a million pilgrims.",
+   "h": "Abierto a diario 7:00-21:00; entrada gratuita.",
+   "h_en": "Open daily 7:00-21:00; free entry.",
+   "i": "Ve temprano para evitar el calor y los monos; cubre hombros y rodillas por respeto.",
+   "i_en": "Go early to beat the heat and the monkeys; cover shoulders and knees out of respect."
+  },
+  "w_kul_kl_tower": {
+   "id": "w_kul_kl_tower",
+   "d": "Con 421 m es la séptima torre de telecomunicaciones más alta del mundo. Levantada en 1996 sobre la colina de Bukit Nanas, ofrece un mirador cerrado a 276 m y una plataforma exterior Sky Deck con caja de cristal (Sky Box). Su base recuerda a un torneado alminar islámico.",
+   "d_en": "At 421 m it is the world's seventh-tallest telecoms tower. Built in 1996 atop Bukit Nanas hill, it has an enclosed observation deck at 276 m and an open-air Sky Deck with a glass Sky Box. Its base echoes a turned Islamic minaret.",
+   "h": "Abierto a diario 9:00-22:00.",
+   "h_en": "Open daily 9:00-22:00.",
+   "i": "Sube al Sky Deck exterior en vez del mirador cerrado para las mejores fotos con las Petronas de fondo.",
+   "i_en": "Choose the open-air Sky Deck over the enclosed deck for the best photos with the Petronas towers behind."
+  },
+  "w_kul_merdeka_square": {
+   "id": "w_kul_merdeka_square",
+   "d": "En este césped, antiguo campo de críquet del club Selangor, se arrió la bandera británica y se izó la malaya la medianoche del 31 de agosto de 1957. Un mástil de 95 m marca el punto. Alrededor se alinean el club Royal Selangor, la fuente victoriana y el edificio Sultan Abdul Samad.",
+   "d_en": "On this lawn, once the Selangor Club cricket pitch, the British flag was lowered and the Malaysian one raised at midnight on 31 August 1957. A 95 m flagpole marks the spot. Around it stand the Royal Selangor Club, a Victorian fountain and the Sultan Abdul Samad Building.",
+   "h": "Plaza abierta las 24 horas; acceso libre.",
+   "h_en": "Open-air square, 24 hours; free access.",
+   "i": "Visítala de noche, cuando el letrero 'Kuala Lumpur' y los edificios coloniales se iluminan.",
+   "i_en": "Come at night, when the 'Kuala Lumpur' sign and colonial buildings are floodlit."
+  },
+  "w_kul_national_mosque": {
+   "id": "w_kul_national_mosque",
+   "d": "Inaugurada en 1965 como símbolo de la independencia, acoge a 15.000 fieles. Su distintivo tejado azul de 18 puntas evoca una sombrilla abierta o una estrella, y su minarete de 73 m un paraguas cerrado. Los estanques y jardines que la rodean simbolizan frescor y paz.",
+   "d_en": "Opened in 1965 as a symbol of independence, it holds 15,000 worshippers. Its distinctive 18-point blue roof suggests an open umbrella or star, while the 73 m minaret resembles a folded parasol. Surrounding pools and gardens evoke coolness and peace.",
+   "h": "Abierto a no musulmanes fuera de las horas de rezo; cerrado viernes por la mañana.",
+   "h_en": "Open to non-Muslims outside prayer times; closed Friday mornings.",
+   "i": "Prestan túnicas gratis en la entrada; descálzate y respeta el silencio dentro de la sala de oración.",
+   "i_en": "Free robes are lent at the entrance; remove your shoes and keep quiet inside the prayer hall."
+  },
+  "w_kul_sultan_abdul_samad": {
+   "id": "w_kul_sultan_abdul_samad",
+   "d": "Terminado en 1897 como sede de la administración británica, es la joya de la arquitectura indo-sarracena de la ciudad. Sus arcos de herradura, cúpulas de cobre y una torre del reloj de 41,2 m apodada 'el Big Ben de KL' dominan la plaza Merdeka. Hoy alberga oficinas del gobierno.",
+   "d_en": "Completed in 1897 as the seat of British administration, it is the city's finest Indo-Saracenic building. Horseshoe arches, copper domes and a 41.2 m clock tower nicknamed 'KL's Big Ben' overlook Merdeka Square. Today it houses government offices.",
+   "h": "Solo exterior; no se visita el interior.",
+   "h_en": "Exterior only; the interior is not open to visitors.",
+   "i": "Fotografíalo desde el otro lado de la plaza Merdeka al atardecer, cuando se ilumina la fachada.",
+   "i_en": "Photograph it from across Merdeka Square at sunset, when the facade lights up."
+  },
+  "w_kul_sri_mahamariamman": {
+   "id": "w_kul_sri_mahamariamman",
+   "d": "Fundado en 1873, es el templo hindú más antiguo y rico de la ciudad. Su gopuram (torre de entrada) de 22,9 m rebosa de esculturas policromadas de dioses. Dentro conserva un carro de plata usado en la procesión de Thaipusam hasta las cuevas de Batu.",
+   "d_en": "Founded in 1873, it is the city's oldest and richest Hindu temple. Its 22.9 m gopuram (gateway tower) teems with brightly painted sculptures of deities. Inside it keeps a silver chariot used in the Thaipusam procession to Batu Caves.",
+   "h": "Abierto a diario 6:00-21:00; entrada gratuita.",
+   "h_en": "Open daily 6:00-21:00; free entry.",
+   "i": "Deja los zapatos en la entrada (hay guardarropa) y evita fotografiar a los fieles en oración.",
+   "i_en": "Leave your shoes at the entrance (there is a counter) and avoid photographing worshippers at prayer."
+  },
+  "w_kul_thean_hou": {
+   "id": "w_kul_thean_hou",
+   "d": "Consagrado en 1989 a Tian Hou, la diosa del mar, es uno de los templos chinos más grandes del sudeste asiático. Combina budismo, taoísmo y confucianismo entre tejados curvos, dragones tallados y cientos de farolillos rojos. Desde su terraza hay vistas del sur de la ciudad.",
+   "d_en": "Consecrated in 1989 to Tian Hou, goddess of the sea, it is one of Southeast Asia's largest Chinese temples. It blends Buddhism, Taoism and Confucianism amid sweeping roofs, carved dragons and hundreds of red lanterns. Its terrace offers views over the southern city.",
+   "h": "Abierto a diario 8:00-22:00; entrada gratuita.",
+   "h_en": "Open daily 8:00-22:00; free entry.",
+   "i": "Los farolillos se cuelgan sobre todo en Año Nuevo chino; ve entonces para la estampa más colorida.",
+   "i_en": "The lanterns hang mostly around Chinese New Year; visit then for the most colourful scene."
+  },
+  "w_kul_masjid_jamek": {
+   "id": "w_kul_masjid_jamek",
+   "d": "Inaugurada en 1909, es una de las mezquitas más antiguas de KL. Se alza justo donde se unen los ríos Klang y Gombak, el lugar fangoso ('kuala lumpur') que dio nombre a la ciudad. Sus cúpulas de cebolla, minaretes rayados y palmeras evocan la arquitectura del norte de la India.",
+   "d_en": "Opened in 1909, it is one of KL's oldest mosques. It stands exactly where the Klang and Gombak rivers meet, the muddy spot ('kuala lumpur') that gave the city its name. Onion domes, striped minarets and palm trees recall northern Indian architecture.",
+   "h": "Abierta a no musulmanes fuera de las horas de rezo.",
+   "h_en": "Open to non-Muslims outside prayer times.",
+   "i": "Combínala con el paseo ribereño iluminado 'River of Life', que arranca a sus pies.",
+   "i_en": "Pair it with the illuminated 'River of Life' riverside walk that begins at its feet."
+  },
+  "w_kul_merdeka_118": {
+   "id": "w_kul_merdeka_118",
+   "d": "Terminada en 2023, esta torre de 678,9 m y 118 plantas solo es superada por el Burj Khalifa. Su fachada de facetas de vidrio se inspira en los pliegues de la sombra de Tunku Abdul Rahman al proclamar la independencia. Corona su cima un mirador acristalado, The View at 118.",
+   "d_en": "Completed in 2023, this 678.9 m, 118-storey tower is bettered only by the Burj Khalifa. Its faceted glass facade is inspired by the folds of Tunku Abdul Rahman's silhouette as he proclaimed independence. A glazed observation deck, The View at 118, crowns the top.",
+   "h": "Mirador abierto a diario; reserva con horario asignado.",
+   "h_en": "Observation deck open daily; book a timed slot.",
+   "i": "Reserva The View at 118 online; la torre se ve bien desde el parque Merdeka 118 a sus pies.",
+   "i_en": "Book The View at 118 online; the tower is best framed from Merdeka 118 park at its base."
+  },
+  "w_kul_federal_mosque": {
+   "id": "w_kul_federal_mosque",
+   "d": "Inaugurada en 2000, mezcla estilos otomano y malayo con 22 cúpulas y capacidad para 17.000 fieles. Su gran cúpula rosa de 30 m descansa sobre columnas de mármol y jardines geométricos que recuerdan a la mezquita Azul de Estambul. Es una de las más fotogénicas de la ciudad.",
+   "d_en": "Opened in 2000, it blends Ottoman and Malay styles with 22 domes and room for 17,000 worshippers. Its 30 m pink main dome rests on marble columns amid geometric gardens reminiscent of Istanbul's Blue Mosque. It is one of the city's most photogenic mosques.",
+   "h": "Abierta a no musulmanes en franjas concretas fuera del rezo.",
+   "h_en": "Open to non-Muslims in set slots outside prayer times.",
+   "i": "Está algo apartada; combínala con los Jardines Perdana en el mismo trayecto en taxi.",
+   "i_en": "It is a bit out of the way; combine it with Perdana Gardens on the same taxi trip."
+  },
+  "w_kul_petaling_chinatown": {
+   "id": "w_kul_petaling_chinatown",
+   "d": "Corazón de la comunidad china desde el siglo XIX, esta calle peatonal cubierta por una marquesina verde es famosa por sus puestos de imitaciones, souvenirs y comida callejera. Dos arcos rojo y verde marcan sus extremos, entre templos, cafés antiguos y tiendas de hierbas.",
+   "d_en": "The heart of the Chinese community since the 19th century, this pedestrian street under a green canopy is famous for its stalls of knock-offs, souvenirs and street food. Red and green arches mark its ends, amid temples, old kopitiams and herbal shops.",
+   "h": "Mercado abierto a diario; más animado por la noche.",
+   "h_en": "Market open daily; liveliest at night.",
+   "i": "Regatea sin miedo y prueba el 'air mata kucing' o los famosos noodles de la esquina.",
+   "i_en": "Haggle freely and try the 'air mata kucing' drink or the famous corner noodle stall."
+  },
+  "w_kul_klcc_park": {
+   "id": "w_kul_klcc_park",
+   "d": "Diseñado por el paisajista brasileño Roberto Burle Marx, estas 20 hectáreas verdes rodean un lago con fuentes danzantes frente a las Petronas. Cuenta con senderos, una piscina infantil y un parque de juegos, y es el mejor lugar para fotografiar las torres reflejadas en el agua.",
+   "d_en": "Designed by Brazilian landscaper Roberto Burle Marx, these 20 green hectares wrap around a lake with dancing fountains facing the Petronas Towers. It has walking paths, a children's pool and playground, and is the best spot to photograph the towers mirrored in the water.",
+   "h": "Abierto a diario; fuentes danzantes al anochecer.",
+   "h_en": "Open daily; dancing fountains at dusk.",
+   "i": "El espectáculo de fuentes y luces 'Lake Symphony' se repite varias veces cada noche; llega hacia las 20:00.",
+   "i_en": "The 'Lake Symphony' fountain and light show runs several times nightly; arrive around 20:00."
+  },
+  "w_kul_bird_park": {
+   "id": "w_kul_bird_park",
+   "d": "Abierto en 1991 dentro de los Jardines del Lago, alberga más de 3.000 aves de unas 200 especies bajo una gran malla. Loros, cálaos, flamencos y pavos reales conviven en un entorno de selva recreada. Está dividido en zonas y ofrece espectáculos de aves rapaces varias veces al día.",
+   "d_en": "Opened in 1991 inside the Lake Gardens, it holds over 3,000 birds of some 200 species under a huge net. Parrots, hornbills, flamingos and peacocks share a recreated jungle setting. It is split into zones and stages birds-of-prey shows several times daily.",
+   "h": "Abierto a diario 9:00-18:00.",
+   "h_en": "Open daily 9:00-18:00.",
+   "i": "Lleva ropa que puedas manchar: las aves vuelan libres y a veces se posan encima.",
+   "i_en": "Wear clothes you don't mind soiling: the birds fly free and sometimes land on visitors."
+  },
+  "w_kul_perdana_gardens": {
+   "id": "w_kul_perdana_gardens",
+   "d": "Creados en 1888 como los Jardines del Lago, son el parque más antiguo de KL, con 92 hectáreas de colinas, lagos y arboledas. Reúnen jardines temáticos de orquídeas e hibiscos, un parque de aves, mariposas y ciervos, y senderos ideales para pasear o hacer footing lejos del bullicio.",
+   "d_en": "Laid out in 1888 as the Lake Gardens, they are KL's oldest park, with 92 hectares of hills, lakes and groves. They gather themed orchid and hibiscus gardens, a bird, butterfly and deer park, and trails perfect for strolling or jogging away from the bustle.",
+   "h": "Abierto a diario; acceso libre al parque.",
+   "h_en": "Open daily; free access to the park.",
+   "i": "Alquila una bici o recorre el parque a pie enlazando el jardín de orquídeas y el de hibiscos.",
+   "i_en": "Rent a bike or walk the park, linking the orchid and hibiscus gardens."
+  },
+  "w_kul_butterfly_park": {
+   "id": "w_kul_butterfly_park",
+   "d": "Inaugurado en 1993 en los Jardines del Lago, recrea una selva húmeda con más de 5.000 mariposas de unas 120 especies malayas entre cascadas y flores. Incluye un insectario y viveros donde se ven las fases de crecimiento, desde el huevo hasta la crisálida.",
+   "d_en": "Opened in 1993 in the Lake Gardens, it recreates a rainforest with over 5,000 butterflies of around 120 Malaysian species amid waterfalls and flowers. It includes an insectarium and nurseries where you can see the life stages from egg to chrysalis.",
+   "h": "Abierto a diario 9:00-16:30.",
+   "h_en": "Open daily 9:00-16:30.",
+   "i": "Ve por la mañana con sol: las mariposas están más activas y es más fácil verlas volar.",
+   "i_en": "Go on a sunny morning: the butterflies are most active and easier to see in flight."
+  },
+  "w_kul_bukit_nanas": {
+   "id": "w_kul_bukit_nanas",
+   "d": "Reserva forestal de casi 10 hectáreas protegida desde 1906, es el bosque tropical más antiguo conservado dentro de una gran ciudad. Senderos entre árboles centenarios y un puente colgante de dosel llevan hasta la base de la Torre KL, con la que forma un mismo recinto verde.",
+   "d_en": "A nearly 10-hectare forest reserve protected since 1906, it is the oldest tropical forest preserved within a major city. Trails through century-old trees and a canopy walkway lead to the foot of KL Tower, with which it shares a single green enclave.",
+   "h": "Abierto a diario 7:00-18:00; entrada gratuita.",
+   "h_en": "Open daily 7:00-18:00; free entry.",
+   "i": "Entra por Jalan Raja Chulan y combina el paseo del dosel con la subida a la Torre KL.",
+   "i_en": "Enter from Jalan Raja Chulan and combine the canopy walk with a trip up KL Tower."
+  },
+  "w_kul_titiwangsa": {
+   "id": "w_kul_titiwangsa",
+   "d": "Este parque en torno a un lago artificial es el favorito de las familias de KL para pasear, correr o remar en barca. Su orilla ofrece la postal clásica del horizonte con las Petronas, la Torre KL y Merdeka 118 alineadas al fondo, especialmente bella al atardecer.",
+   "d_en": "Built around an artificial lake, this park is a KL family favourite for walking, running or paddling a boat. Its shore offers the classic postcard of the skyline with the Petronas Towers, KL Tower and Merdeka 118 lined up behind, loveliest at sunset.",
+   "h": "Abierto a diario; barcas por la tarde.",
+   "h_en": "Open daily; boat hire in the afternoon.",
+   "i": "Ve al atardecer con teleobjetivo para captar los rascacielos reflejados en el lago.",
+   "i_en": "Come at sunset with a zoom lens to catch the skyscrapers mirrored in the lake."
+  },
+  "w_kul_bukit_bintang": {
+   "id": "w_kul_bukit_bintang",
+   "d": "Es el distrito comercial y de entretenimiento más vibrante de la ciudad, con enormes centros como Pavilion y Lot 10, hoteles de lujo y calles peatonales. De día es meca de compras y de noche se llena de bares, azoteas y la bulliciosa calle gastronómica de Jalan Alor.",
+   "d_en": "The city's most vibrant shopping and entertainment district, with vast malls like Pavilion and Lot 10, luxury hotels and pedestrian streets. By day it is a shopping mecca; by night it fills with bars, rooftops and the buzzing food street of Jalan Alor.",
+   "h": "Tiendas hasta las 22:00; ocio hasta la madrugada.",
+   "h_en": "Shops until 22:00; nightlife into the early hours.",
+   "i": "Muévete por la pasarela peatonal elevada climatizada que conecta Bukit Bintang con KLCC.",
+   "i_en": "Use the air-conditioned elevated walkway linking Bukit Bintang with KLCC."
+  },
+  "w_kul_central_market": {
+   "id": "w_kul_central_market",
+   "d": "Edificio de 1888, antiguo mercado húmedo, reconvertido en 1986 en centro de artesanía protegido por su valor art déco. Bajo su fachada azul menta se agrupan puestos de batik, tallas, souvenirs y galerías, organizados por zonas malaya, china e india, con cafés y espectáculos culturales.",
+   "d_en": "An 1888 building, once a wet market, reborn in 1986 as a crafts centre protected for its Art Deco value. Under its mint-blue facade cluster stalls of batik, carvings, souvenirs and galleries, arranged into Malay, Chinese and Indian sections, with cafes and cultural shows.",
+   "h": "Abierto a diario 10:00-22:00.",
+   "h_en": "Open daily 10:00-22:00.",
+   "i": "Prueba el Kasturi Walk exterior para comida callejera y compra batik en la sección malaya.",
+   "i_en": "Try the outdoor Kasturi Walk for street food and buy batik in the Malay section."
+  },
+  "w_kul_aquaria_klcc": {
+   "id": "w_kul_aquaria_klcc",
+   "d": "Inaugurado en 2005 bajo el KLCC, este acuario de dos plantas exhibe más de 5.000 animales acuáticos y terrestres. Su joya es un túnel de 90 m con cinta transportadora que atraviesa un gran tanque donde nadan tiburones, rayas y tortugas verdes sobre las cabezas de los visitantes.",
+   "d_en": "Opened in 2005 beneath KLCC, this two-level aquarium displays over 5,000 aquatic and land animals. Its highlight is a 90 m tunnel with a moving walkway through a large tank where sharks, rays and green turtles swim overhead.",
+   "h": "Abierto a diario 10:00-20:00.",
+   "h_en": "Open daily 10:00-20:00.",
+   "i": "Consulta el horario de alimentación de tiburones; compra la entrada online para ahorrar.",
+   "i_en": "Check the shark feeding times; buy tickets online to save money."
+  },
+  "w_kul_berjaya_times_square": {
+   "id": "w_kul_berjaya_times_square",
+   "d": "Uno de los mayores centros comerciales del mundo, alberga en su interior el Berjaya Times Square Theme Park, un parque de atracciones cubierto con montaña rusa de doble bucle, la Supersonic Odyssey, y una zona infantil. Suma cientos de tiendas, cines y restaurantes en varias plantas.",
+   "d_en": "One of the world's largest malls, it houses the indoor Berjaya Times Square Theme Park, with the double-loop Supersonic Odyssey roller coaster and a kids' zone. It packs hundreds of shops, cinemas and restaurants across many floors.",
+   "h": "Parque abierto a diario; horario ampliado en fin de semana.",
+   "h_en": "Theme park open daily; extended weekend hours.",
+   "i": "Ideal como plan de lluvia; compra el pase del parque para atracciones ilimitadas.",
+   "i_en": "A great rainy-day plan; buy the park pass for unlimited rides."
+  },
+  "w_kul_pavilion": {
+   "id": "w_kul_pavilion",
+   "d": "Abierto en 2007 en el corazón de Bukit Bintang, es el templo del lujo y las compras de KL, con más de 700 tiendas de marcas internacionales, moda, gastronomía y cines. Su fuente de la Corona en la entrada principal y las decoraciones estacionales lo han vuelto un punto de encuentro icónico.",
+   "d_en": "Opened in 2007 in the heart of Bukit Bintang, it is KL's temple of luxury and shopping, with over 700 stores of international brands, fashion, food and cinemas. Its Crown Fountain at the main entrance and seasonal decorations have made it an iconic meeting point.",
+   "h": "Abierto a diario 10:00-22:00.",
+   "h_en": "Open daily 10:00-22:00.",
+   "i": "La zona gastronómica de la planta baja (Food Republic) reúne cocina asiática a buen precio.",
+   "i_en": "The ground-floor food court (Food Republic) offers good-value Asian cuisine."
+  },
+  "w_kul_river_of_life": {
+   "id": "w_kul_river_of_life",
+   "d": "Proyecto de regeneración urbana que sanea y realza los ríos Klang y Gombak a su paso por la Mezquita Jamek. Al anochecer, chorros de niebla azul iluminados y proyecciones convierten la confluencia -el origen mismo de la ciudad- en un espectáculo de luz y agua muy fotografiado.",
+   "d_en": "An urban regeneration project cleaning and showcasing the Klang and Gombak rivers by Masjid Jamek. At dusk, lit blue mist jets and projections turn the confluence -the city's very birthplace- into a much-photographed light-and-water show.",
+   "h": "Espectáculo de luces cada noche al anochecer.",
+   "h_en": "Light show every evening after dark.",
+   "i": "Míralo desde el mirador junto a la Mezquita Jamek; el azul contrasta con las cúpulas iluminadas.",
+   "i_en": "Watch from the viewpoint by Masjid Jamek; the blue contrasts with the lit domes."
+  },
+  "w_kul_jalan_alor": {
+   "id": "w_kul_jalan_alor",
+   "d": "Al caer la noche esta calle de Bukit Bintang se llena de mesas, humo de brasas y letreros de neón. Decenas de puestos y restaurantes sirven marisco al wok, satay, pollo a la parrilla, ranas fritas y frutas tropicales como el durián. Es el epicentro de la comida callejera nocturna.",
+   "d_en": "After dark this Bukit Bintang street fills with tables, grill smoke and neon signs. Dozens of stalls and restaurants serve wok-fried seafood, satay, grilled chicken, fried frog and tropical fruit like durian. It is the epicentre of the nightly street-food scene.",
+   "h": "Puestos abiertos cada noche, aprox. 17:00-01:00.",
+   "h_en": "Stalls open nightly, roughly 17:00-01:00.",
+   "i": "Pide raya a la parrilla ('ikan bakar') y ostras con huevo; paga en efectivo y regatea el marisco.",
+   "i_en": "Order grilled stingray ('ikan bakar') and oyster omelette; bring cash and check seafood prices first."
+  },
+  "w_kul_lot10_hutong": {
+   "id": "w_kul_lot10_hutong",
+   "d": "En el sótano del centro Lot 10, este 'hutong' reúne a decenas de puestos hawker centenarios seleccionados por su reputación, desde el pato asado hasta el Hokkien mee o el pollo al vapor de Hainan. Es la forma más cómoda y climatizada de probar los clásicos callejeros de KL.",
+   "d_en": "In the basement of Lot 10 mall, this 'hutong' gathers dozens of decades-old hawker stalls chosen for their reputation, from roast duck to Hokkien mee and Hainanese steamed chicken. It is the comfiest, air-conditioned way to try KL's street classics.",
+   "h": "Abierto a diario 10:00-22:00.",
+   "h_en": "Open daily 10:00-22:00.",
+   "i": "Prueba el Hokkien mee de Kim Lian Kee y el 'claypot chicken rice'; ideal si te agobia el calor de la calle.",
+   "i_en": "Try Kim Lian Kee's Hokkien mee and the claypot chicken rice; ideal if the street heat is too much."
+  },
+  "w_kul_madam_kwans": {
+   "id": "w_kul_madam_kwans",
+   "d": "Cadena nacida en KL, es una parada clásica para descubrir la cocina malaya en un ambiente acogedor. Su plato estrella es el nasi lemak: arroz al coco con sambal, anchoas, cacahuetes y pollo o ternera rendang. También destacan el nasi bojari y el postre de mango con arroz glutinoso.",
+   "d_en": "A KL-born chain, it is a classic stop to discover Malaysian food in a cosy setting. Its signature dish is nasi lemak: coconut rice with sambal, anchovies, peanuts and chicken or beef rendang. The nasi bojari and mango sticky rice are also favourites.",
+   "h": "Abierto a diario 11:00-22:00.",
+   "h_en": "Open daily 11:00-22:00.",
+   "i": "El nasi lemak Madam Kwan's es la mejor introducción al plato nacional; pídelo con rendang.",
+   "i_en": "The Madam Kwan's nasi lemak is the best intro to the national dish; order it with rendang."
+  },
+  "w_kul_yut_kee": {
+   "id": "w_kul_yut_kee",
+   "d": "Fundada en 1928, esta cafetería familiar es un templo de la cocina hainanesa-colonial. Sirve chuletas de cerdo estilo hainanés, tostadas con kaya, roti babi y su famoso rollo suizo casero. El ambiente retro de mesas de mármol y ventiladores atrae a locales de todas las generaciones.",
+   "d_en": "Founded in 1928, this family kopitiam is a shrine to Hainanese-colonial cooking. It serves Hainanese pork chops, kaya toast, roti babi and its famous homemade Swiss roll. The retro setting of marble tables and ceiling fans draws locals of every generation.",
+   "h": "Abierto mar-dom 8:00-16:30; cerrado lunes.",
+   "h_en": "Open Tue-Sun 8:00-16:30; closed Mondays.",
+   "i": "Ve temprano a desayunar chuleta hainanesa y kaya; los fines de semana hay cola.",
+   "i_en": "Go early for a breakfast of Hainanese pork chop and kaya; expect queues at weekends."
+  },
+  "w_kul_nasi_kandar": {
+   "id": "w_kul_nasi_kandar",
+   "d": "Junto a la Mezquita Jamek, este bullicioso restaurante mamak sirve nasi kandar: arroz blanco cubierto con una mezcla de curris de pollo, cordero, marisco o verduras. Es un básico de la cocina indio-musulmana de Malasia, servido rápido y a cualquier hora, con roti canai y té 'tarik'.",
+   "d_en": "By Masjid Jamek, this bustling mamak restaurant serves nasi kandar: white rice topped with a mix of chicken, mutton, seafood or vegetable curries. A staple of Malaysia's Indian-Muslim cuisine, served fast at any hour, with roti canai and pulled 'teh tarik' tea.",
+   "h": "Abierto a diario casi 24 horas.",
+   "h_en": "Open daily, almost 24 hours.",
+   "i": "Deja que mezclen varios curris sobre el arroz ('banjir') y acompaña con un teh tarik.",
+   "i_en": "Let them flood several curries over the rice ('banjir') and pair it with a teh tarik."
+  },
+  "w_kul_precious_old_china": {
+   "id": "w_kul_precious_old_china",
+   "d": "Escondido dentro del Central Market, recrea una mansión peranakan con antigüedades chinas y ventanales de vidrieras. Sirve cocina nyonya, la fusión chino-malaya de los estraits: laksa, pollo kapitan, rendang y 'ayam pongteh', en un ambiente que transporta al KL de principios del siglo XX.",
+   "d_en": "Tucked inside Central Market, it recreates a Peranakan mansion with Chinese antiques and stained-glass windows. It serves Nyonya cuisine, the Straits Chinese-Malay fusion: laksa, chicken kapitan, rendang and 'ayam pongteh', in a setting that evokes early-20th-century KL.",
+   "h": "Abierto a diario 11:30-21:00.",
+   "h_en": "Open daily 11:30-21:00.",
+   "i": "Combínalo con la visita al Central Market; prueba la laksa nyonya y el 'cendol' de postre.",
+   "i_en": "Pair it with a visit to Central Market; try the Nyonya laksa and cendol for dessert."
+  }
+ },
+ "food": {
+  "w_kul_jalan_alor": {
+   "cuisine": "Comida callejera malaya y china",
+   "price": "4–12 €",
+   "hours": "17:00-01:00"
+  },
+  "w_kul_lot10_hutong": {
+   "cuisine": "Hawker chino y malayo",
+   "price": "5–12 €",
+   "hours": "10:00-22:00"
+  },
+  "w_kul_madam_kwans": {
+   "cuisine": "Malaya tradicional",
+   "price": "8–18 €",
+   "hours": "11:00-22:00"
+  },
+  "w_kul_yut_kee": {
+   "cuisine": "Hainanesa-colonial",
+   "price": "4–10 €",
+   "hours": "8:00-16:30"
+  },
+  "w_kul_nasi_kandar": {
+   "cuisine": "Indio-musulmana (mamak)",
+   "price": "3–8 €",
+   "hours": "24 h"
+  },
+  "w_kul_precious_old_china": {
+   "cuisine": "Nyonya (peranakan)",
+   "price": "8–16 €",
+   "hours": "11:30-21:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Kuala Lumpur",
+   "items": [
+    {
+     "name": "Batik malayo",
+     "price": "10–60 €",
+     "desc": "Tela teñida a mano con motivos florales, en pañuelos, camisas o cuadros."
+    },
+    {
+     "name": "Peltre Royal Selangor",
+     "price": "20–120 €",
+     "desc": "Objetos de estaño pulido (jarras, marcos, figuras), artesanía emblemática de KL."
+    },
+    {
+     "name": "Té y café blanco",
+     "price": "4–15 €",
+     "desc": "Té 'teh tarik' y café blanco de Ipoh, listos para preparar en casa."
+    },
+    {
+     "name": "Dulces de durián",
+     "price": "5–20 €",
+     "desc": "Galletas, tofes y chocolates rellenos con la aromática fruta rey."
+    },
+    {
+     "name": "Songket y pareos",
+     "price": "8–40 €",
+     "desc": "Tejidos con hilo dorado y sarongs de vivos estampados tropicales."
+    },
+    {
+     "name": "Imanes de las Petronas",
+     "price": "1–8 €",
+     "desc": "Recuerdos con las torres, la Torre KL o las cuevas de Batu."
+    }
+   ],
+   "shops": [
+    "Central Market (Pasar Seni)",
+    "Petaling Street (Chinatown)",
+    "Pavilion Kuala Lumpur",
+    "Suria KLCC",
+    "Royal Selangor Visitor Centre"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Usa la tarjeta Touch 'n Go para el metro, monorraíl y buses: es más rápida y barata que pagar suelto.",
+   "El monorraíl y la pasarela climatizada conectan Bukit Bintang y KLCC evitando el calor y el tráfico.",
+   "Cubre hombros y rodillas al entrar en mezquitas y templos; muchos prestan túnicas gratis.",
+   "El bus turístico gratuito GoKL enlaza los principales puntos del centro sin coste alguno.",
+   "Lleva paraguas o chubasquero: entre abril y noviembre caen aguaceros breves casi cada tarde."
+  ],
+  "en": [
+   "Use a Touch 'n Go card for the metro, monorail and buses: faster and cheaper than paying per ride.",
+   "The monorail and air-conditioned walkway link Bukit Bintang and KLCC, dodging the heat and traffic.",
+   "Cover shoulders and knees in mosques and temples; many lend robes for free.",
+   "The free GoKL city bus connects the main downtown sights at no cost.",
+   "Carry an umbrella or raincoat: from April to November short downpours hit most afternoons."
+  ]
+ },
+ "climate": {
+  "hi": [
+   32,
+   33,
+   33,
+   33,
+   33,
+   32,
+   32,
+   32,
+   32,
+   32,
+   32,
+   32
+  ],
+  "lo": [
+   23,
+   23,
+   24,
+   24,
+   24,
+   24,
+   23,
+   23,
+   23,
+   23,
+   23,
+   23
+  ]
+ },
+ "tr": {
+  "Rascacielos gemelos de acero y su icónico puente aéreo.": "Twin steel skyscrapers with their iconic double-decker skybridge.",
+  "Templo hindú en cuevas de piedra caliza con una escalera de colores.": "Hindu temple set in limestone caves with a rainbow staircase.",
+  "Torre de telecomunicaciones con mirador y suelo de cristal.": "Telecoms tower with an observation deck and glass floor.",
+  "Explanada histórica donde se proclamó la independencia de Malasia.": "Historic esplanade where Malaysia's independence was declared.",
+  "Mezquita moderna de tejado plegado en forma de estrella.": "Modern mosque with a folded, star-shaped roof.",
+  "Palacio colonial de ladrillo rojo con torre del reloj.": "Red-brick colonial palace with a clock tower.",
+  "El templo hindú más antiguo de Kuala Lumpur, junto a Chinatown.": "Kuala Lumpur's oldest Hindu temple, next to Chinatown.",
+  "Espectacular templo chino de seis niveles sobre una colina.": "Spectacular six-tier Chinese temple on a hilltop.",
+  "Mezquita mogol en la confluencia de los dos ríos de la ciudad.": "Moorish-Mughal mosque at the confluence of the city's two rivers.",
+  "El rascacielos más alto de Malasia y segundo del mundo.": "Malaysia's tallest skyscraper and the world's second tallest.",
+  "Gran mezquita de cúpulas rosadas inspirada en las otomanas.": "Grand mosque with pink domes inspired by Ottoman design.",
+  "El corazón histórico chino con arco rojo y mercado nocturno.": "The historic Chinatown core with a red arch and night market.",
+  "Parque urbano a los pies de las Torres Petronas.": "Urban park at the foot of the Petronas Towers.",
+  "El mayor aviario de vuelo libre cubierto del mundo.": "The world's largest covered free-flight aviary.",
+  "El pulmón verde histórico de la ciudad, antiguos Jardines del Lago.": "The city's historic green lung, the former Lake Gardens.",
+  "Jardín tropical con miles de mariposas en vuelo libre.": "Tropical garden with thousands of free-flying butterflies.",
+  "Reserva de selva tropical virgen en pleno centro urbano.": "Reserve of virgin rainforest right in the city centre.",
+  "Lago recreativo con la mejor panorámica del perfil urbano.": "Recreational lake with the finest view of the city skyline.",
+  "El barrio de moda: compras, ocio y vida nocturna.": "The trendy district of shopping, entertainment and nightlife.",
+  "Mercado art déco de artesanía y arte malayo.": "Art Deco market of Malaysian crafts and art.",
+  "Acuario con túnel submarino bajo el centro de convenciones.": "Aquarium with an underwater tunnel below the convention centre.",
+  "Centro comercial gigante con parque temático cubierto.": "Giant mall with an indoor theme park.",
+  "Centro comercial de lujo, referencia de las compras en la ciudad.": "Luxury mall, the benchmark for shopping in the city.",
+  "Paseo ribereño iluminado en la confluencia fundacional de KL.": "Illuminated riverside walk at KL's founding confluence.",
+  "La calle gastronómica más famosa de Kuala Lumpur.": "Kuala Lumpur's most famous food street.",
+  "Patio gastronómico con puestos legendarios bajo un solo techo.": "Food court gathering legendary hawker stalls under one roof.",
+  "Restaurante icónico de cocina malaya casera.": "Iconic restaurant of homely Malaysian cuisine.",
+  "Cafetería hainanesa de 1928, institución del desayuno en KL.": "1928 Hainanese kopitiam, a KL breakfast institution.",
+  "Casa de arroz al curry indio-musulmán abierta día y noche.": "Indian-Muslim curry rice house open day and night.",
+  "Restaurante nyonya de ambiente vintage en Central Market.": "Nyonya restaurant with a vintage setting in Central Market.",
+  "Kuala Lumpur": "Kuala Lumpur"
+ }
+}

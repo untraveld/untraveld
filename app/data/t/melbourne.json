@@ -1,0 +1,703 @@
+{
+ "id": "melbourne",
+ "name": "Melbourne",
+ "country": "WORLD",
+ "center": [
+  -37.8136,
+  144.9631
+ ],
+ "pois": [
+  {
+   "id": "w_mel_fed_square",
+   "cat": "monuments",
+   "name": "Federation Square",
+   "icon": "🏛️",
+   "lat": -37.8178,
+   "lng": 144.969,
+   "desc": "Plaza cultural de arquitectura desconstructivista, corazón de la vida pública de Melbourne."
+  },
+  {
+   "id": "w_mel_flinders_st",
+   "cat": "monuments",
+   "name": "Estación de Flinders Street",
+   "icon": "🚉",
+   "lat": -37.8183,
+   "lng": 144.9671,
+   "desc": "Icónica estación eduardiana de cúpula verde y fachada amarilla, símbolo de Melbourne."
+  },
+  {
+   "id": "w_mel_shrine",
+   "cat": "monuments",
+   "name": "Santuario del Recuerdo",
+   "icon": "🎖️",
+   "lat": -37.8304,
+   "lng": 144.9733,
+   "desc": "Monumental memorial de guerra de estilo clásico sobre una colina con vistas al skyline."
+  },
+  {
+   "id": "w_mel_st_pauls",
+   "cat": "monuments",
+   "name": "Catedral de San Pablo",
+   "icon": "⛪",
+   "lat": -37.8173,
+   "lng": 144.9683,
+   "desc": "Catedral anglicana neogótica de arenisca frente a Federation Square."
+  },
+  {
+   "id": "w_mel_royal_exhibition",
+   "cat": "monuments",
+   "name": "Edificio Real de Exposiciones",
+   "icon": "🏛️",
+   "lat": -37.8047,
+   "lng": 144.9717,
+   "desc": "Palacio de exposiciones de 1880, Patrimonio de la Humanidad, rodeado de jardines."
+  },
+  {
+   "id": "w_mel_state_library",
+   "cat": "monuments",
+   "name": "Biblioteca Estatal de Victoria",
+   "icon": "📚",
+   "lat": -37.8098,
+   "lng": 144.9647,
+   "desc": "Biblioteca histórica coronada por la espectacular sala de lectura La Trobe de cúpula octogonal."
+  },
+  {
+   "id": "w_mel_parliament",
+   "cat": "monuments",
+   "name": "Parlamento de Victoria",
+   "icon": "🏛️",
+   "lat": -37.8112,
+   "lng": 144.9734,
+   "desc": "Imponente edificio parlamentario de columnata dorada al final de Bourke Street."
+  },
+  {
+   "id": "w_mel_hosier_lane",
+   "cat": "monuments",
+   "name": "Hosier Lane",
+   "icon": "🎨",
+   "lat": -37.8169,
+   "lng": 144.9689,
+   "desc": "El callejón de arte urbano más famoso de Melbourne, un lienzo de grafiti en constante cambio."
+  },
+  {
+   "id": "w_mel_royal_arcade",
+   "cat": "monuments",
+   "name": "Royal Arcade",
+   "icon": "🛍️",
+   "lat": -37.8149,
+   "lng": 144.9643,
+   "desc": "La galería comercial cubierta más antigua de Australia, de elegante estilo victoriano."
+  },
+  {
+   "id": "w_mel_old_gaol",
+   "cat": "monuments",
+   "name": "Antigua Cárcel de Melbourne",
+   "icon": "⛓️",
+   "lat": -37.8077,
+   "lng": 144.9654,
+   "desc": "Prisión-museo del siglo XIX donde fue ahorcado el forajido Ned Kelly."
+  },
+  {
+   "id": "w_mel_botanic_gardens",
+   "cat": "nature",
+   "name": "Real Jardín Botánico",
+   "icon": "🌿",
+   "lat": -37.8307,
+   "lng": 144.98,
+   "desc": "Extenso jardín botánico junto al Yarra, con lagos, césped y miles de especies."
+  },
+  {
+   "id": "w_mel_fitzroy_gardens",
+   "cat": "nature",
+   "name": "Fitzroy Gardens",
+   "icon": "🌳",
+   "lat": -37.8129,
+   "lng": 144.9797,
+   "desc": "Elegante parque victoriano con avenidas de olmos y la histórica Cook's Cottage."
+  },
+  {
+   "id": "w_mel_yarra_river",
+   "cat": "nature",
+   "name": "Río Yarra",
+   "icon": "🛶",
+   "lat": -37.8196,
+   "lng": 144.9665,
+   "desc": "El río que atraviesa la ciudad, con paseos ribereños, remo y cruceros."
+  },
+  {
+   "id": "w_mel_st_kilda_beach",
+   "cat": "nature",
+   "name": "Playa de St Kilda",
+   "icon": "🏖️",
+   "lat": -37.8678,
+   "lng": 144.974,
+   "desc": "La playa urbana más popular de Melbourne, con paseo, palmeras y atardeceres."
+  },
+  {
+   "id": "w_mel_st_kilda_penguins",
+   "cat": "nature",
+   "name": "Pingüinos de St Kilda",
+   "icon": "🐧",
+   "lat": -37.8632,
+   "lng": 144.964,
+   "desc": "Colonia salvaje de pequeños pingüinos azules en el rompeolas del muelle de St Kilda."
+  },
+  {
+   "id": "w_mel_brighton_boxes",
+   "cat": "nature",
+   "name": "Casetas de Baño de Brighton",
+   "icon": "🏝️",
+   "lat": -37.9172,
+   "lng": 144.9846,
+   "desc": "Fila de coloridas casetas de baño victorianas en la playa de Dendy Street."
+  },
+  {
+   "id": "w_mel_great_ocean_road",
+   "cat": "nature",
+   "name": "Great Ocean Road (excursión)",
+   "icon": "🌊",
+   "lat": -38.66513,
+   "lng": 143.10442,
+   "desc": "Espectacular carretera costera con acantilados y los Doce Apóstoles, excursión de un día."
+  },
+  {
+   "id": "w_mel_albert_park",
+   "cat": "nature",
+   "name": "Lago Albert Park",
+   "icon": "🦢",
+   "lat": -37.8487,
+   "lng": 144.9726,
+   "desc": "Amplio lago y parque deportivo que acoge el Gran Premio de Fórmula 1."
+  },
+  {
+   "id": "w_mel_eureka_skydeck",
+   "cat": "ocio",
+   "name": "Eureka Skydeck",
+   "icon": "🌆",
+   "lat": -37.8215,
+   "lng": 144.9645,
+   "desc": "Mirador en el piso 88 de la torre Eureka, el más alto de Melbourne."
+  },
+  {
+   "id": "w_mel_mcg",
+   "cat": "ocio",
+   "name": "Melbourne Cricket Ground",
+   "icon": "🏟️",
+   "lat": -37.8199,
+   "lng": 144.9833,
+   "desc": "Colosal estadio, templo del críquet y el fútbol australiano, con museo del deporte."
+  },
+  {
+   "id": "w_mel_ngv",
+   "cat": "ocio",
+   "name": "National Gallery of Victoria",
+   "icon": "🖼️",
+   "lat": -37.8225,
+   "lng": 144.9686,
+   "desc": "La galería de arte más antigua y visitada de Australia, con su célebre techo de vidrieras."
+  },
+  {
+   "id": "w_mel_southbank",
+   "cat": "ocio",
+   "name": "Southbank y Southgate",
+   "icon": "🍸",
+   "lat": -37.8207,
+   "lng": 144.9649,
+   "desc": "Paseo ribereño de restaurantes, terrazas y vida nocturna frente al skyline."
+  },
+  {
+   "id": "w_mel_fitzroy",
+   "cat": "ocio",
+   "name": "Fitzroy y Brunswick Street",
+   "icon": "🎸",
+   "lat": -37.7983,
+   "lng": 144.9784,
+   "desc": "El barrio bohemio de Melbourne, cuna de bares, boutiques vintage y arte callejero."
+  },
+  {
+   "id": "w_mel_luna_park",
+   "cat": "ocio",
+   "name": "Luna Park St Kilda",
+   "icon": "🎢",
+   "lat": -37.8679,
+   "lng": 144.9769,
+   "desc": "Parque de atracciones histórico con la icónica cara sonriente en su entrada."
+  },
+  {
+   "id": "w_mel_queen_vic_market",
+   "cat": "food",
+   "name": "Queen Victoria Market",
+   "icon": "🧺",
+   "lat": -37.8076,
+   "lng": 144.9568,
+   "desc": "El gran mercado histórico de Melbourne, con productos frescos, delicatessen y puestos."
+  },
+  {
+   "id": "w_mel_degraves_st",
+   "cat": "food",
+   "name": "Degraves Street",
+   "icon": "☕",
+   "lat": -37.8165,
+   "lng": 144.9656,
+   "desc": "Callejón cafetero por excelencia, alma de la cultura del café de Melbourne."
+  },
+  {
+   "id": "w_mel_chinatown",
+   "cat": "food",
+   "name": "Chinatown",
+   "icon": "🥟",
+   "lat": -37.8115,
+   "lng": 144.9679,
+   "desc": "El barrio chino más antiguo de Australia, con dim sum, dumplings y ramen."
+  },
+  {
+   "id": "w_mel_lygon_street",
+   "cat": "food",
+   "name": "Lygon Street",
+   "icon": "🍝",
+   "lat": -37.8013,
+   "lng": 144.967,
+   "desc": "La 'Pequeña Italia' de Melbourne, cuna del café espresso de la ciudad."
+  },
+  {
+   "id": "w_mel_hardware_lane",
+   "cat": "food",
+   "name": "Hardware Lane",
+   "icon": "🍷",
+   "lat": -37.8141,
+   "lng": 144.9619,
+   "desc": "Pintoresco callejón peatonal repleto de terrazas y restaurantes."
+  },
+  {
+   "id": "w_mel_south_melbourne_market",
+   "cat": "food",
+   "name": "South Melbourne Market",
+   "icon": "🦪",
+   "lat": -37.8328,
+   "lng": 144.9555,
+   "desc": "Mercado de barrio famoso por sus dim sims y su ambiente gastronómico."
+  }
+ ],
+ "extra": {
+  "w_mel_fed_square": {
+   "id": "w_mel_fed_square",
+   "d": "Inaugurada en 2002, es el gran punto de encuentro de la ciudad frente a la estación de Flinders Street. Sus fachadas geométricas de zinc, vidrio y arenisca albergan museos, cafés y la galería de arte australiano The Ian Potter Centre, con pantallas gigantes para eventos.",
+   "d_en": "Opened in 2002, it is the city's great meeting point opposite Flinders Street Station. Its geometric facades of zinc, glass and sandstone house museums, cafes and the Ian Potter Centre gallery of Australian art, with giant screens for events.",
+   "h": "Espacio abierto y gratuito 24 h; museos y galerías con sus propios horarios. Consulta la agenda de conciertos, mercados y proyecciones al aire libre.",
+   "h_en": "Open free space 24h; museums and galleries have their own hours. Check the schedule of concerts, markets and open-air screenings.",
+   "i": "Ideal si te gusta la arquitectura moderna, el ambiente urbano y tener un punto central desde el que explorar.",
+   "i_en": "Ideal if you like modern architecture, urban buzz and a central base from which to explore."
+  },
+  "w_mel_flinders_st": {
+   "id": "w_mel_flinders_st",
+   "d": "Terminal ferroviaria más antigua de Australia, inaugurada en 1910. Su cúpula de cobre y su hilera de relojes bajo la marquesina son punto de cita clásico ('meet me under the clocks'). Un edificio de estilo eduardiano que preside la esquina más fotografiada de la ciudad.",
+   "d_en": "Australia's oldest railway station, opened in 1910. Its copper dome and the row of clocks under the canopy are a classic meeting spot ('meet me under the clocks'). An Edwardian building presiding over the city's most photographed corner.",
+   "h": "En funcionamiento como estación de cercanías; se recorre por fuera libremente a cualquier hora. Cruza a Federation Square para la mejor vista.",
+   "h_en": "Working commuter station; freely admired from outside at any time. Cross to Federation Square for the best view.",
+   "i": "Ideal si te atrae la arquitectura histórica y captar la postal más reconocible de Melbourne.",
+   "i_en": "Ideal if you love historic architecture and capturing Melbourne's most recognisable postcard."
+  },
+  "w_mel_shrine": {
+   "id": "w_mel_shrine",
+   "d": "Inaugurado en 1934 en honor a los caídos de la Primera Guerra Mundial, se inspira en el mausoleo de Halicarnaso. Cada 11 de noviembre un rayo de luz ilumina la Piedra del Recuerdo. Desde su balcón se abre una vista axial perfecta hacia el centro por Swanston Street.",
+   "d_en": "Opened in 1934 to honour the fallen of World War I, inspired by the Mausoleum at Halicarnassus. Every 11 November a beam of light illuminates the Stone of Remembrance. Its balcony offers a perfect axial view of the city along Swanston Street.",
+   "h": "Recinto abierto a diario, normalmente 10:00–17:00; acceso gratuito. Sube a la galería del balcón para la panorámica del skyline.",
+   "h_en": "Grounds open daily, usually 10:00–17:00; free entry. Climb to the balcony gallery for the skyline panorama.",
+   "i": "Ideal si te interesan la historia, los grandes monumentos y las vistas elevadas de la ciudad.",
+   "i_en": "Ideal if you are interested in history, grand monuments and elevated city views."
+  },
+  "w_mel_st_pauls": {
+   "id": "w_mel_st_pauls",
+   "d": "Levantada entre 1880 y 1891 en estilo neogótico transición, destaca por sus agujas de piedra caliza, sus vidrieras y un órgano histórico de T.C. Lewis. Ocupa el lugar donde se celebró el primer servicio cristiano público de Melbourne.",
+   "d_en": "Built between 1880 and 1891 in transitional Gothic Revival style, it stands out for its limestone spires, stained glass and a historic T.C. Lewis organ. It sits where Melbourne's first public Christian service was held.",
+   "h": "Abierta casi a diario para visita y culto, con acceso gratuito (donativo sugerido). Comprueba horarios en días de oficios.",
+   "h_en": "Open most days for visits and worship, free entry (suggested donation). Check hours on service days.",
+   "i": "Ideal si disfrutas de la arquitectura religiosa, los interiores tranquilos y la música de órgano.",
+   "i_en": "Ideal if you enjoy religious architecture, quiet interiors and organ music."
+  },
+  "w_mel_royal_exhibition": {
+   "id": "w_mel_royal_exhibition",
+   "d": "Construido para la Gran Exposición de 1880 y sede del primer Parlamento australiano en 1901. Su enorme cúpula de inspiración florentina lo convirtió en el primer edificio de Australia declarado Patrimonio de la Humanidad por la UNESCO. Se alza en los Carlton Gardens, junto al Museo de Melbourne.",
+   "d_en": "Built for the 1880 Great Exhibition and seat of Australia's first Parliament in 1901. Its huge Florentine-inspired dome made it Australia's first building inscribed as a UNESCO World Heritage Site. It stands in the Carlton Gardens beside the Melbourne Museum.",
+   "h": "Exterior y jardines visitables libremente; el interior se ve en visitas guiadas o durante ferias. Consulta el calendario del Museo de Melbourne.",
+   "h_en": "Exterior and gardens freely accessible; the interior is seen on guided tours or during fairs. Check the Melbourne Museum calendar.",
+   "i": "Ideal si te gusta la arquitectura victoriana, el patrimonio UNESCO y pasear por parques históricos.",
+   "i_en": "Ideal if you like Victorian architecture, UNESCO heritage and strolling through historic parks."
+  },
+  "w_mel_state_library": {
+   "id": "w_mel_state_library",
+   "d": "Fundada en 1854, es una de las bibliotecas gratuitas más antiguas del mundo. Su joya es la sala de lectura La Trobe, de 1913, con una cúpula de hormigón bajo la que se despliegan escritorios radiales en seis niveles. Guarda la armadura original del forajido Ned Kelly.",
+   "d_en": "Founded in 1854, it is one of the world's oldest free libraries. Its jewel is the 1913 La Trobe Reading Room, with a concrete dome under which radial desks spread across six levels. It holds the original armour of outlaw Ned Kelly.",
+   "h": "Abierta a diario con acceso gratuito; sube a las galerías superiores para la vista cenital de la cúpula.",
+   "h_en": "Open daily with free entry; climb to the upper galleries for the aerial view of the dome.",
+   "i": "Ideal si te fascinan las bibliotecas bellas, la historia local y los rincones fotogénicos gratuitos.",
+   "i_en": "Ideal if you love beautiful libraries, local history and photogenic free spots."
+  },
+  "w_mel_parliament": {
+   "id": "w_mel_parliament",
+   "d": "Iniciado en 1855, es uno de los edificios cívicos más grandiosos de Australia y fue sede del Parlamento federal hasta 1927. Su gran escalinata y su columnata corintia dominan el este del centro. El interior luce salones dorados de estilo victoriano.",
+   "d_en": "Begun in 1855, it is one of Australia's grandest civic buildings and served as the federal Parliament until 1927. Its great steps and Corinthian colonnade dominate the eastern city. The interior features gilded Victorian halls.",
+   "h": "Visitas guiadas gratuitas los días sin sesión; la escalinata exterior es un mirador y punto de fotos popular.",
+   "h_en": "Free guided tours on non-sitting days; the outdoor steps are a popular viewpoint and photo spot.",
+   "i": "Ideal si te interesan la política, la arquitectura civil y los interiores de época.",
+   "i_en": "Ideal if you are interested in politics, civic architecture and period interiors."
+  },
+  "w_mel_hosier_lane": {
+   "id": "w_mel_hosier_lane",
+   "d": "Adoquinado callejón junto a Federation Square cuyas paredes, puertas y contenedores están cubiertos de murales, pochoirs y grafiti que se renuevan casi a diario. Es el epicentro de la reconocida cultura de laneways y arte urbano que define la identidad creativa de la ciudad.",
+   "d_en": "Cobbled lane next to Federation Square whose walls, doors and bins are covered in murals, stencils and graffiti renewed almost daily. It is the epicentre of the celebrated laneway and street-art culture that defines the city's creative identity.",
+   "h": "Callejón público abierto a cualquier hora; mejor de día para fotos. Explora también AC/DC Lane y Union Lane cerca.",
+   "h_en": "Public lane open at any time; best by day for photos. Explore nearby AC/DC Lane and Union Lane too.",
+   "i": "Ideal si te apasionan el arte urbano, la fotografía callejera y los rincones alternativos.",
+   "i_en": "Ideal if you are passionate about street art, urban photography and alternative corners."
+  },
+  "w_mel_royal_arcade": {
+   "id": "w_mel_royal_arcade",
+   "d": "Inaugurada en 1870, conserva su suelo ajedrezado, claraboya de cristal y las célebres estatuas de Gog y Magog que golpean el reloj Gaunt cada hora. Junto a la vecina Block Arcade forma el corazón de las galerías comerciales históricas del centro.",
+   "d_en": "Opened in 1870, it keeps its chequered floor, glass skylight and the famous statues of Gog and Magog that strike the Gaunt clock every hour. Together with the nearby Block Arcade it forms the heart of the city's historic shopping arcades.",
+   "h": "Abierta en horario comercial; el paso peatonal es gratuito. Enlaza con Block Arcade y Bourke Street Mall.",
+   "h_en": "Open during shopping hours; the walk-through is free. It links to Block Arcade and Bourke Street Mall.",
+   "i": "Ideal si te gustan las galerías de época, las compras con encanto y los detalles históricos.",
+   "i_en": "Ideal if you like period arcades, charming shopping and historic details."
+  },
+  "w_mel_old_gaol": {
+   "id": "w_mel_old_gaol",
+   "d": "Cárcel de piedra bluestone en funcionamiento entre 1845 y 1929, hoy museo. Sus tres niveles de celdas conservan máscaras mortuorias, la horca y objetos del célebre bandolero Ned Kelly, ejecutado aquí en 1880. Ofrece visitas nocturnas y recreaciones históricas.",
+   "d_en": "Bluestone prison operating between 1845 and 1929, now a museum. Its three tiers of cells preserve death masks, the gallows and objects of the celebrated bushranger Ned Kelly, executed here in 1880. It offers night tours and historical re-enactments.",
+   "h": "Abre a diario, aprox. 10:00–17:00, con entrada de pago; visitas temáticas nocturnas bajo reserva.",
+   "h_en": "Open daily, approx. 10:00–17:00, with paid entry; themed night tours by booking.",
+   "i": "Ideal si te atraen la historia oscura, los museos inmersivos y las leyendas locales.",
+   "i_en": "Ideal if you are drawn to dark history, immersive museums and local legends."
+  },
+  "w_mel_botanic_gardens": {
+   "id": "w_mel_botanic_gardens",
+   "d": "Fundado en 1846 sobre 38 hectáreas, es uno de los mejores jardines botánicos del mundo. Sus praderas onduladas, el lago ornamental con cisnes negros y colecciones como el jardín de cactus o el bosque tropical invitan a picnics y paseos. En verano acoge cine al aire libre.",
+   "d_en": "Founded in 1846 across 38 hectares, it is one of the world's finest botanic gardens. Its rolling lawns, the ornamental lake with black swans and collections such as the cactus garden or the rainforest invite picnics and walks. In summer it hosts open-air cinema.",
+   "h": "Abierto a diario del amanecer al atardecer, gratis. Ideal para picnic; hay visitas guiadas y paseo del Aboriginal Heritage Walk.",
+   "h_en": "Open daily dawn to dusk, free. Great for a picnic; there are guided tours and the Aboriginal Heritage Walk.",
+   "i": "Ideal si buscas naturaleza, tranquilidad y un respiro verde junto al río.",
+   "i_en": "Ideal if you want nature, calm and a green break by the river."
+  },
+  "w_mel_fitzroy_gardens": {
+   "id": "w_mel_fitzroy_gardens",
+   "d": "Trazado en el siglo XIX con senderos en forma de bandera británica, es uno de los grandes jardines del centro. Alberga la casa de la familia del capitán Cook, traída piedra a piedra desde Inglaterra en 1934, además de un invernadero, un poblado en miniatura y fuentes.",
+   "d_en": "Laid out in the 19th century with paths shaped like the British flag, it is one of the central city's great gardens. It holds Captain Cook's family cottage, brought stone by stone from England in 1934, plus a conservatory, a miniature village and fountains.",
+   "h": "Parque abierto a diario y gratuito; Cook's Cottage y el invernadero tienen horario y entrada aparte.",
+   "h_en": "Park open daily and free; Cook's Cottage and the conservatory have separate hours and admission.",
+   "i": "Ideal si te gustan los parques históricos, los paseos a la sombra y los rincones con encanto.",
+   "i_en": "Ideal if you like historic parks, shaded walks and charming corners."
+  },
+  "w_mel_yarra_river": {
+   "id": "w_mel_yarra_river",
+   "d": "Serpentea desde las cordilleras hasta la bahía atravesando el centro de Melbourne. Sus orillas, unidas por pasarelas y por el emblemático Princes Bridge, concentran paseos, cafeterías flotantes, remeros y cruceros. De noche se refleja el skyline iluminado de Southbank.",
+   "d_en": "It winds from the ranges to the bay through central Melbourne. Its banks, joined by footbridges and the emblematic Princes Bridge, gather promenades, floating cafes, rowers and cruises. At night it mirrors Southbank's illuminated skyline.",
+   "h": "Paseos ribereños abiertos siempre y gratis; cruceros y kayaks con horario propio. Bonito al atardecer.",
+   "h_en": "Riverside walks always open and free; cruises and kayaks have their own schedules. Lovely at sunset.",
+   "i": "Ideal si disfrutas de los paseos junto al agua, los cruceros y las vistas urbanas.",
+   "i_en": "Ideal if you enjoy waterside walks, cruises and city views."
+  },
+  "w_mel_st_kilda_beach": {
+   "id": "w_mel_st_kilda_beach",
+   "d": "A pocos minutos en tranvía del centro, esta playa de arena en la bahía de Port Phillip es el gran balneario de la ciudad. Su paseo marítimo, el muelle y los cafés de Acland Street la llenan de ambiente, sobre todo al ponerse el sol sobre el agua.",
+   "d_en": "A few minutes by tram from the centre, this sandy beach on Port Phillip Bay is the city's great seaside resort. Its promenade, pier and the cafes of Acland Street give it a lively atmosphere, especially as the sun sets over the water.",
+   "h": "Playa pública abierta siempre; mejor en tardes cálidas. Combina con el muelle y Luna Park cercanos.",
+   "h_en": "Public beach open always; best on warm afternoons. Combine with the nearby pier and Luna Park.",
+   "i": "Ideal si buscas playa, ambiente relajado y un buen atardecer junto al mar.",
+   "i_en": "Ideal if you want beach, a relaxed vibe and a good seaside sunset."
+  },
+  "w_mel_st_kilda_penguins": {
+   "id": "w_mel_st_kilda_penguins",
+   "d": "Al final del muelle de St Kilda vive una colonia de pingüinos pequeños (Eudyptula minor), los más pequeños del mundo, que regresan al atardecer entre las rocas del rompeolas. Voluntarios guardacostas velan por ellos; es un espectáculo natural gratuito a un paso del centro.",
+   "d_en": "At the end of St Kilda pier lives a colony of little penguins (Eudyptula minor), the world's smallest, which return at dusk among the breakwater rocks. Volunteer wardens watch over them; it is a free natural spectacle just outside the city.",
+   "h": "Mejor justo tras el ocaso; acceso libre por el rompeolas. Nunca uses flash ni toques a los animales.",
+   "h_en": "Best just after sunset; free access along the breakwater. Never use flash or touch the animals.",
+   "i": "Ideal si te encanta la fauna salvaje y vivir un momento natural único sin salir de la ciudad.",
+   "i_en": "Ideal if you love wildlife and a unique natural moment without leaving the city."
+  },
+  "w_mel_brighton_boxes": {
+   "id": "w_mel_brighton_boxes",
+   "d": "En la playa de Dendy Street, en el suburbio de Brighton, se alinean 82 casetas de madera de vivos colores, muchas con más de un siglo de historia y estrictas normas heredadas del estilo victoriano. Con el skyline de Melbourne al fondo, son una de las estampas más fotografiadas de la bahía.",
+   "d_en": "On Dendy Street Beach, in the suburb of Brighton, stand 82 brightly coloured wooden boxes, many over a century old and bound by strict Victorian-era rules. With Melbourne's skyline behind, they are one of the bay's most photographed sights.",
+   "h": "Playa abierta siempre y gratis; llega en tren (estación Middle Brighton). Mejor luz por la mañana.",
+   "h_en": "Beach always open and free; reach it by train (Middle Brighton station). Best light in the morning.",
+   "i": "Ideal si buscas fotos icónicas, color y una escapada costera fuera del centro.",
+   "i_en": "Ideal if you want iconic photos, colour and a coastal escape outside the centre."
+  },
+  "w_mel_great_ocean_road": {
+   "id": "w_mel_great_ocean_road",
+   "d": "Una de las carreteras panorámicas más bellas del mundo, construida por veteranos de guerra. Serpentea junto al océano Antártico entre selvas, playas de surf y pueblos como Lorne y Apollo Bay, hasta los Doce Apóstoles: colosales agujas de roca caliza que emergen del mar batido por las olas.",
+   "d_en": "One of the world's most beautiful scenic drives, built by war veterans. It winds along the Southern Ocean past rainforest, surf beaches and towns like Lorne and Apollo Bay, to the Twelve Apostles: colossal limestone stacks rising from the wave-battered sea.",
+   "h": "Excursión de día completo desde Melbourne (unas 3 h ida en coche o tour); mejor al amanecer o atardecer.",
+   "h_en": "Full-day trip from Melbourne (about 3h drive or a tour); best at sunrise or sunset.",
+   "i": "Ideal si te gustan los paisajes costeros grandiosos, los miradores y las rutas en coche.",
+   "i_en": "Ideal if you love grand coastal scenery, viewpoints and road trips."
+  },
+  "w_mel_albert_park": {
+   "id": "w_mel_albert_park",
+   "d": "Parque urbano en torno a un lago artificial, muy usado para correr, remar y navegar a vela con el skyline de fondo. Su circuito perimetral se convierte cada año en el trazado del Gran Premio de Australia de Fórmula 1, entre praderas, aves acuáticas y campos deportivos.",
+   "d_en": "Urban park around an artificial lake, popular for running, rowing and sailing with the skyline behind. Its perimeter circuit becomes the track of the Australian Formula 1 Grand Prix each year, amid lawns, waterbirds and sports fields.",
+   "h": "Parque abierto siempre y gratuito; alquiler de barcas y cafés junto al lago. Ideal para deporte al aire libre.",
+   "h_en": "Park always open and free; boat hire and cafes by the lake. Great for outdoor sport.",
+   "i": "Ideal si te gusta el deporte al aire libre, correr junto al agua o el motor.",
+   "i_en": "Ideal if you like outdoor sport, running by the water or motor racing."
+  },
+  "w_mel_eureka_skydeck": {
+   "id": "w_mel_eureka_skydeck",
+   "d": "En la torre residencial Eureka de Southbank, el Skydeck ocupa el nivel 88 a 285 metros de altura, con vistas de 360º sobre la ciudad, el río y la bahía. Su atracción 'The Edge' es una caja de cristal que se proyecta al vacío desde la fachada.",
+   "d_en": "In Southbank's Eureka residential tower, the Skydeck sits on level 88 at 285 metres, with 360-degree views over the city, river and bay. Its 'The Edge' attraction is a glass cube that projects out into the void from the facade.",
+   "h": "Abre a diario, normalmente hasta tarde; entrada de pago. Sube al atardecer para ver el día y la noche.",
+   "h_en": "Open daily, usually until late; paid entry. Go at sunset to catch both day and night.",
+   "i": "Ideal si te gustan las vistas panorámicas, las alturas y la fotografía del skyline.",
+   "i_en": "Ideal if you like panoramic views, heights and skyline photography."
+  },
+  "w_mel_mcg": {
+   "id": "w_mel_mcg",
+   "d": "Conocido como 'the G', es uno de los estadios más grandes del mundo, con capacidad para unas 100.000 personas. Inaugurado en 1853, acogió los Juegos Olímpicos de 1956 y es la catedral del críquet y del AFL. Alberga el Salón Nacional del Deporte de Australia.",
+   "d_en": "Known as 'the G', it is one of the world's largest stadiums, seating around 100,000. Opened in 1853, it hosted the 1956 Olympics and is the cathedral of cricket and Aussie rules. It houses the National Sports Museum.",
+   "h": "Visitas guiadas y museo casi a diario fuera de partidos; en día de evento, vive el ambiente con entrada.",
+   "h_en": "Guided tours and museum most non-match days; on event days, soak up the atmosphere with a ticket.",
+   "i": "Ideal si te apasiona el deporte, los grandes estadios y la cultura local del AFL.",
+   "i_en": "Ideal if you love sport, great stadiums and the local AFL culture."
+  },
+  "w_mel_ngv": {
+   "id": "w_mel_ngv",
+   "d": "Fundada en 1861, la NGV International de St Kilda Road reúne arte europeo, asiático y de Oceanía. Su gran salón luce el mayor vitral suspendido del mundo, obra de Leonard French, y su fachada tiene una pared de agua que invita a tocarla. La sede australiana está en Federation Square.",
+   "d_en": "Founded in 1861, the NGV International on St Kilda Road gathers European, Asian and Oceanic art. Its great hall features the world's largest suspended stained-glass ceiling by Leonard French, and its facade has a water wall inviting touch. The Australian branch is at Federation Square.",
+   "h": "Abre casi a diario, entrada gratuita a la colección permanente; las grandes exposiciones son de pago.",
+   "h_en": "Open most days, free entry to the permanent collection; major exhibitions are ticketed.",
+   "i": "Ideal si te gusta el arte, los museos y refugiarte en un espacio cultural gratuito.",
+   "i_en": "Ideal if you like art, museums and a free cultural refuge."
+  },
+  "w_mel_southbank": {
+   "id": "w_mel_southbank",
+   "d": "En la orilla sur del Yarra, Southbank concentra la gran oferta de ocio de Melbourne: el paseo de Southgate, terrazas, artistas callejeros, el casino Crown, el centro de artes escénicas y torres de cristal. De noche es uno de los lugares con más ambiente de la ciudad.",
+   "d_en": "On the south bank of the Yarra, Southbank concentrates Melbourne's leisure scene: the Southgate promenade, terraces, street performers, the Crown casino, the performing arts centre and glass towers. At night it is one of the city's liveliest spots.",
+   "h": "Paseo abierto siempre; locales y espectáculos con su horario. Busca las bolas de fuego de Crown al anochecer.",
+   "h_en": "Promenade always open; venues and shows have their own hours. Look for Crown's fireballs at dusk.",
+   "i": "Ideal si buscas ambiente nocturno, cenas junto al río y espectáculos.",
+   "i_en": "Ideal if you want nightlife, riverside dining and shows."
+  },
+  "w_mel_fitzroy": {
+   "id": "w_mel_fitzroy",
+   "d": "El suburbio más antiguo y alternativo de la ciudad. En torno a Brunswick Street y Gertrude Street laten galerías independientes, tiendas de segunda mano, librerías, bares de música en vivo y algunos de los mejores cafés y murales de Melbourne. Es el corazón de su cultura creativa.",
+   "d_en": "The city's oldest and most alternative suburb. Around Brunswick Street and Gertrude Street thrive independent galleries, thrift shops, bookstores, live-music bars and some of Melbourne's best cafes and murals. It is the heart of its creative culture.",
+   "h": "Barrio para pasear a cualquier hora; máxima vida por la tarde-noche. Piérdete por sus calles laterales.",
+   "h_en": "A neighbourhood to wander at any time; liveliest in the evening. Get lost in its side streets.",
+   "i": "Ideal si te gustan los ambientes alternativos, las compras vintage y la escena musical.",
+   "i_en": "Ideal if you like alternative vibes, vintage shopping and the music scene."
+  },
+  "w_mel_luna_park": {
+   "id": "w_mel_luna_park",
+   "d": "Inaugurado en 1912 junto a la playa de St Kilda, es uno de los parques de atracciones en funcionamiento más antiguos del mundo. Se entra por la enorme boca sonriente de 'Mr Moon' y conserva la Scenic Railway, la montaña rusa de madera con guardafrenos más antigua del planeta.",
+   "d_en": "Opened in 1912 by St Kilda beach, it is one of the world's oldest operating amusement parks. You enter through the huge smiling mouth of 'Mr Moon' and it keeps the Scenic Railway, the world's oldest continuously operating wooden roller coaster with a brakeman.",
+   "h": "Abre en fines de semana y vacaciones, con horarios variables; acceso gratuito y atracciones de pago.",
+   "h_en": "Open on weekends and holidays, with variable hours; free entry and paid rides.",
+   "i": "Ideal si viajas en familia o te gustan los parques retro y la nostalgia junto al mar.",
+   "i_en": "Ideal if you travel with family or like retro parks and seaside nostalgia."
+  },
+  "w_mel_queen_vic_market": {
+   "id": "w_mel_queen_vic_market",
+   "d": "Abierto desde 1878, es el mayor mercado al aire libre del hemisferio sur, con más de siete hectáreas. Sus naves reúnen fruta, marisco, quesos, embutidos, cafés y puestos de comida del mundo. Los miércoles de verano celebra un vibrante mercado nocturno con música y street food.",
+   "d_en": "Open since 1878, it is the largest open-air market in the southern hemisphere, over seven hectares. Its halls gather fruit, seafood, cheeses, smallgoods, cafes and world food stalls. On summer Wednesdays it holds a vibrant night market with music and street food.",
+   "h": "Abre casi a diario salvo lunes y miércoles (comprueba); mejor por la mañana. Mercado nocturno estival los miércoles.",
+   "h_en": "Open most days except Monday and Wednesday (check); best in the morning. Summer night market on Wednesdays.",
+   "i": "Ideal si te gustan los mercados, probar productos locales y el ambiente popular.",
+   "i_en": "Ideal if you like markets, tasting local produce and a lively atmosphere."
+  },
+  "w_mel_degraves_st": {
+   "id": "w_mel_degraves_st",
+   "d": "Estrecho callejón peatonal entre Flinders Street y Flinders Lane, repleto de mesas al aire libre, toldos y cafeterías. Es el epicentro de la reconocida cultura del café de la ciudad, donde tomar un flat white, brunch o pasteles rodeado de bullicio y arte callejero.",
+   "d_en": "Narrow pedestrian lane between Flinders Street and Flinders Lane, packed with outdoor tables, awnings and cafes. It is the epicentre of the city's celebrated coffee culture, where you sip a flat white, brunch or pastries amid bustle and street art.",
+   "h": "Cafés abiertos sobre todo de día, desde primera hora; ideal para desayuno o brunch entre semana.",
+   "h_en": "Cafes open mostly by day, from early morning; ideal for breakfast or a weekday brunch.",
+   "i": "Ideal si eres amante del café de especialidad, el brunch y los rincones con encanto.",
+   "i_en": "Ideal if you love specialty coffee, brunch and charming corners."
+  },
+  "w_mel_chinatown": {
+   "id": "w_mel_chinatown",
+   "d": "En torno a Little Bourke Street, este Chinatown funciona desde la fiebre del oro de la década de 1850, lo que lo convierte en uno de los más antiguos del mundo occidental. Puertas paifang, restaurantes cantoneses, malasios, japoneses y de dumplings llenan sus manzanas de aromas y farolillos.",
+   "d_en": "Around Little Bourke Street, this Chinatown has run since the 1850s gold rush, making it one of the oldest in the Western world. Paifang gates, Cantonese, Malaysian, Japanese and dumpling restaurants fill its blocks with aromas and lanterns.",
+   "h": "Restaurantes abiertos a mediodía y noche; muy animado hasta tarde. Prueba el yum cha (dim sum) de día.",
+   "h_en": "Restaurants open at lunch and dinner; very lively until late. Try yum cha (dim sum) by day.",
+   "i": "Ideal si te gusta la cocina asiática, cenar fuera y el ambiente nocturno.",
+   "i_en": "Ideal if you like Asian cuisine, dining out and a lively night scene."
+  },
+  "w_mel_lygon_street": {
+   "id": "w_mel_lygon_street",
+   "d": "En el barrio de Carlton, Lygon Street es el corazón de la comunidad italiana desde la posguerra. Sus trattorias, gelaterías y cafeterías presumen de haber traído el primer espresso a Australia. Es el sitio ideal para pizza, pasta y un helado paseando entre terrazas.",
+   "d_en": "In the Carlton district, Lygon Street is the heart of the Italian community since the post-war era. Its trattorias, gelaterias and cafes claim to have brought the first espresso to Australia. It is the perfect place for pizza, pasta and a gelato among terraces.",
+   "h": "Locales abiertos a mediodía y noche; ambiente animado en la cena. Cerca de la Universidad de Melbourne.",
+   "h_en": "Venues open at lunch and dinner; lively at dinner time. Near the University of Melbourne.",
+   "i": "Ideal si te apetece cocina italiana, helados y un paseo gastronómico relajado.",
+   "i_en": "Ideal if you fancy Italian food, gelato and a relaxed food stroll."
+  },
+  "w_mel_hardware_lane": {
+   "id": "w_mel_hardware_lane",
+   "d": "Callejón adoquinado del centro, flanqueado por edificios de ladrillo de principios del siglo XX y lleno de mesas al aire libre bajo sombrillas. Camareros invitan a sentarse a probar cocina italiana, mediterránea y de brunch en uno de los rincones para comer más fotogénicos de la ciudad.",
+   "d_en": "Cobbled city laneway, flanked by early-20th-century brick buildings and full of outdoor tables under umbrellas. Waiters invite you to sit and try Italian, Mediterranean and brunch fare in one of the city's most photogenic dining corners.",
+   "h": "Cafés y restaurantes abiertos de día y noche; muy agradable para comer o cenar al aire libre.",
+   "h_en": "Cafes and restaurants open day and night; lovely for lunch or dinner outdoors.",
+   "i": "Ideal si buscas terrazas con encanto, cocina mediterránea y un almuerzo tranquilo.",
+   "i_en": "Ideal if you want charming terraces, Mediterranean food and a leisurely lunch."
+  },
+  "w_mel_south_melbourne_market": {
+   "id": "w_mel_south_melbourne_market",
+   "d": "Mercado tradicional en funcionamiento desde 1867, muy querido por los locales. Combina puestos de fruta, marisco y quesos con una excelente zona de comida donde probar sus legendarios dim sims, ostras frescas, empanadas y café. Un plan gastronómico algo alejado del turismo del centro.",
+   "d_en": "Traditional market running since 1867, much loved by locals. It combines produce, seafood and cheese stalls with an excellent food area serving its legendary dim sims, fresh oysters, pastries and coffee. A foodie plan a little away from the downtown tourist trail.",
+   "h": "Abre miércoles y de viernes a domingo (comprueba), de mañana a media tarde; mejor para desayuno o almuerzo.",
+   "h_en": "Open Wednesday and Friday to Sunday (check), morning to mid-afternoon; best for breakfast or lunch.",
+   "i": "Ideal si te gusta la comida de mercado, el marisco y descubrir sabores locales.",
+   "i_en": "Ideal if you like market food, seafood and discovering local flavours."
+  }
+ },
+ "food": {
+  "w_mel_queen_vic_market": {
+   "cuisine": "Mercado y productos locales",
+   "price": "5–20 €",
+   "hours": "Mar, Jue–Dom 6:00–15:00 (aprox.)"
+  },
+  "w_mel_degraves_st": {
+   "cuisine": "Cafés y brunch",
+   "price": "8–20 €",
+   "hours": "7:00–17:00 aprox."
+  },
+  "w_mel_chinatown": {
+   "cuisine": "China y asiática",
+   "price": "12–30 €",
+   "hours": "11:00–23:00 aprox."
+  },
+  "w_mel_lygon_street": {
+   "cuisine": "Italiana",
+   "price": "12–28 €",
+   "hours": "12:00–23:00 aprox."
+  },
+  "w_mel_hardware_lane": {
+   "cuisine": "Mediterránea e italiana",
+   "price": "15–32 €",
+   "hours": "8:00–23:00 aprox."
+  },
+  "w_mel_south_melbourne_market": {
+   "cuisine": "Mercado y marisco",
+   "price": "6–22 €",
+   "hours": "Mié, Vie–Dom 8:00–16:00 (aprox.)"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Melbourne",
+   "items": [
+    {
+     "name": "Café de especialidad",
+     "price": "10–30 €",
+     "desc": "Granos tostados por las célebres cafeterías de Melbourne, capital del café."
+    },
+    {
+     "name": "Camiseta de AFL",
+     "price": "20–70 €",
+     "desc": "Equipación del fútbol australiano, deporte que enamora a la ciudad."
+    },
+    {
+     "name": "Arte aborigen",
+     "price": "15–150 €",
+     "desc": "Pinturas de puntos, boomerangs y didgeridoos de artistas indígenas."
+    },
+    {
+     "name": "Vino de Yarra Valley",
+     "price": "12–40 €",
+     "desc": "Pinot noir y chardonnay de las bodegas cercanas a Melbourne."
+    },
+    {
+     "name": "Tim Tam y Vegemite",
+     "price": "3–10 €",
+     "desc": "Las galletas y la crema untable más icónicas de Australia."
+    }
+   ],
+   "shops": [
+    "Queen Victoria Market",
+    "Bourke Street Mall",
+    "The Block Arcade",
+    "Melbourne Central",
+    "QV Melbourne"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Usa la tarjeta myki para tranvías, trenes y buses; en el centro el 'Free Tram Zone' es gratuito.",
+   "Melbourne tiene cuatro estaciones en un día: lleva siempre una capa extra y algo impermeable.",
+   "Piérdete por las laneways (Hosier, Degraves, Centre Place) para descubrir café, arte y bares ocultos.",
+   "Reserva con antelación la excursión a la Great Ocean Road y sal temprano para aprovechar la luz.",
+   "Al atardecer acércate al muelle de St Kilda para ver gratis la colonia de pingüinos pequeños."
+  ],
+  "en": [
+   "Use a myki card for trams, trains and buses; the city-centre Free Tram Zone costs nothing.",
+   "Melbourne has four seasons in a day: always carry an extra layer and something waterproof.",
+   "Get lost in the laneways (Hosier, Degraves, Centre Place) to find coffee, art and hidden bars.",
+   "Book the Great Ocean Road trip in advance and set off early to make the most of the light.",
+   "At dusk head to St Kilda pier to watch the little penguin colony for free."
+  ]
+ },
+ "climate": {
+  "hi": [
+   26,
+   26,
+   24,
+   20,
+   17,
+   14,
+   13,
+   15,
+   17,
+   20,
+   22,
+   24
+  ],
+  "lo": [
+   14,
+   15,
+   13,
+   11,
+   9,
+   7,
+   6,
+   7,
+   8,
+   10,
+   11,
+   13
+  ]
+ },
+ "tr": {
+  "Plaza cultural de arquitectura desconstructivista, corazón de la vida pública de Melbourne.": "Cultural square of deconstructivist architecture, the heart of Melbourne's public life.",
+  "Icónica estación eduardiana de cúpula verde y fachada amarilla, símbolo de Melbourne.": "Iconic Edwardian station with a green dome and yellow facade, a symbol of Melbourne.",
+  "Monumental memorial de guerra de estilo clásico sobre una colina con vistas al skyline.": "Monumental classical-style war memorial on a hill overlooking the skyline.",
+  "Catedral anglicana neogótica de arenisca frente a Federation Square.": "Neo-Gothic Anglican cathedral of sandstone opposite Federation Square.",
+  "Palacio de exposiciones de 1880, Patrimonio de la Humanidad, rodeado de jardines.": "1880 exhibition palace, a World Heritage Site, surrounded by gardens.",
+  "Biblioteca histórica coronada por la espectacular sala de lectura La Trobe de cúpula octogonal.": "Historic library crowned by the spectacular octagonal-domed La Trobe Reading Room.",
+  "Imponente edificio parlamentario de columnata dorada al final de Bourke Street.": "Imposing parliamentary building with a golden colonnade at the top of Bourke Street.",
+  "El callejón de arte urbano más famoso de Melbourne, un lienzo de grafiti en constante cambio.": "Melbourne's most famous street-art laneway, an ever-changing graffiti canvas.",
+  "La galería comercial cubierta más antigua de Australia, de elegante estilo victoriano.": "Australia's oldest covered shopping arcade, in elegant Victorian style.",
+  "Prisión-museo del siglo XIX donde fue ahorcado el forajido Ned Kelly.": "19th-century prison museum where outlaw Ned Kelly was hanged.",
+  "Extenso jardín botánico junto al Yarra, con lagos, césped y miles de especies.": "Extensive botanic garden by the Yarra, with lakes, lawns and thousands of species.",
+  "Elegante parque victoriano con avenidas de olmos y la histórica Cook's Cottage.": "Elegant Victorian park with elm avenues and the historic Cook's Cottage.",
+  "El río que atraviesa la ciudad, con paseos ribereños, remo y cruceros.": "The river that runs through the city, with riverside walks, rowing and cruises.",
+  "La playa urbana más popular de Melbourne, con paseo, palmeras y atardeceres.": "Melbourne's most popular city beach, with a promenade, palm trees and sunsets.",
+  "Colonia salvaje de pequeños pingüinos azules en el rompeolas del muelle de St Kilda.": "Wild colony of little blue penguins on the St Kilda pier breakwater.",
+  "Fila de coloridas casetas de baño victorianas en la playa de Dendy Street.": "Row of colourful Victorian bathing boxes on Dendy Street Beach.",
+  "Espectacular carretera costera con acantilados y los Doce Apóstoles, excursión de un día.": "Spectacular coastal road with cliffs and the Twelve Apostles, a day-trip.",
+  "Amplio lago y parque deportivo que acoge el Gran Premio de Fórmula 1.": "Large lake and sports park that hosts the Formula 1 Grand Prix.",
+  "Mirador en el piso 88 de la torre Eureka, el más alto de Melbourne.": "Observation deck on the 88th floor of Eureka Tower, Melbourne's highest.",
+  "Colosal estadio, templo del críquet y el fútbol australiano, con museo del deporte.": "Colossal stadium, a temple of cricket and Aussie rules football, with a sports museum.",
+  "La galería de arte más antigua y visitada de Australia, con su célebre techo de vidrieras.": "Australia's oldest and most visited art gallery, with its famous stained-glass ceiling.",
+  "Paseo ribereño de restaurantes, terrazas y vida nocturna frente al skyline.": "Riverside promenade of restaurants, terraces and nightlife facing the skyline.",
+  "El barrio bohemio de Melbourne, cuna de bares, boutiques vintage y arte callejero.": "Melbourne's bohemian neighbourhood, home to bars, vintage boutiques and street art.",
+  "Parque de atracciones histórico con la icónica cara sonriente en su entrada.": "Historic amusement park with the iconic smiling face at its entrance.",
+  "El gran mercado histórico de Melbourne, con productos frescos, delicatessen y puestos.": "Melbourne's great historic market, with fresh produce, delicatessen and stalls.",
+  "Callejón cafetero por excelencia, alma de la cultura del café de Melbourne.": "The quintessential cafe laneway, the soul of Melbourne's coffee culture.",
+  "El barrio chino más antiguo de Australia, con dim sum, dumplings y ramen.": "Australia's oldest Chinatown, with dim sum, dumplings and ramen.",
+  "La 'Pequeña Italia' de Melbourne, cuna del café espresso de la ciudad.": "Melbourne's 'Little Italy', birthplace of the city's espresso coffee.",
+  "Pintoresco callejón peatonal repleto de terrazas y restaurantes.": "Picturesque pedestrian laneway packed with terraces and restaurants.",
+  "Mercado de barrio famoso por sus dim sims y su ambiente gastronómico.": "Neighbourhood market famous for its dim sims and foodie atmosphere.",
+  "Melbourne": "Melbourne"
+ }
+}

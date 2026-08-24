@@ -1,0 +1,703 @@
+{
+ "id": "cancun",
+ "name": "Cancún",
+ "country": "WORLD",
+ "center": [
+  21.1619,
+  -86.8515
+ ],
+ "pois": [
+  {
+   "id": "w_can_chichen_itza",
+   "cat": "monuments",
+   "name": "Chichén Itzá",
+   "icon": "🏛️",
+   "lat": 20.68427,
+   "lng": -88.56786,
+   "desc": "Ciudad maya y Maravilla del Mundo con la pirámide de Kukulcán."
+  },
+  {
+   "id": "w_can_tulum_ruinas",
+   "cat": "monuments",
+   "name": "Ruinas de Tulum",
+   "icon": "🏛️",
+   "lat": 20.21493,
+   "lng": -87.42904,
+   "desc": "Ciudad maya amurallada sobre acantilados frente al Caribe."
+  },
+  {
+   "id": "w_can_el_rey",
+   "cat": "monuments",
+   "name": "Zona Arqueológica El Rey",
+   "icon": "🗿",
+   "lat": 21.06139,
+   "lng": -86.78111,
+   "desc": "Ruinas mayas en plena Zona Hotelera con iguanas."
+  },
+  {
+   "id": "w_can_coba",
+   "cat": "monuments",
+   "name": "Cobá",
+   "icon": "🛕",
+   "lat": 20.49472,
+   "lng": -87.73583,
+   "desc": "Ciudad maya en la selva con la pirámide Nohoch Mul."
+  },
+  {
+   "id": "w_can_museo_maya",
+   "cat": "monuments",
+   "name": "Museo Maya de Cancún",
+   "icon": "🏺",
+   "lat": 21.07389,
+   "lng": -86.77694,
+   "desc": "Museo con arte maya y las ruinas de San Miguelito."
+  },
+  {
+   "id": "w_can_san_gervasio",
+   "cat": "monuments",
+   "name": "San Gervasio (Cozumel)",
+   "icon": "🗿",
+   "lat": 20.51528,
+   "lng": -86.89944,
+   "desc": "Santuario maya de Ixchel, diosa de la fertilidad."
+  },
+  {
+   "id": "w_can_ek_balam",
+   "cat": "monuments",
+   "name": "Ek Balam",
+   "icon": "🐆",
+   "lat": 20.89139,
+   "lng": -88.13556,
+   "desc": "Ruinas mayas con una espectacular fachada de estuco."
+  },
+  {
+   "id": "w_can_muyil",
+   "cat": "monuments",
+   "name": "Muyil (Sian Ka'an)",
+   "icon": "🛶",
+   "lat": 20.06556,
+   "lng": -87.61556,
+   "desc": "Ruinas mayas junto a la reserva de Sian Ka'an."
+  },
+  {
+   "id": "w_can_playa_delfines",
+   "cat": "nature",
+   "name": "Playa Delfines",
+   "icon": "🏖️",
+   "lat": 21.04028,
+   "lng": -86.77389,
+   "desc": "La playa pública más famosa, con el letrero de Cancún."
+  },
+  {
+   "id": "w_can_isla_mujeres",
+   "cat": "nature",
+   "name": "Isla Mujeres",
+   "icon": "🏝️",
+   "lat": 21.23278,
+   "lng": -86.73111,
+   "desc": "Isla caribeña de aguas turquesa a un ferry de Cancún."
+  },
+  {
+   "id": "w_can_cozumel",
+   "cat": "nature",
+   "name": "Cozumel",
+   "icon": "🤿",
+   "lat": 20.42297,
+   "lng": -86.9223,
+   "desc": "Isla del buceo con arrecifes de fama mundial."
+  },
+  {
+   "id": "w_can_cenote_dos_ojos",
+   "cat": "nature",
+   "name": "Cenote Dos Ojos",
+   "icon": "💧",
+   "lat": 20.32611,
+   "lng": -87.38944,
+   "desc": "Cenote de aguas cristalinas y cuevas para bucear."
+  },
+  {
+   "id": "w_can_cenote_ik_kil",
+   "cat": "nature",
+   "name": "Cenote Ik Kil",
+   "icon": "💧",
+   "lat": 20.66194,
+   "lng": -88.56917,
+   "desc": "Cenote circular con lianas colgantes junto a Chichén Itzá."
+  },
+  {
+   "id": "w_can_gran_cenote",
+   "cat": "nature",
+   "name": "Gran Cenote",
+   "icon": "🐢",
+   "lat": 20.25361,
+   "lng": -87.48278,
+   "desc": "Cenote de aguas turquesa con tortugas y peces."
+  },
+  {
+   "id": "w_can_playa_norte",
+   "cat": "nature",
+   "name": "Playa Norte (Isla Mujeres)",
+   "icon": "🏖️",
+   "lat": 21.26361,
+   "lng": -86.74889,
+   "desc": "Playa de aguas someras y calmas, de las mejores del Caribe."
+  },
+  {
+   "id": "w_can_punta_sur",
+   "cat": "nature",
+   "name": "Punta Sur (Isla Mujeres)",
+   "icon": "🌅",
+   "lat": 21.20196,
+   "lng": -86.71085,
+   "desc": "El punto más oriental de México, con acantilados y esculturas."
+  },
+  {
+   "id": "w_can_playa_paraiso_tulum",
+   "cat": "nature",
+   "name": "Playa Paraíso (Tulum)",
+   "icon": "🌴",
+   "lat": 20.19556,
+   "lng": -87.43167,
+   "desc": "Playa de postal con palmeras bajo las ruinas de Tulum."
+  },
+  {
+   "id": "w_can_laguna_nichupte",
+   "cat": "nature",
+   "name": "Laguna Nichupté",
+   "icon": "🛥️",
+   "lat": 21.08,
+   "lng": -86.79,
+   "desc": "Laguna de manglares para kayak, jungla y jet ski."
+  },
+  {
+   "id": "w_can_akumal",
+   "cat": "nature",
+   "name": "Akumal",
+   "icon": "🐢",
+   "lat": 20.39722,
+   "lng": -87.31556,
+   "desc": "Bahía tranquila para nadar con tortugas marinas."
+  },
+  {
+   "id": "w_can_xcaret",
+   "cat": "ocio",
+   "name": "Parque Xcaret",
+   "icon": "🎭",
+   "lat": 20.58028,
+   "lng": -87.11944,
+   "desc": "Parque eco-arqueológico con ríos, cultura y gran espectáculo."
+  },
+  {
+   "id": "w_can_xel_ha",
+   "cat": "ocio",
+   "name": "Xel-Há",
+   "icon": "🐠",
+   "lat": 20.31556,
+   "lng": -87.35917,
+   "desc": "Parque acuático natural en una caleta para snorkel."
+  },
+  {
+   "id": "w_can_musa",
+   "cat": "ocio",
+   "name": "Museo Subacuático MUSA",
+   "icon": "🗿",
+   "lat": 21.20167,
+   "lng": -86.72694,
+   "desc": "Museo de esculturas sumergidas entre Cancún e Isla Mujeres."
+  },
+  {
+   "id": "w_can_quinta_avenida",
+   "cat": "ocio",
+   "name": "Quinta Avenida (Playa del Carmen)",
+   "icon": "🛍️",
+   "lat": 20.62944,
+   "lng": -87.07472,
+   "desc": "Avenida peatonal de tiendas, bares y ambiente."
+  },
+  {
+   "id": "w_can_zona_hotelera",
+   "cat": "ocio",
+   "name": "Zona Hotelera",
+   "icon": "🌃",
+   "lat": 21.125,
+   "lng": -86.75,
+   "desc": "Franja de playas, resorts, vida nocturna y centros comerciales."
+  },
+  {
+   "id": "w_can_la_habichuela",
+   "cat": "food",
+   "name": "La Habichuela",
+   "icon": "🦞",
+   "lat": 21.1625,
+   "lng": -86.82694,
+   "desc": "Restaurante icónico de cocina yucateca en un jardín tropical."
+  },
+  {
+   "id": "w_can_lorenzillos",
+   "cat": "food",
+   "name": "Lorenzillo's",
+   "icon": "🦞",
+   "lat": 21.10111,
+   "lng": -86.76944,
+   "desc": "Marisquería sobre palafito en la laguna, famosa por la langosta."
+  },
+  {
+   "id": "w_can_puerto_madero",
+   "cat": "food",
+   "name": "Puerto Madero",
+   "icon": "🥩",
+   "lat": 21.13556,
+   "lng": -86.74806,
+   "desc": "Steakhouse de estilo argentino frente a la laguna Nichupté."
+  },
+  {
+   "id": "w_can_el_fish_fritanga",
+   "cat": "food",
+   "name": "El Fish Fritanga",
+   "icon": "🐟",
+   "lat": 21.08278,
+   "lng": -86.77,
+   "desc": "Marisquería sencilla y auténtica frente a la laguna."
+  },
+  {
+   "id": "w_can_parque_las_palapas",
+   "cat": "food",
+   "name": "Parque de las Palapas",
+   "icon": "🌮",
+   "lat": 21.16111,
+   "lng": -86.82556,
+   "desc": "Plaza del centro con puestos de comida callejera mexicana."
+  },
+  {
+   "id": "w_can_peters",
+   "cat": "food",
+   "name": "Peter's Restaurante",
+   "icon": "🍽️",
+   "lat": 21.16556,
+   "lng": -86.82361,
+   "desc": "Bistró acogedor de autor en el centro de Cancún."
+  }
+ ],
+ "extra": {
+  "w_can_chichen_itza": {
+   "id": "w_can_chichen_itza",
+   "d": "Patrimonio de la Humanidad y una de las Nuevas Siete Maravillas del Mundo. Su pirámide de El Castillo (Kukulcán) proyecta la sombra de una serpiente en los equinoccios. Incluye el Templo de los Guerreros, el Gran Juego de Pelota y el Cenote Sagrado. Es una excursión de día completo desde Cancún (unas 2,5 h por carretera).",
+   "d_en": "UNESCO World Heritage Site and one of the New Seven Wonders of the World. Its El Castillo (Kukulcán) pyramid casts a serpent shadow at the equinoxes. It includes the Temple of the Warriors, the Great Ball Court and the Sacred Cenote. A full-day excursion from Cancún (about 2.5 h by road).",
+   "h": "Todos los días 8:00–17:00 (última entrada 16:00).",
+   "h_en": "Daily 8:00–17:00 (last entry 16:00).",
+   "i": "Excursión de día completo; llega al abrir para evitar calor y grupos. Combina bien con el Cenote Ik Kil.",
+   "i_en": "Full-day trip; arrive at opening to beat heat and tour groups. Pairs well with Cenote Ik Kil."
+  },
+  "w_can_tulum_ruinas": {
+   "id": "w_can_tulum_ruinas",
+   "d": "Único yacimiento maya construido junto al mar, encaramado en un acantilado de 12 m sobre aguas turquesa. Destacan El Castillo, el Templo del Dios Descendente y el Templo de los Frescos. Bajo las ruinas hay una pequeña cala de arena blanca para bañarse. Fue un importante puerto comercial maya.",
+   "d_en": "The only Maya site built by the sea, perched on a 12 m cliff above turquoise water. Highlights include El Castillo, the Temple of the Descending God and the Temple of the Frescoes. Below the ruins lies a small white-sand cove for swimming. It was a major Maya trading port.",
+   "h": "Todos los días 8:00–17:00.",
+   "h_en": "Daily 8:00–17:00.",
+   "i": "Lleva bañador y calzado cómodo; hay poca sombra. Combínalo con las playas de Tulum.",
+   "i_en": "Bring swimwear and comfortable shoes; there is little shade. Combine with Tulum's beaches."
+  },
+  "w_can_el_rey": {
+   "id": "w_can_el_rey",
+   "d": "El principal sitio arqueológico dentro de Cancún, situado en el km 18 de la Zona Hotelera. Conserva plataformas, templos y una avenida ceremonial de la cultura maya asociada al comercio marítimo. Hoy está poblado por decenas de iguanas que toman el sol entre las piedras. Una visita corta y accesible sin salir de la ciudad.",
+   "d_en": "Cancún's main archaeological site, at km 18 of the Hotel Zone. It preserves platforms, temples and a ceremonial avenue from the Maya seafaring-trade culture. Today dozens of iguanas bask among the stones. A short, accessible visit without leaving the city.",
+   "h": "Todos los días 9:00–16:00.",
+   "h_en": "Daily 9:00–16:00.",
+   "i": "Entrada económica; se recorre en 45–60 min. Ideal al atardecer con menos calor.",
+   "i_en": "Cheap entry; takes 45–60 min. Best in late afternoon when it is cooler."
+  },
+  "w_can_coba": {
+   "id": "w_can_coba",
+   "d": "Extensa urbe maya envuelta en selva, conectada por antiguos caminos blancos (sacbés). Su pirámide Nohoch Mul es una de las más altas de la península. El recinto es grande, por lo que se recorre en bicicleta o en triciclo. Rodeada de lagunas y cenotes, ofrece una experiencia más salvaje que otros sitios.",
+   "d_en": "Sprawling Maya city wrapped in jungle, linked by ancient white roads (sacbés). Its Nohoch Mul pyramid is one of the tallest on the peninsula. The site is large, so it is explored by bike or pedicab. Surrounded by lagoons and cenotes, it offers a wilder feel than other sites.",
+   "h": "Todos los días 8:00–17:00.",
+   "h_en": "Daily 8:00–17:00.",
+   "i": "Alquila una bici en la entrada. Combina con los cenotes cercanos (Choo-Ha, Tamcach-Ha).",
+   "i_en": "Rent a bike at the entrance. Combine with nearby cenotes (Choo-Ha, Tamcach-Ha)."
+  },
+  "w_can_museo_maya": {
+   "id": "w_can_museo_maya",
+   "d": "Uno de los museos arqueológicos más importantes del sureste mexicano, en la Zona Hotelera. Exhibe piezas mayas de Quintana Roo y de toda Mesoamérica en salas modernas. La entrada incluye el yacimiento arqueológico de San Miguelito, con templos y una gran pirámide entre la vegetación. Ideal para entender la cultura maya antes de las excursiones.",
+   "d_en": "One of southeastern Mexico's most important archaeological museums, in the Hotel Zone. It displays Maya pieces from Quintana Roo and across Mesoamerica in modern galleries. Admission includes the San Miguelito archaeological site, with temples and a large pyramid amid the vegetation. Great for grasping Maya culture before day trips.",
+   "h": "Martes a domingo 9:00–18:00; lunes cerrado.",
+   "h_en": "Tuesday to Sunday 9:00–18:00; closed Monday.",
+   "i": "Entrada única para museo y ruinas. Lleva repelente para la zona de San Miguelito.",
+   "i_en": "Single ticket for museum and ruins. Bring repellent for the San Miguelito area."
+  },
+  "w_can_san_gervasio": {
+   "id": "w_can_san_gervasio",
+   "d": "Principal sitio arqueológico de la isla de Cozumel, dedicado a Ixchel, diosa maya de la fertilidad, la luna y la medicina. Fue un importante centro de peregrinación femenina. Conserva templos, arcos y estructuras conectadas por sacbés en un entorno selvático lleno de aves e iguanas. Un complemento cultural perfecto a un día de playa en la isla.",
+   "d_en": "The main archaeological site on Cozumel island, dedicated to Ixchel, Maya goddess of fertility, the moon and medicine. It was a key pilgrimage site for women. It preserves temples, arches and structures linked by sacbés in a jungle setting full of birds and iguanas. A perfect cultural add-on to a beach day on the island.",
+   "h": "Todos los días 8:00–15:45.",
+   "h_en": "Daily 8:00–15:45.",
+   "i": "En Cozumel; alquila un coche o scooter para llegar. Lleva repelente y agua.",
+   "i_en": "On Cozumel; rent a car or scooter to get there. Bring repellent and water."
+  },
+  "w_can_ek_balam": {
+   "id": "w_can_ek_balam",
+   "d": "Yacimiento maya poco masificado cuyo nombre significa 'jaguar negro'. Su Acrópolis conserva la extraordinaria fachada de El Trono, con figuras de estuco de guerreros alados y una boca de monstruo mitológico. Aún se permite subir a la pirámide para ver la selva infinita. A pocos minutos está el cenote X'Canché.",
+   "d_en": "An uncrowded Maya site whose name means 'black jaguar'. Its Acropolis preserves the extraordinary El Trono facade, with stucco figures of winged warriors and a mythological monster's mouth. You can still climb the pyramid for endless jungle views. Cenote X'Canché is just minutes away.",
+   "h": "Todos los días 8:00–17:00.",
+   "h_en": "Daily 8:00–17:00.",
+   "i": "Se combina bien con Valladolid y el cenote X'Canché. Menos turistas que Chichén Itzá.",
+   "i_en": "Pairs well with Valladolid and Cenote X'Canché. Far fewer tourists than Chichén Itzá."
+  },
+  "w_can_muyil": {
+   "id": "w_can_muyil",
+   "d": "Antiguo puerto maya en el borde de la biosfera de Sian Ka'an, Patrimonio de la Humanidad. Su pirámide El Castillo se alza sobre la selva y un sendero de madera lleva a la laguna de Muyil. La gran atracción es flotar por los canales mayas naturales que conectan las lagunas, dejándose llevar por la corriente. Naturaleza y arqueología en un mismo lugar.",
+   "d_en": "An ancient Maya port on the edge of the Sian Ka'an biosphere, a UNESCO World Heritage Site. Its El Castillo pyramid rises above the jungle and a boardwalk leads to Muyil lagoon. The big draw is floating along the natural Maya canals that connect the lagoons, drifting with the current. Nature and archaeology in one spot.",
+   "h": "Todos los días 8:00–17:00.",
+   "h_en": "Daily 8:00–17:00.",
+   "i": "Contrata el tour de flotación en los canales. A 15 km al sur de Tulum.",
+   "i_en": "Book the canal-floating tour. About 15 km south of Tulum."
+  },
+  "w_can_playa_delfines": {
+   "id": "w_can_playa_delfines",
+   "d": "Playa pública en lo alto de un mirador de la Zona Hotelera, célebre por su enorme letrero multicolor 'CANCÚN'. Ofrece las vistas más amplias del Caribe, con degradados de azul turquesa espectaculares. Es de acceso libre, con arena blanca y oleaje fuerte. Punto ideal para fotos y para ver amanecer sobre el mar.",
+   "d_en": "A public beach on a Hotel Zone lookout, famous for its huge multicolored 'CANCÚN' sign. It offers the widest Caribbean views, with stunning turquoise-blue gradients. Free access, white sand and strong surf. A perfect spot for photos and to watch the sunrise over the sea.",
+   "h": "Acceso libre 24 h; mejor por la mañana.",
+   "h_en": "Open access 24 h; best in the morning.",
+   "i": "Oleaje fuerte y sin sombra; lleva agua. Aparcamiento público gratuito.",
+   "i_en": "Strong surf and no shade; bring water. Free public parking."
+  },
+  "w_can_isla_mujeres": {
+   "id": "w_can_isla_mujeres",
+   "d": "Pequeña isla frente a Cancún, famosa por sus aguas transparentes y su ambiente relajado. Se recorre en carrito de golf de punta a punta en pocas horas. Ofrece playas paradisíacas, snorkel, nado con tiburón ballena (temporada) y el parque escénico de Punta Sur. El ferry desde Puerto Juárez tarda unos 20 minutos.",
+   "d_en": "A small island facing Cancún, famous for its crystal-clear water and laid-back vibe. You can drive it end to end by golf cart in a few hours. It offers idyllic beaches, snorkeling, whale-shark swims (in season) and the Punta Sur scenic park. The ferry from Puerto Juárez takes about 20 minutes.",
+   "h": "Ferry frecuente 5:00–23:30 aprox.",
+   "h_en": "Frequent ferry roughly 5:00–23:30.",
+   "i": "Alquila un carrito de golf para recorrerla. Reserva el ferry ida y vuelta.",
+   "i_en": "Rent a golf cart to get around. Book a round-trip ferry."
+  },
+  "w_can_cozumel": {
+   "id": "w_can_cozumel",
+   "d": "La mayor isla de México, considerada uno de los mejores destinos de buceo del planeta gracias al arrecife Palancar y a la barrera mesoamericana. Sus aguas cristalinas permiten ver corales, tortugas y peces de colores. Además ofrece playas, balnearios (beach clubs), el faro de Punta Sur y las ruinas de San Gervasio. Se llega en ferry desde Playa del Carmen.",
+   "d_en": "Mexico's largest island, rated one of the planet's best diving destinations thanks to the Palancar reef and the Mesoamerican barrier. Its crystal waters reveal corals, turtles and colorful fish. It also offers beaches, beach clubs, the Punta Sur lighthouse and the San Gervasio ruins. Reached by ferry from Playa del Carmen.",
+   "h": "Ferry desde Playa del Carmen cada hora, 6:00–22:00 aprox.",
+   "h_en": "Ferry from Playa del Carmen roughly hourly, 6:00–22:00.",
+   "i": "Ideal para buceo y snorkel; reserva inmersiones con antelación. Llega en ferry desde Playa del Carmen.",
+   "i_en": "Ideal for diving and snorkeling; book dives ahead. Arrive by ferry from Playa del Carmen."
+  },
+  "w_can_cenote_dos_ojos": {
+   "id": "w_can_cenote_dos_ojos",
+   "d": "Uno de los cenotes más espectaculares de la Riviera Maya, formado por dos pozas conectadas ('dos ojos') de agua dulce transparente. Forma parte de uno de los sistemas de cuevas inundadas más largos del mundo. Es un paraíso para el snorkel y el buceo en cavernas, con estalactitas y juegos de luz. El agua se mantiene fresca todo el año.",
+   "d_en": "One of the Riviera Maya's most spectacular cenotes, formed by two connected pools ('two eyes') of clear fresh water. It is part of one of the world's longest flooded cave systems. A paradise for snorkeling and cavern diving, with stalactites and dramatic light. The water stays cool year-round.",
+   "h": "Todos los días 8:00–17:00.",
+   "h_en": "Daily 8:00–17:00.",
+   "i": "Usa protector solar reef-safe o dúchate antes de entrar. Alquila snorkel y chaleco allí.",
+   "i_en": "Use reef-safe sunscreen or rinse off before entering. Snorkel and vest rentals on site."
+  },
+  "w_can_cenote_ik_kil": {
+   "id": "w_can_cenote_ik_kil",
+   "d": "Cenote abierto de forma casi perfectamente circular, con paredes de roca cubiertas de lianas y cascadas de raíces que caen 26 m hasta el agua. Considerado sagrado por los mayas, es de los más fotogénicos de Yucatán. Una escalera de piedra baja hasta la poza donde puedes nadar. Está a pocos minutos de Chichén Itzá, por lo que se combinan.",
+   "d_en": "An open cenote of almost perfectly circular shape, its rock walls draped with vines and curtains of roots falling 26 m to the water. Considered sacred by the Maya, it is one of Yucatán's most photogenic. A stone stairway descends to the pool where you can swim. It sits minutes from Chichén Itzá, so the two are combined.",
+   "h": "Todos los días 9:00–17:00.",
+   "h_en": "Daily 9:00–17:00.",
+   "i": "Ve temprano antes de que lleguen los grupos de Chichén Itzá. Hay vestuarios y chalecos.",
+   "i_en": "Go early before the Chichén Itzá crowds arrive. Changing rooms and vests available."
+  },
+  "w_can_gran_cenote": {
+   "id": "w_can_gran_cenote",
+   "d": "Uno de los cenotes más populares cerca de Tulum, con aguas cristalinas de color turquesa donde nadan pequeñas tortugas y peces. Combina zonas abiertas con cavernas de estalactitas ideales para el snorkel. Las pasarelas de madera y la vegetación crean un ambiente idílico. Perfecto para familias por su fácil acceso.",
+   "d_en": "One of the most popular cenotes near Tulum, with clear turquoise water where small turtles and fish swim. It mixes open pools with stalactite caverns ideal for snorkeling. Wooden walkways and lush greenery create an idyllic setting. Perfect for families thanks to its easy access.",
+   "h": "Todos los días 8:00–16:45.",
+   "h_en": "Daily 8:00–16:45.",
+   "i": "Lleva tu propio equipo de snorkel para ahorrar. Dúchate antes de entrar (obligatorio).",
+   "i_en": "Bring your own snorkel gear to save money. Shower before entering (mandatory)."
+  },
+  "w_can_playa_norte": {
+   "id": "w_can_playa_norte",
+   "d": "Situada en la punta norte de Isla Mujeres, es repetidamente elegida entre las mejores playas del Caribe. Su arena es blanca y fina y el mar, poco profundo y en calma, permite caminar mar adentro sobre aguas turquesa. Perfecta para relajarse, nadar y ver la puesta de sol. Cuenta con clubes de playa y palapas.",
+   "d_en": "At the northern tip of Isla Mujeres, it is repeatedly ranked among the best beaches in the Caribbean. Its sand is white and fine and the sea is shallow and calm, letting you wade far out over turquoise water. Perfect for relaxing, swimming and watching the sunset. It has beach clubs and palapas.",
+   "h": "Acceso libre 24 h.",
+   "h_en": "Open access 24 h.",
+   "i": "Aguas tranquilas ideales para niños. Llega en carrito de golf desde el ferry.",
+   "i_en": "Calm water, great for kids. Arrive by golf cart from the ferry."
+  },
+  "w_can_punta_sur": {
+   "id": "w_can_punta_sur",
+   "d": "Extremo sur de Isla Mujeres y punto más oriental de México, primero en recibir el sol cada día. Ofrece un parque escénico con acantilados sobre el Caribe, un jardín de esculturas, un faro y los restos de un templo maya dedicado a Ixchel. Los senderos junto al mar regalan vistas espectaculares. Una parada obligada al recorrer la isla.",
+   "d_en": "The southern tip of Isla Mujeres and Mexico's easternmost point, the first to catch the sun each day. It offers a scenic park with cliffs over the Caribbean, a sculpture garden, a lighthouse and the remains of a Maya temple to Ixchel. Clifftop paths deliver spectacular views. A must-stop when touring the island.",
+   "h": "Todos los días 9:00–17:00.",
+   "h_en": "Daily 9:00–17:00.",
+   "i": "Lleva calzado cómodo para los senderos del acantilado. Entrada económica.",
+   "i_en": "Bring comfortable shoes for the clifftop paths. Cheap entry."
+  },
+  "w_can_playa_paraiso_tulum": {
+   "id": "w_can_playa_paraiso_tulum",
+   "d": "Considerada una de las playas más bonitas de México, se extiende bajo las ruinas de Tulum con arena blanca y fina, palmeras inclinadas y aguas turquesa. Su nombre lo dice todo: paisaje de paraíso caribeño. Hay clubes de playa donde tomar algo y tumbonas para pasar el día. Ideal combinar la mañana en las ruinas y la tarde en la playa.",
+   "d_en": "Rated one of Mexico's most beautiful beaches, it stretches below the Tulum ruins with fine white sand, leaning palms and turquoise water. Its name says it all: a Caribbean paradise. Beach clubs offer drinks and loungers to spend the day. Ideal to combine a morning at the ruins with an afternoon on the sand.",
+   "h": "Acceso libre; beach clubs 9:00–18:00 aprox.",
+   "h_en": "Open access; beach clubs roughly 9:00–18:00.",
+   "i": "Consulta el estado del sargazo antes de ir. Aparcamiento de pago cerca.",
+   "i_en": "Check sargassum conditions before going. Paid parking nearby."
+  },
+  "w_can_laguna_nichupte": {
+   "id": "w_can_laguna_nichupte",
+   "d": "Amplio sistema lagunar entre la Zona Hotelera y el centro de Cancún, rodeado de manglares protegidos. Es el escenario del popular 'Jungle Tour', que combina navegación en lancha por los canales con snorkel en el arrecife. También se practica kayak, paddle surf y avistamiento de aves y cocodrilos. Un contraste natural frente a las playas abiertas.",
+   "d_en": "A large lagoon system between the Hotel Zone and downtown Cancún, ringed by protected mangroves. It is the setting for the popular 'Jungle Tour', combining a boat run through the channels with reef snorkeling. Kayaking, paddleboarding and bird- and crocodile-watching are also on offer. A natural contrast to the open beaches.",
+   "h": "Tours 8:00–17:00 según operador.",
+   "h_en": "Tours 8:00–17:00 depending on operator.",
+   "i": "Reserva el Jungle Tour con un operador con seguro. No toques el manglar protegido.",
+   "i_en": "Book the Jungle Tour with an insured operator. Do not disturb the protected mangrove."
+  },
+  "w_can_akumal": {
+   "id": "w_can_akumal",
+   "d": "Su nombre significa 'lugar de las tortugas' en maya, y es uno de los mejores sitios del Caribe para nadar junto a tortugas verdes en su hábitat natural. La bahía es protegida, poco profunda y de aguas calmadas, perfecta para el snorkel. También hay un arrecife cercano lleno de vida. La entrada al agua está regulada para proteger a las tortugas.",
+   "d_en": "Its name means 'place of turtles' in Maya, and it is one of the Caribbean's best spots to snorkel beside green turtles in their natural habitat. The bay is protected, shallow and calm, ideal for snorkeling. A nearby reef teems with life too. Water access is regulated to protect the turtles.",
+   "h": "Bahía 8:00–16:00 (acceso regulado).",
+   "h_en": "Bay 8:00–16:00 (regulated access).",
+   "i": "Obligatorio chaleco y guía en la zona de tortugas; prohibido tocarlas. Prohibido protector solar en el agua.",
+   "i_en": "Vest and guide required in the turtle zone; touching them is forbidden. No sunscreen in the water."
+  },
+  "w_can_xcaret": {
+   "id": "w_can_xcaret",
+   "d": "El parque temático más emblemático de la Riviera Maya, que fusiona naturaleza, cultura mexicana y diversión. Puedes recorrer ríos subterráneos nadando, ver mariposarios, un acuario de arrecife y espectáculos de danzas prehispánicas. La jornada culmina con el 'Xcaret México Espectacular', un gran show nocturno con 300 artistas. Se necesita un día completo.",
+   "d_en": "The Riviera Maya's most iconic theme park, blending nature, Mexican culture and fun. You can swim through underground rivers, visit butterfly pavilions, a reef aquarium and pre-Hispanic dance shows. The day ends with 'Xcaret México Espectacular', a grand nightly show with 300 performers. Plan for a full day.",
+   "h": "Todos los días 8:30–22:30.",
+   "h_en": "Daily 8:30–22:30.",
+   "i": "Compra entradas online (Plus incluye buffet). Quédate al espectáculo nocturno.",
+   "i_en": "Buy tickets online (Plus includes buffet). Stay for the evening show."
+  },
+  "w_can_xel_ha": {
+   "id": "w_can_xel_ha",
+   "d": "Enorme caleta natural donde el agua dulce de los cenotes se mezcla con el mar del Caribe, creando un acuario natural repleto de peces. Es el paraíso del snorkel, con toboganes, tirolinas, ríos para flotar y una cueva. La entrada suele ser todo incluido, con comida y bebidas. Ideal para un día en familia entre naturaleza y actividades.",
+   "d_en": "A huge natural inlet where fresh cenote water meets the Caribbean, creating a natural aquarium full of fish. It is a snorkeling paradise, with slides, ziplines, lazy rivers and a cave. Admission is usually all-inclusive, with food and drinks. Ideal for a family day among nature and activities.",
+   "h": "Todos los días 8:30–18:00.",
+   "h_en": "Daily 8:30–18:00.",
+   "i": "All-inclusive; lleva bañador y toalla. Usa solo protector biodegradable.",
+   "i_en": "All-inclusive; bring swimwear and a towel. Use only biodegradable sunscreen."
+  },
+  "w_can_musa": {
+   "id": "w_can_musa",
+   "d": "Museo submarino único con más de 500 esculturas humanas a tamaño real sumergidas en el fondo del Caribe, creadas para formar arrecife artificial y regenerar la vida marina. La galería principal está en Manchones, cerca de Isla Mujeres. Se visita buceando o haciendo snorkel, y también en barcos con fondo de cristal. Arte y conservación bajo el agua.",
+   "d_en": "A unique underwater museum with over 500 life-size human sculptures submerged on the Caribbean seabed, created to form an artificial reef and regenerate marine life. The main gallery is at Manchones, near Isla Mujeres. It is visited by diving or snorkeling, and also on glass-bottom boats. Art and conservation beneath the sea.",
+   "h": "Tours diarios 9:00–15:00 según operador.",
+   "h_en": "Daily tours 9:00–15:00 depending on operator.",
+   "i": "Solo se accede en tour de buceo, snorkel o barco. Sale desde Cancún o Isla Mujeres.",
+   "i_en": "Access only by dive, snorkel or boat tour. Departs from Cancún or Isla Mujeres."
+  },
+  "w_can_quinta_avenida": {
+   "id": "w_can_quinta_avenida",
+   "d": "La arteria peatonal más animada de Playa del Carmen, que discurre paralela al mar durante más de 20 manzanas. Concentra tiendas de artesanía y marcas, restaurantes internacionales, bares y música en directo. De día es ideal para compras y de noche cobra vida con su ambiente cosmopolita. El punto de partida para el ferry a Cozumel está muy cerca.",
+   "d_en": "The liveliest pedestrian artery in Playa del Carmen, running parallel to the sea for more than 20 blocks. It packs craft and brand shops, international restaurants, bars and live music. By day it is perfect for shopping and by night it comes alive with a cosmopolitan buzz. The Cozumel ferry pier is close by.",
+   "h": "Tiendas 10:00–23:00; bares hasta tarde.",
+   "h_en": "Shops 10:00–23:00; bars until late.",
+   "i": "Regatea en las tiendas de artesanía. A 1 h de Cancún en autobús ADO.",
+   "i_en": "Haggle in the craft shops. About 1 h from Cancún by ADO bus."
+  },
+  "w_can_zona_hotelera": {
+   "id": "w_can_zona_hotelera",
+   "d": "Larga franja de arena con forma de '7' que concentra el Cancún turístico: kilómetros de playas caribeñas, grandes resorts, centros comerciales como La Isla, restaurantes y la famosa vida nocturna de la Party Zone (Coco Bongo, The City). El Boulevard Kukulcán la recorre de punta a punta bordeando la laguna Nichupté y el mar. El corazón del ocio de Cancún.",
+   "d_en": "A long '7'-shaped sand strip that concentrates tourist Cancún: miles of Caribbean beaches, big resorts, malls such as La Isla, restaurants and the famous Party Zone nightlife (Coco Bongo, The City). Boulevard Kukulcán runs its full length between Nichupté lagoon and the sea. The heart of Cancún's leisure scene.",
+   "h": "Abierto 24 h; discotecas hasta el amanecer.",
+   "h_en": "Open 24 h; clubs until dawn.",
+   "i": "Muévete con el autobús R-1/R-2 (barato). Reserva las discotecas con paquete de barra libre.",
+   "i_en": "Get around with the cheap R-1/R-2 bus. Book clubs with an open-bar package."
+  },
+  "w_can_la_habichuela": {
+   "id": "w_can_la_habichuela",
+   "d": "Fundado en 1977 en el centro de Cancún, es toda una institución de la cocina yucateca y caribeña. Su jardín, con vegetación exuberante y ruinas mayas iluminadas, crea un ambiente romántico. Su plato estrella es el 'Cocobichuela', langosta y camarón en salsa de curry servida en un coco. Cocina tradicional con toque gourmet.",
+   "d_en": "Founded in 1977 in downtown Cancún, it is an institution of Yucatecan and Caribbean cuisine. Its garden, with lush greenery and lit Maya ruins, sets a romantic mood. The signature dish is 'Cocobichuela', lobster and shrimp in curry sauce served in a coconut. Traditional cooking with a gourmet touch.",
+   "h": "Todos los días 13:00–23:30.",
+   "h_en": "Daily 13:00–23:30.",
+   "i": "Reserva para cenar; pide el Cocobichuela. Hay una sucursal en la Zona Hotelera.",
+   "i_en": "Book for dinner; order the Cocobichuela. There is a branch in the Hotel Zone."
+  },
+  "w_can_lorenzillos": {
+   "id": "w_can_lorenzillos",
+   "d": "Restaurante emblemático de la Zona Hotelera construido sobre un palafito de madera en la laguna Nichupté. Su especialidad es la langosta viva, que eliges de un vivero, además de una gran variedad de mariscos frescos. Las vistas al atardecer sobre la laguna son espectaculares. Ideal para una cena especial junto al agua.",
+   "d_en": "A landmark Hotel Zone restaurant built on a wooden stilt platform over Nichupté lagoon. Its specialty is live lobster, chosen from a tank, plus a wide range of fresh seafood. The sunset views over the lagoon are spectacular. Ideal for a special waterside dinner.",
+   "h": "Todos los días 13:00–00:00.",
+   "h_en": "Daily 13:00–00:00.",
+   "i": "Reserva mesa al atardecer para las mejores vistas. La langosta se paga por peso.",
+   "i_en": "Book a table at sunset for the best views. Lobster is priced by weight."
+  },
+  "w_can_puerto_madero": {
+   "id": "w_can_puerto_madero",
+   "d": "Elegante restaurante inspirado en los antiguos almacenes portuarios de Buenos Aires, ubicado a orillas de la laguna Nichupté. Destaca por sus cortes de carne a la parrilla y su marisco fresco, en un ambiente sofisticado. Las mesas junto al agua ofrecen una vista privilegiada del atardecer. Uno de los favoritos para cenas de lujo en Cancún.",
+   "d_en": "An elegant restaurant inspired by the old port warehouses of Buenos Aires, set on the shore of Nichupté lagoon. It stands out for its grilled steaks and fresh seafood in a sophisticated setting. Waterside tables offer a prime sunset view. A favorite for upscale dining in Cancún.",
+   "h": "Todos los días 13:00–01:00.",
+   "h_en": "Daily 13:00–01:00.",
+   "i": "Reserva mesa junto a la laguna. Porciones generosas, ideal para compartir.",
+   "i_en": "Book a lagoon-side table. Generous portions, great for sharing."
+  },
+  "w_can_el_fish_fritanga": {
+   "id": "w_can_el_fish_fritanga",
+   "d": "Restaurante popular y sin pretensiones en la Zona Hotelera, muy querido por locales y viajeros por su marisco fresco a buen precio. Sirve tacos de pescado, ceviches, camarones y pescado frito en un ambiente informal con vistas a la laguna. Una alternativa auténtica y económica frente a los locales turísticos. Raciones generosas y sabor casero.",
+   "d_en": "A popular, unpretentious spot in the Hotel Zone, loved by locals and travelers for fresh, well-priced seafood. It serves fish tacos, ceviches, shrimp and fried fish in a casual setting with lagoon views. An authentic, affordable alternative to the tourist venues. Generous portions and homemade flavor.",
+   "h": "Todos los días 11:00–20:00.",
+   "h_en": "Daily 11:00–20:00.",
+   "i": "Prueba los tacos de pescado y el ceviche. Solo efectivo en ocasiones.",
+   "i_en": "Try the fish tacos and ceviche. Sometimes cash only."
+  },
+  "w_can_parque_las_palapas": {
+   "id": "w_can_parque_las_palapas",
+   "d": "El corazón del Cancún local, una plaza animada en el centro donde cada noche se instalan puestos de antojitos mexicanos. Puedes probar marquesitas, elotes, tacos, tamales y panuchos a precios muy bajos, entre familias, música y ambiente popular. Es el mejor sitio para comer auténtico y barato lejos de la Zona Hotelera. Pura vida cancunense.",
+   "d_en": "The heart of local Cancún, a lively downtown square where Mexican street-food stalls set up each evening. You can try marquesitas, elotes, tacos, tamales and panuchos at very low prices, amid families, music and a local buzz. It is the best place to eat authentic and cheap away from the Hotel Zone. Pure Cancún life.",
+   "h": "Puestos 18:00–00:00 aprox.",
+   "h_en": "Stalls roughly 18:00–00:00.",
+   "i": "Prueba la marquesita (crepe crujiente). Lleva efectivo en pesos.",
+   "i_en": "Try the marquesita (crispy crepe). Bring cash in pesos."
+  },
+  "w_can_peters": {
+   "id": "w_can_peters",
+   "d": "Pequeño y aclamado restaurante de autor en el centro de Cancún, lejos del bullicio turístico. Su chef propone una carta internacional creativa que fusiona técnicas europeas con productos mexicanos, cambiando según la temporada. El ambiente es íntimo y artístico, con pocas mesas. Una joya gastronómica para los que buscan una cena diferente y cuidada.",
+   "d_en": "A small, acclaimed chef-driven restaurant in downtown Cancún, away from the tourist bustle. Its chef offers a creative international menu fusing European techniques with Mexican produce, changing by season. The setting is intimate and artistic, with few tables. A culinary gem for those seeking a different, thoughtful dinner.",
+   "h": "Lunes a sábado 18:00–23:00; domingo cerrado.",
+   "h_en": "Monday to Saturday 18:00–23:00; closed Sunday.",
+   "i": "Reserva con antelación por su tamaño reducido. Solo cenas.",
+   "i_en": "Book ahead as it is small. Dinner only."
+  }
+ },
+ "food": {
+  "w_can_la_habichuela": {
+   "cuisine": "Yucateca y caribeña",
+   "price": "25–55 €",
+   "hours": "Todos los días 13:00–23:30."
+  },
+  "w_can_lorenzillos": {
+   "cuisine": "Mariscos y langosta",
+   "price": "35–75 €",
+   "hours": "Todos los días 13:00–00:00."
+  },
+  "w_can_puerto_madero": {
+   "cuisine": "Carnes y mariscos (argentino)",
+   "price": "35–70 €",
+   "hours": "Todos los días 13:00–01:00."
+  },
+  "w_can_el_fish_fritanga": {
+   "cuisine": "Mariscos mexicanos",
+   "price": "10–25 €",
+   "hours": "Todos los días 11:00–20:00."
+  },
+  "w_can_parque_las_palapas": {
+   "cuisine": "Antojitos mexicanos",
+   "price": "4–15 €",
+   "hours": "Puestos 18:00–00:00 aprox."
+  },
+  "w_can_peters": {
+   "cuisine": "Internacional gourmet",
+   "price": "20–45 €",
+   "hours": "Lunes a sábado 18:00–23:00; domingo cerrado."
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Cancún",
+   "items": [
+    {
+     "name": "Hamaca yucateca",
+     "price": "25–70 €",
+     "desc": "Hamaca tejida a mano en algodón o nylon, tradición maya de Yucatán."
+    },
+    {
+     "name": "Vainilla de Papantla",
+     "price": "6–18 €",
+     "desc": "Extracto y vainas de vainilla mexicana, muy aromática."
+    },
+    {
+     "name": "Tequila y mezcal artesanal",
+     "price": "15–60 €",
+     "desc": "Botellas de agave 100% con denominación de origen."
+    },
+    {
+     "name": "Alebrijes y artesanía maya",
+     "price": "8–40 €",
+     "desc": "Figuras de madera pintadas y textiles bordados a mano."
+    },
+    {
+     "name": "Chile habanero y salsas",
+     "price": "4–12 €",
+     "desc": "Salsas picantes y polvos de habanero típicos de la península."
+    }
+   ],
+   "shops": [
+    "Mercado 28",
+    "Mercado 23",
+    "La Isla Shopping Village",
+    "Plaza Las Américas",
+    "Quinta Avenida (Playa del Carmen)"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Lleva efectivo en pesos para mercados y taxis; regatea en Mercado 28.",
+   "Usa protector solar biodegradable (reef-safe): es obligatorio en cenotes y parques.",
+   "Reserva Chichén Itzá y los parques Xcaret/Xel-Há con antelación y ve temprano para evitar calor y multitudes.",
+   "El ADO es la forma más segura y barata de moverse entre Cancún, Playa del Carmen y Tulum.",
+   "Evita la temporada de sargazo (mayo-agosto) si buscas playas limpias; consulta los mapas de sargazo antes de ir."
+  ],
+  "en": [
+   "Carry cash in pesos for markets and taxis; haggle at Mercado 28.",
+   "Use biodegradable reef-safe sunscreen: it is mandatory in cenotes and eco-parks.",
+   "Book Chichén Itzá and Xcaret/Xel-Há parks in advance and arrive early to beat heat and crowds.",
+   "The ADO bus is the safest and cheapest way to travel between Cancún, Playa del Carmen and Tulum.",
+   "Avoid sargassum season (May-August) if you want clean beaches; check seaweed maps before you go."
+  ]
+ },
+ "climate": {
+  "hi": [
+   28,
+   29,
+   30,
+   31,
+   32,
+   33,
+   33,
+   33,
+   32,
+   31,
+   29,
+   28
+  ],
+  "lo": [
+   21,
+   21,
+   22,
+   23,
+   24,
+   25,
+   25,
+   25,
+   24,
+   24,
+   23,
+   22
+  ]
+ },
+ "tr": {
+  "Ciudad maya y Maravilla del Mundo con la pirámide de Kukulcán.": "Maya city and World Wonder with the Kukulcán pyramid.",
+  "Ciudad maya amurallada sobre acantilados frente al Caribe.": "Walled Maya city on cliffs overlooking the Caribbean.",
+  "Ruinas mayas en plena Zona Hotelera con iguanas.": "Maya ruins right in the Hotel Zone, home to iguanas.",
+  "Ciudad maya en la selva con la pirámide Nohoch Mul.": "Jungle Maya city with the Nohoch Mul pyramid.",
+  "Museo con arte maya y las ruinas de San Miguelito.": "Museum of Maya art plus the San Miguelito ruins.",
+  "Santuario maya de Ixchel, diosa de la fertilidad.": "Maya sanctuary of Ixchel, goddess of fertility.",
+  "Ruinas mayas con una espectacular fachada de estuco.": "Maya ruins with a spectacular stucco facade.",
+  "Ruinas mayas junto a la reserva de Sian Ka'an.": "Maya ruins beside the Sian Ka'an reserve.",
+  "La playa pública más famosa, con el letrero de Cancún.": "The most famous public beach, with the Cancún sign.",
+  "Isla caribeña de aguas turquesa a un ferry de Cancún.": "Turquoise Caribbean island a ferry ride from Cancún.",
+  "Isla del buceo con arrecifes de fama mundial.": "Diving island with world-famous reefs.",
+  "Cenote de aguas cristalinas y cuevas para bucear.": "Crystal-clear cenote with caves for diving.",
+  "Cenote circular con lianas colgantes junto a Chichén Itzá.": "Circular cenote with hanging vines near Chichén Itzá.",
+  "Cenote de aguas turquesa con tortugas y peces.": "Turquoise cenote with turtles and fish.",
+  "Playa de aguas someras y calmas, de las mejores del Caribe.": "Shallow, calm-water beach, among the Caribbean's best.",
+  "El punto más oriental de México, con acantilados y esculturas.": "Mexico's easternmost point, with cliffs and sculptures.",
+  "Playa de postal con palmeras bajo las ruinas de Tulum.": "Postcard beach with palms below the Tulum ruins.",
+  "Laguna de manglares para kayak, jungla y jet ski.": "Mangrove lagoon for kayaking, jungle tours and jet ski.",
+  "Bahía tranquila para nadar con tortugas marinas.": "Calm bay for swimming with sea turtles.",
+  "Parque eco-arqueológico con ríos, cultura y gran espectáculo.": "Eco-archaeological park with rivers, culture and a grand show.",
+  "Parque acuático natural en una caleta para snorkel.": "Natural water park in a cove for snorkeling.",
+  "Museo de esculturas sumergidas entre Cancún e Isla Mujeres.": "Museum of submerged sculptures between Cancún and Isla Mujeres.",
+  "Avenida peatonal de tiendas, bares y ambiente.": "Pedestrian avenue of shops, bars and nightlife.",
+  "Franja de playas, resorts, vida nocturna y centros comerciales.": "Strip of beaches, resorts, nightlife and malls.",
+  "Restaurante icónico de cocina yucateca en un jardín tropical.": "Iconic Yucatecan restaurant in a tropical garden.",
+  "Marisquería sobre palafito en la laguna, famosa por la langosta.": "Stilt-house seafood spot on the lagoon, famed for lobster.",
+  "Steakhouse de estilo argentino frente a la laguna Nichupté.": "Argentine-style steakhouse facing Nichupté lagoon.",
+  "Marisquería sencilla y auténtica frente a la laguna.": "Simple, authentic seafood joint by the lagoon.",
+  "Plaza del centro con puestos de comida callejera mexicana.": "Downtown square with Mexican street-food stalls.",
+  "Bistró acogedor de autor en el centro de Cancún.": "Cozy chef-driven bistro in downtown Cancún.",
+  "Cancún": "Cancún"
+ }
+}

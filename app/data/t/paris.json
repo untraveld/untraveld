@@ -1,0 +1,752 @@
+{
+ "id": "paris",
+ "name": "París",
+ "country": "WORLD",
+ "center": [
+  48.85661,
+  2.35222
+ ],
+ "pois": [
+  {
+   "id": "w_par_tour_eiffel",
+   "cat": "monuments",
+   "name": "Torre Eiffel",
+   "icon": "🗼",
+   "lat": 48.85837,
+   "lng": 2.29448,
+   "desc": "El símbolo de París, torre de hierro de 330 m con vistas panorámicas."
+  },
+  {
+   "id": "w_par_louvre",
+   "cat": "monuments",
+   "name": "Museo del Louvre",
+   "icon": "🖼️",
+   "lat": 48.86061,
+   "lng": 2.33764,
+   "desc": "El museo de arte más grande del mundo, hogar de la Mona Lisa."
+  },
+  {
+   "id": "w_par_notre_dame",
+   "cat": "monuments",
+   "name": "Catedral de Notre-Dame",
+   "icon": "⛪",
+   "lat": 48.853,
+   "lng": 2.3497,
+   "desc": "Obra maestra gótica del siglo XII en la Île de la Cité."
+  },
+  {
+   "id": "w_par_arc_triomphe",
+   "cat": "monuments",
+   "name": "Arco del Triunfo",
+   "icon": "🏛️",
+   "lat": 48.87379,
+   "lng": 2.295,
+   "desc": "Arco monumental de Napoleón en la plaza Charles de Gaulle."
+  },
+  {
+   "id": "w_par_sacre_coeur",
+   "cat": "monuments",
+   "name": "Basílica del Sacré-Cœur",
+   "icon": "⛪",
+   "lat": 48.8867,
+   "lng": 2.3431,
+   "desc": "Basílica blanca en lo alto de la colina de Montmartre."
+  },
+  {
+   "id": "w_par_musee_orsay",
+   "cat": "monuments",
+   "name": "Museo de Orsay",
+   "icon": "🖼️",
+   "lat": 48.85996,
+   "lng": 2.3266,
+   "desc": "Museo impresionista en una antigua estación de tren."
+  },
+  {
+   "id": "w_par_versailles",
+   "cat": "monuments",
+   "name": "Palacio de Versalles",
+   "icon": "🏰",
+   "lat": 48.80488,
+   "lng": 2.12045,
+   "desc": "Suntuoso palacio real con jardines a las afueras de París."
+  },
+  {
+   "id": "w_par_sainte_chapelle",
+   "cat": "monuments",
+   "name": "Sainte-Chapelle",
+   "icon": "⛪",
+   "lat": 48.85547,
+   "lng": 2.34498,
+   "desc": "Capilla gótica con espectaculares vidrieras del siglo XIII."
+  },
+  {
+   "id": "w_par_pantheon",
+   "cat": "monuments",
+   "name": "Panteón de París",
+   "icon": "🏛️",
+   "lat": 48.8462,
+   "lng": 2.3461,
+   "desc": "Mausoleo neoclásico de grandes figuras francesas."
+  },
+  {
+   "id": "w_par_pompidou",
+   "cat": "monuments",
+   "name": "Centro Pompidou",
+   "icon": "🎨",
+   "lat": 48.86072,
+   "lng": 2.35223,
+   "desc": "Museo de arte moderno de arquitectura vanguardista."
+  },
+  {
+   "id": "w_par_opera_garnier",
+   "cat": "monuments",
+   "name": "Ópera Garnier",
+   "icon": "🎭",
+   "lat": 48.87198,
+   "lng": 2.33192,
+   "desc": "Opulento teatro de ópera del siglo XIX, de estilo Beaux-Arts."
+  },
+  {
+   "id": "w_par_invalides",
+   "cat": "monuments",
+   "name": "Los Inválidos",
+   "icon": "🏛️",
+   "lat": 48.85653,
+   "lng": 2.31261,
+   "desc": "Complejo con cúpula dorada y tumba de Napoleón."
+  },
+  {
+   "id": "w_par_conciergerie",
+   "cat": "monuments",
+   "name": "La Conciergerie",
+   "icon": "🏰",
+   "lat": 48.85608,
+   "lng": 2.34572,
+   "desc": "Antiguo palacio y prisión de la Revolución en la Île de la Cité."
+  },
+  {
+   "id": "w_par_jardin_luxembourg",
+   "cat": "nature",
+   "name": "Jardín de Luxemburgo",
+   "icon": "🌳",
+   "lat": 48.8462,
+   "lng": 2.3371,
+   "desc": "Elegante jardín con estanque, palacio y esculturas."
+  },
+  {
+   "id": "w_par_tuileries",
+   "cat": "nature",
+   "name": "Jardín de las Tullerías",
+   "icon": "🌳",
+   "lat": 48.8636,
+   "lng": 2.3275,
+   "desc": "Jardín histórico entre el Louvre y la plaza de la Concordia."
+  },
+  {
+   "id": "w_par_trocadero",
+   "cat": "nature",
+   "name": "Jardines del Trocadéro",
+   "icon": "⛲",
+   "lat": 48.86185,
+   "lng": 2.28935,
+   "desc": "Jardines y explanada con la mejor vista de la Torre Eiffel."
+  },
+  {
+   "id": "w_par_buttes_chaumont",
+   "cat": "nature",
+   "name": "Parque de las Buttes-Chaumont",
+   "icon": "🌳",
+   "lat": 48.8799,
+   "lng": 2.3822,
+   "desc": "Parque romántico con lago, acantilados y templo."
+  },
+  {
+   "id": "w_par_jardin_plantes",
+   "cat": "nature",
+   "name": "Jardín de Plantas",
+   "icon": "🌺",
+   "lat": 48.844,
+   "lng": 2.3597,
+   "desc": "Jardín botánico histórico con invernaderos y museo."
+  },
+  {
+   "id": "w_par_canal_saint_martin",
+   "cat": "nature",
+   "name": "Canal Saint-Martin",
+   "icon": "🚤",
+   "lat": 48.8706,
+   "lng": 2.366,
+   "desc": "Canal con esclusas, puentes de hierro y ambiente bohemio."
+  },
+  {
+   "id": "w_par_champs_elysees",
+   "cat": "ocio",
+   "name": "Campos Elíseos",
+   "icon": "🛍️",
+   "lat": 48.8698,
+   "lng": 2.3077,
+   "desc": "La avenida más famosa de París, entre tiendas y cafés."
+  },
+  {
+   "id": "w_par_montmartre",
+   "cat": "ocio",
+   "name": "Montmartre",
+   "icon": "🎨",
+   "lat": 48.8867,
+   "lng": 2.3414,
+   "desc": "Barrio bohemio de callejuelas, artistas y cafés."
+  },
+  {
+   "id": "w_par_quartier_latin",
+   "cat": "ocio",
+   "name": "Barrio Latino",
+   "icon": "📚",
+   "lat": 48.8489,
+   "lng": 2.3469,
+   "desc": "Barrio universitario histórico de librerías y bistrós."
+  },
+  {
+   "id": "w_par_le_marais",
+   "cat": "ocio",
+   "name": "Le Marais",
+   "icon": "🛍️",
+   "lat": 48.8577,
+   "lng": 2.3588,
+   "desc": "Barrio histórico de moda, galerías y vida nocturna."
+  },
+  {
+   "id": "w_par_galeries_lafayette",
+   "cat": "ocio",
+   "name": "Galerías Lafayette",
+   "icon": "🛍️",
+   "lat": 48.8734,
+   "lng": 2.3321,
+   "desc": "Grandes almacenes de lujo bajo una cúpula de vidrio."
+  },
+  {
+   "id": "w_par_moulin_rouge",
+   "cat": "ocio",
+   "name": "Moulin Rouge",
+   "icon": "🎭",
+   "lat": 48.8841,
+   "lng": 2.3326,
+   "desc": "Legendario cabaret del can-can al pie de Montmartre."
+  },
+  {
+   "id": "w_par_cafe_de_flore",
+   "cat": "food",
+   "name": "Café de Flore",
+   "icon": "☕",
+   "lat": 48.85405,
+   "lng": 2.3326,
+   "desc": "Café literario histórico de Saint-Germain-des-Prés."
+  },
+  {
+   "id": "w_par_deux_magots",
+   "cat": "food",
+   "name": "Les Deux Magots",
+   "icon": "☕",
+   "lat": 48.85399,
+   "lng": 2.3332,
+   "desc": "Café histórico y rival vecino del Café de Flore."
+  },
+  {
+   "id": "w_par_enfants_rouges",
+   "cat": "food",
+   "name": "Marché des Enfants Rouges",
+   "icon": "🍽️",
+   "lat": 48.86296,
+   "lng": 2.36217,
+   "desc": "El mercado cubierto más antiguo de París, en el Marais."
+  },
+  {
+   "id": "w_par_bouillon_chartier",
+   "cat": "food",
+   "name": "Bouillon Chartier",
+   "icon": "🍽️",
+   "lat": 48.8718,
+   "lng": 2.3429,
+   "desc": "Brasserie histórica de comida francesa a precios populares."
+  },
+  {
+   "id": "w_par_laduree",
+   "cat": "food",
+   "name": "Ladurée Champs-Élysées",
+   "icon": "🍰",
+   "lat": 48.8709,
+   "lng": 2.3031,
+   "desc": "Casa histórica de macarons y salón de té de lujo."
+  },
+  {
+   "id": "w_par_comptoir_relais",
+   "cat": "food",
+   "name": "Le Comptoir du Relais",
+   "icon": "🍷",
+   "lat": 48.8518,
+   "lng": 2.3388,
+   "desc": "Bistró célebre del chef Yves Camdeborde en Odéon."
+  },
+  {
+   "id": "w_par_rue_cler",
+   "cat": "food",
+   "name": "Rue Cler",
+   "icon": "🧀",
+   "lat": 48.8566,
+   "lng": 2.3063,
+   "desc": "Animada calle-mercado peatonal cerca de la Torre Eiffel."
+  }
+ ],
+ "extra": {
+  "w_par_tour_eiffel": {
+   "id": "w_par_tour_eiffel",
+   "d": "Construida por Gustave Eiffel para la Exposición Universal de 1889, esta torre de hierro forjado de 330 metros es el monumento más visitado del mundo con pago de entrada. Tiene tres niveles accesibles por ascensor o escaleras, y su cima ofrece las mejores vistas de París. De noche brilla con un centelleo cada hora.",
+   "d_en": "Built by Gustave Eiffel for the 1889 World's Fair, this 330-metre wrought-iron tower is the most-visited paid monument in the world. It has three levels reached by lift or stairs, and its summit offers the best views of Paris. At night it sparkles for five minutes every hour.",
+   "h": "Abierta todos los días, aprox. 9:30–23:45 (verano hasta más tarde).",
+   "h_en": "Open daily, approx. 9:30–23:45 (later in summer).",
+   "i": "Reserva online y sube al atardecer para ver la ciudad de día y de noche.",
+   "i_en": "Book online and go up at dusk to see the city by day and by night."
+  },
+  "w_par_louvre": {
+   "id": "w_par_louvre",
+   "d": "Antiguo palacio real convertido en museo en 1793, el Louvre alberga unas 35.000 obras, desde antigüedades egipcias y griegas hasta la Gioconda de Leonardo y la Venus de Milo. Su famosa pirámide de cristal, diseñada por I. M. Pei, marca la entrada principal en el patio Napoléon.",
+   "d_en": "A former royal palace turned museum in 1793, the Louvre holds around 35,000 works, from Egyptian and Greek antiquities to Leonardo's Mona Lisa and the Venus de Milo. Its famous glass pyramid, designed by I. M. Pei, marks the main entrance in the Napoleon courtyard.",
+   "h": "Miércoles a lunes 9:00–18:00; cerrado los martes.",
+   "h_en": "Wednesday to Monday 9:00–18:00; closed on Tuesdays.",
+   "i": "Es enorme: elige antes las salas clave y reserva franja horaria online.",
+   "i_en": "It is huge: pick key galleries beforehand and book a timed slot online."
+  },
+  "w_par_notre_dame": {
+   "id": "w_par_notre_dame",
+   "d": "Catedral gótica emblemática iniciada en 1163, famosa por sus arbotantes, sus rosetones y sus gárgolas. Sufrió un grave incendio en 2019 que destruyó su aguja, y ha sido restaurada y reabierta al culto y a las visitas en diciembre de 2024. Es el punto kilométrico cero de Francia.",
+   "d_en": "Iconic Gothic cathedral begun in 1163, famous for its flying buttresses, rose windows and gargoyles. It suffered a major fire in 2019 that destroyed its spire, and was restored and reopened for worship and visits in December 2024. It marks France's kilometre zero.",
+   "h": "Abierta a diario; consultar horarios de misa y visitas.",
+   "h_en": "Open daily; check mass and visiting times.",
+   "i": "Entrada gratuita; puede haber colas, ve temprano tras la reapertura.",
+   "i_en": "Free entry; expect queues after the reopening, so arrive early."
+  },
+  "w_par_arc_triomphe": {
+   "id": "w_par_arc_triomphe",
+   "d": "Encargado por Napoleón en 1806 para honrar a su ejército, este arco de 50 metros corona la avenida de los Campos Elíseos. Bajo él descansa la Tumba del Soldado Desconocido con su llama eterna. Una terraza en lo alto ofrece vistas radiales de las doce avenidas que confluyen en la plaza.",
+   "d_en": "Commissioned by Napoleon in 1806 to honour his army, this 50-metre arch crowns the Champs-Élysées avenue. Beneath it lies the Tomb of the Unknown Soldier with its eternal flame. A rooftop terrace offers radial views of the twelve avenues meeting at the square.",
+   "h": "Abierto a diario, aprox. 10:00–22:30 (varía por temporada).",
+   "h_en": "Open daily, approx. 10:00–22:30 (varies by season).",
+   "i": "Accede por el paso subterráneo; nunca cruces la rotonda a pie.",
+   "i_en": "Use the underground passage; never cross the roundabout on foot."
+  },
+  "w_par_sacre_coeur": {
+   "id": "w_par_sacre_coeur",
+   "d": "Basílica de estilo románico-bizantino construida entre 1875 y 1914 en travertino blanco, que se mantiene luminoso con el tiempo. Se alza en el punto más alto de la ciudad, en Montmartre, y su cúpula ofrece una de las mejores panorámicas de París. Su interior guarda uno de los mayores mosaicos del mundo.",
+   "d_en": "Romano-Byzantine basilica built between 1875 and 1914 in white travertine that stays bright over time. It rises at the city's highest point in Montmartre, and its dome offers one of the best panoramas of Paris. Inside is one of the world's largest mosaics.",
+   "h": "Basílica abierta a diario, aprox. 6:30–22:30.",
+   "h_en": "Basilica open daily, approx. 6:30–22:30.",
+   "i": "Sube en el funicular y disfruta la puesta de sol desde la escalinata.",
+   "i_en": "Take the funicular and enjoy sunset from the front steps."
+  },
+  "w_par_musee_orsay": {
+   "id": "w_par_musee_orsay",
+   "d": "Instalado en la antigua estación Beaux-Arts de Orsay de 1900, este museo reúne la mayor colección de arte impresionista y postimpresionista del mundo, con obras de Monet, Renoir, Degas, Van Gogh y Cézanne. Su gran reloj de la planta alta es uno de los rincones más fotografiados.",
+   "d_en": "Housed in the 1900 Beaux-Arts Orsay station, this museum holds the world's greatest collection of Impressionist and Post-Impressionist art, with works by Monet, Renoir, Degas, Van Gogh and Cézanne. Its great upper-floor clock is one of the most photographed spots.",
+   "h": "Martes a domingo 9:30–18:00; jueves hasta 21:45; cerrado lunes.",
+   "h_en": "Tuesday to Sunday 9:30–18:00; Thursday until 21:45; closed Monday.",
+   "i": "Combínalo con el Louvre; está a un paseo cruzando el Sena.",
+   "i_en": "Pair it with the Louvre; it is a short walk across the Seine."
+  },
+  "w_par_versailles": {
+   "id": "w_par_versailles",
+   "d": "Residencia de los reyes de Francia desde Luis XIV, este palacio barroco es un símbolo del absolutismo y Patrimonio de la Humanidad. Destaca la deslumbrante Galería de los Espejos, los Grandes Aposentos y unos jardines geométricos diseñados por Le Nôtre, con fuentes, canal y el Petit Trianon.",
+   "d_en": "Home of the French kings from Louis XIV, this Baroque palace is a symbol of absolutism and a World Heritage Site. Highlights include the dazzling Hall of Mirrors, the Grand Apartments and geometric gardens designed by Le Nôtre, with fountains, a canal and the Petit Trianon.",
+   "h": "Martes a domingo, aprox. 9:00–18:30; cerrado los lunes.",
+   "h_en": "Tuesday to Sunday, approx. 9:00–18:30; closed Mondays.",
+   "i": "Llega en tren RER C; dedica el día entero al palacio y los jardines.",
+   "i_en": "Take the RER C train; set aside a full day for palace and gardens."
+  },
+  "w_par_sainte_chapelle": {
+   "id": "w_par_sainte_chapelle",
+   "d": "Capilla real construida por Luis IX hacia 1248 para custodiar reliquias como la Corona de Espinas. Su joya son las quince vidrieras de 15 metros que envuelven la capilla alta en una explosión de luz de color, considerada una de las cumbres del gótico radiante europeo.",
+   "d_en": "Royal chapel built by Louis IX around 1248 to house relics such as the Crown of Thorns. Its jewel is the fifteen 15-metre stained-glass windows that wrap the upper chapel in an explosion of coloured light, seen as a peak of European Rayonnant Gothic.",
+   "h": "Abierta a diario, aprox. 9:00–19:00 (varía por temporada).",
+   "h_en": "Open daily, approx. 9:00–19:00 (varies by season).",
+   "i": "Ve en un día soleado para que las vidrieras luzcan al máximo.",
+   "i_en": "Visit on a sunny day so the windows shine at their best."
+  },
+  "w_par_pantheon": {
+   "id": "w_par_pantheon",
+   "d": "Concebido como iglesia y convertido en mausoleo laico durante la Revolución, este edificio neoclásico del Barrio Latino guarda los restos de Voltaire, Rousseau, Victor Hugo, Marie Curie y otras figuras célebres. Bajo su cúpula cuelga una réplica del péndulo de Foucault.",
+   "d_en": "Conceived as a church and turned into a secular mausoleum during the Revolution, this neoclassical building in the Latin Quarter holds the remains of Voltaire, Rousseau, Victor Hugo, Marie Curie and other famous figures. A replica of Foucault's pendulum hangs beneath its dome.",
+   "h": "Abierto a diario, aprox. 10:00–18:00 (hasta 18:30 en verano).",
+   "h_en": "Open daily, approx. 10:00–18:00 (until 18:30 in summer).",
+   "i": "Sube a la columnata de la cúpula para ver la ciudad en primavera y verano.",
+   "i_en": "Climb to the dome colonnade for city views in spring and summer."
+  },
+  "w_par_pompidou": {
+   "id": "w_par_pompidou",
+   "d": "Inaugurado en 1977, este edificio de estructura 'del revés', con sus tuberías y escaleras de colores a la vista, alberga el Museo Nacional de Arte Moderno, el mayor de Europa. Reúne obras de Picasso, Kandinsky, Matisse y Warhol, además de biblioteca y exposiciones temporales.",
+   "d_en": "Opened in 1977, this 'inside-out' building, with its colourful exposed pipes and escalators, houses the National Museum of Modern Art, the largest in Europe. It gathers works by Picasso, Kandinsky, Matisse and Warhol, plus a library and temporary shows.",
+   "h": "Miércoles a lunes 11:00–21:00; cerrado los martes.",
+   "h_en": "Wednesday to Monday 11:00–21:00; closed on Tuesdays.",
+   "i": "La plaza atrae artistas callejeros; la terraza superior tiene vistas.",
+   "i_en": "The plaza draws street artists; the top terrace has great views."
+  },
+  "w_par_opera_garnier": {
+   "id": "w_par_opera_garnier",
+   "d": "Inaugurada en 1875 y diseñada por Charles Garnier, esta ópera es un derroche de mármol, dorados y terciopelo. Destacan su Gran Escalera, el foyer de espejos y el techo pintado por Chagall. Inspiró la novela 'El fantasma de la ópera' y sigue acogiendo ballet y ópera.",
+   "d_en": "Opened in 1875 and designed by Charles Garnier, this opera house is a lavish display of marble, gilt and velvet. Highlights include the Grand Staircase, the mirrored foyer and the ceiling painted by Chagall. It inspired 'The Phantom of the Opera' and still hosts ballet and opera.",
+   "h": "Visitas a diario, aprox. 10:00–17:00 (según función).",
+   "h_en": "Visits daily, approx. 10:00–17:00 (depending on performances).",
+   "i": "Puedes visitarla de día o asistir a un espectáculo por la noche.",
+   "i_en": "You can tour it by day or attend an evening performance."
+  },
+  "w_par_invalides": {
+   "id": "w_par_invalides",
+   "d": "Mandado construir por Luis XIV como hospital y residencia de veteranos, este conjunto barroco luce una espectacular cúpula dorada. Bajo ella reposa el sarcófago de Napoleón Bonaparte. Alberga además el Museo del Ejército, uno de los mayores museos militares del mundo.",
+   "d_en": "Built by Louis XIV as a hospital and home for veterans, this Baroque complex features a spectacular golden dome. Beneath it lies the tomb of Napoleon Bonaparte. It also houses the Army Museum, one of the largest military museums in the world.",
+   "h": "Abierto a diario, aprox. 10:00–18:00.",
+   "h_en": "Open daily, approx. 10:00–18:00.",
+   "i": "La explanada delantera es ideal para pasear y ver la cúpula.",
+   "i_en": "The front esplanade is great for a stroll and dome views."
+  },
+  "w_par_conciergerie": {
+   "id": "w_par_conciergerie",
+   "d": "Parte del antiguo palacio real medieval, la Conciergerie se convirtió en tribunal y prisión durante la Revolución Francesa, donde estuvo cautiva María Antonieta antes de su ejecución. Conserva impresionantes salas góticas como la Sala de los Guardias y la de los Hombres de Armas.",
+   "d_en": "Part of the old medieval royal palace, the Conciergerie became a court and prison during the French Revolution, where Marie Antoinette was held before her execution. It preserves impressive Gothic halls such as the Hall of the Guards and the Hall of the Men-at-Arms.",
+   "h": "Abierta a diario, aprox. 9:30–18:00.",
+   "h_en": "Open daily, approx. 9:30–18:00.",
+   "i": "Entrada combinada con la Sainte-Chapelle, que está al lado.",
+   "i_en": "Combined ticket available with the nearby Sainte-Chapelle."
+  },
+  "w_par_jardin_luxembourg": {
+   "id": "w_par_jardin_luxembourg",
+   "d": "Creado en 1612 para María de Médici, este jardín de 23 hectáreas combina parterres a la francesa y zonas a la inglesa alrededor del Palacio de Luxemburgo, sede del Senado. Es famoso por su estanque octogonal con barcos de vela en miniatura, sus sillas verdes y sus estatuas.",
+   "d_en": "Created in 1612 for Marie de' Medici, this 23-hectare garden combines French-style parterres and English-style areas around the Luxembourg Palace, seat of the Senate. It is famous for its octagonal pond with toy sailboats, its green chairs and its statues.",
+   "h": "Abierto a diario del amanecer al atardecer.",
+   "h_en": "Open daily from sunrise to sunset.",
+   "i": "Alquila un velero para los niños junto al estanque central.",
+   "i_en": "Rent a toy sailboat for the kids at the central pond."
+  },
+  "w_par_tuileries": {
+   "id": "w_par_tuileries",
+   "d": "Diseñado por Le Nôtre en el siglo XVII, este jardín a la francesa conecta el Louvre con la plaza de la Concordia. Con sus alamedas, estanques, esculturas de Rodin y Maillol y cafés al aire libre, es un paseo clásico. En verano acoge una noria y feria en la Fête des Tuileries.",
+   "d_en": "Designed by Le Nôtre in the 17th century, this French-style garden links the Louvre with Place de la Concorde. With its avenues, ponds, sculptures by Rodin and Maillol and open-air cafés, it is a classic stroll. In summer it hosts a Ferris wheel and funfair.",
+   "h": "Abierto a diario, aprox. 7:00–23:00 en verano.",
+   "h_en": "Open daily, approx. 7:00–23:00 in summer.",
+   "i": "Junto al jardín están los museos de la Orangerie y el Jeu de Paume.",
+   "i_en": "The Orangerie and Jeu de Paume museums sit beside the garden."
+  },
+  "w_par_trocadero": {
+   "id": "w_par_trocadero",
+   "d": "Situados frente a la Torre Eiffel, al otro lado del Sena, estos jardines se extienden bajo el Palacio de Chaillot con fuentes monumentales, cañones de agua y una amplia explanada. Es el mirador por excelencia para fotografiar la torre y ver el espectáculo de luces nocturno.",
+   "d_en": "Set opposite the Eiffel Tower across the Seine, these gardens spread below the Palais de Chaillot with monumental fountains, water cannons and a wide esplanade. It is the classic viewpoint for photographing the tower and watching the nightly light show.",
+   "h": "Explanada y jardines abiertos todo el día.",
+   "h_en": "Esplanade and gardens open all day.",
+   "i": "Ve al amanecer para fotografiar la torre sin multitudes.",
+   "i_en": "Go at sunrise to photograph the tower without crowds."
+  },
+  "w_par_buttes_chaumont": {
+   "id": "w_par_buttes_chaumont",
+   "d": "Inaugurado en 1867 sobre antiguas canteras, este parque del noreste parisino sorprende con su relieve accidentado: un lago, una isla rocosa coronada por el Templo de la Sibila, cascadas, una gruta y puentes colgantes. Es uno de los rincones verdes favoritos de los parisinos.",
+   "d_en": "Opened in 1867 on former quarries, this park in northeastern Paris surprises with its rugged relief: a lake, a rocky island crowned by the Temple of the Sibyl, waterfalls, a grotto and suspension bridges. It is one of Parisians' favourite green spots.",
+   "h": "Abierto a diario, aprox. 7:00–22:00 (más tarde en verano).",
+   "h_en": "Open daily, approx. 7:00–22:00 (later in summer).",
+   "i": "Menos turístico; ideal para picnic y ver el atardecer local.",
+   "i_en": "Less touristy; great for a picnic and a local sunset."
+  },
+  "w_par_jardin_plantes": {
+   "id": "w_par_jardin_plantes",
+   "d": "Fundado en 1626 como jardín de plantas medicinales del rey, es el principal jardín botánico de Francia. Reúne colecciones de plantas, invernaderos tropicales, una escuela de botánica y el Museo Nacional de Historia Natural con su Gran Galería de la Evolución. También hay un pequeño zoo.",
+   "d_en": "Founded in 1626 as the king's medicinal plant garden, it is France's main botanical garden. It gathers plant collections, tropical greenhouses, a botany school and the National Museum of Natural History with its Grand Gallery of Evolution. There is also a small zoo.",
+   "h": "Jardín abierto a diario; museos con horario propio.",
+   "h_en": "Garden open daily; museums have their own hours.",
+   "i": "Ideal para familias; la Galería de la Evolución encanta a los niños.",
+   "i_en": "Great for families; the Evolution Gallery delights children."
+  },
+  "w_par_canal_saint_martin": {
+   "id": "w_par_canal_saint_martin",
+   "d": "Inaugurado en 1825, este canal de 4,5 km conecta con el Sena a través de una serie de esclusas y románticas pasarelas de hierro. Sus orillas arboladas están llenas de cafés, tiendas independientes y bares de moda, y son un lugar popular para pasear o hacer picnic al atardecer.",
+   "d_en": "Opened in 1825, this 4.5 km canal links to the Seine through a series of locks and romantic iron footbridges. Its tree-lined banks are full of cafés, indie shops and trendy bars, and are a popular place to stroll or picnic at sunset.",
+   "h": "Accesible todo el día; paseos en barco por horario.",
+   "h_en": "Accessible all day; boat trips run on schedule.",
+   "i": "Haz un crucero por las esclusas o pasea sus orillas al atardecer.",
+   "i_en": "Take a lock cruise or wander the banks at sunset."
+  },
+  "w_par_champs_elysees": {
+   "id": "w_par_champs_elysees",
+   "d": "Bautizada como 'la avenida más bella del mundo', esta gran arteria de casi dos kilómetros une la plaza de la Concordia con el Arco del Triunfo. Reúne tiendas de lujo y flagship stores, cines, cafés y teatros, y es escenario de eventos como el desfile del 14 de julio y la meta del Tour de Francia.",
+   "d_en": "Dubbed 'the most beautiful avenue in the world', this grand two-kilometre artery links Place de la Concorde with the Arc de Triomphe. It gathers luxury shops and flagship stores, cinemas, cafés and theatres, and hosts events such as the 14 July parade and the Tour de France finish.",
+   "h": "Avenida abierta siempre; tiendas aprox. 10:00–20:00.",
+   "h_en": "Avenue always open; shops approx. 10:00–20:00.",
+   "i": "En Navidad se ilumina con miles de luces; muy concurrida.",
+   "i_en": "At Christmas it lights up with thousands of lights; very busy."
+  },
+  "w_par_montmartre": {
+   "id": "w_par_montmartre",
+   "d": "Antiguo pueblo sobre una colina, Montmartre fue el corazón bohemio de la ciudad y refugio de Picasso, Van Gogh y Toulouse-Lautrec. Hoy conserva su encanto con calles empedradas, viñedo, la plaza del Tertre llena de pintores, cabarets históricos y vistas espectaculares sobre París.",
+   "d_en": "A former hilltop village, Montmartre was the city's bohemian heart and a refuge for Picasso, Van Gogh and Toulouse-Lautrec. Today it keeps its charm with cobbled streets, a vineyard, the artist-filled Place du Tertre, historic cabarets and sweeping views over Paris.",
+   "h": "Barrio abierto siempre; locales con horario propio.",
+   "h_en": "Neighbourhood always open; venues have their own hours.",
+   "i": "Piérdete por sus calles y evita los restaurantes trampa turística.",
+   "i_en": "Wander the back streets and avoid the tourist-trap eateries."
+  },
+  "w_par_quartier_latin": {
+   "id": "w_par_quartier_latin",
+   "d": "En torno a la Sorbona, este barrio de la orilla izquierda debe su nombre al latín que hablaban antaño sus estudiantes. Es un laberinto de calles medievales con librerías, cines de autor, bistrós y bares animados, además de la célebre librería Shakespeare and Company junto al Sena.",
+   "d_en": "Around the Sorbonne, this Left Bank quarter owes its name to the Latin once spoken by its students. It is a maze of medieval streets with bookshops, arthouse cinemas, bistros and lively bars, plus the famous Shakespeare and Company bookstore by the Seine.",
+   "h": "Barrio abierto siempre; ambiente nocturno animado.",
+   "h_en": "Neighbourhood always open; lively nightlife.",
+   "i": "Visita la librería Shakespeare and Company y la rue Mouffetard.",
+   "i_en": "Visit Shakespeare and Company and the rue Mouffetard."
+  },
+  "w_par_le_marais": {
+   "id": "w_par_le_marais",
+   "d": "Uno de los barrios más de moda de París, el Marais conserva mansiones aristocráticas de los siglos XVI y XVII, hoy convertidas en museos como el Picasso y el Carnavalet. Es también el centro de la vida LGTBI y judía de la ciudad, con boutiques, galerías, cafés y falafels famosos.",
+   "d_en": "One of the trendiest districts in Paris, the Marais preserves 16th- and 17th-century aristocratic mansions, now museums such as the Picasso and Carnavalet. It is also the hub of the city's LGBTQ and Jewish life, with boutiques, galleries, cafés and famous falafel.",
+   "h": "Barrio abierto siempre; tiendas también abren en domingo.",
+   "h_en": "Neighbourhood always open; shops also open on Sundays.",
+   "i": "Prueba el falafel de la rue des Rosiers, uno de los mejores.",
+   "i_en": "Try the falafel on rue des Rosiers, among the city's best."
+  },
+  "w_par_galeries_lafayette": {
+   "id": "w_par_galeries_lafayette",
+   "d": "Inaugurados en 1912, estos icónicos grandes almacenes de estilo Art Nouveau destacan por su espectacular cúpula de vidrieras de 43 metros de altura. Reúnen las principales marcas de moda y lujo, y su terraza de la azotea ofrece una de las mejores vistas gratuitas de la ciudad.",
+   "d_en": "Opened in 1912, this iconic Art Nouveau department store is famous for its spectacular 43-metre stained-glass dome. It gathers the leading fashion and luxury brands, and its rooftop terrace offers one of the best free views of the city.",
+   "h": "Lunes a sábado 10:00–20:00; domingo 11:00–20:00.",
+   "h_en": "Monday to Saturday 10:00–20:00; Sunday 11:00–20:00.",
+   "i": "Sube gratis a la azotea para fotografiar la Ópera y la ciudad.",
+   "i_en": "Go up to the free rooftop to photograph the Opera and city."
+  },
+  "w_par_moulin_rouge": {
+   "id": "w_par_moulin_rouge",
+   "d": "Abierto en 1889 y reconocible por su molino rojo, el Moulin Rouge es la cuna del cancán y el cabaret más famoso del mundo. En el barrio de Pigalle, sigue ofreciendo espectáculos de plumas, lentejuelas y coreografías deslumbrantes que evocan la Belle Époque parisina.",
+   "d_en": "Opened in 1889 and recognisable by its red windmill, the Moulin Rouge is the birthplace of the can-can and the world's most famous cabaret. In the Pigalle district, it still stages dazzling shows of feathers, sequins and choreography evoking the Parisian Belle Époque.",
+   "h": "Espectáculos por la noche; reserva imprescindible.",
+   "h_en": "Evening shows; booking essential.",
+   "i": "El exterior es gratis para fotos; el show requiere entrada cara.",
+   "i_en": "The exterior is free for photos; the show needs a pricey ticket."
+  },
+  "w_par_cafe_de_flore": {
+   "id": "w_par_cafe_de_flore",
+   "d": "Emblemático café Art Déco abierto desde finales del siglo XIX, fue lugar de encuentro de intelectuales como Sartre, Simone de Beauvoir y Camus. Hoy sigue sirviendo su famoso chocolate caliente, croissants y clásicos de brasserie en un ambiente cargado de historia y estilo parisino.",
+   "d_en": "Emblematic Art Deco café open since the late 19th century, it was a meeting place for intellectuals such as Sartre, Simone de Beauvoir and Camus. Today it still serves its famous hot chocolate, croissants and brasserie classics in a setting full of history and Parisian style.",
+   "h": "Todos los días, aprox. 7:30–1:30.",
+   "h_en": "Open daily, approx. 7:30–1:30.",
+   "i": "Pide su chocolate caliente clásico; los precios son elevados.",
+   "i_en": "Order the classic hot chocolate; prices are on the high side."
+  },
+  "w_par_deux_magots": {
+   "id": "w_par_deux_magots",
+   "d": "Fundado en 1885 en la plaza de Saint-Germain-des-Prés, este café fue frecuentado por Hemingway, Picasso y los surrealistas, y da nombre a un premio literario propio. Ofrece desayunos, su célebre chocolate caliente servido en jarra y platos de brasserie en una terraza icónica.",
+   "d_en": "Founded in 1885 on the Saint-Germain-des-Prés square, this café was frequented by Hemingway, Picasso and the Surrealists, and lends its name to its own literary prize. It serves breakfasts, its celebrated jug-poured hot chocolate and brasserie dishes on an iconic terrace.",
+   "h": "Todos los días, aprox. 7:30–1:00.",
+   "h_en": "Open daily, approx. 7:30–1:00.",
+   "i": "Siéntate en la terraza para observar el animado Saint-Germain.",
+   "i_en": "Sit on the terrace to watch lively Saint-Germain go by."
+  },
+  "w_par_enfants_rouges": {
+   "id": "w_par_enfants_rouges",
+   "d": "Fundado en 1615, es el mercado cubierto más antiguo de la ciudad, escondido en el corazón del Marais. Combina puestos de frutas, flores y quesos con pequeños comedores que sirven cocina marroquí, italiana, japonesa, libanesa y francesa. Perfecto para almorzar entre los locales.",
+   "d_en": "Founded in 1615, it is the city's oldest covered market, tucked in the heart of the Marais. It combines fruit, flower and cheese stalls with small eateries serving Moroccan, Italian, Japanese, Lebanese and French food. Perfect for lunch among the locals.",
+   "h": "Martes a domingo, aprox. 8:30–20:30; cerrado lunes.",
+   "h_en": "Tuesday to Sunday, approx. 8:30–20:30; closed Monday.",
+   "i": "Ve a mediodía entre semana para evitar las colas del fin de semana.",
+   "i_en": "Go at midday on a weekday to avoid the weekend queues."
+  },
+  "w_par_bouillon_chartier": {
+   "id": "w_par_bouillon_chartier",
+   "d": "Abierto en 1896, este 'bouillon' es una institución parisina que sirve cocina francesa tradicional en un espectacular comedor Belle Époque protegido como monumento. Con su bullicio, sus camareros veteranos y precios muy asequibles, ofrece platos como el bœuf bourguignon y el confit de pato.",
+   "d_en": "Opened in 1896, this 'bouillon' is a Parisian institution serving traditional French cuisine in a spectacular Belle Époque dining room listed as a monument. With its bustle, veteran waiters and very affordable prices, it offers dishes such as bœuf bourguignon and duck confit.",
+   "h": "Todos los días, aprox. 11:30–24:00.",
+   "h_en": "Open daily, approx. 11:30–24:00.",
+   "i": "No aceptan reserva; ve pronto porque suele haber cola.",
+   "i_en": "No reservations; arrive early as there is often a queue."
+  },
+  "w_par_laduree": {
+   "id": "w_par_laduree",
+   "d": "Fundada en 1862, Ladurée es la pastelería que popularizó el macaron de doble concha con ganache. Su tienda de los Campos Elíseos, decorada con lujosos detalles, ofrece un salón de té donde degustar sus coloridos macarons, pasteles y desayunos en un ambiente elegante y muy parisino.",
+   "d_en": "Founded in 1862, Ladurée is the patisserie that popularised the double-shell macaron with ganache. Its Champs-Élysées shop, decorated with lavish detail, offers a tea salon to sample its colourful macarons, cakes and breakfasts in an elegant, very Parisian setting.",
+   "h": "Todos los días, aprox. 8:00–23:00.",
+   "h_en": "Open daily, approx. 8:00–23:00.",
+   "i": "Una caja de macarons surtidos es un recuerdo comestible perfecto.",
+   "i_en": "A box of assorted macarons makes a perfect edible souvenir."
+  },
+  "w_par_comptoir_relais": {
+   "id": "w_par_comptoir_relais",
+   "d": "Regentado por el chef Yves Camdeborde, uno de los padres de la 'bistronomía', este pequeño bistró de Saint-Germain es un referente de la cocina de mercado parisina. Sirve platos franceses de temporada, embutidos y clásicos reinterpretados en un ambiente animado y auténtico.",
+   "d_en": "Run by chef Yves Camdeborde, one of the fathers of 'bistronomy', this small Saint-Germain bistro is a benchmark of Parisian market cuisine. It serves seasonal French dishes, charcuterie and reinvented classics in a lively, authentic atmosphere.",
+   "h": "Todos los días, aprox. 12:00–23:00.",
+   "h_en": "Open daily, approx. 12:00–23:00.",
+   "i": "Muy solicitado; reserva la cena o ve a la carta rápida del mediodía.",
+   "i_en": "Very popular; book dinner or try the quicker lunch menu."
+  },
+  "w_par_rue_cler": {
+   "id": "w_par_rue_cler",
+   "d": "En el elegante barrio 7, esta calle peatonal es un clásico mercado de barrio parisino con quesos, panaderías, fruterías, floristerías, charcuterías y cafés con terraza. Es el lugar ideal para comprar los ingredientes de un picnic y llevarlos al Campo de Marte, junto a la Torre Eiffel.",
+   "d_en": "In the elegant 7th arrondissement, this pedestrian street is a classic Parisian neighbourhood market with cheese shops, bakeries, greengrocers, florists, delis and terrace cafés. It is the ideal spot to buy picnic ingredients and take them to the nearby Champ de Mars.",
+   "h": "Martes a domingo, aprox. 8:00–19:30; tranquila los lunes.",
+   "h_en": "Tuesday to Sunday, approx. 8:00–19:30; quiet on Mondays.",
+   "i": "Compra queso, pan y fruta y haz picnic bajo la Torre Eiffel.",
+   "i_en": "Grab cheese, bread and fruit for a picnic under the Eiffel Tower."
+  }
+ },
+ "food": {
+  "w_par_cafe_de_flore": {
+   "cuisine": "Café-brasserie francesa",
+   "price": "10–30 €",
+   "hours": "Todos los días, aprox. 7:30–1:30"
+  },
+  "w_par_deux_magots": {
+   "cuisine": "Café-brasserie francesa",
+   "price": "12–35 €",
+   "hours": "Todos los días, aprox. 7:30–1:00"
+  },
+  "w_par_enfants_rouges": {
+   "cuisine": "Mercado gastronómico internacional",
+   "price": "8–20 €",
+   "hours": "Martes a domingo, aprox. 8:30–20:30"
+  },
+  "w_par_bouillon_chartier": {
+   "cuisine": "Cocina francesa tradicional",
+   "price": "12–25 €",
+   "hours": "Todos los días, aprox. 11:30–24:00"
+  },
+  "w_par_laduree": {
+   "cuisine": "Pastelería francesa y salón de té",
+   "price": "10–30 €",
+   "hours": "Todos los días, aprox. 8:00–23:00"
+  },
+  "w_par_comptoir_relais": {
+   "cuisine": "Bistró francés",
+   "price": "20–55 €",
+   "hours": "Todos los días, aprox. 12:00–23:00"
+  },
+  "w_par_rue_cler": {
+   "cuisine": "Calle-mercado francesa",
+   "price": "5–20 €",
+   "hours": "Martes a domingo, aprox. 8:00–19:30"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "París",
+   "items": [
+    {
+     "name": "Miniatura Torre Eiffel",
+     "price": "3–15 €",
+     "desc": "Réplica metálica en varios tamaños; el recuerdo más clásico de la ciudad."
+    },
+    {
+     "name": "Macarons",
+     "price": "12–30 €",
+     "desc": "Caja surtida de Ladurée o Pierre Hermé, en colores y sabores variados."
+    },
+    {
+     "name": "Camiseta o bolsa 'I love Paris'",
+     "price": "8–20 €",
+     "desc": "Ropa y tote bags con iconos parisinos, ideales como regalo ligero."
+    },
+    {
+     "name": "Jabón y perfume francés",
+     "price": "6–40 €",
+     "desc": "Fragancias y jabones artesanales, símbolo de la cosmética francesa."
+    },
+    {
+     "name": "Póster o lámina de arte",
+     "price": "10–35 €",
+     "desc": "Reproducciones del Louvre y d'Orsay o carteles vintage de la Belle Époque."
+    },
+    {
+     "name": "Beret (boina) francesa",
+     "price": "15–35 €",
+     "desc": "Boina de lana clásica, un guiño al estilo parisino de toda la vida."
+    }
+   ],
+   "shops": [
+    "Galeries Lafayette Haussmann",
+    "Le Bon Marché",
+    "Tiendas del Louvre y Musée d'Orsay",
+    "Rue de Rivoli",
+    "Mercadillos de Montmartre",
+    "Marché aux Puces de Saint-Ouen"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Compra la entrada de la Torre Eiffel, el Louvre y Versalles online con antelación para evitar colas largas.",
+   "El Paris Museum Pass da acceso a más de 50 museos y monumentos y ahorra tiempo y dinero si visitas varios.",
+   "Usa el metro: es rápido, barato y cubre casi toda la ciudad; ten cuidado con los carteristas en zonas turísticas.",
+   "Muchos museos nacionales son gratuitos el primer domingo de mes; llega temprano porque hay más gente.",
+   "Reserva mesa en los restaurantes populares y recuerda que el servicio suele estar incluido en la cuenta."
+  ],
+  "en": [
+   "Buy tickets for the Eiffel Tower, the Louvre and Versailles online in advance to skip long queues.",
+   "The Paris Museum Pass gives access to 50+ museums and monuments, saving time and money if you visit several.",
+   "Use the metro: it is fast, cheap and covers almost the whole city; watch out for pickpockets in tourist areas.",
+   "Many national museums are free on the first Sunday of the month; arrive early as it gets crowded.",
+   "Book a table at popular restaurants and remember that service is usually included in the bill."
+  ]
+ },
+ "climate": {
+  "hi": [
+   7,
+   8,
+   12,
+   15,
+   19,
+   22,
+   25,
+   25,
+   21,
+   16,
+   10,
+   7
+  ],
+  "lo": [
+   3,
+   3,
+   5,
+   7,
+   11,
+   14,
+   16,
+   16,
+   13,
+   10,
+   6,
+   3
+  ]
+ },
+ "tr": {
+  "El símbolo de París, torre de hierro de 330 m con vistas panorámicas.": "Paris's icon, a 330 m iron tower with panoramic city views.",
+  "El museo de arte más grande del mundo, hogar de la Mona Lisa.": "The world's largest art museum, home of the Mona Lisa.",
+  "Obra maestra gótica del siglo XII en la Île de la Cité.": "12th-century Gothic masterpiece on the Île de la Cité.",
+  "Arco monumental de Napoleón en la plaza Charles de Gaulle.": "Napoleon's monumental arch at Place Charles de Gaulle.",
+  "Basílica blanca en lo alto de la colina de Montmartre.": "White basilica atop the hill of Montmartre.",
+  "Museo impresionista en una antigua estación de tren.": "Impressionist museum in a former railway station.",
+  "Suntuoso palacio real con jardines a las afueras de París.": "Lavish royal palace with gardens outside Paris.",
+  "Capilla gótica con espectaculares vidrieras del siglo XIII.": "Gothic chapel with spectacular 13th-century stained glass.",
+  "Mausoleo neoclásico de grandes figuras francesas.": "Neoclassical mausoleum of great French figures.",
+  "Museo de arte moderno de arquitectura vanguardista.": "Modern art museum with avant-garde architecture.",
+  "Opulento teatro de ópera del siglo XIX, de estilo Beaux-Arts.": "Opulent 19th-century Beaux-Arts opera house.",
+  "Complejo con cúpula dorada y tumba de Napoleón.": "Golden-domed complex with Napoleon's tomb.",
+  "Antiguo palacio y prisión de la Revolución en la Île de la Cité.": "Former palace and Revolution-era prison on the Île de la Cité.",
+  "Elegante jardín con estanque, palacio y esculturas.": "Elegant garden with a pond, palace and sculptures.",
+  "Jardín histórico entre el Louvre y la plaza de la Concordia.": "Historic garden between the Louvre and Place de la Concorde.",
+  "Jardines y explanada con la mejor vista de la Torre Eiffel.": "Gardens and esplanade with the best Eiffel Tower view.",
+  "Parque romántico con lago, acantilados y templo.": "Romantic park with a lake, cliffs and a temple.",
+  "Jardín botánico histórico con invernaderos y museo.": "Historic botanical garden with greenhouses and a museum.",
+  "Canal con esclusas, puentes de hierro y ambiente bohemio.": "Canal with locks, iron footbridges and a bohemian vibe.",
+  "La avenida más famosa de París, entre tiendas y cafés.": "Paris's most famous avenue, lined with shops and cafés.",
+  "Barrio bohemio de callejuelas, artistas y cafés.": "Bohemian hilltop district of lanes, artists and cafés.",
+  "Barrio universitario histórico de librerías y bistrós.": "Historic student quarter of bookshops and bistros.",
+  "Barrio histórico de moda, galerías y vida nocturna.": "Historic district of fashion, galleries and nightlife.",
+  "Grandes almacenes de lujo bajo una cúpula de vidrio.": "Luxury department store under a stained-glass dome.",
+  "Legendario cabaret del can-can al pie de Montmartre.": "Legendary can-can cabaret at the foot of Montmartre.",
+  "Café literario histórico de Saint-Germain-des-Prés.": "Historic literary café in Saint-Germain-des-Prés.",
+  "Café histórico y rival vecino del Café de Flore.": "Historic café and next-door rival of the Café de Flore.",
+  "El mercado cubierto más antiguo de París, en el Marais.": "Paris's oldest covered market, in the Marais.",
+  "Brasserie histórica de comida francesa a precios populares.": "Historic brasserie serving French classics at low prices.",
+  "Casa histórica de macarons y salón de té de lujo.": "Historic macaron house and luxury tea salon.",
+  "Bistró célebre del chef Yves Camdeborde en Odéon.": "Celebrated bistro by chef Yves Camdeborde in Odéon.",
+  "Animada calle-mercado peatonal cerca de la Torre Eiffel.": "Lively pedestrian market street near the Eiffel Tower.",
+  "París": "París"
+ }
+}

@@ -1,0 +1,665 @@
+{
+ "id": "hochiminh",
+ "name": "Ho Chi Minh",
+ "country": "WORLD",
+ "center": [
+  10.7769,
+  106.7009
+ ],
+ "pois": [
+  {
+   "id": "w_hcm_correos_central",
+   "cat": "monuments",
+   "name": "Correos Central de Saigón",
+   "icon": "📮",
+   "lat": 10.78,
+   "lng": 106.7,
+   "desc": "Oficina de correos colonial francesa aún en funcionamiento."
+  },
+  {
+   "id": "w_hcm_notre_dame",
+   "cat": "monuments",
+   "name": "Catedral de Notre-Dame de Saigón",
+   "icon": "⛪",
+   "lat": 10.77965,
+   "lng": 106.6991,
+   "desc": "Catedral de ladrillo rojo con dos campanarios gemelos."
+  },
+  {
+   "id": "w_hcm_reunificacion",
+   "cat": "monuments",
+   "name": "Palacio de la Reunificación",
+   "icon": "🏛️",
+   "lat": 10.77722,
+   "lng": 106.69558,
+   "desc": "Antiguo palacio presidencial, símbolo del fin de la guerra."
+  },
+  {
+   "id": "w_hcm_vestigios_guerra",
+   "cat": "monuments",
+   "name": "Museo de los Vestigios de la Guerra",
+   "icon": "🪖",
+   "lat": 10.77948,
+   "lng": 106.69213,
+   "desc": "Crudo museo sobre la guerra de Vietnam."
+  },
+  {
+   "id": "w_hcm_cu_chi",
+   "cat": "monuments",
+   "name": "Túneles de Cu Chi",
+   "icon": "🕳️",
+   "lat": 11.0566,
+   "lng": 106.5223,
+   "desc": "Red de túneles de guerrilla del Vietcong."
+  },
+  {
+   "id": "w_hcm_emperador_jade",
+   "cat": "monuments",
+   "name": "Pagoda del Emperador de Jade",
+   "icon": "🛕",
+   "lat": 10.79056,
+   "lng": 106.69528,
+   "desc": "Templo taoísta lleno de humo de incienso y tallas."
+  },
+  {
+   "id": "w_hcm_bitexco",
+   "cat": "monuments",
+   "name": "Bitexco Financial Tower",
+   "icon": "🏢",
+   "lat": 10.77167,
+   "lng": 106.70444,
+   "desc": "Rascacielos icónico con helipuerto voladizo."
+  },
+  {
+   "id": "w_hcm_opera",
+   "cat": "monuments",
+   "name": "Ópera de Saigón",
+   "icon": "🎭",
+   "lat": 10.7767,
+   "lng": 106.70322,
+   "desc": "Teatro municipal de estilo Belle Époque."
+  },
+  {
+   "id": "w_hcm_thien_hau",
+   "cat": "monuments",
+   "name": "Templo Thien Hau (Cholon)",
+   "icon": "🏯",
+   "lat": 10.75306,
+   "lng": 106.66075,
+   "desc": "Templo chino dedicado a la diosa del mar."
+  },
+  {
+   "id": "w_hcm_ayuntamiento",
+   "cat": "monuments",
+   "name": "Ayuntamiento de Ho Chi Minh",
+   "icon": "🏛️",
+   "lat": 10.77653,
+   "lng": 106.7009,
+   "desc": "Palacio colonial amarillo al final de Nguyen Hue."
+  },
+  {
+   "id": "w_hcm_museo_historia",
+   "cat": "monuments",
+   "name": "Museo de Historia de Vietnam",
+   "icon": "🏺",
+   "lat": 10.7879,
+   "lng": 106.7053,
+   "desc": "Colección de arte y arqueología del país."
+  },
+  {
+   "id": "w_hcm_zoo_botanico",
+   "cat": "nature",
+   "name": "Zoo y Jardín Botánico de Saigón",
+   "icon": "🌳",
+   "lat": 10.78806,
+   "lng": 106.70472,
+   "desc": "Uno de los zoológicos más antiguos del mundo."
+  },
+  {
+   "id": "w_hcm_parque_tao_dan",
+   "cat": "nature",
+   "name": "Parque Tao Dan",
+   "icon": "🌳",
+   "lat": 10.773,
+   "lng": 106.691,
+   "desc": "Parque frondoso con club de pájaros cantores."
+  },
+  {
+   "id": "w_hcm_parque_30_4",
+   "cat": "nature",
+   "name": "Parque 30 de Abril",
+   "icon": "🌲",
+   "lat": 10.7786,
+   "lng": 106.6971,
+   "desc": "Césped arbolado entre la catedral y el palacio."
+  },
+  {
+   "id": "w_hcm_muelle_bach_dang",
+   "cat": "nature",
+   "name": "Muelle Bach Dang (Río Saigón)",
+   "icon": "🌊",
+   "lat": 10.77527,
+   "lng": 106.7069,
+   "desc": "Paseo fluvial junto al río Saigón."
+  },
+  {
+   "id": "w_hcm_parque_23_9",
+   "cat": "nature",
+   "name": "Parque 23 de Septiembre",
+   "icon": "🌿",
+   "lat": 10.7687,
+   "lng": 106.6913,
+   "desc": "Franja verde junto al mercado Ben Thanh."
+  },
+  {
+   "id": "w_hcm_parque_le_van_tam",
+   "cat": "nature",
+   "name": "Parque Le Van Tam",
+   "icon": "🌴",
+   "lat": 10.7896,
+   "lng": 106.6967,
+   "desc": "Antiguo cementerio convertido en parque."
+  },
+  {
+   "id": "w_hcm_ben_thanh",
+   "cat": "ocio",
+   "name": "Mercado Ben Thanh",
+   "icon": "🛍️",
+   "lat": 10.77252,
+   "lng": 106.69802,
+   "desc": "Mercado cubierto emblemático de la ciudad."
+  },
+  {
+   "id": "w_hcm_bui_vien",
+   "cat": "ocio",
+   "name": "Calle Bui Vien",
+   "icon": "🍺",
+   "lat": 10.7672,
+   "lng": 106.6925,
+   "desc": "Epicentro de la vida nocturna mochilera."
+  },
+  {
+   "id": "w_hcm_nguyen_hue",
+   "cat": "ocio",
+   "name": "Calle peatonal Nguyen Hue",
+   "icon": "🚶",
+   "lat": 10.7744,
+   "lng": 106.7036,
+   "desc": "Amplio bulevar peatonal en el centro."
+  },
+  {
+   "id": "w_hcm_cholon",
+   "cat": "ocio",
+   "name": "Barrio chino Cholon",
+   "icon": "🏮",
+   "lat": 10.752,
+   "lng": 106.659,
+   "desc": "El mayor barrio chino de Vietnam."
+  },
+  {
+   "id": "w_hcm_binh_tay",
+   "cat": "ocio",
+   "name": "Mercado Binh Tay",
+   "icon": "🏪",
+   "lat": 10.74972,
+   "lng": 106.65083,
+   "desc": "Gran mercado mayorista de Cholon."
+  },
+  {
+   "id": "w_hcm_landmark81",
+   "cat": "ocio",
+   "name": "Landmark 81 SkyView",
+   "icon": "🏙️",
+   "lat": 10.79475,
+   "lng": 106.72186,
+   "desc": "Mirador en el rascacielos más alto de Vietnam."
+  },
+  {
+   "id": "w_hcm_ben_thanh_street_food",
+   "cat": "food",
+   "name": "Ben Thanh Street Food Market",
+   "icon": "🍜",
+   "lat": 10.77373,
+   "lng": 106.69736,
+   "desc": "Patio de comidas con decenas de puestos."
+  },
+  {
+   "id": "w_hcm_banh_mi_huynh_hoa",
+   "cat": "food",
+   "name": "Banh Mi Huynh Hoa",
+   "icon": "🥖",
+   "lat": 10.77152,
+   "lng": 106.6924,
+   "desc": "El banh mi más famoso de Saigón."
+  },
+  {
+   "id": "w_hcm_pho_hoa_pasteur",
+   "cat": "food",
+   "name": "Pho Hoa Pasteur",
+   "icon": "🍲",
+   "lat": 10.7876,
+   "lng": 106.6884,
+   "desc": "Veterana casa de pho en el distrito 3."
+  },
+  {
+   "id": "w_hcm_cafe_apartment",
+   "cat": "food",
+   "name": "The Cafe Apartment",
+   "icon": "☕",
+   "lat": 10.7738,
+   "lng": 106.7042,
+   "desc": "Edificio de apartamentos lleno de cafés."
+  },
+  {
+   "id": "w_hcm_ho_thi_ky",
+   "cat": "food",
+   "name": "Calle gastronómica Ho Thi Ky",
+   "icon": "🍢",
+   "lat": 10.76633,
+   "lng": 106.676,
+   "desc": "Mercado nocturno de comida callejera."
+  }
+ ],
+ "extra": {
+  "w_hcm_correos_central": {
+   "id": "w_hcm_correos_central",
+   "d": "Diseñada a finales del siglo XIX en estilo neoclásico, con una gran bóveda de hierro, mapas históricos pintados y un retrato de Ho Chi Minh presidiendo la sala. Sigue vendiendo sellos y postales.",
+   "d_en": "Built in the late 19th century in neoclassical style, with a vaulted iron ceiling, painted historical maps and a portrait of Ho Chi Minh overlooking the hall. It still sells stamps and postcards.",
+   "h": "Abierto todos los días, aprox. 7:00–19:00. Entrada gratuita. Justo enfrente de la catedral.",
+   "h_en": "Open daily, roughly 7:00–19:00. Free entry. Right across from the cathedral.",
+   "i": "A menudo atribuido a Gustave Eiffel; en realidad lo firmó Alfred Foulhoux.",
+   "i_en": "Often credited to Gustave Eiffel; it was actually designed by Alfred Foulhoux."
+  },
+  "w_hcm_notre_dame": {
+   "id": "w_hcm_notre_dame",
+   "d": "Levantada por los franceses entre 1863 y 1880 con materiales importados de Francia, incluido su característico ladrillo de Toulouse. Sus dos torres de 58 m dominan la plaza Paris Commune.",
+   "d_en": "Erected by the French between 1863 and 1880 with materials shipped from France, including its trademark Toulouse brick. Its two 58 m towers dominate Paris Commune Square.",
+   "h": "El interior suele estar en obras de restauración; se puede visitar el exterior siempre. Consulta horarios de misa.",
+   "h_en": "The interior is often under restoration; the exterior can be seen anytime. Check Mass times.",
+   "i": "Delante hay una estatua de la Virgen María, foco de peregrinaciones locales.",
+   "i_en": "A statue of the Virgin Mary stands in front, a focus of local pilgrimages."
+  },
+  "w_hcm_reunificacion": {
+   "id": "w_hcm_reunificacion",
+   "d": "El 30 de abril de 1975 un tanque norvietnamita derribó su verja, marcando la caída de Saigón. Conserva intactos los despachos, salones de gala y el búnker con mapas y radios de los años 70.",
+   "d_en": "On 30 April 1975 a North Vietnamese tank crashed through its gates, marking the fall of Saigon. Offices, ceremonial halls and the 1970s war bunker with maps and radios remain intact.",
+   "h": "Abierto a diario 8:00–16:30. Entrada aprox. 1,5 €. Audioguía disponible.",
+   "h_en": "Open daily 8:00–16:30. Ticket around 1.5 €. Audio guide available.",
+   "i": "En el jardín se exhiben réplicas de los tanques que entraron aquel día.",
+   "i_en": "Replicas of the tanks that stormed in that day sit on the front lawn."
+  },
+  "w_hcm_vestigios_guerra": {
+   "id": "w_hcm_vestigios_guerra",
+   "d": "Documenta con fotografías, aviones, tanques y helicópteros los horrores del conflicto, incluidas las secuelas del agente naranja y las víctimas civiles. Impactante y no apto para menores sensibles.",
+   "d_en": "Uses photographs, planes, tanks and helicopters to document the war's horrors, including the aftermath of Agent Orange and civilian victims. Powerful and not for sensitive children.",
+   "h": "Abierto a diario 7:30–17:30. Entrada aprox. 1,5 €. Reserva 1,5–2 h.",
+   "h_en": "Open daily 7:30–17:30. Ticket around 1.5 €. Allow 1.5–2 hours.",
+   "i": "En el patio hay una reconstrucción de las 'jaulas de tigre' de las prisiones.",
+   "i_en": "The courtyard holds a reconstruction of the prison 'tiger cages'."
+  },
+  "w_hcm_cu_chi": {
+   "id": "w_hcm_cu_chi",
+   "d": "Más de 200 km de galerías excavadas a mano donde vivían y combatían los guerrilleros. Se pueden recorrer tramos ensanchados para turistas y ver trampas, cocinas subterráneas y entradas camufladas.",
+   "d_en": "Over 200 km of hand-dug galleries where guerrillas lived and fought. Visitors crawl through widened sections and see booby traps, underground kitchens and camouflaged entrances.",
+   "h": "A unos 60 km del centro; excursión de medio día o día completo. Entrada aprox. 5 €.",
+   "h_en": "About 60 km from the centre; half- or full-day trip. Entry around 5 €.",
+   "i": "Hay dos accesos, Ben Dinh (más cercano) y Ben Duoc (menos concurrido).",
+   "i_en": "Two access points exist: Ben Dinh (closer) and Ben Duoc (less crowded)."
+  },
+  "w_hcm_emperador_jade": {
+   "id": "w_hcm_emperador_jade",
+   "d": "Construido en 1909 por la comunidad cantonesa, honra al Emperador de Jade rodeado de dioses, demonios de madera y una sala de figuras de las 'diez cortes del infierno'. Atmósfera densa y muy espiritual.",
+   "d_en": "Built in 1909 by the Cantonese community, it honours the Jade Emperor amid wooden gods, demons and a hall of the 'ten courts of hell' figures. Dense, deeply spiritual atmosphere.",
+   "h": "Abierto a diario 7:00–18:00. Entrada gratuita. Respeta a los fieles.",
+   "h_en": "Open daily 7:00–18:00. Free entry. Be respectful of worshippers.",
+   "i": "Barack Obama lo visitó en 2016; también se le llama Chua Ngoc Hoang.",
+   "i_en": "Barack Obama visited in 2016; it is also known as Chua Ngoc Hoang."
+  },
+  "w_hcm_bitexco": {
+   "id": "w_hcm_bitexco",
+   "d": "Con 262 m y 68 plantas, su silueta evoca un capullo de loto. El mirador Saigon Skydeck en la planta 49 ofrece vistas de 360° sobre la ciudad y el río Saigón.",
+   "d_en": "At 262 m and 68 floors, its silhouette evokes a lotus bud. The Saigon Skydeck on level 49 offers 360° views over the city and the Saigon River.",
+   "h": "Skydeck abierto a diario 9:30–21:30. Entrada aprox. 8 €.",
+   "h_en": "Skydeck open daily 9:30–21:30. Ticket around 8 €.",
+   "i": "El helipuerto en la planta 52 sobresale del edificio como una aleta.",
+   "i_en": "The helipad on floor 52 juts out from the tower like a fin."
+  },
+  "w_hcm_opera": {
+   "id": "w_hcm_opera",
+   "d": "Inaugurado en 1900, su fachada recargada con arcos y esculturas recuerda al Petit Palais de París. Acoge conciertos y el espectáculo de danza y acrobacia con bambú A O Show.",
+   "d_en": "Opened in 1900, its ornate arched-and-sculpted facade echoes Paris's Petit Palais. It hosts concerts and the bamboo acrobatics dance production A O Show.",
+   "h": "Solo se visita el interior con entrada a espectáculos. Exterior siempre visible.",
+   "h_en": "Interior only accessible with show tickets. Exterior visible anytime.",
+   "i": "Está en la plaza Lam Son, entre los hoteles Continental y Caravelle.",
+   "i_en": "It sits on Lam Son Square between the Continental and Caravelle hotels."
+  },
+  "w_hcm_thien_hau": {
+   "id": "w_hcm_thien_hau",
+   "d": "Del siglo XIX, honra a Thien Hau, protectora de los marineros. Destacan sus tejados con figuras de cerámica, los frisos narrativos y las grandes espirales de incienso colgadas del techo.",
+   "d_en": "This 19th-century temple honours Thien Hau, protector of sailors. Note the ceramic-figure roofs, narrative friezes and giant incense coils hanging from the ceiling.",
+   "h": "Abierto a diario aprox. 6:00–17:30. Entrada gratuita. En pleno Cholon.",
+   "h_en": "Open daily roughly 6:00–17:30. Free entry. In the heart of Cholon.",
+   "i": "Es uno de los templos más antiguos y venerados de la comunidad Hoa.",
+   "i_en": "It is one of the oldest and most revered temples of the Hoa community."
+  },
+  "w_hcm_ayuntamiento": {
+   "id": "w_hcm_ayuntamiento",
+   "d": "Construido entre 1902 y 1908 como Hôtel de Ville, es hoy sede del Comité Popular. Su fachada amarilla y blanca, iluminada de noche, preside la calle peatonal con la estatua de Ho Chi Minh.",
+   "d_en": "Built 1902–1908 as the Hôtel de Ville, today it houses the People's Committee. Its floodlit yellow-and-white facade presides over the pedestrian street with the Ho Chi Minh statue.",
+   "h": "No se puede visitar por dentro. Mejor foto de noche, iluminado.",
+   "h_en": "Closed to the public inside. Best photographed at night, floodlit.",
+   "i": "Es uno de los edificios más fotografiados de la ciudad.",
+   "i_en": "It is one of the most photographed buildings in the city."
+  },
+  "w_hcm_museo_historia": {
+   "id": "w_hcm_museo_historia",
+   "d": "Junto al zoo, exhibe piezas desde la prehistoria hasta las dinastías Nguyen, incluida una momia y esculturas cham. Espectáculo de marionetas de agua en horarios fijos.",
+   "d_en": "Next to the zoo, it displays pieces from prehistory to the Nguyen dynasties, including a mummy and Cham sculptures. Water-puppet shows run at set times.",
+   "h": "Abierto mar–dom 8:00–11:30 y 13:30–17:00. Entrada aprox. 1 €.",
+   "h_en": "Open Tue–Sun 8:00–11:30 and 13:30–17:00. Ticket around 1 €.",
+   "i": "El pabellón de estilo pagoda data de 1929.",
+   "i_en": "The pagoda-style pavilion dates from 1929."
+  },
+  "w_hcm_zoo_botanico": {
+   "id": "w_hcm_zoo_botanico",
+   "d": "Fundado en 1865, combina un jardín botánico con árboles centenarios y un zoo con tigres, elefantes y jirafas. Un remanso verde muy popular entre las familias locales.",
+   "d_en": "Founded in 1865, it blends a botanical garden of century-old trees with a zoo of tigers, elephants and giraffes. A leafy escape popular with local families.",
+   "h": "Abierto a diario 7:00–18:00. Entrada aprox. 2 €.",
+   "h_en": "Open daily 7:00–18:00. Ticket around 2 €.",
+   "i": "Comparte recinto con el Museo de Historia y el templo Hung.",
+   "i_en": "It shares grounds with the History Museum and the Hung temple."
+  },
+  "w_hcm_parque_tao_dan": {
+   "id": "w_hcm_parque_tao_dan",
+   "d": "Uno de los pulmones verdes del centro, con senderos entre árboles enormes, esculturas cham y grupos que hacen tai chi al amanecer. Cada mañana se reúnen aficionados con sus jaulas de pájaros.",
+   "d_en": "A central green lung with paths under huge trees, Cham-style sculptures and dawn tai chi groups. Each morning bird fanciers gather with their songbird cages.",
+   "h": "Abierto todo el día. Entrada gratuita. Mejor temprano.",
+   "h_en": "Open all day. Free entry. Best early in the morning.",
+   "i": "Alberga una réplica de templo cham entre la vegetación.",
+   "i_en": "It hides a Cham-temple replica among the greenery."
+  },
+  "w_hcm_parque_30_4": {
+   "id": "w_hcm_parque_30_4",
+   "d": "Extenso jardín público frente a la catedral de Notre-Dame, con árboles altos, cafés al aire libre y bancos. Punto de encuentro de estudiantes y perfecto para descansar entre visitas.",
+   "d_en": "A broad public garden facing Notre-Dame Cathedral, with tall trees, open-air cafes and benches. A meeting spot for students and ideal for a break between sights.",
+   "h": "Abierto todo el día. Entrada gratuita.",
+   "h_en": "Open all day. Free entry.",
+   "i": "Conocido antes como Parque 30/4 por la fecha de la caída de Saigón.",
+   "i_en": "Named 30/4 Park after the date of the fall of Saigon."
+  },
+  "w_hcm_muelle_bach_dang": {
+   "id": "w_hcm_muelle_bach_dang",
+   "d": "Malecón remodelado con jardines, brisa y vistas a los rascacielos de la orilla opuesta. Desde aquí salen cruceros de cena y ferris; ideal al atardecer.",
+   "d_en": "A revamped waterfront with gardens, breeze and views of the skyscrapers across the river. Dinner cruises and ferries depart here; lovely at sunset.",
+   "h": "Abierto todo el día. Cruceros por la tarde-noche.",
+   "h_en": "Open all day. Cruises in the evening.",
+   "i": "Aquí se toman los barcos hacia Cu Chi por el río.",
+   "i_en": "River boats to Cu Chi also set off from here."
+  },
+  "w_hcm_parque_23_9": {
+   "id": "w_hcm_parque_23_9",
+   "d": "Largo parque lineal que conecta Ben Thanh con el barrio mochilero. Tiene zonas de césped, estanques y a menudo ferias, conciertos y mercadillos temporales.",
+   "d_en": "A long linear park linking Ben Thanh with the backpacker district. It has lawns, ponds and often hosts fairs, concerts and pop-up markets.",
+   "h": "Abierto todo el día. Entrada gratuita.",
+   "h_en": "Open all day. Free entry.",
+   "i": "Junto a la estación central de autobuses urbanos.",
+   "i_en": "Right by the central city bus terminal."
+  },
+  "w_hcm_parque_le_van_tam": {
+   "id": "w_hcm_parque_le_van_tam",
+   "d": "Amplio espacio verde en el distrito 1, popular para correr, patinar y hacer ejercicio al amanecer. Acoge ferias del libro y festivales de flores en fechas señaladas.",
+   "d_en": "A large green space in District 1, popular for jogging, skating and dawn exercise. It hosts book fairs and flower festivals on special dates.",
+   "h": "Abierto todo el día. Entrada gratuita.",
+   "h_en": "Open all day. Free entry.",
+   "i": "Fue el cementerio europeo Mac Dinh Chi hasta los años 80.",
+   "i_en": "It was the European Mac Dinh Chi cemetery until the 1980s."
+  },
+  "w_hcm_ben_thanh": {
+   "id": "w_hcm_ben_thanh",
+   "d": "Bajo su icónica torre del reloj de 1914 se apiñan cientos de puestos de textiles, café, especias, souvenirs y comida. Caótico, animado y perfecto para practicar el regateo.",
+   "d_en": "Under its iconic 1914 clock tower crowd hundreds of stalls of textiles, coffee, spices, souvenirs and food. Chaotic, lively and perfect for practising your haggling.",
+   "h": "Abierto a diario aprox. 6:00–18:00; mercado nocturno fuera hasta tarde.",
+   "h_en": "Open daily roughly 6:00–18:00; an outdoor night market runs late.",
+   "i": "Vigila tus pertenencias: hay mucha aglomeración.",
+   "i_en": "Mind your belongings: it gets very crowded."
+  },
+  "w_hcm_bui_vien": {
+   "id": "w_hcm_bui_vien",
+   "d": "De día es una calle tranquila de hostales; de noche se convierte en un río de neón, música alta, cerveza barata y puestos de comida. La 'walking street' se cierra al tráfico los fines de semana.",
+   "d_en": "Quiet guesthouse lane by day, by night it becomes a river of neon, loud music, cheap beer and food stalls. The walking street closes to traffic at weekends.",
+   "h": "Ambiente a partir de las 19:00; máximo apogeo tras medianoche.",
+   "h_en": "Comes alive after 19:00; peaks past midnight.",
+   "i": "En el barrio Pham Ngu Lao, con muchos hostales económicos.",
+   "i_en": "In the Pham Ngu Lao area, packed with budget hostels."
+  },
+  "w_hcm_nguyen_hue": {
+   "id": "w_hcm_nguyen_hue",
+   "d": "Explanada de granito que baja desde el Ayuntamiento hasta el río, flanqueada por cafés, tiendas y el famoso 'edificio de apartamentos-café'. Fuentes, patinadores y ambiente familiar por la noche.",
+   "d_en": "A granite plaza running from the City Hall down to the river, lined with cafes, shops and the famous 'cafe apartment' building. Fountains, skaters and a family vibe at night.",
+   "h": "Abierta siempre; más animada al anochecer y en fiestas.",
+   "h_en": "Always open; liveliest at dusk and during festivals.",
+   "i": "En Año Nuevo (Tet) se decora con una espectacular calle de flores.",
+   "i_en": "For Tet it is decorated as a spectacular flower street."
+  },
+  "w_hcm_cholon": {
+   "id": "w_hcm_cholon",
+   "d": "En los distritos 5 y 6, un laberinto de templos, farmacias tradicionales, mayoristas y calles bulliciosas de la comunidad Hoa. Ideal para pasear entre pagodas, comida cantonesa y comercio.",
+   "d_en": "Spanning Districts 5 and 6, a maze of temples, traditional pharmacies, wholesalers and busy streets of the Hoa community. Great for wandering among pagodas, Cantonese food and trade.",
+   "h": "Zona abierta; comercios activos de día. Ve en Grab o taxi.",
+   "h_en": "Open district; shops busiest by day. Go by Grab or taxi.",
+   "i": "Su nombre significa literalmente 'gran mercado'.",
+   "i_en": "Its name literally means 'big market'."
+  },
+  "w_hcm_binh_tay": {
+   "id": "w_hcm_binh_tay",
+   "d": "Edificio de estilo chino de 1928 con patio central y torre del reloj. Es el mercado mayorista más grande de la ciudad: telas, cestería, dulces, especias y utensilios a precios de origen.",
+   "d_en": "A 1928 Chinese-style building with a central courtyard and clock tower. It is the city's biggest wholesale market: fabrics, basketry, sweets, spices and goods at source prices.",
+   "h": "Abierto a diario aprox. 6:00–19:00. Entrada gratuita.",
+   "h_en": "Open daily roughly 6:00–19:00. Free entry.",
+   "i": "Lo financió el filántropo chino Quach Dam.",
+   "i_en": "It was funded by the Chinese philanthropist Quach Dam."
+  },
+  "w_hcm_landmark81": {
+   "id": "w_hcm_landmark81",
+   "d": "Con 461 m y 81 plantas, domina el horizonte junto al río Saigón. Su mirador SkyView en las plantas 79-81 ofrece vistas panorámicas, cafetería y una terraza con suelo de cristal.",
+   "d_en": "At 461 m and 81 floors, it towers over the skyline by the Saigon River. The SkyView deck on floors 79–81 offers panoramic views, a cafe and a glass-floor terrace.",
+   "h": "SkyView abierto a diario 9:30–21:30. Entrada aprox. 8 €.",
+   "h_en": "SkyView open daily 9:30–21:30. Ticket around 8 €.",
+   "i": "Está en el complejo Vinhomes Central Park, con un gran parque fluvial.",
+   "i_en": "It sits in the Vinhomes Central Park complex with a large riverside park."
+  },
+  "w_hcm_ben_thanh_street_food": {
+   "id": "w_hcm_ben_thanh_street_food",
+   "d": "A pocos pasos del mercado Ben Thanh, reúne bajo un mismo techo puestos de todas las regiones de Vietnam y algún plato internacional. Mesas comunes, cerveza fresca y ambiente animado.",
+   "d_en": "Steps from Ben Thanh Market, it gathers stalls from every Vietnamese region plus a few international dishes under one roof. Shared tables, cold beer and a buzzy vibe.",
+   "h": "Abierto tarde-noche. Buen sitio para probar varios platos de una vez.",
+   "h_en": "Open afternoon to late night. A good spot to sample several dishes at once.",
+   "i": "Perfecto para iniciarse en la cocina vietnamita sin arriesgar.",
+   "i_en": "Perfect for easing into Vietnamese cuisine without risk."
+  },
+  "w_hcm_banh_mi_huynh_hoa": {
+   "id": "w_hcm_banh_mi_huynh_hoa",
+   "d": "Diminuto local siempre con cola donde preparan un bocadillo generoso, repleto de embutidos, paté, pepinillos y cilantro. Una institución del sándwich vietnamita.",
+   "d_en": "A tiny, always-queued shop making a generous baguette stuffed with cold cuts, pâté, pickles and coriander. An institution of the Vietnamese sandwich.",
+   "h": "Abierto todo el día; suele haber cola. Para llevar.",
+   "h_en": "Open all day; expect a queue. Takeaway only.",
+   "i": "Su banh mi es más caro que la media, pero doble de relleno.",
+   "i_en": "Its banh mi costs more than average but with double the filling."
+  },
+  "w_hcm_pho_hoa_pasteur": {
+   "id": "w_hcm_pho_hoa_pasteur",
+   "d": "Uno de los restaurantes de pho más antiguos y respetados de la ciudad, con un caldo de ternera aromático servido con hierbas frescas, lima y guindilla. Ambiente sencillo y auténtico.",
+   "d_en": "One of the oldest, most respected pho restaurants in town, serving an aromatic beef broth with fresh herbs, lime and chilli. Simple, authentic setting.",
+   "h": "Abierto todo el día. Mejor para desayunar o cenar temprano.",
+   "h_en": "Open all day. Best for breakfast or an early dinner.",
+   "i": "Sobre la mesa hay quaycháo (churros) para mojar en el caldo.",
+   "i_en": "Fried dough sticks sit on the table to dip in the broth."
+  },
+  "w_hcm_cafe_apartment": {
+   "id": "w_hcm_cafe_apartment",
+   "d": "Un antiguo bloque de viviendas en Nguyen Hue reconvertido: cada balcón es un café, bar o tienda de diseño con vistas a la calle peatonal. Sube por las escaleras o paga el ascensor.",
+   "d_en": "A former residential block on Nguyen Hue reborn so every balcony is a cafe, bar or design shop overlooking the pedestrian street. Take the stairs or pay for the lift.",
+   "h": "Cada local con su horario; ambiente todo el día. Ascensor de pago.",
+   "h_en": "Each venue keeps its own hours; lively all day. Lift charges a small fee.",
+   "i": "Prueba el ca phe sua da (café con leche condensada y hielo).",
+   "i_en": "Try ca phe sua da (iced coffee with condensed milk)."
+  },
+  "w_hcm_ho_thi_ky": {
+   "id": "w_hcm_ho_thi_ky",
+   "d": "Un dédalo de callejones en el distrito 10 donde de noche se alinean puestos de marisco, brochetas, postres y platos jemer. Menos turístico y muy popular entre los locales jóvenes.",
+   "d_en": "A warren of alleys in District 10 lined at night with seafood, skewers, desserts and Khmer dishes. Less touristy and hugely popular with young locals.",
+   "h": "Ambiente a partir del atardecer. Lleva efectivo en billetes pequeños.",
+   "h_en": "Comes alive after dusk. Bring small cash notes.",
+   "i": "Comparte zona con un colorido mercado mayorista de flores.",
+   "i_en": "It adjoins a colourful wholesale flower market."
+  }
+ },
+ "food": {
+  "w_hcm_ben_thanh_street_food": {
+   "cuisine": "Vietnamita y callejera",
+   "price": "3–10 €",
+   "hours": "16:00–24:00"
+  },
+  "w_hcm_banh_mi_huynh_hoa": {
+   "cuisine": "Bocadillos vietnamitas (banh mi)",
+   "price": "2–4 €",
+   "hours": "06:00–22:00"
+  },
+  "w_hcm_pho_hoa_pasteur": {
+   "cuisine": "Pho y sopas vietnamitas",
+   "price": "3–6 €",
+   "hours": "06:00–22:30"
+  },
+  "w_hcm_cafe_apartment": {
+   "cuisine": "Cafés, brunch y postres",
+   "price": "3–8 €",
+   "hours": "08:00–22:00"
+  },
+  "w_hcm_ho_thi_ky": {
+   "cuisine": "Callejera vietnamita y camboyana",
+   "price": "2–8 €",
+   "hours": "16:00–24:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Ho Chi Minh",
+   "items": [
+    {
+     "name": "Café vietnamita con filtro phin",
+     "price": "4–12 €",
+     "desc": "Café robusta molido y el clásico filtro metálico phin para prepararlo en casa."
+    },
+    {
+     "name": "Sombrero cónico (nón lá)",
+     "price": "2–6 €",
+     "desc": "Sombrero tradicional de hoja de palma, ligero y muy fotografiado."
+    },
+    {
+     "name": "Laca artesanal (sơn mài)",
+     "price": "8–40 €",
+     "desc": "Cuencos, bandejas y cajas decorativas con incrustaciones de nácar."
+    },
+    {
+     "name": "Seda y áo dài a medida",
+     "price": "20–80 €",
+     "desc": "Bufandas, pañuelos y el traje nacional confeccionado en pocos días."
+    },
+    {
+     "name": "Té de loto y frutos secos",
+     "price": "3–10 €",
+     "desc": "Té de flor de loto, anacardos de Binh Phuoc y frutas deshidratadas."
+    },
+    {
+     "name": "Carteles de propaganda",
+     "price": "5–25 €",
+     "desc": "Reproducciones de pósteres retro, muy populares como recuerdo gráfico."
+    }
+   ],
+   "shops": [
+    "Mercado Ben Thanh (regateo)",
+    "Mercado Binh Tay (Cholon, al por mayor)",
+    "Saigon Square (moda y accesorios)",
+    "Calle Dong Khoi (tiendas y galerías)",
+    "L'Usine y Takashimaya (diseño y grandes almacenes)"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Para cruzar la calle camina despacio y a ritmo constante sin pararte de golpe: las motos calculan tu trayectoria y te esquivan.",
+   "Regatea en los mercados (Ben Thanh, Binh Tay): ofrece la mitad del precio inicial y sube poco a poco con una sonrisa.",
+   "Descarga la app Grab para moto-taxi o coche; es barato, evita discusiones de precio y funciona mejor que parar taxis en la calle.",
+   "Lleva efectivo en dong: muchos puestos y cafés no aceptan tarjeta. Cambia en bancos o joyerías, nunca en el aeropuerto.",
+   "En templos y pagodas cúbrete hombros y rodillas, quítate el sombrero y evita el sol de mediodía visitando museos a esas horas."
+  ],
+  "en": [
+   "To cross the street walk slowly at a steady pace without stopping abruptly: the motorbikes read your path and flow around you.",
+   "Haggle at the markets (Ben Thanh, Binh Tay): offer half the first price and inch up with a smile.",
+   "Install the Grab app for motorbike or car rides; it is cheap, avoids price haggling and beats hailing taxis on the street.",
+   "Carry cash in dong: many stalls and cafes don't take cards. Change money at banks or gold shops, never at the airport.",
+   "At temples and pagodas cover shoulders and knees, remove your hat, and dodge the midday heat by visiting museums then."
+  ]
+ },
+ "climate": {
+  "hi": [
+   32,
+   33,
+   34,
+   35,
+   34,
+   32,
+   32,
+   32,
+   31,
+   31,
+   31,
+   31
+  ],
+  "lo": [
+   21,
+   22,
+   24,
+   25,
+   25,
+   24,
+   24,
+   24,
+   24,
+   24,
+   23,
+   22
+  ]
+ },
+ "tr": {
+  "Oficina de correos colonial francesa aún en funcionamiento.": "French-colonial post office still in daily use.",
+  "Catedral de ladrillo rojo con dos campanarios gemelos.": "Red-brick cathedral with twin bell towers.",
+  "Antiguo palacio presidencial, símbolo del fin de la guerra.": "Former presidential palace, symbol of the war's end.",
+  "Crudo museo sobre la guerra de Vietnam.": "Stark museum on the Vietnam War.",
+  "Red de túneles de guerrilla del Vietcong.": "Viet Cong guerrilla tunnel network.",
+  "Templo taoísta lleno de humo de incienso y tallas.": "Taoist temple thick with incense and carvings.",
+  "Rascacielos icónico con helipuerto voladizo.": "Iconic skyscraper with a cantilevered helipad.",
+  "Teatro municipal de estilo Belle Époque.": "Belle Époque municipal theatre.",
+  "Templo chino dedicado a la diosa del mar.": "Chinese temple to the sea goddess.",
+  "Palacio colonial amarillo al final de Nguyen Hue.": "Yellow colonial hall at the head of Nguyen Hue.",
+  "Colección de arte y arqueología del país.": "Vietnam's art and archaeology collection.",
+  "Uno de los zoológicos más antiguos del mundo.": "One of the world's oldest zoos.",
+  "Parque frondoso con club de pájaros cantores.": "Leafy park with a songbird club.",
+  "Césped arbolado entre la catedral y el palacio.": "Shaded lawns between cathedral and palace.",
+  "Paseo fluvial junto al río Saigón.": "Riverside promenade along the Saigon River.",
+  "Franja verde junto al mercado Ben Thanh.": "Green strip beside Ben Thanh Market.",
+  "Antiguo cementerio convertido en parque.": "Former cemetery turned city park.",
+  "Mercado cubierto emblemático de la ciudad.": "The city's landmark covered market.",
+  "Epicentro de la vida nocturna mochilera.": "Heart of the backpacker nightlife.",
+  "Amplio bulevar peatonal en el centro.": "Broad pedestrian boulevard downtown.",
+  "El mayor barrio chino de Vietnam.": "Vietnam's largest Chinatown.",
+  "Gran mercado mayorista de Cholon.": "Cholon's grand wholesale market.",
+  "Mirador en el rascacielos más alto de Vietnam.": "Observation deck atop Vietnam's tallest tower.",
+  "Patio de comidas con decenas de puestos.": "Food court with dozens of stalls.",
+  "El banh mi más famoso de Saigón.": "Saigon's most famous banh mi.",
+  "Veterana casa de pho en el distrito 3.": "Long-running pho house in District 3.",
+  "Edificio de apartamentos lleno de cafés.": "Apartment block packed with cafes.",
+  "Mercado nocturno de comida callejera.": "Nighttime street-food market.",
+  "Ho Chi Minh": "Ho Chi Minh"
+ }
+}

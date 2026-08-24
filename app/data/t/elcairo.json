@@ -1,0 +1,746 @@
+{
+ "id": "elcairo",
+ "name": "El Cairo",
+ "country": "WORLD",
+ "center": [
+  30.0444,
+  31.2357
+ ],
+ "pois": [
+  {
+   "id": "w_cai_giza_pyramids",
+   "cat": "monuments",
+   "name": "Pirámides de Guiza",
+   "icon": "🔺",
+   "lat": 29.97917,
+   "lng": 31.13417,
+   "desc": "Las tres grandes pirámides de Keops, Kefrén y Micerinos, única maravilla del mundo antiguo que sigue en pie."
+  },
+  {
+   "id": "w_cai_sphinx",
+   "cat": "monuments",
+   "name": "Gran Esfinge de Guiza",
+   "icon": "🦁",
+   "lat": 29.97528,
+   "lng": 31.1375,
+   "desc": "Colosal estatua con cuerpo de león y rostro humano que custodia la meseta de Guiza desde hace 4.500 años."
+  },
+  {
+   "id": "w_cai_gem",
+   "cat": "monuments",
+   "name": "Gran Museo Egipcio (GEM)",
+   "icon": "🏛️",
+   "lat": 29.99389,
+   "lng": 31.11972,
+   "desc": "El mayor museo arqueológico del mundo dedicado a una sola civilización, junto a las pirámides de Guiza."
+  },
+  {
+   "id": "w_cai_egyptian_museum",
+   "cat": "monuments",
+   "name": "Museo Egipcio de Tahrir",
+   "icon": "🏺",
+   "lat": 30.04778,
+   "lng": 31.23361,
+   "desc": "El histórico museo rojo de la plaza Tahrir, con una de las colecciones faraónicas más ricas del mundo."
+  },
+  {
+   "id": "w_cai_citadel",
+   "cat": "monuments",
+   "name": "Ciudadela de Saladino",
+   "icon": "🏰",
+   "lat": 30.02944,
+   "lng": 31.26139,
+   "desc": "Fortaleza medieval sobre la colina de Muqattam que dominó El Cairo durante 700 años."
+  },
+  {
+   "id": "w_cai_alabaster_mosque",
+   "cat": "monuments",
+   "name": "Mezquita de Alabastro (Muhammad Ali)",
+   "icon": "🕌",
+   "lat": 30.02861,
+   "lng": 31.25944,
+   "desc": "Espectacular mezquita otomana de cúpulas plateadas dentro de la Ciudadela, símbolo del skyline cairota."
+  },
+  {
+   "id": "w_cai_hanging_church",
+   "cat": "monuments",
+   "name": "Iglesia Colgante",
+   "icon": "⛪",
+   "lat": 30.00528,
+   "lng": 31.23,
+   "desc": "La iglesia copta más famosa de El Cairo, suspendida sobre una puerta de la antigua fortaleza romana."
+  },
+  {
+   "id": "w_cai_coptic_museum",
+   "cat": "monuments",
+   "name": "Museo Copto",
+   "icon": "📜",
+   "lat": 30.00583,
+   "lng": 31.23,
+   "desc": "La mayor colección de arte cristiano copto del mundo, en el corazón del Viejo Cairo."
+  },
+  {
+   "id": "w_cai_al_azhar",
+   "cat": "monuments",
+   "name": "Mezquita de Al-Azhar",
+   "icon": "🕌",
+   "lat": 30.04583,
+   "lng": 31.2625,
+   "desc": "Una de las mezquitas más antiguas del mundo y sede de la universidad islámica más venerable."
+  },
+  {
+   "id": "w_cai_ibn_tulun",
+   "cat": "monuments",
+   "name": "Mezquita de Ibn Tulun",
+   "icon": "🕌",
+   "lat": 30.02861,
+   "lng": 31.24944,
+   "desc": "La mezquita más antigua de El Cairo que conserva su forma original, célebre por su minarete de escalera exterior."
+  },
+  {
+   "id": "w_cai_sultan_hassan",
+   "cat": "monuments",
+   "name": "Mezquita del Sultán Hassan",
+   "icon": "🕌",
+   "lat": 30.03222,
+   "lng": 31.25611,
+   "desc": "Colosal mezquita-madraza mameluca del siglo XIV, cumbre de la arquitectura islámica de El Cairo."
+  },
+  {
+   "id": "w_cai_bab_zuweila",
+   "cat": "monuments",
+   "name": "Bab Zuweila y Barrio Islámico",
+   "icon": "🏯",
+   "lat": 30.04222,
+   "lng": 31.2575,
+   "desc": "Puerta medieval fatimí y umbral del laberinto de calles, mercados y mezquitas del Cairo islámico."
+  },
+  {
+   "id": "w_cai_saqqara",
+   "cat": "monuments",
+   "name": "Saqqara",
+   "icon": "🔻",
+   "lat": 29.87111,
+   "lng": 31.21639,
+   "desc": "Vasta necrópolis con la pirámide escalonada de Zoser, la primera gran obra en piedra de la humanidad."
+  },
+  {
+   "id": "w_cai_memphis",
+   "cat": "monuments",
+   "name": "Menfis (Mit Rahina)",
+   "icon": "🗿",
+   "lat": 29.84444,
+   "lng": 31.25417,
+   "desc": "Antigua capital del Egipto faraónico, hoy museo al aire libre con el coloso tumbado de Ramsés II."
+  },
+  {
+   "id": "w_cai_dahshur",
+   "cat": "monuments",
+   "name": "Pirámides de Dahshur",
+   "icon": "🔺",
+   "lat": 29.79028,
+   "lng": 31.20944,
+   "desc": "Necrópolis tranquila con la Pirámide Acodada y la Roja, ensayos que llevaron a la pirámide perfecta."
+  },
+  {
+   "id": "w_cai_nile",
+   "cat": "nature",
+   "name": "Río Nilo y paseo en falúa",
+   "icon": "⛵",
+   "lat": 30.04389,
+   "lng": 31.22556,
+   "desc": "El gran río que dio vida a Egipto, ideal para navegar en falúa tradicional al atardecer."
+  },
+  {
+   "id": "w_cai_azhar_park",
+   "cat": "nature",
+   "name": "Parque Al-Azhar",
+   "icon": "🌳",
+   "lat": 30.04083,
+   "lng": 31.26417,
+   "desc": "Oasis verde ajardinado sobre una antigua escombrera, con las mejores vistas del Cairo histórico."
+  },
+  {
+   "id": "w_cai_wadi_degla",
+   "cat": "nature",
+   "name": "Reserva de Wadi Degla",
+   "icon": "🏜️",
+   "lat": 29.95,
+   "lng": 31.35,
+   "desc": "Cañón desértico protegido a las afueras de El Cairo, popular para senderismo y ciclismo."
+  },
+  {
+   "id": "w_cai_orman_garden",
+   "cat": "nature",
+   "name": "Jardín Botánico El-Orman",
+   "icon": "🌸",
+   "lat": 30.02694,
+   "lng": 31.21306,
+   "desc": "Histórico jardín botánico de Guiza con árboles centenarios y una célebre exposición de flores en primavera."
+  },
+  {
+   "id": "w_cai_giza_zoo",
+   "cat": "nature",
+   "name": "Zoo de Guiza",
+   "icon": "🦒",
+   "lat": 30.02528,
+   "lng": 31.215,
+   "desc": "Uno de los zoológicos más antiguos y grandes de África, con jardines históricos junto al Nilo."
+  },
+  {
+   "id": "w_cai_khan_khalili",
+   "cat": "ocio",
+   "name": "Bazar Khan el-Khalili",
+   "icon": "🛍️",
+   "lat": 30.0475,
+   "lng": 31.26222,
+   "desc": "El gran bazar medieval de El Cairo, laberinto de callejones con artesanía, especias y cafés centenarios."
+  },
+  {
+   "id": "w_cai_cairo_tower",
+   "cat": "ocio",
+   "name": "Torre de El Cairo",
+   "icon": "🗼",
+   "lat": 30.04583,
+   "lng": 31.22444,
+   "desc": "Torre-mirador de 187 metros en la isla de Gezira, con vistas de 360º sobre la ciudad y el Nilo."
+  },
+  {
+   "id": "w_cai_nile_cruise",
+   "cat": "ocio",
+   "name": "Crucero-cena por el Nilo",
+   "icon": "🚢",
+   "lat": 30.03889,
+   "lng": 31.22889,
+   "desc": "Cena a bordo navegando por el Nilo, con música, danza del vientre y espectáculo de derviches."
+  },
+  {
+   "id": "w_cai_sound_light",
+   "cat": "ocio",
+   "name": "Espectáculo de Luz y Sonido (Guiza)",
+   "icon": "🎆",
+   "lat": 29.97472,
+   "lng": 31.13833,
+   "desc": "Show nocturno que ilumina las pirámides y la Esfinge mientras narra la historia del antiguo Egipto."
+  },
+  {
+   "id": "w_cai_opera",
+   "cat": "ocio",
+   "name": "Ópera de El Cairo",
+   "icon": "🎭",
+   "lat": 30.0425,
+   "lng": 31.22417,
+   "desc": "El principal centro de artes escénicas de Egipto, en un complejo cultural de la isla de Gezira."
+  },
+  {
+   "id": "w_cai_city_stars",
+   "cat": "ocio",
+   "name": "City Stars Mall",
+   "icon": "🏬",
+   "lat": 30.07306,
+   "lng": 31.34611,
+   "desc": "Uno de los mayores centros comerciales de Oriente Medio, con tiendas, cines y ocio en Nasr City."
+  },
+  {
+   "id": "w_cai_koshary_abou_tarek",
+   "cat": "food",
+   "name": "Koshary Abou Tarek",
+   "icon": "🍲",
+   "lat": 30.05028,
+   "lng": 31.245,
+   "desc": "El templo del koshari en El Cairo, sirviendo el plato nacional egipcio desde hace décadas."
+  },
+  {
+   "id": "w_cai_felfela",
+   "cat": "food",
+   "name": "Felfela",
+   "icon": "🧆",
+   "lat": 30.04556,
+   "lng": 31.23833,
+   "desc": "Clásico restaurante del centro para probar la cocina egipcia tradicional en un ambiente pintoresco."
+  },
+  {
+   "id": "w_cai_naguib_mahfouz",
+   "cat": "food",
+   "name": "Café Naguib Mahfouz",
+   "icon": "☕",
+   "lat": 30.0475,
+   "lng": 31.26194,
+   "desc": "Elegante café-restaurante en pleno Khan el-Khalili, dedicado al Nobel de literatura egipcio."
+  },
+  {
+   "id": "w_cai_el_fishawi",
+   "cat": "food",
+   "name": "Café El Fishawi",
+   "icon": "🫖",
+   "lat": 30.04778,
+   "lng": 31.2625,
+   "desc": "El café más antiguo de El Cairo, abierto sin cerrar desde 1797 en un callejón del Khan el-Khalili."
+  },
+  {
+   "id": "w_cai_abou_el_sid",
+   "cat": "food",
+   "name": "Abou El Sid",
+   "icon": "🍽️",
+   "lat": 30.06222,
+   "lng": 31.21972,
+   "desc": "Restaurante de cocina egipcia refinada en Zamalek, con decoración de estilo oriental clásico."
+  },
+  {
+   "id": "w_cai_zooba",
+   "cat": "food",
+   "name": "Zooba",
+   "icon": "🥙",
+   "lat": 30.06139,
+   "lng": 31.21944,
+   "desc": "Comida callejera egipcia reinventada en clave moderna, colorida y de ambiente joven en Zamalek."
+  }
+ ],
+ "extra": {
+  "w_cai_giza_pyramids": {
+   "id": "w_cai_giza_pyramids",
+   "d": "La meseta de Guiza reúne las pirámides construidas hace unos 4.500 años como tumbas de faraones de la IV Dinastía. La Gran Pirámide de Keops, con 146 metros de altura originales, fue la estructura más alta del planeta durante casi cuatro milenios. El recinto incluye templos funerarios, la barca solar de Keops y un mirador panorámico donde se aprecian las tres juntas.",
+   "d_en": "The Giza plateau gathers the pyramids built around 4,500 years ago as tombs for 4th-Dynasty pharaohs. The Great Pyramid of Khufu, originally 146 metres tall, was the tallest structure on Earth for nearly four thousand years. The site includes funerary temples, Khufu's solar boat and a panoramic viewpoint where all three line up.",
+   "h": "Todos los días 8:00–17:00 (invierno) y hasta 19:00 en verano.",
+   "h_en": "Daily 8am–5pm (winter), until 7pm in summer.",
+   "i": "Entrada general al recinto más suplementos para entrar en la Gran Pirámide y ver la barca solar; reserva online para evitar colas.",
+   "i_en": "General site ticket plus extra fees to enter the Great Pyramid and see the solar boat; book online to skip queues."
+  },
+  "w_cai_sphinx": {
+   "id": "w_cai_sphinx",
+   "d": "Tallada en un único bloque de roca caliza, la Esfinge mide 73 metros de largo y 20 de alto, y se cree que representa al faraón Kefrén. Es la escultura monolítica más grande del mundo antiguo. Frente a ella se levanta el Templo del Valle, y al atardecer acoge el espectáculo de luz y sonido.",
+   "d_en": "Carved from a single limestone outcrop, the Sphinx is 73 metres long and 20 metres high, and is thought to depict pharaoh Khafre. It is the largest monolithic statue of the ancient world. The Valley Temple stands before it, and at night it hosts the sound-and-light show.",
+   "h": "Incluida en la entrada de la meseta de Guiza, 8:00–17:00.",
+   "h_en": "Included in the Giza plateau ticket, 8am–5pm.",
+   "i": "El mejor punto para fotografiarla es la terraza junto al Templo del Valle; ve temprano para tenerla despejada.",
+   "i_en": "The best photo spot is the terrace by the Valley Temple; go early to catch it uncrowded."
+  },
+  "w_cai_gem": {
+   "id": "w_cai_gem",
+   "d": "Inaugurado por completo en 2025, el GEM expone más de 100.000 piezas en 24.000 metros cuadrados de galerías. Su joya es el tesoro completo de Tutankamón, con más de 5.000 objetos reunidos por primera vez, además de un colosal de Ramsés II en el atrio y una gran escalinata con vistas a las pirámides.",
+   "d_en": "Fully opened in 2025, the GEM displays over 100,000 artefacts across 24,000 square metres of galleries. Its highlight is the complete treasure of Tutankhamun, with more than 5,000 objects shown together for the first time, plus a colossus of Ramesses II in the atrium and a grand staircase overlooking the pyramids.",
+   "h": "Todos los días 9:00–18:00 (jueves y sábado hasta 21:00).",
+   "h_en": "Daily 9am–6pm (Thursday and Saturday until 9pm).",
+   "i": "Reserva las entradas con antelación y dedica al menos medio día; la galería de Tutankamón requiere ticket adicional.",
+   "i_en": "Book tickets ahead and allow at least half a day; the Tutankhamun gallery needs a separate ticket."
+  },
+  "w_cai_egyptian_museum": {
+   "id": "w_cai_egyptian_museum",
+   "d": "Abierto en 1902, este edificio neoclásico de color rojo albergó durante más de un siglo los grandes tesoros del antiguo Egipto. Aunque muchas piezas se han trasladado al GEM, conserva la sala de momias reales, joyas, sarcófagos y una atmósfera clásica de museo de época que lo hace único.",
+   "d_en": "Opened in 1902, this red neoclassical building housed the great treasures of ancient Egypt for over a century. Although many pieces have moved to the GEM, it keeps the royal mummies room, jewellery, sarcophagi and a classic period-museum atmosphere that makes it unique.",
+   "h": "Todos los días 9:00–17:00.",
+   "h_en": "Daily 9am–5pm.",
+   "i": "La sala de momias reales requiere entrada aparte; está en pleno centro, ideal de combinar con la plaza Tahrir.",
+   "i_en": "The royal mummies room needs a separate ticket; it sits downtown, easy to pair with Tahrir Square."
+  },
+  "w_cai_citadel": {
+   "id": "w_cai_citadel",
+   "d": "Mandada construir por Saladino en el siglo XII para defender la ciudad de los cruzados, la Ciudadela fue sede del poder egipcio hasta el siglo XIX. Entre sus murallas se levantan varias mezquitas, palacios y museos militares, y desde sus terrazas se obtienen las mejores vistas panorámicas de El Cairo hasta las pirámides.",
+   "d_en": "Built by Saladin in the 12th century to defend the city from the Crusaders, the Citadel was the seat of Egyptian power until the 19th century. Within its walls stand several mosques, palaces and military museums, and its terraces offer the best panoramic views of Cairo out to the pyramids.",
+   "h": "Todos los días 9:00–17:00.",
+   "h_en": "Daily 9am–5pm.",
+   "i": "Una entrada única cubre el recinto y sus mezquitas; los días claros se ven las pirámides en el horizonte.",
+   "i_en": "A single ticket covers the complex and its mosques; on clear days you can see the pyramids on the horizon."
+  },
+  "w_cai_alabaster_mosque": {
+   "id": "w_cai_alabaster_mosque",
+   "d": "Construida entre 1830 y 1848 por orden de Muhammad Ali Pasha, imita el estilo de las grandes mezquitas de Estambul. Recubierta de alabastro y coronada por una gran cúpula central de 52 metros, su patio guarda un reloj regalado por Francia. El interior, con lámparas colgantes y alfombras, deslumbra por su amplitud.",
+   "d_en": "Built between 1830 and 1848 by order of Muhammad Ali Pasha, it echoes the great mosques of Istanbul. Clad in alabaster and crowned by a 52-metre central dome, its courtyard holds a clock gifted by France. The interior, with hanging lamps and carpets, amazes with its vast scale.",
+   "h": "Todos los días 9:00–17:00, salvo durante las oraciones.",
+   "h_en": "Daily 9am–5pm, except during prayer times.",
+   "i": "Descálzate al entrar y viste con recato; está incluida en la entrada de la Ciudadela.",
+   "i_en": "Remove shoes and dress modestly; it is included in the Citadel ticket."
+  },
+  "w_cai_hanging_church": {
+   "id": "w_cai_hanging_church",
+   "d": "Dedicada a la Virgen María, la Iglesia Colgante (Al-Muallaqa) debe su nombre a que su nave se apoya sobre los bastiones de la fortaleza romana de Babilonia, dejando el suelo a varios metros del nivel de la calle. Su fachada de dos torres, el techo de madera en forma de arca y sus antiguos iconos la convierten en el corazón del Cairo copto.",
+   "d_en": "Dedicated to the Virgin Mary, the Hanging Church (Al-Muallaqa) is named for its nave resting on the bastions of the Roman fortress of Babylon, leaving its floor metres above street level. Its twin-towered facade, ark-shaped wooden ceiling and ancient icons make it the heart of Coptic Cairo.",
+   "h": "Todos los días 9:00–16:00; misas por la mañana.",
+   "h_en": "Daily 9am–4pm; morning services.",
+   "i": "Entrada gratuita; está en el barrio copto, junto al Museo Copto y la sinagoga Ben Ezra.",
+   "i_en": "Free entry; it sits in Coptic Cairo, next to the Coptic Museum and Ben Ezra Synagogue."
+  },
+  "w_cai_coptic_museum": {
+   "id": "w_cai_coptic_museum",
+   "d": "Fundado en 1908, reúne más de 16.000 piezas que documentan el cristianismo egipcio desde la época grecorromana hasta el islam: textiles, iconos, manuscritos, tallas en madera y frescos. Su elegante edificio, con techos de madera labrada y celosías mashrabiya, es en sí mismo una obra de arte rodeada de jardines.",
+   "d_en": "Founded in 1908, it holds over 16,000 items documenting Egyptian Christianity from Greco-Roman times to Islam: textiles, icons, manuscripts, woodwork and frescoes. Its elegant building, with carved wooden ceilings and mashrabiya screens, is itself a work of art set among gardens.",
+   "h": "Todos los días 9:00–17:00.",
+   "h_en": "Daily 9am–5pm.",
+   "i": "Ideal para entender las raíces cristianas de Egipto; se combina con la Iglesia Colgante en la misma visita.",
+   "i_en": "Great for understanding Egypt's Christian roots; combine it with the Hanging Church in one visit."
+  },
+  "w_cai_al_azhar": {
+   "id": "w_cai_al_azhar",
+   "d": "Fundada en el año 970 por la dinastía fatimí, Al-Azhar es a la vez lugar de culto y la universidad en activo más antigua del mundo islámico. Su gran patio central, sus minaretes de distintas épocas y sus salas de oración cubiertas de columnas reflejan mil años de arquitectura. Sigue siendo la máxima autoridad del islam suní.",
+   "d_en": "Founded in 970 by the Fatimid dynasty, Al-Azhar is both a place of worship and the oldest working university in the Islamic world. Its great central courtyard, minarets from different eras and columned prayer halls reflect a thousand years of architecture. It remains the leading authority of Sunni Islam.",
+   "h": "Abierta todo el día; evita las horas de oración para visitarla.",
+   "h_en": "Open all day; avoid prayer times when visiting.",
+   "i": "Entrada gratuita; viste con recato y descálzate. Está frente al bazar Khan el-Khalili.",
+   "i_en": "Free entry; dress modestly and remove shoes. It faces the Khan el-Khalili bazaar."
+  },
+  "w_cai_ibn_tulun": {
+   "id": "w_cai_ibn_tulun",
+   "d": "Terminada en el año 879, es una obra maestra de la arquitectura abasí construida con ladrillo enlucido. Su inmenso patio abierto, rodeado de arcadas puntiagudas, y su singular minarete en espiral con escalera exterior la hacen inconfundible. Su sobriedad geométrica ha inspirado a artistas y cineastas durante siglos.",
+   "d_en": "Completed in 879, it is a masterpiece of Abbasid architecture built of plastered brick. Its immense open courtyard, ringed by pointed arcades, and its unique spiral minaret with an external staircase make it unmistakable. Its geometric austerity has inspired artists and filmmakers for centuries.",
+   "h": "Todos los días 8:00–18:00.",
+   "h_en": "Daily 8am–6pm.",
+   "i": "Sube al minarete por sus vistas del casco islámico; junto a ella está la Casa-Museo Gayer-Anderson.",
+   "i_en": "Climb the minaret for views over Islamic Cairo; the Gayer-Anderson House museum sits beside it."
+  },
+  "w_cai_sultan_hassan": {
+   "id": "w_cai_sultan_hassan",
+   "d": "Levantada entre 1356 y 1363, impresiona por su escala monumental: muros de más de 30 metros, un portal gigantesco y un patio cruciforme con cuatro iwanes dedicados a las escuelas jurídicas del islam. Frente a ella se alza la mezquita de Al-Rifa'i, formando uno de los conjuntos más majestuosos de la ciudad.",
+   "d_en": "Built between 1356 and 1363, it astonishes with its monumental scale: walls over 30 metres high, a giant portal and a cruciform courtyard with four iwans for Islam's legal schools. The Al-Rifa'i mosque rises opposite, forming one of the city's most majestic ensembles.",
+   "h": "Todos los días 8:00–17:00.",
+   "h_en": "Daily 8am–5pm.",
+   "i": "Una entrada combinada incluye la vecina mezquita de Al-Rifa'i, donde reposan reyes egipcios.",
+   "i_en": "A combined ticket includes the neighbouring Al-Rifa'i mosque, where Egyptian kings are buried."
+  },
+  "w_cai_bab_zuweila": {
+   "id": "w_cai_bab_zuweila",
+   "d": "Construida en el siglo XI, Bab Zuweila es la última gran puerta que queda en pie de las murallas fatimíes. Desde sus dos minaretes se domina el casco antiguo, declarado Patrimonio de la Humanidad. A sus pies arranca la calle Al-Muizz, auténtico museo al aire libre de arquitectura islámica con palacios, sabiles y bazares.",
+   "d_en": "Built in the 11th century, Bab Zuweila is the last surviving great gate of the Fatimid walls. From its twin minarets you overlook the old city, a UNESCO World Heritage Site. At its foot begins Al-Muizz Street, a true open-air museum of Islamic architecture lined with palaces, sabils and bazaars.",
+   "h": "Puerta y minaretes 9:00–17:00; las calles, siempre abiertas.",
+   "h_en": "Gate and minarets 9am–5pm; the streets are always open.",
+   "i": "Sube a los minaretes al atardecer; recorre luego Al-Muizz a pie hasta Khan el-Khalili.",
+   "i_en": "Climb the minarets at sunset, then walk Al-Muizz Street up to Khan el-Khalili."
+  },
+  "w_cai_saqqara": {
+   "id": "w_cai_saqqara",
+   "d": "A unos 30 km al sur de El Cairo, Saqqara fue el cementerio de la antigua Menfis durante más de 3.000 años. Su pirámide escalonada, diseñada por Imhotep hacia 2650 a.C., marca el nacimiento de la arquitectura monumental en piedra. El sitio guarda además mastabas con relieves pintados, tumbas recién descubiertas y el complejo de Zoser restaurado.",
+   "d_en": "About 30 km south of Cairo, Saqqara was the cemetery of ancient Memphis for over 3,000 years. Its step pyramid, designed by Imhotep around 2650 BC, marks the birth of monumental stone architecture. The site also holds mastabas with painted reliefs, newly discovered tombs and the restored Djoser complex.",
+   "h": "Todos los días 8:00–17:00.",
+   "h_en": "Daily 8am–5pm.",
+   "i": "Se combina fácilmente con Menfis y Dahshur en una excursión de medio día; contrata guía o taxi.",
+   "i_en": "Easily combined with Memphis and Dahshur on a half-day trip; hire a guide or taxi."
+  },
+  "w_cai_memphis": {
+   "id": "w_cai_memphis",
+   "d": "Fundada hacia 3100 a.C., Menfis fue durante milenios la capital del Reino Antiguo y uno de los mayores centros del mundo. Aunque hoy queda poco de la ciudad, su museo al aire libre exhibe una colosal estatua tumbada de Ramsés II de 10 metros de caliza, una esfinge de alabastro y numerosos fragmentos escultóricos.",
+   "d_en": "Founded around 3100 BC, Memphis was for millennia the capital of the Old Kingdom and one of the greatest cities in the world. Though little of the city survives, its open-air museum displays a colossal reclining statue of Ramesses II, 10 metres of limestone, an alabaster sphinx and many sculptural fragments.",
+   "h": "Todos los días 8:00–16:00.",
+   "h_en": "Daily 8am–4pm.",
+   "i": "Es una parada corta pero imprescindible en la ruta Saqqara–Dahshur; la visita dura menos de una hora.",
+   "i_en": "A short but essential stop on the Saqqara–Dahshur route; the visit takes under an hour."
+  },
+  "w_cai_dahshur": {
+   "id": "w_cai_dahshur",
+   "d": "En Dahshur, el faraón Seneferu construyó dos pirámides clave: la Acodada, cuyo ángulo cambia a media altura por miedo al colapso, y la Roja, la primera pirámide de caras lisas lograda con éxito y precursora de las de Guiza. Alejadas del turismo masivo, permiten entrar en su interior casi en soledad.",
+   "d_en": "At Dahshur, pharaoh Sneferu built two key pyramids: the Bent Pyramid, whose angle changes halfway up for fear of collapse, and the Red Pyramid, the first successful smooth-sided pyramid and forerunner of Giza's. Away from mass tourism, they can be entered almost in solitude.",
+   "h": "Todos los días 8:00–16:00.",
+   "h_en": "Daily 8am–4pm.",
+   "i": "Puedes entrar en la Pirámide Roja por su galería descendente; lleva linterna y evita si tienes claustrofobia.",
+   "i_en": "You can enter the Red Pyramid via its descending passage; bring a torch and skip it if claustrophobic."
+  },
+  "w_cai_nile": {
+   "id": "w_cai_nile",
+   "d": "El Nilo atraviesa El Cairo separando la orilla oriental de las islas de Gezira y Roda. Un paseo en falúa, el velero de madera de vela latina usado desde tiempos faraónicos, permite ver la ciudad desde el agua con una calma inusual. Al atardecer, el sol se pone entre los rascacielos y los minaretes reflejados en la corriente.",
+   "d_en": "The Nile cuts through Cairo, separating the eastern bank from the islands of Gezira and Roda. A ride on a felucca, the wooden lateen-sail boat used since pharaonic times, lets you see the city from the water in unusual calm. At dusk the sun sets between skyscrapers and minarets mirrored on the current.",
+   "h": "Todo el día; los mejores paseos son al atardecer.",
+   "h_en": "All day; the best sails are at sunset.",
+   "i": "Acuerda el precio y la duración antes de subir; una hora por barca (no por persona) es lo habitual.",
+   "i_en": "Agree price and duration before boarding; an hour per boat (not per person) is standard."
+  },
+  "w_cai_azhar_park": {
+   "id": "w_cai_azhar_park",
+   "d": "Inaugurado en 2005 tras rescatar una colina de escombros de siglos, este parque de 30 hectáreas es el gran pulmón verde de El Cairo. Sus jardines de estilo islámico, canales de agua, palmerales y colinas ofrecen un respiro del bullicio y un mirador excepcional sobre la Ciudadela, las cúpulas y los minaretes del casco antiguo.",
+   "d_en": "Opened in 2005 after reclaiming a hill of centuries-old rubble, this 30-hectare park is Cairo's great green lung. Its Islamic-style gardens, water channels, palm groves and hills offer a break from the bustle and an exceptional viewpoint over the Citadel, domes and minarets of the old city.",
+   "h": "Todos los días 9:00–22:00.",
+   "h_en": "Daily 9am–10pm.",
+   "i": "Entrada de pago simbólica; ve al final de la tarde para ver el atardecer sobre la ciudad histórica.",
+   "i_en": "Small entry fee; go in late afternoon to catch sunset over the historic city."
+  },
+  "w_cai_wadi_degla": {
+   "id": "w_cai_wadi_degla",
+   "d": "Este valle seco de piedra caliza, esculpido por antiguos ríos, forma un cañón de unos 30 km lleno de fósiles marinos que revelan que la zona estuvo bajo el mar. Es refugio de zorros, gacelas y aves rapaces, y el destino favorito de los cairotas para caminar, correr o pedalear al aire libre lejos del tráfico.",
+   "d_en": "This dry limestone valley, carved by ancient rivers, forms a canyon some 30 km long full of marine fossils showing the area was once under the sea. It shelters foxes, gazelles and birds of prey, and is Cairenes' favourite spot to walk, run or cycle outdoors away from traffic.",
+   "h": "Todos los días de sol a sol.",
+   "h_en": "Daily from dawn to dusk.",
+   "i": "Lleva mucha agua y protección solar; hay poca sombra. Se accede en coche desde el barrio de Maadi.",
+   "i_en": "Bring plenty of water and sun protection; there is little shade. Access by car from Maadi district."
+  },
+  "w_cai_orman_garden": {
+   "id": "w_cai_orman_garden",
+   "d": "Creado en 1875 como parte de los jardines del jedive Ismail, El-Orman reúne especies de todo el mundo: baobabs, palmeras reales, un estanque de lotos y un rocalla con cactus. Cada primavera acoge la mayor exposición floral de Egipto. Es un remanso de tranquilidad frente al zoo y muy cerca del centro de Guiza.",
+   "d_en": "Created in 1875 as part of Khedive Ismail's gardens, El-Orman gathers species from around the world: baobabs, royal palms, a lotus pond and a cactus rockery. Each spring it hosts Egypt's largest flower show. It is a haven of calm across from the zoo and close to central Giza.",
+   "h": "Todos los días 8:30–16:00.",
+   "h_en": "Daily 8:30am–4pm.",
+   "i": "Entrada muy económica; se combina bien con el zoo de Guiza, justo enfrente.",
+   "i_en": "Very cheap entry; combine it with Giza Zoo, right across the street."
+  },
+  "w_cai_giza_zoo": {
+   "id": "w_cai_giza_zoo",
+   "d": "Abierto en 1891 sobre antiguos jardines reales, el zoo de Guiza se extiende por 32 hectáreas de vegetación frondosa, lagos y puentes de estilo art nouveau diseñados originalmente por la firma de Eiffel. Alberga cientos de especies y es un lugar muy querido por las familias cairotas para pasear un día festivo.",
+   "d_en": "Opened in 1891 on former royal gardens, Giza Zoo spreads over 32 hectares of lush greenery, lakes and art-nouveau bridges originally designed by Eiffel's firm. It houses hundreds of species and is a much-loved spot for Cairene families to stroll on a holiday.",
+   "h": "Todos los días 9:00–17:00.",
+   "h_en": "Daily 9am–5pm.",
+   "i": "Entrada muy barata; los fines de semana se llena. Reabrió tras una gran renovación reciente.",
+   "i_en": "Very cheap entry; it gets busy at weekends. It reopened after a major recent renovation."
+  },
+  "w_cai_khan_khalili": {
+   "id": "w_cai_khan_khalili",
+   "d": "Fundado en el siglo XIV, Khan el-Khalili es uno de los mercados más antiguos y famosos de Oriente Medio. Sus callejones cubiertos rebosan de talleres de cobre, joyerías, tiendas de perfumes, telas y souvenirs. Entre el bullicio se esconden cafés históricos como El Fishawi, abierto sin cerrar desde hace más de dos siglos.",
+   "d_en": "Founded in the 14th century, Khan el-Khalili is one of the oldest and most famous markets in the Middle East. Its covered alleys brim with copper workshops, jewellers, perfume shops, fabrics and souvenirs. Amid the bustle hide historic cafés such as El Fishawi, open non-stop for over two centuries.",
+   "h": "Tiendas de 9:00 a 22:00; muchos cafés abren hasta tarde.",
+   "h_en": "Shops 9am–10pm; many cafés stay open late.",
+   "i": "Regatea con calma y buen humor; ve al atardecer, cuando se enciende y cobra más ambiente.",
+   "i_en": "Haggle calmly and with good humour; go at dusk when it lights up and comes alive."
+  },
+  "w_cai_cairo_tower": {
+   "id": "w_cai_cairo_tower",
+   "d": "Inaugurada en 1961, la Torre de El Cairo fue durante décadas la estructura más alta de África. Su fuste de hormigón, revestido con una celosía que imita el tallo del papiro, culmina en una plataforma de observación y un restaurante giratorio. Desde arriba se abarca toda la ciudad, el Nilo y, en días claros, las pirámides de Guiza.",
+   "d_en": "Opened in 1961, the Cairo Tower was for decades the tallest structure in Africa. Its concrete shaft, clad in a lattice evoking a papyrus stalk, is topped by an observation deck and a revolving restaurant. From the top you take in the whole city, the Nile and, on clear days, the Giza pyramids.",
+   "h": "Todos los días 9:00–24:00.",
+   "h_en": "Daily 9am–midnight.",
+   "i": "Sube al atardecer para ver el día y la noche; el restaurante giratorio permite cenar con vistas.",
+   "i_en": "Go at sunset to catch day and night; the revolving restaurant lets you dine with a view."
+  },
+  "w_cai_nile_cruise": {
+   "id": "w_cai_nile_cruise",
+   "d": "Los grandes barcos-restaurante zarpan al anochecer desde la orilla de Garden City y Giza para ofrecer un bufé de cocina egipcia e internacional mientras navegan. El plato fuerte es el espectáculo en vivo: danza del vientre, música tradicional y el hipnótico giro de un derviche tanoura de faldas de colores.",
+   "d_en": "Large floating restaurants set off at dusk from Garden City and Giza to serve a buffet of Egyptian and international food as they cruise. The highlight is the live show: belly dancing, traditional music and the hypnotic spin of a colourfully skirted tanoura dervish.",
+   "h": "Salidas al atardecer y por la noche, unas 2 horas.",
+   "h_en": "Sunset and evening departures, around 2 hours.",
+   "i": "Reserva con antelación e incluye la cena; muchos hoteles gestionan el traslado al embarcadero.",
+   "i_en": "Book ahead and it includes dinner; many hotels arrange transfers to the dock."
+  },
+  "w_cai_sound_light": {
+   "id": "w_cai_sound_light",
+   "d": "Al caer la noche, la meseta de Guiza se transforma en un escenario: focos de colores y proyecciones bañan las tres pirámides y la Esfinge mientras una voz relata cinco milenios de historia faraónica. Se disfruta desde una tribuna frente a la Esfinge y hay sesiones en varios idiomas, incluido el español.",
+   "d_en": "As night falls, the Giza plateau turns into a stage: coloured lights and projections wash over the three pyramids and the Sphinx while a voice recounts five millennia of pharaonic history. It is watched from a grandstand facing the Sphinx, with sessions in several languages, including Spanish.",
+   "h": "Sesiones cada noche; horarios e idiomas varían por temporada.",
+   "h_en": "Sessions every night; times and languages vary by season.",
+   "i": "Consulta el idioma de cada pase antes de comprar; lleva algo de abrigo, refresca de noche.",
+   "i_en": "Check the language of each show before buying; bring a layer, it cools down at night."
+  },
+  "w_cai_opera": {
+   "id": "w_cai_opera",
+   "d": "Inaugurada en 1988 con ayuda japonesa, la Ópera de El Cairo sustituyó al histórico teatro decimonónico destruido por un incendio. Su moderno complejo de estilo islámico acoge ópera, ballet, conciertos sinfónicos y música árabe, además de museos de arte. Es el corazón de la vida cultural de la capital.",
+   "d_en": "Opened in 1988 with Japanese support, the Cairo Opera House replaced the historic 19th-century theatre lost to fire. Its modern Islamic-style complex hosts opera, ballet, symphony concerts and Arabic music, plus art museums. It is the heart of the capital's cultural life.",
+   "h": "Según programación; taquilla por la tarde-noche.",
+   "h_en": "According to the programme; box office in the afternoon-evening.",
+   "i": "Consulta la cartelera con antelación; en los conciertos formales se pide vestimenta elegante.",
+   "i_en": "Check the schedule ahead; formal concerts request smart dress."
+  },
+  "w_cai_city_stars": {
+   "id": "w_cai_city_stars",
+   "d": "Con más de 600 tiendas repartidas en varios niveles, City Stars combina moda internacional, marcas egipcias, patios de comidas, cines y un parque temático infantil. Climatizado y abierto hasta tarde, es el refugio favorito de los cairotas para escapar del calor y una muestra del Egipto moderno y cosmopolita.",
+   "d_en": "With over 600 shops across several levels, City Stars combines international fashion, Egyptian brands, food courts, cinemas and an indoor theme park. Air-conditioned and open late, it is Cairenes' favourite refuge from the heat and a glimpse of modern, cosmopolitan Egypt.",
+   "h": "Todos los días 10:00–24:00.",
+   "h_en": "Daily 10am–midnight.",
+   "i": "Ideal para las horas de más calor; está lejos del centro histórico, ve en taxi o Uber.",
+   "i_en": "Great for the hottest hours; it is far from the historic centre, go by taxi or Uber."
+  },
+  "w_cai_koshary_abou_tarek": {
+   "id": "w_cai_koshary_abou_tarek",
+   "d": "Este emblemático local de varias plantas está considerado el mejor sitio de la ciudad para probar el koshari: una mezcla contundente de arroz, lentejas, macarrones y garbanzos coronada con cebolla frita crujiente, salsa de tomate especiada y vinagre de ajo. Barato, vegetariano y absolutamente adictivo.",
+   "d_en": "This landmark multi-storey spot is considered the best place in town for koshari: a hearty mix of rice, lentils, macaroni and chickpeas topped with crispy fried onion, spiced tomato sauce and garlic vinegar. Cheap, vegetarian and utterly addictive.",
+   "h": "Todos los días 8:00–24:00.",
+   "h_en": "Daily 8am–midnight.",
+   "i": "Pídelo con salsa picante (shatta) y extra de ajo; hay reparto y comida para llevar.",
+   "i_en": "Order it with hot sauce (shatta) and extra garlic; takeaway and delivery available."
+  },
+  "w_cai_felfela": {
+   "id": "w_cai_felfela",
+   "d": "Abierto en 1959, Felfela es toda una institución para descubrir los platos populares de Egipto: taameya (el falafel local de habas), foul, molokhia, palomas rellenas y una gran variedad de mezze. Su decoración con farolillos, plantas y peceras crea un ambiente kitsch muy querido por locales y viajeros.",
+   "d_en": "Opened in 1959, Felfela is an institution for discovering Egypt's popular dishes: taameya (the local fava-bean falafel), foul, molokhia, stuffed pigeon and a wide range of mezze. Its decor of lanterns, plants and fish tanks creates a kitsch atmosphere loved by locals and travellers alike.",
+   "h": "Todos los días 9:00–24:00.",
+   "h_en": "Daily 9am–midnight.",
+   "i": "Buen sitio para iniciarse en la cocina egipcia con menús variados; tiene opciones vegetarianas.",
+   "i_en": "A good place to try Egyptian food with varied set menus; vegetarian options available."
+  },
+  "w_cai_naguib_mahfouz": {
+   "id": "w_cai_naguib_mahfouz",
+   "d": "En un rincón restaurado del bazar, este local con celosías, cojines y azulejos rinde homenaje al escritor Naguib Mahfouz, que ambientó muchas novelas en estas calles. Ofrece un remanso climatizado para tomar té de menta, café árabe, dulces o una comida egipcia completa lejos del ajetreo del mercado.",
+   "d_en": "In a restored corner of the bazaar, this venue of mashrabiya screens, cushions and tiles honours writer Naguib Mahfouz, who set many novels in these streets. It offers an air-conditioned haven for mint tea, Arabic coffee, sweets or a full Egyptian meal away from the market's hustle.",
+   "h": "Todos los días 10:00–24:00.",
+   "h_en": "Daily 10am–midnight.",
+   "i": "Perfecto para descansar y tomar té con narguile durante la visita al bazar.",
+   "i_en": "Perfect for a break with tea and shisha during your bazaar visit."
+  },
+  "w_cai_el_fishawi": {
+   "id": "w_cai_el_fishawi",
+   "d": "Rincón mítico de espejos dorados, bancos de madera y ambiente bullicioso, El Fishawi lleva más de dos siglos sirviendo té con menta, café y narguile a mercaderes, poetas y viajeros. Fue lugar de tertulia del propio Naguib Mahfouz. Sentarse aquí es sumergirse en el alma del Cairo antiguo.",
+   "d_en": "A legendary corner of gilded mirrors, wooden benches and lively buzz, El Fishawi has served mint tea, coffee and shisha to merchants, poets and travellers for over two centuries. It was a haunt of Naguib Mahfouz himself. To sit here is to soak up the soul of old Cairo.",
+   "h": "Abierto las 24 horas.",
+   "h_en": "Open 24 hours.",
+   "i": "Prueba el té con menta y el karkadé; los vendedores ambulantes rondan las mesas, ignóralos con amabilidad.",
+   "i_en": "Try the mint tea and karkadé; hawkers work the tables, wave them off politely."
+  },
+  "w_cai_abou_el_sid": {
+   "id": "w_cai_abou_el_sid",
+   "d": "En el elegante barrio de Zamalek, Abou El Sid recrea el ambiente de un salón egipcio de mediados del siglo XX, con lámparas de bronce, alfombras y penumbra cálida. Su carta eleva los clásicos: molokhia, hojas de parra, cordero con freek, palomas rellenas y postres como la om ali. Uno de los favoritos para una cena especial.",
+   "d_en": "In the elegant Zamalek district, Abou El Sid recreates a mid-20th-century Egyptian parlour, with bronze lamps, rugs and warm gloom. Its menu elevates the classics: molokhia, vine leaves, lamb with freekeh, stuffed pigeon and desserts like om ali. A favourite for a special dinner.",
+   "h": "Todos los días 13:00–01:00.",
+   "h_en": "Daily 1pm–1am.",
+   "i": "Muy popular por la noche, conviene reservar; sirve cerveza y vino local, algo poco habitual.",
+   "i_en": "Very popular at night, booking advised; it serves local beer and wine, which is uncommon."
+  },
+  "w_cai_zooba": {
+   "id": "w_cai_zooba",
+   "d": "Zooba ha convertido la comida de la calle egipcia en una experiencia contemporánea sin perder autenticidad. Sirve taameya crujiente, hawawshi (pan relleno de carne especiada), koshari y bocadillos de foul en un local vibrante de azulejos pop y grafitis. Ideal para probar sabores locales en un formato fresco y de calidad.",
+   "d_en": "Zooba has turned Egyptian street food into a contemporary experience without losing authenticity. It serves crisp taameya, hawawshi (bread stuffed with spiced meat), koshari and foul sandwiches in a vibrant space of pop tiles and graffiti. Great for tasting local flavours in a fresh, high-quality format.",
+   "h": "Todos los días 9:00–01:00.",
+   "h_en": "Daily 9am–1am.",
+   "i": "Tiene varias sucursales y reparto; buena opción rápida, informal y apta para vegetarianos.",
+   "i_en": "It has several branches and delivery; a good quick, casual and vegetarian-friendly option."
+  }
+ },
+ "food": {
+  "w_cai_koshary_abou_tarek": {
+   "cuisine": "Egipcia (koshari)",
+   "price": "2–5 €",
+   "hours": "Todos los días 8:00–24:00"
+  },
+  "w_cai_felfela": {
+   "cuisine": "Egipcia tradicional",
+   "price": "6–15 €",
+   "hours": "Todos los días 9:00–24:00"
+  },
+  "w_cai_naguib_mahfouz": {
+   "cuisine": "Egipcia y café",
+   "price": "8–20 €",
+   "hours": "Todos los días 10:00–24:00"
+  },
+  "w_cai_el_fishawi": {
+   "cuisine": "Café y té",
+   "price": "2–6 €",
+   "hours": "Abierto 24 horas"
+  },
+  "w_cai_abou_el_sid": {
+   "cuisine": "Egipcia contemporánea",
+   "price": "15–30 €",
+   "hours": "Todos los días 13:00–01:00"
+  },
+  "w_cai_zooba": {
+   "cuisine": "Callejera egipcia moderna",
+   "price": "5–12 €",
+   "hours": "Todos los días 9:00–01:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "El Cairo",
+   "items": [
+    {
+     "name": "Papiro pintado",
+     "price": "5–40 €",
+     "desc": "Láminas de papiro auténtico con escenas faraónicas; exige el sello de garantía frente a las imitaciones de hoja de banana."
+    },
+    {
+     "name": "Especias y hibisco",
+     "price": "3–15 €",
+     "desc": "Comino, cúrcuma, karkadé (flor de hibisco) y mezclas locales vendidas a granel en los bazares."
+    },
+    {
+     "name": "Esencias y perfumes",
+     "price": "8–30 €",
+     "desc": "Aceites perfumados sin alcohol en frascos de cristal soplado; el jazmín y el loto son los más típicos."
+    },
+    {
+     "name": "Piezas de alabastro",
+     "price": "6–50 €",
+     "desc": "Cuencos, bustos y esfinges tallados en alabastro egipcio, herencia artesanal de Luxor y El Cairo."
+    },
+    {
+     "name": "Cartucho de plata u oro",
+     "price": "20–150 €",
+     "desc": "Colgante grabado con tu nombre en jeroglíficos, realizado a mano por joyeros del Khan el-Khalili."
+    },
+    {
+     "name": "Algodón egipcio",
+     "price": "10–60 €",
+     "desc": "Pañuelos, camisas y ropa de cama de algodón de fibra larga, uno de los mejores del mundo."
+    }
+   ],
+   "shops": [
+    "Khan el-Khalili (bazar histórico)",
+    "Calle Al-Muizz (talleres artesanos)",
+    "Souk de Wikala al-Ghouri",
+    "Tienda del Gran Museo Egipcio",
+    "City Stars Mall (Nasr City)"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Regatea siempre en el Khan el-Khalili: empieza ofreciendo un tercio del precio inicial y hazlo con humor.",
+   "Visita las pirámides y Saqqara a primera hora (8:00) para evitar el calor y las multitudes; lleva agua y gorra.",
+   "Lleva efectivo en libras egipcias y billetes pequeños para propinas (baksheesh), taxis y entradas.",
+   "Cubre hombros y rodillas al entrar en mezquitas; las mujeres deben llevar pañuelo y todos se descalzan.",
+   "Usa Uber o Careem en lugar de taxis a la calle para evitar negociar precios y rodeos innecesarios."
+  ],
+  "en": [
+   "Always haggle in Khan el-Khalili: start at about a third of the first price and keep it friendly.",
+   "Visit the pyramids and Saqqara early (8am) to beat the heat and crowds; bring water and a hat.",
+   "Carry cash in Egyptian pounds and small notes for tips (baksheesh), taxis and entry fees.",
+   "Cover shoulders and knees inside mosques; women should bring a headscarf and everyone removes shoes.",
+   "Use Uber or Careem instead of street taxis to skip price haggling and unnecessary detours."
+  ]
+ },
+ "climate": {
+  "hi": [
+   19,
+   21,
+   24,
+   29,
+   33,
+   35,
+   36,
+   35,
+   33,
+   30,
+   25,
+   20
+  ],
+  "lo": [
+   9,
+   10,
+   12,
+   15,
+   19,
+   21,
+   22,
+   22,
+   20,
+   18,
+   14,
+   10
+  ]
+ },
+ "tr": {
+  "Las tres grandes pirámides de Keops, Kefrén y Micerinos, única maravilla del mundo antiguo que sigue en pie.": "The three great pyramids of Khufu, Khafre and Menkaure, the only surviving wonder of the ancient world.",
+  "Colosal estatua con cuerpo de león y rostro humano que custodia la meseta de Guiza desde hace 4.500 años.": "Colossal lion-bodied, human-faced statue guarding the Giza plateau for 4,500 years.",
+  "El mayor museo arqueológico del mundo dedicado a una sola civilización, junto a las pirámides de Guiza.": "The world's largest archaeological museum devoted to a single civilisation, next to the Giza pyramids.",
+  "El histórico museo rojo de la plaza Tahrir, con una de las colecciones faraónicas más ricas del mundo.": "The historic red museum on Tahrir Square, home to one of the world's richest pharaonic collections.",
+  "Fortaleza medieval sobre la colina de Muqattam que dominó El Cairo durante 700 años.": "Medieval hilltop fortress on Muqattam that ruled Cairo for 700 years.",
+  "Espectacular mezquita otomana de cúpulas plateadas dentro de la Ciudadela, símbolo del skyline cairota.": "Striking Ottoman mosque with silver domes inside the Citadel, an icon of Cairo's skyline.",
+  "La iglesia copta más famosa de El Cairo, suspendida sobre una puerta de la antigua fortaleza romana.": "Cairo's most famous Coptic church, suspended over a gate of the old Roman fortress.",
+  "La mayor colección de arte cristiano copto del mundo, en el corazón del Viejo Cairo.": "The world's largest collection of Coptic Christian art, in the heart of Old Cairo.",
+  "Una de las mezquitas más antiguas del mundo y sede de la universidad islámica más venerable.": "One of the world's oldest mosques and seat of the most venerable Islamic university.",
+  "La mezquita más antigua de El Cairo que conserva su forma original, célebre por su minarete de escalera exterior.": "Cairo's oldest mosque surviving in its original form, famed for its outer-staircase minaret.",
+  "Colosal mezquita-madraza mameluca del siglo XIV, cumbre de la arquitectura islámica de El Cairo.": "Colossal 14th-century Mamluk mosque-madrasa, a pinnacle of Cairo's Islamic architecture.",
+  "Puerta medieval fatimí y umbral del laberinto de calles, mercados y mezquitas del Cairo islámico.": "Medieval Fatimid gate and gateway to the maze of streets, markets and mosques of Islamic Cairo.",
+  "Vasta necrópolis con la pirámide escalonada de Zoser, la primera gran obra en piedra de la humanidad.": "Vast necropolis with the Step Pyramid of Djoser, humankind's first great stone monument.",
+  "Antigua capital del Egipto faraónico, hoy museo al aire libre con el coloso tumbado de Ramsés II.": "Ancient capital of pharaonic Egypt, now an open-air museum with the reclining colossus of Ramesses II.",
+  "Necrópolis tranquila con la Pirámide Acodada y la Roja, ensayos que llevaron a la pirámide perfecta.": "Quiet necropolis with the Bent and Red Pyramids, the trials that led to the true pyramid.",
+  "El gran río que dio vida a Egipto, ideal para navegar en falúa tradicional al atardecer.": "The great river that gave life to Egypt, perfect for a traditional felucca sail at sunset.",
+  "Oasis verde ajardinado sobre una antigua escombrera, con las mejores vistas del Cairo histórico.": "Green landscaped oasis over a former rubble dump, with the best views of historic Cairo.",
+  "Cañón desértico protegido a las afueras de El Cairo, popular para senderismo y ciclismo.": "Protected desert canyon on Cairo's edge, popular for hiking and cycling.",
+  "Histórico jardín botánico de Guiza con árboles centenarios y una célebre exposición de flores en primavera.": "Historic Giza botanical garden with century-old trees and a famous spring flower show.",
+  "Uno de los zoológicos más antiguos y grandes de África, con jardines históricos junto al Nilo.": "One of Africa's oldest and largest zoos, with historic gardens beside the Nile.",
+  "El gran bazar medieval de El Cairo, laberinto de callejones con artesanía, especias y cafés centenarios.": "Cairo's great medieval bazaar, a maze of alleys with crafts, spices and century-old cafés.",
+  "Torre-mirador de 187 metros en la isla de Gezira, con vistas de 360º sobre la ciudad y el Nilo.": "187-metre observation tower on Gezira Island, with 360° views over the city and the Nile.",
+  "Cena a bordo navegando por el Nilo, con música, danza del vientre y espectáculo de derviches.": "Dinner cruise along the Nile, with music, belly dancing and a whirling-dervish show.",
+  "Show nocturno que ilumina las pirámides y la Esfinge mientras narra la historia del antiguo Egipto.": "Nightly show lighting up the pyramids and Sphinx while narrating ancient Egypt's story.",
+  "El principal centro de artes escénicas de Egipto, en un complejo cultural de la isla de Gezira.": "Egypt's leading performing-arts centre, in a cultural complex on Gezira Island.",
+  "Uno de los mayores centros comerciales de Oriente Medio, con tiendas, cines y ocio en Nasr City.": "One of the Middle East's largest malls, with shops, cinemas and entertainment in Nasr City.",
+  "El templo del koshari en El Cairo, sirviendo el plato nacional egipcio desde hace décadas.": "Cairo's temple of koshari, serving the Egyptian national dish for decades.",
+  "Clásico restaurante del centro para probar la cocina egipcia tradicional en un ambiente pintoresco.": "Classic downtown restaurant for traditional Egyptian cuisine in a quirky setting.",
+  "Elegante café-restaurante en pleno Khan el-Khalili, dedicado al Nobel de literatura egipcio.": "Elegant café-restaurant in the heart of Khan el-Khalili, named after Egypt's Nobel laureate.",
+  "El café más antiguo de El Cairo, abierto sin cerrar desde 1797 en un callejón del Khan el-Khalili.": "Cairo's oldest café, open non-stop since 1797 in a Khan el-Khalili alley.",
+  "Restaurante de cocina egipcia refinada en Zamalek, con decoración de estilo oriental clásico.": "Refined Egyptian restaurant in Zamalek, with classic oriental-style decor.",
+  "Comida callejera egipcia reinventada en clave moderna, colorida y de ambiente joven en Zamalek.": "Egyptian street food reinvented in a modern, colourful, youthful key in Zamalek.",
+  "El Cairo": "El Cairo"
+ }
+}

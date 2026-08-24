@@ -1,0 +1,760 @@
+{
+ "id": "dubai",
+ "name": "Dubái",
+ "country": "WORLD",
+ "center": [
+  25.1972,
+  55.2744
+ ],
+ "pois": [
+  {
+   "id": "w_dxb_burj_khalifa",
+   "cat": "monuments",
+   "name": "Burj Khalifa",
+   "icon": "🏙️",
+   "lat": 25.19722,
+   "lng": 55.27444,
+   "desc": "El edificio más alto del mundo (828 m), icono absoluto de Dubái."
+  },
+  {
+   "id": "w_dxb_burj_al_arab",
+   "cat": "monuments",
+   "name": "Burj Al Arab",
+   "icon": "⛵",
+   "lat": 25.14125,
+   "lng": 55.18528,
+   "desc": "Hotel-vela de lujo sobre una isla artificial, símbolo de Dubái."
+  },
+  {
+   "id": "w_dxb_dubai_frame",
+   "cat": "monuments",
+   "name": "Dubai Frame",
+   "icon": "🖼️",
+   "lat": 25.23528,
+   "lng": 55.30028,
+   "desc": "Marco dorado gigante de 150 m con pasarela de cristal."
+  },
+  {
+   "id": "w_dxb_museum_future",
+   "cat": "monuments",
+   "name": "Museo del Futuro",
+   "icon": "🛸",
+   "lat": 25.21912,
+   "lng": 55.2821,
+   "desc": "Edificio toroidal con caligrafía árabe dedicado a la innovación."
+  },
+  {
+   "id": "w_dxb_jumeirah_mosque",
+   "cat": "monuments",
+   "name": "Mezquita de Jumeirah",
+   "icon": "🕌",
+   "lat": 25.23306,
+   "lng": 55.26556,
+   "desc": "Mezquita de piedra blanca abierta a visitantes no musulmanes."
+  },
+  {
+   "id": "w_dxb_al_fahidi",
+   "cat": "monuments",
+   "name": "Barrio histórico de Al Fahidi",
+   "icon": "🏛️",
+   "lat": 25.26417,
+   "lng": 55.30028,
+   "desc": "Barrio antiguo de casas de coral con torres de viento (Bastakiya)."
+  },
+  {
+   "id": "w_dxb_gold_souk",
+   "cat": "monuments",
+   "name": "Zoco del Oro",
+   "icon": "💰",
+   "lat": 25.26722,
+   "lng": 55.29694,
+   "desc": "Mercado tradicional de Deira con cientos de joyerías de oro."
+  },
+  {
+   "id": "w_dxb_spice_souk",
+   "cat": "monuments",
+   "name": "Zoco de las Especias",
+   "icon": "🌶️",
+   "lat": 25.26583,
+   "lng": 55.29722,
+   "desc": "Mercado aromático de Deira con especias, hierbas e incienso."
+  },
+  {
+   "id": "w_dxb_etihad_museum",
+   "cat": "monuments",
+   "name": "Etihad Museum",
+   "icon": "📜",
+   "lat": 25.2375,
+   "lng": 55.27389,
+   "desc": "Museo sobre la fundación de los EAU en 1971."
+  },
+  {
+   "id": "w_dxb_dubai_opera",
+   "cat": "monuments",
+   "name": "Dubai Opera",
+   "icon": "🎭",
+   "lat": 25.19561,
+   "lng": 55.27189,
+   "desc": "Auditorio con forma de dhow al pie del Burj Khalifa."
+  },
+  {
+   "id": "w_dxb_shindagha",
+   "cat": "monuments",
+   "name": "Barrio histórico de Al Shindagha",
+   "icon": "🏘️",
+   "lat": 25.268,
+   "lng": 55.29,
+   "desc": "Museo al aire libre en la desembocadura del Creek."
+  },
+  {
+   "id": "w_dxb_palm_jumeirah",
+   "cat": "nature",
+   "name": "Palm Jumeirah",
+   "icon": "🌴",
+   "lat": 25.11224,
+   "lng": 55.13877,
+   "desc": "Isla artificial en forma de palmera con playas y resorts."
+  },
+  {
+   "id": "w_dxb_miracle_garden",
+   "cat": "nature",
+   "name": "Dubai Miracle Garden",
+   "icon": "🌸",
+   "lat": 25.06083,
+   "lng": 55.24361,
+   "desc": "El mayor jardín de flores del mundo, con esculturas florales."
+  },
+  {
+   "id": "w_dxb_desert_safari",
+   "cat": "nature",
+   "name": "Desierto y safari (Reserva de Conservación)",
+   "icon": "🐪",
+   "lat": 24.8338,
+   "lng": 55.6615,
+   "desc": "Dunas rojas para safari 4x4, camellos y campamentos beduinos."
+  },
+  {
+   "id": "w_dxb_jbr_beach",
+   "cat": "nature",
+   "name": "The Beach at JBR",
+   "icon": "🏖️",
+   "lat": 25.07889,
+   "lng": 55.13361,
+   "desc": "Playa urbana con paseo, tiendas y restaurantes frente al mar."
+  },
+  {
+   "id": "w_dxb_jumeirah_beach",
+   "cat": "nature",
+   "name": "Playa pública de Jumeirah",
+   "icon": "🌊",
+   "lat": 25.20389,
+   "lng": 55.24278,
+   "desc": "Amplia playa pública gratuita con vistas al Burj Al Arab."
+  },
+  {
+   "id": "w_dxb_la_mer",
+   "cat": "nature",
+   "name": "La Mer",
+   "icon": "🎨",
+   "lat": 25.22778,
+   "lng": 55.25417,
+   "desc": "Paseo de playa de moda con murales, tiendas y food trucks."
+  },
+  {
+   "id": "w_dxb_dubai_creek",
+   "cat": "nature",
+   "name": "Dubai Creek y abras",
+   "icon": "🛶",
+   "lat": 25.26472,
+   "lng": 55.29806,
+   "desc": "Brazo de mar histórico que se cruza en abras (barcas de madera)."
+  },
+  {
+   "id": "w_dxb_ras_al_khor",
+   "cat": "nature",
+   "name": "Reserva de Ras Al Khor",
+   "icon": "🦩",
+   "lat": 25.18694,
+   "lng": 55.3275,
+   "desc": "Humedal urbano con flamencos y aves junto al Creek."
+  },
+  {
+   "id": "w_dxb_kite_beach",
+   "cat": "nature",
+   "name": "Kite Beach",
+   "icon": "🪁",
+   "lat": 25.18583,
+   "lng": 55.22083,
+   "desc": "Playa deportiva y activa con vistas al Burj Al Arab."
+  },
+  {
+   "id": "w_dxb_water_canal",
+   "cat": "nature",
+   "name": "Dubai Water Canal",
+   "icon": "🌉",
+   "lat": 25.18889,
+   "lng": 55.25611,
+   "desc": "Canal artificial con paseo, puentes y cascada."
+  },
+  {
+   "id": "w_dxb_dubai_mall",
+   "cat": "ocio",
+   "name": "The Dubai Mall",
+   "icon": "🛍️",
+   "lat": 25.19715,
+   "lng": 55.27963,
+   "desc": "Uno de los mayores centros comerciales del mundo."
+  },
+  {
+   "id": "w_dxb_dubai_fountain",
+   "cat": "ocio",
+   "name": "Fuente de Dubái",
+   "icon": "⛲",
+   "lat": 25.19533,
+   "lng": 55.27526,
+   "desc": "Espectáculo de agua, luz y música al pie del Burj Khalifa."
+  },
+  {
+   "id": "w_dxb_atlantis_aquaventure",
+   "cat": "ocio",
+   "name": "Atlantis Aquaventure",
+   "icon": "🐬",
+   "lat": 25.13056,
+   "lng": 55.1175,
+   "desc": "Gran parque acuático en el resort Atlantis The Palm."
+  },
+  {
+   "id": "w_dxb_ain_dubai",
+   "cat": "ocio",
+   "name": "Ain Dubai",
+   "icon": "🎡",
+   "lat": 25.08011,
+   "lng": 55.12406,
+   "desc": "La noria de observación más alta del mundo (250 m)."
+  },
+  {
+   "id": "w_dxb_global_village",
+   "cat": "ocio",
+   "name": "Global Village",
+   "icon": "🎪",
+   "lat": 25.06861,
+   "lng": 55.30722,
+   "desc": "Parque temático cultural con pabellones de países del mundo."
+  },
+  {
+   "id": "w_dxb_dubai_marina",
+   "cat": "ocio",
+   "name": "Dubai Marina",
+   "icon": "🛥️",
+   "lat": 25.07694,
+   "lng": 55.13389,
+   "desc": "Barrio de rascacielos junto a un puerto deportivo y paseo."
+  },
+  {
+   "id": "w_dxb_ski_dubai",
+   "cat": "ocio",
+   "name": "Ski Dubai",
+   "icon": "⛷️",
+   "lat": 25.11833,
+   "lng": 55.20028,
+   "desc": "Estación de esquí cubierta con nieve real y pingüinos."
+  },
+  {
+   "id": "w_dxb_ravi",
+   "cat": "food",
+   "name": "Ravi Restaurant",
+   "icon": "🍛",
+   "lat": 25.23056,
+   "lng": 55.27556,
+   "desc": "Institución pakistaní barata y legendaria en Satwa."
+  },
+  {
+   "id": "w_dxb_al_ustad",
+   "cat": "food",
+   "name": "Al Ustad Special Kabab",
+   "icon": "🍢",
+   "lat": 25.25583,
+   "lng": 55.295,
+   "desc": "Restaurante iraní histórico de kebabs en Bur Dubái."
+  },
+  {
+   "id": "w_dxb_arabian_tea_house",
+   "cat": "food",
+   "name": "Arabian Tea House",
+   "icon": "🫖",
+   "lat": 25.26333,
+   "lng": 55.29889,
+   "desc": "Café emiratí de patio con encanto en Al Fahidi."
+  },
+  {
+   "id": "w_dxb_bu_qtair",
+   "cat": "food",
+   "name": "Bu Qtair",
+   "icon": "🐟",
+   "lat": 25.14472,
+   "lng": 55.19556,
+   "desc": "Puesto de pescado fresco frito junto a la playa de Umm Suqeim."
+  },
+  {
+   "id": "w_dxb_timeout_market",
+   "cat": "food",
+   "name": "Time Out Market Dubai",
+   "icon": "🍽️",
+   "lat": 25.19389,
+   "lng": 55.27472,
+   "desc": "Mercado gastronómico con vistas al Burj Khalifa."
+  }
+ ],
+ "extra": {
+  "w_dxb_burj_khalifa": {
+   "id": "w_dxb_burj_khalifa",
+   "d": "Rascacielos de 163 plantas diseñado por SOM e inaugurado en 2010. Sus miradores 'At the Top' (pisos 124-125) y 'At the Top SKY' (148) ofrecen vistas de 360° sobre el golfo, el desierto y la ciudad. Domina el barrio de Downtown junto al Dubai Mall.",
+   "d_en": "163-storey skyscraper designed by SOM and opened in 2010. Its 'At the Top' observation decks (floors 124-125) and 'At the Top SKY' (148) give 360° views over the Gulf, the desert and the city. It towers over Downtown next to the Dubai Mall.",
+   "h": "Reserva la entrada online con antelación y elige el atardecer para ver día y noche; la planta 148 incluye acceso prioritario.",
+   "h_en": "Book tickets online in advance and pick a sunset slot to see both day and night; floor 148 includes fast-track access.",
+   "i": "Ideal si te gusta la arquitectura de récord, las vistas panorámicas y la fotografía urbana desde las alturas.",
+   "i_en": "Ideal if you like record-breaking architecture, panoramic views and skyline photography from great heights."
+  },
+  "w_dxb_burj_al_arab": {
+   "id": "w_dxb_burj_al_arab",
+   "d": "Inaugurado en 1999 con 321 m de altura y forma de vela de dhow, se alza sobre una isla artificial frente a Jumeirah. Considerado uno de los hoteles más lujosos del mundo, se puede visitar reservando en sus restaurantes o en la terraza del Skyview Bar.",
+   "d_en": "Opened in 1999, this 321 m dhow-sail-shaped tower rises on an artificial island off Jumeirah. Regarded as one of the world's most luxurious hotels, it can be visited by booking a table at its restaurants or the Skyview Bar terrace.",
+   "h": "No se entra sin reserva; la mejor foto gratuita es desde la playa de Umm Suqeim (Kite Beach) al atardecer.",
+   "h_en": "No entry without a booking; the best free photo is from Umm Suqeim beach (Kite Beach) at sunset.",
+   "i": "Ideal si te gusta el lujo, el diseño icónico y las estampas más reconocibles de la ciudad.",
+   "i_en": "Ideal if you like luxury, iconic design and the city's most recognisable postcard views."
+  },
+  "w_dxb_dubai_frame": {
+   "id": "w_dxb_dubai_frame",
+   "d": "Estructura en forma de marco de 150 m de alto y 93 de ancho, en el parque Zabeel. Su puente acristalado superior enmarca el 'viejo Dubái' (Deira) por un lado y el 'nuevo Dubái' (Downtown) por el otro, con un tramo de suelo de cristal.",
+   "d_en": "A 150 m-tall, 93 m-wide frame-shaped structure in Zabeel Park. Its glazed sky-bridge frames 'old Dubai' (Deira) on one side and 'new Dubai' (Downtown) on the other, with a stretch of glass floor.",
+   "h": "Ve a media tarde para atrapar el contraste de luz entre ambas partes de la ciudad; suele haber poca cola.",
+   "h_en": "Go in the late afternoon to catch the light contrast between both sides of the city; queues are usually short.",
+   "i": "Ideal si te gusta la fotografía, los contrastes entre lo antiguo y lo nuevo y las experiencias fotogénicas.",
+   "i_en": "Ideal if you like photography, contrasts between old and new, and photogenic experiences."
+  },
+  "w_dxb_museum_future": {
+   "id": "w_dxb_museum_future",
+   "d": "Inaugurado en 2022 junto a Sheikh Zayed Road, este anillo de acero sin columnas está recubierto de versos en caligrafía árabe. En su interior, exposiciones inmersivas imaginan la vida, la ecología y el espacio en 2071, con instalaciones interactivas y de realidad aumentada.",
+   "d_en": "Opened in 2022 beside Sheikh Zayed Road, this column-free steel torus is clad in verses of Arabic calligraphy. Inside, immersive exhibitions imagine life, ecology and space in 2071, with interactive and augmented-reality installations.",
+   "h": "Compra la entrada con días de antelación: se agota rápido y el aforo por franjas es limitado.",
+   "h_en": "Buy tickets days ahead: it sells out fast and timed entry slots are limited.",
+   "i": "Ideal si te gusta la tecnología, el diseño futurista y las experiencias museísticas inmersivas.",
+   "i_en": "Ideal if you like technology, futuristic design and immersive museum experiences."
+  },
+  "w_dxb_jumeirah_mosque": {
+   "id": "w_dxb_jumeirah_mosque",
+   "d": "Construida en 1979 en estilo fatimí y con dos alminares, es una de las pocas mezquitas de Dubái que admite visitas de no musulmanes. El Centro Sheikh Mohammed para el Entendimiento Cultural organiza visitas guiadas con la política 'puertas abiertas, mentes abiertas'.",
+   "d_en": "Built in 1979 in Fatimid style with twin minarets, it is one of the few Dubai mosques that welcomes non-Muslim visitors. The Sheikh Mohammed Centre for Cultural Understanding runs guided tours under its 'open doors, open minds' policy.",
+   "h": "Las visitas guiadas son en horarios fijos (varias veces al día menos viernes); viste con recato y las mujeres cubren la cabeza.",
+   "h_en": "Guided tours run at set times (several daily except Friday); dress modestly and women cover their hair.",
+   "i": "Ideal si te gusta la arquitectura islámica, la cultura local y aprender sobre el islam de primera mano.",
+   "i_en": "Ideal if you like Islamic architecture, local culture and learning about Islam first-hand."
+  },
+  "w_dxb_al_fahidi": {
+   "id": "w_dxb_al_fahidi",
+   "d": "También llamado Bastakiya, es el corazón del viejo Dubái, con callejones estrechos, casas de coral y yeso y torres de viento (barjeel) del siglo XIX que refrescaban las viviendas antes del aire acondicionado. Alberga galerías de arte, cafés tradicionales y el Museo de Dubái en el fuerte Al Fahidi.",
+   "d_en": "Also called Bastakiya, this is the heart of old Dubai, with narrow lanes, coral-and-gypsum houses and 19th-century wind towers (barjeel) that cooled homes before air-conditioning. It holds art galleries, traditional cafés and the Dubai Museum in Al Fahidi Fort.",
+   "h": "Recórrelo a pie por la mañana temprano; está a pasos del Dubai Creek y de los abras hacia Deira.",
+   "h_en": "Explore it on foot early in the morning; it is steps from Dubai Creek and the abras across to Deira.",
+   "i": "Ideal si te gusta la historia, la fotografía de callejones y descubrir el Dubái anterior a los rascacielos.",
+   "i_en": "Ideal if you like history, alleyway photography and discovering the Dubai that predates the skyscrapers."
+  },
+  "w_dxb_gold_souk": {
+   "id": "w_dxb_gold_souk",
+   "d": "En pleno Deira, este bazar cubierto reúne más de 300 tiendas donde el oro se vende al peso según la cotización diaria. Escaparates rebosantes de collares, brazaletes y piezas de récord conviven con el regateo por la hechura; también hay diamantes, perlas y plata.",
+   "d_en": "In the heart of Deira, this covered bazaar gathers over 300 shops where gold is sold by weight at the daily rate. Windows brimming with necklaces, bangles and record-setting pieces coexist with haggling over the making charge; diamonds, pearls and silver are also sold.",
+   "h": "Abre con más ambiente por la tarde-noche; regatea la hechura y cruza al cercano Zoco de las Especias.",
+   "h_en": "It is liveliest in the evening; bargain the making charge and walk over to the nearby Spice Souk.",
+   "i": "Ideal si te gusta el bullicio de los mercados, la joyería y la estampa clásica del comercio del Golfo.",
+   "i_en": "Ideal if you like bustling markets, jewellery and the classic scene of Gulf trading."
+  },
+  "w_dxb_spice_souk": {
+   "id": "w_dxb_spice_souk",
+   "d": "A pocos pasos del Zoco del Oro, sus callejones estrechos rebosan de sacos abiertos de azafrán, canela, pimentón, frutos secos, té y granos de incienso y oud. Uno de los rincones más sensoriales del viejo Deira, junto al Dubai Creek.",
+   "d_en": "A short walk from the Gold Souk, its narrow lanes overflow with open sacks of saffron, cinnamon, paprika, dried fruit, tea and grains of frankincense and oud. One of old Deira's most sensory corners, right by Dubai Creek.",
+   "h": "Prueba y huele antes de comprar y regatea el precio; combínalo con un paseo en abra por el Creek.",
+   "h_en": "Taste and smell before buying and haggle the price; combine it with an abra ride across the Creek.",
+   "i": "Ideal si te gusta la gastronomía, los aromas, el color de los mercados y llevarte especias a casa.",
+   "i_en": "Ideal if you like food, aromas, colourful markets and taking spices home."
+  },
+  "w_dxb_etihad_museum": {
+   "id": "w_dxb_etihad_museum",
+   "d": "Museo moderno con forma de manuscrito abierto, levantado junto a la Casa de la Unión donde en 1971 se firmó la constitución de los Emiratos Árabes Unidos. Sus pabellones interactivos narran la unión de los siete emiratos con documentos, fotografías y objetos de los padres fundadores.",
+   "d_en": "A modern museum shaped like an open manuscript, built beside Union House where the UAE constitution was signed in 1971. Its interactive pavilions tell the story of the seven emirates' union through documents, photographs and objects of the founding fathers.",
+   "h": "Dedica una hora larga y empieza por el pabellón cronológico; hay explicaciones bilingües árabe-inglés.",
+   "h_en": "Allow a good hour and start with the chronological pavilion; captions are in Arabic and English.",
+   "i": "Ideal si te gusta la historia moderna, la política y entender cómo nacieron los Emiratos.",
+   "i_en": "Ideal if you like modern history, politics and understanding how the Emirates were born."
+  },
+  "w_dxb_dubai_opera": {
+   "id": "w_dxb_dubai_opera",
+   "d": "Inaugurado en 2016 en Downtown, este teatro de 2.000 butacas evoca un dhow tradicional y es un espacio multifuncional que se transforma de sala de ópera a teatro o pista plana para conciertos. Acoge ópera, ballet, musicales y grandes espectáculos junto al lago del Burj Khalifa.",
+   "d_en": "Opened in 2016 in Downtown, this 2,000-seat theatre evokes a traditional dhow and is a multi-format venue that transforms from opera house to theatre or flat-floor concert hall. It hosts opera, ballet, musicals and major shows beside the Burj Khalifa lake.",
+   "h": "Consulta la cartelera y reserva entradas online; su terraza tiene vistas directas a la Fuente de Dubái.",
+   "h_en": "Check the programme and book tickets online; its terrace looks straight onto the Dubai Fountain.",
+   "i": "Ideal si te gusta la música en directo, las artes escénicas y una velada elegante en Downtown.",
+   "i_en": "Ideal if you like live music, the performing arts and an elegant evening in Downtown."
+  },
+  "w_dxb_shindagha": {
+   "id": "w_dxb_shindagha",
+   "d": "En la boca del Dubai Creek, este distrito patrimonial reúne casas restauradas de la antigua élite, entre ellas la Casa de Sheikh Saeed Al Maktoum. El museo Al Shindagha repasa a través de varios pabellones la historia de la ciudad, las perlas, el comercio y las tradiciones emiratíes.",
+   "d_en": "At the mouth of Dubai Creek, this heritage district gathers restored houses of the old elite, including the House of Sheikh Saeed Al Maktoum. The Al Shindagha Museum traces the city's history, pearling, trade and Emirati traditions across several pavilions.",
+   "h": "Cómbinalo con un paseo por el paseo del Creek y un cruce en abra; abre en horario de museo, mejor por la mañana.",
+   "h_en": "Combine it with a stroll along the Creek waterfront and an abra crossing; museum hours, best in the morning.",
+   "i": "Ideal si te gusta el patrimonio, la historia de las perlas y el Dubái tradicional junto al agua.",
+   "i_en": "Ideal if you like heritage, pearling history and traditional waterfront Dubai."
+  },
+  "w_dxb_palm_jumeirah": {
+   "id": "w_dxb_palm_jumeirah",
+   "d": "Archipiélago artificial en forma de palmera ganado al mar a partir de 2001, con un tronco, 16 frondas y un rompeolas en media luna. Alberga villas, hoteles de lujo, playas y el monorraíl que llega hasta Atlantis; una de las mayores obras de ingeniería costera del mundo.",
+   "d_en": "A palm-shaped artificial archipelago reclaimed from the sea from 2001, with a trunk, 16 fronds and a crescent breakwater. It holds villas, luxury hotels, beaches and a monorail running out to Atlantis; one of the world's greatest feats of coastal engineering.",
+   "h": "Para verla entera sube a The View at The Palm o al monorraíl; en coche solo se aprecia el tronco.",
+   "h_en": "To see it whole, go up The View at The Palm or ride the monorail; by car you only sense the trunk.",
+   "i": "Ideal si te gusta la ingeniería a lo grande, las playas de resort y las vistas aéreas.",
+   "i_en": "Ideal if you like large-scale engineering, resort beaches and aerial views."
+  },
+  "w_dxb_miracle_garden": {
+   "id": "w_dxb_miracle_garden",
+   "d": "Abierto en 2013, reúne más de 50 millones de flores dispuestas en arcos, corazones, castillos y un avión Airbus A380 cubierto de plantas. Un despliegue de color en pleno desierto que solo funciona en la temporada fresca.",
+   "d_en": "Opened in 2013, it gathers over 50 million flowers arranged into arches, hearts, castles and a plant-covered Airbus A380. A burst of colour in the middle of the desert that only operates in the cool season.",
+   "h": "Solo abre de mediados de noviembre a mayo; ve al abrir o al atardecer para evitar calor y gentío.",
+   "h_en": "Open only from mid-November to May; go at opening or at dusk to avoid heat and crowds.",
+   "i": "Ideal si te gusta la jardinería, la fotografía colorida y los planes en familia.",
+   "i_en": "Ideal if you like gardens, colourful photography and family-friendly outings."
+  },
+  "w_dxb_desert_safari": {
+   "id": "w_dxb_desert_safari",
+   "d": "La Reserva de Conservación del Desierto de Dubái protege dunas, oryx árabes y gacelas en las afueras de la ciudad. Es el escenario clásico del safari en 4x4 (dune bashing), paseos en camello, sandboard y cenas en campamento con música y espectáculos al atardecer.",
+   "d_en": "The Dubai Desert Conservation Reserve protects dunes, Arabian oryx and gazelles on the city's edge. It is the classic setting for 4x4 safaris (dune bashing), camel rides, sandboarding and camp dinners with music and shows at sunset.",
+   "h": "Contrata una excursión con recogida en hotel; los safaris de tarde-noche son los más completos con cena.",
+   "h_en": "Book a tour with hotel pick-up; late-afternoon safaris are the most complete, with dinner included.",
+   "i": "Ideal si te gusta la aventura, la naturaleza del desierto y las experiencias culturales beduinas.",
+   "i_en": "Ideal if you like adventure, desert nature and Bedouin cultural experiences."
+  },
+  "w_dxb_jbr_beach": {
+   "id": "w_dxb_jbr_beach",
+   "d": "Franja de arena en Jumeirah Beach Residence con paseo peatonal 'The Walk', zona de restaurantes al aire libre, deportes acuáticos y vistas a Ain Dubai. Uno de los planes de playa más animados y accesibles de la ciudad, con socorristas y servicios.",
+   "d_en": "A sandy strip at Jumeirah Beach Residence with 'The Walk' promenade, an open-air dining zone, water sports and views of Ain Dubai. One of the city's liveliest and most accessible beach spots, with lifeguards and facilities.",
+   "h": "Aparca en The Beach o llega en metro/tranvía; hay duchas y hamacas de pago, y ambiente hasta la noche.",
+   "h_en": "Park at The Beach or arrive by metro/tram; there are paid showers and loungers, and a lively evening scene.",
+   "i": "Ideal si te gusta la playa con ambiente, pasear junto al mar y combinar baño con compras y comida.",
+   "i_en": "Ideal if you like a lively beach, seaside strolls and mixing swimming with shopping and dining."
+  },
+  "w_dxb_jumeirah_beach": {
+   "id": "w_dxb_jumeirah_beach",
+   "d": "Larga playa abierta de arena blanca y aguas cálidas del golfo Pérsico, gratuita y con carril bici y running junto al mar. Popular entre familias y locales, ofrece una de las mejores panorámicas del Burj Al Arab al fondo.",
+   "d_en": "A long open beach of white sand and warm Persian Gulf water, free to enter and lined with a seafront cycling and running track. Popular with families and locals, it offers one of the best backdrops of the Burj Al Arab.",
+   "h": "Gratuita y abierta todo el día; lleva agua y sombra, y disfruta del atardecer con el Burj Al Arab de fondo.",
+   "h_en": "Free and open all day; bring water and shade, and enjoy sunset with the Burj Al Arab behind.",
+   "i": "Ideal si te gusta la playa relajada, nadar en el Golfo y la fotografía al atardecer.",
+   "i_en": "Ideal if you like a relaxed beach, swimming in the Gulf and sunset photography."
+  },
+  "w_dxb_la_mer": {
+   "id": "w_dxb_la_mer",
+   "d": "Frente marítimo peatonal en Jumeirah con estética urbana: murales de street art, tiendas de diseño, restaurantes de moda y una playa amplia con socorristas. Ambiente relajado e instagrameable a un paso del centro.",
+   "d_en": "A pedestrian seafront in Jumeirah with an urban vibe: street-art murals, design shops, trendy restaurants and a wide lifeguarded beach. A relaxed, Instagram-friendly setting close to the centre.",
+   "h": "Buen plan de tarde-noche; combina baño, paseo y cena, con parking gratuito y ambiente familiar.",
+   "h_en": "A good afternoon-into-evening plan; mix swimming, a stroll and dinner, with free parking and a family feel.",
+   "i": "Ideal si te gusta el arte urbano, el ambiente moderno de playa y la buena comida informal.",
+   "i_en": "Ideal if you like street art, a modern beach atmosphere and good casual food."
+  },
+  "w_dxb_dubai_creek": {
+   "id": "w_dxb_dubai_creek",
+   "d": "El Dubai Creek separa Deira de Bur Dubái y fue la cuna comercial de la ciudad, con dhows cargados de mercancías amarrados en sus muelles. Cruzarlo en un abra tradicional por apenas 1 dírham es una de las experiencias más auténticas y baratas de Dubái.",
+   "d_en": "Dubai Creek separates Deira from Bur Dubai and was the city's trading cradle, its wharves still lined with cargo dhows. Crossing it on a traditional abra for barely 1 dirham is one of Dubai's most authentic and cheapest experiences.",
+   "h": "Los abras salen sin horario en cuanto se llenan; lleva monedas y paga a bordo; ideal al atardecer.",
+   "h_en": "Abras leave with no timetable as soon as they fill; bring coins and pay on board; best at sunset.",
+   "i": "Ideal si te gusta la vida local, la historia comercial y navegar entre el viejo y el nuevo Dubái.",
+   "i_en": "Ideal if you like local life, trading history and gliding between old and new Dubai."
+  },
+  "w_dxb_ras_al_khor": {
+   "id": "w_dxb_ras_al_khor",
+   "d": "Santuario de fauna en la desembocadura interior del Creek, con lagunas, manglares y marismas que acogen miles de flamencos rosados y más de 450 especies de aves. Cuenta con miradores gratuitos con prismáticos para observar la naturaleza con los rascacielos al fondo.",
+   "d_en": "A wildlife sanctuary at the inland end of the Creek, with lagoons, mangroves and mudflats hosting thousands of pink flamingos and over 450 bird species. It has free hides with binoculars to watch wildlife against a skyscraper backdrop.",
+   "h": "Entrada gratuita; los flamencos abundan de noviembre a marzo y por la mañana; no hay transporte público directo.",
+   "h_en": "Free entry; flamingos are most numerous from November to March and in the morning; no direct public transport.",
+   "i": "Ideal si te gusta la ornitología, la naturaleza y el contraste entre fauna y ciudad.",
+   "i_en": "Ideal if you like birdwatching, nature and the contrast of wildlife against the city."
+  },
+  "w_dxb_kite_beach": {
+   "id": "w_dxb_kite_beach",
+   "d": "Playa de Umm Suqeim famosa por el kitesurf y el ambiente deportivo: circuito de running, voley playa, skatepark, paddle y puestos de comida. Ofrece una de las mejores perspectivas del Burj Al Arab y un ambiente joven y activo.",
+   "d_en": "An Umm Suqeim beach famous for kitesurfing and its sporty vibe: a running track, beach volleyball, skatepark, paddle sports and food stalls. It gives one of the best views of the Burj Al Arab and a young, active atmosphere.",
+   "h": "Gratuita; los fines de semana se llena, y la brisa de tarde es ideal para el kitesurf.",
+   "h_en": "Free; it fills up at weekends, and the afternoon breeze is ideal for kitesurfing.",
+   "i": "Ideal si te gusta el deporte, la playa activa y los ambientes al aire libre.",
+   "i_en": "Ideal if you like sports, an active beach and outdoor scenes."
+  },
+  "w_dxb_water_canal": {
+   "id": "w_dxb_water_canal",
+   "d": "Canal navegable de 3,2 km abierto en 2016 que conecta el Dubai Creek con el golfo a través de Business Bay. Su paseo peatonal, sus puentes iluminados y una cascada artificial que se aparta al paso de los barcos lo han convertido en un plan tranquilo de paseo y crucero.",
+   "d_en": "A 3.2 km navigable canal opened in 2016 linking Dubai Creek to the Gulf through Business Bay. Its waterside promenade, illuminated bridges and an artificial waterfall that parts for passing boats make it a calm spot for a walk or a cruise.",
+   "h": "Pasea al atardecer para ver las luces y la cascada; hay cruceros y kayak, y acceso libre al paseo.",
+   "h_en": "Stroll at dusk to see the lights and waterfall; there are cruises and kayaking, and free access to the promenade.",
+   "i": "Ideal si te gusta pasear junto al agua, la fotografía nocturna y los planes tranquilos.",
+   "i_en": "Ideal if you like waterside walks, night photography and relaxed plans."
+  },
+  "w_dxb_dubai_mall": {
+   "id": "w_dxb_dubai_mall",
+   "d": "Con más de 1.200 tiendas, es mucho más que compras: alberga un acuario gigante con túnel submarino, una pista de patinaje sobre hielo, cataratas interiores, una galería de dinosaurios y decenas de restaurantes. Conectado con el Burj Khalifa y la Fuente de Dubái, es un destino en sí mismo.",
+   "d_en": "With over 1,200 stores it is far more than shopping: it houses a giant aquarium with an underwater tunnel, an ice rink, indoor waterfalls, a dinosaur gallery and dozens of restaurants. Linked to the Burj Khalifa and the Dubai Fountain, it is a destination in itself.",
+   "h": "Llega en metro (estación Burj Khalifa/Dubai Mall); ve entre semana y reserva las atracciones online.",
+   "h_en": "Arrive by metro (Burj Khalifa/Dubai Mall station); visit on a weekday and book attractions online.",
+   "i": "Ideal si te gusta ir de compras, el ocio en familia y combinar atracciones bajo un mismo techo.",
+   "i_en": "Ideal if you like shopping, family entertainment and combining attractions under one roof."
+  },
+  "w_dxb_dubai_fountain": {
+   "id": "w_dxb_dubai_fountain",
+   "d": "La mayor fuente coreografiada del mundo, sobre el lago artificial de Downtown, lanza chorros de hasta 150 m al ritmo de música árabe e internacional. Sus shows gratuitos cada tarde-noche, con el Burj Khalifa iluminado detrás, son un imprescindible.",
+   "d_en": "The world's largest choreographed fountain, on the Downtown lake, shoots jets up to 150 m to Arabic and international music. Its free shows every evening, with the illuminated Burj Khalifa behind, are a must-see.",
+   "h": "Espectáculos gratuitos cada 30 min desde el atardecer; los mejores sitios son el puente y la terraza de Souk Al Bahar.",
+   "h_en": "Free shows every 30 min from dusk; the best spots are the bridge and the Souk Al Bahar terrace.",
+   "i": "Ideal si te gusta el espectáculo, la música y las estampas nocturnas de la ciudad.",
+   "i_en": "Ideal if you like spectacle, music and the city's night-time views."
+  },
+  "w_dxb_atlantis_aquaventure": {
+   "id": "w_dxb_atlantis_aquaventure",
+   "d": "En la media luna de Palm Jumeirah, este parque acuático récord combina toboganes vertiginosos, ríos rápidos, una playa privada y el acuario Lost Chambers con miles de especies marinas. También ofrece experiencias con delfines y tobogán que atraviesa un tanque de tiburones.",
+   "d_en": "On the Palm Jumeirah crescent, this record-breaking water park combines thrilling slides, rapid rivers, a private beach and the Lost Chambers aquarium with thousands of marine species. It also offers dolphin encounters and a slide through a shark tank.",
+   "h": "Compra la entrada online y llega al abrir; se tarda un día entero y hay taquillas y toallas de alquiler.",
+   "h_en": "Buy tickets online and arrive at opening; it takes a full day, with lockers and towel rental available.",
+   "i": "Ideal si te gusta la adrenalina, los parques acuáticos y los planes en familia junto al mar.",
+   "i_en": "Ideal if you like adrenaline, water parks and seaside family days."
+  },
+  "w_dxb_ain_dubai": {
+   "id": "w_dxb_ain_dubai",
+   "d": "Situada en Bluewaters Island, junto a JBR, esta noria de 250 m es la más alta del mundo. Sus cápsulas climatizadas ofrecen vistas de la Marina, Palm Jumeirah y el skyline del golfo durante una rotación de unos 38 minutos, con opciones de cena y cóctel a bordo.",
+   "d_en": "Set on Bluewaters Island next to JBR, this 250 m wheel is the tallest in the world. Its air-conditioned cabins give views of the Marina, Palm Jumeirah and the Gulf skyline over a roughly 38-minute rotation, with dining and cocktail options on board.",
+   "h": "Comprueba que esté operativa y reserva la franja del atardecer; se accede desde Bluewaters, conectada por pasarela a JBR.",
+   "h_en": "Check it is operating and book the sunset slot; access is from Bluewaters, linked to JBR by a footbridge.",
+   "i": "Ideal si te gusta las vistas panorámicas, los récords y una experiencia tranquila en altura.",
+   "i_en": "Ideal if you like panoramic views, record-breakers and a calm experience up high."
+  },
+  "w_dxb_global_village": {
+   "id": "w_dxb_global_village",
+   "d": "Gran recinto estacional donde cada país tiene un pabellón con arquitectura, artesanía, gastronomía y espectáculos propios. Combina mercadillo internacional, atracciones de feria, conciertos y fuegos artificiales; uno de los planes nocturnos favoritos de familias y residentes.",
+   "d_en": "A large seasonal venue where each country has a pavilion with its own architecture, crafts, food and shows. It mixes an international bazaar, funfair rides, concerts and fireworks; one of the favourite evening outings for families and residents.",
+   "h": "Solo abre en temporada fresca (aprox. octubre-abril) y por la tarde-noche; ve entre semana para evitar aglomeraciones.",
+   "h_en": "Open only in the cool season (approx. October-April) and in the evening; go on a weekday to avoid crowds.",
+   "i": "Ideal si te gusta la diversidad cultural, la comida callejera del mundo y el ambiente festivo.",
+   "i_en": "Ideal if you like cultural diversity, world street food and a festive atmosphere."
+  },
+  "w_dxb_dubai_marina": {
+   "id": "w_dxb_dubai_marina",
+   "d": "Canal artificial de 3 km bordeado de rascacielos, yates y un paseo peatonal (Marina Walk) lleno de restaurantes y cafés. Punto de partida de cruceros en dhow, deportes acuáticos y de la vida nocturna; conectado con JBR y Bluewaters.",
+   "d_en": "A 3 km artificial canal lined with skyscrapers, yachts and a pedestrian promenade (Marina Walk) full of restaurants and cafés. It is the starting point for dhow cruises, water sports and nightlife; linked to JBR and Bluewaters.",
+   "h": "Recórrela a pie al atardecer o en un crucero en dhow; usa el tranvía y el metro para moverte por la zona.",
+   "h_en": "Explore it on foot at dusk or on a dhow cruise; use the tram and metro to get around the area.",
+   "i": "Ideal si te gusta el ambiente cosmopolita, los paseos junto al agua y la vida nocturna.",
+   "i_en": "Ideal if you like a cosmopolitan atmosphere, waterside walks and nightlife."
+  },
+  "w_dxb_ski_dubai": {
+   "id": "w_dxb_ski_dubai",
+   "d": "Dentro del Mall of the Emirates, es la primera pista de esquí cubierta de Oriente Medio: 22.500 m² de nieve real a -4 °C con pistas, trineos, tirolina y una colonia de pingüinos. Un contraste surrealista con los 40 °C del exterior.",
+   "d_en": "Inside the Mall of the Emirates, it is the Middle East's first indoor ski slope: 22,500 m² of real snow at -4 °C with runs, toboggans, a zipline and a penguin colony. A surreal contrast with the 40 °C outside.",
+   "h": "El precio incluye ropa de abrigo y equipo; reserva las sesiones de esquí o el encuentro con pingüinos online.",
+   "h_en": "The price includes warm clothing and gear; book ski sessions or the penguin encounter online.",
+   "i": "Ideal si te gusta la nieve, los planes originales en familia y las experiencias curiosas.",
+   "i_en": "Ideal if you like snow, original family plans and quirky experiences."
+  },
+  "w_dxb_ravi": {
+   "id": "w_dxb_ravi",
+   "d": "Abierto desde 1978 en el barrio de Satwa, es un clásico absoluto de la cocina pakistaní en Dubái. Sirve curris, biryani, karahi de pollo y cordero, dal y pan naan recién hecho a precios muy bajos, en un ambiente sencillo y siempre lleno.",
+   "d_en": "Open since 1978 in the Satwa district, it is an absolute classic of Pakistani cooking in Dubai. It serves curries, biryani, chicken and lamb karahi, dal and fresh naan at very low prices in a simple, always-busy setting.",
+   "h": "Sin reservas y casi 24 h; la terraza es la más animada y se paga en efectivo. Prueba el karahi de cordero.",
+   "h_en": "No reservations and open almost 24 h; the terrace is the liveliest and it is cash-friendly. Try the lamb karahi.",
+   "i": "Ideal si te gusta la comida auténtica y barata, los sabores del sur de Asia y los locales con historia.",
+   "i_en": "Ideal if you like authentic, cheap food, South Asian flavours and eateries with history."
+  },
+  "w_dxb_al_ustad": {
+   "id": "w_dxb_al_ustad",
+   "d": "Fundado en 1978 en Al Mankhool, es uno de los restaurantes iraníes más queridos de Dubái, con las paredes cubiertas de fotos de clientes famosos. Su especialidad son los kebabs de pollo y cordero marinados con arroz, servidos en un ambiente bullicioso y tradicional.",
+   "d_en": "Founded in 1978 in Al Mankhool, it is one of Dubai's best-loved Iranian restaurants, its walls covered in photos of famous diners. Its speciality is marinated chicken and lamb kebabs with rice, served in a bustling, traditional atmosphere.",
+   "h": "Cierra a media tarde; ve pronto porque se llena y prueba el 'special kebab' de pollo. Efectivo recomendado.",
+   "h_en": "Closes mid-afternoon; go early as it fills up and try the chicken 'special kebab'. Cash recommended.",
+   "i": "Ideal si te gusta la cocina persa, los locales con solera y una comida abundante a buen precio.",
+   "i_en": "Ideal if you like Persian cuisine, time-honoured eateries and a hearty meal at a good price."
+  },
+  "w_dxb_arabian_tea_house": {
+   "id": "w_dxb_arabian_tea_house",
+   "d": "En una casa tradicional del barrio de Al Fahidi, este café de patio con sillas blancas de mimbre y buganvillas sirve cocina emiratí auténtica: desayunos típicos, balaleet, machboos, luqaimat y una amplia carta de tés. Uno de los mejores sitios para probar sabores locales.",
+   "d_en": "In a traditional house in Al Fahidi, this courtyard café with white wicker chairs and bougainvillea serves authentic Emirati cuisine: typical breakfasts, balaleet, machboos, luqaimat and a wide tea menu. One of the best places to taste local flavours.",
+   "h": "Pide el desayuno emiratí o el té de la tarde; conviene reservar en temporada alta. Está entre los museos del barrio.",
+   "h_en": "Order the Emirati breakfast or afternoon tea; booking is wise in high season. It sits among the district's museums.",
+   "i": "Ideal si te gusta la gastronomía local, los ambientes con encanto y probar la cocina emiratí tradicional.",
+   "i_en": "Ideal if you like local gastronomy, charming settings and trying traditional Emirati food."
+  },
+  "w_dxb_bu_qtair": {
+   "id": "w_dxb_bu_qtair",
+   "d": "Célebre local marisquero junto al puerto pesquero de Umm Suqeim que empezó como una humilde cabaña. Eliges el pescado o las gambas del día, los rebozan con una mezcla secreta de especias y los fríen al momento, servidos con arroz y curry. Sencillo, fresco y siempre con cola.",
+   "d_en": "A famous seafood spot by the Umm Suqeim fishing harbour that began as a humble shack. You pick the fish or prawns of the day, they are coated in a secret spice mix and fried to order, served with rice and curry. Simple, fresh and always with a queue.",
+   "h": "Apúntate en la lista al llegar y espera tu turno; solo efectivo y sin alcohol. Ve pronto porque se agota el pescado.",
+   "h_en": "Add your name to the list on arrival and wait your turn; cash only and no alcohol. Go early as fish sells out.",
+   "i": "Ideal si te gusta el marisco fresco, los sitios auténticos sin pretensiones y comer como los locales.",
+   "i_en": "Ideal if you like fresh seafood, unpretentious authentic spots and eating like a local."
+  },
+  "w_dxb_timeout_market": {
+   "id": "w_dxb_timeout_market",
+   "d": "En Souk Al Bahar, junto a la Fuente de Dubái, este mercado gastronómico reúne una selección de los mejores chefs y restaurantes de la ciudad en puestos alrededor de una zona común. Permite probar cocina emiratí, asiática, italiana y más en un solo sitio, con terraza y vistas al Burj Khalifa.",
+   "d_en": "In Souk Al Bahar, next to the Dubai Fountain, this food hall gathers a curated selection of the city's best chefs and restaurants in stalls around a shared seating area. You can sample Emirati, Asian, Italian and more in one place, with a terrace and Burj Khalifa views.",
+   "h": "Pide en varios puestos para compartir y llega antes del show de la fuente para pillar sitio en la terraza.",
+   "h_en": "Order from several stalls to share and arrive before the fountain show to grab a terrace spot.",
+   "i": "Ideal si te gusta la variedad gastronómica, comer con vistas y probar mucho en un mismo sitio.",
+   "i_en": "Ideal if you like food variety, dining with a view and sampling a lot in one place."
+  }
+ },
+ "food": {
+  "w_dxb_ravi": {
+   "cuisine": "Pakistaní",
+   "price": "5–12 €",
+   "hours": "05:00–03:00"
+  },
+  "w_dxb_al_ustad": {
+   "cuisine": "Iraní",
+   "price": "8–18 €",
+   "hours": "12:00–15:30, 19:00–00:00"
+  },
+  "w_dxb_arabian_tea_house": {
+   "cuisine": "Emiratí",
+   "price": "12–30 €",
+   "hours": "07:00–22:00"
+  },
+  "w_dxb_bu_qtair": {
+   "cuisine": "Marisco",
+   "price": "10–20 €",
+   "hours": "11:30–14:30, 17:30–23:00"
+  },
+  "w_dxb_timeout_market": {
+   "cuisine": "Internacional",
+   "price": "15–35 €",
+   "hours": "12:00–00:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Dubái",
+   "items": [
+    {
+     "name": "Dátiles Medjool",
+     "price": "8–25 €",
+     "desc": "Dátiles premium (Medjool, Khalas) en cajas de regalo, a menudo rellenos de frutos secos."
+    },
+    {
+     "name": "Oud y perfumes árabes",
+     "price": "20–150 €",
+     "desc": "Aceites de oud, attar y mukhalat sin alcohol; también quemadores de incienso (mabkhara)."
+    },
+    {
+     "name": "Oro y joyería",
+     "price": "50–500 €",
+     "desc": "Oro de 22-24 kt vendido al peso en el Zoco del Oro; se puede regatear la hechura."
+    },
+    {
+     "name": "Chocolate de leche de camella",
+     "price": "10–30 €",
+     "desc": "Marca local (p. ej. Al Nassma); tabletas y bombones exclusivos de EAU."
+    },
+    {
+     "name": "Azafrán y especias",
+     "price": "5–40 €",
+     "desc": "Azafrán iraní, za'atar, mezclas baharat y té karak del Zoco de las Especias."
+    },
+    {
+     "name": "Pashmina y textiles",
+     "price": "10–60 €",
+     "desc": "Chales de cachemira/seda y telas bordadas del Textile Souk de Bur Dubái."
+    }
+   ],
+   "shops": [
+    "Zoco del Oro (Deira)",
+    "Zoco de las Especias (Deira)",
+    "The Dubai Mall",
+    "Global Village",
+    "Souk Madinat Jumeirah"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Viste con recato en zocos, mezquitas y zonas públicas: hombros y rodillas cubiertos, sobre todo fuera de hoteles y playas.",
+   "Evita el mediodía de junio a septiembre (40 °C+): planifica exteriores al amanecer o al atardecer y refúgiate en centros comerciales climatizados.",
+   "Usa el Metro (tarjeta Nol) y taxis; son baratos, seguros y evitan los atascos de Sheikh Zayed Road.",
+   "En el Ramadán no comas, bebas ni fumes en público durante el día; muchos restaurantes solo abren al atardecer.",
+   "Regatea en los zocos y con taxistas de abra, pero nunca en centros comerciales de precio fijo; lleva algo de efectivo para los abras."
+  ],
+  "en": [
+   "Dress modestly in souks, mosques and public areas: cover shoulders and knees, especially away from hotels and beaches.",
+   "Avoid midday from June to September (40 °C+): plan outdoor sights at dawn or dusk and cool off in air-conditioned malls.",
+   "Use the Metro (Nol card) and taxis; they are cheap, safe and skip the Sheikh Zayed Road traffic.",
+   "During Ramadan do not eat, drink or smoke in public during daylight; many restaurants open only after sunset.",
+   "Haggle in the souks and with abra boatmen, but not in fixed-price malls; carry some cash for the abra crossings."
+  ]
+ },
+ "climate": {
+  "hi": [
+   24,
+   25,
+   28,
+   33,
+   38,
+   39,
+   41,
+   41,
+   39,
+   35,
+   30,
+   26
+  ],
+  "lo": [
+   14,
+   15,
+   18,
+   21,
+   25,
+   27,
+   30,
+   30,
+   27,
+   23,
+   19,
+   16
+  ]
+ },
+ "tr": {
+  "El edificio más alto del mundo (828 m), icono absoluto de Dubái.": "The world's tallest building (828 m) and Dubai's ultimate icon.",
+  "Hotel-vela de lujo sobre una isla artificial, símbolo de Dubái.": "Sail-shaped luxury hotel on its own island, a symbol of Dubai.",
+  "Marco dorado gigante de 150 m con pasarela de cristal.": "Giant 150 m golden picture frame with a glass skywalk.",
+  "Edificio toroidal con caligrafía árabe dedicado a la innovación.": "Torus-shaped building covered in Arabic calligraphy, devoted to innovation.",
+  "Mezquita de piedra blanca abierta a visitantes no musulmanes.": "White-stone mosque open to non-Muslim visitors.",
+  "Barrio antiguo de casas de coral con torres de viento (Bastakiya).": "Old coral-house quarter with wind towers (Bastakiya).",
+  "Mercado tradicional de Deira con cientos de joyerías de oro.": "Traditional Deira market with hundreds of gold jewellers.",
+  "Mercado aromático de Deira con especias, hierbas e incienso.": "Aromatic Deira market of spices, herbs and incense.",
+  "Museo sobre la fundación de los EAU en 1971.": "Museum on the founding of the UAE in 1971.",
+  "Auditorio con forma de dhow al pie del Burj Khalifa.": "Dhow-shaped auditorium at the foot of the Burj Khalifa.",
+  "Museo al aire libre en la desembocadura del Creek.": "Open-air heritage district at the mouth of the Creek.",
+  "Isla artificial en forma de palmera con playas y resorts.": "Palm-shaped artificial island with beaches and resorts.",
+  "El mayor jardín de flores del mundo, con esculturas florales.": "The world's largest flower garden, with floral sculptures.",
+  "Dunas rojas para safari 4x4, camellos y campamentos beduinos.": "Red dunes for 4x4 safaris, camels and Bedouin camps.",
+  "Playa urbana con paseo, tiendas y restaurantes frente al mar.": "Urban beach with a promenade, shops and seafront dining.",
+  "Amplia playa pública gratuita con vistas al Burj Al Arab.": "Wide free public beach with Burj Al Arab views.",
+  "Paseo de playa de moda con murales, tiendas y food trucks.": "Trendy beachfront district with murals, shops and food trucks.",
+  "Brazo de mar histórico que se cruza en abras (barcas de madera).": "Historic tidal creek crossed by abras (wooden water taxis).",
+  "Humedal urbano con flamencos y aves junto al Creek.": "Urban wetland with flamingos and birdlife by the Creek.",
+  "Playa deportiva y activa con vistas al Burj Al Arab.": "Sporty, active beach with Burj Al Arab views.",
+  "Canal artificial con paseo, puentes y cascada.": "Artificial canal with a promenade, bridges and a waterfall.",
+  "Uno de los mayores centros comerciales del mundo.": "One of the largest shopping malls in the world.",
+  "Espectáculo de agua, luz y música al pie del Burj Khalifa.": "Water, light and music show at the foot of the Burj Khalifa.",
+  "Gran parque acuático en el resort Atlantis The Palm.": "Huge water park at the Atlantis The Palm resort.",
+  "La noria de observación más alta del mundo (250 m).": "The world's tallest observation wheel (250 m).",
+  "Parque temático cultural con pabellones de países del mundo.": "Cultural theme park with pavilions from around the world.",
+  "Barrio de rascacielos junto a un puerto deportivo y paseo.": "Skyscraper district around a yacht harbour and promenade.",
+  "Estación de esquí cubierta con nieve real y pingüinos.": "Indoor ski resort with real snow and penguins.",
+  "Institución pakistaní barata y legendaria en Satwa.": "Legendary cheap Pakistani institution in Satwa.",
+  "Restaurante iraní histórico de kebabs en Bur Dubái.": "Historic Iranian kebab restaurant in Bur Dubai.",
+  "Café emiratí de patio con encanto en Al Fahidi.": "Charming Emirati courtyard café in Al Fahidi.",
+  "Puesto de pescado fresco frito junto a la playa de Umm Suqeim.": "Fresh fried-fish shack by Umm Suqeim beach.",
+  "Mercado gastronómico con vistas al Burj Khalifa.": "Curated food hall with Burj Khalifa views.",
+  "Dubái": "Dubái"
+ }
+}

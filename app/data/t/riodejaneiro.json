@@ -1,0 +1,732 @@
+{
+ "id": "riodejaneiro",
+ "name": "Río de Janeiro",
+ "country": "WORLD",
+ "center": [
+  -22.9068,
+  -43.1729
+ ],
+ "pois": [
+  {
+   "id": "w_rio_cristo_redentor",
+   "cat": "monuments",
+   "name": "Cristo Redentor (Corcovado)",
+   "icon": "🗿",
+   "lat": -22.95194,
+   "lng": -43.21056,
+   "desc": "Estatua art déco de 38 m sobre el cerro Corcovado, símbolo de Río."
+  },
+  {
+   "id": "w_rio_pao_de_acucar",
+   "cat": "nature",
+   "name": "Pan de Azúcar",
+   "icon": "🚡",
+   "lat": -22.94868,
+   "lng": -43.15729,
+   "desc": "Morro de granito de 396 m accesible por teleférico con vistas 360°."
+  },
+  {
+   "id": "w_rio_copacabana",
+   "cat": "nature",
+   "name": "Playa de Copacabana",
+   "icon": "🏖️",
+   "lat": -22.97116,
+   "lng": -43.18234,
+   "desc": "Playa urbana de 4 km con su famoso paseo de olas de mosaico."
+  },
+  {
+   "id": "w_rio_ipanema",
+   "cat": "nature",
+   "name": "Playa de Ipanema",
+   "icon": "🏖️",
+   "lat": -22.9868,
+   "lng": -43.2048,
+   "desc": "Elegante playa inmortalizada por la 'Garota de Ipanema'."
+  },
+  {
+   "id": "w_rio_escadaria_selaron",
+   "cat": "monuments",
+   "name": "Escadaria Selarón",
+   "icon": "🎨",
+   "lat": -22.9152,
+   "lng": -43.1792,
+   "desc": "Escalinata de 215 peldaños cubierta de azulejos de colores."
+  },
+  {
+   "id": "w_rio_maracana",
+   "cat": "monuments",
+   "name": "Estadio Maracaná",
+   "icon": "🏟️",
+   "lat": -22.91214,
+   "lng": -43.23018,
+   "desc": "Templo del fútbol brasileño, sede de dos finales de Mundial."
+  },
+  {
+   "id": "w_rio_jardim_botanico",
+   "cat": "nature",
+   "name": "Jardín Botánico",
+   "icon": "🌿",
+   "lat": -22.9676,
+   "lng": -43.2228,
+   "desc": "Jardín histórico de 1808 con palmeras imperiales y orquídeas."
+  },
+  {
+   "id": "w_rio_lagoa",
+   "cat": "nature",
+   "name": "Lagoa Rodrigo de Freitas",
+   "icon": "🚣",
+   "lat": -22.9717,
+   "lng": -43.2051,
+   "desc": "Laguna con paseo de 7,5 km rodeada de montañas y el Cristo."
+  },
+  {
+   "id": "w_rio_parque_lage",
+   "cat": "nature",
+   "name": "Parque Lage",
+   "icon": "🌳",
+   "lat": -22.9579,
+   "lng": -43.2123,
+   "desc": "Parque con palacete ecléctico al pie del Corcovado."
+  },
+  {
+   "id": "w_rio_santa_teresa",
+   "cat": "monuments",
+   "name": "Santa Teresa",
+   "icon": "🚋",
+   "lat": -22.9203,
+   "lng": -43.1879,
+   "desc": "Barrio bohemio de calles empinadas y el tranvía histórico."
+  },
+  {
+   "id": "w_rio_catedral_metropolitana",
+   "cat": "monuments",
+   "name": "Catedral Metropolitana",
+   "icon": "⛪",
+   "lat": -22.91082,
+   "lng": -43.18056,
+   "desc": "Catedral cónica modernista con vidrieras de 64 m."
+  },
+  {
+   "id": "w_rio_praia_vermelha",
+   "cat": "nature",
+   "name": "Praia Vermelha",
+   "icon": "🏖️",
+   "lat": -22.9543,
+   "lng": -43.1649,
+   "desc": "Pequeña playa de arena gruesa a los pies del Pan de Azúcar."
+  },
+  {
+   "id": "w_rio_mirante_dona_marta",
+   "cat": "nature",
+   "name": "Mirante Dona Marta",
+   "icon": "👁️",
+   "lat": -22.9477,
+   "lng": -43.1966,
+   "desc": "Mirador panorámico con la mejor vista del Cristo y la bahía."
+  },
+  {
+   "id": "w_rio_sambodromo",
+   "cat": "monuments",
+   "name": "Sambódromo",
+   "icon": "🥁",
+   "lat": -22.91127,
+   "lng": -43.197,
+   "desc": "Avenida-desfile diseñada por Niemeyer para el Carnaval."
+  },
+  {
+   "id": "w_rio_theatro_municipal",
+   "cat": "monuments",
+   "name": "Theatro Municipal",
+   "icon": "🎭",
+   "lat": -22.90878,
+   "lng": -43.1765,
+   "desc": "Ópera de 1909 inspirada en el Palais Garnier de París."
+  },
+  {
+   "id": "w_rio_real_gabinete",
+   "cat": "monuments",
+   "name": "Real Gabinete Português de Leitura",
+   "icon": "📚",
+   "lat": -22.90512,
+   "lng": -43.1822,
+   "desc": "Biblioteca neomanuelina considerada de las más bellas del mundo."
+  },
+  {
+   "id": "w_rio_museu_do_amanha",
+   "cat": "monuments",
+   "name": "Museo del Mañana",
+   "icon": "🔮",
+   "lat": -22.8937,
+   "lng": -43.1796,
+   "desc": "Museo de ciencias futurista de Calatrava en el puerto."
+  },
+  {
+   "id": "w_rio_arcos_da_lapa",
+   "cat": "monuments",
+   "name": "Arcos da Lapa",
+   "icon": "🏛️",
+   "lat": -22.9133,
+   "lng": -43.1791,
+   "desc": "Acueducto colonial de 42 arcos y corazón de la noche carioca."
+  },
+  {
+   "id": "w_rio_candelaria",
+   "cat": "monuments",
+   "name": "Iglesia de la Candelária",
+   "icon": "⛪",
+   "lat": -22.9,
+   "lng": -43.1776,
+   "desc": "Imponente iglesia barroca y neoclásica del Centro histórico."
+  },
+  {
+   "id": "w_rio_leblon",
+   "cat": "nature",
+   "name": "Playa de Leblon",
+   "icon": "🏖️",
+   "lat": -22.987,
+   "lng": -43.223,
+   "desc": "Continuación tranquila y exclusiva de Ipanema."
+  },
+  {
+   "id": "w_rio_floresta_tijuca",
+   "cat": "nature",
+   "name": "Floresta da Tijuca",
+   "icon": "🌲",
+   "lat": -22.9599,
+   "lng": -43.2778,
+   "desc": "Uno de los mayores bosques urbanos del mundo."
+  },
+  {
+   "id": "w_rio_aquario",
+   "cat": "ocio",
+   "name": "AquaRio",
+   "icon": "🐠",
+   "lat": -22.8933,
+   "lng": -43.1917,
+   "desc": "El mayor acuario marino de Sudamérica en la zona portuaria."
+  },
+  {
+   "id": "w_rio_feira_sao_cristovao",
+   "cat": "ocio",
+   "name": "Feira de São Cristóvão",
+   "icon": "🎪",
+   "lat": -22.8966,
+   "lng": -43.2203,
+   "desc": "Feria del Nordeste con música, baile y comida típica."
+  },
+  {
+   "id": "w_rio_pedra_do_sal",
+   "cat": "ocio",
+   "name": "Pedra do Sal",
+   "icon": "🎶",
+   "lat": -22.8972,
+   "lng": -43.1858,
+   "desc": "Cuna de la samba con rodas al aire libre."
+  },
+  {
+   "id": "w_rio_rio_scenarium",
+   "cat": "ocio",
+   "name": "Rio Scenarium",
+   "icon": "🍸",
+   "lat": -22.9063,
+   "lng": -43.1812,
+   "desc": "Casa de samba en un caserón de anticuario en Lapa."
+  },
+  {
+   "id": "w_rio_confeitaria_colombo",
+   "cat": "food",
+   "name": "Confeitaria Colombo",
+   "icon": "☕",
+   "lat": -22.9058,
+   "lng": -43.1787,
+   "desc": "Café Belle Époque de 1894 con espejos y vitrales."
+  },
+  {
+   "id": "w_rio_bar_do_mineiro",
+   "cat": "food",
+   "name": "Bar do Mineiro",
+   "icon": "🍲",
+   "lat": -22.9156,
+   "lng": -43.187,
+   "desc": "Bar clásico de Santa Teresa famoso por su feijoada."
+  },
+  {
+   "id": "w_rio_aprazivel",
+   "cat": "food",
+   "name": "Aprazível",
+   "icon": "🍽️",
+   "lat": -22.9229,
+   "lng": -43.1926,
+   "desc": "Restaurante con jardín y vistas a la bahía en Santa Teresa."
+  },
+  {
+   "id": "w_rio_garota_de_ipanema",
+   "cat": "food",
+   "name": "Garota de Ipanema",
+   "icon": "🍺",
+   "lat": -22.9842,
+   "lng": -43.2067,
+   "desc": "Bar donde se compuso la canción 'Garota de Ipanema'."
+  },
+  {
+   "id": "w_rio_cervantes",
+   "cat": "food",
+   "name": "Cervantes",
+   "icon": "🥪",
+   "lat": -22.9647,
+   "lng": -43.1783,
+   "desc": "Legendario bar de sándwiches con piña, abierto de madrugada."
+  },
+  {
+   "id": "w_rio_bar_urca",
+   "cat": "food",
+   "name": "Bar Urca",
+   "icon": "🍤",
+   "lat": -22.9467,
+   "lng": -43.1636,
+   "desc": "Boteco frente al mar donde se bebe en el murete de la bahía."
+  }
+ ],
+ "extra": {
+  "w_rio_cristo_redentor": {
+   "id": "w_rio_cristo_redentor",
+   "d": "Inaugurada en 1931 y declarada una de las Nuevas Siete Maravillas del Mundo, la estatua del Cristo con los brazos abiertos corona el Corcovado a 710 m de altura, dentro del Parque Nacional da Tijuca. Ofrece la panorámica más famosa de la ciudad, con la bahía, las playas y el Pan de Azúcar a sus pies.",
+   "d_en": "Unveiled in 1931 and named one of the New Seven Wonders of the World, the open-armed Christ statue crowns Corcovado at 710 m within Tijuca National Park. It offers Rio's most famous panorama, with the bay, beaches and Sugarloaf at its feet.",
+   "h": "Sube en tren cremallera desde Cosme Velho o en van oficial; ve temprano y en día claro.",
+   "h_en": "Ride the cog train from Cosme Velho or an official van; go early and on a clear day.",
+   "i": "Compra entrada con horario online; hay ascensores y escaleras mecánicas hasta la base.",
+   "i_en": "Buy a timed ticket online; escalators and lifts reach the base of the statue."
+  },
+  "w_rio_pao_de_acucar": {
+   "id": "w_rio_pao_de_acucar",
+   "d": "El Pão de Açúcar es un pico de granito que emerge sobre la bahía de Guanabara. Un teleférico en dos tramos parte de la Praia Vermelha, hace escala en el Morro da Urca y sube a la cima, desde donde se abarca toda la ciudad, el mar y las montañas.",
+   "d_en": "Sugarloaf is a granite peak rising over Guanabara Bay. A two-stage cable car departs from Praia Vermelha, stops at Morro da Urca and climbs to the summit, sweeping over the whole city, sea and mountains.",
+   "h": "Ve al atardecer para ver la ciudad iluminarse; el teleférico funciona todo el día.",
+   "h_en": "Go at sunset to watch the city light up; the cable car runs all day.",
+   "i": "Compra billete online para evitar colas; hay senderos para subir a pie al Morro da Urca.",
+   "i_en": "Buy tickets online to avoid queues; trails allow hiking up to Morro da Urca."
+  },
+  "w_rio_copacabana": {
+   "id": "w_rio_copacabana",
+   "d": "La 'princesita del mar' es la playa más célebre de Río, un arco de 4 km bordeado por el paseo de Copacabana con su icónico mosaico portugués ondulado. Punto de vida social, deporte y las mayores fiestas de Fin de Año del mundo.",
+   "d_en": "The 'little princess of the sea' is Rio's most celebrated beach, a 4 km arc lined by the Copacabana promenade with its iconic wavy Portuguese mosaic. A hub of social life, sport and the world's biggest New Year's parties.",
+   "h": "Ideal a cualquier hora; los domingos se cierra la avenida al tráfico para paseantes.",
+   "h_en": "Great any time; on Sundays the avenue closes to traffic for pedestrians.",
+   "i": "Alquila silla y sombrilla en los quioscos; vigila tus objetos y báñate donde haya socorristas.",
+   "i_en": "Rent a chair and umbrella at the kiosks; watch your belongings and swim near lifeguards."
+  },
+  "w_rio_ipanema": {
+   "id": "w_rio_ipanema",
+   "d": "Ipanema es la playa más sofisticada de Río, dividida en 'postos' que reúnen a distintas tribus. Al atardecer, el Arpoador ofrece uno de los mejores puntos para ver ponerse el sol tras las Dos Hermanas, con aplausos incluidos.",
+   "d_en": "Ipanema is Rio's most sophisticated beach, split into 'postos' that gather different crowds. At dusk, Arpoador offers one of the best spots to watch the sun set behind the Two Brothers hills, applause included.",
+   "h": "Ve al atardecer al Arpoador; la Feria Hippie está cerca los domingos.",
+   "h_en": "Head to Arpoador at sunset; the Hippie Fair is nearby on Sundays.",
+   "i": "El agua puede tener corrientes; sigue las banderas y a los socorristas.",
+   "i_en": "The water can have currents; follow the flags and lifeguards."
+  },
+  "w_rio_escadaria_selaron": {
+   "id": "w_rio_escadaria_selaron",
+   "d": "Obra del artista chileno Jorge Selarón, esta escalera que une Lapa y Santa Teresa está revestida con más de 2.000 azulejos de 60 países, en tonos rojo, verde y amarillo. Fue su 'homenaje al pueblo brasileño' y hoy es un icono fotográfico de la ciudad.",
+   "d_en": "Created by Chilean artist Jorge Selarón, this stairway linking Lapa and Santa Teresa is clad with over 2,000 tiles from 60 countries in red, green and yellow. It was his 'tribute to the Brazilian people' and is now a photographic icon.",
+   "h": "Visítala de día por seguridad; muy concurrida a media mañana.",
+   "h_en": "Visit by day for safety; busiest in mid-morning.",
+   "i": "Acceso libre; cuida el bolso y evita la zona de noche.",
+   "i_en": "Free access; mind your bag and avoid the area at night."
+  },
+  "w_rio_maracana": {
+   "id": "w_rio_maracana",
+   "d": "Inaugurado en 1950 para el Mundial, el Maracaná fue uno de los mayores estadios del mundo y escenario del histórico 'Maracanazo'. Renovado para 2014, alberga los grandes clásicos entre Flamengo, Fluminense, Vasco y Botafogo.",
+   "d_en": "Opened in 1950 for the World Cup, the Maracanã was one of the world's largest stadiums and stage of the historic 'Maracanazo'. Refurbished for 2014, it hosts the great derbies between Flamengo, Fluminense, Vasco and Botafogo.",
+   "h": "Vive un partido si coincide; si no, haz el tour guiado del estadio.",
+   "h_en": "Catch a match if you can; otherwise take the guided stadium tour.",
+   "i": "Compra entradas oficiales; llega con tiempo por los controles de seguridad.",
+   "i_en": "Buy official tickets; arrive early for security checks."
+  },
+  "w_rio_jardim_botanico": {
+   "id": "w_rio_jardim_botanico",
+   "d": "Fundado por Don João VI en 1808, este jardín de 140 hectáreas reúne más de 6.500 especies. Destacan la Alameda de las Palmeras Imperiales, el orquideario, los lagos de victorias regias y una rica fauna de tucanes y monos tití.",
+   "d_en": "Founded by Dom João VI in 1808, this 140-hectare garden holds over 6,500 species. Highlights include the Imperial Palm avenue, the orchid house, giant water-lily ponds and rich wildlife of toucans and marmosets.",
+   "h": "Recorrido tranquilo de 2 h; mejor por la mañana para ver fauna.",
+   "h_en": "A relaxed 2 h stroll; mornings are best for wildlife.",
+   "i": "Entrada de pago; hay app y planos para no perderte entre los senderos.",
+   "i_en": "Paid entry; an app and maps help you navigate the trails."
+  },
+  "w_rio_lagoa": {
+   "id": "w_rio_lagoa",
+   "d": "Esta laguna de agua salobre en el corazón de la Zona Sur está bordeada por un paseo de 7,5 km muy popular para correr, patinar y pedalear. Alberga clubes de remo, quioscos gastronómicos y, en Navidad, un enorme árbol flotante.",
+   "d_en": "This brackish lagoon in the heart of the South Zone is ringed by a 7.5 km path popular for running, skating and cycling. It hosts rowing clubs, food kiosks and, at Christmas, a huge floating tree.",
+   "h": "Ve al atardecer; alquila bici o pedalea en los pedalís con forma de cisne.",
+   "h_en": "Go at sunset; rent a bike or ride the swan-shaped pedal boats.",
+   "i": "Los quioscos de la orilla sirven cocina variada hasta tarde.",
+   "i_en": "Lakeside kiosks serve varied cuisine until late."
+  },
+  "w_rio_parque_lage": {
+   "id": "w_rio_parque_lage",
+   "d": "A los pies del Corcovado, este parque combina bosque atlántico y un palacete de los años 20 con un patio de columnas y una piscina fotogénica. Alberga una escuela de artes visuales, un café y senderos que llevan hacia el Cristo Redentor.",
+   "d_en": "At the foot of Corcovado, this park blends Atlantic forest with a 1920s mansion featuring a columned courtyard and a photogenic pool. It houses a visual arts school, a café and trails leading up toward Christ the Redeemer.",
+   "h": "Entrada gratuita; toma un café en el patio y explora los senderos.",
+   "h_en": "Free entry; grab a coffee in the courtyard and explore the trails.",
+   "i": "El sendero al Cristo es exigente; lleva agua y no vayas solo.",
+   "i_en": "The trail to the Christ is demanding; bring water and don't go alone."
+  },
+  "w_rio_santa_teresa": {
+   "id": "w_rio_santa_teresa",
+   "d": "Encaramado en una colina, Santa Teresa conserva mansiones coloniales, estudios de artistas, bares y restaurantes con vistas. El bondinho, tranvía amarillo que cruza los Arcos de Lapa, es su emblema y una de las últimas líneas históricas de Brasil.",
+   "d_en": "Perched on a hill, Santa Teresa preserves colonial mansions, artists' studios, bars and restaurants with views. The bondinho, a yellow tram crossing the Lapa Arches, is its emblem and one of Brazil's last historic lines.",
+   "h": "Recorre el Largo dos Guimarães a pie; sube en el bondinho amarillo.",
+   "h_en": "Wander Largo dos Guimarães on foot; ride the yellow bondinho tram.",
+   "i": "Barrio con desniveles; usa calzado cómodo y precaución con el bolso.",
+   "i_en": "Hilly neighborhood; wear comfy shoes and watch your bag."
+  },
+  "w_rio_catedral_metropolitana": {
+   "id": "w_rio_catedral_metropolitana",
+   "d": "La Catedral de San Sebastián, terminada en 1979, tiene forma de cono maya y cabida para 20.000 personas. Cuatro vidrieras rectilíneas de 64 m de alto suben del suelo al techo bañando de color el vasto interior de hormigón.",
+   "d_en": "The Cathedral of St Sebastian, completed in 1979, has a Mayan-cone shape and holds 20,000 people. Four rectilinear stained-glass windows 64 m tall rise from floor to ceiling, flooding the vast concrete interior with color.",
+   "h": "Entra a ver las vidrieras iluminadas; suele estar abierta de día.",
+   "h_en": "Step in to see the illuminated windows; usually open by day.",
+   "i": "Acceso gratuito; hay un pequeño museo de arte sacro en el subsuelo.",
+   "i_en": "Free access; a small sacred-art museum sits in the basement."
+  },
+  "w_rio_praia_vermelha": {
+   "id": "w_rio_praia_vermelha",
+   "d": "Cala recogida de arena dorada y gruesa, protegida entre los morros de la Urca y el Pan de Azúcar. Sus aguas tranquilas y el arranque del sendero Cláudio Coutinho, que rodea la montaña, la hacen ideal para un paseo natural.",
+   "d_en": "A sheltered cove of thick golden sand tucked between the Urca and Sugarloaf hills. Its calm waters and the start of the Cláudio Coutinho trail circling the mountain make it perfect for a nature walk.",
+   "h": "Combina la playa con el teleférico del Pan de Azúcar, que sale de aquí.",
+   "h_en": "Pair the beach with the Sugarloaf cable car, which departs here.",
+   "i": "El sendero Cláudio Coutinho es llano y suele verse fauna como monos.",
+   "i_en": "The Cláudio Coutinho trail is flat and wildlife like monkeys is common."
+  },
+  "w_rio_mirante_dona_marta": {
+   "id": "w_rio_mirante_dona_marta",
+   "d": "A 360 m de altura en la ladera del Corcovado, este belvedere ofrece una de las panorámicas más completas de Río: el Cristo Redentor a un lado y, al otro, Botafogo, el Pan de Azúcar y la bahía de Guanabara.",
+   "d_en": "At 360 m on the slope of Corcovado, this belvedere offers one of Rio's most complete panoramas: Christ the Redeemer on one side and Botafogo, Sugarloaf and Guanabara Bay on the other.",
+   "h": "Sube en taxi o tour; ideal al amanecer o antes del atardecer.",
+   "h_en": "Come by taxi or tour; best at sunrise or before sunset.",
+   "i": "No hay transporte público directo; ve acompañado por la ubicación aislada.",
+   "i_en": "No direct public transport; go accompanied given the isolated spot."
+  },
+  "w_rio_sambodromo": {
+   "id": "w_rio_sambodromo",
+   "d": "Proyectado por Oscar Niemeyer en 1984, el Sambódromo Marquês de Sapucaí es la pasarela de 700 m donde desfilan las escolas de samba durante el Carnaval ante 90.000 espectadores. Fuera de temporada acoge conciertos y actos.",
+   "d_en": "Designed by Oscar Niemeyer in 1984, the Marquês de Sapucaí Sambadrome is the 700 m runway where samba schools parade during Carnival before 90,000 spectators. Off-season it hosts concerts and events.",
+   "h": "En Carnaval reserva grada con antelación; fuera de fechas puedes visitarlo.",
+   "h_en": "For Carnival book grandstand seats early; visit off-season otherwise.",
+   "i": "Consulta el sector: los 'setores' pares e impares cambian de ambiente y precio.",
+   "i_en": "Check the sector: odd and even 'setores' differ in vibe and price."
+  },
+  "w_rio_theatro_municipal": {
+   "id": "w_rio_theatro_municipal",
+   "d": "Joya de la Belle Époque carioca inaugurada en 1909, su fachada, mármoles, mosaicos y salón de espejos evocan la Ópera de París. Es la principal sala de ópera, ballet y conciertos de la ciudad, en la Cinelândia.",
+   "d_en": "A jewel of Rio's Belle Époque opened in 1909, its façade, marble, mosaics and mirror hall echo the Paris Opera. It is the city's main venue for opera, ballet and concerts, on Cinelândia square.",
+   "h": "Haz el tour guiado o asiste a una función para ver el interior.",
+   "h_en": "Take the guided tour or attend a show to see the interior.",
+   "i": "Los tours tienen horarios fijos; consulta la web para reservar.",
+   "i_en": "Tours run at set times; check the website to book."
+  },
+  "w_rio_real_gabinete": {
+   "id": "w_rio_real_gabinete",
+   "d": "Fundado en 1837 por la comunidad portuguesa, este gabinete de estilo neomanuelino guarda unos 350.000 volúmenes en estanterías de madera tallada que se elevan tres pisos bajo una claraboya de hierro y vidrio. Un templo de la lectura.",
+   "d_en": "Founded in 1837 by the Portuguese community, this Neo-Manueline reading room holds some 350,000 volumes on carved wooden shelves rising three floors beneath an iron-and-glass skylight. A temple of reading.",
+   "h": "Visita corta pero imprescindible; abre en horario de oficina laborable.",
+   "h_en": "A short but essential visit; open office hours on weekdays.",
+   "i": "Entrada gratuita; guarda silencio pues sigue siendo biblioteca en uso.",
+   "i_en": "Free entry; keep quiet as it remains a working library."
+  },
+  "w_rio_museu_do_amanha": {
+   "id": "w_rio_museu_do_amanha",
+   "d": "Diseñado por Santiago Calatrava y abierto en 2015, el Museu do Amanhã es un museo de ciencias sostenible sobre el futuro del planeta. Su estructura voladiza sobre la bahía, con paneles solares móviles, ancla la revitalizada zona portuaria.",
+   "d_en": "Designed by Santiago Calatrava and opened in 2015, the Museu do Amanhã is a sustainable science museum about the planet's future. Its cantilevered structure over the bay, with moving solar panels, anchors the revitalized port area.",
+   "h": "Combínalo con el paseo Olímpico y el mural de Kobra cercano.",
+   "h_en": "Combine it with the Olympic Boulevard and the nearby Kobra mural.",
+   "i": "Entrada de pago (martes suele ser gratis); reserva online en temporada alta.",
+   "i_en": "Paid entry (Tuesdays often free); book online in high season."
+  },
+  "w_rio_arcos_da_lapa": {
+   "id": "w_rio_arcos_da_lapa",
+   "d": "Construido en el siglo XVIII para traer agua a la ciudad, el Aqueduto da Carioca tiene 270 m y 42 arcos blancos. Hoy sostiene el tranvía de Santa Teresa y preside el barrio de Lapa, epicentro de la samba y la vida nocturna.",
+   "d_en": "Built in the 18th century to bring water to the city, the Carioca Aqueduct is 270 m long with 42 white arches. Today it carries the Santa Teresa tram and presides over Lapa, the epicenter of samba and nightlife.",
+   "h": "De día para fotos; de noche los bares de Lapa se llenan de música en vivo.",
+   "h_en": "By day for photos; at night Lapa's bars fill with live music.",
+   "i": "Zona muy animada de noche; ve en grupo y cuida tus pertenencias.",
+   "i_en": "Very lively at night; go in a group and mind your belongings."
+  },
+  "w_rio_candelaria": {
+   "id": "w_rio_candelaria",
+   "d": "Levantada entre los siglos XVIII y XIX, la Igreja de Nossa Senhora da Candelária destaca por su gran cúpula, su mármol italiano y sus puertas de bronce. Se alza en el corazón financiero de Río, sobre una plaza rodeada de tráfico.",
+   "d_en": "Built between the 18th and 19th centuries, the Church of Our Lady of Candelária stands out for its great dome, Italian marble and bronze doors. It rises in Rio's financial heart on a traffic-ringed square.",
+   "h": "Visita rápida al pasar por el Centro; entra a ver el interior de mármol.",
+   "h_en": "A quick stop while in the center; step in to see the marble interior.",
+   "i": "Consulta horarios de misa; el entorno es tranquilo en día laborable.",
+   "i_en": "Check mass times; the area is quiet on weekdays."
+  },
+  "w_rio_leblon": {
+   "id": "w_rio_leblon",
+   "d": "Separada de Ipanema por el canal del Jardim de Alá, Leblon es la playa del barrio más exclusivo de Río, algo más tranquila y familiar. En su extremo oeste, el Mirante do Leblon ofrece bonitas vistas al atardecer.",
+   "d_en": "Separated from Ipanema by the Jardim de Alá canal, Leblon is the beach of Rio's most upscale district, a touch calmer and more family-friendly. At its west end, the Mirante do Leblon offers lovely sunset views.",
+   "h": "El Posto 12 tiene zona para familias; sube al mirante al atardecer.",
+   "h_en": "Posto 12 has a family area; climb to the viewpoint at sunset.",
+   "i": "Barrio con buenos restaurantes; combina playa y cena en Leblon.",
+   "i_en": "The district has great restaurants; pair beach and dinner in Leblon."
+  },
+  "w_rio_floresta_tijuca": {
+   "id": "w_rio_floresta_tijuca",
+   "d": "El Parque Nacional da Tijuca es una selva atlántica replantada en el siglo XIX que envuelve la ciudad. Ofrece cascadas como la Cascatinha Taunay, miradores como la Vista Chinesa y senderos hacia el Pico da Tijuca, el punto más alto de Río.",
+   "d_en": "Tijuca National Park is an Atlantic rainforest replanted in the 19th century that wraps around the city. It offers waterfalls like Cascatinha Taunay, viewpoints such as Vista Chinesa and trails to Pico da Tijuca, Rio's highest point.",
+   "h": "Recórrelo en coche o tour; reserva medio día para cascadas y miradores.",
+   "h_en": "Explore by car or tour; set aside half a day for waterfalls and views.",
+   "i": "Lleva agua y repelente; algunos senderos requieren cierta forma física.",
+   "i_en": "Bring water and repellent; some trails need moderate fitness."
+  },
+  "w_rio_aquario": {
+   "id": "w_rio_aquario",
+   "d": "Inaugurado en 2016, AquaRio reúne unos 8.000 animales de 350 especies en 4,5 millones de litros de agua. Su túnel submarino permite ver rayas y tiburones sobre tu cabeza; ideal para familias y días de lluvia.",
+   "d_en": "Opened in 2016, AquaRio houses some 8,000 animals of 350 species in 4.5 million litres of water. Its underwater tunnel lets you watch rays and sharks overhead; ideal for families and rainy days.",
+   "h": "Reserva franja horaria online; suele estar concurrido los fines de semana.",
+   "h_en": "Book a time slot online; it gets busy on weekends.",
+   "i": "Está en la zona portuaria renovada, cerca del Museo del Mañana.",
+   "i_en": "It sits in the revitalized port area, near the Museu do Amanhã."
+  },
+  "w_rio_feira_sao_cristovao": {
+   "id": "w_rio_feira_sao_cristovao",
+   "d": "Este recinto techado, oficialmente Centro de Tradições Nordestinas, celebra la cultura del Nordeste brasileño con cientos de puestos de comida, artesanía, forró en vivo y baile. Una inmersión festiva lejos del circuito de playa.",
+   "d_en": "This covered venue, officially the Centro de Tradições Nordestinas, celebrates northeastern Brazilian culture with hundreds of food and craft stalls, live forró and dancing. A festive immersion beyond the beach circuit.",
+   "h": "Los fines de semana está en pleno apogeo, con música hasta la madrugada.",
+   "h_en": "Weekends are in full swing, with music into the early hours.",
+   "i": "Ve en taxi o app; prueba la carne de sol y la tapioca.",
+   "i_en": "Go by taxi or app; try the carne de sol and tapioca."
+  },
+  "w_rio_pedra_do_sal": {
+   "id": "w_rio_pedra_do_sal",
+   "d": "En la 'Pequeña África' portuaria, esta escalinata de piedra es considerada una cuna de la samba carioca. Varias noches por semana se llena de músicos y bailarines en rodas de samba gratuitas, con puestos de cerveza y caipiriña.",
+   "d_en": "In the port's 'Little Africa', this stone stairway is regarded as a cradle of Rio samba. Several nights a week it fills with musicians and dancers in free samba circles, with beer and caipirinha stalls.",
+   "h": "Los lunes y viernes por la noche hay roda de samba; llega temprano.",
+   "h_en": "Monday and Friday nights host the samba roda; arrive early.",
+   "i": "Ambiente muy popular y concurrido; lleva poco efectivo y cuida el móvil.",
+   "i_en": "Very lively, crowded scene; carry little cash and mind your phone."
+  },
+  "w_rio_rio_scenarium": {
+   "id": "w_rio_rio_scenarium",
+   "d": "Uno de los locales de música en vivo más famosos de Río, en un edificio de tres plantas repleto de antigüedades, relojes y objetos de escenografía. Ofrece samba y música brasileña en directo para bailar en pleno barrio de Lapa.",
+   "d_en": "One of Rio's most famous live-music venues, in a three-storey building crammed with antiques, clocks and stage props. It offers live samba and Brazilian music for dancing in the heart of Lapa.",
+   "h": "Abre de noche de miércoles a sábado; llega pronto para conseguir mesa.",
+   "h_en": "Open nights Wednesday to Saturday; arrive early to get a table.",
+   "i": "Suele haber entrada o consumición mínima; ve en taxi o app de noche.",
+   "i_en": "There's usually a cover or minimum spend; go by taxi or app at night."
+  },
+  "w_rio_confeitaria_colombo": {
+   "id": "w_rio_confeitaria_colombo",
+   "d": "Institución carioca desde 1894, la Confeitaria Colombo conserva un salón art nouveau con enormes espejos belgas, mármol de Carrara y vitrales. Famosa por su té de la tarde, sus pasteles y su ambiente de otra época en pleno Centro.",
+   "d_en": "A Rio institution since 1894, Confeitaria Colombo preserves an art nouveau hall with vast Belgian mirrors, Carrara marble and stained glass. Famous for its afternoon tea, pastries and old-world atmosphere in the center.",
+   "h": "Ve a media tarde para el té; el buffet del piso superior es muy popular.",
+   "h_en": "Come mid-afternoon for tea; the upstairs buffet is very popular.",
+   "i": "Puede haber cola en horas punta; hay sucursal más pequeña en Copacabana.",
+   "i_en": "Expect queues at peak times; a smaller branch exists in Copacabana."
+  },
+  "w_rio_bar_do_mineiro": {
+   "id": "w_rio_bar_do_mineiro",
+   "d": "En el corazón de Santa Teresa, este boteco de paredes cubiertas de fotos sirve cocina tradicional de Minas Gerais. Su feijoada, disponible a diario, y sus pastéis y caipiriñas lo han convertido en parada obligada del barrio.",
+   "d_en": "In the heart of Santa Teresa, this boteco with photo-covered walls serves traditional Minas Gerais cooking. Its feijoada, available daily, plus pastéis and caipirinhas make it a neighborhood must.",
+   "h": "Ideal para almorzar feijoada; suele llenarse los fines de semana.",
+   "h_en": "Great for a feijoada lunch; it fills up on weekends.",
+   "i": "Efectivo y tarjeta; combina la visita con un paseo por Santa Teresa.",
+   "i_en": "Cash and card accepted; pair it with a stroll around Santa Teresa."
+  },
+  "w_rio_aprazivel": {
+   "id": "w_rio_aprazivel",
+   "d": "Encaramado en lo alto de Santa Teresa, Aprazível sirve alta cocina brasileña en mesas repartidas por un jardín tropical con vistas a la bahía de Guanabara. Su galinha con quiabo y su ambiente romántico lo hacen destino de ocasión.",
+   "d_en": "Perched high in Santa Teresa, Aprazível serves refined Brazilian cuisine at tables set across a tropical garden overlooking Guanabara Bay. Its galinha with okra and romantic setting make it a special-occasion spot.",
+   "h": "Reserva mesa con vistas al atardecer; ve en taxi por la cuesta.",
+   "h_en": "Book a table with sunset views; take a taxi up the hill.",
+   "i": "Precios altos; imprescindible reservar, sobre todo fines de semana.",
+   "i_en": "Prices are high; booking is essential, especially at weekends."
+  },
+  "w_rio_garota_de_ipanema": {
+   "id": "w_rio_garota_de_ipanema",
+   "d": "Este bar de Ipanema es donde Tom Jobim y Vinícius de Moraes compusieron en 1962 la bossa nova más famosa del mundo, inspirados por una joven que pasaba. Hoy sirve picoteo, picanha y cervezas en un ambiente cargado de historia musical.",
+   "d_en": "This Ipanema bar is where Tom Jobim and Vinícius de Moraes wrote the world's most famous bossa nova in 1962, inspired by a passing young woman. Today it serves snacks, picanha and beers steeped in musical history.",
+   "h": "Buen alto para una cerveza tras la playa; a una calle del mar.",
+   "h_en": "A nice stop for a beer after the beach; one block from the sea.",
+   "i": "Muy turístico y algo caro; ideal por el valor histórico más que gastronómico.",
+   "i_en": "Very touristy and a bit pricey; go for the history more than the food."
+  },
+  "w_rio_cervantes": {
+   "id": "w_rio_cervantes",
+   "d": "Institución nocturna de Copacabana desde 1955, Cervantes es célebre por sus sándwiches de carne o cerdo coronados con una rodaja de piña. Abierto hasta la madrugada, es parada clásica tras una noche de fiesta en la Zona Sur.",
+   "d_en": "A Copacabana night-time institution since 1955, Cervantes is famous for its beef or pork sandwiches crowned with a slice of pineapple. Open until dawn, it's a classic stop after a night out in the South Zone.",
+   "h": "Perfecto de madrugada; hay barra rápida y sala con mesas al lado.",
+   "h_en": "Perfect in the small hours; a quick counter and a table room next door.",
+   "i": "Puede haber cola de noche; lleva efectivo por si acaso.",
+   "i_en": "Expect a late-night queue; bring cash just in case."
+  },
+  "w_rio_bar_urca": {
+   "id": "w_rio_bar_urca",
+   "d": "En el tranquilo barrio de Urca, este clásico sirve empanadas de gambas y cervezas frías que los cariocas disfrutan sentados en el murete de la bahía, con el Pan de Azúcar de fondo. Ambiente local y atardeceres inolvidables.",
+   "d_en": "In the quiet Urca neighborhood, this classic serves shrimp pastéis and cold beers that locals enjoy sitting on the bay's sea wall, with Sugarloaf as a backdrop. Local vibe and unforgettable sunsets.",
+   "h": "Ve al atardecer, compra en la ventana y siéntate en el murete.",
+   "h_en": "Go at sunset, order at the window and sit on the sea wall.",
+   "i": "Se paga dentro y se bebe fuera; cuida el nivel del mar en marea alta.",
+   "i_en": "Pay inside and drink outside; watch the tide on the wall."
+  }
+ },
+ "food": {
+  "w_rio_confeitaria_colombo": {
+   "cuisine": "Café histórico y pastelería",
+   "price": "10–30 €",
+   "hours": "Lun–Sáb 09:00–20:00"
+  },
+  "w_rio_bar_do_mineiro": {
+   "cuisine": "Cocina mineira y feijoada",
+   "price": "15–35 €",
+   "hours": "Mar–Dom 11:00–00:00"
+  },
+  "w_rio_aprazivel": {
+   "cuisine": "Cocina brasileña contemporánea",
+   "price": "40–80 €",
+   "hours": "Mar–Dom 12:00–23:00"
+  },
+  "w_rio_garota_de_ipanema": {
+   "cuisine": "Boteco y cocina brasileña",
+   "price": "20–45 €",
+   "hours": "Todos los días 11:00–01:00"
+  },
+  "w_rio_cervantes": {
+   "cuisine": "Sándwiches y bocadillos",
+   "price": "10–25 €",
+   "hours": "Mar–Dom 12:00–04:00"
+  },
+  "w_rio_bar_urca": {
+   "cuisine": "Botecos y tapas de mar",
+   "price": "15–35 €",
+   "hours": "Todos los días 10:00–00:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Río de Janeiro",
+   "items": [
+    {
+     "name": "Havaianas",
+     "price": "10–30 €",
+     "desc": "Las icónicas chanclas brasileñas, más baratas y con más modelos que en Europa."
+    },
+    {
+     "name": "Sandalias y bikini de playa",
+     "price": "15–50 €",
+     "desc": "Moda de playa carioca, el famoso bikini 'fio dental' y pareos coloridos."
+    },
+    {
+     "name": "Cachaça artesanal",
+     "price": "8–25 €",
+     "desc": "El destilado de caña base de la caipirinha; hay marcas premium envejecidas."
+    },
+    {
+     "name": "Café y granos de Brasil",
+     "price": "6–15 €",
+     "desc": "Café brasileño de calidad, ideal como regalo aromático."
+    },
+    {
+     "name": "Piedras semipreciosas y joyería",
+     "price": "20–150 €",
+     "desc": "Turmalinas, amatistas y aguamarinas; Brasil es potencia mundial en gemas."
+    },
+    {
+     "name": "Camiseta de fútbol de Brasil",
+     "price": "25–80 €",
+     "desc": "La verdeamarela o clubes locales como Flamengo, muy presentes en Río."
+    },
+    {
+     "name": "Arte y figuras de Selarón",
+     "price": "5–20 €",
+     "desc": "Azulejos, imanes y láminas inspiradas en la Escadaria Selarón."
+    }
+   ],
+   "shops": [
+    "Feira Hippie de Ipanema (Praça General Osório, domingos)",
+    "Saara (mercado popular en el Centro)",
+    "Feira de São Cristóvão",
+    "Shopping Rio Sul (Botafogo)",
+    "Havaianas flagship (Ipanema)"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Sube al Corcovado y al Pan de Azúcar temprano o en día despejado; consulta la webcam y compra entradas online para evitar colas.",
+   "Lleva solo lo justo a la playa: deja pasaporte y objetos de valor en el hotel y usa una copia del documento.",
+   "Muévete en metro, que es seguro y rápido; para Santa Teresa combina metro y el tranvía histórico (bondinho).",
+   "Prueba la caipirinha, el açaí y el 'pão de queijo', y come pescado o feijoada los sábados como los cariocas.",
+   "Evita zonas de favela sin guía y ostentar móvil o joyas; de noche desplázate en taxi o app, sobre todo en Lapa y Centro."
+  ],
+  "en": [
+   "Go up Corcovado and Sugarloaf early or on a clear day; check the webcam and buy tickets online to skip queues.",
+   "Take only the essentials to the beach: leave passport and valuables at the hotel and carry a copy of your ID.",
+   "Use the metro, which is safe and fast; for Santa Teresa combine metro with the historic tram (bondinho).",
+   "Try a caipirinha, açaí and 'pão de queijo', and eat fish or feijoada on Saturdays like the locals do.",
+   "Avoid favela areas without a guide and don't flash phones or jewelry; travel by taxi or app at night, especially in Lapa and Centro."
+  ]
+ },
+ "climate": {
+  "hi": [
+   30,
+   30,
+   29,
+   27,
+   26,
+   25,
+   25,
+   25,
+   25,
+   26,
+   27,
+   29
+  ],
+  "lo": [
+   23,
+   24,
+   23,
+   22,
+   20,
+   19,
+   18,
+   19,
+   19,
+   20,
+   21,
+   22
+  ]
+ },
+ "tr": {
+  "Estatua art déco de 38 m sobre el cerro Corcovado, símbolo de Río.": "38 m art déco statue atop Corcovado hill, the symbol of Rio.",
+  "Morro de granito de 396 m accesible por teleférico con vistas 360°.": "396 m granite peak reached by cable car with 360° views.",
+  "Playa urbana de 4 km con su famoso paseo de olas de mosaico.": "4 km urban beach with its famous wave-patterned mosaic promenade.",
+  "Elegante playa inmortalizada por la 'Garota de Ipanema'.": "Chic beach immortalized by 'The Girl from Ipanema'.",
+  "Escalinata de 215 peldaños cubierta de azulejos de colores.": "215-step stairway covered in colorful tiles.",
+  "Templo del fútbol brasileño, sede de dos finales de Mundial.": "Temple of Brazilian football, host of two World Cup finals.",
+  "Jardín histórico de 1808 con palmeras imperiales y orquídeas.": "Historic 1808 garden with imperial palms and orchids.",
+  "Laguna con paseo de 7,5 km rodeada de montañas y el Cristo.": "Lagoon with a 7.5 km loop framed by mountains and the Christ.",
+  "Parque con palacete ecléctico al pie del Corcovado.": "Park with an eclectic mansion at the foot of Corcovado.",
+  "Barrio bohemio de calles empinadas y el tranvía histórico.": "Bohemian hilltop neighborhood with its historic tram.",
+  "Catedral cónica modernista con vidrieras de 64 m.": "Modernist conical cathedral with 64 m stained-glass windows.",
+  "Pequeña playa de arena gruesa a los pies del Pan de Azúcar.": "Small coarse-sand beach at the foot of Sugarloaf.",
+  "Mirador panorámico con la mejor vista del Cristo y la bahía.": "Panoramic viewpoint with the best view of the Christ and bay.",
+  "Avenida-desfile diseñada por Niemeyer para el Carnaval.": "Parade avenue designed by Niemeyer for Carnival.",
+  "Ópera de 1909 inspirada en el Palais Garnier de París.": "1909 opera house inspired by the Paris Palais Garnier.",
+  "Biblioteca neomanuelina considerada de las más bellas del mundo.": "Neo-Manueline library rated among the world's most beautiful.",
+  "Museo de ciencias futurista de Calatrava en el puerto.": "Calatrava's futuristic science museum on the waterfront.",
+  "Acueducto colonial de 42 arcos y corazón de la noche carioca.": "Colonial 42-arch aqueduct and heart of Rio's nightlife.",
+  "Imponente iglesia barroca y neoclásica del Centro histórico.": "Imposing baroque-neoclassical church in the old center.",
+  "Continuación tranquila y exclusiva de Ipanema.": "The quieter, upscale continuation of Ipanema.",
+  "Uno de los mayores bosques urbanos del mundo.": "One of the world's largest urban forests.",
+  "El mayor acuario marino de Sudamérica en la zona portuaria.": "South America's largest marine aquarium in the port area.",
+  "Feria del Nordeste con música, baile y comida típica.": "Northeastern fair with music, dance and regional food.",
+  "Cuna de la samba con rodas al aire libre.": "Birthplace of samba with open-air roda gatherings.",
+  "Casa de samba en un caserón de anticuario en Lapa.": "Samba house in an antique-filled Lapa mansion.",
+  "Café Belle Époque de 1894 con espejos y vitrales.": "1894 Belle Époque café with mirrors and stained glass.",
+  "Bar clásico de Santa Teresa famoso por su feijoada.": "Classic Santa Teresa bar famous for its feijoada.",
+  "Restaurante con jardín y vistas a la bahía en Santa Teresa.": "Garden restaurant with bay views in Santa Teresa.",
+  "Bar donde se compuso la canción 'Garota de Ipanema'.": "Bar where the song 'Girl from Ipanema' was written.",
+  "Legendario bar de sándwiches con piña, abierto de madrugada.": "Legendary sandwich bar with pineapple, open till dawn.",
+  "Boteco frente al mar donde se bebe en el murete de la bahía.": "Seafront boteco where drinks are had on the bay wall.",
+  "Río de Janeiro": "Río de Janeiro"
+ }
+}

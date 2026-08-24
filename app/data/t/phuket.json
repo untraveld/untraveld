@@ -1,0 +1,703 @@
+{
+ "id": "phuket",
+ "name": "Phuket",
+ "country": "WORLD",
+ "center": [
+  7.8906,
+  98.3981
+ ],
+ "pois": [
+  {
+   "id": "w_phu_big_buddha",
+   "cat": "monuments",
+   "name": "Gran Buda de Phuket",
+   "icon": "🧘",
+   "lat": 7.82773,
+   "lng": 98.31281,
+   "desc": "Buda de mármol blanco de 45 m sobre la colina de Nakkerd."
+  },
+  {
+   "id": "w_phu_wat_chalong",
+   "cat": "monuments",
+   "name": "Wat Chalong",
+   "icon": "🛕",
+   "lat": 7.84621,
+   "lng": 98.3372,
+   "desc": "El templo budista más grande y venerado de Phuket."
+  },
+  {
+   "id": "w_phu_old_town",
+   "cat": "monuments",
+   "name": "Casco Antiguo (Old Town)",
+   "icon": "🏘️",
+   "lat": 7.88472,
+   "lng": 98.3882,
+   "desc": "Calles sino-portuguesas de colores en el corazón histórico."
+  },
+  {
+   "id": "w_phu_bang_neow_shrine",
+   "cat": "monuments",
+   "name": "Santuario Bang Neow",
+   "icon": "🏮",
+   "lat": 7.87657,
+   "lng": 98.39436,
+   "desc": "Templo chino clave del Festival Vegetariano."
+  },
+  {
+   "id": "w_phu_jui_tui_shrine",
+   "cat": "monuments",
+   "name": "Santuario Jui Tui",
+   "icon": "🐉",
+   "lat": 7.88317,
+   "lng": 98.38346,
+   "desc": "Colorido templo chino dedicado a Tean Hu Huan Soy."
+  },
+  {
+   "id": "w_phu_thai_hua_museum",
+   "cat": "monuments",
+   "name": "Museo Thai Hua",
+   "icon": "🏛️",
+   "lat": 7.8856,
+   "lng": 98.3856,
+   "desc": "Antigua escuela china convertida en museo del Old Town."
+  },
+  {
+   "id": "w_phu_wat_suwan_khiri",
+   "cat": "monuments",
+   "name": "Wat Suwan Khiri Wong",
+   "icon": "⛩️",
+   "lat": 7.849,
+   "lng": 98.298,
+   "desc": "Templo local junto a la playa de Karon."
+  },
+  {
+   "id": "w_phu_wat_phra_thong",
+   "cat": "monuments",
+   "name": "Wat Phra Thong",
+   "icon": "🟡",
+   "lat": 8.0287,
+   "lng": 98.3255,
+   "desc": "Templo del Buda dorado medio enterrado."
+  },
+  {
+   "id": "w_phu_patong_beach",
+   "cat": "nature",
+   "name": "Playa Patong",
+   "icon": "🏖️",
+   "lat": 7.89616,
+   "lng": 98.29676,
+   "desc": "La playa más animada y turística de Phuket."
+  },
+  {
+   "id": "w_phu_karon_beach",
+   "cat": "nature",
+   "name": "Playa Karon",
+   "icon": "🌊",
+   "lat": 7.8467,
+   "lng": 98.2936,
+   "desc": "Larga playa de arena blanca chirriante."
+  },
+  {
+   "id": "w_phu_kata_beach",
+   "cat": "nature",
+   "name": "Playa Kata",
+   "icon": "🏄",
+   "lat": 7.8189,
+   "lng": 98.2985,
+   "desc": "Playa curva ideal para familias y surfistas."
+  },
+  {
+   "id": "w_phu_kata_noi",
+   "cat": "nature",
+   "name": "Playa Kata Noi",
+   "icon": "🐚",
+   "lat": 7.8114,
+   "lng": 98.2976,
+   "desc": "Cala tranquila y recogida junto a Kata."
+  },
+  {
+   "id": "w_phu_nai_harn",
+   "cat": "nature",
+   "name": "Playa Nai Harn",
+   "icon": "🌴",
+   "lat": 7.77617,
+   "lng": 98.30594,
+   "desc": "Playa de postal en el extremo sur."
+  },
+  {
+   "id": "w_phu_freedom_beach",
+   "cat": "nature",
+   "name": "Playa Freedom",
+   "icon": "⛵",
+   "lat": 7.87491,
+   "lng": 98.27504,
+   "desc": "Cala paradisíaca de acceso solo por barco."
+  },
+  {
+   "id": "w_phu_promthep_cape",
+   "cat": "nature",
+   "name": "Cabo Promthep",
+   "icon": "🌅",
+   "lat": 7.7618,
+   "lng": 98.3047,
+   "desc": "El mejor mirador del atardecer de Phuket."
+  },
+  {
+   "id": "w_phu_karon_viewpoint",
+   "cat": "nature",
+   "name": "Mirador de las 3 playas",
+   "icon": "👀",
+   "lat": 7.806,
+   "lng": 98.3064,
+   "desc": "Panorámica de Kata Noi, Kata y Karon."
+  },
+  {
+   "id": "w_phu_phi_phi",
+   "cat": "nature",
+   "name": "Islas Phi Phi",
+   "icon": "🏝️",
+   "lat": 7.7384,
+   "lng": 98.7784,
+   "desc": "Excursión estrella a bahías de aguas turquesas."
+  },
+  {
+   "id": "w_phu_phang_nga",
+   "cat": "nature",
+   "name": "Bahía de Phang Nga (isla James Bond)",
+   "icon": "🚤",
+   "lat": 8.2747,
+   "lng": 98.4999,
+   "desc": "Islotes kársticos y la roca de 'El hombre de la pistola de oro'."
+  },
+  {
+   "id": "w_phu_windmill_viewpoint",
+   "cat": "nature",
+   "name": "Mirador del Molino (Windmill)",
+   "icon": "🗻",
+   "lat": 7.76972,
+   "lng": 98.30634,
+   "desc": "Vistas de acantilados y mar turquesa hacia Nai Harn."
+  },
+  {
+   "id": "w_phu_coral_island",
+   "cat": "nature",
+   "name": "Isla Coral (Koh Hae)",
+   "icon": "🐠",
+   "lat": 7.7238,
+   "lng": 98.3696,
+   "desc": "Islita cercana con arrecifes y aguas claras."
+  },
+  {
+   "id": "w_phu_bangla_road",
+   "cat": "ocio",
+   "name": "Bangla Road",
+   "icon": "🎉",
+   "lat": 7.8934,
+   "lng": 98.2974,
+   "desc": "La calle de la fiesta nocturna de Patong."
+  },
+  {
+   "id": "w_phu_simon_cabaret",
+   "cat": "ocio",
+   "name": "Simon Cabaret",
+   "icon": "💃",
+   "lat": 7.884,
+   "lng": 98.2996,
+   "desc": "Espectáculo de cabaret ladyboy más famoso de la isla."
+  },
+  {
+   "id": "w_phu_fantasea",
+   "cat": "ocio",
+   "name": "Phuket FantaSea",
+   "icon": "🎪",
+   "lat": 7.9499,
+   "lng": 98.2823,
+   "desc": "Parque temático y megaespectáculo cultural nocturno."
+  },
+  {
+   "id": "w_phu_jungceylon",
+   "cat": "ocio",
+   "name": "Jungceylon (Patong)",
+   "icon": "🛍️",
+   "lat": 7.8924,
+   "lng": 98.2996,
+   "desc": "Gran centro comercial y de ocio en Patong."
+  },
+  {
+   "id": "w_phu_one_chun",
+   "cat": "food",
+   "name": "One Chun Café & Restaurant",
+   "icon": "🍜",
+   "lat": 7.88571,
+   "lng": 98.3907,
+   "desc": "Cocina casera phuketiana en una casa antigua."
+  },
+  {
+   "id": "w_phu_tu_kab_khao",
+   "cat": "food",
+   "name": "Tu Kab Khao",
+   "icon": "🦀",
+   "lat": 7.8837,
+   "lng": 98.3879,
+   "desc": "Cocina phuketiana con estilo en el Old Town."
+  },
+  {
+   "id": "w_phu_raya",
+   "cat": "food",
+   "name": "Raya Restaurant",
+   "icon": "🍛",
+   "lat": 7.88594,
+   "lng": 98.39095,
+   "desc": "Clásico de la cocina tailandesa en mansión histórica."
+  },
+  {
+   "id": "w_phu_kan_eang",
+   "cat": "food",
+   "name": "Kan Eang@Pier",
+   "icon": "🦐",
+   "lat": 7.82012,
+   "lng": 98.34418,
+   "desc": "Marisco fresco frente al muelle de Chalong."
+  },
+  {
+   "id": "w_phu_rimlay_rawai",
+   "cat": "food",
+   "name": "Rimlay Restaurant (Rawai)",
+   "icon": "🐟",
+   "lat": 7.77482,
+   "lng": 98.32637,
+   "desc": "Marisco sencillo y auténtico frente al mar de Rawai."
+  },
+  {
+   "id": "w_phu_lock_tien",
+   "cat": "food",
+   "name": "Lock Tien Food Court",
+   "icon": "🍢",
+   "lat": 7.8845,
+   "lng": 98.3883,
+   "desc": "Puestos de platos típicos de Phuket en el Old Town."
+  }
+ ],
+ "extra": {
+  "w_phu_big_buddha": {
+   "id": "w_phu_big_buddha",
+   "d": "Coloso de 45 metros revestido de mármol de Birmania que corona la colina de Nakkerd, entre Chalong y Kata. Desde su base se abren vistas de 360º sobre la bahía de Chalong, Kata y el interior selvático de la isla.",
+   "d_en": "A 45-metre colossus clad in Burmese marble crowning Nakkerd Hill between Chalong and Kata. Its terrace offers 360º views over Chalong Bay, Kata and the island's jungle interior.",
+   "h": "Abierto a diario, de 6:00 a 19:00; entrada gratuita (donativo). Sube en moto o taxi por la carretera empinada.",
+   "h_en": "Open daily 6:00-19:00; free entry (donation). Reach it by scooter or taxi up the steep road.",
+   "i": "Cubre hombros y rodillas; el mejor momento es el atardecer, cuando el mármol se tiñe de dorado.",
+   "i_en": "Cover shoulders and knees; sunset is best, when the marble turns golden."
+  },
+  "w_phu_wat_chalong": {
+   "id": "w_phu_wat_chalong",
+   "d": "Complejo de templos del siglo XIX dedicado a dos monjes sanadores muy venerados. Su gran chedi dorado guarda una reliquia de Buda y sus salones lucen frescos, ofrendas de oro y detonaciones de petardos de agradecimiento.",
+   "d_en": "A 19th-century temple complex honouring two revered healing monks. Its tall golden chedi enshrines a relic of the Buddha, and its halls glow with murals, gold leaf and thanksgiving firecrackers.",
+   "h": "Abierto a diario, de 7:00 a 17:00; entrada gratuita. A 15 minutos en coche del sur de la isla.",
+   "h_en": "Open daily 7:00-17:00; free entry. About 15 minutes by car from the south of the island.",
+   "i": "Sube a lo alto del chedi para ver de cerca los murales y las vistas del recinto.",
+   "i_en": "Climb the chedi's upper floors for close-up murals and views over the grounds."
+  },
+  "w_phu_old_town": {
+   "id": "w_phu_old_town",
+   "d": "El barrio histórico de Phuket alinea mansiones y casas comerciales sino-portuguesas de tonos pastel a lo largo de Thalang, Dibuk y Soi Romanee. Cafés, galerías, murales y tiendas de época conviven en un ambiente de puerto colonial.",
+   "d_en": "Phuket's historic quarter lines pastel Sino-Portuguese mansions and shophouses along Thalang, Dibuk and Soi Romanee. Cafes, galleries, murals and vintage shops fill a colonial port atmosphere.",
+   "h": "Accesible siempre; el mercado nocturno de los domingos (Lard Yai) anima Thalang Road de 16:00 a 22:00.",
+   "h_en": "Always accessible; the Sunday night market (Lard Yai) enlivens Thalang Road 16:00-22:00.",
+   "i": "Piérdete por Soi Romanee para las mejores fachadas y busca los murales callejeros escondidos.",
+   "i_en": "Wander Soi Romanee for the finest facades and hunt the hidden street murals."
+  },
+  "w_phu_bang_neow_shrine": {
+   "id": "w_phu_bang_neow_shrine",
+   "d": "Templo taoísta chino fundado por la comunidad hokkien de Phuket, con dragones tallados, incienso perpetuo y altares recargados. Es uno de los epicentros del intenso Festival Vegetariano de octubre.",
+   "d_en": "A Chinese Taoist shrine founded by Phuket's Hokkien community, with carved dragons, endless incense and ornate altars. It is a focal point of the intense October Vegetarian Festival.",
+   "h": "Abierto a diario, aprox. de 6:00 a 18:00; entrada gratuita. En el sur del Old Town.",
+   "h_en": "Open daily approx. 6:00-18:00; free entry. In the southern Old Town.",
+   "i": "Si viajas en octubre, el Festival Vegetariano ofrece procesiones impactantes; el resto del año, calma y arquitectura.",
+   "i_en": "Visiting in October means dramatic Vegetarian Festival processions; otherwise calm and architecture."
+  },
+  "w_phu_jui_tui_shrine": {
+   "id": "w_phu_jui_tui_shrine",
+   "d": "Uno de los santuarios chinos más antiguos y coloridos de Phuket, dedicado al dios Tean Hu Huan Soy. Sus tejados de dragones, farolillos rojos y patios de incienso lo convierten en parada obligada del casco histórico.",
+   "d_en": "One of Phuket's oldest and most colourful Chinese shrines, dedicated to the deity Tean Hu Huan Soy. Dragon roofs, red lanterns and incense courtyards make it a historic-quarter must.",
+   "h": "Abierto a diario, aprox. de 8:00 a 20:00; entrada gratuita. Junto a la plaza de Ranong.",
+   "h_en": "Open daily approx. 8:00-20:00; free entry. Next to Ranong square.",
+   "i": "Es el principal escenario de las ceremonias del Festival Vegetariano; ideal para fotos de arquitectura china.",
+   "i_en": "The main stage of Vegetarian Festival ceremonies and great for Chinese-architecture photos."
+  },
+  "w_phu_thai_hua_museum": {
+   "id": "w_phu_thai_hua_museum",
+   "d": "Edificio sino-portugués de 1934 que fue la primera escuela china de la isla y hoy narra la historia de los inmigrantes hokkien, la minería del estaño y la arquitectura local a través de fotos y objetos de época.",
+   "d_en": "A 1934 Sino-Portuguese building that was the island's first Chinese school, now telling the story of Hokkien immigrants, tin mining and local architecture through vintage photos and objects.",
+   "h": "Abierto a diario, de 9:00 a 17:00; entrada aprox. 5 €. En Krabi Road.",
+   "h_en": "Open daily 9:00-17:00; entry approx. 5 €. On Krabi Road.",
+   "i": "Una de las fachadas más fotografiadas del Old Town; buena introducción a la historia sino-portuguesa.",
+   "i_en": "One of the Old Town's most photographed facades and a good primer on Sino-Portuguese history."
+  },
+  "w_phu_wat_suwan_khiri": {
+   "id": "w_phu_wat_suwan_khiri",
+   "d": "Templo budista de barrio a pocos pasos de la playa de Karon, con un ordenado salón de oración, estupas doradas y una comunidad monástica activa. Ofrece una estampa auténtica lejos del bullicio turístico.",
+   "d_en": "A neighbourhood Buddhist temple steps from Karon beach, with a tidy prayer hall, golden stupas and an active monastic community. It offers an authentic scene away from the tourist bustle.",
+   "h": "Abierto a diario en horas de luz; entrada gratuita. Junto al Karon Temple Market.",
+   "h_en": "Open daily during daylight; free entry. Beside Karon Temple Market.",
+   "i": "Combínalo con el mercado del templo (martes y viernes) para ropa y comida callejera barata.",
+   "i_en": "Combine it with the temple market (Tuesdays and Fridays) for cheap clothes and street food."
+  },
+  "w_phu_wat_phra_thong": {
+   "id": "w_phu_wat_phra_thong",
+   "d": "Templo del norte de la isla famoso por su Buda dorado que emerge del suelo solo hasta el pecho: la leyenda dice que quien intenta desenterrarlo por completo sufre desgracias. Un pequeño museo acompaña el santuario.",
+   "d_en": "A northern temple famed for its golden Buddha that rises from the ground only to chest height: legend says anyone who tries to unearth it fully meets misfortune. A small museum accompanies the shrine.",
+   "h": "Abierto a diario, de 7:00 a 17:00; entrada gratuita. Cerca del aeropuerto y Thalang.",
+   "h_en": "Open daily 7:00-17:00; free entry. Near the airport and Thalang.",
+   "i": "Buena parada de camino al aeropuerto o al norte de la isla; menos turístico que los grandes templos.",
+   "i_en": "A good stop en route to the airport or the north; less touristy than the big temples."
+  },
+  "w_phu_patong_beach": {
+   "id": "w_phu_patong_beach",
+   "d": "Arco de arena de 3 km que concentra el turismo de la isla: deportes acuáticos, tumbonas, chiringuitos y una vida nocturna sin freno tras la playa. Bulliciosa de día y aún más de noche.",
+   "d_en": "A 3 km arc of sand at the heart of the island's tourism: watersports, sun loungers, beach bars and relentless nightlife just behind. Lively by day and even more so by night.",
+   "h": "Acceso libre; hamacas y sombrillas de pago. Baño más seguro en temporada seca (nov-abr).",
+   "h_en": "Free access; loungers and umbrellas for hire. Swimming safest in the dry season (Nov-Apr).",
+   "i": "Vigila las banderas rojas; ideal si buscas ambiente, no tranquilidad.",
+   "i_en": "Watch for red flags; ideal if you want buzz rather than calm."
+  },
+  "w_phu_karon_beach": {
+   "id": "w_phu_karon_beach",
+   "d": "La segunda playa más larga de Phuket, conocida por su arena blanca tan fina que 'chirría' al pisarla. Más ancha y relajada que Patong, con dunas, chiringuitos y un ambiente familiar.",
+   "d_en": "Phuket's second-longest beach, known for white sand so fine it 'squeaks' underfoot. Wider and more laid-back than Patong, with dunes, beach bars and a family feel.",
+   "h": "Acceso libre. En monzón hay olas y corrientes; respeta las banderas.",
+   "h_en": "Free access. Waves and currents during monsoon; obey the flags.",
+   "i": "Atardeceres espectaculares; menos aglomeraciones que en Patong.",
+   "i_en": "Spectacular sunsets and fewer crowds than Patong."
+  },
+  "w_phu_kata_beach": {
+   "id": "w_phu_kata_beach",
+   "d": "Bahía de arena dorada enmarcada por palmeras, con la islita de Pu frente a la orilla. Aguas tranquilas en temporada seca y olas para principiantes durante el monzón; muy popular entre familias.",
+   "d_en": "A golden bay framed by palms, with tiny Pu Island offshore. Calm waters in the dry season and beginner surf during the monsoon; very popular with families.",
+   "h": "Acceso libre; alquiler de tablas en temporada de olas (may-oct).",
+   "h_en": "Free access; board rentals during the surf season (May-Oct).",
+   "i": "Snorkel decente cerca de la isla de Pu con marea baja.",
+   "i_en": "Decent snorkelling near Pu Island at low tide."
+  },
+  "w_phu_kata_noi": {
+   "id": "w_phu_kata_noi",
+   "d": "La hermana pequeña y más tranquila de Kata, separada por un promontorio verde. Arena blanca, aguas cristalinas y menos gente la convierten en una de las playas más bonitas del suroeste de la isla.",
+   "d_en": "Kata's smaller, quieter sister, split off by a green headland. White sand, clear water and fewer people make it one of the loveliest beaches on the island's southwest.",
+   "h": "Acceso libre; ambiente más relajado y menos comercial que Kata.",
+   "h_en": "Free access; more relaxed and less commercial than Kata.",
+   "i": "Perfecta para nadar en temporada seca; buen snorkel en los extremos rocosos.",
+   "i_en": "Perfect for swimming in the dry season; good snorkelling at the rocky ends."
+  },
+  "w_phu_nai_harn": {
+   "id": "w_phu_nai_harn",
+   "d": "Playa protegida por colinas y una laguna, con aguas turquesas y arena blanca respaldadas por un templo y pinos casuarina. Fondeadero de veleros y una de las playas mejor conservadas del sur.",
+   "d_en": "A beach sheltered by hills and a lagoon, with turquoise water and white sand backed by a temple and casuarina pines. A yacht anchorage and one of the best-preserved beaches in the south.",
+   "h": "Acceso libre; muy tranquila fuera de temporada alta.",
+   "h_en": "Free access; very quiet outside peak season.",
+   "i": "Sube a la roca de Ao Sane o al mirador de Windmill para vistas cercanas.",
+   "i_en": "Head to Ao Sane rock or the Windmill viewpoint nearby for views."
+  },
+  "w_phu_freedom_beach": {
+   "id": "w_phu_freedom_beach",
+   "d": "Escondida entre acantilados al sur de Patong, esta franja de arena blanca y agua turquesa es una de las más vírgenes de Phuket. Se llega en lancha (long-tail) o por un sendero empinado desde la carretera.",
+   "d_en": "Hidden among cliffs south of Patong, this strip of white sand and turquoise water is one of Phuket's most pristine. Reach it by long-tail boat or a steep trail from the road.",
+   "h": "Sin servicios; lleva agua. Barcos desde Patong; pequeña tasa de acceso.",
+   "h_en": "No facilities; bring water. Boats from Patong; small access fee.",
+   "i": "Ideal para escapar de las multitudes; ve temprano y acuerda la hora de regreso del barco.",
+   "i_en": "Perfect to escape crowds; go early and agree your boat pickup time."
+  },
+  "w_phu_promthep_cape": {
+   "id": "w_phu_promthep_cape",
+   "d": "Punta rocosa cubierta de hierba en el extremo suroeste de la isla, con un faro, un santuario y vistas abiertas al mar de Andamán. Es el lugar más famoso de Phuket para ver caer el sol.",
+   "d_en": "A grassy rocky headland at the island's southwestern tip, with a lighthouse, a shrine and open views of the Andaman Sea. It is Phuket's most famous sunset spot.",
+   "h": "Acceso libre; llega 30-45 min antes del atardecer para aparcar.",
+   "h_en": "Free access; arrive 30-45 min before sunset to park.",
+   "i": "Muy concurrido al atardecer; el pequeño faro-museo abre de día con más vistas.",
+   "i_en": "Very busy at sunset; the small lighthouse museum opens by day with more views."
+  },
+  "w_phu_karon_viewpoint": {
+   "id": "w_phu_karon_viewpoint",
+   "d": "También llamado Karon Viewpoint, este balcón natural en la carretera entre Kata y Nai Harn regala una de las postales más icónicas de Phuket: las tres bahías consecutivas y la isla de Pu en el horizonte.",
+   "d_en": "Also called Karon Viewpoint, this natural balcony on the road between Kata and Nai Harn offers one of Phuket's most iconic postcards: the three consecutive bays with Pu Island beyond.",
+   "h": "Acceso libre las 24 h; mejor luz por la mañana o al atardecer.",
+   "h_en": "Free access 24h; best light in the morning or at sunset.",
+   "i": "Parada obligada en cualquier ruta por el sur de la isla; hay puestos de fruta y café.",
+   "i_en": "A must-stop on any southern island drive; fruit and coffee stalls nearby."
+  },
+  "w_phu_phi_phi": {
+   "id": "w_phu_phi_phi",
+   "d": "Archipiélago de acantilados calizos y aguas cristalinas al este de Phuket, con la célebre Maya Bay (de 'La Playa'), lagunas escondidas y arrecifes de coral. Es la excursión de un día más popular de la isla.",
+   "d_en": "An archipelago of limestone cliffs and crystal waters east of Phuket, featuring famous Maya Bay (from 'The Beach'), hidden lagoons and coral reefs. It is the island's most popular day trip.",
+   "h": "Solo en excursión organizada (lancha rápida o velero), 8-10 h; tasa de parque nacional.",
+   "h_en": "Organised tour only (speedboat or sailboat), 8-10h; national park fee.",
+   "i": "Reserva con operador con licencia y sal pronto; Maya Bay tiene aforo y horarios controlados.",
+   "i_en": "Book a licensed operator and leave early; Maya Bay has capacity limits and timed entry."
+  },
+  "w_phu_phang_nga": {
+   "id": "w_phu_phang_nga",
+   "d": "Bahía esmeralda salpicada de espectaculares islotes de piedra caliza que emergen del mar. Incluye la famosa isla James Bond (Khao Phing Kan) y el pueblo flotante musulmán de Koh Panyee; se explora en lancha o en canoa.",
+   "d_en": "An emerald bay dotted with dramatic limestone islets rising from the sea. It includes famous James Bond Island (Khao Phing Kan) and the floating Muslim village of Koh Panyee; explored by boat or sea canoe.",
+   "h": "Excursión de un día desde Phuket, 8-9 h; tasa de parque nacional.",
+   "h_en": "Day trip from Phuket, 8-9h; national park fee.",
+   "i": "Las excursiones en canoa por las cuevas marinas (hongs) al amanecer evitan la masificación.",
+   "i_en": "Dawn sea-cave (hong) canoe tours avoid the crowds."
+  },
+  "w_phu_windmill_viewpoint": {
+   "id": "w_phu_windmill_viewpoint",
+   "d": "Mirador junto a un aerogenerador en la costa sur, con vistas verticales sobre la cala de Yanui, la isla de Man y las aguas turquesas rumbo al cabo Promthep. Un punto fotogénico y ventoso poco masificado.",
+   "d_en": "A viewpoint beside a wind turbine on the south coast, with dramatic views over Yanui cove, Man Island and turquoise waters toward Promthep Cape. A photogenic, breezy and less crowded spot.",
+   "h": "Acceso libre; combina bien con Nai Harn y el cabo Promthep.",
+   "h_en": "Free access; pairs well with Nai Harn and Promthep Cape.",
+   "i": "Baja a la cala de Yanui para snorkel tranquilo alrededor de la isla de Man.",
+   "i_en": "Drop down to Yanui cove for calm snorkelling around Man Island."
+  },
+  "w_phu_coral_island": {
+   "id": "w_phu_coral_island",
+   "d": "Pequeña isla frente a Chalong, a 15 minutos en lancha, con dos playas de arena blanca, agua transparente y arrecifes de coral accesibles desde la orilla. Ideal para snorkel, buceo y deportes acuáticos en el día.",
+   "d_en": "A small island off Chalong, 15 minutes by boat, with two white-sand beaches, clear water and coral reefs right off the shore. Great for snorkelling, diving and watersports on a day trip.",
+   "h": "Excursión de medio día o día completo desde el muelle de Chalong.",
+   "h_en": "Half- or full-day trip from Chalong pier.",
+   "i": "Menos concurrida que Phi Phi y perfecta si tienes poco tiempo.",
+   "i_en": "Less crowded than Phi Phi and perfect if you're short on time."
+  },
+  "w_phu_bangla_road": {
+   "id": "w_phu_bangla_road",
+   "d": "Arteria peatonal del ocio nocturno de Patong: se cierra al tráfico al anochecer y se llena de neones, bares, discotecas, música en directo y espectáculos. El corazón de la vida nocturna de Phuket.",
+   "d_en": "Patong's pedestrian nightlife artery: closed to traffic after dark and flooded with neon, bars, clubs, live music and shows. The heart of Phuket's nightlife.",
+   "h": "Cobra vida a partir de las 20:00-21:00; entrada libre a la calle.",
+   "h_en": "Comes alive from 20:00-21:00; free to walk in.",
+   "i": "Ambiente intenso y no apto para todos; vigila tus pertenencias y bebe con moderación.",
+   "i_en": "Intense atmosphere and not for everyone; watch your belongings and drink in moderation."
+  },
+  "w_phu_simon_cabaret": {
+   "id": "w_phu_simon_cabaret",
+   "d": "Icónico show de cabaret al sur de Patong, con artistas transgénero, vestuario deslumbrante, números musicales y coreografías al estilo Las Vegas. Uno de los espectáculos familiares más veteranos de Phuket.",
+   "d_en": "An iconic cabaret show south of Patong, with transgender performers, dazzling costumes, musical numbers and Las Vegas-style choreography. One of Phuket's longest-running family shows.",
+   "h": "Varias funciones cada noche; entrada aprox. 20-25 €. Reserva recomendada.",
+   "h_en": "Several shows nightly; tickets approx. 20-25 €. Booking recommended.",
+   "i": "Las fotos con las artistas al salir tienen propina; llega con tiempo para buenos asientos.",
+   "i_en": "Photos with the performers afterward expect a tip; arrive early for good seats."
+  },
+  "w_phu_fantasea": {
+   "id": "w_phu_fantasea",
+   "d": "Complejo de ocio en Kamala que combina un parque temático de inspiración tailandesa, un enorme bufé y un espectáculo nocturno con acrobacias, efectos, magia y elementos de la cultura del país. Muy popular en familia.",
+   "d_en": "A Kamala entertainment complex blending a Thai-themed park, a huge buffet and a nightly show with acrobatics, effects, magic and elements of Thai culture. Very popular with families.",
+   "h": "Abierto tardes-noches (cerrado algunos días); entradas con o sin cena. Reserva online.",
+   "h_en": "Open evenings (closed some days); tickets with or without dinner. Book online.",
+   "i": "Espectáculo grandioso; no se permiten cámaras dentro del teatro principal.",
+   "i_en": "A grand spectacle; cameras are not allowed inside the main theatre."
+  },
+  "w_phu_jungceylon": {
+   "id": "w_phu_jungceylon",
+   "d": "El principal centro comercial de Patong, con tiendas, cine, supermercado, restaurantes internacionales y un mercado nocturno anexo. Un refugio con aire acondicionado a pocos pasos de la playa y de Bangla Road.",
+   "d_en": "Patong's main shopping mall, with shops, a cinema, supermarket, international restaurants and an adjoining night market. An air-conditioned refuge steps from the beach and Bangla Road.",
+   "h": "Abierto a diario, aprox. de 11:00 a 22:00; acceso libre.",
+   "h_en": "Open daily approx. 11:00-22:00; free entry.",
+   "i": "Buen sitio para resguardarse del calor o la lluvia y cambiar dinero.",
+   "i_en": "A good place to escape the heat or rain and exchange money."
+  },
+  "w_phu_one_chun": {
+   "id": "w_phu_one_chun",
+   "d": "Restaurante del Old Town ambientado como una casa sino-portuguesa de época, célebre por sus recetas tradicionales del sur: curry de cangrejo (poo pad pong karee), moo hong y hokkien mee. Auténtico y muy popular.",
+   "d_en": "An Old Town restaurant styled as a vintage Sino-Portuguese home, famous for traditional southern recipes: crab curry (poo pad pong karee), moo hong and hokkien mee. Authentic and very popular.",
+   "h": "Abierto a diario; suele haber cola a la hora punta. Reserva o llega pronto.",
+   "h_en": "Open daily; queues at peak times. Book or arrive early.",
+   "i": "Pide el curry de cangrejo, su plato estrella; raciones para compartir.",
+   "i_en": "Order the crab curry, its signature dish; portions are made to share."
+  },
+  "w_phu_tu_kab_khao": {
+   "id": "w_phu_tu_kab_khao",
+   "d": "Restaurante decorado con encanto retro sino-portugués que reinterpreta la cocina del sur de Tailandia: curries intensos, marisco fresco y platos locales como el moo hong. Ambiente cuidado y colas frecuentes.",
+   "d_en": "A restaurant with charming retro Sino-Portuguese decor that reinterprets southern Thai cuisine: bold curries, fresh seafood and local dishes like moo hong. Polished atmosphere and frequent queues.",
+   "h": "Abierto a diario; reserva recomendada en temporada alta.",
+   "h_en": "Open daily; booking recommended in high season.",
+   "i": "Fusión de tradición y presentación moderna; ideal para una cena algo especial.",
+   "i_en": "A blend of tradition and modern plating; great for a slightly special dinner."
+  },
+  "w_phu_raya": {
+   "id": "w_phu_raya",
+   "d": "Institución de Phuket instalada en una mansión sino-portuguesa de dos plantas, servida con vajilla de época. Famosa por su curry de cangrejo con fideos de arroz y por conservar recetas familiares desde hace décadas.",
+   "d_en": "A Phuket institution set in a two-storey Sino-Portuguese mansion, served on vintage china. Famous for its crab curry with rice noodles and for keeping family recipes for decades.",
+   "h": "Abierto a diario; muy demandado, mejor reservar.",
+   "h_en": "Open daily; in high demand, best to book.",
+   "i": "Su curry de cangrejo es uno de los platos más famosos de la isla.",
+   "i_en": "Its crab curry is one of the island's most famous dishes."
+  },
+  "w_phu_kan_eang": {
+   "id": "w_phu_kan_eang",
+   "d": "Veterano restaurante de marisco junto a la bahía de Chalong, con mesas al aire libre frente al mar y pescado, gambas, cangrejo y langosta a la parrilla. Perfecto para cenar tras una excursión en barco.",
+   "d_en": "A veteran seafood restaurant beside Chalong Bay, with open-air seaside tables and grilled fish, prawns, crab and lobster. Perfect for dinner after a boat trip.",
+   "h": "Abierto a diario; atardeceres bonitos sobre la bahía.",
+   "h_en": "Open daily; lovely sunsets over the bay.",
+   "i": "Elige el pescado del expositor al peso; pide una mesa junto al agua.",
+   "i_en": "Pick your fish from the display by weight; ask for a table by the water."
+  },
+  "w_phu_rimlay_rawai": {
+   "id": "w_phu_rimlay_rawai",
+   "d": "Restaurante familiar a pie de la playa de Rawai, donde se compra marisco fresco en el mercado de al lado y ellos lo cocinan al gusto. Cocina local sin pretensiones con vistas al mar y precios ajustados.",
+   "d_en": "A family restaurant on Rawai beachfront, where you buy fresh seafood at the market next door and they cook it your way. Unpretentious local food with sea views and fair prices.",
+   "h": "Abierto a diario; combina con el paseo marítimo de Rawai.",
+   "h_en": "Open daily; combine with the Rawai seafront promenade.",
+   "i": "Regatea el marisco en el mercado contiguo antes de llevarlo a cocinar.",
+   "i_en": "Haggle for seafood at the adjoining market before having it cooked."
+  },
+  "w_phu_lock_tien": {
+   "id": "w_phu_lock_tien",
+   "d": "Patio de comidas histórico en el corazón del casco antiguo donde varios puestos veteranos sirven especialidades locales: hokkien mee, loba, oh tao (tortilla de ostras) y postres tradicionales. Barato y auténtico.",
+   "d_en": "A historic food court in the heart of the Old Town where veteran stalls serve local specialities: hokkien mee, loba, oh tao (oyster omelette) and traditional desserts. Cheap and authentic.",
+   "h": "Abierto de día, aprox. de 10:00 a 19:00; pago en cada puesto.",
+   "h_en": "Open daytime, approx. 10:00-19:00; pay at each stall.",
+   "i": "Prueba el hokkien mee y el loba, muy típicos de la comunidad hokkien de Phuket.",
+   "i_en": "Try hokkien mee and loba, staples of Phuket's Hokkien community."
+  }
+ },
+ "food": {
+  "w_phu_one_chun": {
+   "cuisine": "Cocina tailandesa del sur / phuketiana",
+   "price": "6–15 €",
+   "hours": "10:00–22:00"
+  },
+  "w_phu_tu_kab_khao": {
+   "cuisine": "Cocina tailandesa del sur / phuketiana",
+   "price": "10–25 €",
+   "hours": "11:00–22:30"
+  },
+  "w_phu_raya": {
+   "cuisine": "Cocina tailandesa tradicional",
+   "price": "10–22 €",
+   "hours": "10:00–22:00"
+  },
+  "w_phu_kan_eang": {
+   "cuisine": "Marisco y pescado a la parrilla",
+   "price": "12–30 €",
+   "hours": "10:00–23:00"
+  },
+  "w_phu_rimlay_rawai": {
+   "cuisine": "Marisco tailandés local",
+   "price": "8–20 €",
+   "hours": "9:00–21:00"
+  },
+  "w_phu_lock_tien": {
+   "cuisine": "Comida callejera y platos locales",
+   "price": "3–8 €",
+   "hours": "10:00–19:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Phuket",
+   "items": [
+    {
+     "name": "Batik pintado a mano",
+     "price": "8–35 €",
+     "desc": "Telas y pañuelos de seda o algodón teñidos con motivos tropicales, típicos del sur de Tailandia."
+    },
+    {
+     "name": "Perlas del mar de Andamán",
+     "price": "20–150 €",
+     "desc": "Perlas cultivadas en las granjas de las islas cercanas, en pendientes, collares y colgantes."
+    },
+    {
+     "name": "Jabones y aromas de coco",
+     "price": "3–12 €",
+     "desc": "Jabones artesanos, aceites y bálsamos de coco, lemongrass y frangipani."
+    },
+    {
+     "name": "Anacardos de Phuket",
+     "price": "4–10 €",
+     "desc": "Nueces de anacardo tostadas localmente, con sal, miel o wasabi, en las fábricas de la isla."
+    },
+    {
+     "name": "Estaño labrado (pewter)",
+     "price": "10–60 €",
+     "desc": "Objetos de estaño, herencia de la época minera de la isla: jarras, marcos y figuras."
+    }
+   ],
+   "shops": [
+    "Thalang Road (Old Town)",
+    "Central Phuket Floresta",
+    "Jungceylon (Patong)",
+    "Mercado nocturno de Chillva",
+    "Naka Weekend Market"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Alquila una moto solo si tienes experiencia; el tráfico y las curvas de montaña son exigentes. Con permiso internacional y casco siempre.",
+   "En las playas respeta las banderas rojas: la corriente de resaca del monzón (mayo-octubre) es peligrosa aunque el mar parezca calmado.",
+   "Regatea con simpatía en mercados y tiendas de souvenirs, pero no en restaurantes ni tiendas con precio fijo.",
+   "Para templos como el Gran Buda o Wat Chalong cubre hombros y rodillas; llevan pareos prestados pero es mejor ir preparado.",
+   "Reserva las excursiones a Phi Phi y Phang Nga con operadores con licencia y sal temprano para evitar multitudes y calor."
+  ],
+  "en": [
+   "Rent a scooter only if experienced; traffic and mountain bends are demanding. Carry an international permit and always wear a helmet.",
+   "Obey red flags on the beaches: monsoon rip currents (May-October) are dangerous even when the sea looks calm.",
+   "Haggle with a smile in markets and souvenir shops, but not in restaurants or fixed-price stores.",
+   "At temples like the Big Buddha or Wat Chalong cover shoulders and knees; sarongs are lent but come prepared.",
+   "Book Phi Phi and Phang Nga tours with licensed operators and leave early to beat crowds and heat."
+  ]
+ },
+ "climate": {
+  "hi": [
+   32,
+   33,
+   33,
+   33,
+   32,
+   31,
+   31,
+   31,
+   31,
+   31,
+   31,
+   31
+  ],
+  "lo": [
+   24,
+   25,
+   25,
+   26,
+   25,
+   25,
+   25,
+   25,
+   24,
+   24,
+   24,
+   24
+  ]
+ },
+ "tr": {
+  "Buda de mármol blanco de 45 m sobre la colina de Nakkerd.": "45 m white marble Buddha atop Nakkerd Hill.",
+  "El templo budista más grande y venerado de Phuket.": "Phuket's largest and most revered Buddhist temple.",
+  "Calles sino-portuguesas de colores en el corazón histórico.": "Colourful Sino-Portuguese streets in the historic core.",
+  "Templo chino clave del Festival Vegetariano.": "Key Chinese shrine of the Vegetarian Festival.",
+  "Colorido templo chino dedicado a Tean Hu Huan Soy.": "Colourful Chinese shrine to Tean Hu Huan Soy.",
+  "Antigua escuela china convertida en museo del Old Town.": "Former Chinese school turned Old Town museum.",
+  "Templo local junto a la playa de Karon.": "Local temple beside Karon beach.",
+  "Templo del Buda dorado medio enterrado.": "Temple of the half-buried golden Buddha.",
+  "La playa más animada y turística de Phuket.": "Phuket's busiest and most touristy beach.",
+  "Larga playa de arena blanca chirriante.": "Long beach of squeaky white sand.",
+  "Playa curva ideal para familias y surfistas.": "Curved bay great for families and surfers.",
+  "Cala tranquila y recogida junto a Kata.": "Quiet, sheltered cove next to Kata.",
+  "Playa de postal en el extremo sur.": "Postcard beach at the southern tip.",
+  "Cala paradisíaca de acceso solo por barco.": "Paradise cove reachable only by boat.",
+  "El mejor mirador del atardecer de Phuket.": "Phuket's finest sunset viewpoint.",
+  "Panorámica de Kata Noi, Kata y Karon.": "Panorama of Kata Noi, Kata and Karon.",
+  "Excursión estrella a bahías de aguas turquesas.": "Star day trip to turquoise-water bays.",
+  "Islotes kársticos y la roca de 'El hombre de la pistola de oro'.": "Karst islets and 'The Man with the Golden Gun' rock.",
+  "Vistas de acantilados y mar turquesa hacia Nai Harn.": "Cliff and turquoise-sea views over Nai Harn.",
+  "Islita cercana con arrecifes y aguas claras.": "Nearby islet with reefs and clear water.",
+  "La calle de la fiesta nocturna de Patong.": "Patong's nightlife party street.",
+  "Espectáculo de cabaret ladyboy más famoso de la isla.": "The island's most famous ladyboy cabaret show.",
+  "Parque temático y megaespectáculo cultural nocturno.": "Theme park and grand nightly cultural show.",
+  "Gran centro comercial y de ocio en Patong.": "Large shopping and leisure mall in Patong.",
+  "Cocina casera phuketiana en una casa antigua.": "Homestyle Phuketian cooking in an old house.",
+  "Cocina phuketiana con estilo en el Old Town.": "Stylish Phuketian cuisine in the Old Town.",
+  "Clásico de la cocina tailandesa en mansión histórica.": "Thai-food classic in a historic mansion.",
+  "Marisco fresco frente al muelle de Chalong.": "Fresh seafood by Chalong pier.",
+  "Marisco sencillo y auténtico frente al mar de Rawai.": "Simple, authentic seafood on Rawai seafront.",
+  "Puestos de platos típicos de Phuket en el Old Town.": "Stalls of classic Phuket dishes in the Old Town.",
+  "Phuket": "Phuket"
+ }
+}

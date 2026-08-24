@@ -1,0 +1,665 @@
+{
+ "id": "abudabi",
+ "name": "Abu Dabi",
+ "country": "WORLD",
+ "center": [
+  24.4539,
+  54.3773
+ ],
+ "pois": [
+  {
+   "id": "w_auh_grand_mosque",
+   "cat": "monuments",
+   "name": "Gran Mezquita Sheikh Zayed",
+   "icon": "🕌",
+   "lat": 24.41279,
+   "lng": 54.47477,
+   "desc": "La mezquita más icónica de los EAU, con 82 cúpulas de mármol blanco."
+  },
+  {
+   "id": "w_auh_louvre",
+   "cat": "monuments",
+   "name": "Louvre Abu Dhabi",
+   "icon": "🏛️",
+   "lat": 24.5339,
+   "lng": 54.3981,
+   "desc": "Museo universal bajo una cúpula de 'lluvia de luz' junto al mar."
+  },
+  {
+   "id": "w_auh_qasr_al_watan",
+   "cat": "monuments",
+   "name": "Qasr Al Watan",
+   "icon": "🏰",
+   "lat": 24.46225,
+   "lng": 54.30551,
+   "desc": "Palacio presidencial abierto al público, joya de arquitectura árabe."
+  },
+  {
+   "id": "w_auh_emirates_palace",
+   "cat": "monuments",
+   "name": "Emirates Palace",
+   "icon": "🏨",
+   "lat": 24.46157,
+   "lng": 54.31709,
+   "desc": "Hotel-palacio de lujo con cúpulas doradas y jardines junto al mar."
+  },
+  {
+   "id": "w_auh_qasr_al_hosn",
+   "cat": "monuments",
+   "name": "Qasr Al Hosn",
+   "icon": "🏯",
+   "lat": 24.4836,
+   "lng": 54.3545,
+   "desc": "El edificio más antiguo de la ciudad, cuna de Abu Dabi."
+  },
+  {
+   "id": "w_auh_heritage_village",
+   "cat": "monuments",
+   "name": "Heritage Village",
+   "icon": "🏘️",
+   "lat": 24.47556,
+   "lng": 54.33306,
+   "desc": "Aldea-museo que recrea la vida emiratí antes del petróleo."
+  },
+  {
+   "id": "w_auh_observation_300",
+   "cat": "monuments",
+   "name": "Observation Deck at 300",
+   "icon": "🔭",
+   "lat": 24.45889,
+   "lng": 54.32222,
+   "desc": "Mirador a 300 m en las Etihad Towers con vistas de 360°."
+  },
+  {
+   "id": "w_auh_founders_memorial",
+   "cat": "monuments",
+   "name": "Founder's Memorial",
+   "icon": "🗿",
+   "lat": 24.455,
+   "lng": 54.32833,
+   "desc": "Homenaje monumental al jeque Zayed junto al mar."
+  },
+  {
+   "id": "w_auh_wahat_al_karama",
+   "cat": "monuments",
+   "name": "Wahat Al Karama",
+   "icon": "🕯️",
+   "lat": 24.415,
+   "lng": 54.47472,
+   "desc": "Memorial de los mártires frente a la Gran Mezquita."
+  },
+  {
+   "id": "w_auh_capital_gate",
+   "cat": "monuments",
+   "name": "Capital Gate",
+   "icon": "🏢",
+   "lat": 24.41889,
+   "lng": 54.43417,
+   "desc": "El rascacielos con la mayor inclinación intencionada del mundo."
+  },
+  {
+   "id": "w_auh_zayed_bridge",
+   "cat": "monuments",
+   "name": "Puente Sheikh Zayed",
+   "icon": "🌉",
+   "lat": 24.40667,
+   "lng": 54.44083,
+   "desc": "Puente ondulante de Zaha Hadid, icono del ingenio moderno."
+  },
+  {
+   "id": "w_auh_mangrove_np",
+   "cat": "nature",
+   "name": "Parque Nacional del Manglar",
+   "icon": "🌿",
+   "lat": 24.44639,
+   "lng": 54.44889,
+   "desc": "Bosque de manglares protegido para explorar en kayak."
+  },
+  {
+   "id": "w_auh_jubail_mangrove",
+   "cat": "nature",
+   "name": "Jubail Mangrove Park",
+   "icon": "🌱",
+   "lat": 24.55278,
+   "lng": 54.46778,
+   "desc": "Pasarelas de madera sobre los manglares de la isla de Jubail."
+  },
+  {
+   "id": "w_auh_corniche",
+   "cat": "nature",
+   "name": "Corniche",
+   "icon": "🏖️",
+   "lat": 24.47528,
+   "lng": 54.32583,
+   "desc": "Paseo marítimo de 8 km con playa de bandera azul."
+  },
+  {
+   "id": "w_auh_saadiyat_island",
+   "cat": "nature",
+   "name": "Isla Saadiyat",
+   "icon": "🏝️",
+   "lat": 24.545,
+   "lng": 54.425,
+   "desc": "Isla de playas vírgenes y distrito cultural de museos."
+  },
+  {
+   "id": "w_auh_ferrari_world",
+   "cat": "ocio",
+   "name": "Ferrari World",
+   "icon": "🏎️",
+   "lat": 24.4837,
+   "lng": 54.6069,
+   "desc": "Parque temático Ferrari con la montaña rusa más rápida del mundo."
+  },
+  {
+   "id": "w_auh_warner_bros",
+   "cat": "ocio",
+   "name": "Warner Bros World",
+   "icon": "🎬",
+   "lat": 24.49222,
+   "lng": 54.59806,
+   "desc": "Parque temático cubierto con Batman, Bugs Bunny y más."
+  },
+  {
+   "id": "w_auh_yas_waterworld",
+   "cat": "ocio",
+   "name": "Yas Waterworld",
+   "icon": "🌊",
+   "lat": 24.48889,
+   "lng": 54.60167,
+   "desc": "Parque acuático de temática emiratí con 40 atracciones."
+  },
+  {
+   "id": "w_auh_yas_marina",
+   "cat": "ocio",
+   "name": "Yas Marina Circuit",
+   "icon": "🏁",
+   "lat": 24.46722,
+   "lng": 54.60306,
+   "desc": "Circuito del Gran Premio de Fórmula 1 de Abu Dabi."
+  },
+  {
+   "id": "w_auh_seaworld",
+   "cat": "ocio",
+   "name": "SeaWorld Abu Dhabi",
+   "icon": "🐬",
+   "lat": 24.49556,
+   "lng": 54.60333,
+   "desc": "Parque marino de nueva generación en Yas Island."
+  },
+  {
+   "id": "w_auh_yas_mall",
+   "cat": "ocio",
+   "name": "Yas Mall",
+   "icon": "🛍️",
+   "lat": 24.48806,
+   "lng": 54.60694,
+   "desc": "El mayor centro comercial de Abu Dabi, junto a Ferrari World."
+  },
+  {
+   "id": "w_auh_clymb",
+   "cat": "ocio",
+   "name": "CLYMB Abu Dhabi",
+   "icon": "🪂",
+   "lat": 24.49028,
+   "lng": 54.59583,
+   "desc": "Túnel de viento y muro de escalada récord en Yas Island."
+  },
+  {
+   "id": "w_auh_mezlai",
+   "cat": "food",
+   "name": "Mezlai",
+   "icon": "🍲",
+   "lat": 24.46197,
+   "lng": 54.31749,
+   "desc": "Alta cocina emiratí tradicional en el Emirates Palace."
+  },
+  {
+   "id": "w_auh_al_fanar",
+   "cat": "food",
+   "name": "Al Fanar Restaurant",
+   "icon": "🫓",
+   "lat": 24.44583,
+   "lng": 54.34028,
+   "desc": "Cocina emiratí casera en un decorado de los años 60."
+  },
+  {
+   "id": "w_auh_li_beirut",
+   "cat": "food",
+   "name": "Li Beirut",
+   "icon": "🥙",
+   "lat": 24.45806,
+   "lng": 54.32222,
+   "desc": "Alta cocina libanesa con vistas al mar en las Etihad Towers."
+  },
+  {
+   "id": "w_auh_coya",
+   "cat": "food",
+   "name": "COYA Abu Dhabi",
+   "icon": "🌶️",
+   "lat": 24.5015,
+   "lng": 54.3855,
+   "desc": "Vibrante cocina peruana con toques asiáticos y latinos."
+  },
+  {
+   "id": "w_auh_hakkasan",
+   "cat": "food",
+   "name": "Hakkasan",
+   "icon": "🥢",
+   "lat": 24.46117,
+   "lng": 54.31759,
+   "desc": "Cocina cantonesa con estrella en el Emirates Palace."
+  },
+  {
+   "id": "w_auh_villa_toscana",
+   "cat": "food",
+   "name": "Villa Toscana",
+   "icon": "🍝",
+   "lat": 24.47472,
+   "lng": 54.33889,
+   "desc": "Trattoria italiana de autor en el St. Regis de la Corniche."
+  }
+ ],
+ "extra": {
+  "w_auh_grand_mosque": {
+   "id": "w_auh_grand_mosque",
+   "d": "Obra maestra de mármol blanco de Macedonia inaugurada en 2007, con capacidad para 40.000 fieles. Alberga la mayor alfombra tejida a mano del mundo y arañas doradas de cristal de Swarovski. Sus patios y arcadas se reflejan en piscinas espejo.",
+   "d_en": "A white-marble masterpiece opened in 2007, holding up to 40,000 worshippers. It houses the world's largest hand-knotted carpet and gilded Swarovski-crystal chandeliers, with courtyards mirrored in reflecting pools.",
+   "h": "Abre a diario 09:00–22:00 (viernes desde 16:00). Entrada gratuita; se exige vestimenta modesta.",
+   "h_en": "Open daily 09:00–22:00 (Fridays from 16:00). Free entry; modest dress required.",
+   "i": "Al atardecer la iluminación cambia según las fases de la luna: es el mejor momento para fotografiar.",
+   "i_en": "At dusk the lighting shifts with the moon phases, the best moment for photos."
+  },
+  "w_auh_louvre": {
+   "id": "w_auh_louvre",
+   "d": "Diseñado por Jean Nouvel y abierto en 2017, es el primer Louvre fuera de Francia. Su enorme cúpula perforada crea un juego de luz filtrada sobre galerías que recorren la historia del arte mundial, del arte antiguo al contemporáneo.",
+   "d_en": "Designed by Jean Nouvel and opened in 2017, it is the first Louvre outside France. Its vast perforated dome filters light over galleries tracing world art history from antiquity to the contemporary.",
+   "h": "Martes a domingo 10:00–18:30 (jueves y sábados hasta 20:30); cerrado los lunes.",
+   "h_en": "Tuesday to Sunday 10:00–18:30 (Thursdays and Saturdays until 20:30); closed Mondays.",
+   "i": "No te pierdas el efecto de la cúpula al mediodía y el paseo exterior sobre el agua.",
+   "i_en": "Don't miss the dome effect at midday and the outdoor walkway over the water."
+  },
+  "w_auh_qasr_al_watan": {
+   "id": "w_auh_qasr_al_watan",
+   "d": "Palacio de gobierno inaugurado como atracción en 2019. Deslumbra con su Gran Salón de cúpula de 37 m, una biblioteca del saber y salas de banquete decoradas con oro, cristal y geometría islámica.",
+   "d_en": "A working presidential palace opened as an attraction in 2019. It dazzles with its 37 m domed Great Hall, a House of Knowledge library, and banquet halls decorated in gold, crystal and Islamic geometry.",
+   "h": "Abre a diario 10:00–20:00 (última entrada 18:30). Entrada con billete.",
+   "h_en": "Open daily 10:00–20:00 (last entry 18:30). Ticketed entry.",
+   "i": "Quédate al espectáculo nocturno de luz y sonido 'Palace in Motion' proyectado sobre la fachada.",
+   "i_en": "Stay for the evening 'Palace in Motion' light-and-sound show projected onto the facade."
+  },
+  "w_auh_emirates_palace": {
+   "id": "w_auh_emirates_palace",
+   "d": "Inaugurado en 2005, este hotel monumental de 114 cúpulas es un icono de opulencia con playa privada, kilómetros de mármol y pan de oro. Famoso por su capuchino con oro de 24 quilates.",
+   "d_en": "Opened in 2005, this monumental 114-dome hotel is an icon of opulence with a private beach, miles of marble and gold leaf. Famous for its 24-carat-gold cappuccino.",
+   "h": "Acceso libre a las zonas públicas y cafeterías; consumo mínimo en algunos salones.",
+   "h_en": "Public areas and cafes are freely accessible; some lounges have a minimum spend.",
+   "i": "Pide el 'Palace Cappuccino' espolvoreado con oro comestible, todo un clásico local.",
+   "i_en": "Order the 'Palace Cappuccino' dusted with edible gold, a local classic."
+  },
+  "w_auh_qasr_al_hosn": {
+   "id": "w_auh_qasr_al_hosn",
+   "d": "Fuerte blanco levantado hacia 1795 como atalaya y residencia de la familia gobernante. Hoy es un museo que narra la transformación de un pueblo de pescadores de perlas en metrópolis moderna.",
+   "d_en": "A white fort built around 1795 as a watchtower and home of the ruling family. Today it is a museum telling how a pearling village became a modern metropolis.",
+   "h": "Martes a domingo 10:00–19:00; cerrado los lunes. Entrada con billete.",
+   "h_en": "Tuesday to Sunday 10:00–19:00; closed Mondays. Ticketed entry.",
+   "i": "Combina la visita con la vecina Casa de Artesanos (Al Hosn) para ver oficios tradicionales.",
+   "i_en": "Combine your visit with the neighbouring House of Artisans to see traditional crafts."
+  },
+  "w_auh_heritage_village": {
+   "id": "w_auh_heritage_village",
+   "d": "Reconstrucción de un poblado tradicional con tiendas beduinas, un zoco de artesanos, un oasis y talleres de alfarería, tejido y forja. Ofrece vistas del skyline al otro lado de la bahía.",
+   "d_en": "A reconstructed traditional settlement with Bedouin tents, an artisans' souk, an oasis, and pottery, weaving and metalwork workshops. It offers skyline views across the bay.",
+   "h": "Sábado a jueves 09:00–16:00, viernes 15:30–20:30. Entrada gratuita.",
+   "h_en": "Saturday to Thursday 09:00–16:00, Friday 15:30–20:30. Free entry.",
+   "i": "Es uno de los mejores puntos para fotografiar el perfil de la Corniche.",
+   "i_en": "It is one of the best spots to photograph the Corniche skyline."
+  },
+  "w_auh_observation_300": {
+   "id": "w_auh_observation_300",
+   "d": "En el piso 74 de la Torre 2 de las Etihad Towers, este mirador panorámico ofrece la vista más alta de la ciudad, con Emirates Palace, la Corniche y las islas a tus pies. Incluye afternoon tea.",
+   "d_en": "On the 74th floor of Etihad Towers' Tower 2, this panoramic deck gives the highest view over the city, with Emirates Palace, the Corniche and the islands below. Afternoon tea is included.",
+   "h": "Abre a diario 10:00–20:00. Consumo mínimo canjeable por comida o bebida.",
+   "h_en": "Open daily 10:00–20:00. Minimum spend redeemable against food or drink.",
+   "i": "Reserva al atardecer para ver la ciudad pasar del dorado a las luces nocturnas.",
+   "i_en": "Book at sunset to watch the city shift from golden light to night lights."
+  },
+  "w_auh_founders_memorial": {
+   "id": "w_auh_founders_memorial",
+   "d": "Memorial nacional dedicado al padre fundador de los EAU. Su pieza central, 'The Constellation', es un retrato tridimensional del jeque Zayed formado por 1.327 esferas suspendidas que se alinean al mirarlas desde el punto exacto.",
+   "d_en": "A national memorial to the UAE's founding father. Its centrepiece, 'The Constellation', is a three-dimensional portrait of Sheikh Zayed made of 1,327 suspended spheres that align when viewed from the exact spot.",
+   "h": "Sábado a jueves 09:00–21:00, viernes desde 16:00. Entrada gratuita.",
+   "h_en": "Saturday to Thursday 09:00–21:00, Friday from 16:00. Free entry.",
+   "i": "Ve de noche: las esferas iluminadas revelan mejor el retrato del jeque.",
+   "i_en": "Go at night: the illuminated spheres reveal the sheikh's portrait best."
+  },
+  "w_auh_wahat_al_karama": {
+   "id": "w_auh_wahat_al_karama",
+   "d": "Monumento conmemorativo inaugurado en 2016 en honor a los caídos por los EAU. Lo forman 31 grandes tablones inclinados que se apoyan entre sí, símbolo de la unidad y el sacrificio de la nación.",
+   "d_en": "A memorial opened in 2016 honouring those who died for the UAE. It is formed of 31 large leaning tablets resting on one another, a symbol of the nation's unity and sacrifice.",
+   "h": "Sábado a jueves 09:00–17:00. Entrada gratuita; incluye pabellón conmemorativo.",
+   "h_en": "Saturday to Thursday 09:00–17:00. Free entry; includes a memorial pavilion.",
+   "i": "Desde aquí tienes una vista limpia de la Gran Mezquita al otro lado del estanque.",
+   "i_en": "From here you get a clean view of the Grand Mosque across the pond."
+  },
+  "w_auh_capital_gate": {
+   "id": "w_auh_capital_gate",
+   "d": "Torre de 160 m terminada en 2011 que se inclina 18° hacia el oeste, cuatro veces más que la Torre de Pisa, récord Guinness. Alberga un hotel y oficinas junto al centro nacional de exposiciones.",
+   "d_en": "A 160 m tower completed in 2011 that leans 18° westward, four times more than the Tower of Pisa, a Guinness record. It houses a hotel and offices beside the national exhibition centre.",
+   "h": "Exterior visible a cualquier hora; el hotel (Rosewood) es de acceso a huéspedes y clientes.",
+   "h_en": "The exterior is visible anytime; the hotel (Rosewood) is for guests and patrons.",
+   "i": "Su fachada de diagonales acristaladas se ve mejor desde la explanada de ADNEC.",
+   "i_en": "Its diagonal glass facade looks best from the ADNEC forecourt."
+  },
+  "w_auh_zayed_bridge": {
+   "id": "w_auh_zayed_bridge",
+   "d": "Inaugurado en 2010 y diseñado por Zaha Hadid, sus arcos de acero evocan dunas del desierto en movimiento. De noche una iluminación cambiante lo convierte en una escultura de luz sobre el canal.",
+   "d_en": "Opened in 2010 and designed by Zaha Hadid, its steel arches evoke moving desert dunes. At night a shifting light scheme turns it into a sculpture of light over the channel.",
+   "h": "Accesible en coche a cualquier hora; mejor apreciado desde los miradores cercanos.",
+   "h_en": "Accessible by car anytime; best appreciated from nearby viewpoints.",
+   "i": "Cruza al anochecer para ver la secuencia de luces recorriendo los arcos.",
+   "i_en": "Cross at dusk to see the light sequence run along the arches."
+  },
+  "w_auh_mangrove_np": {
+   "id": "w_auh_mangrove_np",
+   "d": "Reserva costera que protege densos manglares, hogar de flamencos, garzas y tortugas. Se recorre en kayak o paddle por canales tranquilos, un pulmón verde en plena ciudad.",
+   "d_en": "A coastal reserve protecting dense mangroves, home to flamingos, herons and turtles. Explore it by kayak or paddleboard through calm channels, a green lung in the heart of the city.",
+   "h": "Excursiones guiadas en kayak durante todo el día; reserva previa recomendada.",
+   "h_en": "Guided kayak tours run through the day; advance booking recommended.",
+   "i": "Sal al amanecer o al atardecer para ver más aves y evitar el calor.",
+   "i_en": "Go at dawn or dusk to spot more birds and avoid the heat."
+  },
+  "w_auh_jubail_mangrove": {
+   "id": "w_auh_jubail_mangrove",
+   "d": "Parque ecológico con más de 2 km de pasarelas elevadas entre manglares, paneles educativos y observatorios de aves. Ideal para pasear a pie y descubrir el ecosistema costero.",
+   "d_en": "An eco-park with over 2 km of raised boardwalks through the mangroves, educational panels and bird hides. Ideal for a stroll to discover the coastal ecosystem.",
+   "h": "Abre a diario 07:00–19:00 (horario ampliado en invierno). Entrada gratuita.",
+   "h_en": "Open daily 07:00–19:00 (extended in winter). Free entry.",
+   "i": "Lleva agua y gorra: la pasarela tiene poca sombra a mediodía.",
+   "i_en": "Bring water and a hat: the boardwalk has little shade at midday."
+  },
+  "w_auh_corniche": {
+   "id": "w_auh_corniche",
+   "d": "El gran paseo costero de Abu Dabi, con carril bici, palmeras, parques infantiles y una playa galardonada de aguas turquesa. Reúne a locales y visitantes al atardecer con vistas al skyline.",
+   "d_en": "Abu Dhabi's grand waterfront, with a cycle path, palm trees, playgrounds and an award-winning turquoise beach. It gathers locals and visitors at sunset with skyline views.",
+   "h": "Acceso libre 24 h; la playa cobra una pequeña entrada por tramos con servicios.",
+   "h_en": "Open 24 h; the beach charges a small fee for serviced sections.",
+   "i": "Alquila una bici en las estaciones del paseo para recorrerlo entero.",
+   "i_en": "Rent a bike from the promenade stations to ride its full length."
+  },
+  "w_auh_saadiyat_island": {
+   "id": "w_auh_saadiyat_island",
+   "d": "Isla natural de arena blanca conocida por sus tortugas anidadoras y delfines, y por el Distrito Cultural que reúne el Louvre y futuros museos. Combina lujo, naturaleza y arte.",
+   "d_en": "A natural white-sand island known for nesting turtles and dolphins, and for the Cultural District gathering the Louvre and future museums. It blends luxury, nature and art.",
+   "h": "Playas públicas y de club abiertas a diario; algunas requieren entrada o reserva.",
+   "h_en": "Public and club beaches open daily; some require a fee or booking.",
+   "i": "En temporada (primavera) pueden verse tortugas marinas anidando en la playa.",
+   "i_en": "In season (spring) sea turtles can be seen nesting on the beach."
+  },
+  "w_auh_ferrari_world": {
+   "id": "w_auh_ferrari_world",
+   "d": "Primer parque de Ferrari del mundo, bajo un gigantesco techo rojo. Alberga Formula Rossa, la montaña rusa más veloz del planeta (240 km/h), además de simuladores y atracciones para toda la familia.",
+   "d_en": "The world's first Ferrari park, under a giant red roof. It is home to Formula Rossa, the planet's fastest roller coaster (240 km/h), plus simulators and family rides.",
+   "h": "Abre a diario 11:00–20:00 (horario variable). Entrada con billete.",
+   "h_en": "Open daily 11:00–20:00 (hours vary). Ticketed entry.",
+   "i": "Un billete combinado con SeaWorld o Yas Waterworld sale más a cuenta.",
+   "i_en": "A combo ticket with SeaWorld or Yas Waterworld works out cheaper."
+  },
+  "w_auh_warner_bros": {
+   "id": "w_auh_warner_bros",
+   "d": "Enorme parque temático 100% cubierto y climatizado con seis mundos inspirados en DC Comics y los Looney Tunes. Perfecto para los días de calor, con atracciones para niños y adultos.",
+   "d_en": "A vast fully indoor, air-conditioned theme park with six lands inspired by DC Comics and the Looney Tunes. Perfect for hot days, with rides for children and adults.",
+   "h": "Abre a diario 11:00–20:00 (horario variable). Entrada con billete.",
+   "h_en": "Open daily 11:00–20:00 (hours vary). Ticketed entry.",
+   "i": "Al estar cubierto es la mejor opción para el mediodía de verano.",
+   "i_en": "Being indoors, it is the best option for a summer midday."
+  },
+  "w_auh_yas_waterworld": {
+   "id": "w_auh_yas_waterworld",
+   "d": "Parque acuático inspirado en la leyenda de la perla perdida, con más de 40 toboganes, ríos y piscinas de olas. Incluye una de las montañas rusas acuáticas más originales del mundo.",
+   "d_en": "A water park inspired by the legend of the lost pearl, with over 40 slides, rivers and wave pools. It features one of the world's most original water coasters.",
+   "h": "Abre a diario 10:00–18:00 (ampliado en verano). Entrada con billete.",
+   "h_en": "Open daily 10:00–18:00 (extended in summer). Ticketed entry.",
+   "i": "Alquila una taquilla y lleva calzado acuático para los toboganes.",
+   "i_en": "Rent a locker and bring water shoes for the slides."
+  },
+  "w_auh_yas_marina": {
+   "id": "w_auh_yas_marina",
+   "d": "Sede del GP de F1 desde 2009, este circuito nocturno serpentea junto a un puerto deportivo y bajo un hotel iluminado. Fuera de carreras se puede conducir en pista, hacer karting o rutas guiadas.",
+   "d_en": "Host of the F1 Grand Prix since 2009, this floodlit circuit winds beside a marina and under an illuminated hotel. Outside race days you can drive the track, kart, or take guided tours.",
+   "h": "Experiencias y tours con reserva; el Gran Premio se celebra a finales de año.",
+   "h_en": "Experiences and tours by booking; the Grand Prix takes place late in the year.",
+   "i": "Prueba una vuelta como copiloto en un coche de carreras para sentir la velocidad.",
+   "i_en": "Try a passenger lap in a race car to feel the speed."
+  },
+  "w_auh_seaworld": {
+   "id": "w_auh_seaworld",
+   "d": "Inaugurado en 2023, es el mayor acuario del mundo por volumen de agua, con más de 100.000 animales marinos, un centro de rescate y espectaculares hábitats en varios niveles.",
+   "d_en": "Opened in 2023, it is the world's largest aquarium by water volume, with over 100,000 marine animals, a rescue centre, and spectacular multi-level habitats.",
+   "h": "Abre a diario 10:00–18:00 (horario variable). Entrada con billete.",
+   "h_en": "Open daily 10:00–18:00 (hours vary). Ticketed entry.",
+   "i": "Reserva las experiencias de encuentro con animales con antelación, se agotan.",
+   "i_en": "Book the animal-encounter experiences in advance, they sell out."
+  },
+  "w_auh_yas_mall": {
+   "id": "w_auh_yas_mall",
+   "d": "Con más de 370 tiendas, cines y una amplia zona de restauración, es el gran centro comercial de la isla de Yas. Conecta directamente con los parques temáticos, ideal para refrescarse.",
+   "d_en": "With over 370 shops, cinemas and a large food hall, it is Yas Island's great mall. It connects directly to the theme parks, ideal for cooling off.",
+   "h": "Abre a diario 10:00–22:00 (viernes y sábado hasta medianoche).",
+   "h_en": "Open daily 10:00–22:00 (Friday and Saturday until midnight).",
+   "i": "Aparca aquí para visitar los parques: el acceso peatonal es directo.",
+   "i_en": "Park here to visit the parks: pedestrian access is direct."
+  },
+  "w_auh_clymb": {
+   "id": "w_auh_clymb",
+   "d": "Complejo de aventura indoor con el túnel de vuelo (caída libre) más ancho del mundo y una de las paredes de escalada cubiertas más altas del planeta, para adrenalina en cualquier época.",
+   "d_en": "An indoor adventure hub with the world's widest flight chamber (indoor skydiving) and one of the planet's tallest indoor climbing walls, for adrenaline all year round.",
+   "h": "Abre a diario 12:00–20:00 (horario variable). Actividades con reserva.",
+   "h_en": "Open daily 12:00–20:00 (hours vary). Activities by booking.",
+   "i": "No hace falta experiencia: hay sesiones de iniciación con monitor.",
+   "i_en": "No experience needed: there are beginner sessions with an instructor."
+  },
+  "w_auh_mezlai": {
+   "id": "w_auh_mezlai",
+   "d": "Primer restaurante gourmet de cocina emiratí de los EAU, dentro del Emirates Palace. Sirve platos beduinos reinterpretados con ingredientes locales como camello, cordero y dátiles, en un ambiente de tienda del desierto.",
+   "d_en": "The UAE's first Emirati fine-dining restaurant, inside Emirates Palace. It serves reinterpreted Bedouin dishes with local ingredients such as camel, lamb and dates, in a desert-tent setting.",
+   "h": "Cena con reserva; ambiente elegante y tradicional.",
+   "h_en": "Dinner by reservation; elegant traditional setting.",
+   "i": "Prueba el machboos de cordero y el postre de dátiles con café árabe.",
+   "i_en": "Try the lamb machboos and the date dessert with Arabic coffee."
+  },
+  "w_auh_al_fanar": {
+   "id": "w_auh_al_fanar",
+   "d": "Restaurante que recrea la Abu Dabi de antaño, con un ambiente nostálgico de barco y aldea. Sirve platos emiratíes auténticos y asequibles como harees, thereed y balaleet.",
+   "d_en": "A restaurant recreating old Abu Dhabi, with a nostalgic boat-and-village atmosphere. It serves authentic, affordable Emirati dishes such as harees, thereed and balaleet.",
+   "h": "Abierto a mediodía y noche; ideal para conocer la gastronomía local.",
+   "h_en": "Open for lunch and dinner; ideal to discover local cuisine.",
+   "i": "Pide el balaleet (fideos dulces con huevo) para probar un desayuno típico.",
+   "i_en": "Order the balaleet (sweet vermicelli with egg) to try a typical breakfast."
+  },
+  "w_auh_li_beirut": {
+   "id": "w_auh_li_beirut",
+   "d": "Restaurante libanés de manteles largos en el hotel Jumeirah at Etihad Towers, con mezze refinado, pescados a la brasa y postres tradicionales, todo con vistas panorámicas al golfo.",
+   "d_en": "An upscale Lebanese restaurant in the Jumeirah at Etihad Towers hotel, with refined mezze, grilled fish and traditional desserts, all with panoramic Gulf views.",
+   "h": "Cena con reserva recomendada; ambiente elegante.",
+   "h_en": "Dinner, reservation recommended; elegant setting.",
+   "i": "Empieza con una selección de mezze frío y caliente para compartir.",
+   "i_en": "Start with a selection of hot and cold mezze to share."
+  },
+  "w_auh_coya": {
+   "id": "w_auh_coya",
+   "d": "Sofisticado restaurante peruano en The Galleria, célebre por su ceviche, sus platos a la parrilla al estilo nikkei y su ambiente animado con música y coctelería de autor.",
+   "d_en": "A sophisticated Peruvian restaurant in The Galleria, celebrated for its ceviche, nikkei-style grilled plates and a lively atmosphere with music and signature cocktails.",
+   "h": "Comida y cena; brunch los fines de semana. Reserva recomendada.",
+   "h_en": "Lunch and dinner; weekend brunch. Reservation recommended.",
+   "i": "No te pierdas el ceviche clásico y los anticuchos de la parrilla josper.",
+   "i_en": "Don't miss the classic ceviche and the anticuchos from the josper grill."
+  },
+  "w_auh_hakkasan": {
+   "id": "w_auh_hakkasan",
+   "d": "Sucursal de la célebre marca Hakkasan dentro del Emirates Palace, con cocina cantonesa moderna, dim sum de lujo y un elegante interior en azul y negro. Referencia de la alta gastronomía asiática de la ciudad.",
+   "d_en": "A branch of the acclaimed Hakkasan brand inside Emirates Palace, offering modern Cantonese cuisine, luxury dim sum and an elegant blue-and-black interior. A benchmark for the city's high-end Asian dining.",
+   "h": "Cena con reserva; también dim sum los fines de semana.",
+   "h_en": "Dinner by reservation; also weekend dim sum.",
+   "i": "Reserva el brunch de dim sum del fin de semana, muy popular.",
+   "i_en": "Book the weekend dim sum brunch, it is very popular."
+  },
+  "w_auh_villa_toscana": {
+   "id": "w_auh_villa_toscana",
+   "d": "Restaurante italiano acogedor y elegante que recrea una villa toscana. Ofrece pastas caseras, risottos y clásicos regionales, con carrito de quesos y una notable carta de vinos.",
+   "d_en": "A cosy yet elegant Italian restaurant recreating a Tuscan villa. It offers homemade pasta, risottos and regional classics, with a cheese trolley and a strong wine list.",
+   "h": "Cena a diario; brunch italiano los fines de semana. Reserva recomendada.",
+   "h_en": "Dinner daily; Italian brunch at weekends. Reservation recommended.",
+   "i": "Deja hueco para el carrito de quesos y el tiramisú de la casa.",
+   "i_en": "Leave room for the cheese trolley and the house tiramisu."
+  }
+ },
+ "food": {
+  "w_auh_mezlai": {
+   "cuisine": "Emiratí",
+   "price": "45–90 €",
+   "hours": "18:00–23:30"
+  },
+  "w_auh_al_fanar": {
+   "cuisine": "Emiratí",
+   "price": "20–40 €",
+   "hours": "08:00–23:00"
+  },
+  "w_auh_li_beirut": {
+   "cuisine": "Libanesa",
+   "price": "40–75 €",
+   "hours": "13:00–00:00"
+  },
+  "w_auh_coya": {
+   "cuisine": "Peruana",
+   "price": "50–90 €",
+   "hours": "12:30–01:00"
+  },
+  "w_auh_hakkasan": {
+   "cuisine": "China cantonesa",
+   "price": "55–100 €",
+   "hours": "18:00–00:00"
+  },
+  "w_auh_villa_toscana": {
+   "cuisine": "Italiana",
+   "price": "45–85 €",
+   "hours": "18:00–23:30"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Abu Dabi",
+   "items": [
+    {
+     "name": "Dátiles Medjool",
+     "price": "8–40 €",
+     "desc": "Dátiles premium de los oasis emiratíes, a menudo rellenos o bañados en chocolate."
+    },
+    {
+     "name": "Oud y perfume árabe",
+     "price": "20–150 €",
+     "desc": "Fragancias de madera de agar y attar, esencia tradicional del Golfo."
+    },
+    {
+     "name": "Chocolate de leche de camella",
+     "price": "6–25 €",
+     "desc": "Bombones locales elaborados con leche de camella, un dulce muy emiratí."
+    },
+    {
+     "name": "Pashmina y tejidos",
+     "price": "15–80 €",
+     "desc": "Chales de cachemira y bordados con hilo dorado."
+    },
+    {
+     "name": "Café árabe y dallah",
+     "price": "10–60 €",
+     "desc": "Cafetera dallah de latón y mezcla de café con cardamomo (gahwa)."
+    }
+   ],
+   "shops": [
+    "Souk Qaryat Al Beri",
+    "World Trade Center Souk (Central Market)",
+    "Madinat Zayed Gold Souk",
+    "Yas Mall",
+    "The Galleria Al Maryah Island"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Vístete con modestia: hombros y rodillas cubiertos, sobre todo en la Gran Mezquita (abayas gratuitas en la entrada para mujeres).",
+   "El verano (junio-septiembre) es extremo (40 °C+); visita entre noviembre y marzo para disfrutar del exterior.",
+   "Compra online las entradas de los parques de Yas Island: suelen ser más baratas y evitan colas.",
+   "El taxi y Careem/Uber son cómodos y baratos; el transporte público es limitado fuera del centro.",
+   "El fin de semana es sábado y domingo; el viernes por la mañana muchos comercios abren tarde por la oración."
+  ],
+  "en": [
+   "Dress modestly: cover shoulders and knees, especially at the Grand Mosque (free abayas provided for women at the entrance).",
+   "Summer (June-September) is extreme (40 °C+); visit between November and March to enjoy the outdoors.",
+   "Buy Yas Island theme-park tickets online: usually cheaper and lets you skip queues.",
+   "Taxis and Careem/Uber are cheap and easy; public transport is limited outside the centre.",
+   "The weekend is Saturday and Sunday; on Friday mornings many shops open late due to prayers."
+  ]
+ },
+ "climate": {
+  "hi": [
+   24,
+   25,
+   28,
+   33,
+   38,
+   39,
+   41,
+   41,
+   39,
+   35,
+   30,
+   26
+  ],
+  "lo": [
+   13,
+   14,
+   17,
+   20,
+   24,
+   26,
+   28,
+   29,
+   26,
+   22,
+   18,
+   15
+  ]
+ },
+ "tr": {
+  "La mezquita más icónica de los EAU, con 82 cúpulas de mármol blanco.": "The UAE's most iconic mosque, with 82 white-marble domes.",
+  "Museo universal bajo una cúpula de 'lluvia de luz' junto al mar.": "A universal museum under a 'rain of light' dome by the sea.",
+  "Palacio presidencial abierto al público, joya de arquitectura árabe.": "The presidential palace open to visitors, a jewel of Arab architecture.",
+  "Hotel-palacio de lujo con cúpulas doradas y jardines junto al mar.": "A luxury palace-hotel with golden domes and seaside gardens.",
+  "El edificio más antiguo de la ciudad, cuna de Abu Dabi.": "The city's oldest building, the birthplace of Abu Dhabi.",
+  "Aldea-museo que recrea la vida emiratí antes del petróleo.": "A living-museum village recreating Emirati life before oil.",
+  "Mirador a 300 m en las Etihad Towers con vistas de 360°.": "A 300 m observation deck in the Etihad Towers with 360° views.",
+  "Homenaje monumental al jeque Zayed junto al mar.": "A monumental tribute to Sheikh Zayed by the sea.",
+  "Memorial de los mártires frente a la Gran Mezquita.": "The martyrs' memorial facing the Grand Mosque.",
+  "El rascacielos con la mayor inclinación intencionada del mundo.": "The skyscraper with the world's greatest intentional lean.",
+  "Puente ondulante de Zaha Hadid, icono del ingenio moderno.": "Zaha Hadid's undulating bridge, an icon of modern engineering.",
+  "Bosque de manglares protegido para explorar en kayak.": "A protected mangrove forest to explore by kayak.",
+  "Pasarelas de madera sobre los manglares de la isla de Jubail.": "Wooden boardwalks over the mangroves of Jubail Island.",
+  "Paseo marítimo de 8 km con playa de bandera azul.": "An 8 km waterfront promenade with a Blue Flag beach.",
+  "Isla de playas vírgenes y distrito cultural de museos.": "An island of pristine beaches and a cultural museum district.",
+  "Parque temático Ferrari con la montaña rusa más rápida del mundo.": "The Ferrari theme park with the world's fastest roller coaster.",
+  "Parque temático cubierto con Batman, Bugs Bunny y más.": "An indoor theme park with Batman, Bugs Bunny and more.",
+  "Parque acuático de temática emiratí con 40 atracciones.": "An Emirati-themed water park with 40 rides.",
+  "Circuito del Gran Premio de Fórmula 1 de Abu Dabi.": "The Abu Dhabi Formula 1 Grand Prix circuit.",
+  "Parque marino de nueva generación en Yas Island.": "A next-generation marine park on Yas Island.",
+  "El mayor centro comercial de Abu Dabi, junto a Ferrari World.": "Abu Dhabi's largest shopping mall, next to Ferrari World.",
+  "Túnel de viento y muro de escalada récord en Yas Island.": "A record-breaking wind tunnel and climbing wall on Yas Island.",
+  "Alta cocina emiratí tradicional en el Emirates Palace.": "Fine traditional Emirati cuisine at Emirates Palace.",
+  "Cocina emiratí casera en un decorado de los años 60.": "Home-style Emirati food in a 1960s-themed setting.",
+  "Alta cocina libanesa con vistas al mar en las Etihad Towers.": "Lebanese fine dining with sea views in the Etihad Towers.",
+  "Vibrante cocina peruana con toques asiáticos y latinos.": "Vibrant Peruvian cuisine with Asian and Latin touches.",
+  "Cocina cantonesa con estrella en el Emirates Palace.": "Michelin-pedigree Cantonese cuisine at Emirates Palace.",
+  "Trattoria italiana de autor en el St. Regis de la Corniche.": "A refined Italian trattoria at the St. Regis on the Corniche.",
+  "Abu Dabi": "Abu Dabi"
+ }
+}

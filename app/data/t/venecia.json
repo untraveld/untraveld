@@ -1,0 +1,708 @@
+{
+ "id": "venecia",
+ "name": "Venecia",
+ "country": "WORLD",
+ "center": [
+  45.43713,
+  12.33265
+ ],
+ "pois": [
+  {
+   "id": "w_ven_plaza_san_marcos",
+   "cat": "monuments",
+   "name": "Plaza de San Marcos",
+   "icon": "🕊️",
+   "lat": 45.43406,
+   "lng": 12.33878,
+   "desc": "La gran plaza de Venecia, corazón social y monumental."
+  },
+  {
+   "id": "w_ven_basilica_san_marcos",
+   "cat": "monuments",
+   "name": "Basílica de San Marcos",
+   "icon": "⛪",
+   "lat": 45.43451,
+   "lng": 12.33966,
+   "desc": "Deslumbrante basílica bizantina cubierta de mosaicos dorados."
+  },
+  {
+   "id": "w_ven_palacio_ducal",
+   "cat": "monuments",
+   "name": "Palacio Ducal",
+   "icon": "🏛️",
+   "lat": 45.43365,
+   "lng": 12.34014,
+   "desc": "Palacio gótico de los dux, sede del poder veneciano."
+  },
+  {
+   "id": "w_ven_puente_rialto",
+   "cat": "monuments",
+   "name": "Puente de Rialto",
+   "icon": "🌉",
+   "lat": 45.438,
+   "lng": 12.33588,
+   "desc": "El puente más antiguo y famoso sobre el Gran Canal."
+  },
+  {
+   "id": "w_ven_puente_suspiros",
+   "cat": "monuments",
+   "name": "Puente de los Suspiros",
+   "icon": "🌉",
+   "lat": 45.43411,
+   "lng": 12.341,
+   "desc": "Romántico puente cerrado entre el palacio y las prisiones."
+  },
+  {
+   "id": "w_ven_campanile",
+   "cat": "monuments",
+   "name": "Campanile de San Marcos",
+   "icon": "🔔",
+   "lat": 45.43401,
+   "lng": 12.33876,
+   "desc": "El campanario de 99 m con las mejores vistas de la ciudad."
+  },
+  {
+   "id": "w_ven_torre_orologio",
+   "cat": "monuments",
+   "name": "Torre del Reloj (dell'Orologio)",
+   "icon": "🕰️",
+   "lat": 45.4347,
+   "lng": 12.33843,
+   "desc": "Torre renacentista con reloj astronómico y los 'moros'."
+  },
+  {
+   "id": "w_ven_ca_rezzonico",
+   "cat": "monuments",
+   "name": "Ca' Rezzonico",
+   "icon": "🏛️",
+   "lat": 45.43335,
+   "lng": 12.3272,
+   "desc": "Palacio barroco sobre el Gran Canal, museo del s. XVIII."
+  },
+  {
+   "id": "w_ven_la_fenice",
+   "cat": "monuments",
+   "name": "Teatro La Fenice",
+   "icon": "🎭",
+   "lat": 45.43356,
+   "lng": 12.3338,
+   "desc": "Legendario teatro de ópera renacido de sus cenizas."
+  },
+  {
+   "id": "w_ven_salute",
+   "cat": "monuments",
+   "name": "Basílica de Santa Maria della Salute",
+   "icon": "⛪",
+   "lat": 45.43075,
+   "lng": 12.33447,
+   "desc": "Majestuosa iglesia barroca a la entrada del Gran Canal."
+  },
+  {
+   "id": "w_ven_frari",
+   "cat": "monuments",
+   "name": "Basílica dei Frari",
+   "icon": "⛪",
+   "lat": 45.43681,
+   "lng": 12.32672,
+   "desc": "Gran iglesia gótica con la 'Asunción' de Tiziano."
+  },
+  {
+   "id": "w_ven_ca_doro",
+   "cat": "monuments",
+   "name": "Ca' d'Oro",
+   "icon": "🏛️",
+   "lat": 45.44069,
+   "lng": 12.3338,
+   "desc": "Palacio gótico-veneciano de fachada calada sobre el canal."
+  },
+  {
+   "id": "w_ven_gran_canal",
+   "cat": "nature",
+   "name": "Gran Canal",
+   "icon": "🚤",
+   "lat": 45.437,
+   "lng": 12.3313,
+   "desc": "La gran arteria acuática de Venecia entre palacios."
+  },
+  {
+   "id": "w_ven_murano",
+   "cat": "nature",
+   "name": "Murano",
+   "icon": "🏝️",
+   "lat": 45.455,
+   "lng": 12.352,
+   "desc": "Isla de la laguna famosa por el cristal soplado."
+  },
+  {
+   "id": "w_ven_burano",
+   "cat": "nature",
+   "name": "Burano",
+   "icon": "🎨",
+   "lat": 45.4855,
+   "lng": 12.417,
+   "desc": "Isla pesquera de casas de colores y encaje artesanal."
+  },
+  {
+   "id": "w_ven_lido",
+   "cat": "nature",
+   "name": "Lido de Venecia",
+   "icon": "🏖️",
+   "lat": 45.4079,
+   "lng": 12.3679,
+   "desc": "Isla-barrera con playas y sede del Festival de Cine."
+  },
+  {
+   "id": "w_ven_giardini_biennale",
+   "cat": "nature",
+   "name": "Giardini della Biennale",
+   "icon": "🌳",
+   "lat": 45.4292,
+   "lng": 12.3576,
+   "desc": "Parque arbolado con los pabellones de la Biennale."
+  },
+  {
+   "id": "w_ven_torcello",
+   "cat": "nature",
+   "name": "Torcello",
+   "icon": "🏝️",
+   "lat": 45.4977,
+   "lng": 12.4179,
+   "desc": "Isla ancestral, cuna de Venecia, con basílica milenaria."
+  },
+  {
+   "id": "w_ven_dorsoduro",
+   "cat": "ocio",
+   "name": "Dorsoduro (barrio)",
+   "icon": "🎨",
+   "lat": 45.4318,
+   "lng": 12.3256,
+   "desc": "Barrio bohemio de museos, arte y ambiente estudiantil."
+  },
+  {
+   "id": "w_ven_peggy_guggenheim",
+   "cat": "ocio",
+   "name": "Colección Peggy Guggenheim",
+   "icon": "🖼️",
+   "lat": 45.43092,
+   "lng": 12.33144,
+   "desc": "Museo de arte moderno en el palacio de Peggy Guggenheim."
+  },
+  {
+   "id": "w_ven_mercato_rialto",
+   "cat": "ocio",
+   "name": "Mercado de Rialto",
+   "icon": "🐟",
+   "lat": 45.43933,
+   "lng": 12.33469,
+   "desc": "Bullicioso mercado de pescado y verduras junto al puente."
+  },
+  {
+   "id": "w_ven_libreria_acqua_alta",
+   "cat": "ocio",
+   "name": "Librería Acqua Alta",
+   "icon": "📚",
+   "lat": 45.43705,
+   "lng": 12.3416,
+   "desc": "Curiosa librería con libros en góndolas y bañeras."
+  },
+  {
+   "id": "w_ven_paseo_gondola",
+   "cat": "ocio",
+   "name": "Paseo en góndola",
+   "icon": "🛶",
+   "lat": 45.434,
+   "lng": 12.3369,
+   "desc": "La experiencia clásica de recorrer los canales en góndola."
+  },
+  {
+   "id": "w_ven_zattere",
+   "cat": "ocio",
+   "name": "Fondamenta delle Zattere",
+   "icon": "🌅",
+   "lat": 45.42846,
+   "lng": 12.3254,
+   "desc": "Amplio paseo soleado frente al canal de la Giudecca."
+  },
+  {
+   "id": "w_ven_caffe_florian",
+   "cat": "food",
+   "name": "Caffè Florian",
+   "icon": "☕",
+   "lat": 45.43365,
+   "lng": 12.33843,
+   "desc": "El café más antiguo del mundo, en la Plaza de San Marcos."
+  },
+  {
+   "id": "w_ven_harrys_bar",
+   "cat": "food",
+   "name": "Harry's Bar",
+   "icon": "🍸",
+   "lat": 45.43197,
+   "lng": 12.33754,
+   "desc": "Legendario bar donde nacieron el Bellini y el carpaccio."
+  },
+  {
+   "id": "w_ven_cantina_do_mori",
+   "cat": "food",
+   "name": "Cantina Do Mori",
+   "icon": "🍷",
+   "lat": 45.43862,
+   "lng": 12.33418,
+   "desc": "El bácaro más antiguo de Venecia, con cichetti y vino."
+  },
+  {
+   "id": "w_ven_antiche_carampane",
+   "cat": "food",
+   "name": "Antiche Carampane",
+   "icon": "🦐",
+   "lat": 45.4386,
+   "lng": 12.3311,
+   "desc": "Trattoria escondida de excelente pescado de la laguna."
+  },
+  {
+   "id": "w_ven_gelateria_nico",
+   "cat": "food",
+   "name": "Gelateria Nico",
+   "icon": "🍦",
+   "lat": 45.42961,
+   "lng": 12.32615,
+   "desc": "Histórica heladería en las Zattere con el famoso gianduiotto."
+  },
+  {
+   "id": "w_ven_alle_testiere",
+   "cat": "food",
+   "name": "Osteria alle Testiere",
+   "icon": "🍽️",
+   "lat": 45.43598,
+   "lng": 12.34012,
+   "desc": "Diminuta osteria de culto por su cocina de pescado."
+  }
+ ],
+ "extra": {
+  "w_ven_plaza_san_marcos": {
+   "id": "w_ven_plaza_san_marcos",
+   "d": "La única plaza (piazza) de Venecia y el gran salón de la ciudad, descrita por Napoleón como 'el salón más elegante de Europa'. La rodean la Basílica, el Campanile, las Procuratie y los cafés históricos, y en ella conviven turistas, palomas y música en vivo.",
+   "d_en": "Venice's only piazza and the city's grand drawing room, described by Napoleon as 'the finest drawing room in Europe'. It is framed by the Basilica, the Campanile, the Procuratie and historic cafés, alive with tourists, pigeons and live music.",
+   "h": "Abierta 24 horas",
+   "h_en": "Open 24 hours",
+   "i": "los paseos, la fotografía y el ambiente histórico",
+   "i_en": "strolls, photography and the historic atmosphere"
+  },
+  "w_ven_basilica_san_marcos": {
+   "id": "w_ven_basilica_san_marcos",
+   "d": "Consagrada en 1094, es la iglesia más importante de Venecia y una joya del arte bizantino, con cinco cúpulas y más de 8.000 m² de mosaicos dorados. Custodia las reliquias de San Marcos, la Pala d'Oro y los cuatro caballos de bronce, símbolo del poder de la Serenísima.",
+   "d_en": "Consecrated in 1094, it is Venice's most important church and a jewel of Byzantine art, with five domes and over 8,000 m² of golden mosaics. It holds the relics of St Mark, the Pala d'Oro altarpiece and the four bronze horses, symbols of the Serenissima's power.",
+   "h": "Lun-Sáb 9:30-17:15, Dom 14:00-17:15 (reserva recomendada)",
+   "h_en": "Mon-Sat 9:30-17:15, Sun 14:00-17:15 (booking recommended)",
+   "i": "el arte bizantino, los mosaicos y la historia religiosa",
+   "i_en": "Byzantine art, mosaics and religious history"
+  },
+  "w_ven_palacio_ducal": {
+   "id": "w_ven_palacio_ducal",
+   "d": "Obra maestra del gótico veneciano y antigua residencia de los dux y centro de gobierno de la República. Sus salones lucen techos dorados y lienzos de Tintoretto y Veronés, y desde él se cruza el Puente de los Suspiros hacia las antiguas prisiones.",
+   "d_en": "A masterpiece of Venetian Gothic and former residence of the doges and seat of the Republic's government. Its halls boast gilded ceilings and canvases by Tintoretto and Veronese, and from here the Bridge of Sighs leads to the old prisons.",
+   "h": "Todos los días 9:00-18:00 (última entrada 17:00)",
+   "h_en": "Daily 9:00-18:00 (last entry 17:00)",
+   "i": "la historia, los palacios y la pintura renacentista",
+   "i_en": "history, palaces and Renaissance painting"
+  },
+  "w_ven_puente_rialto": {
+   "id": "w_ven_puente_rialto",
+   "d": "Inaugurado en 1591, es el más antiguo de los cuatro puentes del Gran Canal y todo un icono de la ciudad. Su único arco de piedra de 28 metros alberga hileras de tiendas y ofrece una de las vistas más fotografiadas de Venecia sobre el trasiego de barcas.",
+   "d_en": "Opened in 1591, it is the oldest of the four Grand Canal bridges and a true city icon. Its single 28-metre stone arch houses rows of shops and offers one of Venice's most photographed views over the passing boats.",
+   "h": "Abierto 24 horas",
+   "h_en": "Open 24 hours",
+   "i": "la arquitectura, la fotografía y los paseos junto al canal",
+   "i_en": "architecture, photography and canalside strolls"
+  },
+  "w_ven_puente_suspiros": {
+   "id": "w_ven_puente_suspiros",
+   "d": "Elegante puente barroco de piedra blanca construido hacia 1600 que unía el Palacio Ducal con las nuevas prisiones. Su nombre alude a los suspiros de los presos que veían por última vez la libertad a través de sus ventanas enrejadas antes de ser encarcelados.",
+   "d_en": "An elegant white-stone Baroque bridge built around 1600 linking the Doge's Palace with the new prisons. Its name refers to the sighs of prisoners glimpsing freedom for the last time through its barred windows before being jailed.",
+   "h": "Visible 24 h desde el Ponte della Paglia; interior con la visita al palacio",
+   "h_en": "Viewable 24h from the Ponte della Paglia; interior with the palace visit",
+   "i": "la historia, la fotografía y los rincones románticos",
+   "i_en": "history, photography and romantic corners"
+  },
+  "w_ven_campanile": {
+   "id": "w_ven_campanile",
+   "d": "El campanario de la Basílica se eleva 98,6 metros sobre la plaza y es el edificio más alto de Venecia. Se derrumbó en 1902 y fue reconstruido idéntico. Un ascensor sube al mirador, desde donde se domina toda la laguna, los tejados y, en días claros, los Alpes.",
+   "d_en": "The Basilica's bell tower rises 98.6 metres above the square and is Venice's tallest building. It collapsed in 1902 and was rebuilt identically. A lift climbs to the viewing gallery, which overlooks the whole lagoon, the rooftops and, on clear days, the Alps.",
+   "h": "Todos los días 9:30-21:15 (varía por temporada)",
+   "h_en": "Daily 9:30-21:15 (varies by season)",
+   "i": "las vistas panorámicas, la fotografía y la arquitectura",
+   "i_en": "panoramic views, photography and architecture"
+  },
+  "w_ven_torre_orologio": {
+   "id": "w_ven_torre_orologio",
+   "d": "Elegante torre renacentista de finales del siglo XV que da entrada a las Mercerie. Su reloj astronómico dorado marca las horas, las fases lunares y el zodíaco, y en lo alto dos figuras de bronce, los 'moros', golpean la campana cada hora.",
+   "d_en": "An elegant late-15th-century Renaissance tower marking the entrance to the Mercerie. Its gilded astronomical clock shows the hours, moon phases and zodiac, and atop it two bronze figures, the 'Moors', strike the bell each hour.",
+   "h": "Solo con visita guiada, reserva obligatoria (varios horarios)",
+   "h_en": "Guided visit only, booking required (various times)",
+   "i": "la relojería histórica, la arquitectura y la ingeniería",
+   "i_en": "historic clockwork, architecture and engineering"
+  },
+  "w_ven_ca_rezzonico": {
+   "id": "w_ven_ca_rezzonico",
+   "d": "Suntuoso palacio barroco a orillas del Gran Canal que alberga el Museo del Settecento veneciano. Recrea la vida aristocrática del siglo XVIII con salones de baile, frescos de Tiepolo, mobiliario de época y pinturas de Longhi y Guardi.",
+   "d_en": "A sumptuous Baroque palace on the Grand Canal housing the Museum of 18th-Century Venice. It recreates aristocratic life of the 1700s with ballrooms, Tiepolo frescoes, period furniture and paintings by Longhi and Guardi.",
+   "h": "Mié-Lun 10:00-18:00 (cerrado martes; última entrada 17:00)",
+   "h_en": "Wed-Mon 10:00-18:00 (closed Tuesday; last entry 17:00)",
+   "i": "el arte, los palacios y la historia del siglo XVIII",
+   "i_en": "art, palaces and 18th-century history"
+  },
+  "w_ven_la_fenice": {
+   "id": "w_ven_la_fenice",
+   "d": "Uno de los teatros de ópera más célebres del mundo, inaugurado en 1792. Su nombre, 'el Fénix', anticipó su destino: ardió en 1836 y de nuevo en 1996, reconstruyéndose siempre fiel a su lujo original. Estrenó óperas de Verdi y Rossini bajo su dorado auditorio.",
+   "d_en": "One of the world's most celebrated opera houses, inaugurated in 1792. Its name, 'the Phoenix', foretold its fate: it burned down in 1836 and again in 1996, each time rebuilt true to its original splendour. It premiered operas by Verdi and Rossini beneath its gilded auditorium.",
+   "h": "Visitas todos los días 9:30-18:00 (según programación)",
+   "h_en": "Visits daily 9:30-18:00 (subject to performances)",
+   "i": "la ópera, la música y la arquitectura teatral",
+   "i_en": "opera, music and theatre architecture"
+  },
+  "w_ven_salute": {
+   "id": "w_ven_salute",
+   "d": "Iglesia barroca de planta octogonal coronada por una gran cúpula, levantada como voto de gratitud tras la peste de 1630. Diseñada por Baldassare Longhena, domina la entrada del Gran Canal y guarda lienzos de Tiziano y Tintoretto en su sacristía.",
+   "d_en": "An octagonal Baroque church crowned by a great dome, built as a votive offering after the plague of 1630. Designed by Baldassare Longhena, it dominates the entrance to the Grand Canal and holds canvases by Titian and Tintoretto in its sacristy.",
+   "h": "Todos los días 9:00-12:00 y 15:00-17:30",
+   "h_en": "Daily 9:00-12:00 and 15:00-17:30",
+   "i": "la arquitectura barroca, el arte y las iglesias",
+   "i_en": "Baroque architecture, art and churches"
+  },
+  "w_ven_frari": {
+   "id": "w_ven_frari",
+   "d": "Imponente basílica franciscana de ladrillo del siglo XIV, una de las mayores iglesias de Venecia. Custodia obras maestras como la 'Asunción de la Virgen' de Tiziano sobre el altar mayor, el tríptico de Bellini y la tumba del propio Tiziano.",
+   "d_en": "An imposing 14th-century Franciscan brick basilica, one of Venice's largest churches. It holds masterpieces such as Titian's 'Assumption of the Virgin' above the high altar, Bellini's triptych and Titian's own tomb.",
+   "h": "Lun-Sáb 9:00-18:00, Dom 13:00-18:00",
+   "h_en": "Mon-Sat 9:00-18:00, Sun 13:00-18:00",
+   "i": "el arte renacentista, las iglesias góticas y la historia",
+   "i_en": "Renaissance art, Gothic churches and history"
+  },
+  "w_ven_ca_doro": {
+   "id": "w_ven_ca_doro",
+   "d": "La 'casa de oro', el palacio gótico veneciano más bello del Gran Canal, del siglo XV. Su fachada calada estuvo recubierta de pan de oro. Hoy alberga la Galería Giorgio Franchetti, con obras de Mantegna, Tiziano y esculturas renacentistas.",
+   "d_en": "The 'golden house', the finest Venetian Gothic palace on the Grand Canal, dating from the 15th century. Its lacy facade was once gilded with gold leaf. Today it houses the Giorgio Franchetti Gallery, with works by Mantegna, Titian and Renaissance sculpture.",
+   "h": "Mar-Dom 9:00-19:00 (cerrado lunes; última entrada 18:15)",
+   "h_en": "Tue-Sun 9:00-19:00 (closed Monday; last entry 18:15)",
+   "i": "la arquitectura gótica, el arte y los palacios",
+   "i_en": "Gothic architecture, art and palaces"
+  },
+  "w_ven_gran_canal": {
+   "id": "w_ven_gran_canal",
+   "d": "La avenida principal de Venecia, un canal en forma de S de casi 4 km que cruza la ciudad entre más de un centenar de palacios de todos los estilos. Recorrerlo en vaporetto o en góndola es la mejor forma de admirar la fachada acuática de la Serenísima.",
+   "d_en": "Venice's main avenue, an S-shaped canal nearly 4 km long that snakes through the city past more than a hundred palaces of every style. Riding it by vaporetto or gondola is the finest way to admire the Serenissima's watery facade.",
+   "h": "Navegable 24 h (vaporetto línea 1)",
+   "h_en": "Navigable 24h (vaporetto line 1)",
+   "i": "los paseos en barco, la fotografía y la arquitectura",
+   "i_en": "boat rides, photography and architecture"
+  },
+  "w_ven_murano": {
+   "id": "w_ven_murano",
+   "d": "Conjunto de islas al norte de Venecia, célebre mundialmente por su vidrio soplado desde el siglo XIII, cuando los hornos se trasladaron aquí por el riesgo de incendios. Se visitan talleres con demostraciones en vivo, el Museo del Vidrio y canales más tranquilos que la ciudad.",
+   "d_en": "A cluster of islands north of Venice, world-famous for its glassblowing since the 13th century, when the furnaces were moved here for fear of fires. You can visit workshops with live demonstrations, the Glass Museum and canals quieter than the city's.",
+   "h": "Isla accesible siempre; talleres y tiendas 9:00-18:00 aprox.",
+   "h_en": "Island always accessible; workshops and shops approx. 9:00-18:00",
+   "i": "la artesanía del vidrio, las islas y las compras",
+   "i_en": "glass craft, islands and shopping"
+  },
+  "w_ven_burano": {
+   "id": "w_ven_burano",
+   "d": "La isla más colorida de la laguna, donde los pescadores pintaron sus casas de vivos colores para reconocerlas entre la niebla. Es famosa por su encaje de bolillos hecho a mano, su campanario inclinado y sus canales pintorescos, un paraíso para fotografiar.",
+   "d_en": "The lagoon's most colourful island, where fishermen painted their houses in bright colours to spot them through the fog. It is famous for its handmade bobbin lace, its leaning bell tower and its picturesque canals, a photographer's paradise.",
+   "h": "Isla accesible siempre; tiendas 10:00-18:00 aprox.",
+   "h_en": "Island always accessible; shops approx. 10:00-18:00",
+   "i": "la fotografía, la artesanía y los pueblos con encanto",
+   "i_en": "photography, crafts and charming villages"
+  },
+  "w_ven_lido": {
+   "id": "w_ven_lido",
+   "d": "Larga isla-barrera de 11 km que separa la laguna del mar Adriático, con playas de arena, elegantes hoteles Belle Époque y calles con coches, algo insólito en Venecia. Cada septiembre acoge la Mostra, el prestigioso Festival Internacional de Cine.",
+   "d_en": "A long 11 km barrier island separating the lagoon from the Adriatic, with sandy beaches, elegant Belle Époque hotels and, unusually for Venice, streets with cars. Every September it hosts the Mostra, the prestigious International Film Festival.",
+   "h": "Playas de acceso libre; algunas de pago en verano",
+   "h_en": "Beaches free to access; some paid in summer",
+   "i": "las playas, el cine y los paseos junto al mar",
+   "i_en": "beaches, cinema and seaside strolls"
+  },
+  "w_ven_giardini_biennale": {
+   "id": "w_ven_giardini_biennale",
+   "d": "Amplios jardines públicos creados por orden de Napoleón, uno de los pocos espacios verdes de la ciudad. Albergan los pabellones permanentes de la Biennale de Venecia, donde cada dos años los países exponen su arte y arquitectura contemporáneos.",
+   "d_en": "Spacious public gardens created on Napoleon's orders, one of the city's few green spaces. They host the permanent pavilions of the Venice Biennale, where every two years countries show their contemporary art and architecture.",
+   "h": "Parque abierto a diario; pabellones según calendario de la Biennale",
+   "h_en": "Park open daily; pavilions per the Biennale calendar",
+   "i": "los parques, el arte contemporáneo y los paseos",
+   "i_en": "parks, contemporary art and walks"
+  },
+  "w_ven_torcello": {
+   "id": "w_ven_torcello",
+   "d": "La isla más antigua de la laguna y origen de la propia Venecia, hoy casi despoblada y envuelta en calma. Conserva la basílica de Santa Maria Assunta, del siglo VII, con espléndidos mosaicos bizantinos, y el legendario 'trono de Atila'.",
+   "d_en": "The lagoon's oldest island and the very origin of Venice, today almost deserted and wrapped in quiet. It preserves the 7th-century basilica of Santa Maria Assunta, with splendid Byzantine mosaics, and the legendary 'throne of Attila'.",
+   "h": "Isla accesible siempre; basílica 10:00-17:00 aprox.",
+   "h_en": "Island always accessible; basilica approx. 10:00-17:00",
+   "i": "la historia antigua, los mosaicos y la tranquilidad",
+   "i_en": "ancient history, mosaics and tranquillity"
+  },
+  "w_ven_dorsoduro": {
+   "id": "w_ven_dorsoduro",
+   "d": "El sestiere más artístico y auténtico de Venecia, hogar de la universidad, las Galerías de la Academia y la Colección Peggy Guggenheim. De día ofrece arte y galerías; al atardecer, la animada Campo Santa Margherita se llena de bares y jóvenes.",
+   "d_en": "Venice's most artistic and authentic sestiere, home to the university, the Accademia Galleries and the Peggy Guggenheim Collection. By day it offers art and galleries; at dusk the lively Campo Santa Margherita fills with bars and young crowds.",
+   "h": "Barrio abierto siempre",
+   "h_en": "Neighbourhood always open",
+   "i": "el arte, la vida nocturna y el ambiente local",
+   "i_en": "art, nightlife and local atmosphere"
+  },
+  "w_ven_peggy_guggenheim": {
+   "id": "w_ven_peggy_guggenheim",
+   "d": "Uno de los mejores museos de arte moderno de Italia, en el palacio inacabado donde vivió la mecenas Peggy Guggenheim junto al Gran Canal. Reúne obras de Picasso, Pollock, Dalí, Kandinsky y Ernst, y un tranquilo jardín de esculturas.",
+   "d_en": "One of Italy's finest modern-art museums, set in the unfinished palace where patron Peggy Guggenheim lived beside the Grand Canal. It gathers works by Picasso, Pollock, Dalí, Kandinsky and Ernst, plus a peaceful sculpture garden.",
+   "h": "Mié-Lun 10:00-18:00 (cerrado martes)",
+   "h_en": "Wed-Mon 10:00-18:00 (closed Tuesday)",
+   "i": "el arte moderno, los museos y la fotografía",
+   "i_en": "modern art, museums and photography"
+  },
+  "w_ven_mercato_rialto": {
+   "id": "w_ven_mercato_rialto",
+   "d": "El mercado más antiguo de Venecia, activo desde hace más de mil años junto al Puente de Rialto. La Pescaria, bajo sus arcadas neogóticas, rebosa de pescado y marisco fresco de la laguna cada mañana, junto a los puestos de fruta y verdura.",
+   "d_en": "Venice's oldest market, active for over a thousand years next to the Rialto Bridge. The Pescaria, under its neo-Gothic arcades, brims with fresh fish and seafood from the lagoon each morning, alongside fruit and vegetable stalls.",
+   "h": "Mar-Sáb 7:00-13:30 aprox. (pescadería cerrada dom y lun)",
+   "h_en": "Tue-Sat approx. 7:00-13:30 (fish market closed Sun and Mon)",
+   "i": "los mercados, la gastronomía local y el ambiente",
+   "i_en": "markets, local food and atmosphere"
+  },
+  "w_ven_libreria_acqua_alta": {
+   "id": "w_ven_libreria_acqua_alta",
+   "d": "La librería más singular del mundo, donde los libros se apilan dentro de góndolas, barcas y bañeras para salvarlos del agua durante el acqua alta. Tiene una escalera hecha de libros con vistas al canal y un gato residente; un paraíso para los amantes de la lectura.",
+   "d_en": "The world's most unusual bookshop, where books are stacked inside gondolas, boats and bathtubs to save them from the water during the acqua alta. It has a staircase made of books overlooking the canal and a resident cat; a paradise for book lovers.",
+   "h": "Todos los días 9:00-19:45 aprox.",
+   "h_en": "Daily approx. 9:00-19:45",
+   "i": "los libros, la fotografía y los rincones curiosos",
+   "i_en": "books, photography and quirky spots"
+  },
+  "w_ven_paseo_gondola": {
+   "id": "w_ven_paseo_gondola",
+   "d": "Navegar en la esbelta barca negra veneciana por los canales estrechos es la experiencia romántica por excelencia de la ciudad. El gondolero, con su remo único, desliza la embarcación bajo puentes y entre palacios; hay embarcaderos por toda la ciudad, muchos junto a San Marcos y Rialto.",
+   "d_en": "Gliding through the narrow canals in the slender black Venetian boat is the city's quintessential romantic experience. The gondolier, with a single oar, steers the craft under bridges and between palaces; jetties are found across the city, many near San Marco and Rialto.",
+   "h": "Todos los días, aprox. 9:00-19:00 (según gondoleros)",
+   "h_en": "Daily, approx. 9:00-19:00 (depending on gondoliers)",
+   "i": "las experiencias románticas, los canales y la fotografía",
+   "i_en": "romantic experiences, canals and photography"
+  },
+  "w_ven_zattere": {
+   "id": "w_ven_zattere",
+   "d": "Uno de los paseos más agradables de Venecia, un largo malecón soleado a orillas del ancho canal de la Giudecca, en Dorsoduro. Es el lugar favorito de los venecianos para caminar, tomar un aperitivo y ver la puesta de sol, lejos de las multitudes.",
+   "d_en": "One of Venice's most pleasant walks, a long sunny quay along the wide Giudecca canal in Dorsoduro. It is a Venetian favourite for strolling, having an aperitivo and watching the sunset, away from the crowds.",
+   "h": "Abierto 24 horas",
+   "h_en": "Open 24 hours",
+   "i": "los paseos, las puestas de sol y el ambiente local",
+   "i_en": "strolls, sunsets and local atmosphere"
+  },
+  "w_ven_caffe_florian": {
+   "id": "w_ven_caffe_florian",
+   "d": "Abierto en 1720 bajo las arcadas de la Plaza de San Marcos, presume de ser el café en activo más antiguo del mundo. Sus salones decorados con espejos y frescos acogieron a Casanova, Byron y Proust. Tomar un café u ordenar su chocolate caliente aquí, con orquesta en vivo, es un lujo histórico.",
+   "d_en": "Opened in 1720 under the arcades of St Mark's Square, it claims to be the world's oldest café still in business. Its mirror-and-fresco salons hosted Casanova, Byron and Proust. Having a coffee or its hot chocolate here, with a live orchestra, is a historic indulgence.",
+   "h": "Todos los días 9:00-24:00",
+   "h_en": "Daily 9:00-24:00",
+   "i": "los cafés históricos, la repostería y el ambiente elegante",
+   "i_en": "historic cafés, pastries and an elegant setting"
+  },
+  "w_ven_harrys_bar": {
+   "id": "w_ven_harrys_bar",
+   "d": "Bar y restaurante fundado en 1931 junto a San Marcos, cuna del cóctel Bellini y del carpaccio de ternera. Frecuentado por Hemingway y numerosas celebridades, es una discreta institución veneciana de precios elevados y ambiente atemporal.",
+   "d_en": "A bar and restaurant founded in 1931 near St Mark's, birthplace of the Bellini cocktail and beef carpaccio. Frequented by Hemingway and countless celebrities, it is a discreet Venetian institution with high prices and a timeless atmosphere.",
+   "h": "Todos los días 10:30-23:00",
+   "h_en": "Daily 10:30-23:00",
+   "i": "la coctelería clásica, la gastronomía y la historia",
+   "i_en": "classic cocktails, dining and history"
+  },
+  "w_ven_cantina_do_mori": {
+   "id": "w_ven_cantina_do_mori",
+   "d": "Fundado en 1462 junto al mercado de Rialto, es el bácaro (taberna de vinos) más antiguo de la ciudad. Bajo sus cazuelas de cobre colgadas se sirven cichetti, pequeños bocados venecianos, y vinos de la casa de pie ante la barra, como se ha hecho durante siglos.",
+   "d_en": "Founded in 1462 next to the Rialto market, it is the city's oldest bacaro (wine tavern). Beneath its hanging copper pans it serves cicchetti, small Venetian bites, and house wines standing at the bar, as has been done for centuries.",
+   "h": "Lun-Sáb 8:00-19:30 (cerrado domingo)",
+   "h_en": "Mon-Sat 8:00-19:30 (closed Sunday)",
+   "i": "la comida local, el vino y las tabernas tradicionales",
+   "i_en": "local food, wine and traditional taverns"
+  },
+  "w_ven_antiche_carampane": {
+   "id": "w_ven_antiche_carampane",
+   "d": "Trattoria familiar escondida en un callejón cerca de Rialto, muy valorada por su pescado y marisco fresquísimo. Su fritura mixta, los espaguetis con almejas y los platos de temporada la han convertido en un clásico de la cocina veneciana auténtica; conviene reservar.",
+   "d_en": "A family trattoria tucked away in an alley near Rialto, highly rated for its very fresh fish and seafood. Its mixed fry, spaghetti with clams and seasonal dishes have made it a classic of authentic Venetian cooking; booking is advised.",
+   "h": "Mar-Sáb 12:30-14:30 y 19:30-22:30 (cerrado dom y lun)",
+   "h_en": "Tue-Sat 12:30-14:30 and 19:30-22:30 (closed Sun and Mon)",
+   "i": "la cocina de pescado, los sabores locales y la tradición",
+   "i_en": "seafood cooking, local flavours and tradition"
+  },
+  "w_ven_gelateria_nico": {
+   "id": "w_ven_gelateria_nico",
+   "d": "Heladería veneciana fundada en 1935 en el paseo de las Zattere, célebre por el 'gianduiotto', un bloque de helado de avellana y chocolate ahogado en nata montada. Tomarlo en su terraza frente al canal de la Giudecca, al atardecer, es todo un ritual local.",
+   "d_en": "A Venetian gelateria founded in 1935 on the Zattere promenade, famous for the 'gianduiotto', a block of hazelnut-chocolate ice cream drowned in whipped cream. Enjoying it on its terrace facing the Giudecca canal at sunset is a true local ritual.",
+   "h": "Todos los días 7:00-22:00 aprox.",
+   "h_en": "Daily approx. 7:00-22:00",
+   "i": "los helados, los postres y los paseos junto al canal",
+   "i_en": "ice cream, desserts and canalside walks"
+  },
+  "w_ven_alle_testiere": {
+   "id": "w_ven_alle_testiere",
+   "d": "Minúscula osteria cerca de Santa Maria Formosa, considerada una de las mejores mesas de pescado de Venecia. Con apenas unas pocas mesas, ofrece un menú diario según la pesca de la laguna, pastas de marisco memorables y una excelente carta de vinos; imprescindible reservar.",
+   "d_en": "A tiny osteria near Santa Maria Formosa, rated among Venice's finest seafood tables. With just a handful of tables, it offers a daily menu based on the lagoon catch, memorable seafood pastas and an excellent wine list; booking is essential.",
+   "h": "Mar-Sáb 12:00-15:00 y 19:00-23:00 (cerrado dom y lun)",
+   "h_en": "Tue-Sat 12:00-15:00 and 19:00-23:00 (closed Sun and Mon)",
+   "i": "la alta cocina de pescado, los vinos y la tradición",
+   "i_en": "fine seafood cooking, wines and tradition"
+  }
+ },
+ "food": {
+  "w_ven_caffe_florian": {
+   "cuisine": "Café histórico / repostería",
+   "price": "15–40 €",
+   "hours": "Todos los días 9:00-24:00"
+  },
+  "w_ven_harrys_bar": {
+   "cuisine": "Italiana / cócteles clásicos",
+   "price": "60–120 €",
+   "hours": "Todos los días 10:30-23:00"
+  },
+  "w_ven_cantina_do_mori": {
+   "cuisine": "Bácaro / cichetti venecianos",
+   "price": "10–25 €",
+   "hours": "Lun-Sáb 8:00-19:30 (cerrado domingo)"
+  },
+  "w_ven_antiche_carampane": {
+   "cuisine": "Veneciana / pescado y marisco",
+   "price": "45–70 €",
+   "hours": "Mar-Sáb 12:30-14:30 y 19:30-22:30 (cerrado dom y lun)"
+  },
+  "w_ven_gelateria_nico": {
+   "cuisine": "Heladería / postres",
+   "price": "4–12 €",
+   "hours": "Todos los días 7:00-22:00 aprox."
+  },
+  "w_ven_alle_testiere": {
+   "cuisine": "Veneciana / pescado y marisco",
+   "price": "50–80 €",
+   "hours": "Mar-Sáb 12:00-15:00 y 19:00-23:00 (cerrado dom y lun)"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Venecia",
+   "items": [
+    {
+     "name": "Máscara veneciana artesanal",
+     "price": "15–120 €",
+     "desc": "Careta de papel maché pintada a mano, símbolo del Carnaval."
+    },
+    {
+     "name": "Cristal de Murano",
+     "price": "10–300 €",
+     "desc": "Copas, colgantes y figuras soplados a mano en la isla de Murano."
+    },
+    {
+     "name": "Encaje de Burano",
+     "price": "20–200 €",
+     "desc": "Puntilla artesanal hecha a mano en la isla de los pescadores."
+    },
+    {
+     "name": "Góndola en miniatura",
+     "price": "5–40 €",
+     "desc": "Reproducción de la barca típica, recuerdo clásico de la ciudad."
+    },
+    {
+     "name": "Papel marmoleado y libretas",
+     "price": "8–50 €",
+     "desc": "Cuadernos y láminas con el tradicional papel jaspeado veneciano."
+    },
+    {
+     "name": "Spritz y licores (Select, Cynar)",
+     "price": "10–25 €",
+     "desc": "Botella del aperitivo véneto por excelencia para llevar a casa."
+    }
+   ],
+   "shops": [
+    "Ca' Macana (máscaras, Dorsoduro)",
+    "Fábricas de cristal de Murano",
+    "Merletti di Burano (encaje)",
+    "Mercato di Rialto (puestos)",
+    "Tiendas de Le Mercerie (entre Rialto y San Marcos)"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Muévete en vaporetto: la línea 1 recorre todo el Gran Canal y la 12 lleva a Murano y Burano.",
+   "Reserva online San Marcos y el Palacio Ducal para evitar largas colas, sobre todo en verano.",
+   "Consulta el 'acqua alta': entre otoño e invierno la marea inunda San Marcos; lleva botas o pasarelas.",
+   "Aléjate de las plazas principales para comer: los bácaros de callejones tienen cichetti mucho más baratos.",
+   "Piérdete a pie por los sestieri: Venecia es una maraña de puentes y callejones sin coches, ideal para caminar."
+  ],
+  "en": [
+   "Get around by vaporetto: line 1 runs the whole Grand Canal and line 12 reaches Murano and Burano.",
+   "Book St Mark's and the Doge's Palace online to skip the long queues, especially in summer.",
+   "Check the 'acqua alta': from autumn to winter high tide floods St Mark's; bring boots or use the walkways.",
+   "Step away from the main squares to eat: the bacari in the side alleys serve much cheaper cicchetti.",
+   "Get lost on foot through the sestieri: Venice is a car-free maze of bridges and lanes, perfect for walking."
+  ]
+ },
+ "climate": {
+  "hi": [
+   6,
+   8,
+   12,
+   16,
+   21,
+   25,
+   28,
+   27,
+   24,
+   18,
+   12,
+   7
+  ],
+  "lo": [
+   0,
+   1,
+   4,
+   8,
+   12,
+   16,
+   18,
+   18,
+   15,
+   10,
+   5,
+   1
+  ]
+ },
+ "tr": {
+  "La gran plaza de Venecia, corazón social y monumental.": "Venice's grand square, its social and monumental heart.",
+  "Deslumbrante basílica bizantina cubierta de mosaicos dorados.": "Dazzling Byzantine basilica covered in golden mosaics.",
+  "Palacio gótico de los dux, sede del poder veneciano.": "Gothic palace of the doges, seat of Venetian power.",
+  "El puente más antiguo y famoso sobre el Gran Canal.": "The oldest and most famous bridge over the Grand Canal.",
+  "Romántico puente cerrado entre el palacio y las prisiones.": "Romantic enclosed bridge between the palace and the prisons.",
+  "El campanario de 99 m con las mejores vistas de la ciudad.": "The 99 m bell tower with the best views over the city.",
+  "Torre renacentista con reloj astronómico y los 'moros'.": "Renaissance tower with an astronomical clock and the 'Moors'.",
+  "Palacio barroco sobre el Gran Canal, museo del s. XVIII.": "Baroque palace on the Grand Canal, an 18th-century museum.",
+  "Legendario teatro de ópera renacido de sus cenizas.": "Legendary opera house reborn from its ashes.",
+  "Majestuosa iglesia barroca a la entrada del Gran Canal.": "Majestic Baroque church at the mouth of the Grand Canal.",
+  "Gran iglesia gótica con la 'Asunción' de Tiziano.": "Great Gothic church with Titian's 'Assumption'.",
+  "Palacio gótico-veneciano de fachada calada sobre el canal.": "Venetian Gothic palace with a lacy facade on the canal.",
+  "La gran arteria acuática de Venecia entre palacios.": "Venice's great watery avenue lined with palaces.",
+  "Isla de la laguna famosa por el cristal soplado.": "Lagoon island famous for its hand-blown glass.",
+  "Isla pesquera de casas de colores y encaje artesanal.": "Fishing island of brightly coloured houses and lacework.",
+  "Isla-barrera con playas y sede del Festival de Cine.": "Barrier island with beaches and the Film Festival.",
+  "Parque arbolado con los pabellones de la Biennale.": "Leafy park with the Biennale's national pavilions.",
+  "Isla ancestral, cuna de Venecia, con basílica milenaria.": "Ancient island, cradle of Venice, with a millennial basilica.",
+  "Barrio bohemio de museos, arte y ambiente estudiantil.": "Bohemian quarter of museums, art and student buzz.",
+  "Museo de arte moderno en el palacio de Peggy Guggenheim.": "Modern art museum in Peggy Guggenheim's palace.",
+  "Bullicioso mercado de pescado y verduras junto al puente.": "Bustling fish and produce market beside the bridge.",
+  "Curiosa librería con libros en góndolas y bañeras.": "Quirky bookshop with books in gondolas and bathtubs.",
+  "La experiencia clásica de recorrer los canales en góndola.": "The classic experience of gliding the canals by gondola.",
+  "Amplio paseo soleado frente al canal de la Giudecca.": "Wide sunny promenade facing the Giudecca canal.",
+  "El café más antiguo del mundo, en la Plaza de San Marcos.": "The world's oldest café, on St Mark's Square.",
+  "Legendario bar donde nacieron el Bellini y el carpaccio.": "Legendary bar birthplace of the Bellini and carpaccio.",
+  "El bácaro más antiguo de Venecia, con cichetti y vino.": "Venice's oldest bacaro, serving cicchetti and wine.",
+  "Trattoria escondida de excelente pescado de la laguna.": "Hidden trattoria serving excellent lagoon seafood.",
+  "Histórica heladería en las Zattere con el famoso gianduiotto.": "Historic Zattere gelateria famed for its gianduiotto.",
+  "Diminuta osteria de culto por su cocina de pescado.": "Tiny cult osteria renowned for its seafood cooking.",
+  "Venecia": "Venecia"
+ }
+}

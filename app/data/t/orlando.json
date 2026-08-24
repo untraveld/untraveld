@@ -1,0 +1,684 @@
+{
+ "id": "orlando",
+ "name": "Orlando",
+ "country": "WORLD",
+ "center": [
+  28.53834,
+  -81.37924
+ ],
+ "pois": [
+  {
+   "id": "w_orl_magic_kingdom",
+   "cat": "ocio",
+   "name": "Magic Kingdom",
+   "icon": "🏰",
+   "lat": 28.41777,
+   "lng": -81.5812,
+   "desc": "El parque más famoso de Walt Disney World, con el castillo de Cenicienta."
+  },
+  {
+   "id": "w_orl_epcot",
+   "cat": "ocio",
+   "name": "EPCOT",
+   "icon": "🌐",
+   "lat": 28.37476,
+   "lng": -81.54945,
+   "desc": "Parque de Disney dedicado a la innovación y a las culturas del mundo."
+  },
+  {
+   "id": "w_orl_hollywood_studios",
+   "cat": "ocio",
+   "name": "Disney's Hollywood Studios",
+   "icon": "🎬",
+   "lat": 28.35754,
+   "lng": -81.55856,
+   "desc": "Parque Disney inspirado en el cine, con Star Wars y Toy Story."
+  },
+  {
+   "id": "w_orl_animal_kingdom",
+   "cat": "ocio",
+   "name": "Disney's Animal Kingdom",
+   "icon": "🦁",
+   "lat": 28.3552,
+   "lng": -81.5901,
+   "desc": "Parque Disney sobre la naturaleza, con safaris y Pandora."
+  },
+  {
+   "id": "w_orl_universal_studios",
+   "cat": "ocio",
+   "name": "Universal Studios Florida",
+   "icon": "🎢",
+   "lat": 28.4751,
+   "lng": -81.4676,
+   "desc": "Parque de Universal basado en el cine y la televisión."
+  },
+  {
+   "id": "w_orl_islands_adventure",
+   "cat": "ocio",
+   "name": "Universal Islands of Adventure",
+   "icon": "🦖",
+   "lat": 28.47106,
+   "lng": -81.47115,
+   "desc": "Parque de Universal con Hogsmeade, Jurassic Park y superhéroes."
+  },
+  {
+   "id": "w_orl_epic_universe",
+   "cat": "ocio",
+   "name": "Universal Epic Universe",
+   "icon": "🪐",
+   "lat": 28.4422,
+   "lng": -81.449,
+   "desc": "El nuevo y espectacular tercer parque de Universal Orlando."
+  },
+  {
+   "id": "w_orl_volcano_bay",
+   "cat": "ocio",
+   "name": "Universal Volcano Bay",
+   "icon": "🌋",
+   "lat": 28.4603,
+   "lng": -81.4737,
+   "desc": "Parque acuático de Universal con temática de isla volcánica."
+  },
+  {
+   "id": "w_orl_seaworld",
+   "cat": "ocio",
+   "name": "SeaWorld Orlando",
+   "icon": "🐋",
+   "lat": 28.41139,
+   "lng": -81.46168,
+   "desc": "Parque marino con acuarios, animales y montañas rusas."
+  },
+  {
+   "id": "w_orl_icon_park",
+   "cat": "ocio",
+   "name": "ICON Park / The Wheel",
+   "icon": "🎡",
+   "lat": 28.4429,
+   "lng": -81.4687,
+   "desc": "Complejo de ocio en International Drive con noria gigante."
+  },
+  {
+   "id": "w_orl_disney_springs",
+   "cat": "ocio",
+   "name": "Disney Springs",
+   "icon": "🛍️",
+   "lat": 28.3699,
+   "lng": -81.5187,
+   "desc": "Zona de tiendas, restaurantes y ocio de Disney, entrada libre."
+  },
+  {
+   "id": "w_orl_gatorland",
+   "cat": "nature",
+   "name": "Gatorland",
+   "icon": "🐊",
+   "lat": 28.3554,
+   "lng": -81.4019,
+   "desc": "Parque de caimanes y cocodrilos, la \"capital mundial del caimán\"."
+  },
+  {
+   "id": "w_orl_lake_eola",
+   "cat": "nature",
+   "name": "Lake Eola Park",
+   "icon": "🦢",
+   "lat": 28.5439,
+   "lng": -81.3728,
+   "desc": "Parque urbano con lago, fuente y barcas de cisne en el centro."
+  },
+  {
+   "id": "w_orl_leu_gardens",
+   "cat": "nature",
+   "name": "Harry P. Leu Gardens",
+   "icon": "🌺",
+   "lat": 28.5638,
+   "lng": -81.3581,
+   "desc": "Jardín botánico de 20 hectáreas junto al lago Rowena."
+  },
+  {
+   "id": "w_orl_wekiwa_springs",
+   "cat": "nature",
+   "name": "Wekiwa Springs State Park",
+   "icon": "💧",
+   "lat": 28.7116,
+   "lng": -81.4603,
+   "desc": "Manantial natural de aguas cristalinas para nadar y navegar en kayak."
+  },
+  {
+   "id": "w_orl_blue_spring",
+   "cat": "nature",
+   "name": "Blue Spring State Park",
+   "icon": "🐾",
+   "lat": 28.9479,
+   "lng": -81.3396,
+   "desc": "Refugio invernal de manatíes en un manantial turquesa."
+  },
+  {
+   "id": "w_orl_winter_park",
+   "cat": "nature",
+   "name": "Winter Park",
+   "icon": "🚤",
+   "lat": 28.5998,
+   "lng": -81.3509,
+   "desc": "Elegante ciudad con lagos, Park Avenue y paseos en barca."
+  },
+  {
+   "id": "w_orl_kennedy_space_center",
+   "cat": "monuments",
+   "name": "Kennedy Space Center",
+   "icon": "🚀",
+   "lat": 28.5231,
+   "lng": -80.6821,
+   "desc": "Centro espacial de la NASA, excursión imprescindible desde Orlando."
+  },
+  {
+   "id": "w_orl_morse_museum",
+   "cat": "monuments",
+   "name": "Museo Morse (Tiffany)",
+   "icon": "🎨",
+   "lat": 28.6005,
+   "lng": -81.3506,
+   "desc": "Museo con la mayor colección de vidrieras de Louis C. Tiffany."
+  },
+  {
+   "id": "w_orl_science_center",
+   "cat": "monuments",
+   "name": "Orlando Science Center",
+   "icon": "🔬",
+   "lat": 28.5717,
+   "lng": -81.3676,
+   "desc": "Museo de ciencia interactivo, ideal para familias."
+  },
+  {
+   "id": "w_orl_museum_of_art",
+   "cat": "monuments",
+   "name": "Orlando Museum of Art",
+   "icon": "🖼️",
+   "lat": 28.5725,
+   "lng": -81.3633,
+   "desc": "Principal museo de arte de la ciudad, en Loch Haven Park."
+  },
+  {
+   "id": "w_orl_dr_phillips_center",
+   "cat": "monuments",
+   "name": "Dr. Phillips Center",
+   "icon": "🎭",
+   "lat": 28.53803,
+   "lng": -81.37819,
+   "desc": "Moderno centro de artes escénicas en el centro de Orlando."
+  },
+  {
+   "id": "w_orl_history_center",
+   "cat": "monuments",
+   "name": "Orange County Regional History Center",
+   "icon": "🏛️",
+   "lat": 28.5407,
+   "lng": -81.3776,
+   "desc": "Museo de historia local en un histórico juzgado de 1927."
+  },
+  {
+   "id": "w_orl_the_boathouse",
+   "cat": "food",
+   "name": "The BOATHOUSE",
+   "icon": "🦞",
+   "lat": 28.3706,
+   "lng": -81.5143,
+   "desc": "Restaurante junto al agua en Disney Springs, con barcos clásicos."
+  },
+  {
+   "id": "w_orl_ravenous_pig",
+   "cat": "food",
+   "name": "The Ravenous Pig",
+   "icon": "🐷",
+   "lat": 28.5934,
+   "lng": -81.3615,
+   "desc": "Gastropub pionero de la cocina de Winter Park, con cervecería propia."
+  },
+  {
+   "id": "w_orl_4rivers",
+   "cat": "food",
+   "name": "4 Rivers Smokehouse",
+   "icon": "🍖",
+   "lat": 28.5936,
+   "lng": -81.3734,
+   "desc": "Famosa barbacoa tejana-sureña, nacida en Winter Park."
+  },
+  {
+   "id": "w_orl_hawkers",
+   "cat": "food",
+   "name": "Hawkers Asian Street Food",
+   "icon": "🍜",
+   "lat": 28.556,
+   "lng": -81.3643,
+   "desc": "Platos asiáticos para compartir en el barrio Mills 50."
+  },
+  {
+   "id": "w_orl_se7en_bites",
+   "cat": "food",
+   "name": "Se7en Bites",
+   "icon": "🍰",
+   "lat": 28.5507,
+   "lng": -81.3515,
+   "desc": "Panadería y brunch sureño de culto en el Milk District."
+  },
+  {
+   "id": "w_orl_the_coop",
+   "cat": "food",
+   "name": "The COOP",
+   "icon": "🍗",
+   "lat": 28.6013,
+   "lng": -81.3573,
+   "desc": "Cocina sureña casera de estilo cafetería en Winter Park."
+  }
+ ],
+ "extra": {
+  "w_orl_magic_kingdom": {
+   "id": "w_orl_magic_kingdom",
+   "d": "El parque temático más visitado del mundo. Sus cinco tierras (Main Street, Fantasyland, Adventureland, Frontierland y Tomorrowland) giran en torno al castillo de Cenicienta, con atracciones clásicas como Space Mountain, Piratas del Caribe y el desfile y fuegos artificiales nocturnos.",
+   "d_en": "The world's most visited theme park. Its five lands (Main Street, Fantasyland, Adventureland, Frontierland and Tomorrowland) revolve around Cinderella Castle, with classics like Space Mountain, Pirates of the Caribbean and the nighttime parade and fireworks.",
+   "h": "Normalmente 9:00–22:00 (varía por temporada)",
+   "h_en": "Typically 9:00–22:00 (varies by season)",
+   "i": "Entrada desde ~110 €. Reserva fecha online. Llega a la apertura.",
+   "i_en": "Tickets from ~110 €. Reserve a date online. Arrive at opening."
+  },
+  "w_orl_epcot": {
+   "id": "w_orl_epcot",
+   "d": "Reconocible por su esfera geodésica Spaceship Earth, EPCOT combina atracciones futuristas en World Celebration y World Discovery con el World Showcase, un paseo por pabellones de once países con gastronomía y arquitectura reales. Famoso por sus festivales gastronómicos y sus fuegos artificiales sobre la laguna.",
+   "d_en": "Recognizable by its Spaceship Earth geodesic sphere, EPCOT blends futuristic rides in World Celebration and World Discovery with the World Showcase, a stroll through eleven country pavilions with real cuisine and architecture. Famous for its food festivals and lagoon fireworks.",
+   "h": "Normalmente 9:00–21:00 (varía por temporada)",
+   "h_en": "Typically 9:00–21:00 (varies by season)",
+   "i": "Entrada desde ~110 €. Ideal para cenar recorriendo países.",
+   "i_en": "Tickets from ~110 €. Great for dining around the countries."
+  },
+  "w_orl_hollywood_studios": {
+   "id": "w_orl_hollywood_studios",
+   "d": "Dedicado al mundo del espectáculo y el cine, alberga Star Wars: Galaxy's Edge con la atracción Rise of the Resistance, Toy Story Land y la Torre del Terror. Combina montañas rusas, espectáculos en vivo y un ambiente de plató de Hollywood de los años 30.",
+   "d_en": "Devoted to showbiz and film, it houses Star Wars: Galaxy's Edge with the Rise of the Resistance ride, Toy Story Land and the Tower of Terror. It mixes coasters, live shows and a 1930s Hollywood backlot atmosphere.",
+   "h": "Normalmente 9:00–21:00 (varía por temporada)",
+   "h_en": "Typically 9:00–21:00 (varies by season)",
+   "i": "Entrada desde ~110 €. Usa fila virtual para Rise of the Resistance.",
+   "i_en": "Tickets from ~110 €. Use the virtual queue for Rise of the Resistance."
+  },
+  "w_orl_animal_kingdom": {
+   "id": "w_orl_animal_kingdom",
+   "d": "El mayor parque temático del mundo por superficie mezcla zoológico y atracciones. Destacan el Kilimanjaro Safaris con animales en libertad, el mundo de Pandora inspirado en Avatar con la montaña rusa Flight of Passage, y el Árbol de la Vida como símbolo central.",
+   "d_en": "The largest theme park in the world by area blends zoo and rides. Highlights include Kilimanjaro Safaris with free-roaming animals, the Avatar-inspired world of Pandora with the Flight of Passage ride, and the Tree of Life as its centerpiece.",
+   "h": "Normalmente 8:00–20:00 (varía por temporada)",
+   "h_en": "Typically 8:00–20:00 (varies by season)",
+   "i": "Entrada desde ~110 €. Ve al safari temprano para ver más animales.",
+   "i_en": "Tickets from ~110 €. Do the safari early to see more animals."
+  },
+  "w_orl_universal_studios": {
+   "id": "w_orl_universal_studios",
+   "d": "Un parque que sumerge al visitante en el cine con atracciones como el Diagon Alley de Harry Potter, Los Simpson, Transformers y Minion Mayhem. Combina montañas rusas, simuladores y shows callejeros en un ambiente de estudio de cine.",
+   "d_en": "A park that immerses visitors in the movies with attractions like Harry Potter's Diagon Alley, The Simpsons, Transformers and Minion Mayhem. It blends coasters, simulators and street shows in a film-studio setting.",
+   "h": "Normalmente 9:00–21:00 (varía por temporada)",
+   "h_en": "Typically 9:00–21:00 (varies by season)",
+   "i": "Entrada desde ~110 €. El Park-to-Park permite el tren de Hogwarts.",
+   "i_en": "Tickets from ~110 €. A Park-to-Park ticket lets you ride the Hogwarts Express."
+  },
+  "w_orl_islands_adventure": {
+   "id": "w_orl_islands_adventure",
+   "d": "Considerado uno de los mejores parques del mundo por sus atracciones de última generación. Incluye Hogsmeade con el castillo de Hogwarts, la montaña rusa VelociCoaster de Jurassic World, la Isla de Marvel con Spider-Man y Hulk, y el colorido Seuss Landing.",
+   "d_en": "Regarded as one of the world's best parks for its cutting-edge rides. It includes Hogsmeade with Hogwarts Castle, the Jurassic World VelociCoaster, Marvel Super Hero Island with Spider-Man and Hulk, and the colorful Seuss Landing.",
+   "h": "Normalmente 9:00–21:00 (varía por temporada)",
+   "h_en": "Typically 9:00–21:00 (varies by season)",
+   "i": "Entrada desde ~110 €. VelociCoaster suele tener fila virtual.",
+   "i_en": "Tickets from ~110 €. VelociCoaster often uses a virtual queue."
+  },
+  "w_orl_epic_universe": {
+   "id": "w_orl_epic_universe",
+   "d": "Inaugurado en 2025, es el parque más ambicioso de Universal. Se organiza en cinco mundos: Celestial Park, Super Nintendo World con Donkey Kong y Mario Kart, The Wizarding World of Harry Potter – Ministry of Magic, How to Train Your Dragon – Isle of Berk y Dark Universe con monstruos clásicos.",
+   "d_en": "Opened in 2025, it is Universal's most ambitious park. It is organized into five worlds: Celestial Park, Super Nintendo World with Donkey Kong and Mario Kart, The Wizarding World of Harry Potter – Ministry of Magic, How to Train Your Dragon – Isle of Berk and Dark Universe with classic monsters.",
+   "h": "Normalmente 9:00–21:00 (varía por temporada)",
+   "h_en": "Typically 9:00–21:00 (varies by season)",
+   "i": "Entrada desde ~130 €. Compra con antelación; alta demanda.",
+   "i_en": "Tickets from ~130 €. Buy in advance; high demand."
+  },
+  "w_orl_volcano_bay": {
+   "id": "w_orl_volcano_bay",
+   "d": "Un paraíso acuático dominado por el volcán Krakatau de 60 metros. Ofrece toboganes vertiginosos, ríos lentos, piscinas de olas y playas de arena. Usa el sistema TapuTapu, una pulsera que reserva turno en las atracciones para evitar colas.",
+   "d_en": "A water paradise dominated by the 60-meter Krakatau volcano. It offers thrilling slides, lazy rivers, wave pools and sandy beaches. It uses the TapuTapu wristband system to hold your place in ride queues so you avoid waiting in line.",
+   "h": "Normalmente 10:00–17:00 (varía por temporada)",
+   "h_en": "Typically 10:00–17:00 (varies by season)",
+   "i": "Entrada desde ~85 €. Lleva bañador y calzado de agua.",
+   "i_en": "Tickets from ~85 €. Bring swimwear and water shoes."
+  },
+  "w_orl_seaworld": {
+   "id": "w_orl_seaworld",
+   "d": "Combina un enorme parque temático marino con montañas rusas de récord como Mako, Kraken e Ice Breaker. Alberga exhibiciones de orcas, delfines, pingüinos y manatíes, además de programas de conservación y rescate de fauna marina.",
+   "d_en": "It combines a huge marine theme park with record-breaking coasters like Mako, Kraken and Ice Breaker. It hosts orca, dolphin, penguin and manatee exhibits, plus marine wildlife conservation and rescue programs.",
+   "h": "Normalmente 10:00–19:00 (varía por temporada)",
+   "h_en": "Typically 10:00–19:00 (varies by season)",
+   "i": "Entrada desde ~90 €. Combina con Aquatica para ahorrar.",
+   "i_en": "Tickets from ~90 €. Bundle with Aquatica to save."
+  },
+  "w_orl_icon_park": {
+   "id": "w_orl_icon_park",
+   "d": "Un centro de entretenimiento al aire libre en International Drive presidido por The Wheel, una noria de observación de 120 metros con vistas panorámicas de Orlando. Reúne restaurantes, atracciones como Madame Tussauds y SEA LIFE, y torres de caída libre.",
+   "d_en": "An open-air entertainment hub on International Drive anchored by The Wheel, a 120-meter observation wheel with panoramic views of Orlando. It gathers restaurants, attractions like Madame Tussauds and SEA LIFE, and thrill drop towers.",
+   "h": "Aprox. 11:00–00:00",
+   "h_en": "Approx. 11:00–00:00",
+   "i": "Acceso al recinto gratis. The Wheel desde ~30 €; mejor al atardecer.",
+   "i_en": "Free to enter the complex. The Wheel from ~30 €; best at sunset."
+  },
+  "w_orl_disney_springs": {
+   "id": "w_orl_disney_springs",
+   "d": "Un distrito al aire libre junto a un lago con más de 150 tiendas y restaurantes, desde la mayor tienda Disney del mundo hasta marcas de lujo y locales de chefs famosos. Ofrece música en vivo, un globo aerostático cautivo y ambiente perfecto para pasear de noche sin necesidad de entrada.",
+   "d_en": "An open-air lakeside district with more than 150 shops and restaurants, from the world's largest Disney store to luxury brands and celebrity-chef venues. It offers live music, a tethered helium balloon and a perfect atmosphere for an evening stroll with no ticket required.",
+   "h": "Aprox. 10:00–23:00",
+   "h_en": "Approx. 10:00–23:00",
+   "i": "Entrada y aparcamiento gratis. Ideal para una noche sin parques.",
+   "i_en": "Free entry and parking. Great for an evening without the parks."
+  },
+  "w_orl_gatorland": {
+   "id": "w_orl_gatorland",
+   "d": "Abierto en 1949, este clásico de Florida alberga miles de caimanes y cocodrilos, aves y una tirolina sobre los estanques. Ofrece espectáculos de lucha con caimanes, un paseo elevado por un pantano de cipreses y encuentros cercanos con la fauna del estado.",
+   "d_en": "Opened in 1949, this Florida classic is home to thousands of alligators and crocodiles, birds and a zip line over the ponds. It offers gator-wrestling shows, an elevated boardwalk through a cypress swamp and close encounters with the state's wildlife.",
+   "h": "Aprox. 10:00–17:00",
+   "h_en": "Approx. 10:00–17:00",
+   "i": "Entrada ~30 €. Alternativa auténtica y económica a los grandes parques.",
+   "i_en": "Tickets ~30 €. An authentic, affordable alternative to the mega-parks."
+  },
+  "w_orl_lake_eola": {
+   "id": "w_orl_lake_eola",
+   "d": "El corazón verde del centro de Orlando, un lago rodeado por un paseo de un kilómetro con vistas al skyline. Su icónica fuente Linton E. Allen se ilumina de noche, y se pueden alquilar las famosas barcas con forma de cisne para navegar entre patos y aves reales.",
+   "d_en": "The green heart of downtown Orlando, a lake circled by a one-kilometer path with skyline views. Its iconic Linton E. Allen fountain lights up at night, and you can rent the famous swan-shaped paddle boats to glide among ducks and real swans.",
+   "h": "6:00–00:00",
+   "h_en": "6:00–00:00",
+   "i": "Acceso gratis. Barcas de cisne desde ~15 €. Buen mercado dominical.",
+   "i_en": "Free access. Swan boats from ~15 €. Nice Sunday farmers market."
+  },
+  "w_orl_leu_gardens": {
+   "id": "w_orl_leu_gardens",
+   "d": "Un remanso botánico a orillas del lago Rowena con una de las mayores colecciones de camelias y rosales del sureste de EE.UU., avenidas de robles centenarios cubiertos de musgo español y una casa histórica del siglo XIX. Perfecto para un paseo tranquilo lejos del bullicio de los parques.",
+   "d_en": "A botanical haven on the shore of Lake Rowena with one of the largest camellia and rose collections in the southeastern US, avenues of centuries-old oaks draped in Spanish moss and a historic 19th-century house. Perfect for a quiet stroll away from the park crowds.",
+   "h": "Aprox. 9:00–17:00",
+   "h_en": "Approx. 9:00–17:00",
+   "i": "Entrada ~12 €. Floración de camelias en invierno.",
+   "i_en": "Tickets ~12 €. Camellias bloom in winter."
+  },
+  "w_orl_wekiwa_springs": {
+   "id": "w_orl_wekiwa_springs",
+   "d": "A media hora del centro, este parque estatal protege un manantial de aguas transparentes a 22 °C todo el año. Se puede nadar en la piscina natural, alquilar kayaks o canoas para remontar el río Wekiva entre bosque subtropical y avistar tortugas, garzas y a veces manatíes.",
+   "d_en": "Half an hour from downtown, this state park protects a crystal-clear spring at a year-round 22 °C. You can swim in the natural pool, rent kayaks or canoes to paddle up the Wekiva River through subtropical forest and spot turtles, herons and sometimes manatees.",
+   "h": "8:00 hasta el atardecer",
+   "h_en": "8:00 until sunset",
+   "i": "Entrada ~6 €/coche. Llega pronto; aforo limitado los findes.",
+   "i_en": "Entry ~6 €/car. Arrive early; capacity is limited on weekends."
+  },
+  "w_orl_blue_spring": {
+   "id": "w_orl_blue_spring",
+   "d": "Uno de los mayores refugios de manatíes de Florida: en invierno, cientos de estos gigantes acuden a las cálidas aguas del manantial. Una pasarela de madera bordea el nacimiento turquesa, y en verano se permite nadar y bucear con tubo en sus aguas transparentes.",
+   "d_en": "One of Florida's largest manatee refuges: in winter, hundreds of these gentle giants gather in the spring's warm waters. A wooden boardwalk lines the turquoise spring run, and in summer swimming and snorkeling are allowed in its clear waters.",
+   "h": "8:00 hasta el atardecer",
+   "h_en": "8:00 until sunset",
+   "i": "Entrada ~6 €/coche. Manatíes de nov. a mar.; a 1 h de Orlando.",
+   "i_en": "Entry ~6 €/car. Manatees Nov–Mar; about 1 h from Orlando."
+  },
+  "w_orl_winter_park": {
+   "id": "w_orl_winter_park",
+   "d": "Un refinado enclave al norte de Orlando conocido por su avenida Park Avenue de boutiques y cafés, sus robles centenarios y una cadena de lagos conectados por canales. El clásico Scenic Boat Tour recorre en barca esos canales entre mansiones históricas y vegetación exuberante.",
+   "d_en": "A refined enclave north of Orlando known for its Park Avenue boutiques and cafes, centuries-old oaks and a chain of lakes linked by canals. The classic Scenic Boat Tour cruises those canals past historic mansions and lush greenery.",
+   "h": "Ciudad siempre abierta; Scenic Boat Tour ~10:00–16:00",
+   "h_en": "Town always open; Scenic Boat Tour ~10:00–16:00",
+   "i": "Paseo en barca ~15 €. Combina con el Museo Morse y Park Avenue.",
+   "i_en": "Boat tour ~15 €. Combine with the Morse Museum and Park Avenue."
+  },
+  "w_orl_kennedy_space_center": {
+   "id": "w_orl_kennedy_space_center",
+   "d": "A una hora de Orlando, el puerto de partida de los viajes espaciales de EE.UU. Su complejo para visitantes exhibe el transbordador Atlantis, el gigantesco cohete Saturno V, cápsulas Apollo y programas para conocer los lanzamientos actuales. Incluye tours en bus por las plataformas de despegue.",
+   "d_en": "An hour from Orlando, the departure point for America's space missions. Its visitor complex displays the Space Shuttle Atlantis, the giant Saturn V rocket, Apollo capsules and programs about current launches. It includes bus tours to the launch pads.",
+   "h": "Aprox. 9:00–17:00",
+   "h_en": "Approx. 9:00–17:00",
+   "i": "Entrada ~70 €. Dedica el día entero; consulta calendario de lanzamientos.",
+   "i_en": "Tickets ~70 €. Set aside a full day; check the launch schedule."
+  },
+  "w_orl_morse_museum": {
+   "id": "w_orl_morse_museum",
+   "d": "En pleno Park Avenue de Winter Park, este museo alberga la colección más completa del mundo de obras de Louis Comfort Tiffany: vidrieras, lámparas, joyas y la reconstruida capilla de la Exposición Universal de 1893, una joya del Art Nouveau americano.",
+   "d_en": "In the heart of Winter Park's Park Avenue, this museum holds the world's most comprehensive collection of works by Louis Comfort Tiffany: stained glass, lamps, jewelry and the reconstructed chapel from the 1893 World's Fair, a gem of American Art Nouveau.",
+   "h": "Aprox. 9:30–16:00; cerrado lunes",
+   "h_en": "Approx. 9:30–16:00; closed Mondays",
+   "i": "Entrada ~6 €. Pequeño pero exquisito; combina con Park Avenue.",
+   "i_en": "Tickets ~6 €. Small but exquisite; combine with Park Avenue."
+  },
+  "w_orl_science_center": {
+   "id": "w_orl_science_center",
+   "d": "Un museo de cuatro plantas con exposiciones interactivas sobre física, dinosaurios, el cuerpo humano y la naturaleza de Florida. Cuenta con un observatorio con telescopio, un cine de gran formato y talleres prácticos que hacen las delicias de niños y curiosos de todas las edades.",
+   "d_en": "A four-story museum with interactive exhibits on physics, dinosaurs, the human body and Florida's nature. It features an observatory with a telescope, a giant-screen theater and hands-on workshops that delight children and the curious of all ages.",
+   "h": "Aprox. 10:00–17:00; cerrado algunos martes",
+   "h_en": "Approx. 10:00–17:00; closed some Tuesdays",
+   "i": "Entrada ~25 €. Plan B perfecto para un día de lluvia.",
+   "i_en": "Tickets ~25 €. A perfect plan B for a rainy day."
+  },
+  "w_orl_museum_of_art": {
+   "id": "w_orl_museum_of_art",
+   "d": "Fundado en 1924, es el museo de arte de referencia de Orlando. Reúne arte americano, arte africano y una notable colección de arte de las antiguas Américas, además de exposiciones temporales de artistas contemporáneos. Se ubica en el frondoso Loch Haven Park, junto a otros museos.",
+   "d_en": "Founded in 1924, it is Orlando's flagship art museum. It gathers American art, African art and a notable collection of art of the ancient Americas, plus rotating exhibitions of contemporary artists. It sits in leafy Loch Haven Park alongside other museums.",
+   "h": "Aprox. 10:00–16:00; cerrado lunes",
+   "h_en": "Approx. 10:00–16:00; closed Mondays",
+   "i": "Entrada ~16 €. Cerca del Science Center; buen plan cultural.",
+   "i_en": "Tickets ~16 €. Near the Science Center; a good cultural outing."
+  },
+  "w_orl_dr_phillips_center": {
+   "id": "w_orl_dr_phillips_center",
+   "d": "El gran templo cultural de Orlando, un elegante complejo de vidrio inaugurado en 2014 que acoge musicales de Broadway, ballet, ópera, conciertos y teatro en varias salas. Su plaza y su arquitectura contemporánea lo han convertido en un emblema del renacer del centro de la ciudad.",
+   "d_en": "Orlando's great cultural landmark, an elegant glass complex opened in 2014 that hosts Broadway musicals, ballet, opera, concerts and theater across several halls. Its plaza and contemporary architecture have made it a symbol of downtown's revival.",
+   "h": "Según programación; taquilla aprox. 10:00–16:00",
+   "h_en": "Varies by show; box office approx. 10:00–16:00",
+   "i": "Consulta la cartelera online. Zona con buenos restaurantes cerca.",
+   "i_en": "Check the program online. Good restaurants nearby."
+  },
+  "w_orl_history_center": {
+   "id": "w_orl_history_center",
+   "d": "Ubicado en el elegante antiguo juzgado del condado de Orange, de estilo neoclásico y de 1927, este museo recorre 12.000 años de historia de Florida central: desde los pueblos originarios y los pioneros hasta el auge de los cítricos y la llegada de Walt Disney que transformó la región.",
+   "d_en": "Housed in the elegant neoclassical 1927 former Orange County courthouse, this museum traces 12,000 years of Central Florida history: from Native peoples and pioneers to the citrus boom and the arrival of Walt Disney that transformed the region.",
+   "h": "Aprox. 10:00–17:00",
+   "h_en": "Approx. 10:00–17:00",
+   "i": "Entrada ~9 €. En pleno centro, cerca de Lake Eola.",
+   "i_en": "Tickets ~9 €. Downtown, near Lake Eola."
+  },
+  "w_orl_the_boathouse": {
+   "id": "w_orl_the_boathouse",
+   "d": "Un restaurante marinero a orillas del lago de Disney Springs especializado en marisco fresco, filetes y su famoso pastel de chocolate. Su mayor atractivo es el paseo en \"Amphicars\", coches anfibios de los años 60 que navegan por la laguna guiados por un capitán.",
+   "d_en": "A nautical waterfront restaurant on the Disney Springs lake specializing in fresh seafood, steaks and its famous chocolate cake. Its biggest draw is the ride in 1960s \"Amphicars\", amphibious cars that cruise the lagoon guided by a captain.",
+   "h": "11:30–23:00",
+   "h_en": "11:30–23:00",
+   "i": "Reserva recomendada. Paseo en Amphicar aparte (~125 €/coche).",
+   "i_en": "Reservations recommended. Amphicar ride sold separately (~125 €/car)."
+  },
+  "w_orl_ravenous_pig": {
+   "id": "w_orl_ravenous_pig",
+   "d": "Uno de los restaurantes que puso a Orlando en el mapa gastronómico. Este gastropub de Winter Park ofrece cocina americana de temporada con producto local, embutidos caseros y una cervecería artesanal propia. Ambiente animado y carta que cambia según la estación.",
+   "d_en": "One of the restaurants that put Orlando on the culinary map. This Winter Park gastropub serves seasonal American cuisine with local produce, house charcuterie and its own craft brewery. Lively atmosphere and a menu that changes with the seasons.",
+   "h": "11:30–22:00; cerrado lunes",
+   "h_en": "11:30–22:00; closed Mondays",
+   "i": "Reserva recomendada. Prueba sus pretzels con cerveza.",
+   "i_en": "Reservations recommended. Try the pretzels with a house beer."
+  },
+  "w_orl_4rivers": {
+   "id": "w_orl_4rivers",
+   "d": "El templo de la barbacoa en Florida central, que empezó como un pequeño negocio local y hoy es toda una institución. Sirve brisket ahumado 18 horas, costillas, pulled pork y guarniciones sureñas, además de una pastelería con dulces caseros irresistibles.",
+   "d_en": "The temple of barbecue in Central Florida, which started as a small local business and is now an institution. It serves brisket smoked for 18 hours, ribs, pulled pork and Southern sides, plus a bakery with irresistible homemade sweets.",
+   "h": "11:00–21:00; cerrado domingo",
+   "h_en": "11:00–21:00; closed Sundays",
+   "i": "Estilo casual, pides en barra. Ve pronto: el brisket se agota.",
+   "i_en": "Casual, order-at-the-counter style. Go early: the brisket sells out."
+  },
+  "w_orl_hawkers": {
+   "id": "w_orl_hawkers",
+   "d": "El local original de una cadena nacida en el vibrante barrio Mills 50 de Orlando. Inspirado en los puestos callejeros del sudeste asiático, sirve platos pequeños para compartir: bao, roti canai, fideos y curris de Malasia, Tailandia, Vietnam y China en un ambiente juvenil.",
+   "d_en": "The original outpost of a chain born in Orlando's vibrant Mills 50 district. Inspired by Southeast Asian street stalls, it serves small shareable plates: bao, roti canai, noodles and curries from Malaysia, Thailand, Vietnam and China in a youthful setting.",
+   "h": "11:30–22:00",
+   "h_en": "11:30–22:00",
+   "i": "Pide varios platos para compartir. Barrio con buen arte urbano.",
+   "i_en": "Order several plates to share. The district has great street art."
+  },
+  "w_orl_se7en_bites": {
+   "id": "w_orl_se7en_bites",
+   "d": "Una panadería-cafetería de barrio famosa por su cocina sureña reconfortante y sus tartas caseras descomunales. Sirve brunch con biscuits, pastelería y platos como el sándwich de pollo frito, en el desenfadado Milk District. Suele haber cola: la calidad lo merece.",
+   "d_en": "A neighborhood bakery-cafe famous for its comforting Southern cooking and its towering homemade pies. It serves brunch with biscuits, pastries and dishes like the fried-chicken sandwich, in the laid-back Milk District. Expect a line: the quality earns it.",
+   "h": "9:00–15:00; cerrado lunes",
+   "h_en": "9:00–15:00; closed Mondays",
+   "i": "Solo desayuno y almuerzo. Reserva sitio para las tartas.",
+   "i_en": "Breakfast and lunch only. Save room for the pies."
+  },
+  "w_orl_the_coop": {
+   "id": "w_orl_the_coop",
+   "d": "Un homenaje a la cocina sureña tradicional en un ambiente de cafetería nostálgica. Sirve pollo frito, gofres, macarrones con queso, pastel de carne y guarniciones caseras al estilo \"meat and three\", con recetas de la abuela y raciones muy generosas.",
+   "d_en": "A tribute to traditional Southern cooking in a nostalgic cafeteria setting. It serves fried chicken, waffles, mac and cheese, meatloaf and homemade sides in \"meat and three\" style, with grandma's recipes and very generous portions.",
+   "h": "11:00–21:00",
+   "h_en": "11:00–21:00",
+   "i": "Estilo casual y familiar. Deja hueco para el banana pudding.",
+   "i_en": "Casual, family-friendly. Leave room for the banana pudding."
+  }
+ },
+ "food": {
+  "w_orl_the_boathouse": {
+   "cuisine": "Estadounidense / Marisco",
+   "price": "35–70 €",
+   "hours": "11:30–23:00"
+  },
+  "w_orl_ravenous_pig": {
+   "cuisine": "Gastropub / Cocina de autor",
+   "price": "25–55 €",
+   "hours": "11:30–22:00; cerrado lunes"
+  },
+  "w_orl_4rivers": {
+   "cuisine": "Barbacoa / Sureña",
+   "price": "12–25 €",
+   "hours": "11:00–21:00; cerrado domingo"
+  },
+  "w_orl_hawkers": {
+   "cuisine": "Asiática / Street food",
+   "price": "12–25 €",
+   "hours": "11:30–22:00"
+  },
+  "w_orl_se7en_bites": {
+   "cuisine": "Sureña / Brunch y repostería",
+   "price": "12–22 €",
+   "hours": "9:00–15:00; cerrado lunes"
+  },
+  "w_orl_the_coop": {
+   "cuisine": "Sureña / Comfort food",
+   "price": "12–22 €",
+   "hours": "11:00–21:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Orlando",
+   "items": [
+    {
+     "name": "Orejas de Mickey",
+     "price": "25–45 €",
+     "desc": "Diademas con las icónicas orejas de Mickey, el recuerdo estrella de Walt Disney World."
+    },
+    {
+     "name": "Varita de Harry Potter",
+     "price": "45–65 €",
+     "desc": "Varitas interactivas de Ollivanders que activan hechizos por el Mundo Mágico de Universal."
+    },
+    {
+     "name": "Peluche de personaje",
+     "price": "20–40 €",
+     "desc": "Peluches de personajes Disney, Universal o de SeaWorld, ideales para los más pequeños."
+    },
+    {
+     "name": "Naranjas y mermelada de Florida",
+     "price": "8–15 €",
+     "desc": "Cítricos y mermeladas artesanas, un clásico del \"Sunshine State\"."
+    },
+    {
+     "name": "Imán del cohete espacial",
+     "price": "5–12 €",
+     "desc": "Souvenirs del Kennedy Space Center: imanes, camisetas y maquetas de la NASA."
+    }
+   ],
+   "shops": [
+    "Disney Springs",
+    "Universal CityWalk",
+    "ICON Park",
+    "Orlando International Premium Outlets",
+    "Park Avenue (Winter Park)"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Compra las entradas de los parques online y con antelación; muchos exigen reserva de fecha y salen más baratas que en taquilla.",
+   "Usa las apps oficiales (My Disney Experience, Universal Orlando) para ver tiempos de espera y usar sistemas de fila virtual.",
+   "Ve a los parques a la hora de apertura: las primeras dos horas tienen las colas más cortas del día.",
+   "Lleva ropa ligera, gorra, protector solar y una capa impermeable: el calor y las tormentas de tarde son intensos en verano.",
+   "Alquila un coche o usa traslados: las atracciones están muy dispersas y el transporte público es limitado."
+  ],
+  "en": [
+   "Buy park tickets online in advance; many require date reservations and are cheaper than at the gate.",
+   "Use the official apps (My Disney Experience, Universal Orlando) to check wait times and virtual queues.",
+   "Arrive at park opening: the first two hours have the shortest lines of the day.",
+   "Wear light clothing, a cap, sunscreen and a rain layer: heat and afternoon thunderstorms are intense in summer.",
+   "Rent a car or use shuttles: attractions are spread far apart and public transit is limited."
+  ]
+ },
+ "climate": {
+  "hi": [
+   22,
+   24,
+   26,
+   29,
+   31,
+   33,
+   33,
+   33,
+   32,
+   29,
+   26,
+   23
+  ],
+  "lo": [
+   10,
+   11,
+   14,
+   16,
+   20,
+   23,
+   23,
+   23,
+   23,
+   19,
+   15,
+   11
+  ]
+ },
+ "tr": {
+  "El parque más famoso de Walt Disney World, con el castillo de Cenicienta.": "The most famous Walt Disney World park, home to Cinderella Castle.",
+  "Parque de Disney dedicado a la innovación y a las culturas del mundo.": "Disney park dedicated to innovation and world cultures.",
+  "Parque Disney inspirado en el cine, con Star Wars y Toy Story.": "Cinema-themed Disney park with Star Wars and Toy Story lands.",
+  "Parque Disney sobre la naturaleza, con safaris y Pandora.": "Nature-themed Disney park with safaris and Pandora.",
+  "Parque de Universal basado en el cine y la televisión.": "Universal park based on movies and television.",
+  "Parque de Universal con Hogsmeade, Jurassic Park y superhéroes.": "Universal park with Hogsmeade, Jurassic Park and superheroes.",
+  "El nuevo y espectacular tercer parque de Universal Orlando.": "Universal Orlando's spectacular new third park.",
+  "Parque acuático de Universal con temática de isla volcánica.": "Universal's water park with a volcanic-island theme.",
+  "Parque marino con acuarios, animales y montañas rusas.": "Marine park with aquariums, animals and roller coasters.",
+  "Complejo de ocio en International Drive con noria gigante.": "Entertainment complex on International Drive with a giant wheel.",
+  "Zona de tiendas, restaurantes y ocio de Disney, entrada libre.": "Disney's shopping, dining and entertainment district, free entry.",
+  "Parque de caimanes y cocodrilos, la \"capital mundial del caimán\".": "Alligator and crocodile park, the \"Alligator Capital of the World\".",
+  "Parque urbano con lago, fuente y barcas de cisne en el centro.": "Downtown urban park with a lake, fountain and swan boats.",
+  "Jardín botánico de 20 hectáreas junto al lago Rowena.": "20-hectare botanical garden beside Lake Rowena.",
+  "Manantial natural de aguas cristalinas para nadar y navegar en kayak.": "Natural crystal-clear spring for swimming and kayaking.",
+  "Refugio invernal de manatíes en un manantial turquesa.": "Winter refuge for manatees in a turquoise spring.",
+  "Elegante ciudad con lagos, Park Avenue y paseos en barca.": "Elegant town with lakes, Park Avenue and scenic boat tours.",
+  "Centro espacial de la NASA, excursión imprescindible desde Orlando.": "NASA's space center, a must-do day trip from Orlando.",
+  "Museo con la mayor colección de vidrieras de Louis C. Tiffany.": "Museum with the world's largest collection of Tiffany glass.",
+  "Museo de ciencia interactivo, ideal para familias.": "Interactive science museum, great for families.",
+  "Principal museo de arte de la ciudad, en Loch Haven Park.": "The city's leading art museum, in Loch Haven Park.",
+  "Moderno centro de artes escénicas en el centro de Orlando.": "Modern performing arts center in downtown Orlando.",
+  "Museo de historia local en un histórico juzgado de 1927.": "Local history museum in a historic 1927 courthouse.",
+  "Restaurante junto al agua en Disney Springs, con barcos clásicos.": "Waterfront restaurant at Disney Springs with classic boats.",
+  "Gastropub pionero de la cocina de Winter Park, con cervecería propia.": "Pioneering Winter Park gastropub with its own brewery.",
+  "Famosa barbacoa tejana-sureña, nacida en Winter Park.": "Famous Texas-Southern barbecue, born in Winter Park.",
+  "Platos asiáticos para compartir en el barrio Mills 50.": "Shareable Asian street-food plates in the Mills 50 district.",
+  "Panadería y brunch sureño de culto en el Milk District.": "Cult Southern bakery and brunch spot in the Milk District.",
+  "Cocina sureña casera de estilo cafetería en Winter Park.": "Homestyle Southern comfort food, cafeteria-style, in Winter Park.",
+  "Orlando": "Orlando"
+ }
+}

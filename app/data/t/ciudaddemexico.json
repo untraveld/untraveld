@@ -1,0 +1,752 @@
+{
+ "id": "ciudaddemexico",
+ "name": "Ciudad de México",
+ "country": "WORLD",
+ "center": [
+  19.43261,
+  -99.13321
+ ],
+ "pois": [
+  {
+   "id": "w_mex_zocalo",
+   "cat": "monuments",
+   "name": "Zócalo (Plaza de la Constitución)",
+   "icon": "🇲🇽",
+   "lat": 19.43261,
+   "lng": -99.13321,
+   "desc": "La gran plaza central, corazón cívico del país."
+  },
+  {
+   "id": "w_mex_catedral",
+   "cat": "monuments",
+   "name": "Catedral Metropolitana",
+   "icon": "⛪",
+   "lat": 19.43427,
+   "lng": -99.1332,
+   "desc": "La mayor catedral de América Latina."
+  },
+  {
+   "id": "w_mex_templomayor",
+   "cat": "monuments",
+   "name": "Templo Mayor",
+   "icon": "🏛️",
+   "lat": 19.43507,
+   "lng": -99.13143,
+   "desc": "Ruinas del principal templo azteca de Tenochtitlan."
+  },
+  {
+   "id": "w_mex_bellasartes",
+   "cat": "monuments",
+   "name": "Palacio de Bellas Artes",
+   "icon": "🎭",
+   "lat": 19.43547,
+   "lng": -99.14124,
+   "desc": "Icónico teatro y museo art nouveau y art déco."
+  },
+  {
+   "id": "w_mex_torrelatino",
+   "cat": "monuments",
+   "name": "Torre Latinoamericana",
+   "icon": "🗼",
+   "lat": 19.4338,
+   "lng": -99.14045,
+   "desc": "Rascacielos histórico con mirador panorámico."
+  },
+  {
+   "id": "w_mex_palacionacional",
+   "cat": "monuments",
+   "name": "Palacio Nacional (murales de Rivera)",
+   "icon": "🖼️",
+   "lat": 19.43268,
+   "lng": -99.13111,
+   "desc": "Sede del poder con murales de Diego Rivera."
+  },
+  {
+   "id": "w_mex_castillochapultepec",
+   "cat": "monuments",
+   "name": "Castillo de Chapultepec",
+   "icon": "🏰",
+   "lat": 19.42055,
+   "lng": -99.1822,
+   "desc": "Único castillo real de América, sobre un cerro."
+  },
+  {
+   "id": "w_mex_antropologia",
+   "cat": "monuments",
+   "name": "Museo Nacional de Antropología",
+   "icon": "🗿",
+   "lat": 19.426,
+   "lng": -99.18627,
+   "desc": "El mejor museo de culturas prehispánicas."
+  },
+  {
+   "id": "w_mex_fridakahlo",
+   "cat": "monuments",
+   "name": "Museo Frida Kahlo (Casa Azul)",
+   "icon": "🎨",
+   "lat": 19.35505,
+   "lng": -99.16241,
+   "desc": "La casa azul donde vivió Frida Kahlo."
+  },
+  {
+   "id": "w_mex_revolucion",
+   "cat": "monuments",
+   "name": "Monumento a la Revolución",
+   "icon": "🏛️",
+   "lat": 19.4362,
+   "lng": -99.15437,
+   "desc": "Enorme arco art déco y mirador."
+  },
+  {
+   "id": "w_mex_angel",
+   "cat": "monuments",
+   "name": "Ángel de la Independencia",
+   "icon": "👼",
+   "lat": 19.42706,
+   "lng": -99.16766,
+   "desc": "Columna dorada, símbolo de la ciudad."
+  },
+  {
+   "id": "w_mex_basilica",
+   "cat": "monuments",
+   "name": "Basílica de Guadalupe",
+   "icon": "⛪",
+   "lat": 19.4845,
+   "lng": -99.11761,
+   "desc": "El santuario católico más visitado de América."
+  },
+  {
+   "id": "w_mex_teotihuacan",
+   "cat": "monuments",
+   "name": "Teotihuacán (excursión)",
+   "icon": "🌄",
+   "lat": 19.6925,
+   "lng": -98.8438,
+   "desc": "Gran ciudad piramidal a las afueras."
+  },
+  {
+   "id": "w_mex_bosquechapultepec",
+   "cat": "nature",
+   "name": "Bosque de Chapultepec",
+   "icon": "🌳",
+   "lat": 19.4206,
+   "lng": -99.1923,
+   "desc": "El gran pulmón verde de la ciudad."
+  },
+  {
+   "id": "w_mex_xochimilco",
+   "cat": "nature",
+   "name": "Xochimilco",
+   "icon": "🛶",
+   "lat": 19.2634,
+   "lng": -99.1049,
+   "desc": "Canales y trajineras, herencia azteca."
+  },
+  {
+   "id": "w_mex_parquemexico",
+   "cat": "nature",
+   "name": "Parque México",
+   "icon": "🌴",
+   "lat": 19.41192,
+   "lng": -99.1711,
+   "desc": "Parque art déco en el corazón de la Condesa."
+  },
+  {
+   "id": "w_mex_jardincentenario",
+   "cat": "nature",
+   "name": "Jardín Centenario (Coyoacán)",
+   "icon": "⛲",
+   "lat": 19.3496,
+   "lng": -99.1622,
+   "desc": "Plaza arbolada con la fuente de los coyotes."
+  },
+  {
+   "id": "w_mex_viveros",
+   "cat": "nature",
+   "name": "Viveros de Coyoacán",
+   "icon": "🌲",
+   "lat": 19.3543,
+   "lng": -99.1702,
+   "desc": "Vivero y parque para correr entre árboles."
+  },
+  {
+   "id": "w_mex_alameda",
+   "cat": "nature",
+   "name": "Alameda Central",
+   "icon": "🌷",
+   "lat": 19.4358,
+   "lng": -99.1436,
+   "desc": "El parque público más antiguo de América."
+  },
+  {
+   "id": "w_mex_coyoacan",
+   "cat": "ocio",
+   "name": "Coyoacán (barrio)",
+   "icon": "🏘️",
+   "lat": 19.3502,
+   "lng": -99.1618,
+   "desc": "Barrio colonial bohemio y arbolado."
+  },
+  {
+   "id": "w_mex_romacondesa",
+   "cat": "ocio",
+   "name": "Roma-Condesa",
+   "icon": "🍸",
+   "lat": 19.4196,
+   "lng": -99.1621,
+   "desc": "Barrios de moda: cafés, galerías y vida nocturna."
+  },
+  {
+   "id": "w_mex_reforma",
+   "cat": "ocio",
+   "name": "Paseo de la Reforma",
+   "icon": "🌆",
+   "lat": 19.4306,
+   "lng": -99.1579,
+   "desc": "El gran bulevar de monumentos y rascacielos."
+  },
+  {
+   "id": "w_mex_garibaldi",
+   "cat": "ocio",
+   "name": "Plaza Garibaldi",
+   "icon": "🎺",
+   "lat": 19.4437,
+   "lng": -99.1389,
+   "desc": "La plaza de los mariachis."
+  },
+  {
+   "id": "w_mex_ciudadela",
+   "cat": "ocio",
+   "name": "Mercado de La Ciudadela",
+   "icon": "🧶",
+   "lat": 19.4276,
+   "lng": -99.1484,
+   "desc": "El gran mercado de artesanías del país."
+  },
+  {
+   "id": "w_mex_zonarosa",
+   "cat": "ocio",
+   "name": "Zona Rosa",
+   "icon": "🌈",
+   "lat": 19.4254,
+   "lng": -99.1636,
+   "desc": "Barrio cosmopolita de compras y ocio."
+  },
+  {
+   "id": "w_mex_sanjuan",
+   "cat": "food",
+   "name": "Mercado de San Juan",
+   "icon": "🦐",
+   "lat": 19.4284,
+   "lng": -99.1452,
+   "desc": "Mercado gourmet de productos exóticos."
+  },
+  {
+   "id": "w_mex_pujol",
+   "cat": "food",
+   "name": "Pujol",
+   "icon": "🍽️",
+   "lat": 19.43244,
+   "lng": -99.19474,
+   "desc": "Alta cocina mexicana de renombre mundial."
+  },
+  {
+   "id": "w_mex_mercadoroma",
+   "cat": "food",
+   "name": "Mercado Roma",
+   "icon": "🥘",
+   "lat": 19.417,
+   "lng": -99.1606,
+   "desc": "Mercado gastronómico de moda en la Roma."
+  },
+  {
+   "id": "w_mex_tacuba",
+   "cat": "food",
+   "name": "Café de Tacuba",
+   "icon": "🫕",
+   "lat": 19.437,
+   "lng": -99.1365,
+   "desc": "Restaurante histórico de cocina tradicional."
+  },
+  {
+   "id": "w_mex_contramar",
+   "cat": "food",
+   "name": "Contramar",
+   "icon": "🐟",
+   "lat": 19.4168,
+   "lng": -99.1675,
+   "desc": "El templo del pescado y marisco en la Roma."
+  },
+  {
+   "id": "w_mex_cocuyos",
+   "cat": "food",
+   "name": "Los Cocuyos",
+   "icon": "🌮",
+   "lat": 19.4338,
+   "lng": -99.1356,
+   "desc": "Taquería callejera legendaria del Centro."
+  },
+  {
+   "id": "w_mex_cardenal",
+   "cat": "food",
+   "name": "El Cardenal (Centro)",
+   "icon": "🍳",
+   "lat": 19.4339,
+   "lng": -99.1383,
+   "desc": "Desayunos mexicanos de referencia."
+  }
+ ],
+ "extra": {
+  "w_mex_zocalo": {
+   "id": "w_mex_zocalo",
+   "d": "Una de las plazas más grandes del mundo, rodeada por la Catedral, el Palacio Nacional y el antiguo centro azteca. Escenario de desfiles, protestas y la enorme bandera nacional.",
+   "d_en": "One of the world's largest squares, framed by the Cathedral, National Palace and the old Aztec center. Stage for parades, protests and the giant national flag.",
+   "h": "Explanada abierta 24 h; ideal al amanecer o de noche iluminada.",
+   "h_en": "Open plaza 24 h; best at dawn or lit up at night.",
+   "i": "Punto de partida perfecto para recorrer el Centro Histórico a pie.",
+   "i_en": "Perfect starting point for exploring the Historic Center on foot."
+  },
+  "w_mex_catedral": {
+   "id": "w_mex_catedral",
+   "d": "Construida entre 1573 y 1813 sobre parte del recinto sagrado azteca, mezcla estilos gótico, barroco y neoclásico. Alberga el impresionante Altar de los Reyes y criptas históricas.",
+   "d_en": "Built 1573–1813 partly over the Aztec sacred precinct, blending Gothic, Baroque and Neoclassical styles. Home to the stunning Altar of the Kings and historic crypts.",
+   "h": "Todos los días aprox. 8:00–20:00; misas a lo largo del día.",
+   "h_en": "Daily approx. 8:00–20:00; masses throughout the day.",
+   "i": "Sube al campanario en visita guiada para vistas del Zócalo.",
+   "i_en": "Climb the bell tower on a guided visit for Zócalo views."
+  },
+  "w_mex_templomayor": {
+   "id": "w_mex_templomayor",
+   "d": "Redescubierto en 1978, este complejo ceremonial dedicado a Huitzilopochtli y Tláloc incluye un excelente museo con la famosa Coyolxauhqui y miles de ofrendas.",
+   "d_en": "Rediscovered in 1978, this ceremonial complex to Huitzilopochtli and Tláloc includes an excellent museum with the famous Coyolxauhqui stone and thousands of offerings.",
+   "h": "Martes a domingo 9:00–17:00; lunes cerrado.",
+   "h_en": "Tuesday–Sunday 9:00–17:00; closed Mondays.",
+   "i": "Combina la visita con la Catedral, están una junto a otra.",
+   "i_en": "Pair it with the Cathedral, they sit side by side."
+  },
+  "w_mex_bellasartes": {
+   "id": "w_mex_bellasartes",
+   "d": "Coronado por una cúpula de vidrio y mármol de Carrara, alberga murales de Rivera, Orozco y Siqueiros, y el cortina de cristal Tiffany del teatro donde actúa el Ballet Folklórico.",
+   "d_en": "Crowned by a marble and glass dome, it holds murals by Rivera, Orozco and Siqueiros, and the Tiffany glass curtain of the theater where the Ballet Folklórico performs.",
+   "h": "Museo martes a domingo 10:00–18:00; lunes cerrado.",
+   "h_en": "Museum Tuesday–Sunday 10:00–18:00; closed Mondays.",
+   "i": "Fotografíalo desde la terraza del Sears (Café Finca Don Porfirio).",
+   "i_en": "Photograph it from the Sears rooftop café (Finca Don Porfirio)."
+  },
+  "w_mex_torrelatino": {
+   "id": "w_mex_torrelatino",
+   "d": "Inaugurado en 1956, fue el primer rascacielos del mundo construido en zona sísmica y sobrevivió a los grandes terremotos. Su mirador ofrece la mejor vista de 360° de la ciudad.",
+   "d_en": "Opened in 1956, it was the world's first skyscraper built in a major seismic zone and survived the great earthquakes. Its deck offers the best 360° view of the city.",
+   "h": "Todos los días aprox. 10:00–22:00.",
+   "h_en": "Daily approx. 10:00–22:00.",
+   "i": "Sube al atardecer para ver la ciudad de día y de noche.",
+   "i_en": "Go at sunset to see the city by day and night."
+  },
+  "w_mex_palacionacional": {
+   "id": "w_mex_palacionacional",
+   "d": "En su escalinata principal Diego Rivera pintó la 'Epopeya del pueblo mexicano', un vasto recorrido por la historia de México desde el mundo prehispánico hasta la Revolución.",
+   "d_en": "On its main staircase Diego Rivera painted the 'Epic of the Mexican People', a vast journey through Mexico's history from the pre-Hispanic world to the Revolution.",
+   "h": "Martes a domingo 10:00–17:00; lleva identificación oficial.",
+   "h_en": "Tuesday–Sunday 10:00–17:00; bring official ID.",
+   "i": "Entrada gratuita; el acceso es por la puerta de la calle Moneda.",
+   "i_en": "Free entry; access is through the Moneda street gate."
+  },
+  "w_mex_castillochapultepec": {
+   "id": "w_mex_castillochapultepec",
+   "d": "Residencia de los emperadores Maximiliano y Carlota y de presidentes, hoy alberga el Museo Nacional de Historia. Sus jardines, murales y vistas de Reforma son espectaculares.",
+   "d_en": "Home to emperors Maximilian and Carlota and to presidents, it now houses the National History Museum. Its gardens, murals and Reforma views are spectacular.",
+   "h": "Martes a domingo 9:00–17:00; lunes cerrado.",
+   "h_en": "Tuesday–Sunday 9:00–17:00; closed Mondays.",
+   "i": "La subida a pie es empinada; hay un trenecito para quien lo prefiera.",
+   "i_en": "The walk up is steep; a little train is available if preferred."
+  },
+  "w_mex_antropologia": {
+   "id": "w_mex_antropologia",
+   "d": "Obra maestra de Pedro Ramírez Vázquez, reúne la Piedra del Sol azteca, colosales cabezas olmecas y tesoros mayas bajo su icónico paraguas de concreto en el patio central.",
+   "d_en": "A masterpiece by Pedro Ramírez Vázquez, it gathers the Aztec Sun Stone, colossal Olmec heads and Mayan treasures beneath its iconic concrete umbrella in the courtyard.",
+   "h": "Martes a domingo 9:00–18:00; lunes cerrado.",
+   "h_en": "Tuesday–Sunday 9:00–18:00; closed Mondays.",
+   "i": "Dedícale al menos medio día; prioriza las salas Mexica y Maya.",
+   "i_en": "Allow at least half a day; prioritize the Mexica and Maya halls."
+  },
+  "w_mex_fridakahlo": {
+   "id": "w_mex_fridakahlo",
+   "d": "Casa natal y hogar de Frida Kahlo en Coyoacán, conserva sus objetos personales, vestidos, obras y el estudio compartido con Diego Rivera, en un ambiente íntimo y colorido.",
+   "d_en": "Frida Kahlo's birthplace and Coyoacán home, preserving her personal belongings, dresses, works and the studio she shared with Diego Rivera, in an intimate, colorful setting.",
+   "h": "Martes a domingo, horarios variables; lunes cerrado.",
+   "h_en": "Tuesday–Sunday, varying hours; closed Mondays.",
+   "i": "Compra la entrada online con antelación; no se vende en taquilla algunos días.",
+   "i_en": "Buy tickets online in advance; not sold at the door on some days."
+  },
+  "w_mex_revolucion": {
+   "id": "w_mex_revolucion",
+   "d": "Concebido como cúpula de un palacio legislativo nunca terminado, es mausoleo de héroes revolucionarios y ofrece un ascensor panorámico y un museo en su base.",
+   "d_en": "Conceived as the dome of a never-finished legislative palace, it is a mausoleum of revolutionary heroes and offers a panoramic lift and a museum at its base.",
+   "h": "Mirador todos los días aprox. 12:00–20:00.",
+   "h_en": "Viewpoint daily approx. 12:00–20:00.",
+   "i": "La plaza tiene fuentes donde los niños se refrescan por la tarde.",
+   "i_en": "The plaza has fountains where kids cool off in the afternoon."
+  },
+  "w_mex_angel": {
+   "id": "w_mex_angel",
+   "d": "Inaugurada en 1910 para el centenario de la Independencia, esta victoria alada dorada corona una glorieta de Reforma y es punto de reunión para celebraciones y protestas.",
+   "d_en": "Unveiled in 1910 for the Independence centennial, this gilded winged victory crowns a Reforma roundabout and is a gathering point for celebrations and protests.",
+   "h": "Visible 24 h; interior solo con permiso especial.",
+   "h_en": "Visible 24 h; interior only by special permit.",
+   "i": "Combínalo con un paseo dominical por Reforma cerrado al tráfico.",
+   "i_en": "Combine it with a Sunday stroll along car-free Reforma."
+  },
+  "w_mex_basilica": {
+   "id": "w_mex_basilica",
+   "d": "Recinto que resguarda la imagen de la Virgen de Guadalupe. Junto a la antigua basílica inclinada se alza el moderno templo circular de Ramírez Vázquez, con capacidad para miles.",
+   "d_en": "Complex safeguarding the image of the Virgin of Guadalupe. Beside the old tilting basilica stands Ramírez Vázquez's modern circular temple, holding thousands.",
+   "h": "Todos los días aprox. 6:00–21:00.",
+   "h_en": "Daily approx. 6:00–21:00.",
+   "i": "El 12 de diciembre llegan millones de peregrinos; evita esa fecha si buscas calma.",
+   "i_en": "On December 12 millions of pilgrims arrive; avoid that date for calm."
+  },
+  "w_mex_teotihuacan": {
+   "id": "w_mex_teotihuacan",
+   "d": "'La ciudad de los dioses', con las monumentales pirámides del Sol y de la Luna unidas por la Calzada de los Muertos. Uno de los yacimientos arqueológicos más impresionantes del mundo.",
+   "d_en": "'The city of the gods', with the monumental Sun and Moon pyramids linked by the Avenue of the Dead. One of the world's most impressive archaeological sites.",
+   "h": "Todos los días 9:00–17:00; llega temprano.",
+   "h_en": "Daily 9:00–17:00; arrive early.",
+   "i": "A 50 km; lleva sombrero, agua y calzado cómodo para el sol y las subidas.",
+   "i_en": "50 km away; bring a hat, water and comfy shoes for the sun and climbs."
+  },
+  "w_mex_bosquechapultepec": {
+   "id": "w_mex_bosquechapultepec",
+   "d": "Uno de los parques urbanos más grandes de América, con lagos, museos, zoológico y jardines. Refugio ancestral de gobernantes aztecas y hoy espacio de descanso para millones.",
+   "d_en": "One of the Americas' largest urban parks, with lakes, museums, a zoo and gardens. An ancient retreat of Aztec rulers and today a resting place for millions.",
+   "h": "Martes a domingo 5:00–17:00; lunes cerrado.",
+   "h_en": "Tuesday–Sunday 5:00–17:00; closed Mondays.",
+   "i": "Alquila una lancha en el lago y visita la Segunda Sección con fuentes.",
+   "i_en": "Rent a rowboat on the lake and visit the Second Section fountains."
+  },
+  "w_mex_xochimilco": {
+   "id": "w_mex_xochimilco",
+   "d": "Red de canales y chinampas (huertos flotantes) declarada Patrimonio de la Humanidad. Se recorre en coloridas trajineras entre mariachis, comida y la enigmática Isla de las Muñecas.",
+   "d_en": "A canal and chinampa (floating garden) network listed as World Heritage. Explored on colorful trajineras amid mariachis, food and the eerie Island of the Dolls.",
+   "h": "Embarcaderos todos los días aprox. 9:00–18:00.",
+   "h_en": "Docks daily approx. 9:00–18:00.",
+   "i": "Acuerda el precio por hora de la trajinera antes de subir.",
+   "i_en": "Agree the trajinera's hourly price before boarding."
+  },
+  "w_mex_parquemexico": {
+   "id": "w_mex_parquemexico",
+   "d": "Diseñado en los años 20 en forma ovalada, con pérgolas, estanques, esculturas y palmeras. Punto de encuentro de vecinos, corredores y dueños de perros del barrio de moda.",
+   "d_en": "Designed in the 1920s in an oval shape, with pergolas, ponds, sculptures and palms. A meeting point for locals, runners and dog owners of the trendy district.",
+   "h": "Abierto todos los días; ambiente animado al atardecer.",
+   "h_en": "Open daily; lively atmosphere at dusk.",
+   "i": "Ideal para pasear entre cafés y arquitectura art déco de la Condesa.",
+   "i_en": "Ideal for strolling among Condesa's cafés and Art Déco architecture."
+  },
+  "w_mex_jardincentenario": {
+   "id": "w_mex_jardincentenario",
+   "d": "Corazón del centro colonial de Coyoacán, con su famosa fuente de coyotes, arcos y terrazas. Rodeado de cafés, mercados y calles empedradas llenas de vida los fines de semana.",
+   "d_en": "Heart of colonial Coyoacán, with its famous coyotes fountain, arches and terraces. Surrounded by cafés, markets and cobbled streets buzzing on weekends.",
+   "h": "Plaza abierta 24 h; más animada los fines de semana.",
+   "h_en": "Open plaza 24 h; liveliest on weekends.",
+   "i": "Prueba un churro o un helado mientras escuchas a los músicos callejeros.",
+   "i_en": "Try a churro or ice cream while listening to street musicians."
+  },
+  "w_mex_viveros": {
+   "id": "w_mex_viveros",
+   "d": "Vivero forestal fundado en 1907 que abastece de árboles a la ciudad y funciona como parque público. Sendero de tierra muy querido por corredores y visitado por ardillas.",
+   "d_en": "A forest nursery founded in 1907 that supplies the city with trees and doubles as a public park. A dirt trail beloved by runners and full of squirrels.",
+   "h": "Todos los días aprox. 6:00–18:00.",
+   "h_en": "Daily approx. 6:00–18:00.",
+   "i": "Lleva monedas para comprar nueces y alimentar a las ardillas.",
+   "i_en": "Bring coins to buy nuts and feed the squirrels."
+  },
+  "w_mex_alameda": {
+   "id": "w_mex_alameda",
+   "d": "Creado en 1592, este jardín arbolado junto a Bellas Artes tiene fuentes, esculturas de mármol y amplios paseos. Inspiró el célebre mural de Rivera 'Sueño de una tarde dominical'.",
+   "d_en": "Created in 1592, this leafy garden beside Bellas Artes has fountains, marble sculptures and broad walkways. It inspired Rivera's famous 'Dream of a Sunday Afternoon' mural.",
+   "h": "Abierto todos los días de sol a sol.",
+   "h_en": "Open daily from dawn to dusk.",
+   "i": "Visita el Museo Mural Diego Rivera en su extremo poniente.",
+   "i_en": "Visit the Diego Rivera Mural Museum at its western end."
+  },
+  "w_mex_coyoacan": {
+   "id": "w_mex_coyoacan",
+   "d": "Antiguo pueblo con calles empedradas, casonas coloridas, plazas, mercados y una fuerte vida cultural ligada a Frida Kahlo y Trotsky. Perfecto para pasear un fin de semana.",
+   "d_en": "A former town of cobbled streets, colorful mansions, plazas, markets and a strong cultural life tied to Frida Kahlo and Trotsky. Perfect for a weekend stroll.",
+   "h": "Ambiente diurno y nocturno; máximo bullicio en fin de semana.",
+   "h_en": "Lively day and night; busiest on weekends.",
+   "i": "Combina la Casa Azul, el mercado y un café en el Jardín Centenario.",
+   "i_en": "Combine the Blue House, the market and a coffee at Jardín Centenario."
+  },
+  "w_mex_romacondesa": {
+   "id": "w_mex_romacondesa",
+   "d": "Colonias arboladas de arquitectura porfiriana y art déco, epicentro gastronómico y creativo de la ciudad, con boutiques, mezcalerías, terrazas y una escena artística vibrante.",
+   "d_en": "Leafy neighborhoods of Porfirian and Art Déco architecture, the city's culinary and creative epicenter, with boutiques, mezcalerías, terraces and a vibrant art scene.",
+   "h": "Cafés de día; bares y restaurantes hasta tarde.",
+   "h_en": "Cafés by day; bars and restaurants until late.",
+   "i": "Recórrelo a pie entre la Plaza Río de Janeiro y el Parque España.",
+   "i_en": "Explore on foot between Plaza Río de Janeiro and Parque España."
+  },
+  "w_mex_reforma": {
+   "id": "w_mex_reforma",
+   "d": "Avenida diseñada al estilo de los Campos Elíseos, jalonada de glorietas, esculturas y torres modernas. Los domingos se cierra al tráfico para ciclistas y paseantes.",
+   "d_en": "An avenue laid out like the Champs-Élysées, dotted with roundabouts, sculptures and modern towers. On Sundays it closes to traffic for cyclists and walkers.",
+   "h": "Ciclovía dominical aprox. 8:00–14:00.",
+   "h_en": "Sunday cycle route approx. 8:00–14:00.",
+   "i": "Alquila una bici pública Ecobici para recorrer la avenida.",
+   "i_en": "Rent a public Ecobici bike to ride the avenue."
+  },
+  "w_mex_garibaldi": {
+   "id": "w_mex_garibaldi",
+   "d": "Punto de reunión de mariachis desde hace casi un siglo, donde se contrata música en vivo y se bebe tequila y mezcal. Alberga el Museo del Tequila y el Mezcal (MUTEM).",
+   "d_en": "A mariachi gathering spot for nearly a century, where you hire live music and drink tequila and mezcal. Home to the Tequila and Mezcal Museum (MUTEM).",
+   "h": "Ambiente nocturno, sobre todo de jueves a sábado.",
+   "h_en": "Nighttime scene, especially Thursday to Saturday.",
+   "i": "Ve acompañado, cuida tus pertenencias y usa taxi de app al volver.",
+   "i_en": "Go with company, watch your belongings and take an app taxi back."
+  },
+  "w_mex_ciudadela": {
+   "id": "w_mex_ciudadela",
+   "d": "Más de 300 locales con artesanías de todo México: alebrijes, textiles, plata, talavera y sombreros. El mejor lugar para comprar recuerdos auténticos a buen precio.",
+   "d_en": "Over 300 stalls with crafts from all over Mexico: alebrijes, textiles, silver, talavera and hats. The best place to buy authentic souvenirs at fair prices.",
+   "h": "Todos los días aprox. 10:00–19:00.",
+   "h_en": "Daily approx. 10:00–19:00.",
+   "i": "Se puede regatear con educación, sobre todo por varias piezas.",
+   "i_en": "Polite bargaining is welcome, especially for several pieces."
+  },
+  "w_mex_zonarosa": {
+   "id": "w_mex_zonarosa",
+   "d": "Zona peatonal conocida por su vida nocturna, su barrio coreano, tiendas, restaurantes internacionales y por ser el corazón de la comunidad LGBT+ de la capital.",
+   "d_en": "A pedestrian area known for its nightlife, its Koreatown, shops, international restaurants and as the heart of the capital's LGBT+ community.",
+   "h": "Comercio de día; bares y clubes hasta la madrugada.",
+   "h_en": "Shops by day; bars and clubs until dawn.",
+   "i": "Prueba la comida coreana en la calle Florencia y alrededores.",
+   "i_en": "Try Korean food on and around Florencia street."
+  },
+  "w_mex_sanjuan": {
+   "id": "w_mex_sanjuan",
+   "d": "Legendario mercado donde chefs y curiosos encuentran quesos, embutidos, mariscos, insectos comestibles y carnes exóticas. Varios puestos preparan tapas y degustaciones al momento.",
+   "d_en": "A legendary market where chefs and the curious find cheeses, charcuterie, seafood, edible insects and exotic meats. Several stalls prepare tapas and tastings on the spot.",
+   "h": "Lunes a domingo 8:00–17:00.",
+   "h_en": "Monday–Sunday 8:00–17:00.",
+   "i": "Prueba las tostadas de mariscos y una tabla de quesos con vino.",
+   "i_en": "Try the seafood tostadas and a cheese board with wine."
+  },
+  "w_mex_pujol": {
+   "id": "w_mex_pujol",
+   "d": "Restaurante de Enrique Olvera en Polanco, referente de la gastronomía mexicana contemporánea. Famoso por su mole madre envejecido durante años y sus menús degustación de temporada.",
+   "d_en": "Enrique Olvera's Polanco restaurant, a benchmark of contemporary Mexican cuisine. Famous for its mole madre aged for years and its seasonal tasting menus.",
+   "h": "Lunes a sábado 13:30–22:30; domingo cerrado.",
+   "h_en": "Monday–Saturday 13:30–22:30; closed Sunday.",
+   "i": "Reserva con semanas de antelación; el taco de precios es alto.",
+   "i_en": "Book weeks ahead; it is a high-end splurge."
+  },
+  "w_mex_mercadoroma": {
+   "id": "w_mex_mercadoroma",
+   "d": "Espacio gourmet de varios pisos con puestos de cocineros locales, quesos, ostras, tacos de autor y una terraza cervecera. Concentra lo mejor de la escena foodie de la Roma.",
+   "d_en": "A multi-level gourmet space with stalls from local cooks, cheeses, oysters, gourmet tacos and a beer terrace. It gathers the best of Roma's foodie scene.",
+   "h": "Todos los días aprox. 12:00–22:00.",
+   "h_en": "Daily approx. 12:00–22:00.",
+   "i": "Sube a la terraza (biergarten) al atardecer para una cerveza artesanal.",
+   "i_en": "Head to the rooftop biergarten at sunset for a craft beer."
+  },
+  "w_mex_tacuba": {
+   "id": "w_mex_tacuba",
+   "d": "Abierto en 1912 en un antiguo convento del Centro, con azulejos, vitrales y muebles de época. Célebre por sus tamales, enchiladas, chiles en nogada y chocolate caliente.",
+   "d_en": "Opened in 1912 in a former convent downtown, with tiles, stained glass and period furniture. Famous for its tamales, enchiladas, chiles en nogada and hot chocolate.",
+   "h": "Todos los días 8:00–23:00.",
+   "h_en": "Daily 8:00–23:00.",
+   "i": "Ideal para desayunar con música tradicional los fines de semana.",
+   "i_en": "Great for breakfast with traditional music on weekends."
+  },
+  "w_mex_contramar": {
+   "id": "w_mex_contramar",
+   "d": "Institución de la comida de mediodía, famosa por su pescado a la talla (mitad rojo, mitad verde), sus tostadas de atún y su ambiente animado y elegante a la vez.",
+   "d_en": "A lunchtime institution famous for its pescado a la talla (half red, half green salsa), tuna tostadas and an atmosphere at once lively and elegant.",
+   "h": "Todos los días 12:00–18:30.",
+   "h_en": "Daily 12:00–18:30.",
+   "i": "Reserva y no te pierdas el postre de higos con crema batida rosa.",
+   "i_en": "Book ahead and don't miss the figs with pink whipped cream."
+  },
+  "w_mex_cocuyos": {
+   "id": "w_mex_cocuyos",
+   "d": "Diminuto puesto abierto casi las 24 horas, famoso por sus tacos de suadero, longaniza y las partes menos habituales de la res, cocinadas en un enorme comal. Un clásico noctámbulo.",
+   "d_en": "A tiny near-24-hour stand famed for its suadero, longaniza and offbeat beef-cut tacos cooked on a huge griddle. A late-night classic.",
+   "h": "Todos los días aprox. 9:00–3:00.",
+   "h_en": "Daily approx. 9:00–3:00.",
+   "i": "Solo efectivo; pide un taco de campechano para probar la mezcla.",
+   "i_en": "Cash only; order a campechano taco to try the mix."
+  },
+  "w_mex_cardenal": {
+   "id": "w_mex_cardenal",
+   "d": "Restaurante muy querido por sus desayunos clásicos: pan de nata, chocolate batido, huevos, mole y su famosa nata con miel. Cocina mexicana honesta en un elegante edificio del Centro.",
+   "d_en": "A beloved restaurant for classic breakfasts: cream bread, whisked chocolate, eggs, mole and its famous clotted cream with honey. Honest Mexican cooking in an elegant downtown building.",
+   "h": "Todos los días 8:00–18:00.",
+   "h_en": "Daily 8:00–18:00.",
+   "i": "Llega temprano en fin de semana para evitar largas esperas.",
+   "i_en": "Arrive early on weekends to avoid long waits."
+  }
+ },
+ "food": {
+  "w_mex_sanjuan": {
+   "cuisine": "Mercado gourmet mexicano",
+   "price": "8–25 €",
+   "hours": "Lunes a domingo 8:00–17:00"
+  },
+  "w_mex_pujol": {
+   "cuisine": "Alta cocina mexicana",
+   "price": "120–200 €",
+   "hours": "Lunes a sábado 13:30–22:30; domingo cerrado"
+  },
+  "w_mex_mercadoroma": {
+   "cuisine": "Mercado gastronómico variado",
+   "price": "10–30 €",
+   "hours": "Todos los días aprox. 12:00–22:00"
+  },
+  "w_mex_tacuba": {
+   "cuisine": "Cocina mexicana tradicional",
+   "price": "15–35 €",
+   "hours": "Todos los días 8:00–23:00"
+  },
+  "w_mex_contramar": {
+   "cuisine": "Marisquería mexicana",
+   "price": "25–50 €",
+   "hours": "Todos los días 12:00–18:30"
+  },
+  "w_mex_cocuyos": {
+   "cuisine": "Tacos y antojitos",
+   "price": "3–12 €",
+   "hours": "Todos los días aprox. 9:00–3:00"
+  },
+  "w_mex_cardenal": {
+   "cuisine": "Cocina mexicana tradicional",
+   "price": "15–35 €",
+   "hours": "Todos los días 8:00–18:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Ciudad de México",
+   "items": [
+    {
+     "name": "Alebrije de madera",
+     "price": "15–80 €",
+     "desc": "Figura fantástica tallada y pintada a mano, artesanía oaxaqueña muy popular en la capital."
+    },
+    {
+     "name": "Talavera poblana",
+     "price": "10–60 €",
+     "desc": "Cerámica esmaltada en azul y blanco con denominación de origen."
+    },
+    {
+     "name": "Plata de Taxco",
+     "price": "20–150 €",
+     "desc": "Joyería de plata .925 con diseños prehispánicos y modernos."
+    },
+    {
+     "name": "Mezcal artesanal",
+     "price": "12–50 €",
+     "desc": "Destilado de agave con gusano, en botella de barro o vidrio."
+    },
+    {
+     "name": "Calaveras y arte de Día de Muertos",
+     "price": "5–40 €",
+     "desc": "Catrinas de barro, papel picado y calacas decorativas."
+    },
+    {
+     "name": "Chocolate y mole en pasta",
+     "price": "6–25 €",
+     "desc": "Chocolate de metate y pasta de mole poblano para preparar en casa."
+    }
+   ],
+   "shops": [
+    "Mercado de La Ciudadela",
+    "Mercado de Artesanías San Juan",
+    "FONART (Reforma/Juárez)",
+    "Bazar Sábado (San Ángel)",
+    "Mercado de Coyoacán",
+    "Dulcería de Celaya (Centro Histórico)"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "La altitud es de 2.240 m: tómatelo con calma el primer día y bebe mucha agua para evitar el mal de altura.",
+   "Usa el Metro y el Metrobús con una tarjeta recargable; evita la hora punta y billetes de alta denominación en efectivo.",
+   "Reserva con antelación el Museo Frida Kahlo, Pujol y la excursión a Teotihuacán, ya que se agotan.",
+   "Muchos museos cierran los lunes y ofrecen entrada gratuita a residentes los domingos; planifica las visitas entre semana.",
+   "Usa taxis de sitio o apps (Uber/DiDi) en vez de parar taxis en la calle, sobre todo de noche."
+  ],
+  "en": [
+   "The city sits at 2,240 m: take it easy the first day and drink plenty of water to avoid altitude sickness.",
+   "Use the Metro and Metrobús with a rechargeable card; avoid rush hour and paying with large cash bills.",
+   "Book Frida Kahlo Museum, Pujol and the Teotihuacán day trip well in advance as they sell out.",
+   "Many museums close on Mondays and are free for residents on Sundays; plan visits on weekdays.",
+   "Use registered taxis or apps (Uber/DiDi) rather than hailing cabs on the street, especially at night."
+  ]
+ },
+ "climate": {
+  "hi": [
+   22,
+   24,
+   26,
+   27,
+   26,
+   24,
+   23,
+   23,
+   22,
+   22,
+   22,
+   21
+  ],
+  "lo": [
+   7,
+   8,
+   10,
+   12,
+   13,
+   13,
+   12,
+   12,
+   12,
+   11,
+   9,
+   7
+  ]
+ },
+ "tr": {
+  "La gran plaza central, corazón cívico del país.": "The huge central square, the nation's civic heart.",
+  "La mayor catedral de América Latina.": "The largest cathedral in Latin America.",
+  "Ruinas del principal templo azteca de Tenochtitlan.": "Ruins of the main Aztec temple of Tenochtitlan.",
+  "Icónico teatro y museo art nouveau y art déco.": "Iconic Art Nouveau and Art Déco theater and museum.",
+  "Rascacielos histórico con mirador panorámico.": "Historic skyscraper with a panoramic observation deck.",
+  "Sede del poder con murales de Diego Rivera.": "Seat of power with Diego Rivera's murals.",
+  "Único castillo real de América, sobre un cerro.": "The Americas' only true royal castle, atop a hill.",
+  "El mejor museo de culturas prehispánicas.": "The finest museum of pre-Hispanic cultures.",
+  "La casa azul donde vivió Frida Kahlo.": "The blue house where Frida Kahlo lived.",
+  "Enorme arco art déco y mirador.": "Huge Art Déco arch and viewpoint.",
+  "Columna dorada, símbolo de la ciudad.": "Golden column, symbol of the city.",
+  "El santuario católico más visitado de América.": "The most visited Catholic shrine in the Americas.",
+  "Gran ciudad piramidal a las afueras.": "Great pyramid city on the outskirts.",
+  "El gran pulmón verde de la ciudad.": "The city's great green lung.",
+  "Canales y trajineras, herencia azteca.": "Canals and trajineras, an Aztec legacy.",
+  "Parque art déco en el corazón de la Condesa.": "Art Déco park at the heart of Condesa.",
+  "Plaza arbolada con la fuente de los coyotes.": "Leafy plaza with the coyotes fountain.",
+  "Vivero y parque para correr entre árboles.": "Tree nursery and park for jogging.",
+  "El parque público más antiguo de América.": "The oldest public park in the Americas.",
+  "Barrio colonial bohemio y arbolado.": "Bohemian, tree-lined colonial district.",
+  "Barrios de moda: cafés, galerías y vida nocturna.": "Trendy districts: cafés, galleries and nightlife.",
+  "El gran bulevar de monumentos y rascacielos.": "The grand boulevard of monuments and skyscrapers.",
+  "La plaza de los mariachis.": "The mariachis' square.",
+  "El gran mercado de artesanías del país.": "The country's great crafts market.",
+  "Barrio cosmopolita de compras y ocio.": "Cosmopolitan shopping and nightlife district.",
+  "Mercado gourmet de productos exóticos.": "Gourmet market of exotic products.",
+  "Alta cocina mexicana de renombre mundial.": "World-renowned Mexican fine dining.",
+  "Mercado gastronómico de moda en la Roma.": "Trendy food hall in Roma.",
+  "Restaurante histórico de cocina tradicional.": "Historic traditional-cuisine restaurant.",
+  "El templo del pescado y marisco en la Roma.": "The seafood temple of Roma.",
+  "Taquería callejera legendaria del Centro.": "Legendary street taquería downtown.",
+  "Desayunos mexicanos de referencia.": "A benchmark for Mexican breakfasts.",
+  "Ciudad de México": "Ciudad de México"
+ }
+}

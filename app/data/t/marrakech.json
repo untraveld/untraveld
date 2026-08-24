@@ -1,0 +1,718 @@
+{
+ "id": "marrakech",
+ "name": "Marrakech",
+ "country": "WORLD",
+ "center": [
+  31.6255,
+  -7.98894
+ ],
+ "pois": [
+  {
+   "id": "w_mar_jemaa_el_fna",
+   "cat": "ocio",
+   "name": "Plaza Jemaa el-Fna",
+   "icon": "🎪",
+   "lat": 31.6255,
+   "lng": -7.98894,
+   "desc": "El corazón vibrante de la medina, Patrimonio de la Humanidad de la UNESCO."
+  },
+  {
+   "id": "w_mar_koutoubia",
+   "cat": "monuments",
+   "name": "Mezquita Koutoubia",
+   "icon": "🕌",
+   "lat": 31.6241,
+   "lng": -7.9935,
+   "desc": "El minarete almohade del siglo XII, símbolo de la ciudad."
+  },
+  {
+   "id": "w_mar_bahia",
+   "cat": "monuments",
+   "name": "Palacio Bahía",
+   "icon": "🏛️",
+   "lat": 31.62173,
+   "lng": -7.98159,
+   "desc": "Suntuoso palacio del siglo XIX con patios y artesonados."
+  },
+  {
+   "id": "w_mar_saadian_tombs",
+   "cat": "monuments",
+   "name": "Tumbas Saadíes",
+   "icon": "⚰️",
+   "lat": 31.61722,
+   "lng": -7.98917,
+   "desc": "Mausoleos del siglo XVI redescubiertos en 1917."
+  },
+  {
+   "id": "w_mar_ben_youssef",
+   "cat": "monuments",
+   "name": "Madrasa Ben Youssef",
+   "icon": "🏫",
+   "lat": 31.63194,
+   "lng": -7.98619,
+   "desc": "La mayor escuela coránica del Magreb, joya de estucos y cedro."
+  },
+  {
+   "id": "w_mar_el_badi",
+   "cat": "monuments",
+   "name": "Palacio El Badi",
+   "icon": "🏯",
+   "lat": 31.6183,
+   "lng": -7.9858,
+   "desc": "Las ruinas grandiosas del 'palacio incomparable' saadí."
+  },
+  {
+   "id": "w_mar_zocos",
+   "cat": "ocio",
+   "name": "Zocos de la medina",
+   "icon": "🛍️",
+   "lat": 31.6288,
+   "lng": -7.9893,
+   "desc": "Un laberinto de callejones gremiales con artesanía sin fin."
+  },
+  {
+   "id": "w_mar_majorelle",
+   "cat": "nature",
+   "name": "Jardín Majorelle",
+   "icon": "🪴",
+   "lat": 31.64137,
+   "lng": -8.00292,
+   "desc": "El icónico jardín azul de Yves Saint Laurent."
+  },
+  {
+   "id": "w_mar_ysl_museum",
+   "cat": "ocio",
+   "name": "Museo Yves Saint Laurent",
+   "icon": "👗",
+   "lat": 31.6416,
+   "lng": -8.0039,
+   "desc": "Museo de moda dedicado al legado del diseñador."
+  },
+  {
+   "id": "w_mar_jardin_secret",
+   "cat": "nature",
+   "name": "Le Jardin Secret",
+   "icon": "🌿",
+   "lat": 31.63092,
+   "lng": -7.9901,
+   "desc": "Jardín-palacio restaurado en pleno corazón de la medina."
+  },
+  {
+   "id": "w_mar_menara",
+   "cat": "nature",
+   "name": "Jardines de la Menara",
+   "icon": "🌴",
+   "lat": 31.608,
+   "lng": -8.0197,
+   "desc": "Olivar histórico con un gran estanque y pabellón."
+  },
+  {
+   "id": "w_mar_palmeraie",
+   "cat": "nature",
+   "name": "Palmeral de Marrakech",
+   "icon": "🐪",
+   "lat": 31.6667,
+   "lng": -7.95,
+   "desc": "Vasto oasis de palmeras al norte de la ciudad."
+  },
+  {
+   "id": "w_mar_murallas",
+   "cat": "monuments",
+   "name": "Murallas y Bab Agnaou",
+   "icon": "🧱",
+   "lat": 31.6186,
+   "lng": -7.9903,
+   "desc": "19 km de murallas de adobe y la puerta monumental almohade."
+  },
+  {
+   "id": "w_mar_mellah",
+   "cat": "monuments",
+   "name": "Mellah (barrio judío)",
+   "icon": "🕎",
+   "lat": 31.6183,
+   "lng": -7.9802,
+   "desc": "Antiguo barrio judío con sinagoga y cementerio histórico."
+  },
+  {
+   "id": "w_mar_koubba_almoravide",
+   "cat": "monuments",
+   "name": "Koubba Almorávide",
+   "icon": "🏺",
+   "lat": 31.6313,
+   "lng": -7.9868,
+   "desc": "El único monumento almorávide que sobrevive en la ciudad."
+  },
+  {
+   "id": "w_mar_museo_marrakech",
+   "cat": "monuments",
+   "name": "Museo de Marrakech",
+   "icon": "🖼️",
+   "lat": 31.6317,
+   "lng": -7.9869,
+   "desc": "Palacio Dar Menebhi convertido en museo de arte marroquí."
+  },
+  {
+   "id": "w_mar_kasbah_mosque",
+   "cat": "monuments",
+   "name": "Mezquita de la Kasbah",
+   "icon": "🕌",
+   "lat": 31.6176,
+   "lng": -7.9888,
+   "desc": "Mezquita almohade del barrio real, junto a las Tumbas Saadíes."
+  },
+  {
+   "id": "w_mar_dar_si_said",
+   "cat": "monuments",
+   "name": "Dar Si Said",
+   "icon": "🧶",
+   "lat": 31.6233,
+   "lng": -7.9823,
+   "desc": "Museo Nacional del Tejido y la Alfombra en un palacio del XIX."
+  },
+  {
+   "id": "w_mar_sidi_bel_abbes",
+   "cat": "monuments",
+   "name": "Zaouía de Sidi Bel Abbés",
+   "icon": "☪️",
+   "lat": 31.6371,
+   "lng": -7.9923,
+   "desc": "Santuario del patrón de la ciudad y sus siete santos."
+  },
+  {
+   "id": "w_mar_maison_photographie",
+   "cat": "ocio",
+   "name": "Maison de la Photographie",
+   "icon": "📷",
+   "lat": 31.6334,
+   "lng": -7.9847,
+   "desc": "Fotografía histórica de Marruecos en un riad restaurado."
+  },
+  {
+   "id": "w_mar_tanneries",
+   "cat": "ocio",
+   "name": "Curtidurías (tenerías)",
+   "icon": "🎨",
+   "lat": 31.6358,
+   "lng": -7.9788,
+   "desc": "Los pozos de tinte donde se cura el cuero a mano."
+  },
+  {
+   "id": "w_mar_rahba_kedima",
+   "cat": "ocio",
+   "name": "Rahba Kedima (Plaza de las Especias)",
+   "icon": "🧺",
+   "lat": 31.6296,
+   "lng": -7.9883,
+   "desc": "Plaza-mercado de especias, cestería y remedios bereberes."
+  },
+  {
+   "id": "w_mar_cyber_parc",
+   "cat": "nature",
+   "name": "Cyberparc Arsat Moulay Abdeslam",
+   "icon": "🌳",
+   "lat": 31.6268,
+   "lng": -7.9956,
+   "desc": "Jardín histórico entre Koutoubia y Gueliz."
+  },
+  {
+   "id": "w_mar_agdal",
+   "cat": "nature",
+   "name": "Jardines de Agdal",
+   "icon": "🍊",
+   "lat": 31.6056,
+   "lng": -7.9833,
+   "desc": "Enorme huerto real almohade con estanques históricos."
+  },
+  {
+   "id": "w_mar_nomad",
+   "cat": "food",
+   "name": "Nomad",
+   "icon": "🍽️",
+   "lat": 31.6295,
+   "lng": -7.9883,
+   "desc": "Cocina marroquí moderna en una azotea sobre el zoco."
+  },
+  {
+   "id": "w_mar_cafe_des_epices",
+   "cat": "food",
+   "name": "Café des Épices",
+   "icon": "☕",
+   "lat": 31.6297,
+   "lng": -7.9884,
+   "desc": "Café con encanto en la plaza de las especias."
+  },
+  {
+   "id": "w_mar_le_jardin",
+   "cat": "food",
+   "name": "Le Jardin",
+   "icon": "🌱",
+   "lat": 31.6309,
+   "lng": -7.9896,
+   "desc": "Restaurante-jardín verde y fresco escondido en el zoco."
+  },
+  {
+   "id": "w_mar_dar_yacout",
+   "cat": "food",
+   "name": "Dar Yacout",
+   "icon": "🕯️",
+   "lat": 31.6356,
+   "lng": -7.9949,
+   "desc": "Cena marroquí de gala en un palacio de la medina."
+  },
+  {
+   "id": "w_mar_amal",
+   "cat": "food",
+   "name": "Amal Center",
+   "icon": "🥘",
+   "lat": 31.6333,
+   "lng": -8.012,
+   "desc": "Restaurante solidario de cocina casera marroquí en Gueliz."
+  },
+  {
+   "id": "w_mar_food_stalls",
+   "cat": "food",
+   "name": "Puestos de comida de Jemaa el-Fna",
+   "icon": "🍢",
+   "lat": 31.6256,
+   "lng": -7.9891,
+   "desc": "El gran mercado nocturno de comida callejera de la plaza."
+  }
+ ],
+ "extra": {
+  "w_mar_jemaa_el_fna": {
+   "id": "w_mar_jemaa_el_fna",
+   "d": "La gran plaza de Marrakech es un espectáculo permanente: encantadores de serpientes y aguadores de día, y al caer la tarde puestos de comida humeantes, músicos gnawa, cuentacuentos y acróbatas que la convierten en un teatro al aire libre. Es el punto de partida ideal para adentrarse en los zocos.",
+   "d_en": "Marrakech's great square is a nonstop spectacle: snake charmers and water sellers by day, and at dusk smoking food stalls, Gnawa musicians, storytellers and acrobats turn it into an open-air theatre. It is the perfect gateway into the souks.",
+   "h": "Reconocida por la UNESCO como Obra Maestra del Patrimonio Oral e Inmaterial de la Humanidad en 2001.",
+   "h_en": "Recognised by UNESCO as a Masterpiece of the Oral and Intangible Heritage of Humanity in 2001.",
+   "i": "Sube a una de las terrazas-café del borde para fotografiar la plaza al atardecer; vigila tus pertenencias entre la multitud.",
+   "i_en": "Head to one of the rooftop cafes along the edge to photograph the square at sunset; watch your belongings in the crowd."
+  },
+  "w_mar_koutoubia": {
+   "id": "w_mar_koutoubia",
+   "d": "La mezquita de los libreros es el monumento más alto de Marrakech, con un minarete de 77 metros que inspiró a la Giralda de Sevilla y a la Torre Hassan de Rabat. Rodeada de jardines y palmeras, su silueta domina el skyline de la ciudad roja.",
+   "d_en": "The Booksellers' Mosque is Marrakech's tallest monument, its 77-metre minaret inspiring Seville's Giralda and Rabat's Hassan Tower. Surrounded by gardens and palms, its silhouette dominates the red city's skyline.",
+   "h": "Su nombre viene de los vendedores de manuscritos (kutubiyyin) que ocupaban sus alrededores en la Edad Media.",
+   "h_en": "Its name comes from the manuscript sellers (kutubiyyin) who filled the surrounding area in the Middle Ages.",
+   "i": "El interior está reservado a los fieles musulmanes, pero puedes recorrer los jardines contiguos y fotografiarla iluminada de noche.",
+   "i_en": "The interior is reserved for Muslim worshippers, but you can walk the adjoining gardens and photograph it floodlit at night."
+  },
+  "w_mar_bahia": {
+   "id": "w_mar_bahia",
+   "d": "Construido para el gran visir Ba Ahmed, el palacio de 'la bella' despliega 8 hectáreas de patios de mármol, jardines de naranjos, estucos tallados y techos de cedro pintado. Es el mejor ejemplo del refinamiento de la arquitectura marroquí de finales del siglo XIX.",
+   "d_en": "Built for grand vizier Ba Ahmed, the palace of 'the beautiful' unfolds across 8 hectares of marble courtyards, orange-tree gardens, carved stucco and painted cedar ceilings. It is the finest example of refined late-19th-century Moroccan architecture.",
+   "h": "Tras la muerte de Ba Ahmed, el sultán saqueó el palacio; hoy conserva su esplendor decorativo restaurado.",
+   "h_en": "After Ba Ahmed's death the sultan looted the palace; today its decorative splendour has been restored.",
+   "i": "Ve temprano para evitar los grupos; el patio de honor y sus zellige lucen mejor con luz de mañana.",
+   "i_en": "Go early to beat the tour groups; the grand courtyard and its zellige tilework look best in morning light."
+  },
+  "w_mar_saadian_tombs": {
+   "id": "w_mar_saadian_tombs",
+   "d": "Necrópolis real de la dinastía saadí, cerrada y olvidada durante siglos hasta que la aviación francesa la localizó en 1917. La Sala de las Doce Columnas, con mármol de Carrara, mocárabes dorados y zellige, guarda la tumba del sultán Ahmad al-Mansur en un jardín silencioso.",
+   "d_en": "Royal necropolis of the Saadian dynasty, sealed and forgotten for centuries until French aerial surveys located it in 1917. The Hall of Twelve Columns, with Carrara marble, gilded muqarnas and zellige, holds the tomb of sultan Ahmad al-Mansur in a quiet garden.",
+   "h": "El sultán alauí Moulay Ismail tapió el recinto en lugar de destruir la obra de sus rivales, preservándola sin querer.",
+   "h_en": "Alaouite sultan Moulay Ismail walled up the site rather than destroy his rivals' work, unwittingly preserving it.",
+   "i": "El recinto es pequeño y se forman colas; llega a la apertura para ver la sala principal sin agobios.",
+   "i_en": "The site is small and queues form; arrive at opening to see the main chamber without the crush."
+  },
+  "w_mar_ben_youssef": {
+   "id": "w_mar_ben_youssef",
+   "d": "Fundada en el siglo XIV y ampliada por los saadíes, esta madrasa albergó a cientos de estudiantes en sus pequeñas celdas alrededor de un patio central con estanque. Sus muros combinan zellige, estucos calados y madera de cedro tallada en una explosión de geometría islámica.",
+   "d_en": "Founded in the 14th century and expanded by the Saadians, this madrasa once housed hundreds of students in tiny cells around a central courtyard and reflecting pool. Its walls fuse zellige, carved stucco and cedar wood in an explosion of Islamic geometry.",
+   "h": "Fue una de las mayores instituciones de enseñanza teológica del norte de África hasta su cierre en 1960.",
+   "h_en": "It was one of North Africa's largest theological teaching institutions until it closed in 1960.",
+   "i": "Reabrió en 2022 tras una larga restauración; sube a las celdas del piso superior para ver el patio desde arriba.",
+   "i_en": "It reopened in 2022 after a long restoration; climb to the upper-floor cells for a view over the courtyard."
+  },
+  "w_mar_el_badi": {
+   "id": "w_mar_el_badi",
+   "d": "Levantado por Ahmad al-Mansur en el siglo XVI con oro de Sudán y mármol italiano, El Badi fue uno de los palacios más lujosos de su tiempo. Hoy quedan sus enormes muros de adobe, estanques y jardines hundidos donde anidan las cigüeñas, un escenario espectacular al atardecer.",
+   "d_en": "Raised by Ahmad al-Mansur in the 16th century with Sudanese gold and Italian marble, El Badi was one of the most lavish palaces of its age. Today its huge pisé walls, pools and sunken gardens remain, home to nesting storks and stunning at sunset.",
+   "h": "Fue desmantelado por Moulay Ismail para construir su capital en Meknés; su nombre significa 'el incomparable'.",
+   "h_en": "It was stripped by Moulay Ismail to build his capital in Meknes; its name means 'the incomparable'.",
+   "i": "Sube a las terrazas para ver los nidos de cigüeñas y una panorámica de la medina y el Atlas.",
+   "i_en": "Climb to the terraces for stork nests and a panorama of the medina and the Atlas mountains."
+  },
+  "w_mar_zocos": {
+   "id": "w_mar_zocos",
+   "d": "Al norte de Jemaa el-Fna se extiende un dédalo de zocos organizados por oficios: Semmarine para telas y babuchas, Haddadine para el hierro, los tintoreros con madejas de lana colgadas, los curtidores... Un festín de colores, olores y regateo que es la esencia comercial de la ciudad.",
+   "d_en": "North of Jemaa el-Fna sprawls a maze of souks organised by trade: Semmarine for fabrics and slippers, Haddadine for ironwork, the dyers with hanging skeins of wool, the tanners... A feast of colour, scent and bargaining that is the city's commercial soul.",
+   "h": "Cada gremio ha ocupado su calle durante siglos, un sistema medieval que aún estructura la medina.",
+   "h_en": "Each guild has occupied its own street for centuries, a medieval system that still shapes the medina.",
+   "i": "Descarga un mapa offline: es fácil perderse. Fija un precio antes de aceptar un té con el vendedor.",
+   "i_en": "Download an offline map: it is easy to get lost. Agree a price before accepting a shopkeeper's tea."
+  },
+  "w_mar_majorelle": {
+   "id": "w_mar_majorelle",
+   "d": "Creado por el pintor Jacques Majorelle en los años 20 y salvado por Yves Saint Laurent y Pierre Bergé en 1980, este jardín botánico deslumbra con su villa art déco pintada del intenso 'azul Majorelle', bambúes, cactus, palmeras y estanques con nenúfares. Un oasis de calma frente al bullicio de la medina.",
+   "d_en": "Created by painter Jacques Majorelle in the 1920s and saved by Yves Saint Laurent and Pierre Bergé in 1980, this botanical garden dazzles with its art-deco villa painted in intense 'Majorelle blue', bamboo, cacti, palms and lily ponds. An oasis of calm away from the medina's bustle.",
+   "h": "Alberga el Museo Bereber y un memorial a Yves Saint Laurent, cuyas cenizas se esparcieron aquí.",
+   "h_en": "It houses the Berber Museum and a memorial to Yves Saint Laurent, whose ashes were scattered here.",
+   "i": "Compra la entrada online y ve a primera hora: es muy popular y las colas al mediodía son largas.",
+   "i_en": "Buy tickets online and go at opening: it is very popular and midday queues are long."
+  },
+  "w_mar_ysl_museum": {
+   "id": "w_mar_ysl_museum",
+   "d": "Inaugurado en 2017 junto al Jardín Majorelle, este edificio de ladrillo con fachada de encaje diseñado por Studio KO expone una rotación de las creaciones de Yves Saint Laurent, junto a una biblioteca, un auditorio y una cafetería. Un homenaje a la ciudad que fue su segunda casa e inspiración.",
+   "d_en": "Opened in 2017 beside the Majorelle Garden, this brick building with a lace-like facade designed by Studio KO displays a rotation of Yves Saint Laurent's creations alongside a library, auditorium and cafe. A tribute to the city that was his second home and inspiration.",
+   "h": "Marrakech marcó la paleta y los estampados de muchas colecciones de YSL desde su primera visita en 1966.",
+   "h_en": "Marrakech shaped the palette and prints of many YSL collections from his first visit in 1966.",
+   "i": "La entrada combinada con el Jardín Majorelle sale más a cuenta; el museo suele estar menos concurrido.",
+   "i_en": "A combined ticket with the Majorelle Garden is better value; the museum is usually less crowded."
+  },
+  "w_mar_jardin_secret": {
+   "id": "w_mar_jardin_secret",
+   "d": "Oculto tras un muro de la medina, este riad-palacio del siglo XIX abrió al público en 2016 tras su restauración. Combina un jardín islámico de plantas exóticas y otro con especies mediterráneas, alimentados por el antiguo sistema hidráulico khettara, más una torre con vistas sobre los tejados.",
+   "d_en": "Hidden behind a medina wall, this 19th-century riad-palace opened to the public in 2016 after restoration. It pairs an Islamic garden of exotic plants with a Mediterranean-species garden, fed by the ancient khettara water system, plus a tower with rooftop views.",
+   "h": "Su sistema de riego khettara sigue funcionando por gravedad desde el Atlas, como hace siglos.",
+   "h_en": "Its khettara irrigation system still runs by gravity from the Atlas, as it has for centuries.",
+   "i": "Sube a la torre para una de las mejores panorámicas de la medina; el café del patio es un buen respiro.",
+   "i_en": "Climb the tower for one of the best medina panoramas; the courtyard cafe is a good break."
+  },
+  "w_mar_menara": {
+   "id": "w_mar_menara",
+   "d": "Creados por los almohades en el siglo XII, estos extensos olivares se organizan en torno a un enorme estanque de riego con un elegante pabellón saadí reflejado en el agua. Con el Atlas nevado de fondo, forman una de las estampas más clásicas y serenas de Marrakech.",
+   "d_en": "Laid out by the Almohads in the 12th century, these vast olive groves surround a huge irrigation basin with an elegant Saadian pavilion mirrored in the water. With the snow-capped Atlas behind, they form one of Marrakech's most classic, serene views.",
+   "h": "El estanque se alimenta de un sistema hidráulico de canales del Atlas que tiene más de 700 años.",
+   "h_en": "The basin is fed by an Atlas canal system that is more than 700 years old.",
+   "i": "Está a las afueras: ve en taxi al atardecer para ver el pabellón reflejado con las montañas al fondo.",
+   "i_en": "It is on the outskirts: take a taxi at sunset to see the pavilion reflected with the mountains behind."
+  },
+  "w_mar_palmeraie": {
+   "id": "w_mar_palmeraie",
+   "d": "Este palmeral histórico, plantado según la leyenda con los huesos de dátiles de las tropas almorávides, cuenta con cientos de miles de palmeras regadas por un ingenioso sistema de pozos y canales. Hoy alterna zonas semidesérticas con lujosos hoteles y es el lugar clásico para paseos en dromedario o quad.",
+   "d_en": "This historic palm grove, legend says planted from the date stones of Almoravid troops, holds hundreds of thousands of palms watered by an ingenious well-and-canal system. Today it mixes semi-desert stretches with luxury hotels and is the classic spot for camel or quad-bike rides.",
+   "h": "La leyenda atribuye su origen a los dátiles que comían los soldados almorávides fundadores de la ciudad.",
+   "h_en": "Legend traces its origin to the dates eaten by the Almoravid soldiers who founded the city.",
+   "i": "Contrata la excursión en dromedario con una agencia seria y acuerda el precio antes; evita los tramos junto a la carretera.",
+   "i_en": "Book the camel ride with a reputable agency and agree the price first; skip the roadside stretches."
+  },
+  "w_mar_murallas": {
+   "id": "w_mar_murallas",
+   "d": "Las murallas de tapial rojo que rodean la medina, con casi 19 kilómetros y numerosas puertas (bab), datan del siglo XII. La más bella es Bab Agnaou, entrada de la kasbah real, con arcos concéntricos de piedra tallada y una inscripción coránica que la enmarca como una filigrana en piedra.",
+   "d_en": "The red pisé ramparts encircling the medina, nearly 19 kilometres long with numerous gates (bab), date from the 12th century. The finest is Bab Agnaou, the royal kasbah's entrance, with concentric carved-stone arches and a Quranic inscription framing it like stone filigree.",
+   "h": "El característico color rojo del tapial dio a Marrakech el sobrenombre de 'la ciudad roja'.",
+   "h_en": "The pisé's distinctive red hue earned Marrakech the nickname 'the red city'.",
+   "i": "Recorre un tramo al atardecer, cuando el barro rojo se enciende; una calesa permite verlas sin caminar bajo el sol.",
+   "i_en": "Walk a stretch at sunset, when the red earth glows; a horse-drawn caleche lets you see them without walking in the sun."
+  },
+  "w_mar_mellah": {
+   "id": "w_mar_mellah",
+   "d": "Fundado en 1558, el Mellah fue uno de los mayores barrios judíos de Marruecos, un laberinto de callejuelas con balcones volados poco habituales en la medina. Conserva la sinagoga Slat al-Azama, el gran cementerio judío (Miâara) y un bullicioso mercado de especias y joyería.",
+   "d_en": "Founded in 1558, the Mellah was one of Morocco's largest Jewish quarters, a maze of alleys with overhanging balconies rarely seen elsewhere in the medina. It preserves the Slat al-Azama synagogue, the large Jewish cemetery (Miâara) and a lively spice and jewellery market.",
+   "h": "En su apogeo concentró a comerciantes y joyeros judíos bajo la protección directa del sultán.",
+   "h_en": "At its peak it concentrated Jewish merchants and jewellers under the sultan's direct protection.",
+   "i": "La sinagoga y el cementerio se pueden visitar; viste con discreción y respeta los horarios religiosos.",
+   "i_en": "The synagogue and cemetery can be visited; dress modestly and respect religious hours."
+  },
+  "w_mar_koubba_almoravide": {
+   "id": "w_mar_koubba_almoravide",
+   "d": "Este pequeño pabellón de abluciones del siglo XII (Qubba Ba'adiyin) es la única obra almorávide intacta de Marrakech. Bajo su modesta cúpula se esconde una decoración interior asombrosa: arcos polilobulados, motivos vegetales y una bóveda que anticipa todo el arte hispanomusulmán posterior.",
+   "d_en": "This small 12th-century ablutions pavilion (Qubba Ba'adiyin) is Marrakech's only intact Almoravid work. Beneath its modest dome hides astonishing interior decoration: polylobed arches, vegetal motifs and a vault that foreshadows all later Hispano-Moorish art.",
+   "h": "Estuvo enterrada bajo edificios posteriores y no se redescubrió hasta 1948.",
+   "h_en": "It lay buried beneath later buildings and was not rediscovered until 1948.",
+   "i": "Está junto al Museo de Marrakech; combina ambas visitas ya que quedan a pocos metros.",
+   "i_en": "It sits beside the Marrakech Museum; combine both visits as they are only metres apart."
+  },
+  "w_mar_museo_marrakech": {
+   "id": "w_mar_museo_marrakech",
+   "d": "Instalado en el suntuoso palacio Dar Menebhi de finales del siglo XIX, el museo exhibe arte marroquí, caligrafía, cerámica y textiles en torno a un patio central cubierto por una espectacular lámpara de latón. El propio edificio, con su hammam y sus estucos, es la mejor pieza de la colección.",
+   "d_en": "Housed in the sumptuous late-19th-century Dar Menebhi palace, the museum shows Moroccan art, calligraphy, ceramics and textiles around a central courtyard crowned by a spectacular brass chandelier. The building itself, with its hammam and stucco, is the finest exhibit.",
+   "h": "Fue residencia de Mehdi Menebhi, ministro de Defensa del sultán a principios del siglo XX.",
+   "h_en": "It was the residence of Mehdi Menebhi, the sultan's defence minister in the early 20th century.",
+   "i": "El patio central es perfecto para fotos; entra en el antiguo hammam, hoy sala de exposición.",
+   "i_en": "The central courtyard is perfect for photos; step into the old hammam, now an exhibition room."
+  },
+  "w_mar_kasbah_mosque": {
+   "id": "w_mar_kasbah_mosque",
+   "d": "También llamada mezquita de Moulay al-Yazid, esta mezquita del siglo XII presidía la kasbah real almohade. Su minarete de ladrillo, decorado con paños de rombos verdes y blancos, es uno de los más bellos de la ciudad y marca la entrada al recinto de las Tumbas Saadíes.",
+   "d_en": "Also called the Moulay al-Yazid mosque, this 12th-century mosque presided over the Almohad royal kasbah. Its brick minaret, decorated with green-and-white diamond panels, is one of the loveliest in the city and marks the way into the Saadian Tombs.",
+   "h": "Fue mandada construir por el califa almohade Yaqub al-Mansur en el siglo XII.",
+   "h_en": "It was commissioned by the Almohad caliph Yaqub al-Mansur in the 12th century.",
+   "i": "El interior es solo para fieles, pero el minarete y la plaza de Bab Agnaou merecen una foto de camino a las tumbas.",
+   "i_en": "The interior is for worshippers only, but the minaret and Bab Agnaou square are worth a photo on the way to the tombs."
+  },
+  "w_mar_dar_si_said": {
+   "id": "w_mar_dar_si_said",
+   "d": "Este elegante palacio, hermano del Bahía, alberga el Museo Nacional del Tejido y la Alfombra. Entre sus salones con techos pintados y su jardín andalusí se exponen kilims y alfombras bereberes de todas las regiones de Marruecos, una lección de simbología tribal y color.",
+   "d_en": "This elegant palace, sibling to the Bahia, houses the National Weaving and Carpet Museum. Among its painted-ceiling salons and Andalusian garden are displayed Berber kilims and rugs from every region of Morocco, a lesson in tribal symbolism and colour.",
+   "h": "Lo mandó construir Si Said, hermano del visir Ba Ahmed, promotor del vecino Palacio Bahía.",
+   "h_en": "It was built by Si Said, brother of vizier Ba Ahmed, patron of the neighbouring Bahia Palace.",
+   "i": "Ideal si vas a comprar alfombras: aprenderás a distinguir regiones y calidades antes de regatear en el zoco.",
+   "i_en": "Ideal before buying rugs: you will learn to tell regions and qualities apart before haggling in the souk."
+  },
+  "w_mar_sidi_bel_abbes": {
+   "id": "w_mar_sidi_bel_abbes",
+   "d": "Complejo religioso dedicado a Sidi Bel Abbés, el más venerado de los siete santos patronos de Marrakech y protector de los ciegos. La zaouía, con su mezquita, medersa y patios, es un activo centro de peregrinación y caridad en el norte de la medina.",
+   "d_en": "Religious complex dedicated to Sidi Bel Abbes, the most revered of Marrakech's seven patron saints and protector of the blind. The zaouia, with its mosque, medersa and courtyards, is an active centre of pilgrimage and charity in the northern medina.",
+   "h": "Forma parte de la ruta de los Siete Santos, una peregrinación instituida en el siglo XVII.",
+   "h_en": "It is part of the Seven Saints route, a pilgrimage established in the 17th century.",
+   "i": "El interior está reservado a musulmanes, pero la puerta monumental y el ambiente del barrio merecen el paseo.",
+   "i_en": "The interior is reserved for Muslims, but the monumental gate and the neighbourhood's atmosphere are worth the walk."
+  },
+  "w_mar_maison_photographie": {
+   "id": "w_mar_maison_photographie",
+   "d": "Este riad de tres plantas reúne una colección de miles de fotografías, postales y placas de vidrio de Marruecos entre 1870 y 1960, con retratos bereberes, escenas de medinas y paisajes del Atlas. Su terraza-café ofrece una de las mejores vistas de los tejados de la medina.",
+   "d_en": "This three-storey riad gathers a collection of thousands of photographs, postcards and glass plates of Morocco from 1870 to 1960, with Berber portraits, medina scenes and Atlas landscapes. Its rooftop cafe offers one of the best views over the medina's roofs.",
+   "h": "Muchas de las imágenes documentan tradiciones y trajes que ya casi han desaparecido.",
+   "h_en": "Many of the images document traditions and costumes that have all but disappeared.",
+   "i": "Sube a la terraza a tomar un té con vistas; está cerca de la Madrasa Ben Youssef.",
+   "i_en": "Head up to the rooftop for tea with a view; it is close to the Ben Youssef Madrasa."
+  },
+  "w_mar_tanneries": {
+   "id": "w_mar_tanneries",
+   "d": "En el barrio de Bab Debbagh, las tenerías tradicionales tratan las pieles con métodos medievales: pozos de cal, palomina y tintes naturales dispuestos como una paleta de acuarela. Un espectáculo visual intenso, tan colorido como oloroso, que revela el origen de las babuchas y bolsos de los zocos.",
+   "d_en": "In the Bab Debbagh district, traditional tanneries treat hides with medieval methods: pits of lime, pigeon droppings and natural dyes laid out like a watercolour palette. An intense visual spectacle, as colourful as it is pungent, revealing where the souks' slippers and bags begin.",
+   "h": "El curtido con estos métodos naturales se practica en Marrakech desde hace más de ocho siglos.",
+   "h_en": "Tanning with these natural methods has been practised in Marrakech for over eight centuries.",
+   "i": "Acepta la ramita de menta que te ofrecen para el olor; acuerda cualquier 'propina de guía' por adelantado.",
+   "i_en": "Take the sprig of mint offered for the smell; agree any 'guide tip' up front."
+  },
+  "w_mar_rahba_kedima": {
+   "id": "w_mar_rahba_kedima",
+   "d": "Antiguamente mercado de grano y de esclavos, esta plaza escalonada del corazón del zoco es hoy un mosaico de puestos de especias piramidales, hierbas medicinales, cestas, sombreros de paja y curiosos remedios de la 'farmacia bereber'. Sus terrazas-café son un mirador perfecto sobre el trajín.",
+   "d_en": "Once a grain and slave market, this stepped square in the heart of the souk is now a mosaic of pyramid-piled spice stalls, medicinal herbs, baskets, straw hats and curious 'Berber pharmacy' remedies. Its rooftop cafes are a perfect vantage over the bustle.",
+   "h": "Su nombre significa 'plaza vieja' y fue durante siglos uno de los mercados más importantes de la ciudad.",
+   "h_en": "Its name means 'old square' and it was for centuries one of the city's most important markets.",
+   "i": "Pregunta el precio por peso antes de comprar azafrán; sube a una terraza para fotografiar los montones de especias.",
+   "i_en": "Ask the price by weight before buying saffron; climb to a rooftop to photograph the spice mounds."
+  },
+  "w_mar_cyber_parc": {
+   "id": "w_mar_cyber_parc",
+   "d": "Este jardín del siglo XVIII, uno de los más antiguos de la ciudad, fue restaurado como parque público con senderos sombreados, olivos, palmeras, cítricos y un ingenioso sistema de riego tradicional. Ofrece un remanso verde y gratuito justo entre la medina y el barrio nuevo de Gueliz.",
+   "d_en": "This 18th-century garden, one of the oldest in the city, was restored as a public park with shaded paths, olive trees, palms, citrus and an ingenious traditional irrigation system. It offers a free, green haven right between the medina and the new Gueliz district.",
+   "h": "Perteneció a un príncipe saadí y conserva parte de sus antiguas canalizaciones khettara.",
+   "h_en": "It belonged to a Saadian prince and preserves part of its old khettara channels.",
+   "i": "Entrada gratuita y buena sombra al mediodía; un atajo agradable para ir andando de la medina a Gueliz.",
+   "i_en": "Free entry and good midday shade; a pleasant shortcut for walking from the medina to Gueliz."
+  },
+  "w_mar_agdal": {
+   "id": "w_mar_agdal",
+   "d": "Al sur del palacio real se extiende este inmenso vergel del siglo XII, con kilómetros de naranjos, olivos, granados y albaricoqueros regados por grandes estanques como el Sahraj el-Hana. Declarado Patrimonio de la Humanidad junto a la medina, es un raro ejemplo de jardín agrícola imperial.",
+   "d_en": "South of the royal palace stretches this immense 12th-century orchard, with kilometres of orange, olive, pomegranate and apricot trees watered by great basins such as the Sahraj el-Hana. Listed as World Heritage with the medina, it is a rare example of an imperial agricultural garden.",
+   "h": "Sus estanques servían para el riego y también para el entrenamiento de la corte en pequeñas barcas.",
+   "h_en": "Its basins served for irrigation and also for the court to practise in small boats.",
+   "i": "Abre de forma irregular según usos oficiales; confirma el acceso antes de acercarte y ve con calzado cómodo.",
+   "i_en": "Opening is irregular due to official use; confirm access before going and wear comfortable shoes."
+  },
+  "w_mar_nomad": {
+   "id": "w_mar_nomad",
+   "d": "Uno de los restaurantes que renovó la escena gastronómica de la medina, Nomad reinterpreta los clásicos marroquíes con un toque ligero y contemporáneo. Sus terrazas escalonadas sobre la plaza de las especias son un lugar ideal para cenar al atardecer con vistas a los tejados.",
+   "d_en": "One of the restaurants that revived the medina's dining scene, Nomad reinterprets Moroccan classics with a light, contemporary touch. Its stepped terraces above the spice square are an ideal place to dine at sunset overlooking the rooftops.",
+   "h": "Abrió en 2014 y ayudó a popularizar la moda de las azoteas-restaurante en la medina.",
+   "h_en": "It opened in 2014 and helped popularise the rooftop-restaurant trend in the medina.",
+   "i": "Reserva mesa para el atardecer; la terraza superior es la que tiene las mejores vistas.",
+   "i_en": "Book a table for sunset; the top terrace has the best views."
+  },
+  "w_mar_cafe_des_epices": {
+   "id": "w_mar_cafe_des_epices",
+   "d": "Un clásico acogedor asomado a la Rahba Kedima, perfecto para una pausa entre compras en el zoco. Sirve zumos, ensaladas, bocadillos y platos ligeros marroquíes, con una terraza superior desde la que se contempla el ir y venir del mercado de especias.",
+   "d_en": "A cosy classic overlooking the Rahba Kedima, perfect for a break between souk purchases. It serves juices, salads, sandwiches and light Moroccan dishes, with an upper terrace looking over the comings and goings of the spice market.",
+   "h": "Fue uno de los primeros cafés modernos en abrirse un hueco entre los puestos tradicionales del zoco.",
+   "h_en": "It was one of the first modern cafes to carve out a place among the souk's traditional stalls.",
+   "i": "Buen sitio para reponer fuerzas y usar el wifi; el zumo de naranja recién exprimido es un acierto seguro.",
+   "i_en": "A good spot to recharge and use the wifi; the freshly squeezed orange juice is a safe bet."
+  },
+  "w_mar_le_jardin": {
+   "id": "w_mar_le_jardin",
+   "d": "Tras una puerta discreta del zoco se abre un exuberante patio pintado de verde, con plataneros, tortugas y sombra generosa. Le Jardin sirve cocina marroquí e internacional en un ambiente relajado que funciona como oasis a media jornada de recorrido por la medina.",
+   "d_en": "Behind a discreet souk doorway opens a lush, green-painted courtyard with banana trees, tortoises and generous shade. Le Jardin serves Moroccan and international dishes in a relaxed setting that works as an oasis midway through a medina walk.",
+   "h": "Ocupa una casa del siglo XVII rehabilitada por el diseñador Anouar Bouhout.",
+   "h_en": "It occupies a 17th-century house restored by designer Anouar Bouhout.",
+   "i": "Perfecto para comer a mediodía y escapar del calor; también sirve tés y postres por la tarde.",
+   "i_en": "Perfect for lunch and escaping the heat; it also serves teas and desserts in the afternoon."
+  },
+  "w_mar_dar_yacout": {
+   "id": "w_mar_dar_yacout",
+   "d": "Institución de la alta cocina marroquí, Dar Yacout ofrece un menú-degustación de varios platos en un palacio suntuoso de salones tallados, patios con fuentes y una azotea iluminada con velas. Una experiencia gastronómica y escénica que evoca las Mil y una noches.",
+   "d_en": "An institution of high Moroccan cuisine, Dar Yacout offers a multi-course tasting menu in a sumptuous palace of carved salons, fountain courtyards and a candlelit rooftop. A dining and stage experience evoking the Thousand and One Nights.",
+   "h": "El palacio fue decorado por el diseñador estadounidense Bill Willis, referente del estilo marroquí de lujo.",
+   "h_en": "The palace was decorated by American designer Bill Willis, a reference of luxury Moroccan style.",
+   "i": "Reserva con antelación y ve con tiempo: la cena es un ritual largo. El taxi te deja en la puerta más cercana de la medina.",
+   "i_en": "Book ahead and allow plenty of time: dinner is a long ritual. A taxi drops you at the nearest medina gate."
+  },
+  "w_mar_amal": {
+   "id": "w_mar_amal",
+   "d": "Este centro sin ánimo de lucro forma y da empleo a mujeres en situación vulnerable a través de la cocina. Sirve platos caseros marroquíes que cambian a diario (tajines, cuscús de los viernes, pastela) en un patio sencillo y luminoso, con precios muy razonables y un fin social.",
+   "d_en": "This non-profit centre trains and employs vulnerable women through cooking. It serves daily-changing Moroccan home dishes (tagines, Friday couscous, pastilla) in a simple, bright courtyard, at very reasonable prices and for a social cause.",
+   "h": "También imparte clases de cocina marroquí impartidas por las propias mujeres del centro.",
+   "h_en": "It also runs Moroccan cooking classes taught by the centre's own women.",
+   "i": "El cuscús de los viernes es el plato estrella; llega pronto para comer, ya que cierra por la tarde.",
+   "i_en": "Friday couscous is the star dish; arrive early for lunch as it closes in the afternoon."
+  },
+  "w_mar_food_stalls": {
+   "id": "w_mar_food_stalls",
+   "d": "Al anochecer, decenas de puestos numerados montan cocinas humeantes en plena Jemaa el-Fna: brochetas, tajines, caracoles en caldo, pescado frito, cabeza de cordero y el clásico bol de harira. Comer en sus bancos corridos, entre humo y luces, es una de las experiencias más auténticas de Marrakech.",
+   "d_en": "At dusk, dozens of numbered stalls set up smoking kitchens right on Jemaa el-Fna: skewers, tagines, snails in broth, fried fish, sheep's head and the classic bowl of harira. Eating at their long benches, amid smoke and lights, is one of Marrakech's most authentic experiences.",
+   "h": "El mercado nocturno de comida forma parte del ambiente que dio a la plaza su reconocimiento por la UNESCO.",
+   "h_en": "The nightly food market is part of the atmosphere that earned the square its UNESCO recognition.",
+   "i": "Elige puestos concurridos por locales para más frescura; confirma el precio antes y desconfía de la 'comida gratis' inicial.",
+   "i_en": "Pick stalls busy with locals for freshness; confirm the price first and be wary of the initial 'free' dishes."
+  }
+ },
+ "food": {
+  "w_mar_nomad": {
+   "cuisine": "Marroquí moderna",
+   "price": "15–30 €",
+   "hours": "12:00–23:00"
+  },
+  "w_mar_cafe_des_epices": {
+   "cuisine": "Café y cocina marroquí ligera",
+   "price": "8–18 €",
+   "hours": "09:00–23:00"
+  },
+  "w_mar_le_jardin": {
+   "cuisine": "Marroquí e internacional",
+   "price": "12–25 €",
+   "hours": "12:00–22:00"
+  },
+  "w_mar_dar_yacout": {
+   "cuisine": "Marroquí tradicional de alta cocina",
+   "price": "45–70 €",
+   "hours": "20:00–23:30"
+  },
+  "w_mar_amal": {
+   "cuisine": "Casera marroquí",
+   "price": "6–12 €",
+   "hours": "12:00–16:00"
+  },
+  "w_mar_food_stalls": {
+   "cuisine": "Callejera marroquí",
+   "price": "4–12 €",
+   "hours": "18:00–01:00"
+  }
+ },
+ "souvenirs": [
+  {
+   "city": "Marrakech",
+   "items": [
+    {
+     "name": "Babuchas de cuero",
+     "price": "10–30 €",
+     "desc": "Zapatillas de piel teñida y cosida a mano, en decenas de colores."
+    },
+    {
+     "name": "Lámpara de metal calado",
+     "price": "15–90 €",
+     "desc": "Farol de latón o hierro perforado con cristales de colores que proyecta filigranas de luz."
+    },
+    {
+     "name": "Aceite de argán",
+     "price": "8–25 €",
+     "desc": "Aceite cosmético o culinario elaborado por cooperativas de mujeres bereberes."
+    },
+    {
+     "name": "Alfombra o kilim bereber",
+     "price": "80–500 €",
+     "desc": "Tejidos de lana anudados a mano con motivos tribales del Atlas."
+    },
+    {
+     "name": "Cerámica vidriada",
+     "price": "5–40 €",
+     "desc": "Platos, cuencos y tajines de Safi y Tamegroute con esmaltes verdes y azules."
+    },
+    {
+     "name": "Especias y té",
+     "price": "3–15 €",
+     "desc": "Ras el hanout, azafrán, comino y té verde con menta a granel."
+    },
+    {
+     "name": "Cosmética natural",
+     "price": "5–20 €",
+     "desc": "Jabón negro (beldi), ghassoul y agua de rosas para el hammam."
+    },
+    {
+     "name": "Cuero artesanal",
+     "price": "20–130 €",
+     "desc": "Bolsos, pufs y carteras de piel curtida en las tenerías de la medina."
+    }
+   ],
+   "shops": [
+    "Souk Semmarine (zoco principal)",
+    "Rahba Kedima (plaza de las especias)",
+    "Ensemble Artisanal (precios fijos)",
+    "Souk des Teinturiers (tintoreros)",
+    "Cooperativas de argán en la carretera de Essaouira"
+   ]
+  }
+ ],
+ "tips": {
+  "es": [
+   "Regatea siempre en los zocos: empieza ofreciendo un tercio del primer precio y avanza con calma y buen humor.",
+   "Viste con ropa que cubra hombros y rodillas; es un signo de respeto y evita miradas incómodas, sobre todo cerca de mezquitas.",
+   "Lleva dírhams en efectivo y billetes pequeños: muchos puestos, taxis y stands de comida no aceptan tarjeta.",
+   "Contrata un guía oficial acreditado para recorrer la medina; ignora a los 'falsos guías' que se ofrecen a llevarte a tu riad.",
+   "Evita el sol del mediodía en verano: visita jardines y monumentos a primera hora y reserva la tarde para zocos y terrazas."
+  ],
+  "en": [
+   "Always haggle in the souks: start by offering about a third of the first price and negotiate slowly and with a smile.",
+   "Dress to cover shoulders and knees; it is a sign of respect and avoids awkward stares, especially near mosques.",
+   "Carry cash in dirhams with small notes: many stalls, taxis and food stands do not take cards.",
+   "Hire a licensed official guide to explore the medina and ignore the 'fake guides' who offer to walk you to your riad.",
+   "Avoid the midday sun in summer: visit gardens and monuments early and save the afternoon for souks and rooftop terraces."
+  ]
+ },
+ "climate": {
+  "hi": [
+   19,
+   21,
+   24,
+   26,
+   30,
+   34,
+   38,
+   38,
+   33,
+   28,
+   23,
+   19
+  ],
+  "lo": [
+   6,
+   8,
+   10,
+   12,
+   15,
+   18,
+   21,
+   21,
+   18,
+   15,
+   10,
+   7
+  ]
+ },
+ "tr": {
+  "El corazón vibrante de la medina, Patrimonio de la Humanidad de la UNESCO.": "The vibrant heart of the medina, a UNESCO World Heritage site.",
+  "El minarete almohade del siglo XII, símbolo de la ciudad.": "The 12th-century Almohad minaret, the city's icon.",
+  "Suntuoso palacio del siglo XIX con patios y artesonados.": "A sumptuous 19th-century palace of courtyards and carved ceilings.",
+  "Mausoleos del siglo XVI redescubiertos en 1917.": "16th-century mausoleums rediscovered in 1917.",
+  "La mayor escuela coránica del Magreb, joya de estucos y cedro.": "The Maghreb's largest Quranic school, a jewel of stucco and cedar.",
+  "Las ruinas grandiosas del 'palacio incomparable' saadí.": "The grand ruins of the Saadian 'incomparable palace'.",
+  "Un laberinto de callejones gremiales con artesanía sin fin.": "A labyrinth of guild alleys packed with endless crafts.",
+  "El icónico jardín azul de Yves Saint Laurent.": "Yves Saint Laurent's iconic blue garden.",
+  "Museo de moda dedicado al legado del diseñador.": "Fashion museum devoted to the designer's legacy.",
+  "Jardín-palacio restaurado en pleno corazón de la medina.": "A restored palace garden in the heart of the medina.",
+  "Olivar histórico con un gran estanque y pabellón.": "Historic olive grove with a large basin and pavilion.",
+  "Vasto oasis de palmeras al norte de la ciudad.": "A vast palm oasis north of the city.",
+  "19 km de murallas de adobe y la puerta monumental almohade.": "19 km of pisé ramparts and the monumental Almohad gate.",
+  "Antiguo barrio judío con sinagoga y cementerio histórico.": "Former Jewish quarter with a synagogue and historic cemetery.",
+  "El único monumento almorávide que sobrevive en la ciudad.": "The only surviving Almoravid monument in the city.",
+  "Palacio Dar Menebhi convertido en museo de arte marroquí.": "The Dar Menebhi palace turned Moroccan art museum.",
+  "Mezquita almohade del barrio real, junto a las Tumbas Saadíes.": "Almohad mosque of the royal quarter, beside the Saadian Tombs.",
+  "Museo Nacional del Tejido y la Alfombra en un palacio del XIX.": "National Weaving and Carpet Museum in a 19th-century palace.",
+  "Santuario del patrón de la ciudad y sus siete santos.": "Shrine of the city's patron among its seven saints.",
+  "Fotografía histórica de Marruecos en un riad restaurado.": "Historic Moroccan photography in a restored riad.",
+  "Los pozos de tinte donde se cura el cuero a mano.": "The dye pits where leather is cured by hand.",
+  "Plaza-mercado de especias, cestería y remedios bereberes.": "Market square of spices, basketry and Berber remedies.",
+  "Jardín histórico entre Koutoubia y Gueliz.": "Historic garden between the Koutoubia and Gueliz.",
+  "Enorme huerto real almohade con estanques históricos.": "Vast Almohad royal orchard with historic basins.",
+  "Cocina marroquí moderna en una azotea sobre el zoco.": "Modern Moroccan cooking on a rooftop above the souk.",
+  "Café con encanto en la plaza de las especias.": "A charming cafe on the spice square.",
+  "Restaurante-jardín verde y fresco escondido en el zoco.": "A cool, leafy garden restaurant hidden in the souk.",
+  "Cena marroquí de gala en un palacio de la medina.": "A gala Moroccan dinner in a medina palace.",
+  "Restaurante solidario de cocina casera marroquí en Gueliz.": "A social-enterprise home-cooking restaurant in Gueliz.",
+  "El gran mercado nocturno de comida callejera de la plaza.": "The great nightly street-food market on the square.",
+  "Marrakech": "Marrakech"
+ }
+}
