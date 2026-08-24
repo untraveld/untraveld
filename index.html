@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>untraveld — Viaja, descubre, desbloquea</title>
-<meta name="description" content="untraveld convierte cada viaje en un territorio por descubrir: mapa de lo que tienes al lado, plan del día a tu medida, check-in al llegar y recuerdos compartidos con tu grupo. 14 destinos, 692 puntos curados.">
+<meta name="description" content="untraveld convierte cada viaje en un territorio por descubrir: mapa de lo que tienes al lado, plan del día a tu medida, check-in al llegar y recuerdos compartidos con tu grupo. 114 destinos y 3.459 puntos curados, con España entera provincia a provincia.">
 <meta name="theme-color" content="#C9622F">
 <link rel="icon" href="/favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -23,7 +23,7 @@
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"SoftwareApplication","name":"untraveld",
 "applicationCategory":"TravelApplication","operatingSystem":"Web, iOS, Android",
-"url":"https://untraveld.com/","description":"App de viajes que muestra qué merece la pena a tu alrededor, arma el plan del día y guarda cada sitio al que llegas.",
+"url":"https://untraveld.com/","description":"App de viajes con 114 destinos y 3.459 puntos curados: muestra qué merece la pena a tu alrededor, arma el plan del día y guarda cada sitio al que llegas.",
 "offers":{"@type":"Offer","price":"0","priceCurrency":"EUR"}}
 </script>
 
@@ -203,6 +203,10 @@
   .poi span{font-size:11.5px;font-weight:600;letter-spacing:.05em;color:#241C16;flex:1;
             white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-transform:uppercase}
   .poi em{font-style:normal;font-size:10.5px;color:#9A8E85;font-weight:600;flex:none}
+  #mapPois{transition:opacity .4s}
+  #mapPois.fade{opacity:0}
+  #mapCity{transition:opacity .4s}
+  #mapCity.fade{opacity:0}
   .fab{position:absolute;right:12px;bottom:0;z-index:8;width:44px;height:44px;border-radius:50%;
        background:var(--orange);box-shadow:0 6px 18px rgba(201,98,47,.45);display:flex;align-items:center;
        justify-content:center;color:#fff;font-size:9px;font-weight:800;letter-spacing:.04em}
@@ -306,20 +310,50 @@
   @media(max-width:560px){.feats{grid-template-columns:1fr}}
 
   /* destinos */
-  .dest{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
-  .country{border:1px solid var(--line);border-radius:var(--r);padding:24px;background:#fff;
-           transition:border-color .2s,box-shadow .2s}
-  .country:hover{border-color:var(--line-2);box-shadow:0 10px 26px rgba(26,22,19,.05)}
-  .country-h{display:flex;align-items:baseline;justify-content:space-between;gap:14px;margin-bottom:16px}
-  .country-h h3{font-size:13px;letter-spacing:.16em;text-transform:uppercase;font-weight:700}
-  .country-h small{font-size:10px;letter-spacing:.14em;color:var(--muted);font-weight:700;text-transform:uppercase;flex:none}
+  .dest{display:block}
+  .zone{border:1px solid var(--line);border-radius:var(--r);background:#fff;margin-bottom:12px;overflow:hidden}
+  .zone[open]{border-color:var(--line-2);box-shadow:0 10px 26px rgba(26,22,19,.05)}
+  .zone summary{list-style:none;cursor:pointer;display:flex;align-items:baseline;gap:14px;
+                padding:22px 52px 22px 24px;position:relative}
+  .zone summary::-webkit-details-marker{display:none}
+  .zone summary::after{content:"";position:absolute;right:24px;top:28px;width:9px;height:9px;
+    border-right:1.6px solid var(--orange);border-bottom:1.6px solid var(--orange);
+    transform:rotate(45deg);transition:transform .22s}
+  .zone[open] summary::after{transform:rotate(-135deg);top:32px}
+  .z-name{font-size:13px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;flex:none}
+  .z-sub{font-size:13.5px;color:var(--muted);flex:1;min-width:0}
+  .z-n{font-family:var(--serif);font-size:19px;color:var(--orange);font-weight:400;flex:none}
+  .zone .chips{padding:0 24px 24px}
+  @media(max-width:620px){
+    .zone summary{flex-wrap:wrap;gap:4px 12px;padding:18px 46px 18px 18px}
+    .z-sub{flex:1 0 100%;font-size:13px}
+    .z-n{position:absolute;right:44px;top:16px;font-size:17px}
+    .zone summary::after{right:18px;top:24px}
+    .zone .chips{padding:0 18px 20px}
+  }
   .chips{display:flex;flex-wrap:wrap;gap:8px}
   .chip{border:1px solid var(--line);background:var(--paper);padding:8px 15px;border-radius:100px;
         font-size:13.5px;color:var(--ink-soft);transition:border-color .18s,color .18s}
   .chip:hover{border-color:var(--orange);color:var(--orange)}
-  .country.soon{background:var(--sand);border-style:dashed}
-  .country.soon .chip{border-style:dashed;color:var(--muted);opacity:.85}
-  @media(max-width:760px){.dest{grid-template-columns:1fr}}
+  .zone-full{border:1px solid var(--line-2);border-radius:var(--r);background:#fff;margin-bottom:12px;
+             padding:30px 28px;display:flex;align-items:center;gap:32px;
+             box-shadow:0 10px 26px rgba(26,22,19,.05)}
+  .zone-full .zf-txt{flex:1;min-width:0}
+  .zone-full .z-name{display:block;color:var(--orange);margin-bottom:10px}
+  .zone-full h3{font-family:var(--serif);font-weight:400;font-size:clamp(24px,3vw,32px);
+                line-height:1.12;letter-spacing:-.02em;margin-bottom:12px}
+  .zone-full p{font-size:15.5px;color:var(--ink-soft);max-width:560px}
+  .zf-num{flex:none;text-align:center;padding-left:32px;border-left:1px solid var(--line)}
+  .zf-num b{display:block;font-family:var(--serif);font-size:clamp(40px,5vw,58px);font-weight:400;
+            line-height:1;color:var(--orange);margin-bottom:8px}
+  .zf-num span{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  @media(max-width:640px){
+    .zone-full{flex-direction:column;align-items:flex-start;gap:22px;padding:26px 20px}
+    .zf-num{padding-left:0;border-left:0;padding-top:20px;border-top:1px solid var(--line);
+            width:100%;text-align:left;display:flex;align-items:baseline;gap:12px}
+    .zf-num b{margin-bottom:0;font-size:38px}
+  }
+  .dest-note{margin-top:20px;font-size:14px;color:var(--muted);max-width:640px}
 
   /* install */
   .install-sec{background:var(--ink);color:#fff;position:relative;overflow:hidden}
@@ -464,7 +498,7 @@
   <div class="wrap">
    <div class="hero-grid">
     <div class="hero-inner">
-      <span class="badge"><b></b><span data-t="badge">Beta abierta · 5 países</span></span>
+      <span class="badge"><b></b><span data-t="badge">Beta abierta · 114 destinos</span></span>
       <h1><span data-t="h1a">Cada ciudad es un</span> <em data-t="h1b">territorio</em> <span data-t="h1c">por desbloquear</span></h1>
       <p class="sub" data-t="sub">untraveld te enseña qué merece la pena a tu alrededor ahora mismo, te arma el plan del día y guarda cada sitio al que llegas. Solo o con tu grupo.</p>
       <div class="hero-actions">
@@ -472,8 +506,8 @@
         <a class="btn btn-ghost" href="#destinos" data-t="cta2">Ver destinos</a>
       </div>
       <div class="hero-meta">
-        <div><b>14</b><span data-t="hm1">Destinos</span></div>
-        <div><b>692</b><span data-t="hm2">Puntos curados</span></div>
+        <div><b data-t="hm1b">114</b><span data-t="hm1">Destinos</span></div>
+        <div><b data-t="hm2b">3.459</b><span data-t="hm2">Puntos curados</span></div>
         <div><b data-t="hm3b">Gratis</b><span data-t="hm3">Sin tienda de apps</span></div>
       </div>
     </div>
@@ -523,7 +557,7 @@
           <div class="st-bar"><span>9:41</span><span class="st-ic"><i></i></span></div>
           <div class="map-top">
             <div class="map-btn" aria-hidden="true"><i></i><i></i><i></i></div>
-            <div class="map-pill"><span class="pin" style="width:11px;height:11px"></span>Toronto</div>
+            <div class="map-pill"><span class="pin" style="width:11px;height:11px"></span><span id="mapCity">Toronto</span></div>
           </div>
           <div class="legend" aria-hidden="true">
             <div><b style="background:#C9622F"></b><span data-t="lg1">Monum.</span></div>
@@ -535,11 +569,13 @@
           <div class="sheet">
             <div class="sheet-h"></div>
             <div class="sheet-t" data-t="near">Cerca de ti</div>
+            <div id="mapPois">
             <div class="poi"><b style="background:#C9622F"></b><span>Distillery District</span><em>180 m</em></div>
             <div class="poi"><b style="background:#B03A48"></b><span>St. Lawrence Market</span><em>340 m</em></div>
             <div class="poi"><b style="background:#2F7D5B"></b><span>Berczy Park</span><em>410 m</em></div>
             <div class="poi"><b style="background:#55639E"></b><span>Meridian Hall</span><em>620 m</em></div>
             <div class="poi"><b style="background:#C9622F"></b><span>Hockey Hall of Fame</span><em>850 m</em></div>
+            </div>
           </div>
         </div>
       </div>
@@ -552,9 +588,9 @@
 <!-- STRIP -->
 <div class="strip">
   <div class="strip-grid">
-    <div class="stat"><b>5</b><span data-t="s1">Países</span></div>
-    <div class="stat"><b>14</b><span data-t="s2">Destinos</span></div>
-    <div class="stat"><b>692</b><span data-t="s3">Puntos curados</span></div>
+    <div class="stat"><b data-t="s1b">114</b><span data-t="s1">Destinos</span></div>
+    <div class="stat"><b data-t="s2b">3.459</b><span data-t="s2">Puntos curados</span></div>
+    <div class="stat"><b>6</b><span data-t="s3">Continentes</span></div>
     <div class="stat"><b>ES/EN</b><span data-t="s4">Bilingüe</span></div>
   </div>
 </div>
@@ -737,7 +773,7 @@
       </div>
       <div class="feat">
         <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 6h11M8.5 4v2M11 6c0 4.4-3 8-8 10M6 11c1.4 2.4 3.4 4 6.5 5"/><path d="M13 20l4.2-10 4.2 10M14.6 16.4h5.2"/></svg>
-        <h3 data-t="f6h">Todo en español y en inglés</h3><p data-t="f6p">Los 692 puntos, las zonas, el clima y los consejos están escritos en los dos idiomas. Eliges uno y no vuelves a pensarlo.</p>
+        <h3 data-t="f6h">Todo en español y en inglés</h3><p data-t="f6p">Los 3.459 puntos, las zonas, el clima y los consejos están escritos en los dos idiomas. Eliges uno y no vuelves a pensarlo.</p>
       </div>
     </div>
   </div>
@@ -748,30 +784,43 @@
   <div class="wrap">
     <div class="sec-head reveal">
       <span class="label" data-t="l3">Destinos</span>
-      <h2 data-t="t3">Catorce destinos, uno a uno a mano</h2>
-      <p data-t="p3">Nada de puntos sacados de un volcado automático: cada sitio está elegido, ordenado por lo que de verdad se visita y descrito en español y en inglés.</p>
+      <h2 data-t="t3">España entera, y otras 62 ciudades del mundo</h2>
+      <p data-t="p3">Las 52 provincias españolas están hechas, provincia a provincia. Y a partir de ahí, 62 destinos más repartidos por seis continentes. Nada sale de un volcado automático: cada punto está elegido, ordenado por lo que de verdad se visita y descrito en español y en inglés.</p>
     </div>
     <div class="dest reveal">
-      <div class="country">
-        <div class="country-h"><h3>Argentina</h3><small data-t="d3">7 destinos · 187 puntos</small></div>
-        <div class="chips"><span class="chip">Buenos Aires</span><span class="chip">Mendoza</span><span class="chip">Bariloche</span><span class="chip">El Calafate</span><span class="chip">Iguazú</span><span class="chip">Catamarca</span><span class="chip">Tucumán</span></div>
+      <div class="zone-full">
+        <div class="zf-txt">
+          <span class="z-name" data-t="zfes">España</span>
+          <h3 data-t="zfesh">Al completo</h3>
+          <p data-t="zfesp">Las 52 provincias, de A Coruña a Zaragoza, con Baleares, Canarias, Ceuta y Melilla. Cada una con sus puntos elegidos a mano, sus zonas y sus consejos.</p>
+        </div>
+        <div class="zf-num"><b>52</b><span data-t="zfesn">Provincias</span></div>
       </div>
-      <div class="country">
-        <div class="country-h"><h3>Canadá</h3><small data-t="d2">3 destinos · 160 puntos</small></div>
-        <div class="chips"><span class="chip">Toronto</span><span class="chip">Cataratas del Niágara</span><span class="chip">Lago Bautista</span></div>
-      </div>
-      <div class="country">
-        <div class="country-h"><h3>España</h3><small data-t="d1">2 destinos · 200 puntos</small></div>
-        <div class="chips"><span class="chip">Región de Murcia</span><span class="chip">Comunidad de Madrid</span></div>
-      </div>
-      <div class="country">
-        <div class="country-h"><h3 data-t="dot">Italia y Estados Unidos</h3><small data-t="d4">2 destinos · 145 puntos</small></div>
-        <div class="chips"><span class="chip">Roma</span><span class="chip">Miami</span></div>
-      </div>
-      <div class="country soon" style="grid-column:1/-1">
-        <div class="country-h"><h3 data-t="d6h">Próximamente</h3><small data-t="d6s">En preparación</small></div>
-        <div class="chips"><span class="chip" data-t="so1">Más ciudades de España</span><span class="chip" data-t="so2">Más ciudades de Italia</span><span class="chip" data-t="so3">Nuevos países</span></div>
-      </div>
+      <details class="zone">
+        <summary><span class="z-name" data-t="zeu">Europa</span><span class="z-sub" data-t="zeus">De Lisboa a Estambul</span><span class="z-n">16</span></summary>
+        <div class="chips"><span class="chip">Ámsterdam</span><span class="chip">Antalya</span><span class="chip">Atenas</span><span class="chip">Berlín</span><span class="chip">Dublín</span><span class="chip">Estambul</span><span class="chip">Florencia</span><span class="chip">Lisboa</span><span class="chip">Londres</span><span class="chip">Milán</span><span class="chip">Múnich</span><span class="chip">París</span><span class="chip">Praga</span><span class="chip">Roma</span><span class="chip">Venecia</span><span class="chip">Viena</span></div>
+      </details>
+      <details class="zone">
+        <summary><span class="z-name" data-t="zas">Asia</span><span class="z-sub" data-t="zass">Japón, sudeste asiático e India</span><span class="z-n">15</span></summary>
+        <div class="chips"><span class="chip">Bali</span><span class="chip">Bangkok</span><span class="chip">Bombay</span><span class="chip">Hanói</span><span class="chip">Ho Chi Minh</span><span class="chip">Hong Kong</span><span class="chip">Kioto</span><span class="chip">Kuala Lumpur</span><span class="chip">Macao</span><span class="chip">Osaka</span><span class="chip">Phuket</span><span class="chip">Seúl</span><span class="chip">Singapur</span><span class="chip">Taipéi</span><span class="chip">Tokio</span></div>
+      </details>
+      <details class="zone">
+        <summary><span class="z-name" data-t="zam">América</span><span class="z-sub" data-t="zams">Norte, centro y sur</span><span class="z-n">20</span></summary>
+        <div class="chips"><span class="chip">Bariloche</span><span class="chip">Buenos Aires</span><span class="chip">Cancún</span><span class="chip">Catamarca</span><span class="chip">Cataratas del Niágara</span><span class="chip">Ciudad de México</span><span class="chip">Cusco</span><span class="chip">El Calafate</span><span class="chip">Iguazú</span><span class="chip">Lago Bautista</span><span class="chip">Las Vegas</span><span class="chip">Los Ángeles</span><span class="chip">Mendoza</span><span class="chip">Miami</span><span class="chip">Nueva York</span><span class="chip">Orlando</span><span class="chip">Río de Janeiro</span><span class="chip">San Francisco</span><span class="chip">Toronto</span><span class="chip">Tucumán</span></div>
+      </details>
+      <details class="zone">
+        <summary><span class="z-name" data-t="zom">Oriente Medio</span><span class="z-sub" data-t="zoms">Golfo y Jordania</span><span class="z-n">4</span></summary>
+        <div class="chips"><span class="chip">Abu Dabi</span><span class="chip">Doha</span><span class="chip">Dubái</span><span class="chip">Petra</span></div>
+      </details>
+      <details class="zone">
+        <summary><span class="z-name" data-t="zaf">África</span><span class="z-sub" data-t="zafs">Norte, este y sur</span><span class="z-n">5</span></summary>
+        <div class="chips"><span class="chip">Ciudad del Cabo</span><span class="chip">El Cairo</span><span class="chip">Marrakech</span><span class="chip">Nairobi</span><span class="chip">Zanzíbar</span></div>
+      </details>
+      <details class="zone">
+        <summary><span class="z-name" data-t="zoc">Oceanía</span><span class="z-sub" data-t="zocs">Australia</span><span class="z-n">2</span></summary>
+        <div class="chips"><span class="chip">Melbourne</span><span class="chip">Sídney</span></div>
+      </details>
+      <p class="dest-note" data-t="dnote">Canadá, Argentina, Estados Unidos e Italia tienen pantalla propia dentro de la app; el resto del mundo se elige por continente.</p>
     </div>
   </div>
 </section>
@@ -805,7 +854,7 @@
       <details><summary data-t="q3">¿Cómo sabe la app que he llegado de verdad?</summary><div class="ans" data-t="a3">Por GPS. El punto se desbloquea cuando estás dentro de un radio de 150 metros, así que no se puede completar el territorio desde el sofá.</div></details>
       <details><summary data-t="q4">¿Qué pasa con mis fotos y mis datos?</summary><div class="ans" data-t="a4">Las fotos de check-in y de recuerdos se guardan para tu grupo y las puedes borrar tú desde la propia app. No se venden datos ni hay publicidad.</div></details>
       <details><summary data-t="q5">¿Funciona para un viaje en grupo grande?</summary><div class="ans" data-t="a5">Sí. Se crea un grupo, se pasa el código de seis letras y cada uno entra desde su móvil. El itinerario, el progreso, los gastos y las fotos son de todos.</div></details>
-      <details><summary data-t="q6">Mi ciudad no está. ¿La vais a añadir?</summary><div class="ans" data-t="a6">Los destinos se preparan a mano, uno a uno, así que van saliendo poco a poco. Escríbenos a hola@untraveld.com y dinos cuál te falta.</div></details>
+      <details><summary data-t="q6">¿Está mi ciudad?</summary><div class="ans" data-t="a6">En España están las 52 provincias, así que la tuya está. Fuera de España vamos ciudad a ciudad y quedan muchas por hacer: escríbenos a hola@untraveld.com y dinos cuál te falta.</div></details>
     </div>
   </div>
 </section>
@@ -840,6 +889,9 @@
   function onScroll(){ hdr.classList.toggle('solid', window.scrollY > 60); }
   window.addEventListener('scroll', onScroll, {passive:true}); onScroll();
 
+  // en pantallas anchas, el primer bloque plegable abierto de entrada; en móvil todos plegados
+  if (window.innerWidth > 700) { var z0 = document.querySelector('.zone'); if (z0) z0.open = true; }
+
   var mnav = document.getElementById('mnav'), burger = document.getElementById('burger');
   function openNav(){ mnav.classList.add('open'); document.body.style.overflow='hidden'; burger.setAttribute('aria-expanded','true'); }
   function closeNav(){ mnav.classList.remove('open'); document.body.style.overflow=''; burger.setAttribute('aria-expanded','false'); }
@@ -852,15 +904,45 @@
   },{threshold:.08});
   document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
 
+  /* ---- ciudad rotatoria del mapa del hero ---- */
+  var HERO_CITIES = [
+    {es:"Toronto", en:"Toronto", pois:[["#C9622F","Distillery District","180 m"],["#B03A48","St. Lawrence Market","340 m"],["#2F7D5B","Berczy Park","410 m"],["#55639E","Meridian Hall","620 m"],["#C9622F","Hockey Hall of Fame","850 m"]]},
+    {es:"Madrid", en:"Madrid", pois:[["#C9622F","Puerta del Sol","210 m"],["#B03A48","Mercado de San Miguel","380 m"],["#C9622F","Plaza Mayor","450 m"],["#55639E","Teatro Real","780 m"],["#2F7D5B","Parque del Retiro","940 m"]]},
+    {es:"Roma", en:"Rome", pois:[["#C9622F","Pantheon","160 m"],["#C9622F","Piazza Navona","300 m"],["#C9622F","Fontana di Trevi","420 m"],["#B03A48","Campo de' Fiori","550 m"],["#2F7D5B","Villa Borghese","980 m"]]},
+    {es:"Tokio", en:"Tokyo", pois:[["#C9622F","Senso-ji","240 m"],["#B03A48","Nakamise-dori","310 m"],["#2F7D5B","Ueno Park","620 m"],["#C9622F","Tokyo Skytree","880 m"],["#55639E","Ameyoko","950 m"]]},
+    {es:"Sevilla", en:"Seville", pois:[["#C9622F","Catedral de Sevilla","190 m"],["#C9622F","Real Alcázar","260 m"],["#B03A48","Lonja del Barranco","610 m"],["#C9622F","Plaza de España","830 m"],["#2F7D5B","Parque de María Luisa","970 m"]]},
+    {es:"París", en:"Paris", pois:[["#C9622F","Louvre","300 m"],["#2F7D5B","Jardin des Tuileries","480 m"],["#C9622F","Musée d'Orsay","690 m"],["#B03A48","Galerie Vivienne","760 m"],["#55639E","Opéra Garnier","850 m"]]}
+  ];
+  var heroCity = document.getElementById('mapCity'), heroPois = document.getElementById('mapPois'), heroI = 0;
+  function paintHeroCity(i){
+    var c = HERO_CITIES[i], en = document.documentElement.lang === 'en';
+    heroCity.textContent = en ? c.en : c.es;
+    heroPois.innerHTML = c.pois.map(function(p){
+      return '<div class="poi"><b style="background:' + p[0] + '"></b><span>' + p[1] + '</span><em>' + p[2] + '</em></div>';
+    }).join('');
+  }
+  var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+  if (heroCity && heroPois && !reduceMotion) {
+    setInterval(function(){
+      if (document.hidden) return;
+      heroCity.classList.add('fade'); heroPois.classList.add('fade');
+      setTimeout(function(){
+        heroI = (heroI + 1) % HERO_CITIES.length;
+        paintHeroCity(heroI);
+        heroCity.classList.remove('fade'); heroPois.classList.remove('fade');
+      }, 400);
+    }, 4200);
+  }
+
   var EN = {
     nav1:"How it works", nav2:"The app", nav3:"Destinations", nav4:"FAQ", enter:"Enter", enter2:"Open the app",
-    badge:"Open beta · 5 countries",
+    badge:"Open beta · 114 destinations",
     h1a:"Every city is a", h1b:"territory", h1c:"waiting to be unlocked",
     sub:"untraveld shows you what's worth your time right where you are, builds your day and keeps every place you reach. On your own or with your group.",
     cta1:"Open the app", cta2:"See destinations", scroll:"Keep scrolling",
-    hm1:"Destinations", hm2:"Curated spots", hm3b:"Free", hm3:"No app store",
+    hm1b:"114", hm1:"Destinations", hm2b:"3,459", hm2:"Curated spots", hm3b:"Free", hm3:"No app store",
     lg1:"Landm.", lg2:"Nature", lg3:"Food", lg4:"Nightlife", near:"Near you",
-    s1:"Countries", s2:"Destinations", s3:"Curated spots", s4:"Bilingual",
+    s1b:"114", s1:"Destinations", s2b:"3,459", s2:"Curated spots", s3:"Continents", s4:"Bilingual",
 
     l1:"How it works", t1:"Open the map and go outside. That's about it.",
     p1:"No endless lists, no tabs leading nowhere. This app is about what's next to you and about leaving a trace of where you've been.",
@@ -909,14 +991,19 @@
     f3h:"Souvenirs that are real", f3p:"What to buy in each city and where: real products and shops, with a guide price in euros.",
     f4h:"Territory and progress", f4p:"How much of the city you've unlocked and what's left to discover, spot by spot.",
     f5h:"Trip memories", f5p:"Every photo from the group, grouped by day, with who posted it. Downloadable once you're home.",
-    f6h:"All in Spanish and English", f6p:"All 692 spots, the areas, the weather and the tips are written in both languages. Pick one and forget about it.",
+    f6h:"All in Spanish and English", f6p:"All 3,459 spots, the areas, the weather and the tips are written in both languages. Pick one and forget about it.",
 
-    l3:"Destinations", t3:"Fourteen destinations, each one done by hand",
-    p3:"No spots scraped from a bulk dump: every place is chosen, ordered by what people actually visit and written in both Spanish and English.",
-    d1:"2 destinations · 200 spots", d2:"3 destinations · 160 spots", d3:"7 destinations · 187 spots",
-    dot:"Italy and United States", d4:"2 destinations · 145 spots",
-    d6h:"Coming soon", d6s:"In the works",
-    so1:"More cities in Spain", so2:"More cities in Italy", so3:"New countries",
+    l3:"Destinations", t3:"All of Spain, plus 62 more cities worldwide",
+    p3:"All 52 Spanish provinces are done, province by province. On top of that, 62 more destinations across six continents. Nothing comes from a bulk dump: every spot is chosen, ordered by what people actually visit and written in both Spanish and English.",
+    zfes:"Spain", zfesh:"Every last province", zfesn:"Provinces",
+    zfesp:"All 52 provinces, from A Coruña to Zaragoza, including the Balearics, the Canaries, Ceuta and Melilla. Each with its own hand-picked spots, areas and local tips.",
+    zeu:"Europe", zeus:"From Lisbon to Istanbul",
+    zas:"Asia", zass:"Japan, Southeast Asia and India",
+    zam:"Americas", zams:"North, central and south",
+    zom:"Middle East", zoms:"The Gulf and Jordan",
+    zaf:"Africa", zafs:"North, east and south",
+    zoc:"Oceania", zocs:"Australia",
+    dnote:"Canada, Argentina, the United States and Italy have their own screen inside the app; the rest of the world is picked by continent.",
 
     l5:"Install", t5:"Nothing to download",
     p5:"untraveld opens in your browser and stays on your home screen like any other app. No App Store, no Google Play, no waiting.",
@@ -930,7 +1017,7 @@
     q3:"How does the app know I actually got there?", a3:"By GPS. A spot unlocks when you're within 150 metres of it, so you can't complete the territory from your sofa.",
     q4:"What happens to my photos and my data?", a4:"Check-in and memory photos are kept for your group and you can delete them yourself from the app. No data is sold and there are no ads.",
     q5:"Does it work for a big group trip?", a5:"Yes. Create a group, pass around the six-letter code and everyone joins from their own phone. The itinerary, the progress, the expenses and the photos belong to all of you.",
-    q6:"My city isn't there. Will you add it?", a6:"Destinations are prepared by hand, one at a time, so they arrive slowly. Write to hola@untraveld.com and tell us which one you're missing.",
+    q6:"Is my city there?", a6:"In Spain all 52 provinces are covered, so yours is. Outside Spain we go city by city and plenty are still missing: write to hola@untraveld.com and tell us which one you want.",
 
     ct:"So where are you headed?",
     ctp:"Pick your destination, open the map and start unlocking the city. Getting in takes less time than reading this.",
@@ -940,6 +1027,7 @@
   var ES = {};
   document.querySelectorAll('[data-t]').forEach(function(el){ ES[el.getAttribute('data-t')] = el.innerHTML; });
 
+  window.paintHeroCity = paintHeroCity;
   function setLang(l){
     var dict = (l === 'en') ? EN : ES;
     document.querySelectorAll('[data-t]').forEach(function(el){
@@ -947,6 +1035,7 @@
       if (dict[k]) el.innerHTML = dict[k];
     });
     document.documentElement.lang = l;
+    if (window.paintHeroCity) paintHeroCity(heroI);
     ['es','mes'].forEach(function(id){ document.getElementById(id).classList.toggle('on', l === 'es'); });
     ['en','men'].forEach(function(id){ document.getElementById(id).classList.toggle('on', l === 'en'); });
     try { localStorage.setItem('utd-landing-lang', l); } catch(e){}
