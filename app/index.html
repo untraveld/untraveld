@@ -161,7 +161,8 @@
     max-height:86vh; display:flex; flex-direction:column;
   }
   .rs-sheet.open{ transform:translateY(0); }
-  .rs-grab{ width:40px; height:4px; border-radius:100px; background:var(--line); margin:8px auto 10px; }
+  .rs-grab{ display:block; width:44px; height:5px; border:none; padding:14px 40px; box-sizing:content-box;
+    background:var(--line); background-clip:content-box; border-radius:100px; margin:2px auto 4px; cursor:pointer; }
   .rs-title{ font-family:var(--display); font-weight:700; font-size:19px; margin:2px 4px 4px; }
   .rs-sub{ font-size:12.5px; color:var(--text-mid,#9a8b78); margin:0 4px 14px; }
   .rs-list{ overflow-y:auto; display:flex; flex-direction:column; gap:9px; padding-bottom:2px; -webkit-overflow-scrolling:touch; }
@@ -183,6 +184,7 @@
   .rs-opt .rs-txt{ flex:1; min-width:0; display:flex; flex-direction:column; }
   .rs-opt .rs-nm{ font-weight:700; font-size:14px; line-height:1.2; }
   .rs-opt .rs-ds{ font-size:11.5px; color:var(--text-mid,#9a8b78); margin-top:1px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .rs-opt .rs-code{ font-family:ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing:.08em; font-weight:600; }
   .rs-opt .rs-go{ margin-left:auto; color:var(--text-mid,#9a8b78); opacity:.6; font-size:16px; flex:none; }
   .rs-here-badge{
     margin-left:auto; flex:none; font-size:9px; font-weight:700; letter-spacing:.07em; text-transform:uppercase;
@@ -199,6 +201,41 @@
     transition:border-color .16s, color .16s;
   }
   .rs-acts button:active{ transform:scale(.99); }
+  /* avatar con foto (perfil o viaje) */
+  .rs-av.has-photo{ background:#e7e0d6 center/cover no-repeat !important; color:transparent; font-size:0; }
+  .ctx-dot.has-photo{ background:#e7e0d6 center/cover no-repeat !important; font-size:0; }
+  /* paneles de la hoja (salas / crear / unirme) */
+  .rs-panel[hidden]{ display:none; }
+  .rs-panel{ display:flex; flex-direction:column; min-height:0; }
+  .rs-backlink{ align-self:flex-start; background:none; border:none; color:var(--text-mid,#9a8b78);
+    font-family:var(--body); font-weight:600; font-size:13px; cursor:pointer; padding:2px 4px; margin:0 0 4px; }
+  .rs-backlink:active{ transform:scale(.98); }
+  .rs-form{ overflow-y:auto; display:flex; flex-direction:column; -webkit-overflow-scrolling:touch; padding-bottom:2px; }
+  .rs-flabel{ font-size:11px; font-weight:700; letter-spacing:.05em; text-transform:uppercase;
+    color:var(--text-mid,#9a8b78); margin:12px 2px 6px; }
+  .rs-form .name-input{ width:100%; box-sizing:border-box; }
+  .rs-err{ color:#B4442E; font-size:12.5px; min-height:1em; margin:8px 2px 4px; }
+  .rs-form .btn.btn-primary{ margin-top:12px; }
+  .rs-photo-pick{ display:flex; align-items:center; gap:12px; align-self:flex-start;
+    background:none; border:none; cursor:pointer; padding:6px 2px; margin:2px 0 2px; }
+  .rs-photo-pick .rs-photo-av{ width:60px; height:60px; border-radius:16px; flex:none;
+    display:flex; align-items:center; justify-content:center; font-size:24px; color:var(--text-mid,#9a8b78);
+    background:var(--bg-panel-2,#f7f1e8); border:1px dashed var(--line); }
+  .rs-photo-pick .rs-photo-av.has-photo{ border-style:solid; background:#e7e0d6 center/cover no-repeat; color:transparent; font-size:0; }
+  .rs-photo-pick .rs-photo-tx{ font-size:13px; font-weight:600; color:var(--text-mid,#9a8b78); }
+  .rs-photo-pick:active{ transform:scale(.99); }
+  /* Perfil en la pestaña Cuenta */
+  .profile-row{ display:flex; align-items:center; gap:14px; margin:2px 0 18px; }
+  .profile-av{ width:64px; height:64px; border-radius:50%; flex:none; cursor:pointer;
+    display:flex; align-items:center; justify-content:center; font-size:26px; color:#fff;
+    background:linear-gradient(135deg, #C9622F, #8A3A1F); border:none; }
+  .profile-av.has-photo{ background:#e7e0d6 center/cover no-repeat; color:transparent; font-size:0; }
+  .profile-av:active{ transform:scale(.97); }
+  .profile-meta{ flex:1; min-width:0; }
+  .profile-name{ font-family:var(--display); font-weight:700; font-size:16px; color:var(--text-hi,#1c1a18); margin-bottom:6px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .profile-actions{ display:flex; align-items:center; gap:12px; }
+  .profile-btn{ width:auto; padding:8px 14px; font-size:12.5px; margin:0; }
+  .profile-remove{ background:none; border:none; color:var(--text-mid,#9a8b78); font-family:var(--body); font-size:12.5px; font-weight:600; cursor:pointer; text-decoration:underline; padding:0; }
 
   .city-chip{
     font-size:11px; letter-spacing:1.5px; text-transform:uppercase;
@@ -2560,6 +2597,19 @@
     <div id="tab-cuenta" class="tabpanel" style="display:none;">
       <div class="mod-title" data-tr="Cuenta y seguridad">Cuenta y seguridad</div>
 
+      <div class="mod-h" data-tr="Tu perfil">Tu perfil</div>
+      <div class="profile-row">
+        <button type="button" class="profile-av" id="profileAv" aria-label="Cambiar foto de perfil">👤</button>
+        <div class="profile-meta">
+          <div class="profile-name" id="profileName">—</div>
+          <div class="profile-actions">
+            <button type="button" class="btn btn-ghost profile-btn" id="profilePhotoBtn" data-tr="Cambiar foto">Cambiar foto</button>
+            <button type="button" class="profile-remove" id="profilePhotoRemove" data-tr="Quitar" style="display:none;">Quitar</button>
+          </div>
+        </div>
+      </div>
+      <input type="file" accept="image/*" id="profilePhotoInput" style="display:none;">
+
       <div class="mod-rules">
         <p><b data-tr="Normas de la comunidad">Normas de la comunidad</b></p>
         <p data-tr="En untraveld no se tolera el contenido ofensivo ni el comportamiento abusivo. Nada de insultos, odio, acoso, amenazas, contenido sexual ni spam, ni en el tablón ni en las reseñas, las tareas o las fotos.">En untraveld no se tolera el contenido ofensivo ni el comportamiento abusivo. Nada de insultos, odio, acoso, amenazas, contenido sexual ni spam, ni en el tablón ni en las reseñas, las tareas o las fotos.</p>
@@ -4304,7 +4354,8 @@
       dates: raw.dates || null,
       createdBy: raw.createdBy || null,
       code: raw.code || null,
-      regions: raw.regions || null
+      regions: raw.regions || null,
+      photo: raw.photo || null
     };
   }
 
@@ -4840,7 +4891,15 @@
         '¿Dónde quieres explorar?':'Where do you want to explore?',
         'Elige tu sala. Puedes cambiar cuando quieras.':'Choose your room. You can switch anytime.',
         'Tu exploración privada':'Your private space', 'Aquí':'Here',
-        'Mis viajes':'My trips', 'Crear viaje':'Create trip', 'Unirme con código':'Join with a code'
+        'Mis viajes':'My trips', 'Crear viaje':'Create trip', 'Unirme con código':'Join with a code',
+        'Nuevo viaje':'New trip', 'Añadir foto':'Add photo', 'Cambiar foto':'Change photo',
+        'Unirme a un viaje':'Join a trip', 'Código del viaje':'Trip code', 'Unirme al viaje':'Join trip',
+        '¿Tienes un enlace de invitación? Ábrelo y entrarás directo al viaje.':'Got an invite link? Open it to jump straight into the trip.',
+        'No se pudo crear el viaje. Inténtalo de nuevo.':'Couldn’t create the trip. Please try again.',
+        'Escribe el código del viaje.':'Enter the trip code.',
+        'No encontramos ningún viaje con ese código.':'We couldn’t find a trip with that code.',
+        '← Volver':'← Back', 'Tu foto de perfil':'Your profile photo',
+        'Tu perfil':'Your profile', 'Cambiar':'Change', 'Quitar':'Remove', 'Toca para añadir tu foto':'Tap to add your photo'
       };
       for(var _k in _rsTr){ if(!window.TR_MAP[_k]) window.TR_MAP[_k]=_rsTr[_k]; }
     }
@@ -4928,30 +4987,148 @@
     try{ return NAME_BY_REGION[ACTIVE_REGION] || ACTIVE_REGION; }catch(e){}
     return TR('Individual');
   }
+  // ---- Foto de perfil (por dispositivo, con copia en Firebase) ----
+  function getProfilePhoto(){ try{ return localStorage.getItem('utd-profile-photo')||''; }catch(e){ return ''; } }
+  function setProfilePhoto(dataUrl){
+    try{ if(dataUrl){ localStorage.setItem('utd-profile-photo', dataUrl); } else { localStorage.removeItem('utd-profile-photo'); } }catch(e){}
+    // copia en Firebase (mejor esfuerzo) para recuperarla en otro dispositivo
+    try{ var u=firebase.auth().currentUser; if(u && u.uid){ db.ref('users/'+u.uid+'/photo').set(dataUrl||null); } }catch(e){}
+    try{ renderCtxChip(); }catch(e){}
+  }
+  // aplica una foto (o un fallback emoji/inicial) a un elemento .rs-av / .ctx-dot
+  function paintAvatar(el, photo, fallback){
+    if(!el) return;
+    if(photo){ el.classList.add('has-photo'); el.style.backgroundImage='url("'+photo.replace(/"/g,'&quot;')+'")'; el.textContent=''; }
+    else { el.classList.remove('has-photo'); el.style.backgroundImage=''; el.textContent=fallback||''; }
+  }
   // Pinta el/los chip(s) de contexto según la sala actual.
   function renderCtxChip(){
     var group = inGroupMode();
     var k = group ? TR('Viaje') : TR('Individual');
     var v = group ? ((groupState && groupState.name) || TR('Tu viaje')) : currentTerritoryName();
-    var dot = group ? '👥' /*👥*/ : '👤' /*👤*/;
+    var photo = group ? ((groupState && groupState.photo)||'') : getProfilePhoto();
+    var fallback = group ? '👥' : '👤';
     [['ctxDot','ctxK','ctxV','ctxChip'],['ctxDotMap','ctxKMap','ctxVMap','ctxChipMap']].forEach(function(ids){
       var d=document.getElementById(ids[0]), kk=document.getElementById(ids[1]), vv=document.getElementById(ids[2]), ch=document.getElementById(ids[3]);
-      if(d) d.textContent=dot;
+      paintAvatar(d, photo, fallback);
       if(kk){ kk.textContent=k; kk.removeAttribute('data-tr'); }
       if(vv) vv.textContent=v;
       if(ch) ch.classList.toggle('mode-group-chip', group);
     });
   }
+
+  // ---- Paneles de la hoja: main / create / join ----
+  function rsShowPanel(name){
+    ['Main','Create','Join'].forEach(function(p){
+      var el=document.getElementById('rsPanel'+p);
+      if(el) el.hidden = (p.toLowerCase()!==name);
+    });
+    var s=document.getElementById('roomSheet'); if(s) s.scrollTop=0;
+  }
+  // Chips de destino para el formulario de la hoja
+  var rsSelDestinos=[];
+  function renderRsDestinos(){
+    var box=document.getElementById('rsDestinos'); if(!box) return;
+    var list=destinosOfCountry(countryOfRegion(ACTIVE_REGION));
+    if(!list.length) list=[ACTIVE_REGION];
+    box.innerHTML=list.map(function(r){ return '<button type="button" class="q-chip'+(rsSelDestinos.indexOf(r)>=0?' on':'')+'" data-r="'+escapeHtml(r)+'">'+escapeHtml(NAME_BY_REGION[r]||r)+'</button>'; }).join('');
+    box.querySelectorAll('.q-chip').forEach(function(ch){ ch.addEventListener('click', function(){
+      var r=ch.getAttribute('data-r'); var k=rsSelDestinos.indexOf(r);
+      if(k>=0){ if(rsSelDestinos.length>1) rsSelDestinos.splice(k,1); } else rsSelDestinos.push(r);
+      renderRsDestinos();
+    }); });
+  }
+  var rsCreatePhotoData='';
+  function rsOpenCreate(){
+    rsCreatePhotoData='';
+    var av=document.getElementById('rsCreatePhotoAv'), tx=document.getElementById('rsCreatePhotoTx');
+    paintAvatar(av, '', '＋'); if(tx) tx.textContent=TR('Añadir foto');
+    var nm=document.getElementById('rsName'); if(nm) nm.value='';
+    var err=document.getElementById('rsCreateErr'); if(err) err.textContent='';
+    try{ var t=new Date(); var a=document.getElementById('rsArrival'), d=document.getElementById('rsDeparture');
+      if(a) a.value=isoLocal(t); if(d) d.value=isoLocal(new Date(t.getTime()+3*86400000)); }catch(e){}
+    rsSelDestinos=[ ACTIVE_REGIONS[0] ]; renderRsDestinos();
+    rsShowPanel('create');
+  }
+  function rsOpenJoin(){
+    var code=document.getElementById('rsCode'); if(code) code.value='';
+    var err=document.getElementById('rsJoinErr'); if(err) err.textContent='';
+    rsShowPanel('join');
+  }
+  async function rsDoCreate(){
+    var err=document.getElementById('rsCreateErr'); if(err) err.textContent='';
+    var name=((document.getElementById('rsName')||{}).value||'').trim();
+    if(!name){ if(err) err.textContent=TR('Ponle un nombre al viaje.'); return; }
+    if(!modOk(name)) return;
+    var regions=rsSelDestinos.slice(); if(!regions.length){ if(err) err.textContent=TR('Elige al menos un destino.'); return; }
+    var country=countryOfRegion(regions[0]);
+    var arrival=((document.getElementById('rsArrival')||{}).value)||'';
+    var departure=((document.getElementById('rsDeparture')||{}).value)||'';
+    var btn=document.getElementById('rsCreateSubmit'); if(btn){ btn.disabled=true; btn.textContent=TR('Creando…'); }
+    var code=randomGroupId();
+    var members={}; members[firebaseKeySafe(myName)]=true;
+    var g={ name:name, kind:'group', code:code, country:country, region:regions[0], regions:regions,
+            dates:{ arrival:arrival, departure:departure },
+            members:members, contributions:{}, createdBy:myName };
+    if(rsCreatePhotoData) g.photo=rsCreatePhotoData;
+    var ok=await saveNewGroup(code, g);
+    if(!ok){ if(err) err.textContent=TR('No se pudo crear el viaje. Inténtalo de nuevo.'); if(btn){ btn.disabled=false; btn.textContent=TR('Crear viaje'); } return; }
+    addMyGroup({ code:code, name:name, country:country, regions:regions, photo:rsCreatePhotoData||'' });
+    enterGroupRoom(code, country, regions);
+  }
+  async function rsDoJoin(){
+    var err=document.getElementById('rsJoinErr'); if(err) err.textContent='';
+    var code=(((document.getElementById('rsCode')||{}).value)||'').trim().toUpperCase();
+    if(code.length<4){ if(err) err.textContent=TR('Escribe el código del viaje.'); return; }
+    var btn=document.getElementById('rsJoinSubmit'); if(btn){ btn.disabled=true; btn.textContent=TR('Entrando…'); }
+    var g=await loadGroupById(code);
+    if(!g){ if(err) err.textContent=TR('No encontramos ningún viaje con ese código.'); if(btn){ btn.disabled=false; btn.textContent=TR('Unirme al viaje'); } return; }
+    await joinGroup(code, myName);
+    addMyGroup({ code:code, name:g.name, country:g.country||'ES', regions:(g.regions&&g.regions.length)?g.regions:[g.region||'murcia'], photo:g.photo||'' });
+    enterGroupRoom(code, g.country||'ES', (g.regions&&g.regions.length)?g.regions:[g.region||'murcia']);
+  }
+
   var _rsWired=false;
   function wireRoomSheet(){
     if(_rsWired) return; _rsWired=true;
     var chip=document.getElementById('ctxChip'), chipM=document.getElementById('ctxChipMap');
     var scrim=document.getElementById('roomScrim'), c=document.getElementById('rsCreate'), j=document.getElementById('rsJoin');
+    var grab=document.getElementById('rsGrab');
     if(chip) chip.addEventListener('click', openRoomSheet);
     if(chipM) chipM.addEventListener('click', openRoomSheet);
     if(scrim) scrim.addEventListener('click', closeRoomSheet);
-    if(c) c.addEventListener('click', function(){ closeRoomSheet(); showTab('group'); try{ gpOpenCreate(); }catch(e){} });
-    if(j) j.addEventListener('click', function(){ closeRoomSheet(); showTab('group'); try{ gpOpenJoin(); }catch(e){} });
+    if(grab) grab.addEventListener('click', closeRoomSheet);
+    // Escape cierra la hoja
+    document.addEventListener('keydown', function(e){
+      if(e.key==='Escape'){ var s=document.getElementById('roomSheet'); if(s && s.classList.contains('open')) closeRoomSheet(); }
+    });
+    // Deslizar el tirador hacia abajo también cierra
+    if(grab){
+      var _y0=null;
+      grab.addEventListener('touchstart', function(e){ _y0=e.touches&&e.touches[0]?e.touches[0].clientY:null; }, {passive:true});
+      grab.addEventListener('touchmove', function(e){ if(_y0!=null && e.touches&&e.touches[0] && (e.touches[0].clientY-_y0)>40){ _y0=null; closeRoomSheet(); } }, {passive:true});
+    }
+    // Crear / Unirme: paneles dentro de la misma hoja
+    if(c) c.addEventListener('click', rsOpenCreate);
+    if(j) j.addEventListener('click', rsOpenJoin);
+    var cb=document.getElementById('rsCreateBack'), jb=document.getElementById('rsJoinBack');
+    if(cb) cb.addEventListener('click', function(){ rsShowPanel('main'); });
+    if(jb) jb.addEventListener('click', function(){ rsShowPanel('main'); });
+    var cs=document.getElementById('rsCreateSubmit'), js=document.getElementById('rsJoinSubmit');
+    if(cs) cs.addEventListener('click', rsDoCreate);
+    if(js) js.addEventListener('click', rsDoJoin);
+    // Foto del viaje
+    var pick=document.getElementById('rsCreatePhotoPick'), pin=document.getElementById('rsCreatePhotoInput');
+    if(pick && pin) pick.addEventListener('click', function(){ pin.click(); });
+    if(pin) pin.addEventListener('change', function(){
+      var f=pin.files && pin.files[0]; if(!f) return;
+      resizeImageFile(f, 600, 0.82).then(function(url){
+        rsCreatePhotoData=url;
+        paintAvatar(document.getElementById('rsCreatePhotoAv'), url, '');
+        var tx=document.getElementById('rsCreatePhotoTx'); if(tx) tx.textContent=TR('Cambiar foto');
+      }).catch(function(){});
+      pin.value='';
+    });
     // Delegación: un único listener en la lista, robusto a re-render de sus hijos.
     var listEl=document.getElementById('roomList');
     if(listEl) listEl.addEventListener('click', function(e){
@@ -4972,13 +5149,13 @@
     var list=document.getElementById('roomList'); if(!list) return;
     var group=inGroupMode();
     var html='';
-    // Individual siempre primero
+    // Individual siempre primero (mantiene su subtítulo con el territorio)
     var terr=escapeHtml(currentTerritoryName());
     html+='<button type="button" class="rs-opt'+(!group?' here':'')+'" data-room="solo">'
-      + '<span class="rs-av">👤</span>'
+      + '<span class="rs-av" data-av="solo">👤</span>'
       + '<span class="rs-txt"><span class="rs-nm">'+escapeHtml(TR('Individual'))+'</span>'
       + '<span class="rs-ds">'+escapeHtml(TR('Tu exploración privada'))+' · '+terr+'</span></span>'
-      + (!group?('<span class="rs-here-badge">'+escapeHtml(TR('Aquí'))+'</span>'):'<span class="rs-go">→</span>')
+      + (!group?('<span class="rs-here-badge">'+escapeHtml(TR('Aquí'))+'</span>'):'')
       + '</button>';
     var mios=loadMyGroups();
     if(mios.length){
@@ -4986,22 +5163,30 @@
       html+=mios.map(function(g){
         var here=group && g.code===myGroupId;
         var ini=escapeHtml((g.name||g.code).trim().slice(0,2).toUpperCase());
-        var regs=(g.regions&&g.regions.length)?g.regions:[g.region||'murcia'];
-        var place=escapeHtml(regs.map(function(r){ return NAME_BY_REGION[r]||r; }).join(' · '));
-        return '<button type="button" class="rs-opt rs-gr'+(here?' here':'')+'" data-room="group" data-code="'+escapeHtml(g.code)+'">'
-          + '<span class="rs-av">'+ini+'</span>'
+        // Nombre + foto, y el código del viaje debajo del título
+        return '<button type="button" class="rs-opt rs-gr'+(here?' here':'')+'" data-room="group" data-code="'+escapeHtml(g.code)+'" data-photo="'+(g.photo?'1':'')+'">'
+          + '<span class="rs-av" data-av="'+escapeHtml(g.code)+'">'+ini+'</span>'
           + '<span class="rs-txt"><span class="rs-nm">'+escapeHtml(g.name||g.code)+'</span>'
-          + '<span class="rs-ds">'+place+'</span></span>'
-          + (here?('<span class="rs-here-badge">'+escapeHtml(TR('Aquí'))+'</span>'):'<span class="rs-go">→</span>')
+          + '<span class="rs-ds rs-code">'+escapeHtml(g.code)+'</span></span>'
+          + (here?('<span class="rs-here-badge">'+escapeHtml(TR('Aquí'))+'</span>'):'')
           + '</button>';
       }).join('');
     }
     list.innerHTML=html;
+    // Pintar fotos (perfil en Individual, foto de viaje en cada tarjeta)
+    var soloAv=list.querySelector('.rs-av[data-av="solo"]');
+    paintAvatar(soloAv, getProfilePhoto(), '👤');
+    mios.forEach(function(g){
+      if(!g.photo) return;
+      var av=list.querySelector('.rs-av[data-av="'+(window.CSS&&CSS.escape?CSS.escape(g.code):g.code)+'"]');
+      paintAvatar(av, g.photo, '');
+    });
     try{ if(window.applyI18n) window.applyI18n(list); }catch(e){}
     // los clics se gestionan por delegación en wireRoomSheet (robusto a re-render)
   }
   function openRoomSheet(){
     wireRoomSheet();
+    rsShowPanel('main');
     renderRoomList();
     var s=document.getElementById('roomSheet'), sc=document.getElementById('roomScrim');
     if(s){ s.classList.add('open'); s.setAttribute('aria-hidden','false'); }
@@ -5028,8 +5213,11 @@
   function addMyGroup(entry){
     if(!entry || !entry.code) return;
     var regions=(entry.regions&&entry.regions.length)?entry.regions:[entry.region||'murcia'];
-    var a=loadMyGroups().filter(function(x){ return x.code!==entry.code; });
-    a.unshift({ code:entry.code, name:entry.name||('Grupo '+entry.code), country:entry.country||'ES', regions:regions });
+    var all=loadMyGroups();
+    var prev=all.filter(function(x){ return x.code===entry.code; })[0];
+    var photo = entry.photo || (prev && prev.photo) || '';
+    var a=all.filter(function(x){ return x.code!==entry.code; });
+    a.unshift({ code:entry.code, name:entry.name||('Grupo '+entry.code), country:entry.country||'ES', regions:regions, photo:photo });
     saveMyGroups(a);
   }
   function removeMyGroup(code){ saveMyGroups(loadMyGroups().filter(function(x){ return x.code!==code; })); }
@@ -5750,7 +5938,31 @@
   }
 
   // Sección "Cuenta y seguridad": normas, personas bloqueadas, soporte y borrado de cuenta.
+  var _profileWired=false;
+  function wireProfilePhoto(){
+    if(_profileWired) return; _profileWired=true;
+    var av=document.getElementById('profileAv'), btn=document.getElementById('profilePhotoBtn'),
+        rm=document.getElementById('profilePhotoRemove'), inp=document.getElementById('profilePhotoInput');
+    function pick(){ if(inp) inp.click(); }
+    if(av) av.addEventListener('click', pick);
+    if(btn) btn.addEventListener('click', pick);
+    if(rm) rm.addEventListener('click', function(){ setProfilePhoto(''); renderProfileRow(); });
+    if(inp) inp.addEventListener('change', function(){
+      var f=inp.files && inp.files[0]; if(!f) return;
+      resizeImageFile(f, 512, 0.85).then(function(url){ setProfilePhoto(url); renderProfileRow(); }).catch(function(){});
+      inp.value='';
+    });
+  }
+  function renderProfileRow(){
+    var av=document.getElementById('profileAv'); if(!av) return;
+    var photo=getProfilePhoto();
+    paintAvatar(av, photo, '👤');
+    var nm=document.getElementById('profileName'); if(nm) nm.textContent = myName || TR('viajero');
+    var btn=document.getElementById('profilePhotoBtn'); if(btn) btn.textContent = photo? TR('Cambiar foto') : TR('Añadir foto');
+    var rm=document.getElementById('profilePhotoRemove'); if(rm) rm.style.display = photo? 'inline' : 'none';
+  }
   function renderCuenta(){
+    try{ wireProfilePhoto(); renderProfileRow(); }catch(e){}
     var box = document.getElementById('cuentaBlocked');
     if(!box || !window.UTDMod) return;
     var list = window.UTDMod.blockedList();
@@ -8677,6 +8889,15 @@
     window.UTD_CURRENT_GROUP = myGroupId || '';
     try{ utdSyncMode(); }catch(e){}
     try{ renderCtxChip(); }catch(e){}
+    // Recupera la foto de perfil desde Firebase si este dispositivo no la tiene aún
+    try{
+      if(!getProfilePhoto()){
+        var _u=firebase.auth().currentUser;
+        if(_u && _u.uid){ db.ref('users/'+_u.uid+'/photo').once('value').then(function(s){
+          var ph=s.val(); if(ph){ try{ localStorage.setItem('utd-profile-photo', ph); }catch(e){} try{ renderCtxChip(); }catch(e){} }
+        }).catch(function(){}); }
+      }
+    }catch(e){}
     document.getElementById('onboarding').classList.remove('active');
     document.getElementById('main').classList.add('active');
     renderGrid();
@@ -9278,13 +9499,54 @@
 <script>if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/app/sw.js",{scope:"/app/"}).catch(function(){});});}</script>
 <div class="rs-scrim" id="roomScrim"></div>
 <div class="rs-sheet" id="roomSheet" role="dialog" aria-modal="true" aria-label="Elegir sala" aria-hidden="true">
-  <div class="rs-grab"></div>
-  <h3 class="rs-title" data-tr="¿Dónde quieres explorar?">¿Dónde quieres explorar?</h3>
-  <p class="rs-sub" data-tr="Elige tu sala. Puedes cambiar cuando quieras.">Elige tu sala. Puedes cambiar cuando quieras.</p>
-  <div class="rs-list" id="roomList"></div>
-  <div class="rs-acts">
-    <button type="button" id="rsCreate"><span aria-hidden="true">＋ </span><span data-tr="Crear viaje">Crear viaje</span></button>
-    <button type="button" id="rsJoin" data-tr="Unirme con código">Unirme con código</button>
+  <button type="button" class="rs-grab" id="rsGrab" aria-label="Cerrar"></button>
+
+  <!-- Panel principal: salas -->
+  <div class="rs-panel" id="rsPanelMain">
+    <h3 class="rs-title" data-tr="¿Dónde quieres explorar?">¿Dónde quieres explorar?</h3>
+    <p class="rs-sub" data-tr="Elige tu sala. Puedes cambiar cuando quieras.">Elige tu sala. Puedes cambiar cuando quieras.</p>
+    <div class="rs-list" id="roomList"></div>
+    <div class="rs-acts">
+      <button type="button" id="rsCreate"><span aria-hidden="true">＋ </span><span data-tr="Crear viaje">Crear viaje</span></button>
+      <button type="button" id="rsJoin" data-tr="Unirme con código">Unirme con código</button>
+    </div>
+  </div>
+
+  <!-- Panel: crear viaje -->
+  <div class="rs-panel" id="rsPanelCreate" hidden>
+    <button type="button" class="rs-backlink" id="rsCreateBack" data-tr="← Volver">← Volver</button>
+    <h3 class="rs-title" data-tr="Nuevo viaje">Nuevo viaje</h3>
+    <div class="rs-form">
+      <button type="button" class="rs-photo-pick" id="rsCreatePhotoPick" aria-label="Añadir foto del viaje">
+        <span class="rs-photo-av" id="rsCreatePhotoAv">＋</span>
+        <span class="rs-photo-tx" id="rsCreatePhotoTx" data-tr="Añadir foto">Añadir foto</span>
+      </button>
+      <input type="file" accept="image/*" id="rsCreatePhotoInput" style="display:none;">
+      <label class="rs-flabel" for="rsName" data-tr="Nombre del viaje">Nombre del viaje</label>
+      <input id="rsName" class="name-input" placeholder="p. ej. Toronto con amigos" data-tr-ph="p. ej. Toronto con amigos" maxlength="40" autocomplete="off">
+      <label class="rs-flabel" data-tr="Destino(s) del viaje">Destino(s) del viaje</label>
+      <div class="q-chips" id="rsDestinos"></div>
+      <label class="rs-flabel" data-tr="Fechas del viaje">Fechas del viaje</label>
+      <div class="plan-dates">
+        <label class="date-field"><span data-tr="Llegada">Llegada</span><input type="date" id="rsArrival" class="name-input"></label>
+        <label class="date-field"><span data-tr="Salida">Salida</span><input type="date" id="rsDeparture" class="name-input"></label>
+      </div>
+      <p class="rs-err" id="rsCreateErr"></p>
+      <button type="button" class="btn btn-primary" id="rsCreateSubmit" data-tr="Crear viaje">Crear viaje</button>
+    </div>
+  </div>
+
+  <!-- Panel: unirme con código -->
+  <div class="rs-panel" id="rsPanelJoin" hidden>
+    <button type="button" class="rs-backlink" id="rsJoinBack" data-tr="← Volver">← Volver</button>
+    <h3 class="rs-title" data-tr="Unirme a un viaje">Unirme a un viaje</h3>
+    <div class="rs-form">
+      <label class="rs-flabel" for="rsCode" data-tr="Código del viaje">Código del viaje</label>
+      <input id="rsCode" class="name-input gp-code-input" placeholder="p. ej. K7M2QP" data-tr-ph="p. ej. K7M2QP" maxlength="8" autocomplete="off" autocapitalize="characters">
+      <p class="rs-err" id="rsJoinErr"></p>
+      <button type="button" class="btn btn-primary" id="rsJoinSubmit" data-tr="Unirme al viaje">Unirme al viaje</button>
+      <p class="rs-sub" style="margin-top:12px;" data-tr="¿Tienes un enlace de invitación? Ábrelo y entrarás directo al viaje.">¿Tienes un enlace de invitación? Ábrelo y entrarás directo al viaje.</p>
+    </div>
   </div>
 </div>
 <div id="legalOverlay" aria-hidden="true"><div class="legal-bar"><button class="legal-close" id="legalClose" aria-label="Cerrar">✕</button><div class="legal-langs"><button id="legalEs" class="on">ES</button><button id="legalEn">EN</button></div></div><div class="legal-scroll"><div class="legal-wrap"><div class="legal-doc" data-doc="terminos" hidden><div class="legal-lang" data-l="es"><div class="legal-head"><div class="legal-brand">untraveld</div><h1>Términos de Uso y Licencia</h1><div class="legal-upd">Última actualización: 20 de agosto de 2026</div></div><p>Estos términos regulan el uso de la aplicación <b>untraveld</b> (la «App») y constituyen el contrato de licencia de usuario final entre tú y <span class="ph">[NOMBRE Y APELLIDOS O RAZÓN SOCIAL]</span> (en adelante, «nosotros»). Al descargar, instalar o usar la App aceptas estos términos. Si no estás de acuerdo, no la uses.</p>
