@@ -2633,6 +2633,7 @@
       <div class="mod-h" data-tr="Tu cuenta">Tu cuenta</div>
       <button id="cuentaDeleteBtn" class="mod-danger" data-tr="Eliminar mi cuenta">Eliminar mi cuenta</button>
       <p class="sub" style="font-size:11.5px; margin:8px 0 0; text-align:left;" data-tr="Se borran tu perfil y tus datos. No se puede deshacer.">Se borran tu perfil y tus datos. No se puede deshacer.</p>
+      <p class="sub" id="buildStamp" style="font-size:11px; margin:18px 0 0; text-align:left; color:var(--text-mid,#9a8b78); opacity:.7;"></p>
       <div style="height:120px;"></div>
     </div>
 
@@ -5963,6 +5964,7 @@
   }
   function renderCuenta(){
     try{ wireProfilePhoto(); renderProfileRow(); }catch(e){}
+    try{ var _bs=document.getElementById('buildStamp'); if(_bs && window.UTD_BUILD) _bs.textContent=(window.UTD_LANG==='en'?'version ':'versión ')+window.UTD_BUILD; }catch(e){}
     var box = document.getElementById('cuentaBlocked');
     if(!box || !window.UTDMod) return;
     var list = window.UTDMod.blockedList();
@@ -9496,7 +9498,33 @@
 })();
 </script>
 
-<script>if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/app/sw.js",{scope:"/app/"}).catch(function(){});});}</script>
+<script>
+// Sello de versión: sirve para confirmar qué build está realmente desplegado.
+window.UTD_BUILD='2026-08-25 · salas v3 (fotos + crear/unirme en hoja + código)';
+try{ console.log('%cuntraveld build: '+window.UTD_BUILD, 'color:#C9622F;font-weight:bold'); }catch(e){}
+if("serviceWorker" in navigator){
+  window.addEventListener("load",function(){
+    navigator.serviceWorker.register("/app/sw.js",{scope:"/app/"}).then(function(reg){
+      // Comprueba si hay una versión nueva y, cuando el nuevo SW toma el control, recarga una vez.
+      try{ reg.update(); }catch(e){}
+      reg.addEventListener('updatefound', function(){
+        var nw=reg.installing; if(!nw) return;
+        nw.addEventListener('statechange', function(){
+          if(nw.state==='installed' && navigator.serviceWorker.controller){
+            // Ya había una versión activa: ha llegado una nueva → recarga para aplicarla.
+            if(!window.__utdReloadedForUpdate){ window.__utdReloadedForUpdate=true; location.reload(); }
+          }
+        });
+      });
+    }).catch(function(){});
+    var _refreshing=false;
+    navigator.serviceWorker.addEventListener('controllerchange', function(){
+      if(_refreshing) return; _refreshing=true;
+      if(!window.__utdReloadedForUpdate){ window.__utdReloadedForUpdate=true; location.reload(); }
+    });
+  });
+}
+</script>
 <div class="rs-scrim" id="roomScrim"></div>
 <div class="rs-sheet" id="roomSheet" role="dialog" aria-modal="true" aria-label="Elegir sala" aria-hidden="true">
   <button type="button" class="rs-grab" id="rsGrab" aria-label="Cerrar"></button>

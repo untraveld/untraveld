@@ -1,49 +1,29 @@
-/* untraveld — service worker (network-first, ámbito /app/)
-   Sube la versión cuando publiques cambios para forzar la actualización. */
-const VERSION = 'utd-v1';
-const SHELL = [
-  '/app/',
-  '/app/index.html',
-  '/app/manifest.webmanifest',
-  '/app/icon-192.png',
-  '/app/icon-512.png'
-];
-
-self.addEventListener('install', (e) => {
-  e.waitUntil(
-    caches.open(VERSION)
-      .then((c) => c.addAll(SHELL).catch(() => null))
-      .then(() => self.skipWaiting())
-  );
-});
-
-self.addEventListener('activate', (e) => {
-  e.waitUntil(
-    caches.keys()
-      .then((keys) => Promise.all(keys.filter((k) => k !== VERSION).map((k) => caches.delete(k))))
-      .then(() => self.clients.claim())
-  );
-});
-
-self.addEventListener('fetch', (e) => {
-  const req = e.request;
-  if (req.method !== 'GET') return;
-
-  const url = new URL(req.url);
-  if (url.origin !== self.location.origin) return;      // Firebase, tiles, Wikimedia: directo a la red
-  if (url.pathname.startsWith('/.netlify/')) return;    // funciones: nunca cacheadas
-
-  e.respondWith(
-    fetch(req)
-      .then((res) => {
-        if (res && res.status === 200 && res.type === 'basic') {
-          const copy = res.clone();
-          caches.open(VERSION).then((c) => c.put(req, copy));
-        }
-        return res;
-      })
-      .catch(() =>
-        caches.match(req).then((hit) => hit || (req.mode === 'navigate' ? caches.match('/app/index.html') : undefined))
-      )
-  );
+/* untraveld service worker */
+const CACHE='untraveld-v3';
+const SHELL=['./','./index.html','./manifest.webmanifest','./icon-192.png','./icon-512.png'];
+self.addEventListener('install', e=>{ e.waitUntil(caches.open(CACHE).then(c=>c.addAll(SHELL)).catch(()=>{})); self.skipWaiting(); });
+self.addEventListener('activate', e=>{ e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k!==CACHE).map(k=>caches.delete(k))))); self.clients.claim(); });
+self.addEventListener('message', e=>{ if(e.data==='skipWaiting') self.skipWaiting(); });
+self.addEventListener('fetch', e=>{
+  const req=e.request; if(req.method!=='GET') return;
+  const url=new URL(req.url);
+  if(url.origin===location.origin){
+    // El documento HTML (navegación) SIEMPRE fresco de la red, sin caché HTTP,
+    // para que un despliegue nuevo se vea sin trucos. Cae a caché solo sin conexión.
+    const isDoc = req.mode==='navigate' || (req.headers.get('accept')||'').indexOf('text/html')>=0;
+    if(isDoc){
+      e.respondWith(
+        fetch(new Request(req, {cache:'no-store'}))
+          .then(res=>{ const cp=res.clone(); caches.open(CACHE).then(c=>c.put(req,cp)).catch(()=>{}); return res; })
+          .catch(()=>caches.match(req).then(r=> r || caches.match('./index.html')))
+      );
+      return;
+    }
+    // Resto de recursos propios: red primero, caché de respaldo.
+    e.respondWith(
+      fetch(req).then(res=>{ const cp=res.clone(); caches.open(CACHE).then(c=>c.put(req,cp)).catch(()=>{}); return res; })
+        .catch(()=>caches.match(req).then(r=> r || caches.match('./index.html')))
+    );
+  }
+  /* cross-origin (mapas, Firebase): a la red directamente */
 });
