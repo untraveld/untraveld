@@ -5134,21 +5134,22 @@
       }).catch(function(){});
       pin.value='';
     });
-    // Delegación: un único listener en la lista, robusto a re-render de sus hijos.
-    var listEl=document.getElementById('roomList');
-    if(listEl) listEl.addEventListener('click', function(e){
-      var btn=e.target && e.target.closest && e.target.closest('.rs-opt'); if(!btn) return;
-      var room=btn.getAttribute('data-room');
-      if(room==='solo'){
-        if(!inGroupMode()){ closeRoomSheet(); return; } // ya estás en individual
-        closeRoomSheet(); utdGoSolo();
-      } else {
-        var code=btn.getAttribute('data-code');
-        if(inGroupMode() && code===myGroupId){ closeRoomSheet(); return; }
-        var g=loadMyGroups().find(function(x){ return x.code===code; });
-        if(g){ closeRoomSheet(); enterGroupRoom(g.code, g.country||'ES', (g.regions&&g.regions.length)?g.regions:[g.region||'murcia']); }
-      }
-    });
+    // Los listeners de cada tarjeta se ponen DIRECTOS en renderRoomList (ver rsPickRoom):
+    // en iOS la delegación de 'click' sobre el contenedor no dispara al tocar.
+  }
+  // Acción al elegir una sala (tarjeta de la hoja). Se engancha directamente a cada botón.
+  function rsPickRoom(btn){
+    if(!btn) return;
+    var room=btn.getAttribute('data-room');
+    if(room==='solo'){
+      if(!inGroupMode()){ closeRoomSheet(); return; } // ya estás en individual
+      closeRoomSheet(); utdGoSolo();
+    } else {
+      var code=btn.getAttribute('data-code');
+      if(inGroupMode() && code===myGroupId){ closeRoomSheet(); return; }
+      var g=loadMyGroups().find(function(x){ return x.code===code; });
+      if(g){ closeRoomSheet(); enterGroupRoom(g.code, g.country||'ES', (g.regions&&g.regions.length)?g.regions:[g.region||'murcia']); }
+    }
   }
   function renderRoomList(){
     var list=document.getElementById('roomList'); if(!list) return;
@@ -5187,7 +5188,10 @@
       paintAvatar(av, g.photo, '');
     });
     try{ if(window.applyI18n) window.applyI18n(list); }catch(e){}
-    // los clics se gestionan por delegación en wireRoomSheet (robusto a re-render)
+    // Listener DIRECTO en cada tarjeta (iOS no dispara la delegación de click al tocar).
+    Array.prototype.forEach.call(list.querySelectorAll('.rs-opt'), function(btn){
+      btn.addEventListener('click', function(){ rsPickRoom(btn); });
+    });
   }
   function openRoomSheet(){
     wireRoomSheet();
@@ -9505,7 +9509,7 @@
 
 <script>
 // Sello de versión: sirve para confirmar qué build está realmente desplegado.
-window.UTD_BUILD='2026-08-25 · salas v3.3';
+window.UTD_BUILD='2026-08-25 · salas v3.4';
 try{ console.log('untraveld build: '+window.UTD_BUILD); }catch(e){}
 if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/app/sw.js",{scope:"/app/"}).catch(function(){});});}
 </script>
