@@ -163,6 +163,7 @@
     max-height:86vh; display:flex; flex-direction:column;
   }
   .rs-sheet.open{ transform:translateY(0); }
+  .rs-ver{ text-align:center; font-size:9.5px; color:var(--text-mid,#9a8b78); opacity:.55; margin:6px 0 0; letter-spacing:.02em; }
   .rs-grab{ display:block; width:44px; height:5px; border:none; padding:14px 40px; box-sizing:content-box;
     background:var(--line); background-clip:content-box; border-radius:100px; margin:2px auto 4px; cursor:pointer; }
   .rs-title{ font-family:var(--display); font-weight:700; font-size:19px; margin:2px 4px 4px; }
@@ -5191,6 +5192,7 @@
   function openRoomSheet(){
     wireRoomSheet();
     rsShowPanel('main');
+    try{ var _v=document.getElementById('rsVer'); if(_v && window.UTD_BUILD) _v.textContent=window.UTD_BUILD; }catch(e){}
     renderRoomList();
     var s=document.getElementById('roomSheet'), sc=document.getElementById('roomScrim');
     if(s){ s.classList.add('open'); s.setAttribute('aria-hidden','false'); }
@@ -9503,7 +9505,7 @@
 
 <script>
 // Sello de versión: sirve para confirmar qué build está realmente desplegado.
-window.UTD_BUILD='2026-08-25 · salas v3.2 (fix hoja iOS)';
+window.UTD_BUILD='2026-08-25 · salas v3.3';
 try{ console.log('untraveld build: '+window.UTD_BUILD); }catch(e){}
 if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/app/sw.js",{scope:"/app/"}).catch(function(){});});}
 </script>
@@ -9558,6 +9560,7 @@ if("serviceWorker" in navigator){window.addEventListener("load",function(){navig
       <p class="rs-sub" style="margin-top:12px;" data-tr="¿Tienes un enlace de invitación? Ábrelo y entrarás directo al viaje.">¿Tienes un enlace de invitación? Ábrelo y entrarás directo al viaje.</p>
     </div>
   </div>
+  <div class="rs-ver" id="rsVer"></div>
 </div>
 </div>
 <div id="legalOverlay" aria-hidden="true"><div class="legal-bar"><button class="legal-close" id="legalClose" aria-label="Cerrar">✕</button><div class="legal-langs"><button id="legalEs" class="on">ES</button><button id="legalEn">EN</button></div></div><div class="legal-scroll"><div class="legal-wrap"><div class="legal-doc" data-doc="terminos" hidden><div class="legal-lang" data-l="es"><div class="legal-head"><div class="legal-brand">untraveld</div><h1>Términos de Uso y Licencia</h1><div class="legal-upd">Última actualización: 20 de agosto de 2026</div></div><p>Estos términos regulan el uso de la aplicación <b>untraveld</b> (la «App») y constituyen el contrato de licencia de usuario final entre tú y <span class="ph">[NOMBRE Y APELLIDOS O RAZÓN SOCIAL]</span> (en adelante, «nosotros»). Al descargar, instalar o usar la App aceptas estos términos. Si no estás de acuerdo, no la uses.</p>
