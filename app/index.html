@@ -146,14 +146,16 @@
   }
 
   /* ---------- Hoja "¿Dónde quieres explorar?" ---------- */
+  /* iOS-safe: el velo es el ÚNICO position:fixed y contiene la hoja como hijo.
+     (Dos fixed hermanos con transform rompen el z-index/hit-testing en Safari iOS.) */
   .rs-scrim{
     position:fixed; inset:0; z-index:100000; background:rgba(26,17,12,.44);
     opacity:0; pointer-events:none; transition:opacity .26s;
+    display:flex; align-items:flex-end; justify-content:center; overflow:hidden; cursor:pointer;
   }
   .rs-scrim.open{ opacity:1; pointer-events:auto; }
   .rs-sheet{
-    position:fixed; left:0; right:0; bottom:0; z-index:100001;
-    max-width:520px; margin:0 auto;
+    position:relative; width:100%; max-width:520px; cursor:auto;
     background:var(--bg-panel,#fff); color:var(--text-hi,#1c1a18);
     border-radius:26px 26px 0 0; box-shadow:0 -14px 40px rgba(58,36,28,.24);
     transform:translateY(102%); transition:transform .3s cubic-bezier(.32,.72,.24,1);
@@ -5097,7 +5099,8 @@
     var grab=document.getElementById('rsGrab');
     if(chip) chip.addEventListener('click', openRoomSheet);
     if(chipM) chipM.addEventListener('click', openRoomSheet);
-    if(scrim) scrim.addEventListener('click', closeRoomSheet);
+    // La hoja está DENTRO del velo: cerrar solo si el toque es en el fondo, no en la hoja.
+    if(scrim) scrim.addEventListener('click', function(e){ if(e.target===scrim) closeRoomSheet(); });
     if(grab) grab.addEventListener('click', closeRoomSheet);
     // Escape cierra la hoja
     document.addEventListener('keydown', function(e){
@@ -9500,11 +9503,11 @@
 
 <script>
 // Sello de versión: sirve para confirmar qué build está realmente desplegado.
-window.UTD_BUILD='2026-08-25 · salas v3.1 (fix arranque)';
+window.UTD_BUILD='2026-08-25 · salas v3.2 (fix hoja iOS)';
 try{ console.log('untraveld build: '+window.UTD_BUILD); }catch(e){}
 if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/app/sw.js",{scope:"/app/"}).catch(function(){});});}
 </script>
-<div class="rs-scrim" id="roomScrim"></div>
+<div class="rs-scrim" id="roomScrim">
 <div class="rs-sheet" id="roomSheet" role="dialog" aria-modal="true" aria-label="Elegir sala" aria-hidden="true">
   <button type="button" class="rs-grab" id="rsGrab" aria-label="Cerrar"></button>
 
@@ -9555,6 +9558,7 @@ if("serviceWorker" in navigator){window.addEventListener("load",function(){navig
       <p class="rs-sub" style="margin-top:12px;" data-tr="¿Tienes un enlace de invitación? Ábrelo y entrarás directo al viaje.">¿Tienes un enlace de invitación? Ábrelo y entrarás directo al viaje.</p>
     </div>
   </div>
+</div>
 </div>
 <div id="legalOverlay" aria-hidden="true"><div class="legal-bar"><button class="legal-close" id="legalClose" aria-label="Cerrar">✕</button><div class="legal-langs"><button id="legalEs" class="on">ES</button><button id="legalEn">EN</button></div></div><div class="legal-scroll"><div class="legal-wrap"><div class="legal-doc" data-doc="terminos" hidden><div class="legal-lang" data-l="es"><div class="legal-head"><div class="legal-brand">untraveld</div><h1>Términos de Uso y Licencia</h1><div class="legal-upd">Última actualización: 20 de agosto de 2026</div></div><p>Estos términos regulan el uso de la aplicación <b>untraveld</b> (la «App») y constituyen el contrato de licencia de usuario final entre tú y <span class="ph">[NOMBRE Y APELLIDOS O RAZÓN SOCIAL]</span> (en adelante, «nosotros»). Al descargar, instalar o usar la App aceptas estos términos. Si no estás de acuerdo, no la uses.</p>
 
