@@ -115,6 +115,91 @@
     --violet-deep: #6F4A0C;
   }
 
+  /* ---------- Chip de contexto (sala actual + cambiar) ---------- */
+  .ctx-chip{
+    display:inline-flex; align-items:center; gap:8px; flex:none; cursor:pointer;
+    border:1px solid var(--line); background:var(--bg-panel);
+    padding:6px 10px 6px 7px; border-radius:100px;
+    box-shadow:0 2px 8px rgba(58,36,28,.08);
+    transition:border-color .16s, box-shadow .16s, transform .1s;
+  }
+  .ctx-chip:active{ transform:scale(.98); }
+  .ctx-chip .ctx-dot{
+    width:22px; height:22px; border-radius:50%; flex:none;
+    display:flex; align-items:center; justify-content:center;
+    font-size:12px; line-height:1; background:var(--violet); color:#fff;
+  }
+  .ctx-chip .ctx-lab{ display:flex; flex-direction:column; line-height:1.04; text-align:left; }
+  .ctx-chip .ctx-k{
+    font-family:var(--body); font-size:8px; font-weight:700; letter-spacing:.09em;
+    text-transform:uppercase; color:var(--text-mid,#9a8b78);
+  }
+  .ctx-chip .ctx-v{
+    font-family:var(--body); font-size:12px; font-weight:700; color:var(--text-hi,#1c1a18);
+    max-width:104px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+  }
+  .ctx-chip .ctx-cv{ font-size:9px; color:var(--text-mid,#9a8b78); opacity:.8; }
+  .ctx-chip-map{
+    position:absolute; top:calc(env(safe-area-inset-top) + 14px);
+    left:calc(14px + 46px + 10px); z-index:600;
+    box-shadow:0 4px 14px rgba(58,36,28,.18);
+  }
+
+  /* ---------- Hoja "¿Dónde quieres explorar?" ---------- */
+  .rs-scrim{
+    position:fixed; inset:0; z-index:100000; background:rgba(26,17,12,.44);
+    opacity:0; pointer-events:none; transition:opacity .26s;
+  }
+  .rs-scrim.open{ opacity:1; pointer-events:auto; }
+  .rs-sheet{
+    position:fixed; left:0; right:0; bottom:0; z-index:100001;
+    max-width:520px; margin:0 auto;
+    background:var(--bg-panel,#fff); color:var(--text-hi,#1c1a18);
+    border-radius:26px 26px 0 0; box-shadow:0 -14px 40px rgba(58,36,28,.24);
+    transform:translateY(102%); transition:transform .3s cubic-bezier(.32,.72,.24,1);
+    padding:8px 16px calc(20px + env(safe-area-inset-bottom));
+    max-height:86vh; display:flex; flex-direction:column;
+  }
+  .rs-sheet.open{ transform:translateY(0); }
+  .rs-grab{ width:40px; height:4px; border-radius:100px; background:var(--line); margin:8px auto 10px; }
+  .rs-title{ font-family:var(--display); font-weight:700; font-size:19px; margin:2px 4px 4px; }
+  .rs-sub{ font-size:12.5px; color:var(--text-mid,#9a8b78); margin:0 4px 14px; }
+  .rs-list{ overflow-y:auto; display:flex; flex-direction:column; gap:9px; padding-bottom:2px; -webkit-overflow-scrolling:touch; }
+  .rs-lbl{ font-size:9.5px; font-weight:700; letter-spacing:.13em; text-transform:uppercase; color:var(--text-mid,#9a8b78); opacity:.75; margin:9px 4px 2px; }
+  .rs-opt{
+    display:flex; align-items:center; gap:12px; width:100%; text-align:left;
+    background:var(--bg-panel,#fff); border:1px solid var(--line); border-radius:16px;
+    padding:12px 13px; cursor:pointer; font-family:var(--body); color:var(--text-hi,#1c1a18);
+    transition:border-color .16s, background .16s, transform .1s;
+  }
+  .rs-opt:active{ transform:scale(.99); }
+  .rs-opt.here{ border-color:#C9622F; background:rgba(201,98,47,.10); }
+  .rs-opt .rs-av{
+    width:38px; height:38px; border-radius:12px; flex:none; display:flex;
+    align-items:center; justify-content:center; font-size:15px; color:#fff; font-weight:700;
+    background:linear-gradient(135deg, #C9622F, #8A3A1F);
+  }
+  .rs-opt.rs-gr .rs-av{ background:linear-gradient(135deg, #9A6B18, #6F4A0C); font-family:var(--display); font-size:14px; }
+  .rs-opt .rs-txt{ flex:1; min-width:0; display:flex; flex-direction:column; }
+  .rs-opt .rs-nm{ font-weight:700; font-size:14px; line-height:1.2; }
+  .rs-opt .rs-ds{ font-size:11.5px; color:var(--text-mid,#9a8b78); margin-top:1px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .rs-opt .rs-go{ margin-left:auto; color:var(--text-mid,#9a8b78); opacity:.6; font-size:16px; flex:none; }
+  .rs-here-badge{
+    margin-left:auto; flex:none; font-size:9px; font-weight:700; letter-spacing:.07em; text-transform:uppercase;
+    color:#C9622F; background:var(--bg-panel,#fff); border:1px solid #C9622F;
+    padding:3px 8px; border-radius:100px;
+  }
+  .rs-opt.rs-gr.here{ border-color:#9A6B18; background:rgba(154,107,24,.12); }
+  .rs-opt.rs-gr .rs-here-badge{ color:#9A6B18; border-color:#9A6B18; }
+  .rs-acts{ display:flex; gap:9px; margin-top:12px; }
+  .rs-acts button{
+    flex:1; border-radius:13px; padding:12px 10px; font-family:var(--body);
+    font-weight:600; font-size:12.5px; cursor:pointer; border:1px dashed var(--line);
+    background:var(--bg-panel-2,#f7f1e8); color:var(--text-hi,#1c1a18);
+    transition:border-color .16s, color .16s;
+  }
+  .rs-acts button:active{ transform:scale(.99); }
+
   .city-chip{
     font-size:11px; letter-spacing:1.5px; text-transform:uppercase;
     color: var(--text-mid); border:1px solid var(--line); padding:5px 10px; border-radius:100px;
@@ -2166,11 +2251,11 @@
         <div class="brand-mark"><img id="mainBrandLogo" alt="untraveld" alt="untraveld" style="width:100%;height:100%;object-fit:contain;"></div>
         <div class="brand-name">un<b>traveld</b></div>
       </div>
-      <div class="mode-switch" id="modeSwitchTop">
-        <button class="ms-opt" data-mode="solo" data-tr="Individual">Individual</button>
-        <button class="ms-opt" data-mode="group" data-tr="Grupo">Grupo</button>
-      </div>
-      <button class="city-chip" id="cityChip">Grupo <span class="chev">▾</span></button>
+      <button class="ctx-chip" id="ctxChip" aria-haspopup="dialog" title="Cambiar de sala">
+        <span class="ctx-dot" id="ctxDot">👤</span>
+        <span class="ctx-lab"><span class="ctx-k" id="ctxK" data-tr="Individual">Individual</span><span class="ctx-v" id="ctxV">—</span></span>
+        <span class="ctx-cv">▾</span>
+      </button>
       <button class="topback" id="topMenu" title="Secciones" style="margin-left:10px;">☰</button>
     </div>
 
@@ -2183,10 +2268,11 @@
         <button class="map-fab" id="fabLocate" title="Centrar en mí">➤</button>
       </div>
       <div class="map-brand">un<b>traveld</b></div>
-      <div class="mode-switch map-mode-switch" id="modeSwitchMap">
-        <button class="ms-opt" data-mode="solo" data-tr="Individual">Individual</button>
-        <button class="ms-opt" data-mode="group" data-tr="Grupo">Grupo</button>
-      </div>
+      <button class="ctx-chip ctx-chip-map" id="ctxChipMap" aria-haspopup="dialog" title="Cambiar de sala">
+        <span class="ctx-dot" id="ctxDotMap">👤</span>
+        <span class="ctx-lab"><span class="ctx-k" id="ctxKMap" data-tr="Individual">Individual</span><span class="ctx-v" id="ctxVMap">—</span></span>
+        <span class="ctx-cv">▾</span>
+      </button>
       <div class="map-legend">
         <div class="lg-title" data-tr="Tipos de punto">Tipos de punto</div>
         <div class="lg-row"><span class="lg-dot" style="background:var(--map-red)"></span><span data-tr="Monumentos y plazas">Monumentos y plazas</span></div>
@@ -4749,6 +4835,14 @@
       if(!window.TR_MAP['Grupo']) window.TR_MAP['Grupo'] = 'Group';
       if(!window.TR_MAP['No se pudo cambiar de modo. Inténtalo de nuevo.'])
         window.TR_MAP['No se pudo cambiar de modo. Inténtalo de nuevo.'] = 'Could not switch mode. Please try again.';
+      var _rsTr={
+        'Viaje':'Trip', 'Tu viaje':'Your trip',
+        '¿Dónde quieres explorar?':'Where do you want to explore?',
+        'Elige tu sala. Puedes cambiar cuando quieras.':'Choose your room. You can switch anytime.',
+        'Tu exploración privada':'Your private space', 'Aquí':'Here',
+        'Mis viajes':'My trips', 'Crear viaje':'Create trip', 'Unirme con código':'Join with a code'
+      };
+      for(var _k in _rsTr){ if(!window.TR_MAP[_k]) window.TR_MAP[_k]=_rsTr[_k]; }
     }
   }catch(e){}
 
@@ -4819,13 +4913,105 @@
     try{ location.reload(); }catch(e){}
   }
 
-  // Un solo manejador para los dos conmutadores (barra superior y mapa)
+  // Un solo manejador para los dos conmutadores (barra superior y mapa) — legado
   document.addEventListener('click', function(e){
     var b = e.target && e.target.closest && e.target.closest('.mode-switch .ms-opt');
     if(!b) return;
     e.preventDefault();
     utdSwitchMode(b.getAttribute('data-mode'));
   });
+
+  // ---------- Chip de contexto + hoja "¿Dónde quieres explorar?" ----------
+  // Nombre corto del territorio actual (individual). En multi-región, une los nombres.
+  function currentTerritoryName(){
+    try{ if(typeof REGION_NAME==='string' && REGION_NAME) return REGION_NAME; }catch(e){}
+    try{ return NAME_BY_REGION[ACTIVE_REGION] || ACTIVE_REGION; }catch(e){}
+    return TR('Individual');
+  }
+  // Pinta el/los chip(s) de contexto según la sala actual.
+  function renderCtxChip(){
+    var group = inGroupMode();
+    var k = group ? TR('Viaje') : TR('Individual');
+    var v = group ? ((groupState && groupState.name) || TR('Tu viaje')) : currentTerritoryName();
+    var dot = group ? '👥' /*👥*/ : '👤' /*👤*/;
+    [['ctxDot','ctxK','ctxV','ctxChip'],['ctxDotMap','ctxKMap','ctxVMap','ctxChipMap']].forEach(function(ids){
+      var d=document.getElementById(ids[0]), kk=document.getElementById(ids[1]), vv=document.getElementById(ids[2]), ch=document.getElementById(ids[3]);
+      if(d) d.textContent=dot;
+      if(kk){ kk.textContent=k; kk.removeAttribute('data-tr'); }
+      if(vv) vv.textContent=v;
+      if(ch) ch.classList.toggle('mode-group-chip', group);
+    });
+  }
+  var _rsWired=false;
+  function wireRoomSheet(){
+    if(_rsWired) return; _rsWired=true;
+    var chip=document.getElementById('ctxChip'), chipM=document.getElementById('ctxChipMap');
+    var scrim=document.getElementById('roomScrim'), c=document.getElementById('rsCreate'), j=document.getElementById('rsJoin');
+    if(chip) chip.addEventListener('click', openRoomSheet);
+    if(chipM) chipM.addEventListener('click', openRoomSheet);
+    if(scrim) scrim.addEventListener('click', closeRoomSheet);
+    if(c) c.addEventListener('click', function(){ closeRoomSheet(); showTab('group'); try{ gpOpenCreate(); }catch(e){} });
+    if(j) j.addEventListener('click', function(){ closeRoomSheet(); showTab('group'); try{ gpOpenJoin(); }catch(e){} });
+    // Delegación: un único listener en la lista, robusto a re-render de sus hijos.
+    var listEl=document.getElementById('roomList');
+    if(listEl) listEl.addEventListener('click', function(e){
+      var btn=e.target && e.target.closest && e.target.closest('.rs-opt'); if(!btn) return;
+      var room=btn.getAttribute('data-room');
+      if(room==='solo'){
+        if(!inGroupMode()){ closeRoomSheet(); return; } // ya estás en individual
+        closeRoomSheet(); utdGoSolo();
+      } else {
+        var code=btn.getAttribute('data-code');
+        if(inGroupMode() && code===myGroupId){ closeRoomSheet(); return; }
+        var g=loadMyGroups().find(function(x){ return x.code===code; });
+        if(g){ closeRoomSheet(); enterGroupRoom(g.code, g.country||'ES', (g.regions&&g.regions.length)?g.regions:[g.region||'murcia']); }
+      }
+    });
+  }
+  function renderRoomList(){
+    var list=document.getElementById('roomList'); if(!list) return;
+    var group=inGroupMode();
+    var html='';
+    // Individual siempre primero
+    var terr=escapeHtml(currentTerritoryName());
+    html+='<button type="button" class="rs-opt'+(!group?' here':'')+'" data-room="solo">'
+      + '<span class="rs-av">👤</span>'
+      + '<span class="rs-txt"><span class="rs-nm">'+escapeHtml(TR('Individual'))+'</span>'
+      + '<span class="rs-ds">'+escapeHtml(TR('Tu exploración privada'))+' · '+terr+'</span></span>'
+      + (!group?('<span class="rs-here-badge">'+escapeHtml(TR('Aquí'))+'</span>'):'<span class="rs-go">→</span>')
+      + '</button>';
+    var mios=loadMyGroups();
+    if(mios.length){
+      html+='<div class="rs-lbl" data-tr="Mis viajes">'+escapeHtml(TR('Mis viajes'))+'</div>';
+      html+=mios.map(function(g){
+        var here=group && g.code===myGroupId;
+        var ini=escapeHtml((g.name||g.code).trim().slice(0,2).toUpperCase());
+        var regs=(g.regions&&g.regions.length)?g.regions:[g.region||'murcia'];
+        var place=escapeHtml(regs.map(function(r){ return NAME_BY_REGION[r]||r; }).join(' · '));
+        return '<button type="button" class="rs-opt rs-gr'+(here?' here':'')+'" data-room="group" data-code="'+escapeHtml(g.code)+'">'
+          + '<span class="rs-av">'+ini+'</span>'
+          + '<span class="rs-txt"><span class="rs-nm">'+escapeHtml(g.name||g.code)+'</span>'
+          + '<span class="rs-ds">'+place+'</span></span>'
+          + (here?('<span class="rs-here-badge">'+escapeHtml(TR('Aquí'))+'</span>'):'<span class="rs-go">→</span>')
+          + '</button>';
+      }).join('');
+    }
+    list.innerHTML=html;
+    try{ if(window.applyI18n) window.applyI18n(list); }catch(e){}
+    // los clics se gestionan por delegación en wireRoomSheet (robusto a re-render)
+  }
+  function openRoomSheet(){
+    wireRoomSheet();
+    renderRoomList();
+    var s=document.getElementById('roomSheet'), sc=document.getElementById('roomScrim');
+    if(s){ s.classList.add('open'); s.setAttribute('aria-hidden','false'); }
+    if(sc) sc.classList.add('open');
+  }
+  function closeRoomSheet(){
+    var s=document.getElementById('roomSheet'), sc=document.getElementById('roomScrim');
+    if(s){ s.classList.remove('open'); s.setAttribute('aria-hidden','true'); }
+    if(sc) sc.classList.remove('open');
+  }
 
   // ---------- GRUPOS (entorno colaborativo) ----------
   function renderGrupos(){
@@ -8306,7 +8492,7 @@
       cerrarMenu();
       showTab(item.dataset.goto);
     });
-    document.getElementById('cityChip').addEventListener('click', ()=> showTab('group'));
+    try{ wireRoomSheet(); }catch(e){}
     var _cdb=document.getElementById('cuentaDeleteBtn');
     if(_cdb) _cdb.addEventListener('click', function(){
       if(!_cdb.__armed){
@@ -8490,6 +8676,7 @@
     try{ await reconcileSoloMemories(); }catch(e){}
     window.UTD_CURRENT_GROUP = myGroupId || '';
     try{ utdSyncMode(); }catch(e){}
+    try{ renderCtxChip(); }catch(e){}
     document.getElementById('onboarding').classList.remove('active');
     document.getElementById('main').classList.add('active');
     renderGrid();
@@ -8835,28 +9022,35 @@
       });
     });
   }
+  function _runSuggest(){
+    if(window.__utdSuggestedThisSession) return;
+    window.__utdSuggestedThisSession=true; // marcamos ya: solo una propuesta por sesión
+    geoOnce(8000).then(function(pos){
+      if(!pos) return;
+      _allTerritories().then(function(terrs){
+        var hit=findNearestTerritory(pos.lat, pos.lng, terrs);
+        if(!hit) return;
+        if(selection && selection.region===hit.id) return; // ya está ahí
+        var en=_isEN();
+        var msg=en ? ('It looks like you’re in '+hit.name+'. Switch to '+hit.name+'?')
+                   : ('Parece que estás en '+hit.name+'. ¿Cambiar a '+hit.name+'?');
+        utdAsk(msg, en?'Yes, switch':'Sí, cambiar', en?'Stay here':'Seguir aquí').then(function(yes){
+          if(yes){ chooseRegion(hit.country, hit.id); }
+        });
+      });
+    });
+  }
   function maybeSuggestTerritory(){
     try{ if(localStorage.getItem('utd-mode')==='group') return; }catch(e){}
     if(window.__utdSuggestedThisSession) return;
-    if(!navigator.permissions || !navigator.permissions.query) return;
+    // Sin API de permisos: intentamos directamente (el navegador pedirá permiso si hace falta).
+    if(!navigator.permissions || !navigator.permissions.query){ _runSuggest(); return; }
     navigator.permissions.query({name:'geolocation'}).then(function(st){
-      if(!st || st.state!=='granted') return; // no pedir permiso de forma proactiva
-      window.__utdSuggestedThisSession=true;
-      geoOnce(8000).then(function(pos){
-        if(!pos) return;
-        _allTerritories().then(function(terrs){
-          var hit=findNearestTerritory(pos.lat, pos.lng, terrs);
-          if(!hit) return;
-          if(selection && selection.region===hit.id) return;
-          var en=_isEN();
-          var msg=en ? ('It looks like you’re in '+hit.name+'. Switch to '+hit.name+'?')
-                     : ('Parece que estás en '+hit.name+'. ¿Cambiar a '+hit.name+'?');
-          utdAsk(msg, en?'Yes, switch':'Sí, cambiar', en?'Stay here':'Seguir aquí').then(function(yes){
-            if(yes){ chooseRegion(hit.country, hit.id); }
-          });
-        });
-      });
-    }).catch(function(){});
+      // Preguntar al entrar si el permiso está concedido o aún sin decidir.
+      // Si el usuario ya lo denegó explícitamente, respetamos su decisión y no insistimos.
+      if(st && st.state==='denied') return;
+      _runSuggest();
+    }).catch(function(){ _runSuggest(); });
   }
 
   // ---------- bridge into the underlying Murcia app ----------
@@ -9082,6 +9276,17 @@
 </script>
 
 <script>if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/app/sw.js",{scope:"/app/"}).catch(function(){});});}</script>
+<div class="rs-scrim" id="roomScrim"></div>
+<div class="rs-sheet" id="roomSheet" role="dialog" aria-modal="true" aria-label="Elegir sala" aria-hidden="true">
+  <div class="rs-grab"></div>
+  <h3 class="rs-title" data-tr="¿Dónde quieres explorar?">¿Dónde quieres explorar?</h3>
+  <p class="rs-sub" data-tr="Elige tu sala. Puedes cambiar cuando quieras.">Elige tu sala. Puedes cambiar cuando quieras.</p>
+  <div class="rs-list" id="roomList"></div>
+  <div class="rs-acts">
+    <button type="button" id="rsCreate"><span aria-hidden="true">＋ </span><span data-tr="Crear viaje">Crear viaje</span></button>
+    <button type="button" id="rsJoin" data-tr="Unirme con código">Unirme con código</button>
+  </div>
+</div>
 <div id="legalOverlay" aria-hidden="true"><div class="legal-bar"><button class="legal-close" id="legalClose" aria-label="Cerrar">✕</button><div class="legal-langs"><button id="legalEs" class="on">ES</button><button id="legalEn">EN</button></div></div><div class="legal-scroll"><div class="legal-wrap"><div class="legal-doc" data-doc="terminos" hidden><div class="legal-lang" data-l="es"><div class="legal-head"><div class="legal-brand">untraveld</div><h1>Términos de Uso y Licencia</h1><div class="legal-upd">Última actualización: 20 de agosto de 2026</div></div><p>Estos términos regulan el uso de la aplicación <b>untraveld</b> (la «App») y constituyen el contrato de licencia de usuario final entre tú y <span class="ph">[NOMBRE Y APELLIDOS O RAZÓN SOCIAL]</span> (en adelante, «nosotros»). Al descargar, instalar o usar la App aceptas estos términos. Si no estás de acuerdo, no la uses.</p>
 
 <h2>1. Qué es untraveld</h2>
