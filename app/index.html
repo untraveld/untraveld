@@ -5092,14 +5092,26 @@
     enterGroupRoom(code, g.country||'ES', (g.regions&&g.regions.length)?g.regions:[g.region||'murcia']);
   }
 
-  var _rsWired=false;
-  function wireRoomSheet(){
-    if(_rsWired) return; _rsWired=true;
+  // El chip está en la barra superior (parseado pronto). Se engancha por separado
+  // porque en regiones inline enterApp corre antes de parsear el DOM de la hoja (al final del body).
+  var _chipsWired=false;
+  function wireChips(){
+    if(_chipsWired) return;
     var chip=document.getElementById('ctxChip'), chipM=document.getElementById('ctxChipMap');
-    var scrim=document.getElementById('roomScrim'), c=document.getElementById('rsCreate'), j=document.getElementById('rsJoin');
-    var grab=document.getElementById('rsGrab');
+    if(!chip && !chipM) return;
+    _chipsWired=true;
     if(chip) chip.addEventListener('click', openRoomSheet);
     if(chipM) chipM.addEventListener('click', openRoomSheet);
+  }
+  var _rsWired=false;
+  function wireRoomSheet(){
+    if(_rsWired) return;
+    var scrim=document.getElementById('roomScrim'), c=document.getElementById('rsCreate'), j=document.getElementById('rsJoin');
+    var grab=document.getElementById('rsGrab');
+    // Si el DOM de la hoja aún no existe, NO marcamos como hecho: se reintenta al abrir la hoja.
+    if(!scrim || !c || !j || !grab) return;
+    _rsWired=true;
+    wireChips();
     // La hoja está DENTRO del velo: cerrar solo si el toque es en el fondo, no en la hoja.
     if(scrim) scrim.addEventListener('click', function(e){ if(e.target===scrim) closeRoomSheet(); });
     if(grab) grab.addEventListener('click', closeRoomSheet);
@@ -5636,14 +5648,28 @@
   let mapEncuadrado = false;   // solo encuadramos automáticamente la primera vez
   let watchId = null;          // seguimiento continuo de la posición mientras el mapa está abierto
 
+  // Capa base del mapa. CARTO pasó a exigir API key para sus teselas (aparecía
+  // "API KEY REQUIRED" en el mapa), así que usamos OpenStreetMap (gratis, sin key).
+  // Si algún día se pone una clave de CARTO (localStorage 'utd-carto-key'), se usa el
+  // estilo minimalista Voyager con esa clave.
+  function addBaseTiles(map){
+    var key=''; try{ key=localStorage.getItem('utd-carto-key')||''; }catch(e){}
+    if(key){
+      L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png?api_key='+encodeURIComponent(key), {
+        maxZoom:20, subdomains:'abcd',
+        attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'
+      }).addTo(map);
+    } else {
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom:19, subdomains:'abc',
+        attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+      }).addTo(map);
+    }
+  }
   function ensureLeafletMap(){
     if(leafletMap) return;
     leafletMap = L.map('leafletMap', { attributionControl: true, zoomControl: false, rotate: true, touchRotate: true, rotateControl: false, bearing: 0 });
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-      maxZoom: 20,
-      subdomains: 'abcd',
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'
-    }).addTo(leafletMap);
+    addBaseTiles(leafletMap);
     leafletMarkersLayer = L.layerGroup().addTo(leafletMap);
     leafletYouLayer = L.layerGroup().addTo(leafletMap);
   }
@@ -7152,7 +7178,7 @@
     try{
       var mapDiv=document.getElementById('dayMap');
       _dayMap=L.map(mapDiv,{ zoomControl:false, attributionControl:false, scrollWheelZoom:false });
-      L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',{ maxZoom:20, subdomains:'abcd' }).addTo(_dayMap);
+      addBaseTiles(_dayMap);
       if(latlngs.length>=2){ L.polyline(latlngs,{ color:'#C9622F', weight:5, opacity:0.9, lineJoin:'round', lineCap:'round' }).addTo(_dayMap); }
       visited.forEach(function(v,idx){
         var ic=L.divIcon({ className:'', html:'<div class="day-route-pin">'+(idx+1)+'</div>', iconSize:[26,26], iconAnchor:[13,13] });
@@ -8715,7 +8741,7 @@
       cerrarMenu();
       showTab(item.dataset.goto);
     });
-    try{ wireRoomSheet(); }catch(e){}
+    try{ wireChips(); wireRoomSheet(); }catch(e){}
     var _cdb=document.getElementById('cuentaDeleteBtn');
     if(_cdb) _cdb.addEventListener('click', function(){
       if(!_cdb.__armed){
@@ -8841,6 +8867,19 @@
     const savedName = loadMyName();
     const savedGroupId = loadMyGroupId();
     if(savedName && savedGroupId){
+      var _wasGroup=false; try{ _wasGroup=localStorage.getItem('utd-mode')==='group'; }catch(e){}
+      var _localG = loadMyGroups().find(function(x){ return x.code===savedGroupId; });
+      // Si estábamos en un grupo y lo tenemos guardado en el dispositivo, entramos YA con esos
+      // datos (rápido y sin depender de una lectura de red lenta); Firebase sincroniza después.
+      if(_wasGroup && _localG){
+        myName = savedName; myGroupId = savedGroupId;
+        var _regs=(_localG.regions&&_localG.regions.length)?_localG.regions:[_localG.region||'murcia'];
+        groupState = { name:_localG.name, kind:'group', code:savedGroupId, country:_localG.country||'ES',
+                       region:_regs[0], regions:_regs, members:{}, contributions:{} };
+        loadGroupById(savedGroupId).then(function(g){ if(g){ groupState=g; try{ renderCtxChip(); }catch(e){} } }).catch(function(){});
+        await enterApp();
+        return;
+      }
       const g = await loadGroupById(savedGroupId);
       if(g){
         myName = savedName;
@@ -9509,7 +9548,7 @@
 
 <script>
 // Sello de versión: sirve para confirmar qué build está realmente desplegado.
-window.UTD_BUILD='2026-08-25 · salas v3.4';
+window.UTD_BUILD='2026-08-25 · salas v3.7';
 try{ console.log('untraveld build: '+window.UTD_BUILD); }catch(e){}
 if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/app/sw.js",{scope:"/app/"}).catch(function(){});});}
 </script>
