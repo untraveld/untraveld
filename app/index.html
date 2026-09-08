@@ -5662,7 +5662,9 @@
   // Si algún día se pone una clave de CARTO (localStorage 'utd-carto-key'), se usa el
   // estilo minimalista Voyager con esa clave.
   function addBaseTiles(map){
-    var key=''; try{ key=localStorage.getItem('utd-carto-key')||''; }catch(e){}
+    // Clave gratuita de CARTO (nivel 5M teselas/mes) para el mapa minimalista Voyager de siempre.
+    var key='cb1_31yg_1_945450b8884a4996d4e485e1';
+    try{ var _k=localStorage.getItem('utd-carto-key'); if(_k) key=_k; }catch(e){}
     if(key){
       L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png?key='+encodeURIComponent(key), {
         maxZoom:20, subdomains:'abcd',
@@ -9561,7 +9563,7 @@
 
 <script>
 // Sello de versión: sirve para confirmar qué build está realmente desplegado.
-window.UTD_BUILD='2026-08-25 · salas v3.9';
+window.UTD_BUILD='2026-08-25 · salas v4.0 (mapa Voyager)';
 try{ console.log('untraveld build: '+window.UTD_BUILD); }catch(e){}
 if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/app/sw.js",{scope:"/app/"}).catch(function(){});});}
 </script>
