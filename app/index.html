@@ -433,6 +433,9 @@
   }
   .leaflet-div-icon{background:transparent; border:none;}
   .leaflet-container{font-family:var(--body); background:var(--fog);}
+  /* Suaviza el mapa base de OpenStreetMap (menos saturado y ruidoso). Solo afecta a las
+     teselas OSM; los marcadores de puntos van en otra capa y quedan nítidos. */
+  .utd-mutemap{ filter:saturate(0.45) brightness(1.05) contrast(0.92); }
   .leaflet-popup-content, .leaflet-control-attribution{font-family:var(--body); font-size:10.5px;}
   .map-pin{
     width:20px; height:20px; border-radius:50%; box-sizing:border-box;
@@ -5277,6 +5280,12 @@
     renderSavedGroups();
   }
   var CANADA_REGIONS=['toronto','niagara','baptiste'], SPAIN_REGIONS=[], ARGENTINA_REGIONS=['buenosaires','mendoza','catamarca','tucuman','bariloche','calafate','iguazu'], USA_REGIONS=['miami'], ITALY_REGIONS=['roma'], WORLD_REGIONS=[];
+  // Territorios del mundo añadidos inline (sus POIs viven en data/t/<id>.json). Se registran
+  // aquí para que countryOfRegion/WORLD_REGIONS/NAME_BY_REGION los reconozcan sin tocar el catálogo.
+  try{
+    _regCatalogEntry({ id:'ginebra', name:'Ginebra', country:'WORLD', center:[46.2044,6.1432] });
+    _regCatalogEntry({ id:'lausana', name:'Lausana', country:'WORLD', center:[46.5197,6.6323] });
+  }catch(e){}
   function countryOfRegion(r){ if(TERRITORY_CATALOG[r]&&TERRITORY_CATALOG[r].country) return TERRITORY_CATALOG[r].country; return USA_REGIONS.indexOf(r)>=0 ? 'US' : ARGENTINA_REGIONS.indexOf(r)>=0 ? 'AR' : CANADA_REGIONS.indexOf(r)>=0 ? 'CA' : ITALY_REGIONS.indexOf(r)>=0 ? 'IT' : 'ES'; }
   function destinosOfCountry(c){ return c==='US' ? USA_REGIONS : c==='AR' ? ARGENTINA_REGIONS : c==='CA' ? CANADA_REGIONS : c==='IT' ? ITALY_REGIONS : c==='WORLD' ? WORLD_REGIONS : SPAIN_REGIONS; }
   var gpSelDestinos=[];
@@ -5655,13 +5664,15 @@
   function addBaseTiles(map){
     var key=''; try{ key=localStorage.getItem('utd-carto-key')||''; }catch(e){}
     if(key){
-      L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png?api_key='+encodeURIComponent(key), {
+      L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png?key='+encodeURIComponent(key), {
         maxZoom:20, subdomains:'abcd',
         attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'
       }).addTo(map);
     } else {
+      // OpenStreetMap (sin clave). Se le aplica un filtro (clase utd-mutemap) para bajar
+      // la saturación y que el mapa se vea más limpio y menos ruidoso.
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom:19, subdomains:'abc',
+        maxZoom:19, subdomains:'abc', className:'utd-mutemap',
         attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
       }).addTo(map);
     }
@@ -9426,7 +9437,7 @@
     var _rsInput=$('utdRegionSearch'); if(_rsInput) _rsInput.addEventListener('input', function(){ filterRegionsES(this.value); });
     $('utdCountryES').addEventListener('click', function(){ showScreen('utdRegion'); renderRegionListES(); var _rs=$('utdRegionSearch'); if(_rs){ _rs.value=''; } filterRegionsES(''); });
     var WORLD_CONTINENT = {
-      dublin:'Europa',londres:'Europa',paris:'Europa',amsterdam:'Europa',praga:'Europa',viena:'Europa',estambul:'Europa',atenas:'Europa',berlin:'Europa',munich:'Europa',venecia:'Europa',milan:'Europa',florencia:'Europa',lisboa:'Europa',antalya:'Europa',
+      dublin:'Europa',londres:'Europa',paris:'Europa',amsterdam:'Europa',praga:'Europa',viena:'Europa',estambul:'Europa',atenas:'Europa',berlin:'Europa',munich:'Europa',venecia:'Europa',milan:'Europa',florencia:'Europa',lisboa:'Europa',antalya:'Europa',ginebra:'Europa',lausana:'Europa',
       bangkok:'Asia',singapur:'Asia',hongkong:'Asia',macao:'Asia',kualalumpur:'Asia',tokio:'Asia',kioto:'Asia',osaka:'Asia',seul:'Asia',taipei:'Asia',bali:'Asia',phuket:'Asia',hochiminh:'Asia',hanoi:'Asia',bombay:'Asia',
       dubai:'Oriente Medio',abudabi:'Oriente Medio',doha:'Oriente Medio',petra:'Oriente Medio',
       elcairo:'África',marrakech:'África',ciudaddelcabo:'África',zanzibar:'África',nairobi:'África',
@@ -9440,7 +9451,9 @@
       if(box.getAttribute('data-built')==='1') return;
       fetch('data/territories.json',{cache:'no-cache'}).then(function(r){ return r.ok?r.json():{territories:[]}; }).then(function(j){
         var w=(j.territories||[]).filter(function(t){ return t.country==='WORLD'; });
-        w = w.concat([{id:'toronto',name:'Toronto'},{id:'niagara',name:'Cataratas del Niágara'},{id:'baptiste',name:'Lago Bautista'},{id:'buenosaires',name:'Buenos Aires'},{id:'mendoza',name:'Mendoza'},{id:'catamarca',name:'Catamarca'},{id:'tucuman',name:'Tucumán'},{id:'bariloche',name:'Bariloche'},{id:'calafate',name:'El Calafate'},{id:'iguazu',name:'Iguazú'},{id:'miami',name:'Miami'},{id:'roma',name:'Roma'}]);
+        w = w.concat([{id:'toronto',name:'Toronto'},{id:'niagara',name:'Cataratas del Niágara'},{id:'baptiste',name:'Lago Bautista'},{id:'buenosaires',name:'Buenos Aires'},{id:'mendoza',name:'Mendoza'},{id:'catamarca',name:'Catamarca'},{id:'tucuman',name:'Tucumán'},{id:'bariloche',name:'Bariloche'},{id:'calafate',name:'El Calafate'},{id:'iguazu',name:'Iguazú'},{id:'miami',name:'Miami'},{id:'roma',name:'Roma'},{id:'ginebra',name:'Ginebra'},{id:'lausana',name:'Lausana'}]);
+        // Evita duplicados si en el futuro también están en el catálogo territories.json
+        (function(){ var seen={}; w=w.filter(function(t){ if(seen[t.id]) return false; seen[t.id]=1; return true; }); })();
         if(!w.length) return;
         var byC={}; w.forEach(function(t){ var c=WORLD_CONTINENT[t.id]||'Otros'; (byC[c]=byC[c]||[]).push(t); });
         var html='';
@@ -9548,7 +9561,7 @@
 
 <script>
 // Sello de versión: sirve para confirmar qué build está realmente desplegado.
-window.UTD_BUILD='2026-08-25 · salas v3.7';
+window.UTD_BUILD='2026-08-25 · salas v3.9';
 try{ console.log('untraveld build: '+window.UTD_BUILD); }catch(e){}
 if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/app/sw.js",{scope:"/app/"}).catch(function(){});});}
 </script>
