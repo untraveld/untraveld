@@ -1173,6 +1173,35 @@
   .agenda-empty{ font-size:13px; color:var(--text-low); text-align:center; padding:22px 10px; line-height:1.5; }
   .agenda-delete-btn{ display:block; width:100%; margin:22px 0 6px; padding:13px; border:1px solid rgba(192,85,60,0.4); background:none; color:#c0553c; border-radius:14px; font-family:var(--body); font-weight:600; font-size:13.5px; cursor:pointer; transition:background .12s; }
   .agenda-delete-btn.armed{ background:rgba(192,85,60,0.12); }
+  /* ---------- Marco del viaje (Plan) ---------- */
+  .mk-head{ padding:2px 2px 0; }
+  .mk-eyebrow{ font-size:10.5px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:var(--text-low); }
+  .mk-titlerow{ display:flex; align-items:center; gap:9px; margin-top:4px; }
+  .mk-title{ font-family:var(--display); font-weight:700; font-size:22px; letter-spacing:-.01em; margin:0; color:var(--text-hi); line-height:1.15; }
+  .mk-lock{ font-size:12px; color:var(--text-low); }
+  .mk-more{ margin-left:auto; border:none; background:none; color:var(--violet-deep); font-family:var(--body); font-weight:600; font-size:13px; cursor:pointer; padding:6px 4px; }
+  .mk-meta{ display:flex; align-items:center; gap:10px; margin-top:12px; }
+  .mk-avs{ display:flex; }
+  .mk-av{ width:26px; height:26px; border-radius:50%; border:2px solid var(--bg-void); margin-left:-7px; display:flex; align-items:center; justify-content:center; font-family:var(--display); font-size:9.5px; font-weight:700; color:#fff; }
+  .mk-av:first-child{ margin-left:0; }
+  .mk-who{ font-size:12px; color:var(--text-mid); }
+  .mk-export{ margin-left:auto; border:1px solid var(--line); background:var(--bg-panel); color:var(--violet-deep); font-family:var(--body); font-weight:600; font-size:12.5px; border-radius:100px; padding:7px 15px; cursor:pointer; transition:background .12s; }
+  .mk-export:active{ background:var(--bg-panel-2); }
+  .mk-framehint{ font-size:11.5px; color:var(--text-mid); line-height:1.5; margin:12px 2px 2px; }
+  .mk-days{ display:flex; flex-direction:column; margin-top:6px; }
+  .mk-day{ display:flex; align-items:center; gap:14px; width:100%; text-align:left; background:none; border:none; border-top:1px solid var(--line); padding:15px 2px; cursor:pointer; }
+  .mk-day:last-child{ border-bottom:1px solid var(--line); }
+  .mk-dt{ width:38px; text-align:center; flex:none; }
+  .mk-dt .mk-w{ font-family:var(--display); font-weight:700; font-size:10.5px; color:var(--violet); text-transform:uppercase; letter-spacing:.04em; }
+  .mk-dt .mk-n{ font-family:var(--display); font-weight:700; font-size:23px; line-height:1; color:var(--text-hi); }
+  .mk-mid{ flex:1; min-width:0; }
+  .mk-mid .mk-l{ font-family:var(--display); font-weight:600; font-size:15px; color:var(--text-hi); overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .mk-mid .mk-lo{ font-size:12px; color:var(--text-mid); margin-top:2px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .mk-st{ flex:none; text-align:right; }
+  .mk-st .mk-barwrap{ width:52px; height:5px; border-radius:100px; background:var(--fog); overflow:hidden; margin:0 0 4px auto; }
+  .mk-st .mk-barwrap i{ display:block; height:100%; background:var(--gold); border-radius:100px; }
+  .mk-st .mk-txt{ font-size:11px; color:var(--text-mid); font-variant-numeric:tabular-nums; }
+  .mk-chev{ color:var(--text-low); font-size:16px; flex:none; }
   .info-block{ margin-bottom:16px; }
   .info-block:last-child{ margin-bottom:4px; }
   .info-h{ font-size:11px; letter-spacing:1.2px; text-transform:uppercase; font-weight:700; color:var(--violet); margin-bottom:6px; }
@@ -2728,7 +2757,6 @@
     <div class="menu-title" data-i18n="menu.title">Secciones</div>
     <button class="menu-item" data-goto="group" data-i18n="menu.grupos">Mis Viajes</button>
     <button class="menu-item" data-goto="plan" data-tr="Plan">Plan</button>
-    <button class="menu-item" data-goto="agenda" data-tr="Agenda">Agenda</button>
     <button class="menu-item" data-goto="info" data-tr="Información">Información</button>
     <button class="menu-item" data-goto="progreso" data-i18n="menu.progreso">Progreso</button>
     <button class="menu-item" data-goto="territorio" id="menuTerritorio" data-tr="Territorio">Territorio</button>
@@ -7251,30 +7279,67 @@
     try{ renderProgreso(); }catch(e){}
     switchView('plan');
   }
+  function marcoExport(btn){
+    var dest = (typeof REGION_NAME==='string' && REGION_NAME) ? REGION_NAME : TR('tu destino');
+    var title = (inGroupMode() && groupState && groupState.name) ? groupState.name : TRf('Ruta por %1', dest);
+    var lines=[title, ''];
+    (agendaData||[]).forEach(function(d,i){
+      var dd = dayDate(i) || (TR('Día')+' '+(i+1));
+      var main = dayMain(d); var mainName = main?main.name:TR('Día libre');
+      var lodg = (d.lodg && d.lodg.name) ? d.lodg.name : ((d.area && d.area.name)?d.area.name:'');
+      lines.push(dd+' · '+mainName + (lodg?('  ('+lodg+')'):''));
+      (d.stops||[]).forEach(function(s){ if(s.poi) lines.push('   • '+s.poi.name); else if(s.note) lines.push('   • '+s.note); });
+      lines.push('');
+    });
+    var text=lines.join('\n');
+    function feedback(){ if(!btn) return; var old=btn.textContent; btn.textContent=TR('¡Copiado!'); setTimeout(function(){ btn.textContent=old; }, 1600); }
+    if(navigator.share){ navigator.share({title:title, text:text}).then(feedback).catch(function(){ copyText(text, feedback); }); }
+    else { copyText(text, feedback); }
+  }
+  function copyText(text, cb){
+    if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(text).then(cb).catch(function(){}); }
+    else { try{ var ta=document.createElement('textarea'); ta.value=text; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); document.body.removeChild(ta); cb&&cb(); }catch(e){} }
+  }
   function renderAgendaResult(out){
     agendaData=out;
     var box=document.getElementById('planAgenda'); if(!box) return;
-    var summ=profileSummary();
-    var html='<div class="agenda-head"><div class="agenda-head-t"><h2 class="plan-title" style="margin:0;">'+TR('Tu agenda')+'</h2>'
-      + (summ?'<div class="agenda-profile">'+escapeHtml(summ)+'</div>':'')
-      + '</div><button class="agenda-edit" id="planEditBtn">'+TR('Editar')+'</button></div>';
-    html += '<p class="ag-hint">'+TR('Toca un día para ver el plan completo.')+'</p><div class="ag-list">';
+    var dest = (typeof REGION_NAME==='string' && REGION_NAME) ? REGION_NAME : TR('tu destino');
+    var title = (inGroupMode() && groupState && groupState.name) ? groupState.name : TRf('Ruta por %1', dest);
+    var members = (inGroupMode() && groupState && groupState.members) ? Object.keys(groupState.members) : [];
+    var avColors=['var(--violet)','var(--map-blue)','var(--map-ocio)','var(--map-green)'];
+    var html='<div class="mk-head">'
+      + '<div class="mk-eyebrow">'+TR('Tu viaje')+'</div>'
+      + '<div class="mk-titlerow"><h2 class="mk-title">'+escapeHtml(title)+'</h2>'
+      + '<span class="mk-lock" title="'+TR('Días y alojamientos fijos')+'">🔒</span>'
+      + '<button class="mk-more" id="planEditBtn">'+TR('Editar')+'</button></div>';
+    html += '<div class="mk-meta">';
+    if(members.length){
+      var avs=members.slice(0,4).map(function(n,idx){ return '<span class="mk-av" style="background:'+avColors[idx%avColors.length]+'">'+escapeHtml((n||'?').trim().slice(0,2).toUpperCase())+'</span>'; }).join('');
+      html += '<div class="mk-avs">'+avs+'</div><span class="mk-who">'+TRf('%1 en el grupo', members.length)+'</span>';
+    } else {
+      var summ=profileSummary(); html += '<span class="mk-who">'+escapeHtml(summ||'')+'</span>';
+    }
+    html += '<button class="mk-export" id="marcoExportBtn">'+TR('Exportar')+'</button></div>';
+    html += '<p class="mk-framehint">'+TR('Días y alojamientos fijos para todos. Editáis qué hacéis cada día.')+'</p>';
+    html += '<div class="mk-days">';
     out.forEach(function(d,i){
       var dp=dayParts(i);
-      var badge = dp ? ('<span class="cal-dow">'+dp.dow+'</span><span class="cal-num">'+dp.num+'</span><span class="cal-mon">'+dp.mon+'</span>') : ('<span class="cal-dow">'+TR('Día')+'</span><span class="cal-num">'+(i+1)+'</span>');
-      var main=dayMain(d); var mainName= main?main.name:TR('Día libre'); var mcat= main?main.cat:'';
+      var dow = dp?dp.dow:TR('Día'); var num = dp?dp.num:(i+1);
+      var main=dayMain(d); var mainName= main?main.name:TR('Día libre');
+      var lodg = (d.lodg && d.lodg.name) ? d.lodg.name : ((d.area && d.area.name) ? d.area.name : '');
       var nstops=d.stops.filter(function(s){return s.poi;}).length;
       var nvis=d.stops.filter(function(s){return s.poi&&s.visited;}).length;
-      html += '<div class="ag-day-wrap"><button class="ag-row" data-day="'+i+'">'
-        + '<div class="cal-date">'+badge+'</div>'
-        + '<div class="ag-row-main"><div class="ag-row-title">'+(mcat?'<span class="sugg-dot poi-cat-'+mcat+'"></span>':'')+escapeHtml(mainName)+'</div>'
-        + '<div class="ag-row-sub">'+TRf('%1 paradas', nstops)+(nvis?'  ·  '+TRf('%1 visitadas', nvis):'')+'  ·  '+TR('Ruta')+' '+'≈'+' '+fmtKm(d.totalKm)+'</div></div>'
-        + '<span class="ag-row-chev">›</span></button>'
-        + '<div class="ag-note-slot" data-note="'+i+'"></div></div>';
+      var pct = nstops ? Math.round(nvis/nstops*100) : 0;
+      html += '<button class="mk-day ag-row" data-day="'+i+'">'
+        + '<div class="mk-dt"><div class="mk-w">'+escapeHtml(String(dow))+'</div><div class="mk-n">'+num+'</div></div>'
+        + '<div class="mk-mid"><div class="mk-l">'+escapeHtml(mainName)+'</div>'+(lodg?'<div class="mk-lo">'+escapeHtml(lodg)+'</div>':'')+'</div>'
+        + '<div class="mk-st"><div class="mk-barwrap"><i style="width:'+pct+'%"></i></div><div class="mk-txt">'+nvis+'/'+nstops+'</div></div>'
+        + '<span class="mk-chev">›</span></button>';
     });
     html += '</div>';
     html += '<button class="agenda-delete-btn" id="agendaDeleteBtn">'+TR('Eliminar agenda actual')+'</button>';
     box.innerHTML=html;
+    var _mex=document.getElementById('marcoExportBtn'); if(_mex) _mex.addEventListener('click', function(){ try{ marcoExport(_mex); }catch(e){} });
     var db=document.getElementById('agendaDeleteBtn');
     if(db){ var armed=false, tmr=null;
       db.addEventListener('click', function(){
@@ -8665,7 +8730,7 @@
     if(tab==='group') renderGrupos();
     if(tab==='encuestas'){ renderGrupos(); showGroupSubtab('polls'); }
     if(tab==='gastos'){ renderGrupos(); showGroupSubtab('expenses'); }
-    if(tab==='plan'||tab==='agenda'||tab==='info'){ renderPlan(); switchView(tab); }
+    if(tab==='plan'||tab==='agenda'||tab==='info'){ renderPlan(); var _v=tab; if(tab==='plan') _v=(agendaData&&agendaData.length)?'agenda':'plan'; switchView(_v); }
     if(tab!=='plan'&&tab!=='agenda'&&tab!=='info') stopAgendaSync();
     if(tab==='souvenirs') renderSouvenirs();
     var _psl=document.getElementById('progresoSectionLabel');
@@ -9563,7 +9628,7 @@
 
 <script>
 // Sello de versión: sirve para confirmar qué build está realmente desplegado.
-window.UTD_BUILD='2026-08-25 · salas v4.0 (mapa Voyager)';
+window.UTD_BUILD='2026-09-09 · plan v5.0 (marco)';
 try{ console.log('untraveld build: '+window.UTD_BUILD); }catch(e){}
 if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/app/sw.js",{scope:"/app/"}).catch(function(){});});}
 </script>
