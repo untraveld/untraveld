@@ -1021,7 +1021,81 @@
   /* ---- Plan (itinerario rediseñado: setup + agenda) ---- */
   .plan-title{ font-family:var(--display); font-weight:700; font-size:20px; color:var(--text-hi); margin:6px 0 6px; }
   .plan-lead{ font-size:13.5px; color:var(--text-mid); line-height:1.5; margin:0 0 22px; }
-  .plan-block{ margin-bottom:24px; }
+  /* Asistente rediseñado (Plan) */
+  .plan-hero{ margin:2px 0 22px; }
+  .plan-hero-eyebrow{ font-family:var(--display); font-weight:700; font-size:11px; letter-spacing:.16em; color:var(--violet); }
+  .plan-hero-title{ font-family:var(--display); font-weight:700; font-size:27px; line-height:1.12; letter-spacing:-.015em; color:var(--text-hi); margin:6px 0 8px; text-wrap:balance; }
+  .plan-hero-sub{ font-size:13.5px; color:var(--text-mid); line-height:1.5; margin:0; }
+  .plan-block{ background:none; border:none; border-top:1px solid var(--line); border-radius:0; padding:18px 2px 4px; margin-bottom:8px; }
+  .q-ico{ display:none; }
+  .plan-daystrip{ display:flex; gap:6px; margin-top:12px; flex-wrap:wrap; }
+  .plan-daystrip .pds{ flex:1; min-width:52px; text-align:center; background:var(--bg-panel-2); border-radius:12px; padding:8px 4px; }
+  .plan-daystrip .pds-w{ font-size:9.5px; letter-spacing:.05em; text-transform:uppercase; color:var(--text-mid); font-weight:600; }
+  .plan-daystrip .pds-n{ font-family:var(--display); font-weight:700; font-size:16px; color:var(--text-hi); margin-top:1px; }
+  .plan-cta{ margin-top:14px; box-shadow:0 8px 22px rgba(201,98,47,.34); font-size:16px; padding:16px; }
+  /* Wizard flashcards */
+  .wz{ position:fixed; inset:0; z-index:3400; background:var(--bg-void); display:flex; flex-direction:column; }
+  .wz-head{ display:flex; align-items:center; gap:12px; max-width:480px; width:100%; margin:0 auto; padding:14px 20px 6px; padding-top:calc(14px + env(safe-area-inset-top)); flex:none; }
+  .wz-back,.wz-close{ border:none; background:none; font-size:20px; color:var(--text-hi); cursor:pointer; width:30px; flex:none; }
+  .wz-close{ font-size:18px; color:var(--text-low); }
+  .wz-dots{ display:flex; gap:5px; flex:1; }
+  .wz-dots .d{ height:5px; flex:1; border-radius:100px; background:var(--bg-panel-2); transition:background .2s; }
+  .wz-dots .d.on{ background:var(--violet); }
+  .wz-dots .d.done{ background:var(--gold); }
+  .wz-scroll{ flex:1; overflow-y:auto; -webkit-overflow-scrolling:touch; }
+  .wz-card{ max-width:480px; margin:0 auto; padding:14px 24px calc(28px + env(safe-area-inset-bottom)); min-height:100%; display:flex; flex-direction:column; }
+  .wz-step{ font-family:var(--display); font-weight:600; font-size:11px; letter-spacing:.12em; color:var(--text-low); text-transform:uppercase; }
+  .wz-q{ font-family:var(--display); font-weight:700; font-size:26px; line-height:1.14; letter-spacing:-.015em; margin:18px 0 6px; text-wrap:balance; }
+  .wz-sub{ font-size:13px; color:var(--text-mid); line-height:1.5; margin:0 0 18px; }
+  /* opciones: filas limpias con hairline y selector circular */
+  .wz-opts{ display:flex; flex-direction:column; }
+  .wz-opt{ display:flex; align-items:center; gap:14px; border:none; border-top:1px solid var(--line); background:none; padding:17px 2px; text-align:left; cursor:pointer; width:100%; }
+  .wz-opt:last-child{ border-bottom:1px solid var(--line); }
+  .wz-opt .om{ flex:1; min-width:0; }
+  .wz-opt .ol{ font-family:var(--display); font-weight:600; font-size:16.5px; color:var(--text-hi); }
+  .wz-opt .od{ font-size:12.5px; color:var(--text-mid); margin-top:3px; line-height:1.4; }
+  .wz-opt .oeur{ font-family:var(--display); font-weight:700; font-size:14px; color:var(--text-low); flex:none; letter-spacing:.04em; }
+  .wz-opt .oradio{ width:21px; height:21px; border-radius:50%; border:1.5px solid var(--low); flex:none; position:relative; transition:border-color .12s; }
+  .wz-opt.on .ol{ color:var(--violet-deep); }
+  .wz-opt.on .oeur{ color:var(--violet); }
+  .wz-opt.on .oradio{ border-color:var(--violet); }
+  .wz-opt.on .oradio::after{ content:""; position:absolute; inset:3.5px; border-radius:50%; background:var(--violet); }
+  .wz-chips{ display:flex; flex-wrap:wrap; gap:9px; }
+  .wz-chip{ border:1.5px solid var(--line); background:none; border-radius:100px; padding:12px 17px; font-family:var(--display); font-weight:600; font-size:14px; color:var(--text-mid); cursor:pointer; }
+  .wz-chip.on{ background:var(--violet); color:#fff; border-color:var(--violet); }
+  .wz-dates{ display:flex; gap:22px; }
+  .wz-dates label{ flex:1; display:flex; flex-direction:column; gap:7px; }
+  .wz-dates span{ font-size:10px; letter-spacing:.08em; text-transform:uppercase; font-weight:700; color:var(--text-low); }
+  .wz-dates input{ width:100%; padding:10px 2px; text-align:left; background:none; border:none; border-bottom:1.5px solid var(--line); border-radius:0; font-family:var(--display); font-weight:700; font-size:18px; color:var(--text-hi); }
+  .wz-daystrip{ display:flex; gap:16px; margin-top:16px; flex-wrap:wrap; }
+  .wz-daystrip .pds{ text-align:center; }
+  .wz-daystrip .pds-w{ font-size:10px; text-transform:uppercase; color:var(--text-low); font-weight:700; letter-spacing:.06em; }
+  .wz-daystrip .pds-n{ font-family:var(--display); font-weight:700; font-size:18px; margin-top:2px; color:var(--text-hi); }
+  .wz-lodge{ display:flex; flex-direction:column; }
+  .wz-lodge .lrow{ display:flex; align-items:center; gap:11px; border-top:1px solid var(--line); padding:12px 2px; }
+  .wz-lodge .lrow:last-child{ border-bottom:1px solid var(--line); }
+  .wz-lodge .lday{ width:64px; flex:none; font-family:var(--display); font-weight:700; font-size:12.5px; color:var(--text-mid); }
+  .wz-lodge select{ flex:1; width:100%; padding:8px 2px; border:none; background:none; font-family:var(--display); font-weight:600; font-size:15px; color:var(--text-hi); text-align:right; }
+  .wz-single-sel{ width:100%; padding:12px 2px; border:none; border-bottom:1.5px solid var(--line); border-radius:0; background:none; font-family:var(--display); font-weight:700; font-size:18px; color:var(--text-hi); }
+  /* Presupuesto ponderado */
+  .wz-bmax{ display:flex; align-items:baseline; gap:10px; border:none; border-bottom:1.5px solid var(--line); background:none; border-radius:0; padding:6px 2px; margin-bottom:6px; }
+  .wz-bmax .cur{ font-family:var(--display); font-weight:700; font-size:24px; color:var(--text-low); }
+  .wz-bmax input{ flex:1; border:none; background:none; font-family:var(--display); font-weight:700; font-size:24px; color:var(--text-hi); padding:8px 0; width:100%; }
+  .wz-bmax .per{ font-size:12px; color:var(--text-mid); white-space:nowrap; }
+  .wz-bhint{ font-size:11.5px; color:var(--text-low); margin:0 2px 18px; line-height:1.5; }
+  .wz-wtitle{ font-family:var(--display); font-weight:700; font-size:14px; margin:4px 2px 4px; }
+  .wz-wsub{ font-size:12px; color:var(--text-mid); margin:0 2px 16px; line-height:1.5; }
+  .wz-slider{ margin-bottom:16px; }
+  .wz-slider .top{ display:flex; align-items:center; justify-content:space-between; margin-bottom:7px; }
+  .wz-slider .lab{ font-family:var(--display); font-weight:600; font-size:14px; display:flex; align-items:center; gap:8px; }
+  .wz-slider .lab .e{ font-size:16px; }
+  .wz-slider .pct{ font-family:var(--display); font-weight:700; font-size:14px; color:var(--violet-deep); }
+  .wz-slider input[type=range]{ -webkit-appearance:none; appearance:none; width:100%; height:8px; border-radius:100px; background:var(--bg-panel-2); outline:none; }
+  .wz-slider input[type=range]::-webkit-slider-thumb{ -webkit-appearance:none; appearance:none; width:24px; height:24px; border-radius:50%; background:var(--violet); border:3px solid #fff; box-shadow:0 2px 6px rgba(58,36,28,.3); cursor:pointer; }
+  .wz-slider input[type=range]::-moz-range-thumb{ width:24px; height:24px; border-radius:50%; background:var(--violet); border:3px solid #fff; cursor:pointer; }
+  .wz-cta{ margin-top:auto; border:none; background:var(--violet); color:#fff; font-family:var(--display); font-weight:600; font-size:16px; padding:16px; border-radius:16px; box-shadow:0 8px 20px rgba(201,98,47,.32); cursor:pointer; width:100%; }
+  .wz-cta[disabled]{ opacity:.5; box-shadow:none; }
+  .wz-skip{ text-align:center; font-size:12px; color:var(--text-low); margin:12px 0 0; }
   .plan-block-label{ font-size:11px; letter-spacing:1.3px; text-transform:uppercase; font-weight:700; color:var(--violet); margin-bottom:12px; }
   .day-stepper{ display:flex; align-items:center; gap:20px; }
   .step-btn{ width:46px; height:46px; border-radius:14px; border:1px solid var(--line); background:var(--bg-panel); color:var(--violet); font-size:22px; font-weight:600; cursor:pointer; display:flex; align-items:center; justify-content:center; }
@@ -1121,7 +1195,7 @@
   .plan-dates{ display:flex; gap:8px; margin-bottom:14px; }
   .date-field{ flex:1; display:flex; flex-direction:column; gap:5px; min-width:0; }
   .date-field span{ font-size:10px; letter-spacing:0.7px; text-transform:uppercase; font-weight:700; color:var(--text-low); }
-  .date-field input{ margin:0; width:100%; min-width:0; padding:14px 6px; font-size:14px; text-align:center; }
+  .date-field input{ margin:0; width:100%; min-width:0; padding:14px 6px; font-size:14px; text-align:center; background:var(--bg-void); border:1px solid var(--line); border-radius:14px; font-family:var(--display); font-weight:600; color:var(--text-hi); }
   .date-field input[type="date"]::-webkit-date-and-time-value{ text-align:center; margin:0 auto; }
   .date-field input[type="date"]::-webkit-datetime-edit{ text-align:center; width:100%; }
   .date-field input[type="date"]::-webkit-calendar-picker-indicator{ margin-left:0; }
@@ -1136,10 +1210,12 @@
   .drr-sel{ flex:1; }
   .subnav-select{ width:100%; padding:13px 15px; border:1px solid var(--line); border-radius:14px; background:var(--bg-panel); font-family:var(--display); font-weight:700; font-size:15px; color:var(--text-hi); cursor:pointer; text-transform:uppercase; letter-spacing:1px; text-align:center; text-align-last:center; }
   .subnav-select option{ text-transform:uppercase; }
-  .q-label{ font-size:13px; font-weight:700; color:var(--text-hi); margin-bottom:11px; }
-  .q-chips{ display:flex; flex-wrap:wrap; gap:6px; }
-  .q-chip{ border:1px solid var(--line); background:var(--bg-panel); color:var(--text-mid); border-radius:100px; padding:7px 11px; font-size:12px; font-family:var(--body); cursor:pointer; font-weight:500; transition:all .12s; white-space:nowrap; }
-  .q-chip.on{ background:linear-gradient(135deg,var(--violet),var(--violet-deep)); color:#fff; border-color:var(--violet-deep); font-weight:600; }
+  .q-label{ display:flex; align-items:center; font-size:14.5px; font-weight:700; color:var(--text-hi); margin-bottom:13px; font-family:var(--display); }
+  .q-chips{ display:flex; flex-wrap:wrap; gap:7px; }
+  .q-chip{ border:1px solid var(--line); background:var(--bg-void); color:var(--text-mid); border-radius:100px; padding:10px 15px; font-size:13px; font-family:var(--body); cursor:pointer; font-weight:600; transition:all .12s; white-space:nowrap; }
+  .q-chip:active{ transform:scale(.96); }
+  .q-chip.on{ background:linear-gradient(135deg,var(--violet),var(--violet-deep)); color:#fff; border-color:var(--violet-deep); font-weight:600; box-shadow:0 3px 10px rgba(201,98,47,.28); }
+  .q-chip.on::before{ content:"✓ "; font-weight:800; }
   .day-row-head{ display:flex; align-items:baseline; justify-content:space-between; margin-bottom:11px; }
   .day-row-date{ font-size:12px; color:var(--text-mid); font-weight:500; }
   .day-grid{ display:flex; gap:8px; margin-bottom:12px; }
@@ -1183,7 +1259,7 @@
   .mk-eyebrow{ font-size:10.5px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:var(--text-low); }
   .mk-titlerow{ display:flex; align-items:center; gap:9px; margin-top:4px; }
   .mk-title{ font-family:var(--display); font-weight:700; font-size:22px; letter-spacing:-.01em; margin:0; color:var(--text-hi); line-height:1.15; }
-  .mk-lock{ font-size:12px; color:var(--text-low); }
+  .mk-lock{ font-size:9px; font-weight:700; letter-spacing:.1em; color:var(--text-low); border:1px solid var(--line); border-radius:100px; padding:3px 8px; }
   .mk-more{ margin-left:auto; border:none; background:none; color:var(--violet-deep); font-family:var(--body); font-weight:600; font-size:13px; cursor:pointer; padding:6px 4px; }
   .mk-meta{ display:flex; align-items:center; gap:10px; margin-top:12px; }
   .mk-avs{ display:flex; }
@@ -1193,9 +1269,8 @@
   .mk-export{ margin-left:auto; border:1px solid var(--line); background:var(--bg-panel); color:var(--violet-deep); font-family:var(--body); font-weight:600; font-size:12.5px; border-radius:100px; padding:7px 15px; cursor:pointer; transition:background .12s; }
   .mk-export:active{ background:var(--bg-panel-2); }
   .mk-framehint{ font-size:11.5px; color:var(--text-mid); line-height:1.5; margin:12px 2px 2px; }
-  .mk-days{ display:flex; flex-direction:column; margin-top:6px; }
+  .mk-days{ display:flex; flex-direction:column; margin-top:6px; border-bottom:1px solid var(--line); }
   .mk-day{ display:flex; align-items:center; gap:14px; width:100%; text-align:left; background:none; border:none; border-top:1px solid var(--line); padding:15px 2px; cursor:pointer; }
-  .mk-day:last-child{ border-bottom:1px solid var(--line); }
   .mk-dt{ width:38px; text-align:center; flex:none; }
   .mk-dt .mk-w{ font-family:var(--display); font-weight:700; font-size:10.5px; color:var(--violet); text-transform:uppercase; letter-spacing:.04em; }
   .mk-dt .mk-n{ font-family:var(--display); font-weight:700; font-size:23px; line-height:1; color:var(--text-hi); }
@@ -2556,36 +2631,49 @@
     <div id="tab-itinerary" class="tabpanel" style="display:none;">
       <div id="view-plan" class="subview">
         <div id="planSetup" class="plan-setup">
-          <p class="plan-lead" data-tr="Responde estas preguntas y creamos tu perfil de viajero para una agenda hecha a tu medida.">Responde estas preguntas y creamos tu perfil de viajero para una agenda hecha a tu medida.</p>
+          <div class="plan-hero">
+            <div class="plan-hero-eyebrow" data-tr="PLANIFICADOR">PLANIFICADOR</div>
+            <h1 class="plan-hero-title" id="planHeroTitle" data-tr="Diseña tu viaje">Diseña tu viaje</h1>
+            <p class="plan-hero-sub" data-tr="Cuéntanos cómo viajas y creamos una agenda a tu medida, día a día.">Cuéntanos cómo viajas y creamos una agenda a tu medida, día a día.</p>
+          </div>
           <div class="plan-block">
-            <div class="q-label" data-tr="¿Cuándo viajas?">¿Cuándo viajas?</div>
+            <div class="q-label"><span class="q-ico">📅</span><span data-tr="¿Cuándo viajas?">¿Cuándo viajas?</span></div>
             <div class="plan-dates">
               <label class="date-field"><span data-tr="Llegada">Llegada</span><input type="date" id="planArrival" class="name-input"></label>
               <label class="date-field"><span data-tr="Salida">Salida</span><input type="date" id="planDeparture" class="name-input"></label>
             </div>
             <div class="plan-daysinfo" id="planDaysInfo"></div>
+            <div class="plan-daystrip" id="planDayStrip"></div>
           </div>
           <div class="plan-block" id="planStaySingle">
-            <div class="q-label" data-tr="¿Dónde te alojas?">¿Dónde te alojas?</div>
+            <div class="q-label"><span class="q-ico">🛏️</span><span data-tr="¿Dónde te alojas?">¿Dónde te alojas?</span></div>
             <select class="name-input" id="planStayCity"></select>
           </div>
           <div class="plan-block" id="planStayMulti" style="display:none;">
-            <div class="q-label" data-tr="¿Dónde te alojas cada día?">¿Dónde te alojas cada día?</div>
+            <div class="q-label"><span class="q-ico">🛏️</span><span data-tr="¿Dónde te alojas cada día?">¿Dónde te alojas cada día?</span></div>
             <div id="planDayRegions" class="day-regions"></div>
           </div>
           <div class="plan-block">
-            <div class="q-label" data-tr="¿Con quién viajas?">¿Con quién viajas?</div>
+            <div class="q-label"><span class="q-ico">👥</span><span data-tr="¿Con quién viajas?">¿Con quién viajas?</span></div>
             <div class="q-chips" id="qCompany"></div>
           </div>
           <div class="plan-block">
-            <div class="q-label" data-tr="¿Qué ritmo prefieres?">¿Qué ritmo prefieres?</div>
+            <div class="q-label"><span class="q-ico">⚡</span><span data-tr="¿Qué ritmo prefieres?">¿Qué ritmo prefieres?</span></div>
             <div class="q-chips" id="qPace"></div>
           </div>
           <div class="plan-block">
-            <div class="q-label"><span data-tr="¿Qué te apasiona?">¿Qué te apasiona?</span> <span class="field-hint" data-tr="(elige lo que quieras)">(elige lo que quieras)</span></div>
+            <div class="q-label"><span class="q-ico">🚶</span><span data-tr="¿Cómo te mueves?">¿Cómo te mueves?</span></div>
+            <div class="q-chips" id="qMobility"></div>
+          </div>
+          <div class="plan-block">
+            <div class="q-label"><span class="q-ico">💰</span><span data-tr="¿Qué presupuesto?">¿Qué presupuesto?</span> <span class="field-hint" data-tr="(para comer y ocio)">(para comer y ocio)</span></div>
+            <div class="q-chips" id="qBudget"></div>
+          </div>
+          <div class="plan-block">
+            <div class="q-label"><span class="q-ico">✨</span><span data-tr="¿Qué te apasiona?">¿Qué te apasiona?</span> <span class="field-hint" data-tr="(elige lo que quieras)">(elige lo que quieras)</span></div>
             <div class="q-chips" id="qInterests"></div>
           </div>
-          <button class="btn btn-primary" id="planCreateBtn" data-tr="Crear mi agenda">Crear mi agenda</button>
+          <button class="btn btn-primary plan-cta" id="planCreateBtn" data-tr="Crear mi agenda">Crear mi agenda</button>
         </div>
       </div>
 
@@ -2756,6 +2844,16 @@
     <div class="dd-title" id="ddTitle" data-tr="Día">Día</div>
   </div>
   <div class="dd-body" id="ddBody"></div>
+</div>
+
+<!-- ASISTENTE EN FLASHCARDS -->
+<div id="planWizard" class="wz" style="display:none;">
+  <div class="wz-head">
+    <button class="wz-back" id="wzBack" aria-label="Atrás">←</button>
+    <div class="wz-dots" id="wzDots"></div>
+    <button class="wz-close" id="wzClose" aria-label="Cerrar">✕</button>
+  </div>
+  <div class="wz-scroll" id="wzScroll"></div>
 </div>
 
 <!-- SELECTOR (sustituir/añadir POI) -->
@@ -6329,7 +6427,7 @@
   function areaById(id){ for(var i=0;i<AREAS.length;i++){ if(AREAS[i].id===id) return AREAS[i]; } return AREAS[0]; }
   function areaOptions(sel){ return AREAS.map(function(a){ return '<option value="'+a.id+'"'+(sel===a.id?' selected':'')+'>'+a.name+'</option>'; }).join(''); }
 
-  var planState = { arrival:null, departure:null, days:3, stayCity:null, company:null, pace:'equilibrado', interests:[], zone:[], prio:[], stay:[], stayCoord:[], stayCoordStr:[], dayRegions:[] };
+  var planState = { arrival:null, departure:null, days:3, stayCity:null, company:null, pace:'equilibrado', mobility:null, budget:null, budgetMax:null, budgetW:{aloj:34,comida:33,ocio:33}, avoidRepeat:true, interests:[], zone:[], prio:[], stay:[], stayCoord:[], stayCoordStr:[], dayRegions:[] };
   function isoLocal(d){ return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0'); }
   function daysBetween(a,b){ if(!a||!b) return 0; var d1=new Date(a+'T00:00:00'), d2=new Date(b+'T00:00:00'); var diff=Math.round((d2-d1)/86400000); return diff>=0 ? diff+1 : 0; }
   function recomputeDays(){ planState.days = Math.max(1, Math.min(14, daysBetween(planState.arrival, planState.departure) || 1)); }
@@ -6431,9 +6529,25 @@
   var Q_COMPANY=[['solo',TR('Solo')],['pareja',TR('En pareja')],['familia',TR('En familia')],['amigos',TR('Con amigos')]];
   var Q_PACE=[['tranquilo',TR('Tranquilo')],['equilibrado',TR('Equilibrado')],['intenso',TR('Intenso')]];
   var Q_INTERESTS=[['cultura',TR('Cultura')],['naturaleza',TR('Naturaleza')],['gastronomia',TR('Gastronomía')],['ocio',TR('Ocio')]];
+  var Q_MOBILITY=[['pie',TR('A pie')],['publico',TR('Transporte público')],['coche',TR('En coche')]];
+  var Q_BUDGET=[['bajo',TR('Económico')],['medio',TR('Medio')],['alto',TR('Sin límite')]];
   var INTEREST_CAT={ cultura:'monuments', naturaleza:'nature', gastronomia:'food', ocio:'ocio' };
   function profilePrios(){ return (planState.interests||[]).map(function(k){ return INTEREST_CAT[k]; }).filter(Boolean); }
   function paceTarget(){ return {tranquilo:2,equilibrado:3,intenso:4}[planState.pace] || 3; }
+  // Nivel de gasto en comida (1=barato ≤20€, 2=medio ≤40€, 3=alto) a partir del presupuesto
+  // máximo y del peso que el usuario da a la comida. null = sin límite efectivo.
+  function effectiveFoodBucket(){
+    if(planState.budgetMax && planState.budgetW){
+      var days=Math.max(1, planState.days||1);
+      var comidaShare = Number(planState.budgetMax) * ((planState.budgetW.comida||0)/100);
+      var perMeal = comidaShare / (days*2);   // ~2 comidas de pago al día
+      if(!isFinite(perMeal) || perMeal<=0) return null;
+      if(perMeal<=20) return 1; if(perMeal<=40) return 2; return 3;
+    }
+    // Compatibilidad con el nivel simple antiguo
+    if(planState.budget==='bajo') return 1; if(planState.budget==='medio') return 2;
+    return null;
+  }
   var COMPANY_LEAN={ solo:['monuments','nature'], pareja:['food','monuments'], familia:['nature','ocio'], amigos:['ocio','food'] };
   function effectivePrios(){
     var base=profilePrios();
@@ -6465,6 +6579,8 @@
   function renderProfileChips(){
     renderChipGroup('qCompany', Q_COMPANY, function(v){ return planState.company===v; }, function(v){ planState.company=(planState.company===v?null:v); renderProfileChips(); persistPlan(); });
     renderChipGroup('qPace', Q_PACE, function(v){ return planState.pace===v; }, function(v){ planState.pace=v; renderProfileChips(); persistPlan(); });
+    renderChipGroup('qMobility', Q_MOBILITY, function(v){ return planState.mobility===v; }, function(v){ planState.mobility=(planState.mobility===v?null:v); renderProfileChips(); persistPlan(); });
+    renderChipGroup('qBudget', Q_BUDGET, function(v){ return planState.budget===v; }, function(v){ planState.budget=(planState.budget===v?null:v); renderProfileChips(); persistPlan(); });
     renderChipGroup('qInterests', Q_INTERESTS, function(v){ return (planState.interests||[]).indexOf(v)>=0; }, function(v){ var a=planState.interests||(planState.interests=[]); var k=a.indexOf(v); if(k>=0) a.splice(k,1); else a.push(v); renderProfileChips(); persistPlan(); });
   }
   function switchView(name){
@@ -6846,6 +6962,15 @@
     if(pd && planState.departure) pd.value=planState.departure;
     var info=document.getElementById('planDaysInfo');
     if(info) info.textContent = TRf('%1 día%2 de viaje', planState.days, (planState.days>1?'s':''));
+    var ht=document.getElementById('planHeroTitle');
+    if(ht){ var dest=(typeof REGION_NAME==='string'&&REGION_NAME)?REGION_NAME:''; ht.textContent = dest ? TRf('Diseña tu viaje a %1', dest) : TR('Diseña tu viaje'); }
+    var strip=document.getElementById('planDayStrip');
+    if(strip){
+      if(planState.arrival && planState.days){
+        var sh=''; for(var _i=0;_i<planState.days;_i++){ var _dp=dayParts(_i); if(!_dp) break; sh+='<div class="pds"><div class="pds-w">'+escapeHtml(String(_dp.dow))+'</div><div class="pds-n">'+_dp.num+'</div></div>'; }
+        strip.innerHTML=sh; strip.style.display = sh?'flex':'none';
+      } else { strip.innerHTML=''; strip.style.display='none'; }
+    }
     var single=document.getElementById('planStaySingle'), multi=document.getElementById('planStayMulti');
     if(MULTI){
       if(single) single.style.display='none';
@@ -6886,18 +7011,68 @@
     var isFood = function(p){ return p.cat==='food'; };
     var isOcio = function(p){ return p.cat==='ocio'; };
     var hasFood = prios.indexOf('food')>=0, hasOcio = prios.indexOf('ocio')>=0;
-    var FAR=90000, MEAL=14000, NIGHT=22000;
+    // MOVILIDAD: cuánto está dispuesto a desplazarse y cómo (afecta alcance y coste de viaje).
+    var mob = planState.mobility || 'publico';
+    var MOBP = {
+      pie:     { FAR:6000,   MEAL:2500,  NIGHT:4000  },
+      publico: { FAR:30000,  MEAL:8000,  NIGHT:12000 },
+      coche:   { FAR:150000, MEAL:25000, NIGHT:40000 }
+    }[mob] || { FAR:30000, MEAL:8000, NIGHT:12000 };
+    var FAR=MOBP.FAR, MEAL=MOBP.MEAL, NIGHT=MOBP.NIGHT;
+    // minutos de desplazamiento para una distancia (m) según el modo de transporte
+    function travelMin(bd){
+      if(mob==='pie')     return bd/75;                                  // siempre a pie (75 m/min)
+      if(mob==='coche')   return bd>700  ? (bd/500 + 6)  : bd/75;        // coche ~30 km/h + aparcar
+      if(mob==='publico') return bd>1500 ? (bd/250 + 12) : bd/75;        // bus/metro ~15 km/h + espera
+      return bd>3000 ? (bd/400 + 10) : bd/75;
+    }
     var zonaAnchor = { lat:area.lat, lng:area.lng };
 
-    var target = paceTarget();
+    // PRESUPUESTO: filtra restaurantes por precio (donde hay dato en FOOD_META).
+    var foodMax = effectiveFoodBucket();
+    function foodBudgetOk(p){
+      if(!foodMax || foodMax>=3) return true;
+      var m = (typeof FOOD_META!=='undefined') ? FOOD_META[p.id] : null;
+      if(!m || !m.price) return true;                 // sin dato de precio: no excluir
+      var b = comidaPriceBucket(m.price); if(!b) return true;
+      return Number(b) <= foodMax;
+    }
+    var isFoodBudget = function(p){ return p.cat==='food' && foodBudgetOk(p); };
+    // Fuera del conjunto de candidatos los restaurantes que superan el presupuesto.
+    if(foodMax && foodMax<3){
+      allPop = allPop.filter(function(p){ return p.cat!=='food' || foodBudgetOk(p); });
+    }
+
+    // Nº de paradas ADAPTATIVO: presupuesto de tiempo del día (según ritmo) que se va
+    // gastando en visitar cada punto + desplazarse al siguiente. Puntos cercanos => caben
+    // más; puntos alejados => el desplazamiento come el presupuesto => caben menos.
+    function estimateTarget(){
+      var budget = {tranquilo:230, equilibrado:320, intenso:410}[planState.pace] || 320; // minutos "activos"
+      var VISIT = { monuments:55, nature:75, food:60, ocio:85 };   // min de visita por categoría
+      var pool = allPop.filter(function(p){ return isPrimary(p) && !used[p.id]; });
+      if(pool.length<2) pool = allPop.filter(function(p){ return !used[p.id]; });
+      var seen={}, cLat=lodg.lat, cLng=lodg.lng, spent=0, n=0;
+      while(n<9){
+        var best=null, bd=1e18;
+        for(var k=0;k<pool.length;k++){ var p=pool[k]; if(seen[p.id]) continue; var d=dm(cLat,cLng,p.lat,p.lng); if(d<bd){ bd=d; best=p; } }
+        if(!best) break;
+        var travel = travelMin(bd);
+        var visit = VISIT[best.cat] || 55;
+        if(n>=1 && spent + travel + visit > budget) break; // siempre cabe al menos 1
+        spent += travel + visit; seen[best.id]=1; cLat=best.lat; cLng=best.lng; n++;
+      }
+      return Math.max(2, Math.min(8, n));
+    }
+    var target = estimateTarget();
     function poiCount(){ return stops.filter(function(s){ return s.poi; }).length; }
     take(isPrimary,'Mañana',false,FAR,zonaAnchor) || take(function(){return true;},'Mañana',false,null,zonaAnchor);
-    var mealOk = hasFood ? take(isFood,'Comer',true,FAR,null) : take(isFood,'Comer',true,MEAL,null);
+    var mealMax = hasFood ? FAR : MEAL;
+    var mealOk = take(isFoodBudget,'Comer',true,mealMax,null) || ((foodMax && foodMax<3) ? take(isFood,'Comer',true,mealMax,null) : false);
     if(!mealOk){ stops.push({ slot:'Comer', note:TRf('Comida por la zona de %1', area.name) }); }
     if(poiCount()<target){ take(isPrimary,'Tarde',false,FAR,null) || take(function(){return true;},'Tarde',false,null,null); }
     if(target>=4 && poiCount()<target){ if(!take(isOcio,'Noche',false,NIGHT,null)) take(isPrimary,'Noche',false,FAR,null); }
     var guard=0;
-    while(poiCount()<target && guard<6){
+    while(poiCount()<target && guard<9){
       if(!(take(isPrimary,'Además',false,FAR,zonaAnchor) || take(function(){return true;},'Además',false,null,zonaAnchor))) break;
       guard++;
     }
@@ -7033,8 +7208,123 @@
       .then(function(){ _aiChatBusy=false; var s=document.getElementById('aiChatSend'); if(s) s.disabled=false; });
   }
 
+  // ===================== Asistente en flashcards =====================
+  var _wzStep=0, _wzCards=[];
+  function wzBuildCards(){
+    return [
+      { kind:'dates' },
+      { kind:'lodging' },
+      { kind:'single', ico:'👥', q:TR('¿Con quién viajas?'), sub:TR('Ajustamos el ritmo y las recomendaciones al grupo.'),
+        opts:[['solo','🧍',TR('Solo'),''],['pareja','💑',TR('En pareja'),''],['familia','👨‍👩‍👧',TR('En familia'),''],['amigos','🎉',TR('Con amigos'),'']],
+        get:function(){return planState.company;}, set:function(v){ planState.company=(planState.company===v?null:v); } },
+      { kind:'single', ico:'⚡', q:TR('¿Qué ritmo prefieres?'), sub:TR('Cuántas paradas encajamos cada día.'),
+        opts:[['tranquilo','🌿',TR('Tranquilo'),TR('Pocas paradas, con calma')],['equilibrado','⚖️',TR('Equilibrado'),TR('Un término medio')],['intenso','🔥',TR('Intenso'),TR('Aprovechar al máximo')]],
+        get:function(){return planState.pace;}, set:function(v){ planState.pace=v; } },
+      { kind:'single', ico:'🚶', q:TR('¿Cómo te mueves?'), sub:TR('Define cuánto nos alejamos y cómo calculamos los tiempos.'),
+        opts:[['pie','🚶',TR('A pie'),TR('Todo cerca y caminando')],['publico','🚌',TR('Transporte público'),TR('Bus, metro, tranvía')],['coche','🚗',TR('En coche'),TR('Llegamos más lejos')]],
+        get:function(){return planState.mobility;}, set:function(v){ planState.mobility=(planState.mobility===v?null:v); } },
+      { kind:'budget' },
+      { kind:'interests' }
+    ];
+  }
+  function wzOpen(){
+    _wzCards=wzBuildCards(); _wzStep=0;
+    var w=document.getElementById('planWizard'); if(!w) return;
+    w.style.display='flex'; document.body.classList.add('utd-shell-open');
+    wzRender();
+  }
+  function wzClose(){ var w=document.getElementById('planWizard'); if(w) w.style.display='none'; document.body.classList.remove('utd-shell-open'); }
+  function wzGo(delta){
+    var n=_wzStep+delta;
+    if(n<0){ wzClose(); return; }
+    if(n>=_wzCards.length){ wzFinish(); return; }
+    _wzStep=n; wzRender();
+  }
+  function wzFinish(){ try{ persistPlan(); }catch(e){} wzClose(); try{ generateAgenda(); }catch(e){} try{ showTab('plan'); }catch(e){} }
+  function wzRenderDots(){ var el=document.getElementById('wzDots'); if(!el) return; el.innerHTML=_wzCards.map(function(c,i){ return '<span class="d '+(i<_wzStep?'done':(i===_wzStep?'on':''))+'"></span>'; }).join(''); }
+  function wzDayStripHtml(){
+    if(!planState.arrival || !planState.days) return '';
+    var s=''; for(var i=0;i<planState.days;i++){ var dp=dayParts(i); if(!dp) break; s+='<div class="pds"><div class="pds-w">'+escapeHtml(String(dp.dow))+'</div><div class="pds-n">'+dp.num+'</div></div>'; }
+    return s? '<div class="wz-daystrip">'+s+'</div>' : '';
+  }
+  function wzSetWeight(key, v){
+    v=Math.max(0,Math.min(100,Math.round(v)));
+    var w=planState.budgetW||(planState.budgetW={aloj:34,comida:33,ocio:33});
+    var others=['aloj','comida','ocio'].filter(function(k){return k!==key;});
+    var rem=100-v, o0=w[others[0]], o1=w[others[1]], sum=o0+o1;
+    if(sum<=0){ w[others[0]]=Math.round(rem/2); w[others[1]]=rem-w[others[0]]; }
+    else { w[others[0]]=Math.round(rem*o0/sum); w[others[1]]=rem-w[others[0]]; }
+    w[key]=v;
+    wzRender();
+  }
+  function wzRender(){
+    wzRenderDots();
+    var card=_wzCards[_wzStep]; var sc=document.getElementById('wzScroll'); if(!sc||!card) return;
+    var step='<div class="wz-step">'+TRf('Paso %1 de %2', _wzStep+1, _wzCards.length)+'</div>';
+    var html='';
+    if(card.kind==='single'){
+      var cur=card.get();
+      html='<div class="wz-card">'+step+'<h2 class="wz-q">'+escapeHtml(card.q)+'</h2><p class="wz-sub">'+escapeHtml(card.sub)+'</p><div class="wz-opts">'
+        + card.opts.map(function(o){ var on=cur===o[0]; return '<button class="wz-opt'+(on?' on':'')+'" data-v="'+o[0]+'"><div class="om"><div class="ol">'+escapeHtml(o[2])+'</div>'+(o[3]?'<div class="od">'+escapeHtml(o[3])+'</div>':'')+'</div><span class="oradio"></span></button>'; }).join('')
+        + '</div></div>';
+      sc.innerHTML=html;
+      sc.querySelectorAll('.wz-opt').forEach(function(b){ b.addEventListener('click', function(){ card.set(b.getAttribute('data-v')); try{persistPlan();}catch(e){} wzRender(); setTimeout(function(){ wzGo(1); }, 260); }); });
+    } else if(card.kind==='dates'){
+      html='<div class="wz-card">'+step+'<h2 class="wz-q">'+TR('¿Cuándo viajas?')+'</h2><p class="wz-sub">'+TR('Contamos con el día de la semana: no es lo mismo un sábado que un miércoles.')+'</p>'
+        + '<div class="wz-dates"><label><span>'+TR('Llegada')+'</span><input type="date" id="wzArr" value="'+(planState.arrival||'')+'"></label><label><span>'+TR('Salida')+'</span><input type="date" id="wzDep" value="'+(planState.departure||'')+'"></label></div>'
+        + '<div id="wzStripHost">'+wzDayStripHtml()+'</div>'
+        + '<button class="wz-cta" id="wzNext"'+((planState.arrival&&planState.departure)?'':' disabled')+'>'+TR('Continuar')+'</button></div>';
+      sc.innerHTML=html;
+      function onD(){ var a=document.getElementById('wzArr'), d=document.getElementById('wzDep'); if(a) planState.arrival=a.value||null; if(d) planState.departure=d.value||null; try{ recomputeDays(); }catch(e){} document.getElementById('wzStripHost').innerHTML=wzDayStripHtml(); var nx=document.getElementById('wzNext'); if(nx) nx.disabled=!(planState.arrival&&planState.departure); try{persistPlan();}catch(e){} }
+      var _a=document.getElementById('wzArr'), _d=document.getElementById('wzDep');
+      if(_a) _a.addEventListener('change', onD); if(_d) _d.addEventListener('change', onD);
+      var nx=document.getElementById('wzNext'); if(nx) nx.addEventListener('click', function(){ if(planState.arrival&&planState.departure) wzGo(1); });
+    } else if(card.kind==='lodging'){
+      var body='';
+      if(MULTI){
+        try{ ensureDayRegions(); }catch(e){}
+        body='<div class="wz-lodge">';
+        for(var i=0;i<planState.days;i++){ var dp=dayParts(i); var opts=ACTIVE_REGIONS.map(function(r){ return '<option value="'+r+'"'+(planState.dayRegions[i]===r?' selected':'')+'>'+escapeHtml(NAME_BY_REGION[r]||r)+'</option>'; }).join('');
+          body+='<div class="lrow"><span class="lday">'+(dp?escapeHtml(dp.dow)+' '+dp.num:TRf('Día %1',(i+1)))+'</span><select class="wz-lday-sel" data-day="'+i+'">'+opts+'</select></div>'; }
+        body+='</div>';
+      } else {
+        body='<select class="wz-single-sel" id="wzStay">'+areaOptions(planState.stayCity)+'</select>';
+      }
+      html='<div class="wz-card">'+step+'<h2 class="wz-q">'+(MULTI?TR('¿Dónde te alojas cada día?'):TR('¿Dónde te alojas?'))+'</h2><p class="wz-sub">'+TR('La ruta de cada día empieza y termina aquí.')+'</p>'+body+'<button class="wz-cta" id="wzNext">'+TR('Continuar')+'</button></div>';
+      sc.innerHTML=html;
+      if(MULTI){ sc.querySelectorAll('.wz-lday-sel').forEach(function(sel){ sel.addEventListener('change', function(){ planState.dayRegions[Number(sel.getAttribute('data-day'))]=sel.value; try{persistPlan();}catch(e){} }); }); }
+      else { var st=document.getElementById('wzStay'); if(st) st.addEventListener('change', function(){ planState.stayCity=st.value; try{persistPlan();}catch(e){} }); }
+      var nx2=document.getElementById('wzNext'); if(nx2) nx2.addEventListener('click', function(){ wzGo(1); });
+    } else if(card.kind==='budget'){
+      var w=planState.budgetW||(planState.budgetW={aloj:34,comida:33,ocio:33});
+      function slider(key,label){ return '<div class="wz-slider"><div class="top"><span class="lab">'+label+'</span><span class="pct">'+ (w[key]||0) +'%</span></div><input type="range" min="0" max="100" step="5" value="'+(w[key]||0)+'" data-w="'+key+'"></div>'; }
+      html='<div class="wz-card">'+step+'<h2 class="wz-q">'+TR('¿Qué presupuesto llevas?')+'</h2><p class="wz-sub">'+TR('Un máximo orientativo y en qué prefieres gastar. Lo usamos para elegir dónde comer y, según crezcan los datos, alojamiento y ocio.')+'</p>'
+        + '<div class="wz-bmax"><span class="cur">€</span><input type="number" inputmode="numeric" min="0" step="10" id="wzBmax" placeholder="'+TR('máximo')+'" value="'+(planState.budgetMax||'')+'"><span class="per">'+TR('por persona')+'</span></div>'
+        + '<p class="wz-bhint">'+TR('Déjalo vacío si no quieres poner tope.')+'</p>'
+        + '<div class="wz-wtitle">'+TR('¿En qué priorizas gastar?')+'</div><p class="wz-wsub">'+TR('Reparte el peso entre los tres; siempre suma 100%.')+'</p>'
+        + slider('aloj',TR('Alojamiento')) + slider('comida',TR('Comida')) + slider('ocio',TR('Ocio'))
+        + '<button class="wz-cta" id="wzNext">'+TR('Continuar')+'</button></div>';
+      sc.innerHTML=html;
+      var bm=document.getElementById('wzBmax'); if(bm) bm.addEventListener('input', function(){ var v=parseInt(bm.value,10); planState.budgetMax=(isFinite(v)&&v>0)?v:null; try{persistPlan();}catch(e){} });
+      sc.querySelectorAll('input[data-w]').forEach(function(r){ r.addEventListener('input', function(){ wzSetWeight(r.getAttribute('data-w'), parseInt(r.value,10)||0); try{persistPlan();}catch(e){} }); });
+      var nx3=document.getElementById('wzNext'); if(nx3) nx3.addEventListener('click', function(){ wzGo(1); });
+    } else if(card.kind==='interests'){
+      html='<div class="wz-card">'+step+'<h2 class="wz-q">'+TR('¿Qué te apasiona?')+'</h2><p class="wz-sub">'+TR('Elige todo lo que quieras. Priorizamos estos puntos en tu ruta.')+'</p><div class="wz-chips">'
+        + Q_INTERESTS.map(function(o){ var on=(planState.interests||[]).indexOf(o[0])>=0; return '<button class="wz-chip'+(on?' on':'')+'" data-v="'+o[0]+'">'+escapeHtml(o[1])+'</button>'; }).join('')
+        + '</div><button class="wz-cta" id="wzNext">'+TR('Crear mi agenda')+'</button><div class="wz-skip">'+TR('Podrás editarlo todo después')+'</div></div>';
+      sc.innerHTML=html;
+      sc.querySelectorAll('.wz-chip').forEach(function(b){ b.addEventListener('click', function(){ var a=planState.interests||(planState.interests=[]); var v=b.getAttribute('data-v'); var k=a.indexOf(v); if(k>=0)a.splice(k,1); else a.push(v); try{persistPlan();}catch(e){} wzRender(); }); });
+      var nx4=document.getElementById('wzNext'); if(nx4) nx4.addEventListener('click', function(){ wzGo(1); });
+    }
+    sc.scrollTop=0;
+  }
+
   function generateAgenda(){
     var used = {};
+    // Evitar repetir: no volver a proponer puntos que el grupo ya ha visitado (check-ins).
+    if(planState.avoidRepeat && groupState && groupState.contributions){
+      Object.keys(groupState.contributions).forEach(function(pid){ used[pid]=1; });
+    }
     var out = [];
     if(MULTI) ensureDayRegions();
     for(var i=0;i<planState.days;i++){
@@ -7211,8 +7501,13 @@
   }
   function closePicker(){ var pk=document.getElementById('ddPicker'); if(pk) pk.style.display='none'; }
   function backFromDay(){ closeDayDetail(); if(agendaData && agendaData.length){ renderAgendaResult(agendaData); } }
-  function dayTips(d){
+  function dayTips(d, idx){
     var tips=[];
+    if(typeof idx==='number' && planState.arrival){
+      var _wd=new Date(planState.arrival+'T00:00:00'); _wd.setDate(_wd.getDate()+idx); var wd=_wd.getDay();
+      if(wd===1) tips.push(TR('Es lunes: muchos museos y monumentos cierran. Comprueba horarios antes de ir.'));
+      else if(wd===0 || wd===6) tips.push(TR('Fin de semana: más gente y colas en los sitios populares. Reserva o ve a primera hora.'));
+    }
     var km=d.totalKm||0, maxFar=0;
     var pois2=d.stops.filter(function(s){ return s.poi; });
     pois2.forEach(function(s){ if(s.fromLodg>maxFar) maxFar=s.fromLodg; });
@@ -7321,7 +7616,7 @@
     var t=document.getElementById('ddTitle'); if(t) t.textContent=TRf('Día %1', (i+1))+(dp?'  ·  '+dp.dow+' '+dp.num+' '+dp.mon:'');
     var main=dayMain(d);
     var lead = main ? '<div class="dd-lead">'+escapeHtml(main.name)+'</div>' : '';
-    var tips=dayTips(d);
+    var tips=dayTips(d, i);
     var consejos = tips.length ? '<ul class="dd-tips">'+tips.map(function(tp){ return '<li>'+escapeHtml(tp)+'</li>'; }).join('')+'</ul>' : '<div class="dd-note-empty">—</div>';
     var comments = '<div class="dd-section"><div class="dd-sec-title">'+TR('Comentarios')+'</div>'
       + '<textarea id="ddBoard" class="dd-board" placeholder="'+TR('Escribe aquí tus notas del día… se guardan solas.')+'"></textarea></div>';
@@ -7474,9 +7769,9 @@
     scrim.innerHTML='<div class="mk-exp-sheet">'
       + '<div class="mk-exp-grab"></div>'
       + '<div class="mk-exp-title">'+TR('Exportar viaje')+'</div>'
-      + '<button class="mk-exp-opt" data-act="ics"><span class="mk-exp-ic">📅</span><div><div class="mk-exp-l">'+TR('Añadir al calendario')+'</div><div class="mk-exp-s">'+TR('Un evento por día (.ics)')+'</div></div></button>'
-      + '<button class="mk-exp-opt" data-act="img"><span class="mk-exp-ic">🖼️</span><div><div class="mk-exp-l">'+TR('Compartir como imagen')+'</div><div class="mk-exp-s">'+TR('Tarjeta del viaje en PNG')+'</div></div></button>'
-      + '<button class="mk-exp-opt" data-act="txt"><span class="mk-exp-ic">📝</span><div><div class="mk-exp-l">'+TR('Copiar como texto')+'</div><div class="mk-exp-s">'+TR('Para pegar en un chat')+'</div></div></button>'
+      + '<button class="mk-exp-opt" data-act="ics"><div><div class="mk-exp-l">'+TR('Añadir al calendario')+'</div><div class="mk-exp-s">'+TR('Un evento por día (.ics)')+'</div></div></button>'
+      + '<button class="mk-exp-opt" data-act="img"><div><div class="mk-exp-l">'+TR('Compartir como imagen')+'</div><div class="mk-exp-s">'+TR('Tarjeta del viaje en PNG')+'</div></div></button>'
+      + '<button class="mk-exp-opt" data-act="txt"><div><div class="mk-exp-l">'+TR('Copiar como texto')+'</div><div class="mk-exp-s">'+TR('Para pegar en un chat')+'</div></div></button>'
       + '<button class="mk-exp-cancel" data-act="cancel">'+TR('Cancelar')+'</button>'
       + '</div>';
     document.body.appendChild(scrim);
@@ -7506,7 +7801,7 @@
     var html='<div class="mk-head">'
       + '<div class="mk-eyebrow">'+TR('Tu viaje')+'</div>'
       + '<div class="mk-titlerow"><h2 class="mk-title">'+escapeHtml(title)+'</h2>'
-      + '<span class="mk-lock" title="'+TR('Días y alojamientos fijos')+'">🔒</span>'
+      + '<span class="mk-lock" title="'+TR('Días y alojamientos fijos')+'">'+TR('FIJO')+'</span>'
       + (owner?'<button class="mk-more" id="planEditBtn">'+TR('Editar')+'</button>':'')+'</div>';
     html += '<div class="mk-meta">';
     if(members.length){
@@ -7530,7 +7825,8 @@
         + '<div class="mk-dt"><div class="mk-w">'+escapeHtml(String(dow))+'</div><div class="mk-n">'+num+'</div></div>'
         + '<div class="mk-mid"><div class="mk-l">'+escapeHtml(mainName)+'</div>'+(lodg?'<div class="mk-lo">'+escapeHtml(lodg)+'</div>':'')+'</div>'
         + '<div class="mk-st"><div class="mk-barwrap"><i style="width:'+pct+'%"></i></div><div class="mk-txt">'+nvis+'/'+nstops+'</div></div>'
-        + '<span class="mk-chev">›</span></button>';
+        + '<span class="mk-chev">›</span></button>'
+        + '<div class="ag-note-slot" data-note="'+i+'"></div>';
     });
     html += '</div>';
     if(!owner){ html += '<div class="mk-locknote">🔒 <div>'+TR('El marco (días y alojamientos) lo gestiona quien creó el viaje. Tú puedes editar qué hacéis cada día.')+'</div></div>'; }
@@ -7543,7 +7839,7 @@
         if(!armed){ armed=true; db.textContent=TR('¿Seguro? Toca otra vez'); db.classList.add('armed'); tmr=setTimeout(function(){ armed=false; db.textContent=TR('Eliminar agenda actual'); db.classList.remove('armed'); }, 3000); return; }
         if(tmr) clearTimeout(tmr); clearAgenda();
       }); }
-    var eb=document.getElementById('planEditBtn'); if(eb) eb.addEventListener('click', function(){ switchView('plan'); });
+    var eb=document.getElementById('planEditBtn'); if(eb) eb.addEventListener('click', function(){ try{ wzOpen(); }catch(e){ switchView('plan'); } });
     box.querySelectorAll('.ag-row').forEach(function(row){ row.addEventListener('click', function(){ openDayDetail(Number(row.getAttribute('data-day'))); }); });
     try{ migrateLegacyDayNotes(); }catch(e){}
     try{ fillAgendaNotes(); }catch(e){}
@@ -7557,6 +7853,8 @@
   function serializePlan(){
     var ps={ arrival:planState.arrival, departure:planState.departure, days:planState.days,
       stayCity:planState.stayCity, company:planState.company, pace:planState.pace,
+      mobility:planState.mobility||null, budget:planState.budget||null,
+      budgetMax:planState.budgetMax||null, budgetW:(planState.budgetW?{aloj:planState.budgetW.aloj,comida:planState.budgetW.comida,ocio:planState.budgetW.ocio}:null),
       interests:(planState.interests||[]).slice(), dayRegions:(planState.dayRegions||[]).slice() };
     var ag=(agendaData||[]).map(function(d){
       return { areaId:d.area?d.area.id:null, lodgId:d.lodg?d.lodg.id:null,
@@ -7580,6 +7878,10 @@
         try{ if(!AREAS.some(function(a){ return a.id===planState.stayCity; })) planState.stayCity=(AREAS[0]&&AREAS[0].id); }catch(e){}
         planState.company=p.company||null;
         planState.pace=p.pace||'equilibrado';
+        planState.mobility=p.mobility||null;
+        planState.budget=p.budget||null;
+        planState.budgetMax=p.budgetMax||null;
+        if(p.budgetW && typeof p.budgetW==='object') planState.budgetW={aloj:p.budgetW.aloj||34,comida:p.budgetW.comida||33,ocio:p.budgetW.ocio||33};
         planState.interests=(p.interests||[]).slice();
         if(Array.isArray(p.dayRegions)) planState.dayRegions=p.dayRegions.slice();
         try{ recomputeDays(); }catch(e){}
@@ -8928,7 +9230,7 @@
     if(tab==='group') renderGrupos();
     if(tab==='encuestas'){ renderGrupos(); showGroupSubtab('polls'); }
     if(tab==='gastos'){ renderGrupos(); showGroupSubtab('expenses'); }
-    if(tab==='plan'||tab==='agenda'||tab==='info'){ renderPlan(); var _v=tab; if(tab==='plan') _v=(agendaData&&agendaData.length)?'agenda':'plan'; switchView(_v); }
+    if(tab==='plan'||tab==='agenda'||tab==='info'){ renderPlan(); var _v=tab; if(tab==='plan') _v=(agendaData&&agendaData.length)?'agenda':'plan'; switchView(_v); if(tab==='plan' && !(agendaData&&agendaData.length)){ try{ wzOpen(); }catch(e){} } }
     if(tab!=='plan'&&tab!=='agenda'&&tab!=='info') stopAgendaSync();
     if(tab==='souvenirs') renderSouvenirs();
     var _psl=document.getElementById('progresoSectionLabel');
@@ -9113,6 +9415,8 @@
       var sn=document.getElementById('planSubnav');
       if(sn) sn.addEventListener('change', function(){ switchView(sn.value); });
       var ddb=document.getElementById('ddBack'); if(ddb) ddb.addEventListener('click', backFromDay);
+      var wzb=document.getElementById('wzBack'); if(wzb) wzb.addEventListener('click', function(){ wzGo(-1); });
+      var wzc=document.getElementById('wzClose'); if(wzc) wzc.addEventListener('click', function(){ wzClose(); });
       var ddpb=document.getElementById('ddPickerBack'); if(ddpb) ddpb.addEventListener('click', closePicker);
     })();
 
@@ -9826,7 +10130,7 @@
 
 <script>
 // Sello de versión: sirve para confirmar qué build está realmente desplegado.
-window.UTD_BUILD='2026-09-09 · plan v5.5 (export + candado)';
+window.UTD_BUILD='2026-09-09 · plan v6.1 (estilo limpio)';
 try{ console.log('untraveld build: '+window.UTD_BUILD); }catch(e){}
 if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/app/sw.js",{scope:"/app/"}).catch(function(){});});}
 </script>
