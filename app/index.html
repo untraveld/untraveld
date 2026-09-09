@@ -368,6 +368,11 @@
   #tablonText{ width:100%; box-sizing:border-box; min-height:120px; resize:vertical; line-height:1.5; }
   .day-map{ width:100%; height:210px; border-radius:14px; overflow:hidden; border:1px solid var(--line); background:var(--fog); }
   .day-route-pin{ width:26px; height:26px; border-radius:50%; background:#C9622F; color:#fff; font-family:var(--display); font-weight:800; font-size:12px; display:flex; align-items:center; justify-content:center; border:2px solid #fff; box-shadow:0 2px 6px rgba(0,0,0,.3); }
+  /* Día en mapa (Fase 2) */
+  .dd-planmap{ width:100%; height:44vh; min-height:280px; border-radius:16px; overflow:hidden; border:1px solid var(--line); background:var(--fog); margin:8px 0 6px; }
+  .dpp{ width:28px; height:28px; border-radius:50%; border:2px solid #fff; box-shadow:0 2px 6px rgba(58,36,28,.35); display:flex; align-items:center; justify-content:center; font-family:var(--display); font-weight:700; font-size:12px; color:#fff; }
+  .dpp.done{ opacity:.5; }
+  .dpp-base{ width:14px; height:14px; border-radius:50%; background:var(--violet-deep); border:3px solid #fff; box-shadow:0 0 0 3px rgba(138,58,31,.25); }
   .day-route-legend{ margin-top:11px; display:flex; flex-direction:column; gap:7px; }
   .drl-row{ display:flex; align-items:center; gap:10px; }
   .drl-num{ width:20px; height:20px; border-radius:50%; background:#C9622F; color:#fff; font-family:var(--display); font-weight:700; font-size:11px; display:inline-flex; align-items:center; justify-content:center; flex-shrink:0; }
@@ -684,7 +689,7 @@
   /* ---------- Modal ---------- */
   .modal-backdrop{
     position:fixed; inset:0; background:rgba(58,36,28,0.45); backdrop-filter: blur(3px);
-    display:none; align-items:flex-end; justify-content:center; z-index:3000;
+    display:none; align-items:flex-end; justify-content:center; z-index:3600;
   }
   .modal-backdrop.open{display:flex;}
   .modal{
@@ -3761,6 +3766,8 @@
       var out=[]; ACTIVE_REGIONS.forEach(function(r){ (POIS_BY_REGION[r]||[]).forEach(function(p){ var c={}; for(var k in p) c[k]=p[k]; c._region=r; out.push(c); }); }); return out;
     })();
     REGION_NAME = MULTI ? ACTIVE_REGIONS.map(function(r){ return NAME_BY_REGION[r]||r; }).join(' + ') : (NAME_BY_REGION[ACTIVE_REGION]||'Región de Murcia');
+    try{ AREAS = computeAreas(); }catch(e){}
+    try{ if(typeof planState!=='undefined' && !AREAS.some(function(a){ return a.id===planState.stayCity; })){ planState.stayCity=(AREAS[0]&&AREAS[0].id); } }catch(e){}
   }
   function ensureActiveTerritories(){
     return ensureCatalog().then(function(){
@@ -6281,11 +6288,32 @@
     { id:"igu_pueblo", name:"Puerto Iguazú", lat:-25.5992, lng:-54.5734 },
     { id:"igu_brasil", name:"Lado brasileño y alrededores", lat:-25.695, lng:-54.4402 },
   ];
-  var AREAS_BY_REGION = { murcia:AREAS_MURCIA, madrid:AREAS_MADRID, toronto:AREAS_TORONTO, niagara:AREAS_NIAGARA, baptiste:AREAS_BAPTISTE, buenosaires:AREAS_BA, mendoza:AREAS_MENDOZA, catamarca:AREAS_CATAMARCA, tucuman:AREAS_TUCUMAN, miami:AREAS_MIAMI, roma:AREAS_ROMA, bariloche:AREAS_BARILOCHE, calafate:AREAS_CALAFATE, iguazu:AREAS_IGUAZU };
-  var AREAS = (function(){
-    if(!MULTI) return AREAS_BY_REGION[ACTIVE_REGION]||AREAS_MURCIA;
-    var out=[]; ACTIVE_REGIONS.forEach(function(r){ (AREAS_BY_REGION[r]||[]).forEach(function(a){ var c={}; for(var k in a) c[k]=a[k]; c._region=r; out.push(c); }); }); return out;
-  })();
+    var AREAS_GINEBRA = [
+    { id:"gin_centro", name:"Centro y Ciudad Vieja", lat:46.2003, lng:6.1470 },
+    { id:"gin_paquis", name:"Pâquis y estación Cornavin", lat:46.2110, lng:6.1470 },
+    { id:"gin_nations", name:"Nations y ONU", lat:46.2270, lng:6.1400 },
+    { id:"gin_carouge", name:"Carouge", lat:46.1830, lng:6.1390 },
+  ];
+    var AREAS_LAUSANA = [
+    { id:"lau_centro", name:"Centro y Flon", lat:46.5220, lng:6.6330 },
+    { id:"lau_cite", name:"La Cité y Catedral", lat:46.5230, lng:6.6350 },
+    { id:"lau_ouchy", name:"Ouchy y lago", lat:46.5080, lng:6.6260 },
+    { id:"lau_gare", name:"Estación y Sous-Gare", lat:46.5170, lng:6.6290 },
+  ];
+  var AREAS_BY_REGION = { murcia:AREAS_MURCIA, madrid:AREAS_MADRID, toronto:AREAS_TORONTO, niagara:AREAS_NIAGARA, baptiste:AREAS_BAPTISTE, buenosaires:AREAS_BA, mendoza:AREAS_MENDOZA, catamarca:AREAS_CATAMARCA, tucuman:AREAS_TUCUMAN, miami:AREAS_MIAMI, roma:AREAS_ROMA, bariloche:AREAS_BARILOCHE, calafate:AREAS_CALAFATE, iguazu:AREAS_IGUAZU, ginebra:AREAS_GINEBRA, lausana:AREAS_LAUSANA };
+  function _areasFallback(r){
+    // Territorio sin zonas propias: genera una zona base a partir de sí mismo (nunca Murcia).
+    var e = (typeof TERRITORY_CATALOG!=='undefined') ? TERRITORY_CATALOG[r] : null;
+    var nm = (e && e.name) || ((typeof NAME_BY_REGION!=='undefined' && NAME_BY_REGION[r]) || r);
+    var c = (e && e.center) ? e.center : ((window.UTD_INLINE_CENTERS && window.UTD_INLINE_CENTERS[r]) || null);
+    var lat = c ? c[0] : 0, lng = c ? c[1] : 0;
+    return [{ id:r+'_base', name:nm, lat:lat, lng:lng }];
+  }
+  function computeAreas(){
+    if(!MULTI) return AREAS_BY_REGION[ACTIVE_REGION] || _areasFallback(ACTIVE_REGION);
+    var out=[]; ACTIVE_REGIONS.forEach(function(r){ (AREAS_BY_REGION[r]||_areasFallback(r)).forEach(function(a){ var c={}; for(var k in a) c[k]=a[k]; c._region=r; out.push(c); }); }); return out;
+  }
+  var AREAS = computeAreas();
   function firstAreaOfRegion(r){ for(var i=0;i<AREAS.length;i++){ if((AREAS[i]._region||ACTIVE_REGION)===r) return AREAS[i]; } return AREAS[0]; }
   function areaById(id){ for(var i=0;i<AREAS.length;i++){ if(AREAS[i].id===id) return AREAS[i]; } return AREAS[0]; }
   function areaOptions(sel){ return AREAS.map(function(a){ return '<option value="'+a.id+'"'+(sel===a.id?' selected':'')+'>'+a.name+'</option>'; }).join(''); }
@@ -7245,6 +7273,36 @@
       };
     }
   }
+  var _dayPlanMap=null;
+  function catPinColor(cat){ return cat==='monuments'?'#B24A34':cat==='food'?'#3C7A9E':cat==='nature'?'#5F8A38':cat==='ocio'?'#A8447A':'#C9622F'; }
+  function renderDayPlannedMap(i){
+    var d=agendaData[i]; if(!d) return;
+    if(_dayPlanMap){ try{ _dayPlanMap.remove(); }catch(e){} _dayPlanMap=null; }
+    var div=document.getElementById('ddPlanMap'); if(!div) return;
+    var stops=d.stops.filter(function(s){ return s.poi; });
+    var lodg=d.lodg;
+    try{
+      _dayPlanMap=L.map(div,{ zoomControl:false, attributionControl:false, scrollWheelZoom:false });
+      addBaseTiles(_dayPlanMap);
+      var line=[];
+      if(lodg && typeof lodg.lat==='number'){ line.push([lodg.lat,lodg.lng]); }
+      stops.forEach(function(s){ line.push([s.poi.lat,s.poi.lng]); });
+      if(line.length>=2){ L.polyline(line,{ color:'#C9622F', weight:4, opacity:0.85, lineJoin:'round', lineCap:'round' }).addTo(_dayPlanMap); }
+      if(lodg && typeof lodg.lat==='number'){
+        var bic=L.divIcon({ className:'', html:'<div class="dpp-base"></div>', iconSize:[16,16], iconAnchor:[8,8] });
+        L.marker([lodg.lat,lodg.lng],{icon:bic, zIndexOffset:500}).addTo(_dayPlanMap);
+      }
+      stops.forEach(function(s,idx){
+        var col=catPinColor(s.poi.cat);
+        var ic=L.divIcon({ className:'', html:'<div class="dpp'+(s.visited?' done':'')+'" style="background:'+col+'">'+(s.visited?'✓':(idx+1))+'</div>', iconSize:[28,28], iconAnchor:[14,14] });
+        var mk=L.marker([s.poi.lat,s.poi.lng],{icon:ic, zIndexOffset:800}).addTo(_dayPlanMap);
+        mk.on('click', function(){ try{ openModal(s.poi,'map'); }catch(e){} });
+      });
+      var pts=stops.map(function(s){ return [s.poi.lat,s.poi.lng]; });
+      if(lodg && typeof lodg.lat==='number') pts.push([lodg.lat,lodg.lng]);
+      setTimeout(function(){ try{ _dayPlanMap.invalidateSize(); if(pts.length>=2){ _dayPlanMap.fitBounds(L.latLngBounds(pts),{padding:[34,34],maxZoom:16}); } else if(pts.length===1){ _dayPlanMap.setView(pts[0],15); } }catch(e){} }, 80);
+    }catch(e){}
+  }
   function openDayDetail(i){
     var d=agendaData[i]; if(!d) return;
     ddCurrentDay=i;
@@ -7257,8 +7315,8 @@
     var comments = '<div class="dd-section"><div class="dd-sec-title">'+TR('Comentarios')+'</div>'
       + '<textarea id="ddBoard" class="dd-board" placeholder="'+TR('Escribe aquí tus notas del día… se guardan solas.')+'"></textarea></div>';
     var body=document.getElementById('ddBody');
-    if(body) body.innerHTML = lead + dayMetaHtml(d) + dayPlanEditableHtml(d)
-      + dayRouteMapHtml()
+    if(body) body.innerHTML = '<div id="ddPlanMap" class="dd-planmap"></div>'
+      + lead + dayMetaHtml(d) + dayPlanEditableHtml(d)
       + comments
       + '<div class="dd-section"><div class="dd-sec-title">'+TR('Consejos')+'</div>'+consejos+'</div>';
     var board=document.getElementById('ddBoard');
@@ -7268,9 +7326,9 @@
     body.querySelectorAll('.add-slot-btn').forEach(function(bt){ bt.addEventListener('click', function(){ openPicker('add', i, bt.getAttribute('data-slot')); }); });
     var dd=document.getElementById('dayDetail'); if(dd){ dd.style.display='block'; dd.scrollTop=0; }
     document.body.classList.add('utd-shell-open');
-    try{ prepareDayRoute(i); }catch(e){}
+    try{ renderDayPlannedMap(i); }catch(e){}
   }
-  function closeDayDetail(){ if(_dayMap){ try{ _dayMap.remove(); }catch(e){} _dayMap=null; } var dd=document.getElementById('dayDetail'); if(dd) dd.style.display='none'; document.body.classList.remove('utd-shell-open'); }
+  function closeDayDetail(){ if(_dayMap){ try{ _dayMap.remove(); }catch(e){} _dayMap=null; } if(_dayPlanMap){ try{ _dayPlanMap.remove(); }catch(e){} _dayPlanMap=null; } var dd=document.getElementById('dayDetail'); if(dd) dd.style.display='none'; document.body.classList.remove('utd-shell-open'); }
   function clearAgenda(){
     agendaData=[];
     var box=document.getElementById('planAgenda');
@@ -7380,6 +7438,7 @@
         if(p.departure) planState.departure=p.departure;
         if(typeof p.days==='number') planState.days=p.days;
         if(p.stayCity) planState.stayCity=p.stayCity;
+        try{ if(!AREAS.some(function(a){ return a.id===planState.stayCity; })) planState.stayCity=(AREAS[0]&&AREAS[0].id); }catch(e){}
         planState.company=p.company||null;
         planState.pace=p.pace||'equilibrado';
         planState.interests=(p.interests||[]).slice();
@@ -9628,7 +9687,7 @@
 
 <script>
 // Sello de versión: sirve para confirmar qué build está realmente desplegado.
-window.UTD_BUILD='2026-09-09 · plan v5.0 (marco)';
+window.UTD_BUILD='2026-09-09 · plan v5.4 (día en mapa)';
 try{ console.log('untraveld build: '+window.UTD_BUILD); }catch(e){}
 if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/app/sw.js",{scope:"/app/"}).catch(function(){});});}
 </script>
