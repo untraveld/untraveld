@@ -1207,6 +1207,17 @@
   .mk-st .mk-barwrap i{ display:block; height:100%; background:var(--gold); border-radius:100px; }
   .mk-st .mk-txt{ font-size:11px; color:var(--text-mid); font-variant-numeric:tabular-nums; }
   .mk-chev{ color:var(--text-low); font-size:16px; flex:none; }
+  .mk-locknote{ font-size:11.5px; color:var(--text-mid); background:var(--bg-panel-2); border-radius:12px; padding:10px 13px; margin:14px 2px 2px; display:flex; gap:8px; align-items:flex-start; line-height:1.5; }
+  /* Hoja de exportación */
+  .mk-exp-scrim{ position:fixed; inset:0; z-index:4000; background:rgba(58,36,28,0.42); display:flex; align-items:flex-end; justify-content:center; }
+  .mk-exp-sheet{ width:100%; max-width:480px; background:var(--bg-panel); border-radius:22px 22px 0 0; padding:10px 18px calc(20px + env(safe-area-inset-bottom)); box-shadow:0 -10px 30px rgba(58,36,28,.22); }
+  .mk-exp-grab{ width:38px; height:5px; border-radius:100px; background:var(--fog); margin:0 auto 12px; }
+  .mk-exp-title{ font-family:var(--display); font-weight:700; font-size:16px; margin:2px 4px 12px; }
+  .mk-exp-opt{ display:flex; align-items:center; gap:14px; width:100%; text-align:left; background:none; border:none; border-top:1px solid var(--line); padding:14px 4px; cursor:pointer; }
+  .mk-exp-ic{ font-size:22px; flex:none; width:26px; text-align:center; }
+  .mk-exp-l{ font-family:var(--display); font-weight:600; font-size:15px; color:var(--text-hi); }
+  .mk-exp-s{ font-size:12px; color:var(--text-mid); margin-top:1px; }
+  .mk-exp-cancel{ display:block; width:100%; margin-top:12px; padding:13px; border:none; background:var(--bg-panel-2); color:var(--text-hi); border-radius:14px; font-family:var(--body); font-weight:600; font-size:14px; cursor:pointer; }
   .info-block{ margin-bottom:16px; }
   .info-block:last-child{ margin-bottom:4px; }
   .info-h{ font-size:11px; letter-spacing:1.2px; text-transform:uppercase; font-weight:700; color:var(--violet); margin-bottom:6px; }
@@ -7337,10 +7348,113 @@
     try{ renderProgreso(); }catch(e){}
     switchView('plan');
   }
-  function marcoExport(btn){
+  // ¿Puede el usuario editar el marco (días/alojamiento)? Solo (dueño de su plan) o creador del grupo.
+  function isMarcoOwner(){
+    if(!inGroupMode()) return true;
+    if(!groupState || !groupState.createdBy) return true; // grupos antiguos sin creador: no bloqueamos
+    return groupState.createdBy === myName;
+  }
+  function marcoTitle(){
     var dest = (typeof REGION_NAME==='string' && REGION_NAME) ? REGION_NAME : TR('tu destino');
-    var title = (inGroupMode() && groupState && groupState.name) ? groupState.name : TRf('Ruta por %1', dest);
-    var lines=[title, ''];
+    return (inGroupMode() && groupState && groupState.name) ? groupState.name : TRf('Ruta por %1', dest);
+  }
+  function _dl(filename, blob){
+    try{
+      var url=URL.createObjectURL(blob);
+      var a=document.createElement('a'); a.href=url; a.download=filename;
+      document.body.appendChild(a); a.click();
+      setTimeout(function(){ document.body.removeChild(a); URL.revokeObjectURL(url); }, 500);
+    }catch(e){}
+  }
+  function _icsDate(i){ // YYYYMMDD del día i
+    if(!planState.arrival) return null;
+    var d=new Date(planState.arrival+'T00:00:00'); d.setDate(d.getDate()+i);
+    var y=d.getFullYear(), m=('0'+(d.getMonth()+1)).slice(-2), dd=('0'+d.getDate()).slice(-2);
+    return ''+y+m+dd;
+  }
+  function _icsEsc(s){ return String(s||'').replace(/\\/g,'\\\\').replace(/;/g,'\\;').replace(/,/g,'\\,').replace(/\n/g,'\\n'); }
+  function marcoBuildICS(){
+    var title=marcoTitle();
+    var now=new Date(); var stamp=now.toISOString().replace(/[-:]/g,'').split('.')[0]+'Z';
+    var L2=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//untraveld//viaje//ES','CALSCALE:GREGORIAN','METHOD:PUBLISH'];
+    (agendaData||[]).forEach(function(d,i){
+      var start=_icsDate(i); if(!start) return;
+      var end=_icsDate(i+1)||start;
+      var main=dayMain(d); var mainName=main?main.name:TR('Día libre');
+      var lodg=(d.lodg&&d.lodg.name)?d.lodg.name:((d.area&&d.area.name)?d.area.name:'');
+      var stops=(d.stops||[]).filter(function(s){return s.poi;}).map(function(s){return s.poi.name;});
+      var desc=(stops.length?stops.join(', '):'')+(lodg?('\n'+TR('Alojamiento')+': '+lodg):'');
+      L2.push('BEGIN:VEVENT');
+      L2.push('UID:utd-'+(myGroupId||'solo')+'-'+i+'-'+start+'@untraveld');
+      L2.push('DTSTAMP:'+stamp);
+      L2.push('DTSTART;VALUE=DATE:'+start);
+      L2.push('DTEND;VALUE=DATE:'+end);
+      L2.push('SUMMARY:'+_icsEsc(title+' · '+mainName));
+      if(desc) L2.push('DESCRIPTION:'+_icsEsc(desc));
+      if(lodg) L2.push('LOCATION:'+_icsEsc(lodg));
+      L2.push('END:VEVENT');
+    });
+    L2.push('END:VCALENDAR');
+    return L2.join('\r\n');
+  }
+  function marcoExportICS(){
+    var ics=marcoBuildICS();
+    var blob=new Blob([ics], {type:'text/calendar;charset=utf-8'});
+    var fname=(marcoTitle().replace(/[^\w\-]+/g,'_').slice(0,40)||'viaje')+'.ics';
+    if(navigator.canShare){
+      try{ var f=new File([blob], fname, {type:'text/calendar'}); if(navigator.canShare({files:[f]})){ navigator.share({files:[f], title:marcoTitle()}).catch(function(){ _dl(fname, blob); }); return; } }catch(e){}
+    }
+    _dl(fname, blob);
+  }
+  function marcoExportImage(){
+    var W=1080, pad=64, rowH=132, headH=300;
+    var days=(agendaData||[]);
+    var H=headH + Math.max(1,days.length)*rowH + 120;
+    var c=document.createElement('canvas'); c.width=W; c.height=H;
+    var x=c.getContext('2d');
+    x.fillStyle='#F4EDE1'; x.fillRect(0,0,W,H);
+    x.fillStyle='#C9622F'; x.font='700 26px Poppins, Arial, sans-serif';
+    x.fillText('UNTRAVELD · '+TR('TU VIAJE').toUpperCase(), pad, 84);
+    x.fillStyle='#3A241C'; x.font='700 58px Poppins, Arial, sans-serif';
+    x.fillText(marcoTitle(), pad, 158);
+    x.fillStyle='#7A6656'; x.font='400 30px Inter, Arial, sans-serif';
+    var range=''; if(planState.arrival){ var a=dayDate(0), b=dayDate(days.length-1); range=(a||'')+(b&&b!==a?('  →  '+b):''); }
+    if(range) x.fillText(range, pad, 210);
+    x.strokeStyle='#E4D9C5'; x.lineWidth=2; x.beginPath(); x.moveTo(pad,258); x.lineTo(W-pad,258); x.stroke();
+    var CAT={monuments:'#B24A34',food:'#3C7A9E',nature:'#5F8A38',ocio:'#A8447A'};
+    days.forEach(function(d,i){
+      var y=headH + i*rowH;
+      var dp=dayParts(i);
+      x.fillStyle='#C9622F'; x.font='700 22px Poppins, Arial, sans-serif';
+      x.fillText((dp?dp.dow:'').toUpperCase(), pad, y-4);
+      x.fillStyle='#3A241C'; x.font='700 56px Poppins, Arial, sans-serif';
+      x.fillText(String(dp?dp.num:(i+1)), pad, y+52);
+      var main=dayMain(d); var mainName=main?main.name:TR('Día libre');
+      x.fillStyle='#3A241C'; x.font='600 38px Poppins, Arial, sans-serif';
+      x.fillText(mainName, pad+150, y+14);
+      var lodg=(d.lodg&&d.lodg.name)?d.lodg.name:'';
+      var nst=(d.stops||[]).filter(function(s){return s.poi;}).length;
+      x.fillStyle='#7A6656'; x.font='400 28px Inter, Arial, sans-serif';
+      x.fillText((lodg?lodg+'  ·  ':'')+TRf('%1 paradas', nst), pad+150, y+58);
+      // puntos de categoría
+      var cats=(d.stops||[]).filter(function(s){return s.poi;}).map(function(s){return s.poi.cat;});
+      var seen={}, cx=W-pad-8;
+      cats.forEach(function(cat){ if(seen[cat])return; seen[cat]=1; var col=CAT[cat]||'#C9622F'; x.fillStyle=col; x.beginPath(); x.arc(cx, y+28, 12, 0, 2*Math.PI); x.fill(); cx-=34; });
+      x.strokeStyle='#E4D9C5'; x.lineWidth=1.5; x.beginPath(); x.moveTo(pad,y+rowH-40); x.lineTo(W-pad,y+rowH-40); x.stroke();
+    });
+    x.fillStyle='#A99A85'; x.font='400 24px Inter, Arial, sans-serif';
+    x.fillText('untraveld', pad, H-46);
+    c.toBlob(function(blob){
+      if(!blob) return;
+      var fname=(marcoTitle().replace(/[^\w\-]+/g,'_').slice(0,40)||'viaje')+'.png';
+      if(navigator.canShare){
+        try{ var f=new File([blob], fname, {type:'image/png'}); if(navigator.canShare({files:[f]})){ navigator.share({files:[f], title:marcoTitle()}).catch(function(){ _dl(fname, blob); }); return; } }catch(e){}
+      }
+      _dl(fname, blob);
+    }, 'image/png');
+  }
+  function marcoExportText(btn){
+    var lines=[marcoTitle(), ''];
     (agendaData||[]).forEach(function(d,i){
       var dd = dayDate(i) || (TR('Día')+' '+(i+1));
       var main = dayMain(d); var mainName = main?main.name:TR('Día libre');
@@ -7350,9 +7464,32 @@
       lines.push('');
     });
     var text=lines.join('\n');
-    function feedback(){ if(!btn) return; var old=btn.textContent; btn.textContent=TR('¡Copiado!'); setTimeout(function(){ btn.textContent=old; }, 1600); }
-    if(navigator.share){ navigator.share({title:title, text:text}).then(feedback).catch(function(){ copyText(text, feedback); }); }
-    else { copyText(text, feedback); }
+    if(navigator.share){ navigator.share({title:marcoTitle(), text:text}).catch(function(){ copyText(text); }); }
+    else copyText(text);
+  }
+  function marcoExport(btn){
+    // Hoja de acciones de exportación
+    var old=document.getElementById('mkExportSheet'); if(old){ old.parentNode.removeChild(old); }
+    var scrim=document.createElement('div'); scrim.id='mkExportSheet'; scrim.className='mk-exp-scrim';
+    scrim.innerHTML='<div class="mk-exp-sheet">'
+      + '<div class="mk-exp-grab"></div>'
+      + '<div class="mk-exp-title">'+TR('Exportar viaje')+'</div>'
+      + '<button class="mk-exp-opt" data-act="ics"><span class="mk-exp-ic">📅</span><div><div class="mk-exp-l">'+TR('Añadir al calendario')+'</div><div class="mk-exp-s">'+TR('Un evento por día (.ics)')+'</div></div></button>'
+      + '<button class="mk-exp-opt" data-act="img"><span class="mk-exp-ic">🖼️</span><div><div class="mk-exp-l">'+TR('Compartir como imagen')+'</div><div class="mk-exp-s">'+TR('Tarjeta del viaje en PNG')+'</div></div></button>'
+      + '<button class="mk-exp-opt" data-act="txt"><span class="mk-exp-ic">📝</span><div><div class="mk-exp-l">'+TR('Copiar como texto')+'</div><div class="mk-exp-s">'+TR('Para pegar en un chat')+'</div></div></button>'
+      + '<button class="mk-exp-cancel" data-act="cancel">'+TR('Cancelar')+'</button>'
+      + '</div>';
+    document.body.appendChild(scrim);
+    function close(){ if(scrim.parentNode) scrim.parentNode.removeChild(scrim); }
+    scrim.addEventListener('click', function(e){
+      if(e.target===scrim){ close(); return; }
+      var b=e.target.closest('[data-act]'); if(!b) return;
+      var act=b.getAttribute('data-act');
+      if(act==='ics'){ close(); marcoExportICS(); }
+      else if(act==='img'){ close(); marcoExportImage(); }
+      else if(act==='txt'){ close(); marcoExportText(); }
+      else close();
+    });
   }
   function copyText(text, cb){
     if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(text).then(cb).catch(function(){}); }
@@ -7365,11 +7502,12 @@
     var title = (inGroupMode() && groupState && groupState.name) ? groupState.name : TRf('Ruta por %1', dest);
     var members = (inGroupMode() && groupState && groupState.members) ? Object.keys(groupState.members) : [];
     var avColors=['var(--violet)','var(--map-blue)','var(--map-ocio)','var(--map-green)'];
+    var owner=isMarcoOwner();
     var html='<div class="mk-head">'
       + '<div class="mk-eyebrow">'+TR('Tu viaje')+'</div>'
       + '<div class="mk-titlerow"><h2 class="mk-title">'+escapeHtml(title)+'</h2>'
       + '<span class="mk-lock" title="'+TR('Días y alojamientos fijos')+'">🔒</span>'
-      + '<button class="mk-more" id="planEditBtn">'+TR('Editar')+'</button></div>';
+      + (owner?'<button class="mk-more" id="planEditBtn">'+TR('Editar')+'</button>':'')+'</div>';
     html += '<div class="mk-meta">';
     if(members.length){
       var avs=members.slice(0,4).map(function(n,idx){ return '<span class="mk-av" style="background:'+avColors[idx%avColors.length]+'">'+escapeHtml((n||'?').trim().slice(0,2).toUpperCase())+'</span>'; }).join('');
@@ -7395,7 +7533,8 @@
         + '<span class="mk-chev">›</span></button>';
     });
     html += '</div>';
-    html += '<button class="agenda-delete-btn" id="agendaDeleteBtn">'+TR('Eliminar agenda actual')+'</button>';
+    if(!owner){ html += '<div class="mk-locknote">🔒 <div>'+TR('El marco (días y alojamientos) lo gestiona quien creó el viaje. Tú puedes editar qué hacéis cada día.')+'</div></div>'; }
+    if(owner){ html += '<button class="agenda-delete-btn" id="agendaDeleteBtn">'+TR('Eliminar agenda actual')+'</button>'; }
     box.innerHTML=html;
     var _mex=document.getElementById('marcoExportBtn'); if(_mex) _mex.addEventListener('click', function(){ try{ marcoExport(_mex); }catch(e){} });
     var db=document.getElementById('agendaDeleteBtn');
@@ -8819,7 +8958,7 @@
     saveMyName(myName);
     const id = randomGroupId();
     const groupVal = TRf('Viaje de %1', nameVal);
-    const newGroup = { name: groupVal, members: { [firebaseKeySafe(myName)]: true }, contributions: {} };
+    const newGroup = { name: groupVal, members: { [firebaseKeySafe(myName)]: true }, contributions: {}, createdBy: myName };
     await saveNewGroup(id, newGroup);
     myGroupId = id;
     saveMyGroupId(id);
@@ -9687,7 +9826,7 @@
 
 <script>
 // Sello de versión: sirve para confirmar qué build está realmente desplegado.
-window.UTD_BUILD='2026-09-09 · plan v5.4 (día en mapa)';
+window.UTD_BUILD='2026-09-09 · plan v5.5 (export + candado)';
 try{ console.log('untraveld build: '+window.UTD_BUILD); }catch(e){}
 if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/app/sw.js",{scope:"/app/"}).catch(function(){});});}
 </script>
