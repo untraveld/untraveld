@@ -1366,6 +1366,89 @@
   .pt-empty-note{ font-size:13px; color:var(--text-mid); background:var(--bg-panel); border:1px solid var(--line); border-radius:14px; padding:16px; line-height:1.5; text-align:center; }
   .pt-delete{ display:block; width:100%; margin:24px 0 6px; padding:13px; border:1px solid rgba(192,85,60,0.4); background:none; color:var(--danger); border-radius:14px; font-family:var(--body); font-weight:600; font-size:13.5px; cursor:pointer; }
   .pt-delete.armed{ background:rgba(192,85,60,0.12); }
+  .pt-cover{ display:block; height:104px; background-size:cover; background-position:center; background-color:var(--bg-panel-2); }
+  .pt-rc-cover{ height:180px; border-radius:16px; background-size:cover; background-position:center; background-color:var(--bg-panel-2); margin:2px 0 14px; border:1px solid var(--line); }
+  .pt-rc-desc{ font-size:14px; color:var(--text-hi); line-height:1.55; margin:12px 0 2px; }
+  .pt-edit-btn{ display:inline-flex; align-items:center; margin-top:14px; padding:9px 16px; border:1px solid var(--line); border-radius:100px; background:var(--bg-panel); font-family:var(--display); font-weight:600; font-size:13px; color:var(--violet-deep); cursor:pointer; }
+  /* Hoja editar viaje */
+  .pt-edit-scrim{ position:fixed; inset:0; z-index:4200; background:rgba(58,36,28,0.42); display:flex; align-items:flex-end; justify-content:center; }
+  .pt-edit-sheet{ width:100%; max-width:480px; max-height:88vh; overflow-y:auto; background:var(--bg-panel); border-radius:22px 22px 0 0; padding:10px 18px calc(20px + env(safe-area-inset-bottom)); box-shadow:0 -10px 30px rgba(58,36,28,.22); }
+  .pt-edit-title{ font-family:var(--display); font-weight:700; font-size:17px; margin:2px 4px 14px; }
+  .pte-lbl{ font-size:11px; letter-spacing:1.1px; text-transform:uppercase; font-weight:700; color:var(--text-low); margin:14px 2px 7px; }
+  .pte-input,.pte-area{ width:100%; padding:12px 14px; border:1px solid var(--line); border-radius:12px; background:var(--bg-void); font-family:var(--body); font-size:15px; color:var(--text-hi); }
+  .pte-area{ resize:vertical; line-height:1.5; min-height:76px; }
+  .pte-input:focus,.pte-area:focus{ outline:none; border-color:var(--violet); }
+  .pte-cover-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:8px; }
+  .pte-tile{ position:relative; aspect-ratio:1/1; border:1px solid var(--line); border-radius:12px; overflow:hidden; padding:0; cursor:pointer; background:var(--bg-void); display:flex; align-items:center; justify-content:center; font-family:var(--body); font-size:12px; font-weight:600; color:var(--text-mid); text-align:center; }
+  .pte-tile img{ width:100%; height:100%; object-fit:cover; display:block; }
+  .pte-tile.on{ border-color:var(--violet); box-shadow:0 0 0 2px var(--violet); }
+  .pte-upload{ border-style:dashed; color:var(--violet-deep); }
+  .pte-save{ display:block; width:100%; margin:18px 0 0; padding:14px; border:none; background:var(--violet); color:#fff; border-radius:14px; font-family:var(--display); font-weight:600; font-size:15px; cursor:pointer; box-shadow:0 6px 16px rgba(201,98,47,.28); }
+  .pte-cancel{ display:block; width:100%; margin:10px 0 0; padding:13px; border:none; background:var(--bg-panel-2); color:var(--text-hi); border-radius:14px; font-family:var(--body); font-weight:600; font-size:14px; cursor:pointer; }
+  /* ---------- Social ---------- */
+  .soc-head{ display:flex; align-items:center; gap:15px; margin-top:4px; }
+  .soc-av{ width:64px; height:64px; border-radius:50%; background:linear-gradient(135deg,var(--violet),var(--violet-deep)); background-size:cover; background-position:center; display:flex; align-items:center; justify-content:center; color:#fff; font-family:var(--display); font-weight:700; font-size:23px; flex:none; }
+  .soc-name{ font-family:var(--display); font-weight:700; font-size:19px; color:var(--text-hi); }
+  .soc-handle{ font-size:12.5px; color:var(--text-mid); margin-top:1px; }
+  .soc-stats{ display:flex; margin:16px 0 2px; }
+  .soc-stat{ flex:1; text-align:center; background:none; border:none; padding:4px 2px; cursor:pointer; }
+  .soc-stat .n{ font-family:var(--display); font-weight:700; font-size:18px; color:var(--text-hi); }
+  .soc-stat .l{ font-size:10px; color:var(--text-mid); text-transform:uppercase; letter-spacing:.04em; margin-top:1px; }
+  .soc-btns{ display:flex; gap:9px; margin-top:14px; }
+  .soc-btn{ flex:1; text-align:center; padding:10px; border:1px solid var(--line); border-radius:12px; font-family:var(--display); font-weight:600; font-size:13px; color:var(--text-hi); background:var(--bg-panel); cursor:pointer; }
+  .soc-btn.pri{ background:var(--violet); color:#fff; border-color:var(--violet); }
+  .soc-eyebrow{ font-family:var(--display); font-weight:700; font-size:10.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--text-low); margin:20px 0 12px; }
+  .soc-terr-grid{ display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+  .soc-terr{ border:1px solid var(--line); border-radius:14px; padding:12px 12px 13px; background:var(--bg-panel); text-align:left; cursor:pointer; }
+  .soc-terr .tn{ font-family:var(--display); font-weight:600; font-size:13.5px; line-height:1.2; color:var(--text-hi); }
+  .soc-terr .tc{ font-size:11px; color:var(--text-mid); margin:2px 0 9px; }
+  .soc-terr .bar{ height:6px; border-radius:100px; background:var(--fog); overflow:hidden; }
+  .soc-terr .bar i{ display:block; height:100%; background:linear-gradient(90deg,var(--violet),var(--gold)); }
+  .soc-terr .pct{ font-size:11px; color:var(--violet-deep); font-weight:600; margin-top:6px; font-variant-numeric:tabular-nums; }
+  .soc-back{ display:inline-flex; align-items:center; gap:6px; background:none; border:none; color:var(--violet-deep); font-family:var(--display); font-weight:600; font-size:14px; cursor:pointer; padding:2px 0; margin-bottom:6px; }
+  .soc-th{ font-family:var(--display); font-weight:700; font-size:20px; color:var(--text-hi); margin:2px 0 12px; }
+  .soc-prog-bar{ height:8px; border-radius:100px; background:var(--fog); overflow:hidden; }
+  .soc-prog-bar i{ display:block; height:100%; background:linear-gradient(90deg,var(--violet),var(--gold)); }
+  .soc-prog-txt{ font-size:12.5px; color:var(--text-mid); margin-top:7px; }
+  .soc-sec{ font-family:var(--display); font-weight:700; font-size:12px; letter-spacing:.06em; text-transform:uppercase; color:var(--violet); margin:22px 0 6px; }
+  .soc-t5{ display:flex; align-items:center; gap:12px; padding:11px 2px; border-top:1px solid var(--line); }
+  .soc-t5 .rk{ font-family:var(--display); font-weight:700; font-size:14px; color:var(--text-low); width:16px; flex:none; text-align:center; }
+  .soc-t5 .dot{ width:9px; height:9px; border-radius:50%; flex:none; }
+  .soc-t5 .nm{ flex:1; font-weight:600; font-size:14px; min-width:0; }
+  .soc-t5 .sc{ font-family:var(--display); font-weight:700; font-size:14px; color:var(--violet); flex:none; }
+  .soc-itin{ border:1px solid var(--line); border-radius:14px; overflow:hidden; margin-bottom:11px; background:var(--bg-panel); }
+  .soc-itin .cov{ height:66px; background-size:cover; background-position:center; background-color:var(--bg-panel-2); }
+  .soc-itin .ii{ padding:11px 13px; display:flex; align-items:center; gap:8px; }
+  .soc-itin .ib{ flex:1; min-width:0; }
+  .soc-itin .in{ font-family:var(--display); font-weight:700; font-size:15px; }
+  .soc-itin .im{ font-size:12px; color:var(--text-mid); margin-top:2px; }
+  .soc-tag{ font-size:10px; font-weight:700; letter-spacing:.04em; text-transform:uppercase; color:var(--map-blue); border:1px solid var(--line); border-radius:100px; padding:2px 8px; white-space:nowrap; }
+  .soc-tag.off{ color:var(--text-low); }
+  .soc-itin .unshare{ border:none; background:none; color:var(--text-low); font-size:12.5px; font-weight:600; cursor:pointer; flex:none; }
+  .soc-empty{ font-size:13px; color:var(--text-mid); background:var(--bg-panel); border:1px solid var(--line); border-radius:14px; padding:16px; line-height:1.5; }
+  .soc-toggle{ display:flex; align-items:center; gap:12px; border:1px solid var(--line); border-radius:14px; padding:13px 14px; background:var(--bg-void); }
+  .soc-toggle .tl{ flex:1; } .soc-toggle .a{ font-weight:600; font-size:14px; } .soc-toggle .b{ font-size:11.5px; color:var(--text-mid); margin-top:1px; }
+  .soc-sw{ width:44px; height:26px; border-radius:100px; background:var(--violet); position:relative; flex:none; cursor:pointer; }
+  .soc-sw::after{ content:""; position:absolute; top:3px; right:3px; width:20px; height:20px; border-radius:50%; background:#fff; transition:right .15s,left .15s; }
+  .soc-sw.off{ background:var(--fog); } .soc-sw.off::after{ right:auto; left:3px; }
+  .soc-note{ font-size:12px; color:var(--text-mid); margin:12px 2px 0; }
+  .pt-share-btn{ display:block; width:100%; margin:20px 0 0; padding:13px; border:1px solid var(--line); background:var(--bg-panel); color:var(--violet-deep); border-radius:14px; font-family:var(--display); font-weight:600; font-size:14px; cursor:pointer; }
+  .soc-search-input{ width:100%; padding:12px 14px; border:1px solid var(--line); border-radius:12px; background:var(--bg-void); font-family:var(--body); font-size:15px; color:var(--text-hi); margin-bottom:12px; }
+  .soc-search-input:focus{ outline:none; border-color:var(--violet); }
+  .soc-result{ display:flex; align-items:center; gap:12px; padding:11px 2px; border-top:1px solid var(--line); }
+  .soc-result:first-child{ border-top:none; }
+  .soc-rav{ width:40px; height:40px; border-radius:50%; background:linear-gradient(135deg,var(--violet),var(--violet-deep)); color:#fff; font-family:var(--display); font-weight:700; font-size:14px; display:flex; align-items:center; justify-content:center; flex:none; }
+  .soc-result .rb{ flex:1; min-width:0; cursor:pointer; }
+  .soc-result .rn{ font-family:var(--display); font-weight:600; font-size:14.5px; }
+  .soc-result .rh{ font-size:12px; color:var(--text-mid); margin-top:1px; }
+  .soc-follow-btn{ flex:none; padding:8px 16px; border:1px solid var(--violet); border-radius:100px; background:var(--violet); color:#fff; font-family:var(--display); font-weight:600; font-size:12.5px; cursor:pointer; }
+  .soc-follow-btn.following{ background:none; color:var(--violet-deep); border-color:var(--line); }
+  .soc-terr-row{ display:flex; align-items:center; gap:12px; padding:13px 2px; border-top:1px solid var(--line); cursor:pointer; }
+  .soc-terr-row:first-child{ border-top:none; }
+  .soc-terr-row .trn{ flex:1; min-width:0; } .soc-terr-row .trn .a{ font-weight:600; font-size:14px; } .soc-terr-row .trn .b{ font-size:11.5px; color:var(--text-mid); margin-top:1px; }
+  .soc-terr-row .tp{ font-size:12px; color:var(--violet-deep); font-weight:600; flex:none; font-variant-numeric:tabular-nums; }
+  .soc-terr-row .chev{ color:var(--text-low); font-size:15px; flex:none; }
+  .soc-lbl{ font-size:11px; letter-spacing:1.1px; text-transform:uppercase; font-weight:700; color:var(--text-low); margin:16px 2px 8px; }
   .iz-selwrap{ margin-bottom:14px; }
   .iz-select{ width:100%; text-transform:none; letter-spacing:0; text-align:left; text-align-last:left; font-size:15px; }
   .iz-list .pt-stop:first-child{ border-top:none; }
@@ -2886,6 +2969,10 @@
       <button id="recFab" class="tarea-fab" aria-label="Añadir fotos">+</button>
     </div>
 
+    <div id="tab-social" class="tabpanel" style="display:none;">
+      <div id="socialView"></div>
+    </div>
+
     <div id="tab-progreso" class="tabpanel" style="display:none;">
       <div class="section-label" id="progresoSectionLabel" data-tr="Progreso">Progreso</div>
       <div id="progresoView"></div>
@@ -2976,7 +3063,7 @@
     <button class="menu-item" data-goto="encuestas" id="menuEncuestas" data-tr="Encuestas" style="display:none;">Encuestas</button>
     <button class="menu-item" data-goto="gastos" id="menuGastos" data-tr="Gastos" style="display:none;">Gastos</button>
     <button class="menu-item" data-goto="tablon" id="menuTablon" data-tr="Tablón" style="display:none;">Tablón</button>
-    <button class="menu-item disabled" disabled><span data-i18n="menu.social">Social</span><span class="soon" data-i18n="menu.soon">No disponible</span></button>
+    <button class="menu-item" data-goto="social" data-i18n="menu.social">Social</button>
     <button class="menu-item" data-goto="comidas" data-i18n="menu.comidas">Comidas</button>
     <button class="menu-item" data-goto="recuerdos" data-i18n="menu.recuerdos">Recuerdos</button>
     <button class="menu-item" data-goto="souvenirs" data-i18n="menu.souvenirs">Souvenirs</button>
@@ -9030,6 +9117,7 @@
   function loadPastTrips(){ try{ var a=JSON.parse(localStorage.getItem('utd-past-trips')||'[]'); return Array.isArray(a)?a:[]; }catch(e){ return []; } }
   function savePastTrips(a){ try{ localStorage.setItem('utd-past-trips', JSON.stringify(a.slice(0,60))); }catch(e){} }
   function savePastTrip(snap){ var a=loadPastTrips().filter(function(x){ return x.id!==snap.id; }); a.unshift(snap); savePastTrips(a); }
+  function updatePastTrip(id, patch){ var a=loadPastTrips(); for(var i=0;i<a.length;i++){ if(a[i].id===id){ for(var k in patch){ if(patch.hasOwnProperty(k)){ a[i][k]=patch[k]; } } break; } } savePastTrips(a); }
   function _ptAvColor(i){ return ['var(--violet)','var(--map-blue)','var(--map-ocio)','var(--map-green)','var(--gold)'][i%5]; }
   function _ptFmt(iso, opts){ var d=iso?new Date(iso+'T00:00:00'):null; if(!d) return ''; return d.toLocaleDateString((window.UTD_LANG==='en'?'en-GB':'es-ES'), opts); }
   function ptDateRange(t){
@@ -9103,7 +9191,8 @@
     return list.map(function(t){
       var pts=(t.visited||[]).length;
       var avs=(t.members||[]).slice(0,4).map(function(n,ix){ return '<span class="pt-av" style="background:'+_ptAvColor(ix)+'">'+escapeHtml((n||'?').trim().slice(0,2).toUpperCase())+'</span>'; }).join('');
-      return '<button class="pt-card" data-id="'+escapeHtml(t.id)+'"><span class="pt-accent"></span><span class="pt-in">'
+      var head = t.cover ? '<span class="pt-cover" style="background-image:url('+t.cover+')"></span>' : '<span class="pt-accent"></span>';
+      return '<button class="pt-card" data-id="'+escapeHtml(t.id)+'">'+head+'<span class="pt-in">'
         + '<span class="pt-dest">'+escapeHtml(_ptCleanName(t))+'</span>'
         + '<span class="pt-dates">'+escapeHtml(ptDateRange(t)+(t.country?(' · '+t.country):''))+'</span>'
         + '<span class="pt-meta"><span class="pt-stnum">'+TRf('%1 puntos · %2 días', pts, t.days||0)+'</span><span class="pt-avs">'+avs+'</span></span>'
@@ -9209,11 +9298,15 @@
     var trips=loadPastTrips(), t=null;
     for(var i=0;i<trips.length;i++){ if(trips[i].id===id){ t=trips[i]; break; } }
     if(!t) return;
-    document.getElementById('ptTitle').textContent=t.name||TR('Viaje');
+    document.getElementById('ptTitle').textContent=_ptCleanName(t);
     var CATC={monuments:'var(--map-red)',food:'var(--map-blue)',nature:'var(--map-green)',ocio:'var(--map-ocio)'};
     var pts=(t.visited||[]).length, ppl=(t.members||[]).length;
-    var html='<div class="pt-rc-eyebrow">'+TR('Viaje cerrado')+'</div>'
+    var _ptPhotoUrls=[];
+    var html=(t.cover?'<div class="pt-rc-cover" style="background-image:url('+t.cover+')"></div>':'')
+      + '<div class="pt-rc-eyebrow">'+TR('Viaje cerrado')+'</div>'
       + '<div class="pt-rc-dates">'+escapeHtml(ptDateRange(t)+(t.country?(' · '+t.country):''))+'</div>'
+      + (t.desc?'<div class="pt-rc-desc">'+escapeHtml(t.desc).replace(/\n/g,'<br>')+'</div>':'')
+      + '<button class="pt-edit-btn" id="ptEditBtn">'+TR('Editar viaje')+'</button>'
       + '<div class="pt-rc-stats"><div class="pt-rc-stat"><div class="n">'+pts+'</div><div class="l">'+TR('Puntos')+'</div></div>'
         + '<div class="pt-rc-stat"><div class="n">'+(t.days||0)+'</div><div class="l">'+TR('Días')+'</div></div>'
         + '<div class="pt-rc-stat"><div class="n">'+ppl+'</div><div class="l">'+(ppl===1?TR('Persona'):TR('Personas'))+'</div></div></div>';
@@ -9233,6 +9326,7 @@
     // Itinerario final (solo lo que se visitó) + Más fotos — se rellenan al cargar las fotos
     html+='<div class="pt-rc-sec">'+TR('Itinerario final')+'</div><div id="ptItin"><div class="empty">'+TR('Cargando…')+'</div></div>';
     html+='<div id="ptMoreWrap"></div>';
+    html+='<button class="pt-share-btn" id="ptShareBtn">'+TR('Compartir en mi perfil')+'</button>';
     html+='<button class="pt-delete" id="ptDeleteBtn">'+TR('Eliminar de Recuerdos')+'</button>';
     var body=document.getElementById('ptBody'); if(body) body.innerHTML=html;
     var _del=document.getElementById('ptDeleteBtn');
@@ -9241,6 +9335,10 @@
         if(!darmed){ darmed=true; _del.textContent=TR('¿Seguro? Toca otra vez para eliminar'); _del.classList.add('armed'); dtmr=setTimeout(function(){ darmed=false; _del.textContent=TR('Eliminar de Recuerdos'); _del.classList.remove('armed'); }, 3500); return; }
         if(dtmr) clearTimeout(dtmr); darmed=false; try{ deletePastTrip(t.id); }catch(e){} closePastTrip(); try{ renderPastTripsList(); }catch(e){}
       }); }
+    var _edit=document.getElementById('ptEditBtn');
+    if(_edit) _edit.addEventListener('click', function(){ openPtEdit(t, _ptPhotoUrls, function(){ openPastTrip(t.id); try{ renderPastTripsList(); }catch(e){} }); });
+    var _share=document.getElementById('ptShareBtn');
+    if(_share) _share.addEventListener('click', function(){ try{ openShareItin(t); }catch(e){} });
     var d=document.getElementById('pastTripDetail'); if(d){ d.style.display='block'; d.scrollTop=0; }
     document.body.classList.add('utd-shell-open');
     // helpers de fecha/hora del viaje
@@ -9275,14 +9373,358 @@
         Promise.all([ db.ref('photos/'+t.id).once('value'), db.ref('memories/'+t.id).once('value') ]).then(function(res){
           var photos=res[0].val()||{}, mems=res[1].val()||{};
           renderItin(photos);
+          // recopilar todas las fotos del viaje para elegir portada
+          _ptPhotoUrls=[]; Object.keys(photos).forEach(function(k){ if(photos[k]) _ptPhotoUrls.push(photos[k]); });
           // "Más fotos": las subidas a mano (no ligadas a un punto)
-          var extra=[]; Object.keys(mems).forEach(function(k){ if(mems[k]&&mems[k].url) extra.push(mems[k].url); });
+          var extra=[]; Object.keys(mems).forEach(function(k){ if(mems[k]&&mems[k].url){ extra.push(mems[k].url); _ptPhotoUrls.push(mems[k].url); } });
           var mw=document.getElementById('ptMoreWrap'); if(!mw) return;
           if(extra.length){ mw.innerHTML='<div class="pt-rc-sec">'+TR('Más fotos')+'</div><div class="pt-photogrid">'+extra.map(function(u){ return '<button class="pt-photo" data-u="'+escapeHtml(u)+'"><img loading="lazy" src="'+u+'" alt=""></button>'; }).join('')+'</div>';
             mw.querySelectorAll('.pt-photo').forEach(function(b){ b.addEventListener('click', function(){ try{ openPhotoLightbox(b.getAttribute('data-u'), t.name||''); }catch(e){} }); }); }
         }).catch(function(){ renderItin({}); });
       }catch(e){ renderItin({}); }
     })();
+  }
+  function openPtEdit(t, photoUrls, onSaved){
+    photoUrls=(photoUrls||[]).filter(function(u,i,a){ return u && a.indexOf(u)===i; });
+    var _cover=t.cover||'';
+    var old=document.getElementById('ptEditScrim'); if(old&&old.parentNode) old.parentNode.removeChild(old);
+    var scrim=document.createElement('div'); scrim.className='pt-edit-scrim'; scrim.id='ptEditScrim';
+    function coverGrid(){
+      var tiles='<label class="pte-tile pte-upload"><input type="file" accept="image/*" id="pteFile" hidden><span>'+TR('Subir foto')+'</span></label>';
+      tiles+='<button type="button" class="pte-tile pte-none'+(_cover===''?' on':'')+'" data-u="">'+TR('Sin portada')+'</button>';
+      var urls=photoUrls.slice(); if(_cover && urls.indexOf(_cover)<0) urls.unshift(_cover);
+      tiles+=urls.map(function(u){ return '<button type="button" class="pte-tile pte-photo'+(_cover===u?' on':'')+'" data-u="'+escapeHtml(u)+'"><img src="'+u+'" alt=""></button>'; }).join('');
+      return tiles;
+    }
+    scrim.innerHTML='<div class="pt-edit-sheet">'
+      + '<div class="mk-exp-grab"></div>'
+      + '<div class="pt-edit-title">'+TR('Editar viaje')+'</div>'
+      + '<div class="pte-lbl">'+TR('Nombre')+'</div>'
+      + '<input class="pte-input" id="pteName" maxlength="60" value="'+escapeHtml(_ptCleanName(t))+'">'
+      + '<div class="pte-lbl">'+TR('Descripción')+'</div>'
+      + '<textarea class="pte-area" id="pteDesc" rows="3" maxlength="500" placeholder="'+TR('Cuenta cómo fue el viaje…')+'">'+escapeHtml(t.desc||'')+'</textarea>'
+      + '<div class="pte-lbl">'+TR('Portada')+'</div>'
+      + '<div class="pte-cover-grid" id="pteCoverGrid">'+coverGrid()+'</div>'
+      + '<button class="pte-save" id="pteSave">'+TR('Guardar')+'</button>'
+      + '<button class="pte-cancel" id="pteCancel">'+TR('Cancelar')+'</button>'
+      + '</div>';
+    document.body.appendChild(scrim);
+    function close(){ if(scrim.parentNode) scrim.parentNode.removeChild(scrim); }
+    scrim.addEventListener('click', function(e){ if(e.target===scrim) close(); });
+    document.getElementById('pteCancel').addEventListener('click', close);
+    function wireTiles(){
+      scrim.querySelectorAll('.pte-tile[data-u]').forEach(function(b){ b.addEventListener('click', function(){ _cover=b.getAttribute('data-u')||''; refreshGrid(); }); });
+      var f=document.getElementById('pteFile');
+      if(f) f.addEventListener('change', async function(e){
+        var file=(e.target.files||[])[0]; e.target.value=''; if(!file) return;
+        var up=scrim.querySelector('.pte-upload span'); if(up) up.textContent='…';
+        try{ var url=await resizeImageFile(file, 1200, 0.72); _cover=url; refreshGrid(); }
+        catch(err){ console.error('cover upload failed', err); if(up) up.textContent=TR('Subir foto'); }
+      });
+    }
+    function refreshGrid(){ var g=document.getElementById('pteCoverGrid'); if(g){ g.innerHTML=coverGrid(); wireTiles(); } }
+    wireTiles();
+    document.getElementById('pteSave').addEventListener('click', function(){
+      var nm=(document.getElementById('pteName').value||'').trim();
+      var ds=(document.getElementById('pteDesc').value||'').trim();
+      try{ updatePastTrip(t.id, { name:nm||t.name||'', desc:ds, cover:_cover }); }catch(e){}
+      close(); if(typeof onSaved==='function') onSaved();
+    });
+  }
+  // ===================== SOCIAL =====================
+  function socialId(){
+    var u=null; try{ u=firebase.auth().currentUser; }catch(e){}
+    if(u&&u.uid) return 'u_'+u.uid;
+    var s=''; try{ s=localStorage.getItem('utd-social-id')||''; }catch(e){}
+    if(!s){ s='s_'+randomGroupId()+randomGroupId(); try{ localStorage.setItem('utd-social-id', s); }catch(e){} }
+    return s;
+  }
+  function socialSlug(n){ return String(n||'viajero').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^a-z0-9]+/g,'').slice(0,18)||'viajero'; }
+  function loadSharedItins(){ try{ var a=JSON.parse(localStorage.getItem('utd-shared-itins')||'[]'); return Array.isArray(a)?a:[]; }catch(e){ return []; } }
+  function saveSharedItins(a){ try{ localStorage.setItem('utd-shared-itins', JSON.stringify(a.slice(0,80))); }catch(e){} }
+  function shareItinerary(obj){ var a=loadSharedItins().filter(function(x){ return x.id!==obj.id; }); a.unshift(obj); saveSharedItins(a); try{ publishMyProfile(); }catch(e){} }
+  function unshareItinerary(id){ saveSharedItins(loadSharedItins().filter(function(x){ return x.id!==id; })); try{ publishMyProfile(); }catch(e){} }
+  function _socPoiIndex(){
+    var idx={};
+    try{ loadSoloMem().forEach(function(m){ idx[m.poiId]={name:m.name, cat:m.cat, regionName:m.regionName||m.region||''}; }); }catch(e){}
+    try{ loadPastTrips().forEach(function(t){ (t.visited||[]).forEach(function(v){ if(!idx[v.poiId]) idx[v.poiId]={name:v.name, cat:v.cat, regionName:t.regionName||''}; }); }); }catch(e){}
+    try{ (pois()||[]).forEach(function(p){ if(!idx[p.id]) idx[p.id]={name:p.name, cat:p.cat, regionName:REGION_NAME||''}; }); }catch(e){}
+    return idx;
+  }
+  function _socTerritories(){
+    var map={};
+    function ensure(rn){ if(!map[rn]) map[rn]={name:rn, ids:{}, total:0, country:''}; return map[rn]; }
+    try{ loadSoloMem().forEach(function(m){ var rn=m.regionName||m.region; if(!rn) return; var e=ensure(rn); if(m.poiId) e.ids[m.poiId]=1; }); }catch(e){}
+    try{ loadPastTrips().forEach(function(t){ var rn=t.regionName; if(!rn) return; var e=ensure(rn); (t.visited||[]).forEach(function(v){ if(v.poiId) e.ids[v.poiId]=1; }); if(t.territoryTotal) e.total=Math.max(e.total, t.territoryTotal); if(t.country && !e.country) e.country=t.country; }); }catch(e){}
+    try{ var rn=REGION_NAME; if(rn){ var e=ensure(rn); var all=pois()||[]; if(all.length) e.total=Math.max(e.total, all.length); } }catch(e){}
+    var arr=Object.keys(map).map(function(k){ var e=map[k]; var v=Object.keys(e.ids).length; return { name:e.name, country:e.country, visited:v, total:e.total, pct: e.total?Math.round(v/e.total*100):0 }; });
+    arr=arr.filter(function(x){ return x.visited>0; });
+    arr.sort(function(a,b){ return b.visited-a.visited; });
+    return arr;
+  }
+  function _socTop5(regionName){
+    if(_reviewsCache===null) return null;
+    var meKey=firebaseKeySafe(myName||''); if(!meKey) return [];
+    var idx=_socPoiIndex(), list=[];
+    Object.keys(_reviewsCache).forEach(function(pid){
+      var r=_reviewsCache[pid]&&_reviewsCache[pid][meKey]; if(!r) return;
+      var sc=reviewScore(r); if(sc==null) return;
+      var meta=idx[pid]||{}; if((meta.regionName||'')!==regionName) return;
+      list.push({ poiId:pid, name:meta.name||TR('Punto visitado'), cat:meta.cat||'', score:sc });
+    });
+    list.sort(function(a,b){ return b.score-a.score; });
+    return list.slice(0,5);
+  }
+  function hasSocialAccount(){ try{ var u=firebase.auth().currentUser; return !!(u&&u.uid); }catch(e){ return false; } }
+  function getMyHandle(){ var h=''; try{ h=localStorage.getItem('utd-social-handle')||''; }catch(e){} return h || socialSlug(myName); }
+  function setMyHandle(h){ try{ localStorage.setItem('utd-social-handle', String(h||'').toLowerCase()); }catch(e){} }
+  function socialHandleValid(h){ return /^[a-z0-9._]{3,18}$/.test(String(h||'').toLowerCase()); }
+  function claimHandle(handle, cb){
+    var h=String(handle||'').toLowerCase().replace(/^@/,'');
+    if(!socialHandleValid(h)){ cb(false,'invalid'); return; }
+    var sid=socialId();
+    try{
+      db.ref('social/handles/'+h).transaction(function(cur){ if(cur===null || cur===sid) return sid; return; }, function(err, committed){
+        if(err){ cb(false,'error'); return; }
+        if(!committed){ cb(false,'taken'); return; }
+        var old=''; try{ old=(localStorage.getItem('utd-social-handle')||'').toLowerCase(); }catch(e){}
+        if(old && old!==h){ try{ db.ref('social/handles/'+old).transaction(function(c){ return c===sid?null:c; }); }catch(e){} }
+        setMyHandle(h); try{ publishMyProfile(); }catch(e){}
+        cb(true);
+      });
+    }catch(e){ cb(false,'error'); }
+  }
+  function publishMyProfile(){
+    try{
+      if(!hasSocialAccount()) return;               // solo cuentas con id estable se publican
+      var sid=socialId(); if(!sid || !db) return;
+      var terrs=_socTerritories();
+      var terrOut=terrs.map(function(t){ return { name:t.name, country:t.country||'', visited:t.visited, total:t.total||0, pct:t.pct||0, top5:(_socTop5(t.name)||[]).map(function(m){ return { name:m.name, cat:m.cat||'', score:m.score }; }) }; });
+      var handle=getMyHandle();
+      db.ref('social/profiles/'+sid).update({
+        name:myName||'', handle:handle, handleLower:(handle||'').toLowerCase(), nameSearch:socialSlug(myName),
+        counts:{ territories:terrs.length, points:terrs.reduce(function(s,t){ return s+t.visited; },0), itineraries:loadSharedItins().length },
+        territories:terrOut, itineraries:loadSharedItins(), updatedAt:Date.now()
+      });
+    }catch(e){}
+  }
+  function socialCounts(sid, cb){
+    try{ db.ref('social/follow/'+sid).once('value').then(function(s){ var v=s.val()||{}; cb({ following:Object.keys(v.following||{}).length, followers:Object.keys(v.followers||{}).length }); }).catch(function(){ cb({following:0,followers:0}); }); }catch(e){ cb({following:0,followers:0}); }
+  }
+  function socialFollow(target){ var me=socialId(); if(!me||!target||me===target) return Promise.resolve(); var u={}; u['social/follow/'+me+'/following/'+target]=true; u['social/follow/'+target+'/followers/'+me]=true; return db.ref().update(u); }
+  function socialUnfollow(target){ var me=socialId(); var u={}; u['social/follow/'+me+'/following/'+target]=null; u['social/follow/'+target+'/followers/'+me]=null; return db.ref().update(u); }
+  function socialIsFollowing(target){ try{ return db.ref('social/follow/'+socialId()+'/following/'+target).once('value').then(function(s){ return !!s.val(); }).catch(function(){ return false; }); }catch(e){ return Promise.resolve(false); } }
+  function renderSocial(){
+    var host=document.getElementById('socialView'); if(!host) return;
+    if(_reviewsCache===null && !_reviewsLoading){ _reviewsLoading=true; try{ db.ref('reviews').once('value').then(function(s){ _reviewsCache=s.val()||{}; _reviewsLoading=false; try{ renderSocial(); }catch(e){} }).catch(function(){ _reviewsCache={}; _reviewsLoading=false; }); }catch(e){ _reviewsCache={}; _reviewsLoading=false; } }
+    try{ publishMyProfile(); }catch(e){}
+    var acct=hasSocialAccount();
+    var terrs=_socTerritories();
+    var pts=terrs.reduce(function(s,t){ return s+t.visited; },0);
+    var initials=(myName||'?').trim().slice(0,2).toUpperCase();
+    var html='<div class="soc-head"><div class="soc-av">'+escapeHtml(initials)+'</div>'
+      + '<div><div class="soc-name">'+escapeHtml(myName||TR('Viajero'))+'</div><div class="soc-handle">@'+escapeHtml(getMyHandle())+'</div></div></div>'
+      + '<div class="soc-stats">'
+      + '<div class="soc-stat"><div class="n">'+terrs.length+'</div><div class="l">'+TR('Territorios')+'</div></div>'
+      + '<div class="soc-stat"><div class="n">'+pts+'</div><div class="l">'+TR('Puntos')+'</div></div>'
+      + '<div class="soc-stat"><div class="n" id="socFollowing">·</div><div class="l">'+TR('Siguiendo')+'</div></div>'
+      + '<div class="soc-stat"><div class="n" id="socFollowers">·</div><div class="l">'+TR('Seguidores')+'</div></div>'
+      + '</div>'
+      + '<div class="soc-btns"><button class="soc-btn" id="socEdit">'+TR('Editar perfil')+'</button><button class="soc-btn" id="socFind">'+TR('Buscar amigos')+'</button></div>'
+      + '<div class="soc-note" id="socNote"></div>'
+      + '<div class="soc-eyebrow">'+TR('Territorios viajados')+'</div>';
+    if(!terrs.length){ html+='<div class="soc-empty">'+TR('Aún no has viajado ningún territorio. Haz check-ins y aparecerán aquí como tu colección.')+'</div>'; }
+    else { html+='<div class="soc-terr-grid">'+terrs.map(function(t){
+      var pct = t.total? (t.pct+'% · '+t.visited+'/'+t.total) : (t.visited+' '+(t.visited===1?TR('punto'):TR('puntos')));
+      var w = t.total? t.pct : Math.min(100, t.visited*10);
+      return '<button class="soc-terr" data-rn="'+escapeHtml(t.name)+'"><div class="tn">'+escapeHtml(t.name)+'</div><div class="tc">'+escapeHtml(t.country||'')+'</div><div class="bar"><i style="width:'+w+'%"></i></div><div class="pct">'+escapeHtml(pct)+'</div></button>';
+    }).join('')+'</div>'; }
+    host.innerHTML=html;
+    if(acct) socialCounts(socialId(), function(c){ var a=document.getElementById('socFollowing'), b=document.getElementById('socFollowers'); if(a)a.textContent=c.following; if(b)b.textContent=c.followers; });
+    else { var a=document.getElementById('socFollowing'), b=document.getElementById('socFollowers'); if(a)a.textContent='0'; if(b)b.textContent='0'; }
+    var se=document.getElementById('socEdit'); if(se) se.addEventListener('click', openSocialEditProfile);
+    var sf=document.getElementById('socFind'); if(sf) sf.addEventListener('click', function(){
+      if(!acct){ var n=document.getElementById('socNote'); if(n) n.textContent=TR('Crea una cuenta con email (en Cuenta y seguridad) para buscar y seguir a amigos.'); return; }
+      openSocialSearch();
+    });
+    host.querySelectorAll('.soc-terr').forEach(function(b){ b.addEventListener('click', function(){ openSocialTerritory(b.getAttribute('data-rn')); }); });
+  }
+  function openSocialEditProfile(){
+    var old=document.getElementById('socEditScrim'); if(old&&old.parentNode) old.parentNode.removeChild(old);
+    var scrim=document.createElement('div'); scrim.className='pt-edit-scrim'; scrim.id='socEditScrim';
+    var acct=hasSocialAccount();
+    scrim.innerHTML='<div class="pt-edit-sheet">'
+      + '<div class="mk-exp-grab"></div>'
+      + '<div class="pt-edit-title">'+TR('Editar perfil')+'</div>'
+      + '<div class="pte-lbl">'+TR('Nombre')+'</div>'
+      + '<input class="pte-input" id="socpName" maxlength="40" value="'+escapeHtml(myName||'')+'">'
+      + '<div class="pte-lbl">'+TR('Nombre de usuario')+'</div>'
+      + '<input class="pte-input" id="socpHandle" maxlength="18" value="'+escapeHtml(getMyHandle())+'" '+(acct?'':'disabled')+'>'
+      + '<div class="soc-note" id="socpNote">'+(acct?TR('Tu @usuario es único: así te encuentran tus amigos.'):TR('Crea una cuenta con email para reservar tu @usuario y que te sigan.'))+'</div>'
+      + '<button class="pte-save" id="socpSave">'+TR('Guardar')+'</button>'
+      + '<button class="pte-cancel" id="socpCancel">'+TR('Cancelar')+'</button>'
+      + '</div>';
+    document.body.appendChild(scrim);
+    function close(){ if(scrim.parentNode) scrim.parentNode.removeChild(scrim); }
+    scrim.addEventListener('click', function(e){ if(e.target===scrim) close(); });
+    document.getElementById('socpCancel').addEventListener('click', close);
+    document.getElementById('socpSave').addEventListener('click', function(){
+      var nm=(document.getElementById('socpName').value||'').trim();
+      var hd=(document.getElementById('socpHandle').value||'').trim().toLowerCase().replace(/^@/,'');
+      if(nm){ myName=nm; try{ saveMyName(nm); }catch(e){} }
+      var note=document.getElementById('socpNote');
+      if(!acct){ try{ setMyHandle(hd||socialSlug(myName)); }catch(e){} close(); renderSocial(); return; }
+      if(!socialHandleValid(hd)){ if(note) note.textContent=TR('El @usuario debe tener 3–18 caracteres: letras, números, punto o guion bajo.'); return; }
+      var btn=document.getElementById('socpSave'); if(btn){ btn.disabled=true; btn.textContent='…'; }
+      claimHandle(hd, function(ok, reason){
+        if(ok){ close(); try{ publishMyProfile(); }catch(e){} renderSocial(); return; }
+        if(btn){ btn.disabled=false; btn.textContent=TR('Guardar'); }
+        if(note) note.textContent = reason==='taken' ? TR('Ese @usuario ya está cogido. Prueba otro.') : (reason==='invalid'? TR('El @usuario debe tener 3–18 caracteres: letras, números, punto o guion bajo.') : TR('No se pudo guardar. Inténtalo de nuevo.'));
+      });
+    });
+  }
+  function socialSearch(q, cb){
+    var s=socialSlug(q); if(s.length<2){ cb([]); return; }
+    var out={}, pending=2, me=socialId();
+    function add(snap){ snap.forEach(function(ch){ var v=ch.val()||{}; v.sid=ch.key; if(ch.key!==me) out[ch.key]=v; }); }
+    function done(){ pending--; if(pending<=0){ var arr=Object.keys(out).map(function(k){ return out[k]; }); cb(arr.slice(0,20)); } }
+    try{ db.ref('social/profiles').orderByChild('handleLower').startAt(s).endAt(s+'').limitToFirst(20).once('value').then(function(sn){ add(sn); done(); }).catch(done); }catch(e){ done(); }
+    try{ db.ref('social/profiles').orderByChild('nameSearch').startAt(s).endAt(s+'').limitToFirst(20).once('value').then(function(sn){ add(sn); done(); }).catch(done); }catch(e){ done(); }
+  }
+  function openSocialSearch(){
+    var host=document.getElementById('socialView'); if(!host) return;
+    host.innerHTML='<button class="soc-back" id="socBack">← '+TR('Perfil')+'</button>'
+      + '<div class="soc-th">'+TR('Buscar amigos')+'</div>'
+      + '<input class="soc-search-input" id="socSearchInput" placeholder="'+TR('Nombre o @usuario')+'" autocomplete="off">'
+      + '<div id="socSearchResults"><div class="soc-empty">'+TR('Escribe el nombre o @usuario de un amigo para seguirle.')+'</div></div>';
+    document.getElementById('socBack').addEventListener('click', renderSocial);
+    var inp=document.getElementById('socSearchInput'); var tmr=null;
+    inp.addEventListener('input', function(){ if(tmr) clearTimeout(tmr); var q=inp.value; tmr=setTimeout(function(){ runSocialSearch(q); }, 300); });
+    inp.focus();
+  }
+  function runSocialSearch(q){
+    var box=document.getElementById('socSearchResults'); if(!box) return;
+    if(socialSlug(q).length<2){ box.innerHTML='<div class="soc-empty">'+TR('Escribe el nombre o @usuario de un amigo para seguirle.')+'</div>'; return; }
+    box.innerHTML='<div class="soc-empty">'+TR('Buscando…')+'</div>';
+    socialSearch(q, function(list){
+      if(!list.length){ box.innerHTML='<div class="soc-empty">'+TR('Nadie con ese nombre. Comprueba el @usuario.')+'</div>'; return; }
+      box.innerHTML=list.map(function(p){
+        var ini=(p.name||'?').trim().slice(0,2).toUpperCase();
+        return '<div class="soc-result"><span class="soc-rav">'+escapeHtml(ini)+'</span>'
+          + '<div class="rb" data-sid="'+escapeHtml(p.sid)+'"><div class="rn">'+escapeHtml(p.name||'')+'</div><div class="rh">@'+escapeHtml(p.handle||'')+'</div></div>'
+          + '<button class="soc-follow-btn" data-sid="'+escapeHtml(p.sid)+'">'+TR('Seguir')+'</button></div>';
+      }).join('');
+      box.querySelectorAll('.rb').forEach(function(b){ b.addEventListener('click', function(){ openSocialProfile(b.getAttribute('data-sid')); }); });
+      box.querySelectorAll('.soc-follow-btn').forEach(function(b){
+        var sid=b.getAttribute('data-sid');
+        socialIsFollowing(sid).then(function(f){ if(f){ b.classList.add('following'); b.textContent=TR('Siguiendo'); } });
+        b.addEventListener('click', function(){
+          if(b.classList.contains('following')){ socialUnfollow(sid); b.classList.remove('following'); b.textContent=TR('Seguir'); }
+          else { socialFollow(sid); b.classList.add('following'); b.textContent=TR('Siguiendo'); }
+        });
+      });
+    });
+  }
+  function openSocialProfile(sid){
+    var host=document.getElementById('socialView'); if(!host) return;
+    host.innerHTML='<button class="soc-back" id="socBack">← '+TR('Volver')+'</button><div class="soc-empty">'+TR('Cargando perfil…')+'</div>';
+    document.getElementById('socBack').addEventListener('click', openSocialSearch);
+    db.ref('social/profiles/'+sid).once('value').then(function(s){
+      var p=s.val(); if(!p){ host.innerHTML='<button class="soc-back" id="socBack2">← '+TR('Volver')+'</button><div class="soc-empty">'+TR('Este perfil ya no está disponible.')+'</div>'; var b2=document.getElementById('socBack2'); if(b2) b2.addEventListener('click', openSocialSearch); return; }
+      var ini=(p.name||'?').trim().slice(0,2).toUpperCase();
+      var c=p.counts||{}; var terrs=p.territories||[]; var its=p.itineraries||[];
+      var CATC={monuments:'var(--map-red)',food:'var(--map-blue)',nature:'var(--map-green)',ocio:'var(--map-ocio)'};
+      var html='<button class="soc-back" id="socBack">← '+TR('Volver')+'</button>'
+        + '<div class="soc-head"><div class="soc-av">'+escapeHtml(ini)+'</div><div><div class="soc-name">'+escapeHtml(p.name||'')+'</div><div class="soc-handle">@'+escapeHtml(p.handle||'')+'</div></div></div>'
+        + '<div class="soc-stats">'
+        + '<div class="soc-stat"><div class="n">'+(c.territories||0)+'</div><div class="l">'+TR('Territorios')+'</div></div>'
+        + '<div class="soc-stat"><div class="n">'+(c.points||0)+'</div><div class="l">'+TR('Puntos')+'</div></div>'
+        + '<div class="soc-stat"><div class="n">'+(c.itineraries||0)+'</div><div class="l">'+TR('Itinerarios')+'</div></div>'
+        + '</div>'
+        + '<div class="soc-btns"><button class="soc-btn pri" id="socDoFollow">'+TR('Seguir')+'</button></div>'
+        + '<div class="soc-eyebrow">'+TR('Territorios viajados')+'</div>';
+      if(!terrs.length){ html+='<div class="soc-empty">'+TR('Aún no ha compartido territorios.')+'</div>'; }
+      else { html+=terrs.map(function(t,ti){
+        var sub = t.total? (t.pct+'% · '+t.visited+'/'+t.total) : (t.visited+' '+TR('puntos'));
+        var top=(t.top5||[]);
+        var t5 = top.length? '<div id="soctt_'+ti+'" hidden>'+top.map(function(m,i){ return '<div class="soc-t5"><span class="rk">'+(i+1)+'</span><span class="dot" style="background:'+(CATC[m.cat]||'var(--violet)')+'"></span><span class="nm">'+escapeHtml(m.name||'')+'</span><span class="sc">'+Number(m.score||0).toFixed(1)+'</span></div>'; }).join('')+'</div>' : '';
+        return '<div class="soc-terr-row" data-ti="'+ti+'"><div class="trn"><div class="a">'+escapeHtml(t.name||'')+'</div><div class="b">'+escapeHtml((t.country||'')+(t.country?' · ':'')+sub)+'</div></div>'+(top.length?'<span class="chev">›</span>':'')+'</div>'+t5;
+      }).join(''); }
+      html+='<div class="soc-eyebrow">'+TR('Itinerarios compartidos')+'</div>';
+      if(!its.length){ html+='<div class="soc-empty">'+TR('Aún no ha compartido itinerarios.')+'</div>'; }
+      else { html+=its.map(function(it){
+        var cov=it.cover?'<div class="cov" style="background-image:url('+it.cover+')"></div>':'';
+        var tag=it.withPhotos?'<span class="soc-tag">'+TR('Con fotos')+'</span>':'<span class="soc-tag off">'+TR('Sin fotos')+'</span>';
+        var sub=(it.days?TRf('%1 días',it.days):'')+(it.points?(' · '+TRf('%1 puntos',it.points)):'');
+        return '<div class="soc-itin">'+cov+'<div class="ii"><div class="ib"><div class="in">'+escapeHtml(it.name||'')+'</div><div class="im">'+escapeHtml(sub)+' '+tag+'</div></div></div></div>';
+      }).join(''); }
+      host.innerHTML=html;
+      document.getElementById('socBack').addEventListener('click', openSocialSearch);
+      host.querySelectorAll('.soc-terr-row').forEach(function(r){ r.addEventListener('click', function(){ var el=document.getElementById('soctt_'+r.getAttribute('data-ti')); if(el){ el.hidden=!el.hidden; var ch=r.querySelector('.chev'); if(ch) ch.textContent=el.hidden?'›':'⌄'; } }); });
+      var fb=document.getElementById('socDoFollow');
+      if(fb){ socialIsFollowing(sid).then(function(f){ if(f){ fb.classList.remove('pri'); fb.classList.add('following'); fb.textContent=TR('Siguiendo'); } });
+        fb.addEventListener('click', function(){
+          if(fb.classList.contains('following')){ socialUnfollow(sid); fb.classList.remove('following'); fb.classList.add('pri'); fb.textContent=TR('Seguir'); }
+          else { socialFollow(sid); fb.classList.add('following'); fb.classList.remove('pri'); fb.textContent=TR('Siguiendo'); }
+        });
+      }
+    }).catch(function(){ host.innerHTML='<button class="soc-back" id="socBack3">← '+TR('Volver')+'</button><div class="soc-empty">'+TR('No se pudo cargar el perfil.')+'</div>'; var b3=document.getElementById('socBack3'); if(b3) b3.addEventListener('click', openSocialSearch); });
+  }
+  function openSocialTerritory(rn){
+    var host=document.getElementById('socialView'); if(!host) return;
+    var terrs=_socTerritories(), t=null; for(var i=0;i<terrs.length;i++){ if(terrs[i].name===rn){ t=terrs[i]; break; } }
+    if(!t){ renderSocial(); return; }
+    var CATC={monuments:'var(--map-red)',food:'var(--map-blue)',nature:'var(--map-green)',ocio:'var(--map-ocio)'};
+    var html='<button class="soc-back" id="socBack">← '+TR('Perfil')+'</button>'
+      + '<div class="soc-th">'+escapeHtml(t.name)+'</div>';
+    if(t.total){ html+='<div class="soc-prog-bar"><i style="width:'+t.pct+'%"></i></div><div class="soc-prog-txt">'+TRf('%1% explorado · %2 de %3 puntos', t.pct, t.visited, t.total)+'</div>'; }
+    else { html+='<div class="soc-prog-txt">'+TRf('%1 puntos visitados', t.visited)+'</div>'; }
+    html+='<div class="soc-sec">'+TR('Top 5 valorados')+'</div>';
+    var top=_socTop5(t.name);
+    if(top===null){ html+='<div class="soc-empty">'+TR('Cargando tus valoraciones…')+'</div>'; }
+    else if(!top.length){ html+='<div class="soc-empty">'+TR('Aún no has valorado puntos en este territorio. Valora los que visites y saldrá tu Top 5.')+'</div>'; }
+    else { html+=top.map(function(m,i){ return '<div class="soc-t5"><span class="rk">'+(i+1)+'</span><span class="dot" style="background:'+(CATC[m.cat]||'var(--violet)')+'"></span><span class="nm">'+escapeHtml(m.name)+'</span><span class="sc">'+m.score.toFixed(1)+'</span></div>'; }).join(''); }
+    html+='<div class="soc-sec">'+TR('Itinerarios compartidos')+'</div>';
+    var its=loadSharedItins().filter(function(x){ return x.regionName===t.name; });
+    if(!its.length){ html+='<div class="soc-empty">'+TR('No has compartido itinerarios de este territorio. Comparte uno desde un viaje cerrado en Recuerdos.')+'</div>'; }
+    else { html+=its.map(function(it){
+      var cov = it.cover? '<div class="cov" style="background-image:url('+it.cover+')"></div>':'';
+      var tag = it.withPhotos? '<span class="soc-tag">'+TR('Con fotos')+'</span>':'<span class="soc-tag off">'+TR('Sin fotos')+'</span>';
+      var sub=(it.days?TRf('%1 días',it.days):'')+(it.points?(' · '+TRf('%1 puntos',it.points)):'');
+      return '<div class="soc-itin">'+cov+'<div class="ii"><div class="ib"><div class="in">'+escapeHtml(it.name||'')+'</div><div class="im">'+escapeHtml(sub)+' '+tag+'</div></div><button class="unshare" data-id="'+escapeHtml(it.id)+'">'+TR('Quitar')+'</button></div></div>';
+    }).join(''); }
+    host.innerHTML=html;
+    var bk=document.getElementById('socBack'); if(bk) bk.addEventListener('click', renderSocial);
+    host.querySelectorAll('.unshare').forEach(function(b){ b.addEventListener('click', function(){ unshareItinerary(b.getAttribute('data-id')); openSocialTerritory(rn); }); });
+  }
+  function openShareItin(t){
+    var itinId='trip_'+t.id;
+    var existing=loadSharedItins().filter(function(x){ return x.id===itinId; })[0];
+    var withPhotos = existing? !!existing.withPhotos : true;
+    var old=document.getElementById('socShareScrim'); if(old&&old.parentNode) old.parentNode.removeChild(old);
+    var scrim=document.createElement('div'); scrim.className='pt-edit-scrim'; scrim.id='socShareScrim';
+    var pts=(t.visited||[]).length;
+    scrim.innerHTML='<div class="pt-edit-sheet">'
+      + '<div class="mk-exp-grab"></div>'
+      + '<div class="pt-edit-title">'+TR('Compartir itinerario')+'</div>'
+      + '<div class="soc-itin" style="margin-bottom:0;">'+(t.cover?'<div class="cov" style="height:56px;background-image:url('+t.cover+')"></div>':'')+'<div class="ii"><div class="ib"><div class="in">'+escapeHtml(_ptCleanName(t))+'</div><div class="im">'+escapeHtml((t.days?TRf('%1 días',t.days):'')+' · '+TRf('%1 puntos',pts))+'</div></div></div></div>'
+      + '<div class="pte-lbl">'+TR('Fotos')+'</div>'
+      + '<div class="soc-toggle"><div class="tl"><div class="a">'+TR('Incluir fotos')+'</div><div class="b">'+TR('Se verán las fotos de tus check-ins')+'</div></div><span class="soc-sw'+(withPhotos?'':' off')+'" id="socSw"></span></div>'
+      + '<div class="soc-note">'+TR('Visible para tus seguidores. Puedes dejar de compartirlo cuando quieras.')+'</div>'
+      + '<button class="pte-save" id="socDoShare">'+(existing?TR('Actualizar'):TR('Compartir en mi perfil'))+'</button>'
+      + (existing?'<button class="pte-cancel" id="socUnshare" style="color:var(--danger);">'+TR('Dejar de compartir')+'</button>':'')
+      + '<button class="pte-cancel" id="socCancel">'+TR('Cancelar')+'</button>'
+      + '</div>';
+    document.body.appendChild(scrim);
+    function close(){ if(scrim.parentNode) scrim.parentNode.removeChild(scrim); }
+    scrim.addEventListener('click', function(e){ if(e.target===scrim) close(); });
+    var sw=document.getElementById('socSw'); if(sw) sw.addEventListener('click', function(){ withPhotos=!withPhotos; sw.classList.toggle('off', !withPhotos); });
+    document.getElementById('socCancel').addEventListener('click', close);
+    var un=document.getElementById('socUnshare'); if(un) un.addEventListener('click', function(){ unshareItinerary(itinId); close(); });
+    document.getElementById('socDoShare').addEventListener('click', function(){
+      shareItinerary({ id:itinId, name:_ptCleanName(t), regionName:t.regionName||'', days:t.days||0, points:pts, withPhotos:withPhotos, cover:t.cover||'', source:'trip', tripId:t.id, ts:Date.now() });
+      close();
+    });
   }
   async function loadMemories(){
     var box=document.getElementById('recuerdosGrid');
@@ -9646,6 +10088,8 @@
     document.getElementById('tab-tablon').style.display = tab==='tablon' ? 'flex' : 'none';
     document.getElementById('tab-recuerdos').style.display = tab==='recuerdos' ? 'flex' : 'none';
     document.getElementById('tab-comidas').style.display = tab==='comidas' ? 'flex' : 'none';
+    var _ts=document.getElementById('tab-social'); if(_ts) _ts.style.display = tab==='social' ? 'flex' : 'none';
+    if(tab==='social'){ try{ renderSocial(); }catch(e){} }
     var _tc=document.getElementById('tab-cuenta'); if(_tc) _tc.style.display = tab==='cuenta' ? 'flex' : 'none';
     if(tab==='cuenta') renderCuenta();
     if(tab==='group') renderGrupos();
@@ -10564,7 +11008,7 @@
 
 <script>
 // Sello de versión: sirve para confirmar qué build está realmente desplegado.
-window.UTD_BUILD='2026-09-10 · plan v7.2 (Solo: solo territorios visitados)';
+window.UTD_BUILD='2026-09-10 · social v8.1 (seguir: @usuario único, buscar, perfiles)';
 try{ console.log('untraveld build: '+window.UTD_BUILD); }catch(e){}
 if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/app/sw.js",{scope:"/app/"}).catch(function(){});});}
 </script>
