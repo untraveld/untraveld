@@ -1715,15 +1715,16 @@
   .cmd-content{ position:relative; z-index:1; }
   .cmd-glass{ border:1px solid rgba(255,255,255,0.5); background:rgba(251,246,237,0.72); backdrop-filter:blur(14px) saturate(1.2); -webkit-backdrop-filter:blur(14px) saturate(1.2); box-shadow:0 6px 20px rgba(58,36,28,.09); }
   /* ---------- Glass global · Perfil / Progreso / Recuerdos / Cuenta ---------- */
-  #tab-social, #tab-progreso, #tab-recuerdos, #tab-cuenta{ position:relative; z-index:0; }
-  #tab-social::before, #tab-progreso::before, #tab-recuerdos::before, #tab-cuenta::before{
-    content:""; position:absolute; inset:0; z-index:-1; pointer-events:none;
+  /* Capa ambiental a pantalla completa (detrás de todo el contenido) */
+  #utdAmbient{ display:none; position:absolute; inset:0; z-index:-1; pointer-events:none;
     background:
-      radial-gradient(340px 340px at 102% -2%, rgba(232,138,60,.48), transparent 62%),
-      radial-gradient(340px 340px at -6% 24%, rgba(235,194,87,.36), transparent 62%),
-      radial-gradient(360px 360px at 106% 88%, rgba(127,168,106,.30), transparent 62%),
-      radial-gradient(300px 300px at 12% 82%, rgba(201,98,47,.20), transparent 64%);
+      radial-gradient(46vh 46vh at 102% 0%, rgba(232,138,60,.48), transparent 62%),
+      radial-gradient(46vh 46vh at -6% 20%, rgba(235,194,87,.36), transparent 62%),
+      radial-gradient(50vh 50vh at 106% 74%, rgba(127,168,106,.30), transparent 62%),
+      radial-gradient(42vh 42vh at 10% 92%, rgba(201,98,47,.20), transparent 64%),
+      var(--bg-void);
   }
+  #app.amb-on #utdAmbient{ display:block; }
   .utd-glass{ position:relative; border:1px solid rgba(255,255,255,0.62); background:rgba(251,246,237,0.56); backdrop-filter:blur(17px) saturate(1.5); -webkit-backdrop-filter:blur(17px) saturate(1.5); box-shadow:0 8px 24px rgba(58,36,28,.12), inset 0 1px 0 rgba(255,255,255,.5); border-radius:20px; padding:16px; margin-bottom:14px; animation:cwFade .28s ease both; }
   .utd-glass > .sala-eyebrow:first-child, .utd-glass > .soc-eyebrow:first-child, .utd-glass > .soc-sec:first-child, .utd-glass > .mod-h:first-child, .utd-glass > .section-label:first-child, .utd-glass > .rec-head:first-child{ margin-top:0; }
   .utd-glass > .sala-row:last-child, .utd-glass > .soc-terr-row:last-child, .utd-glass > .soc-itin:last-child{ margin-bottom:0; }
@@ -2420,6 +2421,7 @@
 
 
 <div id="app">
+<div id="utdAmbient" aria-hidden="true"></div>
 <!-- ============ SHELL NACIONAL (auth -> país -> región) ============ -->
 <div id="utdShell">
   <div class="utd-wrap">
@@ -10503,6 +10505,7 @@
       try{ if(navActive) endWalkNav(); }catch(e){}
     }
     var _fab=document.getElementById('aiFab'); if(_fab){ _fab.style.display='flex'; _fab.classList.toggle('raised', tab==='tareas'||tab==='recuerdos'||tab==='encuestas'||tab==='gastos'||tab==='tablon'); aiPaintChatLogos(); }
+    try{ document.getElementById('app').classList.toggle('amb-on', tab==='social'||tab==='progreso'||tab==='recuerdos'||tab==='cuenta'); }catch(e){}
   }
 
   // ---------- Crear / unirse a un grupo ----------
@@ -11386,7 +11389,7 @@
 
 <script>
 // Sello de versión: sirve para confirmar qué build está realmente desplegado.
-window.UTD_BUILD='2026-09-10 · glass v11.1 (glassmorfismo más marcado en Perfil, Progreso, Recuerdos y Cuenta)';
+window.UTD_BUILD='2026-09-10 · glass v11.2 (fondo ambiental a pantalla completa, sin recortes en los bordes)';
 try{ console.log('untraveld build: '+window.UTD_BUILD); }catch(e){}
 if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/app/sw.js",{scope:"/app/"}).catch(function(){});});}
 </script>
