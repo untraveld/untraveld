@@ -1437,7 +1437,8 @@
   .soc-search-input:focus{ outline:none; border-color:var(--violet); }
   .soc-result{ display:flex; align-items:center; gap:12px; padding:11px 2px; border-top:1px solid var(--line); }
   .soc-result:first-child{ border-top:none; }
-  .soc-rav{ width:40px; height:40px; border-radius:50%; background:linear-gradient(135deg,var(--violet),var(--violet-deep)); color:#fff; font-family:var(--display); font-weight:700; font-size:14px; display:flex; align-items:center; justify-content:center; flex:none; }
+  .soc-rav{ width:40px; height:40px; border-radius:50%; background:linear-gradient(135deg,var(--violet),var(--violet-deep)); background-size:cover; background-position:center; color:#fff; font-family:var(--display); font-weight:700; font-size:14px; display:flex; align-items:center; justify-content:center; flex:none; }
+  .socp-photo-row{ display:flex; align-items:center; gap:14px; margin:6px 0 4px; }
   .soc-result .rb{ flex:1; min-width:0; cursor:pointer; }
   .soc-result .rn{ font-family:var(--display); font-weight:600; font-size:14.5px; }
   .soc-result .rh{ font-size:12px; color:var(--text-mid); margin-top:1px; }
@@ -1449,6 +1450,9 @@
   .soc-terr-row .tp{ font-size:12px; color:var(--violet-deep); font-weight:600; flex:none; font-variant-numeric:tabular-nums; }
   .soc-terr-row .chev{ color:var(--text-low); font-size:15px; flex:none; }
   .soc-lbl{ font-size:11px; letter-spacing:1.1px; text-transform:uppercase; font-weight:700; color:var(--text-low); margin:16px 2px 8px; }
+  .soc-country{ font-family:var(--display); font-weight:700; font-size:13px; color:var(--text-hi); margin:16px 2px 2px; }
+  .soc-itin-btn{ display:block; width:100%; text-align:left; padding:0; cursor:pointer; }
+  .soc-itin .chev{ color:var(--text-low); font-size:16px; flex:none; }
   .iz-selwrap{ margin-bottom:14px; }
   .iz-select{ width:100%; text-transform:none; letter-spacing:0; text-align:left; text-align-last:left; font-size:15px; }
   .iz-list .pt-stop:first-child{ border-top:none; }
@@ -9440,6 +9444,7 @@
     return s;
   }
   function socialSlug(n){ return String(n||'viajero').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^a-z0-9]+/g,'').slice(0,18)||'viajero'; }
+  function _socAvHtml(photo, initials, cls){ cls=cls||'soc-av'; if(photo){ return '<span class="'+cls+'" style="background-image:url(\''+photo+'\')"></span>'; } return '<span class="'+cls+'">'+escapeHtml(initials||'?')+'</span>'; }
   function loadSharedItins(){ try{ var a=JSON.parse(localStorage.getItem('utd-shared-itins')||'[]'); return Array.isArray(a)?a:[]; }catch(e){ return []; } }
   function saveSharedItins(a){ try{ localStorage.setItem('utd-shared-itins', JSON.stringify(a.slice(0,80))); }catch(e){} }
   function shareItinerary(obj){ var a=loadSharedItins().filter(function(x){ return x.id!==obj.id; }); a.unshift(obj); saveSharedItins(a); try{ publishMyProfile(); }catch(e){} }
@@ -9451,16 +9456,48 @@
     try{ (pois()||[]).forEach(function(p){ if(!idx[p.id]) idx[p.id]={name:p.name, cat:p.cat, regionName:REGION_NAME||''}; }); }catch(e){}
     return idx;
   }
+  var _SOC_CN={ES:'España',CA:'Canadá',AR:'Argentina',US:'Estados Unidos',IT:'Italia',WORLD:'Mundo'};
+  function _socCountryName(regionKey){ try{ return _SOC_CN[countryOfRegion(regionKey)]||''; }catch(e){ return ''; } }
+  function _socSplitNames(s){ return String(s||'').split(' + ').map(function(x){ return x.trim(); }).filter(Boolean); }
+  // Territorios INDIVIDUALES (los viajes multidestino se descomponen por territorio)
   function _socTerritories(){
-    var map={};
-    function ensure(rn){ if(!map[rn]) map[rn]={name:rn, ids:{}, total:0, country:''}; return map[rn]; }
-    try{ loadSoloMem().forEach(function(m){ var rn=m.regionName||m.region; if(!rn) return; var e=ensure(rn); if(m.poiId) e.ids[m.poiId]=1; }); }catch(e){}
-    try{ loadPastTrips().forEach(function(t){ var rn=t.regionName; if(!rn) return; var e=ensure(rn); (t.visited||[]).forEach(function(v){ if(v.poiId) e.ids[v.poiId]=1; }); if(t.territoryTotal) e.total=Math.max(e.total, t.territoryTotal); if(t.country && !e.country) e.country=t.country; }); }catch(e){}
-    try{ var rn=REGION_NAME; if(rn){ var e=ensure(rn); var all=pois()||[]; if(all.length) e.total=Math.max(e.total, all.length); } }catch(e){}
-    var arr=Object.keys(map).map(function(k){ var e=map[k]; var v=Object.keys(e.ids).length; return { name:e.name, country:e.country, visited:v, total:e.total, pct: e.total?Math.round(v/e.total*100):0 }; });
-    arr=arr.filter(function(x){ return x.visited>0; });
-    arr.sort(function(a,b){ return b.visited-a.visited; });
+    var per={};
+    function ens(name, country){ name=(name||'').trim(); if(!name) return null; if(!per[name]) per[name]={name:name, country:'', ids:{}, total:0}; if(country && !per[name].country) per[name].country=country; return per[name]; }
+    var soloName={}; // poiId -> nombre de territorio individual (para atribuir puntos de viajes multidestino)
+    var sm=[]; try{ sm=loadSoloMem(); }catch(e){}
+    sm.forEach(function(m){
+      var names=_socSplitNames(m.regionName||m.region); var country=_socCountryName(m.region);
+      if(names.length===1){ var e=ens(names[0], country); if(e&&m.poiId){ e.ids[m.poiId]=1; soloName[m.poiId]=names[0]; } }
+      else { names.forEach(function(n){ ens(n, country); }); }
+    });
+    var trips=[]; try{ trips=loadPastTrips(); }catch(e){}
+    trips.forEach(function(t){
+      var names=_socSplitNames(t.regionName); var country=t.country||'';
+      if(names.length===1){ var e=ens(names[0], country); if(t.territoryTotal) e.total=Math.max(e.total, t.territoryTotal); (t.visited||[]).forEach(function(v){ if(v.poiId){ e.ids[v.poiId]=1; if(!soloName[v.poiId]) soloName[v.poiId]=names[0]; } }); }
+      else { names.forEach(function(n){ ens(n, country); }); (t.visited||[]).forEach(function(v){ var nm=soloName[v.poiId]; if(nm && per[nm]) per[nm].ids[v.poiId]=1; }); }
+    });
+    // Totales en vivo de la(s) región(es) activa(s), solo sobre territorios ya presentes
+    try{
+      var ars=(typeof ACTIVE_REGIONS!=='undefined' && ACTIVE_REGIONS && ACTIVE_REGIONS.length) ? ACTIVE_REGIONS : ((typeof ACTIVE_REGION!=='undefined'&&ACTIVE_REGION)?[ACTIVE_REGION]:[]);
+      ars.forEach(function(r){ var nm=(NAME_BY_REGION[r]||''); if(!nm) return; var e=per[nm]; if(!e) return; var tot=0; try{ tot=((typeof POIS_BY_REGION!=='undefined'&&POIS_BY_REGION[r])||[]).length; }catch(e2){} if(tot) e.total=Math.max(e.total, tot); if(!e.country) e.country=_socCountryName(r); });
+    }catch(e){}
+    var arr=Object.keys(per).map(function(k){ var e=per[k]; var v=Object.keys(e.ids).length; return { name:e.name, country:e.country||_SOC_CN.ES, visited:v, total:e.total, pct: e.total?Math.round(v/e.total*100):0 }; });
+    arr.sort(function(a,b){ if(a.country!==b.country) return a.country.localeCompare(b.country); return (b.visited-a.visited) || a.name.localeCompare(b.name); });
     return arr;
+  }
+  function socialPoints(){ var s={}; try{ loadSoloMem().forEach(function(m){ if(m.poiId) s[m.poiId]=1; }); }catch(e){} try{ loadPastTrips().forEach(function(t){ (t.visited||[]).forEach(function(v){ if(v.poiId) s[v.poiId]=1; }); }); }catch(e){} return Object.keys(s).length; }
+  // Agrupa territorios por país y devuelve HTML de lista
+  function _socTerritoriesHtml(terrs){
+    if(!terrs.length) return '<div class="soc-empty">'+TR('Aún no has viajado ningún territorio. Haz check-ins y aparecerán aquí como tu colección.')+'</div>';
+    var byC={}, order=[];
+    terrs.forEach(function(t){ var c=t.country||_SOC_CN.ES; if(!byC[c]){ byC[c]=[]; order.push(c); } byC[c].push(t); });
+    return order.map(function(c){
+      return '<div class="soc-country">'+escapeHtml(c)+'</div>'
+        + byC[c].map(function(t){
+            var stat = t.total ? (t.pct+'% · '+t.visited+'/'+t.total) : (t.visited? (t.visited+' '+(t.visited===1?TR('punto'):TR('puntos'))) : TR('Visitado'));
+            return '<button class="soc-terr-row" data-rn="'+escapeHtml(t.name)+'"><div class="trn"><div class="a">'+escapeHtml(t.name)+'</div></div><span class="tp">'+escapeHtml(stat)+'</span><span class="chev">›</span></button>';
+          }).join('');
+    }).join('');
   }
   function _socTop5(regionName){
     if(_reviewsCache===null) return null;
@@ -9503,6 +9540,7 @@
       var handle=getMyHandle();
       db.ref('social/profiles/'+sid).update({
         name:myName||'', handle:handle, handleLower:(handle||'').toLowerCase(), nameSearch:socialSlug(myName),
+        photo:(getProfilePhoto()||''),
         counts:{ territories:terrs.length, points:terrs.reduce(function(s,t){ return s+t.visited; },0), itineraries:loadSharedItins().length },
         territories:terrOut, itineraries:loadSharedItins(), updatedAt:Date.now()
       });
@@ -9520,9 +9558,10 @@
     try{ publishMyProfile(); }catch(e){}
     var acct=hasSocialAccount();
     var terrs=_socTerritories();
-    var pts=terrs.reduce(function(s,t){ return s+t.visited; },0);
+    var pts=socialPoints();
+    var itins=loadSharedItins();
     var initials=(myName||'?').trim().slice(0,2).toUpperCase();
-    var html='<div class="soc-head"><div class="soc-av">'+escapeHtml(initials)+'</div>'
+    var html='<div class="soc-head">'+_socAvHtml(getProfilePhoto(), initials)
       + '<div><div class="soc-name">'+escapeHtml(myName||TR('Viajero'))+'</div><div class="soc-handle">@'+escapeHtml(getMyHandle())+'</div></div></div>'
       + '<div class="soc-stats">'
       + '<div class="soc-stat"><div class="n">'+terrs.length+'</div><div class="l">'+TR('Territorios')+'</div></div>'
@@ -9531,14 +9570,17 @@
       + '<div class="soc-stat"><div class="n" id="socFollowers">·</div><div class="l">'+TR('Seguidores')+'</div></div>'
       + '</div>'
       + '<div class="soc-btns"><button class="soc-btn" id="socEdit">'+TR('Editar perfil')+'</button><button class="soc-btn" id="socFind">'+TR('Buscar amigos')+'</button></div>'
-      + '<div class="soc-note" id="socNote"></div>'
-      + '<div class="soc-eyebrow">'+TR('Territorios viajados')+'</div>';
-    if(!terrs.length){ html+='<div class="soc-empty">'+TR('Aún no has viajado ningún territorio. Haz check-ins y aparecerán aquí como tu colección.')+'</div>'; }
-    else { html+='<div class="soc-terr-grid">'+terrs.map(function(t){
-      var pct = t.total? (t.pct+'% · '+t.visited+'/'+t.total) : (t.visited+' '+(t.visited===1?TR('punto'):TR('puntos')));
-      var w = t.total? t.pct : Math.min(100, t.visited*10);
-      return '<button class="soc-terr" data-rn="'+escapeHtml(t.name)+'"><div class="tn">'+escapeHtml(t.name)+'</div><div class="tc">'+escapeHtml(t.country||'')+'</div><div class="bar"><i style="width:'+w+'%"></i></div><div class="pct">'+escapeHtml(pct)+'</div></button>';
-    }).join('')+'</div>'; }
+      + '<div class="soc-note" id="socNote"></div>';
+    if(itins.length){
+      html+='<div class="soc-eyebrow">'+TR('Itinerarios compartidos')+'</div>'
+        + itins.map(function(it){
+            var cov = it.cover? '<div class="cov" style="background-image:url('+it.cover+')"></div>':'';
+            var tag = it.withPhotos? '<span class="soc-tag">'+TR('Con fotos')+'</span>':'<span class="soc-tag off">'+TR('Sin fotos')+'</span>';
+            var sub=(it.regionName?escapeHtml(it.regionName)+' · ':'')+escapeHtml((it.days?TRf('%1 días',it.days):'')+(it.points?(' · '+TRf('%1 puntos',it.points)):''));
+            return '<button class="soc-itin soc-itin-btn" data-id="'+escapeHtml(it.id)+'"'+(it.tripId?(' data-trip="'+escapeHtml(it.tripId)+'"'):'')+'>'+cov+'<div class="ii"><div class="ib"><div class="in">'+escapeHtml(it.name||'')+'</div><div class="im">'+sub+' '+tag+'</div></div><span class="chev">›</span></div></button>';
+          }).join('');
+    }
+    html+='<div class="soc-eyebrow">'+TR('Territorios viajados')+'</div>'+_socTerritoriesHtml(terrs);
     host.innerHTML=html;
     if(acct) socialCounts(socialId(), function(c){ var a=document.getElementById('socFollowing'), b=document.getElementById('socFollowers'); if(a)a.textContent=c.following; if(b)b.textContent=c.followers; });
     else { var a=document.getElementById('socFollowing'), b=document.getElementById('socFollowers'); if(a)a.textContent='0'; if(b)b.textContent='0'; }
@@ -9547,7 +9589,8 @@
       if(!acct){ var n=document.getElementById('socNote'); if(n) n.textContent=TR('Crea una cuenta con email (en Cuenta y seguridad) para buscar y seguir a amigos.'); return; }
       openSocialSearch();
     });
-    host.querySelectorAll('.soc-terr').forEach(function(b){ b.addEventListener('click', function(){ openSocialTerritory(b.getAttribute('data-rn')); }); });
+    host.querySelectorAll('.soc-itin-btn').forEach(function(b){ b.addEventListener('click', function(){ var tid=b.getAttribute('data-trip'); if(tid){ try{ openPastTrip(tid); return; }catch(e){} } }); });
+    host.querySelectorAll('.soc-terr-row').forEach(function(b){ b.addEventListener('click', function(){ openSocialTerritory(b.getAttribute('data-rn')); }); });
   }
   function openSocialEditProfile(){
     var old=document.getElementById('socEditScrim'); if(old&&old.parentNode) old.parentNode.removeChild(old);
@@ -9556,6 +9599,8 @@
     scrim.innerHTML='<div class="pt-edit-sheet">'
       + '<div class="mk-exp-grab"></div>'
       + '<div class="pt-edit-title">'+TR('Editar perfil')+'</div>'
+      + '<div class="socp-photo-row"><span class="soc-av" id="socpAv"></span><div class="soc-btns" style="margin:0;"><button class="soc-btn" id="socpPhotoBtn">'+TR('Cambiar foto')+'</button><button class="soc-btn" id="socpPhotoRm" style="display:none;">'+TR('Quitar')+'</button></div></div>'
+      + '<input type="file" accept="image/*" id="socpPhotoInput" hidden>'
       + '<div class="pte-lbl">'+TR('Nombre')+'</div>'
       + '<input class="pte-input" id="socpName" maxlength="40" value="'+escapeHtml(myName||'')+'">'
       + '<div class="pte-lbl">'+TR('Nombre de usuario')+'</div>'
@@ -9567,6 +9612,15 @@
     document.body.appendChild(scrim);
     function close(){ if(scrim.parentNode) scrim.parentNode.removeChild(scrim); }
     scrim.addEventListener('click', function(e){ if(e.target===scrim) close(); });
+    // Foto de perfil (reutiliza el mecanismo de la cuenta)
+    (function(){
+      var av=document.getElementById('socpAv'), pb=document.getElementById('socpPhotoBtn'), pr=document.getElementById('socpPhotoRm'), pi=document.getElementById('socpPhotoInput');
+      function paint(){ var ph=getProfilePhoto(); try{ paintAvatar(av, ph, (myName||'?').trim().slice(0,2).toUpperCase()); }catch(e){} if(pb) pb.textContent = ph? TR('Cambiar foto') : TR('Añadir foto'); if(pr) pr.style.display = ph? '' : 'none'; }
+      paint();
+      if(pb) pb.addEventListener('click', function(){ if(pi) pi.click(); });
+      if(pr) pr.addEventListener('click', function(){ setProfilePhoto(''); paint(); });
+      if(pi) pi.addEventListener('change', function(){ var f=pi.files&&pi.files[0]; if(!f) return; resizeImageFile(f, 512, 0.85).then(function(url){ setProfilePhoto(url); paint(); }).catch(function(){}); pi.value=''; });
+    })();
     document.getElementById('socpCancel').addEventListener('click', close);
     document.getElementById('socpSave').addEventListener('click', function(){
       var nm=(document.getElementById('socpName').value||'').trim();
@@ -9610,7 +9664,7 @@
       if(!list.length){ box.innerHTML='<div class="soc-empty">'+TR('Nadie con ese nombre. Comprueba el @usuario.')+'</div>'; return; }
       box.innerHTML=list.map(function(p){
         var ini=(p.name||'?').trim().slice(0,2).toUpperCase();
-        return '<div class="soc-result"><span class="soc-rav">'+escapeHtml(ini)+'</span>'
+        return '<div class="soc-result">'+_socAvHtml(p.photo, ini, 'soc-rav')
           + '<div class="rb" data-sid="'+escapeHtml(p.sid)+'"><div class="rn">'+escapeHtml(p.name||'')+'</div><div class="rh">@'+escapeHtml(p.handle||'')+'</div></div>'
           + '<button class="soc-follow-btn" data-sid="'+escapeHtml(p.sid)+'">'+TR('Seguir')+'</button></div>';
       }).join('');
@@ -9635,29 +9689,36 @@
       var c=p.counts||{}; var terrs=p.territories||[]; var its=p.itineraries||[];
       var CATC={monuments:'var(--map-red)',food:'var(--map-blue)',nature:'var(--map-green)',ocio:'var(--map-ocio)'};
       var html='<button class="soc-back" id="socBack">← '+TR('Volver')+'</button>'
-        + '<div class="soc-head"><div class="soc-av">'+escapeHtml(ini)+'</div><div><div class="soc-name">'+escapeHtml(p.name||'')+'</div><div class="soc-handle">@'+escapeHtml(p.handle||'')+'</div></div></div>'
+        + '<div class="soc-head">'+_socAvHtml(p.photo, ini)+'<div><div class="soc-name">'+escapeHtml(p.name||'')+'</div><div class="soc-handle">@'+escapeHtml(p.handle||'')+'</div></div></div>'
         + '<div class="soc-stats">'
         + '<div class="soc-stat"><div class="n">'+(c.territories||0)+'</div><div class="l">'+TR('Territorios')+'</div></div>'
         + '<div class="soc-stat"><div class="n">'+(c.points||0)+'</div><div class="l">'+TR('Puntos')+'</div></div>'
         + '<div class="soc-stat"><div class="n">'+(c.itineraries||0)+'</div><div class="l">'+TR('Itinerarios')+'</div></div>'
         + '</div>'
-        + '<div class="soc-btns"><button class="soc-btn pri" id="socDoFollow">'+TR('Seguir')+'</button></div>'
-        + '<div class="soc-eyebrow">'+TR('Territorios viajados')+'</div>';
+        + '<div class="soc-btns"><button class="soc-btn pri" id="socDoFollow">'+TR('Seguir')+'</button></div>';
+      if(its.length){
+        html+='<div class="soc-eyebrow">'+TR('Itinerarios compartidos')+'</div>';
+        html+=its.map(function(it){
+          var cov=it.cover?'<div class="cov" style="background-image:url('+it.cover+')"></div>':'';
+          var tag=it.withPhotos?'<span class="soc-tag">'+TR('Con fotos')+'</span>':'<span class="soc-tag off">'+TR('Sin fotos')+'</span>';
+          var sub=(it.regionName?escapeHtml(it.regionName)+' · ':'')+escapeHtml((it.days?TRf('%1 días',it.days):'')+(it.points?(' · '+TRf('%1 puntos',it.points)):''));
+          return '<div class="soc-itin">'+cov+'<div class="ii"><div class="ib"><div class="in">'+escapeHtml(it.name||'')+'</div><div class="im">'+sub+' '+tag+'</div></div></div></div>';
+        }).join('');
+      }
+      html+='<div class="soc-eyebrow">'+TR('Territorios viajados')+'</div>';
       if(!terrs.length){ html+='<div class="soc-empty">'+TR('Aún no ha compartido territorios.')+'</div>'; }
-      else { html+=terrs.map(function(t,ti){
-        var sub = t.total? (t.pct+'% · '+t.visited+'/'+t.total) : (t.visited+' '+TR('puntos'));
-        var top=(t.top5||[]);
-        var t5 = top.length? '<div id="soctt_'+ti+'" hidden>'+top.map(function(m,i){ return '<div class="soc-t5"><span class="rk">'+(i+1)+'</span><span class="dot" style="background:'+(CATC[m.cat]||'var(--violet)')+'"></span><span class="nm">'+escapeHtml(m.name||'')+'</span><span class="sc">'+Number(m.score||0).toFixed(1)+'</span></div>'; }).join('')+'</div>' : '';
-        return '<div class="soc-terr-row" data-ti="'+ti+'"><div class="trn"><div class="a">'+escapeHtml(t.name||'')+'</div><div class="b">'+escapeHtml((t.country||'')+(t.country?' · ':'')+sub)+'</div></div>'+(top.length?'<span class="chev">›</span>':'')+'</div>'+t5;
-      }).join(''); }
-      html+='<div class="soc-eyebrow">'+TR('Itinerarios compartidos')+'</div>';
-      if(!its.length){ html+='<div class="soc-empty">'+TR('Aún no ha compartido itinerarios.')+'</div>'; }
-      else { html+=its.map(function(it){
-        var cov=it.cover?'<div class="cov" style="background-image:url('+it.cover+')"></div>':'';
-        var tag=it.withPhotos?'<span class="soc-tag">'+TR('Con fotos')+'</span>':'<span class="soc-tag off">'+TR('Sin fotos')+'</span>';
-        var sub=(it.days?TRf('%1 días',it.days):'')+(it.points?(' · '+TRf('%1 puntos',it.points)):'');
-        return '<div class="soc-itin">'+cov+'<div class="ii"><div class="ib"><div class="in">'+escapeHtml(it.name||'')+'</div><div class="im">'+escapeHtml(sub)+' '+tag+'</div></div></div></div>';
-      }).join(''); }
+      else {
+        var byC={}, order=[]; terrs.forEach(function(t,ti){ t._ti=ti; var c=t.country||_SOC_CN.ES; if(!byC[c]){ byC[c]=[]; order.push(c); } byC[c].push(t); });
+        html+=order.map(function(c){
+          return '<div class="soc-country">'+escapeHtml(c)+'</div>'+byC[c].map(function(t){
+            var ti=t._ti;
+            var sub = t.total? (t.pct+'% · '+t.visited+'/'+t.total) : (t.visited? (t.visited+' '+TR('puntos')) : TR('Visitado'));
+            var top=(t.top5||[]);
+            var t5 = top.length? '<div id="soctt_'+ti+'" hidden>'+top.map(function(m,i){ return '<div class="soc-t5"><span class="rk">'+(i+1)+'</span><span class="dot" style="background:'+(CATC[m.cat]||'var(--violet)')+'"></span><span class="nm">'+escapeHtml(m.name||'')+'</span><span class="sc">'+Number(m.score||0).toFixed(1)+'</span></div>'; }).join('')+'</div>' : '';
+            return '<div class="soc-terr-row" data-ti="'+ti+'"><div class="trn"><div class="a">'+escapeHtml(t.name||'')+'</div></div><span class="tp">'+escapeHtml(sub)+'</span>'+(top.length?'<span class="chev">›</span>':'')+'</div>'+t5;
+          }).join('');
+        }).join('');
+      }
       host.innerHTML=html;
       document.getElementById('socBack').addEventListener('click', openSocialSearch);
       host.querySelectorAll('.soc-terr-row').forEach(function(r){ r.addEventListener('click', function(){ var el=document.getElementById('soctt_'+r.getAttribute('data-ti')); if(el){ el.hidden=!el.hidden; var ch=r.querySelector('.chev'); if(ch) ch.textContent=el.hidden?'›':'⌄'; } }); });
@@ -11008,7 +11069,7 @@
 
 <script>
 // Sello de versión: sirve para confirmar qué build está realmente desplegado.
-window.UTD_BUILD='2026-09-10 · social v8.1 (seguir: @usuario único, buscar, perfiles)';
+window.UTD_BUILD='2026-09-10 · social v8.3 (territorios individuales por país + itinerarios arriba)';
 try{ console.log('untraveld build: '+window.UTD_BUILD); }catch(e){}
 if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/app/sw.js",{scope:"/app/"}).catch(function(){});});}
 </script>
