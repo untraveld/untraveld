@@ -3057,19 +3057,20 @@
 <div class="menu-backdrop" id="menuBackdrop">
   <div class="menu-panel">
     <div class="menu-title" data-i18n="menu.title">Secciones</div>
+    <button class="menu-item" data-goto="social" data-tr="Perfil">Perfil</button>
+    <button class="menu-item disabled" disabled><span data-i18n="menu.social">Social</span><span class="soon" data-tr="Próximamente">Próximamente</span></button>
+    <button class="menu-item" data-goto="recuerdos" data-i18n="menu.recuerdos">Recuerdos</button>
     <button class="menu-item" data-goto="group" data-i18n="menu.grupos">Mis Viajes</button>
-    <button class="menu-item" data-goto="plan" data-tr="Plan">Plan</button>
-    <button class="menu-item" data-goto="info" data-tr="Información">Información</button>
+    <button class="menu-item" data-goto="plan" id="menuPlan" data-tr="Plan" style="display:none;">Plan</button>
+    <button class="menu-item" data-goto="info" id="menuInfo" data-tr="Información" style="display:none;">Información</button>
+    <button class="menu-item" data-goto="territorio" id="menuTerritorio" data-tr="Territorio" style="display:none;">Territorio</button>
     <button class="menu-item" data-goto="progreso" data-i18n="menu.progreso">Progreso</button>
-    <button class="menu-item" data-goto="territorio" id="menuTerritorio" data-tr="Territorio">Territorio</button>
     <button class="menu-item" data-goto="tareas" id="menuTareas" data-i18n="menu.tareas" style="display:none;">Tareas</button>
     <button class="menu-item" data-goto="encuestas" id="menuEncuestas" data-tr="Encuestas" style="display:none;">Encuestas</button>
     <button class="menu-item" data-goto="gastos" id="menuGastos" data-tr="Gastos" style="display:none;">Gastos</button>
     <button class="menu-item" data-goto="tablon" id="menuTablon" data-tr="Tablón" style="display:none;">Tablón</button>
-    <button class="menu-item" data-goto="social" data-i18n="menu.social">Social</button>
     <button class="menu-item" data-goto="comidas" data-i18n="menu.comidas">Comidas</button>
-    <button class="menu-item" data-goto="recuerdos" data-i18n="menu.recuerdos">Recuerdos</button>
-    <button class="menu-item" data-goto="souvenirs" data-i18n="menu.souvenirs">Souvenirs</button>
+    <button class="menu-item" data-goto="souvenirs" id="menuSouvenirs" data-i18n="menu.souvenirs" style="display:none;">Souvenirs</button>
     <button class="menu-item" data-goto="cuenta" data-tr="Cuenta y seguridad">Cuenta y seguridad</button>
   </div>
 </div>
@@ -8996,7 +8997,7 @@
   // ---------- Menú de secciones ----------
   // Sin barra de pestañas: el mapa es la pantalla por defecto y el resto de secciones
   // se abren desde el botón ☰, volviendo al mapa con la flecha de la cabecera.
-  function abrirMenu(){ var _g=inGroupMode()?'flex':'none'; ['menuTareas','menuEncuestas','menuGastos','menuTablon'].forEach(function(id){ var e=document.getElementById(id); if(e) e.style.display=_g; }); document.getElementById('menuBackdrop').classList.add('open'); }
+  function abrirMenu(){ var _g=inGroupMode()?'flex':'none'; ['menuPlan','menuInfo','menuTerritorio','menuTareas','menuEncuestas','menuGastos','menuTablon','menuSouvenirs'].forEach(function(id){ var e=document.getElementById(id); if(e) e.style.display=_g; }); document.getElementById('menuBackdrop').classList.add('open'); }
   function cerrarMenu(){ document.getElementById('menuBackdrop').classList.remove('open'); }
 
   // ---------- Tabs ----------
@@ -9573,9 +9574,7 @@
       html+='<div class="soc-eyebrow">'+TR('Itinerarios compartidos')+'</div>'
         + itins.map(function(it){
             var cov = it.cover? '<div class="cov" style="background-image:url('+it.cover+')"></div>':'';
-            var tag = it.withPhotos? '<span class="soc-tag">'+TR('Con fotos')+'</span>':'<span class="soc-tag off">'+TR('Sin fotos')+'</span>';
-            var sub=(it.regionName?escapeHtml(it.regionName)+' · ':'')+escapeHtml((it.days?TRf('%1 días',it.days):'')+(it.points?(' · '+TRf('%1 puntos',it.points)):''));
-            return '<button class="soc-itin soc-itin-btn" data-id="'+escapeHtml(it.id)+'"'+(it.tripId?(' data-trip="'+escapeHtml(it.tripId)+'"'):'')+'>'+cov+'<div class="ii"><div class="ib"><div class="in">'+escapeHtml(it.name||'')+'</div><div class="im">'+sub+' '+tag+'</div></div><span class="chev">›</span></div></button>';
+            return '<button class="soc-itin soc-itin-btn" data-id="'+escapeHtml(it.id)+'"'+(it.tripId?(' data-trip="'+escapeHtml(it.tripId)+'"'):'')+'>'+cov+'<div class="ii"><div class="ib"><div class="in">'+escapeHtml(it.name||'')+'</div></div><span class="chev">›</span></div></button>';
           }).join('');
     }
     html+='<div class="soc-eyebrow">'+TR('Territorios viajados')+'</div>'+_socTerritoriesHtml(terrs);
@@ -9698,9 +9697,7 @@
         html+='<div class="soc-eyebrow">'+TR('Itinerarios compartidos')+'</div>';
         html+=its.map(function(it){
           var cov=it.cover?'<div class="cov" style="background-image:url('+it.cover+')"></div>':'';
-          var tag=it.withPhotos?'<span class="soc-tag">'+TR('Con fotos')+'</span>':'<span class="soc-tag off">'+TR('Sin fotos')+'</span>';
-          var sub=(it.regionName?escapeHtml(it.regionName)+' · ':'')+escapeHtml((it.days?TRf('%1 días',it.days):'')+(it.points?(' · '+TRf('%1 puntos',it.points)):''));
-          return '<div class="soc-itin">'+cov+'<div class="ii"><div class="ib"><div class="in">'+escapeHtml(it.name||'')+'</div><div class="im">'+sub+' '+tag+'</div></div></div></div>';
+          return '<div class="soc-itin">'+cov+'<div class="ii"><div class="ib"><div class="in">'+escapeHtml(it.name||'')+'</div></div></div></div>';
         }).join('');
       }
       html+='<div class="soc-eyebrow">'+TR('Territorios viajados')+'</div>';
@@ -9741,9 +9738,7 @@
       html+='<div class="soc-sec">'+TR('Itinerarios')+'</div>';
       html+=its.map(function(it){
         var cov = it.cover? '<div class="cov" style="background-image:url('+it.cover+')"></div>':'';
-        var tag = it.withPhotos? '<span class="soc-tag">'+TR('Con fotos')+'</span>':'<span class="soc-tag off">'+TR('Sin fotos')+'</span>';
-        var sub=(it.days?TRf('%1 días',it.days):'')+(it.points?(' · '+TRf('%1 puntos',it.points)):'');
-        return '<button class="soc-itin soc-itin-btn" data-id="'+escapeHtml(it.id)+'"'+(it.tripId?(' data-trip="'+escapeHtml(it.tripId)+'"'):'')+'>'+cov+'<div class="ii"><div class="ib"><div class="in">'+escapeHtml(it.name||'')+'</div><div class="im">'+escapeHtml(sub)+' '+tag+'</div></div><span class="chev">›</span></div></button>';
+        return '<button class="soc-itin soc-itin-btn" data-id="'+escapeHtml(it.id)+'"'+(it.tripId?(' data-trip="'+escapeHtml(it.tripId)+'"'):'')+'>'+cov+'<div class="ii"><div class="ib"><div class="in">'+escapeHtml(it.name||'')+'</div></div><span class="chev">›</span></div></button>';
       }).join('');
     }
     html+='<div class="soc-sec">'+TR('Sitios mejor valorados')+'</div>';
@@ -11066,7 +11061,7 @@
 
 <script>
 // Sello de versión: sirve para confirmar qué build está realmente desplegado.
-window.UTD_BUILD='2026-09-10 · social v8.5 (foto de perfil en Social y en el chip del mapa)';
+window.UTD_BUILD='2026-09-10 · social v8.9 (Perfil + Social próximamente)';
 try{ console.log('untraveld build: '+window.UTD_BUILD); }catch(e){}
 if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/app/sw.js",{scope:"/app/"}).catch(function(){});});}
 </script>
