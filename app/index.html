@@ -1371,6 +1371,13 @@
   .iz-list .pt-stop:first-child{ border-top:none; }
   .iz-photo{ width:52px; height:52px; flex:none; }
   .iz-photo:empty{ width:0; }
+  .iz-gal-btn{ display:flex; align-items:center; justify-content:center; gap:9px; width:100%; margin-top:16px; padding:13px; border:1px solid var(--line); border-radius:14px; background:var(--bg-panel); font-family:var(--display); font-weight:600; font-size:14px; color:var(--violet-deep); cursor:pointer; }
+  .iz-gal-btn.on{ background:var(--bg-panel-2); }
+  .iz-gal-n{ min-width:20px; padding:1px 7px; border-radius:100px; background:var(--bg-panel-2); font-size:12px; color:var(--text-mid); font-weight:600; }
+  .iz-gal-btn.on .iz-gal-n{ background:var(--bg-panel); }
+  .iz-gal{ display:grid; grid-template-columns:repeat(3,1fr); gap:6px; margin-top:10px; }
+  .iz-gal-cell{ padding:0; border:none; border-radius:10px; overflow:hidden; aspect-ratio:1/1; background:var(--bg-panel-2); cursor:pointer; }
+  .iz-gal-cell img{ width:100%; height:100%; object-fit:cover; display:block; }
   .info-block{ margin-bottom:16px; }
   .info-block:last-child{ margin-bottom:4px; }
   .info-h{ font-size:11px; letter-spacing:1.2px; text-transform:uppercase; font-weight:700; color:var(--violet); margin-bottom:6px; }
@@ -2875,8 +2882,8 @@
         <button id="recDownloadSel" class="btn btn-primary" data-tr="Descargar">Descargar</button>
       </div>
       <div id="recuerdosGrid"></div>
-      <button id="recFab" class="tarea-fab" aria-label="Añadir fotos">+</button>
       </div>
+      <button id="recFab" class="tarea-fab" aria-label="Añadir fotos">+</button>
     </div>
 
     <div id="tab-progreso" class="tabpanel" style="display:none;">
@@ -9091,7 +9098,7 @@
     Object.keys(contribs).forEach(function(pid){ var p=poiByIdLocal(pid); if(!p) return; var c=normalizeContribution(contribs[pid])||{}; recordSoloMemory(p, c.ts||0); });
   }
   function hasIndividualMemories(){ return loadSoloMem().length>0 || (!inGroupMode() && Object.keys((groupState&&groupState.contributions)||{}).length>0); }
-  var _ptFolder='grupo', _indivCity='';
+  var _ptFolder='grupo', _indivCity='', _izGalOpen=false;
   function _ptTripCards(list){
     return list.map(function(t){
       var pts=(t.visited||[]).length;
@@ -9108,7 +9115,7 @@
     var hasFolders = loadPastTrips().length>0 || hasIndividualMemories();
     var show;
     if(!hasFolders) show=true;
-    else show = (_ptFolder==='grupo' && inGroupMode()) || (_ptFolder==='individual' && !inGroupMode());
+    else show = (_ptFolder==='grupo' && inGroupMode());
     w.style.display = show ? '' : 'none';
   }
   function renderPastTripsList(){
@@ -9119,8 +9126,8 @@
     if(!trips.length && !hasIndividualMemories()){ wrap.innerHTML=''; try{ updateRecLiveVisibility(); }catch(e){} return; }
     var html='<div class="pt-eyebrow">'+TR('Recuerdos guardados')+'</div>'
       + '<div class="pt-folders">'
-      + '<button class="pt-folder'+(_ptFolder==='grupo'?' on':'')+'" data-f="grupo">'+TR('En grupo')+'</button>'
-      + '<button class="pt-folder'+(_ptFolder==='individual'?' on':'')+'" data-f="individual">'+TR('Individual')+'</button>'
+      + '<button class="pt-folder'+(_ptFolder==='grupo'?' on':'')+'" data-f="grupo">'+TR('Viajes')+'</button>'
+      + '<button class="pt-folder'+(_ptFolder==='individual'?' on':'')+'" data-f="individual">'+TR('Solo')+'</button>'
       + '</div>';
     if(_ptFolder==='grupo'){
       html += groupTrips.length ? _ptTripCards(groupTrips) : '<div class="pt-empty-note">'+TR('Aún no has cerrado ningún viaje en grupo.')+'</div>';
@@ -9150,19 +9157,25 @@
       if(p){ var rn=(typeof NAME_BY_REGION!=='undefined' && NAME_BY_REGION[p._region||ACTIVE_REGION]) || REGION_NAME || OTROS; return { name:p.name, cat:p.cat, region:rn, ts:0, poi:p }; }
       return { name:'', cat:'', region:OTROS, ts:0 };
     }
-    function draw(photos){
+    function draw(photos, mems){
+      photos=photos||{}; mems=mems||{};
       var ids={}; Object.keys(idxByPoi).forEach(function(k){ ids[k]=1; }); Object.keys(photos).forEach(function(k){ if(photos[k]) ids[k]=1; });
       var list=Object.keys(ids).map(function(poiId){ var mt=metaFor(poiId);
         if(mt.poi && !idxByPoi[poiId]){ try{ recordSoloMemory(mt.poi, 0); }catch(e){} }
         return { poiId:poiId, name:mt.name||TR('Punto visitado'), cat:mt.cat, region:mt.region||OTROS, ts:mt.ts||0, url:photos[poiId]||'' };
       });
-      if(!list.length){ host.innerHTML='<div class="pt-empty-note">'+TR('Aún no tienes check-ins individuales. Haz check-in en un punto y aparecerá aquí, con su foto.')+'</div>'; return; }
+      // Fotos subidas a mano (no ligadas a un punto)
+      var gallery=[]; Object.keys(mems).forEach(function(k){ var m=mems[k]; if(!m||!m.url) return; gallery.push({ url:m.url, ts:m.ts||0, region:(m.regionName||m.region||OTROS) }); });
+      if(!list.length && !gallery.length){ host.innerHTML='<div class="pt-empty-note">'+TR('Aún no tienes recuerdos individuales. Haz check-in en un punto o sube una foto con el botón +.')+'</div>'; return; }
       var terrs=[]; list.forEach(function(m){ if(terrs.indexOf(m.region)<0) terrs.push(m.region); });
+      gallery.forEach(function(g){ if(terrs.indexOf(g.region)<0) terrs.push(g.region); });
       terrs.sort(function(a,b){ if(a===OTROS) return 1; if(b===OTROS) return -1; return a.localeCompare(b); });
-      if(_indivCity && terrs.indexOf(_indivCity)<0) _indivCity='';
-      var filtered=list.filter(function(m){ return !_indivCity || m.region===_indivCity; });
+      if(!_indivCity || terrs.indexOf(_indivCity)<0) _indivCity = terrs[0] || '';
+      var filtered=list.filter(function(m){ return m.region===_indivCity; });
       filtered.sort(function(a,b){ return (b.ts||0)-(a.ts||0); });
-      var sel='<select class="subnav-select iz-select" id="izCity"><option value=""'+(_indivCity===''?' selected':'')+'>'+TR('Todos los territorios')+'</option>'
+      var galF=gallery.filter(function(g){ return g.region===_indivCity; });
+      galF.sort(function(a,b){ return (b.ts||0)-(a.ts||0); });
+      var sel='<select class="subnav-select iz-select" id="izCity">'
         + terrs.map(function(c){ return '<option value="'+escapeHtml(c)+'"'+(_indivCity===c?' selected':'')+'>'+escapeHtml(c)+'</option>'; }).join('')+'</select>';
       var rows=filtered.map(function(m){
         var dd=m.ts?(function(){ try{ return new Date(m.ts).toLocaleDateString((window.UTD_LANG==='en'?'en-GB':'es-ES'),{day:'numeric',month:'short',year:'numeric'}).replace(/\./g,''); }catch(e){ return ''; } })():'';
@@ -9173,12 +9186,23 @@
           + '<div class="pt-stop-main"><div class="nm">'+escapeHtml(m.name)+'</div>'+(sub.length?'<div class="pt-stop-sub">'+escapeHtml(sub.join(' · '))+'</div>':'')+'</div>'
           + ph + '</div>';
       }).join('');
-      host.innerHTML='<div class="iz-selwrap">'+sel+'</div><div class="iz-list">'+rows+'</div>';
+      var izlist = rows ? '<div class="iz-list">'+rows+'</div>' : '<div class="pt-empty-note">'+TR('Sin check-ins en este territorio todavía.')+'</div>';
+      // Botón Galería + rejilla de fotos del territorio (ordenadas por fecha de subida)
+      var galBlock='';
+      if(galF.length){
+        var cells=galF.map(function(g){ return '<button class="iz-gal-cell" data-u="'+escapeHtml(g.url)+'"><img loading="lazy" src="'+g.url+'" alt=""></button>'; }).join('');
+        galBlock='<button class="iz-gal-btn'+(_izGalOpen?' on':'')+'" id="izGalBtn" aria-expanded="'+(_izGalOpen?'true':'false')+'">'
+          + '<span>'+TR('Galería')+'</span><span class="iz-gal-n">'+galF.length+'</span></button>'
+          + '<div class="iz-gal" id="izGal"'+(_izGalOpen?'':' hidden')+'>'+cells+'</div>';
+      }
+      host.innerHTML='<div class="iz-selwrap">'+sel+'</div>'+izlist+galBlock;
       var _sc=document.getElementById('izCity'); if(_sc) _sc.addEventListener('change', function(){ _indivCity=_sc.value||''; renderIndividualZones(); });
-      host.querySelectorAll('.pt-stop-photo').forEach(function(b){ b.addEventListener('click', function(){ try{ openPhotoLightbox(b.getAttribute('data-u'),''); }catch(e){} }); });
+      host.querySelectorAll('.pt-stop-photo, .iz-gal-cell').forEach(function(b){ b.addEventListener('click', function(){ try{ openPhotoLightbox(b.getAttribute('data-u'),''); }catch(e){} }); });
+      var _gb=document.getElementById('izGalBtn');
+      if(_gb) _gb.addEventListener('click', function(){ _izGalOpen=!_izGalOpen; var g=document.getElementById('izGal'); if(g) g.hidden=!_izGalOpen; _gb.classList.toggle('on', _izGalOpen); _gb.setAttribute('aria-expanded', _izGalOpen?'true':'false'); });
     }
-    if(soloId){ try{ db.ref('photos/'+soloId).once('value').then(function(s){ draw(s.val()||{}); }).catch(function(){ draw({}); }); }catch(e){ draw({}); } }
-    else { draw({}); }
+    if(soloId){ try{ Promise.all([ db.ref('photos/'+soloId).once('value'), db.ref('memories/'+soloId).once('value') ]).then(function(r){ draw(r[0].val()||{}, r[1].val()||{}); }).catch(function(){ draw({},{}); }); }catch(e){ draw({},{}); } }
+    else { draw({},{}); }
   }
   function closePastTrip(){ var d=document.getElementById('pastTripDetail'); if(d) d.style.display='none'; document.body.classList.remove('utd-shell-open'); }
   function openPastTrip(id){
@@ -9329,7 +9353,7 @@
     if(!files.length || !myGroupId) return;
     var fab=document.getElementById('recFab'); if(fab){ fab.disabled=true; fab.textContent='…'; }
     for(var i=0;i<files.length;i++){
-      try{ var dataUrl=await resizeImageFile(files[i], 1280, 0.7); await db.ref('memories/'+myGroupId).push({ url:dataUrl, by:myName, ts:Date.now() }); }
+      try{ var dataUrl=await resizeImageFile(files[i], 1280, 0.7); var _mrn=(typeof REGION_NAME!=='undefined'?REGION_NAME:'')||''; var _mrg=(typeof ACTIVE_REGION!=='undefined'?ACTIVE_REGION:'')||''; await db.ref('memories/'+myGroupId).push({ url:dataUrl, by:myName, ts:Date.now(), region:_mrg, regionName:_mrn }); }
       catch(err){ console.error('mem upload failed', err); }
     }
     if(fab){ fab.disabled=false; fab.textContent='+'; }
@@ -10540,7 +10564,7 @@
 
 <script>
 // Sello de versión: sirve para confirmar qué build está realmente desplegado.
-window.UTD_BUILD='2026-09-09 · plan v6.9 (galería por carpeta)';
+window.UTD_BUILD='2026-09-10 · plan v7.2 (Solo: solo territorios visitados)';
 try{ console.log('untraveld build: '+window.UTD_BUILD); }catch(e){}
 if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/app/sw.js",{scope:"/app/"}).catch(function(){});});}
 </script>
