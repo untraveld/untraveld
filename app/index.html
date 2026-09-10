@@ -1433,6 +1433,36 @@
   .soc-sw.off{ background:var(--fog); } .soc-sw.off::after{ right:auto; left:3px; }
   .soc-note{ font-size:12px; color:var(--text-mid); margin:12px 2px 0; }
   .pt-share-btn{ display:block; width:100%; margin:20px 0 0; padding:13px; border:1px solid var(--line); background:var(--bg-panel); color:var(--violet-deep); border-radius:14px; font-family:var(--display); font-weight:600; font-size:14px; cursor:pointer; }
+  /* Progreso · sala (individual) */
+  .sala-eyebrow{ font-family:var(--display); font-weight:700; font-size:10.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--text-low); margin:22px 0 10px; }
+  .sala-cat{ display:flex; align-items:center; gap:11px; padding:9px 0; }
+  .sala-cat .dot{ width:9px; height:9px; border-radius:50%; flex:none; }
+  .sala-cat .cl{ font-size:13.5px; font-weight:600; width:96px; flex:none; color:var(--text-hi); }
+  .sala-cat .bar{ flex:1; height:7px; border-radius:100px; background:var(--fog); overflow:hidden; }
+  .sala-cat .bar i{ display:block; height:100%; border-radius:100px; }
+  .sala-cat .cn{ font-size:12px; color:var(--text-mid); font-variant-numeric:tabular-nums; width:42px; text-align:right; flex:none; }
+  .sala-track{ display:flex; align-items:center; margin:6px 4px 4px; }
+  .sala-node{ flex:1; display:flex; flex-direction:column; align-items:center; position:relative; }
+  .sala-node::before{ content:""; position:absolute; top:9px; left:-50%; width:100%; height:2px; background:var(--fog); z-index:0; }
+  .sala-node:first-child::before{ display:none; }
+  .sala-node.done::before{ background:var(--gold); }
+  .sala-dotm{ width:20px; height:20px; border-radius:50%; background:var(--fog); z-index:1; display:flex; align-items:center; justify-content:center; font-size:11px; color:#fff; }
+  .sala-node.done .sala-dotm{ background:var(--gold); }
+  .sala-node.now .sala-dotm{ background:var(--violet); }
+  .sala-lm{ font-size:10px; color:var(--text-mid); margin-top:5px; font-weight:600; }
+  .sala-badges{ display:flex; flex-wrap:wrap; gap:8px; margin-top:12px; }
+  .sala-badge{ display:inline-flex; align-items:center; gap:7px; border:1px solid var(--line); border-radius:100px; padding:7px 12px; font-size:12px; font-weight:600; color:var(--text-mid); background:var(--bg-panel); }
+  .sala-badge .bd{ width:7px; height:7px; border-radius:50%; }
+  .sala-badge.on{ color:var(--violet-deep); border-color:rgba(201,98,47,.4); background:linear-gradient(135deg,rgba(201,98,47,.10),rgba(217,164,65,.08)); }
+  .sala-row{ display:flex; align-items:center; gap:12px; width:100%; padding:11px 2px; border-top:1px solid var(--line); background:none; border-left:0; border-right:0; border-bottom:0; text-align:left; cursor:pointer; color:var(--text-hi); font-family:var(--body); }
+  .sala-row.first{ border-top:none; }
+  .sala-row .dot{ width:9px; height:9px; border-radius:50%; flex:none; }
+  .sala-row .rk{ font-family:var(--display); font-weight:700; font-size:14px; color:var(--text-low); width:15px; text-align:center; flex:none; }
+  .sala-row .nm{ flex:1; font-weight:600; font-size:14px; min-width:0; }
+  .sala-row .sc{ font-family:var(--display); font-weight:700; font-size:13.5px; color:var(--violet); flex:none; }
+  .sala-row .sc i{ font-style:normal; font-size:10px; color:var(--text-low); font-weight:600; }
+  .sala-row .di{ font-size:12px; color:var(--text-mid); flex:none; font-variant-numeric:tabular-nums; }
+  .sala-row .chk{ font-size:11px; font-weight:700; color:var(--ok); flex:none; }
   .soc-search-input{ width:100%; padding:12px 14px; border:1px solid var(--line); border-radius:12px; background:var(--bg-void); font-family:var(--body); font-size:15px; color:var(--text-hi); margin-bottom:12px; }
   .soc-search-input:focus{ outline:none; border-color:var(--violet); }
   .soc-result{ display:flex; align-items:center; gap:12px; padding:11px 2px; border-top:1px solid var(--line); }
@@ -7098,11 +7128,82 @@
     html+=terrSection(TR('Por descubrir'), pending, false, true);
     return html;
   }
+  function _poiCommScore(pid){
+    if(!_reviewsCache) return null;
+    var obj=_reviewsCache[pid]; if(!obj) return null;
+    var sc=Object.keys(obj).map(function(k){ return reviewScore(obj[k]); }).filter(function(v){ return v!=null; });
+    if(!sc.length) return null;
+    return sc.reduce(function(s,v){ return s+v; },0)/sc.length;
+  }
+  function salaGoToPoi(id){ var p=poiById(id); if(!p) return; showTab('map'); try{ centrarEnPunto(p); }catch(e){} try{ openModal(p,'map'); }catch(e){} }
+  // Progreso individual: la "sala" del territorio actual
+  function renderProgSala(){
+    if(_reviewsCache===null && !_reviewsLoading){ _reviewsLoading=true; try{ db.ref('reviews').once('value').then(function(s){ _reviewsCache=s.val()||{}; _reviewsLoading=false; try{ renderProgreso(); }catch(e){} }).catch(function(){ _reviewsCache={}; _reviewsLoading=false; }); }catch(e){ _reviewsCache={}; _reviewsLoading=false; } }
+    var all=pois()||[];
+    if(!all.length) return '<div class="info-card"><div class="info-empty">'+TR('Elige un destino y aquí verás tu progreso en ese territorio.')+'</div></div>';
+    var done=all.filter(function(p){ return isDonePoi(p.id); });
+    var pct=all.length?Math.round(done.length/all.length*100):0;
+    var remaining=all.length-done.length;
+    var CN={ES:'España',CA:'Canadá',AR:'Argentina',US:'Estados Unidos',IT:'Italia',WORLD:'Mundo'};
+    var country=''; try{ country=CN[countryOfRegion(ACTIVE_REGION)]||''; }catch(e){}
+    var CATC={monuments:'var(--map-red)',food:'var(--map-blue)',nature:'var(--map-green)',ocio:'var(--map-ocio)'};
+    var html='<div class="sala-eyebrow">'+TR('Tu sala')+'</div>'
+      + '<div class="prog-hero"><div class="prog-ring">'+progRing(pct)+'<div class="prog-ring-pct">'+pct+'%</div></div>'
+      + '<div class="prog-hero-side"><div class="prog-hero-t">'+escapeHtml(REGION_NAME||'')+'</div>'
+      + '<div class="prog-hero-s">'+TRf('%1 de %2 puntos · te faltan %3', done.length, all.length, remaining)+'</div>'
+      + (country?'<div class="prog-today-chip">'+escapeHtml(country)+'</div>':'')+'</div></div>';
+    // Por categoría
+    var CATS=[['monuments',TR('Monumentos')],['nature',TR('Naturaleza')],['food',TR('Comida')],['ocio',TR('Ocio')]];
+    var catHtml='';
+    CATS.forEach(function(c){ var tot=all.filter(function(p){ return p.cat===c[0]; }).length; if(!tot) return; var dn=done.filter(function(p){ return p.cat===c[0]; }).length; var w=Math.round(dn/tot*100); catHtml+='<div class="sala-cat"><span class="dot" style="background:'+CATC[c[0]]+'"></span><span class="cl">'+escapeHtml(c[1])+'</span><span class="bar"><i style="width:'+w+'%;background:'+CATC[c[0]]+'"></i></span><span class="cn">'+dn+'/'+tot+'</span></div>'; });
+    if(catHtml) html+='<div class="sala-eyebrow">'+TR('Por categoría')+'</div>'+catHtml;
+    // Logros del territorio
+    var miles=[25,50,75,100], firstUndone=null;
+    for(var mi=0;mi<miles.length;mi++){ if(pct<miles[mi]){ firstUndone=miles[mi]; break; } }
+    html+='<div class="sala-eyebrow">'+TR('Logros del territorio')+'</div><div class="sala-track">'
+      + miles.map(function(m){ var st=pct>=m?'done':(m===firstUndone?'now':''); return '<div class="sala-node '+st+'"><span class="sala-dotm">'+(pct>=m?'✓':'')+'</span><span class="sala-lm">'+m+'%</span></div>'; }).join('')
+      + '</div>';
+    var BADGES=[['monuments',TR('Explorador de monumentos')],['nature',TR('Amante de la naturaleza')],['food',TR('Sabores de la zona')],['ocio',TR('Espíritu festivo')]];
+    var badgeHtml='';
+    BADGES.forEach(function(bd){ var tot=all.filter(function(p){ return p.cat===bd[0]; }).length; if(!tot) return; var dn=done.filter(function(p){ return p.cat===bd[0]; }).length; var on=(dn>=tot); badgeHtml+='<span class="sala-badge'+(on?' on':'')+'"><span class="bd" style="background:'+CATC[bd[0]]+'"></span>'+escapeHtml(bd[1])+'</span>'; });
+    if(badgeHtml) html+='<div class="sala-badges">'+badgeHtml+'</div>';
+    // Qué te falta por descubrir
+    var pending=all.filter(function(p){ return !isDonePoi(p.id); }).map(function(p){ return {p:p, s:_poiCommScore(p.id)}; });
+    pending.sort(function(a,b){ return (b.s==null?-1:b.s)-(a.s==null?-1:a.s); });
+    var faltan=pending.filter(function(o){ return o.s!=null; }).slice(0,4);
+    if(!faltan.length) faltan=pending.slice(0,4);
+    if(faltan.length){
+      html+='<div class="sala-eyebrow">'+TR('Qué te falta por descubrir')+'</div>';
+      html+=faltan.map(function(o,i){ return '<button class="sala-row'+(i===0?' first':'')+'" data-poi="'+escapeHtml(o.p.id)+'"><span class="dot" style="background:'+(CATC[o.p.cat]||'var(--violet)')+'"></span><span class="nm">'+escapeHtml(o.p.name)+'</span>'+(o.s!=null?'<span class="sc">'+o.s.toFixed(1)+'<i>/10</i></span>':'')+'</button>'; }).join('');
+    }
+    // Mejor valorados del territorio (comunidad)
+    var rated=all.map(function(p){ return {p:p, s:_poiCommScore(p.id)}; }).filter(function(o){ return o.s!=null; });
+    rated.sort(function(a,b){ return b.s-a.s; });
+    var top=rated.slice(0,5);
+    if(top.length){
+      html+='<div class="sala-eyebrow">'+TR('Mejor valorados del territorio')+'</div>';
+      html+=top.map(function(o,i){ return '<button class="sala-row'+(i===0?' first':'')+'" data-poi="'+escapeHtml(o.p.id)+'"><span class="rk">'+(i+1)+'</span><span class="dot" style="background:'+(CATC[o.p.cat]||'var(--violet)')+'"></span><span class="nm">'+escapeHtml(o.p.name)+'</span>'+(isDonePoi(o.p.id)?'<span class="chk">'+TR('Visitado')+'</span>':'')+'<span class="sc">'+o.s.toFixed(1)+'<i>/10</i></span></button>'; }).join('');
+    } else if(_reviewsCache!==null){
+      html+='<div class="sala-eyebrow">'+TR('Mejor valorados del territorio')+'</div><div class="soc-empty">'+TR('Aún no hay valoraciones de la comunidad en este territorio.')+'</div>';
+    }
+    // Cerca de ti ahora
+    if(myPosition && typeof myPosition.lat==='number'){
+      var near=all.filter(function(p){ return !isDonePoi(p.id) && typeof p.lat==='number'; }).map(function(p){ return {p:p, d:haversineMeters(myPosition.lat,myPosition.lng,p.lat,p.lng)}; });
+      near.sort(function(a,b){ return a.d-b.d; });
+      near=near.filter(function(o){ return o.d<=8000; }).slice(0,3);
+      if(near.length){
+        html+='<div class="sala-eyebrow">'+TR('Cerca de ti ahora')+'</div>';
+        html+=near.map(function(o,i){ var dtxt=o.d<1000?(Math.round(o.d)+' m'):((o.d/1000).toFixed(1)+' km'); return '<button class="sala-row'+(i===0?' first':'')+'" data-poi="'+escapeHtml(o.p.id)+'"><span class="dot" style="background:'+(CATC[o.p.cat]||'var(--violet)')+'"></span><span class="nm">'+escapeHtml(o.p.name)+'</span><span class="di">'+dtxt+'</span></button>'; }).join('');
+      }
+    }
+    return html;
+  }
   function renderProgreso(){
     var box=document.getElementById('progresoView'); if(!box) return;
-    var content=(progMode==='territory')?renderProgTerritory():renderProgItinerary();
+    var sala=(progMode!=='territory' && !inGroupMode());
+    var content=(progMode==='territory')?renderProgTerritory():(sala?renderProgSala():renderProgItinerary());
     box.innerHTML=content;
-    if(progMode==='itinerary' && agendaData && agendaData.length){
+    if(!sala && progMode==='itinerary' && agendaData && agendaData.length){
       box.querySelectorAll('.prog-day-head').forEach(function(hd){
         hd.addEventListener('click', function(){ hd.parentElement.classList.toggle('collapsed'); });
       });
@@ -7112,6 +7213,9 @@
       box.querySelectorAll('.prog-acc-head').forEach(function(hd){
         hd.addEventListener('click', function(){ hd.parentElement.classList.toggle('collapsed'); });
       });
+    }
+    if(sala){
+      box.querySelectorAll('.sala-row[data-poi]').forEach(function(b){ b.addEventListener('click', function(){ salaGoToPoi(b.getAttribute('data-poi')); }); });
     }
   }
   function loadProgresoPhotos(){
@@ -11061,7 +11165,7 @@
 
 <script>
 // Sello de versión: sirve para confirmar qué build está realmente desplegado.
-window.UTD_BUILD='2026-09-10 · social v8.9 (Perfil + Social próximamente)';
+window.UTD_BUILD='2026-09-10 · progreso v9.0 (sala del territorio: individual)';
 try{ console.log('untraveld build: '+window.UTD_BUILD); }catch(e){}
 if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/app/sw.js",{scope:"/app/"}).catch(function(){});});}
 </script>
