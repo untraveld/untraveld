@@ -205,8 +205,8 @@
   }
   .rs-acts button:active{ transform:scale(.99); }
   /* avatar con foto (perfil o viaje) */
-  .rs-av.has-photo{ background:#e7e0d6 center/cover no-repeat !important; color:transparent; font-size:0; }
-  .ctx-dot.has-photo{ background:#e7e0d6 center/cover no-repeat !important; font-size:0; }
+  .rs-av.has-photo{ background-color:#e7e0d6; background-size:cover; background-position:center; background-repeat:no-repeat; color:transparent; font-size:0; }
+  .ctx-dot.has-photo{ background-color:#e7e0d6; background-size:cover; background-position:center; background-repeat:no-repeat; color:transparent !important; font-size:0; }
   /* paneles de la hoja (salas / crear / unirme) */
   .rs-panel[hidden]{ display:none; }
   .rs-panel{ display:flex; flex-direction:column; min-height:0; }
@@ -1420,7 +1420,7 @@
   .soc-itin .cov{ height:66px; background-size:cover; background-position:center; background-color:var(--bg-panel-2); }
   .soc-itin .ii{ padding:11px 13px; display:flex; align-items:center; gap:8px; }
   .soc-itin .ib{ flex:1; min-width:0; }
-  .soc-itin .in{ font-family:var(--display); font-weight:700; font-size:15px; }
+  .soc-itin .in{ font-family:var(--display); font-weight:700; font-size:15px; color:var(--text-hi); }
   .soc-itin .im{ font-size:12px; color:var(--text-mid); margin-top:2px; }
   .soc-tag{ font-size:10px; font-weight:700; letter-spacing:.04em; text-transform:uppercase; color:var(--map-blue); border:1px solid var(--line); border-radius:100px; padding:2px 8px; white-space:nowrap; }
   .soc-tag.off{ color:var(--text-low); }
@@ -1444,14 +1444,13 @@
   .soc-result .rh{ font-size:12px; color:var(--text-mid); margin-top:1px; }
   .soc-follow-btn{ flex:none; padding:8px 16px; border:1px solid var(--violet); border-radius:100px; background:var(--violet); color:#fff; font-family:var(--display); font-weight:600; font-size:12.5px; cursor:pointer; }
   .soc-follow-btn.following{ background:none; color:var(--violet-deep); border-color:var(--line); }
-  .soc-terr-row{ display:flex; align-items:center; gap:12px; padding:13px 2px; border-top:1px solid var(--line); cursor:pointer; }
+  .soc-terr-row{ display:flex; align-items:center; gap:12px; width:100%; -webkit-appearance:none; appearance:none; background:none; border:0; border-top:1px solid var(--line); padding:15px 2px; cursor:pointer; text-align:left; color:var(--text-hi); font-family:var(--body); }
   .soc-terr-row:first-child{ border-top:none; }
-  .soc-terr-row .trn{ flex:1; min-width:0; } .soc-terr-row .trn .a{ font-weight:600; font-size:14px; } .soc-terr-row .trn .b{ font-size:11.5px; color:var(--text-mid); margin-top:1px; }
-  .soc-terr-row .tp{ font-size:12px; color:var(--violet-deep); font-weight:600; flex:none; font-variant-numeric:tabular-nums; }
-  .soc-terr-row .chev{ color:var(--text-low); font-size:15px; flex:none; }
+  .soc-terr-row .trn{ flex:1; min-width:0; } .soc-terr-row .trn .a{ font-family:var(--display); font-weight:600; font-size:15px; color:var(--text-hi); }
+  .soc-terr-row .chev{ color:var(--text-low); font-size:16px; flex:none; }
   .soc-lbl{ font-size:11px; letter-spacing:1.1px; text-transform:uppercase; font-weight:700; color:var(--text-low); margin:16px 2px 8px; }
-  .soc-country{ font-family:var(--display); font-weight:700; font-size:13px; color:var(--text-hi); margin:16px 2px 2px; }
-  .soc-itin-btn{ display:block; width:100%; text-align:left; padding:0; cursor:pointer; }
+  .soc-country{ font-family:var(--display); font-weight:700; font-size:12px; letter-spacing:.04em; color:var(--text-mid); margin:18px 2px 2px; }
+  .soc-itin-btn{ display:block; width:100%; text-align:left; padding:0; -webkit-appearance:none; appearance:none; cursor:pointer; color:var(--text-hi); font-family:var(--body); }
   .soc-itin .chev{ color:var(--text-low); font-size:16px; flex:none; }
   .iz-selwrap{ margin-bottom:14px; }
   .iz-select{ width:100%; text-transform:none; letter-spacing:0; text-align:left; text-align-last:left; font-size:15px; }
@@ -9494,8 +9493,7 @@
     return order.map(function(c){
       return '<div class="soc-country">'+escapeHtml(c)+'</div>'
         + byC[c].map(function(t){
-            var stat = t.total ? (t.pct+'% · '+t.visited+'/'+t.total) : (t.visited? (t.visited+' '+(t.visited===1?TR('punto'):TR('puntos'))) : TR('Visitado'));
-            return '<button class="soc-terr-row" data-rn="'+escapeHtml(t.name)+'"><div class="trn"><div class="a">'+escapeHtml(t.name)+'</div></div><span class="tp">'+escapeHtml(stat)+'</span><span class="chev">›</span></button>';
+            return '<button class="soc-terr-row" data-rn="'+escapeHtml(t.name)+'"><div class="trn"><div class="a">'+escapeHtml(t.name)+'</div></div><span class="chev">›</span></button>';
           }).join('');
     }).join('');
   }
@@ -9712,10 +9710,9 @@
         html+=order.map(function(c){
           return '<div class="soc-country">'+escapeHtml(c)+'</div>'+byC[c].map(function(t){
             var ti=t._ti;
-            var sub = t.total? (t.pct+'% · '+t.visited+'/'+t.total) : (t.visited? (t.visited+' '+TR('puntos')) : TR('Visitado'));
             var top=(t.top5||[]);
             var t5 = top.length? '<div id="soctt_'+ti+'" hidden>'+top.map(function(m,i){ return '<div class="soc-t5"><span class="rk">'+(i+1)+'</span><span class="dot" style="background:'+(CATC[m.cat]||'var(--violet)')+'"></span><span class="nm">'+escapeHtml(m.name||'')+'</span><span class="sc">'+Number(m.score||0).toFixed(1)+'</span></div>'; }).join('')+'</div>' : '';
-            return '<div class="soc-terr-row" data-ti="'+ti+'"><div class="trn"><div class="a">'+escapeHtml(t.name||'')+'</div></div><span class="tp">'+escapeHtml(sub)+'</span>'+(top.length?'<span class="chev">›</span>':'')+'</div>'+t5;
+            return '<div class="soc-terr-row" data-ti="'+ti+'"><div class="trn"><div class="a">'+escapeHtml(t.name||'')+'</div></div>'+(top.length?'<span class="chev">›</span>':'')+'</div>'+t5;
           }).join('');
         }).join('');
       }
@@ -9738,25 +9735,25 @@
     var CATC={monuments:'var(--map-red)',food:'var(--map-blue)',nature:'var(--map-green)',ocio:'var(--map-ocio)'};
     var html='<button class="soc-back" id="socBack">← '+TR('Perfil')+'</button>'
       + '<div class="soc-th">'+escapeHtml(t.name)+'</div>';
-    if(t.total){ html+='<div class="soc-prog-bar"><i style="width:'+t.pct+'%"></i></div><div class="soc-prog-txt">'+TRf('%1% explorado · %2 de %3 puntos', t.pct, t.visited, t.total)+'</div>'; }
-    else { html+='<div class="soc-prog-txt">'+TRf('%1 puntos visitados', t.visited)+'</div>'; }
-    html+='<div class="soc-sec">'+TR('Top 5 valorados')+'</div>';
+    // Itinerarios de este territorio (los viajes multidestino cuentan si incluyen el territorio)
+    var its=loadSharedItins().filter(function(x){ return _socSplitNames(x.regionName).indexOf(t.name)>=0; });
+    if(its.length){
+      html+='<div class="soc-sec">'+TR('Itinerarios')+'</div>';
+      html+=its.map(function(it){
+        var cov = it.cover? '<div class="cov" style="background-image:url('+it.cover+')"></div>':'';
+        var tag = it.withPhotos? '<span class="soc-tag">'+TR('Con fotos')+'</span>':'<span class="soc-tag off">'+TR('Sin fotos')+'</span>';
+        var sub=(it.days?TRf('%1 días',it.days):'')+(it.points?(' · '+TRf('%1 puntos',it.points)):'');
+        return '<button class="soc-itin soc-itin-btn" data-id="'+escapeHtml(it.id)+'"'+(it.tripId?(' data-trip="'+escapeHtml(it.tripId)+'"'):'')+'>'+cov+'<div class="ii"><div class="ib"><div class="in">'+escapeHtml(it.name||'')+'</div><div class="im">'+escapeHtml(sub)+' '+tag+'</div></div><span class="chev">›</span></div></button>';
+      }).join('');
+    }
+    html+='<div class="soc-sec">'+TR('Sitios mejor valorados')+'</div>';
     var top=_socTop5(t.name);
     if(top===null){ html+='<div class="soc-empty">'+TR('Cargando tus valoraciones…')+'</div>'; }
-    else if(!top.length){ html+='<div class="soc-empty">'+TR('Aún no has valorado puntos en este territorio. Valora los que visites y saldrá tu Top 5.')+'</div>'; }
+    else if(!top.length){ html+='<div class="soc-empty">'+TR('Aún no has valorado sitios en este territorio. Valora los que visites y aparecerán aquí.')+'</div>'; }
     else { html+=top.map(function(m,i){ return '<div class="soc-t5"><span class="rk">'+(i+1)+'</span><span class="dot" style="background:'+(CATC[m.cat]||'var(--violet)')+'"></span><span class="nm">'+escapeHtml(m.name)+'</span><span class="sc">'+m.score.toFixed(1)+'</span></div>'; }).join(''); }
-    html+='<div class="soc-sec">'+TR('Itinerarios compartidos')+'</div>';
-    var its=loadSharedItins().filter(function(x){ return x.regionName===t.name; });
-    if(!its.length){ html+='<div class="soc-empty">'+TR('No has compartido itinerarios de este territorio. Comparte uno desde un viaje cerrado en Recuerdos.')+'</div>'; }
-    else { html+=its.map(function(it){
-      var cov = it.cover? '<div class="cov" style="background-image:url('+it.cover+')"></div>':'';
-      var tag = it.withPhotos? '<span class="soc-tag">'+TR('Con fotos')+'</span>':'<span class="soc-tag off">'+TR('Sin fotos')+'</span>';
-      var sub=(it.days?TRf('%1 días',it.days):'')+(it.points?(' · '+TRf('%1 puntos',it.points)):'');
-      return '<div class="soc-itin">'+cov+'<div class="ii"><div class="ib"><div class="in">'+escapeHtml(it.name||'')+'</div><div class="im">'+escapeHtml(sub)+' '+tag+'</div></div><button class="unshare" data-id="'+escapeHtml(it.id)+'">'+TR('Quitar')+'</button></div></div>';
-    }).join(''); }
     host.innerHTML=html;
     var bk=document.getElementById('socBack'); if(bk) bk.addEventListener('click', renderSocial);
-    host.querySelectorAll('.unshare').forEach(function(b){ b.addEventListener('click', function(){ unshareItinerary(b.getAttribute('data-id')); openSocialTerritory(rn); }); });
+    host.querySelectorAll('.soc-itin-btn').forEach(function(b){ b.addEventListener('click', function(){ var tid=b.getAttribute('data-trip'); if(tid){ try{ openPastTrip(tid); }catch(e){} } }); });
   }
   function openShareItin(t){
     var itinId='trip_'+t.id;
@@ -11069,7 +11066,7 @@
 
 <script>
 // Sello de versión: sirve para confirmar qué build está realmente desplegado.
-window.UTD_BUILD='2026-09-10 · social v8.3 (territorios individuales por país + itinerarios arriba)';
+window.UTD_BUILD='2026-09-10 · social v8.5 (foto de perfil en Social y en el chip del mapa)';
 try{ console.log('untraveld build: '+window.UTD_BUILD); }catch(e){}
 if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/app/sw.js",{scope:"/app/"}).catch(function(){});});}
 </script>
