@@ -1360,6 +1360,17 @@
   .pt-photogrid{ display:grid; grid-template-columns:repeat(3,1fr); gap:6px; }
   .pt-photo{ padding:0; border:none; background:none; border-radius:10px; overflow:hidden; aspect-ratio:1/1; cursor:pointer; }
   .pt-photo img{ width:100%; height:100%; object-fit:cover; display:block; }
+  .pt-folders{ display:flex; gap:6px; padding:4px; background:var(--bg-panel-2); border-radius:100px; margin-bottom:16px; }
+  .pt-folder{ flex:1; text-align:center; border:none; background:none; border-radius:100px; padding:9px 4px; font-family:var(--display); font-weight:600; font-size:13.5px; color:var(--text-mid); cursor:pointer; }
+  .pt-folder.on{ background:var(--bg-panel); color:var(--violet); box-shadow:0 1px 4px rgba(138,58,31,0.14); }
+  .pt-empty-note{ font-size:13px; color:var(--text-mid); background:var(--bg-panel); border:1px solid var(--line); border-radius:14px; padding:16px; line-height:1.5; text-align:center; }
+  .pt-delete{ display:block; width:100%; margin:24px 0 6px; padding:13px; border:1px solid rgba(192,85,60,0.4); background:none; color:var(--danger); border-radius:14px; font-family:var(--body); font-weight:600; font-size:13.5px; cursor:pointer; }
+  .pt-delete.armed{ background:rgba(192,85,60,0.12); }
+  .iz-selwrap{ margin-bottom:14px; }
+  .iz-select{ width:100%; text-transform:none; letter-spacing:0; text-align:left; text-align-last:left; font-size:15px; }
+  .iz-list .pt-stop:first-child{ border-top:none; }
+  .iz-photo{ width:52px; height:52px; flex:none; }
+  .iz-photo:empty{ width:0; }
   .info-block{ margin-bottom:16px; }
   .info-block:last-child{ margin-bottom:4px; }
   .info-h{ font-size:11px; letter-spacing:1.2px; text-transform:uppercase; font-weight:700; color:var(--violet); margin-bottom:6px; }
@@ -5850,6 +5861,7 @@
           groupState.contributions[activePoi.id] = { name: myName, ts: now }; // actualización local inmediata
           await saveCheckin(myGroupId, activePoi.id, myName, now);
           try{ addCheckinToAgenda(activePoi, now); }catch(e){}
+          try{ if(!inGroupMode()) recordSoloMemory(activePoi, now); }catch(e){}
         }
         const contrib = normalizeContribution(groupState.contributions[activePoi.id]);
         document.getElementById('unlockedBanner').style.display = 'flex';
@@ -9054,22 +9066,99 @@
     }
     try{ showTab('recuerdos'); }catch(e){}
   }
-  function renderPastTripsList(){
-    var wrap=document.getElementById('pastTripsWrap'); if(!wrap) return;
-    var trips=loadPastTrips();
-    if(!trips.length){ wrap.innerHTML=''; return; }
-    var html='<div class="pt-eyebrow">'+TRf(trips.length===1?'%1 viaje guardado':'%1 viajes guardados', trips.length)+'</div>';
-    html+=trips.map(function(t){
+  function deletePastTrip(id){ savePastTrips(loadPastTrips().filter(function(x){ return x.id!==id; })); }
+  function _ptCleanName(t){ var n=(t.name||'').trim(); if(!n || !/[A-Za-z0-9ÁÉÍÓÚÜÑáéíóúüñ]/.test(n)) n=t.regionName||t.country||TR('Viaje'); return n; }
+  // ---- Índice de recuerdos individuales (check-ins en solitario) ----
+  function loadSoloMem(){ try{ var a=JSON.parse(localStorage.getItem('utd-solo-mem')||'[]'); return Array.isArray(a)?a:[]; }catch(e){ return []; } }
+  function saveSoloMem(a){ try{ localStorage.setItem('utd-solo-mem', JSON.stringify(a.slice(0,600))); }catch(e){} }
+  function nearestZoneName(poi){
+    try{ if(typeof AREAS!=='undefined' && AREAS.length){ var best=AREAS[0], bd=1e18; AREAS.forEach(function(a){ var d=haversineMeters(a.lat,a.lng,poi.lat,poi.lng); if(d<bd){ bd=d; best=a; } }); return best.name; } }catch(e){}
+    return (typeof REGION_NAME==='string'&&REGION_NAME)?REGION_NAME:TR('General');
+  }
+  function recordSoloMemory(poi, ts){
+    var pr=(poi._region)?poi._region:(ACTIVE_REGION||''), code=myGroupId||'';
+    var rn=(typeof NAME_BY_REGION!=='undefined' && NAME_BY_REGION[pr]) ? NAME_BY_REGION[pr] : (REGION_NAME||'');
+    var mem=loadSoloMem();
+    for(var i=0;i<mem.length;i++){ if(mem[i].poiId===poi.id && mem[i].region===pr) return; }
+    mem.unshift({ region:pr, regionName:rn, poiId:poi.id, name:poi.name, cat:poi.cat, lat:poi.lat, lng:poi.lng, zone:nearestZoneName(poi), soloCode:code, ts:ts||Date.now() });
+    saveSoloMem(mem);
+  }
+  function backfillSoloMem(){
+    if(inGroupMode()) return;
+    var contribs=(groupState&&groupState.contributions)||{};
+    Object.keys(contribs).forEach(function(pid){ var p=poiByIdLocal(pid); if(!p) return; var c=normalizeContribution(contribs[pid])||{}; recordSoloMemory(p, c.ts||0); });
+  }
+  function hasIndividualMemories(){ return loadSoloMem().length>0 || (!inGroupMode() && Object.keys((groupState&&groupState.contributions)||{}).length>0); }
+  var _ptFolder='grupo', _indivCity='';
+  function _ptTripCards(list){
+    return list.map(function(t){
       var pts=(t.visited||[]).length;
       var avs=(t.members||[]).slice(0,4).map(function(n,ix){ return '<span class="pt-av" style="background:'+_ptAvColor(ix)+'">'+escapeHtml((n||'?').trim().slice(0,2).toUpperCase())+'</span>'; }).join('');
       return '<button class="pt-card" data-id="'+escapeHtml(t.id)+'"><span class="pt-accent"></span><span class="pt-in">'
-        + '<span class="pt-dest">'+escapeHtml(t.name||'')+'</span>'
+        + '<span class="pt-dest">'+escapeHtml(_ptCleanName(t))+'</span>'
         + '<span class="pt-dates">'+escapeHtml(ptDateRange(t)+(t.country?(' · '+t.country):''))+'</span>'
         + '<span class="pt-meta"><span class="pt-stnum">'+TRf('%1 puntos · %2 días', pts, t.days||0)+'</span><span class="pt-avs">'+avs+'</span></span>'
         + '</span></button>';
     }).join('');
+  }
+  function renderPastTripsList(){
+    var wrap=document.getElementById('pastTripsWrap'); if(!wrap) return;
+    var trips=loadPastTrips();
+    var groupTrips=trips.filter(function(t){ return t.kind==='group'; });
+    var soloTrips=trips.filter(function(t){ return t.kind!=='group'; });
+    if(!trips.length && !hasIndividualMemories()){ wrap.innerHTML=''; return; }
+    var html='<div class="pt-eyebrow">'+TR('Recuerdos guardados')+'</div>'
+      + '<div class="pt-folders">'
+      + '<button class="pt-folder'+(_ptFolder==='grupo'?' on':'')+'" data-f="grupo">'+TR('En grupo')+'</button>'
+      + '<button class="pt-folder'+(_ptFolder==='individual'?' on':'')+'" data-f="individual">'+TR('Individual')+'</button>'
+      + '</div>';
+    if(_ptFolder==='grupo'){
+      html += groupTrips.length ? _ptTripCards(groupTrips) : '<div class="pt-empty-note">'+TR('Aún no has cerrado ningún viaje en grupo.')+'</div>';
+    } else {
+      if(soloTrips.length) html += _ptTripCards(soloTrips);
+      html += '<div id="indivZones"></div>';
+    }
     wrap.innerHTML=html;
+    wrap.querySelectorAll('.pt-folder').forEach(function(b){ b.addEventListener('click', function(){ _ptFolder=b.getAttribute('data-f'); renderPastTripsList(); }); });
     wrap.querySelectorAll('.pt-card').forEach(function(c){ c.addEventListener('click', function(){ openPastTrip(c.getAttribute('data-id')); }); });
+    if(_ptFolder==='individual') renderIndividualZones();
+  }
+  function renderIndividualZones(){
+    var host=document.getElementById('indivZones'); if(!host) return;
+    try{ backfillSoloMem(); }catch(e){}
+    var mem=loadSoloMem();
+    if(!mem.length){ host.innerHTML='<div class="pt-empty-note">'+TR('Aún no tienes check-ins individuales. Haz check-in en un punto y aparecerá aquí, con su foto.')+'</div>'; return; }
+    // ciudades/destinos con check-ins
+    var cities=[]; mem.forEach(function(m){ var c=m.regionName||m.region||''; if(c && cities.indexOf(c)<0) cities.push(c); });
+    cities.sort(function(a,b){ return a.localeCompare(b); });
+    if(_indivCity && cities.indexOf(_indivCity)<0) _indivCity='';
+    var filtered=mem.filter(function(m){ return !_indivCity || (m.regionName||m.region)===_indivCity; });
+    filtered.sort(function(a,b){ return (b.ts||0)-(a.ts||0); });
+    var sel='<select class="subnav-select iz-select" id="izCity"><option value=""'+(_indivCity===''?' selected':'')+'>'+TR('Todos los territorios')+'</option>'
+      + cities.map(function(c){ return '<option value="'+escapeHtml(c)+'"'+(_indivCity===c?' selected':'')+'>'+escapeHtml(c)+'</option>'; }).join('') + '</select>';
+    var CATC={monuments:'var(--map-red)',food:'var(--map-blue)',nature:'var(--map-green)',ocio:'var(--map-ocio)'};
+    var rows=filtered.map(function(m){
+      var dd=m.ts?(function(){ try{ return new Date(m.ts).toLocaleDateString((window.UTD_LANG==='en'?'en-GB':'es-ES'),{day:'numeric',month:'short',year:'numeric'}).replace(/\./g,''); }catch(e){ return ''; } })():'';
+      var sub=[]; if(!_indivCity && (m.regionName||m.region)) sub.push(m.regionName||m.region); if(dd) sub.push(dd);
+      return '<div class="pt-stop pt-stop-ci" data-code="'+escapeHtml(m.soloCode||'')+'" data-poi="'+escapeHtml(m.poiId)+'">'
+        + '<span class="dot" style="background:'+(CATC[m.cat]||'var(--violet)')+'"></span>'
+        + '<div class="pt-stop-main"><div class="nm">'+escapeHtml(m.name||'')+'</div>'+(sub.length?'<div class="pt-stop-sub">'+escapeHtml(sub.join(' · '))+'</div>':'')+'</div>'
+        + '<span class="iz-photo" data-code="'+escapeHtml(m.soloCode||'')+'" data-poi="'+escapeHtml(m.poiId)+'"></span>'
+        + '</div>';
+    }).join('');
+    host.innerHTML='<div class="iz-selwrap">'+sel+'</div><div class="iz-list">'+rows+'</div>';
+    var _sc=document.getElementById('izCity'); if(_sc) _sc.addEventListener('change', function(){ _indivCity=_sc.value||''; renderIndividualZones(); });
+    // cargar fotos por soloCode (una lectura por código)
+    var codes={}; filtered.forEach(function(m){ if(m.soloCode) codes[m.soloCode]=1; });
+    Object.keys(codes).forEach(function(code){
+      try{ db.ref('photos/'+code).once('value').then(function(snap){
+        var ph=snap.val()||{};
+        host.querySelectorAll('.iz-photo[data-code="'+code+'"]').forEach(function(el){
+          var u=ph[el.getAttribute('data-poi')];
+          if(u){ el.innerHTML='<button class="pt-stop-photo" data-u="'+escapeHtml(u)+'"><img loading="lazy" src="'+u+'" alt=""></button>'; el.querySelector('.pt-stop-photo').addEventListener('click', function(){ try{ openPhotoLightbox(u,''); }catch(e){} }); }
+        });
+      }).catch(function(){}); }catch(e){}
+    });
   }
   function closePastTrip(){ var d=document.getElementById('pastTripDetail'); if(d) d.style.display='none'; document.body.classList.remove('utd-shell-open'); }
   function openPastTrip(id){
@@ -9100,7 +9189,14 @@
     // Itinerario final (solo lo que se visitó) + Más fotos — se rellenan al cargar las fotos
     html+='<div class="pt-rc-sec">'+TR('Itinerario final')+'</div><div id="ptItin"><div class="empty">'+TR('Cargando…')+'</div></div>';
     html+='<div id="ptMoreWrap"></div>';
+    html+='<button class="pt-delete" id="ptDeleteBtn">'+TR('Eliminar de Recuerdos')+'</button>';
     var body=document.getElementById('ptBody'); if(body) body.innerHTML=html;
+    var _del=document.getElementById('ptDeleteBtn');
+    if(_del){ var darmed=false, dtmr=null;
+      _del.addEventListener('click', function(){
+        if(!darmed){ darmed=true; _del.textContent=TR('¿Seguro? Toca otra vez para eliminar'); _del.classList.add('armed'); dtmr=setTimeout(function(){ darmed=false; _del.textContent=TR('Eliminar de Recuerdos'); _del.classList.remove('armed'); }, 3500); return; }
+        if(dtmr) clearTimeout(dtmr); darmed=false; try{ deletePastTrip(t.id); }catch(e){} closePastTrip(); try{ renderPastTripsList(); }catch(e){}
+      }); }
     var d=document.getElementById('pastTripDetail'); if(d){ d.style.display='block'; d.scrollTop=0; }
     document.body.classList.add('utd-shell-open');
     // helpers de fecha/hora del viaje
@@ -10424,7 +10520,7 @@
 
 <script>
 // Sello de versión: sirve para confirmar qué build está realmente desplegado.
-window.UTD_BUILD='2026-09-09 · plan v6.4 (recap check-ins + fotos)';
+window.UTD_BUILD='2026-09-09 · plan v6.7 (recuerdos por territorio)';
 try{ console.log('untraveld build: '+window.UTD_BUILD); }catch(e){}
 if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/app/sw.js",{scope:"/app/"}).catch(function(){});});}
 </script>
