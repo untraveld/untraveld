@@ -1714,6 +1714,26 @@
   .cmd-amb .b4{ width:200px; height:200px; background:#C9622F; bottom:180px; left:40px; opacity:.14; }
   .cmd-content{ position:relative; z-index:1; }
   .cmd-glass{ border:1px solid rgba(255,255,255,0.5); background:rgba(251,246,237,0.72); backdrop-filter:blur(14px) saturate(1.2); -webkit-backdrop-filter:blur(14px) saturate(1.2); box-shadow:0 6px 20px rgba(58,36,28,.09); }
+  /* ---------- Glass global · Perfil / Progreso / Recuerdos / Cuenta ---------- */
+  #tab-social, #tab-progreso, #tab-recuerdos, #tab-cuenta{ position:relative; z-index:0; }
+  #tab-social::before, #tab-progreso::before, #tab-recuerdos::before, #tab-cuenta::before{
+    content:""; position:absolute; inset:0; z-index:-1; pointer-events:none;
+    background:
+      radial-gradient(300px 300px at 102% -2%, rgba(232,138,60,.30), transparent 60%),
+      radial-gradient(300px 300px at -4% 26%, rgba(235,194,87,.22), transparent 60%),
+      radial-gradient(320px 320px at 104% 88%, rgba(127,168,106,.18), transparent 60%),
+      radial-gradient(260px 260px at 14% 82%, rgba(201,98,47,.12), transparent 62%);
+  }
+  .utd-glass{ position:relative; border:1px solid rgba(255,255,255,0.5); background:rgba(251,246,237,0.68); backdrop-filter:blur(14px) saturate(1.2); -webkit-backdrop-filter:blur(14px) saturate(1.2); box-shadow:0 6px 20px rgba(58,36,28,.09); border-radius:20px; padding:16px; margin-bottom:14px; animation:cwFade .28s ease both; }
+  .utd-glass > .sala-eyebrow:first-child, .utd-glass > .soc-eyebrow:first-child, .utd-glass > .soc-sec:first-child, .utd-glass > .mod-h:first-child, .utd-glass > .section-label:first-child, .utd-glass > .rec-head:first-child{ margin-top:0; }
+  .utd-glass > .sala-row:last-child, .utd-glass > .soc-terr-row:last-child, .utd-glass > .soc-itin:last-child{ margin-bottom:0; }
+  .utd-glass > .prog-hero{ background:none; border:0; padding:0; margin:0; border-radius:0; }
+  .utd-glass > .sala-badges{ margin-bottom:0; }
+  .utd-glass > .soc-btns{ margin-bottom:0; }
+  #tab-recuerdos .pt-card{ border:1px solid rgba(255,255,255,0.5); background:rgba(251,246,237,0.68); backdrop-filter:blur(14px) saturate(1.2); -webkit-backdrop-filter:blur(14px) saturate(1.2); box-shadow:0 6px 20px rgba(58,36,28,.09); }
+  .rec-live-head{ padding:14px 16px; }
+  #tab-cuenta .mod-title{ position:relative; }
+  .utd-glass > .mod-rules{ background:none; padding:0; margin:0; }
   /* wizard */
   .cw-top{ display:flex; align-items:center; gap:14px; padding:2px 0 0; margin-bottom:6px; }
   .cw-back{ font-size:20px; background:none; border:none; color:var(--text-hi); cursor:pointer; padding:0 2px; }
@@ -3001,60 +3021,72 @@
     <div id="tab-cuenta" class="tabpanel" style="display:none;">
       <div class="mod-title" data-tr="Cuenta y seguridad">Cuenta y seguridad</div>
 
-      <div class="mod-h" data-tr="Tu perfil">Tu perfil</div>
-      <div class="profile-row">
-        <button type="button" class="profile-av" id="profileAv" aria-label="Cambiar foto de perfil">👤</button>
-        <div class="profile-meta">
-          <div class="profile-name" id="profileName">—</div>
-          <div class="profile-actions">
-            <button type="button" class="btn btn-ghost profile-btn" id="profilePhotoBtn" data-tr="Cambiar foto">Cambiar foto</button>
-            <button type="button" class="profile-remove" id="profilePhotoRemove" data-tr="Quitar" style="display:none;">Quitar</button>
+      <div class="utd-glass">
+        <div class="mod-h" data-tr="Tu perfil">Tu perfil</div>
+        <div class="profile-row" style="margin-bottom:0;">
+          <button type="button" class="profile-av" id="profileAv" aria-label="Cambiar foto de perfil">👤</button>
+          <div class="profile-meta">
+            <div class="profile-name" id="profileName">—</div>
+            <div class="profile-actions">
+              <button type="button" class="btn btn-ghost profile-btn" id="profilePhotoBtn" data-tr="Cambiar foto">Cambiar foto</button>
+              <button type="button" class="profile-remove" id="profilePhotoRemove" data-tr="Quitar" style="display:none;">Quitar</button>
+            </div>
           </div>
         </div>
-      </div>
-      <input type="file" accept="image/*" id="profilePhotoInput" style="display:none;">
-
-      <div class="mod-rules">
-        <p><b data-tr="Normas de la comunidad">Normas de la comunidad</b></p>
-        <p data-tr="En untraveld no se tolera el contenido ofensivo ni el comportamiento abusivo. Nada de insultos, odio, acoso, amenazas, contenido sexual ni spam, ni en el tablón ni en las reseñas, las tareas o las fotos.">En untraveld no se tolera el contenido ofensivo ni el comportamiento abusivo. Nada de insultos, odio, acoso, amenazas, contenido sexual ni spam, ni en el tablón ni en las reseñas, las tareas o las fotos.</p>
-        <p data-tr="Puedes reportar cualquier contenido con el icono de bandera. Lo revisamos y respondemos en menos de 24 horas: retiramos lo que incumpla y cerramos las cuentas reincidentes.">Puedes reportar cualquier contenido con el icono de bandera. Lo revisamos y respondemos en menos de 24 horas: retiramos lo que incumpla y cerramos las cuentas reincidentes.</p>
+        <input type="file" accept="image/*" id="profilePhotoInput" style="display:none;">
       </div>
 
-      <div class="mod-h" data-tr="Personas bloqueadas">Personas bloqueadas</div>
-      <p class="sub" style="font-size:12px; margin:-4px 0 10px; text-align:left;" data-tr="No verás su contenido en ninguna parte de la app.">No verás su contenido en ninguna parte de la app.</p>
-      <div id="cuentaBlocked"></div>
+      <div class="utd-glass">
+        <div class="mod-rules">
+          <p><b data-tr="Normas de la comunidad">Normas de la comunidad</b></p>
+          <p data-tr="En untraveld no se tolera el contenido ofensivo ni el comportamiento abusivo. Nada de insultos, odio, acoso, amenazas, contenido sexual ni spam, ni en el tablón ni en las reseñas, las tareas o las fotos.">En untraveld no se tolera el contenido ofensivo ni el comportamiento abusivo. Nada de insultos, odio, acoso, amenazas, contenido sexual ni spam, ni en el tablón ni en las reseñas, las tareas o las fotos.</p>
+          <p data-tr="Puedes reportar cualquier contenido con el icono de bandera. Lo revisamos y respondemos en menos de 24 horas: retiramos lo que incumpla y cerramos las cuentas reincidentes.">Puedes reportar cualquier contenido con el icono de bandera. Lo revisamos y respondemos en menos de 24 horas: retiramos lo que incumpla y cerramos las cuentas reincidentes.</p>
+        </div>
+      </div>
 
-      <div class="mod-h" data-tr="Soporte">Soporte</div>
-      <p class="sub" style="font-size:12px; margin:-4px 0 10px; text-align:left;">
-        <a href="mailto:soporte@untraveld.com">soporte@untraveld.com</a>
-      </p>
-      <p class="sub" style="font-size:12px; margin:0 0 10px; text-align:left;">
-        <a href="#" onclick="return window.utdOpenLegal('terminos')" data-tr="Términos de uso">Términos de uso</a>
-        &nbsp;·&nbsp;
-        <a href="#" onclick="return window.utdOpenLegal('privacidad')" data-tr="Política de privacidad">Política de privacidad</a>
-      </p>
+      <div class="utd-glass">
+        <div class="mod-h" data-tr="Personas bloqueadas">Personas bloqueadas</div>
+        <p class="sub" style="font-size:12px; margin:-2px 0 10px; text-align:left;" data-tr="No verás su contenido en ninguna parte de la app.">No verás su contenido en ninguna parte de la app.</p>
+        <div id="cuentaBlocked"></div>
+      </div>
 
-      <div class="mod-h" data-tr="Tu cuenta">Tu cuenta</div>
-      <button id="cuentaDeleteBtn" class="mod-danger" data-tr="Eliminar mi cuenta">Eliminar mi cuenta</button>
-      <p class="sub" style="font-size:11.5px; margin:8px 0 0; text-align:left;" data-tr="Se borran tu perfil y tus datos. No se puede deshacer.">Se borran tu perfil y tus datos. No se puede deshacer.</p>
-      <p class="sub" id="buildStamp" style="font-size:11px; margin:18px 0 0; text-align:left; color:var(--text-mid,#9a8b78); opacity:.7;"></p>
+      <div class="utd-glass">
+        <div class="mod-h" data-tr="Soporte">Soporte</div>
+        <p class="sub" style="font-size:12px; margin:-2px 0 10px; text-align:left;">
+          <a href="mailto:soporte@untraveld.com">soporte@untraveld.com</a>
+        </p>
+        <p class="sub" style="font-size:12px; margin:0; text-align:left;">
+          <a href="#" onclick="return window.utdOpenLegal('terminos')" data-tr="Términos de uso">Términos de uso</a>
+          &nbsp;·&nbsp;
+          <a href="#" onclick="return window.utdOpenLegal('privacidad')" data-tr="Política de privacidad">Política de privacidad</a>
+        </p>
+      </div>
+
+      <div class="utd-glass">
+        <div class="mod-h" data-tr="Tu cuenta">Tu cuenta</div>
+        <button id="cuentaDeleteBtn" class="mod-danger" data-tr="Eliminar mi cuenta">Eliminar mi cuenta</button>
+        <p class="sub" style="font-size:11.5px; margin:8px 0 0; text-align:left;" data-tr="Se borran tu perfil y tus datos. No se puede deshacer.">Se borran tu perfil y tus datos. No se puede deshacer.</p>
+        <p class="sub" id="buildStamp" style="font-size:11px; margin:14px 0 0; text-align:left; color:var(--text-mid,#9a8b78); opacity:.7;"></p>
+      </div>
       <div style="height:120px;"></div>
     </div>
 
     <div id="tab-recuerdos" class="tabpanel" style="display:none;">
       <div id="pastTripsWrap"></div>
       <div id="recLiveWrap">
+      <div class="utd-glass rec-live-head">
       <div class="rec-head">
         <div class="section-label" id="recNowLabel" data-tr="Fotos del viaje actual" style="margin:0;">Fotos del viaje actual</div>
         <button id="recSelectBtn" class="rec-refresh" data-tr="Seleccionar">Seleccionar</button>
         <button id="recRefreshBtn" class="rec-refresh" data-tr="Actualizar" title="Actualizar">Actualizar</button>
       </div>
-      <p class="sub" style="font-size:12px; margin:6px 0 14px; text-align:left;" data-tr="Las fotos del viaje. Las de cada check-in se añaden solas.">Las fotos del viaje. Las de cada check-in se añaden solas.</p>
-      <div class="subnav">
+      <p class="sub" style="font-size:12px; margin:6px 0 12px; text-align:left;" data-tr="Las fotos del viaje. Las de cada check-in se añaden solas.">Las fotos del viaje. Las de cada check-in se añaden solas.</p>
+      <div class="subnav" style="margin-bottom:0;">
         <select id="recuerdosMode" class="subnav-select">
           <option value="days" data-tr="Por días">Por días</option>
           <option value="all" data-tr="Todas">Todas</option>
         </select>
+      </div>
       </div>
       <div id="recSelectBar" class="rec-select-bar" style="display:none;">
         <span id="recSelCount">0</span>
@@ -7201,44 +7233,43 @@
     var CN={ES:'España',CA:'Canadá',AR:'Argentina',US:'Estados Unidos',IT:'Italia',WORLD:'Mundo'};
     var country=''; try{ country=CN[countryOfRegion(ACTIVE_REGION)]||''; }catch(e){}
     var CATC={monuments:'var(--map-red)',food:'var(--map-blue)',nature:'var(--map-green)',ocio:'var(--map-ocio)'};
-    var html='<div class="sala-eyebrow">'+TR('Tu sala')+'</div>'
-      + '<div class="prog-hero"><div class="prog-ring">'+progRing(pct)+'<div class="prog-ring-pct">'+pct+'%</div></div>'
+    var html='<div class="utd-glass"><div class="prog-hero"><div class="prog-ring">'+progRing(pct)+'<div class="prog-ring-pct">'+pct+'%</div></div>'
       + '<div class="prog-hero-side"><div class="prog-hero-t">'+escapeHtml(REGION_NAME||'')+'</div>'
       + '<div class="prog-hero-s">'+TRf('%1 de %2 puntos · te faltan %3', done.length, all.length, remaining)+'</div>'
-      + (country?'<div class="prog-today-chip">'+escapeHtml(country)+'</div>':'')+'</div></div>';
+      + (country?'<div class="prog-today-chip">'+escapeHtml(country)+'</div>':'')+'</div></div></div>';
     // Por categoría
     var CATS=[['monuments',TR('Monumentos')],['nature',TR('Naturaleza')],['food',TR('Comida')],['ocio',TR('Ocio')]];
     var catHtml='';
     CATS.forEach(function(c){ var tot=all.filter(function(p){ return p.cat===c[0]; }).length; if(!tot) return; var dn=done.filter(function(p){ return p.cat===c[0]; }).length; var w=Math.round(dn/tot*100); catHtml+='<div class="sala-cat"><span class="dot" style="background:'+CATC[c[0]]+'"></span><span class="cl">'+escapeHtml(c[1])+'</span><span class="bar"><i style="width:'+w+'%;background:'+CATC[c[0]]+'"></i></span><span class="cn">'+dn+'/'+tot+'</span></div>'; });
-    if(catHtml) html+='<div class="sala-eyebrow">'+TR('Por categoría')+'</div>'+catHtml;
+    if(catHtml) html+='<div class="utd-glass"><div class="sala-eyebrow">'+TR('Por categoría')+'</div>'+catHtml+'</div>';
     // Logros del territorio
     var miles=[25,50,75,100], firstUndone=null;
     for(var mi=0;mi<miles.length;mi++){ if(pct<miles[mi]){ firstUndone=miles[mi]; break; } }
-    html+='<div class="sala-eyebrow">'+TR('Logros del territorio')+'</div><div class="sala-track">'
+    html+='<div class="utd-glass"><div class="sala-eyebrow">'+TR('Logros del territorio')+'</div><div class="sala-track">'
       + miles.map(function(m){ var st=pct>=m?'done':(m===firstUndone?'now':''); return '<div class="sala-node '+st+'"><span class="sala-dotm">'+(pct>=m?'✓':'')+'</span><span class="sala-lm">'+m+'%</span></div>'; }).join('')
       + '</div>';
     var BADGES=[['monuments',TR('Explorador de monumentos')],['nature',TR('Amante de la naturaleza')],['food',TR('Sabores de la zona')],['ocio',TR('Espíritu festivo')]];
     var badgeHtml='';
     BADGES.forEach(function(bd){ var tot=all.filter(function(p){ return p.cat===bd[0]; }).length; if(!tot) return; var dn=done.filter(function(p){ return p.cat===bd[0]; }).length; var on=(dn>=tot); badgeHtml+='<span class="sala-badge'+(on?' on':'')+'"><span class="bd" style="background:'+CATC[bd[0]]+'"></span>'+escapeHtml(bd[1])+'</span>'; });
-    if(badgeHtml) html+='<div class="sala-badges">'+badgeHtml+'</div>';
+    html+=(badgeHtml?'<div class="sala-badges">'+badgeHtml+'</div>':'')+'</div>';
     // Qué te falta por descubrir
     var pending=all.filter(function(p){ return !isDonePoi(p.id); }).map(function(p){ return {p:p, s:_poiCommScore(p.id)}; });
     pending.sort(function(a,b){ return (b.s==null?-1:b.s)-(a.s==null?-1:a.s); });
     var faltan=pending.filter(function(o){ return o.s!=null; }).slice(0,4);
     if(!faltan.length) faltan=pending.slice(0,4);
     if(faltan.length){
-      html+='<div class="sala-eyebrow">'+TR('Qué te falta por descubrir')+'</div>';
-      html+=faltan.map(function(o,i){ return '<button class="sala-row'+(i===0?' first':'')+'" data-poi="'+escapeHtml(o.p.id)+'"><span class="dot" style="background:'+(CATC[o.p.cat]||'var(--violet)')+'"></span><span class="nm">'+escapeHtml(o.p.name)+'</span>'+(o.s!=null?'<span class="sc">'+o.s.toFixed(1)+'<i>/10</i></span>':'')+'</button>'; }).join('');
+      html+='<div class="utd-glass"><div class="sala-eyebrow">'+TR('Qué te falta por descubrir')+'</div>';
+      html+=faltan.map(function(o,i){ return '<button class="sala-row'+(i===0?' first':'')+'" data-poi="'+escapeHtml(o.p.id)+'"><span class="dot" style="background:'+(CATC[o.p.cat]||'var(--violet)')+'"></span><span class="nm">'+escapeHtml(o.p.name)+'</span>'+(o.s!=null?'<span class="sc">'+o.s.toFixed(1)+'<i>/10</i></span>':'')+'</button>'; }).join('')+'</div>';
     }
     // Mejor valorados del territorio (comunidad)
     var rated=all.map(function(p){ return {p:p, s:_poiCommScore(p.id)}; }).filter(function(o){ return o.s!=null; });
     rated.sort(function(a,b){ return b.s-a.s; });
     var top=rated.slice(0,5);
     if(top.length){
-      html+='<div class="sala-eyebrow">'+TR('Mejor valorados del territorio')+'</div>';
-      html+=top.map(function(o,i){ return '<button class="sala-row'+(i===0?' first':'')+'" data-poi="'+escapeHtml(o.p.id)+'"><span class="rk">'+(i+1)+'</span><span class="dot" style="background:'+(CATC[o.p.cat]||'var(--violet)')+'"></span><span class="nm">'+escapeHtml(o.p.name)+'</span>'+(isDonePoi(o.p.id)?'<span class="chk">'+TR('Visitado')+'</span>':'')+'<span class="sc">'+o.s.toFixed(1)+'<i>/10</i></span></button>'; }).join('');
+      html+='<div class="utd-glass"><div class="sala-eyebrow">'+TR('Mejor valorados del territorio')+'</div>';
+      html+=top.map(function(o,i){ return '<button class="sala-row'+(i===0?' first':'')+'" data-poi="'+escapeHtml(o.p.id)+'"><span class="rk">'+(i+1)+'</span><span class="dot" style="background:'+(CATC[o.p.cat]||'var(--violet)')+'"></span><span class="nm">'+escapeHtml(o.p.name)+'</span>'+(isDonePoi(o.p.id)?'<span class="chk">'+TR('Visitado')+'</span>':'')+'<span class="sc">'+o.s.toFixed(1)+'<i>/10</i></span></button>'; }).join('')+'</div>';
     } else if(_reviewsCache!==null){
-      html+='<div class="sala-eyebrow">'+TR('Mejor valorados del territorio')+'</div><div class="soc-empty">'+TR('Aún no hay valoraciones de la comunidad en este territorio.')+'</div>';
+      html+='<div class="utd-glass"><div class="sala-eyebrow">'+TR('Mejor valorados del territorio')+'</div><div class="soc-empty">'+TR('Aún no hay valoraciones de la comunidad en este territorio.')+'</div></div>';
     }
     // Cerca de ti ahora
     if(myPosition && typeof myPosition.lat==='number'){
@@ -7246,8 +7277,8 @@
       near.sort(function(a,b){ return a.d-b.d; });
       near=near.filter(function(o){ return o.d<=8000; }).slice(0,3);
       if(near.length){
-        html+='<div class="sala-eyebrow">'+TR('Cerca de ti ahora')+'</div>';
-        html+=near.map(function(o,i){ var dtxt=o.d<1000?(Math.round(o.d)+' m'):((o.d/1000).toFixed(1)+' km'); return '<button class="sala-row'+(i===0?' first':'')+'" data-poi="'+escapeHtml(o.p.id)+'"><span class="dot" style="background:'+(CATC[o.p.cat]||'var(--violet)')+'"></span><span class="nm">'+escapeHtml(o.p.name)+'</span><span class="di">'+dtxt+'</span></button>'; }).join('');
+        html+='<div class="utd-glass"><div class="sala-eyebrow">'+TR('Cerca de ti ahora')+'</div>';
+        html+=near.map(function(o,i){ var dtxt=o.d<1000?(Math.round(o.d)+' m'):((o.d/1000).toFixed(1)+' km'); return '<button class="sala-row'+(i===0?' first':'')+'" data-poi="'+escapeHtml(o.p.id)+'"><span class="dot" style="background:'+(CATC[o.p.cat]||'var(--violet)')+'"></span><span class="nm">'+escapeHtml(o.p.name)+'</span><span class="di">'+dtxt+'</span></button>'; }).join('')+'</div>';
       }
     }
     return html;
@@ -9718,7 +9749,7 @@
     var pts=socialPoints();
     var itins=loadSharedItins();
     var initials=(myName||'?').trim().slice(0,2).toUpperCase();
-    var html='<div class="soc-head">'+_socAvHtml(getProfilePhoto(), initials)
+    var html='<div class="utd-glass"><div class="soc-head">'+_socAvHtml(getProfilePhoto(), initials)
       + '<div><div class="soc-name">'+escapeHtml(myName||TR('Viajero'))+'</div><div class="soc-handle">@'+escapeHtml(getMyHandle())+'</div></div></div>'
       + '<div class="soc-stats">'
       + '<div class="soc-stat"><div class="n">'+terrs.length+'</div><div class="l">'+TR('Territorios')+'</div></div>'
@@ -9727,15 +9758,15 @@
       + '<div class="soc-stat"><div class="n" id="socFollowers">·</div><div class="l">'+TR('Seguidores')+'</div></div>'
       + '</div>'
       + '<div class="soc-btns"><button class="soc-btn" id="socEdit">'+TR('Editar perfil')+'</button><button class="soc-btn" id="socFind">'+TR('Buscar amigos')+'</button></div>'
-      + '<div class="soc-note" id="socNote"></div>';
+      + '<div class="soc-note" id="socNote"></div></div>';
     if(itins.length){
-      html+='<div class="soc-eyebrow">'+TR('Itinerarios compartidos')+'</div>'
+      html+='<div class="utd-glass"><div class="soc-eyebrow">'+TR('Itinerarios compartidos')+'</div>'
         + itins.map(function(it){
             var cov = it.cover? '<div class="cov" style="background-image:url('+it.cover+')"></div>':'';
             return '<button class="soc-itin soc-itin-btn" data-id="'+escapeHtml(it.id)+'"'+(it.tripId?(' data-trip="'+escapeHtml(it.tripId)+'"'):'')+'>'+cov+'<div class="ii"><div class="ib"><div class="in">'+escapeHtml(it.name||'')+'</div></div><span class="chev">›</span></div></button>';
-          }).join('');
+          }).join('')+'</div>';
     }
-    html+='<div class="soc-eyebrow">'+TR('Territorios viajados')+'</div>'+_socTerritoriesHtml(terrs);
+    html+='<div class="utd-glass"><div class="soc-eyebrow">'+TR('Territorios viajados')+'</div>'+_socTerritoriesHtml(terrs)+'</div>';
     host.innerHTML=html;
     if(acct) socialCounts(socialId(), function(c){ var a=document.getElementById('socFollowing'), b=document.getElementById('socFollowers'); if(a)a.textContent=c.following; if(b)b.textContent=c.followers; });
     else { var a=document.getElementById('socFollowing'), b=document.getElementById('socFollowers'); if(a)a.textContent='0'; if(b)b.textContent='0'; }
@@ -10274,6 +10305,7 @@
     {k:'mercado', l:'Mercado', d:'Puestos y producto local'},
     {k:'carne', l:'Carne', d:'Asadores y parrillas'},
     {k:'dulce', l:'Dulce', d:'Postres y heladerías'},
+    {k:'local', l:'Tradicional', d:'Cocina de la zona'},
     {k:'internacional', l:'Internacional', d:'Cocinas del mundo'}
   ];
   function comidaGrupoIcon(k){
@@ -10282,6 +10314,7 @@
       mercado:'<path d="M4 9l1.5-4h13L20 9M4 9h16M4 9v10h16V9M12 6v3"/>',
       carne:'<path d="M13 3c3.5 0 6 2.5 6 6 0 2-1.2 3.4-3 4l-6 6-2.5-2.5 6-6c.6-1.8 2-3 4-3"/><circle cx="9" cy="15" r="2"/>',
       dulce:'<path d="M8 9a4 4 0 0 1 8 0M8 9h8M9 9l3 11 3-11"/>',
+      local:'<path d="M4 19h16"/><path d="M5 19a7 7 0 0 1 14 0"/><path d="M12 7v2"/><circle cx="12" cy="6" r="1"/>',
       internacional:'<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/>' };
     return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">'+(I[k]||'')+'</svg>';
   }
@@ -10292,7 +10325,8 @@
     if(/asador|parrilla|steak|barbacoa|\bcarne\b/.test(cs)) return 'carne';
     if(/helad|chocolat|pastel|panad|dulce|repost|churr|gofre|forno/.test(cs)) return 'dulce';
     if(/tapa|taberna|bodeg|cervec|vermut|croquet|vinos|enoteca|coctel|sidrer|\bbar\b/.test(cs)) return 'tapas';
-    if(/cuban|taco|mexic|tex.?mex|pizz|italia|trattoria|romana|judeo|canadiense|marisco|asiat|japon|sushi|ramen|thai|tailand|vietnam|china|chino|corean|dim sum|india|paquistan|grieg|arabe|árabe|libanes|peruan|argent|americ|burger|hamburg|street|diner|bistr|frances|francés|mediterr|estadounid/.test(cs)) return 'internacional';
+    if(/cuban|taco|mexic|tex.?mex|pizz|italia|trattoria|romana|judeo|canadiense|marisco|asiat|japon|sushi|ramen|thai|tailand|vietnam|china|chino|corean|dim sum|india|paquistan|grieg|arabe|árabe|libanes|peruan|argent|americ|burger|hamburg|street|diner|frances|francés|mediterr|estadounid/.test(cs)) return 'internacional';
+    if(/cocina|autor|casera|regional|españ|patagon|murcian|madril|tradicion|caf[eé]|cafeter|pescado|bistr/.test(cs)) return 'local';
     return 'otros';
   }
   function comidaFoods(){ return (pois()||[]).filter(function(p){ return p.cat==='food'; }); }
@@ -11352,7 +11386,7 @@
 
 <script>
 // Sello de versión: sirve para confirmar qué build está realmente desplegado.
-window.UTD_BUILD='2026-09-10 · comidas v10.0 (asistente flashcards + glass + hero + media por territorio)';
+window.UTD_BUILD='2026-09-10 · glass v11.0 (glassmorfismo suave en Perfil, Progreso, Recuerdos y Cuenta)';
 try{ console.log('untraveld build: '+window.UTD_BUILD); }catch(e){}
 if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/app/sw.js",{scope:"/app/"}).catch(function(){});});}
 </script>
