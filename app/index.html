@@ -1691,6 +1691,19 @@
   .review-score{ color:var(--gold); font-family:var(--display); font-weight:700; font-size:13px; }
   .comida-rating{ font-size:12px; font-weight:700; color:var(--gold); background:rgba(217,164,65,.16); padding:3px 9px; border-radius:100px; white-space:nowrap; }
   .comida-rating i{ font-style:normal; font-weight:600; opacity:.75; }
+  .comida-rating.none{ color:var(--text-low); background:var(--bg-panel-2); }
+  .comidas-sort{ display:flex; gap:2px; width:100%; background:var(--bg-panel); border:1px solid var(--line); border-radius:10px; padding:3px; margin:2px 0 0; }
+  .comidas-sort button{ flex:1; border:none; background:transparent; color:var(--text-mid); font-family:var(--display); font-weight:700; font-size:12.5px; padding:8px 6px; border-radius:8px; cursor:pointer; white-space:nowrap; }
+  .comidas-sort button.on{ background:linear-gradient(135deg,var(--violet),var(--violet-deep)); color:#fff; }
+  .comida-chips{ display:flex; gap:7px; overflow-x:auto; padding:2px 2px 4px; margin:11px 0 6px; -webkit-overflow-scrolling:touch; scrollbar-width:none; }
+  .comida-chips::-webkit-scrollbar{ display:none; }
+  .comida-chip{ flex:none; border:1px solid var(--line); background:var(--bg-panel); color:var(--text-mid); font-family:var(--display); font-weight:600; font-size:12.5px; padding:7px 13px; border-radius:100px; cursor:pointer; white-space:nowrap; }
+  .comida-chip.on{ background:linear-gradient(135deg,var(--violet),var(--violet-deep)); color:#fff; border-color:var(--violet-deep); }
+  .comida-rank{ display:inline-flex; align-items:center; justify-content:center; width:22px; height:22px; border-radius:50%; background:linear-gradient(135deg,var(--gold-soft),var(--gold)); color:#3A241C; font-family:var(--display); font-weight:800; font-size:12px; flex:none; }
+  .comida-open{ font-size:12px; font-weight:700; padding:3px 9px; border-radius:100px; white-space:nowrap; }
+  .comida-open.yes{ color:var(--ok); background:rgba(63,143,99,.12); }
+  .comida-open.no{ color:var(--text-low); background:var(--bg-panel-2); }
+  .comida-vis{ font-size:10px; font-weight:800; color:#fff; background:#2B7A3E; border-radius:50%; width:16px; height:16px; display:inline-flex; align-items:center; justify-content:center; flex:none; }
   /* ---------- Navegación a pie ---------- */
   .nav-overlay{ position:fixed; inset:0; z-index:1500; pointer-events:none; }
   .nav-top{ position:absolute; top:calc(env(safe-area-inset-top) + 128px); left:12px; right:12px; display:flex; align-items:center; gap:14px; background:#fff; color:var(--text-hi); border:1px solid var(--line); border-radius:16px; padding:14px 16px; box-shadow:0 8px 24px rgba(58,36,28,.18); pointer-events:auto; }
@@ -2610,7 +2623,7 @@
   <!-- MAIN -->
   <div id="main" class="screen">
     <div class="topbar">
-      <button class="topback" id="backToMap" title="Volver al mapa">←</button>
+      <button class="topback" id="backToMap" title="Volver">←</button>
       <div class="brand">
         <div class="brand-mark"><img id="mainBrandLogo" alt="untraveld" alt="untraveld" style="width:100%;height:100%;object-fit:contain;"></div>
         <div class="brand-name">un<b>traveld</b></div>
@@ -3012,14 +3025,16 @@
     </div>
 
     <div id="tab-comidas" class="tabpanel" style="display:none;">
-      <div class="comidas-filters">
-        <select id="comidaCuisine" class="comida-sel"><option value="" data-tr="Todas las cocinas">Todas las cocinas</option></select>
-        <div class="comida-price-seg" id="comidaPrice">
-          <button type="button" data-price="" class="on" data-tr="Todos">Todos</button>
-          <button type="button" data-price="1">€</button>
-          <button type="button" data-price="2">€€</button>
-          <button type="button" data-price="3">€€€</button>
-        </div>
+      <div class="comidas-sort" id="comidaSort">
+        <button type="button" data-sort="rating" class="on" data-tr="Mejor valoradas">Mejor valoradas</button>
+        <button type="button" data-sort="near" data-tr="Cerca de mí">Cerca de mí</button>
+      </div>
+      <div class="comida-chips" id="comidaChips"></div>
+      <div class="comida-price-seg" id="comidaPrice" style="align-self:flex-start;">
+        <button type="button" data-price="" class="on" data-tr="Todos">Todos</button>
+        <button type="button" data-price="1">€</button>
+        <button type="button" data-price="2">€€</button>
+        <button type="button" data-price="3">€€€</button>
       </div>
       <div id="comidasList"></div>
     </div>
@@ -10188,40 +10203,74 @@
     var a=sc.reduce(function(s,v){ return s+v; },0)/sc.length;
     return '<span class="comida-rating">'+a.toFixed(1)+'<i>/10</i> · '+sc.length+'</span>';
   }
-  var _comidaReturn=null, _comidaFilter={cuisine:'',price:''};
+  var _comidaReturn=null, _comidaFilter={cuisine:'',price:'',sort:'rating'};
   function comidaPriceNum(str){ var n=(String(str||'').match(/\d+/g)||[]).map(Number); return n.length?n.reduce(function(s,v){return s+v;},0)/n.length:null; }
   function comidaPriceBucket(str){ var n=comidaPriceNum(str); if(n==null) return null; if(n<=20) return '1'; if(n<=40) return '2'; return '3'; }
-  function ensureComidaCuisines(foods){
-    var sel=document.getElementById('comidaCuisine'); if(!sel) return;
+  function comidaAvgScore(pid){
+    if(!_reviewsCache) return null;
+    var obj=_reviewsCache[pid]; if(!obj) return null;
+    var sc=Object.keys(obj).map(function(k){ return reviewScore(obj[k]); }).filter(function(v){ return v!=null; });
+    if(!sc.length) return null;
+    return { avg: sc.reduce(function(s,v){ return s+v; },0)/sc.length, n: sc.length };
+  }
+  function comidaOpenNow(hours){
+    if(!hours) return null;
+    var now=new Date(), mins=now.getHours()*60+now.getMinutes();
+    function toMin(t){ var m=String(t).match(/(\d{1,2}):(\d{2})/); return m?(+m[1]*60 + +m[2]):null; }
+    var ranges=String(hours).split('·');
+    for(var i=0;i<ranges.length;i++){
+      var parts=ranges[i].split('–'); if(parts.length<2) parts=ranges[i].split('-');
+      if(parts.length<2) continue;
+      var a=toMin(parts[0]), b=toMin(parts[1]); if(a==null||b==null) continue;
+      var open = (b>a) ? (mins>=a && mins<b) : (mins>=a || mins<b);
+      if(open) return { open:true, close:parts[1].trim() };
+    }
+    return { open:false };
+  }
+  function ensureComidaChips(foods){
+    var box=document.getElementById('comidaChips'); if(!box) return;
     var set={}; foods.forEach(function(p){ var c=(FOOD_META[p.id]||{}).cuisine; if(c) set[c]=1; });
     var cuis=Object.keys(set).sort(function(a,b){ return TR(a).localeCompare(TR(b)); });
-    var sig=cuis.join('|'); if(sel.dataset.sig===sig) return; sel.dataset.sig=sig;
-    sel.innerHTML='<option value="">'+TR('Todas las cocinas')+'</option>'+cuis.map(function(c){ return '<option value="'+escapeHtml(c)+'">'+escapeHtml(TR(c))+'</option>'; }).join('');
-    sel.value=_comidaFilter.cuisine||'';
+    var sig=(_comidaFilter.cuisine||'')+'||'+cuis.join('|'); if(box.dataset.sig===sig) return; box.dataset.sig=sig;
+    var html='<button class="comida-chip'+(!_comidaFilter.cuisine?' on':'')+'" data-c="">'+TR('Todas')+'</button>';
+    html+=cuis.map(function(c){ return '<button class="comida-chip'+(_comidaFilter.cuisine===c?' on':'')+'" data-c="'+escapeHtml(c)+'">'+escapeHtml(TR(c))+'</button>'; }).join('');
+    box.innerHTML=html;
   }
   function renderComidas(){
     var box=document.getElementById('comidasList'); if(!box) return;
     if(_reviewsCache===null && !_reviewsLoading){ _reviewsLoading=true; try{ db.ref('reviews').once('value').then(function(s){ _reviewsCache=s.val()||{}; _reviewsLoading=false; renderComidas(); }).catch(function(){ _reviewsCache={}; _reviewsLoading=false; }); }catch(e){ _reviewsCache={}; _reviewsLoading=false; } }
     var foods=(pois()||[]).filter(function(p){ return p.cat==='food'; });
-    ensureComidaCuisines(foods);
+    ensureComidaChips(foods);
     var haveGps=!!(myPosition && typeof myPosition.lat==='number');
-    var arr=foods.map(function(p){ return { p:p, d: haveGps ? haversineMeters(myPosition.lat,myPosition.lng,p.lat,p.lng) : null }; });
+    var sortMode=_comidaFilter.sort||'rating';
+    if(sortMode==='near' && !haveGps) sortMode='rating';
+    // refleja el modo activo en el toggle (si sin GPS cae a rating)
+    var segBtns=document.querySelectorAll('#comidaSort button'); Array.prototype.forEach.call(segBtns, function(b){ b.classList.toggle('on', b.getAttribute('data-sort')===sortMode); });
+    var arr=foods.map(function(p){ var s=comidaAvgScore(p.id); return { p:p, d: haveGps ? haversineMeters(myPosition.lat,myPosition.lng,p.lat,p.lng) : null, sc: s?s.avg:null, n: s?s.n:0 }; });
     var fc=_comidaFilter.cuisine, fp=_comidaFilter.price;
     if(fc||fp){ arr=arr.filter(function(o){ var m=FOOD_META[o.p.id]||{}; if(fc && m.cuisine!==fc) return false; if(fp && comidaPriceBucket(m.price)!==fp) return false; return true; }); }
-    if(haveGps) arr.sort(function(a,b){ return a.d-b.d; });
+    if(sortMode==='near'){ arr.sort(function(a,b){ return (a.d==null?1e12:a.d)-(b.d==null?1e12:b.d); }); }
+    else { arr.sort(function(a,b){ var sa=(a.sc==null?-1:a.sc), sb=(b.sc==null?-1:b.sc); if(sb!==sa) return sb-sa; return (a.d==null?1e12:a.d)-(b.d==null?1e12:b.d); }); }
     if(!foods.length){ box.innerHTML='<div class="empty">'+TR('Aún no hay opciones de comida en este destino.')+'</div>'; return; }
     if(!arr.length){ box.innerHTML='<div class="empty">'+TR('Ningún sitio con estos filtros.')+'</div>'; return; }
-    var head='<div class="comidas-head">'+TR('Comida popular y recomendada cerca de ti.')+(haveGps?'':' '+TR('Activa la ubicación para ordenarlas por distancia.'))+'</div>';
-    box.innerHTML=head+'<div class="comidas-list">'+arr.map(function(o){
+    var rank=0;
+    box.innerHTML='<div class="comidas-list">'+arr.map(function(o){
       var p=o.p, m=FOOD_META[p.id]||{};
+      var rankBadge='';
+      if(sortMode==='rating' && o.sc!=null){ rank++; if(rank<=3) rankBadge='<span class="comida-rank">'+rank+'</span>'; }
+      var rating = (o.sc!=null) ? '<span class="comida-rating">'+o.sc.toFixed(1)+'<i>/10</i> · '+o.n+'</span>' : '<span class="comida-rating none">'+TR('Sin valorar')+'</span>';
+      var vis = isDonePoi(p.id) ? '<span class="comida-vis">✓</span>' : '';
       var dist=(o.d!=null)?'<span class="comida-dist">'+formatDistance(o.d)+'</span>':'';
+      var os=comidaOpenNow(m.hours);
+      var openPill = os ? (os.open ? '<span class="comida-open yes">'+TRf('Abierto · cierra %1', os.close)+'</span>' : '<span class="comida-open no">'+TR('Cerrado ahora')+'</span>') : '';
       var cuis=m.cuisine?'<span class="comida-cuisine">'+escapeHtml(TR(m.cuisine))+'</span>':'';
       var price=m.price?'<span class="comida-price">'+escapeHtml(m.price)+' '+TR('por persona')+'</span>':'';
       var sep=(cuis&&price)?'<span class="comida-sep">·</span>':'';
+      var openSep=(openPill&&(cuis||price))?'<span class="comida-sep">·</span>':'';
       var hours=m.hours?'<div class="comida-hours"><b>'+TR('Cocina')+':</b> '+escapeHtml(m.hours)+'</div>':'';
-      return '<div class="comida-card" data-poi="'+escapeHtml(p.id)+'"><div class="comida-top"><span class="sugg-dot poi-cat-food"></span>'
-        + '<span class="comida-name">'+escapeHtml(p.name)+'</span>'+comidaRatingHtml(p.id)+dist+'</div>'
-        + '<div class="comida-meta">'+cuis+sep+price+'</div>'+hours+'</div>';
+      return '<div class="comida-card" data-poi="'+escapeHtml(p.id)+'"><div class="comida-top">'+rankBadge
+        + '<span class="comida-name">'+escapeHtml(p.name)+'</span>'+vis+rating+dist+'</div>'
+        + '<div class="comida-meta">'+openPill+openSep+cuis+sep+price+'</div>'+hours+'</div>';
     }).join('')+'</div>';
   }
   function goComidaToMap(id){
@@ -10232,7 +10281,16 @@
     openModal(p,'map');
   }
 
+  var _navHist=[], _curTab=null, _navBack=false;
+  function utdBack(){
+    var prev=null;
+    while(_navHist.length){ prev=_navHist.pop(); if(prev!==_curTab) break; }
+    _navBack=true; showTab(prev||'map');
+  }
   function showTab(tab){
+    if(_navBack){ _navBack=false; }
+    else if(_curTab && _curTab!==tab){ if(_navHist[_navHist.length-1]!==_curTab) _navHist.push(_curTab); if(_navHist.length>25) _navHist.shift(); }
+    _curTab=tab;
     const mapa = document.getElementById('tab-map');
     mapa.style.display = tab==='map' ? 'flex' : 'none';
     mapa.classList.toggle('map-full', tab==='map');
@@ -10329,12 +10387,13 @@
     document.getElementById('modalBackdrop').addEventListener('click', (e)=>{ if(e.target.id==='modalBackdrop') closeModal(); });
     document.getElementById('checkinBtn').addEventListener('click', doCheckin);
     var _cl=document.getElementById('comidasList'); if(_cl) _cl.addEventListener('click', function(e){ var c=e.target.closest('.comida-card'); if(c && c.dataset.poi) goComidaToMap(c.dataset.poi); });
-    var _cc=document.getElementById('comidaCuisine'); if(_cc) _cc.addEventListener('change', function(){ _comidaFilter.cuisine=this.value; renderComidas(); });
+    var _ch=document.getElementById('comidaChips'); if(_ch) _ch.addEventListener('click', function(e){ var b=e.target.closest('.comida-chip'); if(!b) return; _comidaFilter.cuisine=b.getAttribute('data-c')||''; Array.prototype.forEach.call(this.querySelectorAll('.comida-chip'), function(x){ x.classList.toggle('on', x===b); }); renderComidas(); });
+    var _cs=document.getElementById('comidaSort'); if(_cs) _cs.addEventListener('click', function(e){ var b=e.target.closest('button'); if(!b) return; _comidaFilter.sort=b.getAttribute('data-sort')||'rating'; Array.prototype.forEach.call(this.querySelectorAll('button'), function(x){ x.classList.toggle('on', x===b); }); renderComidas(); });
     var _cp=document.getElementById('comidaPrice'); if(_cp) _cp.addEventListener('click', function(e){ var b=e.target.closest('button'); if(!b) return; _comidaFilter.price=b.dataset.price||''; Array.prototype.forEach.call(this.querySelectorAll('button'), function(x){ x.classList.toggle('on', x===b); }); renderComidas(); });
     var _ns=document.getElementById('navStartBtn'); if(_ns) _ns.addEventListener('click', function(){ if(activePoi) startWalkNav(activePoi); });
     var _nx=document.getElementById('navExitBtn'); if(_nx) _nx.addEventListener('click', endWalkNav);
     var _nc=document.getElementById('navCheckinBtn'); if(_nc) _nc.addEventListener('click', function(){ var d=navDest; endWalkNav(); if(d) openModal(d,'map'); });
-    document.getElementById('backToMap').addEventListener('click', ()=> showTab('map'));
+    document.getElementById('backToMap').addEventListener('click', utdBack);
     document.getElementById('topMenu').addEventListener('click', abrirMenu);
     var _aif=document.getElementById('aiFab'); if(_aif) _aif.addEventListener('click', openAiChat);
     var _aic=document.getElementById('aiChatClose'); if(_aic) _aic.addEventListener('click', closeAiChat);
@@ -11165,7 +11224,7 @@
 
 <script>
 // Sello de versión: sirve para confirmar qué build está realmente desplegado.
-window.UTD_BUILD='2026-09-10 · progreso v9.0 (sala del territorio: individual)';
+window.UTD_BUILD='2026-09-10 · comidas v9.2 (orden por valoración, chips, abierto ahora, top 3, visitados)';
 try{ console.log('untraveld build: '+window.UTD_BUILD); }catch(e){}
 if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/app/sw.js",{scope:"/app/"}).catch(function(){});});}
 </script>
