@@ -1719,18 +1719,18 @@
   #tab-social::before, #tab-progreso::before, #tab-recuerdos::before, #tab-cuenta::before{
     content:""; position:absolute; inset:0; z-index:-1; pointer-events:none;
     background:
-      radial-gradient(300px 300px at 102% -2%, rgba(232,138,60,.30), transparent 60%),
-      radial-gradient(300px 300px at -4% 26%, rgba(235,194,87,.22), transparent 60%),
-      radial-gradient(320px 320px at 104% 88%, rgba(127,168,106,.18), transparent 60%),
-      radial-gradient(260px 260px at 14% 82%, rgba(201,98,47,.12), transparent 62%);
+      radial-gradient(340px 340px at 102% -2%, rgba(232,138,60,.48), transparent 62%),
+      radial-gradient(340px 340px at -6% 24%, rgba(235,194,87,.36), transparent 62%),
+      radial-gradient(360px 360px at 106% 88%, rgba(127,168,106,.30), transparent 62%),
+      radial-gradient(300px 300px at 12% 82%, rgba(201,98,47,.20), transparent 64%);
   }
-  .utd-glass{ position:relative; border:1px solid rgba(255,255,255,0.5); background:rgba(251,246,237,0.68); backdrop-filter:blur(14px) saturate(1.2); -webkit-backdrop-filter:blur(14px) saturate(1.2); box-shadow:0 6px 20px rgba(58,36,28,.09); border-radius:20px; padding:16px; margin-bottom:14px; animation:cwFade .28s ease both; }
+  .utd-glass{ position:relative; border:1px solid rgba(255,255,255,0.62); background:rgba(251,246,237,0.56); backdrop-filter:blur(17px) saturate(1.5); -webkit-backdrop-filter:blur(17px) saturate(1.5); box-shadow:0 8px 24px rgba(58,36,28,.12), inset 0 1px 0 rgba(255,255,255,.5); border-radius:20px; padding:16px; margin-bottom:14px; animation:cwFade .28s ease both; }
   .utd-glass > .sala-eyebrow:first-child, .utd-glass > .soc-eyebrow:first-child, .utd-glass > .soc-sec:first-child, .utd-glass > .mod-h:first-child, .utd-glass > .section-label:first-child, .utd-glass > .rec-head:first-child{ margin-top:0; }
   .utd-glass > .sala-row:last-child, .utd-glass > .soc-terr-row:last-child, .utd-glass > .soc-itin:last-child{ margin-bottom:0; }
   .utd-glass > .prog-hero{ background:none; border:0; padding:0; margin:0; border-radius:0; }
   .utd-glass > .sala-badges{ margin-bottom:0; }
   .utd-glass > .soc-btns{ margin-bottom:0; }
-  #tab-recuerdos .pt-card{ border:1px solid rgba(255,255,255,0.5); background:rgba(251,246,237,0.68); backdrop-filter:blur(14px) saturate(1.2); -webkit-backdrop-filter:blur(14px) saturate(1.2); box-shadow:0 6px 20px rgba(58,36,28,.09); }
+  #tab-recuerdos .pt-card{ border:1px solid rgba(255,255,255,0.62); background:rgba(251,246,237,0.56); backdrop-filter:blur(17px) saturate(1.5); -webkit-backdrop-filter:blur(17px) saturate(1.5); box-shadow:0 8px 24px rgba(58,36,28,.12), inset 0 1px 0 rgba(255,255,255,.5); }
   .rec-live-head{ padding:14px 16px; }
   #tab-cuenta .mod-title{ position:relative; }
   .utd-glass > .mod-rules{ background:none; padding:0; margin:0; }
@@ -11386,7 +11386,7 @@
 
 <script>
 // Sello de versión: sirve para confirmar qué build está realmente desplegado.
-window.UTD_BUILD='2026-09-10 · glass v11.0 (glassmorfismo suave en Perfil, Progreso, Recuerdos y Cuenta)';
+window.UTD_BUILD='2026-09-10 · glass v11.1 (glassmorfismo más marcado en Perfil, Progreso, Recuerdos y Cuenta)';
 try{ console.log('untraveld build: '+window.UTD_BUILD); }catch(e){}
 if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/app/sw.js",{scope:"/app/"}).catch(function(){});});}
 </script>
