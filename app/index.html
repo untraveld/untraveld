@@ -10632,7 +10632,7 @@
     if(tab==='recuerdos'){ try{ renderPastTripsList(); }catch(e){} renderRecuerdos(); loadMemories(); }
     if(tab==='comidas'){ enterComidas(); if(!myPosition) refreshMyPosition(); }
     if(tab==='map'){
-      try{ var _msc=document.getElementById('mapSalaChip'); if(_msc){ _msc.textContent = (inGroupMode() && groupState && groupState.name) ? groupState.name : currentTerritoryName(); if(!_msc._wired){ _msc._wired=true; _msc.style.cursor='pointer'; _msc.addEventListener('click', function(){ try{ openShell('utdCountry'); }catch(e){} }); } } }catch(e){}
+      try{ var _msc=document.getElementById('mapSalaChip'); if(_msc){ _msc.textContent = (inGroupMode() && groupState && groupState.name) ? groupState.name : currentTerritoryName(); if(!_msc._wired){ _msc._wired=true; _msc.style.cursor='pointer'; _msc.addEventListener('click', function(){ try{ (window.openShell||openShell)('utdCountry'); }catch(e){} }); } } }catch(e){}
       renderGrid();
       myPosition ? renderMap() : refreshMyPosition();
       setTimeout(()=>{ if(leafletMap) leafletMap.invalidateSize(); }, 80);
@@ -11011,6 +11011,9 @@
     document.body.classList.add('utd-shell-open');
     showScreen(step||'utdAuth');
   }
+  // Expuesto en window porque showTab() (donde se cablea el nombre de la sala del
+  // mapa) vive en OTRO bloque <script> / closure y no ve openShell directamente.
+  window.openShell = openShell;
   function closeShell(){
     $('utdShell').style.display='none';
     document.body.classList.remove('utd-shell-open');
@@ -11534,7 +11537,7 @@
 
 <script>
 // Sello de versión: sirve para confirmar qué build está realmente desplegado.
-window.UTD_BUILD='2026-09-11 · glass v11.25 (fix: tocar el nombre de la sala en el mapa abre el selector de país/destino de forma fiable)';
+window.UTD_BUILD='2026-09-11 · glass v11.26 (fix real: openShell vivía en otro closure y el tap del nombre de la sala lanzaba ReferenceError silencioso; ahora window.openShell → abre el selector de país/destino)';
 try{ console.log('untraveld build: '+window.UTD_BUILD); }catch(e){}
 if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/app/sw.js",{scope:"/app/"}).catch(function(){});});}
 </script>
