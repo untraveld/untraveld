@@ -6254,7 +6254,9 @@
           groupState.contributions[activePoi.id] = { name: myName, ts: now }; // actualización local inmediata
           await saveCheckin(myGroupId, activePoi.id, myName, now);
           try{ addCheckinToAgenda(activePoi, now); }catch(e){}
-          try{ if(!inGroupMode()) recordSoloMemory(activePoi, now); }catch(e){}
+          // Todo check-in (también en grupo) se copia al instante al perfil individual,
+          // así no hay que registrarlo dos veces. recordSoloMemory deduplica por punto+región.
+          try{ recordSoloMemory(activePoi, now); }catch(e){}
         }
         const contrib = normalizeContribution(groupState.contributions[activePoi.id]);
         document.getElementById('unlockedBanner').style.display = 'flex';
@@ -8575,6 +8577,10 @@
     // Check-ins colectivos en tiempo real
     try{ groupRef(myGroupId).child('contributions').on('value', function(snap){
       var v=snap.val()||{}; if(groupState) groupState.contributions=v;
+      // Sincroniza al perfil individual TODOS los check-ins del grupo (de cualquier integrante),
+      // tanto los previos (al entrar) como los nuevos en vivo.
+      try{ syncGroupToSolo(); }catch(e){}
+      try{ var _tr=document.getElementById('tab-recuerdos'); if(_tr && _tr.style.display!=='none' && _ptFolder==='individual'){ renderIndividualZones(); } }catch(e){}
       try{ renderProgreso(); }catch(e){}
       try{ renderGrid(); }catch(e){}
       try{ if(typeof renderMap==='function' && leafletMap) renderMap(); }catch(e){}
@@ -9559,6 +9565,15 @@
     if(inGroupMode()) return;
     var contribs=(groupState&&groupState.contributions)||{};
     Object.keys(contribs).forEach(function(pid){ var p=poiByIdLocal(pid); if(!p) return; var c=normalizeContribution(contribs[pid])||{}; recordSoloMemory(p, c.ts||0); });
+  }
+  // Copia TODOS los check-ins del grupo (de CUALQUIER integrante) al perfil individual.
+  // Si un POI lo registró solo una persona pero fueron todos, cuenta para todos. Se llama
+  // al entrar al grupo y en cada cambio en vivo; recordSoloMemory deduplica por punto+región.
+  function syncGroupToSolo(){
+    try{
+      var contribs=(groupState&&groupState.contributions)||{};
+      Object.keys(contribs).forEach(function(pid){ var p=poiByIdLocal(pid); if(!p) return; var c=normalizeContribution(contribs[pid])||{}; recordSoloMemory(p, c.ts||0); });
+    }catch(e){}
   }
   function hasIndividualMemories(){ return loadSoloMem().length>0 || (!inGroupMode() && Object.keys((groupState&&groupState.contributions)||{}).length>0); }
   var _ptFolder='grupo', _indivCity='', _izGalOpen=false;
@@ -11756,7 +11771,7 @@
 
 <script>
 // Sello de versión: sirve para confirmar qué build está realmente desplegado.
-window.UTD_BUILD='2026-09-11 · glass v11.34 (en grupo el menú oculta Social y Cuenta y seguridad; el perfil del viaje añade "Compartir viaje con enlace" que copia al portapapeles)';
+window.UTD_BUILD='2026-09-11 · glass v11.36 (sincroniza al perfil individual TODOS los check-ins del grupo, de cualquier integrante, previos y en vivo — syncGroupToSolo en el listener de contribuciones)';
 try{ console.log('untraveld build: '+window.UTD_BUILD); }catch(e){}
 if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/app/sw.js",{scope:"/app/"}).catch(function(){});});}
 </script>
