@@ -5614,7 +5614,6 @@
     _chipsWired=true;
     if(chip) chip.addEventListener('click', function(){ try{ showTab('social'); }catch(e){} });
     if(chipM) chipM.addEventListener('click', function(){ try{ showTab('social'); }catch(e){} });
-    var msc=document.getElementById('mapSalaChip'); if(msc) msc.addEventListener('click', function(){ try{ openShell('utdCountry'); }catch(e){} });
   }
   var _rsWired=false;
   function wireRoomSheet(){
@@ -10633,7 +10632,7 @@
     if(tab==='recuerdos'){ try{ renderPastTripsList(); }catch(e){} renderRecuerdos(); loadMemories(); }
     if(tab==='comidas'){ enterComidas(); if(!myPosition) refreshMyPosition(); }
     if(tab==='map'){
-      try{ var _msc=document.getElementById('mapSalaChip'); if(_msc){ _msc.textContent = (inGroupMode() && groupState && groupState.name) ? groupState.name : currentTerritoryName(); } }catch(e){}
+      try{ var _msc=document.getElementById('mapSalaChip'); if(_msc){ _msc.textContent = (inGroupMode() && groupState && groupState.name) ? groupState.name : currentTerritoryName(); if(!_msc._wired){ _msc._wired=true; _msc.style.cursor='pointer'; _msc.addEventListener('click', function(){ try{ openShell('utdCountry'); }catch(e){} }); } } }catch(e){}
       renderGrid();
       myPosition ? renderMap() : refreshMyPosition();
       setTimeout(()=>{ if(leafletMap) leafletMap.invalidateSize(); }, 80);
@@ -11535,7 +11534,7 @@
 
 <script>
 // Sello de versión: sirve para confirmar qué build está realmente desplegado.
-window.UTD_BUILD='2026-09-11 · glass v11.24 (recap consolidado: Editar viaje en la barra; participantes solo fotos (toca=nombres); itinerario más arriba)';
+window.UTD_BUILD='2026-09-11 · glass v11.25 (fix: tocar el nombre de la sala en el mapa abre el selector de país/destino de forma fiable)';
 try{ console.log('untraveld build: '+window.UTD_BUILD); }catch(e){}
 if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/app/sw.js",{scope:"/app/"}).catch(function(){});});}
 </script>
