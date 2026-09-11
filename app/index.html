@@ -495,6 +495,9 @@
   .map-fab.busy{ opacity:0.55; }
   #fabSearch{ position:fixed; left:16px; bottom:22px; z-index:600; }
   #fabTrips{ position:fixed; left:16px; bottom:calc(22px + 46px + 10px); z-index:600; }
+  /* Volver a Individual: solo visible cuando estás dentro de un viaje de grupo */
+  #fabSolo{ position:fixed; left:16px; bottom:calc(22px + 2*(46px + 10px)); z-index:600; display:none; }
+  #app.in-group #fabSolo{ display:flex; }
   .map-brand{
     display:none !important;
     position:absolute; top:calc(env(safe-area-inset-top) + 14px); left:calc(14px + 46px + 10px); right:auto; z-index:600;
@@ -2752,6 +2755,7 @@
       </div>
       <button class="map-fab" id="fabTrips" title="Mis Viajes" aria-label="Mis Viajes"><svg width="21" height="21" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21 16v-2l-8-5V3.5C13 2.67 12.33 2 11.5 2S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/></svg></button>
       <button class="map-fab" id="fabSearch" title="Buscar un punto" aria-label="Buscar"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.5" y2="16.5"></line></svg></button>
+      <button class="map-fab" id="fabSolo" title="Volver a Individual" aria-label="Volver a Individual"><svg width="21" height="21" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 12c2.7 0 4.9-2.2 4.9-4.9S14.7 2.2 12 2.2 7.1 4.4 7.1 7.1 9.3 12 12 12zm0 2.2c-3.3 0-9.8 1.65-9.8 4.9V21.8h19.6v-2.7c0-3.25-6.5-4.9-9.8-4.9z"/></svg></button>
       <div class="map-brand">un<b>traveld</b></div>
       <button id="mapSalaChip" type="button" title="Cambiar de sala">Región de Murcia</button>
       <button class="ctx-chip ctx-chip-map" id="ctxChipMap" title="Tu perfil">
@@ -5520,6 +5524,7 @@
   // Pinta el/los chip(s) de contexto según la sala actual.
   function renderCtxChip(){
     var group = inGroupMode();
+    try{ var _ap=document.getElementById('app'); if(_ap) _ap.classList.toggle('in-group', group); }catch(e){}
     var k = group ? TR('Viaje') : TR('Individual');
     var v = group ? ((groupState && groupState.name) || TR('Tu viaje')) : currentTerritoryName();
     var photo = group ? ((groupState && groupState.photo)||'') : getProfilePhoto();
@@ -10633,6 +10638,7 @@
     if(tab==='comidas'){ enterComidas(); if(!myPosition) refreshMyPosition(); }
     if(tab==='map'){
       try{ var _msc=document.getElementById('mapSalaChip'); if(_msc){ _msc.textContent = (inGroupMode() && groupState && groupState.name) ? groupState.name : currentTerritoryName(); if(!_msc._wired){ _msc._wired=true; _msc.style.cursor='pointer'; _msc.addEventListener('click', function(){ try{ (window.openShell||openShell)('utdCountry'); }catch(e){} }); } } }catch(e){}
+      try{ var _fso=document.getElementById('fabSolo'); if(_fso && !_fso._wired){ _fso._wired=true; _fso.addEventListener('click', function(){ try{ utdSwitchMode('solo'); }catch(e){} }); } }catch(e){}
       renderGrid();
       myPosition ? renderMap() : refreshMyPosition();
       setTimeout(()=>{ if(leafletMap) leafletMap.invalidateSize(); }, 80);
@@ -10643,6 +10649,7 @@
     }
     var _fab=document.getElementById('aiFab'); if(_fab){ _fab.style.display='flex'; _fab.classList.toggle('raised', tab==='tareas'||tab==='recuerdos'||tab==='encuestas'||tab==='gastos'||tab==='tablon'||(tab==='group'&&!inGroupMode())); aiPaintChatLogos(); }
     try{ document.getElementById('app').classList.toggle('amb-on', tab!=='map'); }catch(e){}
+    try{ document.getElementById('app').classList.toggle('in-group', inGroupMode()); }catch(e){}
   }
 
   // ---------- Crear / unirse a un grupo ----------
@@ -11537,7 +11544,7 @@
 
 <script>
 // Sello de versión: sirve para confirmar qué build está realmente desplegado.
-window.UTD_BUILD='2026-09-11 · glass v11.26 (fix real: openShell vivía en otro closure y el tap del nombre de la sala lanzaba ReferenceError silencioso; ahora window.openShell → abre el selector de país/destino)';
+window.UTD_BUILD='2026-09-11 · glass v11.27 (nuevo botón en el mapa (silueta de persona, abajo-izq sobre el avión) para volver a Individual; solo visible dentro de un viaje de grupo)';
 try{ console.log('untraveld build: '+window.UTD_BUILD); }catch(e){}
 if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/app/sw.js",{scope:"/app/"}).catch(function(){});});}
 </script>
