@@ -3243,7 +3243,7 @@
 <div class="menu-backdrop" id="menuBackdrop">
   <div class="menu-panel">
     <div class="menu-title" data-i18n="menu.title">Secciones</div>
-    <button class="menu-item disabled" disabled><span data-i18n="menu.social">Social</span><span class="soon" data-tr="Próximamente">Próximamente</span></button>
+    <button class="menu-item disabled" id="menuSocial" disabled><span data-i18n="menu.social">Social</span><span class="soon" data-tr="Próximamente">Próximamente</span></button>
     <button class="menu-item" data-goto="recuerdos" data-i18n="menu.recuerdos">Recuerdos</button>
     <button class="menu-item" data-goto="plan" id="menuPlan" data-tr="Plan" style="display:none;">Plan</button>
     <button class="menu-item" data-goto="info" id="menuInfo" data-tr="Información" style="display:none;">Información</button>
@@ -3255,7 +3255,7 @@
     <button class="menu-item" data-goto="tablon" id="menuTablon" data-tr="Tablón" style="display:none;">Tablón</button>
     <button class="menu-item" data-goto="comidas" data-i18n="menu.comidas">Comidas</button>
     <button class="menu-item" data-goto="souvenirs" id="menuSouvenirs" data-i18n="menu.souvenirs" style="display:none;">Souvenirs</button>
-    <button class="menu-item" data-goto="cuenta" data-tr="Cuenta y seguridad">Cuenta y seguridad</button>
+    <button class="menu-item" id="menuCuenta" data-goto="cuenta" data-tr="Cuenta y seguridad">Cuenta y seguridad</button>
   </div>
 </div>
 
@@ -9365,7 +9365,10 @@
   // ---------- Menú de secciones ----------
   // Sin barra de pestañas: el mapa es la pantalla por defecto y el resto de secciones
   // se abren desde el botón ☰, volviendo al mapa con la flecha de la cabecera.
-  function abrirMenu(){ var _g=inGroupMode()?'flex':'none'; ['menuPlan','menuInfo','menuTerritorio','menuTareas','menuEncuestas','menuGastos','menuTablon','menuSouvenirs'].forEach(function(id){ var e=document.getElementById(id); if(e) e.style.display=_g; }); document.getElementById('menuBackdrop').classList.add('open'); }
+  function abrirMenu(){ var _g=inGroupMode()?'flex':'none'; ['menuPlan','menuInfo','menuTerritorio','menuTareas','menuEncuestas','menuGastos','menuTablon','menuSouvenirs'].forEach(function(id){ var e=document.getElementById(id); if(e) e.style.display=_g; });
+    // En un viaje de grupo se ocultan Social y Cuenta y seguridad (no son de grupo).
+    var _hide=inGroupMode()?'none':''; ['menuSocial','menuCuenta'].forEach(function(id){ var e=document.getElementById(id); if(e) e.style.display=_hide; });
+    document.getElementById('menuBackdrop').classList.add('open'); }
   function cerrarMenu(){ document.getElementById('menuBackdrop').classList.remove('open'); }
 
   // ---------- Tabs ----------
@@ -9709,6 +9712,7 @@
         + '<div class="pt-people" id="tpPeopleNames" hidden></div>';
     }
     html+='<div class="pt-rc-sec">'+TR('Puntos con check-in')+'</div><div id="tpItin"><div class="empty">'+TR('Cargando…')+'</div></div>';
+    html+='<button class="pt-share-btn" id="tpShareBtn">'+TR('Compartir viaje con enlace')+'</button>';
     var body=document.getElementById('tpBody'); if(body) body.innerHTML=html;
     // Pinta los avatares con foto de perfil; mi foto ya se ve al instante, el resto
     // llegan de groups/<id>/memberPhotos (progressive enhancement).
@@ -9722,6 +9726,14 @@
     _renderPeople({});
     var _edit=document.getElementById('tpEditBtn');
     if(_edit) _edit.onclick=function(){ openTripEdit(t, _tpPhotoUrls, function(){ openTripProfile(); }); };
+    var _sh=document.getElementById('tpShareBtn');
+    if(_sh) _sh.addEventListener('click', function(){
+      var link=''; try{ link=buildInviteLink(myGroupId); }catch(e){}
+      if(!link) return;
+      var lbl=_sh.textContent;
+      _copyToClipboard(link, function(){ _sh.textContent=TR('¡Enlace copiado!'); _sh.classList.add('armed'); setTimeout(function(){ _sh.textContent=lbl; _sh.classList.remove('armed'); }, 1700); },
+        function(){ try{ if(window.UTDMod) window.UTDMod.toast(link); }catch(e){} });
+    });
     var _ppl=document.getElementById('tpPeopleToggle');
     if(_ppl) _ppl.addEventListener('click', function(){ var avs=document.getElementById('tpPeopleAvs'), nm=document.getElementById('tpPeopleNames'), ch=document.getElementById('tpPeopleChev'); if(!nm) return; var show=nm.hidden; nm.hidden=!show; if(avs) avs.hidden=show; if(ch) ch.textContent=show?'⌄':'›'; });
     var d=document.getElementById('tripProfile'); if(d){ d.style.display='block'; d.scrollTop=0; }
@@ -10870,6 +10882,16 @@
     await enterApp();
   }
 
+  // Copia texto al portapapeles (con fallback para navegadores sin Clipboard API).
+  function _copyToClipboard(text, ok, fail){
+    try{
+      if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(text).then(function(){ ok&&ok(); }).catch(function(){ _copyFallback(text, ok, fail); }); return; }
+    }catch(e){}
+    _copyFallback(text, ok, fail);
+  }
+  function _copyFallback(text, ok, fail){
+    try{ var ta=document.createElement('textarea'); ta.value=text; ta.setAttribute('readonly',''); ta.style.position='fixed'; ta.style.top='-1000px'; ta.style.opacity='0'; document.body.appendChild(ta); ta.focus(); ta.select(); var okd=document.execCommand('copy'); document.body.removeChild(ta); if(okd){ ok&&ok(); } else { fail&&fail(); } }catch(e){ fail&&fail(); }
+  }
   function copyInviteLink(inputId, btnId){
     const input = document.getElementById(inputId);
     const btn = document.getElementById(btnId);
@@ -11734,7 +11756,7 @@
 
 <script>
 // Sello de versión: sirve para confirmar qué build está realmente desplegado.
-window.UTD_BUILD='2026-09-11 · glass v11.33 (fix Comidas: los filtros de cocina/precio ya no ocultan restaurantes sin ese dato (p. ej. Ginebra/Lausana sin metadatos de comida); antes desaparecían todos al elegir presupuesto)';
+window.UTD_BUILD='2026-09-11 · glass v11.34 (en grupo el menú oculta Social y Cuenta y seguridad; el perfil del viaje añade "Compartir viaje con enlace" que copia al portapapeles)';
 try{ console.log('untraveld build: '+window.UTD_BUILD); }catch(e){}
 if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/app/sw.js",{scope:"/app/"}).catch(function(){});});}
 </script>
