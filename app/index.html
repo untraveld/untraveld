@@ -45,11 +45,11 @@
     --body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     /* Fondo ambiental compartido (degradado cálido con la franja de arriba en crema) */
     --utd-amb-bg:
-      linear-gradient(180deg, var(--bg-void) 5%, rgba(244,237,225,0) 21%),
-      radial-gradient(46vh 46vh at 110% 22%, rgba(232,138,60,.32), transparent 60%),
-      radial-gradient(46vh 46vh at -10% 40%, rgba(235,194,87,.26), transparent 60%),
-      radial-gradient(52vh 52vh at 108% 78%, rgba(127,168,106,.28), transparent 60%),
-      radial-gradient(42vh 42vh at 8% 92%, rgba(201,98,47,.18), transparent 62%),
+      linear-gradient(180deg, var(--bg-void) 17%, rgba(244,237,225,0) 34%),
+      radial-gradient(46vh 46vh at 112% 40%, rgba(232,138,60,.30), transparent 60%),
+      radial-gradient(46vh 46vh at -12% 52%, rgba(235,194,87,.24), transparent 60%),
+      radial-gradient(52vh 52vh at 108% 82%, rgba(127,168,106,.26), transparent 60%),
+      radial-gradient(42vh 42vh at 8% 94%, rgba(201,98,47,.16), transparent 62%),
       var(--bg-void);
   }
   *{box-sizing:border-box; -webkit-tap-highlight-color: transparent;}
@@ -493,6 +493,7 @@
   }
   .map-fab:active{ transform: scale(0.93); }
   .map-fab.busy{ opacity:0.55; }
+  #fabSearch{ position:fixed; left:16px; bottom:22px; z-index:60; }
   .map-brand{
     display:none !important;
     position:absolute; top:calc(env(safe-area-inset-top) + 14px); left:calc(14px + 46px + 10px); right:auto; z-index:600;
@@ -508,15 +509,16 @@
   .sheet{
     --peek: 150px;
     position:absolute; left:0; right:0; margin:0 auto; max-width:480px;
-    bottom: env(safe-area-inset-bottom);
-    height: 72vh; z-index:700;
+    bottom: 0;
+    height: 78vh; z-index:700;
     background: var(--bg-panel); border:1px solid var(--line); border-bottom:none;
-    border-radius:22px 22px 0 0; box-shadow: 0 -10px 30px rgba(58,36,28,0.20);
+    border-radius:22px 22px 0 0; box-shadow:none;
     display:flex; flex-direction:column; overflow:hidden;
-    transform: translateY(102%);
+    transform: translateY(101%);
     transition: transform .26s cubic-bezier(.22,.9,.3,1);
   }
-  .sheet.half{ transform: translateY(36vh); }
+  .sheet.half, .sheet.full{ box-shadow: 0 -12px 32px rgba(58,36,28,0.18); }
+  .sheet.half{ transform: translateY(28vh); }
   .sheet.full{ transform: translateY(0); }
   .sheet.dragging{ transition:none; }
   .sheet-grip{ padding:11px 0 8px; display:flex; justify-content:center; flex-shrink:0; cursor:grab; touch-action:none; }
@@ -994,11 +996,12 @@
   .utd-logout{ background:none; border:none; color:var(--violet); font-size:12.5px; font-weight:600; cursor:pointer; }
 
   /* Region chip injected into app topbar */
-  #utdRegionChip{ position:absolute; left:50%; top:calc(env(safe-area-inset-top) + 33px); transform:translate(-50%,-50%);
+  #utdRegionChip, #mapSalaChip{ position:absolute; left:50%; top:calc(env(safe-area-inset-top) + 33px); transform:translate(-50%,-50%);
     display:flex; align-items:center; justify-content:center;
     background:none; border:1px solid rgba(40,26,18,0.85); border-radius:100px; padding:3px 13px; margin:0; -webkit-appearance:none; appearance:none;
     color:var(--text-hi); font-family:var(--display); font-weight:600; font-size:11.5px; letter-spacing:.2px;
     white-space:nowrap; text-align:center; cursor:pointer; max-width:58%; overflow:hidden; text-overflow:ellipsis; z-index:1; }
+  #mapSalaChip{ z-index:600; background:rgba(251,246,237,0.78); box-shadow:0 2px 10px rgba(58,36,28,.12); backdrop-filter:blur(6px); -webkit-backdrop-filter:blur(6px); }
 
 
   /* ---- home limpio (beta): punto de color por categoría + chip oculto ---- */
@@ -1720,7 +1723,7 @@
   #utdAmbient{ display:none; position:absolute; inset:0; z-index:-1; pointer-events:none; background:var(--utd-amb-bg); }
   #app.amb-on #utdAmbient{ display:block; }
   /* En secciones con fondo ambiental, la barra superior es cristal translúcido para que el degradado sea continuo hasta arriba */
-  #app.amb-on .topbar{ background:linear-gradient(180deg, rgba(251,246,237,0.55) 60%, rgba(251,246,237,0)); backdrop-filter:blur(13px) saturate(1.35); -webkit-backdrop-filter:blur(13px) saturate(1.35); }
+  #app.amb-on .topbar{ background:linear-gradient(180deg, rgba(251,246,237,0.74) 58%, rgba(251,246,237,0)); backdrop-filter:blur(13px) saturate(1.05); -webkit-backdrop-filter:blur(13px) saturate(1.05); }
   /* Tarjetas de las secciones de grupo (y demás) → mismo cristal cuando hay fondo ambiental */
   #app.amb-on .info-card, #app.amb-on .agenda-day, #app.amb-on .day-row, #app.amb-on .prog-day,
   #app.amb-on .prog-acc, #app.amb-on .acc-item, #app.amb-on .tarea-card, #app.amb-on .expense-card,
@@ -1758,6 +1761,25 @@
   .cw-opt.on .cw-ol{ color:var(--violet-deep); } .cw-opt.on .cw-ico, .cw-opt.on .cw-eur, .cw-opt.on .cw-val{ color:var(--violet); }
   .cw-opt.on .cw-sel{ border-color:var(--violet); background:var(--violet); box-shadow:inset 0 0 0 3px rgba(251,246,237,.85); animation:cwPop .22s ease; }
   .cw-cta{ margin:18px 0 0; border:none; background:linear-gradient(135deg,var(--violet),var(--violet-deep)); color:#fff; font-family:var(--display); font-weight:600; font-size:16px; padding:15px; border-radius:16px; box-shadow:0 8px 20px rgba(201,98,47,.30); cursor:pointer; }
+  /* Nuevo viaje: hoja de elección + flashcards */
+  .trip-scrim{ position:fixed; inset:0; z-index:3500; background:rgba(58,36,28,0.42); -webkit-backdrop-filter:blur(3px); backdrop-filter:blur(3px); display:flex; align-items:flex-end; justify-content:center; }
+  .trip-sheet{ width:100%; max-width:480px; background:var(--bg-panel); border-radius:22px 22px 0 0; padding:10px 20px calc(24px + env(safe-area-inset-bottom)); box-shadow:0 -10px 30px rgba(58,36,28,.22); animation:twUp .26s cubic-bezier(.22,.9,.3,1); }
+  @keyframes twUp{ from{ transform:translateY(24px); opacity:.5; } to{ transform:none; opacity:1; } }
+  .trip-grab{ width:42px; height:4px; border-radius:4px; background:var(--line); margin:2px auto 14px; }
+  .trip-sheet-title{ font-family:var(--display); font-weight:700; font-size:18px; color:var(--text-hi); text-align:center; margin-bottom:16px; }
+  .trip-choice-main{ width:100%; margin:0; }
+  .trip-choice-alt{ width:100%; margin:12px 0 0; padding:15px; border:1px solid var(--line); background:var(--bg-panel); color:var(--violet-deep); border-radius:16px; font-family:var(--display); font-weight:600; font-size:16px; cursor:pointer; }
+  .trip-choice-cancel{ width:100%; margin:6px 0 0; padding:12px; border:none; background:none; color:var(--text-mid); font-family:var(--body); font-weight:600; font-size:14px; cursor:pointer; }
+  .tw-scroll{ position:relative; z-index:1; height:100%; overflow-y:auto; -webkit-overflow-scrolling:touch; padding:calc(env(safe-area-inset-top) + 12px) 18px calc(24px + env(safe-area-inset-bottom)); }
+  .tw-input{ width:100%; padding:15px 16px; border:1px solid rgba(255,255,255,.55); background:rgba(251,246,237,.7); -webkit-backdrop-filter:blur(10px); backdrop-filter:blur(10px); border-radius:16px; font-family:var(--body); font-size:16px; color:var(--text-hi); box-shadow:0 4px 14px rgba(58,36,28,.06); }
+  .tw-input::placeholder{ color:var(--text-low); }
+  .tw-input:focus{ outline:none; border-color:var(--violet); }
+  .tw-search{ margin-bottom:12px; }
+  #twDestList{ display:flex; flex-direction:column; gap:10px; }
+  #twScroll .cw-opt .cw-ico svg{ width:20px; height:20px; }
+  #twScroll .tw-sub{ font-size:13px; color:var(--text-mid); margin:-2px 0 14px; }
+  #twScroll .plan-dates{ display:flex; gap:10px; margin-bottom:6px; }
+  #twScroll .gp-error{ color:var(--danger); font-size:13px; font-weight:600; min-height:18px; margin:8px 0 0; }
   .cw-skip{ text-align:center; font-size:12.5px; color:var(--violet-deep); margin:14px 0 4px; font-weight:600; cursor:pointer; }
   /* cabecera de sala */
   .cmd-sala{ display:flex; align-items:center; gap:12px; padding:6px 0 14px; }
@@ -2719,11 +2741,13 @@
 
       <div class="map-fab-col">
         <button class="map-fab" id="fabMenu" title="Secciones">☰</button>
-        <button class="map-fab" id="fabSearch" title="Buscar un punto" aria-label="Buscar"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.5" y2="16.5"></line></svg></button>
+        <button class="map-fab" id="fabTrips" title="Mis Viajes" aria-label="Mis Viajes"><svg width="21" height="21" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21 16v-2l-8-5V3.5C13 2.67 12.33 2 11.5 2S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/></svg></button>
         <button class="map-fab" id="fabLocate" title="Centrar en mí">➤</button>
       </div>
+      <button class="map-fab" id="fabSearch" title="Buscar un punto" aria-label="Buscar"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.5" y2="16.5"></line></svg></button>
       <div class="map-brand">un<b>traveld</b></div>
-      <button class="ctx-chip ctx-chip-map" id="ctxChipMap" aria-haspopup="dialog" title="Cambiar de sala">
+      <button id="mapSalaChip" type="button" title="Cambiar de sala">Región de Murcia</button>
+      <button class="ctx-chip ctx-chip-map" id="ctxChipMap" title="Tu perfil">
         <span class="ctx-dot" id="ctxDotMap">👤</span>
         <span class="ctx-lab"><span class="ctx-k" id="ctxKMap" data-tr="Individual">Individual</span><span class="ctx-v" id="ctxVMap">—</span></span>
         <span class="ctx-cv">▾</span>
@@ -2804,11 +2828,8 @@
     <div id="tab-group" class="tabpanel" style="display:none;">
       <div id="groupGate">
         <div class="section-label" data-tr="Mis Viajes">Mis Viajes</div>
-        <p class="sub" style="text-align:left; font-size:13px; margin:-2px 0 16px;" data-tr="Viaja en grupo: un espacio compartido para vuestro viaje, con el mismo mapa, itinerario y progreso, pero en común.">Viaja en grupo: un espacio compartido para vuestro viaje, con el mismo mapa, itinerario y progreso, pero en común.</p>
         <div id="groupLanding">
           <div id="groupSaved" style="display:none;"></div>
-          <button class="btn btn-primary" id="gpCreateOpen" style="margin-bottom:10px;" data-tr="Crear grupo">Crear grupo</button>
-          <button class="btn btn-ghost" id="gpJoinOpen" data-tr="Unirse a un grupo">Unirse a un grupo</button>
         </div>
         <div id="groupCreateForm" class="plan-form" style="display:none;">
           <label class="plan-label" for="gpName" data-tr="Nombre del viaje">Nombre del viaje</label>
@@ -2833,6 +2854,7 @@
           <p class="sub" style="font-size:12px; margin:12px 0 0;" data-tr="¿Tienes un enlace de invitación? Ábrelo y entrarás directo al grupo.">¿Tienes un enlace de invitación? Ábrelo y entrarás directo al grupo.</p>
           <button class="leave-link" id="gpJoinBack" data-tr="← Volver">← Volver</button>
         </div>
+        <button id="tripFab" class="tarea-fab" aria-label="Nuevo viaje">+</button>
       </div>
       <div id="groupHome" style="display:none;">
       <div class="section-label" id="groupLabel" data-tr="Tu grupo">Tu grupo</div>
@@ -3168,6 +3190,21 @@
   <div class="wz-scroll" id="wzScroll"></div>
 </div>
 
+<!-- NUEVO VIAJE: elegir crear o unirse -->
+<div id="tripChoiceScrim" class="trip-scrim" style="display:none;">
+  <div class="trip-sheet">
+    <div class="trip-grab"></div>
+    <button class="cw-cta trip-choice-main" id="tripGoCreate" data-tr="Crear Viaje">Crear Viaje</button>
+    <button class="trip-choice-alt" id="tripGoJoin" data-tr="Unirte al Viaje">Unirte al Viaje</button>
+    <button class="trip-choice-cancel" id="tripChoiceCancel" data-tr="Cancelar">Cancelar</button>
+  </div>
+</div>
+
+<!-- CREAR VIAJE: flashcards estilo Comidas (nombre, destinos, fechas) -->
+<div id="tripWizard" class="wz" style="display:none;">
+  <div id="twScroll" class="tw-scroll"></div>
+</div>
+
 <!-- SELECTOR (sustituir/añadir POI) -->
 <div id="ddPicker" class="day-detail" style="display:none;">
   <div class="dd-topbar">
@@ -3181,10 +3218,8 @@
 <div class="menu-backdrop" id="menuBackdrop">
   <div class="menu-panel">
     <div class="menu-title" data-i18n="menu.title">Secciones</div>
-    <button class="menu-item" data-goto="social" data-tr="Perfil">Perfil</button>
     <button class="menu-item disabled" disabled><span data-i18n="menu.social">Social</span><span class="soon" data-tr="Próximamente">Próximamente</span></button>
     <button class="menu-item" data-goto="recuerdos" data-i18n="menu.recuerdos">Recuerdos</button>
-    <button class="menu-item" data-goto="group" data-i18n="menu.grupos">Mis Viajes</button>
     <button class="menu-item" data-goto="plan" id="menuPlan" data-tr="Plan" style="display:none;">Plan</button>
     <button class="menu-item" data-goto="info" id="menuInfo" data-tr="Información" style="display:none;">Información</button>
     <button class="menu-item" data-goto="territorio" id="menuTerritorio" data-tr="Territorio" style="display:none;">Territorio</button>
@@ -5324,13 +5359,10 @@
     grip.addEventListener('pointerup', soltar);
     grip.addEventListener('pointercancel', soltar);
 
-    document.getElementById('poiSearch').addEventListener('input', ()=>{
-      setSheet('full');
-      renderGrid();
-    });
-    document.getElementById('poiSearch').addEventListener('focus', ()=> setSheet('full'));
+    document.getElementById('poiSearch').addEventListener('input', ()=>{ renderGrid(); });
+    document.getElementById('poiSearch').addEventListener('focus', ()=>{ var sh=document.getElementById('poiSheet'); if(sh && !sh.classList.contains('full')) setSheet('half'); });
     var _fs=document.getElementById('fabSearch');
-    if(_fs) _fs.addEventListener('click', function(){ setSheet('full'); try{ renderGrid(); }catch(e){} var si=document.getElementById('poiSearch'); if(si){ setTimeout(function(){ try{ si.focus(); }catch(e){} }, 180); } });
+    if(_fs) _fs.addEventListener('click', function(){ var sh=document.getElementById('poiSheet'); var open=sh&&(sh.classList.contains('half')||sh.classList.contains('full')); if(open){ setSheet('peek'); } else { setSheet('half'); try{ renderGrid(); }catch(e){} } });
     document.querySelector('.sheet-body').addEventListener('pointerdown', marcarInteraccion);
     document.querySelector('.sheet-body').addEventListener('scroll', marcarInteraccion, { passive:true });
     const chips = document.getElementById('catChips');
@@ -5349,6 +5381,7 @@
     });
     document.getElementById('fabMenu').addEventListener('click', abrirMenu);
     document.getElementById('fabLocate').addEventListener('click', refreshMyPosition);
+    var _ft=document.getElementById('fabTrips'); if(_ft) _ft.addEventListener('click', function(){ try{ showTab('group'); }catch(e){} });
   }
 
   // ---------- Modo individual / grupo ----------
@@ -5571,8 +5604,9 @@
     var chip=document.getElementById('ctxChip'), chipM=document.getElementById('ctxChipMap');
     if(!chip && !chipM) return;
     _chipsWired=true;
-    if(chip) chip.addEventListener('click', openRoomSheet);
-    if(chipM) chipM.addEventListener('click', openRoomSheet);
+    if(chip) chip.addEventListener('click', function(){ try{ showTab('social'); }catch(e){} });
+    if(chipM) chipM.addEventListener('click', function(){ try{ showTab('social'); }catch(e){} });
+    var msc=document.getElementById('mapSalaChip'); if(msc) msc.addEventListener('click', openRoomSheet);
   }
   var _rsWired=false;
   function wireRoomSheet(){
@@ -5596,8 +5630,8 @@
       grab.addEventListener('touchstart', function(e){ _y0=e.touches&&e.touches[0]?e.touches[0].clientY:null; }, {passive:true});
       grab.addEventListener('touchmove', function(e){ if(_y0!=null && e.touches&&e.touches[0] && (e.touches[0].clientY-_y0)>40){ _y0=null; closeRoomSheet(); } }, {passive:true});
     }
-    // Crear / Unirme: paneles dentro de la misma hoja
-    if(c) c.addEventListener('click', rsOpenCreate);
+    // Crear usa el asistente de flashcards; Unirme, el panel de código
+    if(c) c.addEventListener('click', function(){ try{ closeRoomSheet(); }catch(e){} openTripWizard(); });
     if(j) j.addEventListener('click', rsOpenJoin);
     var cb=document.getElementById('rsCreateBack'), jb=document.getElementById('rsJoinBack');
     if(cb) cb.addEventListener('click', function(){ rsShowPanel('main'); });
@@ -5718,9 +5752,9 @@
   function renderSavedGroups(){
     var box=document.getElementById('groupSaved'); if(!box) return;
     var groups=loadMyGroups().filter(function(g){ return !(inGroupMode() && g.code===myGroupId); });
-    if(!groups.length){ box.innerHTML=''; box.style.display='none'; return; }
+    if(!groups.length){ box.style.display='block'; box.innerHTML='<div class="pt-empty-note">'+TR('No tienes viajes activos ahora mismo. Crea o únete a uno desde el nombre de la sala, arriba en el mapa.')+'</div>'; return; }
     box.style.display='block';
-    var html='<div class="sg-head" data-tr="Mis viajes">Mis viajes</div>';
+    var html='';
     html+=groups.map(function(g){
       var ini=(g.name||g.code).trim().slice(0,2).toUpperCase();
       return '<div class="saved-group" data-code="'+escapeHtml(g.code)+'">'
@@ -5795,25 +5829,98 @@
     try{ localStorage.setItem('utd-natl-selection', JSON.stringify({ country:country, region:regions[0], regions:regions, multi:regions.length>1 })); }catch(e){}
     try{ location.reload(); }catch(e){}
   }
-  async function gpCreate(){
-    var err=document.getElementById('gpCreateError'); if(err) err.textContent='';
-    var name=(document.getElementById('gpName').value||'').trim();
-    if(!name){ if(err) err.textContent=TR('Ponle un nombre al viaje.'); return; }
-    if(!modOk(name)) return;
-    var regions=gpSelDestinos.slice(); if(!regions.length){ if(err) err.textContent=TR('Elige al menos un destino.'); return; }
+  async function createTrip(name, regions, arrival, departure){
+    name=(name||'').trim();
+    if(!name) return { error: TR('Ponle un nombre al viaje.') };
+    if(!modOk(name)) return { error: '__mod' };
+    regions=(regions||[]).slice(); if(!regions.length) return { error: TR('Elige al menos un destino.') };
     var country=countryOfRegion(regions[0]);
-    var arrival=(document.getElementById('gpArrival').value)||'';
-    var departure=(document.getElementById('gpDeparture').value)||'';
-    var btn=document.getElementById('gpCreateBtn'); if(btn){ btn.disabled=true; btn.textContent=TR('Creando…'); }
     var code=randomGroupId();
     var members={}; members[firebaseKeySafe(myName)]=true;
     var g={ name:name, kind:'group', code:code, country:country, region:regions[0], regions:regions,
-            dates:{ arrival:arrival, departure:departure },
+            dates:{ arrival:arrival||'', departure:departure||'' },
             members:members, contributions:{}, createdBy:myName };
     var ok=await saveNewGroup(code, g);
-    if(!ok){ if(err) err.textContent=TR('No se pudo crear el grupo. Inténtalo de nuevo.'); if(btn){ btn.disabled=false; btn.textContent=TR('Crear grupo'); } return; }
+    if(!ok) return { error: TR('No se pudo crear el grupo. Inténtalo de nuevo.') };
     addMyGroup({ code:code, name:name, country:country, regions:regions });
     enterGroupRoom(code, country, regions);
+    return { ok:true };
+  }
+  async function gpCreate(){
+    var err=document.getElementById('gpCreateError'); if(err) err.textContent='';
+    var btn=document.getElementById('gpCreateBtn'); if(btn){ btn.disabled=true; btn.textContent=TR('Creando…'); }
+    var res=await createTrip((document.getElementById('gpName').value||''), gpSelDestinos.slice(), (document.getElementById('gpArrival').value)||'', (document.getElementById('gpDeparture').value)||'');
+    if(res && res.error){ if(err && res.error!=='__mod') err.textContent=res.error; if(btn){ btn.disabled=false; btn.textContent=TR('Crear grupo'); } }
+  }
+  // ---------- Nuevo viaje: elegir + flashcards ----------
+  function openTripChoice(){ var s=document.getElementById('tripChoiceScrim'); if(s) s.style.display='flex'; }
+  function closeTripChoice(){ var s=document.getElementById('tripChoiceScrim'); if(s) s.style.display='none'; }
+  var _twStep=0, _twName='', _twDest=[], _twArr='', _twDep='';
+  function openTripWizard(){
+    closeTripChoice();
+    _twStep=0; _twName=''; _twDestQuery=''; _twDest=(ACTIVE_REGIONS&&ACTIVE_REGIONS.length)?[ACTIVE_REGIONS[0]]:[];
+    try{ var t=new Date(); _twArr=isoLocal(t); _twDep=isoLocal(new Date(t.getTime()+3*86400000)); }catch(e){ _twArr=''; _twDep=''; }
+    var w=document.getElementById('tripWizard'); if(w){ w.style.display='flex'; document.body.classList.add('utd-shell-open'); }
+    renderTripWizard();
+  }
+  function closeTripWizard(){ var w=document.getElementById('tripWizard'); if(w) w.style.display='none'; document.body.classList.remove('utd-shell-open'); }
+  function _twSaveDates(){ var a=document.getElementById('twArr'), d=document.getElementById('twDep'); if(a) _twArr=a.value||_twArr; if(d) _twDep=d.value||_twDep; }
+  var _twDestQuery='';
+  function _twPin(){ return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-6-5.2-6-10a6 6 0 0 1 12 0c0 4.8-6 10-6 10z"/><circle cx="12" cy="11" r="2.2"/></svg>'; }
+  function renderTwDestList(){
+    var box=document.getElementById('twDestList'); if(!box) return;
+    var q=(_twDestQuery||'').trim().toLowerCase();
+    var list=destinosOfCountry(countryOfRegion(ACTIVE_REGION)).map(function(r){ return {r:r, name:(NAME_BY_REGION[r]||r)}; });
+    var filt=list.filter(function(o){ return !q || o.name.toLowerCase().indexOf(q)>=0; });
+    if(!filt.length){ box.innerHTML='<div class="tw-sub" style="margin:4px 0 0;">'+TR('Sin resultados.')+'</div>'; return; }
+    box.innerHTML=filt.map(function(o){ var on=_twDest.indexOf(o.r)>=0; return '<button type="button" class="cmd-glass cw-opt'+(on?' on':'')+'" data-r="'+escapeHtml(o.r)+'"><span class="cw-ico">'+_twPin()+'</span><span class="cw-om"><span class="cw-ol">'+escapeHtml(o.name)+'</span></span><span class="cw-sel"></span></button>'; }).join('');
+    box.querySelectorAll('.cw-opt').forEach(function(b){ b.addEventListener('click', function(){ var r=b.getAttribute('data-r'); var k=_twDest.indexOf(r); if(k>=0) _twDest.splice(k,1); else _twDest.push(r); b.classList.toggle('on'); }); });
+  }
+  function renderTripWizard(){
+    var sc=document.getElementById('twScroll'); if(!sc) return;
+    var pct=Math.round((_twStep+1)/3*100), body='';
+    if(_twStep===0){
+      body='<h2 class="cw-q">'+TR('¿Cómo se llama el viaje?')+'</h2>'
+        + '<input id="twName" class="tw-input" maxlength="40" placeholder="'+TR('p. ej. Murcia con amigos')+'" value="'+escapeHtml(_twName)+'">'
+        + '<div class="gp-error" id="twErr"></div>'
+        + '<button class="cw-cta" id="twNext" style="width:100%;">'+TR('Continuar')+'</button>';
+    } else if(_twStep===1){
+      body='<h2 class="cw-q">'+TR('¿A dónde vais?')+'</h2>'
+        + '<div class="tw-sub">'+TR('Elige uno o varios destinos.')+'</div>'
+        + '<input id="twSearch" class="tw-input tw-search" placeholder="'+TR('Buscar destino…')+'" value="'+escapeHtml(_twDestQuery)+'" autocomplete="off">'
+        + '<div id="twDestList"></div>'
+        + '<div class="gp-error" id="twErr"></div>'
+        + '<button class="cw-cta" id="twNext" style="width:100%;margin-top:14px;">'+TR('Continuar')+'</button>';
+    } else {
+      body='<h2 class="cw-q">'+TR('¿Cuándo es el viaje?')+'</h2>'
+        + '<div class="plan-dates"><label class="date-field"><span>'+TR('Llegada')+'</span><input type="date" id="twArr" class="name-input" value="'+_twArr+'"></label>'
+        + '<label class="date-field"><span>'+TR('Salida')+'</span><input type="date" id="twDep" class="name-input" value="'+_twDep+'"></label></div>'
+        + '<div class="gp-error" id="twErr"></div>'
+        + '<button class="cw-cta" id="twCreate" style="width:100%;">'+TR('Crear viaje')+'</button>';
+    }
+    sc.innerHTML='<div class="cw-top"><button class="cw-back" id="twBackBtn">←</button><div class="cw-pbar"><i style="width:'+pct+'%"></i></div></div>'
+      + '<div class="cw-body comida-anim">'+body+'</div>';
+    var bk=document.getElementById('twBackBtn'); if(bk) bk.addEventListener('click', twBack);
+    if(_twStep===1){
+      renderTwDestList();
+      var srch=document.getElementById('twSearch'); if(srch) srch.addEventListener('input', function(){ _twDestQuery=srch.value; renderTwDestList(); });
+    }
+    var nx=document.getElementById('twNext'); if(nx) nx.addEventListener('click', twAdvance);
+    var cr=document.getElementById('twCreate'); if(cr) cr.addEventListener('click', twFinish);
+    if(_twStep===0){ var nm=document.getElementById('twName'); if(nm) setTimeout(function(){ try{ nm.focus(); }catch(e){} }, 160); }
+  }
+  function twAdvance(){
+    var err=document.getElementById('twErr');
+    if(_twStep===0){ var v=(document.getElementById('twName').value||'').trim(); if(!v){ if(err) err.textContent=TR('Ponle un nombre al viaje.'); return; } _twName=v; _twStep=1; renderTripWizard(); return; }
+    if(_twStep===1){ if(!_twDest.length){ if(err) err.textContent=TR('Elige al menos un destino.'); return; } _twStep=2; renderTripWizard(); return; }
+  }
+  function twBack(){ if(_twStep>0){ if(_twStep===0){} if(_twStep===2) _twSaveDates(); if(_twStep===1){ var n=document.getElementById('twName'); } _twStep--; renderTripWizard(); } else { closeTripWizard(); } }
+  async function twFinish(){
+    _twSaveDates();
+    var err=document.getElementById('twErr');
+    var btn=document.getElementById('twCreate'); if(btn){ btn.disabled=true; btn.textContent=TR('Creando…'); }
+    var res=await createTrip(_twName, _twDest.slice(), _twArr, _twDep);
+    if(res && res.error){ if(err && res.error!=='__mod') err.textContent=res.error; if(btn){ btn.disabled=false; btn.textContent=TR('Crear viaje'); } }
   }
   async function gpJoin(){
     var err=document.getElementById('gpJoinError'); if(err) err.textContent='';
@@ -10513,6 +10620,7 @@
     if(tab==='recuerdos'){ try{ renderPastTripsList(); }catch(e){} renderRecuerdos(); loadMemories(); }
     if(tab==='comidas'){ enterComidas(); if(!myPosition) refreshMyPosition(); }
     if(tab==='map'){
+      try{ var _msc=document.getElementById('mapSalaChip'); if(_msc){ _msc.textContent = (inGroupMode() && groupState && groupState.name) ? groupState.name : currentTerritoryName(); } }catch(e){}
       renderGrid();
       myPosition ? renderMap() : refreshMyPosition();
       setTimeout(()=>{ if(leafletMap) leafletMap.invalidateSize(); }, 80);
@@ -10521,7 +10629,7 @@
       stopWatchPosition();
       try{ if(navActive) endWalkNav(); }catch(e){}
     }
-    var _fab=document.getElementById('aiFab'); if(_fab){ _fab.style.display='flex'; _fab.classList.toggle('raised', tab==='tareas'||tab==='recuerdos'||tab==='encuestas'||tab==='gastos'||tab==='tablon'); aiPaintChatLogos(); }
+    var _fab=document.getElementById('aiFab'); if(_fab){ _fab.style.display='flex'; _fab.classList.toggle('raised', tab==='tareas'||tab==='recuerdos'||tab==='encuestas'||tab==='gastos'||tab==='tablon'||(tab==='group'&&!inGroupMode())); aiPaintChatLogos(); }
     try{ document.getElementById('app').classList.toggle('amb-on', tab!=='map'); }catch(e){}
   }
 
@@ -10689,6 +10797,11 @@
       var wzc=document.getElementById('wzClose'); if(wzc) wzc.addEventListener('click', function(){ wzClose(); });
       var ptb=document.getElementById('ptBack'); if(ptb) ptb.addEventListener('click', function(){ closePastTrip(); });
       var ddpb=document.getElementById('ddPickerBack'); if(ddpb) ddpb.addEventListener('click', closePicker);
+      var _tf=document.getElementById('tripFab'); if(_tf) _tf.addEventListener('click', openTripChoice);
+      var _tgc=document.getElementById('tripGoCreate'); if(_tgc) _tgc.addEventListener('click', openTripWizard);
+      var _tgj=document.getElementById('tripGoJoin'); if(_tgj) _tgj.addEventListener('click', function(){ closeTripChoice(); try{ gpOpenJoin(); }catch(e){} });
+      var _tcc=document.getElementById('tripChoiceCancel'); if(_tcc) _tcc.addEventListener('click', closeTripChoice);
+      var _tcs=document.getElementById('tripChoiceScrim'); if(_tcs) _tcs.addEventListener('click', function(e){ if(e.target===_tcs) closeTripChoice(); });
     })();
 
     document.getElementById('createGroupBtn').addEventListener('click', onCreateGroupClick);
@@ -11409,7 +11522,7 @@
 
 <script>
 // Sello de versión: sirve para confirmar qué build está realmente desplegado.
-window.UTD_BUILD='2026-09-11 · glass v11.13 (nombre completo del territorio, pequeño y discreto, con borde negro fino)';
+window.UTD_BUILD='2026-09-11 · glass v11.21 (Crear viaje: flashcards estilo Comidas a ancho completo + buscador de destinos; hoja sin título)';
 try{ console.log('untraveld build: '+window.UTD_BUILD); }catch(e){}
 if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/app/sw.js",{scope:"/app/"}).catch(function(){});});}
 </script>
