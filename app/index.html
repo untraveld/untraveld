@@ -493,7 +493,8 @@
   }
   .map-fab:active{ transform: scale(0.93); }
   .map-fab.busy{ opacity:0.55; }
-  #fabSearch{ position:fixed; left:16px; bottom:22px; z-index:60; }
+  #fabSearch{ position:fixed; left:16px; bottom:22px; z-index:600; }
+  #fabTrips{ position:fixed; left:16px; bottom:calc(22px + 46px + 10px); z-index:600; }
   .map-brand{
     display:none !important;
     position:absolute; top:calc(env(safe-area-inset-top) + 14px); left:calc(14px + 46px + 10px); right:auto; z-index:600;
@@ -1164,7 +1165,7 @@
     background:linear-gradient(180deg, var(--bg-void) 78%, rgba(244,237,225,0)); backdrop-filter:blur(6px); z-index:2; }
   .dd-back{ width:42px; height:42px; border-radius:13px; border:1px solid var(--line); background:var(--bg-panel);
     font-size:18px; color:var(--text-hi); cursor:pointer; flex-shrink:0; }
-  .dd-title{ font-family:var(--display); font-weight:700; font-size:16px; color:var(--text-hi); }
+  .dd-title{ font-family:var(--display); font-weight:700; font-size:16px; color:var(--text-hi); flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
   .dd-body{ max-width:480px; margin:0 auto; padding:2px 18px calc(34px + env(safe-area-inset-bottom)); }
   .dd-lead{ font-family:var(--display); font-weight:700; font-size:21px; color:var(--text-hi); margin:6px 0 14px; line-height:1.2; }
   .dd-section{ margin-top:26px; padding-top:20px; border-top:1px solid var(--line); }
@@ -1337,12 +1338,12 @@
   /* Recap */
   .pt-rc-eyebrow{ font-family:var(--display); font-weight:700; font-size:10.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--text-low); margin-top:4px; }
   .pt-rc-dates{ font-size:13px; color:var(--text-mid); margin:3px 0 0; }
-  .pt-rc-stats{ display:flex; margin:18px 0 6px; border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
-  .pt-rc-stat{ flex:1; text-align:center; padding:14px 4px; position:relative; }
+  .pt-rc-stats{ display:flex; margin:12px 0 4px; border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
+  .pt-rc-stat{ flex:1; text-align:center; padding:11px 4px; position:relative; }
   .pt-rc-stat+.pt-rc-stat::before{ content:""; position:absolute; left:0; top:22%; height:56%; width:1px; background:var(--line); }
   .pt-rc-stat .n{ font-family:var(--display); font-weight:700; font-size:24px; color:var(--text-hi); }
   .pt-rc-stat .l{ font-size:10.5px; color:var(--text-mid); text-transform:uppercase; letter-spacing:.05em; margin-top:2px; }
-  .pt-rc-sec{ font-family:var(--display); font-weight:700; font-size:12px; letter-spacing:.06em; text-transform:uppercase; color:var(--violet); margin:22px 0 8px; }
+  .pt-rc-sec{ font-family:var(--display); font-weight:700; font-size:12px; letter-spacing:.06em; text-transform:uppercase; color:var(--violet); margin:16px 0 8px; }
   .pt-prog-bar{ height:8px; border-radius:100px; background:var(--fog); overflow:hidden; }
   .pt-prog-bar i{ display:block; height:100%; background:linear-gradient(90deg,var(--violet),var(--gold)); border-radius:100px; }
   .pt-prog-txt{ font-size:12.5px; color:var(--text-mid); margin-top:7px; font-variant-numeric:tabular-nums; }
@@ -1371,9 +1372,15 @@
   .pt-delete{ display:block; width:100%; margin:24px 0 6px; padding:13px; border:1px solid rgba(192,85,60,0.4); background:none; color:var(--danger); border-radius:14px; font-family:var(--body); font-weight:600; font-size:13.5px; cursor:pointer; }
   .pt-delete.armed{ background:rgba(192,85,60,0.12); }
   .pt-cover{ display:block; height:104px; background-size:cover; background-position:center; background-color:var(--bg-panel-2); }
-  .pt-rc-cover{ height:180px; border-radius:16px; background-size:cover; background-position:center; background-color:var(--bg-panel-2); margin:2px 0 14px; border:1px solid var(--line); }
-  .pt-rc-desc{ font-size:14px; color:var(--text-hi); line-height:1.55; margin:12px 0 2px; }
+  .pt-rc-cover{ height:126px; border-radius:16px; background-size:cover; background-position:center; background-color:var(--bg-panel-2); margin:2px 0 10px; border:1px solid var(--line); }
+  .pt-rc-desc{ font-size:14px; color:var(--text-hi); line-height:1.5; margin:8px 0 2px; }
   .pt-edit-btn{ display:inline-flex; align-items:center; margin-top:14px; padding:9px 16px; border:1px solid var(--line); border-radius:100px; background:var(--bg-panel); font-family:var(--display); font-weight:600; font-size:13px; color:var(--violet-deep); cursor:pointer; }
+  .pt-edit-top{ margin-left:auto; flex:none; padding:7px 13px; border:1px solid var(--line); border-radius:100px; background:var(--bg-panel); font-family:var(--display); font-weight:600; font-size:12px; color:var(--violet-deep); cursor:pointer; white-space:nowrap; }
+  .pt-people-toggle{ display:flex; align-items:center; gap:6px; width:100%; -webkit-appearance:none; appearance:none; border:0; background:none; cursor:pointer; text-align:left; }
+  .pt-people-chev{ color:var(--text-low); font-size:15px; font-weight:700; }
+  .pt-people-avs{ display:flex; flex-wrap:wrap; gap:8px; }
+  .pt-people[hidden], .pt-people-avs[hidden]{ display:none; }
+  .pt-av-lg{ width:34px; height:34px; margin-left:0; font-size:12px; border:2px solid var(--bg-panel); box-shadow:0 1px 4px rgba(58,36,28,.12); }
   /* Hoja editar viaje */
   .pt-edit-scrim{ position:fixed; inset:0; z-index:4200; background:rgba(58,36,28,0.42); display:flex; align-items:flex-end; justify-content:center; }
   .pt-edit-sheet{ width:100%; max-width:480px; max-height:88vh; overflow-y:auto; background:var(--bg-panel); border-radius:22px 22px 0 0; padding:10px 18px calc(20px + env(safe-area-inset-bottom)); box-shadow:0 -10px 30px rgba(58,36,28,.22); }
@@ -2741,9 +2748,9 @@
 
       <div class="map-fab-col">
         <button class="map-fab" id="fabMenu" title="Secciones">☰</button>
-        <button class="map-fab" id="fabTrips" title="Mis Viajes" aria-label="Mis Viajes"><svg width="21" height="21" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21 16v-2l-8-5V3.5C13 2.67 12.33 2 11.5 2S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/></svg></button>
         <button class="map-fab" id="fabLocate" title="Centrar en mí">➤</button>
       </div>
+      <button class="map-fab" id="fabTrips" title="Mis Viajes" aria-label="Mis Viajes"><svg width="21" height="21" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21 16v-2l-8-5V3.5C13 2.67 12.33 2 11.5 2S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/></svg></button>
       <button class="map-fab" id="fabSearch" title="Buscar un punto" aria-label="Buscar"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.5" y2="16.5"></line></svg></button>
       <div class="map-brand">un<b>traveld</b></div>
       <button id="mapSalaChip" type="button" title="Cambiar de sala">Región de Murcia</button>
@@ -3176,6 +3183,7 @@
   <div class="dd-topbar">
     <button class="dd-back" id="ptBack" title="Volver">←</button>
     <div class="dd-title" id="ptTitle">—</div>
+    <button class="pt-edit-top" id="ptEditBtn" data-tr="Editar viaje">Editar viaje</button>
   </div>
   <div class="dd-body" id="ptBody"></div>
 </div>
@@ -5606,7 +5614,7 @@
     _chipsWired=true;
     if(chip) chip.addEventListener('click', function(){ try{ showTab('social'); }catch(e){} });
     if(chipM) chipM.addEventListener('click', function(){ try{ showTab('social'); }catch(e){} });
-    var msc=document.getElementById('mapSalaChip'); if(msc) msc.addEventListener('click', openRoomSheet);
+    var msc=document.getElementById('mapSalaChip'); if(msc) msc.addEventListener('click', function(){ try{ openShell('utdCountry'); }catch(e){} });
   }
   var _rsWired=false;
   function wireRoomSheet(){
@@ -9625,7 +9633,6 @@
       + '<div class="pt-rc-eyebrow">'+TR('Viaje cerrado')+'</div>'
       + '<div class="pt-rc-dates">'+escapeHtml(ptDateRange(t)+(t.country?(' · '+t.country):''))+'</div>'
       + (t.desc?'<div class="pt-rc-desc">'+escapeHtml(t.desc).replace(/\n/g,'<br>')+'</div>':'')
-      + '<button class="pt-edit-btn" id="ptEditBtn">'+TR('Editar viaje')+'</button>'
       + '<div class="pt-rc-stats"><div class="pt-rc-stat"><div class="n">'+pts+'</div><div class="l">'+TR('Puntos')+'</div></div>'
         + '<div class="pt-rc-stat"><div class="n">'+(t.days||0)+'</div><div class="l">'+TR('Días')+'</div></div>'
         + '<div class="pt-rc-stat"><div class="n">'+ppl+'</div><div class="l">'+(ppl===1?TR('Persona'):TR('Personas'))+'</div></div></div>';
@@ -9636,9 +9643,13 @@
         + '<div class="pt-prog"><div class="pt-prog-bar"><i style="width:'+pct+'%"></i></div>'
         + '<div class="pt-prog-txt">'+TRf('%1 de %2 puntos del destino', (t.territoryVisited||0), t.territoryTotal)+'  ·  '+pct+'%</div></div>';
     }
-    // Participantes
+    // Participantes (solo fotos; al tocar se ven los nombres)
     if((t.members||[]).length){
-      html+='<div class="pt-rc-sec">'+TR('Participantes')+'</div><div class="pt-people">'
+      html+='<button type="button" class="pt-rc-sec pt-people-toggle" id="ptPeopleToggle">'+TR('Participantes')+'<span class="pt-people-chev" id="ptPeopleChev">›</span></button>'
+        + '<div class="pt-people-avs" id="ptPeopleAvs">'
+        + t.members.map(function(n,ix){ return '<span class="pt-av pt-av-lg" style="background:'+_ptAvColor(ix)+'" title="'+escapeHtml(n||'')+'">'+escapeHtml((n||'?').trim().slice(0,2).toUpperCase())+'</span>'; }).join('')
+        + '</div>'
+        + '<div class="pt-people" id="ptPeopleNames" hidden>'
         + t.members.map(function(n,ix){ return '<span class="pt-person"><span class="pt-av" style="background:'+_ptAvColor(ix)+'">'+escapeHtml((n||'?').trim().slice(0,2).toUpperCase())+'</span>'+escapeHtml(n||'')+'</span>'; }).join('')
         + '</div>';
     }
@@ -9656,6 +9667,8 @@
       }); }
     var _edit=document.getElementById('ptEditBtn');
     if(_edit) _edit.addEventListener('click', function(){ openPtEdit(t, _ptPhotoUrls, function(){ openPastTrip(t.id); try{ renderPastTripsList(); }catch(e){} }); });
+    var _ppl=document.getElementById('ptPeopleToggle');
+    if(_ppl) _ppl.addEventListener('click', function(){ var avs=document.getElementById('ptPeopleAvs'), nm=document.getElementById('ptPeopleNames'), ch=document.getElementById('ptPeopleChev'); if(!nm) return; var show=nm.hidden; nm.hidden=!show; if(avs) avs.hidden=show; if(ch) ch.textContent=show?'⌄':'›'; });
     var _share=document.getElementById('ptShareBtn');
     if(_share) _share.addEventListener('click', function(){ try{ openShareItin(t); }catch(e){} });
     var d=document.getElementById('pastTripDetail'); if(d){ d.style.display='block'; d.scrollTop=0; }
@@ -11522,7 +11535,7 @@
 
 <script>
 // Sello de versión: sirve para confirmar qué build está realmente desplegado.
-window.UTD_BUILD='2026-09-11 · glass v11.21 (Crear viaje: flashcards estilo Comidas a ancho completo + buscador de destinos; hoja sin título)';
+window.UTD_BUILD='2026-09-11 · glass v11.24 (recap consolidado: Editar viaje en la barra; participantes solo fotos (toca=nombres); itinerario más arriba)';
 try{ console.log('untraveld build: '+window.UTD_BUILD); }catch(e){}
 if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/app/sw.js",{scope:"/app/"}).catch(function(){});});}
 </script>
