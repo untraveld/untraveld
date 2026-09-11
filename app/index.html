@@ -486,8 +486,9 @@
   .map-fab:active{ transform: scale(0.93); }
   .map-fab.busy{ opacity:0.55; }
   .map-brand{
+    display:none !important;
     position:absolute; top:calc(env(safe-area-inset-top) + 14px); left:calc(14px + 46px + 10px); right:auto; z-index:600;
-    display:flex; align-items:center; gap:7px; background: var(--bg-panel);
+    align-items:center; gap:7px; background: var(--bg-panel);
     border:1px solid var(--line); border-radius:100px; padding:6px 13px 6px 7px;
     box-shadow: 0 4px 14px rgba(58,36,28,0.18);
     font-family:var(--display); font-weight:700; font-size:13px; letter-spacing:0.3px;
@@ -998,6 +999,7 @@
   .poi-cat-ocio{ background: var(--map-ocio) !important; }
   /* ---- leyenda del mapa ---- */
   .map-legend{
+    display:none;
     position:absolute; top:calc(env(safe-area-inset-top) + 58px); right:14px; z-index:600;
     background:rgba(255,255,255,0.94); border:1px solid var(--line); border-radius:13px;
     padding:9px 11px; box-shadow:0 3px 12px rgba(58,36,28,0.18); backdrop-filter:blur(4px);
@@ -1707,15 +1709,15 @@
   /* Capa ambiental a pantalla completa (detrás de todo el contenido) */
   #utdAmbient{ display:none; position:absolute; inset:0; z-index:-1; pointer-events:none;
     background:
-      radial-gradient(46vh 46vh at 102% 0%, rgba(232,138,60,.48), transparent 62%),
-      radial-gradient(46vh 46vh at -6% 20%, rgba(235,194,87,.36), transparent 62%),
-      radial-gradient(50vh 50vh at 106% 74%, rgba(127,168,106,.30), transparent 62%),
-      radial-gradient(42vh 42vh at 10% 92%, rgba(201,98,47,.20), transparent 64%),
+      radial-gradient(46vh 46vh at 110% 16%, rgba(232,138,60,.32), transparent 60%),
+      radial-gradient(46vh 46vh at -10% 36%, rgba(235,194,87,.26), transparent 60%),
+      radial-gradient(52vh 52vh at 108% 78%, rgba(127,168,106,.28), transparent 60%),
+      radial-gradient(42vh 42vh at 8% 92%, rgba(201,98,47,.18), transparent 62%),
       var(--bg-void);
   }
   #app.amb-on #utdAmbient{ display:block; }
   /* En secciones con fondo ambiental, la barra superior es cristal translúcido para que el degradado sea continuo hasta arriba */
-  #app.amb-on .topbar{ background:linear-gradient(180deg, rgba(251,246,237,0.42) 52%, rgba(251,246,237,0)); backdrop-filter:blur(13px) saturate(1.35); -webkit-backdrop-filter:blur(13px) saturate(1.35); }
+  #app.amb-on .topbar{ background:linear-gradient(180deg, rgba(251,246,237,0.55) 60%, rgba(251,246,237,0)); backdrop-filter:blur(13px) saturate(1.35); -webkit-backdrop-filter:blur(13px) saturate(1.35); }
   /* Tarjetas de las secciones de grupo (y demás) → mismo cristal cuando hay fondo ambiental */
   #app.amb-on .info-card, #app.amb-on .agenda-day, #app.amb-on .day-row, #app.amb-on .prog-day,
   #app.amb-on .prog-acc, #app.amb-on .acc-item, #app.amb-on .tarea-card, #app.amb-on .expense-card,
@@ -11389,7 +11391,7 @@
 
 <script>
 // Sello de versión: sirve para confirmar qué build está realmente desplegado.
-window.UTD_BUILD='2026-09-11 · glass v11.6 (degradado + cristal en todas las secciones, incluidas las de grupo)';
+window.UTD_BUILD='2026-09-11 · glass v11.8 (degradado rebalanceado: parte superior más calmada, sin banda naranja)';
 try{ console.log('untraveld build: '+window.UTD_BUILD); }catch(e){}
 if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/app/sw.js",{scope:"/app/"}).catch(function(){});});}
 </script>
