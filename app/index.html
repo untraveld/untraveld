@@ -1386,6 +1386,7 @@
   .pt-people-avs{ display:flex; flex-wrap:wrap; gap:8px; }
   .pt-people[hidden], .pt-people-avs[hidden]{ display:none; }
   .pt-av-lg{ width:34px; height:34px; margin-left:0; font-size:12px; border:2px solid var(--bg-panel); box-shadow:0 1px 4px rgba(58,36,28,.12); }
+  .pt-av.has-photo{ background-size:cover; background-position:center; color:transparent; }
   /* Hoja editar viaje */
   .pt-edit-scrim{ position:fixed; inset:0; z-index:4200; background:rgba(58,36,28,0.42); display:flex; align-items:flex-end; justify-content:center; }
   .pt-edit-sheet{ width:100%; max-width:480px; max-height:88vh; overflow-y:auto; background:var(--bg-panel); border-radius:22px 22px 0 0; padding:10px 18px calc(20px + env(safe-area-inset-bottom)); box-shadow:0 -10px 30px rgba(58,36,28,.22); }
@@ -5525,6 +5526,7 @@
     try{ if(dataUrl){ localStorage.setItem('utd-profile-photo', dataUrl); } else { localStorage.removeItem('utd-profile-photo'); } }catch(e){}
     // copia en Firebase (mejor esfuerzo) para recuperarla en otro dispositivo
     try{ var u=firebase.auth().currentUser; if(u && u.uid){ db.ref('users/'+u.uid+'/photo').set(dataUrl||null); } }catch(e){}
+    try{ _pubGroupPhoto(); }catch(e){}
     try{ renderCtxChip(); }catch(e){}
   }
   // aplica una foto (o un fallback emoji/inicial) a un elemento .rs-av / .ctx-dot
@@ -8559,6 +8561,8 @@
   }
   function startGroupSync(){
     if(!inGroupMode()) return;
+    // Al entrar al grupo, publico mi foto de perfil para que el resto la vea en el perfil del viaje.
+    try{ _pubGroupPhoto(); }catch(e){}
     // Itinerario compartido en tiempo real
     try{ planRef().on('value', function(snap){
       var obj=snap.val(); if(!obj) return;
@@ -9667,10 +9671,21 @@
   // Reutiliza buildTripSnapshot() (misma forma que un recap) para pintar en vivo:
   // portada editable, nombre editable, participantes y puntos con check-in.
   function closeTripProfile(){ var d=document.getElementById('tripProfile'); if(d) d.style.display='none'; document.body.classList.remove('utd-shell-open'); }
+  // Avatar de participante: foto de perfil si la hay, si no las iniciales.
+  function _tpAv(n, ix, photo, cls){
+    cls=cls||'pt-av';
+    if(photo){ return '<span class="'+cls+' has-photo" title="'+escapeHtml(n||'')+'" style="background-image:url(\''+String(photo).replace(/'/g,'%27')+'\')"></span>'; }
+    return '<span class="'+cls+'" style="background:'+_ptAvColor(ix)+'" title="'+escapeHtml(n||'')+'">'+escapeHtml((n||'?').trim().slice(0,2).toUpperCase())+'</span>';
+  }
+  // Publica MI foto de perfil en el grupo para que el resto la vea en el perfil del viaje.
+  function _pubGroupPhoto(){ try{ if(inGroupMode() && myGroupId){ var ph=getProfilePhoto(); groupRef(myGroupId).child('memberPhotos').child(firebaseKeySafe(myName)).set(ph||null); } }catch(e){} }
   function openTripProfile(){
     if(!inGroupMode()){ try{ showTab('social'); }catch(e){} return; }
     var t; try{ t=buildTripSnapshot(); }catch(e){ return; }
     t.cover=(groupState&&groupState.photo)||'';
+    try{ _pubGroupPhoto(); }catch(e){}
+    var _myKey=''; try{ _myKey=firebaseKeySafe(myName); }catch(e){}
+    var _myPhoto=''; try{ _myPhoto=getProfilePhoto()||''; }catch(e){}
     var CATC={monuments:'var(--map-red)',food:'var(--map-blue)',nature:'var(--map-green)',ocio:'var(--map-ocio)'};
     var pts=(t.visited||[]).length, ppl=(t.members||[]).length;
     var _tpPhotoUrls=[];
@@ -9690,15 +9705,21 @@
     }
     if((t.members||[]).length){
       html+='<button type="button" class="pt-rc-sec pt-people-toggle" id="tpPeopleToggle">'+TR('Participantes')+'<span class="pt-people-chev" id="tpPeopleChev">›</span></button>'
-        + '<div class="pt-people-avs" id="tpPeopleAvs">'
-        + t.members.map(function(n,ix){ return '<span class="pt-av pt-av-lg" style="background:'+_ptAvColor(ix)+'" title="'+escapeHtml(n||'')+'">'+escapeHtml((n||'?').trim().slice(0,2).toUpperCase())+'</span>'; }).join('')
-        + '</div>'
-        + '<div class="pt-people" id="tpPeopleNames" hidden>'
-        + t.members.map(function(n,ix){ return '<span class="pt-person"><span class="pt-av" style="background:'+_ptAvColor(ix)+'">'+escapeHtml((n||'?').trim().slice(0,2).toUpperCase())+'</span>'+escapeHtml(n||'')+'</span>'; }).join('')
-        + '</div>';
+        + '<div class="pt-people-avs" id="tpPeopleAvs"></div>'
+        + '<div class="pt-people" id="tpPeopleNames" hidden></div>';
     }
     html+='<div class="pt-rc-sec">'+TR('Puntos con check-in')+'</div><div id="tpItin"><div class="empty">'+TR('Cargando…')+'</div></div>';
     var body=document.getElementById('tpBody'); if(body) body.innerHTML=html;
+    // Pinta los avatares con foto de perfil; mi foto ya se ve al instante, el resto
+    // llegan de groups/<id>/memberPhotos (progressive enhancement).
+    function _renderPeople(mphotos){
+      mphotos=mphotos||{}; if(_myPhoto && _myKey) mphotos[_myKey]=_myPhoto;
+      var avsEl=document.getElementById('tpPeopleAvs');
+      if(avsEl) avsEl.innerHTML=(t.members||[]).map(function(n,ix){ return _tpAv(n,ix,mphotos[n],'pt-av pt-av-lg'); }).join('');
+      var nmEl=document.getElementById('tpPeopleNames');
+      if(nmEl) nmEl.innerHTML=(t.members||[]).map(function(n,ix){ return '<span class="pt-person">'+_tpAv(n,ix,mphotos[n],'pt-av')+escapeHtml(n||'')+'</span>'; }).join('');
+    }
+    _renderPeople({});
     var _edit=document.getElementById('tpEditBtn');
     if(_edit) _edit.onclick=function(){ openTripEdit(t, _tpPhotoUrls, function(){ openTripProfile(); }); };
     var _ppl=document.getElementById('tpPeopleToggle');
@@ -9732,9 +9753,10 @@
     }
     (function(){
       try{
-        db.ref('photos/'+myGroupId).once('value').then(function(snap){
-          var photos=snap.val()||{}; renderItin(photos);
+        Promise.all([ db.ref('photos/'+myGroupId).once('value'), db.ref('groups/'+myGroupId+'/memberPhotos').once('value') ]).then(function(res){
+          var photos=res[0].val()||{}; renderItin(photos);
           _tpPhotoUrls=[]; Object.keys(photos).forEach(function(k){ if(photos[k]) _tpPhotoUrls.push(photos[k]); });
+          try{ _renderPeople(res[1].val()||{}); }catch(e){}
         }).catch(function(){ renderItin({}); });
       }catch(e){ renderItin({}); }
     })();
@@ -9783,6 +9805,9 @@
       if(groupState){ if(nm) groupState.name=nm; groupState.photo=_cover||''; }
       try{ groupRef(myGroupId).update({ name:(nm||(groupState&&groupState.name)||''), photo:(_cover||null) }); }catch(e){}
       try{ renderCtxChip(); }catch(e){}
+      // El nombre centrado del mapa (#mapSalaChip) solo se refresca en showTab('map');
+      // como aquí no cambiamos de pestaña, lo actualizamos a mano para que se vea ya.
+      try{ var _msc=document.getElementById('mapSalaChip'); if(_msc) _msc.textContent=(inGroupMode() && groupState && groupState.name) ? groupState.name : currentTerritoryName(); }catch(e){}
       close(); if(typeof onSaved==='function') onSaved();
     });
   }
@@ -10728,8 +10753,11 @@
     var haveGps=!!(myPosition && typeof myPosition.lat==='number');
     var sortMode=_comidaPref.sort||'rating'; if(sortMode==='near' && !haveGps) sortMode='rating';
     var arr=foods.map(function(p){ var s=comidaAvgScore(p.id); var m=FOOD_META[p.id]||{}; return { p:p, m:m, d: haveGps?haversineMeters(myPosition.lat,myPosition.lng,p.lat,p.lng):null, sc:s?s.avg:null, n:s?s.n:0, os:comidaOpenNow(m.hours) }; });
-    if(_comidaPref.cuisines.length){ arr=arr.filter(function(o){ return _comidaPref.cuisines.indexOf(cuisineGroup(o.m.cuisine))>=0; }); }
-    if(_comidaPref.price){ arr=arr.filter(function(o){ return comidaPriceBucket(o.m.price)===_comidaPref.price; }); }
+    // Los filtros de cocina/precio NO deben ocultar un restaurante que simplemente no
+    // tiene ese dato (p. ej. destinos sin metadatos de comida como Ginebra): si falta el
+    // dato, el sitio pasa el filtro en vez de desaparecer.
+    if(_comidaPref.cuisines.length){ arr=arr.filter(function(o){ return !o.m.cuisine || _comidaPref.cuisines.indexOf(cuisineGroup(o.m.cuisine))>=0; }); }
+    if(_comidaPref.price){ arr=arr.filter(function(o){ var b=comidaPriceBucket(o.m.price); return b==null || b===_comidaPref.price; }); }
     if(_comidaPref.open){ arr=arr.filter(function(o){ return o.os && o.os.open; }); }
     if(sortMode==='near'){ arr.sort(function(a,b){ return (a.d==null?1e12:a.d)-(b.d==null?1e12:b.d); }); }
     else { arr.sort(function(a,b){ var sa=(a.sc==null?-1:a.sc), sb=(b.sc==null?-1:b.sc); if(sb!==sa) return sb-sa; return (a.d==null?1e12:a.d)-(b.d==null?1e12:b.d); }); }
@@ -11706,7 +11734,7 @@
 
 <script>
 // Sello de versión: sirve para confirmar qué build está realmente desplegado.
-window.UTD_BUILD='2026-09-11 · glass v11.30 (Mis Viajes: los viajes activos ahora se ven como tarjetas tipo Recuerdos — portada, participantes y nº de puntos, cargados en vivo desde Firebase)';
+window.UTD_BUILD='2026-09-11 · glass v11.33 (fix Comidas: los filtros de cocina/precio ya no ocultan restaurantes sin ese dato (p. ej. Ginebra/Lausana sin metadatos de comida); antes desaparecían todos al elegir presupuesto)';
 try{ console.log('untraveld build: '+window.UTD_BUILD); }catch(e){}
 if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/app/sw.js",{scope:"/app/"}).catch(function(){});});}
 </script>
