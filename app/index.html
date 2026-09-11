@@ -117,32 +117,21 @@
 
   /* ---------- Chip de contexto (sala actual + cambiar) ---------- */
   .ctx-chip{
-    display:inline-flex; align-items:center; gap:8px; flex:none; cursor:pointer;
-    border:1px solid var(--line); background:var(--bg-panel);
-    padding:6px 10px 6px 7px; border-radius:100px;
-    box-shadow:0 2px 8px rgba(58,36,28,.08);
-    transition:border-color .16s, box-shadow .16s, transform .1s;
+    display:inline-flex; align-items:center; justify-content:center; flex:none; cursor:pointer;
+    border:0; background:none; padding:0; border-radius:50%; box-shadow:none;
+    transition:transform .1s;
   }
-  .ctx-chip:active{ transform:scale(.98); }
+  .ctx-chip:active{ transform:scale(.94); }
   .ctx-chip .ctx-dot{
-    width:22px; height:22px; border-radius:50%; flex:none;
+    width:38px; height:38px; border-radius:50%; flex:none;
     display:flex; align-items:center; justify-content:center;
-    font-size:12px; line-height:1; background:var(--violet); color:#fff;
+    font-size:17px; line-height:1; background:var(--violet); color:#fff;
+    border:2px solid rgba(255,255,255,.9); box-shadow:0 2px 10px rgba(58,36,28,.18);
   }
-  .ctx-chip .ctx-lab{ display:flex; flex-direction:column; line-height:1.04; text-align:left; }
-  .ctx-chip .ctx-k{
-    font-family:var(--body); font-size:8px; font-weight:700; letter-spacing:.09em;
-    text-transform:uppercase; color:var(--text-mid,#9a8b78);
-  }
-  .ctx-chip .ctx-v{
-    font-family:var(--body); font-size:12px; font-weight:700; color:var(--text-hi,#1c1a18);
-    max-width:104px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
-  }
-  .ctx-chip .ctx-cv{ font-size:9px; color:var(--text-mid,#9a8b78); opacity:.8; }
+  .ctx-chip .ctx-lab, .ctx-chip .ctx-cv{ display:none; }
   .ctx-chip-map{
     position:absolute; top:calc(env(safe-area-inset-top) + 14px);
-    left:calc(14px + 46px + 10px); z-index:600;
-    box-shadow:0 4px 14px rgba(58,36,28,.18);
+    right:14px; left:auto; z-index:600;
   }
 
   /* ---------- Hoja "¿Dónde quieres explorar?" ---------- */
@@ -497,7 +486,7 @@
   .map-fab:active{ transform: scale(0.93); }
   .map-fab.busy{ opacity:0.55; }
   .map-brand{
-    position:absolute; top:calc(env(safe-area-inset-top) + 14px); right:14px; z-index:600;
+    position:absolute; top:calc(env(safe-area-inset-top) + 14px); left:calc(14px + 46px + 10px); right:auto; z-index:600;
     display:flex; align-items:center; gap:7px; background: var(--bg-panel);
     border:1px solid var(--line); border-radius:100px; padding:6px 13px 6px 7px;
     box-shadow: 0 4px 14px rgba(58,36,28,0.18);
@@ -1705,8 +1694,8 @@
   .comida-open.no{ color:var(--text-low); background:var(--bg-panel-2); }
   .comida-vis{ font-size:10px; font-weight:800; color:#fff; background:#2B7A3E; border-radius:50%; width:16px; height:16px; display:inline-flex; align-items:center; justify-content:center; flex:none; margin-right:2px; }
   /* ---------- Comidas: asistente + resultados (glass) ---------- */
-  #comidasView{ position:relative; min-height:78vh; overflow:hidden; }
-  .cmd-amb{ position:absolute; inset:-10px; z-index:0; overflow:hidden; pointer-events:none; }
+  #comidasView{ position:relative; min-height:78vh; overflow:visible; }
+  .cmd-amb{ display:none; position:absolute; inset:-10px; z-index:0; overflow:hidden; pointer-events:none; }
   .cmd-amb i{ position:absolute; border-radius:50%; filter:blur(54px); opacity:.34; }
   .cmd-amb .b1{ width:280px; height:280px; background:#E88A3C; top:-80px; right:-80px; }
   .cmd-amb .b2{ width:240px; height:240px; background:#EBC257; top:200px; left:-100px; opacity:.24; }
@@ -1725,6 +1714,17 @@
       var(--bg-void);
   }
   #app.amb-on #utdAmbient{ display:block; }
+  /* En secciones con fondo ambiental, la barra superior es cristal translúcido para que el degradado sea continuo hasta arriba */
+  #app.amb-on .topbar{ background:linear-gradient(180deg, rgba(251,246,237,0.42) 52%, rgba(251,246,237,0)); backdrop-filter:blur(13px) saturate(1.35); -webkit-backdrop-filter:blur(13px) saturate(1.35); }
+  /* Tarjetas de las secciones de grupo (y demás) → mismo cristal cuando hay fondo ambiental */
+  #app.amb-on .info-card, #app.amb-on .agenda-day, #app.amb-on .day-row, #app.amb-on .prog-day,
+  #app.amb-on .prog-acc, #app.amb-on .acc-item, #app.amb-on .tarea-card, #app.amb-on .expense-card,
+  #app.amb-on .bal-card, #app.amb-on .settle-row, #app.amb-on .souv-item, #app.amb-on .plan-form,
+  #app.amb-on .plan-option, #app.amb-on .saved-group{
+    background:rgba(251,246,237,0.56); border-color:rgba(255,255,255,0.62);
+    backdrop-filter:blur(17px) saturate(1.5); -webkit-backdrop-filter:blur(17px) saturate(1.5);
+    box-shadow:0 8px 24px rgba(58,36,28,.12), inset 0 1px 0 rgba(255,255,255,.5);
+  }
   .utd-glass{ position:relative; border:1px solid rgba(255,255,255,0.62); background:rgba(251,246,237,0.56); backdrop-filter:blur(17px) saturate(1.5); -webkit-backdrop-filter:blur(17px) saturate(1.5); box-shadow:0 8px 24px rgba(58,36,28,.12), inset 0 1px 0 rgba(255,255,255,.5); border-radius:20px; padding:16px; margin-bottom:14px; animation:cwFade .28s ease both; }
   .utd-glass > .sala-eyebrow:first-child, .utd-glass > .soc-eyebrow:first-child, .utd-glass > .soc-sec:first-child, .utd-glass > .mod-h:first-child, .utd-glass > .section-label:first-child, .utd-glass > .rec-head:first-child{ margin-top:0; }
   .utd-glass > .sala-row:last-child, .utd-glass > .soc-terr-row:last-child, .utd-glass > .soc-itin:last-child{ margin-bottom:0; }
@@ -2700,12 +2700,12 @@
         <div class="brand-mark"><img id="mainBrandLogo" alt="untraveld" alt="untraveld" style="width:100%;height:100%;object-fit:contain;"></div>
         <div class="brand-name">un<b>traveld</b></div>
       </div>
-      <button class="ctx-chip" id="ctxChip" aria-haspopup="dialog" title="Cambiar de sala">
+      <button class="topback" id="topMenu" title="Secciones" style="margin-left:auto;">☰</button>
+      <button class="ctx-chip" id="ctxChip" aria-haspopup="dialog" title="Tu perfil">
         <span class="ctx-dot" id="ctxDot">👤</span>
         <span class="ctx-lab"><span class="ctx-k" id="ctxK" data-tr="Individual">Individual</span><span class="ctx-v" id="ctxV">—</span></span>
         <span class="ctx-cv">▾</span>
       </button>
-      <button class="topback" id="topMenu" title="Secciones" style="margin-left:10px;">☰</button>
     </div>
 
     <!-- MAP TAB (mapa + hoja de puntos cercanos) -->
@@ -5912,7 +5912,7 @@
     backdrop.classList.remove('open');
     backdrop.classList.remove('from-map');
     activePoi = null;
-    if(_comidaReturn){ var r=_comidaReturn; _comidaReturn=null; showTab('comidas'); setTimeout(function(){ try{ window.scrollTo(0, r.y||0); }catch(e){} }, 0); }
+    if(_comidaReturn){ var r=_comidaReturn; _comidaReturn=null; showTab(r.tab||'comidas'); setTimeout(function(){ try{ window.scrollTo(0, r.y||0); }catch(e){} }, 0); }
   }
 
   // ---------- Foto del grupo por punto ----------
@@ -7223,7 +7223,7 @@
     if(!sc.length) return null;
     return sc.reduce(function(s,v){ return s+v; },0)/sc.length;
   }
-  function salaGoToPoi(id){ var p=poiById(id); if(!p) return; showTab('map'); try{ centrarEnPunto(p); }catch(e){} try{ openModal(p,'map'); }catch(e){} }
+  function salaGoToPoi(id){ var p=poiById(id); if(!p) return; _comidaReturn={ tab:(progMode==='territory'?'territorio':'progreso'), y: window.scrollY||window.pageYOffset||0 }; showTab('map'); try{ centrarEnPunto(p); }catch(e){} try{ openModal(p,'map'); }catch(e){} }
   // Progreso individual: la "sala" del territorio actual
   function renderProgSala(){
     if(_reviewsCache===null && !_reviewsLoading){ _reviewsLoading=true; try{ db.ref('reviews').once('value').then(function(s){ _reviewsCache=s.val()||{}; _reviewsLoading=false; try{ renderProgreso(); }catch(e){} }).catch(function(){ _reviewsCache={}; _reviewsLoading=false; }); }catch(e){ _reviewsCache={}; _reviewsLoading=false; } }
@@ -10443,7 +10443,7 @@
   function renderComidas(){ try{ if(_comidaView==='results' && document.getElementById('comidasView')){ renderComidasResults(); } }catch(e){} }
   function goComidaToMap(id){
     var p=poiById(id); if(!p) return;
-    _comidaReturn={ y: window.scrollY||window.pageYOffset||0 };
+    _comidaReturn={ tab:'comidas', y: window.scrollY||window.pageYOffset||0 };
     showTab('map');
     try{ centrarEnPunto(p); }catch(e){}
     openModal(p,'map');
@@ -10505,7 +10505,7 @@
       try{ if(navActive) endWalkNav(); }catch(e){}
     }
     var _fab=document.getElementById('aiFab'); if(_fab){ _fab.style.display='flex'; _fab.classList.toggle('raised', tab==='tareas'||tab==='recuerdos'||tab==='encuestas'||tab==='gastos'||tab==='tablon'); aiPaintChatLogos(); }
-    try{ document.getElementById('app').classList.toggle('amb-on', tab==='social'||tab==='progreso'||tab==='recuerdos'||tab==='cuenta'); }catch(e){}
+    try{ document.getElementById('app').classList.toggle('amb-on', tab!=='map'); }catch(e){}
   }
 
   // ---------- Crear / unirse a un grupo ----------
@@ -11389,7 +11389,7 @@
 
 <script>
 // Sello de versión: sirve para confirmar qué build está realmente desplegado.
-window.UTD_BUILD='2026-09-10 · glass v11.2 (fondo ambiental a pantalla completa, sin recortes en los bordes)';
+window.UTD_BUILD='2026-09-11 · glass v11.6 (degradado + cristal en todas las secciones, incluidas las de grupo)';
 try{ console.log('untraveld build: '+window.UTD_BUILD); }catch(e){}
 if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/app/sw.js",{scope:"/app/"}).catch(function(){});});}
 </script>
