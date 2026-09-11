@@ -43,6 +43,14 @@
     --map-you: #7A66B8;
     --display: "Poppins", ui-sans-serif, system-ui, sans-serif;
     --body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    /* Fondo ambiental compartido (degradado cálido con la franja de arriba en crema) */
+    --utd-amb-bg:
+      linear-gradient(180deg, var(--bg-void) 5%, rgba(244,237,225,0) 21%),
+      radial-gradient(46vh 46vh at 110% 22%, rgba(232,138,60,.32), transparent 60%),
+      radial-gradient(46vh 46vh at -10% 40%, rgba(235,194,87,.26), transparent 60%),
+      radial-gradient(52vh 52vh at 108% 78%, rgba(127,168,106,.28), transparent 60%),
+      radial-gradient(42vh 42vh at 8% 92%, rgba(201,98,47,.18), transparent 62%),
+      var(--bg-void);
   }
   *{box-sizing:border-box; -webkit-tap-highlight-color: transparent;}
   html,body{height:100%;}
@@ -505,7 +513,7 @@
     background: var(--bg-panel); border:1px solid var(--line); border-bottom:none;
     border-radius:22px 22px 0 0; box-shadow: 0 -10px 30px rgba(58,36,28,0.20);
     display:flex; flex-direction:column; overflow:hidden;
-    transform: translateY(calc(72vh - var(--peek)));
+    transform: translateY(102%);
     transition: transform .26s cubic-bezier(.22,.9,.3,1);
   }
   .sheet.half{ transform: translateY(36vh); }
@@ -573,11 +581,13 @@
   #tab-map.map-full .leaflet-bottom{ bottom:auto; }
   .map-radius-hint{
     position:absolute; left:50%; transform:translateX(-50%);
-    top:calc(env(safe-area-inset-top) + 74px); z-index:590;
+    bottom:calc(env(safe-area-inset-bottom) + 92px); top:auto; z-index:590;
     background: rgba(58,36,28,0.82); color:#fff; font-size:11.5px;
     padding:6px 12px; border-radius:100px; display:none; white-space:nowrap;
+    max-width:calc(100% - 32px); overflow:hidden; text-overflow:ellipsis;
   }
   .map-radius-hint.on{ display:block; }
+  .map-radius-hint.clickable{ cursor:pointer; background:linear-gradient(135deg,var(--violet),var(--violet-deep)); font-weight:700; font-size:12.5px; padding:9px 16px; box-shadow:0 4px 14px rgba(138,58,31,.3); }
   .map-toast{
     position:absolute; left:50%; transform:translateX(-50%);
     bottom: calc(78px + env(safe-area-inset-bottom)); z-index:900;
@@ -724,7 +734,7 @@
     resize:vertical; margin-bottom:10px;
   }
   /* Al abrir desde el mapa: el mapa se oculta y el modal queda como tarjeta centrada */
-  .modal-backdrop.from-map{ background:var(--bg-void); backdrop-filter:none; align-items:center; }
+  .modal-backdrop.from-map{ background:var(--utd-amb-bg); backdrop-filter:none; align-items:center; }
   .modal-backdrop.from-map .modal{ border-radius:22px; border-bottom:1px solid var(--line); margin:0 14px; max-height:calc(100vh - 40px); overflow-y:auto; }
   .status-line{
     display:flex; align-items:center; gap:8px; justify-content:center;
@@ -884,9 +894,7 @@
   /* ================= SHELL NACIONAL ================= */
   #utdShell{
     position:fixed; inset:0; z-index:9999; display:none;
-    background:
-      radial-gradient(120% 90% at 50% -10%, rgba(217,164,65,0.18), transparent 60%),
-      var(--bg-void);
+    background:var(--utd-amb-bg);
     overflow-y:auto; -webkit-overflow-scrolling:touch;
   }
   body.utd-shell-open{ overflow:hidden; }
@@ -986,9 +994,11 @@
   .utd-logout{ background:none; border:none; color:var(--violet); font-size:12.5px; font-weight:600; cursor:pointer; }
 
   /* Region chip injected into app topbar */
-  #utdRegionChip{ font-size:11px; letter-spacing:0.3px; color:var(--violet-deep); border:1px solid var(--gold);
-    background:linear-gradient(135deg, rgba(217,164,65,0.2), rgba(217,164,65,0.06)); padding:5px 10px; border-radius:100px;
-    font-family:var(--body); font-weight:600; cursor:pointer; display:flex; align-items:center; gap:4px; white-space:nowrap; }
+  #utdRegionChip{ position:absolute; left:50%; top:calc(env(safe-area-inset-top) + 33px); transform:translate(-50%,-50%);
+    display:flex; align-items:center; justify-content:center;
+    background:none; border:1px solid rgba(40,26,18,0.85); border-radius:100px; padding:3px 13px; margin:0; -webkit-appearance:none; appearance:none;
+    color:var(--text-hi); font-family:var(--display); font-weight:600; font-size:11.5px; letter-spacing:.2px;
+    white-space:nowrap; text-align:center; cursor:pointer; max-width:58%; overflow:hidden; text-overflow:ellipsis; z-index:1; }
 
 
   /* ---- home limpio (beta): punto de color por categoría + chip oculto ---- */
@@ -1026,7 +1036,7 @@
   .plan-daystrip .pds-n{ font-family:var(--display); font-weight:700; font-size:16px; color:var(--text-hi); margin-top:1px; }
   .plan-cta{ margin-top:14px; box-shadow:0 8px 22px rgba(201,98,47,.34); font-size:16px; padding:16px; }
   /* Wizard flashcards */
-  .wz{ position:fixed; inset:0; z-index:3400; background:var(--bg-void); display:flex; flex-direction:column; }
+  .wz{ position:fixed; inset:0; z-index:3400; background:var(--utd-amb-bg); display:flex; flex-direction:column; }
   .wz-head{ display:flex; align-items:center; gap:12px; max-width:480px; width:100%; margin:0 auto; padding:14px 20px 6px; padding-top:calc(14px + env(safe-area-inset-top)); flex:none; }
   .wz-back,.wz-close{ border:none; background:none; font-size:20px; color:var(--text-hi); cursor:pointer; width:30px; flex:none; }
   .wz-close{ font-size:18px; color:var(--text-low); }
@@ -1145,7 +1155,7 @@
   .ag-row-title .sugg-dot{ width:9px; height:9px; flex-shrink:0; }
   .ag-row-sub{ font-size:11.5px; color:var(--text-mid); margin-top:3px; }
   .ag-row-chev{ font-size:24px; color:var(--text-low); flex-shrink:0; line-height:1; }
-  .day-detail{ position:fixed; inset:0; z-index:3000; background:var(--bg-void); overflow-y:auto; -webkit-overflow-scrolling:touch; }
+  .day-detail{ position:fixed; inset:0; z-index:3000; background:var(--utd-amb-bg); overflow-y:auto; -webkit-overflow-scrolling:touch; }
   .dd-topbar{ display:flex; align-items:center; gap:12px; max-width:480px; margin:0 auto;
     padding:calc(env(safe-area-inset-top) + 14px) 18px 14px; position:sticky; top:0;
     background:linear-gradient(180deg, var(--bg-void) 78%, rgba(244,237,225,0)); backdrop-filter:blur(6px); z-index:2; }
@@ -1707,14 +1717,7 @@
   .cmd-glass{ border:1px solid rgba(255,255,255,0.5); background:rgba(251,246,237,0.72); backdrop-filter:blur(14px) saturate(1.2); -webkit-backdrop-filter:blur(14px) saturate(1.2); box-shadow:0 6px 20px rgba(58,36,28,.09); }
   /* ---------- Glass global · Perfil / Progreso / Recuerdos / Cuenta ---------- */
   /* Capa ambiental a pantalla completa (detrás de todo el contenido) */
-  #utdAmbient{ display:none; position:absolute; inset:0; z-index:-1; pointer-events:none;
-    background:
-      radial-gradient(46vh 46vh at 110% 16%, rgba(232,138,60,.32), transparent 60%),
-      radial-gradient(46vh 46vh at -10% 36%, rgba(235,194,87,.26), transparent 60%),
-      radial-gradient(52vh 52vh at 108% 78%, rgba(127,168,106,.28), transparent 60%),
-      radial-gradient(42vh 42vh at 8% 92%, rgba(201,98,47,.18), transparent 62%),
-      var(--bg-void);
-  }
+  #utdAmbient{ display:none; position:absolute; inset:0; z-index:-1; pointer-events:none; background:var(--utd-amb-bg); }
   #app.amb-on #utdAmbient{ display:block; }
   /* En secciones con fondo ambiental, la barra superior es cristal translúcido para que el degradado sea continuo hasta arriba */
   #app.amb-on .topbar{ background:linear-gradient(180deg, rgba(251,246,237,0.55) 60%, rgba(251,246,237,0)); backdrop-filter:blur(13px) saturate(1.35); -webkit-backdrop-filter:blur(13px) saturate(1.35); }
@@ -2716,6 +2719,7 @@
 
       <div class="map-fab-col">
         <button class="map-fab" id="fabMenu" title="Secciones">☰</button>
+        <button class="map-fab" id="fabSearch" title="Buscar un punto" aria-label="Buscar"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.5" y2="16.5"></line></svg></button>
         <button class="map-fab" id="fabLocate" title="Centrar en mí">➤</button>
       </div>
       <div class="map-brand">un<b>traveld</b></div>
@@ -5234,8 +5238,17 @@
     const masCercano = poisOrdenados().find(x => x.d != null && !mine.includes(x.poi.id));
     const rondando = !alcance && masCercano && masCercano.d < 150;
     const hint = document.getElementById('radiusHint');
-    hint.classList.toggle('on', !!rondando);
-    if(rondando) hint.textContent = TRf('%1 a %2 — check-in a menos de %3 m', masCercano.poi.name, formatDistance(masCercano.d), CHECKIN_RADIUS_M);
+    // Con la hoja oculta, la pista del mapa asume también el aviso de check-in al llegar a un punto
+    if(alcance){
+      hint.classList.add('on','clickable');
+      hint.textContent = TRf('Estás en %1 · toca para hacer check-in', alcance.poi.name);
+      hint.onclick = ()=> openModal(alcance.poi, 'map');
+    } else if(rondando){
+      hint.classList.add('on'); hint.classList.remove('clickable'); hint.onclick = null;
+      hint.textContent = TRf('%1 a %2 — check-in a menos de %3 m', masCercano.poi.name, formatDistance(masCercano.d), CHECKIN_RADIUS_M);
+    } else {
+      hint.classList.remove('on','clickable'); hint.onclick = null;
+    }
   }
 
   let toastTimer = null;
@@ -5266,7 +5279,7 @@
       const alto = sheet.offsetHeight;
       if(estado === 'full') return 0;
       if(estado === 'half') return window.innerHeight * 0.36;
-      return alto - peekPx();
+      return alto; // 'peek' ahora = oculta (mapa limpio; se abre con la lupa)
     };
     const posActual = ()=>{
       const m = getComputedStyle(sheet).transform;
@@ -5316,6 +5329,8 @@
       renderGrid();
     });
     document.getElementById('poiSearch').addEventListener('focus', ()=> setSheet('full'));
+    var _fs=document.getElementById('fabSearch');
+    if(_fs) _fs.addEventListener('click', function(){ setSheet('full'); try{ renderGrid(); }catch(e){} var si=document.getElementById('poiSearch'); if(si){ setTimeout(function(){ try{ si.focus(); }catch(e){} }, 180); } });
     document.querySelector('.sheet-body').addEventListener('pointerdown', marcarInteraccion);
     document.querySelector('.sheet-body').addEventListener('scroll', marcarInteraccion, { passive:true });
     const chips = document.getElementById('catChips');
@@ -11174,13 +11189,16 @@
     if(nj){ nj.value=u.fullName; nj.style.display='none'; }
   }
   function ensureRegionChip(){
-    if($('utdRegionChip')){ $('utdRegionChip').style.display='flex'; return; }
+    var nm=''; try{ nm=currentTerritoryName(); }catch(e){}
+    if(!nm){ nm=({murcia:'Región de Murcia', madrid:'Comunidad de Madrid', toronto:'Toronto', niagara:'Cataratas del Niágara', baptiste:'Lago Bautista', buenosaires:'Buenos Aires', mendoza:'Mendoza', catamarca:'Catamarca', tucuman:'Tucumán', miami:'Miami'}[(selection&&selection.region)]||'Destino'); }
+    var ex=$('utdRegionChip');
+    if(ex){ ex.style.display='flex'; ex.textContent=nm; return; }
     var brand=document.querySelector('#main .topbar .brand');
     if(!brand || !brand.parentNode) return;
     var chip=document.createElement('button');
     chip.id='utdRegionChip';
     chip.type='button';
-    chip.innerHTML='📍 '+({murcia:'Murcia', madrid:'Madrid', toronto:'Toronto', niagara:'Niágara', baptiste:'Lago Bautista', buenosaires:'Buenos Aires', mendoza:'Mendoza', catamarca:'Catamarca', tucuman:'Tucumán', miami:'Miami'}[(selection&&selection.region)]||'Destino');
+    chip.textContent=nm;
     chip.title='Cambiar de región';
     chip.addEventListener('click', function(){ openShell('utdCountry'); });
     brand.parentNode.insertBefore(chip, brand.nextSibling);
@@ -11391,7 +11409,7 @@
 
 <script>
 // Sello de versión: sirve para confirmar qué build está realmente desplegado.
-window.UTD_BUILD='2026-09-11 · glass v11.8 (degradado rebalanceado: parte superior más calmada, sin banda naranja)';
+window.UTD_BUILD='2026-09-11 · glass v11.13 (nombre completo del territorio, pequeño y discreto, con borde negro fino)';
 try{ console.log('untraveld build: '+window.UTD_BUILD); }catch(e){}
 if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/app/sw.js",{scope:"/app/"}).catch(function(){});});}
 </script>
