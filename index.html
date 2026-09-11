@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>untraveld — Disfruta tus viajes como si fueras un local</title>
-<meta name="description" content="Deja de buscar en internet qué hacer en tu próximo viaje. untraveld te da una selección hecha a mano de lo que de verdad merece la pena, te monta el día según tu perfil de viajero y va contigo mientras lo recorres. 114 destinos en 37 países.">
+<meta name="description" content="Deja de buscar en internet qué hacer en tu próximo viaje. untraveld te da una selección hecha a mano de lo que de verdad merece la pena, te monta el día según tu perfil de viajero y va contigo mientras lo recorres. 116 destinos en 38 países.">
 <meta name="theme-color" content="#C9622F">
 <link rel="icon" href="/favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -317,6 +317,50 @@
   @media(max-width:900px){.blocks{gap:72px}.block{grid-template-columns:1fr;gap:38px}
     .block.flip .block-txt{order:0}.block-stage{order:1}}
 
+  /* ---------- workflow ---------- */
+  .flow{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
+  .flow-steps{display:grid;gap:8px}
+  .flow-step{position:relative;width:100%;text-align:left;font:inherit;cursor:pointer;overflow:hidden;
+             display:grid;grid-template-columns:auto 1fr;gap:16px;padding:18px 22px;border-radius:var(--r);
+             background:transparent;border:1px solid transparent;transition:background .3s,border-color .3s,box-shadow .3s}
+  .flow-step:hover{background:rgba(255,255,255,.3)}
+  .flow-step .fs-n{font-family:var(--serif);font-size:14px;letter-spacing:.1em;color:var(--muted);padding-top:2px;transition:color .3s}
+  .flow-step h3{font-size:17px;font-weight:600;letter-spacing:-.01em;color:var(--ink);margin-bottom:0}
+  .flow-step p{font-size:14.5px;color:var(--ink-soft);margin-top:8px;display:none}
+  .fs-tag{display:none;margin-top:12px;font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;font-weight:700;
+          color:var(--orange-dark);background:var(--orange-soft);padding:4px 10px;border-radius:100px}
+  .flow-step.on{background:var(--glass);-webkit-backdrop-filter:var(--blur);backdrop-filter:var(--blur);
+                border-color:var(--glass-line);box-shadow:var(--glass-sh)}
+  .flow-step.on .fs-n{color:var(--orange)}
+  .flow-step.on p,.flow-step.on .fs-tag{display:block}
+  .flow-step.on .fs-tag{display:inline-block}
+  .fs-bar{position:absolute;left:0;bottom:0;height:2px;width:0;background:var(--orange);opacity:0}
+  .flow-step.on .fs-bar{opacity:1}
+  .flow-stage{display:flex;justify-content:center;position:relative}
+  .flow-stage::before{content:"";position:absolute;width:86%;height:80%;top:10%;left:7%;border-radius:50%;
+    background:radial-gradient(ellipse at center,rgba(201,98,47,.18),transparent 68%);filter:blur(8px)}
+  .flow-screen{position:absolute;inset:0;opacity:0;visibility:hidden;transition:opacity .45s ease}
+  .flow-screen.on{opacity:1;visibility:visible}
+  .mock-search{display:flex;align-items:center;gap:8px;background:#fff;border:1px solid #EDE6DF;border-radius:10px;
+               padding:9px 11px;margin-bottom:10px;font-size:11px;color:#A0938A}
+  .mock-search b{width:11px;height:11px;border-radius:50%;border:1.6px solid #A0938A;flex:none}
+  .mrow{display:flex;align-items:center;justify-content:space-between;gap:8px;background:#fff;border:1px solid #EDE6DF;
+        border-radius:10px;padding:11px 12px;margin-bottom:7px;font-size:11.5px;font-weight:600;color:#241C16}
+  .mrow em{font-style:normal;color:#A0938A;font-size:15px}
+  .mrow.sel{border-color:var(--orange);background:var(--orange-soft);color:var(--orange-dark)}
+  .mbar{height:3px;border-radius:100px;background:#EFE8E1;margin-bottom:16px;overflow:hidden}
+  .mbar i{display:block;height:100%;background:var(--orange);border-radius:100px}
+  .mq{font-family:var(--serif);font-size:17px;line-height:1.25;color:#241C16;margin-bottom:14px}
+  .chipset{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+  .mchip{border:1px solid #E4DBD2;background:#fff;border-radius:100px;padding:7px 12px;font-size:10.5px;
+         font-weight:600;color:#4A423B}
+  .mchip.on{background:var(--orange);border-color:var(--orange);color:#fff}
+  @media(max-width:980px){
+    .flow{grid-template-columns:1fr;gap:38px}
+    .flow-stage{order:-1}
+  }
+  @media(max-width:520px){.flow-step{padding:16px 16px;gap:12px}}
+
   /* features */
   .feat-sec{background:rgba(242,237,231,.34)}
   .feats{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
@@ -545,7 +589,7 @@
   <div class="wrap">
    <div class="hero-grid">
     <div class="hero-inner">
-      <span class="badge"><b></b><span data-t="badge">Beta abierta · 114 destinos</span></span>
+      <span class="badge"><b></b><span data-t="badge">Beta abierta · 116 destinos</span></span>
       <h1><span data-t="h1a">Disfruta tus viajes</span> <span data-t="h1c">como si fueras</span> <em data-t="h1b">un local</em></h1>
       <p class="sub" data-t="sub">Olvídate de rastrear internet antes de cada viaje. untraveld te da una selección hecha a mano de lo que de verdad merece la pena, te monta el día a tu medida y va contigo mientras lo recorres. Solo o con tu grupo.</p>
       <div class="hero-actions">
@@ -553,8 +597,8 @@
         <a class="btn btn-ghost" href="#destinos" data-t="cta2">Ver destinos</a>
       </div>
       <div class="hero-meta">
-        <div><b data-t="hm1b">114</b><span data-t="hm1">Destinos</span></div>
-        <div><b data-t="hm2b">3.459</b><span data-t="hm2">Puntos de interés</span></div>
+        <div><b data-t="hm1b">116</b><span data-t="hm1">Destinos</span></div>
+        <div><b data-t="hm2b">3.462</b><span data-t="hm2">Puntos de interés</span></div>
         <div><b data-t="hm3b">Gratis</b><span data-t="hm3">Sin tienda de apps</span></div>
       </div>
     </div>
@@ -635,9 +679,9 @@
 <!-- STRIP -->
 <div class="strip">
   <div class="strip-grid">
-    <div class="stat"><b data-t="s1b">114</b><span data-t="s1">Destinos</span></div>
-    <div class="stat"><b data-t="s2b">3.459</b><span data-t="s2">Puntos de interés</span></div>
-    <div class="stat"><b>37</b><span data-t="s3">Países</span></div>
+    <div class="stat"><b data-t="s1b">116</b><span data-t="s1">Destinos</span></div>
+    <div class="stat"><b data-t="s2b">3.462</b><span data-t="s2">Puntos de interés</span></div>
+    <div class="stat"><b>38</b><span data-t="s3">Países</span></div>
     <div class="stat"><b>ES/EN</b><span data-t="s4">Bilingüe</span></div>
   </div>
 </div>
@@ -648,13 +692,180 @@
     <div class="sec-head reveal">
       <span class="label" data-t="l1">Cómo funciona</span>
       <h2 data-t="t1">Deja de buscar. Empieza a viajar.</h2>
-      <p data-t="p1">Ni foros, ni veinte pestañas abiertas, ni la lista de siempre. Ese trabajo ya está hecho: tú dices cómo quieres viajar y el destino se ordena solo a tu alrededor.</p>
+      <p data-t="p1">Ni foros, ni veinte pestañas abiertas, ni la lista de siempre. Cinco pasos desde que abres la app hasta que estás en la calle, y en todos ellos el viaje se ajusta a ti.</p>
     </div>
-    <div class="steps reveal">
-      <div class="step"><span class="step-n">01</span><h3 data-t="st1h">Haces tu perfil de viajero</h3><p data-t="st1p">Fechas, ritmo, con quién vas y qué te apasiona. untraveld aprende cómo viajas antes de proponerte nada.</p></div>
-      <div class="step"><span class="step-n">02</span><h3 data-t="st2h">Recibes una selección, no una lista</h3><p data-t="st2p">Los sitios elegidos a mano de ese destino, ordenados por lo que de verdad merece la pena y por lo cerca que están de ti.</p></div>
-      <div class="step"><span class="step-n">03</span><h3 data-t="st3h">Sales con el asistente al lado</h3><p data-t="st3p">Le preguntas lo que quieras, allí mismo. Te responde con los sitios de la selección, no con lo primero que salga en internet.</p></div>
-      <div class="step"><span class="step-n">04</span><h3 data-t="st4h">Lo vivís y lo votáis juntos</h3><p data-t="st4p">Llegas, haces check-in, subes la foto y lo puntúas del 0 al 10. Tu grupo lo ve al momento y el recorrido del día se dibuja solo.</p></div>
+    <div class="flow reveal">
+      <div class="flow-steps" id="flowSteps">
+        <button class="flow-step on" type="button" data-i="0">
+          <span class="fs-n">01</span>
+          <div>
+            <h3 data-t="w1h">Eliges dónde vas</h3>
+            <p data-t="w1p">España entera por provincias o el resto del mundo por continentes. Escribes, tocas y ya estás dentro.</p>
+            <span class="fs-tag" data-t="w1t">Sin vueltas</span>
+          </div>
+          <span class="fs-bar"></span>
+        </button>
+        <button class="flow-step" type="button" data-i="1">
+          <span class="fs-n">02</span>
+          <div>
+            <h3 data-t="w2h">Montas el viaje en tres tarjetas</h3>
+            <p data-t="w2p">Nombre, destinos y fechas. Una pregunta por pantalla, sin formularios largos ni campos que no sabes qué son.</p>
+            <span class="fs-tag" data-t="w2t">Tres toques</span>
+          </div>
+          <span class="fs-bar"></span>
+        </button>
+        <button class="flow-step" type="button" data-i="2">
+          <span class="fs-n">03</span>
+          <div>
+            <h3 data-t="w3h">Dices cómo viajas tú</h3>
+            <p data-t="w3p">Tranquilo, equilibrado o intenso. Con quién vas y qué te apasiona. Desde aquí el viaje deja de ser el de cualquiera.</p>
+            <span class="fs-tag" data-t="w3t">A tu medida</span>
+          </div>
+          <span class="fs-bar"></span>
+        </button>
+        <button class="flow-step" type="button" data-i="3">
+          <span class="fs-n">04</span>
+          <div>
+            <h3 data-t="w4h">La agenda se arma sola</h3>
+            <p data-t="w4p">Mañana, comida, tarde y noche, con la ruta ordenada y los kilómetros reales. Cambias una parada y se recalcula al momento.</p>
+            <span class="fs-tag" data-t="w4t">Se recalcula</span>
+          </div>
+          <span class="fs-bar"></span>
+        </button>
+        <button class="flow-step" type="button" data-i="4">
+          <span class="fs-n">05</span>
+          <div>
+            <h3 data-t="w5h">Sales a la calle</h3>
+            <p data-t="w5p">El mapa te enseña qué tienes al lado, el asistente responde a lo que preguntes y al llegar haces check-in. Lo que visitas se coloca solo en el día.</p>
+            <span class="fs-tag" data-t="w5t">Sobre la marcha</span>
+          </div>
+          <span class="fs-bar"></span>
+        </button>
+      </div>
+
+      <div class="flow-stage">
+        <div class="device"><div class="screen">
+
+          <div class="flow-screen on" data-i="0">
+            <div class="app-screen">
+              <div class="as-top"><span class="as-title" data-t="fs0t">Destinos</span></div>
+              <div class="mock-search"><b></b><span data-t="fs0s">Buscar territorio</span></div>
+              <div class="mrow"><span>Región de Murcia</span><em>&rsaquo;</em></div>
+              <div class="mrow sel"><span>Tokio</span><em>&rsaquo;</em></div>
+              <div class="mrow"><span>Roma</span><em>&rsaquo;</em></div>
+              <div class="mrow"><span>Toronto</span><em>&rsaquo;</em></div>
+              <div class="mrow"><span>Buenos Aires</span><em>&rsaquo;</em></div>
+              <div class="mrow"><span>Ginebra</span><em>&rsaquo;</em></div>
+            </div>
+          </div>
+
+          <div class="flow-screen" data-i="1">
+            <div class="app-screen">
+              <div class="as-top"><span class="as-title" data-t="fs1t">Nuevo viaje</span><span class="tag">2 / 3</span></div>
+              <div class="mbar"><i style="width:66%"></i></div>
+              <div class="mq" data-t="fs1q">¿Adónde vais?</div>
+              <div class="mock-search"><b></b><span data-t="fs0s2">Buscar destino</span></div>
+              <div class="chipset">
+                <span class="mchip on">Tokio</span><span class="mchip on">Kioto</span><span class="mchip">Osaka</span>
+                <span class="mchip">Seúl</span><span class="mchip">Taipéi</span><span class="mchip">Hong Kong</span>
+              </div>
+              <div class="card" style="text-align:center;background:var(--orange);border-color:var(--orange)">
+                <b style="color:#fff;font-size:11px;letter-spacing:.14em;text-transform:uppercase" data-t="fs1b">Continuar</b>
+              </div>
+            </div>
+          </div>
+
+          <div class="flow-screen" data-i="2">
+            <div class="app-screen">
+              <div class="as-top"><span class="as-title" data-t="fs2t">Perfil de viajero</span></div>
+              <div class="card">
+                <div class="card-h"><b data-t="fs2a">Tu ritmo</b></div>
+                <div class="chipset" style="margin-bottom:0">
+                  <span class="mchip">Tranquilo</span><span class="mchip on">Equilibrado</span><span class="mchip">Intenso</span>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-h"><b data-t="fs2b">Con quién vas</b></div>
+                <div class="chipset" style="margin-bottom:0">
+                  <span class="mchip">Solo</span><span class="mchip">En pareja</span><span class="mchip on">Con amigos</span>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-h"><b data-t="fs2c">Qué te apasiona</b></div>
+                <div class="chipset" style="margin-bottom:0">
+                  <span class="mchip on">Cultura</span><span class="mchip">Naturaleza</span>
+                  <span class="mchip on">Gastronomía</span><span class="mchip">Ocio</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flow-screen" data-i="3">
+            <div class="app-screen">
+              <div class="as-top"><span class="as-title" data-t="fs3t">Agenda</span><span class="tag" data-t="fs3d">5 días</span></div>
+              <div class="card">
+                <div class="card-h"><b data-t="fs3c">Día 2 · Asakusa</b><span class="tag">9,4 km</span></div>
+                <div class="slot"><u data-t="mmor3">Mañana</u><i style="background:#C9622F"></i><div><p>Senso-ji</p><small data-t="fs3s1">Monumento · 0,4 km</small></div></div>
+                <div class="slot"><u data-t="mcom3">Comer</u><i style="background:#B03A48"></i><div><p>Nakamise-dori</p><small data-t="fs3s2">Comida · 0,3 km</small></div></div>
+                <div class="slot"><u data-t="mtar3">Tarde</u><i style="background:#2F7D5B"></i><div><p>Ueno Park</p><small data-t="fs3s3">Naturaleza · 1,9 km</small></div></div>
+                <div class="slot"><u data-t="mnoc3">Noche</u><i style="background:#55639E"></i><div><p>Ameyoko</p><small data-t="fs3s4">Ocio · 0,6 km</small></div></div>
+              </div>
+              <div class="card">
+                <div class="card-h"><b data-t="fs3c2">Día 3 · Shibuya</b><span class="tag">7,1 km</span></div>
+                <div class="slot"><u data-t="mmor4">Mañana</u><i style="background:#C9622F"></i><div><p>Meiji Jingu</p><small data-t="fs3s5">Monumento · 1,1 km</small></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flow-screen" data-i="4">
+            <div class="map-screen">
+              <svg viewBox="0 0 300 620" preserveAspectRatio="xMidYMid slice" style="width:100%;height:100%">
+                <rect width="300" height="620" fill="#EDE7DF"/>
+                <path d="M196 0 L300 0 L300 150 Q250 172 220 124 Q204 92 196 0Z" fill="#CFE1E6"/>
+                <path d="M10 360 Q64 330 112 366 Q152 396 132 448 Q106 502 44 486 Q-2 470 10 360Z" fill="#D9E5D2"/>
+                <g stroke="#FBF9F6" fill="none" stroke-linecap="round">
+                  <path d="M-10 120 L310 92" stroke-width="13"/>
+                  <path d="M-10 300 L310 282" stroke-width="15"/>
+                  <path d="M70 -10 L96 640" stroke-width="13"/>
+                  <path d="M218 -10 L200 640" stroke-width="11"/>
+                  <path d="M-10 208 L310 224" stroke-width="7"/>
+                  <path d="M148 -10 L158 640" stroke-width="6"/>
+                </g>
+                <g fill="#E4DCD2">
+                  <rect x="108" y="112" width="30" height="26" rx="3"/><rect x="166" y="126" width="26" height="22" rx="3"/>
+                  <rect x="112" y="242" width="26" height="30" rx="3"/><rect x="232" y="318" width="30" height="24" rx="3"/>
+                </g>
+                <path d="M150 330 L152 306 L146 296 L152 244 L178 240" stroke="#C9622F" stroke-width="4" fill="none"
+                      stroke-linecap="round" stroke-dasharray="9 7" opacity=".92"/>
+                <g>
+                  <circle cx="178" cy="240" r="13" fill="#C9622F" opacity=".18"/>
+                  <circle cx="178" cy="240" r="8" fill="#C9622F" stroke="#fff" stroke-width="2.6"/>
+                  <circle cx="92" cy="146" r="7" fill="#2F7D5B" stroke="#fff" stroke-width="2.4" opacity=".9"/>
+                  <circle cx="244" cy="146" r="7" fill="#B03A48" stroke="#fff" stroke-width="2.4" opacity=".45"/>
+                  <circle cx="64" cy="352" r="7" fill="#2F7D5B" stroke="#fff" stroke-width="2.4" opacity=".9"/>
+                  <circle cx="246" cy="290" r="7" fill="#55639E" stroke="#fff" stroke-width="2.4" opacity=".45"/>
+                  <circle cx="124" cy="214" r="7" fill="#C9622F" stroke="#fff" stroke-width="2.4" opacity=".45"/>
+                  <circle cx="150" cy="330" r="15" fill="#3F7FE0" opacity=".18"/>
+                  <circle cx="150" cy="330" r="6.5" fill="#3F7FE0" stroke="#fff" stroke-width="2.6"/>
+                </g>
+              </svg>
+              <div class="map-top">
+                <div class="map-btn" aria-hidden="true"><i></i><i></i><i></i></div>
+                <div class="map-pill"><span class="pin" style="width:11px;height:11px"></span>Tokio</div>
+              </div>
+              <div class="fab" style="bottom:150px">AI</div>
+              <div class="sheet" style="padding-bottom:18px">
+                <div class="sheet-h"></div>
+                <div class="sheet-t" data-t="fs4n">A 120 metros</div>
+                <div class="poi"><b style="background:#C9622F"></b><span>Senso-ji</span><em data-t="fs4go">Go</em></div>
+                <div class="poi"><b style="background:#B03A48"></b><span>Nakamise-dori</span><em>240 m</em></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="st-bar"><span>9:41</span><span class="st-ic"><i></i></span></div>
+        </div></div>
+      </div>
     </div>
   </div>
 </section>
@@ -821,7 +1032,7 @@
       </div>
       <div class="feat">
         <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 6h11M8.5 4v2M11 6c0 4.4-3 8-8 10M6 11c1.4 2.4 3.4 4 6.5 5"/><path d="M13 20l4.2-10 4.2 10M14.6 16.4h5.2"/></svg>
-        <h3 data-t="f6h">Todo en español y en inglés</h3><p data-t="f6p">Los 3.459 puntos, las zonas, el clima y los consejos están escritos en los dos idiomas. Eliges uno y no vuelves a pensarlo.</p>
+        <h3 data-t="f6h">Todo en español y en inglés</h3><p data-t="f6p">Los 3.462 puntos, las zonas, el clima y los consejos están escritos en los dos idiomas. Eliges uno y no vuelves a pensarlo.</p>
       </div>
     </div>
   </div>
@@ -836,11 +1047,6 @@
       <p data-t="p7">Cada punto de untraveld está elegido a mano, uno a uno, y no entra por tener muchas estrellas en internet. El siguiente paso es que deje de decidirlo solo un equipo.</p>
     </div>
     <div class="comm reveal">
-      <div class="comm-card soon">
-        <span class="pill next" data-t="cc1p">En camino</span>
-        <h3 data-t="cc1h">Local Champions</h3>
-        <p data-t="cc1t">Gente que conoce su ciudad de verdad y responde de la selección de su destino: qué entra, qué sobra y qué falta. La curación deja de venir de fuera y pasa a venir de allí.</p>
-      </div>
       <div class="comm-card">
         <span class="pill live" data-t="cc2p">Ya funciona</span>
         <h3 data-t="cc2h">El voto de quien estuvo</h3>
@@ -850,6 +1056,21 @@
         <span class="pill live" data-t="cc3p">Ya funciona</span>
         <h3 data-t="cc3h">untraveld AI</h3>
         <p data-t="cc3t">Pregúntale lo que quieras, en cualquier pantalla y en tus palabras. Responde eligiendo dentro de la selección curada, así que nunca te manda a un sitio que nadie ha comprobado.</p>
+      </div>
+      <div class="comm-card">
+        <span class="pill live" data-t="cc5p">Ya funciona</span>
+        <h3 data-t="cc5h">Tu perfil de viajero</h3>
+        <p data-t="cc5t">Se llena solo con lo que haces: los territorios que llevas y cuánto has explorado de cada uno, tus sitios mejor valorados y los itinerarios que decidas compartir. Te sigues con otros buscando su @usuario.</p>
+      </div>
+      <div class="comm-card soon">
+        <span class="pill next" data-t="cc1p">En camino</span>
+        <h3 data-t="cc1h">Local Champions</h3>
+        <p data-t="cc1t">Gente que conoce su ciudad de verdad y responde de la selección de su destino: qué entra, qué sobra y qué falta. La curación deja de venir de fuera y pasa a venir de allí.</p>
+      </div>
+      <div class="comm-card soon">
+        <span class="pill next" data-t="cc6p">En camino</span>
+        <h3 data-t="cc6h">El feed de los tuyos</h3>
+        <p data-t="cc6t">Lo que van descubriendo las personas a las que sigues: viajes cerrados, valoraciones e itinerarios compartidos. Sin ruido de desconocidos ni concurso de likes.</p>
       </div>
       <div class="comm-card soon">
         <span class="pill next" data-t="cc4p">En camino</span>
@@ -866,7 +1087,7 @@
     <div class="sec-head reveal">
       <span class="label" data-t="l3">Destinos</span>
       <h2 data-t="t3">Empieza por tu provincia. Sigue por el mundo.</h2>
-      <p data-t="p3">España está entera, provincia a provincia. Y desde ahí salen 62 destinos más repartidos por seis continentes, esperando. Ninguno sale de un volcado automático: cada punto está elegido a mano, ordenado por lo que de verdad merece la pena y contado en español y en inglés.</p>
+      <p data-t="p3">España está entera, provincia a provincia. Y desde ahí salen 64 destinos más repartidos por seis continentes, esperando. Ninguno sale de un volcado automático: cada punto está elegido a mano, ordenado por lo que de verdad merece la pena y contado en español y en inglés.</p>
     </div>
     <div class="dest reveal">
       <div class="zone-full">
@@ -878,8 +1099,8 @@
         <div class="zf-num"><b>52</b><span data-t="zfesn">Provincias</span></div>
       </div>
       <details class="zone">
-        <summary><span class="z-name" data-t="zeu">Europa</span><span class="z-sub" data-t="zeus">De Lisboa a Estambul</span><span class="z-n">16</span></summary>
-        <div class="chips"><span class="chip">Ámsterdam</span><span class="chip">Antalya</span><span class="chip">Atenas</span><span class="chip">Berlín</span><span class="chip">Dublín</span><span class="chip">Estambul</span><span class="chip">Florencia</span><span class="chip">Lisboa</span><span class="chip">Londres</span><span class="chip">Milán</span><span class="chip">Múnich</span><span class="chip">París</span><span class="chip">Praga</span><span class="chip">Roma</span><span class="chip">Venecia</span><span class="chip">Viena</span></div>
+        <summary><span class="z-name" data-t="zeu">Europa</span><span class="z-sub" data-t="zeus">De Lisboa a Estambul</span><span class="z-n">18</span></summary>
+        <div class="chips"><span class="chip">Ámsterdam</span><span class="chip">Antalya</span><span class="chip">Atenas</span><span class="chip">Berlín</span><span class="chip">Dublín</span><span class="chip">Estambul</span><span class="chip">Florencia</span><span class="chip">Ginebra</span><span class="chip">Lausana</span><span class="chip">Lisboa</span><span class="chip">Londres</span><span class="chip">Milán</span><span class="chip">Múnich</span><span class="chip">París</span><span class="chip">Praga</span><span class="chip">Roma</span><span class="chip">Venecia</span><span class="chip">Viena</span></div>
       </details>
       <details class="zone">
         <summary><span class="z-name" data-t="zas">Asia</span><span class="z-sub" data-t="zass">Japón, sudeste asiático e India</span><span class="z-n">15</span></summary>
@@ -901,7 +1122,7 @@
         <summary><span class="z-name" data-t="zoc">Oceanía</span><span class="z-sub" data-t="zocs">Australia</span><span class="z-n">2</span></summary>
         <div class="chips"><span class="chip">Melbourne</span><span class="chip">Sídney</span></div>
       </details>
-      <p class="dest-note" data-t="dnote">Canadá, Argentina, Estados Unidos e Italia tienen pantalla propia dentro de la app; el resto del mundo se elige por continente.</p>
+      <p class="dest-note" data-t="dnote">Dentro de la app eliges primero España, con buscador y acordeón por comunidad, o el resto del mundo, agrupado por continente. Toronto, Roma, Buenos Aires o Miami están donde te los esperas: en su continente.</p>
     </div>
   </div>
 </section>
@@ -935,6 +1156,7 @@
       <details><summary data-t="q3">¿Cómo sabe la app que he llegado de verdad?</summary><div class="ans" data-t="a3">Por GPS. El punto se desbloquea cuando estás dentro de un radio de 150 metros, así que no se puede completar el territorio desde el sofá.</div></details>
       <details><summary data-t="q4">¿Qué pasa con mis fotos y mis datos?</summary><div class="ans" data-t="a4">Las fotos de check-in y de recuerdos se guardan para tu grupo y las puedes borrar tú desde la propia app. No se venden datos ni hay publicidad.</div></details>
       <details><summary data-t="q5">¿Funciona para un viaje en grupo grande?</summary><div class="ans" data-t="a5">Sí. Se crea un grupo, se pasa el código de seis letras y cada uno entra desde su móvil. El itinerario, el progreso, los gastos y las fotos son de todos.</div></details>
+      <details><summary data-t="q8">¿Y si alguien se porta mal?</summary><div class="ans" data-t="a8">Las cuentas se crean con un correo que hay que verificar antes de entrar. Dentro puedes bloquear a una persona en toda la app y reportar cualquier contenido con un toque: lo que reportas se te oculta al instante.</div></details>
       <details><summary data-t="q7">¿Quién elige los sitios?</summary><div class="ans" data-t="a7">Hoy los prepara el equipo de untraveld uno a uno: se cruzan fuentes, se verifica cada coordenada y se descarta lo que solo está ahí por inercia. Encima va la nota de los viajeros que ya estuvieron. El objetivo es que cada destino acabe teniendo su Local Champion, alguien de allí que responda de esa selección.</div></details>
       <details><summary data-t="q6">¿Está mi ciudad?</summary><div class="ans" data-t="a6">En España están las 52 provincias, así que la tuya está. Fuera de España vamos ciudad a ciudad y quedan muchas por hacer: escríbenos a hola@untraveld.com y dinos cuál te falta.</div></details>
     </div>
@@ -1016,23 +1238,77 @@
     }, 4200);
   }
 
+  /* ---- workflow interactivo ---- */
+  (function(){
+    var steps = Array.prototype.slice.call(document.querySelectorAll('.flow-step'));
+    var screens = Array.prototype.slice.call(document.querySelectorAll('.flow-screen'));
+    if (!steps.length) return;
+    var DUR = 6000, i = 0, timer = null, paused = false;
+    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+
+    function show(n, restart){
+      i = (n + steps.length) % steps.length;
+      steps.forEach(function(el, k){
+        el.classList.toggle('on', k === i);
+        var bar = el.querySelector('.fs-bar');
+        bar.style.transition = 'none'; bar.style.width = '0';
+      });
+      screens.forEach(function(el, k){ el.classList.toggle('on', k === i); });
+      if (!reduce && !paused){
+        var bar = steps[i].querySelector('.fs-bar');
+        requestAnimationFrame(function(){
+          bar.style.transition = 'width ' + DUR + 'ms linear';
+          bar.style.width = '100%';
+        });
+      }
+      if (restart) arm();
+    }
+    function arm(){ clearTimeout(timer); if (reduce || paused) return;
+      timer = setTimeout(function(){ show(i + 1, true); }, DUR); }
+
+    steps.forEach(function(el){
+      el.addEventListener('click', function(){
+        paused = true; clearTimeout(timer);
+        steps.forEach(function(s2){ var b = s2.querySelector('.fs-bar'); b.style.transition='none'; b.style.width='0'; });
+        show(parseInt(el.getAttribute('data-i'), 10), false);
+        setTimeout(function(){ paused = false; arm(); }, 12000);
+      });
+    });
+
+    // solo corre mientras la sección se ve
+    var io2 = new IntersectionObserver(function(es){
+      es.forEach(function(e){
+        if (e.isIntersecting){ show(i, true); } else { clearTimeout(timer); }
+      });
+    }, {threshold:.25});
+    io2.observe(document.querySelector('.flow'));
+  })();
+
   var EN = {
     nav1:"How it works", nav2:"The app", nav3:"Destinations", nav4:"FAQ", nav5:"Community", enter:"Enter", enter2:"Open the app",
-    badge:"Open beta · 114 destinations",
+    badge:"Open beta · 116 destinations",
     h1a:"Enjoy your trips", h1c:"like", h1b:"a local",
     sub:"Stop combing the internet before every trip. untraveld hands you a hand-picked selection of what is genuinely worth your time, builds your day around the way you travel, and comes along while you walk it. On your own or with your group.",
     cta1:"Travel with untraveld", cta2:"See destinations", scroll:"Keep scrolling",
-    hm1b:"114", hm1:"Destinations", hm2b:"3,459", hm2:"Points of interest", hm3b:"Free", hm3:"No app store",
+    hm1b:"116", hm1:"Destinations", hm2b:"3,462", hm2:"Points of interest", hm3b:"Free", hm3:"No app store",
     lg1:"Landm.", lg2:"Nature", lg3:"Food", lg4:"Nightlife", near:"Near you",
-    s1b:"114", s1:"Destinations", s2b:"3,459", s2:"Points of interest", s3:"Countries", s4:"Bilingual",
+    s1b:"116", s1:"Destinations", s2b:"3,462", s2:"Points of interest", s3:"Countries", s4:"Bilingual",
 
     l1:"How it works", t1:"Stop searching. Start travelling.",
-    p1:"No forums, no twenty open tabs, no list you have read a hundred times. That work is done: you say how you want to travel and the destination arranges itself around you.",
-    st1h:"Build your traveller profile", st1p:"Dates, pace, who you are with and what you love. untraveld learns how you travel before suggesting anything.",
-    st2h:"Get a selection, not a list", st2p:"The hand-picked places for that destination, ordered by what is genuinely worth it and by how close they are to you.",
-    st3h:"Head out with the assistant", st3p:"Ask it anything, right there on the street. It answers from the curated selection, not from whatever comes up online.",
-    st4h:"You live it and rate it together", st4p:"You arrive, check in, add the photo and score it from 0 to 10. Your group sees it instantly and the day draws its own route.",
+    p1:"No forums, no twenty open tabs, no list you have read a hundred times. Five steps from opening the app to being out on the street, and the trip bends to you in every one of them.",
 
+    w1h:"Choose where you are going", w1p:"All of Spain by province, or the rest of the world by continent. You type, you tap, you are in.", w1t:"No detours",
+    w2h:"Build the trip in three cards", w2p:"Name, destinations and dates. One question per screen, no long forms and no fields you do not understand.", w2t:"Three taps",
+    w3h:"Say how you travel", w3p:"Gentle, balanced or intense. Who you are going with and what you love. From here on the trip stops being everyone else's.", w3t:"Tailored to you",
+    w4h:"The agenda builds itself", w4p:"Morning, lunch, afternoon and evening, with an ordered route and real distances. Change one stop and it recalculates on the spot.", w4t:"Recalculates",
+    w5h:"You head out", w5p:"The map shows what is beside you, the assistant answers whatever you ask, and you check in when you arrive. What you visit drops into the day on its own.", w5t:"On the move",
+    fs0t:"Destinations", fs0s:"Search a territory", fs0s2:"Search a destination",
+    fs1t:"New trip", fs1q:"Where are you all going?", fs1b:"Continue",
+    fs2t:"Traveller profile", fs2a:"Your pace", fs2b:"Who you are with", fs2c:"What you love",
+    fs3t:"Agenda", fs3d:"5 days", fs3c:"Day 2 · Asakusa", fs3c2:"Day 3 · Shibuya",
+    mmor3:"Morning", mcom3:"Lunch", mtar3:"Afternoon", mnoc3:"Evening", mmor4:"Morning",
+    fs3s1:"Landmark · 0.4 km", fs3s2:"Food · 0.3 km", fs3s3:"Nature · 1.9 km", fs3s4:"Nightlife · 0.6 km", fs3s5:"Landmark · 1.1 km",
+    fs4n:"120 metres away", fs4go:"Go",
     l2:"The app", t2:"What untraveld does while you travel",
     p2:"Built for the moment you are already there.",
 
@@ -1074,10 +1350,10 @@
     f3h:"Souvenirs that are real", f3p:"What to buy in each city and where: real products and shops, with a guide price in euros.",
     f4h:"Territory and progress", f4p:"How much of the city you have discovered and how much is still ahead of you, spot by spot.",
     f5h:"Trip memories", f5p:"Every photo from the group, grouped by day, with who posted it. For when you get back and it is time to tell the story.",
-    f6h:"All in Spanish and English", f6p:"All 3,459 spots, the areas, the weather and the tips are written in both languages. Pick one and forget about it.",
+    f6h:"All in Spanish and English", f6p:"All 3,462 spots, the areas, the weather and the tips are written in both languages. Pick one and forget about it.",
 
     l3:"Destinations", t3:"Start with your own province. Carry on around the world.",
-    p3:"Spain is complete, province by province. And from there, 62 more destinations across six continents, waiting. None of them come from a bulk dump: every spot is chosen by hand, ordered by what is actually worth your time and written in both Spanish and English.",
+    p3:"Spain is complete, province by province. And from there, 64 more destinations across six continents, waiting. None of them come from a bulk dump: every spot is chosen by hand, ordered by what is actually worth your time and written in both Spanish and English.",
     zfes:"Spain", zfesh:"Every last province", zfesn:"Provinces",
     zfesp:"All 52 provinces, from A Coruña to Zaragoza, including the Balearics, the Canaries, Ceuta and Melilla. Each with its own hand-picked spots, areas and local tips.",
     zeu:"Europe", zeus:"From Lisbon to Istanbul",
@@ -1086,10 +1362,14 @@
     zom:"Middle East", zoms:"The Gulf and Jordan",
     zaf:"Africa", zafs:"North, east and south",
     zoc:"Oceania", zocs:"Australia",
-    dnote:"Canada, Argentina, the United States and Italy have their own screen inside the app; the rest of the world is picked by continent.",
+    dnote:"Inside the app you first pick Spain, with a search box and an accordion by region, or the rest of the world, grouped by continent. Toronto, Rome, Buenos Aires and Miami are where you would expect them: in their continent.",
 
     l7:"The community", t7:"The places are decided by the people who went",
     p7:"Every spot in untraveld is chosen by hand, one at a time, and none of them get in just for having a lot of stars online. The next step is for a team to stop being the only one deciding.",
+    cc5p:"Live now", cc5h:"Your traveller profile",
+    cc5t:"It fills itself with what you do: the territories you have been to and how much of each you have explored, your best-rated places and the itineraries you choose to share. You follow other people by searching their @handle.",
+    cc6p:"On the way", cc6h:"The feed of your people",
+    cc6t:"What the people you follow are finding: finished trips, ratings and shared itineraries. No noise from strangers, no contest for likes.",
     cc1p:"On the way", cc1h:"Local Champions",
     cc1t:"People who genuinely know their city and answer for the selection in their destination: what belongs, what does not and what is missing. The curation stops coming from outside and starts coming from there.",
     cc2p:"Live now", cc2h:"The vote of those who went",
@@ -1110,6 +1390,8 @@
     q3:"How does the app know I actually got there?", a3:"By GPS. A spot unlocks when you're within 150 metres of it, so you can't complete the territory from your sofa.",
     q4:"What happens to my photos and my data?", a4:"Check-in and memory photos are kept for your group and you can delete them yourself from the app. No data is sold and there are no ads.",
     q5:"Does it work for a big group trip?", a5:"Yes. Create a group, pass around the six-letter code and everyone joins from their own phone. The itinerary, the progress, the expenses and the photos belong to all of you.",
+    q8:"What if someone behaves badly?",
+    a8:"Accounts are created with an email address that has to be verified before you can get in. Inside, you can block a person across the whole app and report any content with one tap: whatever you report is hidden from you instantly.",
     q7:"Who chooses the places?",
     a7:"Today the untraveld team prepares them one by one: sources are cross-checked, every coordinate is verified and anything that is only there out of inertia gets dropped. On top of that sits the score from travellers who have already been. The goal is for every destination to end up with its own Local Champion, someone from there who answers for that selection.",
     q6:"Is my city there?", a6:"In Spain all 52 provinces are covered, so yours is. Outside Spain we go city by city and plenty are still missing: write to hola@untraveld.com and tell us which one you want.",
