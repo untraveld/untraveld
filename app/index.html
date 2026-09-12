@@ -17,6 +17,8 @@
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script src="https://unpkg.com/leaflet-rotate@0.2.8/dist/leaflet-rotate.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 <script src="https://www.gstatic.com/firebasejs/12.15.0/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/12.15.0/firebase-database-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/12.15.0/firebase-auth-compat.js"></script>
@@ -449,6 +451,28 @@
   .map-pin.ocio{ background: var(--map-ocio); }
   .map-pin.locked{ opacity:0.4; filter:blur(0.7px); transform:scale(0.78); box-shadow:0 1px 3px rgba(0,0,0,0.22); border-color:rgba(255,255,255,0.7); }
   .map-pin.unlocked{ opacity:1; transform:scale(1.12); box-shadow:0 0 0 4px rgba(217,164,65,0.38), 0 3px 9px rgba(0,0,0,0.45); border-color:#fff; }
+  /* Punto propio del usuario (creado con pulsación larga) */
+  .map-pin-custom{ width:26px; height:26px; border-radius:50%; display:flex; align-items:center; justify-content:center;
+    background:radial-gradient(circle at 32% 28%, var(--gold), #b9832f); border:2px solid #fff; box-shadow:0 2px 7px rgba(58,36,28,.5); }
+  .cpoi-photo-row{ display:flex; align-items:center; gap:12px; margin-bottom:6px; }
+  .cpoi-prev-img{ width:56px; height:56px; border-radius:12px; object-fit:cover; display:block; }
+  .cpoi-share{ display:flex; align-items:center; justify-content:space-between; gap:12px; margin:14px 0 4px; font-size:14px; font-weight:600; color:var(--text-hi); }
+  .cpoi-share input{ width:20px; height:20px; accent-color:var(--violet); }
+  .cpoi-card{ display:flex; align-items:center; gap:12px; width:100%; text-align:left; border:none; background:var(--bg-panel-2); border-radius:14px; padding:10px; margin-bottom:8px; cursor:pointer; }
+  .cpoi-card-ph{ width:52px; height:52px; flex:none; border-radius:11px; background-size:cover; background-position:center; background-color:var(--bg-panel); }
+  .cpoi-card-ph.empty{ background:radial-gradient(circle at 32% 28%, var(--gold), #b9832f); }
+  .cpoi-card-in{ flex:1; min-width:0; }
+  .cpoi-card-nm{ font-family:var(--display); font-weight:700; font-size:14.5px; color:var(--text-hi); display:flex; align-items:center; gap:8px; }
+  .cpoi-card-note{ font-size:12.5px; color:var(--text-mid); margin-top:2px; overflow:hidden; text-overflow:ellipsis; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; }
+  .cpoi-card-reg{ font-size:11px; color:var(--text-low); margin-top:3px; }
+  .cpoi-shared-badge{ font-size:9.5px; font-weight:800; letter-spacing:.04em; text-transform:uppercase; color:var(--violet); background:rgba(201,98,47,.12); padding:2px 7px; border-radius:100px; }
+  .cpoi-card .chev{ color:var(--text-low); flex:none; }
+  /* Grupo de pines (clustering) */
+  .utd-cluster{ width:38px; height:38px; border-radius:50%; display:flex; align-items:center; justify-content:center;
+    background:radial-gradient(circle at 32% 28%, var(--violet), var(--violet-deep)); color:#fff; font-family:var(--display); font-weight:800; font-size:14px;
+    border:2.5px solid rgba(255,255,255,.92); box-shadow:0 3px 10px rgba(58,36,28,.4); }
+  .utd-cluster.big{ box-shadow:0 0 0 4px rgba(217,164,65,.35), 0 3px 10px rgba(58,36,28,.4); }
+  .marker-cluster, .marker-cluster div{ background:transparent; }
   .map-dist-tooltip{
     font-size:10px !important; font-weight:600; color:#fff !important; background:rgba(40,28,20,0.82) !important;
     border:none !important; padding:2px 7px !important; box-shadow:none !important;
@@ -1345,6 +1369,15 @@
   /* Viajes pasados: lista */
   .pt-eyebrow{ font-family:var(--display); font-weight:700; font-size:10.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--text-low); margin:2px 0 14px; }
   .pt-card{ display:block; width:100%; text-align:left; border:1px solid var(--line); border-radius:18px; overflow:hidden; margin-bottom:14px; background:var(--bg-panel); cursor:pointer; padding:0; }
+  /* Deslizar para borrar un viaje (Mis Viajes) */
+  .trip-swipe{ position:relative; margin-bottom:14px; border-radius:18px; overflow:hidden; }
+  .trip-swipe .pt-card{ margin-bottom:0; position:relative; z-index:1; transition:transform .22s cubic-bezier(.2,.8,.3,1); will-change:transform; }
+  .trip-swipe.open .pt-card{ transform:translateX(-96px); }
+  .trip-swipe-del{ position:absolute; top:0; right:0; bottom:0; width:96px; z-index:0; border:none; cursor:pointer;
+    background:linear-gradient(135deg,#b5462f,#8A3A1F); color:#fff; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:4px;
+    font-family:var(--display); font-weight:700; font-size:12px; opacity:0; transition:opacity .15s ease; }
+  .trip-swipe.swiping .trip-swipe-del, .trip-swipe.open .trip-swipe-del{ opacity:1; }
+  .trip-swipe-del .tsd-l{ letter-spacing:.02em; }
   .pt-accent{ display:block; height:4px; background:linear-gradient(90deg,var(--map-red),var(--map-blue),var(--map-green),var(--map-ocio)); }
   .pt-in{ display:block; padding:15px 16px; }
   .pt-dest{ display:block; font-family:var(--display); font-weight:700; font-size:18px; color:var(--text-hi); }
@@ -5912,19 +5945,57 @@
     var avs=members.slice(0,4).map(function(n,ix){ return '<span class="pt-av" style="background:'+_ptAvColor(ix)+'">'+escapeHtml((n||'?').trim().slice(0,2).toUpperCase())+'</span>'; }).join('');
     var head=cover?'<span class="pt-cover" style="background-image:url('+cover+')"></span>':'<span class="pt-accent"></span>';
     var meta=TRf('%1 puntos', pts)+(members.length?(' · '+members.length+' '+(members.length===1?TR('persona'):TR('personas'))):'');
-    return '<button class="pt-card" data-code="'+escapeHtml(g.code)+'">'+head+'<span class="pt-in">'
+    var isCreator = !!(live && live.createdBy && live.createdBy===myName);
+    var delLabel = isCreator ? TR('Eliminar') : TR('Quitar');
+    var card='<button class="pt-card" data-code="'+escapeHtml(g.code)+'">'+head+'<span class="pt-in">'
       + '<span class="pt-dest">'+escapeHtml(name)+'</span>'
       + (sub?'<span class="pt-dates">'+escapeHtml(sub)+'</span>':'')
       + '<span class="pt-meta"><span class="pt-stnum">'+meta+'</span><span class="pt-avs">'+avs+'</span></span>'
       + '</span></button>';
+    return '<div class="trip-swipe" data-code="'+escapeHtml(g.code)+'">'
+      + '<button type="button" class="trip-swipe-del" data-code="'+escapeHtml(g.code)+'" aria-label="'+delLabel+'"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18M8 6V4h8v2M6 6l1 14h10l1-14M10 11v6M14 11v6"/></svg><span class="tsd-l">'+delLabel+'</span></button>'
+      + card + '</div>';
+  }
+  // Borrar/quitar un viaje: si soy el CREADOR se elimina para todos; si me UNÍ, solo desaparece de mi perfil.
+  function deleteMyTrip(code){
+    var g=loadMyGroups().find(function(x){ return x.code===code; });
+    var myKey=''; try{ myKey=firebaseKeySafe(myName); }catch(e){}
+    function profileRemove(){
+      try{ if(myKey) groupRef(code).child('members').child(myKey).remove(); }catch(e){}
+      removeMyGroup(code); try{ renderSavedGroups(); }catch(e){}
+      utdToast(TR('Quitado de tu perfil'), { action:TR('Deshacer'), onAction:function(){ if(g){ try{ addMyGroup(g); }catch(e){} try{ if(myKey) groupRef(code).child('members').child(myKey).set(true); }catch(e){} try{ renderSavedGroups(); }catch(e){} } } });
+    }
+    function askProfile(){ utdConfirm(TR('¿Quitar este viaje de tu perfil? Seguirá existiendo para el resto.'), TR('Quitar'), profileRemove); }
+    try{
+      groupRef(code).child('createdBy').once('value').then(function(s){
+        if(s.val() && s.val()===myName){
+          utdConfirm(TRf('¿Eliminar "%1" para todos? Esta acción no se puede deshacer.', (g&&g.name)||code), TR('Eliminar'), function(){
+            try{ groupRef(code).remove(); }catch(e){}
+            removeMyGroup(code); try{ renderSavedGroups(); }catch(e){}
+            utdToast(TR('Viaje eliminado'));
+          }, {danger:true});
+        } else { askProfile(); }
+      }).catch(askProfile);
+    }catch(e){ askProfile(); }
   }
   function _wireActiveTripCards(box){
-    box.querySelectorAll('.pt-card').forEach(function(card){
-      card.addEventListener('click', function(){
-        var code=card.getAttribute('data-code');
-        var g=loadMyGroups().find(function(x){ return x.code===code; });
-        if(g) enterGroupRoom(g.code, g.country||'ES', g.regions||['murcia']);
-      });
+    function closeAll(except){ box.querySelectorAll('.trip-swipe.open').forEach(function(w){ if(w===except) return; w.classList.remove('open'); var c=w.querySelector('.pt-card'); if(c) c.style.transform=''; }); }
+    box.querySelectorAll('.trip-swipe').forEach(function(wrap){
+      var card=wrap.querySelector('.pt-card'), del=wrap.querySelector('.trip-swipe-del');
+      var code=wrap.getAttribute('data-code');
+      if(card){
+        card.addEventListener('click', function(e){
+          if(card._justSwiped){ e.preventDefault(); return; }
+          if(wrap.classList.contains('open')){ e.preventDefault(); closeAll(); return; }
+          var g=loadMyGroups().find(function(x){ return x.code===code; });
+          if(g) enterGroupRoom(g.code, g.country||'ES', g.regions||['murcia']);
+        });
+        var sx=0, sy=0, drag=false, moved=false, startOpen=false;
+        card.addEventListener('touchstart', function(e){ if(!e.touches||e.touches.length!==1) return; sx=e.touches[0].clientX; sy=e.touches[0].clientY; drag=true; moved=false; startOpen=wrap.classList.contains('open'); card._justSwiped=false; card.style.transition='none'; closeAll(wrap); }, {passive:true});
+        card.addEventListener('touchmove', function(e){ if(!drag) return; var dx=e.touches[0].clientX-sx, dy=e.touches[0].clientY-sy; if(!moved && Math.abs(dy)>Math.abs(dx)){ drag=false; return; } if(Math.abs(dx)>8) moved=true; if(!moved) return; e.preventDefault(); wrap.classList.add('swiping'); var base=startOpen?-96:0; var tx=Math.max(Math.min(base+dx,0),-112); card.style.transform='translateX('+tx+'px)'; }, {passive:false});
+        card.addEventListener('touchend', function(e){ if(!drag) return; drag=false; card.style.transition=''; if(!moved){ card.style.transform=''; return; } card._justSwiped=true; setTimeout(function(){ card._justSwiped=false; }, 350); var dx=e.changedTouches[0].clientX-sx; var base=startOpen?-96:0; if(base+dx < -48){ wrap.classList.add('open'); } else { wrap.classList.remove('open'); } wrap.classList.remove('swiping'); card.style.transform=''; }, {passive:true});
+      }
+      if(del) del.addEventListener('click', function(e){ e.stopPropagation(); closeAll(); deleteMyTrip(code); });
     });
   }
   function renderSavedGroups(){
@@ -6502,8 +6573,23 @@
     if(leafletMap) return;
     leafletMap = L.map('leafletMap', { attributionControl: true, zoomControl: false, rotate: true, touchRotate: true, rotateControl: false, bearing: 0 });
     addBaseTiles(leafletMap);
-    leafletMarkersLayer = L.layerGroup().addTo(leafletMap);
+    // Agrupamos los pines en zonas densas (Leaflet.markercluster) para que el mapa no se sature.
+    // Si el plugin no cargó (sin red, etc.), caemos a una capa normal — el mapa sigue funcionando.
+    if(typeof L.markerClusterGroup === 'function'){
+      leafletMarkersLayer = L.markerClusterGroup({
+        maxClusterRadius: 44, showCoverageOnHover: false, spiderfyOnMaxZoom: true, chunkedLoading: true,
+        iconCreateFunction: function(cluster){
+          var n=cluster.getChildCount();
+          var big = n>=10 ? ' big' : '';
+          return L.divIcon({ html:'<div class="utd-cluster'+big+'"><span>'+n+'</span></div>', className:'', iconSize:[38,38], iconAnchor:[19,19] });
+        }
+      }).addTo(leafletMap);
+    } else {
+      leafletMarkersLayer = L.layerGroup().addTo(leafletMap);
+    }
     leafletYouLayer = L.layerGroup().addTo(leafletMap);
+    // Pulsación larga (o clic derecho) en el mapa → crear un punto propio con foto y nota.
+    try{ leafletMap.on('contextmenu', function(e){ if(_mapFood) return; if(e&&e.latlng){ try{ if(navigator.vibrate) navigator.vibrate(12); }catch(_){} openCustomPoiSheet({ lat:e.latlng.lat, lng:e.latlng.lng }); } }); }catch(e){}
   }
 
   function pinDivIcon(p, unlocked){
@@ -6557,6 +6643,17 @@
       boundsPoints.push([p.lat, p.lng]);
     });
 
+    // Puntos propios del usuario (creados con pulsación larga). Solo en el mapa normal.
+    if(!_mapFood){
+      try{ loadCustomPois().forEach(function(cp){
+        if(typeof cp.lat!=='number' || typeof cp.lng!=='number') return;
+        if(!_regionActiveForCustom(cp.region)) return;
+        var mk=L.marker([cp.lat, cp.lng], { icon: customPoiIcon(cp) });
+        mk.on('click', function(){ openCustomPoiView(cp.id); });
+        mk.addTo(leafletMarkersLayer);
+        boundsPoints.push([cp.lat, cp.lng]);
+      }); }catch(e){}
+    }
     if(myPosition) boundsPoints.push([myPosition.lat, myPosition.lng]);
     dibujarMiPosicion();
     try{ updateNextStop(); }catch(e){}
@@ -9893,6 +9990,83 @@
     }catch(e){}
   }
   function hasIndividualMemories(){ return loadSoloMem().length>0 || (!inGroupMode() && Object.keys((groupState&&groupState.contributions)||{}).length>0); }
+
+  // ===== PUNTOS PROPIOS (POIs creados por el usuario con pulsación larga en el mapa) =====
+  // Viven en el perfil del usuario (localStorage). Se pueden compartir con seguidores (shared).
+  function loadCustomPois(){ try{ var a=JSON.parse(localStorage.getItem('utd-custom-pois')||'[]'); return Array.isArray(a)?a:[]; }catch(e){ return []; } }
+  function saveCustomPois(a){ try{ localStorage.setItem('utd-custom-pois', JSON.stringify(a.slice(0,300))); }catch(e){} }
+  function addCustomPoi(o){ var a=loadCustomPois(); a.unshift(o); saveCustomPois(a); }
+  function updateCustomPoi(id, patch){ var a=loadCustomPois(); for(var i=0;i<a.length;i++){ if(a[i].id===id){ for(var k in patch){ if(patch.hasOwnProperty(k)) a[i][k]=patch[k]; } break; } } saveCustomPois(a); }
+  function removeCustomPoi(id){ saveCustomPois(loadCustomPois().filter(function(x){ return x.id!==id; })); }
+  function _regionActiveForCustom(r){
+    if(!r) return true;
+    try{ if(typeof ACTIVE_REGION!=='undefined' && r===ACTIVE_REGION) return true; }catch(e){}
+    try{ if(typeof ACTIVE_REGIONS!=='undefined' && ACTIVE_REGIONS && ACTIVE_REGIONS.indexOf(r)>=0) return true; }catch(e){}
+    return false;
+  }
+  function customPoiIcon(cp){
+    return L.divIcon({ className:'', iconSize:[26,26], iconAnchor:[13,13],
+      html:'<div class="map-pin-custom"><svg viewBox="0 0 24 24" width="14" height="14" fill="#fff"><path d="M12 2l2.9 6.2 6.8.7-5.1 4.6 1.5 6.7L12 17.8 5.9 20.2l1.5-6.7L2.3 8.9l6.8-.7z"/></svg></div>' });
+  }
+  // Hoja crear/editar un punto propio. cp = {lat,lng} para nuevo, o el objeto existente para editar.
+  function openCustomPoiSheet(cp){
+    cp=cp||{}; var isNew=!cp.id; var photo=cp.photo||'';
+    var old=document.getElementById('cpoiScrim'); if(old&&old.parentNode) old.parentNode.removeChild(old);
+    var scrim=document.createElement('div'); scrim.className='pt-edit-scrim'; scrim.id='cpoiScrim';
+    scrim.innerHTML='<div class="pt-edit-sheet">'
+      + '<div class="mk-exp-grab"></div>'
+      + '<div class="pt-edit-title">'+(isNew?TR('Nuevo punto'):TR('Editar punto'))+'</div>'
+      + '<div class="pte-lbl">'+TR('Nombre')+'</div>'
+      + '<input class="pte-input" id="cpoiName" maxlength="80" placeholder="'+TR('p. ej. Mirador secreto')+'" value="'+escapeHtml(cp.name||'')+'">'
+      + '<div class="pte-lbl">'+TR('Nota')+'</div>'
+      + '<textarea class="pte-area" id="cpoiNote" rows="3" maxlength="400" placeholder="'+TR('Cuenta algo de este sitio…')+'">'+escapeHtml(cp.note||'')+'</textarea>'
+      + '<div class="pte-lbl">'+TR('Foto (opcional)')+'</div>'
+      + '<div class="cpoi-photo-row"><label class="pte-tile pte-upload"><input type="file" accept="image/*" id="cpoiFile" hidden><span>'+(photo?TR('Cambiar foto'):TR('Añadir foto'))+'</span></label><div id="cpoiPreview">'+(photo?'<img class="cpoi-prev-img" src="'+photo+'">':'')+'</div></div>'
+      + (isNew?'':'<label class="cpoi-share"><span>'+TR('Compartir con mis seguidores')+'</span><input type="checkbox" id="cpoiShared"'+(cp.shared?' checked':'')+'></label>')
+      + '<button class="pte-save" id="cpoiSave">'+(isNew?TR('Guardar punto'):TR('Guardar cambios'))+'</button>'
+      + (isNew?'':'<button class="pt-delete" id="cpoiDelete">'+TR('Borrar punto')+'</button>')
+      + '<button class="pte-cancel" id="cpoiCancel">'+TR('Cancelar')+'</button>'
+      + '</div>';
+    document.body.appendChild(scrim);
+    function close(){ if(scrim.parentNode) scrim.parentNode.removeChild(scrim); }
+    scrim.addEventListener('click', function(e){ if(e.target===scrim) close(); });
+    document.getElementById('cpoiCancel').addEventListener('click', close);
+    var f=document.getElementById('cpoiFile');
+    if(f) f.addEventListener('change', async function(e){ var file=(e.target.files||[])[0]; e.target.value=''; if(!file) return; var up=scrim.querySelector('.pte-upload span'); if(up) up.textContent='…'; try{ photo=await resizeImageFile(file,1280,0.72); var pv=document.getElementById('cpoiPreview'); if(pv) pv.innerHTML='<img class="cpoi-prev-img" src="'+photo+'">'; if(up) up.textContent=TR('Cambiar foto'); }catch(err){ if(up) up.textContent=TR('Añadir foto'); } });
+    var del=document.getElementById('cpoiDelete');
+    if(del) del.addEventListener('click', function(){
+      var full=loadCustomPois().find(function(x){ return x.id===cp.id; });
+      removeCustomPoi(cp.id); close(); try{ renderMap(); }catch(e){} try{ publishMyProfile(); }catch(e){}
+      utdToast(TR('Punto borrado'), { action:TR('Deshacer'), onAction:function(){ if(full){ addCustomPoi(full); try{ renderMap(); }catch(e){} try{ publishMyProfile(); }catch(e){} } } });
+    });
+    document.getElementById('cpoiSave').addEventListener('click', function(){
+      var name=(document.getElementById('cpoiName').value||'').trim();
+      var note=(document.getElementById('cpoiNote').value||'').trim();
+      if(isNew && !name && !note && !photo){ close(); return; }
+      if(isNew){
+        var o={ id:'cst_'+randomGroupId()+randomGroupId(), lat:cp.lat, lng:cp.lng, name:name||TR('Mi punto'), note:note, photo:photo||'',
+          region:(typeof ACTIVE_REGION!=='undefined'?ACTIVE_REGION:''), regionName:(typeof REGION_NAME!=='undefined'?REGION_NAME:'')||'', ts:Date.now(), shared:false };
+        addCustomPoi(o);
+        utdToast(TR('Punto guardado en tu perfil'));
+      } else {
+        var shared=!!(document.getElementById('cpoiShared')&&document.getElementById('cpoiShared').checked);
+        updateCustomPoi(cp.id, { name:name||cp.name, note:note, photo:photo||'', shared:shared });
+      }
+      close(); try{ renderMap(); }catch(e){} try{ publishMyProfile(); }catch(e){}
+    });
+  }
+  function openCustomPoiView(id){ var cp=loadCustomPois().find(function(x){ return x.id===id; }); if(cp) openCustomPoiSheet(cp); }
+  // Tarjeta de un punto propio (own=true → botón editable con badge "Compartido").
+  function _cpoiCardHtml(cp, own){
+    var ph = cp.photo ? '<span class="cpoi-card-ph" style="background-image:url('+cp.photo+')"></span>' : '<span class="cpoi-card-ph empty"></span>';
+    var badge = (own && cp.shared) ? '<span class="cpoi-shared-badge">'+TR('Compartido')+'</span>' : '';
+    var inner = ph+'<div class="cpoi-card-in"><div class="cpoi-card-nm">'+escapeHtml(cp.name||'')+badge+'</div>'
+      + (cp.note?'<div class="cpoi-card-note">'+escapeHtml(cp.note)+'</div>':'')
+      + (cp.regionName?'<div class="cpoi-card-reg">'+escapeHtml(cp.regionName)+'</div>':'')+'</div>';
+    if(own) return '<button class="cpoi-card cpoi-card-btn" data-cpid="'+escapeHtml(cp.id)+'">'+inner+'<span class="chev">›</span></button>';
+    return '<div class="cpoi-card">'+inner+'</div>';
+  }
+
   var _ptFolder='grupo', _indivCity='', _izGalOpen=false;
   function _ptTripCards(list){
     return list.map(function(t){
@@ -10433,7 +10607,9 @@
         name:myName||'', handle:handle, handleLower:(handle||'').toLowerCase(), nameSearch:socialSlug(myName),
         photo:(getProfilePhoto()||''),
         counts:{ territories:terrs.length, points:terrs.reduce(function(s,t){ return s+t.visited; },0), itineraries:loadSharedItins().length },
-        territories:terrOut, itineraries:loadSharedItins(), updatedAt:Date.now()
+        territories:terrOut, itineraries:loadSharedItins(),
+        customPois: loadCustomPois().filter(function(c){ return c.shared; }).map(function(c){ return { name:c.name||'', note:c.note||'', photo:c.photo||'', regionName:c.regionName||'', lat:c.lat, lng:c.lng, ts:c.ts||0 }; }),
+        updatedAt:Date.now()
       });
     }catch(e){}
   }
@@ -10469,8 +10645,15 @@
             return '<button class="soc-itin soc-itin-btn" data-id="'+escapeHtml(it.id)+'"'+(it.tripId?(' data-trip="'+escapeHtml(it.tripId)+'"'):'')+'>'+cov+'<div class="ii"><div class="ib"><div class="in">'+escapeHtml(it.name||'')+'</div></div><span class="chev">›</span></div></button>';
           }).join('')+'</div>';
     }
+    var _cpois=loadCustomPois();
+    if(_cpois.length){
+      html+='<div class="utd-glass"><div class="soc-eyebrow">'+TR('Mis puntos')+'</div>'
+        + _cpois.map(function(cp){ return _cpoiCardHtml(cp, true); }).join('')
+        + '<div class="soc-note" style="margin-top:6px;">'+TR('Mantén pulsado un sitio del mapa para crear un punto. Toca uno para editarlo o compartirlo.')+'</div></div>';
+    }
     html+='<div class="utd-glass"><div class="soc-eyebrow">'+TR('Territorios viajados')+'</div>'+_socTerritoriesHtml(terrs)+'</div>';
     host.innerHTML=html;
+    host.querySelectorAll('.cpoi-card-btn').forEach(function(b){ b.addEventListener('click', function(){ openCustomPoiView(b.getAttribute('data-cpid')); }); });
     if(acct) socialCounts(socialId(), function(c){ var a=document.getElementById('socFollowing'), b=document.getElementById('socFollowers'); if(a)a.textContent=c.following; if(b)b.textContent=c.followers; });
     else { var a=document.getElementById('socFollowing'), b=document.getElementById('socFollowers'); if(a)a.textContent='0'; if(b)b.textContent='0'; }
     var se=document.getElementById('socEdit'); if(se) se.addEventListener('click', openSocialEditProfile);
@@ -10591,6 +10774,11 @@
           var cov=it.cover?'<div class="cov" style="background-image:url('+it.cover+')"></div>':'';
           return '<div class="soc-itin">'+cov+'<div class="ii"><div class="ib"><div class="in">'+escapeHtml(it.name||'')+'</div></div></div></div>';
         }).join('');
+      }
+      var cpois=(p.customPois||[]);
+      if(cpois.length){
+        html+='<div class="soc-eyebrow">'+TR('Puntos propios')+'</div>';
+        html+=cpois.map(function(cp){ return _cpoiCardHtml(cp); }).join('');
       }
       html+='<div class="soc-eyebrow">'+TR('Territorios viajados')+'</div>';
       if(!terrs.length){ html+='<div class="soc-empty">'+TR('Aún no ha compartido territorios.')+'</div>'; }
@@ -12124,7 +12312,7 @@
 
 <script>
 // Sello de versión: sirve para confirmar qué build está realmente desplegado.
-window.UTD_BUILD='2026-09-12 · glass v11.45 (usabilidad bloque 2: siguiente parada sugerida en el mapa, aviso de sin conexión, confirmar antes de salir del grupo, foco visible + aria-labels, y pull-to-refresh en Recuerdos/Mis Viajes)';
+window.UTD_BUILD='2026-09-12 · glass v11.48 (PUNTOS PROPIOS: mantén pulsado el mapa para crear un POI con foto y nota; vive en tu perfil (Mis puntos) y puedes compartirlo con tus seguidores)';
 try{ console.log('untraveld build: '+window.UTD_BUILD); }catch(e){}
 if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/app/sw.js",{scope:"/app/"}).catch(function(){});});}
 </script>
