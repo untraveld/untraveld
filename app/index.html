@@ -493,6 +493,8 @@
   }
   .map-fab:active{ transform: scale(0.93); }
   .map-fab.busy{ opacity:0.55; }
+  /* Tenedor activo = estás viendo la capa de comida (azul) */
+  #fabFood.on{ background:var(--map-blue); color:#fff; border-color:var(--map-blue); box-shadow:0 4px 14px rgba(60,122,158,0.45); }
   #fabSearch{ position:fixed; left:16px; bottom:22px; z-index:600; }
   /* Avión (Mis Viajes): solo en modo individual; en grupo se oculta (sin función). */
   #fabTrips{ position:fixed; left:16px; bottom:calc(22px + 46px + 10px); z-index:600; }
@@ -2755,6 +2757,7 @@
       <div class="map-fab-col">
         <button class="map-fab" id="fabMenu" title="Secciones">☰</button>
         <button class="map-fab" id="fabLocate" title="Centrar en mí">➤</button>
+        <button class="map-fab" id="fabFood" title="Ver sitios de comida" aria-label="Sitios de comida"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3v7a2 2 0 0 0 4 0V3M8 10v11"/><path d="M17 3c-1.5 0-2.5 2-2.5 5s1 4 2.5 4 2.5-1 2.5-4-1-5-2.5-5zM17 12v9"/></svg></button>
       </div>
       <button class="map-fab" id="fabTrips" title="Mis Viajes" aria-label="Mis Viajes"><svg width="21" height="21" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21 16v-2l-8-5V3.5C13 2.67 12.33 2 11.5 2S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/></svg></button>
       <button class="map-fab" id="fabSearch" title="Buscar un punto" aria-label="Buscar"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.5" y2="16.5"></line></svg></button>
@@ -5158,7 +5161,14 @@
 
   // ---------- Rendering ----------
   function myCheckins(){
-    return (groupState && groupState.contributions) ? Object.keys(groupState.contributions) : [];
+    var ids = (groupState && groupState.contributions) ? Object.keys(groupState.contributions) : [];
+    // En modo individual, el perfil es la UNIÓN: contribuciones de tu sala + todo lo
+    // sincronizado (incluidos los check-ins hechos en grupos por cualquier integrante).
+    if(!inGroupMode()){
+      var seen={}; ids.forEach(function(id){ seen[id]=1; });
+      var s=soloMemIds(); Object.keys(s).forEach(function(id){ if(!seen[id]){ seen[id]=1; ids.push(id); } });
+    }
+    return ids;
   }
 
   const CAT_LABEL = {
@@ -5170,6 +5180,23 @@
 
   // Filtros activos de la hoja inferior (vacío = todas las categorías)
   const activeCats = new Set();
+
+  // ---- Modo COMIDA del mapa (capa paralela) ----
+  // El mapa normal muestra solo POIs de descubrimiento (no comida); al pulsar el tenedor
+  // (#fabFood) se muestra SOLO la comida. La comida no cuenta para el Progreso ni insignias,
+  // pero un check-in en comida sí queda registrado en el viaje/itinerario.
+  var _mapFood=false;
+  function isFoodPoi(p){ return !!(p && p.cat==='food'); }
+  function discoverPois(){ return (pois()||[]).filter(function(p){ return !isFoodPoi(p); }); }
+  // ¿Debe verse este POI en el modo de mapa actual?
+  function mapModeMatch(p){ return _mapFood ? isFoodPoi(p) : !isFoodPoi(p); }
+  function toggleFoodMap(){
+    _mapFood=!_mapFood;
+    var b=document.getElementById('fabFood'); if(b) b.classList.toggle('on', _mapFood);
+    try{ mapEncuadrado=false; }catch(e){}
+    try{ renderGrid(); }catch(e){}
+    try{ renderMap(); }catch(e){}
+  }
 
   // Distancia a cada punto desde la última posición conocida (null si aún no hay ubicación)
   function distanceTo(p){
@@ -5183,6 +5210,7 @@
     const mine = myCheckins();
     let best = null;
     pois().forEach(p=>{
+      if(!mapModeMatch(p)) return;
       if(mine.includes(p.id)) return;
       const d = distanceTo(p);
       if(d <= CHECKIN_RADIUS_M && (!best || d < best.d)) best = { poi:p, d };
@@ -5194,6 +5222,7 @@
   function poisOrdenados(){
     const q = (document.getElementById('poiSearch').value || '').trim().toLowerCase();
     let list = pois().map(p => ({ poi:p, d: distanceTo(p) }));
+    list = list.filter(x => mapModeMatch(x.poi));
     if(activeCats.size) list = list.filter(x => activeCats.has(x.poi.cat));
     if(q) list = list.filter(x => (x.poi.name + ' ' + x.poi.desc).toLowerCase().includes(q));
     list.sort((a,b)=>{
@@ -5406,6 +5435,7 @@
     });
     document.getElementById('fabMenu').addEventListener('click', abrirMenu);
     document.getElementById('fabLocate').addEventListener('click', refreshMyPosition);
+    var _ff=document.getElementById('fabFood'); if(_ff) _ff.addEventListener('click', toggleFoodMap);
     var _ft=document.getElementById('fabTrips'); if(_ft) _ft.addEventListener('click', function(){ try{ showTab('group'); }catch(e){} });
   }
 
@@ -6065,7 +6095,7 @@
     const already = myCheckins().includes(poi.id);
     const contributor = already ? (normalizeContribution((groupState.contributions||{})[poi.id])||{}).name : null;
     document.getElementById('unlockedBanner').style.display = already ? 'flex' : 'none';
-    document.getElementById('unlockedBanner').textContent = contributor ? TRf('✓ Desbloqueado por %1', contributor) : TR('✓ Insignia conseguida');
+    document.getElementById('unlockedBanner').textContent = isFoodPoi(poi) ? TR('✓ Guardado en tu viaje') : (contributor ? TRf('✓ Desbloqueado por %1', contributor) : TR('✓ Insignia conseguida'));
     refreshModalPhoto(poi);
     setReviewsOpen(false);
     refreshReviewsSection(poi);
@@ -6259,9 +6289,16 @@
           try{ recordSoloMemory(activePoi, now); }catch(e){}
         }
         const contrib = normalizeContribution(groupState.contributions[activePoi.id]);
-        document.getElementById('unlockedBanner').style.display = 'flex';
-        document.getElementById('unlockedBanner').textContent = TRf('✓ Desbloqueado por %1', contrib.name);
-        btn.textContent = TR('Insignia desbloqueada ✓');
+        // La comida NO da insignia ni cuenta para el Progreso: solo queda registrada en el viaje.
+        if(isFoodPoi(activePoi)){
+          document.getElementById('unlockedBanner').style.display = 'flex';
+          document.getElementById('unlockedBanner').textContent = TR('✓ Guardado en tu viaje');
+          btn.textContent = TR('Guardado en tu viaje ✓');
+        } else {
+          document.getElementById('unlockedBanner').style.display = 'flex';
+          document.getElementById('unlockedBanner').textContent = TRf('✓ Desbloqueado por %1', contrib.name);
+          btn.textContent = TR('Insignia desbloqueada ✓');
+        }
         refreshModalPhoto(activePoi);
         renderGrid();
         renderGroup();
@@ -6351,7 +6388,7 @@
     ensureLeafletMap();
     leafletMarkersLayer.clearLayers();
     const mine = myCheckins();
-    const visibles = pois().filter(p => !activeCats.size || activeCats.has(p.cat));
+    const visibles = pois().filter(p => mapModeMatch(p) && (!activeCats.size || activeCats.has(p.cat)));
     const boundsPoints = [];
 
     // Etiquetamos con la distancia solo los puntos realmente cercanos: si no, el mapa se llena de globos
@@ -7298,7 +7335,7 @@
     if(!planState.arrival) return null;
     var d=new Date(planState.arrival+'T00:00:00'); d.setDate(d.getDate()+i); return isoLocal(d);
   }
-  function isDonePoi(id){ return !!(groupState && groupState.contributions && groupState.contributions[id]); }
+  function isDonePoi(id){ return !!((groupState && groupState.contributions && groupState.contributions[id]) || (!inGroupMode() && soloMemIds()[id])); }
   function todayTripIdx(){
     if(!planState.arrival || !agendaData || !agendaData.length) return -1;
     var today=isoLocal(new Date());
@@ -7381,7 +7418,7 @@
       + '<div class="prog-acc-body">'+items.map(function(p){ return terrRow(p, done); }).join('')+'</div></div>';
   }
   function renderProgTerritory(){
-    var all=pois();
+    var all=discoverPois();
     var done=all.filter(function(p){ return isDonePoi(p.id); });
     var pending=all.filter(function(p){ return !isDonePoi(p.id); });
     var pct=all.length?Math.round(done.length/all.length*100):0;
@@ -7404,7 +7441,7 @@
   // Progreso individual: la "sala" del territorio actual
   function renderProgSala(){
     if(_reviewsCache===null && !_reviewsLoading){ _reviewsLoading=true; try{ db.ref('reviews').once('value').then(function(s){ _reviewsCache=s.val()||{}; _reviewsLoading=false; try{ renderProgreso(); }catch(e){} }).catch(function(){ _reviewsCache={}; _reviewsLoading=false; }); }catch(e){ _reviewsCache={}; _reviewsLoading=false; } }
-    var all=pois()||[];
+    var all=discoverPois();
     if(!all.length) return '<div class="info-card"><div class="info-empty">'+TR('Elige un destino y aquí verás tu progreso en ese territorio.')+'</div></div>';
     var done=all.filter(function(p){ return isDonePoi(p.id); });
     var pct=all.length?Math.round(done.length/all.length*100):0;
@@ -9516,7 +9553,8 @@
     var code=myGroupId||('solo-'+ACTIVE_REGION+'-'+(planState.arrival||''));
     var members=(inGroupMode()&&groupState&&groupState.members)?Object.keys(groupState.members):[myName].filter(Boolean);
     var contribs=(groupState&&groupState.contributions)||{};
-    var _all=[]; try{ _all=pois(); }catch(e){}
+    // Territorio (para el % de descubrimiento) = solo POIs que NO son comida.
+    var _all=[]; try{ _all=discoverPois(); }catch(e){ try{ _all=pois(); }catch(e2){} }
     var ids={}; _all.forEach(function(p){ ids[p.id]=1; });
     var visited=[];
     Object.keys(contribs).forEach(function(pid){ var c=normalizeContribution(contribs[pid])||{}; var p=poiByIdLocal(pid); if(!p) return; visited.push({poiId:pid, name:p.name, cat:p.cat, lat:p.lat, lng:p.lng, by:c.name||'', ts:c.ts||0}); });
@@ -9548,7 +9586,12 @@
   function _ptCleanName(t){ var n=(t.name||'').trim(); if(!n || !/[A-Za-z0-9ÁÉÍÓÚÜÑáéíóúüñ]/.test(n)) n=t.regionName||t.country||TR('Viaje'); return n; }
   // ---- Índice de recuerdos individuales (check-ins en solitario) ----
   function loadSoloMem(){ try{ var a=JSON.parse(localStorage.getItem('utd-solo-mem')||'[]'); return Array.isArray(a)?a:[]; }catch(e){ return []; } }
-  function saveSoloMem(a){ try{ localStorage.setItem('utd-solo-mem', JSON.stringify(a.slice(0,600))); }catch(e){} }
+  function saveSoloMem(a){ try{ localStorage.setItem('utd-solo-mem', JSON.stringify(a.slice(0,600))); }catch(e){} _soloMemIds=null; }
+  // Conjunto (cache) de poiIds presentes en el diario individual (utd-solo-mem). Se usa para
+  // que el mapa/lista individual muestre como visitados también los check-ins sincronizados
+  // desde grupos. Se invalida al escribir en solo-mem (saveSoloMem).
+  var _soloMemIds=null;
+  function soloMemIds(){ if(_soloMemIds) return _soloMemIds; var s={}; try{ loadSoloMem().forEach(function(m){ if(m&&m.poiId) s[m.poiId]=1; }); }catch(e){} _soloMemIds=s; return s; }
   function nearestZoneName(poi){
     try{ if(typeof AREAS!=='undefined' && AREAS.length){ var best=AREAS[0], bd=1e18; AREAS.forEach(function(a){ var d=haversineMeters(a.lat,a.lng,poi.lat,poi.lng); if(d<bd){ bd=d; best=a; } }); return best.name; } }catch(e){}
     return (typeof REGION_NAME==='string'&&REGION_NAME)?REGION_NAME:TR('General');
@@ -10855,6 +10898,9 @@
     if(tab==='map'){
       try{ var _msc=document.getElementById('mapSalaChip'); if(_msc){ _msc.textContent = (inGroupMode() && groupState && groupState.name) ? groupState.name : currentTerritoryName(); if(!_msc._wired){ _msc._wired=true; _msc.style.cursor='pointer'; _msc.addEventListener('click', function(){ try{ (window.openShell||openShell)('utdCountry'); }catch(e){} }); } } }catch(e){}
       try{ var _fso=document.getElementById('fabSolo'); if(_fso && !_fso._wired){ _fso._wired=true; _fso.addEventListener('click', function(){ try{ utdSwitchMode('solo'); }catch(e){} }); } }catch(e){}
+      // Con los POIs ya cargados, sincroniza al perfil individual los check-ins del grupo
+      // (por si el listener disparó antes de tener los datos del territorio).
+      try{ if(inGroupMode()) syncGroupToSolo(); }catch(e){}
       renderGrid();
       myPosition ? renderMap() : refreshMyPosition();
       setTimeout(()=>{ if(leafletMap) leafletMap.invalidateSize(); }, 80);
@@ -11771,7 +11817,7 @@
 
 <script>
 // Sello de versión: sirve para confirmar qué build está realmente desplegado.
-window.UTD_BUILD='2026-09-11 · glass v11.36 (sincroniza al perfil individual TODOS los check-ins del grupo, de cualquier integrante, previos y en vivo — syncGroupToSolo en el listener de contribuciones)';
+window.UTD_BUILD='2026-09-11 · glass v11.38 (capa de COMIDA: tenedor en el mapa (individual y grupo) que muestra solo restauración; la comida ya NO cuenta para Progreso ni insignias, pero el check-in de comida sí queda en el viaje/itinerario)';
 try{ console.log('untraveld build: '+window.UTD_BUILD); }catch(e){}
 if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/app/sw.js",{scope:"/app/"}).catch(function(){});});}
 </script>
